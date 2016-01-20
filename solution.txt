@@ -1,0 +1,119 @@
+1.  234  cd command-line-murder-mystery
+  235  ls
+  236  cat README.md
+  237  cat instructions
+  238  ls
+  239  touch solution.txt
+  240  ls
+  241  cd mystery
+  242  ls
+  243  cat crimescene
+  244  cd ..
+  245  ls
+  246  cat hint1
+  247  cd mystery
+  248  head -n 20 people
+  249  ls
+  250  cd streets
+  251  ls
+  252  cd Glennville_Avenue
+  253  cat Glennville_Avenue
+  254  cd ..
+  255  ls
+  256  cat crimescene
+  257  cd ..
+  258  ls
+  259  cd command-line-murder-mystery
+  260  ls
+  261  cd mystery
+  262  cat mystery | grep Clue
+  263  cd ..
+  264  cat mystery | grep Clue
+  265  cd mystery
+  266  ls
+  267  cat crimescene | grep Clue
+  268  ls
+  269  cat cromescene | grep CLUE
+  270  cat crimescene | grep CLUE
+  271  ls
+  272  cd ..
+  273  ls
+  274  cat cheatsheet.md
+  275  cat cheatsheet.pdf
+  276  clear
+  277  ls
+  278  cd mystery
+  279  ls
+  280  cd people
+  281  cat people 
+  282  head -n 20 people
+  283  cd code
+  284  ls
+  285  cd command-line-murder-mystery
+  286  ls
+  287  cd mystery
+  288  ls
+  289  cat people | grep ANNABEL
+  290  cat people | grep Annabel
+  291  cat people
+  292  clear
+  293  ls
+  294  cat vehicles
+  295  cat vehicles | grep Annabel
+  296  head -n 20 vehicles
+  297  ls
+  298  cd streets
+  299  cat streets | grep Annabel
+  300  cd ..
+  301  cat streets | grep Hart Place
+  302  cat streets
+  303  cd streets
+  304  ls
+  305  clear
+  306  ls
+  307  clear
+  308  cd..
+  309  cd ..
+  310  ls
+  311  cd interviews
+  312  ls
+  313  head -n 40
+  314  cd code
+  315  ls
+  316  cd mystery
+  317  ls
+  318  cat street
+  319  cat streets/Hart_Place
+  320  head -n 40 streets/Hart_Place
+  321  head -n 40 streets/Hart_Place | tail -n 1
+  322  head -n 40 streets/Hart_Place | tail -n 5
+  323  head -n 40 streets/Hart_Place | tail -n 10
+  324  head -n 179 streets/Buckingham_Place | tail -n 1
+  325  ls
+  326  cd interviews
+  327  grep 47246024
+  328  cd ..
+  329  cd interviews
+  330  ls
+  331  cat interview-47246024
+  332  cat interview-699607
+  333  cd ..
+  334  grep "Honda" vehicles
+  335  hean -n 20 vehicles
+  336  head -n 20 vehicles
+  337  head -n 6 vehicles/Honda
+  338  grep -A 5 "L337" mystery/vehicles
+  339  cd ..
+  340  grep -A 5 "L337" mystery/vehicles
+  341  ls
+  342  cd mystery
+  343  ls
+  344  cd memberships
+  345  ls
+  346  cat AAA Delta_Skymiles Museum_of_Bash_History | grep "Joe Germuska"
+  347  cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Joe Germuska" | wc-l
+  348  cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Joe Germuska" | wc -l
+  349  cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  350  cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Jacqui Maher" | wc -l
+ 
+ 2. The name of the killer is Jeremy Bowers
