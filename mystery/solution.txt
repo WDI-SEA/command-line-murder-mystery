@@ -1,0 +1,3 @@
+I used grep to find the clues within the crimescene notes. I used touch to create my own clues file where I started to compile all of the clues I came across in one place. I used cd to navigate between folders and cat | grep to locate the parts of the files I was looking for. 
+Grep came in handy to locate all of the blue hondas with L337 in the plate, and the names and heights of their owners. Once I had all of the tall male owners of Blue hondas, I located those names on the membership lists for AAA and Delta Skymiles. Only Jeremy Bowers had both memberships. After looking up his address, it appears he is the killer. 
+2. The killer is Jeremy Bowers.
