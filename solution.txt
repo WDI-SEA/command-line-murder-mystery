@@ -1,0 +1,37 @@
+Comfort: 4
+Completeness: 5
+
+Commands:
+1. grep "CLUE" crimescene
+gave 3 clues: male 6'0 member of AAA Delta Library Bash_History 
+Annabel possibly saw someone.
+
+2. grep "Annabel" people
+found 2 female annabels....Annabel Sun at Hart_Place line 40 and Anabel Church at Buckingham Place line 179.
+
+3. in the 'streets' directory: head -n 40 Hart_Place | tail -n 1
+this gave me interview #47246024
+
+4. head -n 179 Buckingham_Place | tail -n 1
+this gave me interview 699607
+
+5. in the interview directory: cat interview-47246024
+wrong pereson
+
+6. cat interview-699607
+the suspect drove a blue Honda with licenceplate starting with 'L337' and ending in '9'
+
+7.grep -A 7 "L337" vehicles 
+This gave several vehicles... I parsed through eleminating females, non hondas, non blues, and people significantly above or below 6' Leaving two names: Jeremy Bowers, Joe Germuska
+
+8. To determine who had all 4 memberships:
+
+cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+
+this returned 4 times
+
+cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+
+this returned 2 times
+
+9. Therefore Jeremy Bowers is the killer.
