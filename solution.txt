@@ -1,0 +1,194 @@
+killer is Jeremy Bowers
+
+ git push origin master
+  178  git clone https://github.com/JonathanAndrew/command-line-murder-mystery.git
+  179  cd ..
+  180  git clone https://github.com/JonathanAndrew/command-line-murder-mystery.git
+  181  cd command-line-murder-mystery
+  182  ls
+  183  cd instructions
+  184  cat instructions
+  185  touch solution.txt
+  186  ls
+  187  cat hint1
+  188  cd mystery
+  189  ls
+  190  cat people
+  191  head -n 20 people
+  192  ls
+  193  cd streets
+  194  ls
+  195  cd ..
+  196  ls
+  197  cat crimescene
+  198  ls
+  199  cd ..
+  200  ls
+  201  cat hint2
+  202  ls
+  203  cd mystery
+  204  grep "CLUE" crimescene
+  205  cd ..
+  206  ls
+  207  cat hint3
+  208  cd ..
+  209  ls
+  210  cd command-line-murder-mystery
+  211  ls
+  212  cd mystery
+  213  head -n 20 people
+  214  cd -n 20 streets
+  215  ls
+  216  cd streets
+  217  cd -n 20 streets
+  218  ls
+  219  cat line 433
+  220  cat 433
+  221  cd ..
+  222  ls
+  223  cd ..
+  224  ls
+  225  cat hint4
+  226  cd mystery
+  227  ls
+  228  grep "Annabel" people
+  229  cd ..
+  230  cat hint4
+  231  cat hint5
+  232  cd mystery
+  233  ls
+  234  cd interviews
+  235  head -n 40 streets/Hart_Place | tail -n 1
+  236  ls
+  237  head -n 173 streets/Mattapan_Street | tail -n 1
+  238  cd ..
+  239  ls
+  240  cd streets
+  241  ls
+  242  head -n 40 streets/Hart_Place | tail -n 1
+  243  cat Hart_Place
+  244  head -n 40 streets/Hart_Place | tail -n 1
+  245  head -n 40 Hart_Place | tail -n 1
+  246  cd ..
+  247  ls
+  248  cd interviews
+  249  cat #47246024
+  250  ls
+  251  cat interview-47246024
+  252  cd ..
+  253  ls
+  254  cd streets
+  255  head -n 173 streets/Mattapan_Street | tail -n 1
+  256  head -n 173 Mattapan_Street | tail -n 1
+  257  cd ..
+  258  cd interviews
+  259  cat interview-9437737
+  260  cd ..
+  261  cd streets
+  262  head -n 179 Buckingham Place | tail -n 1
+  263  head -n 179 Buckingham_Place | tail -n 1
+  264  cd ..
+  265  cd interviews
+  266  cat interview-699607
+  267  cd ..
+  268  cat hint6
+  269  ls
+  270  cd ..
+  271  cat hint6
+  272  ls
+  273  cd mystery
+  274  ls
+  275  head grep "Honda" vehicles
+  276  head vehicles | grep honda
+  277  ls
+  278  head vehicles
+  279  head "vehicles" "l337" "honda" "blue"
+  280  head "L337"
+  281  ls
+  282  head "vehicles" | tail "L337"
+  283  head "vehicles" | tail "honda"
+  284  head
+  285  cat vehicles
+  286  cat vehicles head "honda"
+  287  head "vehicles" | tail "License Plat L337"
+  288  head "vehicles" grep "honda"
+  289  ls
+  290  cd ..
+  291  cat hint7
+  292  grep -A 5 "L337" mystery/vehicles
+  293  cat hint8
+  294  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "Katie Park"
+  295  ls
+  296  cd mystery
+  297  ls
+  298  cd memberships
+  299  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "Katie Park"
+  300  cat Fitness_Galaxy AAA United_MileagePlus | grep "Katie Park"
+  301  ls
+  302  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"
+  303  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Keefe"
+  304  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erica Owens"
+  305  ✗ cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"
+  306  1
+  307  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"
+  308  ls
+  309  cd memmberships
+  310  cd memberships
+  311  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"
+  312  cat Museum_of_Bash_History AAA delta.txt library.txt | grep -c "Mike Bostock"
+  313  cd ..
+  314  ls
+  315  cd interview
+  316  cd interviews
+  317  head -n 176 Haley_Street | tail -n 1
+  318  head -n 17g Streets/Haley_Street | tail -n 1
+  319  head -n 176  Streets/Haley_Street | tail -n 1
+  320  head -n 176 Haley_Street | tail -n 1
+  321  cd ..
+  322  ls
+  323  cd streets
+  324  head -n 176 Haley_Street | tail -n 1
+  325  cd ..
+  326  ls
+  327  cd interviews
+  328  cat interview-871877
+  329  cd ..
+  330  ls
+  331  cat crimscene
+  332  cat crimescene
+  333  cd ..
+  334  cat hint1
+  335  cat hint2
+  336  grep "CLUE" crimescene
+  337  cat crimescene
+  338  ls
+  339  cd mystery
+  340  ls
+  341  grep "CLUE" crimescene
+  342  cd ..
+  343  ls
+  344  cd mystery
+  345  ls
+  346  cd memberships
+  347  ls
+  348  cd ..
+  349  ls
+  350  cd ..
+  351  cat hint7
+  352  grep -A 5 "L337" mystery/vehicles
+  353  cat hint89
+  354  cat hint8
+  355  ls
+  356  cd mystery
+  357  ls
+  358  cd memberships
+  359  cat Museum_of_Bash_History AAA Delta_MileagePlus Library.txt | grep "Jeremy Bower"
+  360  ls
+  361  cat Museum_of_Bash_History AAA Delta_Skymiles library.txt | grep "Jeremy Bower"
+  362  cat Museum_of_Bash_History AAA Delta_Skymiles library.txt | grep "Joe Germuska"
+  363  cd ..
+  364  ls
+  365  echo "Killer is Jeremy Bowers" > solutions.txt
+  366  cat solutions.txt
+  367  echo "killer is Jeremy Bowers" > solution.txt
+
