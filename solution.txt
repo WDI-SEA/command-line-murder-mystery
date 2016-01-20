@@ -1,0 +1,172 @@
+The killer is Jeremy Bowers. Dirty scoundrel!
+
+How I got there:
+#
+Searched for CLUE with:
+grep -w "CLUE" crimescene
+
+Found:
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+#
+Searched people file for Annabel with:
+grep -w "Annabel" people
+
+Found:
+Annabel Sun	F	26	Hart Place, line 40
+Oluwasegun Annabel	M	37	Mattapan Street, line 173
+Annabel Church	F	38	Buckingham Place, line 179
+Annabel Fuglsang	M	40	Haley Street, line 176
+
+We know that the person leaving the coffee shop just before the shots were fired was a female with blond spiky hair and a New Zealand accent. That leaves us with 2 of the 4 Annabels based on gender alone. Annabel Sun and Annabel Church.
+#
+Searched for interviews in the streets file
+
+Annabel Sun:
+head -n 40 streets/Hart_Place | tail -n 1  
+SEE INTERVIEW #47246024
+
+Annabel Church:
+head -n 179 streets/Buckingham_Place | tail -n 1
+SEE INTERVIEW #699607
+#
+Reviewed interviews with Sun and Church
+
+Sun:
+cat interview-47246024
+"Ms. Sun has brown hair and is not from New Zealand.  Not the witness from the cafe."
+
+Church:
+cat interview-699607
+"Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9""
+#
+Performed "cat vehicles" to see how the file was sorted. Performed:
+grep -i "L337." vehicles
+to search for plates matching the description from Ms. Church. Found a list of plates, but no names. That was silly of me. Peformed a search to include lines surrounding the plates to include owner information:
+grep -A 5 "L337." vehicles
+
+Found the following vehicles that match plates and a blue Honda belonging to a male that is at least 6' tall:
+
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+#
+From there, I searched all membership files for each name to match the found cards to the suspects.
+
+Joe:
+cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+Turned back Joe's name twice out of 4 membership lists.
+
+Jeremy:
+cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers" 
+Turned back ALL 4 membership lists meaning he is a match for the wallet found at the crime scene!
+#
+Full code history:
+ 234  git clone git@github.com:dnuzum/command-line-murder-mystery.git
+  235  cd command-line-murder-mystery
+  236  cat instructions
+  237  open cheatsheet.md
+  238  cd mystery
+  239  ls
+  240  ls -la
+  241  cd crimescene
+  242  cat crimescene
+  243  open cheatsheet.pdf
+  244  cd ..
+  245  open cheatsheet.pdf
+  246  ls
+  247  cd mystery
+  248  ls -la
+  249  grep -w "CLUE" crimescene
+  250  cd ..
+  251  touch solution.txt
+  252  subl .
+  253  git add .
+  254  git status
+  255  cat instructions
+  256  ls -la
+  257  cd mystery
+  258  ls -la
+  259  cat people
+  260  ls -la
+  261  cd ..
+  262  ls -la
+  263  cd memberships
+  264  ls -la
+  265  cd ..
+  266  grep -w "Annabel" people
+  267  nnabel SunF26Hart Place, line 40
+  268  Oluwasegun AnnabelM37Mattapan Street, line 173
+  269  Annabel ChurchF38Buckingham Place, line 179
+  270  Annabel FuglsangM40Haley Street, line 176
+  271  cat streets
+  272  cd streets
+  273  ls -la
+  274  cd ..
+  275  ls -la
+  276  cd ..
+  277  cat instructions
+  278  cd mystery
+  279  head -n 40 streets/Hart_Place | tail -n 1
+  280  head -n 179 streets/Buckingham_Place | tail -n 1
+  281  pwd
+  282  ls -la
+  283  cd interviews
+  284  ls -la
+  285  cat interview-47246024
+  286  cat interview-699607
+  287  cd ..
+  288  ls -la
+  289  cat vehicles
+  290  grep -i "L337.9" vehicles
+  291  /files$ grep -i "L337.9" vehicles
+  292  pwd
+  293  /mystery$ grep -i "L337.9" vehicles
+  294  .$ grep -i "L337.9" vehicles
+  295  $ grep -i "L337.9" vehicles
+  296  grep -i "L337.9" vehicles
+  297  grep -i "L337." vehicles
+  298  grep -A 5 "L337." vehicles
+  299  pwd
+  300  ls -la
+  301  cd memberships
+  302  ls -la
+  303  cd aaa
+  304  cat delta.txt
+  305  cat Delta_SkyMiles
+  306  ls -la
+  307  cat AAA Delta_SkyMiles Museum_of_Bash_History museum.txt | grep "Joe Germuska"
+  308  cat AAA Delta_SkyMiles Museum_of_Bash_History museum.txt | grep -c "Joe Germuska"
+  309  cat AAA Delta_SkyMiles Museum_of_Bash_History museum.txt | grep "Joe Germuska" | wc -l
+  310  ls -la
+  311  cat 1.txt 
+  312  cat AAA Delta_SkyMiles Museum_of_Bash_History museum.txt | grep -l "Joe Germuska"
+  313  cat AAA Delta_SkyMiles Museum_of_Bash_History museum.txt | grep -l "Joe Germuska" *
+  314  ls -la
+  315  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -l "Joe Germuska" *
+  316  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska" | ls -l
+  317  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska" | wc -l
+  318  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  319  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  320  pwd
+  321  cd ..
+  322  ls -la
+  323  cd ..
+  324  ls -la
+  325  cat instructions
+  326  la -la
+  327  git status
+  328  subl .
