@@ -1,0 +1,15 @@
+The murderer is Jeremy Bowers.
+
+I used grep on the crimescene to search for CLUE.
+I used grep on people to search for Annabel.
+I found the interviews for each annabel by using
+head -n 173 streets/Mattapan_Street | tail -n 1.
+
+I then used grep to search for blue hondas with correct license
+grep -A 5 "L337" vehicles.
+
+I looked through the results for a male driver over 6 feet and came up with 2 suspects. 
+
+I then used grep to search the membership files for AAA, Delta_Skymiles, Library, and Museum.
+
+Only Jeremy Bowers had memberships in all 4.
