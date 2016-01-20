@@ -1,0 +1,9 @@
+—> grep “CLUE” mystery/crimescene
+—> grep “Annabel” mystery/people
+—> head -n 179 mystery/streets/Buckingham_Place | tail -n 1
+—> cat mystery/interviews/interview-699607
+—> grep -A 5 “L337” mystery/vehicles
+—> cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c “Jeremy Bowers”
+
+
+The killer is Jeremy Bowers!
