@@ -1,0 +1,51 @@
+1. The commands you used to get the solution (hint: run history for a list of the commands you ran).
+
+cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
+cd memberships
+cd ..
+cat interview-5455315
+cat interview-2939888
+cat interview-1767435
+cat interview-29741223
+cat interview-9620713
+cat interview-904020
+cd interviews
+head -n 98 streets/Trapelo_Street | tail -n 1
+head -n 145 streets/Claybourne_Street | tail -n 1
+head -n 19 streets/Culbert_Street | tail -n 1
+head -n 275 streets/Plainfield_Street | tail -n 1
+head -n 284 streets/Dunstable_Road | tail -n 1
+head -n 224 streets/Andover_Road | tail -n 1
+cd ..
+cat interview-699607
+cd interviews
+head -n 179 streets/Buckingham_Place | tail -n 1
+cd ..
+cat interview-47246024
+cd interviews
+head -n 40 streets/Hart_Place | tail -n 1
+cd ..
+head -n 20 people
+cat people | grep "Erika Owens"
+cat people | grep "Aron Pilhofer"
+cat people | grep "Heather Billings"
+cat people | grep "Joe Germuska"
+cat people | grep "Jeremy Bowers"
+cat people | grep "Jacqui Maher"
+cat people
+cat vehicles (cmd f: L337)
+grep "Annabel" people
+cd mystery
+cat hint5
+cat hint4
+cat hint3
+cat hint2
+cat hint1
+cd ..
+cat crimescene | grep "CLUE"
+cd mystery
+cd command-line-murder-mystery
+cd code
+
+2. The name of the killer.
+	Jeremy Bowers
