@@ -7,3 +7,6 @@ To find a matching license plate, or a matching car, you can use grep on the 've
 	grep "L337" vehicles
 
 This doesn't give us anything useful - why not? Try using 'head' on the file to investigate its structure.
+
+
+Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9")

@@ -4,3 +4,24 @@ we need to get multiple lines AROUND each match.  We can use the -A, -B, or -C o
 	grep -A 5 "L337" mystery/vehicles
 
 This will match the license plates that contain "L337" and, for each match, show us the five lines AFTER it.
+
+"Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9")"
+
+
+
+
+
+--
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+--
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
