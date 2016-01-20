@@ -1,0 +1,13 @@
+cd command-line-murder-mystery
+head -n 20 people
+grep "clue" crimescene
+cat people | grep "Annabel"
+head -n 40 streets/Hart_Place | tail -n 1
+head -n 179 streets/Buckingham_Place | tail -n 1
+interview-9437737 cat interview-9437737
+grep -A 5 "L337" vehicles
+cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Joe Germuska"
+cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
+
+The name of the killer: Jeremy Bowers 
+
