@@ -9,3 +9,11 @@ If you only want to see the number of matches, you can use grep's -c option (the
 Or you can pipe the result to 'wc -l':
 
 	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+
+
+
+
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+
+
+AAA, library, Bash history, Delta Sky Miles  - Jeremy Bowers is a member of all 3. 
