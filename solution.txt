@@ -1,0 +1,39 @@
+cat mystery/crimescene | grep CLUE
+the name Annabel was the best lead...
+
+cat mystery/people | grep Annabel
+only two people with the name Annabel that are women...
+
+head -n 40 mystery/streets/Hart_Place | tail -n 1
+cat mystery/interviews/interview-47246024
+investigated Annabel Sun; dead end...
+
+head -n 179 mystery/streets/Buckingham_Place | tail -n 1
+cat mystery/interviews/interview-699607
+got information about the suspect's car...
+
+grep -A 5 'L337' mystery/vehicles
+checked for cars, found three likely suspects...
+
+cat mystery/people | grep Bostock
+head -n 287 mystery/streets/Senders_Court | tail -n 1
+cat mystery/interviews/interview-290346
+Bostock had an alibi...
+
+cat mystery/people | grep Germuska
+head -n 275 mystery/streets/Plainfield_Street | tail -n 1
+cat mystery/interviews/interview-29741223
+Germuska does not fit the criteria...
+
+cat mystery/people | grep Bowers
+head -n 284 mystery/streets/Dunstable_Road | tail -n 1
+cat mystery/interviews/interview-9620713
+Bowers has left town, still a suspect...
+
+cat mystery/memberships/AAA | grep Bowers
+cat mystery/memberships/Delta_SkyMiles | grep Bowers
+cat mystery/memberships/library | grep Bowers
+cat mystery/memberships/Museum_of_Bash_History | grep Bowers
+ran Bowers' name against all the membership lists. He is a match for all of them and the likely suspect.
+
+The murderer is Jeremy Bowers. Dun dun DUUUUUUUUN!!!!
