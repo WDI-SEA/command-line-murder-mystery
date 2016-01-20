@@ -1,0 +1,47 @@
+1. Commands used:
+  329  cat crimescene | grep CLUE
+  337  cat people | grep Annabel
+  338  cd streets
+  339  ls
+  340  cat streets | grep Buckingham
+  341  ls
+  342  cat Buckingham_Place
+  343  cd ..
+ 345  cd interviews
+  346  ls
+  347  cat interview-699607
+  348  cd ..
+  349  ls
+ 352  cat Hart_Place| grep SEE
+  355  cd interviews
+  356  cat interview-47246024
+  357  cd ..
+  358  ls
+  359  echo "Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.\n\nHowever, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with 9" >> clues.txt
+  360  cat clues.txt
+  361  echo "Annabel Church is the witness from the coffee shop that is from NZ." >> clues.txt
+366 cat vehicles| grep L337
+384  cat vehicles
+  388  cd mystery
+  389  ls
+  390  cat people | grep jacqui
+  393  ls
+  394  cd memberships
+  395  ls
+  396  cat AAA | grep Jeremy
+  397  cat AAA | grep Germuska
+  398  cat Delta_SkyMiles | grep Jeremy
+  399  cat Delta_SkyMiles | grep Germuska
+  400  cd streets
+ 407  cat people | grep Bowers
+  408  cd streets
+  410  cat Dunstable_Road | grep SEE
+  411  cd ..
+  412  ls
+  413  cd interviews
+  414  cat interview-9620713
+  415  cd ..
+  416  ls
+  417  touch solution.txt
+
+2. The killer is Jeremy Bowers.
