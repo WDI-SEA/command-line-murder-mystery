@@ -1,0 +1,212 @@
+1.360  nano cheatsheet.md
+  362  mystery
+  363  ls
+  364  open crimescene
+  365  pwd
+  366  ..
+  367  ls
+  368  rm -rf WDI_SEA_06_NOTES
+  369  ls
+  370  git clone https://github.com/abelmark/command-line-murder-mystery.git
+  371  ls
+  372  command-line-murder-mystery
+  373  ls
+  374  cat instructions
+  375  mystery
+  376  cat crimescene | grep "CLUE"
+  377  ..
+  378  cat instructions
+  379  cat hint1
+  380  ls
+  381  mystery
+  382  ..
+  383  mystery
+  384  ls
+  385  people
+  386  cat people | grep annabel
+  387  cat people
+  388  cat people | grep "Annabel"
+  389  ls
+  390  interviews
+  391  ls
+  392  open interview255531
+  393  ..
+  394  ls
+  395  memberships
+  396  ls
+  397  open AAA
+  398  ..
+  399  ls
+  400  streets
+  401  ls
+  402  open Elmore_Street
+  403  cat Buckingham_Place
+  404  ..
+  405  ls
+  406  ..
+  407  ls
+  408  cat hint2
+  409  cat hint
+  410  cat hint3
+  411  cat hin4
+  412  cat hint4
+  413  cat hint5
+  414  myster
+  415  mystery
+  416  ..
+  417  mystery
+  418  ls
+  419  grep Annabel people
+  420  head -n 179 streets/Buckingham_Place | tail -n 1
+  421  head -n 40 streets/Hart_Place | tail -n 1
+  422  ls
+  423  interviews
+  424  open 699607
+  425  open #699607
+  426  ls
+  427  open interview-699607
+  428  open interview-47246024
+  429  ..
+  430  ls
+  431  vehicles
+  432  open vehicles | grep "L337:\n\nhonda\nq\nld\nsl
+  433  open vehicles
+  434  open vehicles | grep "L337:
+  435  open vehicles | grep "L337"
+  436  grep "L337"
+  437  grep "L337" vehicles
+  438  open vehicles
+  439  grep "Blue Honda" vehicles
+  440  ls
+  441  open vehicles
+  442  grep "Honda" vehicles
+  443  grep "L337\Honda\Blue" vehicles
+  444  grep "L337\|Honda\|Blue" vehicles
+  445  grep "L337" vehicles | grep "Honda" | grep "Blue"
+  446  grep -E "L337"|"Honda"|"Blue" vehicles
+  447  ..
+  448  ls
+  449  open hint7
+  450  cat hint8
+  451  mystery
+  452  ..
+  453  cat hint7
+  454  mystery
+  455  ls
+  456  grep -A "L337" mystery/vehicles
+  457  grep -A "L337" vehicles
+  458  grep -A 5 "L337" vehicles
+  459  ..
+  460  cat hint9
+  461  cat hint8
+  462  mystery
+  463  cat Fitness_Galaxy AAA United_MileagePlus | grep "Matt Waite"
+  464  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""
+  465  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  466  ls
+  467  memberships
+  468  cat Fitness_Galaxy AAA United_MileagePlus | grep "Matt Waite"
+  469  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  470  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  471  cat Fitness_Galaxy AAA United_MileagePlus -c | grep "Jeremy Bowers"
+  472  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  473  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Matt Waite"
+  474  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  475  ls
+  476  cat Fitness_Galaxy | grep "Matt Waite"
+  477  open Fitness_Galaxy
+  478  cat Fitness_Galaxy | grep "M"
+  479  cat Fitness_Galaxy | grep "Matt"
+  480  cat Fitness_Galaxy | grep "Joe"
+  481  cat Fitness_Galaxy | grep "Jeremy"
+  482  cat Fitness_Galaxy | grep "Bowers"
+  483  ..
+  484  ls
+  485  grep -A 5 "L337" vehicles
+  486  ..
+  487  ls
+  488  mystery
+  489  ..
+  490  mystery
+  491  ls
+  492  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  493  memberships
+  494  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  495  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe"
+  496  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Germuska"
+  497  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Waite"
+  498  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  499  ..
+  500  ls
+  501  ..
+  502  ls
+  503  mystery
+  504  ..
+  505  mystery
+  506  ls
+  507  interviews
+  508  ls
+  509  cat interview 699607
+  510  cat interview699607
+  511  cat interview-699607
+  512  ..
+  513  ls
+  514  grep -A 5 "L337" vehicles
+  515  cat Fitness_Galaxy AAA United_MileagePlus | grclear -c "Jeremy Bowers"
+  516  ls
+  517  memberships
+  518  cat AAA Delta_SkyMiles  | grclear -c "Jerem
+  519  ls
+  520  cat AAA Delta_SkyMiles library | grep -c "Jeremy Bowers"
+  521  cat AAA Delta_SkyMiles Terminal_City_Library | grep -c "Jeremy Bowers"
+  522  cat AAA Delta_SkyMiles Terminal_City_Library | grep -c "Joe Germuska"
+  523  cat AAA Delta_SkyMiles Terminal_City_Library | grep -c "Matt Waite"
+  524  ..
+  525  ls
+  526  cat people | grep "Matt Waite"
+  527  cat people | grep "Jeremy Bowers"
+  528  ls
+  529  interviews
+  530  ls
+  531  open interview-79
+  532  ..
+  533  ls
+  534  streets
+  535  ls
+  536  ..
+  537  ls
+  538  ..
+  539  cat hint8
+  540  ls
+  541  mystery
+  542  ls
+  543  grep -A 5 "L337" vehicles
+  544  interviews
+  545  ls
+  546  ..
+  547  ls
+  548  cat people | grep "Matt Waite"
+  549  cat people | grep "Jeremy Bowers"
+  550  interviews
+  551  ..
+  552  ls
+  553  streets
+  554  ls
+  555  cat Alpine_Street | grep "Line 79"
+  556  head -n 40 streets/Alpine_Street | tail -n 1
+  557  head -n 40 Alpine_Street | tail -n 1
+  558  head -n 79 Alpine_Street | tail -n 1
+  559  head -n 284 Dunstable_Road | tail -n 1
+  560  ..
+  561  ls
+  562  interviews
+  563  ls
+  564  open interview-962173
+  565  cat interview-862173
+  566  cat interview-9620713
+  567  ..
+  568  ls
+  569  grep -A 5 "Waite" vehicles
+  570  grep -A 5 "L337" vehicles
+
+2. Jeremy Bowers is the killer
