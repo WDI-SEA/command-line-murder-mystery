@@ -1,0 +1,447 @@
+    1  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+    2  subl ~/.zshrc
+    3  which psql
+    4  brew update
+    5  brew install rbenv
+    6  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+    7  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+    8  source ~/.zshrc
+    9  brew update
+   10  brew install ruby-build
+   11  rbenv install 2.2.2
+   12  rbenv global 2.2.2
+   13  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   14  sudo gem update
+   15  sudo gem install rails
+   16  rails -v
+   17  sudo rails -v
+   18  gem install rails
+   19  rails -v
+   20  ruby -v
+   21  nove -v
+   22  node -v
+   23  npm -v
+   24  git --version
+   25  psql --version
+   26  subl -v
+   27  source ~/.zshrc
+   28  psql --version
+   29  psql
+   30  subl ~/.zshrc
+   31  source ~/.zshrc
+   32  psql --version
+   33  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   34  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   35  source ~/.zshrc
+   36  ruby -v
+   37  rails -v
+   38  node -v
+   39  npm -v
+   40  cat ~/.ssh/id_rsa.pub
+   41  cler
+   42  clear
+   43  ls
+   44  ls -a
+   45  ls -al
+   46  ls -a
+   47  clear
+   48  cd `\ncd ~\nq:\nclear\nq:
+   49  ls
+   50  cd public
+   51  ls
+   52  ls -a
+   53  cd Drop Box
+   54  cd Drop_Box
+   55  cd Drop\ Box
+   56  ls
+   57  ls-a
+   58  ls -a
+   59  cd `
+   60  cd ~
+   61  which rails
+   62  sudo chown -R $USER /Users/evanwilkinson/.rbenv
+   63  rails -v
+   64  curl -v http://www.google.com
+   65  clear
+   66  curl -I http://www.generalassemb.ly
+   67  curl -I http://generalassemb.ly
+   68  curl -I http://generalassemb.ly/
+   69  curl -v http://generalassemb.ly/
+   70  curl -I www.google.com
+   71  curl -I www.google.com/awehfui4lkaghef4
+   72  pwd
+   73  open .
+   74  ls
+   75  ls -l
+   76  cd Downloads
+   77  open .
+   78  cd .
+   79  cd ..
+   80  ls -l Downloads/
+   81  pwd
+   82  cd Pictures
+   83  pwd
+   84  ls
+   85  cd Outer\ Banks
+   86  ls
+   87  ls JoWedding
+   88  cd ..
+   89  clear
+   90  cd ..
+   91  cd Pictures/Outer\ Banks
+   92  cd ~
+   93  cd Pictures/Outer\ Banks/OBX726
+   94  cd ~
+   95  cd Pictures/Lightroom
+   96  ls
+   97  cd ../..
+   98  la
+   99  ls
+  100  cd Google\ Drive
+  101  ls
+  102  ls -l
+  103  cd ~
+  104  cd Google\ Drive
+  105  cd xmen
+  106  ls
+  107  cd Annual
+  108  ls
+  109  cd ..
+  110  ls
+  111  cd Bios
+  112  ls
+  113  open Bios.pdf
+  114  cd ~
+  115  clear
+  116  /
+  117  pwd
+  118  cd ~
+  119  pwd
+  120  cd Pictures/Outer\ Banks
+  121  cd ~
+  122  cd Pictures
+  123  ls
+  124  cd Outer\ Banks
+  125  ls
+  126  cd ~
+  127  cd "Outer Banks"/JoWedding
+  128  clear
+  129  pwd
+  130  cd ..
+  131  cd evanwilkinson
+  132  defaults write com.apple.finder AppleShowAllFiles YES
+  133  killall Finder /System/Library/CoreServices/Finder.app
+  134  cd Dropbox
+  135  ls
+  136  cd ~
+  137  cd Downloads
+  138  touch testfile.txt
+  139  ls
+  140  del testfile.txt
+  141  ls
+  142  rm testfile.txt
+  143  ls
+  144  mkdir test_dir
+  145  ls
+  146  cd test_dir
+  147  ls
+  148  ls -a
+  149  cd ..
+  150  ls
+  151  mkdir test_dir_2
+  152  ls
+  153  ls -a
+  154  ls -l
+  155  rmdir vscokeys-2.0-OPENSOURCE-osx.app
+  156  mv test_dir_2 test_dir
+  157  ls -a
+  158  ls -l
+  159  cd test_dir
+  160  ls
+  161  cd ..
+  162  mv test_dir/test_dir_2 .
+  163  ls -l
+  164  rmdir test_dir
+  165  rmdir test_dir_2
+  166  ls -la
+  167  mkdir my_directory
+  168  mkdir my_directory_2
+  169  mv my_directory_2 my_directory
+  170  ls
+  171  cd my_directory
+  172  cd my_directory_2
+  173  touch a_file.txt
+  174  ls
+  175  cd ..
+  176  ls
+  177  cd ..
+  178  ls
+  179  rm -rf my_directory
+  180  ls
+  181  cd ~
+  182  ls
+  183  mkdir code
+  184  ls
+  185  cd code
+  186  touch another_file.txt
+  187  ls
+  188  subl .
+  189  cat another_file.txt
+  190  ls -la
+  191  cat another_file.txt
+  192  cat another_file.txt | sort
+  193  cat another_file.txt | sort > sorted_list.txt
+  194  ls
+  195  open .
+  196  mkdir git_stuff
+  197  cd git_stuff
+  198  touch my_file.txt
+  199  ls
+  200  subl .
+  201  git init
+  202  ls -a
+  203  git add .
+  204  git status
+  205  git commit -m "Starting term paper about beer"
+  206  git checkout my_file.txt
+  207  git status
+  208  git checkout my_file.txt
+  209  git status
+  210  git reset my_file.txt
+  211  git add .
+  212  git status
+  213  git checkout my_file.txt
+  214  git reset my_file.txt
+  215  git checkout my_file.txt
+  216  git add .
+  217  git commit -m "har har lol"
+  218  git log
+  219  git revert a6294a210b9eb16dd61bd01ed91b9458db3759ba
+  220  git status
+  221  subl ~/.zshrc
+  222  source ~/.zshrc
+  223  echo $GIT_EDITOR
+  224  git log
+  225  git revert b47cee2d80b87dea8ec9fa458386bb141cda44be
+  226  git log
+  227  git revert a6294a210b9eb16dd61bd01ed91b9458db3759ba
+  228  ls
+  229  git checkout my_file.txt
+  230  git status
+  231  git add .
+  232  git commit -m "adding stupid junk"
+  233  git log
+  234  git checkout 7b0518e5b0608dadfefa15ad2cb292c670bf1403
+  235  ls
+  236  cp my_file.txt ..
+  237  cat my_file.txt
+  238  get checkout master
+  239  git checkout master
+  240  cat my_file.txt
+  241  cp ../my_file.txt ./
+  242  git status
+  243  cat my_file.txt
+  244  cd ..
+  245  git clone git@github.com:WDI-SEA/fork_practice.git
+  246  ls
+  247  rm another_file.txt my_file.txt sorted_list.txt
+  248  ls
+  249  cd fork_practice
+  250  ls
+  251  cat readme.md
+  252  cd ..
+  253  rm -rf fork_practice
+  254  ls
+  255  git clone git@github.com:evwilkin/fork_practice.git
+  256  ls
+  257  cd fork_practice
+  258  ls
+  259  cat readme.md
+  260  subl .
+  261  git status
+  262  git add .
+  263  git commit -m "Let's do some damage"
+  264  git log
+  265  git push origin master
+  266  ls
+  267  cd ..
+  268  ls
+  269  git clone git@github.com:evwilkin/WDI_SEA_06_NOTES.git
+  270  ls
+  271  cd WDI_SEA_06_NOTES
+  272  ls
+  273  cd ..
+  274  ls
+  275  rm -rf WDI_SEA_06_NOTES
+  276  ls
+  277  git clone git@github.com:evwilkin/WDI_SEA_06_NOTES.git
+  278  ls
+  279  rm -rf WDI_SEA_06_NOTES
+  280  ls
+  281  git clone git@github.com:evwilkin/command-line-murder-mystery.git
+  282  ls
+  283  cd command-line-murder-mystery
+  284  ls
+  285  cat README.md
+  286  ls
+  287  cat instructions
+  288  ls
+  289  cd mystery
+  290  ls
+  291  cat crimescene
+  292  cat people
+  293  ls
+  294  cd ..
+  295  ls
+  296  cat hint1
+  297  cat hint2
+  298  grep "CLUE" crimescene
+  299  ls
+  300  cd mystery
+  301  ls
+  302  grep "CLUE" crimescene
+  303  cd ..
+  304  ls
+  305  cat hint3
+  306  cd mystery
+  307  head -n 20 people
+  308  grep "Annabel" people
+  309  head -n 20 vehicles
+  310  grep "Annabel" vehicles
+  311  cat vehicles
+  312  ls
+  313  cd interviews
+  314  ls
+  315  cd ..
+  316  ls
+  317  cd memberships
+  318  ls
+  319  cd ..
+  320  ls
+  321  cd streets
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd ..
+  326  ls
+  327  cat hint3
+  328  cat hint4
+  329  cat hint5
+  330  cat hint6
+  331  cat hint7
+  332  ls
+  333  cat instructions
+  334  nano cheatsheet.md
+  335  ls
+  336  cd mystery
+  337  ls
+  338  head -n 20 vehicles
+  339  grep -C 3 "Annabel" vehicles
+  340  ls
+  341  head -n 20 people
+  342  cd ..
+  343  ls
+  344  cd mystery
+  345  cd interviews
+  346  ls
+  347  cd ..
+  348  ls
+  349  cd streets
+  350  ls
+  351  grep "Annabel" names
+  352  pwd
+  353  cd ..
+  354  ls
+  355  grep "Annabel" people
+  356  cd streets
+  357  ls
+  358  cat Hart_Place
+  359  cat Hart_Place cd ..
+  360  cd ..
+  361  ls
+  362  cd ..
+  363  ls
+  364  cat cheatsheet.md
+  365  ls
+  366  cd mystery
+  367  ls
+  368  cd streets
+  369  ls
+  370  wc -l Hart_Place
+  371  cat Hart_Place
+  372  wc -l Hart_Place
+  373  ls
+  374  wc -l Mattapan_Street
+  375  wc -l Buckingham_Place
+  376  wc -l Haley_Street
+  377  tail -n 259 Hart_Place
+  378  head -n 40 Hart_Place
+  379  head -n 173 Mattapan_Street
+  380  head -n 179 Buckingham_Place
+  381  head -n 176 Haley_Street
+  382  cd ..
+  383  ls
+  384  cd interviews
+  385  ls
+  386  cat interview-47246024
+  387  cat interview-9437737
+  388  cat interview-699607
+  389  cat interview-871877
+  390  cd ..
+  391  ls
+  392  grep "honda" vehicles
+  393  grep "Annabel" people
+  394  grep "Honda" vehicles
+  395  grep "l337*" vehicles
+  396  grep "L337*" vehicles
+  397  head -n 20 vehicles
+  398  grep -A 5 "L337*" vehicles
+  399  ls
+  400  cd memberships
+  401  ls
+  402  head -n 20 AAA
+  403  grep "Owens" AAA
+  404  grep "Germuska" AAA
+  405  grep "Bowers" AAA
+  406  grep "Maher" AAA
+  407  grep "Germuska" Delta_SkyMiles
+  408  grep "Bowers" Delta_SkyMiles
+  409  grep "Maher" Delta_SkyMiles
+  410  grep "Bowers" Terminal_City_Library
+  411  grep "Maher" Terminal_City_Library
+  412  grep "Bowers" Museum_of_Bash_History
+  413  grep "Maher" Museum_of_Bash_History
+  414  ls
+  415  cd ..
+  416  ls
+  417  grep "Jeremy Bowers" people
+  418  grep "Jacqui Maher" people
+  419  head -n 224 people
+  420  ls
+  421  cd streets
+  422  ls
+  423  head -n 284 Dunstable_Road
+  424  ls
+  425  cd ..
+  426  ls
+  427  cd interviews
+  428  cat interview-9620713
+  429  ls
+  430  cd ..
+  431  ls
+  432  cat instructions
+  433  cat solution
+  434  ls
+  435  cd mystery
+  436  ls
+  437  cd ..
+  438  ls
+  439  cd command-line-murder-mystery
+  440  ls
+  441  cat README.md
+  442  history
+  443  ls
+  444  touch solution.txt
+  445  ls
+  446  283  cd command-line-murder-mystery
+Jeremy Bowers	M	34	Dunstable Road, line 284
