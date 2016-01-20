@@ -1,0 +1,115 @@
+The killer is Jeremy Bowers.
+
+Command history:
+  326  cd command-line-murder-mystery
+  327  ls
+  328  cat instructions
+  329  nano cheatsheet.md
+  330  cd mystery
+  331  ls
+  332  cat crimescene
+  333  locate "CLUE"
+  334  ls
+  335  cd ..
+  336  ls
+  337  cd command-line-murder-mystery
+  338  cd mystery
+  339  subl hint1
+  340  cat hint1
+  341  cd ..
+  342  subl hint1
+  343  ls
+  344  cd mystery
+  345  ls
+  346  head -n 20 people
+  347  subl ../hint2
+  348  subl ../hint3
+  349  grep "CLUE" crimescene
+  350  head -n 20 vehicles
+  351  ls
+  352  cd streets
+  353  ls
+  354  head -n 20 people
+  355  cd ..
+  356  head -n 20 people
+  357  cd ../streets
+  358  cd streets
+  359  sed -n '433p' Walton_Street
+  360  sed -n '477p' Mystic_Street
+  361  cat Mystic_Street
+  362  sed -n 477p Mystic_Street
+  363  grep Redlands Road
+  364  grep Redlands_Road
+  365  ls
+  366  cd code
+  367  ls
+  368  cd command-line-murder-mystery
+  369  ls
+  370  cat instructions
+  371  cd mystery
+  372  ls
+  373  grep "CLUE" crimescene
+  374  head -n 50 people
+  375  cd ..
+  376  ls
+  377  subl hint4
+  378  cd mystery
+  379  ls
+  380  grep "Annabel" people
+  381  cd streets
+  382  grep "Hart"
+  383  ls
+  384  grep "Annabel" people
+  385  cd ..
+  386  grep "Annabel" people
+  387  sed -n 40p Hart_Place
+  388  cd streets
+  389  sed -n 40p Hart_Place
+  390  sed -n 173p Mattapan_Street
+  391  sed -n 179p Buckingham_Place
+  392  sed -n 176p Haley_Street
+  393  cd ..
+  394  ls
+  395  cd interviews
+  396  ls
+  397  cat interview-47246024
+  398  cat interview-9437737
+  399  cat interview-699607
+  400  cat interview-871877
+  401  cd ..
+  402  ls
+  403  grep "L337" vehicles
+  404  grep "L337" & "9" vehicles
+  405  grep "L337" vehicles | grep "9"
+  406  subl hint5
+  407  cat vehicles | grep "L337ZR9"
+  408  cd ..
+  409  subl hint5
+  410  subl hint6
+  411  cd mystery
+  412  ls
+  413  head -n 20 vehicles
+  414  cd ..
+  415  subl hint7
+  416  grep -A 5 "L337" mystery/vehicles
+  417  cd mystery
+  418  grep -A 5 "Joe Germuska" people
+  419  grep "Jeremy Bowers" people
+  420  cd ..
+  421  subl
+  422  subl hint8
+  423  cd mystery
+  424  ls
+  425  cd memberships
+  426  ls
+  427  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+  428  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  429  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Joe Germuska"
+  430  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  431  cd ..
+  432  ls
+  433  cd mystery
+  434  ls
+  435  cd ..
+  436  cat instructions
+  437  subl solution
