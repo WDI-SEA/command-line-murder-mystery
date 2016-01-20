@@ -1,0 +1,26 @@
+
+
+mystery git:(master): Grep "Clue" crimescene;
+    Found the membership cards of the Killer. Which were AAA, Delta SkyMiles, the local library, and the Museum of Bash History. Also the name of the witness which was Annabel who had blond, spiky hair and a New Zealand accent.
+
+Grep "Annabel" people;
+	Narrowed down the list of witnesss' by searching for 'Annabel'. Only 2 were female.
+
+mystery git:(master):
+     head -n 179 streets/Buckingham_Place | tail -n 1;
+     	 Command to find interview of Annabel Church. Also used same command with Annabel Sun's info.
+     	 Received response of 'SEE INTERVIEW 699607'
+
+interviews git:(master):
+     cat interview-699607;
+     	Used to find Annabel Church's interview where she states that she saw the car that fled the scene as being a blue Honda with license plate that starts with "L337" and ends with "9".
+
+mystery git:(master):
+	grep -A 5 "L337" mystery/vehicles
+		Received a list of license plates that started with L337 and 5 rows of additional information to that car describing make, color, owner, height, and weight. Narrowed down list of suspects to 2 people according to car details from Annabel's interview and the description in Clues: Joe Germuska and Jeremy Bowers
+
+memberships git: (master):
+	cat Delta_SkyMiles AAA Museum_of_Bash_History library.txt | grep "Jeremy Bowers" 
+		Searched whether Joe Germuska and Jeremy Bowers had all 4 memberships as described in 'Clues'. Joe Germuska only had 2/4 of the memberships therefore, Jeremy Bowers is the killer.
+
+Conclusion: Jeremy Bowers is the murderer!
