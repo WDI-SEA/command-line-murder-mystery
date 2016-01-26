@@ -31,7 +31,7 @@ To figure out whodunit, you need access to a command line.
 
 ##Getting Started
 
-Once you're ready, clone this repo.
+Once you're ready, fork and clone this repo.
 
 Open a Terminal, go to the location of the files, and start by reading the file 'instructions'.
 
