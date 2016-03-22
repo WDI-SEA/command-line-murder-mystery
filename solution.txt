@@ -1,0 +1,258 @@
+  457  git clone git@github.com:brytree/command-line-murder-mystery.git
+  458  cd ..
+  459  ls
+  460  rm -r test-repo
+  461  y
+  462  ls
+  463  cd ..
+  464  ls
+  465  cd week1
+  466  ls
+  467  cd 3:21hw
+  468  git clone git@github.com:brytree/command-line-murder-mystery.git
+  469  ls
+  470  cd command-line-murder-mystery
+  471  ls
+  472  cat instructions
+  473  ls
+  474  cat hint1
+  475  head -n 20 people
+  476  clear
+  477  ls
+  478  cat hint1
+  479  git pull origin master
+  480  ls
+  481  cd hint1
+  482  ls
+  483  cat hint1
+  484  hint1 head -n 20 people
+  485  head
+  486  ls
+  487  cd ga
+  488  ls
+  489  cd week
+  490  cd week1
+  491  ls
+  492  cd command-line-murder-mystery
+  493  ls
+  494  cd mystery
+  495  ls
+  496  crimescene head -n 20 people
+  497  ls
+  498  cd interviews
+  499  ls
+  500  cd ..
+  501  ls
+  502  cd memberships
+  503  ls
+  504  cd
+  505  cd ga
+  506  cd week1
+  507  cd command-line-murder-mystery
+  508  ls
+  509  cat instructions
+  510  cd
+  511  cd ./ga
+  512  cd ./week1/command-line-murder-mystery
+  513  ls
+  514  cat hint1
+  515  cat hint2
+  516  cat hint3
+  517  cat hint4
+  518  cat hint5
+  519  cat hint6
+  520  cat hint7
+  521  cd
+  522  ./GA/week1/command-line-murder-mystery/
+  523  ls
+  524  cd mystery
+  525  open cheatsheet.pdf
+  526  cd ..
+  527  open cheatsheet.pdf
+  528  cd mystery
+  529  ls
+  530  head interviews
+  531  head people
+  532  cd ..
+  533  ls
+  534  cd mystery
+  535  ls
+  536  cat crimescene
+  537  grep clue
+  538  history
+  539  cd
+  540  cd ~/GA/week1/command-line-murder-mystery
+  541  ls
+  542  cd mystery
+  543  ls
+  544  grep "clue" crimescene
+  545  grep -i "clue" crimescene
+  546  ls
+  547  grep -i "Annabel" people
+  548  cd ..
+  549  ls
+  550  cat hint1
+  551  cat hint2
+  552  cat hint3
+  553  cd mystery
+  554  ls
+  555  cat hint4
+  556  pwd
+  557  cd ..
+  558  cat hint4
+  559  cat hint5
+  560  cat hint6
+  561  cat hint7
+  562  cd mystery
+  563  cat crimescene
+  564  grep "Annabel" crimescene
+  565  grep "CLUE" crimescene
+  566  grep "Annabel" people
+  567  ls
+  568  grep "Hart Place" streets
+  569  cd streets
+  570  ls
+  571  cat Hart_Place
+  572  cd ..
+  573  ls
+  574  grep "Annabel" people
+  575  ls
+  576  cd streets
+  577  ls
+  578  cat Mattapan_Street
+  579  cd ..
+  580  ls
+  581  cd ..
+  582  ls
+  583  cd mystery
+  584  ls
+  585  grep "CLUE" crimescene
+  586  grep "Annabel" people
+  587  cd streets
+  588  cat Buckingham_Place
+  589  cd ..
+  590  ls
+  591  cd streets
+  592  ls
+  593  cat Haley_Street
+  594  cd ..
+  595  ls
+  596  cd interviews
+  597  ls
+  598  grep "Annabel" interviews
+  599  cd ..
+  600  grep "Annabel" interviews
+  601  ls
+  602  cd memberships
+  603  ls
+  604  cd aaa
+  605  cat aaa
+  606  cd ..
+  607  ls
+  608  cd .
+  609  cd ..
+  610  ls
+  611  cat hint4
+  612  cat hint5
+  613  cd mystery
+  614  \thead -n 173 streets/Mattapan_Street | tail -n 1
+  615  cd interviews
+  616  cd ..
+  617  grep -i "CLUE" crimescene
+  618  history
+  619  cd mystery
+  620  ls
+  621  grep "Hart Place" streets
+  622  cd streets
+  623  grep "Hart Place" streets
+  624  grep streets "Hart Place"
+  625  cd ..
+  626  cat hint5
+  627  cd ..
+  628  cat hint5
+  629  \thead -n 173 streets/Mattapan_Street | tail -n 1
+  630  cd mystery
+  631  \thead -n 173 streets/Mattapan_Street | tail -n 1
+  632  grep -i "Annabel" people
+  633  \thead -n 40 streets/Hart_Place | tail -n 1
+  634  head -n 179 streets/Buckingham_Palace | tail -n 1
+  635  cd streets
+  636  ls
+  637  clear
+  638  cd ..
+  639  head -n 179 streets/Buckingham_Place | tail -n 1
+  640  cd interviews
+  641  ls
+  642  cat interview-9437737
+  643  cat interview-699607
+  644  cd ..
+  645  ls
+  646  cat vehicles
+  647  grep "L337" vehicles
+  648  grep "blue" vehicles
+  649  grep "Honda" vehicles
+  650  cd ../.
+  651  cat hint6
+  652  cd mystery
+  653  cd vehicles
+  654  head vehicles
+  655  grep "Make: Honda" vehicles
+  656  grep "Make: Honda" && "Color: Blue" vehicles
+  657  grep "Make: Honda Color: Blue" vehicles
+  658  grep -i "Make: honda color: blue" vehicles
+  659  cd ../.
+  660  cat hint6
+  661  cat hint7
+  662  cd mystery
+  663  grep -A 5 "L337" mystery/vehicles
+  664  ../.
+  665  grep -A 5 "L337" mystery/vehicles
+  666  cd ..
+  667  cd command-line-murder-mystery/mystery
+  668  cd membership
+  669  cd memberships
+  670  ls
+  671  grep "Matt Waite" AAA
+  672  grep "Joe Germuska" AAA
+  673  grep "Aron Pilhofer" AAA
+  674  grep "Jeremy Bowers" AAA
+  675  grep "Jacqui" AAA
+  676  grep "Matt Waite" "Museum_of_Bash_History"
+  677  grep "Joe Germuska" Museum_of_Bash_History
+  678  grep "Jeremy Bowers" Museum_of_Bash_History
+  679  grep "Jacqui" Museum_of_Bash_History
+  680  cd ../.
+  681  grep "CLUE" crimescene
+  682  cd memberships
+  683  grep "Matt Waite" Delta_SkyMiles
+  684  grep "Jeremy Bowers" Delta_SkyMiles
+  685  grep "Jacqui" Delta_SkyMiles
+  686  ls
+  687  grep "Matt Waite" Terminal_City_Library
+  688  grep "Jeremy Bowers" Terminal_City_Library
+  689  grep "Jacqui" Terminal_City_Library
+  690  grep "Jacqui" people
+  691  cd ..
+  692  grep "Jacqui" people
+  693  grep -A 5 "Matt" people
+  694  gre -A 5 "Matt Waite" vehicles
+  695  ls
+  696  grep -A 5 "Matt Waite" vehicles
+  697  grep -A 5 "Jeremy Bowers" vehicles
+  698  grep -A -5 5 "Jeremy Bowers" vehicles
+  699  grep -A 5 "L337" vehicles
+  700  grep "Matt Waite" memberships
+  701  cd memberships
+  702  grep "Matt Waite" Museum_of_Bash_History
+  703  grep "Jeremy Bowers" Museum_of_Bash_History
+  704  grep "Jeremy Bowers" AAA
+  705  grep "Jeremy Bowers" Delta_SkyMiles
+  706  grep "Jeremy Bowers" Terminal_City_Library
+  707  cd ..
+  708  grep "CLUE" crimescene
+  709  cd interviews
+  710  cat interview-9437737
+  711  cat interview-699607
+  712  cd ..
+
+Jeremy Bowers is the killer!
