@@ -1,7 +1,5 @@
-  JOE GERMUSKA
-
-
-    1  subl.
+Jeremy Bower
+  1  subl.
     2  subl .
     3  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
     4  subl .
@@ -344,3 +342,32 @@
   341  cd Desktop/WDI/WK1/command-line-murder-mystery/mystery/memberships
   342  grep -r "Joe Germuska" *
   343  cat newfile.txt
+  344  history > history.txt
+  345  ls
+  346  cd ..
+  347  ls
+  348  cd ..
+  349  subl history.txt
+  350  l
+  351  ls
+  352  cd mystery
+  353  ls
+  354  cd memberships
+  355  ls
+  356  subl history.txt
+  357  git add history.txt
+  358  ls
+  359  git status
+  360  git commit -m "command-line-murder-mystery"
+  361  git status
+  362  git push
+  363  ls
+  364  cd interviews'\nasgr\n\n\n\ncd ..\n.............. :(
+  365  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep “Joe Germuska"\n\n\n\n\n
+  366  history
+  367  cd Desktop/WDI/WK1/command-line-murder-mystery/mystery/memberships
+  368  grep -r "Joe Germuska"
+  369  grep -r "Joe Germuska" *
+  370  grep -r "Jeremy Bower"
+  371  grep -r "Jeremy Bower" *
+  372  history
