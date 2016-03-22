@@ -1,0 +1,464 @@
+1  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+    2  subl ~/.zshrc
+    3  which psql
+    4  subl ~/.zshrc
+    5  which psql
+    6  brew update
+    7  brew install rbenv
+    8  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+    9  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   10  source ~/.zshrc
+   11  sudo chown -R $USER ~/.rbenv
+   12  brew update
+   13  brew install ruby-build
+   14  rbenv install 2.2.2
+   15  rbenv global 2.2.2
+   16  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   17  clear
+   18  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   19  sudo gem update
+   20  rails -v
+   21  sudo gem update
+   22  sudo gem install rails
+   23  rails -v
+   24  ruby -v
+   25  node -v
+   26  npm -v
+   27  git --version
+   28  psql --version
+   29  subl -v
+   30  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+   31  sudo chown -R $USER ~/.rbenv
+   32  sudo gem install rails
+   33  clear
+   34  rails -v
+   35  ruby -v
+   36  node -v
+   37  npm -v
+   38  git --version
+   39  psql --version
+   40  subl -v
+   41  rails -v
+   42  ruby -v
+   43  node -v
+   44  npm -v
+   45  git --version
+   46  psql --version
+   47  subl -v
+   48  host www.google.com
+   49  host google.com
+   50  clear
+   51  ifconfig
+   52  arp -a
+   53  clear
+   54  ping washington.edu
+   55  clear
+   56  ping washington.edu
+   57  ping stanford.edu
+   58  ping www.cam.ac.uk
+   59  ping www.u-tokyo.ac.jp
+   60  ping sydney.edu.au
+   61  ping www.hbc.ac.za
+   62  ping 127.0.0.1
+   63  traceroute washington.edu
+   64  #
+   65  -I
+   66  curl -I http://www.google.com
+   67  curl -v http://www.google.com
+   68  curl -I https://www.google.com
+   69  curl -v http://www.google.com/
+   70  curl https://www.google.com
+   71  curl -I https://www.google.com
+   72  curl -I http://www.google.com
+   73  curl -I http://www.youtube.com
+   74  curl -I http://www.twitch.tv
+   75  clear
+   76  pwd
+   77  open .
+   78  open Documents
+   79  ls
+   80  clear
+   81  pwd
+   82  cd ..
+   83  ls
+   84  cd Documents
+   85  clear
+   86  pwd
+   87  cd /
+   88  ls -l
+   89  clear
+   90  open Documents
+   91  ls -l Documents
+   92  ls -la
+   93  clear
+   94  cd ~
+   95  ls
+   96  cd Documents
+   97  cd /
+   98  pwd
+   99  ls
+  100  cd Users
+  101  ls
+  102  cd C109283748
+  103  clear
+  104  cd ..
+  105  cd ~
+  106  cd Documents
+  107  cd ../..
+  108  cd
+  109  clear
+  110  cd Downloads
+  111  ls
+  112  clear
+  113  cd
+  114  cd ~/Documents
+  115  cd /etc
+  116  cd /Users/C109283748
+  117  mkdir test html js css
+  118  ls
+  119  rm -r js css
+  120  ls
+  121  rm -r html
+  122  cd test
+  123  ls
+  124  touch index.html
+  125  ls
+  126  touch styles.css script.js
+  127  ls
+  128  subl .
+  129  cat
+  130  cat index.html
+  131  cd test
+  132  cat index.html
+  133  echo "Another thing"
+  134  ls
+  135  echo "Another thing" > index.html
+  136  cat index.html
+  137  echo "Another thing again" >> index.html
+  138  clear
+  139  cat index.html | sort
+  140  cat index.html | sort > sorted_stuff.html
+  141  ls
+  142  cat index.html | sort
+  143  ls
+  144  mv index.html ../.
+  145  ls
+  146  cd ..
+  147  ls
+  148  mv index.html test.txt
+  149  ls
+  150  mv test/styles.css ./stuff.css
+  151  ls
+  152  cd test
+  153  ls
+  154  cp sorted_stuff.html ../stuff_copy.html
+  155  cd ..
+  156  ls
+  157  cp test Public/.
+  158  cp -r test Public/.
+  159  cd Public
+  160  ls
+  161  clear
+  162  cd
+  163  clear
+  164  ls -la
+  165  ls -la *.txt
+  166  clear
+  167  ls -la *.txt
+  168  rm *.css
+  169  ls
+  170  rm s*y
+  171  rm s*y.html
+  172  ls
+  173  pwd
+  174  clear
+  175  ls
+  176  cd fundamentals
+  177  ls
+  178  cd
+  179  mkdir WDI
+  180  cd WDI
+  181  mkdir Github
+  182  cd Github
+  183  mkdir Week_1
+  184  cd Week_1
+  185  git clone https://github.com/eun-n/command-line-murder-mystery.git
+  186  cat instructions
+  187  ls
+  188  cd command-line-murder-mystery
+  189  cat instructions
+  190  cd mystery
+  191  ls
+  192  cd crimescene
+  193  cat crimescene
+  194  cd ..
+  195  ls
+  196  cat instructions
+  197  cd mystery
+  198  cat hint1
+  199  ls
+  200  nano cheatsheet.md
+  201  ls
+  202  cd WDI
+  203  ls
+  204  cd Github
+  205  ls
+  206  cd Week_1
+  207  ls
+  208  cd command-line-murder-mystery
+  209  cat instructions
+  210  cd mystery
+  211  ls
+  212  cat crimescene | sort
+  213  clear
+  214  ls
+  215  open cheatsheet.md
+  216  cd
+  217  ls
+  218  cd WDI/Github/Week_1
+  219  cd command-line-murder-mystery
+  220  ls
+  221  open cheatsheet.md
+  222  cd mystery
+  223  ls
+  224  cat crimescene
+  225  grep -A 4 "CLUE" crimescene
+  226  cd ..
+  227  ls
+  228  cat instructions
+  229  lss
+  230  ls
+  231  cd mystery
+  232  ls
+  233  cd people
+  234  grep -A 4 "Annabel" people
+  235  cd interviews
+  236  ls
+  237  cd ..
+  238  clear
+  239  cd ~
+  240  mkdir Code
+  241  cd Code
+  242  mkdir week0/git_practice
+  243  mkdir week0
+  244  cd week0
+  245  mkdir git_practice
+  246  cd git_practice
+  247  git init
+  248  ls -la
+  249  cd .git
+  250  ls
+  251  cd ..
+  252  touch test.txt
+  253  ls
+  254  git status
+  255  git add test.txt
+  256  pwd
+  257  git status
+  258  git add .
+  259  git commit -a -m "initial commit"
+  260  ls
+  261  git status
+  262  subl test.txt
+  263  git status
+  264  git add -A
+  265  git commit -a -m "Added text to test.txt"
+  266  git status
+  267  git log
+  268  git remote add origin git@github.com:eun-n/test-repo.git
+  269  git remote -v
+  270  git push
+  271  git push --set-upstream origin master
+  272  git pull
+  273  git branch --set-upstream-to=origin/<branch> master
+  274  git pull
+  275  git status
+  276  git push
+  277  git push origin master
+  278  git pull origin master
+  279  git push
+  280  git push --set-upstream origin master
+  281  git remote add origin https://github.com/eun-n/test-repo.git
+  282  git remote -v
+  283  git push origin master
+  284  git pull ...
+  285  git pull
+  286  git clone fatal: The current branch master has no upstream branch.
+  287  To push the current branch and set the remote as upstream, use
+  288  git clone https://github.com/eun-n/test-repo.git
+  289  git push
+  290  git remote -v
+  291  ls
+  292  git commit -m "clone"
+  293  git add .
+  294  git commit -m "clone"
+  295  git push
+  296  git push origin master
+  297  git add .
+  298  git diff
+  299  git push
+  300  git checkout -b
+  301  git checkout -b search-feature
+  302  subl test.txt
+  303  git add .
+  304  git status
+  305  git commit -m "update"
+  306  git push
+  307  git push --set-upstream origin search-feature
+  308  clear
+  309  cd ..
+  310  cd ~
+  311  clear
+  312  ls
+  313  cd WDI
+  314  ls
+  315  cd Github
+  316  ls
+  317  cd Week_1
+  318  ls
+  319  cd command-line-murder-mystery
+  320  ls
+  321  cat instructions
+  322  cd mystery
+  323  ls
+  324  grep -C 4 "CLUE" crimescene
+  325  grep -C 4 "912464709392" interviews
+  326  grep -C 4 "912464709392" people
+  327  cd interviews
+  328  ls
+  329  cd ..
+  330  ls
+  331  cd ..
+  332  ls
+  333  cat hint1
+  334  head -n 20 people
+  335  cd myster
+  336  cd mystery
+  337  head -n 20 people
+  338  cd ..
+  339  cat hint2
+  340  cat hint3
+  341  cd mystery
+  342  grep -C 4 "Annabel" people
+  343  clear
+  344  cd ..
+  345  ls
+  346  cat mystery
+  347  cd mystery
+  348  cd ..
+  349  cat hint1
+  350  cd mystry
+  351  cd mystery
+  352  ls
+  353  head -n 20 vehicles
+  354  head -n 20 people
+  355  grep "Annabel" people
+  356  grep "CLUE" crimescene
+  357  cd memberships
+  358  ls
+  359  cd ..
+  360  ls
+  361  cd ..
+  362  cat hint4
+  363  cat hint5
+  364  cd streets
+  365  head -n 40 streets/Hart_Place | tail -n 1
+  366  ls
+  367  cd mystery
+  368  ls
+  369  cd streets
+  370  head -n 40 streets/Hart_Place | tail -n 1
+  371  head -n 179 streets/Buckingham_Place | tail -n 1
+  372  ls
+  373  cd Buckingham_Place
+  374  head -n 40 Hart_Place | tail -n 1
+  375  head -n 179 Buckingham_Place | tail -n 1
+  376  cd ..
+  377  ls
+  378  cd interviews
+  379  cat 47246024
+  380  cd ..
+  381  ls
+  382  cd ..
+  383  cat hint6
+  384  cat hint5
+  385  cd mystery
+  386  cd interviews
+  387  ls
+  388  cat interview-47246024
+  389  cat interview-699607
+  390  cd ..
+  391  ls
+  392  grep "L337" vehicles
+  393  head -n 20 vehicles
+  394  grep -A 6 "L337" vehicles
+  395  cd ..
+  396  ls
+  397  cat hint7
+  398  cat hint8
+  399  cd mystery
+  400  cd memberships
+  401  ls
+  402  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  403  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+  404  cd ..
+  405  ls
+  406  cd ..
+  407  ls
+  408  cat hint8
+  409  cat instructions
+  410  ls
+  411  cd mystery
+  412  ls
+  413  cd ..
+  414  ls
+  415  cd ..
+  416  ls
+  417  cd command-line-murder-mystery
+  418  ls
+  419  cd mystery
+  420  ls
+  421  grep "Jeremy Bower" people
+  422  cd streets
+  423  head -n 284 Dunstable_Road | tail -n 1
+  424  cd ..
+  425  ls
+  426  cd interviews
+  427  grep interview-9620713
+  428  cat interview-9620713
+  429  cd ..
+  430  ls
+  431  grep "Joe Germuska" people
+  432  cd streets
+  433  head -n 275 Plainfield_Street | tail -n 1
+  434  cd ..
+  435  cd interviews
+  436  cat interview-29741223
+  437  cd ..
+  438  ls
+  439  grep "Mike Bostock" people
+  440  ls
+  441  cd streets
+  442  head -n 287 Senders_Court | tail -n 1
+  443  cd ..
+  444  cd interviews
+  445  cat interview-290346
+  446  ls
+  447  cd ..
+  448  ls
+  449  grep "Jacqui Maher" people
+  450  grep "Jeremy Bowers" people
+  451  cd streets
+  452  head -n 284 Dunstable_Road | tail -n 1
+  453  cd ..
+  454  cd interviews
+  455  cat interview-9620713
+  456  cd ..
+  457  ls
+  458  cd ..
+  459  ls
+  460  cat instructions
+  461  touch solution.txt
+  462  open solution.txt
+  463  subl solution.txt
+  Killer - Jeremy Bowers
