@@ -1,0 +1,244 @@
+  Murderer is Jeremy Bowers.  
+
+
+  250  git clone git@github.com:keidra/command-line-murder-mystery.git
+  251  ls
+  252  cd command-line-murder-mystery
+  253  git remote -v
+  254  cat instructions
+  255  ls
+  256  cd mystery
+  257  ls
+  258  cd interviews
+  259  ls
+  260  cd ..
+  261  ls
+  262  cd ..
+  263  ls
+  264  open cheatsheet.pdf
+  265  ls
+  266  open hint2
+  267  cat hint2
+  268  cat hint1
+  269  nano cheatsheet.pdf
+  270  ls
+  271  cd General_Assembly
+  272  ls
+  273  cd Code
+  274  ls
+  275  cd week0
+  276  ls
+  277  cd command-line-murder-mystery
+  278  ls
+  279  nano cheatsheet.md
+  280  cat hint3
+  281  cat hin4
+  282  cat hint 4
+  283  cd ..
+  284  ls
+  285  cd command-line-murder-mystery
+  286  ls
+  287  cat hint 4
+  288  cat hint4
+  289  cd ..
+  290  ls
+  291  cd command-line-murder-mystery
+  292  cd mystery
+  293  ls
+  294  cd people
+  295  cat people
+  296  cd ..
+  297  ls
+  298  cat hint1
+  299  cd mystery
+  300  ls
+  301  head -n 20 people
+  302  cd ..
+  303  ls
+  304  cat hint 2
+  305  cat hint2
+  306  cd mystery
+  307  ls
+  308  grep "CLUE" crimescene
+  309  cd ../
+  310  ls
+  311  cd hint3
+  312  cat hint3
+  313  cd mystery
+  314  ls
+  315  head people
+  316  cd ../
+  317  ls
+  318  cd mystery
+  319  ls
+  320  head vehicles
+  321  cs ../
+  322  cd ../
+  323  ls
+  324  cd mystery
+  325  ls
+  326  head -Annabel people
+  327  cd interviews
+  328  ls
+  329  cd ../
+  330  ls
+  331  cd ../
+  332  ls
+  333  cat hint5
+  334  cat hint4
+  335  cd mystery
+  336  ls
+  337  grep "Annabel" people
+  338  head -n 40 streets/Hart_Place | tail -n 1
+  339  ls
+  340  cd interviews
+  341  ls
+  342  cd interview-47246024
+  343  cat interview-47246024
+  344  cd ../
+  345  ls
+  346  grep "Annabel" people
+  347  head -n 176 streets/Haley_Street | tail -n 1
+  348  ls
+  349  cd interviews
+  350  cat interview-871877
+  351  cd ../
+  352  ls
+  353  grep "Annabel" people
+  354  head -n 179 streets/Buckingham_Place | tail -n 1
+  355  cat interview-699607
+  356  ls
+  357  cd interviews
+  358  cat interview-699607
+  359  ls
+  360  cd ../
+  361  ls
+  362  cd ../
+  363  ls
+  364  cat hint5
+  365  cat hint6
+  366  cd mystery
+  367  ls
+  368  head -n L337 vehicles/Blue_Honda | -n 1
+  369  head -n vehicles/Blue_Honda | -n 1
+  370  head vehicles
+  371  head interview
+  372  head interviews
+  373  head streets
+  374  ls
+  375  cd streets
+  376  ls
+  377  cd ../
+  378  ls
+  379  head -n vechicles/blue
+  380  head -n vechcles/L337 | tail 1
+  381  head  vechcles/L337 | tail 1
+  382  ls
+  383  grep "L337" vechicles
+  384  head "L337" vehicles
+  385  cat vechicles
+  386  ls
+  387  cat vehicles
+  388  grep L337 vehicles
+  389  grep blue vechicles
+  390  grep blue vehicles
+  391  ls
+  392  grep blue vehicles
+  393  grep Blue vehicles
+  394  grep L337 Blue vehicles
+  395  grep Honda vehicles
+  396  grep Honda Blue L337 vehicles
+  397  grep 'Honda\|Blue\|L337' vehicles 
+  398  head vehicles
+  399  ls
+  400  cd ../
+  401  ls
+  402  cat hint7
+  403  cd mystery
+  404  ls
+  405  grep -A 5 "L337" mystery/vehicles
+  406  grep -B 5 "L337" mystery/vehicles
+  407  grep -C 5 "L337" mystery/vehicles
+  408  grep -A 5 "Blue" mystery/vehicles
+  409  grep -A 5 "Blue" vehicles
+  410  grep -A 5 "L337" vehicles
+  411  grep -B 5 "L337" vehicles
+  412  grep -C 5 "L337" vehicles
+  413  grep -A 5 "L337" vehicles
+  414  cd ../
+  415  ls
+  416  cat hint8
+  417  cat hint6
+  418  cat hint7
+  419  ls
+  420  grep -A 5 "L337" vehicles
+  421  grep -A 5 "L337" mystery/vehicles
+  422  ls
+  423  cat hint8
+  424  cd mystery
+  425  ls
+  426  cd memberships
+  427  ls
+  428  cat Fitness_Galaxy AAA United_Milage | grep "Joe Germuska"
+  429  ls
+  430  cd ../
+  431  ls
+  432  cd ../
+  433  ls
+  434  nano cheatsheet.md
+  435  cd mystery
+  436  ls
+  437  grep "Joe Germuska" people
+  438  cd interviews
+  439  ls
+  440  head -n 275 streets/PLainfield_Street | tail -n 1
+  441  head -n 275 streets/Plainfield_Street | tail -n 1
+  442  cd ../
+  443  ls
+  444  grep "Jeremy Bowers" people
+  445  head -n 275 streets/PLainfield_Street | tail -n 1
+  446  ls
+  447  cd interviews
+  448  cat interview-29741223
+  449  head -n 284 streets/Dunstable_Road | tail -n 1
+  450  cd ../
+  451  ls
+  452  cd ../
+  453  ls
+  454  cd mystery
+  455  head -n 284 streets/Dunstable_Road | tail -n 1
+  456  ls
+  457  cd interviews
+  458  cat interview-9620713
+  459  cd ../
+  460  ls
+  461  pwd
+  462  grep "Jacqui Maher" people
+  463  cd ../
+  464  cat Fitness_Galaxy AAA United_Milage | grep "Jeremy Bowers"
+  465  cd ../
+  466  ls
+  467  command-line-murder-mystery
+  468  ls
+  469  cd mystery
+  470  ls
+  471  cd memberships
+  472  ls
+  473  cat Fitness_Galaxy AAA United_Milage | grep "Jeremy Bowers"
+  474  ls
+  475  cd ../
+  476  ls
+  477  grep "CLUE" crimescene
+  478  ls
+  479  memberships
+  480  cd memberships
+  481  ls
+  482  cd .//
+  483  ls
+  484  cd ../
+  485  ls
+  486  cd memberships
+  487  ls
+  488  cat Delta_SkyMiles AAA Terminal_City_Library | grep "Jeremy Bowers"
+
+
