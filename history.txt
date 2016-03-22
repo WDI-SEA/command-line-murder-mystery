@@ -1,0 +1,580 @@
+    1  subl
+    2  open /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+    3  ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+    4  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+    5  wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2
+    6  tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
+    7  ls
+    8  ./generalAssembly
+    9  ls
+   10  ./generalAssembly
+   11  ls
+   12  subl
+   13  zsh
+   14  sublime
+   15  ./Downloads
+   16  ../
+   17  ls
+   18  ./Downloads
+   19  ls
+   20  ./Sublime Text Build 3103.dmg
+   21  run Sublime Text Build 3103.dmg
+   22  subl
+   23  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   24  brew --version
+   25  brew doctor
+   26  brew install git
+   27  git config --global user.name "StrongSad"
+   28  git config --global user.email "jacobkirkbarrus@gmail.com"
+   29  git config --global push.default simple
+   30  git config --global credential.helper cache
+   31  ls -al ~/.ssh
+   32  $ls -al ~/.ssh
+   33  $ ls -al ~/.ssh
+   34  ssh-keygen -t rsa -b 4096 -C "jacobkirkbarrus@gmail.com"
+   35  eval "$(ssh-agent -s)"
+   36  ssh-add ~/.ssh/id_rsa
+   37  pbcopy < ~/.ssh/id_rsa.pub
+   38  brew install node
+   39  node -v
+   40  npm -v
+   41  sudo chown -R $USER /usr/local/lib
+   42  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+   43  subl
+   44  subl .
+   45  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+   46  subl .
+   47  subl
+   48  subl .
+   49  subl
+   50  subl.
+   51  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+   52  subl .
+   53  ls
+   54  ./generalAssembly
+   55  ls
+   56  subl
+   57  subl .
+   58  ../
+   59  ls
+   60  ./Applications
+   61  ls
+   62  ../
+   63  ./Downloads
+   64  ls
+   65  ../
+   66  ls
+   67  ./generalAssembly
+   68  subl
+   69  ../
+   70  curl -L http://install.ohmyz.sh | sh
+   71  ls
+   72  ./Applications
+   73  ls
+   74  subl ~/.zshrc
+   75  which psql
+   76  subl ~/.zshrc
+   77  which psql
+   78  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+   79  which psql
+   80  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+   81  which psql
+   82  subl ~/.zshrc
+   83  brew update
+   84  brew install rbenv
+   85  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   86  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   87  source ~/.zshrc
+   88  sudo chown -R $USER ~/.rbenv
+   89  brew update
+   90  brew install ruby-build
+   91  rbenv install 2.2.2
+   92  rbenv global 2.2.2
+   93  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   94  sudo gem update
+   95  sudo gem install rails
+   96  rails -v
+   97  sudo gem install rails
+   98  ruby -v
+   99  node -v
+  100  npm -v
+  101  git --version
+  102  psql --version
+  103  subl -v
+  104  which psql
+  105  subl ~/.zshrc
+  106  which psql
+  107  open /Applications/Postgres.app
+  108  /Applications/Postgres.app
+  109  cd ..
+  110  cd ~
+  111  which psql
+  112  psql --version
+  113  which psql
+  114  echo $PATH
+  115  subl ~/.zshrc
+  116  echo $PATH
+  117  source ~/.zshrc
+  118  echo $PATH
+  119  subl ~/.zshrc
+  120  source ~/.zshrc
+  121  ze
+  122  zr
+  123  ze
+  124  zr
+  125  ze
+  126  pingg
+  127  zr
+  128  pingg
+  129  ping -C 3 google.com
+  130  ping -c 3 google.com
+  131  pingg
+  132  pingg 3
+  133  pingg
+  134  pingg 3
+  135  3 pingg
+  136  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+  137  host www.google.com
+  138  ping
+  139  pingg
+  140  ping washington.edu # 4 miles away from GA campus
+  141  ping stanford.edu
+  142  ping www.cam.ac.uk
+  143  ping www.u-tokyo.ac.jp
+  144  ping sydney.edu.au
+  145  ping www.hbc.ac.za
+  146  ping 127.0.0.1
+  147  traceroute washington.edu
+  148  curl -I http://www.google.com
+  149  curl -I http://www.google.com -v
+  150  curl -I http://www.google.com -i
+  151  curl http://www.google.com -v
+  152  curl -i www.kindafunny.com
+  153  curl -v www.kindafunny.com
+  154  curl www.kindafunny.com -v
+  155  curl www.google.com -v
+  156  curl www.google.com -i
+  157  curl www.google.com -I
+  158  curl www.google.com -i
+  159  curl www.google.com -I
+  160  curl -i  www.google.com
+  161  curl -I  www.google.com
+  162  curl --help
+  163  clear
+  164  ls
+  165  pwd
+  166  open
+  167  ./
+  168  ls
+  169  clear
+  170  ls
+  171  pwd
+  172  open Do
+  173  ls
+  174  ls -l
+  175  clear
+  176  ls -l documents
+  177  ls -la
+  178  ls -a
+  179  ls -la
+  180  clear
+  181  ls
+  182  cd /
+  183  pwd
+  184  ls
+  185  cd Users/strongsad
+  186  ls
+  187  ../
+  188  cd Users/StrongSad
+  189  ../
+  190  ls
+  191  ./StrongSad
+  192  cd
+  193  ls
+  194  ./Documents
+  195  cd ../..
+  196  cd
+  197  cd Documents
+  198  .../
+  199  ../
+  200  .../
+  201  ../
+  202  cd
+  203  cd clear
+  204  clear
+  205  cd Downloads
+  206  ls
+  207  ../
+  208  ls
+  209  ./Documents
+  210  ls
+  211  ./WDI Course Notes
+  212  ./WDICourseNotes
+  213  ls
+  214  ../
+  215  cd ~/Documents
+  216  ls
+  217  cd /Downlaods
+  218  cd ~/Downloads
+  219  ../
+  220  clear
+  221  cd Documents
+  222  clear
+  223  ../
+  224  cd Desktop
+  225  ../
+  226  ls
+  227  ./generalAssembly
+  228  ls
+  229  mkdir homeWork
+  230  ls
+  231  ./homeWork
+  232  ls
+  233  mkdir weekOne weekTwo weekThree
+  234  ls
+  235  ./weekOne
+  236  ls
+  237  touch index.html
+  238  ls
+  239  touch script.js style.css
+  240  ls
+  241  subl .
+  242  cat index.html
+  243  ls
+  244  caclear
+  245  clear
+  246  echo 'Another thing'
+  247  echo 'Another thing' > index.html
+  248  ls
+  249  cat index.html
+  250  echo 'Another thingagain' >>  index.html
+  251  ls
+  252  cd index.html
+  253  ls
+  254  ./index.html
+  255  ls
+  256  ./index.html
+  257  clear
+  258  ls
+  259  cd / index.html
+  260  cat index.html | sort
+  261  subl .
+  262  cat index.html | sort
+  263  cat index.html | sort > sorted_stuff
+  264  ls
+  265  ../
+  266  ls
+  267  ../
+  268  ls
+  269  cd Documents
+  270  ls
+  271  mv WDI\ Course\ Notes/wdi_course_notes
+  272  ls
+  273  ../
+  274  ls
+  275  ./generalAssembly
+  276  ls
+  277  ./homeWork
+  278  ls
+  279  ./weekOne
+  280  ls
+  281  pingg 
+  282  ../
+  283  .../
+  284  ../
+  285  ..
+  286  cd
+  287  ...
+  288  cd
+  289  ./D
+  290  history
+  291  clear
+  292  mkdir code
+  293  cd code
+  294  mkdir week1
+  295  cd week1
+  296  mkdir git_practice
+  297  pwd
+  298  ./git_practice
+  299  ls
+  300  pwd
+  301  git init
+  302  ls -la
+  303  cd .git
+  304  ls
+  305  ../
+  306  ls
+  307  touch test.txt
+  308  ls
+  309  git status
+  310  git add test.txt
+  311  git status
+  312  git commit -m "initial commit" -a
+  313  ls
+  314  s
+  315  sl
+  316  ls
+  317  sl
+  318  l
+  319  sls
+  320  ls
+  321  lsl
+  322  ls
+  323  clear
+  324  ls
+  325  subl test.txt
+  326  git status
+  327  git add -A
+  328  git status
+  329  git commit -a -m "added text to test . txt"
+  330  git log
+  331  git remote add origin git@github.com:StrongSad/test-repo.git
+  332  git remote -v
+  333  git push
+  334  git push --set-upstream origin master
+  335  git status
+  336  git pull
+  337  git status
+  338  git push origin master
+  339  git pull origin master
+  340  git status
+  341  git push origin master
+  342  .../
+  343  ../
+  344  git clone git@github.com:StrongSad/test-repo.git
+  345  ls
+  346  ./test-repo
+  347  git remote -v
+  348  ../
+  349  ls
+  350  git checkout -b search-feature
+  351  ls
+  352  ./test-repo
+  353  git checkout -b search-feature
+  354  clear
+  355  subl .
+  356  ls
+  357  subl .
+  358  git status
+  359  git add
+  360  git status
+  361  git add
+  362  git add .
+  363  status
+  364  git status
+  365  git commit -a -m "altered text.txt"
+  366  git push origin search-feature
+  367  ../
+  368  ls
+  369  git clone git@github.com:StrongSad/command-line-murder-mystery.git
+  370  ls
+  371  cd command-line-murder-mystery
+  372  ls
+  373  git remote -v
+  374  ls
+  375  cat instructions
+  376  ls
+  377  ./mystery
+  378  ls
+  379  cd crimescene
+  380  cat crimescene
+  381  ../
+  382  ls
+  383  ./mystery
+  384  cat hint1
+  385  ls
+  386  ../
+  387  ls
+  388  cat hint1
+  389  head -n 20 people
+  390  ../
+  391  ls
+  392  ./command-line-murder-mystery
+  393  head -n 20 people
+  394  ls
+  395  ./mystery
+  396  head -n 20 people
+  397  cd ../
+  398  ls
+  399  cat hint2
+  400  ls
+  401  grep "CLUE" crimescene%
+  402  cd mystery
+  403  grep "CLUE" crimescene%
+  404  ls
+  405  grep "CLUE" crimescene
+  406  cd ../
+  407  ls
+  408  cat hint3
+  409  ls
+  410  cd mystery
+  411  ls
+  412  grep 'annabel' people
+  413  head people "annabel"
+  414  ls
+  415  cd streets
+  416  ls
+  417  cd ../
+  418  ls
+  419  cd ../
+  420  ls
+  421  cat hint3
+  422  cat hint5
+  423  ls
+  424  cd mystery
+  425  ls
+  426  grep people "annabel"
+  427  grep people annabel
+  428  grep "annabel" people
+  429  ls
+  430  grep "Annabel" people
+  431  ../
+  432  cd hint5
+  433  ls
+  434  cat hint5
+  435  ls
+  436  cd mystery
+  437  ls
+  438  cd interviews
+  439  ls
+  440  head -n 173 streets/Mattapan_Street | tail -n 1
+  441  ../
+  442  head -n 173 streets/Mattapan_Street | tail -n 1
+  443  grep "#9437737" interview
+  444  ls
+  445  grep "#9437737" interviews
+  446  cd interviews
+  447  cat #9437737
+  448  cat interview-9437737
+  449  cd ../
+  450  ../
+  451  ls
+  452  cat hint6
+  453  cat hint5
+  454  history
+  455  clear
+  456  history
+  457  ls
+  458  ./code
+  459  ls
+  460  cd week1
+  461  ls
+  462  cd command-line-murder-mystery
+  463  ls
+  464  cd mystery
+  465  head -n 20 people
+  466  ls
+  467  grep "CLUE" crimescene
+  468  ls
+  469  head "Annabell" vehicles
+  470  ls
+  471  head "Annabell" people
+  472  head "Annabel" people
+  473  head "Annabel" vehicles
+  474  ls
+  475  grep "annabel" people
+  476  ls
+  477  grep "Annabel" people
+  478  head -n 173 streets/Mattapan_street | tail -n 1
+  479  head -n 173 streets/Haley_street | tail -n 1
+  480  head -n 176 streets/Haley_street | tail -n 1
+  481  ls
+  482  cd interviews
+  483  ls
+  484  cat interview-871877
+  485  cat interview-9437737
+  486  grep "Honda" vehicles
+  487  ls
+  488  ../
+  489  grep "Honda" vehicles
+  490  grep "Blue" vehicles
+  491  grep "l337" vehicles
+  492  grep "L337" vehicles
+  493  grep -a "L337" vehicles
+  494  grep -b "L337" vehicles
+  495  grep -c "L337" vehicles
+  496  grep -help
+  497  grep --help
+  498  ls
+  499  grep "Honda" "Blue" "L337" vehicles
+  500  head vehicles
+  501  head 20 vehicles
+  502  head "Blue" vehicles
+  503  head -n vehicles
+  504  head -n 5  vehicles 
+  505* bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+  506  cat interview-871877
+  507  ls
+  508  cd interviews
+  509  cat interview-871877
+  510  ../
+  511  ls
+  512  cd interviews
+  513  ls
+  514  cat interview-9437737
+  515  cd ../
+  516  ls
+  517  grep "CLUE" crimescene
+  518  ../
+  519  ls
+  520  ./mystery
+  521  ls
+  522  grep "Annabel" people
+  523  ls
+  524  interviews
+  525  ../
+  526  head -n 40 streets/hart_place | tail -n 1
+  527  head -n 179 streets/buckingham_place | tail -n 1
+  528  ../
+  529  cat interview-47246024
+  530  cat interview-4724024
+  531  cd interviews
+  532  ls
+  533  ./mystery
+  534  ./interviews
+  535  cat interview-4724024
+  536  cat interview-47246024
+  537  cat interview-699607
+  538  ../
+  539  ls
+  540  cat vehicles
+  541  cat ../
+  542  cat vehicles | grep "Honda"
+  543  cd interviews
+  544  cat interview-699607
+  545  ../
+  546  ls
+  547  grep -A 5 "Honada"
+  548  cat vehicles | grep -A 5 "Honda"
+  549  cat vehicles | grep -A 5 "Honda" | grep -A 5 "Blue"
+  550  cat vehicles | grep -A 6 "Honda" | grep -A 6 "Blue"
+  551  cat vehicles | grep -A 10 "Honda" | grep -A 10 "Blue" | grep -A 10 "L337"
+  552  cat vehicles | grep -A 10 "Honda" | grep -A 10 "Blue"
+  553  cat vehicles | grep -B 5 "Honda" | grep -B 5 "Blue"
+  554  cat vehicles | grep -B 5 -A 5 "Honda" | grep -B 5 -A 5 "Blue"
+  555  cat vehicles | grep -B 5 -A 5 "Honda" | grep -B 5 -A "Blue"
+  556  cat vehicles | grep -B 5 -A 5 "Honda" | grep  "Blue"
+  557  cat vehicles | grep -B 5 -A 5 "Honda" | grep -B 5 -A 5 "Blue"
+  558  ls
+  559  grep "Erika Owens" people
+  560  grep "Joe Germuska" people
+  561  grep "Jacqui Maher" people
+  562  grep "Jeremy Bowers" people
+  563  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  564  ls
+  565  ./memberships
+  566  ls
+  567  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  568  ls
+  569  cat Fitness_Galaxy AAA United_MileagePlus | grep -B "Joe Germuska"
+  570  cat Fitness_Galaxy AAA United_MileagePlus | grep -B 5 "Joe Germuska"
+  571  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  572  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  573  ls
+  574  grep "Joe Germuska" Delta_SkyMiles
+  575  grep "Jeremy Bowers" Delta_SkyMiles
+  576  ../
+  577  cd ..
+
+
+The Killer is Jeremy Bowers!!!! BOOOOOYYAAAA MOTHAFUCKAAASSSS
