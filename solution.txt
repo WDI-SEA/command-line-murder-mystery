@@ -1,0 +1,563 @@
+➜  command-line-murder-mystery git:(master) cat instructions
+.OOOOOOOOOOOOOOO @@                                   @@ OOOOOOOOOOOOOOOO.
+OOOOOOOOOOOOOOOO @@                                    @@ OOOOOOOOOOOOOOOO
+OOOOOOOOOO'''''' @@                                    @@ ```````OOOOOOOOO
+OOOOO'' aaa@@@@@@@@@@@@@@@@@@@@"""                   """""""""@@aaaa `OOOO
+OOOOO,""""@@@@@@@@@@@@@@""""                                     a@"" OOOA
+OOOOOOOOOoooooo,                                            |OOoooooOOOOOS
+OOOOOOOOOOOOOOOOo,                                          |OOOOOOOOOOOOC
+OOOOOOOOOOOOOOOOOO                                         ,|OOOOOOOOOOOOI
+OOOOOOOOOOOOOOOOOO @          THE                          |OOOOOOOOOOOOOI
+OOOOOOOOOOOOOOOOO'@           COMMAND                      OOOOOOOOOOOOOOb
+OOOOOOOOOOOOOOO'a'            LINE                         |OOOOOOOOOOOOOy
+OOOOOOOOOOOOOO''              MURDERS                      aa`OOOOOOOOOOOP
+OOOOOOOOOOOOOOb,..                                          `@aa``OOOOOOOh
+OOOOOOOOOOOOOOOOOOo                                           `@@@aa OOOOo
+OOOOOOOOOOOOOOOOOOO|                                             @@@ OOOOe
+OOOOOOOOOOOOOOOOOOO@                               aaaaaaa       @@',OOOOn
+OOOOOOOOOOOOOOOOOOO@                        aaa@@@@@@@@""        @@ OOOOOi
+OOOOOOOOOO~~ aaaaaa"a                 aaa@@@@@@@@@@""            @@ OOOOOx
+OOOOOO aaaa@"""""""" ""            @@@@@@@@@@@@""               @@@|`OOOO'
+OOOOOOOo`@@a                  aa@@  @@@@@@@""         a@        @@@@ OOOO9
+OOOOOOO'  `@@a               @@a@@   @@""           a@@   a     |@@@ OOOO3
+`OOOO'       `@    aa@@       aaa"""          @a        a@     a@@@',OOOO'
+
+
+There's been a murder in Terminal City, and TCPD needs your help.
+
+To figure out whodunit, go to the 'mystery' subdirectory and start working from there.
+
+You'll want to start by collecting all the clues at the crime scene (the 'crimescene' file).
+
+The officers on the scene are pretty meticulous, so they've written down EVERYTHING in their officer reports.
+
+Fortunately the sergeant went through and marked the real clues with the word "CLUE" in all caps.
+
+If you get stuck, open one of the hint files (from the CL, type 'cat hint1', 'cat hint2', etc.).
+
+To find out the solution, open the file 'solution' (from the CL, type 'cat solution').
+
+To get started on how to use the command line, open cheatsheet.md or cheatsheet.pdf (from the command line, you can type 'nano cheatsheet.md').
+
+Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.%                                                                ➜  c➜ ➜ ➜ ➜ ➜ ➜ ➜ ➜ ➜ ➜ ➜ ➜
+➜  command-line-murder-mystery git:(master) cd mystery
+➜  mystery git:(master) ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(master) cd crimescene
+cd: not a directory: crimescene
+➜  mystery git:(master) cd interviews
+➜  interviews git:(master) ls
+interview-000296   interview-2642139  interview-496772   interview-75434722
+interview-00448418 interview-27042476 interview-498331   interview-755037
+interview-00502304 interview-27504937 interview-499096   interview-75633580
+interview-005702   interview-275706   interview-50168425 interview-7580872
+interview-00617019 interview-279087   interview-50291987 interview-77014856
+interview-00805135 interview-280877   interview-504687   interview-770439
+interview-016463   interview-2834518  interview-509105   interview-77135281
+interview-020337   interview-284560   interview-5143029  interview-7791374
+interview-022751   interview-2846076  interview-514793   interview-780255
+interview-0234126  interview-289524   interview-52280505 interview-7863761
+interview-02422821 interview-290346   interview-528044   interview-789564
+interview-0251720  interview-291440   interview-529706   interview-791289
+interview-03098229 interview-2922290  interview-53318557 interview-79360358
+interview-0315125  interview-29316965 interview-535181   interview-79411932
+interview-03316077 interview-2939888  interview-5372865  interview-794525
+interview-034070   interview-296128   interview-538900   interview-7959148
+interview-0349327  interview-29680692 interview-54026669 interview-796439
+interview-04393507 interview-29741223 interview-541518   interview-79667499
+interview-044492   interview-2976680  interview-5455315  interview-79935965
+interview-0462097  interview-29838622 interview-54619323 interview-7998181
+interview-049721   interview-2995681  interview-54851634 interview-8095917
+interview-05297663 interview-301018   interview-549055   interview-809922
+interview-06032377 interview-30259493 interview-55382746 interview-812725
+interview-0613334  interview-3049045  interview-55410365 interview-81443363
+interview-066291   interview-305694   interview-55435298 interview-822576
+interview-071537   interview-305949   interview-55477243 interview-8245680
+interview-0732631  interview-306616   interview-555536   interview-825165
+interview-07497003 interview-3074127  interview-5581158  interview-82705993
+interview-0768255  interview-3099757  interview-55841398 interview-831512
+interview-092423   interview-312546   interview-55984022 interview-833367
+interview-0953437  interview-3128999  interview-565396   interview-838259
+interview-096267   interview-3140662  interview-566707   interview-8387710
+interview-102490   interview-31635890 interview-56784802 interview-8402388
+interview-109118   interview-3201508  interview-56892213 interview-8421696
+interview-1108561  interview-322305   interview-57236791 interview-8464899
+interview-114661   interview-32365018 interview-5739404  interview-84688694
+interview-11495001 interview-324389   interview-5766907  interview-849256
+interview-116803   interview-325611   interview-5774468  interview-85262552
+interview-11705111 interview-32639981 interview-5782759  interview-8531248
+interview-11783660 interview-32712166 interview-579105   interview-856221
+interview-11817172 interview-331178   interview-5835471  interview-8586380
+interview-1186827  interview-332596   interview-586668   interview-861780
+interview-1205060  interview-33399976 interview-58910793 interview-862173
+interview-1250176  interview-340396   interview-5905106  interview-862717
+interview-125204   interview-34041151 interview-591273   interview-8631232
+interview-125271   interview-342393   interview-5993978  interview-86395001
+interview-1269181  interview-34359897 interview-60081985 interview-865918
+interview-1310392  interview-344331   interview-604403   interview-867999
+interview-13768464 interview-34690644 interview-608607   interview-8700943
+interview-13889608 interview-347303   interview-6093093  interview-87126591
+interview-13920860 interview-351963   interview-618764   interview-871877
+interview-1395414  interview-353218   interview-6203192  interview-879569
+interview-141030   interview-353467   interview-628618   interview-8819490
+interview-14153840 interview-354262   interview-63308519 interview-891720
+interview-144873   interview-3588302  interview-637657   interview-896668
+interview-14590717 interview-3609204  interview-637928   interview-9004767
+interview-147283   interview-36398447 interview-638121   interview-901603
+interview-15187437 interview-364735   interview-6417794  interview-901645
+interview-15354942 interview-36527398 interview-645385   interview-90394637
+interview-1536668  interview-376115   interview-6553472  interview-904020
+interview-155049   interview-37747405 interview-65792229 interview-907126
+interview-1578206  interview-3804339  interview-659803   interview-9074626
+interview-159848   interview-3824641  interview-66101490 interview-911451
+interview-16098538 interview-38299069 interview-66282920 interview-91673757
+interview-1642421  interview-3871205  interview-6643191  interview-917210
+interview-1643440  interview-3871242  interview-67279454 interview-9185205
+interview-16889008 interview-38899905 interview-673985   interview-920304
+interview-17248453 interview-3917097  interview-676473   interview-92391023
+interview-17343208 interview-391811   interview-67790846 interview-92670500
+interview-174898   interview-39481114 interview-680549   interview-927642
+interview-1767435  interview-39825862 interview-6808205  interview-9332386
+interview-17827186 interview-40534453 interview-68195573 interview-9346061
+interview-179719   interview-40610944 interview-68488577 interview-93473333
+interview-1811770  interview-409731   interview-68764140 interview-93696502
+interview-18193261 interview-41553314 interview-6884359  interview-938991
+interview-1823688  interview-416243   interview-6894000  interview-9408565
+interview-18270219 interview-41814745 interview-69170457 interview-94126412
+interview-18441251 interview-4204949  interview-6933068  interview-9437737
+interview-1850922  interview-42161907 interview-699607   interview-944493
+interview-1857368  interview-4223536  interview-70067280 interview-9446528
+interview-1906958  interview-4225866  interview-70199425 interview-9501580
+interview-191206   interview-42396365 interview-703831   interview-95095182
+interview-19300543 interview-4262657  interview-704443   interview-95601730
+interview-1933118  interview-42934869 interview-70458099 interview-9618669
+interview-19577850 interview-4299898  interview-7046684  interview-9620713
+interview-2058907  interview-4335306  interview-7066082  interview-9651888
+interview-210355   interview-4366523  interview-706620   interview-9666149
+interview-218131   interview-44533008 interview-707438   interview-97043057
+interview-221039   interview-4463090  interview-708943   interview-9709892
+interview-223913   interview-448086   interview-7103823  interview-9711852
+interview-2277882  interview-45615686 interview-71186817 interview-9712946
+interview-229443   interview-457117   interview-71226767 interview-9728756
+interview-23167806 interview-457451   interview-71298441 interview-97393699
+interview-2326746  interview-466195   interview-7180973  interview-97409610
+interview-23371263 interview-4673074  interview-71993338 interview-980963
+interview-233800   interview-46773428 interview-720268   interview-982013
+interview-2415821  interview-47246024 interview-7254073  interview-9824821
+interview-243703   interview-4735823  interview-728181   interview-98912259
+interview-2481877  interview-4765278  interview-730123   interview-9901455
+interview-250112   interview-476744   interview-73035802 interview-9912172
+interview-253705   interview-478217   interview-7305678  interview-992072
+interview-255531   interview-48088300 interview-73585672 interview-99643550
+interview-25582311 interview-48148020 interview-737609   interview-9969223
+interview-25834905 interview-483817   interview-7422077  interview-999372
+interview-259909   interview-485229   interview-74225310
+interview-2601508  interview-4950099  interview-7469675
+interview-26373485 interview-4961376  interview-7541406
+➜  interviews git:(master) cd ..
+➜  mystery git:(master) cd memberships
+➜  memberships git:(master) ls
+1.txt                   Fitness_Galaxy          United_MileagePlus
+2.txt                   Museum_of_Bash_History  delta.txt
+AAA                     REI                     library.txt
+AAdvantage              Rotary_Club             museum.txt
+Costco                  TCSU_Alumni_Association newfile.txt
+Delta_SkyMiles          Terminal_City_Library
+➜  memberships git:(master) cd ..
+➜  mystery git:(master) cd streets
+➜  streets git:(master) ls
+Abbot_Street             Forestvale_Road          Oliva_Road
+Acton_Street             Foundry_Street           Orchard_Road
+Addington_Road           Fowler_Street            Paragon_Road
+Alaric_Street            Frontage_Road            Peacock_Lane
+Albany_Street            Gerard_Street            Peter_Parley_Road
+Aldworth_Street          Gillespies_Lane          Pinewood_Street
+Alpine_Street            Glenville_Avenue         Plain_Street
+Andover_Road             Glenwood_Avenue          Plainfield_Street
+Ansonia_Road             Grampian_Way             Potosi_Street
+Appleton_Road            Granby_Street            Priscilla_Road
+Aramon_Street            Gray_Gardens_East        Proctor_Street
+Arcola_Street            Greendale_Road           Quarley_Road
+Atwood_Road              Gretter_Road             Randlett_Place
+Auriga_Street            Groveland_Street         Rena_Street
+Avalon_Road              Hadassah_Way             Renfrew_Street
+B_Street                 Haley_Street             Richard_Avenue
+Ballard_Street           Harbor_Point_Boulevard   Richardson_Street
+Balmoral_Park            Harding_Road             Richmond_Street
+Bartlett_Avenue          Hart_Place               River_Street
+Bellevue_Avenue          Hazel_Street             Rivermoor_Street
+Bertson_Avenue           Hazelton_Street          Rockmere_Street
+Bicknell_Street          High_Road                Rosaria_Street
+Blue_Hill_Avenue         High_View_Avenue         Rowe_Street
+Bobolink_Street          Hobart_Street            Rozella_Street
+Boston_Street            Hollander_Street         Saco_Street
+Bothwell_Road            Hooten_Court             Saint_Saveur_Court
+Bournedale_Road          Hopedale_Street          Salutation_Street
+Boynton_Street           Hull_Street              Sammett_Avenue
+Brinton_Street           Island_View_Place        Saunders_Street
+Bristol_Street           Jacob_Street             Scotia_Street
+Broad_Canal_Street       Jacqueline_Road          Searle_Road
+Brookdale_Street         Jamaica_Place            Selwyn_Street
+Brookline_Avenue         Jersey_Street            Senders_Court
+Buckingham_Place         Jeshurun_Street          Sheldon_Street
+Burwell_Road             John_Alden_Road          Silver_Street
+Cadbury_Road             Judge_Street             Sparrow_Street
+Cardinal_Medeiros_Avenue June_Street              Spaulding_Street
+Cardington_Street        Kearsarge_Avenue         Standard_Street
+Causeway_Street          King_Place               Staniford_Street
+Cerdan_Avenue            Kinross_Road             Story_Street
+Channel_Center_Street    Knoll_Street             Supple_Road
+Cheverus_Road            Laban_Pratt_Road         Taunton_Avenue
+Claremont_Park           Leseur_Road              Tennyson_Street
+Clay_Street              Lineham_Court            Terrace_Place
+Claybourne_Street        Lovis_Street             Theodore_Street
+Clipper_Ship_Lane        Lynde_Street             Tolman_Street
+Cook_Street              Lynn_Street              Topeka_Street
+Cornelia_Street          Mamelon_Circle           Trapelo_Street
+Corwin_Street            Manila_Avenue            Trident_Street
+Culbert_Street           Manton_Terrace           Trinity_Place
+Dacia_Street             Marney_Street            Unity_Court
+Dalton_Street            Mattapan_Street          Vassal_Lane
+Dana_Avenue              May_Street               Victory_Road
+Davenport_Street         Meadowview_Road          Vinton_Street
+Devine_Way               Merola_Park              Vista_Street
+Dewar_Street             Michigan_Avenue          Waldeck_Street
+Doane_Street             Miles_Street             Wallingford_Road
+Dock_Street              Moloney_Street           Warren_Avenue
+Dorrance_Street          Mount_Ash_Road           Wentworth_Street
+Dover_Street             Mount_Ida_Road           Wesley_Place
+Dresser_Street           Mountain_Avenue          Wheatland_Avenue
+Drumlin_Road             Mozart_Street            Wiget_Street
+Dunstable_Road           Myles_Standish_Road      Wiggin_Street
+Elmore_Street            Mystic_Street            Wilcox_Road
+Embassy_Road             Nazing_Street            Wilkinson_Park
+Enterprise_Street        New_Minton_Street        Willet_Street
+Esther_Road              New_Park_Avenue          Williston_Road
+Estrella_Street          Newcastle_Road           Willowdean_Avenue
+Eugenia_Road             Newcroft_Circle          Wilmington_Avenue
+Fairfield_Street         North_Washington_Street  Winter_Street
+Faunce_Road              Norton_Street            Woodcliff_Street
+Fay_Street               Oak_Hill_Avenue          Wooddale_Avenue
+Fayston_Street           Oak_Place                Worrell_Street
+Fessenden_Street         Oakley_Street            Wycliff_Avenue
+➜  streets git:(master) cd ..
+➜  mystery git:(master) cd crimescene
+cd: not a directory: crimescene
+➜  mystery git:(master) cat hint1
+cat: hint1: No such file or directory
+➜  mystery git:(master) open cheatsheet.md
+The file /Users/bengus/Code/week0/command-line-murder-mystery/mystery/cheatsheet.md does not exist.
+➜  mystery git:(master) nano cheatsheet.md
+➜  mystery git:(master) clear
+➜  mystery git:(master) cat instructions
+cat: instructions: No such file or directory
+➜  mystery git:(master) cd mystery
+cd: no such file or directory: mystery
+➜  mystery git:(master) cd ..
+➜  command-line-murder-mystery git:(master) cat instructions
+.OOOOOOOOOOOOOOO @@                                   @@ OOOOOOOOOOOOOOOO.
+OOOOOOOOOOOOOOOO @@                                    @@ OOOOOOOOOOOOOOOO
+OOOOOOOOOO'''''' @@                                    @@ ```````OOOOOOOOO
+OOOOO'' aaa@@@@@@@@@@@@@@@@@@@@"""                   """""""""@@aaaa `OOOO
+OOOOO,""""@@@@@@@@@@@@@@""""                                     a@"" OOOA
+OOOOOOOOOoooooo,                                            |OOoooooOOOOOS
+OOOOOOOOOOOOOOOOo,                                          |OOOOOOOOOOOOC
+OOOOOOOOOOOOOOOOOO                                         ,|OOOOOOOOOOOOI
+OOOOOOOOOOOOOOOOOO @          THE                          |OOOOOOOOOOOOOI
+OOOOOOOOOOOOOOOOO'@           COMMAND                      OOOOOOOOOOOOOOb
+OOOOOOOOOOOOOOO'a'            LINE                         |OOOOOOOOOOOOOy
+OOOOOOOOOOOOOO''              MURDERS                      aa`OOOOOOOOOOOP
+OOOOOOOOOOOOOOb,..                                          `@aa``OOOOOOOh
+OOOOOOOOOOOOOOOOOOo                                           `@@@aa OOOOo
+OOOOOOOOOOOOOOOOOOO|                                             @@@ OOOOe
+OOOOOOOOOOOOOOOOOOO@                               aaaaaaa       @@',OOOOn
+OOOOOOOOOOOOOOOOOOO@                        aaa@@@@@@@@""        @@ OOOOOi
+OOOOOOOOOO~~ aaaaaa"a                 aaa@@@@@@@@@@""            @@ OOOOOx
+OOOOOO aaaa@"""""""" ""            @@@@@@@@@@@@""               @@@|`OOOO'
+OOOOOOOo`@@a                  aa@@  @@@@@@@""         a@        @@@@ OOOO9
+OOOOOOO'  `@@a               @@a@@   @@""           a@@   a     |@@@ OOOO3
+`OOOO'       `@    aa@@       aaa"""          @a        a@     a@@@',OOOO'
+
+
+There's been a murder in Terminal City, and TCPD needs your help.
+
+To figure out whodunit, go to the 'mystery' subdirectory and start working from there.
+
+You'll want to start by collecting all the clues at the crime scene (the 'crimescene' file).
+
+The officers on the scene are pretty meticulous, so they've written down EVERYTHING in their officer reports.
+
+Fortunately the sergeant went through and marked the real clues with the word "CLUE" in all caps.
+
+If you get stuck, open one of the hint files (from the CL, type 'cat hint1', 'cat hint2', etc.).
+
+To find out the solution, open the file 'solution' (from the CL, type 'cat solution').
+
+To get started on how to use the command line, open cheatsheet.md or cheatsheet.pdf (from the command line, you can type 'nano cheatsheet.md').
+
+Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.%                                                                                  ➜  command-line-murder-mystery git:(master) cd mystery
+➜  mystery git:(master) open crimescene
+➜  mystery git:(master) ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(master) 'cat hint1'
+zsh: command not found: cat hint1
+➜  mystery git:(master) open cat hint1
+The files /Users/bengus/Code/week0/command-line-murder-mystery/mystery/cat and /Users/bengus/Code/week0/command-line-murder-mystery/mystery/hint1 do not exist.
+➜  mystery git:(master) cat hint1
+cat: hint1: No such file or directory
+➜  mystery git:(master) cd ..
+➜  command-line-murder-mystery git:(master) ls
+README.md      hint1          hint4          hint7          mystery
+cheatsheet.md  hint2          hint5          hint8          test.txt
+cheatsheet.pdf hint3          hint6          instructions
+➜  command-line-murder-mystery git:(master) cat hint1
+Try poking around what's in a file by using the 'head' command:
+
+  head -n 20 people
+
+This will show you the first 20 lines of the 'people' file.%                             ➜  command-line-murder-mystery git:(master) cat hint2
+Try using grep to search for the clues in the crimescene file:
+
+	grep "CLUE" crimescene%                                                          ➜  command-line-murder-mystery git:(master) grep "CLUE" crimescene
+grep: crimescene: No such file or directory
+➜  command-line-murder-mystery git:(master) open crimescene
+The file /Users/bengus/Code/week0/command-line-murder-mystery/crimescene does not exist.
+➜  command-line-murder-mystery git:(master) cd mystery
+➜  mystery git:(master) ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(master) open crimescene
+➜  mystery git:(master) open people
+➜  mystery git:(master) cd memberships
+➜  memberships git:(master) ls
+1.txt                   Fitness_Galaxy          United_MileagePlus
+2.txt                   Museum_of_Bash_History  delta.txt
+AAA                     REI                     library.txt
+AAdvantage              Rotary_Club             museum.txt
+Costco                  TCSU_Alumni_Association newfile.txt
+Delta_SkyMiles          Terminal_City_Library
+➜  memberships git:(master) open AAA
+➜  memberships git:(master) open Delta
+The file /Users/bengus/Code/week0/command-line-murder-mystery/mystery/memberships/Delta does not exist.
+➜  memberships git:(master) open Delta_SkyMiles
+➜  memberships git:(master) open library.txt
+➜  memberships git:(master) cd ..
+➜  mystery git:(master) open people
+➜  mystery git:(master) open vehicles
+➜  mystery git:(master) cd streets
+➜  streets git:(master) ls
+Abbot_Street             Forestvale_Road          Oliva_Road
+Acton_Street             Foundry_Street           Orchard_Road
+Addington_Road           Fowler_Street            Paragon_Road
+Alaric_Street            Frontage_Road            Peacock_Lane
+Albany_Street            Gerard_Street            Peter_Parley_Road
+Aldworth_Street          Gillespies_Lane          Pinewood_Street
+Alpine_Street            Glenville_Avenue         Plain_Street
+Andover_Road             Glenwood_Avenue          Plainfield_Street
+Ansonia_Road             Grampian_Way             Potosi_Street
+Appleton_Road            Granby_Street            Priscilla_Road
+Aramon_Street            Gray_Gardens_East        Proctor_Street
+Arcola_Street            Greendale_Road           Quarley_Road
+Atwood_Road              Gretter_Road             Randlett_Place
+Auriga_Street            Groveland_Street         Rena_Street
+Avalon_Road              Hadassah_Way             Renfrew_Street
+B_Street                 Haley_Street             Richard_Avenue
+Ballard_Street           Harbor_Point_Boulevard   Richardson_Street
+Balmoral_Park            Harding_Road             Richmond_Street
+Bartlett_Avenue          Hart_Place               River_Street
+Bellevue_Avenue          Hazel_Street             Rivermoor_Street
+Bertson_Avenue           Hazelton_Street          Rockmere_Street
+Bicknell_Street          High_Road                Rosaria_Street
+Blue_Hill_Avenue         High_View_Avenue         Rowe_Street
+Bobolink_Street          Hobart_Street            Rozella_Street
+Boston_Street            Hollander_Street         Saco_Street
+Bothwell_Road            Hooten_Court             Saint_Saveur_Court
+Bournedale_Road          Hopedale_Street          Salutation_Street
+Boynton_Street           Hull_Street              Sammett_Avenue
+Brinton_Street           Island_View_Place        Saunders_Street
+Bristol_Street           Jacob_Street             Scotia_Street
+Broad_Canal_Street       Jacqueline_Road          Searle_Road
+Brookdale_Street         Jamaica_Place            Selwyn_Street
+Brookline_Avenue         Jersey_Street            Senders_Court
+Buckingham_Place         Jeshurun_Street          Sheldon_Street
+Burwell_Road             John_Alden_Road          Silver_Street
+Cadbury_Road             Judge_Street             Sparrow_Street
+Cardinal_Medeiros_Avenue June_Street              Spaulding_Street
+Cardington_Street        Kearsarge_Avenue         Standard_Street
+Causeway_Street          King_Place               Staniford_Street
+Cerdan_Avenue            Kinross_Road             Story_Street
+Channel_Center_Street    Knoll_Street             Supple_Road
+Cheverus_Road            Laban_Pratt_Road         Taunton_Avenue
+Claremont_Park           Leseur_Road              Tennyson_Street
+Clay_Street              Lineham_Court            Terrace_Place
+Claybourne_Street        Lovis_Street             Theodore_Street
+Clipper_Ship_Lane        Lynde_Street             Tolman_Street
+Cook_Street              Lynn_Street              Topeka_Street
+Cornelia_Street          Mamelon_Circle           Trapelo_Street
+Corwin_Street            Manila_Avenue            Trident_Street
+Culbert_Street           Manton_Terrace           Trinity_Place
+Dacia_Street             Marney_Street            Unity_Court
+Dalton_Street            Mattapan_Street          Vassal_Lane
+Dana_Avenue              May_Street               Victory_Road
+Davenport_Street         Meadowview_Road          Vinton_Street
+Devine_Way               Merola_Park              Vista_Street
+Dewar_Street             Michigan_Avenue          Waldeck_Street
+Doane_Street             Miles_Street             Wallingford_Road
+Dock_Street              Moloney_Street           Warren_Avenue
+Dorrance_Street          Mount_Ash_Road           Wentworth_Street
+Dover_Street             Mount_Ida_Road           Wesley_Place
+Dresser_Street           Mountain_Avenue          Wheatland_Avenue
+Drumlin_Road             Mozart_Street            Wiget_Street
+Dunstable_Road           Myles_Standish_Road      Wiggin_Street
+Elmore_Street            Mystic_Street            Wilcox_Road
+Embassy_Road             Nazing_Street            Wilkinson_Park
+Enterprise_Street        New_Minton_Street        Willet_Street
+Esther_Road              New_Park_Avenue          Williston_Road
+Estrella_Street          Newcastle_Road           Willowdean_Avenue
+Eugenia_Road             Newcroft_Circle          Wilmington_Avenue
+Fairfield_Street         North_Washington_Street  Winter_Street
+Faunce_Road              Norton_Street            Woodcliff_Street
+Fay_Street               Oak_Hill_Avenue          Wooddale_Avenue
+Fayston_Street           Oak_Place                Worrell_Street
+Fessenden_Street         Oakley_Street            Wycliff_Avenue
+➜  streets git:(master) open Hart_Place
+➜  streets git:(master) open Buckingham_Place
+➜  streets git:(master) cd Interviews
+cd: no such file or directory: Interviews
+➜  streets git:(master) cd interviews
+cd: no such file or directory: interviews
+➜  streets git:(master) cd ..
+➜  mystery git:(master) cd interviews
+➜  interviews git:(master) ls
+interview-000296   interview-2642139  interview-496772   interview-75434722
+interview-00448418 interview-27042476 interview-498331   interview-755037
+interview-00502304 interview-27504937 interview-499096   interview-75633580
+interview-005702   interview-275706   interview-50168425 interview-7580872
+interview-00617019 interview-279087   interview-50291987 interview-77014856
+interview-00805135 interview-280877   interview-504687   interview-770439
+interview-016463   interview-2834518  interview-509105   interview-77135281
+interview-020337   interview-284560   interview-5143029  interview-7791374
+interview-022751   interview-2846076  interview-514793   interview-780255
+interview-0234126  interview-289524   interview-52280505 interview-7863761
+interview-02422821 interview-290346   interview-528044   interview-789564
+interview-0251720  interview-291440   interview-529706   interview-791289
+interview-03098229 interview-2922290  interview-53318557 interview-79360358
+interview-0315125  interview-29316965 interview-535181   interview-79411932
+interview-03316077 interview-2939888  interview-5372865  interview-794525
+interview-034070   interview-296128   interview-538900   interview-7959148
+interview-0349327  interview-29680692 interview-54026669 interview-796439
+interview-04393507 interview-29741223 interview-541518   interview-79667499
+interview-044492   interview-2976680  interview-5455315  interview-79935965
+interview-0462097  interview-29838622 interview-54619323 interview-7998181
+interview-049721   interview-2995681  interview-54851634 interview-8095917
+interview-05297663 interview-301018   interview-549055   interview-809922
+interview-06032377 interview-30259493 interview-55382746 interview-812725
+interview-0613334  interview-3049045  interview-55410365 interview-81443363
+interview-066291   interview-305694   interview-55435298 interview-822576
+interview-071537   interview-305949   interview-55477243 interview-8245680
+interview-0732631  interview-306616   interview-555536   interview-825165
+interview-07497003 interview-3074127  interview-5581158  interview-82705993
+interview-0768255  interview-3099757  interview-55841398 interview-831512
+interview-092423   interview-312546   interview-55984022 interview-833367
+interview-0953437  interview-3128999  interview-565396   interview-838259
+interview-096267   interview-3140662  interview-566707   interview-8387710
+interview-102490   interview-31635890 interview-56784802 interview-8402388
+interview-109118   interview-3201508  interview-56892213 interview-8421696
+interview-1108561  interview-322305   interview-57236791 interview-8464899
+interview-114661   interview-32365018 interview-5739404  interview-84688694
+interview-11495001 interview-324389   interview-5766907  interview-849256
+interview-116803   interview-325611   interview-5774468  interview-85262552
+interview-11705111 interview-32639981 interview-5782759  interview-8531248
+interview-11783660 interview-32712166 interview-579105   interview-856221
+interview-11817172 interview-331178   interview-5835471  interview-8586380
+interview-1186827  interview-332596   interview-586668   interview-861780
+interview-1205060  interview-33399976 interview-58910793 interview-862173
+interview-1250176  interview-340396   interview-5905106  interview-862717
+interview-125204   interview-34041151 interview-591273   interview-8631232
+interview-125271   interview-342393   interview-5993978  interview-86395001
+interview-1269181  interview-34359897 interview-60081985 interview-865918
+interview-1310392  interview-344331   interview-604403   interview-867999
+interview-13768464 interview-34690644 interview-608607   interview-8700943
+interview-13889608 interview-347303   interview-6093093  interview-87126591
+interview-13920860 interview-351963   interview-618764   interview-871877
+interview-1395414  interview-353218   interview-6203192  interview-879569
+interview-141030   interview-353467   interview-628618   interview-8819490
+interview-14153840 interview-354262   interview-63308519 interview-891720
+interview-144873   interview-3588302  interview-637657   interview-896668
+interview-14590717 interview-3609204  interview-637928   interview-9004767
+interview-147283   interview-36398447 interview-638121   interview-901603
+interview-15187437 interview-364735   interview-6417794  interview-901645
+interview-15354942 interview-36527398 interview-645385   interview-90394637
+interview-1536668  interview-376115   interview-6553472  interview-904020
+interview-155049   interview-37747405 interview-65792229 interview-907126
+interview-1578206  interview-3804339  interview-659803   interview-9074626
+interview-159848   interview-3824641  interview-66101490 interview-911451
+interview-16098538 interview-38299069 interview-66282920 interview-91673757
+interview-1642421  interview-3871205  interview-6643191  interview-917210
+interview-1643440  interview-3871242  interview-67279454 interview-9185205
+interview-16889008 interview-38899905 interview-673985   interview-920304
+interview-17248453 interview-3917097  interview-676473   interview-92391023
+interview-17343208 interview-391811   interview-67790846 interview-92670500
+interview-174898   interview-39481114 interview-680549   interview-927642
+interview-1767435  interview-39825862 interview-6808205  interview-9332386
+interview-17827186 interview-40534453 interview-68195573 interview-9346061
+interview-179719   interview-40610944 interview-68488577 interview-93473333
+interview-1811770  interview-409731   interview-68764140 interview-93696502
+interview-18193261 interview-41553314 interview-6884359  interview-938991
+interview-1823688  interview-416243   interview-6894000  interview-9408565
+interview-18270219 interview-41814745 interview-69170457 interview-94126412
+interview-18441251 interview-4204949  interview-6933068  interview-9437737
+interview-1850922  interview-42161907 interview-699607   interview-944493
+interview-1857368  interview-4223536  interview-70067280 interview-9446528
+interview-1906958  interview-4225866  interview-70199425 interview-9501580
+interview-191206   interview-42396365 interview-703831   interview-95095182
+interview-19300543 interview-4262657  interview-704443   interview-95601730
+interview-1933118  interview-42934869 interview-70458099 interview-9618669
+interview-19577850 interview-4299898  interview-7046684  interview-9620713
+interview-2058907  interview-4335306  interview-7066082  interview-9651888
+interview-210355   interview-4366523  interview-706620   interview-9666149
+interview-218131   interview-44533008 interview-707438   interview-97043057
+interview-221039   interview-4463090  interview-708943   interview-9709892
+interview-223913   interview-448086   interview-7103823  interview-9711852
+interview-2277882  interview-45615686 interview-71186817 interview-9712946
+interview-229443   interview-457117   interview-71226767 interview-9728756
+interview-23167806 interview-457451   interview-71298441 interview-97393699
+interview-2326746  interview-466195   interview-7180973  interview-97409610
+interview-23371263 interview-4673074  interview-71993338 interview-980963
+interview-233800   interview-46773428 interview-720268   interview-982013
+interview-2415821  interview-47246024 interview-7254073  interview-9824821
+interview-243703   interview-4735823  interview-728181   interview-98912259
+interview-2481877  interview-4765278  interview-730123   interview-9901455
+interview-250112   interview-476744   interview-73035802 interview-9912172
+interview-253705   interview-478217   interview-7305678  interview-992072
+interview-255531   interview-48088300 interview-73585672 interview-99643550
+interview-25582311 interview-48148020 interview-737609   interview-9969223
+interview-25834905 interview-483817   interview-7422077  interview-999372
+interview-259909   interview-485229   interview-74225310
+interview-2601508  interview-4950099  interview-7469675
+interview-26373485 interview-4961376  interview-7541406
+➜  interviews git:(master) open interview-47246024
+➜  interviews git:(master) open interview-699607
+➜  interviews git:(master) cd ..
+➜  mystery git:(master) ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(master) open vehicles
+➜  mystery git:(master) cd memberships
+➜  memberships git:(master) ls
+1.txt                   Fitness_Galaxy          United_MileagePlus
+2.txt                   Museum_of_Bash_History  delta.txt
+AAA                     REI                     library.txt
+AAdvantage              Rotary_Club             museum.txt
+Costco                  TCSU_Alumni_Association newfile.txt
+Delta_SkyMiles          Terminal_City_Library
+➜  memberships git:(master) open AAA
+➜  memberships git:(master) open Delta_Skymiles
+➜  memberships git:(master) open library.txt
+➜  memberships git:(master) open Museum_of_Bash_History
+➜  memberships git:(master) cd ..
+➜  mystery git:(master) cd ..
+➜  command-line-murder-mystery git:(master) touch solution.txt
+➜  command-line-murder-mystery git:(master) ✗ open solution.txt
+➜  command-line-murder-mystery git:(master) ✗ subl solution.txt
+
+
+The killer is Jeremy Bowers!
