@@ -1,0 +1,153 @@
+320  grep "CLUE" crimescene
+  321  ls
+  322  cd interviews
+  323  ls
+  324  grep "CLUE" interview
+  325  head -n 20 interviews
+  326  head -n20 interviews
+  327  head -n 20 people
+  328  cat hint1
+  329  ls
+  330  cd .
+  331  ls
+  332  cd ..
+  333  ls
+  334  cat people
+  335  head -n20 people
+  336  cd Walton Street
+  337  cat streets
+  338  ls
+  339  cd streets
+  340  cd ..
+  341  ls
+  342  cat people
+  343  grep "Annabel" people
+  344  ls
+  345  cd streets
+  346  ls
+  347  head -n 173 street/Mattapan Street | tail -n1
+  348  head -n 173 street/Mattapan Street | tail -N
+  349  HEAD -N 173 street/Hart Place | tail -n
+  350  head -n 173 street/Hart Place | tail -n
+  351  head -n 173 street/Hart Place | tail -n1
+  352  head -n 173 street/Hart_Place | tail -n1
+  353  head -n 173 Hart_Place | tail -n1
+  354  head -n 173 Buckingham_Place | tail -n1
+  355  head -n 40  Hart_Place | tail -n1
+  356  head -n 179 Buckingham_Place | tail -n1
+  357  ls
+  358  cd ..
+  359  ls
+  360  cd interviews
+  361  ls
+  362  head -n 40 Hart_Place | tail -n1
+  363  head #472446024
+  364  grep #47246024
+  365  grep '#47246024'
+  366  grep '47246024'
+  367  grep "47246024"
+  368  ls | grep "47246024"
+  369  ls | grep "699607"
+  370  cd >>
+  371  cd ..
+  372  ls
+  373  cat vehicles
+  374  grep A 5
+  375  grep "Honda"
+  376  grep "Honda" vehicles
+  377  grep "Honda" "blue" vehicles
+  378  ls
+  379  cd memberships
+  380  ls
+  381  cat AAA Delta SkyMiles United_MileagePlus | grep "Annabel Church"
+  382  cat AAA Delta_SkyMiles United_MileagePlus Museum_of_Bash_History | grep "Annabel Church"
+  383  cat AAA Delta_SkyMiles United_MileagePlus Museum_of_Bash_History | grep "Annabel Sun"
+  384  cat vehicles
+  385  cd ..
+  386  ls
+  387  cd vehicles
+  388  cat vehicles
+  389  ls
+  390  cat people
+  391  cd ..
+  392  ls
+  393  cd mystery
+  394  ls
+  395  cd streets
+  396  ls
+  397  cd ..
+  398  ls
+  399  cd interviews
+  400  ls
+  401  ls | grep "47246024"
+  402  cat interview-47246024
+  403  cat interview-699607
+  404  cd ..
+  405  ls
+  406  cd vehicles
+  407  ls
+  408  cat vehicles
+  409  grep "Honda"
+  410  grep "Honda" vehicles
+  411  grep -A 5 "Honda" vehicles
+  412  grep -B 5 -A 5 "Honda" vehicles
+  413  grep -B 5 -A 5 "Honda" vehicles | grep -B 5 -A 5 "Blue"
+  414  grep -B 5 -A 5 "Honda" vehicles | grep -B 5 -A 5 "Blue" | grep -B5 -A 5 "L337"
+  415  grep -B 5 -A 5 "Honda" vehicles | grep -B 5 -A 5 "Blue" | grep -B5 -A 5 "L337" | grep -B 5 -A 5 "9"
+  416  cd ..
+  417  ls
+  418  cd mystery
+  419  ls
+  420  cat people
+  421  grep "Joe Germuska" people
+  422  grep "Jeremy Bowers" people
+  423  grep "Jacqui Maher" people
+  424  cd ..
+  425  ls
+  426  cd mystery
+  427  ls
+  428  cd streets
+  429  ls
+  430  grep "Dunstable_Street" addresses
+  431  grep "Dunstable_Street" address
+  432  grep "Dunstable_Road" addresses
+  433  grep "Dunstable_Road" address
+  434  ls
+  435  grep "Dunstable_Road" streets
+  436  grep "Dunstable_Road" street
+  437  cat Dunstable_Road
+  438  cat Plainfield St
+  439  cat Plainfield Street
+  440  ls
+  441  cd ..
+  442  ls
+  443  cd interviews
+  444  ls
+  445  grep "9620713" interview
+  446  grep "9620713" interviews
+  447  cat interview 9620713
+  448  cat 9620713
+  449  cat interview-9620713
+  450  ls
+  451  cd ..
+  452  ls
+  453  cd streets
+  454  ls
+  455  grep "Plainfield_Street" streets
+  456  cat Plainfield_Street
+  457  cd ..
+  458  ls
+  459  cd streets
+  460  ls
+  461  cd ..
+  462  ls
+  463  cd interviews
+  464  ls
+  465  cat 29741223
+  466  cat interview-29741223
+  467  grep /?
+  468  grep -?
+  469  grep
+  470  man grep
+
+  PRIME SUSPECT: JEREMY BOWERS 34 Dunstable Rd
