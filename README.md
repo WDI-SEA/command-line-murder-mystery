@@ -31,21 +31,29 @@ To figure out whodunit, you need access to a command line.
 
 ##Getting Started
 
-Once you're ready, fork and clone this repo.
-
-Open a Terminal, go to the location of the files, and start by reading the file 'instructions'.
+* Fork and clone this repo.
+* Once the repo has been cloned...
+  * Open a Terminal
+  * Go to the location of the files
+  * Start by reading the file 'instructions'.
 
 One way you can do this is with the command:
+```
+cat instructions
+```
 
-	cat instructions
-
-To get started on how to use the command line, open cheatsheet.md or cheatsheet.pdf (from the command line, you can type 'nano cheatsheet.md').
-
-Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
+* To get started on how to use the command line, open cheatsheet.md.
+  * Again, you can use the `cat` command to do this
+* Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
 
 ##Submission
 
-Create a file called `solution.txt` and copy/paste the following:
+* Create a file called `solution.txt` in this repo
+* Copy/paste the following:
 
 1. The commands you used to get the solution (hint: run `history` for a list of the commands you ran).
 2. The name of the killer.
+
+* Commit your solution file
+* Push your changes to your forked repo
+* Create a pull request to submit your homework
