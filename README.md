@@ -46,7 +46,7 @@ cat instructions
   * Again, you can use the `cat` command to do this
 * Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
 
-##Submission
+##Deliverables
 
 * Create a file called `solution.txt` in this repo
 * Copy/paste the following:
