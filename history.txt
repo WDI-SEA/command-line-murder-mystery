@@ -1,0 +1,376 @@
+    The Killer was Joe Germuska
+
+    1  which psql
+    2  subl ~/.zshrc
+    3  pingg
+    4  source ~/.zshrc
+    5  pingg
+    6  ze
+    7  source
+    8  zr
+    9  source ~/.zshrc
+   10  zr
+   11  brew update
+   12  brew install rbenv
+   13  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   14  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   15  ze
+   16  zr
+   17  source ~/.zshrc
+   18  ze
+   19  zr
+   20  sudo chown -R $USER ~/.rbenv
+   21  brew update
+   22  brew install ruby-build
+   23  rbenv install 2.2.2
+   24  rbenv global 2.2.2
+   25  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   26  sudo gem update
+   27  sudo gem install rails
+   28  rails -v
+   29  ruby -v
+   30  node -v
+   31  npm -v
+   32  git --version
+   33  psql --version
+   34  subl -v
+   35  clear
+   36  subl
+   37  host www.google.com
+   38  ipconfig
+   39  ifconfig
+   40  clear
+   41  ipconfig
+   42  ipconfig getifaddr
+   43  clear
+   44  ifconfig
+   45  clear
+   46  ping washington.edu
+   47  ping stanford.edu
+   48  ping www.cam.ac.uk
+   49  ping www.u-tokyo.ac.jp
+   50  ping sydney.edu.au
+   51  ping www.hbc.ac.za
+   52  ping www.up.edu.ph
+   53  ping www.ug.edu.gh
+   54  ping 127.0.0.1
+   55  traceroute washington.edu
+   56  curl -I http://www.google.com
+   57  curl -I https://owa.microsoft.com
+   58  clear
+   59  curl -v http://www.google.com
+   60  curl -I http://www.asdaljhdakjdh.com/
+   61  curl -I www.facebook.com
+   62  curl -I www.klsfjdaslkja.com
+   63  cls
+   64  clear
+   65  ls
+   66  pwd
+   67  open .
+   68  ls -a
+   69  ls -l
+   70  ls -a -l
+   71  ../
+   72  cd ~
+   73  clear
+   74  cd /
+   75  pwd
+   76  ls
+   77  cd ~
+   78  cd Documents
+   79  ls
+   80  cls
+   81  clear
+   82  ls
+   83  cd ../..
+   84  cd ~
+   85  clear
+   86  ls
+   87  cd documents
+   88  lis
+   89  ls
+   90  open rockpaperscissors
+   91  open rockpaperscissors.js
+   92  ./users
+   93  /users
+   94  /users/joshgranadosin
+   95  cd ~
+   96  clear
+   97* cd Documents
+   98  mkdir test
+   99  ls
+  100  mkdir html js css
+  101  ls
+  102  cd test
+  103  ls
+  104  touch index.html
+  105  ls
+  106  touch styles.css script.js
+  107  ls
+  108  subl .
+  109  cat index.html
+  110  echo "Another thing"
+  111  echo "Another thing" > index.html
+  112  cat index.html
+  113  echo "Another thing again" >> index.html
+  114  cat index.html
+  115  echo 'Another thing again' >> index.html
+  116  cat index.html
+  117  clear
+  118  cat index.html | echo
+  119  cat index.html | sort
+  120  cat index.html | sort > sorted_stuff.html
+  121  cat sorted_stuff.html
+  122  cat index.html
+  123  ls
+  124  mv index.html ../.
+  125  cd ..
+  126  ls
+  127  mv index.html test.txt
+  128  subl test.txt
+  129  ls
+  130  cd test
+  131  ls
+  132  copy sorted_stuff.html test2.txt
+  133  cp sorted_stuff.html ../test2.txt
+  134  ls
+  135  cd ..
+  136  ls
+  137  cp test Public/.
+  138  ls -la *
+  139  ls -la *.txt
+  140  ls *.txt
+  141  rm *.txt
+  142  ls
+  143  cd test
+  144  ls
+  145  cd ..
+  146  rmdir test
+  147  rm -r test
+  148  ls
+  149  cd css
+  150  ls
+  151  cd js
+  152  cd ..\js
+  153  cd ../js
+  154  ls
+  155  cd ..
+  156  ls
+  157  rm css
+  158  rm -r css
+  159  rm -r js
+  160  ls
+  161  cd html
+  162  ls
+  163  cd ..
+  164  rm -r html
+  165  mkdir Code
+  166  cd code
+  167  md week_00
+  168  ls
+  169  cd week_00
+  170  md git_practice
+  171  git init
+  172  pwd
+  173  xcode
+  174  git init
+  175  touch test.txt
+  176  git status
+  177  git add test.txt
+  178  git status
+  179  md git_practice
+  180  ls
+  181  mv test git_practice/.
+  182  ls
+  183  mv test.txt git_practice/.
+  184  git status
+  185  git add
+  186  git add test.txt
+  187  git status
+  188  git add .
+  189  git add -a
+  190  git add -A
+  191  cd git_practice
+  192  ls
+  193  git status
+  194  git commit -a -m "Created test.txt"
+  195  git status
+  196  subl test.txt
+  197  git status
+  198  git add test.txt
+  199  git status
+  200  git commit test.txt -m "Added a sentence."
+  201  git status
+  202  git log
+  203  git remote add origin git@github.com:joshgranadosin/test-repo.git
+  204  git status
+  205  git remote -v
+  206  git pull
+  207  git remote -v
+  208  git status
+  209  git push origin master
+  210  git pull origin master
+  211  git status
+  212  git push origin master
+  213  cd ..
+  214  cd week_00
+  215  rm -rf .git
+  216  cd git_practice
+  217  git init
+  218  git status
+  219  git add .
+  220  git status
+  221  git pull git@github.com:joshgranadosin/git_practice.git
+  222  git status
+  223  git push git@github.com:joshgranadosin/git_practice.git
+  224  git push --set-upstream git@github.com:joshgranadosin/git_practice.git master
+  225  git status
+  226  git commit -m "Added new test file"
+  227  subl test.txt
+  228  git push origin master
+  229  git push git@github.com:joshgranadosin/git_practice.git master
+  230  git status
+  231  git add .
+  232  git status
+  233  git commit -m "added another sentence"
+  234  code push git@github.com:joshgranadosin/git_practice.git master
+  235  git push git@github.com:joshgranadosin/git_practice.git master
+  236  git checkout search-bar
+  237  git checkout -b branch
+  238  git status
+  239  subl test.txt
+  240  git status
+  241  git add
+  242  git commit -m "Added third sentence for branch"
+  243  git add .
+  244  git status
+  245  git commit -m "Added 3rd sentence for branch"
+  246  git push git@github.com:joshgranadosin/git_practice.git branch
+  247  git remote -v
+  248  cd ..
+  249  git clone git@github.com:joshgranadosin/command-line-murder-mystery.git
+  250  ls
+  251  cd command-line-murder-mystery
+  252  remote -v
+  253  git remote -v
+  254  ls
+  255  subl README.md
+  256  clear
+  257  ls
+  258  cd mystery
+  259  ls
+  260  cd ..
+  261  ls
+  262  cat hint1
+  263  head -n 20 people
+  264  cat hint2
+  265  cat hint1
+  266  cat hint2
+  267  grep "CLUE" mystery/crimescene
+  268  cat hint1
+  269  head -n 20 mystery/people
+  270  cat hint1
+  271  cat hint2
+  272  cat hint3
+  273  head -n 20 mystery/vehicles
+  274  cat hint4
+  275  cat hint2
+  276  grep "Annabel" mystery/people
+  277  ls
+  278  cat hint 5
+  279  cat hint5
+  280  head -n 173 streets/Mattapan_Street | tail -n 1
+  281  head -n 173 mystery/streets/Mattapan_Street | tail -n 1
+  282  ls
+  283  ls mystery
+  284  ls interviews
+  285  ls mystery/interviews
+  286  head -n 173 mystery/streets/Mattapan_Street | tail -n 1
+  287  head -n 20 mystery/interviews/interview-9437737
+  288  clear
+  289  cat hint5
+  290  cat hint 6
+  291  cat hint6
+  292  cat hint7
+  293  cat hint8
+  294  cat hint9
+  295  ls
+  296  grep mystery/crimescene "CLUE"
+  297  cat hint2
+  298  grep "CLUE" mystery/crimescene
+  299  grep "Annabel" mystery/people
+  300  head -n 20 mystery/people
+  301  ls mystery/streets
+  302  ls mystery/streets/W*
+  303  grep "Annabel" mystery/people
+  304  ls mystery/streets/Hart_Place
+  305  ls -a
+  306  ls -a mystery/streets/Hart_Place
+  307  grep "Annabel" mystery/people
+  308  cat hint4
+  309  cat hint5
+  310  cat mystery/streets/Hart_Place
+  311  cat hint 7
+  312  cat hint7
+  313  grep "Annabel" mystery/people
+  314  cat hint3
+  315  cat hint7
+  316  cat hint8
+  317  clear
+  318  grep "CLUE" crimescene
+  319  grep "CLUE" mystery/crimescene
+  320  grep "Annabel" mystery/people
+  321  grep "Annabel" mystery/vehicle
+  322  grep "Annabel" mystery/vehicles
+  323  head -n 20 mystery/people
+  324  head -n 20 mystery/streets/Hart_Place
+  325  cat hint8
+  326  cat hint7
+  327  cat hint6
+  328  cat hint5
+  329  grep "Annabel" mystery/people
+  330  head -n 26 mystery/streets/Hart_Place
+  331  head -n 38 mystery/streets/Buckingham_Place | tail -n 2
+  332  grep "Annabel" mystery/people
+  333  head -n 179 mystery/streets/Buckingham_Place | tail -n 2
+  334  head -n 40 mystery/streets/Hart_Place | tail -n 2
+  335  head -n 40 mystery/interviews/#699607
+  336  ls mystery/interviews/#6*
+  337  ls mystery/interviews
+  338  head -n 40 mystery/interviews/interview-699607
+  339  head -n 40 mystery/interviews/interview-47246024
+  340  ls mystery
+  341  head -n 20 vehicles
+  342  head -n 20 mystery/vehicles
+  343  grep "Make: Honda" mystery/vehicles
+  344  grep "License Plate: L337"
+  345  grep "License Plate: L337" mystery/vehicles
+  346  grep "License Plate L337" mystery/vehicles
+  347  cat hint8
+  348  cat hint7
+  349  grep -A 5 "L337" mystery/vehicles
+  350  grep "CLUE" mystery/crimescene
+  351  head -n 20 mystery/people
+  352  grep "Erika Owens" mystery/people
+  353  grep "Joe Germuska" mystery/people
+  354  grep "Jeremy Bowers" mystery/people
+  355  grep "Jaqui Maher" mystery/people
+  356  grep "Jacqui Maher" mystery/people
+  357  head -n 20 mystery/streets/Dunstable_Road
+  358  head -n 284 mystery/streets/Dunstable_Road | tail -n 1
+  359  cat mystery/interviews/interview-9620713
+  360  head -n 275 mystery/streets/Plainfield_Street | tail -n 1
+  361  cat mystery/interviews/interview-29741223
+  362  cat hint8
+  363  grep "CLUE" crimescene
+  364  grep "CLUE" mystery/crimescene
+  365  ls mystery
+  366  ls mystery/memberships
+  367  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  368  cd mystery/memberships
+  369  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  370  cd ..
+  371  ls
+  372  cat instructions
+
+The killer was Joe Germuska
