@@ -1,0 +1,438 @@
+    1  ls
+    2  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+    3  subl ~/.zshrc
+    4  which psql
+    5  psql --version
+    6  rails -v
+    7  ruby -v
+    8  brew update
+    9  brew install rbenv
+   10  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   11  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   12  source ~/.zshrc
+   13  sudo chown -R $USER ~/.rbenv
+   14  brew update
+   15  brew install ruby-build
+   16  rbenv install 2.2.2
+   17  rbenv global 2.2.2
+   18  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   19  sudo gem update
+   20  sudo gem install rails
+   21  rails -v
+   22  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   23  sudo gem update
+   24  sudo gem install rails
+   25  rails -v
+   26  ruby -v
+   27  node -v
+   28  npm -v
+   29  git --version
+   30  psql --version
+   31  subl -v
+   32  host www.google.com
+   33  PING stanford.edu
+   34  ping washington.edu
+   35  ping universityofvermont.edu
+   36  ping www.cam.ac.uk
+   37  ping www.u-tokyo.ac.jp
+   38  ping www.hbc.ac.za
+   39  ping 127.0.0.1
+   40  traceroute washington.edu
+   41  curl -I http://www.google.com
+   42  curl -v http://www.google.com
+   43  curl -I http://www.google.com
+   44  curl -I http://www.google.com/3433
+   45  curl http://www.google.com -i
+   46  curl http://www.google.com -I
+   47  curl --help
+   48  clear
+   49  pwd
+   50  open .
+   51  ls
+   52  ls -l
+   53  clear
+   54  ls -l Documents
+   55  ls
+   56  clear
+   57  ls -a
+   58  clear
+   59  cd /
+   60  pwd
+   61  ls
+   62  cd Users
+   63  ls
+   64  cd paulcalabrese
+   65  ls
+   66  clear
+   67  subl .
+   68  mkdir test
+   69  ls
+   70  cd test
+   71  touch index.html
+   72  ls
+   73  subl. index.html
+   74  index.html subl.
+   75  subl. index.html
+   76  echo "another thing"
+   77  echo "another thing" >index.html
+   78  cat index.html
+   79  echo "another thing again" >> index.html
+   80  clear
+   81  cat index.html | sort
+   82  cat index.html | sort > sorted.html
+   83  ls
+   84  mkdir html
+   85  ls
+   86  mv index.html sorted.html html
+   87  ls
+   88  cd html
+   89  ls
+   90  cd ..
+   91  ls
+   92  cp html
+   93  ls
+   94  cd html
+   95  ls
+   96  cp index.html
+   97  ls
+   98  cp sorted.html ../.
+   99  ls
+  100  cd ..
+  101  ls
+  102  cd ..
+  103  ls
+  104  cp -r test Desktop
+  105  LS
+  106  cd Desktop
+  107  ls
+  108  ls -la *.js
+  109  ls
+  110  cd..
+  111  ls
+  112  ls -a
+  113  ls
+  114  mkdir GA_Code
+  115  ls
+  116  cd GA_Code
+  117  ls
+  118  mkdir week 0
+  119  mkdir week_0
+  120  ls
+  121  cd week_0
+  122  ls
+  123  mkdir git_practice
+  124  ls
+  125  cd git_practice
+  126  ls
+  127  git init
+  128  ls -la
+  129  touch test.txt
+  130  ls
+  131  git status
+  132  git add test.txt
+  133  pwd
+  134  git status
+  135  git commit -m "first commit"
+  136  subl test.txt
+  137  git status
+  138  git add .
+  139  git status
+  140  git commit -m "added text to text.txt"
+  141  git status
+  142  git remote add origin git@github.com:pacalabre/ga-git-practice.git
+  143  git remote -v
+  144  git push
+  145  git pull
+  146  ls -a ~/.ssh
+  147  cat ~/.ssh/id_rsa.pub
+  148  git pull
+  149  git branch
+  150  git push
+  151  git push --set-upstream origin master
+  152  git pull
+  153  git status
+  154  pwd
+  155  cd ..
+  156  rm -rf git_practice
+  157  git clone git@github.com:pacalabre/ga-git-practice.git
+  158  ls
+  159  cd ga-git-practice
+  160  clear
+  161  git status
+  162  git pull
+  163  ls
+  164  git add test.txt
+  165  git commit -m "added test.txt"
+  166  git push
+  167  cd ..
+  168  git clone git@github.com:pacalabre/ga-git-practice.git
+  169  cd ..
+  170  ls
+  171  cd week
+  172  ls
+  173  git clone git@github.com:pacalabre/ga-git-practice.git
+  174  ls
+  175  cd ga-git-practice
+  176  ls
+  177  git checkout -b search-feature
+  178  clear
+  179  ls
+  180  git status
+  181  subl test.txt
+  182  ls
+  183  git status
+  184  git add .
+  185  git status
+  186  git commit -m "altered test.txt"
+  187  git push origin search-feature
+  188  cd ..
+  189  ls
+  190  cd ..
+  191  ls
+  192  cd week_0
+  193  git clone git@github.com:pacalabre/command-line-murder-mystery.git
+  194  ls
+  195  cd command-line-murder-mystery
+  196  git remote -v
+  197  ls
+  198  cd instructions
+  199  cat instructions
+  200  ls
+  201  cd mystery
+  202  ls
+  203  cd hint1
+  204  cat hint1
+  205  ls
+  206  pwd
+  207  ls
+  208  cd ..
+  209  ls
+  210  cd hint1
+  211  ls
+  212  cat hint1
+  213  hean -n 20 people
+  214  cd ..
+  215  head -n 20 people
+  216  cd mystery
+  217  ls
+  218  cd command-line-murder-mystery
+  219  ls
+  220  cd mystery
+  221  ls
+  222  cd crimescene
+  223  cat crimescene
+  224  cd ..
+  225  ls
+  226  cat hint1
+  227  cd mystery
+  228  ls
+  229  cd crimescene
+  230  cat crimescene
+  231  head -n 20 people
+  232  cd ..
+  233  ls
+  234  cat hint2
+  235  cd mystery
+  236  ls
+  237  cat crimescene
+  238  grep "CLUE" crimescene%
+  239  grep "CLUE" crimescene
+  240  cd ..
+  241  ls
+  242  history
+  243  ls
+  244  cat hint3
+  245  cd mystery
+  246  ls
+  247  head people
+  248  head vehicles
+  249  ls
+  250  cd ..
+  251  ls
+  252  cat hint3
+  253  cat hint4
+  254  ls
+  255  cd mystery
+  256  ls
+  257  grep "Annabel" people
+  258  cat hint 5
+  259  cd ..
+  260  cat hint5
+  261  head -n 173 streets/Mattapan_Street | tail -n 1
+  262  ls
+  263  cd mystery
+  264  ls
+  265  head -n 173 streets/Mattapan_Street | tail -n 1
+  266  pwd
+  267  cd ..
+  268  cat hint5
+  269  cat hint6
+  270  ls
+  271  cd mystery
+  272  grep "Honda" vehicles
+  273  grep "Blue" vehicles
+  274  pwd
+  275  cd ..
+  276  cat hint4
+  277  cd mystery
+  278  grep "Annabel" people
+  279  cat hint1
+  280  cd ..
+  281  cat hint1
+  282  head -n 20 people
+  283  cdpwd
+  284  pwd
+  285  ls
+  286  cd  mystery
+  287  ls
+  288  head -n 20 people
+  289  ls
+  290  cd streets
+  291  ls
+  292  cd ..
+  293  ls
+  294  cd ..
+  295  ls
+  296  cat README.md
+  297  ls
+  298  cat hint1
+  299  cat hint2
+  300  cat hint3
+  301  cat hint4
+  302  cat hint5
+  303  cat hint6
+  304  cat hint7
+  305  cat hint8
+  306  cat instructions
+  307  ls
+  308  cd mystery
+  309  ls
+  310  cat people
+  311  pwd
+  312  ls
+  313  cd ..
+  314  ls
+  315  cat README.md
+  316  pwd
+  317  ls
+  318  cat instructions
+  319  ls
+  320  cd mystery
+  321  ls
+  322  grep ­w "Donald" famousducks.txt
+  323  grep -w "CLUE" crimescene
+  324  pwd
+  325  ls
+  326  cd ..
+  327  ls
+  328  cat hint1
+  329  cat hint2
+  330  cat hint3
+  331  ls
+  332  cd mystery
+  333  ls
+  334  head people
+  335  grep "Annabel" people
+  336  head -n 40 streets
+  337  ls
+  338  cd streets
+  339  ;s
+  340  ls
+  341  cd Buckingham_Place
+  342  cat Buckingham_Place
+  343  cat Hart_Place
+  344  ls
+  345  cd ..
+  346  ls
+  347  cd ..
+  348  ls
+  349  cat hint3
+  350  head vehicles
+  351  ls
+  352  cd mystery
+  353  ls
+  354  head vehicles
+  355  grep -w "Annabel" vehicles
+  356  cat hint4
+  357  cd ..
+  358  ls
+  359  cat hint4
+  360  cat hint5
+  361  cd mystery
+  362  ls
+  363  grep "Annabel" people
+  364  head -n 173 streets/Hart_Place | tail -n 1
+  365  head -n 179 streets/Buckingham_Place | tail -n 1
+  366  head interviews
+  367  cd interviews
+  368  cd ..
+  369  grep "699607" interviews
+  370  cd interviews
+  371  ls
+  372  grep "699607"
+  373  ls
+  374  history
+  375  pwd
+  376  ls
+  377  cd Desktop
+  378  ls
+  379  cd GA_Code/LS
+  380  ls
+  381  cd GA_Code
+  382  ls
+  383  cd week_0
+  384  ls
+  385  cd command-line-murder-mystery
+  386  ls
+  387  cd mystery
+  388  ls
+  389  cd interviews
+  390  ls
+  391  cat interview-699604
+  392  cat interview-699607
+  393  pwd
+  394  cd ..
+  395  ls
+  396  grep "L337" vehicles
+  397  grep "L337.1" vehicles
+  398  ls
+  399  cd ..
+  400  cat hint7
+  401  pwd
+  402  ls
+  403  cd mystery
+  404  grep -A 5 "L337" mystery/vehicles
+  405  grep -A 5 "L337" vehicles
+  406  pwd
+  407  ls
+  408  cd ..
+  409  ls
+  410  cat hint 8
+  411  cat hint8
+  412  cd mystery
+  413  ls
+  414  cd memberships
+  415  cd ..
+  416  grep "Joe Germuska" memberships
+  417  cd memberships
+  418  ls
+  419  grep "Joe Germuska" Delta_SkyMiles
+  420  grep "Jeremy Bowers" Delta_SkyMiles
+  421  grep "Jeremy Bowers" AAA
+  422  grep "Jermey Bowes" Museum_of_Bash_History
+  423  grep "Jeremy Bowers" Museum_of_Bash_History
+  424  grep "Jeremy Bowers" library.txt
+  425  grep "Joe Germuska" AAA
+  426  grep "Joe Germuska" Museum_of_Bash_History
+  427  history
+  428  pwd
+  429  cd ..
+  430  ls
+  431  cd ..
+  432  ls
+  433  cd ..
+  434  ls
+  435  cd command-line-murder-mystery
+  436  ls
+
+  The Killer is "Jeremy Bowers"
