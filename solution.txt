@@ -1,0 +1,242 @@
+
+
+
+
+  185  git clone git@github.com:kendallgoodwin/command-line-murder-mystery.git
+  186  cd command-line-murder-mystery
+  187  git remote -v
+  188  cat instructions
+  189  ls
+  190  cd hint1
+  191  cat hint1
+  192  cat instructions
+  193  cat hint1
+  194  head -n 20 people
+  195  cat hint2
+  196  cd mystery
+  197  ls
+  198  cat crimescene
+  199  cd ..
+  200  ls
+  201  cd mystery
+  202  ls
+  203  cat people
+  204  cd ..
+  205  ls
+  206  cd mystery
+  207  ls
+  208  cat hint3
+  209  cd ..
+  210  cat hint3
+  211  cat hint1
+  212  cat hint2
+  213  cat hint3
+  214  cat hint4
+  215  cat hint5
+  216  cat hint6
+  217  cat hint7
+  218  cat hint8
+  219  ls
+  220  cat instructions
+  221  ls
+  222  cat cheatsheet.md
+  223  ls
+  224  cat hint2
+  225  cd mystery
+  226  ls
+  227  cd crimescene
+  228  grep "CLUE" crimescene
+  229  head -m 20 people
+  230  cat hint1
+  231  cd ..
+  232  ls
+  233  cat hint1
+  234  cat hint3
+  235  ls
+  236  cd mystery
+  237  ls
+  238  head -n 20 people
+  239  grep "annabel" people
+  240  ls
+  241  cd memberships
+  242  ls
+  243  cat AAA
+  244  cd ..
+  245  ls
+  246  cd ..
+  247  ls
+  248  cat hint3
+  249  cat hint4
+  250  ls
+  251  cd mystery
+  252  ls
+  253  grep "Annabel" people
+  254  cd ..
+  255  ls
+  256  cd mystery
+  257  ls
+  258  cd ..
+  259  ls
+  260  cat hint1
+  261  ls
+  262  cat hint5
+  263  ls
+  264  cd mystery
+  265  ls
+  266  cd interviews
+  267  ls
+  268  cd ..
+  269  ls
+  270  cd streets
+  271  ls
+  272  grep "Hart Place" streets
+  273  head -n 40 streets/Hart_Place | tail -n 1
+  274  cat Hart_Place
+  275  head -n 40 streets/Hart_Place | tail -n 1
+  276  cd ..
+  277  ls
+  278  cd ..
+  279  ls
+  280  cat hint6
+  281  ls
+  282  cd mystery
+  283  ls
+  284  grep "CLUE" crimescene
+  285  cd ..
+  286  ls
+  287  cd mystery
+  288  ls
+  289  grep "Annabel" people
+  290  head -n "Hart_Place" streets
+  291  ls
+  292  cd ..
+  293  ls
+  294  cat hint1
+  295  cat hint2
+  296  cat hint3
+  297  cd mystery
+  298  ls
+  299  head -n 20 vehicles
+  300  grep "Annabel" vehicles
+  301  head -n vehicles
+  302  head -n 100 vehicles
+  303  ls
+  304  cd streets
+  305  grep "Buckingham_Place" streets
+  306  ls
+  307  cd ..
+  308  ls
+  309  grep "Annabel" interviews
+  310  cd interviews
+  311  ls
+  312  clear
+  313  cd ..
+  314  ls
+  315  cat cheatsheet.pdf
+  316  clear
+  317  ls
+  318  cat hint1
+  319  cd mystery
+  320  ls
+  321  head -n 20 people
+  322  cd ..
+  323  cat hint2
+  324  cd mystery
+  325  ls
+  326  grep "Annabel" people
+  327  cd ..
+  328  ls
+  329  cat hint3
+  330  cd mystery
+  331  head -n people
+  332  head -n Annabel people
+  333  grep "Annabel" vehicles
+  334  grep "Buckingham Place" vehicles
+  335  cd streets
+  336  cd ..
+  337  cat hint5
+  338  cd mystery
+  339  ls
+  340  head -n 179 streets/Buckingham_Place | tail -n 1
+  341  head -n 40 streets/Hart_Place | tail -n 1
+  342  cd ..
+  343  ls
+  344  cat hint6
+  345  cd ..
+  346  ls
+  347  cd command-line-murder-mystery
+  348  ls
+  349  cat hint4
+  350  cat hint6
+  351  cat hint7
+  352  cat hint1
+  353  cat hint3
+  354  cd mystery
+  355  ls
+  356  cd interviews
+  357  ls
+  358  grep "interview-699607" interviews
+  359  cat interview-699607
+  360  cat interview-47246024
+  361  cd ..
+  362  ls
+  363  grep "L337" vehicles
+  364  cd ..
+  365  ls
+  366  cat hint5
+  367  cat hint6
+  368  cd mystery
+  369  ls
+  370  grep "Honda" vehicles
+  371  ls
+  372  head -n "Honda" vehicles
+  373  head -n vehicles
+  374  cd ..
+  375  open cheatsheet.md
+  376  cd mystery
+  377  ls
+  378  head vehicles
+  379  grep "Honda" vehicles | grep "Blue" | grep "L337" | head
+  380  grep "Honda" vehicles | head
+  381  grep "Honda" vehicles | grep "Blue" vehicles | head
+  382  grep "L337" vehicles
+  383  grep "Honda" vehicles | grep "L337" | head
+  384  ls
+  385  ls vehicles
+  386  cd vehicles
+  387  ls vehicles
+  388  cd ..
+  389  ls
+  390  cat hint7
+  391  cd mystery
+  392  ls
+  393  grep -C 4 "L337" vehicles
+  394  grep -C 4 "Honda" vehicles
+  395  cd ..
+  396  ls
+  397  cat hint 8
+  398  cat hint8
+  399  cd mystery
+  400  ls
+  401  grep "CLUES" crimescene
+  402  cd ..
+  403  ls
+  404  cat hint2
+  405  cd mystery
+  406  ls
+  407  grep "CLUE" crimescene
+  408  ls
+  409  grep -C 4 "L337" vehicles
+  410  ls
+  411  cd memberships
+  412  ;s
+  413  ls
+  414  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  415  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  416  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc-l
+  417  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  418  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  419  cd ..
+
+
+  The killer is... JEREMY BOWERS
