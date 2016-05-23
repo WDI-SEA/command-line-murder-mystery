@@ -1,0 +1,136 @@
+
+  333  git clone git@github.com:brusinow/command-line-murder-mystery.git
+  334  ls
+  335  cd command-line-murder-mystery
+  336  git remote -v
+  337  cat instructions
+  338  ls
+  339  cd mystery
+  340  ls
+  341  open crimescene
+  342  cat crimescene
+  343  ls
+  344  cd ../
+  345  ls
+  346  cat instructions
+  347  ls
+  348  cd mystery
+  349  ls
+  350  cat crimescene
+  351  grep "CLUE" crimescene
+  352  ls
+  353  cd ../
+  354  ls
+  355  open cheatsheet.pdf
+  356  cat hint1
+  357  cd mystery
+  358  ls
+  359  head -n 20 people
+  360  ls
+  361  cat ../hint2
+  362  cat ../hint3
+  363  cat vehicles
+  364  cat ../hint3
+  365  cat ../hint4
+  366  cat ../hint5
+  367  cat ../hint6
+  368  ls
+  369  cd interviews
+  370  ls
+  371  cd ../
+  372  ls
+  373  cat ../hint1
+  374  cat ../hint2
+  375  head -n 20 people
+  376  cat ../hint3
+  377  head -n 20 vehicles
+  378  head -n 300 vehicles
+  379  cat ../hint4
+  380  grep "Annabel" people
+  381  cat ../hint5
+  382  head -n 173 streets/Mattapan_Street | tail -n 1
+  383  ls
+  384  cd interviews
+  385  ls
+  386  cat interview-9437737
+  387  cd ../
+  388  cat ../hint6
+  389  grep "Annabel" people
+  390  head -n 40 streets/Hart_Place | tail -n 1
+  391  cat /interviews/interview-47246024
+  392  cat interviews/interview-47246024
+  393  head -n 179 streets/Haley_Street | tail -n 1
+  394  head -n 176 streets/Haley_Street | tail -n 1
+  395  cat interviews/interview-871877
+  396  head -n 40 streets/Hart_Place | tail -n 1
+  397  cat interviews/interview-47246024
+  398  head -n 179 streets/Buckingham_Place | tail -n 1
+  399  cat interviews/interview-699607
+  400  grep "L337" vehicles
+  401  grep "Honda" vehicles
+  402  \tgrep "Blue" vehicles
+  403  \tgrep "L337" vehicles
+  404  cat ../hint6
+  405  cat ../hint7
+  406  grep -A 5 "L337" vehicles
+  407  cat ../hint8
+  408  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  409  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  410  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc -l
+  411  ls
+  412  cd memberships
+  413  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc -l
+  414  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  415  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  416  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  417  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  418  cd ../
+  419  cat ../hint8
+  420  cat ../hint9
+  421  cat ../hint6
+  422  cat ../hint7
+  423  grep -A 5 "L337" mystery/vehicles
+  424  ls
+  425  cd memberships
+  426  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  427  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  428  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  429  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Matt Waite"
+  430  cat Fitness_Galaxy | grep -c "Jeremy Bowers"
+  431  cat Fitness_Galaxy | grep -c "Joe Germuska"
+  432  cd ../
+  433  cat ../hint3
+  434  cat ../hint4
+  435  grep "Annabel" people
+  436  cat ../hint5
+  437  head -n 179 streets/Buckingham_Place | tail -n 1
+  438  cat interviews/interiew-699607
+  439  ls
+  440  cd interviews
+  441  ls
+  442  cat interiew-699607
+  443  cat interview-699607
+  444  cd ../
+  445  cat ../hint6
+  446  cat ../hint7
+  447  grep -B 5 "L337" vehicles
+  448  grep -C 5 "L337" vehicles
+  449  cat ../hint7
+  450  cat ../hint8
+  451  ls
+  452  ls memberships
+  453  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  454  ls
+  455  cd memberships
+  456  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  457  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  458  cd
+  459  $ history > history.txt
+  460  history > history.txtls
+  461  ls
+  462  cd Code
+  463  ls
+  464  cd week0
+  465  ls
+  466  cd command-line-murder-mystery
+Jeremy Bowers did it.
