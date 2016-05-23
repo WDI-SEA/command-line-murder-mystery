@@ -1,0 +1,363 @@
+ 1  clear
+    2  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+    3  subl ~/.zshrc
+    4  which psql
+    5  brew install rbenv
+    6  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+    7  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+    8  source ~/.zshrc
+    9  sudo chown -R $USER ~/.rbenv
+   10  brew install ruby-build
+   11  rbenv install 2.2.2
+   12  rbenv global 2.2.2
+   13  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   14  clear
+   15  sudo gem update
+   16  sudo gem install rails
+   17  clear
+   18  rails -v
+   19  ruby -v
+   20  node -v
+   21  npm -v
+   22  git --version
+   23  psql --version
+   24  subl -v
+   25  google-shopping-conditionals-loop git(master*) $host www.google.com
+   26  clear
+   27  google-shopping-conditionals-loops
+   28  host www.google. $ifconfig
+   29  google-shopping-conditionals-loops git:(master*) $ifconfig
+   30  $arp -a
+   31  host www.google.com
+   32  host google.com
+   33  $ ping washington.edu
+   34  clear
+   35  $ ping washington.edu
+   36  ping washington.edu
+   37  ping standford.edu
+   38  ping stanford.edu
+   39  ping www.cam.ac.uk
+   40  ping www.u-tokyo.ac.jp
+   41  ping sydney.edu.au
+   42  ping www.hbc.ac.za
+   43  ping 127.0.0.1
+   44  traceroute washington.edu
+   45  traceroute 128.95.155.135
+   46  curl  -I http://www.google.com
+   47  clear
+   48  pwd
+   49  cd/
+   50  cd /
+   51  pwd
+   52  cd users/hannah
+   53  cd documents
+   54  cd Documents
+   55  las
+   56  ls
+   57  cd
+   58  ls
+   59  cd Documents
+   60  cd ../..
+   61  clear
+   62  cd
+   63  cd Downloads
+   64  ls
+   65  cd ..
+   66  cd ~
+   67  cd ~/Documents
+   68  ~
+   69  mkdir test
+   70  ls
+   71  ~ cd test
+   72  cd test
+   73  ls
+   74  touch index.html
+   75  ls
+   76  touch index.html styles.css script.js
+   77  ls
+   78  subl .
+   79  cat index.html
+   80  echo "Another thing"
+   81  echo "Another thing" > index.html
+   82  cat index.html
+   83  echo "another thing again" >> index.html
+   84  cat cat index.html
+   85  cat index.html | sort
+   86  ls
+   87  mv index.html ../.
+   88  ls
+   89  cd ..
+   90  ls
+   91  mv index.html test.txt
+   92  ls
+   93  mv test/styles.css ./stuff.css
+   94  ls
+   95  test ls
+   96  cp sorted_stuff.html ../stuff_copy.html
+   97  cd ..
+   98  ls
+   99  cp test Public/.
+  100  cp -r test Public/.
+  101  ls
+  102  cd ..
+  103  ls
+  104  ls -la *.txt
+  105  ls -la *.doc
+  106  cd ..
+  107  ls
+  108  ~
+  109  ls
+  110  ls la *.txt
+  111  ls *.txt
+  112  ls *.doc
+  113  cd ~
+  114  ~ cd
+  115  ~
+  116  ls -la
+  117  clear
+  118  rm -rf .git
+  119  clear
+  120  mkdir Code
+  121  cd Code
+  122  mkdir Week_1
+  123  cd Week_1
+  124  mkdir git_practice
+  125  cd git_practice
+  126  pwd
+  127  git init
+  128  ls -la
+  129  cd .git
+  130  ls
+  131  cd git_practice
+  132  ls
+  133  cd ..
+  134  git status
+  135  git add test.txt
+  136  git status
+  137  git commit -a -m "adding test.txt file to git_practce"
+  138  git status
+  139  subl test.txt
+  140  git status
+  141  git add -A
+  142  git commit -a -m "added text into test.txt"
+  143  git status
+  144  git log
+  145  git remote add origin git@github.com:hlmbarnes/test-repo.git
+  146  git remote -v
+  147  git pull
+  148  git status
+  149  git push origin master
+  150  git pull origin master
+  151  git status
+  152  git push origin master
+  153  cd ..
+  154  git clone git@github.com:hlmbarnes/test-repo.git
+  155  ls
+  156  cd test-repo
+  157  ls
+  158  got remote -v
+  159  git remote -v
+  160  git checkout -b search-feature
+  161  clear
+  162  ggit status
+  163  git status
+  164  ls
+  165  subl test.txt
+  166  git status
+  167  git add -A
+  168  git status
+  169  git commit -a -m "altered text in test.txt"
+  170  git push origin search-feature
+  171  clear
+  172  cd ..
+  173  git clone git@github.com:hlmbarnes/command-line-murder-mystery.git
+  174  cd command-line-murder-mystery
+  175  git remote -v
+  176  cat instructions
+  177  touch solution.txt
+  178  subl solution.txt
+  179  git status
+  180  git add solution.txt
+  181  git commit -a -m "created solution.txt file for changes"
+  182  cd mystery
+  183  ls
+  184  cd crimescene
+  185  open crimescene
+  186  cd ..
+  187  cat hint1
+  188  head -n 20 people
+  189  open cheatsheet.pdf
+  190  grep w "CLUE"
+  191  grep -w
+  192  grep -w "HINT"
+  193  /files$ grep -i "CLUE" crimescene
+  194  grep -i "CLUE" crimescene
+  195  grep "CLUE" crimescene
+  196  cd mystery
+  197  grep "CLUE"
+  198  cd ..
+  199  ls
+  200  cd mystery
+  201  ls
+  202  grep crimescene -w "CLUE"
+  203  grep "CLUE" crimescene
+  204  cat hint2
+  205  cd ..
+  206  cat hint2
+  207  cat hint3
+  208  cat hint4
+  209  cat hint5
+  210  cd ..
+  211  ls
+  212  git clone git@github.com:hlmbarnes/command-line-murder-mystery.git
+  213  rm command-line-murder-mystery
+  214  cd ..
+  215  cd Week_1
+  216  ls
+  217  rm command-line-murder-mystery
+  218  ls -la
+  219  cd git_practice
+  220  cd ..
+  221  cd test-repo
+  222  cd ..
+  223  rm Week_1/command-line-murder-mystery
+  224  rmdir command-line-murder-mystery
+  225  rmdir -a command-line-murder-mystery
+  226  rmdir -r command-line-murder-mystery
+  227  ls
+  228  git clone git@github.com:hlmbarnes/test-repo.git
+  229  ls
+  230  cd command-line-murder-mystery
+  231  cat instructions
+  232  git status
+  233  cat hint1
+  234  cat hint2
+  235  cat hint3
+  236  cat hint 4
+  237  cat hint4
+  238  cat hint5
+  239  cat hint6
+  240  cat hint7
+  241  cat hint8
+  242  cat hint9
+  243  grep "CLUE" crimescene
+  244  ls
+  245  cd mystery
+  246  ls
+  247  grep "CLUE" crimescene
+  248  grep "Annabel" people
+  249  head -n 173 streets/Mattapan_Street | tail -n 1
+  250  cd ..
+  251  ls
+  252  cd mystery
+  253  ls
+  254  grep "INTERVIEW #9437737" interviews
+  255  cd interviews
+  256  ls
+  257  open 9437337
+  258  open interview-9437737
+  259  head -n 176 streets/Haley_Street | tail -n 1
+  260  head -n 176 streets/Haley_Street
+  261  cd ..
+  262  head -n 176 streets/Haley_Street | tail -n 1
+  263  cd interviews
+  264  open interview-871877
+  265  cd ..
+  266  head -n 40 streets/Hart_Place | tail -n 1
+  267  cd interviews
+  268  open interview-47246024
+  269  cd ..
+  270  head -n 179  streets/Buckingham_Place | tail -n 1
+  271  cd interviews
+  272  open interview-699607
+  273  cd ..
+  274  ls
+  275  cd vehicles
+  276  grep "L337" vehicles
+  277  grep "Honda" vehicles
+  278  grep "Blue" vehicles
+  279  grep "L337" & "Blue vehicles\nq.
+  280  cd vehicles
+  281  grep "L337" vehicles
+  282  grep "L337ZR9" vehicles
+  283  head vehicles
+  284  grep -C 4 "L337ZR9" mystery/vehicles
+  285  cd vehicles
+  286  ls
+  287  grep -C 4 "L337ZR9" vehicles
+  288  grep -C 4 "L337P89" vehicles
+  289  grep -C "L337GX9" vehicles
+  290  grep -C 4 "L337GX9" vehicles
+  291  grep -C 4 "L337QE9" vehicles
+  292  grep -C 4 "L337GB9" vehicles
+  293  grep -C 4 "L337OI9" vehicles
+  294  grep -C 4 "L337X19" vehicles
+  295  grep -C 4 "L337539" vehicles
+  296  grep -C 4 "L3373U9" vehicles
+  297  grep -C 4 "L337369" vehicles
+  298  grep -C 4 "L337DV9" vehicles
+  299  grep -C 4 "L3375A9" vehicles
+  300  grep -C 4 "L337WR9" vehicles
+  301  ls
+  302  cd ..
+  303  cat instructions
+  304  cat hint1
+  305  cat hint2
+  306  cat hint3
+  307  cat hint4
+  308  cat hint5
+  309  cat hint6
+  310  cat hint7
+  311  cat hint8
+  312  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  313  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer"
+  314  cat Fitness_Galaxy AAA United_MileagePlus | grep "Heather Billings"
+  315  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  316  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  317  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  318  ls
+  319  cd mystery
+  320  ls
+  321  cd memberships
+  322  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  323  ls
+  324  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  325  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer"
+  326  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"
+  327  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Aron Pilhofer"
+  328  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Heather Billings"
+  329  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  330  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  331  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  332  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  333  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer"
+  334  cat Fitness_Galaxy AAA United_MileagePlus | grep "Heather Billings"
+  335  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  336  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  337  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  338  cd ..
+  339  ls
+  340  grep "CLUE" crimescene
+  341  cd memberships
+  342  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Erika Owens"
+  343  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Aron Pilhofer"
+  344  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Heather Billings"
+  345  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Joe Germuska"
+  346  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Bowers"
+  347  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jacqui Maher"
+  348  cat Museum_of_Bash_History AAA Delta_SkyMiles Terminal_City_Library | grep "Jeremy Bowers"
+  349  cat Museum_of_Bash_History AAA Delta_SkyMiles Terminal_City_Library | grep "Jacqui Maher"
+  350  cd ..
+  351  grep -C 5 "L337WR9" vehicles
+  352  grep -C 6 "L337WR9" vehicles
+  353  cd memberships
+  354  cat Museum_of_Bash_History AAA Delta_SkyMiles Terminal_City_Library | grep "Jeremy Bowers"
+  355  cd ..
+  356  ls
+  357  grep "Jacqui" people
+  358  grep "Jeremy" people
+  359  cd ..
+  360  touch solution.txt
+  361  subl soulution.txt
+
+  Killer = Jeremy Bowers
