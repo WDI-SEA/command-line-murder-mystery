@@ -1,0 +1,111 @@
+88  git clone git@github.com:emilieg/command-line-murder-mystery.git
+  189  cd commad-line-murder-mystery
+  190  cd command-line-murder-mystery
+  191  ls
+  192  cat instructions
+  193  ls
+  194  cd mystery
+  195  ls
+  196  cd crimescene
+  197  ls
+  198  cat crimescene
+  199  cd ..
+  200  ls
+  201  cd mystery
+  202  ls
+  203  open cheatsheet.pdf
+  204  cd .
+  205  cd ..
+  206  ls
+  207  open cheatsheet.pdf
+  208  grep "CLUE" mystery/crimescene
+  209  cd hint1
+  210  cat hint1
+  211  head hint1
+  212  head -n 20 people
+  213  cd mystery
+  214  ls
+  215  head -n 20 people
+  216  ls
+  217  cd streets
+  218  ls
+  219  grep "line 454"
+  220  cd ..
+  221  ls
+  222  cd ..
+  223  ls
+  224  cat hint2
+  225  cat hint3
+  226  cat hint4
+  227  cat hint5
+  228  cat hint 6
+  229  cat hint 7
+  230  cat hint 8
+  231  cat hint6
+  232  cat hint7
+  233  cat hint8
+  234  ls
+  235  cd mystery
+  236  ls
+  237  head people
+  238  head vehicles
+  239  head -n 433 streets/Walton_Street | tail -n 1
+  240  head -n streets/ Walton Street
+  241  head -n 433
+  242  head -n 433 streets/Walton_Street
+  243  grep "Annabel" people
+  244  head -n 173 streets/Mattapan-Street | tail -n1
+  245  head  -n 173 streets/Mattapan_Street | tail -n1
+  246  grep "#9437737" interiew
+  247  grep "#9437737" interviews
+  248  cat interview-9437737
+  249  cat interview-#9437737
+  250  cd interview 9437737
+  251  cat 9437737 interview
+  252  ls
+  253  cd interviews 9437737
+  254  cat interview/interview-9437737
+  255  cat interviews/interview-9437737
+  256  head -n 176 streets/Haley_Street | tail -n1
+  257  cat interviews/interview-871877
+  258  head -n 40 streets/Hart_Place | tail -n1
+  259  cat interviews/interview-47246024
+  260  head -n 179 streets/Buckingham_Palace
+  261  head -n 179 streets/Buckingham_Place
+  262  cat interviews/interview-699607
+  263  grep "Blue" vehicles
+  264  grep -A 5 "L337" mystery/vehicles
+  265  cd ..
+  266  ls
+  267  cd mystery
+  268  ls
+  269  grep -A 5 "L337" mystery/vehicles
+  270  grep -A 5 "L337" vehicles
+  271  cat hint1
+  272  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc - l
+  273  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  274  cat AAA | grep "Jeremy Bowers"
+  275  cd ..
+  276  ls
+  277  cd ..
+  278  ls
+  279  cd ..
+  280  cd /command-line-mystery
+  281  cd ./command-line-mystery
+  282  ls
+  283  cd week0
+  284  ls
+  285  cd command-line-murder-mystery
+  286  ls
+  287  cd mystery/memberships
+  288  cat AAA Delta_Skymiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  289  cat AAA Delta_Skymiles Museum_of_Bash_History | grep "Joe Germuska"
+  290  cd ..
+  291  ls
+  292  grep "Jeremy Bowers" people
+  293  head -n 284 streets/Dunstable_Road | tail -n 1
+  294  cd interviews
+  295  cat interview-9620713
+  296  cd ..
+  297  touch solution.txt
+  298  subl solution.txt
