@@ -1,0 +1,16 @@
+cd mystery
+head -n 20 people
+grep "CLUE" crimescene
+head -n 20 vehicles
+grep "Annabel" people
+head -n 40 streets/Hart_Place | tail -n 1
+cat interviews/interview-47246024
+head -n 179 streets/Buckingham_Place | tail -n 1
+cat interviews/interview-699607
+grep "Honda" vehicles
+grep "Blue" vehicles
+grep "L337" vehicles
+cd memberships
+cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Joe Germuska"
+Jeremy Bowers is the killer.
