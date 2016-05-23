@@ -1,0 +1,373 @@
+Jeremy Bower
+  1  subl.
+    2  subl .
+    3  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+    4  subl .
+    5  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+    6  subl .
+    7  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+    8  rm /usr/local/bin/subl
+    9  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+   10  subl .
+   11  echo $PATH
+   12  which subl
+   13  /usr/local/bin/subl .
+   14  ln -s /Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+   15  rm /usr/local/bin/subl
+   16  ln -s /Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+   17  subl .
+   18  subl -v
+   19  psql --version
+   20  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+   21  psql --version
+   22  subl ~/.zshrc
+   23  which psql
+   24  psql --version
+   25  brew update
+   26  rbenv -v
+   27  source ~/.zshrc
+   28  brew update
+   29  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   30  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   31  source ~/.zshrc
+   32  sudo chown -R $USER ~/.rbenv
+   33  rbenv install 2.2.2
+   34  rbenv global 2.2.2
+   35  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   36  sudo gem update
+   37  n
+   38  sudo gem install rails
+   39  whoami
+   40  $ host www.google.com
+   41  host www.google.com
+   42  ifconfig
+   43  $ ping 127.0.0.1
+   44  ping 127.0.0.1
+   45  ls -l
+   46  ls
+   47  cd /
+   48  pwd
+   49  ls
+   50  cd /users
+   51  ls
+   52  cd JonniBlayze
+   53  ls
+   54  cd ~
+   55  ls
+   56  mk dir test
+   57  mkdir test
+   58  ls
+   59  cd test
+   60  touch index.html
+   61  ls
+   62  touch styles.css script.js
+   63  ls
+   64  subl .
+   65  cat index.html
+   66  echo "Another thing"
+   67  echo "Another thing" > index.html
+   68  cat index.html
+   69  echo "Another thing again" >> index.html
+   70  cat index.html
+   71  ls\\nls
+   72  cd ~
+   73  ls
+   74  la
+   75  ls
+   76  rm -r test
+   77  ls
+   78  ls -a
+   79  la
+   80  ls
+   81  cd desktop
+   82  ls
+   83  ls -a
+   84  cd wdi
+   85  ls
+   86  cd ~
+   87  git status
+   88  cd desktop
+   89  cd wdi
+   90  git status
+   91  cd~
+   92  cd ~
+   93  ls
+   94  cd documents
+   95  git status
+   96  mkdir Code
+   97  cd code
+   98  ls
+   99  mkdir week1
+  100  cd week1
+  101  cd ~
+  102  ls
+  103  cd desktop
+  104  cd wdi
+  105  ls
+  106  cd git_practice
+  107  git init
+  108  ls -a
+  109  \tls -la
+  110  touch test.txt
+  111  git STATUS
+  112  git status
+  113  git add test.txt
+  114  ls
+  115  pwd
+  116  git status
+  117  git commit
+  118  git status
+  119  cd desktop
+  120  cd wi
+  121  cd wdi
+  122  ls
+  123  cd git_practice
+  124  ls
+  125  git status
+  126  commit -a -m "initial commit"
+  127  git commit -a -m "initial commit"
+  128  ls
+  129  git status
+  130  git add -a
+  131  git status
+  132  git commit -a -m "2nd commit"
+  133  git log
+  134  ls
+  135  git remote add origin git@github.com:mattsluis/Repo1.git
+  136  git remote -v
+  137  git push
+  138  git push --set-upstream origin master
+  139  git pull
+  140  git status
+  141  git push origin master
+  142  git pull origin master
+  143  git status
+  144  git push origin master
+  145  pwd
+  146  cd ..
+  147  git clone
+  148  cd git practice
+  149  cd git_practice
+  150  git remote -v
+  151  git checkout -b search-feature
+  152  git status
+  153  git add test.txt
+  154  git status
+  155  git commit -a -m "poooooooop"
+  156  git status
+  157  git push origin search-feature
+  158  git status
+  159  pwd
+  160  cd desktop
+  161  cd wsi
+  162  cd wdi
+  163  ls
+  164  cd wk1
+  165  git clone git@github.com:mattsluis/command-line-murder-mystery.git
+  166  cd wk1
+  167  git remote -v
+  168  git init
+  169  git status
+  170  git remote -v
+  171  git status
+  172  git commit -a -m
+  173  git commit -a -m "string"
+  174  git add -a
+  175  git add -A
+  176  git status
+  177  git commit -a -m "initial"
+  178  git status
+  179  ls
+  180  cd desktop
+  181  cd wdi
+  182  ls
+  183  cd wk1
+  184  ls
+  185  cd
+  186  ls
+  187  cd desktop
+  188  cd wdi
+  189  wd wk1
+  190  cd wk1
+  191  cd ..
+  192  ls
+  193  cd wk1
+  194  cd command-line-murder-mystery
+  195  ls
+  196  ls-a
+  197  ls -a
+  198  ls -la
+  199  subl .
+  200  cd desktop/wdi/wk1/command-line-murder-mystery
+  201  ls -a
+  202  nano cheatsheet.md
+  203  cd desktop/wdi/wk1/command-line-murder-mystery
+  204  ls -a
+  205  cat instructions
+  206  cd mystery
+  207  ls -a
+  208  cat crimescene
+  209  pwd
+  210  ls
+  211  cat crimescene
+  212  cd .
+  213  ls
+  214  git status
+  215  cd desktop/wdi/wk1/command-line-murder-mystery
+  216  ls
+  217  open instructions
+  218  cd desktop/wdi/wk1/command-line-murder-mystery
+  219  ls -a
+  220  cat instructions
+  221  open hint 1 hint 2 hint 3
+  222  open hint1 hint2 hint3
+  223  open hint4 hint5 hint6
+  224  open hint7 hint8 instructions
+  225  open cheatsheet.md
+  226  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  227  head -n 20 people
+  228  ls
+  229  cd mystery
+  230  ls
+  231  head -n 20 people
+  232  headgrep "clue" crimescene
+  233  grep "clue" crimescene
+  234  head grep "clue" crimescene
+  235  head grep "CLUE" crimescene
+  236  head crimescenes | grep "CLUE"
+  237  head crimescene | grep "CLUE"
+  238  cd .
+  239  ls
+  240  head crimescene | grep "CLUE"
+  241  grep CLUE
+  242  cd desktop/wdi/wk1/command-line-murder-mystery
+  243  cat instructions
+  244  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  245  open instrctions
+  246  open cheatsheet
+  247  open cheatsheet.md
+  248  open instructions
+  249  ls
+  250  cd mystery
+  251  ls
+  252  head -20 people
+  253  gerp "CLUE" crimescene
+  254  grep "CLUE" crimescene
+  255  head -20 vehicles
+  256  grep "License" vehicles
+  257  grep "Annabel" vehicles
+  258  grep -r "Annabel" vehicles
+  259  grep -A 4 "Annabel" vehicles
+  260  grep "Annabel" people
+  261  head -n 173 streets/Mattapan_Street | tail -n 1
+  262  cd interviews
+  263  ls
+  264  cat interview-9437737
+  265  head -n 179 streets/Buckingham_Place | tail -n 
+  266  head -n 179 streets/Buckingham_Place | tail -n 1
+  267  cd .
+  268  ls
+  269  cd .
+  270  ls
+  271  cd .
+  272  pwd
+  273  cd .
+  274  cd ..
+  275  head -n 179 streets/Buckingham_Place | tail -n 1
+  276  cd interviews
+  277  cat interview-699607
+  278  cd ..
+  279  ls
+  280  grep "L337" vehicles
+  281  grep "Honda" vehicles
+  282  grep -A "Honda" vehicles
+  283  grep -A 4 "Honda" vehicles
+  284  grep -A 5 "L337" vehicles
+  285  grep -B 5 "L337" vehicles
+  286  cd desktop/wdi/wk1/command_line_murder_mystery
+  287  ls
+  288  cd desktop/WDI
+  289  cd WK1
+  290  cd command-line-murder-mystery
+  291  cat solution
+  292  ls -a
+  293  cd mystery
+  294  ls -a
+  295  cat solution
+  296  \tgrep -A 5 "L337" vehicles
+  297  grep "Annabel" people
+  298  head -n 40 streets/Hart_Place | tail -n 1
+  299  ls
+  300  cd desktop/wdi/wk1/command-line-murder-mystery
+  301  ls
+  302  cd mystery
+  303  ls
+  304  cd interviews
+  305  ls
+  306  cat interview-47246024
+  307  head -n 179 streets/Buckingham_Place | tail -n 1
+  308  cd ..
+  309  ks
+  310  ls
+  311  head -n 179 streets/Buckingham_Place | tail -n 1
+  312  cd interviews
+  313  cat interview-699607
+  314  cd ..
+  315  grep -A 5 "L337" mystery/vehicles
+  316  cd ..
+  317  grep -A 5 "L337" mystery/vehicles
+  318  cd desktop/wdi/wk1/command-line-murder-mystery
+  319  ls
+  320  cd mystery
+  321  cd desktop/wdi/wk1/command-line-murder-mystery/mystery
+  322  ls
+  323  cd memberships
+  324  cd desktop/wdi/wk1/command-line-murder-mystery/mystery
+  325  ls
+  326  cd memberships
+  327  grep -A 5 "Joe Germuska" AAA
+  328  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+  329  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy_Bowers"
+  330  cd Desktop/WDI/WK1/command-line-murder-mystery/mystery/memberships
+  331  grep -r 
+  332  grep -r "Joe Germuska"
+  333  CD Desktop/wdi/
+  334  ls
+  335  cd desktop/wdi/wk1
+  336  ls
+  337  cd
+  338  ls
+  339  cd Desktop/WDI/WK1/command-line-murder-mystery/mystery/memberships
+  340  grep -r "Joe Germuska"
+  341  cd Desktop/WDI/WK1/command-line-murder-mystery/mystery/memberships
+  342  grep -r "Joe Germuska" *
+  343  cat newfile.txt
+  344  history > history.txt
+  345  ls
+  346  cd ..
+  347  ls
+  348  cd ..
+  349  subl history.txt
+  350  l
+  351  ls
+  352  cd mystery
+  353  ls
+  354  cd memberships
+  355  ls
+  356  subl history.txt
+  357  git add history.txt
+  358  ls
+  359  git status
+  360  git commit -m "command-line-murder-mystery"
+  361  git status
+  362  git push
+  363  ls
+  364  cd interviews'\nasgr\n\n\n\ncd ..\n.............. :(
+  365  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep “Joe Germuska"\n\n\n\n\n
+  366  history
+  367  cd Desktop/WDI/WK1/command-line-murder-mystery/mystery/memberships
+  368  grep -r "Joe Germuska"
+  369  grep -r "Joe Germuska" *
+  370  grep -r "Jeremy Bower"
+  371  grep -r "Jeremy Bower" *
+  372  history
