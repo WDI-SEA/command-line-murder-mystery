@@ -1,0 +1,408 @@
+    1  curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+    2  sudo apt-get install -y build-essential nodejs
+    3  sudo apt-get install postgresql-client postgresql postgresql-contrib
+    4  sudo -u postgres psql postgres
+    5  subl ~/.zshrc
+    6  sudo apt-get install pgadmin3
+    7  quit
+    8  exit
+    9  node -v
+   10  npm -v
+   11  pgserver
+   12  psql
+   13  sudo apt-get update
+   14  sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+   15  cd~
+   16  cd !
+   17  cd ~
+   18  git clone git://github.com/sstephenson/rbenv.git .rbenv
+   19  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   20  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   21  exec $SHELL
+   22  git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+   23  echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.zshrc
+   24  exec $SHELL
+   25  sudo chown -R $USER ~/.rbenv
+   26  rbenv install 2.2.2
+   27  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   28  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   29  rbenv install 2.2.2
+   30  cd ~
+   31  pwd
+   32  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   33  pwd
+   34  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   35  exec $SHELL
+   36  echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.zshrc
+   37  exec $SHELL
+   38  rbenv install 2.2.2
+   39  rbenv global 2.2.2
+   40  ruby -v
+   41  exit
+   42  gem update
+   43  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   44  gem install bundler
+   45  gem install rails
+   46  rails -v
+   47  ruby -v
+   48  which ruby
+   49  which rails
+   50  which bundle
+   51  which gem
+   52  node -v
+   53  git --version
+   54  psql --version
+   55  subl -v
+   56  host www.google.com
+   57  host www.zulily.com
+   58  ipconfig all
+   59  ifconfig
+   60  arp -a
+   61  arp -a | wc
+   62  clear
+   63  ping washington.edu
+   64  $ ping stanford.edu
+   65  ping stanford.edu
+   66  ping www.u-tokyo.ac.jp
+   67  ping www.hbc.ac.za
+   68  ping 127.0.0.1
+   69  traceroute washington.edu
+   70  curl -I http://www.google.com
+   71  curl -v http://www.google.com
+   72  curl -I http://www.zulily.com/blahblah
+   73  curl -I http://www.zulily.com/e/buyers-picks-furniture-174460.html\?ref\=search_carousel
+   74  curl -I http://www.groupon.com/blahblah
+   75  \q
+   76  quit
+   77  \quit
+   78  exit
+   79  clear
+   80  pwd
+   81  open .
+   82  open subl
+   83  start subl
+   84  run subl
+   85  launch subl
+   86  xdg-open Downloads
+   87  cd desktop
+   88  ls
+   89  cd Desktop
+   90  cd ..
+   91  ls -l Documents
+   92  ls -al
+   93  ls -la
+   94  cd /
+   95  cd Desktop
+   96  pwd
+   97  cd ~
+   98  cd Desktop
+   99  ls
+  100  cd ..
+  101  ls
+  102  cd downloads
+  103  cd Downloads
+  104  cd ..
+  105  cd Desktop/
+  106  cd ..
+  107  cd .
+  108  pwd
+  109  cd .
+  110  clear
+  111  cd ..
+  112  ls
+  113  cd ..
+  114  ls
+  115  cd home
+  116  ls
+  117  cd drewrudebusch
+  118  clear
+  119  ls
+  120  cd drew
+  121  cd Drew
+  122  cd
+  123  ls
+  124  cd Drew
+  125  touch html.index
+  126  ls
+  127  subl html.index
+  128  subl .
+  129  touch style.css script.js
+  130  cat html.index
+  131  cat index.html
+  132  cat html.index
+  133  cat index.html
+  134  echo "Words are hard" > index.html
+  135  cat index.html
+  136  echo "Numbers are harder" >> index.html
+  137  cat index.html
+  138  cd ls
+  139  cd ..
+  140  ls
+  141  cat Drew/index.html
+  142  cat index.html | sort
+  143  cat Drew/index.html | sort
+  144  cd Drew
+  145  cat index.html | sort
+  146  grep "drew"
+  147  grep words index.html
+  148  grep -r "words"
+  149  grep -r "words" /Drew/
+  150  ls
+  151  mv clear
+  152  clear
+  153  ls
+  154  cd Photos
+  155  ls
+  156  cd Test
+  157  ls
+  158  cd ..
+  159  mv index.html /Photos/
+  160  mv index.html Photos
+  161  ls
+  162  cd Photos
+  163  ls
+  164  mv index.html ../
+  165  ls
+  166  cd ..
+  167  ls
+  168  cp index.html ./
+  169  cp index.html ../
+  170  cd ..
+  171  ls
+  172  cd Drew
+  173  cp index.html ../index2.html
+  174  ls
+  175  cd ..
+  176  ls
+  177  rm index.html
+  178  ls
+  179  rm index2.html
+  180  ls
+  181  cd Drew
+  182  cp index.html ./index2.html
+  183  ls
+  184  rm index2.html
+  185  ls -la *.txt
+  186  ls -la *.html
+  187  ls *.html
+  188  ls
+  189  rm -r Photos
+  190  ls
+  191  cd ..
+  192  ls
+  193  mkdir code
+  194  ls
+  195  cd code
+  196  mkdir week0
+  197  cd week0
+  198  mkdir git_practice
+  199  cd git_practice
+  200  pwd
+  201  git init
+  202  cd
+  203  ls
+  204  cd code/week00
+  205  ls
+  206  cd git_practice
+  207  cd .git
+  208  ls
+  209  cd branches
+  210  ls
+  211  cd ..
+  212  touch test.txt
+  213  git status
+  214  git add test.txt
+  215  git status
+  216  cd
+  217  ls -al ~/.ssh
+  218  cd code/week00/git_practice
+  219  git status
+  220  git commit -a -m "initial commit"
+  221  git config --global user.email "drewrudebusch@gmail.com"
+  222  git config --global user.name "Drew Rudebusch"
+  223  git config --global push.default simple
+  224  git config --global credential.helper cache
+  225  git status
+  226  git commit -a -m "initial commit"
+  227  git log
+  228  git remote add origin git@github.com:drewrudebusch/test_repo.git
+  229  git status
+  230  ￼
+  231  git@github.com:drewrudebusch/test_repo.git
+  232  git remote -v
+  233  git push --set-upstream origin master
+  234  git push
+  235  git push --set-upstream origin master
+  236  ssh-keygen -t rsa -b 4096 -C "drewrudebusch@gmail.com"
+  237  eval "$(ssh-agent -s)"
+  238  ssh-add ~/.ssh/id_rsa
+  239  sudo apt-get install xclip
+  240  xclip -sel clip < ~/.ssh/id_rsa.pub
+  241  git push --set-upstream origin master
+  242  git pull origin master
+  243  git push
+  244  git push --set-upstream origin master
+  245  cd ..
+  246  git clone git@github.com:drewrudebusch/test_repo.git
+  247  ls
+  248  ls -a
+  249  ls -la
+  250  cd test_repo
+  251  git remote -v
+  252  clear
+  253  git checkout -b search-feature
+  254  subl test.txt
+  255  git add -A
+  256  git status
+  257  git commit -a -m "added text to file"
+  258  git push origin search-feature
+  259  git clone git@github.com:drewrudebusch/command-line-murder-mystery.git
+  260  ls
+  261  cd ..
+  262  ls
+  263  rm -r test_repo
+  264  n
+  265  ls
+  266  cd test_repo
+  267  ls
+  268  rm -r command-line-murder-mystery
+  269  cd ..
+  270  git clone git@github.com:drewrudebusch/command-line-murder-mystery.git
+  271  ls
+  272  cd command-line-murder-mystery
+  273  clear
+  274  ls
+  275  cat instructions
+  276  cd
+  277  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+  278  echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+  279  sudo apt-get update
+  280  sudo apt-get install spotify-client
+  281  cd code
+  282  cd week00
+  283  ls
+  284  cd command-line-murder-mystery
+  285  ls
+  286  cat instructions
+  287  ls
+  288  cd mystery
+  289  ls
+  290  cat crimescene
+  291  clear
+  292  cat crimescene
+  293* cd
+  294* cd code/week00/command-line-murder-mystery
+  295* ls
+  296* cd mystery
+  297* cat crimescene
+  298* pwd
+  299* ls
+  300* cd ..
+  301* ls
+  302* cat cheatsheet.md
+  303* ➜  command-line-murder-mystery git:(master) ls
+  304* ls
+  305* cd mystery
+  306* ls
+  307* grep -n "CLUE" crimescene
+  308  pwd
+  309  ls
+  310  grep -n "CLUE" crimescene
+  311  grep -n "CLUE" crimescene > clues.txt
+  312  ls
+  313  cat clues.txt
+  314  cat people
+  315  cd streets
+  316  ls
+  317  Show line numbers along with the matching lines:
+  318  \tgrep -n "Daffy" famousducks.txt
+  319  cat Oleander_Street
+  320  ls
+  321  cd ..
+  322  ls
+  323  cat hint1
+  324  cat hint2
+  325  cat hint3
+  326  cat hint5
+  327  cat hint4
+  328  grep "Annabel" mystery/people
+  329  grep "Annabel" mystery/people > annabel_addresses.txt
+  330  ls
+  331  mv annabel_addresses.txt mystery
+  332  ls
+  333  cat hint6
+  334  cat hint7
+  335  cat hint8
+  336  cat hint9
+  337  ls
+  338  In order to track down our potential witness, we need to figure out where she lives.
+  339  Try using 'head' on some of the files like 'people' and 'vehicles' and see where we might find that.% To find a matching license plate, or a matching car, you can use grep on the 'vehicles' file:
+  340  \tgrep "Honda" vehicles
+  341  \tgrep "Blue" vehicles
+  342  \tgrep "L337" vehicles
+  343  This doesn't give us anything useful - why not? Try using 'head' on the file to investigate its structure.%To find a matching license plate, or a matching car, you can use grep on the 'vehicles' file:\n\ngrep "Honda" vehicles\n\ngrep "Blue" vehicles\n\ngrep "L337" vehicles\n\nThis doesn't give us anything useful - why not? Try using 'head' on the file to investigate its structure.%To find a matching license plate, or a matching car, you can use grep on the 'vehicles' file:
+  344  \tgrep "Honda" vehicles
+  345  \tgrep "Blue" vehicles
+  346  \tgrep "L337" vehicles
+  347  This doesn't give us anything useful - why not? Try using 'head' on the file to investigate its structure.%To find a matching license plate, or a matching car, you can use grep on the 'vehicles' file:\n\ngrep "Honda" vehicles\n\ngrep "Blue" vehicles\n\ngrep "L337" vehicles\n
+  348  To see who was a member of several different groups, you can combine their membership lists into one and search against that.
+  349  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  350  If you only want to see the number of matches, you can use grep's -c option (the c must be lowercase):\n\ncat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"\n\nOr you can pipe the result to 'wc -l':\n
+  351  pwd
+  352  cd mystery
+  353  head -n 20 people
+  354  head -n 20 vehicles
+  355  ls
+  356  cat annabel_addresses.txt
+  357  head -n 173 streets/Mattapan_Street | tail -n 1
+  358  head -n 179 streets/Hart_Place | tail -n 1
+  359  head -n 176 streets/Haley_Street | tail -n 1
+  360  head -n 179 streets/Buckingham_Place | tail -n 1
+  361  ls
+  362  cat clues.txt
+  363  cd interviews
+  364  ls
+  365  grep interview-9437737
+  366  clear
+  367  pwd
+  368  ls
+  369  head -n 20 interviews
+  370  head -n 20 interview
+  371  cd ..
+  372  ls
+  373  cat clues.txt
+  374  cd ..
+  375  cd mystery
+  376  cd interviews
+  377  cat interview-9437737
+  378  cat interview-871877
+  379  cat interview-699607
+  380  cd ..
+  381  ls
+  382  head -n 20 vehicles
+  383  grep -A 5 "L337" mystery/vehicles
+  384  grep -A 5 "L337" vehicles
+  385  grep -A 5 "L337" vehicles > matching_vehicles.txt
+  386  ls
+  387  cd memberships
+  388  ls
+  389  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  390  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  391  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  392  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"
+  393  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  394  cat AAA D |elta_SkyMiles Museum_of_Bash_History Terminal_City_Library grep -c "Joe Germuska"
+  395  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  396  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  397  git add .
+  398  git status
+  399  git add.
+  400  git add .
+  401  git status
+  402  cd ..
+  403  git add .
+  404  git status
+  405  history
+  406  history tail -n 125 > history.txt
+  407  ls
+  408  cat history.txt

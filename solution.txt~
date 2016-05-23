@@ -1,0 +1,113 @@
+  281  cd code
+  282  cd week00
+  283  ls
+  284  cd command-line-murder-mystery
+  285  ls
+  286  cat instructions
+  287  ls
+  288  cd mystery
+  289  ls
+  290  cat crimescene
+  291  clear
+  292  cat crimescene
+  293* cd
+  294* cd code/week00/command-line-murder-mystery
+  295* ls
+  296* cd mystery
+  297* cat crimescene
+  298* pwd
+  299* ls
+  300* cd ..
+  301* ls
+  302* cat cheatsheet.md
+  303* ➜  command-line-murder-mystery git:(master) ls
+  304* ls
+  305* cd mystery
+  306* ls
+  307* grep -n "CLUE" crimescene
+  308  pwd
+  309  ls
+  310  grep -n "CLUE" crimescene
+  311  grep -n "CLUE" crimescene > clues.txt
+  312  ls
+  313  cat clues.txt
+  314  cat people
+  315  cd streets
+  316  ls
+  319  cat Oleander_Street
+  320  ls
+  321  cd ..
+  322  ls
+  323  cat hint1
+  324  cat hint2
+  325  cat hint3
+  326  cat hint5
+  327  cat hint4
+  328  grep "Annabel" mystery/people
+  329  grep "Annabel" mystery/people > annabel_addresses.txt
+  330  ls
+  331  mv annabel_addresses.txt mystery
+  332  ls
+  333  cat hint6
+  334  cat hint7
+  335  cat hint8
+  336  cat hint9
+  337  ls
+  351  pwd
+  352  cd mystery
+  353  head -n 20 people
+  354  head -n 20 vehicles
+  355  ls
+  356  cat annabel_addresses.txt
+  357  head -n 173 streets/Mattapan_Street | tail -n 1
+  358  head -n 179 streets/Hart_Place | tail -n 1
+  359  head -n 176 streets/Haley_Street | tail -n 1
+  360  head -n 179 streets/Buckingham_Place | tail -n 1
+  361  ls
+  362  cat clues.txt
+  363  cd interviews
+  364  ls
+  365  grep interview-9437737
+  366  clear
+  367  pwd
+  368  ls
+  369  head -n 20 interviews
+  370  head -n 20 interview
+  371  cd ..
+  372  ls
+  373  cat clues.txt
+  374  cd ..
+  375  cd mystery
+  376  cd interviews
+  377  cat interview-9437737
+  378  cat interview-871877
+  379  cat interview-699607
+  380  cd ..
+  381  ls
+  382  head -n 20 vehicles
+  383  grep -A 5 "L337" mystery/vehicles
+  384  grep -A 5 "L337" vehicles
+  385  grep -A 5 "L337" vehicles > matching_vehicles.txt
+  386  ls
+  387  cd memberships
+  388  ls
+  389  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  390  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  391  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  392  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"
+  393  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  394  cat AAA D |elta_SkyMiles Museum_of_Bash_History Terminal_City_Library grep -c "Joe Germuska"
+  395  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  396  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  397  git add .
+  398  git status
+  399  git add.
+  400  git add .
+  401  git status
+  402  cd ..
+  403  git add .
+  404  git status
+  405  history
+  406  history tail -n 125 > history.txt
+  407  ls
+  408  cat history.txt
