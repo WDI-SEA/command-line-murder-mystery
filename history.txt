@@ -1,0 +1,466 @@
+THE KILLER IS JEREMY BOWERS!!!!!!
+
+
+    1  subl ~/.zshrc
+    2  which psql
+    3  brew update
+    4  brew install rbenv
+    5  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+    6  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+    7  source ~/.zshrc
+    8  sudo chown -R $USER ~/.rbenv
+    9  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   10  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   11  source ~/.zshrc
+   12  sudo chown -R $USER ~/.rbenv
+   13  brew update
+   14  brew install ruby-build
+   15  rbenv install 2.2.2
+   16  rbenv global 2.2.2
+   17  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   18  sudo gem update
+   19  sudo gem install rails
+   20  rails -v
+   21  ruby -v
+   22  node -v
+   23  npm -v
+   24  git --version
+   25  psql --version
+   26  subl -v
+   27  pingg
+   28  subl ~/.zshrc
+   29  pingg
+   30  ze
+   31  subl
+   32  ze
+   33  zr
+   34  host google.com
+   35  ipconfig
+   36  ifconfig
+   37  arp -a
+   38  arp -a l wc
+   39  arp -a I sc
+   40  arp -a | wc
+   41  clear
+   42  ping washington.edu # 4 miles away from GA campus
+   43  ping stanford.edu #700 miles from seattle
+   44  ping www.cam.ac.uk # 4,757 miles from seattle
+   45  ping sydney.edu.au # 7,757 miles from seattle
+   46  ping www.facebook.com
+   47  ping www.bape.com
+   48  ping 127.0.0.1
+   49  traceroute washington.edu
+   50  # -I
+   51  curl -I http://www.google.com
+   52  curl -v http://www.google.com
+   53  curl -I http://www.facebook.com
+   54  curl -I www.jefflokm.com
+   55  curl -I www.stephen.com/djhfd
+   56  clear
+   57  ls
+   58  ls 
+   59  ls sh
+   60  ls h
+   61  lsh
+   62  ls
+   63  ls -l
+   64  ls -l documents
+   65  ls -l Documents
+   66  ls -l Downloads
+   67  ls -la
+   68  clear
+   69  pwd
+   70  ls
+   71  / pwd
+   72  /pwd
+   73  / pwd
+   74  / ls
+   75  cd /
+   76  ls
+   77  cd Users/YungKeyble
+   78  cd Users/YungKeybl
+   79  cd ../..
+   80  pwd
+   81  cd ../
+   82  cd Users/YungKeybl
+   83  cd ../
+   84  cd
+   85  cd ..
+   86  cd ../..
+   87  clear
+   88  cd Users/YungKeybl
+   89  type
+   90  ls type
+   91  cd ~
+   92  cd /
+   93  cd ~
+   94  cd ~/Documents
+   95  ls
+   96  push 
+   97  cd /rtc
+   98  cd /etc
+   99  cd /Users/YungKeybl/Documents
+  100  cd
+  101  /
+  102  Documents
+  103  cd 
+  104  clear
+  105  cd Desktop
+  106  cd
+  107  mkdir test html js css
+  108  cd test
+  109  ls
+  110  touch index.html
+  111  ls
+  112  limit
+  113  ls
+  114  touch index.html styles.css script.js
+  115  subl .
+  116  cd
+  117  pingg
+  118  ze
+  119  zr
+  120  ls
+  121  cd test
+  122  ls
+  123  subl .
+  124  cat index.html
+  125  cat script.js
+  126  clear
+  127  echo "Another thing"
+  128  echo "Another thing" > index.html
+  129  cat index.html
+  130  echo "Another thing again" >> index.html
+  131  cat index.html
+  132  cat index.html | sort
+  133  cat index.html | sort > sorted_stuff.html
+  134  ls
+  135  echo index.html | sort 
+  136  cat index.html
+  137  echo sort
+  138  echo | sort
+  139  echo |sort > index.html
+  140  ls
+  141  cat index.html
+  142  ls
+  143  mv index.html ../.
+  144  ls
+  145  cd ..
+  146  ls
+  147  mv index.html test.txt
+  148  ls
+  149  mv test/styles.css ./stuff.css
+  150  ls
+  151  cd
+  152  cp
+  153  clear
+  154  ./test
+  155  ls
+  156  cp sorted_stuff.html ../stuff_copy.html
+  157  ls
+  158  cd
+  159  ls
+  160  cp test Public/
+  161  cp -r Public/.
+  162  cp -r test Public/.
+  163  cd Public
+  164  ls
+  165  clear
+  166  cd
+  167  ls
+  168  \n
+  169  ls -la *.txt
+  170  ls -la stuff*
+  171  ls -la *stuff
+  172  rm *.css
+  173  ls
+  174  ls -la *pub
+  175  ls -la *library
+  176  la -la library*
+  177  ls -la *Library
+  178  clear
+  179  ls -la *Library
+  180  clear
+  181  rm -r test
+  182  ls
+  183  ls -a ~/.ssh
+  184  cat ~/.ssh/id_rsa.pub
+  185  cat ~/.ssh/id_rsa
+  186  clear
+  187  ls
+  188  mkdir GA
+  189  ls
+  190  cd GA
+  191  ls
+  192  mkdir Homework
+  193  ls
+  194  cd Homework
+  195  mkdir Week1 Week2 Week3 Week4 Week5 Week6 Week7 Week8 Week9 Week10 Week11 Week12
+  196  ls
+  197  cd ~/GA
+  198  ls
+  199  mkdir Projects
+  200  ls
+  201  alias
+  202  ~
+  203  ga
+  204  mkdir Code
+  205  cd Code
+  206  mkdir Week0/git_practice
+  207  mkdir Week0
+  208  cd Week0
+  209  mkdir Git_Practice
+  210  cd Git_Practice
+  211  pwd
+  212  ~
+  213  ls
+  214  cd GA
+  215  ls
+  216  cd Homework
+  217  ls
+  218  mkdir Week0
+  219  cd Week0
+  220  mkdir Git_Practice
+  221  cd Git_Practice
+  222  git init
+  223  ls -la
+  224  cd .git
+  225  ls
+  226  cd ../
+  227  touch test.txt
+  228  git status
+  229  git add test.txt
+  230  git status
+  231  pwd
+  232  ../
+  233  ls
+  234  mkdir Work
+  235  ls
+  236  cd Work
+  237  mkdir Week0
+  238  mv Git_Practice Work
+  239  mv ./
+  240  mv ./Git_Practice
+  241  ./
+  242  ../
+  243  ls
+  244  ./
+  245  mv ./Homework/Week0/Git_Practice ./Work/Week0
+  246  ls
+  247  cd Work
+  248  ls Work
+  249  ls
+  250  ls Week0
+  251  ../
+  252  ls Homework
+  253  ls ./Homework/Week0
+  254  ls /Homework/Week0
+  255  ls Homework/Week0
+  256  cd Homework
+  257  cd Week0
+  258  ls
+  259  ../
+  260  ls Work/Week0
+  261  cd Work/Week0/Git_Practice
+  262  git commit -a -m "Initial commit"
+  263  git push
+  264  ls
+  265  git status
+  266  git subl
+  267  subl test.txt
+  268  zr
+  269  git status
+  270  git add test.txt
+  271  git commit -a -m "lalalaText"
+  272  git status
+  273  git log
+  274  git remote add origin git@github.com:BrianBruneau/Git-Practice.git
+  275  git remote -v
+  276  git push
+  277  git push origin master
+  278  git push --set-upstream origin master
+  279  git pull
+  280  git push --set-upstream origin master
+  281  git status
+  282  git push
+  283  git push origin master
+  284  git pull origin master
+  285  git status
+  286  git push origin master
+  287  ls -la
+  288  ../
+  289  git clone git@github.com:BrianBruneau/Git-Practice.git
+  290  ls
+  291  cd Git-Practice
+  292  ls
+  293  git remote -v
+  294  git checkout
+  295  git checkout -b search-feature
+  296  ls
+  297  subl test.txt
+  298  zr
+  299  git status
+  300  git add test.txt
+  301  git commit -a -m "Altered text for test.txt"
+  302  git push origin search-feature
+  303  cd ..
+  304  ../
+  305  ls
+  306  cd Homework
+  307  cd Week0
+  308  git clone git@github.com:BrianBruneau/command-line-murder-mystery.git
+  309  cd command-line-murder-mystery
+  310  git remote -v
+  311  ls
+  312  cat instructions
+  313  subl cheatsheet.pdf
+  314  ls
+  315  subl cheatsheet.md
+  316  cat hint1
+  317  head -n 20 hint1
+  318  head -n 20 people
+  319  subl hint1
+  320  subl hint2
+  321  cd mystery
+  322  ls
+  323  head -n 20 people
+  324  cat people
+  325  clear
+  326  ls
+  327  cd crimescene
+  328  ls -a crimescene
+  329  cd crimescene
+  330  cat crimescene
+  331  clear
+  332  ls
+  333  cat crimescene
+  334  clear
+  335  ls
+  336  ../
+  337  cat hint1
+  338  head -n 20 people
+  339  ls
+  340  cd mystery
+  341  head -n 20 people
+  342  cat people
+  343  ls
+  344  cd GA
+  345  ls
+  346  cd Homework
+  347  ls
+  348  cd Week0
+  349  ls
+  350  cd command-line-murder-mystery
+  351  ls
+  352  nano cheatsheet.md
+  353  cd /GA
+  354  cd GA
+  355  cd Homework/Week0
+  356  cd command-line-murder-mystery
+  357  ls
+  358  subl cheatsheet.md
+  359  subl hint1
+  360  subl hint2
+  361  subl hint3 hint4
+  362  subl hint5 hint6 hint7 hint8
+  363  subl instructions
+  364  cd mystery
+  365  cd
+  366  cd mystery
+  367  cd GA/Homework/Week0
+  368  cd command-line-murder-mystery
+  369  cd mystery
+  370  ls
+  371  grep "CLUE" crimescene > clues.txt
+  372  ls
+  373  cat clues.txt
+  374  grep "Annabel" people > suspects.txt
+  375  ls -a suspects.txt
+  376  cat suspects.txt
+  377  grep "Annabel" vehicles > suspect_vehicles.txt
+  378  cat suspect_vehicles.txt
+  379  head -n 20 vehicles
+  380  grep -C "Annabel" vehicles > suspect_vehicles.txt
+  381  grep -C 4 "Annabel" vehicles > suspect_vehicles.txt
+  382  cat suspect_vehicles.txt
+  383  head -n 173 streets/Mattapan_Street | tail -n 1
+  384  head -n 40 streets/Hart_Place | tail -n 1
+  385  grep -C 6 "47246024" AnnabelInterviews.txt
+  386  grep -C 6 "47246024" > AnnabelInterviews.txt
+  387  grep -C
+  388  grep -C 4 "47246024" > AnnabelInterviews.txt
+  389  ls
+  390  cat AnnabelInterviews.txt
+  391  grep -C 4 "47246024" >> AnnabelInterviews.txt
+  392  cat AnnabelInterviews.txt
+  393  ls
+  394  cat clues.txt
+  395  cat suspects.txt
+  396  cat AnnabelInterviews.txt
+  397  cd interviews
+  398  head -n 40 streets/Hart_Place | tail -n 1
+  399  grep -C 4 "47246024" >> AnnabelInterviews.txt
+  400  grep -C 4 "47246024" 
+  401  ls
+  402  grep "interview-47246024" 
+  403  cd interview-47246024
+  404  cat AnnabelInterviews.txt
+  405  subl interview-47246024
+  406  cat interview-47246024
+  407  ../
+  408  head -n 179 Buckingham_Place | tail -n 1
+  409  head -n 179 streets/Buckingham_Place | tail -n 1
+  410  cd interviews
+  411  cat interview-699607
+  412  ../
+  413  head vehicles
+  414  grep -C 4 "Honda" suspectVehicle.txt
+  415  grep -C 4 "Honda" > suspectVehicle.txt
+  416  grep -A 5 "L337" mystery/vehicles
+  417  grep -A 5 "L337" /mystery/vehicles
+  418  grep -A 5 "L337" vehicles
+  419  grep -A 5 "L337" vehicles >> suspectVehicle.txt
+  420  grep -A 5 "Honda" vehicles >> suspectVehicle.txt
+  421  cd suspectVehicle.txt
+  422  cat suspectVehicle.txt
+  423  grep -A 5 "L337" vehicles >> suspectVehicle.txt
+  424  grep -A 5 "L337" vehicles > suspectVehicle.txt
+  425  cat suspectVehicle.txt
+  426  jjh
+  427  history
+  428  cd  GA/Homework/Week0
+  429  ls
+  430  cd command-line-murder-mystery
+  431  ls
+  432  cd mystery
+  433  ls
+  434  cat suspect_vehicles.txt
+  435  rm suspect_vehicles.txt
+  436  ls
+  437  cat suspectVehice.txt
+  438  cat suspectVehicle.txt
+  439  cat clues.txt
+  440  cd memberships
+  441  ls
+  442  cat AAA Delta_SkyMiles Terminal_City_Library | grep "Jacqui Maher"
+  443  cat AAA Delta_SkyMiles Terminal_City_Library | grep "Jeremy Bowers"
+  444  cat AAA Delta_SkyMiles Terminal_City_Library | grep "Joe"
+  445  cat AAA Delta_SkyMiles Terminal_City_Library Museum_Of_Bash_History | grep "Joe"
+  446  cat AAA Delta_SkyMiles Terminal_City_Library Museum_Of_Bash_History | grep "Jeremy Bowers"
+  447  cat AAA Delta_SkyMiles Terminal_City_Library Museum_Of_Bash_History | grep -c "Jeremy Bowers"
+  448  cat museum.txt
+  449  cd GA/Homework/Week0
+  450  cd command-line-murder-mystery
+  451  cd mystery
+  452  ls
+  453  suspectVehicle.txt
+  454  cat suspectVehicle.txt
+  455  grep "Jacqui Maher" people
+  456  grep "Jeremy Bowers" people
+  457  grep "Joe Germuska" people
+  458  cd memberships
+  459  cat AAA Delta_SkyMiles Terminal_City_Library Museum_Of_Bash_History | grep -c "Jeremy Bowers"
+  460  cat AAA Delta_SkyMiles Terminal_City_Library Museum_Of_Bash_History | grep "Jeremy Bowers"
+  461  cat AAA Delta_SkyMiles Terminal_City_Library Museum_Of_Bash_History | grep "Joe Germuska"
+  462  ..
+  463  ls
