@@ -1,0 +1,146 @@
+269  git clone git@github.com:imdanras/command-line-murder-mystery.git
+  270  ls
+  271  cd command-line-murder-mystery
+  272  cd ..
+  273  ls
+  274  cd command-line-murder-mystery
+  275  ls
+  276  cat README.md
+  277  ls
+  278  cat instructions
+  279  ls
+  280  cd mystery
+  281  ls
+  282  open cheatsheet.md
+  283  cd ..
+  284  ls
+  285  open cheatsheet.md
+  286  ls
+  287  cd mystery
+  288  ls
+  289  cat crimescene
+  290  ls
+  291  cd ..
+  292  ls
+  293  cat instructions
+  294  ls
+  295  cat crimescene | grep CLUE
+  296  ls
+  297  cd mystery
+  298  ls
+  299  cat crimescene | grep CLUE
+  300  touch solution.txt
+  301  ls
+  302  history
+  303  ls
+  304  cd interviews
+  305  ls
+  306  cat interview* | grep CLUE
+  307  ls
+  308  cd 
+  309  ls
+  310  cd Code
+  311  ls
+  312  cd command-line-murder-mystery
+  313  ls
+  314  cd mystery
+  315  ls
+  316  cat peopole
+  317  cat people
+  318  cd memberships
+  319  ls
+  320  cat AAA
+  321  cat Museum_of_Bash_History
+  322  cat library.txt
+  323  ls
+  324  cd .
+  325  ls
+  326  ls ..
+  327  cd streets
+  328  ls
+  329  cd ..
+  330  ls
+  331  cd streets
+  332  ls
+  333  cd ..
+  334  ls
+  335  cat people | grep Annabel
+  336  ls
+  337  cat streets/Hart_Place
+  338  ls
+  339  cat streets 
+  340  cat streets/"Mattapan Street"
+  341  ls
+  342  cd
+  343  ls
+  344  cd Code
+  345  ls
+  346  cd command-line-murder-mystery
+  347  ls
+  348  cd mystery
+  349  ls
+  350  cd streets
+  351  grep Mattapan*
+  352  ls
+  353  cat Mattapan_Street
+  354  ls
+  355  cat Buckingham_Place
+  356  ls
+  357  cat Haley_Street
+  358  cd ..
+  359  ls
+  360  cd interviews
+  361  ls
+  362  cat *47246024
+  363  cat *9437737
+  364  cat *699607
+  365  cat *871877
+  366  cd ..
+  367  ls
+  368  cat vehicles
+  369  cat honda
+  370  cat *honda
+  371  cat Honda
+  372  cat *Honda
+  373  cat "License Plate L337*g"
+  374  ls
+  375  cd vehicles
+  376  ls
+  377  cat L337*
+  378  cat "Make: Honda"
+  379  cat vehicles/"Make: Honda"
+  380  cat vehicles | grep "L337*g"
+  381  cat vehicles 
+  382  cat vehicles | grep "L337"
+  383  cat vehicles | sort
+  384  ls
+  385  cat vehicles
+  386  ls
+  387  cat people
+  388  ls -l "Jeremy Bowers"
+  389  cat people ls -l "Jeremy Bowers"
+  390  sort people
+  391  ls
+  392  cd streets
+  393  ls
+  394  cat Claybourne_Street
+  395  ls
+  396  cat Plainfield_Street
+  397  ls
+  398  cat Dunstable_Road
+  399  cd ..
+  400  ls
+  401  cd interviews
+  402  ls
+  403  cat *1767435
+  404  cat *29741223
+  405  cat *9620713
+  406  ls
+  407  cd ..
+  408  ls
+  409  cd memberships
+  410  ls
+  411  sort AAA
+
+
+Killer has to be Jeremy Bowers. He's the only male with a blue Honda that even has an AAA membership. No other possiblities.
