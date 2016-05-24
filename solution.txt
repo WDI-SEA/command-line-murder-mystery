@@ -1,0 +1,276 @@
+Jeremy Bowers
+
+Home appears to be empty, no answer at the door.
+
+After questioning neighbors, appears that the occupant may have left for a trip recently.
+
+Considered a suspect until proven otherwise, but would have to eliminate other suspects to confirm.
+
+Commands
+--------
+
+
+
+  326  history
+  327  ls
+  328  ls -d */
+  329  ls mystery
+  330  more /mystery/crimescene
+  331  vim /mystery/crimescene
+  332  cd mystery
+  333  ls
+  334  more crimescene
+  335  more crimescene
+  336  cd .
+  337  cd ..
+  338  ls
+  339  touch solutions
+  340  ls mystery
+  341  more mystery/crimescene
+  342  mystery
+  343  ls
+  344  cat crimescene | grep CLUE
+  345  cat crimescene | grep CLUE > ../clues
+  346  cd ..
+  347  ls
+  348  more clues
+  349  cat mystery/crimescene | grep CLUE > ../clues
+  350  more clues
+  351  cat mystery/crimescene | grep -i annabel
+  352  cat .
+  353  cat -r
+  354  cat *
+  355  ls
+  356  cat *|\n\n\n\n\n\n\n|
+  357  \\\\|\n\n\n\n\n\ni
+  358  cat *
+  359  history
+  360  cat * | grep -i anabel\n\n\n\n\n\n\n|
+  361  ls
+  362  history
+  363  ls
+  364  cat hint*
+  365  cat hint* |\n\nt
+  366  ls
+  367  cat clues
+  368  cat hint* | grep -i annabel
+  369  ls
+  370  ls mystery
+  371  ls mystery/streets
+  372  ls mystery/interviews
+  373  cat mystery/interviews/interview-*
+  374  cat mystery/interviews/interview-* | grep annabel
+  375  cat mystery/interviews/interview-* | grep -i annabel
+  376  cat mystery/interviews/interview-* | grep -i a
+  377  cat mystery/interviews/interview-* | grep -iannabel
+  378  cat hint* | grep -i annabel
+  379  cat mystery/crimescene | grep -C 4 CLUE
+  380  cat mystery/crimescene | grep -C
+  381  cat mystery/crimescene | grep -C 4 CLUE > ../clues
+  382  ls
+  383  more clues
+  384  cat mystery/crimescene | grep -C 4 CLUE > ../clues
+  385  more clues
+  386  cat mystery/crimescene | grep -C 4 CLUE
+  387  cat mystery/crimescene | grep -C 4 CLUE > clues
+  388  ls
+  389  more clues
+  390  more mystery/people
+  391  ls mystery/streets/Hart_Place
+  392  more mystery/streets/Hart_Place
+  393  more mystery/streets/Hart_Place | grep -C 40
+  394  tail -40 mystery/streets/Hart_Place
+  395  head -40 mystery/streets/Hart_Place
+  396  more mystery/interviews/interview-47246024
+  397  more mystery/people | grep -i sun
+  398  more mystery/people | grep -i ms. sun
+  399  more mystery/people | grep -i sun
+  400  ls
+  401  echo "Ms. Sun has brown hair and is not from New Zealand.  Not the witness from the cafe." >> clues
+  402  more clues
+  403  ls
+  404  more mystery
+  405  more mystery/interviews/interview-* | grep male
+  406  more mystery/interviews/interview-* | grep -i male
+  407  more mystery/people | grep -i annabel
+  408  more mystery/people | grep -i annabel >> clues
+  409  more clues
+  410  head mystery/streets/Buckingham_Place -179
+  411  head -179 mystery/streets/Buckingham_Place
+  412  head -173 mystery/streets/Mattapan_Street
+  413  more mystery/interviews/interview-9437737
+  414  ls
+  415  more clues
+  416  more mystery/interviews/interview-* | grep male
+  417  more mystery/interviews/interview-* | grep -i Fuglsang
+  418  more mystery/streets/* | grep -i Fuglsang
+  419  ls
+  420  more mystery/memberships/AAA
+  421  more mystery/memberships/AAA | grep -i Annabel
+  422  more mystery/memberships/Museum_of_Bash_History | grep -i Annabel
+  423  more mystery/memberships/delta.txt | grep -i Annabel
+  424  more mystery/memberships/delta.txt | grep -i Church
+  425  more mystery/memberships/delta.txt
+  426  more mystery/memberships/Rotary_Club | grep -i Church
+  427  more mystery/people | grep -i Church
+  428  more mystery/vehicles | grep -i Church
+  429  more mystery/vehicles | grep -C 4 -i Church
+  430  more mystery/vehicles | grep -C 8 -i Church
+  431  more mystery/vehicles | grep -C 5 -i Church
+  432  more mystery/vehicles | grep -C 4 -i Church
+  433  more mystery/vehicles | grep -C 3 -i Church
+  434  more mystery/vehicles | grep -C 3 -i Church >> clues
+  435  more clues
+  436  more mystery/crimescene | grep L2E48EF
+  437  more mystery/crimescene | grep "L2E48EF"
+  438  more mystery/memberships | grep "L2E48EF"
+  439  more mystery/vehicles | grep "L2E48EF"
+  440  ls
+  441  more mystery/interviews/interview-*
+  442  more mystery/interviews/interview-* | grep -i Annabel
+  443  cat mystery/interviews/interview-* > allinterviews
+  444  cat allinterviews
+  445  more allinterviews
+  446  ls
+  447  cat allinterviews
+  448  cat allinterviews | grep -i Annabel
+  449  cat allinterviews | grep -i annabel
+  450  cat allinterviews | grep -i anabel
+  451  more clues
+  452  cat allinterviews | grep -i annabel
+  453  cat allinterviews | grep -i sun
+  454  cat allinterviews | grep -C4 -i sun
+  455  cat allinterviews | grep -C8 -i sun
+  456  more mystery/crimescene
+  457  more mystery/crimescene/
+  458  more clue
+  459  more clues
+  460  cat allinterviews | grep -C8 -i bmw
+  461  cat allinterviews | grep -C8 -i orange
+  462  cat allinterviews | grep -C8 -i 
+  463  ls
+  464  more hint1
+  465  more hint2
+  466  more hint3
+  467  history
+  468  head mystery/people
+  469  history
+  470  more mystery/interviews/interview-* | grep -i Fuglsang
+  471  head -173 mystery/streets/Mattapan_Street
+  472  ls
+  473  cat mystery/streets/* > allstreets
+  474  cat allstreets | grep -i SEE INTERVIEW
+  475  cat allstreets | grep -i "SEE INTERVIEW"
+  476  cat allstreets | grep -i "SEE INTERVIEW" >> clues
+  477  more clues
+  478  cat cheatshe
+  479  ls
+  480  history
+  481  history | grep interview
+  482  more clues
+  483  ls
+  484  cat allinterviews | grep -C4 862173
+  485  cat allinterviews | grep -C4 904020
+  486  cat allinterviews | grep -C4 699607
+  487  cat allinterviews | grep -C4 141030
+  488  cat allinterviews | grep -C4 55435298
+  489  cat allinterviews | grep -C4 1767435
+  490  cat allinterviews | grep -C4 2939888
+  491  cat allinterviews | grep -C4 706620
+  492  cat allinterviews | grep -C4 9620713
+  493  cat allinterviews | grep -C4 3804339
+  494  cat allinterviews | grep -C4 871877
+  495  cat allinterviews | grep -C4 628618
+  496  cat allinterviews | grep -C4 47246024
+  497  cat allinterviews | grep -C4 56892213
+  498  cat allinterviews | grep -C4 30259493
+  499  cat allinterviews | grep -C4 9437737
+  500  cat allinterviews | grep -C4 29741223
+  501  tail clues
+  502  ls
+  503  cd git
+  504  ls
+  505  cd c*
+  506  ls
+  507  tail clues
+  508  cat allinterviews | grep -C4 29741223
+  509  cat allinterviews | grep -C4 9346061
+  510  cat allinterviews | grep -C4 476744
+  511  cat allinterviews | grep -C4 174898
+  512  cat allinterviews | grep -C4 290346
+  513  cat allinterviews | grep -C4 82705993
+  514  cat allinterviews | grep -C4 737609
+  515  cat allinterviews | grep -C4 5455315
+  516  cat allinterviews | grep -C4 79667499
+  517  cat allinterviews
+  518  cat allinterviews | grep -C4 79
+  519  cat allinterviews | grep -C4 7
+  520  cat allinterviews | grep -C4 79
+  521  tail -10 clues
+  522  tail -15 clues
+  523  tail -20 clues
+  524  ls
+  525  more hint4
+  526  more hint5
+  527  more hint6
+  528  cat mystery/vehicles | grep L337
+  529  cat mystery/vehicles | grep L337*9
+  530  cat mystery/vehicles | grep L3
+  531  ls
+  532  cat allinterviews | grep -i Jeremy
+  533  cat allinterviews | grep -i Bow
+  534  cat allinterviews | grep -i Bowe
+  535  cat allinterviews | grep -i Bower
+  536  cat allinterviews | grep -i Erika
+  537  cat allinterviews | grep -i owons
+  538  cat allinterviews | grep -i ow
+  539  cat allinterviews | grep -i owe
+  540  cat allinterviews | grep -i owen
+  541  cat allinterviews | grep -C4 -i owen
+  542  cat allinterviews | grep -i owen
+  543  cat allinterviews | grep -i mike
+  544  cat allinterviews | grep -i bost
+  545  cat allinterviews | grep -C4 -i bost
+  546  cat allinterviews | grep -i bost
+  547  cat allinterviews | grep -i joe
+  548  cat allinterviews | grep -i jo
+  549  cat allinterviews | grep -i ger
+  550  cat allinterviews | grep -i germ
+  551  vi
+  552  cat mystery/people| grep -i jac
+  553  cat mystery/people| grep -i jacqui
+  554  cat mystery/people| grep -i joe
+  555  cat mystery/people| grep -i germ
+  556  cat mystery/people| grep -i germuska
+  557  cat mystery/people| grep -i germuska >> clues
+  558  cat -275 mystery/streets/Plainfield_Street | tails -1
+  559  cat -275 mystery/streets/Plainfield_Street | tails 1
+  560  cat -275 mystery/streets/Plainfield_Street
+  561  cat mystery/streets/Plainfield_Street
+  562  cat
+  563  cat --help
+  564  cat hint5
+  565  head -n 275 mystery/streets/Plainfield_Street | tails -n 1
+  566  head -n 275 mystery/streets/Plainfield_Street | tail -n 1
+  567  head -n 275 mystery/streets/Plainfield_Street | tail -n 1 >> clues
+  568  ls
+  569  cat mystery/interviews/interview-29741223
+  570  cat mystery/people| grep -i germuska >> clues
+  571  cat mystery/people| grep -i mike
+  572  cat mystery/people| grep -i erik
+  573  cat mystery/people| grep -i erika
+  574  head -n 287 mystery/streets/Senders_Court | tail -n 1 >> clues
+  575  head -n 287 mystery/streets/Senders_Court | tail -n 1
+  576  cat mystery/people| grep -i erik
+  577  cat mystery/people| grep -i erika
+  578  head -n 98 mystery/streets/Trapelo_Street | tail -n 1
+  579  cat mystery/people| grep -i jerem
+  580  head -n 284 mystery/streets/Dunstable_Road | tail -n 1
+  581  ls
+  582  cat mystery/interviews/interview-9620713
+  583  cat mystery/interviews/interview-9620713 >> solutions
+  584  mv solutions solutions.txt
+  585  cat mystery/people| grep -i joe
+  586  history
+  587  cat mystery/people| grep -i joe
+  588  head -n 275 mystery/streets/Plainfield_Street | tail -n 1
