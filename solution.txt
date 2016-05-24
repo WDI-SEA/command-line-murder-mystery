@@ -1,0 +1,22 @@
+1. The commands you used to get the solution (hint: run `history` for a list of the commands you ran).
+
+	cd
+	..
+	ls
+	subl [file]
+	cat [file]
+	cat | more [file]
+	cat [file] | grep CLUE
+	head -n [line from people file] [street_file]
+	head -n 20 vehicles
+	grep "[content]" [file]
+	grep A- 5 "L337" vehicles 
+	grep -A 5 "L337" vehicles > vehiclesL337.txt
+	grep -A 4 "Honda" vehiclesL337
+	grep "[lastName]" *
+	touch [newFile]
+
+
+2. The name of the killer.
+
+	Jeremy Bowers
