@@ -1,0 +1,249 @@
+1. The commands I used to find the killer (from start to finish!) were:
+98  open crimescene
+   99  cat crimescene
+  100  clear
+  101  ..
+  102  touch solution.txt
+  103  subl solution.txt
+  104  cd mystery
+  105  open cheatsheet.md
+  106  ..
+  107  open cheatsheet.md
+  108  cat instructions
+  109  grep -C 4 "CLUE" cluesheet.txt
+  110  touch cluesheet.txt
+  111  grep -C 4 "CLUE" cluesheet.txt
+  112  cat cluesheet.txt
+  113  ls
+  114  cd mystery
+  115  ls
+  116  ..
+  117  ls
+  118  grep -C 4 "CLUE" mystery/crimescene | cluesheet.txt
+  119  grep -C 4 "CLUE" mystery/crimescene | cp cluesheet.txt
+  120  ls
+  121  cat cluesheet.txt
+  122  open cluesheet.txt
+  123  grep -C 4 "CLUE" mystery/crimescene > cluesheet.txt
+  124  cat cluesheet.txt
+  125  ls
+  126  cd mystery
+  127  ls
+  128  cat people
+  129  touch annabels.txt
+  130  grep "Annabel" people >> annabels.txt
+  131  ls
+  132  cat annabels.txt
+  133  ls
+  134  cd memberships
+  135  ls
+  136  cat AAA
+  137  grep "Annabel" memberships > annabelMemberships.txt
+  138  ..
+  139  touch annabelMemberships.txt
+  140  cd memberships
+  141  grep "Annabel" memberships > annabelMemberships.txt
+  142  grep "Annabel" memberships > mystery/memberships/annabelMemberships.txt
+  143  cd mystery
+  144  ..
+  145  grep "Annabel" mystery/memberships > annabelMemberships.txt
+  146  grep -A 1 "Annabel" memberships > mystery/AnnabelMemberships.txt
+  147  history
+  148  grep "Annabel" memberships > annabelMemberships.txt
+  149  cd membership
+  150  cd memberships
+  151  ls
+  152  ..
+  153  grep "Annabel" memberships/AAA > annabelMemberships.txt
+  154  cat annabelMemberships.txt
+  155  cat annabels.txt
+  156  cd memberships
+  157  ls
+  158  grep "Annabel" memberships/Delta_SkyMiles >> annabelMemberships.txt
+  159  ..
+  160  grep "Annabel" memberships/Delta_SkyMiles >> annabelMemberships.txt
+  161  cat annabelMemberships.txt
+  162  mv annabelMemberships.txt annabelMembershipsAAA.txt
+  163  ls
+  164  touch annabelMembershipsDelta_SkyMiles.txt
+  165  grep "Annabel" memberships/Delta_SkyMiles > annabelMembershipsDelta_SkyMiles.txt
+  166  cat annabelMembershipsDelta_SkyLines.txt
+  167  ls
+  168  cat annabelMembershipsDelta_SkyMiles.txt
+  169  grep "Annabel" memberships/Delta_SkyMiles >> annabelMembershipsDelta_SkyMiles.txt
+  170  cat annabelMembershipsDelta_SkyMiles.txt
+  171  touch annabelLibrary.txt
+  172  mv annabelMembershipsDelta_SkyMiles.txt annabelDelta.txt
+  173  ls
+  174  mv annabelMembershipsAAA.txt annabelAAA.txt
+  175  ls
+  176  cd memberships
+  177  ls
+  178  ..
+  179  grep "Annabel" memberships/library.txt >> annabelLibrary.txt
+  180  cd memberships
+  181  ls
+  182  ..
+  183  ls
+  184  cat annabelLibrary.txt
+  185  open annabelLibrary.txt
+  186  cd interviews
+  187  ls
+  188  ..
+  189  touch interviewsAll.txt
+  190  cd interviews
+  191  cat int* >> mystery/interviewsAll.txt
+  192  cat int* >> interviewsAll.txt
+  193  grep -A 4 "Annabel" interviewsAll.txt 
+  194  ..
+  195  touch annabelInterviews.txt
+  196  cd interviews
+  197  grep -A 4 "Annabel" interviewsAll.txt >> annabelInterviews.txt
+  198  ..
+  199  ls
+  200  cat annabelInterviews.txt
+  201  ls
+  202  cd interviews
+  203  grep -A 4 "Olu*" interviewsAll.txt >> annabelInterviews.txt
+  204  cat annabelInterviews.txt
+  205  open annabelInterviews.txt
+  206  grep -A 6 "Sun" interviewsAll.txt >> annabelInterviews.txt
+  207  cat annabelInterviews.txt
+  208  grep -A 4 "Church" interviewsAll.txt >> annabelInterviews.txt
+  209  cat annabelInterviews.txt
+  210  grep -A 6 "Fuglsang" interviewsAll.txt >> annabelInterviews.txt
+  211  cat annabelInterviews.txt
+  212  ..
+  213  ls
+  214  ..
+  215  ls
+  216  cd mystery
+  217  ls
+  218  cd streets
+  219  ls
+  220  cat Oakley_Street
+  221  ..
+  222  ls
+  223  cd memberships
+  224  ls
+  225  cat Delta_SkyMiles
+  226  ..
+  227  ls
+  228  cat annabels.txt
+  229  ls
+  230  cd memberships
+  231  ls
+  232  cat Delta_SkyMiles | sort > sortedDelta.txt
+  233  cat SortedDelta.txt
+  234  ..
+  235  ls
+  236  cat vehicles
+  237  touch vehiclesL337.txt
+  238  grep -A 5 "L337*" > vehiclesL337.txt
+  239  grep -A 5 "L337*" vehiclesL337.txt
+  240  cat vehiclesL337.txt
+  241  grep -A 5 "L337*" vehicles > vehiclesL337.txt
+  242  cat vehiclesL337.txt
+  243  touch L337Honda.txt
+  244  grep -C 4 "Honda" vehiclesL337.txt > L337Honda.txt
+  245  cat L337Honda.txt
+  246  ..
+  247  cd mystery
+  248  ls
+  249  touch JeremyInterview.txt
+  250  grep -C 6 "Jeremy" interviewsAll.txt >> JeremyInterview.txt
+  251  cat JeremyInterview.txt
+  252  grep -C 6 "Jeremy" interviewsAll.txt > JeremyInterview.txt
+  253  cat JeremyInterview.txt
+  254  grep -i "jeremy" interviewsAll.txt
+  255  grep -C 6 "Germuska" interviewsAll.txt
+  256  touch interviewSnips.txt
+  257  grep -C 6 "Germuska" interviewsAll.txt >> interviewSnips.txt
+  258  cat interviewSnips.txt
+  259  grep -C 6 "germuska" interviewsAll.txt >> interviewSnips.txt
+  260  cat interviewSnips.txt
+  261  cat interviewsAll.txt
+  262  cat interviewsAll
+  263  cat interviewsAll.txt
+  264  ls
+  265  interviews
+  266  ls
+  267  cat interviewsAll.txt
+  268  clear
+  269  grep -C 6 "Germuska" interviewsAll.txt >> interviewSnips.txt
+  270  cat interviewSnips.txt
+  271  grep -C 6 "germuska" interviewsAll.txt >> interviewSnips.txt
+  272  cat interviewSnips.txt
+  273  ..
+  274  ls
+  275  cat people
+  276  touch GermuskaAddress.txt
+  277  grep -i "germuska" interviews/interviewsAll.txt > GermuskaAddress.txt
+  278  cat GermuskaAddress.txt
+  279  history
+  280  interviews
+  281  ls
+  282  cat interviewsAll.txt | grep "Germuska" >> GermuskaAddress.txt
+  283  cat GermuskaAddress.txt
+  284  cat interviewsAll.txt | grep -i "Joe" >> GermuskaAddress.txt
+  285  cat GermuskaAddress.txt
+  286  ls
+  287  ..
+  288  ls
+  289  grep -i "joe" interviews/interviewsAll.txt
+  290  interviews
+  291  grep -i "joe" interviewsAll.txt
+  292  grep -i "ba*" interviewsAll.txt
+  293  ..
+  294  rm interviewsAll.txt
+  295  ls
+  296  interviews
+  297  cat interviewsAll.txt
+  298  history
+  299  grep -i "joe" interviewsAll.txt
+  300  grep -i "erika" interviewsAll.txt
+  301  grep -i "bostock" interviewsAll.txt
+  302  grep -i "owens" interviewsAll.txt
+  303  grep -i "Germuska" interviewsAll.txt
+  304  grep -i "Maher" interviewsAll.txt
+  305  ..
+  306  ls
+  307  grep -i "Bowers" people
+  308  grep -i "Germuska" people
+  309  ls
+  310  streets
+  311  ls
+  312  grep -i "Bowers" Dunstable_Road
+  313  cat Dunstable_Road
+  314  head -n 284 Dunstable_Road | tail -n 1
+  315  ..
+  316  ls
+  317  interviews
+  318  ls
+  319  cat interview-9620713
+  320  history
+  321  ..
+  322  streets
+  323  ls
+  324  history
+  325  head -n 275 Plainfield_Street | tail -n 1
+  326  ..
+  327  interviews
+  328  cat interview-29741223
+  329  ..
+  330  ls
+  331  memberships
+  332  ls
+  333  grep -i "bowers" AAA
+  334  grep -i "bowers" Delta_SkyMiles
+  335  grep -i "bowers" Museum_of_Bash_History
+  336  grep -i "bowers" library.txt
+  337  ..
+  338  ls
+  339  ..
+  340  ls
+  341  cat solution.txt
+  342  open solution.txt
+
+
+2. And the killer is: Jeremy Bowers… that sonuvabitch!!!
