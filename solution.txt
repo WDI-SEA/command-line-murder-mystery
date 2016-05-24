@@ -1,0 +1,204 @@
+  439  2016-05-23_18:24:40 cd Code/command-line-murder-mystery/mystery/streets/
+  440  2016-05-23_18:24:42 lr
+  441  2016-05-23_18:25:07 cat Glenville_Avenue 
+  442  2016-05-23_18:25:25 vim Glenville_Avenue 
+  443  2016-05-23_18:26:10 cat Glenville_Avenue | sed -p3
+  444  2016-05-23_18:26:13 cat Glenville_Avenue | sed -n p3
+  445  2016-05-23_18:26:48 cat Glenville_Avenue | sed -n 'p3'
+  446  2016-05-23_18:26:55 cat Glenville_Avenue | sed -n '3p'
+  447  2016-05-23_18:27:08 cat Glenville_Avenue | sed -n '226p'
+  448  2016-05-23_18:27:13 sed
+  449  2016-05-23_18:28:15 cat Glenville_Avenue | sed  '3p'
+  450  2016-05-23_18:28:18 cat Glenville_Avenue | sed -n  '3p'
+  451  2016-05-23_18:28:46 cat Glenville_Avenue | head -n3 | tail -n 1
+  452  2016-05-23_18:28:58 cat Glenville_Avenue 
+  453  2016-05-23_18:29:05 cat Glenville_Avenue | wc -l
+  454  2016-05-23_18:29:17 cat Glenville_Avenue | wc 
+  455  2016-05-23_18:29:26 cat Glenville_Avenue | wc -l
+  456  2016-05-23_18:29:42 head Glenville_Avenue 
+  457  2016-05-23_18:29:45 tail Glenville_Avenue 
+  458  2016-05-23_18:30:08 cat Glenville_Avenue | head -n226
+  459  2016-05-23_18:30:35 cat Glenville_Avenue | head -n 226 | tail -n 1
+  460  2016-05-23_18:55:55 . ~/.bash_profile 
+  461  2016-05-23_18:55:56 cd
+  462  2016-05-23_20:13:02 . ~/.bash_profile 
+  463  2016-05-23_20:13:04 cd
+  464  2016-05-23_20:13:11 cd Code/command-line-murder-mystery/mystery/
+  465  2016-05-23_20:13:13 cat people 
+  466  2016-05-23_20:13:37 grep CLUE crimescene 
+  467  2016-05-23_20:13:41 grep CLUE crimescene 
+  468  2016-05-23_20:13:50 less people 
+  469  2016-05-23_20:13:56 less people 
+  470  2016-05-23_20:14:27 . ~/.bash_profile 
+  471  2016-05-23_20:14:28 cd
+  472  2016-05-23_20:14:33 cd Code/command-line-murder-mystery/mystery/
+  473  2016-05-23_20:14:34 lr
+  474  2016-05-23_20:14:35 cd streets/
+  475  2016-05-23_20:14:35 lr
+  476  2016-05-23_20:15:18 lr
+  477  2016-05-23_20:15:19 ls
+  478  2016-05-23_20:14:48 less people 
+  479  2016-05-23_20:16:04 cat ../hint1 
+  480  2016-05-23_20:16:19 head -n 20 people 
+  481  2016-05-23_20:16:24 cat ../hint2 
+  482  2016-05-23_20:16:30 grep CLUE crimescene 
+  483  2016-05-23_20:16:41 cat ../hint3 
+  484  2016-05-23_20:17:09 cat ../hint2 
+  485  2016-05-23_20:17:12 cat ../hint1 
+  486  2016-05-23_20:17:19 grep -i anabell people 
+  487  2016-05-23_20:18:03 grep Annabel people 
+  488  2016-05-23_20:18:23 cat Hart_Place | sed -n '40p'
+  489  2016-05-23_20:18:52 cat Buckingham_Place | sed -n '179p'
+  490  2016-05-23_20:19:10 cat Mattapan_Street | sed -n '173p'
+  491  2016-05-23_20:19:36 cat Haley_Street | sed -n '176p'
+  492  2016-05-23_20:19:45 ls
+  493  2016-05-23_20:19:48 ls interviews/
+  494  2016-05-23_20:20:10 ..
+  495  2016-05-23_20:20:11 ls
+  496  2016-05-23_20:20:30 cat ../hint
+  497  2016-05-23_20:20:32 cat ../hint1 
+  498  2016-05-23_20:20:38 cat ../hint2
+  499  2016-05-23_20:20:43 cat ../hint3
+  500  2016-05-23_20:20:46 cat ../hint4
+  501  2016-05-23_20:21:18 . ~/.bash_profile 
+  502  2016-05-23_20:21:19 cd
+  503  2016-05-23_20:21:23 cd Code/command-line-murder-mystery/mystery/
+  504  2016-05-23_20:21:25 lr
+  505  2016-05-23_20:21:27 cd interviews/
+  506  2016-05-23_20:21:28 lr
+  507  2016-05-23_20:21:34 cd ../streets/
+  508  2016-05-23_20:21:41 grep -i interview *
+  509  2016-05-23_20:22:32 lr
+  510  2016-05-23_20:22:55 vim 
+  511  2016-05-23_20:23:07 cat foo 
+  512  2016-05-23_20:23:29 cat foo | grep a
+  513  2016-05-23_20:23:50 cat foo 
+  514  2016-05-23_20:24:04 grep a foo
+  515  2016-05-23_20:24:25 ls
+  516  2016-05-23_20:24:37 ls *
+  517  2016-05-23_20:24:59 grep a *
+  518  2016-05-23_20:25:10 ls *
+  519  2016-05-23_20:25:15 ls
+  520  2016-05-23_20:25:25 grep INTERVIEW *
+  521  2016-05-23_20:26:39 cd ..
+  522  2016-05-23_20:26:44 cd interviews/
+  523  2016-05-23_20:26:48 cat Hart_Place | sed -n '40p'
+  524  2016-05-23_20:26:48   510  2016-05-23_20:18:52 cat Buckingham_Place | sed -n '179p'
+  525  2016-05-23_20:26:48   511  2016-05-23_20:19:10 cat Mattapan_Street | sed -n '173p'
+  526  2016-05-23_20:27:12 ls
+  527  2016-05-23_20:27:18 cd ..
+  528  2016-05-23_20:27:23 cd streets/
+  529  2016-05-23_20:27:26 cat cat Hart_Place | sed -n '40p'
+  530  2016-05-23_20:27:26   510  2016-05-23_20:18:52 cat Buckingham_Place | sed -n '179p'
+  531  2016-05-23_20:27:26   511  2016-05-23_20:19:10 cat Mattapan_Street | sed -n '173p'
+  532  2016-05-23_20:27:41 cat Buckingham_Place  | head -n 179
+  533  2016-05-23_20:28:05 cat Hart_Place | sed -n '40p'
+  534  2016-05-23_20:28:05   510  2016-05-23_20:18:52 cat Buckingham_Place | sed -n '179p'
+  535  2016-05-23_20:28:05   511  2016-05-23_20:19:10 cat Mattapan_Street | sed -n '173p'
+  536  2016-05-23_20:28:42 cat Hart_Place  | head -n 40
+  537  2016-05-23_20:29:01 cat Hart_Place | sed -n '40p'
+  538  2016-05-23_20:29:01   510  2016-05-23_20:18:52 cat Buckingham_Place | sed -n '179p'
+  539  2016-05-23_20:29:01   511  2016-05-23_20:19:10 cat Mattapan_Street | sed -n '173p'
+  540  2016-05-23_20:29:41 cat cat Hart_Place | sed -n '40p'  | head -n 40
+  541  2016-05-23_20:29:41   510  2016-05-23_20:18:52 cat Buckingham_Place | sed -n '179p'
+  542  2016-05-23_20:29:41   511  2016-05-23_20:19:10 cat Mattapan_Street | sed -n '173p'
+  543  2016-05-23_20:30:27 cat Mattapan_Street | head -n 173
+  544  2016-05-23_20:30:48 cat Haley_Street | head -n 176
+  545  2016-05-23_20:30:58 cd ..
+  546  2016-05-23_20:31:00 cd interviews/
+  547  2016-05-23_20:31:14 cat interview-699607
+  548  2016-05-23_20:32:19 cat interview-47246024
+  549  2016-05-23_20:32:47 cat interview-9437737
+  550  2016-05-23_20:33:03 cat interview-871877
+  551  2016-05-23_20:33:16 ls
+  552  2016-05-23_20:33:18 cd ..
+  553  2016-05-23_20:33:18 ls
+  554  2016-05-23_20:33:24 cat vehicles 
+  555  2016-05-23_20:33:54 cat vehicles | grep L337*9
+  556  2016-05-23_20:34:16 cat vehicles | grep Honda
+  557  2016-05-23_20:34:36 cat vehicles | grep L337
+  558  2016-05-23_20:35:35 cat vehicles | grep L337 | tail -n 4
+  559  2016-05-23_20:36:02 cd ..
+  560  2016-05-23_20:36:03 ls
+  561  2016-05-23_20:36:08 cat hint3
+  562  2016-05-23_20:36:39 cd mystery/
+  563  2016-05-23_20:36:41 head vehicles 
+  564  2016-05-23_20:37:04 head -n 2  vehicles
+  565  2016-05-23_20:42:46 head vehicles 
+  566  2016-05-23_20:42:57  head vehicles 
+  567  2016-05-23_20:43:51 cat vehicles | grep License Plate L337ZR9
+  568  2016-05-23_20:43:51 License Plate L337P89
+  569  2016-05-23_20:43:51 License Plate L337GX9
+  570  2016-05-23_20:43:51 License Plate L337QE9
+  571  2016-05-23_20:43:51 License Plate L337GB9
+  572  2016-05-23_20:43:51 License Plate L337OI9
+  573  2016-05-23_20:43:51 License Plate L337X19
+  574  2016-05-23_20:43:51 License Plate L337539
+  575  2016-05-23_20:43:51 License Plate L3373U9
+  576  2016-05-23_20:43:51 License Plate L337369
+  577  2016-05-23_20:43:51 License Plate L337DV9
+  578  2016-05-23_20:43:51 License Plate L3375A9
+  579  2016-05-23_20:44:00 License Plate L337WR9
+  580  2016-05-23_20:44:18 cat vehicles | grep License Plate L337ZR9 | grep color
+  581  2016-05-23_20:44:37 cat vehicles | grep License Plate L337ZR9 | grep blue
+  582  2016-05-23_20:44:51 cat vehicles | grep L337ZR9 | grep blue
+  583  2016-05-23_20:44:55 ls
+  584  2016-05-23_20:45:04 cat vehicles | grep L337
+  585  2016-05-23_20:45:29 cat vehicles head L337ZR9
+  586  2016-05-23_20:54:19 ls
+  587  2016-05-23_20:54:39 cd memberships
+  588  2016-05-23_20:54:39 ls
+  589  2016-05-23_20:54:56 cat LLL | grep Joe
+  590  2016-05-23_20:55:06 cat AAA | grep Joe
+  591  2016-05-23_20:55:23 cat AAA | grep Jeremy
+  592  2016-05-23_20:55:36 cat AAA | grep Jacqui
+  593  2016-05-23_20:55:55 cat Delta_SkyMiles | grep Joe
+  594  2016-05-23_20:56:12 cat Delta_SkyMiles | grep Jeremy
+  595  2016-05-23_20:56:24 cat Delta_SkyMiles | grep Jacqui
+  596  2016-05-23_20:56:39 cat delta.txt
+  597  2016-05-23_20:56:50 cat delta.txt | grep Joe
+  598  2016-05-23_20:56:54 cat delta.txt | grep Jeremy
+  599  2016-05-23_20:57:00 cat delta.txt | grep Jacqui
+  600  2016-05-23_20:57:11 cat library.txt | grep Joe
+  601  2016-05-23_20:57:28 cat library.txt | grep Jeremy
+  602  2016-05-23_20:57:39 cat library.txt | grep Jacqui
+  603  2016-05-23_20:57:56 ls
+  604  2016-05-23_20:58:12 cat Museum_of_Bash_History | grep Jacqui
+  605  2016-05-23_20:58:25 cat Museum_of_Bash_History | grep Jeremy
+  606  2016-05-23_20:58:35 cat Museum_of_Bash_History | grep Jow
+  607  2016-05-23_20:58:37 cat Museum_of_Bash_History | grep Joe
+  608  2016-05-23_20:59:49 cat Terminal_City_Library | grep Jeremy
+  609  2016-05-23_20:59:56 cat Terminal_City_Library | grep Jacq
+  610  2016-05-23_21:00:10 cat museum.txt | grep Jacq
+  611  2016-05-23_21:00:15 cat museum.txt | grep Jeremy
+  612  2016-05-23_21:00:23 ls
+  613  2016-05-23_21:00:27 cd ..
+  614  2016-05-23_21:00:29 ls
+  615  2016-05-23_21:00:50 cat crimescene 
+  616  2016-05-23_21:00:57 cat crimescene | grep CLUE
+  617  2016-05-23_21:01:34 ls
+  618  2016-05-23_21:02:00 cat people | grep Joe
+  619  2016-05-23_21:02:11 cat people | grep Jeremy
+  620  2016-05-23_21:02:19 cd streets/
+  621  2016-05-23_21:02:33 cat Dunstable_Road | head -n 284
+  622  2016-05-23_21:02:50 cd ..
+  623  2016-05-23_21:02:52 ls
+  624  2016-05-23_21:03:01 cat people | grep Jacqui
+  625  2016-05-23_21:03:08 cd ..
+  626  2016-05-23_21:03:14 cd mystery/
+  627  2016-05-23_21:03:16 cd streets/
+  628  2016-05-23_21:03:26 ls
+  629  2016-05-23_21:03:54 cat Andover_Road | head -n 224
+  630  2016-05-23_21:04:06 cd ..
+  631  2016-05-23_21:04:07 ls
+  632  2016-05-23_21:04:10 cd interviews/
+  633  2016-05-23_21:04:23 cat interview-9620713
+  634  2016-05-23_21:04:46 cat interview-904020
+  635  2016-05-23_21:05:21 cd..
+  636  2016-05-23_21:05:22 ls
+  637  2016-05-23_21:05:24 cd ..
+  638  2016-05-23_21:05:25 ls
+  639  2016-05-23_21:05:27 cd ..
+  640  2016-05-23_21:05:29 ls
+
+   Murderer:  Jeremy Bowers
