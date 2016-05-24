@@ -1,0 +1,144 @@
+cat people | grep Annabel
+  323  cat crimescene | grep CLUE
+  324  cd command-line-murder-mystery
+  325  git clone git@github.com:evans760/command-line-murder-mystery.git
+  326  ls
+  327  cd code
+  328  ls
+  329  cd command-line-murder-mystery
+  330  cat crimescene | grep CLUE
+  331  ls
+  332  cd mystery
+  333  ls
+  334  cat crimescene | grep CLUE
+  335  cat interviews | grep Annabel
+  336  cd interviewa
+  337  cd interviews
+  338  ls
+  339  cd
+  340  ls
+  341  command
+  342  command-line-murder-mystery
+  343  ls
+  344  cd mystery
+  345  ls
+  346  cd memberships
+  347  ls
+  348  cd AAA
+  349  open AAA
+  350  cat AAA | grep Annabel
+  351  cat Delta_skyMiles | grep Annabel
+  352  cat library.txt | grep Annabel
+  353  cat Museum_of_Bash_History | grep Annabel
+  354  cd vechicles
+  355  cat vechicles
+  356  cd vehicles
+  357  cat vehicles
+  358  cd vehicles
+  359  cat vehicles | grep Annabel 
+  360  ccd
+  361  cd
+  362  command-line-murder-mystery
+  363  ls
+  364  cd mystery
+  365  ls
+  366  cat streets | grep oluwasegun
+  367  cd streets
+  368  ls
+  369  cat streets | grep Haley
+  370  cd interview
+  371  cd interviews
+  372  ..
+  373  cd interviews
+  374  ls
+  375  cat mystery/interviews/interview-* > ../../../allinterviews
+  376  cd ../../..
+  377  ls
+  378  com*
+  379  ls
+  380  cd mystery
+  381  ls
+  382  cd interviews
+  383  ls
+  384  cat mystery/interviews/interview-* > allInterviews
+  385  cd ..
+  386  ls
+  387  touch allinterviews.txt
+  388  cat int* > allinterviews.txt
+  389  pwd
+  390  ls
+  391  cd interviews
+  392  touch allInterviews.txt
+  393  cat int* > allInterviews.txt
+  394  ls
+  395  cd allInterviews.txt
+  396  open allInterviews.txt
+  397  allInterviews.txt
+  398  open allInterviews.txt
+  399  cat allInterviews.txt
+  400  cat allInterviews.txt | grep Annabel
+  401  ls
+  402  cat allInterviews.txt
+  403  cat allInterviews.txt | grep Church
+  404  cat allInterviews.txt | grep Oluwasegun
+  405  ls
+  406  cat allInterviews.txt | grep Oluwasegun
+  407  head allInterviews.txt | grep Oluwasegun
+  408  cat allInterviews.txt | grep Fuglsang
+  409  cd ..
+  410  ls
+  411  cat vehicles 
+  412  cd ..
+  413  ls
+  414  cat hint6
+  415  cat hint2
+  416  cat hint3
+  417  head vehicles
+  418  cat vehicles
+  419  cat mystery
+  420  head mystery
+  421  mystery/
+  422  head vehicles
+  423  vehicles
+  424  cd ..
+  425  mystery
+  426  ls
+  427  cat vehicles | grep Fuglsang
+  428  ls
+  429  cd crimescene
+  430  cat crimescene
+  431  cat crimescene | Annabel
+  432  cat crimescene | grep Annabel
+  433  cd ..
+  434  ls
+  435  mystery
+  436  ls
+  437  hint3
+  438  cat hint3
+  439  cd ..
+  440  hint3
+  441  cat hint3
+  442  cd mystery
+  443  ls
+  444  cat people | grep Annabel
+  445  ls
+  446  head people | grep Annabel
+  447  ls
+  448  cd ..
+  449  ls
+  450  cat mystery/vehicles | grep L337
+  451  cat mystery/vehicles | grep -C4 L337
+  452  ls
+  453  cat mystery
+  454  cat mystery/ 
+  455  cat mystery/people | grep -i bowers
+  456  cat mystery
+  457  cat mystery/streets/Dunstable_Road | grep
+  458  cat -284 mystery/streets/Dunstable_Road
+  459  head -284 mystery/streets/Dunstable_Road
+  460  head -284 mystery/streets/Dunstable_Road | tail -n 1
+  461  cat mystery/people | grep -i bowers
+  462  cat mystery/interviews/interview-9620713
+
+
+The Killer is Jeremy Bowers.
