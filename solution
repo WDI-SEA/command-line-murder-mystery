@@ -1,0 +1,205 @@
+Solution to Mystery Deliverable:
+-----The killer is Jeremy Bowers-------
+--------Kemal Deger----------------
+
+
+
+312  git clone git@github.com:kedeger/command-line-murder-mystery.git
+  313  subl .
+  314  pwd
+  315  ls
+  316  cd command-line-murder-mystery
+  317  ls
+  318  instructions
+  319  cd instructions
+  320  cat instructions
+  321  ls
+  322  subl instructions
+  323  cd mystery
+  324  ls
+  325  pwd
+  326  ls
+  327  head -n 20 people
+  328  head -n 50 people
+  329  head -n 100 people
+  330  pwd
+  331  ls
+  332  code
+  333  ls
+  334  cd command-line-murder-mystery
+  335  ls
+  336  cd mystery
+  337  ls
+  338  grep "CLUE" crimescene
+  339  head people
+  340  head vehicles
+  341  grep "Ann" people
+  342  grep "Annabel" people
+  343  head -n 40 streets/Hart Place | tail -n 1
+  344  pw
+  345  pwd
+  346  cd interviews
+  347  ls
+  348  cat interview-47246024
+  349  pwd
+  350  cd ../
+  351  pwd
+  352  head -n 179 streets/Buckingham_Place | tail -n 1
+  353  cat interview-699607
+  354  ls
+  355  cd interviews
+  356  pwd
+  357  cat interview-699607
+  358  pwd
+  359  cd ../
+  360  ls
+  361  grep "Honda" vehicles
+  362  grep "L337" vehicles
+  363  head vehicles
+  364  grep -A 5 "L337" mystery/vehicles
+  365  pwd
+  366  ls
+  367  grep -A 5 "L337" mystery/vehicles
+  368  grep -B 5 "L337" mystery/vehicles
+  369  grep -C 5 "L337" mystery/vehicles
+  370  grep -D 5 "L337" mystery/vehicles
+  371  cat vehicles
+  372  grep -A 5 "Blue" mystery/vehicles
+  373  grep -A 5 "L337" mystery/vehicles
+  374  grep -A 5 "L337" mystery/vehiclespwd
+  375  pwd
+  376  touch licenseL337.txt
+  377  ls
+  378  grep "L337" vehicles
+  379  head vehicles
+  380  ls
+  381  grep -C 4 "L337" vehicles > licenseL337.txt
+  382  cat licenseL337.txt
+  383  pwd
+  384  Owner: Bruno Oliver
+  385  Height: 6'4"\nWeight: 238 lbs\n\nLicense Plate L337ZR9\nMake: Honda\nColor: Red\nOwner: Katie Park\nHeight: 6'2"\n--\n--\nOwner: Deni Iovu\nHeight: 5'0"
+  386  Weight: 150 lbs
+  387  License Plate L337P89
+  388  Make: Honda
+  389  Color: Teal
+  390  Owner: Mike Bostock
+  391  Height: 6'4"\n--\n--\nOwner: Yasemin Voronova\nHeight: 5'4"\nWeight: 164 lbs\n\nLicense Plate L337GX9\nMake: Mazda\nColor: Orange\nOwner: John Keefe\nHeight: 6'4"
+  392  --
+  393  Owner: Yunlei Xu
+  394  Height: 5'0"\nWeight: 214 lbs\n\nLicense Plate L337QE9\nMake: Honda\nColor: Blue\nOwner: Erika Owens\nHeight: 6'5"\n--\n--\nOwner: Dieter Schooling\nHeight: 6'2"
+  395  Weight: 226 lbs
+  396  License Plate L337GB9
+  397  Make: Toyota
+  398  Color: Blue
+  399  Owner: Matt Waite
+  400  Height: 6'1"\n--\n--\nOwner: Agnieszka Skhirtladze\nHeight: 5'4"\nWeight: 240 lbs\n\nLicense Plate L337OI9\nMake: Jaguar\nColor: Blue\nOwner: Brian Boyer\nHeight: 6'6"
+  401  --
+  402  Owner: Rosie Fredricson
+  403  Height: 6'0"\nWeight: 175 lbs\n\nLicense Plate L337X19\nMake: Fiat\nColor: Blue\nOwner: Al Shaw\nHeight: 6'5"\n--\n--\nOwner: Mohamed Onuora\nHeight: 5'8"
+  404  Weight: 181 lbs
+  405  License Plate L337539
+  406  Make: Honda
+  407  Color: Blue
+  408  Owner: Aron Pilhofer
+  409  Height: 5'3"\n--\n--\nOwner: Maksim Acuff\nHeight: 5'5"\nWeight: 143 lbs\n\nLicense Plate L3373U9\nMake: Ford\nColor: Blue\nOwner: Miranda Mulligan\nHeight: 6'6"
+  410  --
+  411  Owner: Flor Magnini
+  412  Height: 5'2"\nWeight: 239 lbs\n\nLicense Plate L337369\nMake: Honda\nColor: Blue\nOwner: Heather Billings\nHeight: 5'2"\n--\n--\nOwner: Robyn Sigmond\nHeight: 6'3"
+  413  Weight: 137 lbs
+  414  License Plate L337DV9
+  415  Make: Honda
+  416  Color: Blue
+  417  Owner: Joe Germuska
+  418  Height: 6'2"\n--\n--\nOwner: Bridgitte Bale\nHeight: 5'11"\nWeight: 176 lbs\n\nLicense Plate L3375A9\nMake: Honda\nColor: Blue\nOwner: Jeremy Bowers\nHeight: 6'1"
+  419  --
+  420  Owner: Joseph Last
+  421  Height: 6'1"\nWeight: 224 lbs\n\nLicense Plate L337WR9\nMake: Honda\nColor: Blue\nOwner: Jacqui Maher\nHeight: 6'2"\nOwner: Bruno Oliver\nHeight: 6'4"
+  422  Weight: 238 lbs
+  423  License Plate L337ZR9
+  424  Make: Honda
+  425  Color: Red
+  426  Owner: Katie Park
+  427  Height: 6'2"\n--\n--\nOwner: Deni Iovu\nHeight: 5'0"\nWeight: 150 lbs\n\nLicense Plate L337P89\nMake: Honda\nColor: Teal\nOwner: Mike Bostock\nHeight: 6'4"
+  428  --
+  429  Owner: Yasemin Voronova
+  430  Height: 5'4"\nWeight: 164 lbs\n\nLicense Plate L337GX9\nMake: Mazda\nColor: Orange\nOwner: John Keefe\nHeight: 6'4"\n--\n--\nOwner: Yunlei Xu\nHeight: 5'0"
+  431  Weight: 214 lbs
+  432  License Plate L337QE9
+  433  Make: Honda
+  434  Color: Blue
+  435  Owner: Erika Owens
+  436  Height: 6'5"\n--\n--\nOwner: Dieter Schooling\nHeight: 6'2"\nWeight: 226 lbs\n\nLicense Plate L337GB9\nMake: Toyota\nColor: Blue\nOwner: Matt Waite\nHeight: 6'1"
+  437  --
+  438  Owner: Agnieszka Skhirtladze
+  439  Height: 5'4"\nWeight: 240 lbs\n\nLicense Plate L337OI9\nMake: Jaguar\nColor: Blue\nOwner: Brian Boyer\nHeight: 6'6"\n--\n--\nOwner: Rosie Fredricson\nHeight: 6'0"
+  440  Weight: 175 lbs
+  441  License Plate L337X19
+  442  Make: Fiat
+  443  Color: Blue
+  444  Owner: Al Shaw
+  445  Height: 6'5"\n--\n--\nOwner: Mohamed Onuora\nHeight: 5'8"\nWeight: 181 lbs\n\nLicense Plate L337539\nMake: Honda\nColor: Blue\nOwner: Aron Pilhofer\nHeight: 5'3"
+  446  --
+  447  Owner: Maksim Acuff
+  448  Height: 5'5"\nWeight: 143 lbs\n\nLicense Plate L3373U9\nMake: Ford\nColor: Blue\nOwner: Miranda Mulligan\nHeight: 6'6"\n--\n--\nCwner: Flor Magnini\nHeight: 5'2"
+  449  Weight: 239 lbs
+  450  License Plate L337369
+  451  Make: Honda
+  452  Color: Blue
+  453  Owner: Heather Billings
+  454  Height: 5'2"\n--\n--\nOwner: Robyn Sigmond\nHeight: 6'3"\nWeight: 137 lbs\n\nLicense Plate L337DV9\nMake: Honda\nColor: Blue\nOwner: Joe Germuska\nHeight: 6'2"
+  455  --
+  456  Owner: Bridgitte Bale
+  457  Height: 5'11"\nWeight: 176 lbs\n\nLicense Plate L3375A9\nMake: Honda\nColor: Blue\nOwner: Jeremy Bowers\nHeight: 6'1"\n--\n--\nOwner: Joseph Last\nHHeiht: 6'1"
+  458  Weight: 224 lbs
+  459  License Plate L337WR9
+  460  Make: Honda
+  461  Color: Blue
+  462  Owner: Jacqui Maher
+  463  Height: 6'2"
+  464  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  465  ls
+  466  cd memberships
+  467  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  468  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer"
+  469  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  470  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  471  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  472  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  473  cat Fitness_Galaxy AAA United_MileagePlus | grep "Heather Billings"
+  474  cat solution
+  475  pwd
+  476  cd ../
+  477  cat solution
+  478  pwd
+  479  cd ../
+  480  cat solution
+  481  ls
+  482  mystery
+  483  cd mystery
+  484  ls
+  485  cd ../
+  486  cat README.md
+  487  pwd
+  488  cd memberships
+  489  ls
+  490  mystery
+  491  ls
+  492  memberships
+  493  ls
+  494  cat Terminal_City_Library Museum_of_Bash_History AAA Delta_SkyMiles | grep "Erika Owens"
+  495  cat Terminal_City_Library Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jacqui Maher"
+  496  cat Terminal_City_Library Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Bowers"
+  497  cat Terminal_City_Library Museum_of_Bash_History AAA Delta_SkyMiles | grep "Joe Germuska"
+  498  cat Terminal_City_Library Museum_of_Bash_History AAA Delta_SkyMiles | grep "Heather Billings"
+  499  cat Terminal_City_Library Museum_of_Bash_History AAA Delta_SkyMiles | grep "Aron Pilhofer"
+  500  cat Terminal_City_Library Museum_of_Bash_History AAA Delta_SkyMiles | grep "Erika Owens"
+  501  head -n 284 streets/Dunstable_Road | tail -n 1
+  502  cd ../
+  503  head -n 284 streets/Dunstable_Road | tail -n 1
+  504  pwd
+  505  cd ../
+  506  ls
+  507  touch solution.txt
+  508  cat solution.txt
+  509  subl solution
+➜  command-line-murder-mystery git:(master) ✗ 
