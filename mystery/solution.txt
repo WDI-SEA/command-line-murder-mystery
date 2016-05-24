@@ -1,0 +1,197 @@
+  The killer is Annabel Church 
+
+  Below are the commands I used to solve the crime. 
+
+
+  423  cd command-line-murder-mystery
+  424  ls
+  425  cat instructions
+  426  ls
+  427  cd mystery
+  428  ls
+  429  clear5
+  430  clear
+  431  ls
+  432  see crimescene
+  433  cat crimescene
+  434  ls
+  435  clear
+  436  ls
+  437  cd interviews
+  438  ls
+  439  cd -
+  440  ls
+  441  cd memberships
+  442  ls
+  443  cd -
+  444  cat people
+  445  clear
+  446  cd -
+  447  cd ../
+  448  ls
+  449  pwd
+  450  cd Code
+  451  \ls
+  452  ls
+  453  cd command-line-murder-mystery
+  454  ls
+  455  cat instructions
+  456  ls
+  457  s
+  458  ls
+  459  cd mystery
+  460  ls
+  461  cd crimescene
+  462  cat crimscene
+  463  see crimescene
+  464  cd interviews
+  465  ls
+  466  cd -
+  467  clear
+  468  pwd
+  469  ls
+  470  see crimescene | grep CLUE
+  471  cat crimescene
+  472  cat crimescene | grep CLUE
+  473  clear
+  474  cat crimescene | grep CLUE
+  475  ls
+  476  cat people
+  477  cat crimescene | grep CLUE
+  478  cd interviews
+  479  ls
+  480  cat interviews | grep Annabel
+  481  cd -
+  482  ls
+  483  cat people
+  484  cat people | grep Annabel
+  485  ls
+  486  cd memberships
+  487  ls
+  488  cat AAA
+  489  cat AAA | grep Annabel
+  490  cd -
+  491  clear
+  492  ls
+  493  cat crimescene
+  494  cd -
+  495  pwd
+  496  cd ../
+  497  ls
+  498  cat instructions
+  499  cd mystery
+  500  ls
+  501  clear
+  502  ls
+  503  cat crimescene | grep CLUE
+  504  ls
+  505  cd memberships
+  506  ls
+  507  cat delta.txt | grep Annabel
+  508  cat museum.txt | grep Annabel
+  509  cat Delta_Skymiles | grep Annabel
+  510  cat Delta_SkyMiles | grep Annabel
+  511  cat Museum_of_Bash_History | grep Annabel
+  512  cat AAA | grep Annabel
+  513  cd -
+  514  cat people | grep Annabel
+  515  cat 1.txt | grep Annabel
+  516  cat library.txt | grep Annabel
+  517  cat library.txt
+  518  cd -
+  519  cat library.txt
+  520  clear
+  521  cat library.txt | grep Annabel
+  522  cat 1.txt | grep Annabel
+  523  ls
+  524  cat Terminal_City_Library | grep Annabel
+  525  cd -
+  526  ls
+  527  cat crimescene | grep Annabel
+  528  cat crimescene | grep CLUE
+  529  ls
+  530  cd streets
+  531  ls
+  532  cd -
+  533  cat vehicles | grep Annabel
+  534  cd ../
+  535  cd instructions
+  536  ls
+  537  cat instructions
+  538  cd mystery
+  539  cat people
+  540  cat people | grep Annabel
+  541  ls
+  542  cat crimescene | grep CLUE
+  543  cd memberships
+  544  ls
+  545  cat Delta_SkyMiles | Annabel
+  546  cat Delta_SkyMiles | grep Annabel
+  547  cat AAdvantage | grep Annabel
+  548  cat AAA | grep Annabel
+  549  cd -
+  550  cat interviews
+  551  cd interviews
+  552  ls
+  553  cat interview-000296
+  554  ls
+  555  clear
+  556  cd -
+  557  ls
+  558  cat vehicles | grep Annabel
+  559  ls
+  560  cat vehicles
+  561  cat vehicles | grep 6'\n\nHeight:\nquite
+  562  cat vehicles | grep Annabel
+  563  cat vehicles | grep "Height: 6'"
+  564  c;ear
+  565  clear
+  566  vehicle
+  567  ls
+  568  cat vehicles | grep 6
+  569  cat vehicles | grep 6, Annabel
+  570  cat vehicles | grep Annabel 6
+  571  cat vehicles | grep Annabel 
+  572  ls
+  573  cd -
+  574  cd ../
+  575  ls
+  576  cat hint1
+  577  head -n 20 people
+  578  cd mystery
+  579  ls
+  580  head -n 20 people
+  581  cd ../
+  582  cat hint2
+  583  cd people
+  584  ls
+  585  cd myster
+  586  cd mystery
+  587  ls
+  588  cd memeberships
+  589  ls
+  590  cd memberships
+  591  ls
+  592  cat Terminal_City_Library | grep Annabel
+  593  cat Fitness_Galaxy | grep Annabel
+  594  cd-
+  595  cd -
+  596  cat people | grep -e 'Annabel' -e '6''\nAnnabel\n6\nexit
+  597  ls
+  598  cat people
+  599  cat people | sort
+  600  cat vehicle | sort
+  601  ls
+  602  cat vehicles | sort
+  603  clear
+  604  ls
+  605  cd ../
+  606  cat hint8
+  607  cd mystery
+  608  ls
+  609  cd memberships
+  610  cat AAA Museum_Bash_History | grep Annabel
+  611  ls
+  612  cat AAA Museum_of_Bash_History | grep Annabel
+  613  cd ../
+  614  touch solution.txt
