@@ -1,0 +1,193 @@
+(FYI I changed the file name from "solutions" to "solution" after the history below)
+1. Here are the commands I (Ryan Rotz) used to solve the mystery:
+
+318  git clone git@github.com:ryanrotz/command-line-murder-mystery.git
+  319  ls
+  320  rm -r command-line-murder-mystery
+  321  rm -rf command-line-murder-mystery
+  322  ls
+  323  cd ..
+  324  git clone git@github.com:ryanrotz/command-line-murder-mystery.git
+  325  ls
+  326  cd command-line-murder-mystery test-deliverable
+  327  cd command-line-murder-mystery
+  328  cat instructions
+  329  ls -a
+  330  cat cheatsheet.md
+  331  ls -a
+  332  cat instructions
+  333  cd mystery
+  334  ls -a
+  335  cd interviews
+  336  ls -a
+  337  cd ..
+  338  ls -a
+  339  cat crimescene
+  340  ls -a
+  341  grep CLUE crimescene
+  342  grep CLUE crimescene >> clues.txt
+  343  ls
+  344  cat clues.txt
+  345  pwd
+  346  ls
+  347  cd memberships
+  348  ls
+  349  cd AAA
+  350  cat AAA
+  351  pwd
+  352  cat Mona Taibi
+  353  cd ..
+  354  pwd
+  355  ls
+  356  cat crimescene
+  357  ls
+  358  pwd
+  359  ls
+  360  cat clues
+  361  cat clues.txt
+  362  cd ..
+  363  ls
+  364  cat cheatsheet.md
+  365  ls
+  366  cat README.md
+  367  ls
+  368  cat instructions
+  369  ls
+  370  cat hint 1
+  371  cat hint1
+  372  hint2
+  373  cat hint2
+  374  cat hint3
+  375  cat hint4
+  376  cat hint5
+  377  cat hint 6
+  378  cat hint6
+  379  cat hint7
+  380  cat hint 8
+  381  cat hint8
+  382  cat hint9
+  383  ls
+  384  cat instructions
+  385  ls
+  386  cd mystery
+  387  ls
+  388  clear
+  389  ls
+  390  head -n 20 people
+  391  cat clues.txt
+  392  grep -w "M" people > men.txt
+  393  head men.txt
+  394  ls
+  395  cd memberships
+  396  ls
+  397  head 1.txt
+  398  head 2.txt
+  399  head AAA
+  400  ls
+  401  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History > wallet_memberships
+  402  ls
+  403  mv wallet_memberships wallet_memberships.txt
+  404  ls
+  405  sort wallet_memberships | uniq -c | grep -v '^ *1 '
+  406  sort wallet_memberships.txt | uniq -c | grep -v '^ *1 '
+  407  sort wallet_memberships | uniq -c | grep -v '^ *1 ' | sort -nr
+  408  sort wallet_memberships.txt | uniq -c | grep -v '^ *1 ' | sort -nr
+  409  sort wallet_memberships.txt | uniq -c | grep -v '^ *1 ' | sort -nr | grep head -n 23 wallet_memberships.txt > suspects_memeberships.txt
+  410  sort wallet_memberships.txt | uniq -c | grep -v '^ *1 ' | sort -nr | head -n 23 wallet_memberships.txt > suspects_memeberships.txt
+  411  ls
+  412  cat suspects_memberships.txt
+  413  mv suspects_memeberships.txt suspect_memberships.txt
+  414  ls
+  415  cat suspect_memberships.txt
+  416  sort wallet_memberships.txt | uniq -c | grep -v '^ *1 ' | sort -nr > suspects_mem.txt
+  417  head -n 23 wallet_memberships.txt
+  418  sort wallet_memberships.txt | uniq -c | grep -v '^ *1 ' | sort -nr | awk '$1>3' > suspects_mem.txt
+  419  cat suspects_mem.txt
+  420  ls
+  421  cd ..
+  422  ls
+  423  head people
+  424  head crimescene
+  425  grep "6'" crimescene
+  426  grep "clue" crimescene
+  427  gret -i "clue crimescene\n
+  428  gret -i "clue" crimescene
+  429  grep -i "clue" crimescene
+  430  grep "Annabel" people
+  431  head people
+  432  ls
+  433  cd streets
+  434  head
+  435  ls
+  436  cat Wycliff_Avenue
+  437  cd ..
+  438  ls
+  439  head streets
+  440  cat head streets
+  441  head streets/
+  442  cd streets
+  443  ls
+  444  Annabel SunF26Hart Place, line 40
+  445  Oluwasegun AnnabelM37Mattapan Street, line 173
+  446  Annabel ChurchF38Buckingham Place, line 179
+  447  head -n 40 streets/Hart_Place | tail -n 1
+  448  cd ..
+  449  head -n 40 streets/Hart_Place | tail -n 1
+  450  cd ..
+  451  ls
+  452  cd mystery
+  453  ls
+  454  cd interviews
+  455  ls
+  456  cd interview-47246024
+  457  cat interview-47246024
+  458  cd ..
+  459  ls
+  460  head -n 179/Buckingham_Place | tail -n 1
+  461  head -n 179 streets/Buckingham_Place | tail -n 1
+  462  ls
+  463  cat interviews/interview-699607
+  464  ls
+  465  head vehicles
+  466  grep -A 5 "L337" mystery/vehicles
+  467  grep -A 5 "L337" vehicles
+  468  ls
+  469  grep "Jacqui Maher" people
+  470  grep "Jeremy Bowers" people
+  471  grep "Mike Bostock" people
+  472  head -n streets/Dunstable_Road | tail -n 1
+  473  head -n 287 streets/Dunstable_Road | tail -n 1
+  474  head -n 284 streets/Dunstable_Road | tail -n 1
+  475  ls
+  476  cat interviews/interview-9620713
+  477  head -n 287 streets/Senders_Court | tail -n 1
+  478  cat interviews/interview-290346
+  479  ls
+  480  cd ..
+  481  ls
+  482  cat instructions
+  483  cat solution
+  484  ls
+  485  cd mystery
+  486  cat solution
+  487  cat "solution"
+  488  cd ..
+  489  cat solution.txt
+  490  cat solution
+  491  ls -a
+  492  gret -r "solution"
+  493  grep -r "solution"
+  494  grep -r "solution"*
+  495  grep -r solution *
+  496  grep -r "solution" *
+  497  ls
+  498  ls -a
+  499  cat README.md
+  500  pwd
+  501  ls
+  502  touch solutions.txt
+  503  subl solutions.txt
+  504  cat history >> solutions.txt
+
+
+2. Jeremy Bowers
