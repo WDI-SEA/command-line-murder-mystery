@@ -1,0 +1,140 @@
+ // Questions 1
+
+ 265  git clone git@github.com:CMadison/command-line-murder-mystery.git
+  266  open .
+  267  cd ../
+  268  open .
+  269  cd Code
+  270  cd command-line-murder-mystery
+  271  cat instructions
+  272  open cheatsheet.md
+  273  cd ~
+  274  open .oh-my-zsh
+  275  subl .zshrc
+  276  pwd
+  277  ls
+  278  cd code
+  279  cd command-line-murder-mystery
+  280  ls
+  281  cat instructions
+  282  subl instructions
+  283  touch solutions.txt
+  284  ls
+  285  cd mystery
+  286  ls
+  287  cd crimescene
+  288  chat crimescene
+  289  cat crimescene
+  290  touch clue.txt
+  291  grep "CLUE" crimescene
+  292  ls
+  293  grep "CLUE" crimescene | clue.txt
+  294  grep "CLUE" crimescene | cat clue.txt
+  295  cat clue.txt
+  296  grep "CLUE" crimescene
+  297  echo grep "CLUE" crimescene > clue.txt
+  298  cat clue.txt
+  299  grep "CLUE" crimescene > clue.txt
+  300  cat clue.txt
+  301  ls
+  302  grep -i "annabel" crimescene
+  303  grep -i "annabel" people
+  304  grep -i -c 4 "annabel" people
+  305  grep -ic 4 "annabel" people
+  306  grep -i "annabel" people
+  307  cat people
+  308  ls
+  309  cat clue.txt
+  310  cat vehicles
+  311  cat clue.txt
+  312  grep "6" vehicles
+  313  grep "annabel" vehicles
+  314  cat vehicles
+  315  grep -i "annabel" vehicles
+  316  grep -C 7 "Annabel" vehicles
+  317  ls
+  318  cd memberships
+  319  ls
+  320  grep -i "church" delta.txt
+  321  grep -i "church" Museum_of_Bash_History
+  322  cd ..
+  323  cd ../
+  324  ls
+  325  cd mystery
+  326  ls
+  327  cd memberships
+  328  ls
+  329  grep "Fuglsang" AAA
+  330  grep "Fuglsang" AAdvantage
+  331  grep "Fuglsang" delta.txt
+  332  cd interviews
+  333  cd ../
+  334  cd interviews
+  335  ls
+  336  touch allinterviews.txt
+  337  cat inte* > allinterviews.txt
+  338  more allinterviews.txt
+  339  grep -i "Annabel" allinterviews.txt
+  340  grep -i "church" allinterviews.txt
+  341  grep -i "Fuglsang" allinterviews.txt
+  342  grep -i "church" allinterviews.txt
+  343  grep -i "oluwasegun" allinterviews.txt
+  344  grep -i "blonde" allinterviews.txt
+  345  grep -i "gun" allinterviews.txt
+  346  grep -i "shooter" allinterviews.txt
+  347  grep -i "shots" allinterviews.txt
+  348  ls
+  349  cd ../
+  350  ls
+  351  cd streets
+  352  ls
+  353  cat crimescene
+  354  ped
+  355  pwd
+  356  cd ../
+  357  cat crimescene
+  358  grep "shooter" crimescene
+  359  grep "Annabel" crimescene
+  360  ls
+  361  grep -i "blond" vehicles
+  362  grep -i "brown" vehicles
+  363  grep -i "spiky" vehicles
+  364  grep -i "l337" vehicles
+  365  grep -C 6 "L337" vehicles
+  366  grep -C 6 "L337" & "blue" vehicles
+  367  ls
+  368  cd interviews
+  369  grep -i "Germuska"
+  370  ls
+  371  grep -i "Germuska" allinterviews.txt
+  372  grep -i "joe" allinterviews.txt
+  373  grep -i "maher" allinterviews.txt
+  374  ls
+  375  cd ../
+  376  ls
+  377  grep -i "joe" people
+  378  grep -i "germuska" people
+  379  cd streets
+  380  cd streets HEAD -n 275
+  381  cd streets
+  382  HEAD -n 275
+  383  cat HEAD -n 275
+  384  ls
+  385  cat HEAD -n 275 Plainfield_Street
+  386  ls
+  387  cd ../
+  388  ls
+  389  cd interviews
+  390  ls
+  391  grep -i "Bostock" allinterviews
+  392  grep -i "Bostock" allinterviews.txt
+  393  grep -i "erika" allinterviews.txt
+  394  grep -i "owens" allinterviews.txt
+  395  grep -i "bowers" allinterviews.txt
+  396  grep -i "jeremy" allinterviews.txt
+  397  grep -i "bowers" allinterviews.txt
+  398  cat interview-9620713
+
+  // Questions 2
+
+  Jeremy Bower
