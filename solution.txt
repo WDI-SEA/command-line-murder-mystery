@@ -1,0 +1,255 @@
+ 302  git clone git@github.com:d-robertson/command-line-murder-mystery.git
+  303  clear
+  304  ls
+  305  clear
+  306  cd command-line-murder-mystery
+  307  ls
+  308  cat README.md
+  309  ls
+  310  cat instructions
+  311  ls
+  312  cd mystery
+  313  ls
+  314  cd crimescene
+  315  ls
+  316  cd crimescene
+  317  more crimescene
+  318  ls
+  319  clear
+  320  cat instructions
+  321  ../
+  322  cat instructions
+  323  cd mystery
+  324  grep -i clue
+  325  grep -i 'clue'
+  326  grep -i clue crimescene
+  327  ls
+  328  cd people
+  329  grep -i annabel people
+  330  cd memberships
+  331  ls
+  332  grep -i annabel Delta_SkyMiles
+  333  ls
+  334  ../
+  335  ls
+  336  cd interviews
+  337  ls
+  338  clear
+  339  ls
+  340  clear
+  341  ../
+  342  ls
+  343  cd streets
+  344  ls
+  345  ../
+  346  grep -i annabel AAA Terminal_City_Liberty Museum_of_Bash_History
+  347  grep -i annabel Terminal_City_Library
+  348  ../
+  349  grep -i annabel vehicles
+  350  more vehicles
+  351  more vehicles | sort 
+  352  more vehicles | sort a
+  353  more vehicles | sort -a
+  354  clear
+  355  ls
+  356  clear
+  357  ls
+  358  cd memberships
+  359  grep -i annabel AAA Museum_of_Bash_History
+  360  ../
+  361  ls
+  362  cat instructions
+  363  grep -i clue crimescene
+  364  cd mystery
+  365  grep -i clue crimescene
+  366  grep -i Oluwasegun vehicles
+  367  cat vehicles | --sort=a
+  368  cat vehicles --sort=A
+  369  clear
+  370  cat vehicles --sort=Annabel
+  371  cat vehicles --sort=L337
+  372  cat vehicles --sort='L337'
+  373  cat vehicles --sortclear
+  374  clear
+  375  ls
+  376  cd interviews
+  377  head -n 173 streets/Mattapan_Street | tail -n 1
+  378  ls
+  379  clear
+  380  ../
+  381  ls
+  382  cd streets
+  383  ls
+  384  head -n 173 streets/Mattapan_Street | tail -n 1
+  385  ../
+  386  head -n 173 streets/Mattapan_Street | tail -n 1
+  387  cd interview
+  388  cd interviews
+  389  ls
+  390  cat interview-9437737
+  391  clear
+  392  ../
+  393  ls
+  394  people
+  395  grep -i annabel people
+  396  head -n 179 streets/Buckingham_Place | tail -n 1
+  397  cd interviews
+  398  ls
+  399  cat interview-699607
+  400  clear
+  401  ../
+  402  ls
+  403  vehicles
+  404  cat vehicles
+  405  clear
+  406  grep -A 5 L337 vehicles
+  407  clear
+  408  ls
+  409  cd memberships
+  410  ls
+  411  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jacqui Maher"
+  412  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  413  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  414  ../
+  415  ls
+  416  grep -i Jeremy Bowers people
+  417  grep -i Jacqui Maher people
+  418  clear
+  419  grep -i Jeremy Bowers people
+➜  mystery git:(master) 
+
+#I made two tabs for searching in git so i will paste the second one after this comment. I'm not sure if its necessary.
+
+
+302  git clone git@github.com:d-robertson/command-line-murder-mystery.git
+  303  clear
+  304  ls
+  305  clear
+  306  cd command-line-murder-mystery
+  307  ls
+  308  cat README.md
+  309  ls
+  310  cat instructions
+  311  ls
+  312  cd mystery
+  313  ls
+  314  cd crimescene
+  315  ls
+  316  cd crimescene
+  317  more crimescene
+  318  ls
+  319  clear
+  320  cat instructions
+  321  ../
+  322  cat instructions
+  323  cd mystery
+  324  grep -i clue
+  325  grep -i 'clue'
+  326  grep -i clue crimescene
+  327  ls
+  328  cd people
+  329  grep -i annabel people
+  330  cd memberships
+  331  ls
+  332  grep -i annabel Delta_SkyMiles
+  333  ls
+  334  ../
+  335  ls
+  336  cd interviews
+  337  ls
+  338  clear
+  339  ls
+  340  clear
+  341  ../
+  342  ls
+  343  cd streets
+  344  ls
+  345  ../
+  346* grep -i annabel AAA Terminal_City_Liberty Museum_of_Bash_History
+  347* grep -i annabel Terminal_City_Library
+  348* ../
+  349* grep -i annabel vehicles
+  350* more vehicles
+  351* more vehicles | sort 
+  352* more vehicles | sort a
+  353* more vehicles | sort -a
+  354* clear
+  355* ls
+  356  clear
+  357  ls
+  358  cd memberships
+  359  grep -i annabel AAA Museum_of_Bash_History
+  360  ../
+  361  ls
+  362  cat instructions
+  363  grep -i clue crimescene
+  364  cd mystery
+  365  grep -i clue crimescene
+  366* grep -i Oluwasegun vehicles
+  367* cat vehicles | --sort=a
+  368* cat vehicles --sort=A
+  369* clear
+  370* cat vehicles --sort=Annabel
+  371* cat vehicles --sort=L337
+  372* cat vehicles --sort='L337'
+  373* cat vehicles --sortclear
+  374* clear
+  375* ls
+  376* cd interviews
+  377* head -n 173 streets/Mattapan_Street | tail -n 1
+  378* ls
+  379* clear
+  380* ../
+  381* ls
+  382* cd streets
+  383* ls
+  384* head -n 173 streets/Mattapan_Street | tail -n 1
+  385* ../
+  386* head -n 173 streets/Mattapan_Street | tail -n 1
+  387* cd interview
+  388* cd interviews
+  389* ls
+  390* cat interview-9437737
+  391* clear
+  392* ../
+  393* ls
+  394* people
+  395* grep -i annabel people
+  396* head -n 179 streets/Buckingham_Place | tail -n 1
+  397* cd interviews
+  398* ls
+  399* cat interview-699607
+  400* clear
+  401* ../
+  402* ls
+  403* vehicles
+  404* cat vehicles
+  405* clear
+  406* grep -A 5 L337 vehicles
+  407  clear
+  408  ls
+  409  cd memberships
+  410  ls
+  411  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jacqui Maher"
+  412  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  413  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  414* ../
+  415* ls
+  416* grep -i Jeremy Bowers people
+  417* grep -i Jacqui Maher people
+  418* clear
+  419* grep -i Jeremy Bowers people
+  420* history
+  421  clear
+  422  ../
+  423  ls
+  424  touch solution.txt
+  425  subl solution.txt
+  426  ls
+  427  subl solution.txt
+➜  command-line-murder-mystery git:(master) ✗ 
+
+
+The Killer is Jeremy Bowers.
+
+I partnered with Travis on this investigation. We felt that since real detectives work in pairs on TV that we should on this too.
