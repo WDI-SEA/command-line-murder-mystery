@@ -1,0 +1,141 @@
+cd command-line-murder-mystery
+  182  ls
+  183  cat instructions
+  184  clear
+  185  cat instructions
+  186  ls
+  187  cd Code
+  188  ls
+  189  cd command-line-murder-mystery
+  190  ls
+  191  ls -a
+  192  cd mystery
+  193  ls
+  194  cd ..
+  195  cd Code
+  196  cd command-line-murder-mystery
+  197  cat instructions
+  198  cd mystery
+  199  ls -a
+  200  cat crimescene
+  201  cat crimescene | grep "CLUE"
+  202  ls -a
+  203  cat ../instructions
+  204  cat people
+  205  ls -a
+  206  cat ../instructions
+  207  more ../cheatsheet.md
+  208  ls -a
+  209  cd interviews
+  210  ls -a
+  211  more interview* | grep "CLUE"
+  212  ls -a
+  213  cd ..
+  214  cd memberships
+  215  ls -a
+  216  more AAA
+  217  ls -a
+  218  more 1.txt
+  219  ls -a
+  220  cd ..
+  221  ls -a
+  222  cd ..
+  223  ls
+  224  more hint1
+  225  more hint2
+  226  cd mystery
+  227  ls -a
+  228  cd ..
+  229  ls -a
+  230  cat instructions
+  231  cd mystery
+  232  cd ..
+  233  cat hint3
+  234  cat hint4
+  235  grep "Annabel" people
+  236  cd mystery
+  237  grep "Annabel" people
+  238  cat solution
+  239  cd ..
+  240  cat solution
+  241  ls -a
+  242  cd mystery
+  243  ls -a
+  244  grep "CLUE" crimescene
+  245  cd ..
+  246  cat hint4
+  247  cat hint5
+  248  grep "Annabel" people
+  249  cd mystery
+  250  grep "Annabel" people
+  251  head -n 173 streets/Mattapan_Street | tail -n 1
+  252  cd interviews
+  253  cat interviews-9437737
+  254  ls
+  255  cat interview-9437737
+  256  cat hint6
+  257  cd ..
+  258  cat hint6
+  259  cd ..
+  260  cat hint6
+  261  cat hint7
+  262  cat hint8
+  263  head -n 20 people
+  264  cd mystery
+  265  head -n 20 people
+  266  cd streets
+  267  grep "Hart Place" streets
+  268  grep "Hart Place"
+  269  cd ..
+  270  grep "Hart Place" streets
+  271  ls -a
+  272  grep "solution" crimescene
+  273  grep "solution" streets
+  274  cd streets
+  275  grep "solution"
+  276  ls
+  277  more Hart_Place
+  278  grep "Annabel" people
+  279  cd ..
+  280  grep "Annabel" people
+  281  cd streets
+  282  more Buckingham_Place
+  283  cd ..
+  284  cd interviews
+  285  more interview-699607
+  286  cd ..
+  287  ls -a
+  288  grep "L337" vehicles
+  289  grep "Honda" vehicles
+  290  cd ..
+  291  ls -a
+  292  cd mystery
+  293  grep "CLUE" crimescene
+  294  more vehicles
+  295  grep "L337" people
+  296  grep "L337" vehicles
+  297  cat instruction
+  298  cat instructions
+  299  cd ..
+  300  cat instructions
+  301  grep "CLUE" crimescene
+  302  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  303  head vehicles
+  304  cd mystery
+  305  head vehicles
+  306  \tgrep -A 5 "L337" mystery/vehicles
+  307  cd ..
+  308  \tgrep -A 5 "L337" mystery/vehicles
+  309  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  310  cd mystery
+  311  ls -a
+  312  cd memberships
+  313  ls -s
+  314  ls -a
+  315  sort --help
+  316  clear
+  317  cd ..
+
+It was at this point that I started working with a classmate (Derek) and we did the rest of the actual solving on his laptop and not mine, and my commands list will reflect as such. In the future I will be sure to work along side with my own laptop.
+
+The killer is Jeremy Bowers.
