@@ -1,0 +1,195 @@
+Person is Jeremy Bowers
+
+295  cd command-line-murder-mystery
+  296  cat readme
+  297  cat read.me
+  298  ls
+  299  cat instructions
+  300  clear
+  301  ls
+  302  cd code
+  303  ls
+  304  cd command-line-murder-mystery
+  305  ls
+  306  cat readme.md
+  307  cd ..
+  308  ls
+  309  cd users
+  310  ls
+  311  cd kentsmac
+  312  ls
+  313  cd code
+  314  ls
+  315  cd command-line-murder
+  316  cd command-line-murder-mystery
+  317  ls
+  318  cat readme
+  319  cat readme.md
+  320  ls
+  321  cat instructions
+  322  cat cheatsheet.md
+  323  ls
+  324  cat cheatsheet.pdf
+  325  clear
+  326  ls
+  327  cat cheatsheet.md
+  328  clear
+  329  ls
+  330  cat history
+  331  history
+  332  clear
+  333  ls
+  334  history
+  335  clear
+  336  ls
+  337  cd mystery
+  338  ls
+  339  ls -l
+  340  cat crimescene
+  341  ls
+  342  grp -i "crimescene"
+  343  grp -i "CLUES" crimescene.txt
+  344  ls
+  345  ls -l
+  346  grp -w "CLUES" crimescene.txt
+  347  clear
+  348  pwd
+  349  ls -l
+  350  cd code
+  351  ls
+  352  cd command-line-murder-mystery
+  353  ls -l
+  354  cd mystery
+  355  ls -l
+  356  cat crimescene.txt | grep CLUES
+  357  cat crimescene
+  358  clear
+  359  ls
+  360  cat crimescene.txt | grep clues
+  361  cat crimescene | grep clues
+  362  ls
+  363  cd ..
+  364  ls
+  365  cat hint1
+  366  cat hint 2
+  367  cat hint2
+  368  ls
+  369  cd mystery
+  370  grep "CLUE" crimescene
+  371  cat hint1
+  372  cls
+  373  clear
+  374  ls
+  375  cat hint1
+  376  ls
+  377  cd..
+  378  cd ..
+  379  ls
+  380  cat hint1
+  381  cat hint2
+  382  cat hint3
+  383  cat hint4
+  384  cat hint5
+  385  cat hint6
+  386  cat hint7
+  387  clear
+  388  pwd
+  389  ls
+  390  cd mystery
+  391  ls
+  392  grep "clue" crimescene
+  393  grep "CLUE" crimescene
+  394  ls
+  395  clear
+  396  grep "CLUE" crimescene
+  397  ls
+  398  cd interviews
+  399  pwd
+  400  ls
+  401  clear
+  402  ls
+  403  cd..
+  404  clear
+  405  ls
+  406  cd ..
+  407  clear
+  408  ls
+  409  cd memberships
+  410  ls
+  411  cd..
+  412  ls
+  413  cd streets
+  414  ls
+  415  cd..
+  416  ls
+  417  cd ..
+  418  ls
+  419  cd streets
+  420  ls
+  421  cd ..
+  422  clear
+  423  ls
+  424  head -n 20 people
+  425  head -20 people
+  426  clear
+  427  head -20 people
+  428  head -40 people
+  429  clear
+  430  ls
+  431  head -20 people
+  432  head annabelle people
+  433  grep annabel people
+  434  grep "annabel" people
+  435  pwd
+  436  ls
+  437  grep "Annabel" people
+  438  ls
+  439  cd streets
+  440  ls
+  441  cat Hart_Place
+  442  head -n 40 streets
+  443  clear
+  444  ls
+  445  cd ../
+  446  pwd
+  447  head -n 40 streets/Hart_Place | tail -n 1
+  448  head -n 40 streets/Buckingham_Place | tail -n 1
+  449  head -n 179 streets/Buckingham_Place | tail -n 1
+  450  ls
+  451  cd interviews
+  452  ls
+  453  cat interview-47246024
+  454  cat interview-699607
+  455  clear
+  456  ls
+  457  cd ..
+  458  clear
+  459  ls
+  460  cat vehicles
+  461  clear
+  462  ls
+  463  cat vehicle
+  464  cat vehicles
+  465  clear
+  466  cd ..
+  467  ls
+  468  grep -A 5 "L337" mystery/vehicles
+  469  clear
+  470  ls
+  471  cat hint8
+  472  cd mystery
+  473  ls
+  474  cd membership
+  475  cd memberships
+  476  ls
+  477  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  478  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  479  ls
+  480  cd ..
+  481  ls
+  482  cd ..
+  483  ls
+  484  touch solutions.txt
+  485  ls
+  486  subl solutions.txt
+➜  command-line-murder-mystery git:(master) ✗ 
