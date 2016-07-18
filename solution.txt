@@ -1,0 +1,9 @@
+ 262  head people
+  263  head vehicles
+  264  grep Annabel people
+  265  ls
+  266  cd memberships
+  267  cat Fitness_Galaxy AAA United_MileagePlus | grep "Oluwasegun Annabel"
+  268  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel Fuglsang"
+
+  The murderer is Oluwasegun Annabel
