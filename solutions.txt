@@ -1,0 +1,158 @@
+1.
+  129  cd command-line-murder-mystery
+  130  git remote -v
+  131  ls
+  132  open instructions
+  133  subl instructions
+  134  cd mystery
+  135  ls
+  136  cat crimescene
+  137  cat crimescene | grep CLUE
+  138  ls
+  139  cd interviews
+  140  ls
+  141  grep clue
+  142  cd ..
+  143  ls
+  144  cat hint1
+  145  hint2
+  146  cat hint2
+  147  cat hint3
+  148  cat hint 4
+  149  cat hint4
+  150  grep Annabel
+  151  ls
+  152  cd mystery
+  153  ls
+  154  cd people
+  155  grep Annabel
+  156  grep Annabel people
+  157  cd ..
+  158  cat hint5
+  159  cd mystery
+  160  head -n 40 
+  161  head -n 40 Hart Place | tail -n 1
+  162  ls
+  163  cd ..
+  164  cat hint5
+  165  cd mystery
+  166  cat people
+  167  ls
+  168  cd interviews
+  169  ls
+  170  cd ..
+  171  grep Annabelle people
+  172  ls
+  173  grep Annabel people
+  174  cd interviews
+  175  grep Hart
+  176  cd ..
+  177  ls
+  178  cd ..
+  179  ls
+  180  cat cheatsheet.md
+  181  cat hint6
+  182  cd ..
+  183  cd command-line-murder-mystery
+  184  cd mystery
+  185  ls
+  186  head vehicles
+  187  head people
+  188  grep Hart people
+  189  cd interviews
+  190  ls
+  191  head interview-409731
+  192  cd ..
+  193  cat hint7
+  194  cd mystery
+  195  grep -A 5 "L337" vehicles
+  196  cd ..
+  197  cat hint7
+  198  cat hint8
+  199  cat hint9
+  200  ls
+  201  cat README.md
+  202  ls
+  203  subl README.md
+  204  cd mystery
+  205  ls
+  206  grep clue crimescene
+  207  grep CLUE crimescene
+  208  ls
+  209  grep Annabel people
+  210  cd interviews
+  211  ls
+  212  cat interview-221039
+  213  head interview-48088300
+  214  cd ..
+  215  cat hint1
+  216  cd mystery
+  217  ls
+  218  head vehicles
+  219  grep Height: 6' vehicles
+  220  grep "Height: 6'" vehicles
+  221  cd ..
+  222  cat hint2
+  223  cat hint3
+  224  cat hint4
+  225  cat hint5
+  226  cd mystery/interviews
+  227  head -n 173 streets/Mattapan_Street | tail -n 1
+  228  cd ..
+  229  ls
+  230  head -n 173 streets/Mattapan_Street | tail -n 1
+  231  head -n 40 steets/Hart_Place | tail -n 1
+  232  head -n 40
+  233  head -n 40 | tail -n 1
+  234  head -n 40 streets/Hart_Place | tail -n 1
+  235  head -n 179 streets/Buckingham_Place | tail -n 1
+  236  cd interviews
+  237  cat interview-47246024
+  238  cat interview-699607
+  239  cd ..
+  240  ls
+  241  cd ..
+  242  cat hint6
+  243  cd mystery
+  244  grep "Honda" vehicles
+  245  cd ..
+  246  cat hint7
+  247  cd mystery
+  248  grep -A 5 "L337" mystery/vehicles
+  249  grep -A 5 "L337" vehicles
+  250  ls
+  251  cd memberships
+  252  ls
+  253  grep "Mike" AAA
+  254  grep "Mike" Delta_SkyMiles
+  255  grep "Mike" Museum_of_Bash_History
+  256  grep "Mike" library.txt
+  257  grep "Joe" library.txt
+  258  grep "Joe" AAA
+  259  grep "Joe" Delta_SkyMiles
+  260  grep "Jeremy" AAA
+  261  grep "Jeremy" Delta_SkyMiles
+  262  grep "Jeremy" library.txt
+  263  grep "Jeremy" Museum_of_Bash_History
+  264  cd ..
+  265  cat hint7
+  266  grep hint8
+  267  cat hint8
+  268  ls
+  269  cd mystery
+  270  ls
+  271  grep "Mike Bostock" people
+  272  grep "Jeremy Bowers" people
+  273  grep "CLUE" crimescene
+  274  ls
+  275  cd interviews
+  276  cat interview-699607
+  277  cd ..
+  278  ls
+  279  grep "Mike Bostock" vehicles
+  280  cd ..
+  281  ls
+  282  touch solutions.txt
+
+
+  2. The killer is Jeremy Bowers!!!!!!
