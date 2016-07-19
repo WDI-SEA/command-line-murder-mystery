@@ -1,0 +1,127 @@
+The killer is Jeremy Bowers.
+
+➜  command-line-murder-mystery git:(master) ✗ grep "CLUE" mystery/crimescene
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+➜  command-line-murder-mystery git:(master) ✗ grep "Annabel" mystery/people
+Annabel Sun	F	26	Hart Place, line 40
+Oluwasegun Annabel	M	37	Mattapan Street, line 173
+Annabel Church	F	38	Buckingham Place, line 179
+Annabel Fuglsang	M	40	Haley Street, line 176
+
+➜  mystery git:(master) ✗ head -n 40 streets/Hart_Place | tail -n 1
+SEE INTERVIEW #47246024
+➜  mystery git:(master) ✗ head -n 179 street/Buckingham_Place | tail -n 1
+SEE INTERVIEW #699607
+
+
+➜  mystery git:(master) ✗
+➜  mystery git:(master) cd ../
+➜  command-line-murder-mystery git:(master) hint7
+zsh: command not found: hint7
+➜  command-line-murder-mystery git:(master) cat hint7
+➜  mystery git:(master) grep -A 5 "L337" vehicles
+License Plate L337ZR9
+Make: Honda
+Color: Red
+Owner: Katie Park
+Height: 6'2"
+Weight: 189 lbs
+--
+License Plate L337P89
+Make: Honda
+Color: Teal
+Owner: Mike Bostock
+Height: 6'4"
+Weight: 173 lbs
+--
+License Plate L337GX9
+Make: Mazda
+Color: Orange
+Owner: John Keefe
+Height: 6'4"
+Weight: 185 lbs
+--
+License Plate L337QE9
+Make: Honda
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs
+--
+License Plate L337GB9
+Make: Toyota
+Color: Blue
+Owner: Matt Waite
+Height: 6'1"
+Weight: 190 lbs
+--
+License Plate L337OI9
+Make: Jaguar
+Color: Blue
+Owner: Brian Boyer
+Height: 6'6"
+Weight: 201 lbs
+--
+License Plate L337X19
+Make: Fiat
+Color: Blue
+Owner: Al Shaw
+Height: 6'5"
+Weight: 240 lbs
+--
+License Plate L337539
+Make: Honda
+Color: Blue
+Owner: Aron Pilhofer
+Height: 5'3"
+Weight: 198 lbs
+--
+License Plate L3373U9
+Make: Ford
+Color: Blue
+Owner: Miranda Mulligan
+Height: 6'6"
+Weight: 156 lbs
+--
+License Plate L337369
+Make: Honda
+Color: Blue
+Owner: Heather Billings
+Height: 5'2"
+Weight: 244 lbs
+--
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+--
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+--
+License Plate L337WR9
+Make: Honda
+Color: Blue
+Owner: Jacqui Maher
+Height: 6'2"
+Weight: 130 lbs
+
+
+➜  memberships git:(master) ls
+1.txt                   Fitness_Galaxy          United_MileagePlus
+2.txt                   Museum_of_Bash_History  delta.txt
+AAA                     REI                     library.txt
+AAdvantage              Rotary_Club             museum.txt
+Costco                  TCSU_Alumni_Association newfile.txt
+Delta_SkyMiles          Terminal_City_Library
+➜  memberships git:(master) cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+2
+➜  memberships git:(master) cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+4
