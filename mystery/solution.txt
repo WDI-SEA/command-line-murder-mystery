@@ -1,0 +1,53 @@
+ 
+  455  head mystery/solution.txt
+  456  cp mystery/solution.txt .
+  457  ls
+  458  head solution.txt
+  459  git status
+  460  git add -A
+  461  git commit -a -M "Found the killer"
+  462  git commit -a -m "Found the killer"
+  463  git push origin master
+  464  cat memberships/AAA memberships/library.txt memberships/Delta_SkyMiles memberships/Museum_of_Bash_History| grep "Jeremy Bowers"ls
+  465  ls
+  466  cd mystery
+  467  ls
+  468  cat crimescene | grep "CLUE"
+  469  cd people | grep "Annabel"
+  470  cat people | grep "Annabel"
+  471  man head
+  472  man cat
+  473  cd ../
+  474  cat hint7
+  475  cat hint6
+  476  cat hint5
+  477  cd mystery
+  478  head -n 40 streets/Hart_Place
+  479  head -n 40 streets/Hart_Place | tail -n 1
+  480  head -n 179 streets/Buckingham_Place | tail -n 1
+  481  dir
+  482  ls
+  483  man cat
+  484  man grep
+  485  cd interviews
+  486  ls
+  487  head interview-000296
+  488  head interview-699607
+  489  head interview-4724602
+  490  head interview-47246042
+  491  head interview-47246024
+  492  cd ../
+  493  ls
+  494  cat vehicles| grep "L337" --context=5
+  495  cat vehicles| grep "L337" "Honda"  --context=5
+  496  cat vehicles| grep "L337" grep  "Honda"  --context=5
+  497  cat vehicles| grep "L337" | grep "Honda"  --context=5
+  498  man cat
+  499  man grep
+  500  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History| grep "Germuska"
+  501  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History| grep "Joe Germuska"
+  502  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History| grep "Jeremy Bowers"
+  503  history
+  504  ls
+
+  The killer is actually Jeremy Bowers. The description of his car (a Blue honda with a plate starting with L337) matches the description given by the witness, and when matched against the membership lists of the cards found in the wallet left at the scene, his name is listed in each list. His height and description also match the ATM footage. 
