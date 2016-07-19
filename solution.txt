@@ -1,0 +1,14 @@
+cat crimescene | grep CLUE
+
+cat people | grep "Annabel"
+
+subl interview-699607
+
+cat vehicles | grep "L337"
+
+cat vehicles | grep -A 5 "L337" vehicles
+
+//Jeremy Bowers is the only remaing person
+//meets the criteria - male over 6'
+//blue honda, member of AAA delta museum
+//and library
