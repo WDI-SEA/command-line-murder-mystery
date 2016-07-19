@@ -1,1 +1,279 @@
-Annabel
+Annabel ——
+
+SOLUTION: Jeremy Bowers is the killer~
+
+Steps: 
+
+git clone gitàgithub.com:zaturnvalley/command-line-murder-mystery.git
+  273  ls
+  274  cd command-line-murder-mystery
+  275  git remote -v
+  276  ls
+  277  cd instructions
+  278  ls
+  279  instructions
+  280  echo instructions
+  281  cd instructions
+  282  open instructions
+  283  cat instructions
+  284  ls
+  285  cd mystery
+  286  ls
+  287  cat crimescene
+  288  ls
+  289  cd interviews
+  290  ls
+  291  cd ..
+  292  ls
+  293  cat people
+  294  cd ..
+  295  ls
+  296  cd mystery
+  297  ls
+  298  cd memberships
+  299  ls
+  300  cat 1.txt
+  301  cd ..
+  302  ls
+  303  cd ..
+  304  ls
+  305  cat instructions
+  306  cd mystery
+  307  ls
+  308  cat crimescene
+  309  grep CLUE
+  310  ls
+  311  crimescene grep CLUE
+  312  grep CLUE crimescene
+  313  l
+  314  ls
+  315  ..
+  316  ls
+  317  cat instructions
+  318  cd mystery
+  319  ls
+  320  cd memberships
+  321  ls
+  322  cd AAA
+  323  cat AAA
+  324  ..
+  325  ls
+  326  grep CLUE crimescene
+  327  cd memberships
+  328  ls
+  329  cat Delta_SkyMiles
+  330  ls
+  331  cat Museum_of_Bash_History
+  332  ls
+  333  grep CLUE crimescene
+  334  ..
+  335  grep clue crimescene
+  336  grep CLUE crimescene
+  337  cat library.txt
+  338  cd memberships
+  339  cat library.txt
+  340  ..
+  341  ls
+  342  grep CLUES crimescene
+  343  grep CLUE crimescene
+  344  cd interviews
+  345  ls
+  346  ..
+  347  grep Annabel interviews
+  348  ls
+  349  cd interviews
+  350  grep Annabel 
+  351  ..
+  352  ls
+  353  ..
+  354  ls
+  355  cat hint1
+  356  cat hint2
+  357  cat hint3
+  358  ls
+  359  cd mystery
+  360  ls
+  361  cd streets
+  362  ls
+  363  grep Annabel
+  364  grep Annabel -r
+  365  ..
+  366  ls
+  367  ..
+  368  ls
+  369  cat README.md
+  370  ls
+  371  cat cheatsheet.pdf
+  372  ls
+  373  cd mystery
+  374  ls
+  375  cd streets
+  376  ls
+  377  ..
+  378  grep CLUE crimescene
+  379  ls
+  380  grep -r "Annabel" ../interviews
+  381  ls
+  382  cat people
+  383  grep Annabel people
+  384  ls
+  385  cd streets
+  386  ls
+  387  cat Hart_Plac
+  388  cat Hart_Place
+  389  grep Annabel Hart_Place
+  390  ls
+  391  grep Annabel Buckingham_Place
+  392  ls
+  393  ..
+  394  ls
+  395  cat vehicles
+  396  ls
+  397  cd streets
+  398  cat Buckingham_Place
+  399  ..
+  400  ls
+  401  cd streets
+  402  ls
+  403  cat Hart_Place
+  404  ls
+  405  ..
+  406  cd interviews
+  407  ls
+  408  cat interview-47246024
+  409  ..
+  410  ls
+  411  cat people
+  412  grep Annabel people
+  413  ..
+  414  ls
+  415  cd mystery
+  416  ls
+  417  grep Church vehicles
+  418  cat vehicles
+  419  ..
+  420  ls
+  421  cd mystery
+  422  ls
+  423  cd interviews
+  424  grep CHURCH 
+  425  cd streets
+  426  ls
+  427  cat interview-47246024
+  428  ..
+  429  ls
+  430  cd streets
+  431  cat Buckingham_Place
+  432  ..
+  433  pwd
+  434  ls
+  435  cd interviews
+  436  cat interview-699607
+  437  ..
+  438  ls
+  439  grep L337 vehicles
+  440  grep Annabel people
+  441  cd streets
+  442  ls
+  443  cat Buckingham_Place
+  444  ..
+  445  ls
+  446  grep Annabel people
+  447  ..
+  448  cd
+  449  pwd
+  450  û
+  451  pwd
+  452  ls
+  453  cd Code
+  454  ls
+  455  cd week1
+  456  ls
+  457  cd day1
+  458  ls
+  459  cd command-line-murder-mystery
+  460  ls
+  461  touch solution.txt
+  462  open solution.txt
+  463  git status
+  464  git add -A
+  465  git status
+  466  git commit -a -m "Found Annabel as clue"
+  467  git status
+  468  ls
+  469  cd mystery
+  470  ls
+  471  grep Annabel people
+  472  cd streets
+  473  ls
+  474  head -n 173 streets/Mattapan_Street
+  475  head -n 173 ../streets/Mattapan_Street
+  476  tail -n ../streets/Mattapan_Street
+  477  cd
+  478  pwd
+  479  cd Code/week1/day1
+  480  ls
+  481  cd command-line-murder-mystery
+  482  ls
+  483  cd mystery
+  484  ls
+  485  cd interviews
+  486  cat interview-9437737
+  487  ..
+  488  grep Annabel people
+  489  cd streets
+  490  head -n 176 /streets/Haley_Street
+  491  cat Haley_Street
+  492  ls
+  493  ..
+  494  cd interviews
+  495  ls
+  496  cat interview-871877
+  497  ..
+  498  pwd
+  499  ls
+  500  grep L337 vehicles
+  501  grep Honda vehicles
+  502  grep Blue vehicles
+  503  grep Church vehicles
+  504  grep "Blue Honda" vehicles
+  505  ls
+  506  grep "Blue Honda" vehicles
+  507  grep Honda vehicles -a
+  508  grep -A 2 Honda vehicles
+  509  ls
+  510  ..
+  511  cat hint3
+  512  cat hint5
+  513  ls
+  514  cd mystery
+  515  ls
+  516  grep -A 5 "L337" vehicles
+  517  ls
+  518  cd memberships
+  519  ls
+  520  grep "Joe Germuska" Delta-SkyMiles
+  521  grep "Joe Germuska" Delta_SkyMiles
+  522  grep "Jeremy Bowers" Delta_SkyMiles
+  523  grep "Jeremy Bowers" AAA
+  524  grep "Jeremy Bowers" library.txt
+  525  history
+  526  ls
+  527  ..
+  528  ls
+  529  cat crimescene
+  530  ls
+  531  ..
+  532  ls
+  533  cat instructions
+  534  ls
+  535  cd mystery
+  536  ls
+  537  grep ClUE mystery
+  538  grep CLUE mystery
+  539  ls
+  540  grep CLUE crimescene
+  541  ls
+  542  cd memberships
+  543  ls
+  544  grep "Jeremy Bowers" Museum_of_Bash_History
