@@ -1,0 +1,511 @@
+Jeremy Bowers	M	34	Dunstable Road, line 284
+    1  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+    2  subl ~/.zshrc
+    3  clear
+    4  which psql
+    5  brew install mongodb
+    6  which mongo
+    7  which mongodb
+    8  which mongod
+    9  clear
+   10  sudo chown -R $USER:wheel /data
+   11  whoami
+   12  sudo chown -R Retrofuture:wheel /data
+   13  clear
+   14  brew install rbenv
+   15  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   16  clear
+   17  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   18  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   19  source ~/.zshrc
+   20  subl ~/.zshrc
+   21  sudo chown -R $USER ~/.rbenv
+   22  brew install ruby-build
+   23  rbenv install 2.3.1
+   24  rbenv global 2.2.2
+   25  ping
+   26  www.google.com
+   27  ping washington.edu
+   28  ping google.com
+   29  ping 127.0.0.1
+   30  traceroute washington.edu
+   31  clear
+   32  curl -I http://www.google.com
+   33  clear
+   34  matrix
+   35  clear
+   36  pwd
+   37  clear
+   38  open key.txt
+   39  open file: Applications/Chrome\ Apps.localized
+   40  clear
+   41  ls
+   42  open http://google.com
+   43  dir
+   44  run dir
+   45  clear
+   46  drwx
+   47  clear
+   48  open key.txtclear
+   49  clear
+   50  ls Documents
+   51  /clear
+   52  clear
+   53  ls -a
+   54  ls -la
+   55  clear
+   56  pwd
+   57  documents pwd
+   58  Documents
+   59  pwd
+   60  c..
+   61  c ..
+   62  cd ..
+   63  Documents
+   64  pwd
+   65  cd ../../
+   66  retrofuture
+   67  pwd
+   68  cd
+   69  clear
+   70  cd ..
+   71  pwd
+   72  cd
+   73  ls
+   74  retrofuture
+   75  /retrofuture
+   76  cd ..
+   77  users
+   78  retrofuture
+   79  ls
+   80  clear
+   81  ls /
+   82  /cd users
+   83  cd users
+   84  pwd
+   85  desktop
+   86  mkdir wassup
+   87  clear
+   88  cs ..
+   89  cd ..
+   90  desktop
+   91  wassup
+   92  touch books.txt
+   93  open books.txt
+   94  subl books.txt
+   95  cat books.txt
+   96  echo "Miguel is a genius"
+   97  clear
+   98  echo "this bookshelf flexes under weight" >schedule.txt
+   99  cat schedule.txt
+  100  echo "this bookshelf flexes under weight" >schedule.txt
+  101  echo "this shelf is dumb" >> schedule.txt
+  102  cat books.txt | sort
+  103  cat books.txt | sort > sorted_books.txt
+  104  ls
+  105  clear
+  106  cat books.txt | grep Mil
+  107  ps aux | grep node
+  108  clear
+  109  mv sorted_books.txt books.txt
+  110  clear
+  111  cp books.txt ../.
+  112  clear
+  113  rm -rf
+  114  rm -rf/wassup
+  115  ls volumes
+  116  ls /volumes
+  117  clear
+  118  cd ..
+  119  rm -rf wassup
+  120  clear
+  121  desktop
+  122  mkdir code
+  123  code
+  124  ls
+  125  mkdir week1
+  126  week1
+  127  mkdir day1
+  128  day1
+  129  clear
+  130  mkdir project_git
+  131  project_git
+  132  touch readme.md
+  133  ls
+  134  clea
+  135  rclear
+  136  clear
+  137  ls
+  138  ls -a
+  139  cd .git
+  140  ls
+  141  clear
+  142  rm -rf .git
+  143  project_git
+  144  cd ..
+  145  clear
+  146  git status
+  147  git add touch miguel.txt
+  148  git status
+  149  touch miguel.txt
+  150  git status
+  151  git add -A
+  152  clear
+  153  git status
+  154  git commit -a -m "Added readme and blank text file"
+  155  git status
+  156  git commit
+  157  git add
+  158  git status
+  159  git add
+  160  git status
+  161  git commit - a -m "added test line to readme"
+  162  git commit -a -m "added test line to readme"
+  163  git status
+  164  clear
+  165  git diff
+  166  git diff --git a/readme.md /
+  167  clear
+  168  desktop
+  169  code
+  170  ls
+  171  week1
+  172  ls
+  173  day1
+  174  ls
+  175  project_git
+  176  clear
+  177  desktop
+  178  code
+  179  ls
+  180  week1
+  181  day1
+  182  git clone git@github.com:miguelapou/Git_practice.git
+  183  ls
+  184  cd project_git
+  185  ls
+  186  cd.
+  187  cd ..
+  188  project_git
+  189  ls
+  190  cd ../git_practice
+  191  clear
+  192  git remote -v
+  193  cd ..
+  194  day1
+  195  ls
+  196  project_git
+  197  git remote -v
+  198  clear
+  199  git remote add origin git@github.com:miguelapou/Git_practice.git
+  200  git remote -v
+  201  ls
+  202  git remote -v
+  203  git status
+  204  git push origin master
+  205  ls
+  206  git pull
+  207  git remote -v
+  208  git pull origin master
+  209  ls
+  210  clear
+  211  cd ..
+  212  git clone git@github.com:miguelapou/command-line-murder-mystery.git
+  213  ls
+  214  cd command-line-murder-mystery/
+  215  git remote -v
+  216  clear
+  217  desktop
+  218  code
+  219  wekk1
+  220  kee1
+  221  week1
+  222  day1
+  223  ls
+  224  command-line-murder-mystery
+  225  clear
+  226  ls
+  227  cat instructions
+  228  ls
+  229  mystery
+  230  ls
+  231  cat crimescene
+  232  clear
+  233  desktop
+  234  code
+  235  week1
+  236  day1
+  237  ls
+  238  command-line-murder-mystery/mystery
+  239  ls
+  240  cd..
+  241  cd ..
+  242  ls
+  243  cat instructions
+  244  grep CLUE crimescene
+  245  ls
+  246  cat hint1
+  247  cd ..
+  248  ls
+  249  hint1
+  250  cat hint1
+  251  cat hint2
+  252  mystery
+  253  ls
+  254  head -n 20 people
+  255  cd ..
+  256  mystery
+  257  ls
+  258  head -n 20 interviews
+  259  interviews
+  260  ls
+  261  cd ..
+  262  ls
+  263  cat hint3
+  264  cat peopple
+  265  cat people
+  266  ls
+  267  mystery
+  268  ls
+  269  cat people
+  270  cat people sort
+  271  history
+  272  ls
+  273  head clear
+  274  clear
+  275  ls
+  276  head 20 -m people
+  277  head 20 people
+  278  cd ..
+  279  hint1
+  280  cat hint1
+  281  mystery
+  282  head -n 20 vehicles
+  283  ls
+  284  cd ..
+  285  cat hint2
+  286  mystery
+  287  grep "license" interviews
+  288  interviews
+  289  ls
+  290  cd ..
+  291  ls
+  292  grep "license" crimescene
+  293  grep "plate" crimescene
+  294  ls
+  295  grep "rabbit" crimescene
+  296  grep "w. rabbit" crimescene
+  297  grep "w.rabbit" crimescene
+  298  grep "Rabbit" crimescene
+  299  grep "Rabbit" people
+  300  ls
+  301  head -n 20 vehicles
+  302  ls
+  303  cd ..
+  304  cat hint3
+  305  cat hint4
+  306  ls
+  307  mystery
+  308  ls
+  309  grep "Annabel" people
+  310  cd ..
+  311  ls
+  312  mystery
+  313  ls
+  314  streets
+  315  ls
+  316  cat mattapan_street
+  317  cat -n 173
+  318  cat -n 173 mattapan_street
+  319  ls
+  320  cd ..
+  321  ls
+  322  interviews
+  323  ls
+  324  cat interview-9437737
+  325  ls
+  326  cd ..
+  327  ls
+  328  streets
+  329  ls
+  330  head -n 179 buckingham-place
+  331  head -n 179 Buckingham-Place
+  332  head -n 179 Buckingham_Place
+  333  cd ..
+  334  ls
+  335  streets
+  336  head -n 176 Haley_Street
+  337  head -n 40 Hart_place
+  338  cd ..
+  339  interiews
+  340  interviews
+  341  ls
+  342  cat interview-47246024
+  343  cat interview-699607
+  344  cat interview-871877
+  345  cd ..
+  346  ls
+  347  vehicles
+  348  head -n 20 vehicles
+  349  grep "blue honda" vehicles
+  350  grep "Blue Honda" vehicles
+  351  grep "Blue, Honda" vehicles
+  352  grep "Blue", "Honda" vehicles
+  353  grep -A 2 "Honda" vehicles
+  354  grep A-1 "Honda" vehicles
+  355  ls
+  356  grep  -A 1 "Honda" vehicles
+  357  ls
+  358  grep  -A 1 "l337" vehicles
+  359  grep "l337" vehicles
+  360  ls
+  361  cd ..
+  362  ls
+  363  open cheatsheet.pdf
+  364  grep "Honda" vehicles
+  365  mystery
+  366  grep "Honda" vehicles
+  367  grep c "Honda" vehicles
+  368  grep -c "Honda" vehicles
+  369  grep -A 2 "Honda" vehicles
+  370  grep -A  "Honda" vehicles
+  371  grep -C 3 "Honda" vehicles
+  372  grep -C 4 "Honda" vehicles
+  373  grep -C 1 "Honda" vehicles
+  374  grep -C 1 "Honda" vehicles > hondas.txt
+  375  ls
+  376  grep "l337" hondas.txt
+  377  grep "L337" hondas.txt
+  378  grep -C 5 "Honda" vehicles > hondas1.txt
+  379  grep "L337" hondas1.txt
+  380  grep -C 5 "L337" vehicles > plates.txt
+  381  cat plates.txt
+  382  grep -A 5 "L337" vehicles > plates1.txt
+  383  cat plates1.txt
+  384  cat hondas.txt
+  385  clear
+  386  pwd
+  387  ls
+  388  grep -a 2 "Honda"
+  389  grep -a 2 "Honda" vehicles
+  390  grep -A 2 "Honda" vehicles
+  391  grep -A 3 "Honda" vehicles
+  392  cat vehicles
+  393  grep -C 3 "Honda" vehicles
+  394  grep -C 2 "Honda" vehicles
+  395  grep -C 2 "Honda" vehicles > hondas.txt
+  396  grep -C 2 "Blue" hondas.txt
+  397  grep -C 2 "Blue" hondas.txt > blues.txt
+  398  cat blues.txt
+  399  grep -C 2 "L337" blues.txt
+  400  grep -C 3 "L337" blues1.txt
+  401  cat blues.txt
+  402  grep -C 3 "L337" > plates.txt
+  403  desktop
+  404  code
+  405  week1
+  406  day1
+  407  ls
+  408  command-line-murder-mystery
+  409  mystery
+  410  ls
+  411  cat blues.txt
+  412  grep -C 3 "L337" blues.txt > plates.txt
+  413  cat plates.txt
+  414  ls
+  415  grep "Jeremy Bowers" people
+  416  grep "Aron Pilhofer" people
+  417  grep "Joe Germuska" people
+  418  memberships
+  419  ls
+  420  cd ..
+  421  ls
+  422  grep "CLUE" crimescene
+  423  cd ..
+  424  mystery
+  425  ls
+  426  grep "Jeremy Bowers" memberships
+  427  memberships
+  428  grep "Jeremy Bowers" AAA
+  429  grep "Jeremy Bowers" Delta
+  430  grep "Jeremy Bowers" Delta_Skymiles
+  431  grep "Jeremy Bowers" Terminal_City_Library
+  432  grep "Jeremy Bowers" Museum_of_Bash_History
+  433  cd ..
+  434  ls
+  435  grep "Jeremy Bowers" people
+  436  grep "Jeremy Bowers" people > this_dude_did_it.txt
+  437  git add
+  438  git commit -a
+  439  git add -a
+  440  git add -v
+  441  git add A
+  442  git add -A
+  443  git commit
+  444  git commit -a -m"Added txt files to narrow search and murderer name"
+  445  git push origin master
+  446  desktop
+  447  ls
+  448  code
+  449  ls
+  450  week1
+  451  day1
+  452  ls
+  453  command-line-murder-mystery
+  454  ls
+  455  cat README.md
+  456  ls
+  457  mystery
+  458  ls
+  459  cat vehicles
+  460  ls
+  461  cd ..
+  462  ls
+  463  instruction
+  464  cat instructions
+  465  ls
+  466  mystery
+  467  ls
+  468  cat crimescene
+  469  grep "CLUE" crimescene
+  470  cd ..
+  471  ls
+  472  mystery
+  473  ls
+  474  memberships
+  475  ls
+  476  grep "Jeremy Holden" people
+  477  ls
+  478  cd..
+  479  cd ..
+  480  pwd
+  481  clear
+  482  code
+  483  ls
+  484  desktop
+  485  code
+  486  wekk1
+  487  week1
+  488  day1
+  489  ls
+  490  command-line-murder-mystery
+  491  ls
+  492  mystery
+  493  ls
+  494  history
+  495  desktop
+  496  code
+  497  week1
+  498  day1
+  499  ls
+  500  command-line-murder-mystery
+  501  ls
+  502  mystery
+  503  history
+  504  history > solutions.txt
+  505  ls
+  506  cat solutions.txt
+  507  ls
+  508  cat this_dude_did_it.txt solutions.txt > solutions.txt
+  509  ls
+  510  cat solutions.txt
