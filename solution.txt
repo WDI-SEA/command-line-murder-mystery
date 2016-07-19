@@ -1,0 +1,442 @@
+The killer should be Joe Germuska. His car matches the description given in interview 699607. His name matches the registries from each card recovered from the wallet, and he is over 6 foot tall.
+
+    1  subl ~/.zshrc
+    2  which psql
+    3  brew install mongodb
+    4  sudo mkdir -p /data/db
+    5  whoami
+    6  sudo chown -R hellojed:wheel /data
+    7  clear
+    8  brew install rbenv
+    9  sudo xcodebuild -license
+   10  brew install rbenv
+   11  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   12  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   13  source ~/.zshrc
+   14  subl ~/.zshrc
+   15  source ~/.zshrc
+   16  sudo chown -R $USER ~/.rbenv
+   17  brew install ruby-build
+   18  rbenv install 2.3.0
+   19  rbenv global 2.2.2
+   20  rbenv global 2.3.0
+   21  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   22  sudo gem update
+   23  sudo gem install rails
+   24  clear
+   25  traceroute google.com
+   26  curl
+   27  curl twitter.com
+   28  curl --help
+   29  curl -i www.google.com
+   30  curl -v www.twitter.com
+   31  clear
+   32  ping www.google.com
+   33  tracert 
+   34  traceroute google.com
+   35  curl -v www.twitter.com
+   36  curl -i  www.twitter.com
+   37  curl -i  www.twitter.com/dril
+   38  curl -i  www.twitter.com/hell0jed
+   39  curl -i  www.twitter.com/asfdasdfasdfasdfasdfasfeee22
+   40  clear
+   41  ls
+   42  matrix
+   43  pwd
+   44  cd fundamentals
+   45  ls
+   46  open wdi-fundamentals-memorygame
+   47  cd
+   48  dir
+   49  ls
+   50  open Documents
+   51  cd fundamentals
+   52  cd wdi-fundamentals-memorygame
+   53  ls
+   54  open README.md
+   55  ls -l
+   56  cd
+   57  ld Downloads
+   58  ld Documents
+   59  ls Downloads
+   60  ls -a
+   61  la -la
+   62  cd fundamentals/wdi-fundamentals-memorygame/
+   63  ls
+   64  cd starter-code
+   65  ls
+   66  cd ..
+   67  cd .
+   68  cd ../..
+   69  ls
+   70  cd Documents
+   71  cd
+   72  cd downloads
+   73  ls
+   74  cd
+   75  / ls
+   76  cd /
+   77  ls
+   78  cd
+   79  / ls
+   80  ls /
+   81  ls
+   82  mkdir ga-work
+   83  ls
+   84  cd ga-work
+   85  poke
+   86  ls ~
+   87  mkdir /Users/hellojed/ga-work/DayZero
+   88  ls
+   89  touch ../file.txt
+   90  ls ../
+   91  cd DayZero
+   92  touch empty.txt
+   93  subl empty.txt
+   94  cat empty.txt
+   95  touch empty2.txt
+   96  subl empty2.txt
+   97  echo "boo"
+   98  echo "This is a dank meme." > empty2.txt
+   99  cat empty2.txt
+  100  cat empty.txt empty2.txt
+  101  echo "This is a dank meme again." >> empty2.txt
+  102  cat empty2.txt
+  103  cat empty2.txt | sort
+  104  cat empty2.txt | sort >> empty.txt
+  105  cat empty.txt
+  106  cat empty2.txt
+  107  cat empty2.txt | grep Mil
+  108  ps aux
+  109  ps aux | grep chrome
+  110  ps aux | grep usr
+  111  mv empty.txt empty2.txt
+  112  cat empty2.txt
+  113  move empty2.txt ../junktext.txt
+  114  mv empty2.txt ../junktext.txt
+  115  mv empty.txt ../.
+  116  cd ../
+  117  ls
+  118  cat junktext.txt
+  119  cd DayZero
+  120  ls
+  121  cat empty2.txt
+  122  cp empty2.txt ../.
+  123  ls
+  124  cd ../
+  125  ls
+  126  rm junktext.txt
+  127  ls
+  128  ls /Volumes
+  129  ls
+  130  ls *.txt
+  131  echo $user
+  132  cd
+  133  echo $USER
+  134  man ls
+  135  which git
+  136  git --version
+  137  mkdir Code
+  138  ls
+  139  ls Code
+  140  mkdir Week1
+  141  cd Week1
+  142  mkdir Day1
+  143  cd Day1
+  144  mkdir project_git
+  145  cd project_git
+  146  touch readme.md
+  147  ls
+  148  git init
+  149  ls -a
+  150  git status
+  151  touch test.txt
+  152  git status
+  153  git add -A
+  154  git status
+  155  subl readme.md
+  156  git status
+  157  git add -A
+  158  git status
+  159  git commit -a -m "initial commit, added readme and blank text file"
+  160  git status
+  161  git add -A
+  162  git status
+  163  git commit -a -m "Added line to readme"
+  164  git status
+  165  git diff
+  166  git status
+  167  git add -A
+  168  git checkout readme.md
+  169  git status
+  170  git log
+  171  git status
+  172  git commit -a -m "More stuff"
+  173  git satus
+  174  git status
+  175  cd
+  176  cd code
+  177  cd week1
+  178  cd Week1
+  179  cd
+  180  ls
+  181  cd Code
+  182  cd Week1
+  183  ls
+  184  cd
+  185  cd Week1
+  186  ls
+  187  cd Day1
+  188  ls
+  189  git clone git@github.com:mullfuchs/git_practice.git
+  190  ls
+  191  cd project_git
+  192  cd ../
+  193  cd git_practice
+  194  git remote -v
+  195  cd ../
+  196  cd proj
+  197  cd project_git
+  198  git remote -v
+  199  yeahhhhh
+  200  git remote add origin git@github.com:mullfuchs/git_practice.git
+  201  git status
+  202  git remove -v
+  203  git remote -v
+  204  cd ../git_practice
+  205  cd ../project_git
+  206  ls
+  207  git status
+  208  git push origin master
+  209  ls
+  210  git pull origin master
+  211  cd ../git_practice
+  212  git remote -v
+  213  git pull origin master
+  214  cd ../
+  215  git clone git@github.com:mullfuchs/command-line-murder-mystery.git
+  216  ls
+  217  cd command-line-murder-mystery
+  218  ls
+  219  git remote -v
+  220  cat instructions
+  221  cd mystery
+  222  ls
+  223  cat crimescene
+  224  cat crimescene | grep CLUE
+  225  cd ../
+  226  ls
+  227  touch solution.txt
+  228  subl solution.txt
+  229  cat instructions
+  230  ls
+  231  cd mystery
+  232  ls
+  233  cat people
+  234  ls
+  235  cat people | grep CLUE
+  236  cat crimescene | grep CLUE
+  237  cat people | grep Annabel
+  238  ls interviews
+  239  ls streets
+  240  cat vehicles
+  241  cat vehicles | grep Annabel
+  242  ls
+  243  ls memberships
+  244  cat 1.txt
+  245  cd memberships
+  246  cat 1.txt
+  247  ls
+  248  cat delta.txt
+  249  ls
+  250  cd ../
+  251  ls
+  252  cat crimescene | grep CLUE  >> solution.txt
+  253  cat solution.txt
+  254  cat man
+  255  man cat
+  256  cat memberships/AAA - memberships/Delta_SkyMiles - memberships/Museum_of_Bash_History - memberships/library.txt| grep Annabel
+  257  cat people | grep annabel
+  258  cat people| grep Annabel
+  259  man grep
+  260  ls streets
+  261  cat Buckingham_Place
+  262  cd streets
+  263  cat Buckingham_Place
+  264  cat Buckingham_Place | grep CLUE
+  265  cat Buckingham_Place | grep Annabel
+  266  cd ../
+  267  ls
+  268  history
+  269  cat memberships/AAA - memberships/Delta_SkyMiles - memberships/Museum_of_Bash_History| grep Annabel
+  270  ls
+  271  cat memberships/AAA - memberships/Delta_SkyMiles - memberships/Museum_of_Bash_History| grep Annabel >> solution.txt
+  272  cat memberships/AAA | grep Annabel
+  273  cat memberships/Delta_SkyMiles | grep Annabel
+  274  cat memberships/Museum_of_Bash_History | grep Annabel
+  275  cat crimescene| grep CLUE
+  276  cat memberships/library.txt| grep AnnaBel
+  277  cat memberships/library.txt| grep Annabel
+  278  cd 
+  279  ls
+  280  cd Week1
+  281  ls
+  282  cd Day1
+  283  ls
+  284  cd command-line-murder-mystery
+  285  ls
+  286  cat hint
+  287  cat hint1
+  288  ls mystery
+  289  head -n 20 people
+  290  head -n 20 mystery/people
+  291  cat mystery/people - grep Annabel
+  292  cat mystery/people | grep Annabel
+  293  ls
+  294  cat hint2
+  295  cd mystery
+  296  ls
+  297  ls interview
+  298  cd interviews
+  299  ls
+  300  grep -nr 'Annabel' .
+  301  cat . | grep -nr 'Annabe' .
+  302  cat | grep -nr 'Annabe' .
+  303  cat *
+  304  cat * | grep Annabel
+  305  cat * | grep CLUE
+  306  cat *
+  307  cat * | grep You
+  308  cat * | grep CLUE
+  309  cat * | grep AAA
+  310  cat * | grep New Zealand
+  311  cat * | grep Zealand
+  312  cat * | grep AAA
+  313  cat * | grep -n AAA 
+  314  cat * 962
+  315  cat * -n 962
+  316  cat * 
+  317  cat * | grep -n 962
+  318  cat * | grep -n AAA 
+  319  man cat
+  320  cat * -n 950
+  321  cat * -l 950
+  322  cat -l* 950
+  323  cat -l 950
+  324  man cat
+  325  cat * | grep --context 950 
+  326  cat * | grep --context=950 
+  327  cat * | grep AAA  --context=950 
+  328  cat * | grep AAA  --context=962 
+  329  cat * | grep AAA --context=940 
+  330  cat * | grep AAA --context=962 
+  331  cat * | grep AAA
+  332  cat * | grep AAA --context=960 
+  333  cat * | grep AAA --context=970 
+  334  cd ../
+  335  ls
+  336  cat hint3
+  337  cd mystery
+  338  ls
+  339  cat people | grep Annabel
+  340  history
+  341  ls
+  342  cd interviews
+  343  cat * | grep AAA
+  344  cat * | grep -l AAA
+  345  cat * | grep -n AAA
+  346  cat * | grep AAA --context=970 
+  347  cat * --context=970 
+  348  head -n 960  
+  349  man head
+  350  cd
+  351  cd week1
+  352  cd day1
+  353  ls
+  354  cd command-line-murder-mystery
+  355  ls
+  356  cd mystery
+  357  ls
+  358  cd streets
+  359  ls
+  360  head -n 197
+  361  cd ../
+  362  ls
+  363  cat people | grep Annabel
+  364  head -n 179 streets/Buckingham_Place | tail -n |\n\nuhh
+  365  head -n 179 streets/Buckingham_Place | tail -n 1\n\nuhh
+  366  head -n 179 streets/Hart_Place | tail -n 1
+  367  head -n 26 streets/Hart_Place | tail -n 1
+  368  head -n 40 streets/Hart_Place | tail -n 1
+  369  ls
+  370  cd interviews
+  371  ls
+  372  cat interview
+  373  cd ../
+  374  cat interview | grep interview-699607
+  375  cat interview/* | grep interview-699607
+  376  cat interview/* | grep "interview-699607"
+  377  cat | grep "interview-699607"
+  378  ls
+  379  cat
+  380  cd ../
+  381  ls
+  382  cat hint3
+  383  cat hint4
+  384  cat hint5
+  385  cat hint6
+  386  ls
+  387  cd mystery
+  388  ls
+  389  head interviews/* 
+  390  head interviews/* | grep "interview-699607"
+  391  head interviews/* | grep "interview-699607" --context=10
+  392  head interviews/* | grep "interview-47246024" --context=10
+  393  cd
+  394  cd week1
+  395  cd Day1
+  396  cd command-line-murder-mystery
+  397  ls
+  398  cd mystery
+  399  ls
+  400  head vehicles | grep "L337" --context=10
+  401  cat vehicles | grep "L337" --context=10
+  402  cat vehicles | grep "L337"
+  403  cat vehicles | grep "L337" --context=6
+  404  cat vehicles | grep "L337**9" --context=6
+  405  cat vehicles | grep "L339"+**+"9"  --context=6
+  406  cat vehicles | grep "L339"**"9"  --context=6
+  407  cat vehicles | grep "L337"**"9"  --context=6
+  408  cat vehicles | grep "L337"**"9"
+  409  cat vehicles | grep "L337"**"9"  --context=6
+  410  cat vehicles | grep "L337" --context=6
+  411  ls
+  412  cd ../
+  413  ls
+  414  cat hint6
+  415  hint7
+  416  cat hint7
+  417  grep -A 5 "L337" mystery/vehicles
+  418  cat hint8
+  419  cd
+  420  cd Week1
+  421  cd Day1
+  422  cd
+  423  cd week1
+  424  cd Day1
+  425  ls
+  426  cd command-line-murder-mystery
+  427  ls
+  428  cd mystery
+  429  ls
+  430  cat crimescene | grep "CLUE"
+  431  cat memberships/AAA memberships/library.txt memberships/Delta_SkyMiles memberships/Museum_of_Bash_History| grep "Annabel "
+  432  cat memberships/AAA memberships/library.txt memberships/Delta_SkyMiles memberships/Museum_of_Bash_History| grep "Joe"
+  433  cat memberships/AAA memberships/library.txt memberships/Delta_SkyMiles memberships/Museum_of_Bash_History| grep "Joe Germuska"
+  434  cat memberships/AAA memberships/library.txt memberships/Delta_SkyMiles memberships/Museum_of_Bash_History| grep "Jacqui Maher"
+  435  cat memberships/AAA memberships/library.txt memberships/Delta_SkyMiles memberships/Museum_of_Bash_History| grep "Jeremy Bowers"
+  436  ls
+  437  head people -l 20
+  438  cat people | grep "jacqui"
+  439  cat people | grep "Jacqui"
+  440  ls
