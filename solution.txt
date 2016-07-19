@@ -1,0 +1,368 @@
+    1  subl ~/.zshrc
+    2  ~/.zshrc
+    3  sudo ~/.zshrc
+    4  clear
+    5  ~/
+    6  ~/open
+    7  opeb ~/
+    8  open ~/
+    9  which psql
+   10  bre install mongodb
+   11  brew install mongodb
+   12  sudo mkdir -p /data/db
+   13  which mongo
+   14  which mongodb
+   15  sudo chown -R $USER:wheel /data
+   16  whoami
+   17  sudo chown -R boetwaldbjorn:wheel /data
+   18  brew install rbenv
+   19  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   20  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   21  source ~/.zshrc
+   22  subl ~/zshrc
+   23  subl ~/.zshrc
+   24  sudo chown -R $USER ~/.rbenv
+   25  brew install ruby-build
+   26  rbenv install 2.3.1
+   27  rbenv install --list
+   28  rbenv install 2.3.0
+   29  rbenv global 2.2.2
+   30  rbenv global 2.3.0
+   31  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   32  sudo gem update
+   33  sudo gem install rails
+   34  which ruby
+   35  rudy update
+   36  ruby update
+   37  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+   38  ls -a /
+   39  clear
+   40  ping washington.edu
+   41  ping uw.edu
+   42  ping stnadford.edu
+   43  ping stanford.edu
+   44  traceroute apple.com
+   45  traceroute
+   46  whois esperas.org
+   47  whois boetw.com
+   48  whois irs.gov
+   49  whois washington.edu
+   50  curl -I http://www.google.com
+   51  -I http://www.google.com
+   52  curl -I http://www.google.com
+   53  clear
+   54  ls -a -l /
+   55  cs /Users
+   56  cd /Uers
+   57  cd /Users
+   58  ls -a -l
+   59  cd ..
+   60  l s-a
+   61  ls -a
+   62  rm -fr .git
+   63  ls -a
+   64  rm -fr .gitconfig
+   65  ls -a
+   66  clear
+   67  help
+   68  ?
+   69  ls ?
+   70  ls
+   71  ls ee
+   72  ls help
+   73  clear
+   74  emacs
+   75  clear
+   76  matrix
+   77  pwd
+   78  open index.html
+   79  ls
+   80  ls mac
+   81  ls
+   82  ls mel
+   83  ls
+   84  clear
+   85  ls
+   86  ls -l
+   87  cd ..
+   88  ls
+   89  cd Volume
+   90  cd /Volume
+   91  cd /Volumes
+   92  ls
+   93  cd ~
+   94  cd
+   95  pwd
+   96  cd ,,
+   97  cd,,
+   98  cd ,,
+   99  ls
+  100  /
+  101  cd /
+  102  ls
+  103  ls /Volumes
+  104  history
+  105  clear
+  106  git
+  107  git -version
+  108  cd
+  109  mkdir Code
+  110  ls Code
+  111  ls /Code
+  112  ls
+  113  cd Code
+  114  ls
+  115  mkdir week1
+  116  mkdir day1
+  117  ls
+  118  rm day1
+  119  rmdir day1
+  120  ls
+  121  cd week1
+  122  day1
+  123  mkdir day1
+  124  cd day1
+  125  project_git
+  126  mkdir project_git
+  127  touch readme.md
+  128  ls
+  129  rm readme.md
+  130  cd project_git
+  131  touch readme.md
+  132  ls
+  133  git init
+  134  ls
+  135  ls -a
+  136  git status
+  137  git add readme.md
+  138  git status
+  139  git commit -a -m "created readme"
+  140  git config --global --edit
+  141  git commit -a -m "created readme"
+  142  git status
+  143  echo readme.md
+  144  git status
+  145  git add -A
+  146  git status
+  147  git commit -a -m "added tect to readme"
+  148  git config --glocal user.email boetw@me.com
+  149  git config --global user.email boetw@me.com
+  150  git diff
+  151  touch added-file.txt
+  152  git diff
+  153  git status
+  154  git add -A
+  155  git commint -a -m "created added-file.txt"
+  156  git commit -a -m "created added-file.txt"
+  157  git log
+  158  cd ..
+  159  git@github.com:boetw/got_practice.git
+  160  git clone git@github.com:boetw/got_practice.git
+  161  ls
+  162  cd got_practice
+  163  ls
+  164  cd .. project_git
+  165  cd /project_git
+  166  cd ..
+  167  cd project_git
+  168  cd ..
+  169  cd got_practice
+  170  git remote -v
+  171  cd ..
+  172  cd project-git
+  173  ls
+  174  cd project_git
+  175  git status
+  176  git push origin master
+  177  git remote add origin git@github.com:boetw/got_practice.git
+  178  git push -u origin master
+  179  git commit
+  180  git pull origin master
+  181  ls
+  182  git pull origin master
+  183  git commit
+  184  git add -A
+  185  git status
+  186  git commit
+  187  git commit -a -m "added text"
+  188  git pull origin master
+  189  clear
+  190  cd..
+  191  cd ..
+  192  git@github.com:boetw/command-line-murder-mystery.git
+  193  git clone git@github.com:boetw/command-line-murder-mystery.git
+  194  ls
+  195  cd command-line-murder-mystery
+  196  ls
+  197  git remote -v
+  198  ls
+  199  echo README.md
+  200  echo instuctions
+  201  cd mystery
+  202  ls
+  203  cat crimescene
+  204  cat crimescene grep clue
+  205  cat crimescene | grep CLUE
+  206  ls
+  207  cat interviews
+  208  cat people
+  209  cat people | sort
+  210  cat people | gerp annab
+  211  cat people | grepp annab
+  212  cat people | grep annab
+  213  cat people | grep annab*
+  214  cat people | grep annabel
+  215  cat people | grep anna*
+  216  cat people | grep anna
+  217  cat people | grep Anna
+  218  cat people | grep Annab
+  219  cd
+  220  ls
+  221  cd Code
+  222  ls
+  223  cd week1/day1
+  224  ls
+  225  ls command-line-murder-mystery
+  226  cd command-line-murder-mystery/mystery
+  227  ls
+  228  cat memberships
+  229  cd memberships
+  230  ls
+  231  cat AAA
+  232  ls
+  233  cat Museum_of_Bash_History
+  234  ls
+  235  cd ..
+  236  ls
+  237  cd streets
+  238  ls
+  239  cd Hart_Place
+  240  cat Hart_Place
+  241  cat Hart_Place | line 40
+  242  cd ..
+  243  ls
+  244  cd interviews
+  245  ls
+  246  cat interview-47246024
+  247  cd ..
+  248  ls
+  249  cd streets
+  250  ls
+  251  cat Buckingham Place
+  252  cat Buckingham_Place
+  253  cat Buckingham_Place | interview
+  254  cat Buckingham_Place | grep interview
+  255  cat Buckingham_Place | grep INTERVIEW
+  256  cd ..
+  257  ls
+  258  cd interviews
+  259  ls
+  260  cat interview_699607
+  261  cat interview-699607
+  262  cd ..
+  263  ls
+  264  cat vehicles
+  265  cat vehicles | grep blue
+  266  cat vehicles | grep Blue
+  267  cat vehicles | grep L337
+  268  cat vehicles | grep Make: Honda Color: Blue
+  269  cat vehicles | grep Make: HondaMake: HyundaiColor: Blue
+  270  cat vehicles
+  271  cd ..
+  272  ls
+  273  cd mystery
+  274  ls
+  275  people
+  276  cat people
+  277  ls
+  278  cd memberships
+  279  ls
+  280  cat AAA | grep Jacqui
+  281  cat AAA | grep Jeremy
+  282  cat AAA | grep Joe
+  283  cat Delta_SkyMiles | grep Jacqui
+  284  cat Delta_SkyMiles | grep Jeremy
+  285  cat Delta_SkyMiles | grep Joe
+  286  cat library.txt | grep Jeremy
+  287  cat library.txt | grep Jacqui
+  288  cat Museum_of_Bash_History | grep Jacqui
+  289  cat Museum_of_Bash_History | grep Jeremy
+  290  ls
+  291  cd ..
+  292  ls
+  293  cat crimescene
+  294  ls
+  295  cat people | less
+  296  ls
+  297  cat crimescene | grep CLUE
+  298  cat people | grep Jacqui
+  299  cat people | grep Anna*
+  300  cat people | grep Annabel
+  301  cd interviews
+  302  ls
+  303  Make: Hyundai
+  304  Color: Blac
+  305  ls
+  306  cd ..
+  307  ls
+  308  streets
+  309  cd streets
+  310  cat streets | Annabel
+  311  ls
+  312  cd Buckingham_Place
+  313  cat Buckingham_Place | head -n 179
+  314  cd ..
+  315  ls
+  316  cat interviews | less
+  317  cat interviews
+  318  cd interviews
+  319  ls
+  320  cat interview-699607
+  321  ls
+  322  cd ..
+  323  ls
+  324  cat vehicles | grep Jacqui
+  325  cat vehicles | grep Jacqui, Jeremy
+  326  cat vehicles | grep Honda, Blue
+  327  grep -C 4 "Honda" vehicles
+  328  grep -C 4 "Honda" vehicles > honda.txt
+  329  ls
+  330  grep -C 4 "Blue" honda.txt
+  331  grep -C 4 "Blue" honda.txt > blue-honda.txt
+  332  grep -C 4 "Blue" blue-honda.txt
+  333  git status
+  334  git add -A
+  335  git status
+  336  git commit -a -m "added honda.txt and blue-honda.txt"
+  337  grep -C 4 "L337" blue-honda.txt
+  338  ls
+  339  cat people | grep Erika
+  340  cat people | grep Jeremy
+  341  ls
+  342  cat crimescene | grep CLUE
+  343  cd memberships
+  344  ls
+  345  cd AAA | grep Jeremy
+  346  cat AAA | grep Jeremy
+  347  cat AAA | grep Jacqui
+  348  cat Museum_of_Bash_History | grep Jacqui
+  349  cat Museum_of_Bash_History | grep Jaeremy
+  350  cat Museum_of_Bash_History | grep Jeremy
+  351  cat Delta_SkyMiles | grep Jeremy
+  352  cat Delta_SkyMiles | grep Jacqui
+  353  cat library.txt | grep Jeremy
+  354  cat library.txt | grep Jacqui
+  355  cat people | grep Jacqui
+  356  ls
+  357  cd ..
+  358  cat people | grep Jacqui
+  359  ls
+  360  cd ..
+  361  ls
+  362  cd ..
+  363  ls
+  364  cd command-line-murder-mystery
+  365  ls
+  366  touch solution.txt
+  367  ls
+Jeremy Bowers
