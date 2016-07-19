@@ -1,0 +1,115 @@
+Jeremy Bowers is the murderer
+694  touch solutions.txt
+  695  echo "Sean and Brandi are the murderers." > solutions.txt
+  696  cat solutions.txt
+  697  cat instructions
+  698  cd mystert
+  699  cd mystery
+  700  ls
+  701  cat crimescene
+  702  cat crimescene | grep 'CLUE'
+  703  ls
+  704  cd people
+  705  head 
+  706  head -n 20 people
+  707  cat people | grep "Annabel"
+  708  cd interviews
+  709  ls
+  710  cd ..
+  711  ls
+  712  cd memberships
+  713  ls
+  714  cd streets
+  715  ls
+  716  cd ..
+  717  cd streets
+  718  ls
+  719  cd Hartford_Place
+  720  head -n 20 Hartford_Place
+  721  head -n 20 Hart_Place
+  722  head -n 40 Hart_Place
+  723  head -n 179 Buckingham_Place
+  724  cd ../interviews
+  725  ls
+  726  cd interview-47246024
+  727  cat interview-47246024
+  728  cat interview-699607
+  729  cd ..
+  730  cd vehicles
+  731  ;s
+  732  ls
+  733  cat vehicles
+  734  cd "1337..9"
+  735  cat vehicles | grep "1337..9"
+  736  cat vehicles | grep "1337"
+  737  cat vehicles | grep "License"
+  738  cat vehicles | grep "License Plate 1337"
+  739  cat vehicles | grep "License Plate 1337..9"
+  740  cat vehicles | grep 'License Plate 1337..9'
+  741  cat vehicles | grep "License Plate L337..9"
+  742  touch suspectsPlates.txt
+  743  cat vehicles | grep "License Plate L337..9" > suspectsPlates.txt
+  744  cat suspectsPlates.txt
+  745  head -n 20 vehicels
+  746  head -n 20 vehicles
+  747  grep -A 5 "License Plate 1337..9"
+  748  grep -A 5 "License Plate 1337..9" vehicles
+  749  grep -A 5 "License Plate L337..9" vehicles
+  750  grep -A 5 "License Plate L337..9" vehicles > suspectsPlates.txt
+  751  cat suspectsPlates.txt
+  752  touch blueHondas.txt
+  753  grep "Make: Honda\nColor:Blue" vehicles
+  754  grep "Make: Honda\nColor:Blue" blueHondas.txt
+  755  grep "Make: Honda\nColor:Blue" suspectsPlates.txt
+  756  cat suspectsPlates.txt| grep "Make: Honda\nColor: Blue"
+  757  cat suspectsPlates.txt| grep "^Make: Honda\nColor: Blue$"
+  758  cat suspectsPlates.txt| grep "Make: Honda"
+  759  mv blueHondas.txt suspectHondas.txt
+  760  cat suspectHondas | grep -B 1 -A 4 "Make: Honda"
+  761  cat suspectHondas.txt | grep -B 1 -A 4 "Make: Honda"
+  762  cat suspectHondas.txt
+  763  cat suspectPlates.txt | grep -B 1 -A 4 "Make: Honda"
+  764  ls
+  765  grep -B 1 -A 4 "Make: Honda" suspectPlates.txt
+  766  cd
+  767  ls
+  768  cd Code/week1/day1/command-line-murder-mystery/mystery
+  769  ls
+  770  cat suspectPlates.txt
+  771  rm suspectPlates.txt
+  772  ls
+  773  cat suspectsPlates.txt | grep -B 1 -A 4 "Make: Honda"
+  774  cat suspectsPlates.txt | grep -B 1 -A 4 "Make: Honda" > suspectHondas.txt
+  775  cat suspectHondas.txt
+  776  touch suspectBlueHondas.txt
+  777  cat suspectHondas | grep -B 2 -A 3 "Color: Blue"
+  778  cat suspectHondas.txt | grep -B 2 -A 3 "Color: Blue"
+  779  cat suspectHondas.txt | grep -B 2 -A 3 "Color: Blue" > suspectBlueHondas.txt
+  780  touch suspectsTall.txt
+  781  cat suspectBlueHondas.txt| grep -B 4 -A 1 "Height: 6'"
+  782  cat suspectBlueHondas.txt| grep -B 4 -A 1 "Height: 6'" > suspectsTall.txt
+  783  ls
+  784  rm suspectHondas.txt
+  785  rm suspectBlueHondas.txt
+  786  rm suspectsPlates.txt
+  787  cat people | grep "Jacqui Maher"
+  788  cat people | grep "Erika Owens"
+  789  cd memberships
+  790  ls
+  791  cat AAA | grep "Joe Germuska"
+  792  cat Delta_SkyMiles| grep "Joe Germuska"
+  793  cat Delta_SkyMiles | grep "Joe Germuska"
+  794  cat Delta_SkyMiles | grep "Jeremy Bowers"
+  795  cat AAA | grep "Jeremy Bowers"
+  796  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  797  cat Terminal_City_Library | grep "Jeremy Bowers"
+  798  cd ..
+  799  ls
+  800  rm suspectsTall.txt
+  801  cd ..
+  802  echo "Jeremy Bowers is the murderer > solution.txt\n
+  803  ls
+  804  cat solutions.txt
+  805  echo "Jeremy Bowers is the murderer > solutions.txt\n
+  806  echo "Jeremy Bowers is the murderer" > solutions.txt
+  807  cat solutions.txt
