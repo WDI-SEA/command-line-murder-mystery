@@ -1,1 +1,218 @@
-new stuff
+➜  ~ ls
+Applications        Library             Sites               funny_things
+Desktop             Movies              Wine Files          new-info-for-coding
+Documents           Music               World
+Downloads           Pictures            code
+DynCSS              Public              fundamentals
+➜  ~ cd code
+➜  code cd week1
+➜  week1 cd day1
+➜  day1 cd command-line-murder-mystery
+➜  command-line-murder-mystery git:(master) ls
+LICENSE        cheatsheet.pdf hint4          hint8
+LICENSE.txt    hint1          hint5          instructions
+README.md      hint2          hint6          mystery
+cheatsheet.md  hint3          hint7          solution.txt
+➜  command-line-murder-mystery git:(master) cd mystery
+➜  mystery git:(master) ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(master) cat crimescene | grep "CLUE"
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+➜  mystery git:(master) ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(master) cat people | grep Annabel
+Annabel Sun	F	26	Hart Place, line 40
+Oluwasegun Annabel	M	37	Mattapan Street, line 173
+Annabel Church	F	38	Buckingham Place, line 179
+Annabel Fuglsang	M	40	Haley Street, line 176
+➜  mystery git:(master) cd streets
+➜  streets git:(master) head -n 179 Buckingham_Place | tail -n 1
+SEE INTERVIEW #699607
+➜  streets git:(master) cd ..
+➜  mystery git:(master) cd interviews
+➜  interviews git:(master) cat interview-699607
+Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"%       ➜  interviews git:(master) cd ..
+➜  mystery git:(master) grep -A 6 "L337" vehicles
+License Plate L337ZR9
+Make: Honda
+Color: Red
+Owner: Katie Park
+Height: 6'2"
+Weight: 189 lbs
+
+--
+License Plate L337P89
+Make: Honda
+Color: Teal
+Owner: Mike Bostock
+Height: 6'4"
+Weight: 173 lbs
+
+--
+License Plate L337GX9
+Make: Mazda
+Color: Orange
+Owner: John Keefe
+Height: 6'4"
+Weight: 185 lbs
+
+--
+License Plate L337QE9
+Make: Honda
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs
+
+--
+License Plate L337GB9
+Make: Toyota
+Color: Blue
+Owner: Matt Waite
+Height: 6'1"
+Weight: 190 lbs
+
+--
+License Plate L337OI9
+Make: Jaguar
+Color: Blue
+Owner: Brian Boyer
+Height: 6'6"
+Weight: 201 lbs
+
+--
+License Plate L337X19
+Make: Fiat
+Color: Blue
+Owner: Al Shaw
+Height: 6'5"
+Weight: 240 lbs
+
+--
+License Plate L337539
+Make: Honda
+Color: Blue
+Owner: Aron Pilhofer
+Height: 5'3"
+Weight: 198 lbs
+
+--
+License Plate L3373U9
+Make: Ford
+Color: Blue
+Owner: Miranda Mulligan
+Height: 6'6"
+Weight: 156 lbs
+
+--
+License Plate L337369
+Make: Honda
+Color: Blue
+Owner: Heather Billings
+Height: 5'2"
+Weight: 244 lbs
+
+--
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+
+--
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+
+--
+License Plate L337WR9
+Make: Honda
+Color: Blue
+Owner: Jacqui Maher
+Height: 6'2"
+Weight: 130 lbs
+
+➜  mystery git:(master) grep -A 6 "L337" vehicles | grep -A 6 "Honda" | grep -A 6 "Blue"
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs
+
+--
+--
+--
+Color: Blue
+Owner: Aron Pilhofer
+Height: 5'3"
+Weight: 198 lbs
+
+--
+--
+--
+Color: Blue
+Owner: Heather Billings
+Height: 5'2"
+Weight: 244 lbs
+
+--
+--
+--
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+
+--
+--
+--
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+
+--
+--
+--
+Color: Blue
+Owner: Jacqui Maher
+Height: 6'2"
+Weight: 130 lbs
+
+➜  mystery git:(master) ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(master) cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+cat: AAA: No such file or directory
+cat: Delta_SkyMiles: No such file or directory
+cat: Terminal_City_Library: No such file or directory
+cat: Museum_of_Bash_History: No such file or directory
+➜  mystery git:(master) cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+cat: AAA: No such file or directory
+cat: Delta_SkyMiles: No such file or directory
+cat: Terminal_City_Library: No such file or directory
+cat: Museum_of_Bash_History: No such file or directory
+➜  mystery git:(master)
+
+		I could not figure out which one person it was i believe it's one of the two named people.
+
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+
+--
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
