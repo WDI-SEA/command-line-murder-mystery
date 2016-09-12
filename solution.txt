@@ -1,0 +1,1365 @@
+    1  open --help
+    2  open -a sublime ~/.zsrh
+    3  open -a sublime ~/.zshrc
+    4  open -a sublimetext ~/.zshrc
+    5  open -a subl ~/.zshrc
+    6  open -t ~/.zshrc
+    7  open -R ~/.zshrc
+    8  open -a "Sublime Text" ~/.zshrc
+    9  which psql
+   10  brew install mongodb
+   11  sudo xcodebuild -license
+   12  brew install mongodb
+   13  sudo mkdir -p /data/db
+   14  whoami
+   15  sudo chown -R brandiwilliams:wheel /data
+   16  brew install rbenv
+   17  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   18  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   19  source ~/.zshrc
+   20  sudo chown -R $USER ~/.rbenv
+   21  brew update
+   22  brew install ruby-build
+   23  rbenv install 2.2.2
+   24  rbenv global 2.2.2
+   25  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   26  rbenv instal 2.3.1
+   27  rbenv install 2.3.1
+   28  csrutil status
+   29  clear
+   30  pwd
+   31  cd code
+   32  cd wdi
+   33  pwd
+   34  git clone https://github.com/brandiw/html_top_ten_movies_table.git
+   35  cd html_top_ten_movies_table
+   36  subl .
+   37  sudo vi /etc/apache2/httpd.conf
+   38  root
+   39  cd /
+   40  mkdir ~/Sites
+   41  echo "<html><body><h1>My site works</h1></body></html>" > ~/Sites/index.html.en
+   42  sudo vi /etc/apache2/httpd.conf
+   43  sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist
+   44  sudo vi /etc/apache2/users/Brandi Williams.conf
+   45  cd /
+   46  ls -a
+   47  cd etc
+   48  ls
+   49  cd apache2
+   50  ls
+   51  cd users
+   52  ls -l
+   53  ls -al
+   54  httpd -v
+   55  cd ../..
+   56  cd ..
+   57  ls -l
+   58  cd Library
+   59  ls -l
+   60  cd WebServer
+   61  ls
+   62  whoami
+   63  cd /
+   64  cd etc
+   65  cd apache2
+   66  cd users
+   67  sudo nano brandiwilliams.conf
+   68  ls -l
+   69  sudo nano /etc/apache2/httpd.conf
+   70  sudo nano /etc/apache2/extra/httpd-userdir.conf
+   71  sudo apachectl restart
+   72  cd /
+   73  clear
+   74  cd Users/
+   75  cd brandiwilliams
+   76  cd code
+   77  cd wdi
+   78  cd command-line-murder-mystery
+   79  ls -l
+   80  cat instructions
+   81  cat hint1
+   82  cat hint2
+   83  grep "CLUE" crimescene
+   84  ls
+   85  cd mystery
+   86  ls
+   87  cd mystery
+   88  grep "CLUE" crimescene
+   89  cd ..
+   90  cat hint3
+   91  head -n 20 people
+   92  cd mystery
+   93  head -n 20 people
+   94  grep "Annabel" peopel
+   95  grep "Annabel" people
+   96  ls
+   97  cd streets
+   98  ls
+   99  cat Hart_Place
+  100  cat Buckingham_Place
+  101  cd ..
+  102  cat hint4
+  103  ls
+  104  cd ..
+  105  cat hint4
+  106  cat hint5
+  107  cd mystery
+  108  ls
+  109  head -n 173 streets/Mattapan_Street | tail -n 1
+  110  grep "Annabel" people
+  111  cat people
+  112  head -n 20 people
+  113  head -n 173 streets/Mattapan_Street | tail -n 1
+  114  grep "Annabel" people
+  115  head -n 173 streets/Mattapan_Street | tail -n 1
+  116  head -n 173 streets/Mattapan_Street
+  117  grep "Annabel" people
+  118  ls
+  119  cd interviews
+  120  ls -l
+  121  cat interview-9437737
+  122  cd ..
+  123  ls
+  124  grep "Annabel" people
+  125  head -n 40 streets/Hart_Place
+  126  head -n 179 streets/Buckingham_Place
+  127  head -n 179 streets/Buckingham_Place | tail -n 1
+  128  cd interviews
+  129  cat interview-47246024
+  130  cat interview-69
+  131  cat interview-699607
+  132  cd ..
+  133  ls -l
+  134  cd interviews
+  135  cd ../vehicles
+  136  head -n 20
+  137  ls
+  138  cd ..
+  139  ls
+  140  cd vehicles
+  141  ls
+  142  head -20 vehicles
+  143  grep "L337?9" vehicles
+  144  grep "L337" vehicles
+  145  grep "L337*9" vehicles
+  146  grep "L337.*9" vehicles
+  147  grep "L337.*9" vehicles -C 5
+  148  grep "L337.*9" vehicles -A 7
+  149  grep "L337.*9" vehicles -A 6
+  150  grep "L337.*9" vehicles -A 5
+  151  grep "L337.*9" vehicles -A 6 | grep "Honda" -A 4 -B 1
+  152  grep "L337.*9" vehicles -A 6 | grep "Honda" -A 4 -B 1 | grep "Blue" -B 2 -A 3
+  153  ls
+  154  cd memberships
+  155  ls
+  156  cd ../..
+  157  cat hint6
+  158  cat hint7
+  159  cat hint8
+  160  cd mystery
+  161  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  162  cd memberships
+  163  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers""\ncat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  164  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\ncat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  165  cd ..
+  166  ls
+  167  grep "CLUE" crimescene
+  168  cd memberships
+  169  ls
+  170  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"\ncat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  171  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  172  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  173  clear
+  174  pwd
+  175  cd ../..
+  176  pwd
+  177  clear
+  178  cat instructions
+  179  ls -l
+  180  cd mystery
+  181  ls -l
+  182  head -n 10 people
+  183  grep "CLUE" crimescene
+  184  grep "Annabel" people
+  185  head -n 173 streets/Mattapan_Street | tail -n 1
+  186  cd interviews
+  187  cat interview-9437737
+  188  head -n 179 streets/Buckingham_Place | tail -n 1
+  189  head -n 179 ../streets/Buckingham_Place | tail -n 1
+  190  cat interview-699607
+  191  cd ..
+  192  ls -l
+  193  head -n 20 vehicles
+  194  grep "L337" vehicles
+  195  grep "L337" vehicles -A 5
+  196  grep "L337" vehicles -A 5 | grep "Honda" -A 4 -B 1
+  197  grep "L337" vehicles -A 5 | grep "Honda" -A 4 -B 1 | grep "Blue" -A 3 -B 2
+  198  cd ..
+  199  ls
+  200  cd mystery
+  201  cd memberships
+  202  ls -l
+  203  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  204  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  205  clear
+  206  cd /
+  207  cd Users/brandiwilliams
+  208  cd ~
+  209  cd code/wdi
+  210  mkdir css-basics
+  211  cd css-basics
+  212  touch index.html
+  213  subl .
+  214  clear
+  215  cd ..
+  216  git clone https://github.com/brandiw/css-positioning.git
+  217  cd css-positioning
+  218  npm install
+  219  cd /
+  220  ls -a
+  221  cd ~
+  222  ls -a
+  223  nano .zshrc
+  224  cd code/wdi/css-positioning
+  225  npm install
+  226  cd ~
+  227  nano .zshrc
+  228  brew update
+  229  brew uninstall node
+  230  brew install node
+  231  sudo brew postinstall node
+  232  cd code/wdi/css-positioning
+  233  npm install
+  234  npm run lint:css
+  235  npm start
+  236  cd ..
+  237  cd css-airbnb
+  238  npm start
+  239  cd ..
+  240  cd js-primitives
+  241  ls -l
+  242  subl .
+  243  node js/1_LastName.js
+  244  cd ..
+  245  cd css-airbnb
+  246  npm start
+  247  npm run lint:css
+  248  npm start
+  249  cd ..
+  250  git clone https://github.com/brandiw/google-shopping-conditionals-loops.git
+  251  cd google-shopping-conditionals-loops
+  252  subl .
+  253  npm start
+  254  npm install
+  255  npm start
+  256  node js/google-shopping.js
+  257  clear
+  258  node js/google-shopping.js
+  259  npm start
+  260  node js/google-shopping.js
+  261  npm start
+  262  clear
+  263  cd ..
+  264  subl .
+  265  node greeting.js
+  266  git clone https://github.com/brandiw/js-functions.git
+  267  ls -l
+  268  cd js-functions
+  269  subl .
+  270  npm install
+  271  node js/letterCount.js
+  272  subl .
+  273  node js/isPrime.js
+  274  node js/primes.js
+  275  node js/numSquare.js
+  276  cd ..
+  277  subl .
+  278  ls
+  279  cd js-functions/js
+  280  node iterators.js
+  281  clear
+  282  node iterators.js
+  283  cd ../..
+  284  git clone https://github.com/brandiw/tic-tac-toe.git
+  285  cd tic-tac-toe
+  286  subl .
+  287  cd ..
+  288  git clone https://github.com/brandiw/temperature-converter-dom.git
+  289  cd temperature-converter-dom
+  290  subl .
+  291  cd ..
+  292  git clone https://github.com/zaturnvalley/tic-tac-toe.git
+  293  mkdir studentWork
+  294  cd studentWork
+  295  git clone https://github.com/zaturnvalley/tic-tac-toe.git
+  296  cd tic-tac-toe
+  297  npm start
+  298  npm install
+  299  npm start
+  300  cd ..
+  301  subl .
+  302  node oop.js
+  303  git clone https://github.com/brandiw/oop-prototype-car.git
+  304  cd oop-prototype-car
+  305  subl .
+  306  npm install
+  307  npm test
+  308  cd ..
+  309  cd studentWork
+  310  mkdir shway250
+  311  cd shway250
+  312  git clone https://github.com/shway250/tic-tac-toe.git
+  313  cd tic-tac-toe
+  314  npm install
+  315  npm start
+  316  subl .
+  317  git pull
+  318  subl .
+  319  npm start
+  320  cd ..
+  321  mkdir boetw
+  322  cd boetw
+  323  git clone https://github.com/boetw/tic-tac-toe.git
+  324  cd tic-tac-toe
+  325  npm start
+  326  npm install
+  327  npm start
+  328  subl .
+  329  cd ..
+  330  mkdir zmcdaniel
+  331  cd zmcdaniel
+  332  git clone https://github.com/zmcdaniel/tic-tac-toe.git
+  333  cd tic-tac-toe
+  334  npm install
+  335  npm start
+  336  subl .
+  337  npm start
+  338  cd ..
+  339  subl .
+  340  node inheritance.js
+  341  oop-prototype-car
+  342  subl .
+  343  cd ..
+  344  git clone https://github.com/brandiw/jquery-todo-list.git
+  345  cd jquery-todo-list
+  346  subl .
+  347  npm install
+  348  npm start
+  349  cd ..
+  350  subl ~/.zshrc
+  351  source ~/.zshrc
+  352  srv
+  353  mkdir ajax
+  354  cd ajax
+  355  subl .
+  356  node script.js
+  357  npm install
+  358  cd ..
+  359  git clone https://github.com/brandiw/jquery-plugins.git
+  360  cd jquery-plugins
+  361  subl .
+  362  npm start
+  363  npm install
+  364  npm start
+  365  subl .
+  366  npm start
+  367  cd ..
+  368  cd jquery-todo-list
+  369  subl .
+  370  npm start
+  371  cd ..
+  372  touch data.json
+  373  nano data.json
+  374  srv
+  375  subl .
+  376  srv
+  377  cd ..
+  378  cd brandiwilliams
+  379  cd code
+  380  cd wdi
+  381  cd jquery-todo-list
+  382  subl .
+  383  npm start
+  384  CD ..
+  385  cd ..
+  386  cd studentWork
+  387  mkdir kendradalley
+  388  cd kendradalley
+  389  git clone https://github.com/kendradalley/jquery-todo-list.git
+  390  cd jquery-todo-list
+  391  npm install
+  392  npm start
+  393  cd ..
+  394  ccd ..
+  395  cd ..
+  396  cd shway250
+  397  git clone https://github.com/shway250/jquery-todo-list.git
+  398  cd jquery-todo-list
+  399  npm install
+  400  npm start
+  401  cd ../..
+  402  cd ..
+  403  cd jquery-todo-list
+  404  npm start
+  405  cd ../..
+  406  cd /etc/hosts
+  407  cd /
+  408  cd etc
+  409  cd host
+  410  ls -al
+  411  nano hosts
+  412  sudo nano hosts
+  413  cd /
+  414  cd Users
+  415  cd brandiwilliams
+  416  cd code/wdi
+  417  cd jquery-todo-list
+  418  npm start
+  419  subl .
+  420  cd ..
+  421  subl .
+  422  npm start
+  423  npm install
+  424  cd jquery-plugins
+  425  subl .
+  426  npm start
+  427  cd wdi
+  428  cd code
+  429  cd wdi
+  430  cd studentWork
+  431  ls
+  432  mkdir kdeger
+  433  cd kdeger
+  434  git clone https://github.com/kedeger/jquery-todo-list.git
+  435  jquery-todo-list
+  436  npm install
+  437  npm start
+  438  subl .
+  439  cd ..
+  440  touch cssPractice.html
+  441  subl .
+  442  touch cssPractice.html
+  443  subl .
+  444  ls
+  445  cd aja
+  446  cd ajax
+  447  ls
+  448  cdd ..
+  449  cd ..
+  450  ls
+  451  open .
+  452  cd Practice\ Shooter
+  453  subl .
+  454  npm install
+  455  cd ..
+  456  cd PracticeShooter
+  457  ls
+  458  cd ..
+  459  cd wdi/PracticeShooter
+  460  npm install
+  461  git init
+  462  npm install
+  463  npm start
+  464  subl .
+  465  npm start
+  466  subl .
+  467  npm start
+  468  cd ..
+  469  git clone https://github.com/brandiw/brandiw.github.io.git
+  470  cd brandiw.github.io
+  471  echo "hello world" > index.html
+  472  ls 
+  473  git status
+  474  git add .
+  475  git status
+  476  git commit -a -m "Index page"
+  477  git push origin master
+  478  touch style.css
+  479  subl .
+  480  git status
+  481  git add .
+  482  git status
+  483  git commit -a -m "Added style"
+  484  git push origin master
+  485  cd ..
+  486  ls
+  487  cd PracticeShooter
+  488  git checkout -b gh-pages
+  489  git push origin gh-pages
+  490  git checkout master
+  491  git push origin master
+  492  git init
+  493  git add .
+  494  git status
+  495  git commit -a -m "Shooter game with phaser"
+  496  git remote add origin git@github.com:brandiw/PracticeShooter.git
+  497  git push
+  498  git remote add origin git@github.com:brandiw/PracticeShooter.git
+  499  git remote rm origin
+  500  git remote add origin git@github.com:brandiw/PracticeShooter.git
+  501  git push
+  502  subl .
+  503  git status
+  504  git add .
+  505  git commit -a -m "Fixed readme and links"
+  506  git push
+  507  git checkout -b gh-pages
+  508  git checkout gh-pages
+  509  git st
+  510  git status
+  511  git pull
+  512  git pull origin master
+  513  git status
+  514  git push
+  515  git remote rm gh-pages
+  516  npm start
+  517  git status
+  518  git add .
+  519  git commit -a -m "Fixed links"
+  520  git push
+  521  git status
+  522  git add .
+  523  git commit -a -m "Fixed links again"
+  524  git push
+  525  git add .
+  526  git commit -a -m "Fixed links again - no slash"
+  527  git push
+  528  npm start
+  529  git add .
+  530  git commit -a -m "Slowed fire rate, centered missile origin"
+  531  git push
+  532  npm start
+  533  subl .
+  534  git add .
+  535  git commit -a -m "Added extra weapon type - dual shot"
+  536  git push
+  537  npm start
+  538  subl .
+  539  npm start
+  540  cd ..
+  541  git clone https://github.com/photonstorm/phaser-examples.git
+  542  cd phaser-examples
+  543  subl .
+  544  cd ..
+  545  cd PracticeShooter
+  546  npm start
+  547  subl .
+  548  npm start
+  549  subl .
+  550  npm start
+  551  cd ../..
+  552  cd wdi
+  553  mkdir express-app
+  554  cd express-app
+  555  npm init
+  556  npm install --save express ejs
+  557  touch index.js
+  558  subl .
+  559  nodemon
+  560  npm install nodemon
+  561  nodemon
+  562  npm install -g nodemon
+  563  nodemon
+  564  npm install --save express-ejs-layouts
+  565  nodemon
+  566  npm install --save request
+  567  nodemon
+  568  cd ..
+  569  git clone git@github.com:brandiw/express-daily-planet.git
+  570  cd express-daily-planet
+  571  npm init
+  572  npm install --save express ejs
+  573  npm install --save body-parser
+  574  touch index.js
+  575  subl .
+  576  nodemon
+  577  cd ..
+  578  cd jquery-todo-list
+  579  subl .
+  580  npm start
+  581  cd ..
+  582  cd express-app
+  583  nodemon
+  584  cd ..
+  585  cd express-daily-planet
+  586  nodemon
+  587  subl .
+  588  nodemon
+  589  subl .
+  590  nodemon
+  591  cd ..
+  592  mkdir express-app-organized
+  593  cd express-app-organized
+  594  npm init
+  595  npm install --save express ejs
+  596  touch index.js
+  597  npm install -g nodemon
+  598  subl .
+  599  nodemon
+  600  npm install --save express-ejs-layouts
+  601  nodemon
+  602  npm install --save request
+  603  nodemon
+  604  subl .
+  605  cd ..
+  606  cd express-daily-planet
+  607  subl .
+  608  cd ..
+  609  cd express-app-organized
+  610  subl .
+  611  cd ../
+  612  cd studentWork
+  613  cd boetw
+  614  git clone git@github.com:brandiw/Barreling-Along.git
+  615  cd Barreling-Along
+  616  subl .
+  617  npm start
+  618  nodemon
+  619  npm init
+  620  npm install
+  621  npm start
+  622  cd ..
+  623  cd ../..
+  624  brew uninstall postgresql
+  625  brew install postgresql
+  626  psql
+  627  mkdir RESTfulCRUD
+  628  cd RESTfulCRUD
+  629  open .
+  630  cd ..
+  631  cd /
+  632  cd ~
+  633  cd code
+  634  cd wdi
+  635  git clone git@github.com:brandiw/RESTfulCRUD.git
+  636  cd RESTfulCRUD
+  637  subl .
+  638  npm init
+  639  git status
+  640  git add .
+  641  git status
+  642  git commit -a -m "First commit"
+  643  git push origin master
+  644  npm install --save express ejs
+  645  npm install --save body-parser
+  646  git status
+  647  git add .
+  648  git commit -a -m "Added express, ejs, and body-parser to package.json"
+  649  git push origin master
+  650  nodemon
+  651  npm install -g nodemon
+  652  nodemon
+  653  cd ..
+  654  git clone git@github.com:brandiw/hackathon-teams.git
+  655  cd hackathon-teams
+  656  npm install
+  657  nodemon
+  658  subl .
+  659  nodemon
+  660  cd ..
+  661  cd PracticeShooter
+  662  subl .
+  663  cd ../..
+  664  cd wdi
+  665  cd studentWork
+  666  cd zmcdaniel
+  667  git clone https://github.com/zmcdaniel/gemJam.git
+  668  cd gemJam
+  669  subl .
+  670  cd ..
+  671  cd ../..
+  672  cd PracticeShooter
+  673  subl .
+  674  npm start
+  675  clear
+  676  cd ..
+  677  cd studentWork
+  678  git clone git@github.com:WDI-SEA/hackathon-teams.git
+  679  cd hackathon-teams
+  680  subl .
+  681  npm install
+  682  nodemon
+  683  cd ../
+  684  cd ..
+  685  cd hackathon-teams
+  686  subl .
+  687  cd ..
+  688  cd studentWork
+  689  cd hackathon-teams
+  690  nodemon
+  691  npm install -g sequelize-cli
+  692  cd ..
+  693  mkdir algorithms
+  694  cd algorithms
+  695  mkdir flattenArrayJS
+  696  cd flattenArrayJS
+  697  subl .
+  698  npm init
+  699  npm install browsersync
+  700  nodemon
+  701  node index.js
+  702  cd ..
+  703  mkdir sequelizePractice
+  704  cd sequelizePractice
+  705  npm init
+  706  npm install --save express ejs body-parser sequalize
+  707  npm install --save express ejs body-parser
+  708  npm install --save sequelize
+  709  ls
+  710  sequelize model:create --name highscore --attributes initials:string, score:integer
+  711  ls
+  712  subl .
+  713  sequelize init
+  714  sequelize model:create --name highscore --attributes initials:string, score:integer
+  715  sequelize db:migrate
+  716  npm install --save pg
+  717  sequelize db:migrate
+  718  sequelize init
+  719  mkdir views public
+  720  sequelize model:create --name highscore --attributes initials:string,score:integer
+  721  sequelize db:migrate
+  722  psql
+  723  npm install --save pg-hstore
+  724  createdb spacegame
+  725  sequelize db:migrate
+  726  cd users
+  727  cd ~
+  728  cd code
+  729  cd wdi
+  730  cd PracticeShooter
+  731  subl .
+  732  npm install --save express-ejs-layouts
+  733  cd ..
+  734  cd express-app-organized
+  735  subl ,
+  736  subl .
+  737  nodemon
+  738  cd ..
+  739  cd PracticeShooter
+  740  subl .
+  741  cd ..
+  742  ls
+  743  mkdir prep
+  744  cd prep
+  745  mkdir sequelizeblog
+  746  cd sequelizeblog
+  747  npm init
+  748  npm install --save express ejs pg pg-hstore sequelize
+  749  createdb blog
+  750  sequelize init
+  751  subl .
+  752  sequalize model:create --name author --attributes name:string
+  753  sequelize model:create --name author --attributes name:string
+  754  sequelize model:create --name post --attributes title:string,authorId:integer,content:text
+  755  sequelize db:migrate
+  756  psql
+  757  cd wdi/code
+  758  cd code
+  759  cd wdi
+  760  ls
+  761  cd RESTfulCRUD
+  762  subl .
+  763  cd ..
+  764  express-app-organized
+  765  subl .
+  766  npm start
+  767  npm install
+  768  npm start
+  769  nodemon
+  770  npm install --save express-ejs-layouts
+  771  nodemon
+  772  npm install --save body-parser
+  773  nodemon
+  774  cd code
+  775  cd wdi
+  776  ls
+  777  ls -l
+  778  cd sequelizePractice
+  779  subl .
+  780  nodemon
+  781  psql
+  782  nodemon
+  783  psql
+  784  nodemon
+  785  pqsl
+  786  psql
+  787  nodemon
+  788  psql
+  789  nodemon
+  790  psql
+  791  clear
+  792  cd ../..
+  793  mkdir sequelizeBlog
+  794  cd sequelizeBlog
+  795  npm init
+  796  clear
+  797  npm install --save express ejs pg
+  798  clear
+  799  npm install --save pg-hstore sequelize body-parser express-ejs-layouts
+  800  clear
+  801  createdb blog
+  802  sequelize init
+  803  subl .
+  804  sequelize model:create --name author --attributes name:string
+  805  sequelize model:create --name post --attributes title:string,content:text,authorId:integer
+  806  cd ..
+  807  cd prep
+  808  ls
+  809  cd sequelizeblog
+  810  subl .
+  811  clear
+  812  sequelize db:migrate
+  813  psql
+  814  clear
+  815  nodemon
+  816  psql
+  817  nodemon
+  818  psql
+  819  nodemon
+  820  cd ..
+  821  git clone git@github.com:brandiw/express-blogpulse.git
+  822  clear
+  823  cd express-blogpulse
+  824  npm install
+  825  clear
+  826  createdb blogpulse_development
+  827  sequelize db:migrate
+  828  sequelize db:seed:all
+  829  subl .
+  830  nodemon
+  831  cd ..
+  832  cd prep
+  833  ls
+  834  sequelizeblog2
+  835  mkdir sequelizeblog2
+  836  cd sequelizeblog2
+  837  npm init
+  838  npm install --save ejs express express-ejs-layouts body-parser pg pg-hstore
+  839  createdb blog2
+  840  sequelize init
+  841  sequelize model:create --name article --attributes title:string,body:string,authorName:string
+  842  sequelize model:create --name tag --attributes name:string
+  843  subl .
+  844  npm install --save sequalize
+  845  npm install --save sequelize
+  846  sequelize init
+  847  subl .
+  848  sequelize model:create --name tag --attributes name:string
+  849  sequelize model:create --name article --attributes title:string,body:string,authorName:string
+  850  sequelize model:create --name articleTag --attributes postId:integer,tagId:integer
+  851  subl .
+  852  cd code
+  853  cd wdi
+  854  cd prep
+  855  cd sequelizeblog
+  856  subl .
+  857  sequelize db:migrate
+  858  nodemon
+  859  psql
+  860  sequelize model:create --name article_tag --attributes postId:integer,tagId:integer
+  861  sequelize db:migrate
+  862  nodemon
+  863  psql
+  864  cd code/wdi
+  865  cd preop
+  866  cd p
+  867  cd prep
+  868  cd sequelizeblog2
+  869  nodemon
+  870  sequelize model:create --name article_tag --attributes articleId:integer,tagId:integer
+  871  sequelize db:migrate
+  872  nodemon
+  873  clear
+  874  cd ..
+  875  mkdir sequelizetags
+  876  cd sequelizetags
+  877  npm init
+  878  clear
+  879  npm init --yes
+  880  npm install --save express ejs body-parser pg pg-hstore sequelize express-ejs-layouts
+  881  clear
+  882  createdb cryptozoology
+  883  sequelize init
+  884  subl .
+  885  clear
+  886  sequelize model:create --name article --attributes title:string,body:text,authorName:string
+  887  sequelize model:create --name tag --attributes name:string
+  888  subl .
+  889  sequelize model:create --name article_tag --attributes articleId:integer,tagId:integer
+  890  clear
+  891  sequelize db:migrate
+  892  clear
+  893  nodemon
+  894  clear
+  895  psql
+  896  nodemon
+  897  cd ..
+  898  git clone git@github.com:brandiw/tacoapp.git
+  899  cd tacoapp
+  900  subl .
+  901  mpn install
+  902  npm init
+  903  mpn install
+  904  npm install
+  905  nodemon
+  906  npm start
+  907  nodemon
+  908  npm install -g mocha
+  909  npm install  mocha supertest chai --save-dev
+  910  npm install  mocha supertest chai --save
+  911  npm test
+  912  createdb test_tacos
+  913  createdb tacos_test
+  914  npm test
+  915  nodemon
+  916  npm test
+  917  mocha test
+  918  mocha test.js
+  919  mocha index.test.js
+  920  mocha index.tests.js
+  921  mocha
+  922  npm test
+  923  test 
+  924  run test
+  925  npm tests
+  926  npm tst
+  927  npm tests
+  928  npm test
+  929  psql
+  930  cd code/wdi/prep
+  931  cd tacoapp
+  932  nodemon
+  933  cd code/wdi/prep
+  934  cd tacoapp
+  935  npm test
+  936  cd ../..
+  937  clear
+  938  git clone git@github.com:brandiw/tacoapp.git
+  939  cd tacoapp
+  940  subl .
+  941  npm install
+  942  clear
+  943  npm install -g mocha
+  944  npm install --save chai supertest
+  945  npm install --save mocha
+  946  clear
+  947  npm test
+  948  clear
+  949  npm test
+  950  cd code/wdi
+  951  cd tacoapp
+  952  pqsl
+  953  psql
+  954  clear
+  955  createdb tacos_test
+  956  clear
+  957  npm test
+  958  nodemon
+  959  clear
+  960  npm test
+  961  clear
+  962  npm test
+  963  clear
+  964  npm test
+  965  cd ..
+  966  ls
+  967  cd sequelizeBlog
+  968  subl .
+  969  npm install --save express-session
+  970  nodemon
+  971  cd ..
+  972  cd prep
+  973  ls
+  974  cd sequelizeblog
+  975  subl .
+  976  nodemon
+  977  npm install --save express-session
+  978  nodemon
+  979  npm install --save bcrypt
+  980  nodemon
+  981  sequelize model:create --name user --attributes username:string,password:text
+  982  sequelize db:migrate
+  983  nodemon
+  984  psql
+  985  nodemon
+  986  psql
+  987  cd ..
+  988  cd sequelizeBlog
+  989  subl .
+  990  cd ..
+  991  cd pr
+  992  cd preop
+  993  cd prep
+  994  cd sequelizeblog
+  995  psql
+  996  pwd
+  997  cd ..
+  998  cd sequelize
+  999  cd sequelizeBlog
+ 1000  clear
+ 1001  pwd
+ 1002  npm install --save express-session
+ 1003  subl .
+ 1004  nodemon
+ 1005  npm install --save bcrypt
+ 1006  sequelize model:create --name user --attributes username:string,password:text
+ 1007  clear
+ 1008  sequelize db:migrate
+ 1009  nodemon
+ 1010  clear
+ 1011  psql
+ 1012  nodemon
+ 1013  CD ..
+ 1014  cd ../..
+ 1015  cd wdi
+ 1016  cd studentWork
+ 1017  cd kendradalley
+ 1018  git clone https://github.com/kendradalley/express-pokedex.git
+ 1019  cd express-pokedex
+ 1020  subl .
+ 1021  nodemon
+ 1022  npm install --save express
+ 1023  npm install
+ 1024  nodemon
+ 1025  npm install --save sequelize
+ 1026  nodemon
+ 1027  npm install --save pg pg-hstore
+ 1028  nodemon
+ 1029  createdb userapp
+ 1030  sequelize init
+ 1031  sequelize db:migrate
+ 1032  clear
+ 1033  sequelize db:migrate
+ 1034  sequelize db:migrate --force
+ 1035  nodemon
+ 1036  psql
+ 1037  sequelize model:create --name pokemon --attributes name:string
+ 1038  sequelize db:migrate --force
+ 1039  nodemon
+ 1040  git status
+ 1041  git add .
+ 1042  git status
+ 1043  git commit -a -m "Fixes"
+ 1044  git push origin master
+ 1045  git remote -v
+ 1046  git remote add origin git@github.com:brandiw/express-pokedex.git
+ 1047  git remote -v
+ 1048  git rm remote https://github.com/kendradalley/express-pokedex.git
+ 1049  git remote rm https://github.com/kendradalley/express-pokedex.git
+ 1050  git remote rm origin
+ 1051  git remote -v
+ 1052  git remote add origin git@github.com:brandiw/express-pokedex.git
+ 1053  git remote -v
+ 1054  git push origin master
+ 1055  cd ..
+ 1056  cd ../..
+ 1057  cd prep
+ 1058  ls
+ 1059  cd sequelizeblog
+ 1060  subl .
+ 1061  cd ..
+ 1062  cd ../..
+ 1063  cd wdi
+ 1064  cd studentWork
+ 1065  ls
+ 1066  mkdir miguelapou
+ 1067  cd miguelapou
+ 1068  git clone git@github.com:brandiw/express-project-organizer.git
+ 1069  cd express-project-organizer
+ 1070  subl .
+ 1071  createdb project_organizer_development
+ 1072  nodemon
+ 1073  npm install
+ 1074  nodemon
+ 1075  sequelize db:migrate
+ 1076  nodemon
+ 1077  sequelize model:create --name category --attributes name:string
+ 1078  sequelize model:create --name project_category --attributes projectId:integer,categoryId:integer 
+ 1079  db:migrate
+ 1080  sequelize db:migrate
+ 1081  nodemon
+ 1082  clear
+ 1083  nodemon
+ 1084  clear
+ 1085  nodemon
+ 1086  cd code
+ 1087  cd wdi
+ 1088  cd sequelizetags
+ 1089  subl .
+ 1090  psql
+ 1091  nodemon
+ 1092  git status
+ 1093  git add .
+ 1094  git status
+ 1095  git commit -a -m "Fixes and additions"
+ 1096  git push origin master
+ 1097  cd ..
+ 1098  mkdir mullfuchs
+ 1099  cd mullfuchs
+ 1100  git clone https://github.com/mullfuchs/express-project-organizer.git
+ 1101  cd express-project-organizer
+ 1102  subl .
+ 1103  nodemon
+ 1104  npm install 
+ 1105  nodemon
+ 1106  cd code
+ 1107  cd wdi
+ 1108  cd studentWork
+ 1109  cd mullfuchs
+ 1110  cd express-project-organizer
+ 1111  nodemon
+ 1112  createdb pod_a
+ 1113  sequelize db:migrate
+ 1114  nodemon
+ 1115  cd ..
+ 1116  mkdir zaturnvalley
+ 1117  cd zaturnvalley
+ 1118  git clone https://github.com/zaturnvalley/express-project-organizer.git
+ 1119  subl .
+ 1120  cd express-project-organizer
+ 1121  npm install
+ 1122  nodemon
+ 1123  createdb pod_b
+ 1124  nodemon
+ 1125  sequelize db:migrate
+ 1126  nodemon
+ 1127  clear
+ 1128  rails new rails_example
+ 1129  sudo gem install rails
+ 1130  cd ..
+ 1131  mkdir wdi10
+ 1132  cd wdi10
+ 1133  clear
+ 1134  rails new rails_example
+ 1135  sudo gem install rails
+ 1136  ls
+ 1137  rails new rails_example
+ 1138  $ sudo gem install rails
+ 1139  sudo gem install rails
+ 1140  rails new rails_example
+ 1141  rvm list
+ 1142  cd code
+ 1143  cd wdi10
+ 1144  mkdir examples
+ 1145  cd examples
+ 1146  rails new rails_example
+ 1147  gem install byebug -v binstub
+ 1148  gem install byebug -v '9.0.5'
+ 1149  sudo gem install byebug -v '9.0.5'
+ 1150  bundle install
+ 1151  bundle exec sprint binstub --all
+ 1152  ls
+ 1153  cd rails_example
+ 1154  subl .
+ 1155  rails g controller main
+ 1156  bundle install
+ 1157  gem install debug_inspector -v '0.0.2'
+ 1158  sudo gem install debug_inspector -v '0.0.2'
+ 1159  bundle install
+ 1160  sudo gem install ffi -v '1.9.14'
+ 1161  rails g controller main
+ 1162  bundle install
+ 1163  sudo gem install puma -v '3.6.0'
+ 1164  bundle install
+ 1165  sudo gem install sqlite3 -v '1.3.11'
+ 1166  sudo bundle install
+ 1167  rails g controller main
+ 1168  rails g controller main index about
+ 1169  rake routes
+ 1170  ls -al ~/.ssh
+ 1171  eval "$(ssh-agent -s)"
+ 1172  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ 1173  clear
+ 1174  brew doctor
+ 1175  brew update
+ 1176  clear
+ 1177  brew install git
+ 1178  git config --global user.name "brandiw"
+ 1179  git config --global user.email "brandimichelle.0911@gmail.com"
+ 1180  git config --global push.default simple
+ 1181  git config --global credential.helper cache
+ 1182  clear
+ 1183  ls -al ~/.ssh
+ 1184  clear
+ 1185  eval "$(ssh-agent -s)"
+ 1186  pbcopy < ~/.ssh/id_rsa.pub
+ 1187  clear
+ 1188  node -v
+ 1189  brew update
+ 1190  brew upgrade
+ 1191  brew cleanup
+ 1192  clear
+ 1193  sudo chown -R $(whoami) /usr/local
+ 1194  node -v
+ 1195  npm -v
+ 1196  sudo chown -R $USER /usr/local/lib
+ 1197  clear
+ 1198  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+ 1199  subl .
+ 1200  subl ~/.zshrc
+ 1201  open -man
+ 1202  clear
+ 1203  open -a "Sublime Text" ~/.zshrc
+ 1204  which postgres
+ 1205  which psql
+ 1206  brew install mongodb
+ 1207  mongod
+ 1208  clear
+ 1209  sudo mkdir -p /data/db
+ 1210  whoami
+ 1211  sudo chown -R brandiwilliams:wheel /data
+ 1212  sudo chown -R $USER ~/.rbenv
+ 1213  brew install ruby-build
+ 1214  ruby -v
+ 1215  cd /Applications/Sublime\ Text.app/Contents
+ 1216  ls
+ 1217  cd SharedSupport
+ 1218  ls
+ 1219  cd bin
+ 1220  ls
+ 1221  clear
+ 1222  cd /
+ 1223  clear
+ 1224  ping 127.0.0.1
+ 1225  ping hbc.ac.za
+ 1226  ping washington.edu
+ 1227  clear
+ 1228  traceroute washongton.edu
+ 1229  traceroute washington.edu
+ 1230  clear
+ 1231  cURL -I microsoft.com
+ 1232  cURL -v microsoft.com
+ 1233  subl ~/.zshrc
+ 1234  clear
+ 1235  cd wdi
+ 1236  cd code
+ 1237  ls
+ 1238  cd users
+ 1239  cd brandiwilliams
+ 1240  cd code
+ 1241  cd wdi10
+ 1242  ls
+ 1243  ls -l
+ 1244  clear
+ 1245  mkdir living_room
+ 1246  ls
+ 1247  cd living_room
+ 1248  cd ..
+ 1249  cd living_room
+ 1250  touch books.txt
+ 1251  ls
+ 1252  subl books.txt
+ 1253  cat books.txt
+ 1254  touch more_books.txt
+ 1255  subl more_books.txt
+ 1256  cat books.txt more_books.txt
+ 1257  echo "Hello world"
+ 1258  echo "Hello world" > helloworld.txt
+ 1259  ls
+ 1260  cat helloworld.txt
+ 1261  echo "abcdefg" > helloworld.txt
+ 1262  cat helloworld.txt
+ 1263  echo "hijklmnop" >> helloworld.txt
+ 1264  cat helloworld.txt
+ 1265  cat books.txt 
+ 1266  cat books.txt | sort
+ 1267  cat books.txt more_books.txt | sort > sorted_books.txt
+ 1268  cat sorted_books.txt
+ 1269  cat sorted_books.txt | grep Mil
+ 1270  cat sorted_books.txt | grep mil
+ 1271  cat sorted_books.txt | grep -i  mil
+ 1272  mv sorted_books.txt books.txt
+ 1273  cat books.txt
+ 1274  ls
+ 1275  cp helloworld.txt secondhelloworld.txt
+ 1276  ls
+ 1277  cat secondhelloworld.txt
+ 1278  ls -l *.txt
+ 1279  ls -l *books*
+ 1280  ls -l *books
+ 1281  ls -l books*
+ 1282  history
+ 1283  clear
+ 1284  env
+ 1285  export MY_SETTING = 'hello'
+ 1286  export MY_SETTING = 'subl .'
+ 1287  export $MY_SETTING = 'subl .'
+ 1288  $VISUAL
+ 1289  man ls
+ 1290  man cp
+ 1291  cat books.txt 
+ 1292  ls
+ 1293  touch books2.txt
+ 1294  ls
+ 1295  cat books2.txt
+ 1296  clear
+ 1297  cd ..
+ 1298  git clone git@github.com:brandiw/command-line-murder-mystery.git
+ 1299  ls
+ 1300  cd command-line-murder-mystery
+ 1301  ls
+ 1302  cat instructions
+ 1303  ls
+ 1304  cd mystery
+ 1305  ls
+ 1306  ls -l
+ 1307  cat crimescene
+ 1308  cat crimescene | grep CLUE
+ 1309  ls
+ 1310  cat people | grep Annabel
+ 1311  cd streets
+ 1312  ls
+ 1313  head Buckingham_Place
+ 1314  tail Buckingham_Place
+ 1315  tail -n3 Buckingham_Place
+ 1316* cd code
+ 1317* cd wdi10
+ 1318* cd command-line-murder-mystery
+ 1319* ls
+ 1320* cd mystery
+ 1321* ls
+ 1322* cd streets
+ 1323* cd ..
+ 1324* head people
+ 1325* cat people | grep Annabel
+ 1326* cd streets
+ 1327  head -n173 Mattapan_Street | tail
+ 1328  head -n173 Mattapan_Street | tail -n1
+ 1329  cd ..
+ 1330  ls
+ 1331  head people
+ 1332  cat people | grep Annabel
+ 1333  cd streets
+ 1334  head -n173 Mattapan_Street | tail -n1
+ 1335  cd ..
+ 1336  ls
+ 1337  cd interviews
+ 1338  cat 9437737
+ 1339  ls
+ 1340  cat interview-9437737
+ 1341  cd ..
+ 1342  cd streets
+ 1343  head -n173 Mattapan_Street | tail -n1
+ 1344  head -n179 Buckingham_Place | tail -n1
+ 1345  cd ../interviews
+ 1346  cat interview-699607
+ 1347  cd ..
+ 1348  ls
+ 1349  cat vehicles | grep L337
+ 1350  cat vehicles | grep L337 | head -n5
+ 1351  cat vehicles | grep -A 5 L337
+ 1352  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda
+ 1353  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda | grep -A 3 -B 2 Blue
+ 1354  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda | grep -A 3 -B 2 Blue | grep -A 1 -B 4 Height: 6
+ 1355  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda | grep -A 3 -B 2 Blue | grep -A 1 -B 4 "Height: 6"
+ 1356  ls
+ 1357  cat crimescene | grep CLUE
+ 1358  cd memberships
+ 1359  ls
+ 1360  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+ 1361  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+ 1362  cd ..
+ 1363  ls
+ 1364  history
+Jeremy Bowers
