@@ -1,0 +1,215 @@
+    1  pwd
+    2  ls
+    3  subl ~/.zshrc
+    4  subl .
+    5  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+    6  which postgres
+    7  which psql
+    8  brew install mongodb
+    9  sudo mkdir -p /data/db
+   10  whoami
+   11  sudo chown -R tannerkovach:wheel /data
+   12  sudo chown -R Tanner:wheel /data
+   13  brew install rbenv
+   14  whoami
+   15  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   16  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   17  source ~/.zshrc
+   18  sudo chown -R $USER ~/.rbenv
+   19  brew install ruby-build
+   20  ruby -v
+   21  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+   22  ping
+   23  ping google.com
+   24  ping facebook.com
+   25  ping netflix.com
+   26  ping www.netflix.com
+   27  ping myspace.com
+   28  ping washington.edu
+   29  ping 127.0.0.1
+   30  traceroute washington.edu
+   31  curl -I http://www.google.com
+   32  curl -V google.com
+   33  curl -I http://www.google.com
+   34  pwd
+   35  /s
+   36  ls
+   37  cURl -I google.com
+   38  pwd
+   39  ls
+   40  cd ..
+   41  ls
+   42  mkdir
+   43  pwd
+   44  mkdir something
+   45  pwd
+   46  ls
+   47  cd something
+   48  ls
+   49  touch books.txt
+   50  ls
+   51  subl books.tx
+   52  ls
+   53  cat books.txt
+   54  ls
+   55  pwd
+   56  ls
+   57  cat books.txt
+   58  touch morebooks.txt
+   59  subl morebooks.txt
+   60  cat books.txt more_books.txt
+   61  echo "Hello world"
+   62  echo "Hello world" > helloworld.txt
+   63  ls
+   64  cat helloworld.txt
+   65  echo "hjdhjadh" >> helloworld.txt
+   66  cat helloworld.txt
+   67  cat books.txt | sort
+   68  cat books.txt | sort > sorted_books.txt
+   69  cat sorted_books.txt
+   70  cat sorted_books.txt | grep Mil
+   71  mv sorted_books.txt books.txt
+   72  cat books.txt
+   73  cp helloworld.txt secondhelloworld.txt
+   74  ls
+   75  cat secondhelloworld.txt
+   76  ls -l *.txt
+   77  ls *
+   78  env
+   79  clear
+   80  man
+   81  pwd
+   82  man books.txt
+   83  cd ..
+   84  pwd
+   85  git clone https://github.com/tannerkovach/command-line-murder-mystery.git
+   86  ls
+   87  cd command-line-murder-mystery
+   88  ls
+   89  cat instructions
+   90  cat mystery
+   91  open mystery
+   92  cd mystery
+   93  ls
+   94  cd interviews
+   95  ls
+   96  cd ..
+   97  open crimescene
+   98  grep CLUE
+   99  pwd
+  100  ls
+  101  cd command-line-murder-mystery
+  102  ls
+  103  open hint 1
+  104  open hint1
+  105  head -n 40 people
+  106  open hint1
+  107  head -n 20 people
+  108  cd ..
+  109  cd command-line-murder-mystery
+  110  ls
+  111  cd mystery
+  112  head -n 20 people
+  113  head -n 50 people
+  114  head -n 200 people
+  115  head -n 400 people
+  116  cat people
+  117  cat sort people
+  118  cat people | sort
+  119  ls
+  120  cat crimescene
+  121  cat crimescene | grep -i clue
+  122  ls
+  123  cat interviews | grep -i annabel
+  124  cd interviews
+  125  ls
+  126  cat interviews | sort
+  127  cat sort
+  128  sort
+  129  open interview 000296
+  130  open interview-000296
+  131  cat interview | grep -i annabel
+  132  cat interviews | grep -i annabel
+  133  cd mystery
+  134  cd ..
+  135  grep -r CLUE
+  136  cd interviews
+  137  grep CLUE
+  138  cd ..
+  139  cat people | grep Annabel
+  140  ls
+  141  cat streets
+  142  open streets
+  143  cd streets
+  144  grep -i 37Mattapan Street, line 17
+  145  grep 37Mattapan Street
+  146  grep Mattapan Street
+  147  grep -i Mattapan Street
+  148  grep -i Haley Street
+  149  sort
+  150  clear
+  151  cat streets | sort
+  152  cd ..
+  153  ls
+  154  cd ..
+  155  ls
+  156  open cheatsheet.pdf
+  157  cd streets
+  158  ls
+  159  cd mystery
+  160  cd streets
+  161  grep -r Haley Street
+  162  grep -r Haley
+  163  ls
+  164  head -n173 Mattapan_Street | tail -n1
+  165  cat Haley_Street
+  166  cd ..
+  167  ls
+  168  cd people
+  169  cat people
+  170  sort
+  171  cat people | sort
+  172  cat people | grep M
+  173  cd ..
+  174  cd mystery
+  175  ls
+  176  cat crimescene | grep CLUE
+  177  cat membership | grep AAA
+  178  cd membership
+  179  cd memberships
+  180  ls
+  181  cat AAA | grep -i male
+  182  cat AAA | grep M
+  183  ls
+  184  cd ..
+  185  ls
+  186  cat vehicles | grep L337
+  187  cat vehicles
+  188  cat vehicles | grep Honda
+  189  cat vehicles | grep Honda | grep -i blue
+  190  cat vehicles | grep L337
+  191  cat vehicles | grep L337 | grep Honda
+  192  cat vehicles | grep -A 5 L337 | grep Honda
+  193  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda
+  194  cd memberships
+  195  cat AAA | grep Germuska
+  196  cat AAA | grep Bowers
+  197  cat AAA | grep Maher
+  198  cat Museum of Bash History | grep Germuska
+  199  cat Museum_of_Bash_History | grep Germuska
+  200  ls
+  201  cat Museum_of_Bash_History | grep Bowers
+  202  cat Museum_of_Bash_History | grep Maher
+  203  cat Delta_SkyMiles | grep Maher
+  204  cat Delta_SkyMiles | grep Bowers
+  205  cat library.txt | grep Bowers
+  206  cat Museum_of_Bash_History | grep Bowers
+  207  cat AAA | grep Bowers
+  208  cd ..
+  209  cd people
+  210  ls
+  211  cat people
+  212  cat people | grep Bowers
+  213  cd ..
+  214  history
+Jeremy Bowers
