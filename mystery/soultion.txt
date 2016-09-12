@@ -1,0 +1,239 @@
+    1  subl ~/.zshrc
+    2  open -a "Sublime Text" ~/.zshrc
+    3  subl .
+    4  open -a "Sublime Text"
+    5  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+    6  subl .
+    7  which "Sublime Text"
+    8  cd
+    9  ls
+   10  cd Applications
+   11  ls
+   12  ls -a
+   13  cd /Applications/Sublime\ Text.app/Contents
+   14  cd Appl
+   15  cd Applications
+   16  ls
+   17  ls -al
+   18  subl .
+   19  cd Applications
+   20  cd /Applications/Sublime\ Text.app/Contents
+   21  open -a "Sublime Text"
+   22  ping
+   23  PING
+   24  ping www.google.com
+   25  clear
+   26  ping www.twitter.com
+   27  clear
+   28  ping www.google.ocm
+   29  ping www.google.com
+   30  clear
+   31  subl .
+   32  clear
+   33  curl -I http://www.google.com
+   34  curl -v http://www.google.com
+   35  clear
+   36  ls
+   37  ls -l
+   38  mkdir living_room
+   39  ls
+   40  cd living_room
+   41  touch books.txt
+   42  ls
+   43  open books.txt
+   44  open -a "Sublime Text" book.txt
+   45  open -a "Sublime Text" 
+   46  Carroll, Lewis:Through the Looking-Glass
+   47  Shakespeare, William:Hamlet
+   48  Bartlett, John:Familiar Quotations
+   49  Mill, John :On Nature
+   50  London, Jack:John Barleycorn
+   51  ls
+   52  cd living_room
+   53  ls
+   54  open books.txt
+   55  cat book.txt
+   56  cat books.txt
+   57  touch more_books.txt
+   58  open -a "Sublime Text"
+   59  open -a "Sublime Text" books.txt
+   60  open -a "Sublime Text" more_books.txt
+   61  cat books.txt more_books.txt
+   62  echo "Hello World" > helloworld.txt
+   63  ls
+   64  open -a "Sublime Text" helloworld.txt
+   65  echo "sdsasasddasass" > helloworld.txt
+   66  ls
+   67  open -a "Sublime Text" helloworld.txt
+   68  echo "sdsasasddasass" >> helloworld.txt
+   69  open -a "Sublime Text" helloworld.txt
+   70  cat books.txt | sort
+   71  cat books.txt | sort > sorted_books.txt
+   72  ls
+   73  open -a "Sublime Text" sorted_books.tx
+   74  open -a "Sublime Text" sorted_books.txt
+   75  open -a "Sublime Text" more_books.txt sorted_books.txt
+   76  cat books.txt | sort > more_books sorted_books.txt
+   77  open -a "Sublime Text" more_books.txt sorted_books.txt
+   78  cat sorted_books.txt | grep Mil
+   79  mv sorted_books.txt books.txt
+   80  ls
+   81  cat books.txt
+   82  history
+   83  clear
+   84  env
+   85  export MY_SETTING = "whats going on"
+   86  $VISUAL
+   87  man ls
+   88  man echo
+   89  clear
+   90  ls
+   91  cd ~
+   92  ls
+   93  cd wdi-fundamentals
+   94  lsl
+   95  ls
+   96  cd mkdir murder_mys
+   97  mkdir murder_mys
+   98  ls
+   99  cd murder_mys
+  100  ls
+  101  clone https://github.com/hayes9321/command-line-murder-mystery.git
+  102  git clone https://github.com/hayes9321/command-line-murder-mystery.git
+  103  ls
+  104  cd ..
+  105  ls
+  106  cd murder_mys
+  107  ls -a
+  108  cd command-line-murder-mystery
+  109  ls
+  110  cat instructions
+  111  ls
+  112  ls -a
+  113  cd mystery
+  114  ls
+  115  cat crimescene
+  116  ls -a 
+  117  ls
+  118  cd ..
+  119  ls
+  120  cat people
+  121  ls
+  122  git people | grep -i M
+  123  cat people.txt | grep -i M
+  124  cat people | grep -i M
+  125  ls -a 
+  126  cat people.txt | grep -i M
+  127  ls
+  128  cd memberships
+  129  ls
+  130  cd .. 
+  131  ls 
+  132  touch who_did_it.txt
+  133  ls
+  134  cd ..
+  135  ls
+  136  cd instructions
+  137  open instructions
+  138  cd mystery 
+  139  ls
+  140  cat vehicles
+  141  cd ..
+  142  ls
+  143  cd mystery 
+  144  ls
+  145  cd streets
+  146  ls
+  147  cd ..
+  148  ls
+  149  cat people | grep Annabel
+  150  ls
+  151  cd ..
+  152  ls
+  153  cat hint 4
+  154  cat hint4
+  155  cat hint1
+  156  head -n 20 people
+  157  ls
+  158  cd mystery
+  159  head -n 20 people
+  160  ls
+  161  cd streets
+  162  ls
+  163  cd ..
+  164  ls
+  165  cd ..
+  166  cat hint1
+  167  cat hint2
+  168  cat hint3
+  169  cat hint4
+  170  cat hint5
+  171  ls
+  172  cat instructions
+  173  ls
+  174  cd mystery
+  175  ls
+  176  cat crimescene
+  177  ls
+  178  cat memberships
+  179  cd memberships
+  180  ls
+  181  cd ..
+  182  ls
+  183  head people
+  184  cat people Annabell
+  185  cat people | grep Annabell
+  186  cat people | grep Annabel
+  187  cd streets
+  188  head -n173 Mattapan_Street | tail -n1
+  189  cd ..
+  190  ls
+  191  cd interviews
+  192  ls
+  193  cat interview-9437737
+  194  cd ..
+  195  ls
+  196  cat people | grep Annabel
+  197  head -n 40 Hart_Place | tail -n1
+  198  cd ..
+  199  ls
+  200  cd mystery
+  201  ls
+  202  cd interviews
+  203  ls
+  204  cat interview #699607
+  205  cat interview-699607
+  206  cd ..
+  207  ls
+  208  cat vehicles
+  209  ls
+  210  cat vehicles | grep -i L337
+  211  cat License Plate L337ZR9
+  212  cat vehicles | grep -A 5 L337
+  213  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda
+  214  ls
+  215  rm who_did_it.txt
+  216  ls
+  217  cat people
+  218  cat people | grep Jeremy_Bowers
+  219  ls
+  220  cd streets
+  221  ls
+  222  head -n179 Buckingham_Place | tail -n1
+  223  cd ..
+  224  ls
+  225  cd interviews
+  226  ls
+  227  cat interview-699607
+  228  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda | grep -A 1 -B 4 "Height: 6"
+  229  cd ..
+  230  ls
+  231  cd people
+  232  cat people
+  233  cat people | grep Jeremy Bowers
+  234  cat people | grep Jeremy_Bowers
+  235  cd memberships
+  236  ls
+  237  cat AAA Delta_SkyMiles Musemum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  238  cd ..
+  239  history
