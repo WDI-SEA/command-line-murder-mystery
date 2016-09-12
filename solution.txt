@@ -1,0 +1,187 @@
+    1  subl ~/.zshrc
+    2  subl --version
+    3  which postgres
+    4  which psql
+    5  which postgres
+    6  which psql
+    7  brew install mongodb
+    8  sudo mkdir -p /data/db
+    9  whoami
+   10  sudo chown -R jacobelder:wheel /data
+   11  brew install rbenv
+   12  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   13  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   14  source ~/.zshrc
+   15  sudo chown -R $USER ~/.rbenv
+   16  brew install ruby-build
+   17  ruby -v
+   18  ping www.wikihow.com
+   19  ping www.youtube.com
+   20  ping www.google.com
+   21  ping www.generalassembly.com
+   22  ping https://generalassemb.ly
+   23  ping generalassemb.ly
+   24  ping www.chase.com
+   25  ping www.youtube.com
+   26  ping washington.edu
+   27  curl -I http://www.google.com
+   28  cd desktop
+   29  mkdir living_room
+   30  cd living_room
+   31  touch couch.txt
+   32  subl couch.txt
+   33  cat couch.txt
+   34  touch more_text.txt
+   35  subl more_text.txt
+   36  cat couch.txt more_books.txt
+   37  echo "Hello world"
+   38  echo "Hello World" > helloworld.txt
+   39  ls
+   40  cat helloworld.txt
+   41  echo "hsbvskbvsb" > helloworld.tx
+   42  echo "jsvjosjowj" >> helloworld.txt
+   43  cat helloworld.txt
+   44  cat couch.txt | sort
+   45  cat couch.txt more_books.txt | sort > sorted_books.txt
+   46  cat couch.txt more_text.txt | sort > sorted_books.txt
+   47  cat sorted_books.txt | grep Mil
+   48  mv sorted_books.txt couch.txt
+   49  cat couch.txt
+   50  cp helloworld.txt secondhelloworld.txt
+   51  ls
+   52  ls -l *.txt
+   53  ls -l *books*
+   54  history
+   55  clear
+   56  env
+   57  man ls
+   58  man cp
+   59  cd desktop
+   60  git clone git@github.com:Jacob-Elder/command-line-murder-mystery.git
+   61  ls
+   62  cd command-line-murder-mystery
+   63  cat instructions
+   64  ls
+   65  cd mystery
+   66  ls
+   67  cd crimescene
+   68  cat mystery
+   69  cd..
+   70  cd ..
+   71  cat mystery
+   72  cd mystery
+   73  ls
+   74  cat crimescene
+   75  cat crimescene | grep CLUE
+   76  ls
+   77  cd ..
+   78  cat instructions
+   79  ls
+   80  cd mystery
+   81  ls
+   82  cd crimescene
+   83  cat solution
+   84  ls
+   85  cd people
+   86  cat people
+   87  ls
+   88  cat interviews
+   89  cd interviews
+   90  ls
+   91  cd ..
+   92  ls
+   93  cd memberships
+   94  ls
+   95  cat delta.txt
+   96  cd ..
+   97  ls
+   98  cd ..
+   99  ls
+  100  cat instructions
+  101  ls
+  102  cat hint1
+  103  cat hint2
+  104  cat hint3
+  105  cd mystery
+  106  head -n 20 people
+  107  head -n 20 vehicles
+  108  cat vehicles | grep 6'\n\n\n6'
+  109  cat vehicles | grep Height: 6'0"\nHeight: 6'0"\n6'0"
+  110  ls
+  111  cd crimescene
+  112  cat crimescene | grep CLUE
+  113  cat streets
+  114  cd streets
+  115  ls
+  116  cd Norton_Street
+  117  cat Norton_Street
+  118  cd ..
+  119  ls
+  120  cd people
+  121  cat people | grep Annabelle
+  122  cat people
+  123  cat people | sort
+  124  ls
+  125  cat streets | grep Forest Place
+  126  cat streets
+  127  cd streets
+  128  ls
+  129  cat Forest_Place
+  130  cat people | grep Annabel
+  131  cd ..
+  132  ls
+  133  cat people | grep Annabel
+  134  ls
+  135  cat streets 
+  136  cd streets
+  137  cat Hart_Place
+  138  cat Haley_Street
+  139  cd ..
+  140  ls
+  141  cd memberships
+  142  ls
+  143  cat delta.txt
+  144  cd ..
+  145  ls
+  146  cat people
+  147  cat people | grep Annabel
+  148  cd streets
+  149  head -n173 Mattapan_Street | tail -n1
+  150  cd ..
+  151  ls
+  152  cd membershipds
+  153  cd memberships
+  154  ls
+  155  cat AAA
+  156  cd ..
+  157  ls
+  158  interviews
+  159  ls
+  160  cat interview-699607
+  161  cd..
+  162  cd ..
+  163  ls
+  164  cd vehicles
+  165  cat vehicles | grep L337
+  166  cat vehicles
+  167  ls
+  168  cat vehicles | grep Make: Honda
+  169  cat vehicles
+  170  cat vehicles | grep Honda
+  171  man grep
+  172  cat vehicles | grep L337
+  173  cat vehicles | grep L337 | head -n5
+  174  cat vehicles | grep -A 5 L337
+  175  ls
+  176  memberships
+  177  ls
+  178  cat AAA
+  179  cat AAA | grep Joe Germuska
+  180  cat AAA | grep Joe
+  181  cat AAA | grep Jeremy
+  182  ls
+  183  cat museum.txt | grep Joe
+  184  cat museum.txt | grep Jeremy
+  185  cd ..
+  186  history
+Jeremy Bowers
