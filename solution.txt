@@ -1,0 +1,564 @@
+    1  q
+    2  clear
+    3  cd ..
+    4  cd ~
+    5  cd Users
+    6  cd ..
+    7  ls
+    8  cd brittanyhixson
+    9  cd /
+   10  cd ~
+   11  q
+   12  cd ~
+   13  ls
+   14  subl .
+   15  subl ~/.zshrc
+   16  :q
+   17  vi
+   18  quit
+   19  exit
+   20  clear
+   21  open -a "Sublime Text" ~/.zshrc
+   22  which postgres
+   23  cd ~
+   24  ls
+   25  ls a
+   26  ls -a
+   27  ls
+   28  which postgres
+   29  which psql
+   30  which postgres
+   31  brew install mongodb
+   32  ~mongodb
+   33  mongodb
+   34  sudo mkdir -p /data/db
+   35  whoami
+   36  sudo chown -R brittanyhixson
+   37  sudo chown -R brittanyhixson:wheel /data
+   38  brew install rbenv
+   39  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   40  [5:19]  
+   41  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   42  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   43  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   44  source ~/.zshrc
+   45  sudo chown -R $USER ~/.rbenv
+   46  brew install ruby-build
+   47  ruby -v
+   48  open -a "Sublime Text" ~/.zshrc
+   49  Last login: Fri Sep  9 13:53:50 on tty??
+   50  Brittanys-MacBook-Air:~ brittanyhixson$ cd
+   51  Brittanys-MacBook-Air:~ brittanyhixson$ cd ~
+   52  Brittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   53  It appears Homebrew is already installed. If your intent is to reinstall you
+   54  should do the following before running this installer again:
+   55  Brittanys-MacBook-Air:~ brittanyhixson$ 
+   56  Brittanys-MacBook-Air:~ brittanyhixson$ brew update
+   57  /usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+   58  /usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0
+   59  Brittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+   60  /usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+   61  /usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0
+   62  Warning: This script will remove:
+   63  /Users/brittanyhixson/Library/Logs/Homebrew/
+   64  /usr/local/.git/
+   65  /usr/local/.gitignore
+   66  /usr/local/CONTRIBUTING.md
+   67  /usr/local/Cellar/
+   68  /usr/local/Library/
+   69  /usr/local/README.md
+   70  /usr/local/SUPPORTERS.md
+   71  /usr/local/bin/brew
+   72  /usr/local/share/man/man1/brew.1
+   73  Are you sure you want to uninstall Homebrew? [y/N] N
+   74  Brittanys-MacBook-Air:~ brittanyhixson$ brew update
+   75  /usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+   76  /usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0
+   77  Brittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+   78  /usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+   79  /usr/local/bin/brew: line 21: /usr/local/Library/brew.rb: Undefined error: 0
+   80  Warning: This script will remove:
+   81  /Users/brittanyhixson/Library/Logs/Homebrew/
+   82  /usr/local/.git/
+   83  /usr/local/.gitignore
+   84  /usr/local/CONTRIBUTING.md
+   85  /usr/local/Cellar/
+   86  /usr/local/Library/
+   87  /usr/local/README.md
+   88  /usr/local/SUPPORTERS.md
+   89  /usr/local/bin/brew
+   90  /usr/local/share/man/man1/brew.1
+   91  Are you sure you want to uninstall Homebrew? [y/N] Y
+   92  ==> Removing Homebrew installation...
+   93  ==> Removing empty directories...
+   94  rmdir: /usr/local/include: Permission denied
+   95  rmdir: /usr/local/lib: Permission denied
+   96  rmdir: /usr/local/opt: Permission denied
+   97  rmdir: /usr/local/sbin: Permission denied
+   98  ==> Homebrew uninstalled!
+   99  The following possible Homebrew files were not deleted:
+  100  /usr/local/.git/
+  101  /usr/local/.gitignore
+  102  /usr/local/bin/
+  103  /usr/local/Cellar/
+  104  /usr/local/CONTRIBUTING.md
+  105  /usr/local/etc/
+  106  /usr/local/git/
+  107  /usr/local/include/
+  108  /usr/local/lib/
+  109  /usr/local/Library/
+  110  /usr/local/opt/
+  111  /usr/local/README.md
+  112  /usr/local/sbin/
+  113  /usr/local/share/
+  114  /usr/local/SUPPORTERS.md
+  115  /usr/local/var/
+  116  You may consider to remove them by yourself.
+  117  You may want to restore /usr/local's original permissions\n  sudo chmod 0755 /usr/local\n  sudo chown root:wheel /usr/local\n\nBrittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n/Users/brittanyhixson/.rbenv/shims/ruby: line 21: /usr/local/Cellar/rbenv/0.4.0/libexec/rbenv: No such file or directory\nBrittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n/Users/brittanyhixson/.rbenv/shims/ruby: line 21: /usr/local/Cellar/rbenv/0.4.0/libexec/rbenv: No such file or directory\nBrittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n/Users/brittanyhixson/.rbenv/shims/ruby: line 21: /usr/local/Cellar/rbenv/0.4.0/libexec/rbenv: No such file or directory\nBrittanys-MacBook-Air:~ brittanyhixson$ brew doctor\n-bash: /usr/local/bin/brew: No such file or directory\nBrittanys-MacBook-Air:~ brittanyhixson$ cd ~\nBrittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n/Users/brittanyhixson/.rbenv/shims/ruby: line 21: /usr/local/Cellar/rbenv/0.4.0/libexec/rbenv: No such file or directory\nBrittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n/Users/brittanyhixson/.rbenv/shims/ruby: line 21: /usr/local/Cellar/rbenv/0.4.0/libexec/rbenv: No such file or directory\nBrittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n/Users/brittanyhixson/.rbenv/shims/ruby: line 21: /usr/local/Cellar/rbenv/0.4.0/libexec/rbenv: No such file or directory\nBrittanys-MacBook-Air:~ brittanyhixson$ ccd ~\n-bash: ccd: command not found\nBrittanys-MacBook-Air:~ brittanyhixson$ cd ~\nBrittanys-MacBook-Air:~ brittanyhixson$ clear\n\nBrittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n/Users/brittanyhixson/.rbenv/shims/ruby: line 21: /usr/local/Cellar/rbenv/0.4.0/libexec/rbenv: No such file or directory\nBrittanys-MacBook-Air:~ brittanyhixson$ brew update\n-bash: /usr/local/bin/brew: No such file or directory\nBrittanys-MacBook-Air:~ brittanyhixson$ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  [Restored Sep 9, 2016, 3:46:14 PM]\nLast login: Fri Sep  9 15:36:19 on ttys000\nBrittanys-MacBook-Air:~ brittanyhixson$ clear\n\nBrittanys-MacBook-Air:~ brittanyhixson$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n==> This script will install:\n/usr/local/bin/brew\n/usr/local/share/doc/homebrew\n/usr/local/share/man/man1/brew.1\n/usr/local/share/zsh/site-functions/_brew\n/usr/local/etc/bash_completion.d/brew\n/usr/local/Homebrew\n==> The following new directories will be created:\n/usr/local/Homebrew\n/usr/local/Frameworks\n/usr/local/share/zsh\n/usr/local/share/zsh/site-functions\n\nPress RETURN to continue or any other key to abort\n==> /usr/bin/sudo /bin/mkdir -p /usr/local/Homebrew /usr/local/Frameworks /usr/local/share/zsh /usr/local/share/zsh/site-functions\n\nWARNING: Improper use of the sudo command could lead to data loss\nor the deletion of important system files. Please double-check your\ntyping when using sudo. Type "man sudo" for more information.\n\nTo proceed, enter your password, or type Ctrl-C to abort.\n\nPassword:\n==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/Homebrew /usr/local/Frameworks /usr/local/share/zsh /usr/local/share/zsh/site-functions\n==> /usr/bin/sudo /bin/chmod u+rwx share/zsh share/zsh/site-functions\n==> /usr/bin/sudo /usr/sbin/chown brittanyhixson /usr/local/Homebrew /usr/local/Frameworks /usr/local/share/zsh /usr/local/share/zsh/site-functions\n==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/Homebrew /usr/local/Frameworks /usr/local/share/zsh /usr/local/share/zsh/site-functions\n==> /usr/bin/sudo /bin/mkdir -p /Users/brittanyhixson/Library/Caches/Homebrew\n==> /usr/bin/sudo /bin/chmod g+rwx /Users/brittanyhixson/Library/Caches/Homebrew\n==> /usr/bin/sudo /usr/sbin/chown brittanyhixson /Users/brittanyhixson/Library/Caches/Homebrew\n==> Downloading and installing Homebrew...\nremote: Counting objects: 1038, done.\nremote: Compressing objects: 100% (928/928), done.\nremote: Total 1038 (delta 93), reused 645 (delta 68), pack-reused 0\nReceiving objects: 100% (1038/1038), 1.04 MiB | 673.00 KiB/s, done.\nResolving deltas: 100% (93/93), done.\nFrom https://github.com/Homebrew/brew\n * [new branch]      master     -> origin/master\nHEAD is now at 4fb691e Merge pull request #897 from reitermarkus/os-language\n==> Tapping homebrew/core\nCloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core'...\nremote: Counting objects: 3726, done.\nremote: Compressing objects: 100% (3613/3613), done.\nremote: Total 3726 (delta 15), reused 1655 (delta 4), pack-reused 0\nReceiving objects: 100% (3726/3726), 2.89 MiB | 1.55 MiB/s, done.\nResolving deltas: 100% (15/15), done.\nChecking connectivity... done.\nTapped 3604 formulae (3,753 files, 9.0M)\nAlready up-to-date.\n==> Installation successful!\n==> Next steps\nRun `brew help` to get started\nFurther documentation: https://git.io/brew-docs\n==> Homebrew has enabled anonymous aggregate user behaviour analytics\nRead the analytics documentation (and how to opt-out) here:\n  https://git.io/brew-analytics\nBrittanys-MacBook-Air:~ brittanyhixson$ brew doctor\nPlease note that these warnings are just used to help the Homebrew maintainers\nwith debugging if you file an issue. If everything you use Homebrew for is\nworking fine: please don't worry and just ignore them. Thanks!
+  118  Warning: Broken symlinks were found. Remove them with `brew prune`:
+  119  Brittanys-MacBook-Air:~ brittanyhixson$ brew update
+  120  Already up-to-date.
+  121  Brittanys-MacBook-Air:~ brittanyhixson$ brew install git
+  122  ==> Auto-updated Homebrew!
+  123  Updated 1 tap (homebrew/core).
+  124  ==> Updated Formulae
+  125  fabio
+  126  ==> Downloading https://homebrew.bintray.com/bottles/git-2.10.0.el_capitan.bottle.tar.gz
+  127  ######################################################################## 100.0%
+  128  ==> Pouring git-2.10.0.el_capitan.bottle.tar.gz
+  129  ==> Caveats
+  130  Bash completion has been installed to:
+  131  zsh completion has been installed to:
+  132  Emacs Lisp files have been installed to:
+  133  ls
+  134  cd ~
+  135  ls -a
+  136  ruby -v
+  137  whoami
+  138  which postgres
+  139  which psql
+  140  mongodb -v
+  141  brew install mongodb
+  142  brew update
+  143  brew install
+  144  brew update
+  145  sudo brew uninstall node
+  146  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  147  brew update
+  148  pbcopy < ~/.ssh/id_rsa.pub
+  149  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  150  brew doctor
+  151  brew update
+  152  which brew
+  153  subl ~/.zshrc
+  154  which brew
+  155  brew update
+  156  which brew
+  157  brew install
+  158  brew help
+  159  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  160  brew install
+  161  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+  162  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  163  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+  164  brew update
+  165  ping
+  166  ping serps.com
+  167  ping facebook.com
+  168  brew -v
+  169  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  170  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+  171  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  172  sudo brew uninstall node
+  173  whoami
+  174  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  175  brew update
+  176  export PATH=/usr/local/bin:$PATH
+  177  brew update
+  178  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  179  brew -v
+  180  brew update
+  181  brittanyhixson$ sudo chown -R $USER /usr/local/lib
+  182  traceroute washington.edu
+  183  traceroute serps.com
+  184  -I google.com
+  185  curl -I http://www.google.com
+  186  curl -I microsoft.com
+  187  curl -v microsoft.com
+  188  brew update
+  189  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  190  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+  191  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  192  brew update
+  193  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  194  subl ~/.zshrc
+  195  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  196  ls -a
+  197  whoami
+  198  sudo chown -R $USER /usr/local/lib
+  199  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  200  whoami
+  201  cd ~
+  202  sudo chown -R $USER /usr/local/lib
+  203  subl ~/.zshrc
+  204  brew update
+  205  which brew
+  206  ~library /caches
+  207  ~cd library
+  208  cd Library
+  209  cd Caches
+  210  ls -l
+  211  cd ../..
+  212  ls -l
+  213  cd /urs/local
+  214  cd /usr/local
+  215  ls
+  216  cd Homebrew
+  217  ls -l
+  218  git pull origin aster
+  219  git pull origin master
+  220  git fetch --all
+  221  git reset --hard origin/master
+  222  brew update
+  223  sudo chown -R $USER /usr/local/lib
+  224  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  225  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+  226  cd ~
+  227  cd user
+  228  cd usr
+  229  cd /usr
+  230  cd /local
+  231  cd /local/
+  232  pwd
+  233  cd ~
+  234  pwd
+  235  ls
+  236  cd /local
+  237  cd /usr
+  238  ls
+  239  cd /local
+  240  cd usr/local
+  241  s
+  242  ls
+  243  cd local
+  244  ls
+  245  rm .git
+  246  rm -i Homebrew
+  247  ls
+  248  cd Homebrew
+  249  ls
+  250  cd local
+  251  cd ..
+  252  ls
+  253  ls -a
+  254  rm .git
+  255  rmdir -i .git
+  256  rmdir .git
+  257  ls
+  258  ls -a
+  259  cd ..
+  260  rmdir local
+  261  chmod 777
+  262  rmdir local
+  263  rmdir /local
+  264  -R local
+  265  ls -l
+  266  cdmod 777
+  267  chmod 777
+  268  cd local
+  269  chmod 777
+  270  cd ..
+  271  rmdir local
+  272  sudo chmod 777 local
+  273  rmdir local
+  274  sudo rmdir local
+  275  sudo rm -R local
+  276  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+  277  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  278  cd ~
+  279  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  280  brew update
+  281  git config --global user.name "britbroet"
+  282  git config --global user.email "brittanybroetje@gmail.com"
+  283  git config --global push.defaul simple
+  284  git config --global credential.helper cache
+  285  ls -al ~/.ssh
+  286  eval "$ssh-agent -s)"
+  287  eval "$(ssh-agent -s)"
+  288  brew install node
+  289  node -v
+  290  chown -R $USER /usr/local/lib
+  291  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  292  subl .
+  293  curl -L http://install.ohmyz.sh | sh
+  294  robomongo -v
+  295  brew install git
+  296  --global user.name "britbroet"
+  297  git config --global user.name "britbroet"
+  298  git config --global user.email "brittanybroetje@gmail.com"
+  299  git config --global push.defaul simple
+  300  git config --global credential.helper cache
+  301  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+  302  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+  303  source ~/.zshrc
+  304  chown -R $USER ~/.rbenv
+  305  alias
+  306  echo $PS1
+  307  cd
+  308  cd ~
+  309  ls
+  310  mkdir living_room
+  311  ls
+  312  cd living_room
+  313  ls
+  314  pwd
+  315  cd ..
+  316  cd li
+  317  cd living_room
+  318  pwd
+  319  cd
+  320  pwd
+  321  cd living_room
+  322  pwd
+  323  touch books.txt
+  324  ls
+  325  subl books.txt
+  326  cat books.txt
+  327  pwd
+  328  touch more_books.txt
+  329  subl more_books.txt
+  330  cat books.txt more_books.txt
+  331  echo "Hello world"
+  332  echo "Hello world" > helloworld.txt
+  333  ls
+  334  echo "abcdefg" > helloworld.txt
+  335  cat helloworld.txt
+  336  echo "hijklmnop" >> helloworld.txt
+  337  cat helloworld.txt
+  338  cat books.txt | sort
+  339  cat books.txt | sort > sorted_books.txt
+  340  ls
+  341  cat sorted_books.txt
+  342  cat sorted_books.txt | grep Mil
+  343  cat sorted_books.txt | grep -i mil
+  344  mv sorted_books.txt books.txt
+  345  ls
+  346  cat books.txt
+  347  cp helloworld.txt more_books.txt
+  348  cp ls
+  349  ls
+  350  cp helloworld.txt secondhelloworld.txt
+  351  ls
+  352  cat secondhelloworld.txt
+  353  ls -l *.txt
+  354  ls -l *books*
+  355  ls -l *books
+  356  ls -l books*
+  357  history
+  358  which postgres
+  359  pwd
+  360  env
+  361  man -ls
+  362  man -cp
+  363  cd ~
+  364  cd
+  365  cd~
+  366  cd ..
+  367  pwd
+  368  cd
+  369  ls
+  370  pwd
+  371  ls -al ~/.ssh
+  372  mkdir homework
+  373  cd homework
+  374  pwd
+  375  git clone git@github.com:britbroet/command-line-murder-mystery.git
+  376  ls
+  377  cd command-line-murder-mystery
+  378  PWD
+  379  ls
+  380  cat instructions
+  381  cd mystery
+  382  pwd
+  383  cat mystery
+  384  cd ..
+  385  cat mystery
+  386  cd mystery
+  387  ls
+  388  cat crimescene
+  389  cat crimescene | grep CLUE
+  390  cd ..
+  391  pwd
+  392  ls -a
+  393  cat hint1
+  394  cat hint2
+  395  cat instructions
+  396  ls
+  397  cd mystery
+  398  ls
+  399  cat people
+  400  ls
+  401  cat interviews | grep CLUE
+  402  cd interviews
+  403  ls
+  404  grep CLUE
+  405  cd ..
+  406  pwd
+  407  ls
+  408  cat hint3
+  409  cd ..
+  410  pwd
+  411  ls
+  412  cat hint3
+  413  cat hint2
+  414  cat hint1
+  415  head -n 20 people
+  416  cd ..
+  417  pwd
+  418  ls
+  419  cd command-line-murder-mystery
+  420  ls
+  421  cd mystery
+  422  ls
+  423  head -n 20 people
+  424  head -n 20 streets
+  425  cd streets
+  426  ls
+  427  cd ..
+  428  pwd
+  429  ls
+  430  cd ..
+  431  cat hint2
+  432  cat hint1
+  433  cat hint3
+  434  cat hint4
+  435  cat hint5
+  436  ls
+  437  cd mystery
+  438  ls
+  439  head -n 20 vehicles
+  440  grep vehicles 6'*''
+  441  grep vehicles 6\'*\"
+  442  pwd
+  443  grep "6\'*\"" vehicles
+  444  grep '6"' vehicles
+  445  grep "6'" vehicles
+  446  cd >>
+  447  cd ..
+  448  pwd
+  449  ls
+  450  cat hint6
+  451  cat hint7
+  452  cat hint8
+  453  ls
+  454  cd mystery
+  455  ls
+  456  cd memberships
+  457  ls
+  458  head -n 20 AAA
+  459  head -n 20 library.txt
+  460  head -n 10 Delta_SkyMiles
+  461  head -n 10 Museum_of_Bash_History
+  462  ls
+  463  cd ..
+  464  ls
+  465  head -n 20 streets
+  466  streets
+  467  cd streets
+  468  ls
+  469  cd ..
+  470  ls
+  471  cd memberships
+  472  ls
+  473  cd ..
+  474  grep "Annabel" people
+  475  cd ..
+  476  ls
+  477  cd mystery
+  478  ls
+  479  head -n 20 vehicles
+  480  grep vehicles "Annabel"
+  481  grep "Annabel" vehicles
+  482  head -n 100 vehicles
+  483  head -n 20 people
+  484  cat people | grep "Annabel"
+  485  ls
+  486  cd streets
+  487  ls
+  488  cat Hart_Place
+  489  ls
+  490  cat Mattapan_Street
+  491  cat Buckingham_Place
+  492  cat Haley_Street
+  493  ls
+  494  head -n173 Mattapan_Street | tail -n1
+  495  ls
+  496  cd ..
+  497  ls
+  498  cd interviews
+  499  ls
+  500  cat interview-9437737
+  501  head -n179 Buckingham_Place | tail -n1
+  502  ls
+  503  cd ..
+  504  ls
+  505  cd streets
+  506  head -n179 Buckingham_Place | tail -n1
+  507  head -n175 Haley_Street | tail -n1
+  508  head -n176 Haley_Street | tail -n1
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd interviews
+  513  cat interview-871877
+  514  interview-699607
+  515  cat interview-699607
+  516  ls
+  517  cd ..
+  518  ls
+  519  head -n 20 vehicles
+  520  grep "Fugslang" vehicles
+  521  ls
+  522  cd vehicles
+  523  cat cd vehicles | grep "Fugslang" 
+  524  pwd
+  525  ls
+  526  cat vehicles | grep "Fuslang"
+  527  cat vehicles | grep Fuglsang 
+  528  cat vehicles | grep -A 5 Fuglang
+  529  cat vehicles | grep -A 5 Fuglsang
+  530  cat vehicles | grep -A 5 L337 | grep -B 1 Honda
+  531  cat vehicles | grep -A 5 L337 | grep -B 5 Honda
+  532  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda | grep -A 3 -B 2 Blue | grep -A 1 -B 4 "6'"
+  533  cd
+  534  pwd
+  535  ls
+  536  cd homework
+  537  ls
+  538  cd command-line-murder-mystery
+  539  ls
+  540  cd mystery
+  541  ls
+  542  cd memberships
+  543  ls
+  544  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  545  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  546  pwd
+  547  cd ..
+  548  ls
+  549  cd ..
+  550  ls
+  551  cd ..
+  552  ls
+  553  cd command-line-murder-mystery
+  554  ls
+  555  history > solution.txt
+  556  ls
+  557  echo "Jeremy Bowers" >> solutions.txt
+  558  cat solutions.txt
+  559  git add .
+  560  git status
+  561  ls
+  562  rm solutions.txt
+  563  ls
+Jeremy Bowers
