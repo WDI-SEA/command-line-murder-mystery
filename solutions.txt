@@ -1,0 +1,144 @@
+    1  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+    2  subl ~/.zshrc
+    3  which postgres
+    4  which psql
+    5  which postgres
+    6  brew install mongodb
+    7  sudo mkdir -p /data/db
+    8  whoami
+    9  sudo chown -R johnmckinney:wheel /data
+   10  brew install rbenv
+   11  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   12  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   13  source ~/.zshrc
+   14  sudo chown -R $USER ~/.rbenv
+   15  brew install ruby-build
+   16  ruby -v
+   17  ping http//:google.com
+   18  ping http//:www.google.com
+   19  ping http://www.google.com
+   20  ping http://www.mckinneyphoto.com
+   21  ping www.mckinneyphoto.com
+   22  ping www.bbc.co.uk/iplayer
+   23  ping www.bbc.co.uk
+   24  ping wwww.google.com
+   25  ping www.google.com
+   26  ping washington.edu
+   27  c url microsoft.com
+   28  cURL microsoft.com
+   29  cURL www.mckinneyphoto.com
+   30  cURL-I www.laurieswansonlmp.com
+   31  cURL -I www.laurieswansonlmp.com
+   32  cURL -V www.laurieswansonlmp.com
+   33  ls
+   34  mkdir wdi10
+   35  cd wdi10
+   36  mkdir living
+   37  cd l
+   38  cd living
+   39  cd ..
+   40  cd living
+   41  touch books.txt
+   42  ls
+   43  subl books.txt
+   44  cat books.txt
+   45  touch morebooks.txt
+   46  subl morebooks.txt
+   47  cat books.txt morebooks.txt
+   48  echo hello world
+   49  echo hello world > helloworld.txt
+   50  cat helloworld
+   51  echo "hello world" > helloworld.txt
+   52  cat helloworld
+   53  cat helloworld.txt
+   54  ls
+   55  grep books .mil
+   56  cat books | grep mil
+   57  cat books.txt | grep mil
+   58  mv  helloworld.txt books.txt
+   59  cat books.txt
+   60  history
+   61  emv
+   62  env
+   63  cd wdi10
+   64  cd living
+   65  env
+   66  man ls
+   67  ls man
+   68  man ls
+   69  cd
+   70  cd wdi10
+   71  cd living
+   72  sulb books.txt
+   73  subl books.txt
+   74  cd ..
+   75  git clone git@github.com:astia1/command-line-murder-mystery.git
+   76  ls
+   77  cat instructions
+   78  cd wdi10
+   79  cd command-line-murder-mystery
+   80  ls
+   81  cd mystery
+   82  ls
+   83  cd cat crimescene 
+   84  ls -a
+   85  ls -l *CLUE*
+   86  cat crimescene.txt
+   87  cd mystery
+   88  cat mystery
+   89  cat cheatsheet
+   90  cat cheatsheet.pdf
+   91  cat crimescene
+   92  cat crimescene gerp CLUE
+   93  cat crimescene grep CLUE
+   94  cat crimescene.txt grep CLUE
+   95  ls -a
+   96  ls -l
+   97  cat crimescene| grep CLUE
+   98  cat memberships
+   99  cd memberships
+  100  ls
+  101  ls -l *6'*\ncd\ncd ..\nq\nq\n:q
+  102  cd quote
+  103  cat quote
+  104  ls -l *male*
+  105  ls -l *Annabel*
+  106  cd ..
+  107  ls -l *Annabel*
+  108  cd people
+  109  cat people | grep Annabel
+  110  cd ..
+  111  cd streets
+  112  cat streets | grep Hart Place
+  113  cat streets
+  114  cdc hint1
+  115  cd hint1
+  116  cat hint1
+  117  head -n 20 people
+  118  cd people
+  119  ls
+  120  cd mystery
+  121  head -n 20 people
+  122  cat vehicles | grep 6'
+  123  cat vehicles
+  124  grep 6 
+  125  cat vehicles | grep 6'
+  126* cheatsheet.pdf
+  127* cat cheatsheet.pdf
+  128* open cheatsheet.md
+  129  cat vehicles | grep -A 1 -B 4 Height: "6"  
+  130  cat vehicles
+  131  cat vehicles | grep Height: *6'*
+  132  cat vehicles | grep "Height: 6'"
+  133  cat vehicles | grep -A 1 -B 4 "Height: 6'" 
+  134  cat vehicles | grep -A 1 -B 4 "Height: 6'" | grep -A 5 L337 | Grep -B 1 -A 4 Honda | Grep -A 3 -B 2 Blue 
+  135  pwd
+  136  cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  137  cd memberships
+  138  cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  139  cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Jacqui Maher"
+  140  cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  141  cd ..
+  142  ls
+  143  cd ..
+Jermey Bowers
