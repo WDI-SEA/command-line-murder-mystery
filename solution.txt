@@ -1,0 +1,280 @@
+    1  subl ~/.zshrc
+    2  which postgres
+    3  which psql
+    4  brew install mongodb
+    5  sudo mkdir -p /data/db
+    6  whoami
+    7  sudo chown -R jamie:wheel /data
+    8  brew install rbenv
+    9  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   10  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   11  source ~/.zshrc
+   12  sudo chown -R $USER ~/.rbenv
+   13  brew install ruby-build
+   14  ruby -v
+   15  ping washington.edu
+   16  treaceroute washington.edu
+   17  traceroute washington.edu
+   18  curl -I http://www.google.com
+   19  curl -I http://www.google.com/fakesafsfasf
+   20  curl -v http://www.google.com
+   21  curl -I http://www.google.com
+   22  ping google.com
+   23  ls
+   24  cd ~/Desktop
+   25  mkdir wdi10
+   26  cd wdi10
+   27  mkdir living_room
+   28  cd living_room
+   29  touch books.txt
+   30  ls
+   31  subl books.txt
+   32  cat books.txt
+   33  touch morebooks.txt
+   34  cat books.txt morebooks.txt
+   35  echo
+   36  echo "Hello world"
+   37  echo "Hello world" > helloworld.txt
+   38  ls
+   39  echo "asdasfas" > helloworld.txt
+   40  cat helloworld.txt
+   41  cd ~/Desktop/wdi10
+   42  ls
+   43  cd living_room
+   44  cat books.txt
+   45  cat books.txt | sort
+   46  cat books.txt
+   47  cat books.txt more_books.txt | sortedbooks.txt
+   48  cat books.txt morebooks.txt | sort > sortedbooks.txt
+   49  cat sortedbooks.txt | grep Mil
+   50  cat sortedbooks.txt | grep -i mil
+   51  mv sorted_books.txt books.txt
+   52  mv sortedbooks.txt books.txt
+   53  cp helloworld.txt secondhelloworld.txt
+   54  cat secondhelloworld.txt
+   55  ls
+   56  ls -l *.txt
+   57  history
+   58  subl books.txt
+   59  clear
+   60  env
+   61  export MY_SETTING='hello'
+   62  env
+   63  $VISUAL
+   64  man i
+   65  man -i
+   66  man ls
+   67  man
+   68  all
+   69  man mkdir
+   70  cd ~/Desktop/wdi10
+   71  ls
+   72  cd living_room
+   73  open rooms.txt
+   74  ls
+   75  open books.txt
+   76  man ls
+   77  clear
+   78  cd ..
+   79  git clone https://github.com/jamiebb/command-line-murder-mystery.git
+   80  ls
+   81  cd command-line-murder-mystery
+   82  ls
+   83  cat hint1
+   84  clear
+   85  cat instructions
+   86  cd ~/Desktop/wdi
+   87  ls
+   88  cd ..
+   89  ls
+   90  cd wdi10
+   91  ls
+   92  cd command-line-murder-mystery
+   93  ls
+   94  cd mystery
+   95  ls
+   96  interviews
+   97  ls
+   98  cat interview-2601508
+   99  cat grep Interview
+  100  cat grep interview
+  101  cd ..
+  102  ls
+  103  cd memberships
+  104  ls
+  105  ls -a
+  106  clear
+  107  cd ..
+  108  ls
+  109  cd interviews
+  110  ls
+  111  cd ..
+  112  ls -a
+  113  cd streets
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd ..
+  118  ls 
+  119  open cheatsheet.pdf
+  120  cat hint1
+  121  cat hint2
+  122  ls
+  123  cd mystery
+  124  ls
+  125  grep "CLUE" crimescene
+  126  ls
+  127  cd memberships
+  128  ls
+  129  cat AAA
+  130  ls
+  131  cat Museum_of_Bash_History
+  132  ls
+  133  cat Museum_of_Bash_History AAA Delta_SkyMiles
+  134  cat Museum_of_Bash_History AAA Delta_SkyMiles | sort
+  135  clear
+  136  ls
+  137  cat newfile.txt
+  138  clear
+  139  ls
+  140  touch suspects.txt
+  141  ls
+  142  mv suspects.txt MYFILE_suspects.txt
+  143  ls
+  144  cd ..
+  145  ls
+  146  cd streets
+  147  ls
+  148  cd ..
+  149  clear
+  150  ls
+  151  cd interviews
+  152  grep "AAA"
+  153  cd ~/Desktop/wdi10
+  154  ls
+  155  cd command-line-murder-mystery
+  156  ls
+  157  cat hint2
+  158  cat hint3
+  159  cd mystery
+  160  ls
+  161  head people 20
+  162  head people
+  163  head vehicles
+  164  cat vehicles
+  165  ls
+  166  cat hint1
+  167  cat hint3
+  168  clear
+  169  ls
+  170  grep "Annabel" people
+  171  cd ~Desktop/wdi10
+  172  ls
+  173  cd ~Desktop
+  174  cd ~/Desktop/wdi10
+  175  ls
+  176  cd command-line-murder-mystery
+  177  ls
+  178  cd mystery
+  179  ls
+  180  head vehicles
+  181  grep "Annabel" vehicles
+  182  grep "CLUE" crimescene
+  183  sort vehicles
+  184  clear
+  185  cat vehicles
+  186  ls
+  187  head people
+  188  cat people
+  189  clear
+  190  ls
+  191  cat interviews
+  192  ls
+  193  cd interviews
+  194  ls
+  195  grep "line 40"
+  196  cd ~/Desktop/wdi10
+  197  ls
+  198  cd command-line-murder-mystery
+  199  head people
+  200  ls
+  201  cd mystery
+  202  ls
+  203  head people
+  204  cd streets
+  205  ls
+  206  cd Hart Place
+  207  cat Hart Place
+  208  cat Hart_Place
+  209  head -n 40
+  210  cd ~/Desktop/wdi10
+  211  ls
+  212  cd command-line-murder-mystery
+  213  ls
+  214  cd mystery
+  215  ls
+  216  cd streets
+  217  ls
+  218  head -n40 Hart_Place | tail -n1
+  219  head -n179 Buckingham_Place | tail -n1
+  220  head -n176 Haley_Street | tail -n1
+  221  ls
+  222  cd ..
+  223  ls
+  224  clear
+  225  ls
+  226  cd interviews
+  227  ls
+  228  cat interview-699607
+  229  cat interview-871877
+  230  cat interview-472462024
+  231  clear
+  232  ls
+  233  clear
+  234  cd ..
+  235  ls
+  236  cat vehicles
+  237  clear
+  238  ls
+  239  gret "L337" vehicles | head -n6
+  240  grep "L337" vehicles | head -n6
+  241  grep "L337" vehicles
+  242  head -n5 vehicles | grep "L337"
+  243  grep "L337" vehicles | head -n 5
+  244  grep "L337" vehicles | tail -n5
+  245  cat hint4
+  246  cat hint5
+  247  cat hint6
+  248  head vehicles
+  249  ls
+  250  cat vehicles | grep -A 5  L337
+  251  ls ..
+  252  cd mystery
+  253  ls
+  254  cd memberships
+  255  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda
+  256  ls
+  257  cd mystery
+  258  ls
+  259  cd memberships
+  260  ls
+  261  sort AAA Museum_of_Bash_History Delta_SkyMiles | grep "Katie Park"
+  262  sort AAA Museum_of_Bash_History Delta_SkyMiles | grep "Katie Park" "Mike Bostock" "Erika Owens" "Aron Pilhofer" "Heater Billings" "Joe Germuska" "Jeremy Bowers" "Jacqui Maher"
+  263  sort AAA Museum_of_Bash_History Delta_SkyMiles | grep "Mike Bostock"
+  264  grep "Aron Pilhofer"
+  265  cd ~/Desktop/wdi10
+  266  ls
+  267  cd command-line-murder-mystery
+  268  ls
+  269  cd mystery
+  270  ls
+  271  cd memberships
+  272  ls
+  273  sort AAA Dela_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  274  sort AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  275  sort AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+  276  sort AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jaqui Maher"
+  277  sort AAA Delta_SkyMiles Museum_of_Bash_History | grep "Mike Bostock"
+  278  cd ..
+  279  history
+Jeremy Bowers
