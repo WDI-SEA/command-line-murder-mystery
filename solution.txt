@@ -1,0 +1,313 @@
+    1  subl ~/.zshrc
+    2  which psql
+    3  brew install mongodb
+    4  sudo xcodebuild -license
+    5  brew install mongodb
+    6  which mongo
+    7  sudo mkdir -p /data/db
+    8  sudo chown -R $USER:wheel /data
+    9  whoami
+   10  sudo chown -R kimbrandt:wheel /data
+   11  clear
+   12  brew install rbenv
+   13  clear
+   14  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   15  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   16  source ~/.zshrc
+   17  sudo chown -R $USER ~/.rbenv
+   18  brew install ruby-build
+   19  rbenv install 2.3.1
+   20  rbenv global 2.3.1
+   21  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   22  sudo gem update
+   23  sudo gem install rails
+   24  defaults write com.apple.finder AppleShowAllFiles YES
+   25  brew install git
+   26  git config --global user.name "kimmabrandt"
+   27  git config --global user.email "kimmabrandt@gmail.com"
+   28  git config --global push.default simple
+   29  git config --global credential.helper cache
+   30  pwd
+   31  ls -al ~/.ssh
+   32  cd fundamentals
+   33  pwd
+   34  cd git-practice
+   35  pwd
+   36  git status
+   37  ls -a
+   38  touch README.txt
+   39  ls
+   40  git status
+   41  git add .
+   42  git status
+   43  git commit -m "test"
+   44  ls
+   45  git add src
+   46  git status
+   47  git add .
+   48  git status
+   49  ls
+   50  clear
+   51  node -v
+   52  pwd
+   53  cd fundamentals/wdi-fundamentals-memorygame/starter-code
+   54  pwd
+   55  ls
+   56  git add -a
+   57  git add -A
+   58  git status
+   59  git commit -m 'created game logic'
+   60  git push origin master
+   61  npm -v
+   62  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+   63  clear
+   64  subl .
+   65  pwd
+   66  cd /fundamentals/wdi-fundamentals-memorygame/starter-code
+   67  cd fundamentals/wdi-fundamentals-memorygame/starter-code
+   68  pwd
+   69  git add -A
+   70  git status
+   71  git commit -m 'Unit 11 Memory Game updates'
+   72  git push origin master
+   73  clear
+   74  curl -L http://install.ohmyz.sh | sh
+   75  subl ~/.zshrc
+   76  which postgres
+   77  which psql
+   78  which mongodb
+   79  brew install mongodb
+   80  mongod
+   81  sudo mkdir -p /data/db
+   82  whoami
+   83  sudo chown -R kimabrandt:wheel /data
+   84  sudo chown -R kimbrandt:wheel /data
+   85  brew install rbenv
+   86  5:19]  
+   87  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   88  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   89  source ~/.zshrc
+   90  sudo chown -R $USER ~/.rbenv
+   91  brew install ruby-build
+   92  ruby -v
+   93  ping google.com
+   94  ping washington.edu
+   95  ping stanford.edu
+   96  ping www.cam.ac.uk
+   97  pink www.cam.ac.uk
+   98  traceroute washington.edu
+   99  curl -I http://www.google.com
+  100  curl -I http://www.twitter.com
+  101  curl -v http://www.youtube.com
+  102  curl -v http://www.facebook.com
+  103  curl -I http://www.facebook.com
+  104  curl -I http://www.charmed.net
+  105  ping www.twitter.com
+  106  ping 127.0.0.1
+  107  ping www.youtube.com
+  108  ping www.hbc.ac.za
+  109  ls
+  110  cd documents
+  111  mkdir wdi10
+  112  ls
+  113  cd wdi10
+  114  mkdir living_room
+  115  ls
+  116  cd living_room
+  117  cd ..
+  118  pwd
+  119  cd living_room
+  120  touch books.txt
+  121  ls
+  122  subl books.txt
+  123  cat books.txt
+  124  ls
+  125  touch morebooks.txt
+  126  subl morebooks.txt
+  127  cat books.txt morebooks.txt
+  128  subl morebooks.txt
+  129  echo "Hello world"
+  130  echo "Hello world" > helloworld.txt
+  131  ls
+  132  echo "abcdefg" > helloworld.txt
+  133  ls
+  134  cat helloworld.txt
+  135  echo "hijklmnop" >> helloworld.txt
+  136  cat helloworld.txt
+  137  cat books.txt | sort
+  138  cat books.txt | sort > sorted_books.txt
+  139  cat books.txt morebooks.txt | sort > sorted_books.txt
+  140  cat sorted_books.txt
+  141  cat sortedbooks.txt | grep Mil
+  142  cat sorted_books.txt | grep Mil
+  143  mv sorted_books.txt books.txt
+  144  cp helloworld.txt secondhelloworld.txt
+  145  ls
+  146  cat secondhelloworld.txt
+  147  ls -l *.txt
+  148  history
+  149  env
+  150  man ls
+  151  clear
+  152  cd ..
+  153  git clone git@github.com:kimmabrandt/command-line-murder-mystery.git
+  154  cd command-line-murder-mystery
+  155  ls
+  156  cat instructions
+  157  ls
+  158  cd mystery
+  159  ls
+  160  cd crimescene
+  161  cat crimescene
+  162  cat crimescene.txt grep CLUE
+  163  cat crimescene grep CLUE
+  164  cat crimescene grep "CLUE"
+  165  ls
+  166  cat crimescene | grep "CLUE"
+  167  ls
+  168  cd interviews
+  169  ls
+  170  cat interview-7541406
+  171  ls
+  172  cd ..
+  173  ls
+  174  cat interviews
+  175  cd interviews
+  176  cat -A
+  177  cat .
+  178  cd .
+  179  ls
+  180  cd ..
+  181  ls
+  182  cat people
+  183  cat people | grep "annabel"
+  184  cat people | grep "Annabel"
+  185  ls
+  186  cd memberships
+  187  ls
+  188  cat AAA
+  189  cat Delta_Skymiles
+  190  ls
+  191  cd ..
+  192  ls
+  193  cd streets
+  194  ls
+  195  cat grep "Haley Street"
+  196  grep "Oakley_Street"
+  197  ls *Haley Street*
+  198  ls *Buckingham Place*
+  199  ls *Oak_Place*
+  200  ls *Mattapan Street*
+  201  ls *Hart Place*
+  202  cd ..
+  203  ls
+  204  cd ..
+  205  ls
+  206  cat hint1
+  207  cat hint2
+  208  cat hint3
+  209  cd mystery
+  210  ls
+  211  head -n 20 people
+  212  ls
+  213  cd streets
+  214  ls
+  215  cat Hart_Place
+  216  ls
+  217  cd ..
+  218  ls
+  219  cd ..
+  220  ls
+  221  cat hint4
+  222  cat hint5
+  223  ls
+  224  cd mystery
+  225  ls
+  226  cd streets
+  227  ls
+  228  head -n 173 Mattapan_Street | tail -n
+  229  head -n 173 Mattapan_Street
+  230  head -n 173 Mattapan_Street | tail -n
+  231  head -n 173 Mattapan_Street | tail-n
+  232  head -n 173 Mattapan_Street | tail -n#
+  233  head -n 173 Mattapan_Street | tail --n
+  234  head -n 173 Mattapan_Street | tail -n1
+  235  head -n 40 Hart Place | tail n1
+  236  head -n 40 Hart_Place | tail -n1
+  237  head -n 179 Buckingham_Place | tail -n1
+  238  head -n 176 Haley_Street | tail -n1
+  239  cd ..
+  240  ls
+  241  cd interviews
+  242  ls
+  243  cat interview-47246024
+  244  cat interview-9437737
+  245  cat interview-699607
+  246  cat interview-871877
+  247  cd ..
+  248  ls
+  249  cat vehicles
+  250  cat vehicles | grep "L337"
+  251  cat vehicles | grep "license Plate L337*"
+  252  cat vehicles | grep "license Plate L337
+  253  cat vehicles | grep "L337" "Honda"
+  254  cat vehicles | grep "Honda"
+  255  ls *Honda*
+  256  cat vehicles | grep "L337 Honda"
+  257  cat vehicles | grep "L337"
+  258  ls -l *Honda*
+  259  *Honda*
+  260  cat vehicles | *Honda*
+  261  cat vehicles | ls -l *Honda*
+  262  cat vehicles | grep Blue Honda
+  263  cd..
+  264  ls
+  265  cd ..
+  266  ls
+  267  cat hint6
+  268  cd mystery
+  269  ls
+  270  grep "Honda" vehicles
+  271  cat vehicles | grep -A 5 L337
+  272  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda
+  273  cd
+  274  ls
+  275  cd Documents
+  276  ls
+  277  cd wdi10
+  278  ls
+  279  cd command-line-murder-mystery
+  280  ls
+  281  cd mystery
+  282  ls
+  283  cd people
+  284  ls
+  285  cat people
+  286  cat people | grep "Jaqui Maher"
+  287  cat people | grep "Bantry"
+  288  cat people | grep "Jeremy Bowers"
+  289  cat people | grep "Jaqui Maher"
+  290  cat people | grep "Joe Germuska"
+  291  ls
+  292  cd streets
+  293  ls
+  294  head -n 275 Plainfield_Street | tail -n 1
+  295  head -n 284 Dunstable_Road | tail -n 1
+  296  ls
+  297  cd ..
+  298  ls
+  299  cd interviews
+  300  ls
+  301  cat interview-29741223
+  302  cat interview-9620713
+  303  cd ..
+  304  ls
+  305  cd memberships
+  306  ls
+  307  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  308  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  309  cd..
+  310  ls
+  311  cd ..
+  312  ls
+Jeremy Bowers
