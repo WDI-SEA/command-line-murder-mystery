@@ -1,0 +1,315 @@
+    1  '/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+    2  subl ~/.zshrc
+    3  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+    4  subl ~/.zshrc
+    5  /Applications/Postgres.app/Contents/Versions/9.5/bin/psql
+    6  brew install monodb
+    7  brew install mongodb
+    8  sudo mkdir -p /data/db
+    9  whoami
+   10  sudo chown -R alf:wheel /data
+   11  monogodb
+   12  mongodb
+   13  mongod
+   14  brew update
+   15  brew install rbenv
+   16  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+   17  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   18  source ~/.zshrc
+   19  sudo chown -R $USER ~/.rbenv
+   20  brew update
+   21  brew install ruby-build
+   22  rbenv install 2.2.2
+   23  rbenv global 2.2.2
+   24  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   25  sudo gem update
+   26  sudo gem install rails
+   27  rails -v
+   28  ruby-v
+   29  ruby -v
+   30  which ruby
+   31  which rails
+   32  which bundle
+   33  which gem
+   34  node -v
+   35  npm -v
+   36  git --version
+   37  psql --version
+   38  subl -v
+   39  which psql
+   40  subl ~/.zshrc
+   41  which psql
+   42  psql --version
+   43  ping washington.edu
+   44  ping 128.95.155.134: 56 data bytes
+   45  ping standford.edu
+   46  ping stanford.edu
+   47  ping 127.0.0.1
+   48  traceroute 128.95.155.135
+   49  curl -I http://www.google.com
+   50  curl -v http://www.google.com
+   51  curl -I http://www.thisdoesntexistatall.com
+   52  curl -I http://192.168.1.1
+   53  curl -I http://www.espn.com/seahawks
+   54  ping sydney.edu.au
+   55  ping www.hbc.ac.za
+   56  ping www.u-tokyo.ac.jp
+   57  ping www.cam.ac.uk
+   58  cd
+   59  ls
+   60  cd
+   61  /clear
+   62  cd documents
+   63  mkdir wdi10
+   64  cd wdi10
+   65  mk_dir living_room
+   66  mkdir living_room
+   67  cd living_room
+   68  cd ..
+   69  cd living_room
+   70  touch books.txt
+   71  ls
+   72  subl books.txt
+   73  cat books.txt
+   74  touch morebooks.txt
+   75  subl morebooks.txt
+   76  cat books.txt morebooks.txt
+   77  echo "Hello world"
+   78  cat books.txt morebooks.txt
+   79  echo "Hello world" > helloworld.txt
+   80  ls
+   81  cat helloworld.txt
+   82  echo "abcdefg" > helloworld.txt
+   83  cat helloworld.txt
+   84  echo "hijklmnop" >> helloworld.txt
+   85  cat helloworld.txt
+   86  cat books.txt morebooks.txt
+   87  cat books.txt | sort
+   88  cat books.txt | sort > sortedbooks.txt
+   89  ls
+   90  cat sortedbooks.txt
+   91  cat books.txt
+   92  cat books.txt morebooks.txt | sort > sortedbooks.txt
+   93  cat sortedbooks.txt
+   94  cat sortedbooks.txt | grep mil
+   95  cat sortedbooks.txt | grep Mil
+   96  grep sortedbooks.txt
+   97  mv sortedbooks.txt books.txt
+   98  cat books.txt
+   99  cat sortedbooks.txt
+  100  ls
+  101  cp helloworld.txt secondhelloworld.txt
+  102  ls
+  103  cat secondhelloworld.txt
+  104  ls -l *.txt
+  105  ls *books*
+  106  ls -; *books
+  107  ls -l *books
+  108  ls -l *books*
+  109  ls -l books*
+  110  history
+  111  clear
+  112  env
+  113  export MY_SETTING = "hello"
+  114  man ls
+  115  ls books.txt
+  116  cd
+  117  ls
+  118  cd Documents
+  119  ls
+  120  cd wdi10
+  121  git clone git@github.com:alfordsiler/command-line-murder-mystery.git
+  122  ls
+  123  cd command-line-murder-mystery
+  124  ls
+  125  cat instructions
+  126  ls
+  127  cat cheatsheeet.md
+  128  cat cheatsheet.pdf
+  129  nano cheatsheet.md
+  130  ls
+  131  cat hint1
+  132  ls -a
+  133  cat mystery
+  134  cd mystery
+  135  ls
+  136  cat crimescen
+  137  cat crimescene
+  138  clear
+  139  ls
+  140  cat crimescene grep -i *clue*
+  141  ls
+  142  cd interviews
+  143  ls
+  144  cd ..
+  145  ls
+  146  cd memberships
+  147  ls
+  148  cat people
+  149  ls
+  150  cd ..
+  151  ls 
+  152  cat people
+  153  cd ..
+  154  ls
+  155  cd command-line-murder-mystery
+  156  ls
+  157  cat hint1
+  158  cat hint 2
+  159  cat hint2
+  160  ls
+  161  cd Documents
+  162  ls
+  163  cd GA
+  164  ls
+  165  cd ..
+  166  ls
+  167  cd wdi10
+  168  ls
+  169  cd command-line-murder-mystery
+  170  LS
+  171  cat hint3
+  172  cat hint1
+  173  ls
+  174  cd mystery
+  175  ls
+  176  grep *CLUE* crimescene
+  177  grep "CLUE" crimescene
+  178  ls
+  179  head -n 20 people
+  180  ls
+  181  cd memberships
+  182  cd ..
+  183  cd interviews
+  184  grep "Annabel"
+  185  ls
+  186  cd ..
+  187  ls
+  188  cd memberships
+  189  ls
+  190  cat AAA
+  191  ls
+  192  cd ..
+  193  ls
+  194  cd ..
+  195  ls
+  196  cat hint4
+  197  cat hint3
+  198  cat hint1
+  199  cat hint2
+  200  cat hint3
+  201  cat hint4
+  202  cat hint5
+  203  cat hint 6
+  204  ls
+  205  cat hint6
+  206  cat hint7
+  207  ls
+  208  cat hint98
+  209  cat hint8
+  210  ls
+  211  cd mystery
+  212  ls
+  213  head -n 20 people
+  214  grep "Annabel" people
+  215  cat people
+  216  ls
+  217  cd ..
+  218  cat hint5
+  219  ls
+  220  cd mystery
+  221  head -n 173 streets/Mattapan_Street | tail -n 1
+  222  ls
+  223  cd interviews
+  224  ls
+  225  cat interview-9437737
+  226  ls
+  227  cd ..
+  228  ls
+  229  cd ..
+  230  ls
+  231  cat hint4
+  232  cd mystery
+  233  ls
+  234  grep "clue" crimescene
+  235  grep "CLUE" crimescene
+  236  head -n 173 streets/Mattapan_Street | tail -n 1
+  237  ls
+  238  cd memberships
+  239  ls
+  240  cat AAA Delta_SkyMiles | grep "John Smith"
+  241  cat AAA
+  242  ls
+  243  cat Delta_SkyMiles
+  244  ls
+  245  cat AAA Delta_SkyMiles | grep "Annabel"
+  246  grep "Annabel" library.txt 
+  247  cat museum.txt
+  248  grep "Annabel" museum.txt
+  249  grep "Annabel" library.txt
+  250  ls
+  251  cd ..
+  252  ls
+  253  grep "CLUE" crimescene
+  254  cd ..
+  255  ls
+  256  cat hint5
+  257  ls
+  258  cd mystery
+  259  ls
+  260  cd interviews
+  261  ls
+  262  cd ..
+  263  ls
+  264  grep -A 5 "L337"
+  265  cat vehicles
+  266  grep "Blue" vehicles
+  267  grep "Honda" vehicles
+  268  grep "L337" vehicles
+  269  cd ..
+  270  ls
+  271  cat hint7
+  272  cd mystery
+  273  ls
+  274  grep -A 5 "L337" mystery/vehicles
+  275  grep -A 5 "L337" vehicles
+  276  ls
+  277  cd memberships
+  278  ls
+  279  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Joe"
+  280  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Jeremy"
+  281  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe"
+  282  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe"
+  283  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  284  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  285  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  286  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Church"
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd ..
+  291  ls
+  292  cat hint8
+  293  cd Mystery
+  294  ls
+  295  grep -A 5 "L337" mystery/vehicles
+  296  grep -A 5 "L337" vehicles
+  297  cat vehicles | grep -A 5 L337 | grep -B 1 -A 4 Honda
+  298  ls
+  299  cd memberships
+  300  ls
+  301  cat delta.txt
+  302  ls
+  303  cat 1.txt
+  304  ls
+  305  cat Terminal_City_Library
+  306  ls
+  307  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Libray | grep "Joe Germuska"
+  308  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  309  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  310  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  311  cd ..
+  312  ls
+  313  cd ..
+  314  history
+Jeremy Bowers
