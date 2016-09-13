@@ -1,0 +1,130 @@
+ 1465  Sep 12 02 06 PM mkdir Assignment_1
+ 1466  Sep 12 02 06 PM cd Assignment_1/
+ 1467  Sep 12 02 06 PM git@github.com:SarahPappas/command-line-murder-mystery.git
+ 1468  Sep 12 02 07 PM git clone git@github.com:SarahPappas/command-line-murder-mystery.git
+ 1469  Sep 12 02 08 PM home
+ 1470  Sep 12 02 09 PM ls ~/.ssh
+ 1471  Sep 12 02 09 PM cd Documents/
+ 1472  Sep 12 02 17 PM cd GA\ WDI/
+ 1473  Sep 12 02 18 PM cd Assignment_1/
+ 1474  Sep 12 02 18 PM cat command-line-murder-mystery/
+ 1475  Sep 12 02 18 PM cd command-line-murder-mystery/
+ 1476  Sep 12 02 18 PM cat instructions 
+ 1477  Sep 12 02 19 PM cd mystery/
+ 1478  Sep 12 02 19 PM cat crimescene 
+ 1479  Sep 12 02 21 PM ll 
+ 1480  Sep 12 02 21 PM cd ..
+ 1481  Sep 12 02 21 PM subl instructions 
+ 1482  Sep 12 02 22 PM cd mystery/
+ 1483  Sep 12 02 23 PM grep -i clue crimescene | clues.txt
+ 1484  Sep 12 02 23 PM grep -i clue crimescene >  clues.txt
+ 1485  Sep 12 02 23 PM cat clues.txt 
+ 1486  Sep 12 02 24 PM cd interviews/
+ 1487  Sep 12 02 26 PM grep -Ri CLUE >> ../clues.txt 
+ 1488  Sep 12 02 27 PM grep -Ri CLUE people >> ../clues.txt 
+ 1489  Sep 12 02 27 PM pwd 
+ 1490  Sep 12 02 27 PM grep -Ri CLUE interviews >> ../clues.txt 
+ 1491  Sep 12 02 28 PM cd..
+ 1492  Sep 12 02 28 PM cd ..
+ 1493  Sep 12 02 28 PM grep -Ri CLUE /interviews >> ../clues.txt 
+ 1494  Sep 12 02 29 PM grep -Ri "clue"  /interviews >> ../clues.txt 
+ 1495  Sep 12 02 30 PM cd interviews/
+ 1496  Sep 12 02 30 PM grep -Ri "clue" * >> ../clues.txt 
+ 1497  Sep 12 02 30 PM cd ..
+ 1498  Sep 12 02 30 PM cat clues.txt 
+ 1499  Sep 12 02 31 PM grep -Ri "clue" /interviews >> clues.txt 
+ 1500  Sep 12 02 31 PM grep -Ri "clue" interviews >> clues.txt 
+ 1501  Sep 12 02 31 PM cat clues.txt 
+ 1502  Sep 12 02 32 PM cd interviews/
+ 1503  Sep 12 02 32 PM grep -Ri "clue" >> clues.txt 
+ 1504  Sep 12 02 34 PM grep -ri "clue" >> clues.txt 
+ 1505  Sep 12 02 36 PM grep -ri "clue" > ../clues2.txt 
+ 1506  Sep 12 02 37 PM grep -r "clue" | echo
+ 1507  Sep 12 02 37 PM grep -r "clue" . | echo
+ 1508  Sep 12 02 37 PM gre -rii "clue" . >> ../clues.txt 
+ 1509  Sep 12 02 38 PM grep -ri "clue" . >> ../clues.txt 
+ 1510  Sep 12 02 38 PM cat ../clues.txt
+ 1511  Sep 12 02 38 PM grep -ri "clue" . | echo
+ 1512  Sep 12 02 39 PM cd interview-
+ 1513  Sep 12 02 39 PM cd interviews
+ 1514  Sep 12 02 40 PM cat interview-980963
+ 1515  Sep 12 02 41 PM ..
+ 1516  Sep 12 02 41 PM cd ..
+ 1517  Sep 12 02 42 PM cat clues.txt 
+ 1518  Sep 12 02 42 PM cat clues2.txt 
+ 1519  Sep 12 02 42 PM rm clues2.txt 
+ 1520  Sep 12 02 43 PM cat people
+ 1521  Sep 12 02 43 PM cat clues.txt 
+ 1522  Sep 12 02 44 PM cd memberships/
+ 1523  Sep 12 02 45 PM cat delta.txt library.txt AAA.txt museum.txt > ../suspects.txt
+ 1524  Sep 12 02 45 PM cat delta.txt library.txt AAA.txt museum.txt > ../suspects.txtcat delta.txt
+ 1525  Sep 12 02 45 PM ;;
+ 1526  Sep 12 02 45 PM cat delta.txt 
+ 1527  Sep 12 02 45 PM ;;
+ 1528  Sep 12 02 49 PM cat Delta_SkyMiles  library.txt Museum_of_Bash_History  AAA.txt > ../suspects.txt
+ 1529  Sep 12 02 49 PM cat Delta_SkyMiles  library.txt Museum_of_Bash_History  AAA > ../suspects.txt
+ 1530  Sep 12 02 49 PM cat ../suspects.txt
+ 1531  Sep 12 02 50 PM cd ..
+ 1532  Sep 12 02 50 PM cat suspects.txt
+ 1533  Sep 12 02 50 PM ;;
+ 1534  Sep 12 02 50 PM cat suspects.txtcat
+ 1535  Sep 12 02 50 PM rm suspects.txtcat
+ 1536  Sep 12 02 51 PM cd people
+ 1537  Sep 12 02 51 PM cat clues.txt 
+ 1538  Sep 12 02 51 PM grep -i "annabel" people
+ 1539  Sep 12 02 52 PM grep -i "annabel" people > potential_witnesses.txt
+ 1540  Sep 12 02 52 PM cd streets/
+ 1541  Sep 12 02 53 PM grep -i "buckingham" | cat
+ 1542  Sep 12 02 53 PM grep -i "buckingham" | echo
+ 1543  Sep 12 02 53 PM grep -i "buckingham"
+ 1544  Sep 12 02 54 PM grep -i "buckingham" . | cat
+ 1545  Sep 12 02 54 PM grep -ri "buckingham" . | cat
+ 1546  Sep 12 02 54 PM grep -ri "buckingham" . | echo
+ 1547  Sep 12 02 55 PM cat Buckingham_Place 
+ 1548  Sep 12 02 55 PM cat ../potential_witnesses.txt 
+ 1549  Sep 12 02 56 PM cat Hart_Place head -n40 | tail -1
+ 1550  Sep 12 02 57 PM cat Hart_Place| head -n40 | tail -1
+ 1551  Sep 12 02 57 PM cat Hart_Place| head -n40 | tail -1 >> ../potential_witnesses.txt 
+ 1552  Sep 12 02 57 PM cat ../potential_witnesses.txt 
+ 1553  Sep 12 02 57 PM cd ..
+ 1554  Sep 12 02 58 PM cd interviews/
+ 1555  Sep 12 02 58 PM cat interview-47246024
+ 1556  Sep 12 02 59 PM ..
+ 1557  Sep 12 02 59 PM cd ..
+ 1558  Sep 12 02 59 PM cat potential_witnesses.txt 
+ 1559  Sep 12 02 59 PM nano potential_witnesses.txt 
+ 1560  Sep 12 03 00 PM cd streets/
+ 1561  Sep 12 03 00 PM cat Buckingham_Place 
+ 1562  Sep 12 03 00 PM cd ..
+ 1563  Sep 12 03 01 PM cat potential_witnesses.txt 
+ 1564  Sep 12 03 01 PM cd streets/
+ 1565  Sep 12 03 01 PM cat Buckingham_Place | head -n 179 | tail -n 1
+ 1566  Sep 12 03 02 PM cat Buckingham_Place | head -n 179 | tail -n 1 >> ../potential_witnesses.txt 
+ 1567  Sep 12 03 02 PM cat ../potential_witnesses.txt 
+ 1568  Sep 12 03 02 PM cd ..
+ 1569  Sep 12 03 02 PM interviews/
+ 1570  Sep 12 03 02 PM cd interviews/
+ 1571  Sep 12 03 02 PM cat interview-699607
+ 1572  Sep 12 03 02 PM cat interview-699607 >> ../potential_witnesses.txt 
+ 1573  Sep 12 03 03 PM cd ..
+ 1574  Sep 12 03 04 PM grep "L337..9" vehicles | cat 
+ 1575  Sep 12 03 05 PM grep n-5  "L337..9" vehicles | cat 
+ 1576  Sep 12 03 05 PM grep -n5  "L337..9" vehicles | cat 
+ 1577  Sep 12 03 06 PM grep -n5  "L337..9" vehicles > ../potential_cars.txt
+ 1578  Sep 12 03 06 PM cat ../potential_cars.txt 
+ 1579  Sep 12 03 06 PM grep "honda" ../potential_cars.txt | cat
+ 1580  Sep 12 03 07 PM grep -i "honda" ../potential_cars.txt | cat
+ 1581  Sep 12 03 07 PM grep -i -A 5 "honda" ../potential_cars.txt | cat
+ 1582  Sep 12 03 09 PM grep -i -A 5 "honda" ../potential_cars.txt > ../potential_cars.txt 
+ 1583  Sep 12 03 09 PM cat ../potential_cars.txt 
+ 1584  Sep 12 03 09 PM grep -i -A 5 "honda" ../potential_cars.txt > ../potential_cars.txt 
+ 1585  Sep 12 03 10 PM grep -i -A 5 "honda" ../potential_cars.txt | cat
+ 1586  Sep 12 03 10 PM cd ..
+ 1587  Sep 12 03 10 PM cd mystery/
+ 1588  Sep 12 03 11 PM grep -i "jeremy\ Bowers" suspects.txt 
+ 1589  Sep 12 03 12 PM grep -i "joe\ germuska" suspects.txt 
+ 1590  Sep 12 03 13 PM echo "answer Jeremy Bowers" > answer.txt
+ 1591  Sep 12 03 13 PM cat answer.txt 
+ 1592  Sep 12 03 14 PM cd ..
+ 1593  Sep 12 03 15 PM history > solution.txt
+Jeremy Bowers
