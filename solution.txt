@@ -1,0 +1,828 @@
+    1  $hello?
+    2  $ Where am I?
+    3  $ pwd
+    4  pwd
+    5  ls
+    6  cd Documents
+    7  pwd
+    8  ls
+    9  cd..
+   10  cd ..
+   11  cd
+   12  pwd
+   13  ls
+   14  cd applications
+   15  ls
+   16  cd Applications
+   17  cd ..
+   18  pwd
+   19  ls
+   20  cd Applications
+   21  pwd
+   22  cd ..
+   23  cd Downloads
+   24  cd World
+   25  ls
+   26  ls
+   27  ls -a Europe
+   28  cd~
+   29  cd ~
+   30  touch joke.txt
+   31  open joke.txt
+   32  cat joke.txt
+   33  mkdir funny_things
+   34  cd ~
+   35  ls
+   36  mv joke.txt funny_things/
+   37  cp joke.txt joke2.txt
+   38  cd ~
+   39  ls
+   40  cd funny_things
+   41  ls
+   42  cp joke.txt joke2.txt
+   43  ls
+   44  rm joke2.txt
+   45  mkdir jokes
+   46  mv joke.txt jokes/
+   47  pwd
+   48  ls
+   49  cd jokes
+   50  ls
+   51  cp -r jokes copy_of_jokes
+   52  ls
+   53  cd ..
+   54  cp -r jokes copy_of_jokes
+   55  ls
+   56  rm -r copy_of_jokes
+   57  ls
+   58  cd ~
+   59  ls
+   60  cd Downloads
+   61  ls
+   62  mv -r World ~
+   63  mv -r World/ ~
+   64  mv -r World/ Home
+   65  mv -r World/ ..
+   66  mv World ..
+   67  cd World
+   68  ls
+   69  cd ~
+   70  ls
+   71  cd World
+   72  mkdir Antarctica World/
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd World
+   77  cd South_America
+   78  ls
+   79  cd ..
+   80  cd South_America
+   81  ls
+   82  mv Argentina ../North_America
+   83  mv Chile ..?North_America $ mv Brazil ../North_America
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd South_America
+   88  ls
+   89  cd ..
+   90  cd North_America
+   91  ls
+   92  cd ..
+   93  ls
+   94  rm -r South_America
+   95  ls
+   96  mkdir Americas mv North_America Americas
+   97  ls
+   98  cd North_America ls
+   99  ls
+  100  cd North_America ls North_America
+  101  mv North_America Americas
+  102  ls
+  103  cd ..
+  104  mv North_Americas Americas
+  105  ls
+  106  rm -r mv/
+  107  ls
+  108  mv North_Americas Americas/
+  109  ls
+  110  cd Americas
+  111  ls
+  112  cd..
+  113  cd ..
+  114  mv North_America Americas
+  115  ls
+  116  cd Americas
+  117  ls
+  118  cd North_America
+  119  ls
+  120  mv Argentina ../ mv Canada ../ mv United_States ../ mv Brazil ../ mv Chile ../
+  121  ls
+  122  cd ..
+  123  ls
+  124  mv Argentina Canada Brazil Chile United_States North_America/
+  125  cd North_America
+  126  ls
+  127  mv Argentina Canada United_States Brazil Chile ../
+  128  cd ..
+  129  ls
+  130  rm -r North_America
+  131  ls
+  132  cd ~
+  133  pwd
+  134  ls
+  135  ls ../World/Americas
+  136  ls World/Americas
+  137  mkdir wdi-fundamentals/
+  138  ls
+  139  git -- version
+  140  git --versino
+  141  git --version
+  142  git init
+  143  pwd
+  144  rm -a .git
+  145  ls -a
+  146  rm .git
+  147  rm .git/
+  148  ls
+  149  ls -a
+  150  rm -rf .git
+  151  ls
+  152  ls -a
+  153  rm funny_things/
+  154  cd wdi-fundamentals
+  155  ls
+  156  pwd
+  157  git init
+  158  cd ..
+  159  pwd
+  160  ls
+  161  cd wdi-fundamentals
+  162  git status
+  163  -rm rf .git
+  164  ls
+  165  rm -rf .git
+  166  ls
+  167  ls -a
+  168  cd ..
+  169  mkdir GA-Blog
+  170  ls
+  171  cd GA-Blog
+  172  git init
+  173  git status
+  174  touch post.txt
+  175  git status
+  176  git add post.txt
+  177  git status
+  178  git commit -m "created a new post.txt file"
+  179  git log
+  180  pwd
+  181  cd ..
+  182  pwd
+  183  ls
+  184  cd wdi-fundamentals
+  185  git init
+  186  git status
+  187  ls -a
+  188  ls -a
+  189  rm -rf .git
+  190  mkdir git-practice
+  191  ls
+  192  cd git-practice
+  193  git init
+  194  ls -a
+  195  touch README.txt
+  196  git status
+  197  git add.
+  198  git add .
+  199  git status
+  200  git commit -m "Added new README.txt file"
+  201  mkdir src
+  202  cd src
+  203  pwd
+  204  touch bulbasaur.txt charmander.txt squirtle.txt
+  205  ls
+  206  add src/
+  207  git add src/
+  208  cd ..
+  209  ls
+  210  git add src/
+  211  git status
+  212  git commit -m "Added new Bulbasaur.txt, Charmander.txt, Sqirtle.txt files"
+  213  mv bulbasaur.txt ivysaur.txt
+  214  ls
+  215  cd src
+  216  ls
+  217  mv bulbasaur.txt ivysaur.txt
+  218  ls
+  219  git diff
+  220  mv ivysaur.txt venasaur.txt
+  221  ls
+  222  git diff
+  223  mv venasaur.txt ivysaur.txt
+  224  ls
+  225  git add .
+  226  git diff
+  227  ls
+  228  git add .
+  229  git add ivysaur.txt
+  230  ls
+  231  git diff
+  232  ls
+  233  cd ..
+  234  git add src/
+  235  ls
+  236  cd src
+  237  ls
+  238  git status
+  239  mv ivysaur.txt venasaur.txt
+  240  git status
+  241  git diff
+  242  git add .
+  243  git commit -m "Changed ivysaur.txt to venasaur.text"
+  244  ls
+  245  cd ~
+  246  ls
+  247  cd Documents
+  248  ls
+  249  cd ~/wdi-fundamentals
+  250  mkdir github-fundamentals
+  251  git clone https://url/to/clonehttps://github.com/nodejs/node.git
+  252  pwd
+  253  ls
+  254  cd wdi-fundamentals
+  255  ls
+  256  cd ..
+  257  cd GA-Blog
+  258  ls
+  259  cd ..
+  260  cd Desktop
+  261  ls
+  262  cd Memory Game
+  263  ls
+  264  cd Memory_Game
+  265  ls
+  266  cd memory_game
+  267  git add -A
+  268  git init
+  269  git add -A
+  270  git commit -m "created game logic"
+  271  git push origin master
+  272  ls
+  273  ls -a
+  274  git push origin master
+  275  git status
+  276  git push origin master
+  277  cd ..
+  278  ls
+  279  cd memory_game
+  280  ls
+  281  ls -a
+  282  git add .
+  283  git commit- "created game logic"
+  284  git commit -m "created game logic"
+  285  git push origin master
+  286  git add .
+  287  git commit -m "Added alerts"
+  288  git push master origin
+  289  git push origin master
+  290  git remote
+  291  pwd
+  292  cd ..
+  293  ls
+  294  cd ~
+  295  ls
+  296  cd wdi-fundamentals
+  297  ls
+  298  cd !
+  299  cd~
+  300  cd ~
+  301  cd Desktop
+  302  ls
+  303  mkdir dom_practice
+  304  cd dom_practice
+  305  mkdir css
+  306  mkdir js
+  307  ls
+  308  cd Downloads
+  309  ls
+  310  cd ~
+  311  cd Desktop
+  312  ls
+  313  cd memory_game
+  314  git add .
+  315  git commit -m "Inserted memory game logic"
+  316  git push
+  317  git push origin master
+  318  pwd
+  319  cd Desktop
+  320  ls
+  321  cd memory_game
+  322  pwd
+  323  git status
+  324  git push origin master
+  325  git remote -v
+  326  git remote add https://github.com/terencelimsayjian/wdi-fundamentals-memorygame.git
+  327  git remote add origin https://github.com/terencelimsayjian/wdi-fundamentals-memorygame.git
+  328  git remote -v
+  329  git push origin master
+  330  git push origin master
+  331  git push origin master
+  332  git status
+  333  git remote -v
+  334  git push origin master
+  335  pwd
+  336  ls
+  337  -
+  338  rm -rs funny_things
+  339  ls
+  340  cd wdi-fundamentals
+  341  ls
+  342  cd ..
+  343  pwd
+  344  ls
+  345  rm -r funny-things
+  346  ls
+  347  rm -r funny_things
+  348  ls
+  349  cd Desktop
+  350  mkdir wdi-6
+  351  cd ../Desktop
+  352  ls
+  353  rm -r wdi-6
+  354  mkdir wdi-6
+  355  cd wdi-6
+  356  pwd
+  357  touch syllabus.text
+  358  ls
+  359  mkdir one
+  360  mkdir two
+  361  mkdir three
+  362  sl
+  363  ls
+  364  cd littletinyhippo/Desktop
+  365  cd ~
+  366  ls
+  367  cd littletinyhippo/Desktop
+  368  cd Desktop
+  369  pwd
+  370  ls
+  371  cd wdi-6
+  372  rm syllabus.text
+  373  touch index.html
+  374  mv index.html syllabus.html
+  375  mv syllabus.html index.html
+  376  open index.html
+  377  open one
+  378  --help
+  379  rm --help
+  380  touch --help
+  381  -help
+  382  --hlp
+  383  cd -help
+  384  cd ~/littletinyhippo/Desktop/wdi-6
+  385  ~/littletinyhippo/Desktop
+  386  cd ~/littletinyhippo
+  387  cd ~
+  388  ls
+  389  cd ~/Desktop/wdi-6
+  390  pwd
+  391  man ls
+  392  man mv
+  393  cd/~
+  394  cd ~
+  395  ls
+  396  /mkdir Workspace
+  397  cd Workspace
+  398  cd blog
+  399  mkdir blog
+  400  cd blog
+  401  cd 2014 2015
+  402  mkdir 2014 2015
+  403  ls
+  404  cd 2014
+  405  mkdir dec
+  406  cd dec
+  407  touch monitor.txt mouse.txt
+  408  cd ..
+  409  cd ..
+  410  pwd
+  411  ls
+  412  cd 2015
+  413  ls
+  414  mkdir jan feb
+  415  cd jan
+  416  cd memory
+  417  mkdir memory
+  418  touch cpu.txt
+  419  ls
+  420  cd ..
+  421  ls
+  422  touch circuit-board.txt input-output.txt power-supply.txt
+  423  ls
+  424  mv circuit-board.txt input.txt power-supply.txt feb
+  425  ls
+  426  mv input-output.txt feb
+  427  ls
+  428  touch motherboard.txt
+  429  cd ..
+  430  pwd
+  431  touch hardware.txt
+  432  ls
+  433  cd 2014
+  434  ls
+  435  cd dec
+  436  ls
+  437  cd ..
+  438  cd ..
+  439  ls
+  440  cd 2015
+  441  ls
+  442  cd jan
+  443  ls
+  444  cd ..
+  445  cd feb
+  446  ls
+  447  open ~/blog
+  448  https://raw.githubusercontent.com/GA-WDI/installfest/master/builds/mac
+  449  https://raw.githubusercontent.com/GA-WDI/installfest/master/builds/mac
+  450  https://raw.githubusercontent.com/GA-WDI/installfest/master/builds/mac
+  451  bash <(curl -sL https://raw.githubusercontent.com/GA-WDI/installfest/master/builds/mac)
+  452  clear
+  453  cd ~
+  454  ls
+  455  git version 2.10.0
+  456  git --version
+  457  bash <(curl -sL https://raw.githubusercontent.com/GA-WDI/installfest/master/builds/mac)
+  458  pwd
+  459  ls
+  460  mkdir code
+  461  cd code
+  462  mkdir wdi
+  463  pwd
+  464  cd wdi
+  465  cd
+  466  ls
+  467  cd ~/code/wdi
+  468  pwd
+  469  atom .
+  470  ~/code/wdi on mater[?]
+  471  git init
+  472  git status
+  473  pwd
+  474  ls
+  475  git add .
+  476  git status
+  477  git status
+  478  git add .
+  479  touch new.html
+  480  git add new.html
+  481  git status
+  482  git commit
+  483  git commit -am 'new html files'
+  484  git status
+  485  git log
+  486  git status
+  487  git commit
+  488  git add index.html
+  489  git commit
+  490  git commit -am "added initial text"
+  491  git log
+  492  git remote add origin https://github.com/terencelimsayjian/git-test.git
+  493  git push -u origin master
+  494  git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+  495  cd ~code]pwd
+  496  cd ~
+  497  pwd
+  498  ls
+  499  cd code/wdi
+  500  git add .
+  501  git sommit
+  502  git commit -m "adding preliminary beginning text to first HTLML
+  503  git commit -m "adding preliminary beginnining text"
+  504  git status
+  505  git push
+  506  pwd
+  507  cd ~/code/wdi
+  508  ls
+  509  git add.
+  510  git add .
+  511  git pull
+  512  git  git add .
+  513  git commit -am "added initial preliminary text"
+  514  git push origin master
+  515  git add .
+  516  git commit -am "added headings to paragraphs"
+  517  git remote -v
+  518  git push
+  519  git push origin master
+  520  git log
+  521  git lg
+  522  pwd
+  523  git add .
+  524  git commit -am "added headers"
+  525  git lg
+  526  git push
+  527  git lg
+  528  pwd
+  529  mkdir lab
+  530  cd lab
+  531  git clone https://github.com/terencelimsayjian/html_user_inputs.git
+  532  ls
+  533  atom .
+  534  pwd
+  535  ls
+  536  git clone https://github.com/terencelimsayjian/html-css-challenges.git
+  537  ls
+  538  pwd
+  539  git status
+  540  ls
+  541  cd lab
+  542  ls
+  543  cd html_user_inputs/
+  544  ls
+  545  git add .
+  546  git commit -m "html skeleton"
+  547  git push
+  548  git status
+  549  git log
+  550  pwd
+  551  ls
+  552  cd code/lab
+  553  cd code/
+  554  ls
+  555  cd wdi/
+  556  cd
+  557  ls
+  558  cd code
+  559  ls
+  560  cd wdi
+  561  ls
+  562  cd lab
+  563  ls
+  564  cd html_user_inputs
+  565  ls
+  566  open skeleton.html
+  567  cd ..
+  568  mkdir homework
+  569  cd homework
+  570  ls
+  571  cd ..
+  572  remove -r homework
+  573  rm -r homework/
+  574  ls
+  575  cd lab/
+  576  ls
+  577  cd html-css-challenges/
+  578  ls
+  579  atom .
+  580  cd 01-profile-content/
+  581  atom .
+  582  git clone https://github.com/terencelimsayjian/command-line-murder-mystery.git
+  583  pwd
+  584  ls
+  585  rm -r command-line-murder-mystery/
+  586  ls
+  587  rm -r command-line-murder-mystery/
+  588  rm -rf command-line-murder-mystery/
+  589  ls
+  590  cd .
+  591  cd ..
+  592  ls
+  593  cd ..
+  594  ls
+  595  mkdir homework
+  596  cd homework
+  597  git clone https://github.com/terencelimsayjian/command-line-murder-mystery.git
+  598  ls
+  599  cd command-line-murder-mystery/
+  600  ls
+  601  touch solution.txt
+  602  clear
+  603  pwd
+  604  ls
+  605  cat instructions
+  606  open cheatsheet.pdf
+  607  cd mystery/
+  608  ls
+  609  cat crimescene
+  610  ls
+  611  grep "CLUE" crimescene
+  612  cd interviews/
+  613  ls
+  614  cd ..
+  615  grep "barista" interviews/
+  616  cd interviews/
+  617  cat * > allfilescombined.txt
+  618  grep "barista" allfilescombined.txt
+  619  ls
+  620  grep "annabel" allfilescombined.txt
+  621  grep "Annabel" allfilescombined.txt
+  622  cd ..
+  623  ls
+  624  cd ..
+  625  ls
+  626  cat hint1
+  627  cat people
+  628  ls
+  629  cd mystery/
+  630  cat people 
+  631  pwd
+  632  ls
+  633  grep "Annabel" people
+  634  cd streets/
+  635  ls
+  636  cd ..
+  637  ls
+  638  cd ..
+  639  ls
+  640  cat hint1
+  641  head -n 20 people
+  642  cd mystery/
+  643  head -n 20 people
+  644  head -n 20 streets/
+  645  cd stree
+  646  cd streets/
+  647  ls
+  648  cd ..
+  649  grep "Hart" streets/
+  650  cd streets/
+  651  grep "Hart" .
+  652  cat Hart_Place 
+  653  cd ..
+  654  ls
+  655  cd ..
+  656  cat hint2
+  657  cd mystery/
+  658  ls
+  659  head -n 10 people
+  660  cd streets/
+  661  cat Buckingham_Place 
+  662  cd ..
+  663  ls
+  664  grep "Annabel" people
+  665  cd streets/
+  666  cat Mattapan_Street 
+  667  cd ..
+  668  ls
+  669  grep "Annabel" people
+  670  head -n 10 people
+  671  cd streets/
+  672  head -n 40 Hart_Place 
+  673  pwd
+  674  cd ..
+  675  grep "#47246024" interviews/
+  676  cd interviews/
+  677  cat #47246024
+  678  pwd
+  679  ls
+  680  cd code
+  681  ls
+  682  cd wdi/
+  683  ls
+  684  cd homework/
+  685  ls
+  686  cd command-line-murder-mystery/
+  687  ls
+  688  cd mystery/
+  689  ls
+  690  grep "Annabel" people
+  691  head -n 10 people
+  692  cd streets/
+  693  head -n 40 Hart_Place 
+  694  cd ..
+  695  ls
+  696  cd interviews/
+  697  ls
+  698  cat interview-47246024 
+  699  cd ..
+  700  ls
+  701  streets/
+  702  cd streets/
+  703  head -n 176 Buckingham_Place 
+  704  cd ..
+  705  ls
+  706  grep "CLUE" crimescene
+  707  ls
+  708  cd memberships/
+  709  ls
+  710  cat AAA
+  711  ls
+  712  cd ..
+  713  ls
+  714  cd ..
+  715  cat hint3
+  716  ls
+  717  cd mystery/
+  718  ls
+  719  head -n 20 vehicles
+  720  grep "Annabel" vehicle
+  721  ls
+  722  grep "Annabel" vehicles
+  723  grep "Annabel" people
+  724  ls
+  725  cd streets/
+  726  head -n 173 Mattapan_Street 
+  727  cd ..
+  728  ls
+  729  cd ..
+  730  ls
+  731  cd mystery/interviews/
+  732  ls
+  733  cat interview-9437737 
+  734  cd ../streets/
+  735  head -n 176 Haley_Street 
+  736  cd ../interviews/
+  737  ls
+  738  head -n 176 interview-871877 
+  739  cd ..
+  740  ls
+  741  grep "Annabel" people
+  742  cd streets/
+  743  head -n 179 Buckingham_Place 
+  744  cd ../interviews/
+  745  cat interview-699607 
+  746  cd ..
+  747  ls
+  748  head -n 20 vehicles
+  749  cd ..
+  750  ls
+  751  cd mystery/
+  752  ls
+  753  grep -A 4 "L337" vehicles 
+  754  grep -A 4 "L337" vehicles > suspects.txt
+  755  cat suspects.txt 
+  756  grep -B 4 "Height: 6" > tallsuspects.txt
+  757  pwd
+  758  ls
+  759  cd code/wdi/
+  760  ls
+  761  cd homework/
+  762  ls
+  763  cd command-line-murder-mystery/
+  764  ls
+  765  cd mystery/
+  766  ls
+  767  cat suspects.txt 
+  768  grep -B 4 "Height: 6" suspects.txt > tallsuspects.txt 
+  769  cat tallsuspects.txt 
+  770  ls
+  771  cd interviews/
+  772  cat interview-699607 
+  773  cd ..
+  774  ls
+  775  grep -c 2 tallsuspects.txt > bluesuspects.txt
+  776  cat bluesuspects.txt 
+  777  grep -C 2 tallsuspects.txt > bluesuspects.txt 
+  778  grep -C 2 "Color: Blue" tallsuspects.txt > bluesuspects.txt 
+  779  cat bluesuspects.txt 
+  780  ls
+  781  cd memberships/
+  782  ls
+  783  cd ..
+  784  ls
+  785  grep -Ai "License Plate L337..9" bluesuspects.txt > blue9suspects.txt
+  786  grep -A "L337..9" bluesuspects.txt > blue9suspects.txt 
+  787  grep -A 4 "L337..9" bluesuspects.txt > blue9suspects.txt 
+  788  cat blue9suspects.txt 
+  789  ls
+  790  rm blue9suspects.txt 
+  791  rm bluesuspects.txt 
+  792  rm tallsuspects.txt 
+  793  cat suspects.txt 
+  794  rm suspects.txt 
+  795  ls
+  796  grep -A 4 "L337..9" vehicles > suspects1.txt
+  797  cat suspects1.txt 
+  798  grep -A 3 "Honda" suspects1.txt > suspects2.txt
+  799  ls
+  800  cat suspects1.txt 
+  801  cat suspects2.txt 
+  802  ls
+  803  grep -A 2 "Color: Blue" suspects2.txt > suspects3.txt
+  804  cat suspects1.txt 
+  805  cat suspects3.txt 
+  806  grep -B 2 "Height: 6" suspects3.txt > suspects4.txt
+  807  cat suspects4.txt 
+  808  mv suspects4.txt finalsuspects.txt
+  809  ls
+  810  cd memberships/
+  811  ls
+  812  head -n 10 AAA
+  813  head -n 10 Delta_SkyMiles 
+  814  head -n 10 Museum_of_Bash_History 
+  815  head -n 10 library.txt 
+  816  cat ../finalsuspects.txt 
+  817  grep "Joe Germuska" AAA Museum_of_Bash_History Delta_SkyMiles library.txt 
+  818  grep "Jeremy Bowers" AAA Museum_of_Bash_History Delta_SkyMiles library.txt 
+  819  grep "Jacqui Maher" AAA Museum_of_Bash_History Delta_SkyMiles library.txt 
+  820  grep "Erika Owens" AAA Museum_of_Bash_History Delta_SkyMiles library.txt 
+  821  cd ..
+  822  grep "Jacqui Maher" people
+  823  cd ..
+  824  ls
+  825  touch solution.txt
+  826  history
+  827  history > solution.txt
+Jeremy Bowers
