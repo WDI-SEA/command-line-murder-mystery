@@ -1,0 +1,171 @@
+
+  196  cd ~
+  197  pwd
+  198  ls
+  199  cd code
+  200  ls
+  201  cd week1
+  202  ls
+  203  cd day1
+  204  ls
+  205  cd command-line-murder-mystery
+  206  ls
+  207  cat instructions
+  208  cd mystery
+  209  ls
+  210  cat crimescene | grep CLUE
+  211  cd interviews
+  212  ls
+  213  cd ..
+  214  ls
+  215  ls memberships 
+  216  cat memberships/1.txt
+  217  cat memberships/2.txt
+  218  cat memberships/delta.txt
+  219  cat people
+  220  pwd
+  221  ls
+  222  cd streets
+  223  ls -a
+  224  cat .
+  225  cd .
+  226  ls
+  227  cd ..
+  228  pwd
+  229  ls -a
+  230  cd ..
+  231  ls -a
+  232  cat .
+  233  cd .
+  234  ls
+  235  cd ..
+  236  pwd
+  237  ls
+  238  cd command-line-murder-mystery
+  239  ls -a
+  240  ls
+  241  ls -a ..
+  242  cd .
+  243  ls -a
+  244  cd .
+  245  ls -a
+  246  cat .
+  247  cat ..
+  248  ls
+  249  ls -a
+  250  cd .
+  251  ls
+  252  lsa
+  253  ls -a
+  254  cd mystery
+  255  ls
+  256  cd streets
+  257  ls
+  258  cat .
+  259  cd .
+  260  ls -a
+  261  pwd
+  262  ls
+  263  cd ..
+  264  pwd
+  265  ls
+  266  cat vehicles
+  267  pwd
+  268  ls
+  269  ls memberships
+  270  cd memberships
+  271  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep *[4]
+  272  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep *(4)
+  273  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort
+  274  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sortwd
+  275  pwd
+  276  ls
+  277  cd ..
+  278  pwd
+  279  ls
+  280  cd interviews
+  281  ls
+  282  cat interview-904020
+  283  pwd
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd people
+  288  cat people
+  289  cat people | grep Annabel -A 6
+  290  LS
+  291  ls streets
+  292  cd streets 
+  293  ls
+  294  cat Buckingham_Place
+  295  cat -n
+  296  ls
+  297  cat head -n -179 Bu*
+  298  cat head -n 179 Buckingham_Place 
+  299  cat Buckingham_Place | head -n 179 
+  300  cat Buckingham_Place | head -n 179 | tail -n 1
+  301  pwd
+  302  cd ..
+  303  ls
+  304  cd interviews
+  305  ls
+  306  cat interview-699607
+  307  ls
+  308  cd ..
+  309  ls
+  310  cd vehicles
+  311  cat vehicles
+  312  cat vehicles \ grep blue -n 6
+  313  pwd
+  314  ls
+  315  cat vehicles | grep -i L337 -A 6
+  316  LS
+  317  cd people
+  318  cat people grep Jeremy Bowers
+  319  cat people grep "Jeremy Bowers"
+  320  cat people | grep "Jeremy Bowers"
+  321  ls
+  322  cd streets
+  323  ls
+  324  cat Dunstable Road | head -n 284 | tail -n 1
+  325  cat Dunstable_Road | head -n 284
+  326  cat Dunstable_Road | head -n 284 | tail -n 1
+  327  ls
+  328  cd ~
+  329  ls
+  330  cd code
+  331  cd week1
+  332  cd day1
+  333  ls
+  334  cd command-line-murder-mystery
+  335  ls
+  336  cd mystery
+  337  ls
+  338  cd interviews
+  339  ls
+  340  cat interview-9620713
+  341  pwd
+  342  ls
+  343  cd ..
+  344  ls
+  345  cd memberships
+  346  ls
+  347  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort | grep "Jeremy Bowers" -A 5
+  348  LS
+  349  ls
+  350  cd ..
+  351  ls
+  352  cd ..
+  353  ls
+  354  cd ..
+  355  ls
+  356  ls -a
+  357  cd command-line-murder-mystery
+  358  ls -a
+  359  cat solution.txt
+  360  open solution.txt
+  361  history >> solution
+  362  open solution.txt
+  363  ls
+
+Jeremy Bowers
