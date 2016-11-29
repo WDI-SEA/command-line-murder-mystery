@@ -1,0 +1,186 @@
+
+Jeremy Bowers did it.
+
+here are my notes:
+mystery
+
+
+1. man 6’
+2. member to AAA, Delta SkyMiles, Lib, Museum of BASH history
+3. woman left before shots, ANNABELLE, spiky blonde hair, new zealand accent
+
+Annabel Sun, 26, Hart Place, line 40
+
+Interview #47246024 not her
+
+
+Annabel Church, 38, buckingham palace line 179 
+interview #699607
+
+saw blue honda starts with L337 ends with 9. 
+
+1. L337 ZR9 no
+2. L337 P89 no
+3. L337 GX9 no
+4. L337 QE9 NO Erika Owens 6’5 
+5. L337 GB9 no
+6. L337 OI9 no
+7. L337 X19 no
+8. L337 539 NO Aron Pilhofer 5’3 
+9. L337 3U9 no
+10. L337 369 no heather billings 5’2 
+11. ————
+12. L337 DV9 yes Joe Germuska 6’2
+13. L337 5A9 yes jeremy bowers 6’1
+14. L337 WR9 yes jacqui maher 6’2
+
+joe AAA, X
+jeremy AAA, Delta_skyMiles, Lib, BASH
+jacqui, AAA, Delta_skyMiles, Lib, X
+
+Jeremy Bowers Dunstable Road, line 284
+interview 9620713
+
+
+and here is my terminal history:
+
+237  cd command-line-murder-mystery
+  238  ls
+  239  clear
+  240  ls
+  241  vm instructions
+  242  vi instructions
+  243  ls
+  244  cd mystery
+  245  ls
+  246  vi crimescene
+  247  ls
+  248  cd interviews
+  249  ls
+  250  vi interview-102490
+  251  cd ..
+  252  ls
+  253  clear
+  254  ls
+  255  cd ..
+  256  ls
+  257  vi instructions
+  258  nano cheatsheet.md
+  259  cd mystery
+  260  ls
+  261  cd crimescene
+  262  crimescene | grep CLUE
+  263  cat crimescene | grep
+  264  cat crimescene | grep CLUE
+  265  l
+  266  clear
+  267  ls
+  268  cd memberships
+  269  ls
+  270  vi 1.txt
+  271  vi Delta_SkyMiles
+  272  cd ..
+  273  ls
+  274  vi people
+  275  vi people | grep Annabe
+  276  cat people | grep Annabe
+  277  cd ..
+  278  ls
+  279  cd mystery
+  280  ls
+  281  cd streets
+  282  ls
+  283  cat Hart_Place
+  284  ls
+  285  cat Buckingham_Place
+  286  cat Buckingham_Place | grep INTER
+  287  cd ..
+  288  ls
+  289  cd interviews
+  290  ls
+  291  cat interview-47246024
+  292  cat interview-699607
+  293  cd ..
+  294  ls
+  295  cd vehicles
+  296  cat vehicles
+  297  cat vehicles | grep l337
+  298  cat vehicles | grep L337
+  299  cat vehicles | grep L337 Blue
+  300  cat vehicles | grep Blue
+  301  vi vehicles
+  302* '/Applications/Postgres.app/Contents/Versions/9.6/bin'/psql -p5432
+  303  ls
+  304  cd memberships
+  305  ls
+  306  cd AAA
+  307  cat AAA | grep Joe
+  308  cat AAA | grep Jeremy
+  309  cat AAA | grep Jacqui
+  310  ls
+  311  cat Delta_SkyMiles | grep Joe
+  312  cat Delta_SkyMiles | grep Jeremy
+  313  cat Delta_SkyMiles | grep Jacqui
+  314  ls
+  315  cat Terminal_City_Library | grep Jeremy
+  316  cat Terminal_City_Library | grep Jacqui
+  317  ls
+  318  cat Museum_of_Bash_History | grep Jeremy
+  319  cat Museum_of_Bash_History | grep Jaqui
+  320  ls
+  321  cd ..
+  322  ls
+  323  cat people | grep Jeremy Bowers
+  324  cat people | Jeremy
+  325  cat people
+  326  ls
+  327  cd streets
+  328  LS
+  329  cat Dunstable_Road
+  330  cd ..
+  331  ls
+  332  cd interviews
+  333  ls
+  334  cat interview-9620713
+  335  cd ..
+  336  ls
+  337  cd ..
+  338  ls
+  339  cat instructions
+  340  cd ..
+  341  ls
+  342  cd command-line-murder-mystery
+  343  ls
+  344  touch solution.txt
+  345  ls
+  346  open solution.txt
+
+
+realized i misspelled Jacqui’s name when looking at bash museum went back
+
+
+  348  ls
+  349  cd mystery
+  350  ls
+  351  cd memberships
+  352  ls
+  353  cat Museum_of_Bash_History | Jacqui
+  354  cat Museum_of_Bash_History | grep Jacqui
+  355  ls
+  356  cd ..
+  357  ls
+  358  cat people
+  359  ls
+  360  cd streets
+  361  ls
+  362  cat Andover_Road
+  363  cat Andover_Road | grep Interview
+  364  ls
+  365  cd ..
+  366  ls
+  367  cd interviews
+  368  cat interview-904020
+
+Jacqui has alibi, it was Jeremy.
+
+
