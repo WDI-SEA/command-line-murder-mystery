@@ -1,0 +1,22 @@
+history：
+ 
+head -n 20 people
+head -n 20 vehicles
+grep CLUE crimescene
+grep Annabel people
+head -n 179 streets/Buckingham_Place | tail -n 1
+cat interviews/interview-699607
+grep -A 5 L337 vehicles
+grep -A 5 L337 vehicles | grep -B 1 -A 4 Honda | grep -B 2 -A 3 Blue 
+cd memberships
+cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt delta.txt | grep "Erika Owens" |wc -l
+cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt delta.txt | grep "Joe Germuska" |wc -l
+cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt delta.txt | grep "Jeremy Bowers" |wc -l
+cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt delta.txt | grep "Jacqui Maher" |wc -l
+cd ..
+grep "Jacqui Maher" people
+grep "Jeremy Bowers" people
+head -n 284 streets/Dunstable_Road | tail -n 1
+cat interviews/interview-9620713
+
+The name of killer: Jeremy Bowers
