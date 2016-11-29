@@ -1,0 +1,229 @@
+
+1. 
+  112  git clone git@github.com:Robert1GA/command-line-murder-mystery.git
+  113  ls
+  114  cd command-line-murder-mystery
+  115  ls
+  116  cat instructions
+  117  ls
+  118  cd mystery
+  119  ls
+  120  ls -a
+  121  cat crimescene
+  122  cd ..
+  123  ls
+  124  cat hint1
+  125  cd mystery
+  126  ls
+  127  cd ..
+  128  cat instructions
+  129  ls
+  130  cd mystery
+  131  ls
+  132  cd ..
+  133  cd command-line-murder-mystery
+  134  ls -a
+  135  cat hint1
+  136  cat hint2
+  137  cd mystery
+  138  ls
+  139  cat crimescene | grep -i clue
+  140  cd ..
+  141  ls
+  142  cat hint3
+  143  cd mystery
+  144  ls
+  145  ls -a
+  146  head people
+  147  head vehicles
+  148  cat people | grep -i annabel
+  149  cd streets
+  150  ls -a
+  151  cat hart_place
+  152  cat hart_place | grep -i interview
+  153  cd ..
+  154  ls
+  155  cd interviews
+  156  ls -a
+  157  cat interview-47246024
+  158  cat ./streets/buckingham_place | grep -i interview
+  159  cat ../streets/buckingham_place | grep -i interview
+  160  cat interview-699607
+  161  cd ..
+  162  ls
+  163  cat vehicles | grep -i L337
+  164  ls
+  165  ls memberships
+  166  cat crimescene | grep -i l337
+  167  cat ./memberships/Delta_SkyMiles
+  168  ls
+  169  cat vehicles
+  170  cat vehicles | grep -i L337
+  171  cat .\interviews\interview-699607
+  172  ls
+  173  cat ./interviews/interview-699607
+  174  cat vehicles | grep -i honda
+  175  cat vehicles | grep -i L337
+  176  cat vehicles | grep -i l337zr9
+  177  man grep
+  178  cat vehicles | grep -i l337zr9 -A 5
+  179  cat vehicles | grep -i L337 - A 5
+  180  cat vehicles | grep -i L337 -A 5
+  181  ls
+  182  ls ..
+  183  cat ../hint3
+  184  cat ../hint4
+  185  cat ../hint5
+  186  cat ../hint6
+  187  cat ../hint7
+  188  cat ../hint8
+  189  man wc
+  190  ls
+  191  cat crimescene | grep -ia 5 clue
+  192  cat crimescene | grep clue -i -a 5
+  193  ls
+  194  cat crimescene | grep -i clue
+  195  ls memberships
+  196  cat ./streets/buckingham_place | grep -i interview
+  197  cat ./interviews/interview-699607
+  198  head vehicles
+  199  man head
+  200  head -n 10 vehicles
+  201  cat vehicles | grep -i L337 -A 10
+  202  cat vehicles | grep -i L337 -A 6
+  203  clear
+  204  cat crimescene | grep -i clue
+  205  cat vehicles | grep -i L337 -A 6
+  206  cat ../hint7
+  207  cat ../hint6
+  208  cat ../hint5
+  209  cat ../hint4
+  210  cat ../hint3
+  211  cat ../hint8
+  212  cat ./memberships AAA Delta_SkyMiles | grep "Joe Germuska"
+  213  ls
+  214  ls memberships
+  215  cat ./memberships/AAA | grep "Joe Germuska"
+  216  cat ./memberships/AAA Delta_SkyMiles | grep "Joe Germuska"
+  217  cd memberships
+  218  cat AAA Delta_SkyMiles | grep "Joe Germuska"
+  219  head AAA
+  220  head Delta_SkyMiles
+  221  cat AAA Delta_SkyMiles | grep "Jeremy Bowers"
+  222  cat delta.txt
+  223  ls
+  224  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  225  cat ../crimescene | grep -ia 5 clue
+  226  ls ..
+  227  cat ../crimescene | grep -i clue
+  228  cd..
+  229  ls
+  230  cd ..
+  231  ls
+  232  cat people | grep "Jeremy Bowers"
+  233  ls streets
+  234  head ./streets/Dunstable_Road
+  235  ls ..
+  236  cat ../hint1
+  237  cat ../hint2
+  238  cat ../hint3
+  239  cat ../hint4
+  240  cat ../hint5
+  241  head -n 284 ./streets/Dunstable_Road
+  242  ls
+  243  cat ./interviews/interview-9620713
+  244  cat vehicles | grep -i L337 -A 6
+  245  cd memberships
+  246  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  247  cd ..
+  248  ls
+  249  head -n 284 ./streets/Dunstable_Road
+  250  ls
+  251  cat people | grep -i Annabel
+  252  cd memberships
+  253  ls
+  254  cat AAA Delta_SkyMiles | grep Annabel
+  255  head 1.txt
+  256  head 2.txt
+  257  head newfile.txt
+  258  head library.txt
+  259  cat library.txt | grep -i Jeremy
+  260  clear
+  261  cd ..
+  262  ls
+  263  cat crimescene | grep -i clue
+  264  cat ./people | grep -i Annabel
+  265  head -n 176 ./streets/Buckingham_Place 
+  266  man head
+  267  head  ./streets/Buckingham_Place -n 176 
+  268  cat ./streets/Buckingham_Place | grep -i interview 
+  269  pwd
+  270  ls
+  271  cat ./vehicles | grep -i L337 -A 6
+  272  cat ./people | grep -i Germuska
+  273  head  ./streets/Buckingham_Place -n 176 
+  274  cat ./streets/Buckingham_Place | grep -i interview 
+  275  cat ./people | grep -i Tamara Cafarl
+  276  cat ./people | grep -i Tamara Cafaro
+  277  cat ./people | grep -i Tamara
+  278  cat ./streets/Deer_Street | grep -i interview 
+  279  ls streets
+  280  cat ./people | grep -i Bostock
+  281  cat ./people | grep -i "Erika Owens"
+  282  cat ./people | grep -i Pilhofer
+  283  cat ./people | grep -i Billings
+  284  cat ./people | grep -i Germuska
+  285  cat ./people | grep -i Bowers
+  286  cat ./people | grep -i Maher
+  287  cd streets
+  288  head -n 287 Senders_Court
+  289  man head
+  290  cat ../interviews/interview-290346
+  291  cat ../interviews/interview-699607
+  292  cat ./vehicles | grep -i L337 
+  293  cat ../vehicles | grep -i L337 
+  294  cat ../vehicles | grep -i L337 -A 6
+  295  cat ../people | grep -i Jacqui
+  296  cat Andover_Road -n 224
+  297  head Andover_Road -n 224
+  298  head Andover_Road
+  299  head -n 224 Andover_Road
+  300  man head
+  301  man cat
+  302  cat -n Buckingham_Place
+  303  cat -n 179 Buckingham_Place
+  304  cat -n:179 Buckingham_Place
+  305  sed -n '179p' Buckingham_Place
+  306  head -n 179 Buckingham_Place
+  307  cat ../people | grep Shaw
+  308  cat Manton_Terrace | head -n 64 | tail -n 1
+  309  cat Manton_Terrace | head -n 83 | tail -n 1
+  310  cat ../interviews/interview-30259493
+  311  cat ../vehicles | grep -i L337 
+  312  cat ../vehicles | grep -i L337 -A 6
+  313  cat ../people | grep Aron
+  314  cat Claybourne_Street | head -n 145 | tail -n 1
+  315  cat ../interviews/interview-1767435
+  316  cat ../people | grep Germuska
+  317  cat Plainfield_Street | head -n 275 | tail -n 1
+  318  cat ../interviews/interview-29741223
+  319  cat ../people | grep Owens
+  320  cat Trapelo_Street | head -n 98 | tail -n 1
+  321  cat ../interviews/interview-5455315
+  322  cat ../people | grep Billings
+  323  cat Culbert_Street | head -n 19 | tail -n 1
+  324  cat ../interviews/interview-2939888
+  325  cat ../people | grep Shaw
+  326  cat Manton_Terrace | head -n 83 | tail -n 1
+  327  cat ../interviews/interview-30259493
+  328  pwd
+  329  cd ..
+  330  ls
+  331  cd ..
+  332  ls
+  333  open cheatsheet.pdf
+  334  touch solution.txt
+  335  echo history
+  336  history
+
+2. Jeremy Bowers
