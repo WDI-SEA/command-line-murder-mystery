@@ -1,0 +1,388 @@
+Killer Jeremy Bowers
+
+
+   1  atom
+    2  ping google.com
+    3  tracert google.com
+    4  traceroute
+    5  traderoute google.com
+    6  ping marketorder.com
+    7  traceroute www.google.com
+    8  ls
+    9  cd..
+   10  cd
+   11  cd..
+   12  ls
+   13  cd librart
+   14  cd pictures
+   15  ls
+   16  cd-
+   17  cd -
+   18  ls
+   19  cd /
+   20  ls
+   21  cd users
+   22  ls
+   23  pwd
+   24  ls
+   25  cd davids
+   26  ls
+   27  ls davids_mac
+   28  cd documents
+   29  ls
+   30  cd davids_mac
+   31  ls
+   32  cd..
+   33  ls
+   34  cd Library
+   35  .
+   36  cd ./Documents
+   37  cd ..
+   38  cd //
+   39  ls
+   40  pwd
+   41  pdw
+   42  pwd
+   43  ls
+   44  cd Users
+   45  ls
+   46  cd Dave
+   47  ls
+   48  cd davids_mac
+   49  reset
+   50  pdw
+   51  pwd
+   52  ls
+   53  cd
+   54  ls -
+   55  ls -a
+   56  ls -al
+   57  reset
+   58  ls
+   59  open .
+   60  open submlime
+   61  open slack
+   62  cd Applications
+   63  ls
+   64  cd //
+   65  ls
+   66  cd Users
+   67  ls
+   68  cd davids_mac
+   69  ls
+   70  mkdir Test
+   71  ls
+   72  cd Test
+   73  touch text1.txt
+   74  ls
+   75  cd..
+   76  cd ..
+   77  ls
+   78  rm -rf Test
+   79  ls
+   80  cd ..
+   81  ls
+   82  cd davids_mac
+   83  ls
+   84  cd Desktop
+   85  ls
+   86  open books.txt
+   87  vi books.txt
+   88  echo "Hello World"
+   89  echo "This is bookshelf" > bookshelf.txt
+   90  ls
+   91  cat bookshelf.txt
+   92  pwd
+   93  dir
+   94  ls
+   95  cat books.txt |  sort
+   96  cat bookshelf.txt | sort
+   97  cat bookshelf.txt | grep
+   98  ls
+   99  cd desktop
+  100  ls
+  101  ps aux
+  102  reset
+  103  ps aux | grep node
+  104  resety
+  105  reset
+  106  pwd
+  107  ls
+  108  reset
+  109  ls
+  110  mv books.txt ../
+  111  cd \\ 
+  112  cd ..
+  113  ls
+  114  cd
+  115  pwd
+  116  cd ..
+  117  ls
+  118  cd davids_mac
+  119  ls
+  120  test
+  121  cd
+  122  pwd
+  123  cd ..
+  124  ls
+  125  google
+  126  pwd
+  127  ls
+  128  mkdir WDI
+  129  ls
+  130  cd WDI
+  131  mkdir wk1
+  132  cd
+  133  wk1
+  134  cd wk1
+  135  ls
+  136  cd wdi
+  137  ls
+  138  cd wk1
+  139  mkdr day1
+  140  mkdir day1
+  141  ls
+  142  cd day1
+  143  git clone https://github.com/WDI-SEA/command-line-murder-mystery.git
+  144  ls
+  145  cd command-line-murder-mystery
+  146  cat instructions
+  147  las
+  148  ls
+  149  open cheatsheet.pdf
+  150  nano cheatsheet.md
+  151  cat instructions
+  152  ls
+  153  cd wdi
+  154  ls
+  155  cd wk1
+  156  cd day1
+  157  cat instructions
+  158  ls
+  159  command-line-murder-mystery
+  160  ls
+  161  hint1
+  162  history
+  163  ls
+  164  cat instructions
+  165  cd mystery
+  166  pwd
+  167  ls
+  168  crimescene
+  169  open crimescene
+  170  ls
+  171  cdv ..
+  172  cd ..
+  173  ls
+  174  touch solution.txt
+  175  ls
+  176  open hint1
+  177  cd mystery
+  178  ls
+  179  cd ..
+  180  ls
+  181  cd mystery
+  182  mystery
+  183  l
+  184  sls
+  185  ls
+  186  pwd
+  187  people
+  188  open file people
+  189  head -n 20 people
+  190  cd ..
+  191  ls
+  192  hint2
+  193  hint1
+  194  open hint2
+  195  grep "CLUE" crimescene
+  196  cd mystery
+  197  pwd
+  198  ls
+  199  grep "CLUE" crimescene
+  200  hint2
+  201  open hint3
+  202  ls
+  203  cd ..
+  204  pwd
+  205  ls
+  206  hint3
+  207  open hint3
+  208  cd mystery
+  209  ls
+  210  head people
+  211  hint4
+  212  pwd
+  213  cd ..
+  214  pwd
+  215  cd mystery
+  216  .. open hint4
+  217  pwd
+  218  cd ..
+  219  ls
+  220  cat hint1 hint2 hint3
+  221  cat open hint1 hint2 hint3
+  222  ls
+  223  open hint3
+  224  open solution.txt
+  225  cat hint1
+  226  cat hint2
+  227  cat hint1 hint2
+  228  cat * > hint
+  229  cat * >hint.txt
+  230  cat hint1
+  231  cat hint1 hint2 hint3 hint4 hint5 hint6
+  232  history
+  233  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  234  pwd
+  235  ls
+  236  cd mystery
+  237  head -n 20 people
+  238  pwd
+  239  ls
+  240  grep "CLUE" crimescene
+  241  head people.txt
+  242  ls
+  243  head people
+  244  head vehicles
+  245  grep "Annabel" people
+  246  grep "haley" 
+  247  grep "annabel" people
+  248  grep "Annabel" people
+  249  head people
+  250  head -n 173 streets/Mattapan_Street | tail -n 1
+  251  head -n 179 streets/Mattapan_Street | tail -n 1\n
+  252  pwd
+  253  ls
+  254  cd interviews
+  255  ls
+  256  grep "7737"
+  257  grep "7737" interviews
+  258  interview-9437737
+  259  open interview-9437737
+  260  car interview-9437737
+  261  cat interview-9437737
+  262  Buckinghhead -n 179 streets/Buckingham Place | tail -n 1 \n
+  263  Buckinghhead -n 179 streets/Buckingham_Place | tail -n 1 \n
+  264  ls\n
+  265  cd..
+  266  pws
+  267  pwd
+  268  cd ..
+  269  ls
+  270  cd streets
+  271  ls
+  272  Buckingham_Place
+  273  head -n 179 streets/Buckingham_Place | tail -n 1\n
+  274  head -n 179 Buckingham_Place | tail -n 1
+  275  pwd
+  276  cd ..
+  277  ls
+  278  cd interviews
+  279  ls
+  280  grep interview-699607
+  281  grep interview-699607 interviews
+  282  pwd
+  283  interview-699607
+  284  cat interview-699607
+  285  pwd
+  286  cd ..
+  287  ls
+  288  cd behicles
+  289  cd vehicles
+  290  ls
+  291  cd vehicles
+  292  cat vehicles
+  293  grep "clear\nclear\nhistory
+  294  history
+  295  cd
+  296  pwd
+  297  ls
+  298  cd wdi
+  299  cd
+  300  ls
+  301  cd wdi
+  302  ls
+  303  cd wk1
+  304  cd day1
+  305  ls
+  306  cd command-line-murder-mystery
+  307  CD
+  308  LS
+  309  cd mystery
+  310  cd
+  311  ls
+  312  cd wdi
+  313  cd
+  314  ls
+  315  cd wdi
+  316  ls
+  317  cd wk1
+  318  cd day1
+  319  ls
+  320  cd command-line-murder-mystery
+  321  ls
+  322  cd mystery
+  323  ls
+  324  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  325  ls
+  326  cd ..
+  327  ls
+  328  cat hint1 hint2 hint3 hint4 hint5 hind6 hint7 hint8
+  329  ls
+  330  cd mystery
+  331  ls
+  332  cd interviews
+  333  cat interview-699607
+  334  grep "honda" vehicles
+  335  pwd
+  336  cd ..
+  337  ls
+  338  cd vehicles
+  339  grep "honda" vehicles
+  340  head vehicles
+  341  grep -c 10  "L337" vehicles 
+  342  grep -C 4 "L337" vehicles
+  343  ls
+  344  cd interviews
+  345  ls
+  346  grep -l "owens"
+  347  ls
+  348  pwd
+  349  cd ..
+  350  ls
+  351  grep "L337" vehicles"\ngrep "L337" vehicles
+  352  grep "L337" vehicles
+  353  grep -A 5 "L337" vehicles
+  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  355  ls
+  356  cd memberships
+  357  ls
+  358  pwd
+  359  \tcat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Smith"\n
+  360  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "mike"\n
+  361  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Smith"\n
+  362  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep -c "Jeremy Smith"\n
+  363  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep -c "Mike"
+  364  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep -c "Mike Bostok"
+  365  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep -c "Jeremy Bowers"
+  366  history
+  367  ls
+  368  cd ..
+  369  ls
+  370  cd ..
+  371  ls
+  372  head solutions.txt | history
+  373  ls
+  374  head solutions2.txt
+  375  ls
+  376  solution.txt
+  377  open solution.txt
+  378  git
+  379  ls
+  380  cd ..
+  381  ls
+  382  command-line-murder-mystery
+  383  ls
+  384  pwd
+  385  ls
