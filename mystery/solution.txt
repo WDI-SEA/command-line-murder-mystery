@@ -1,0 +1,87 @@
+1st command:
+  grep -ir clue
+  #Finds all instances of the string "clue" ignoring case and searching recursively
+
+crimescene:CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+crimescene:CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+crimescene:CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+
+Info: Male, height >= 6', memberships[AAA, Delta SkyMiles, local library, Museum of Bash History], link to an "Annabel"
+
+2nd command:
+  grep ir annabel
+  #Finds all instances of the string "annabel" ignoring case and searching recursively
+
+./people:Annabel Sun	F	26	Hart Place, line 40
+./people:Oluwasegun Annabel	M	37	Mattapan Street, line 173
+./people:Annabel Church	F	38	Buckingham Place, line 179
+./people:Annabel Fuglsang	M	40	Haley Street, line 176
+
+Two are male, strike those.
+
+3rd command: within /interviews:
+  grep -ir sun
+  #Finds all instances of the string "sun" ignoring case and searching recursively
+
+  interview-47246024:Ms. Sun has brown hair and is not from New Zealand.  Not the witness from the cafe.
+
+Now we know the Annabel who was the witness is Annabel Church.
+
+4th command: within /interviews
+  grep -ir church
+  #Finds all instances of the string "sun" ignoring case and searching recursively
+
+  interview-699607:Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+  5th command: To see the entire interview with Annabel Church
+    cat interview-699607
+
+    Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+    However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"%
+
+Info: Info: Male, height >= 6', memberships[AAA, Delta SkyMiles, local library, Museum of Bash History], blue Honda, license plate "L337" + "9".
+
+6th command:
+  grep -i -A 6 l337 vehicles
+  #Returns the license plates and vehicle info for the cars with # "l337"
+
+    Returns 13 vehicles with "l337" in the plate #, however only returns 6 blue Honda's, of which only 4 are owned by men, of which only 3 are at least height >= 6'
+
+    License Plate L337WR9
+    Make: Honda
+    Color: Blue
+    Owner: Jacqui Maher
+    Height: 6'2"
+    Weight: 130 lbs
+
+    License Plate L3375A9
+    Make: Honda
+    Color: Blue
+    Owner: Jeremy Bowers
+    Height: 6'1"
+    Weight: 204 lbs
+
+    License Plate L337DV9
+    Make: Honda
+    Color: Blue
+    Owner: Joe Germuska
+    Height: 6'2"
+    Weight: 164 lbs
+
+    Checking these three suspects against their memberships reveals the shooter to be either Jeremy Bowers or Jacqui Maher.
+
+  7th command: within /memberships
+    cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"
+    => 4
+    cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+    => 4
+
+    To exonerate Jacqui Maher, you have to go back and check his interview status
+
+  8th command: within /interviews
+    grep -ir maher
+
+    Maher is not considered a suspect.  Video evidence confirms that she was away at a professional soccer game on the morning in question, even though it was a workday.
+
+    *************!!!!!!!!!!! So it has to be Jeremy Bowers.... what a rascal!******!!!!!!!!!!
