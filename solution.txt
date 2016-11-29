@@ -1,0 +1,563 @@
+1  pbcopy < ~/.ssh/id_rsa.pub\n# Copies the contents of the id_rsa.pub file to your clipboard\n
+   2  ls ~/.ssh
+   3  ssh -T git@github.com\n# Attempts to ssh to GitHub\n
+   4  ssh -T git@github.com
+   5  ssh -vT git@github.com\n
+   6  ssh -vT git@github.com\nOpenSSH_5.6p1, OpenSSL 0.9.8r 8 Feb 2011\ndebug1: Reading configuration data /Users/you/.ssh/config\ndebug1: Reading configuration data /etc/ssh_config\ndebug1: Applying options for *\ndebug1: Connecting to github.com [192.30.252.131] port 22.
+   7  ssh -vT git@github.com\nOpenSSH_5.6p1, OpenSSL 0.9.8r 8 Feb 2011\ndebug1: Reading configuration data /Users/you/.ssh/config\ndebug1: Reading configuration data /etc/ssh_config\ndebug1: Applying options for *\ndebug1: Connecting to github.com [192.30.252.131] po
+   8  ssh -T git@github.com
+   9  subl ~/.zshrc\n
+  10  curl -L http://install.ohmyz.sh | sh\n
+  11  no
+  12  ls
+  13  ssh -T git@github.com
+  14  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl\n
+  15  subl
+  16  brew install mongodb\n
+  17  sudo mkdir -p /data/db\n
+  18  sherpaguy
+  19  #get your user name\nwhoami\n
+  20  #get your user name\nkunjang
+  21  git ---version
+  22  git -version
+  23  sudo chown -R USERNAME:wheel /data\n
+  24  sudo chown -R Kunjang:wheel/data
+  25  mongod
+  26  psql
+  27  git
+  28  clear
+  29  ssh -T git@github.com
+  30  atom ---verison
+  31  psql
+  32  mongod
+  33  clear
+  34  psql
+  35  atom ~/.zshrc
+  36  psql
+  37  ssh-keygen -t rsa -b 4096 -C "kunjangsherpa@gmail.com"
+  38  eval "$(ssh-agent -s)"
+  39  ssh-add ~/.ssh/id_rsa
+  40  pbcopy < ~/.ssh/id_rsa.pub
+  41  ssh -T git@github.com
+  42  mongod
+  43  mongod --veruson
+  44  mongod --verison
+  45  mongod --version
+  46  mongod
+  47  brew install mongodb\n
+  48  sudo mkdir -p /data/db\n
+  49  kunjang
+  50  #make data directory\nsudo mkdir -p /data/db
+  51  whoami
+  52  sudo chown -R sherpaguy:wheel /data
+  53  sudo sherpaguy -R USERNAME:wheel / data
+  54  sudo chown -R SHERPAGUY:wheel / data
+  55  whoami
+  56  sudo chown -R SONAMTORRES:wheel /data
+  57  mongod
+  58  node --version
+  59  psql --version
+  60  mongod --verison
+  61  mongod
+  62  mongod
+  63  mongod --version
+  64  atom --version
+  65  clear
+  66  ls
+  67  clear
+  68  ping
+  69  ping washington.edu\n
+  70  ping stanford.edu
+  71  ping www.cam.ac.uk # Cambridge University in London
+  72  ping www.u-tokyo.ac.jp
+  73  ping sydney.edu.au
+  74  ping www.hbc.ac.za
+  75  ping 127.0.0.1\n
+  76  curl -I http://www.google.com
+  77  curl -I http://www.google.com\n
+  78  curl -I
+  79  curl -I http://www.facebook.com\n
+  80  curl -v http://www.google.com\n
+  81  clear
+  82  LC_ALL=C tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"
+  83  clear
+  84  pwd
+  85  /
+  86  pwd
+  87  /
+  88  pwd
+  89  ls
+  90  clear
+  91  cd
+  92  cd Documents
+  93  cd..
+  94  cd ..
+  95  / Documents
+  96  /cd
+  97  cd Documents
+  98  cd ..
+  99  .
+ 100  cd .
+ 101  Downloads
+ 102  cd .
+ 103  cd ..
+ 104  ls
+ 105  ls -a
+ 106  man ls
+ 107  ls -a
+ 108  vi .gharc
+ 109  vi ./ .zshrc
+ 110  ls / al
+ 111  ls -al
+ 112  open .
+ 113  open
+ 114  open e
+ 115  clear
+ 116  cd fundamentals
+ 117  cd..
+ 118  cd ..
+ 119  app git:(master) ls
+ 120  cd fundamentals
+ 121  pwd
+ 122  ls ../fundamentals
+ 123  cd
+ 124  mkdir my-directory
+ 125  ls
+ 126  del my-direcotory
+ 127  delete my-directory
+ 128  cd my-directory
+ 129  touch books. txt one-more.txt
+ 130  touch ../tester.txt
+ 131  which atom
+ 132  ls
+ 133  del books.
+ 134  atom books.
+ 135  rm books
+ 136  rm - books
+ 137  remove books.
+ 138  atom one-more.txt
+ 139  cat one-more.txt
+ 140  vi one-more.txt
+ 141  rm -f books.
+ 142  ls
+ 143  rm -f txt
+ 144  ;s
+ 145  ls
+ 146  echo "Hello World"
+ 147  echo "This is a bookshelf" > bookshelf.txt
+ 148  cat bookshelf
+ 149  cat bookshelf.txt
+ 150  echo "my name is kunjang" > bookshelf.txt
+ 151  cat bookshelf.txt
+ 152  echo "hey whats up" >> bookshelf.txt
+ 153  cat bookshelf.txt
+ 154  cat one-more.txt | sort
+ 155  open one-more.txt
+ 156  cat one-more.txt | sort
+ 157  cat one-more.txt | grep KU
+ 158  cat one-more.txt | grep -i KU
+ 159  ps aux | grep node
+ 160  os aux | grep itunes
+ 161  ps aux | grep itunes
+ 162  kill -9 7385
+ 163  mv another.txt ../
+ 164  ls
+ 165  mv another.txt ../new.txt
+ 166  mv one-more.txt ../books.txt
+ 167  s
+ 168  l
+ 169  ls
+ 170  books.txt
+ 171  ls
+ 172  cd ..
+ 173  ls
+ 174  mv books.txt test/my-directory
+ 175  ls test
+ 176  cd my-directory
+ 177  ls
+ 178  cs..
+ 179  cd..
+ 180  cd ..
+ 181  mv books.txt ../
+ 182  mv books.txt ../names.txt
+ 183  ls
+ 184  remove -f books.txt
+ 185  rm -f books.txt
+ 186  ls
+ 187  cd my directory
+ 188  cd my-direcotory
+ 189  cd my-directory
+ 190  ls
+ 191  touch books.txt
+ 192  ls
+ 193  cp books.txt bookshelf.txt
+ 194  ls
+ 195  cat books.txt
+ 196  vi books.txt
+ 197  vi bookshelf.txt
+ 198  rm books.txt
+ 199  ls
+ 200  cd ..
+ 201  rm -r my-directory
+ 202  ls
+ 203  cat tester.txt
+ 204  vi tester.txt
+ 205  rm tester.txt
+ 206  ls
+ 207  clear
+ 208  cd code
+ 209  mkdir week1
+ 210  cd week1
+ 211  https://github.com/sherpaguy/command-line-murder-mystery.git
+ 212  ls
+ 213  cd week1
+ 214  ls
+ 215  https://github.com/sherpaguy/command-line-murder-mystery.git
+ 216  clear
+ 217  https://github.com/sherpaguy/command-line-murder-mystery.git
+ 218  ls
+ 219  mkdir day1
+ 220  ls
+ 221  cd day1
+ 222  git clone git@github.com:sherpaguy/command-line-murder-mystery.git
+ 223  sudo git clone git@github.com:sherpaguy/command-line-murder-mystery.git
+ 224  git clone git@github.com:sherpaguy/command-line-murder-mystery.git
+ 225  ls
+ 226  cd command-line-murder-mystery
+ 227  ls
+ 228  history
+ 229  ls
+ 230  touch solution.txt
+ 231  atom solution.txt
+ 232  cd ..
+ 233  cd command-line-murder-mystery
+ 234  ls
+ 235  vi hint1
+ 236  vi hint2
+ 237  vi hint1
+ 238  vi hint2
+ 239  head
+ 240  ls
+ 241  ls -a
+ 242  grep "CLUE" crimescene
+ 243  ls -A
+ 244  ls .a
+ 245  cd mystery
+ 246  ls
+ 247  cd crimescene
+ 248  ls
+ 249  open crimescene
+ 250  head
+ 251  cd ..
+ 252  ls
+ 253  open cheatsheet.pdf
+ 254  cd mystery
+ 255  grep | clue
+ 256  open people
+ 257  ls
+ 258  cd .
+ 259  ls
+ 260  cd ..
+ 261  ls
+ 262  cat instructions
+ 263  cd mystery
+ 264  ls
+ 265  cd crimescene
+ 266  cat crimescene
+ 267  ls
+ 268  cat crimescene | grep CLUE
+ 269  ls
+ 270  open membership
+ 271  cd membership
+ 272  open memberships
+ 273  cd ..
+ 274  cat instruction
+ 275  cat instructions
+ 276  cd mystery
+ 277  ls
+ 278  cat crimescene | grep CLUE
+ 279  ls
+ 280  open streets
+ 281  cat streets | grep -i atm
+ 282  cd streets
+ 283  l
+ 284  ls
+ 285  grep | atm
+ 286  cd ..
+ 287  ls
+ 288  cat vehicles
+ 289  cd ..
+ 290  ls
+ 291  cd mystery
+ 292  cat vehicles | 6'
+ 293  cat vehicles | grep -1 6'
+ 294  cat vehiccles | grep 6'
+ 295  cat vehicles | -i 6'
+ 296  cat vehicles | grep -i 6'
+ 297  ls
+ 298  cat vehicles | grep 6'\n
+ 299  cat vehices
+ 300  cat vehicles
+ 301  cat vehicles | grep "6'"\n
+ 302  ls
+ 303  cat people | grep -e annabel
+ 304  cat people | grep -i annabel
+ 305  cd membership
+ 306  cd memberships
+ 307  ls
+ 308  cat AAA
+ 309  cat AAA | -i Annabel
+ 310  cat AAA | grep  -i Annabel
+ 311  cat delta skymiles | grep -i annabel
+ 312  cat memberships
+ 313  cat membershops
+ 314  ls
+ 315  cat Delta_SkyMiles | grep -i annabel
+ 316  library.txts | grep -i annabel
+ 317  library.txt | grep -i annabel
+ 318  cat  library.txt | grep -i annabel
+ 319  cat  museum.txt  | grep -i annabel
+ 320  cd..
+ 321  cd ..
+ 322  ls
+ 323  cat crimescene | grep  CLUE
+ 324  ls
+ 325  cat vehicles | grep -i annabel
+ 326  cat vehicles
+ 327  cat vehicles | grep -i annabel "6'"
+ 328  cat vehicles | grep -i "6'"
+ 329  cat vehicles
+ 330  cat vehicles | grep -i annabel
+ 331  cat vehicles | grep -i annabel, "6'"
+ 332  cat vehicles | sort
+ 333  ls
+ 334  cat crimescene
+ 335  ls
+ 336  cat interviews
+ 337  cat interview
+ 338  cat interviews
+ 339  cd interviews
+ 340  ls
+ 341  cd ..
+ 342  ls
+ 343  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"\n
+ 344  cd memberships
+ 345  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"\n
+ 346  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"\n
+ 347  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l\n
+ 348  ls
+ 349  \thead -n 173 streets/Mattapan_Street | tail -n 1\n
+ 350  cd ..
+ 351  \thead -n 173 streets/Mattapan_Street | tail -n 1\n
+ 352  cat interviews | grep #9437737
+ 353  cd interviews
+ 354  ls
+ 355  cat interviews | grep -i #9437737
+ 356  cd ..
+ 357  cat interviews
+ 358  cat #9437737
+ 359  cat #9437737 | grep - annabel
+ 360  cat interview-9437737
+ 361  cd intervies
+ 362  cd interviews
+ 363  cat interviews-9437737
+ 364  cat intervies-9437737
+ 365  cat interview--9437737
+ 366  cat interview-9437737
+ 367  cd..\n
+ 368  \thead -n 1793 buckingham_palacet | tail -n 1\n
+ 369  \thead -n 179  buckingham_palacet | tail -n 1\n
+ 370  \thead -n 179  buckingham_palace | tail -n 1\n
+ 371  \thead -n 179  Buckingham_palace | tail -n 1\n
+ 372  cd .
+ 373  cd ..
+ 374  cd streets
+ 375  \thead -n 179  buckingham_palace | tail -n 1\n
+ 376  \thead -n 179 Buckingham_palace | tail -n 1\n
+ 377  \thead -n 179 Buckingham_place | tail -n 1\n
+ 378  cd ..
+ 379  cd interviews
+ 380  cat interview-699607
+ 381  cd ..
+ 382  cd vehichles
+ 383  cd vehicles
+ 384  cat vehicle
+ 385  cat vehicles
+ 386  cat vehicles | grep -i blue honda
+ 387  cat vehicles
+ 388  cat vehicles | grep -e blue honda
+ 389  cat vehicles | grep -i blue honda
+ 390  cat vehicles | grep -i bluehonda
+ 391  cd ..
+ 392  cd mystery
+ 393  ls
+ 394  cd vehiclea
+ 395  cd vehicles
+ 396  cat vehicles
+ 397  cat vehicles | grep -i blue honda
+ 398  cat vehicles | grep -i blue
+ 399  cat vehicles | grep -i blue_honda
+ 400  cat vehicles | grep -i Blue Honda
+ 401  cat vehicles | grep -i l3371
+ 402  cat vehicles | grep -i L3371
+ 403  cat vehicles | grep -i Honda
+ 404  cat vehicles | grep -i Blue Honda
+ 405  cat vehicles | grep -i Blue-hondaa
+ 406  cat vehicles | grep -i Blue-honda
+ 407  \thead -n 179 l3371e | tail -n 1\n
+ 408  \thead -n 179 l3371 | tail -n 1\n
+ 409  cat vehicles | grep -c  Blue Honda
+ 410  cat vehicles | grep -c  l3371
+ 411  cat vehicles | grep -c 5 l3371
+ 412  cat vehicles | grep -c 5 l3371A9
+ 413  cat vehicles | grep -C 5 l3371A9
+ 414  \tgrep -A 5 "L337" mystery/vehicles\n
+ 415  cat mystery/vehicles -A 5 "l337"
+ 416  cat mystery/vehicles -A 5 l337
+ 417  cat mystery/vehicles -A 5 l337l
+ 418  ls
+ 419  cat vehicles | grep -i l3371
+ 420  cat vehicles | grep -i l3371A9
+ 421  cat vehicles | -C 5 13371A9
+ 422  cat vehicles | -C 5 l3371A9
+ 423  cat vehicles | grep -C 5 l3371A9
+ 424  cat vehicles | grep -c 5 l3371A99
+ 425  cat vehicles | grep -c 5 l3371A9
+ 426  cat vehicles | grep -C 5 l3371A9
+ 427  cat vehicles | grep -C 5 l3371
+ 428  cat vehicles | grep -C 5 l337
+ 429  cat vehicles | grep -C 2 l337
+ 430  cd..
+ 431  ls
+ 432  car vehicles grep -A 5 "L337"
+ 433  car vehicles grep -A 5 l337
+ 434  cat vehicles grep -A 5 l337
+ 435  cat vehicles grep -A  l337
+ 436  cat vehicles | grep -A  l337
+ 437  cat vehicles | grep -i l337
+ 438  cat vehicles | grep -i l337A9
+ 439  cat vehicles | grep -i l337
+ 440  cat vehicles | grep -c  l337
+ 441  cat vehicles | grep -c 5 l337
+ 442  cat vehicles | grep -c 5 L337
+ 443  cat vehicles | grep -c 5 L3371A9
+ 444  cat vehicles | grep -i L3371A9
+ 445  cat vehicles | grep -i blue honda
+ 446  cat vehicles | grep -i honda
+ 447  cat vehicles | grep -c 5 honda
+ 448  cat vehicles | grep -c 5 bluea
+ 449  cat vehicles | grep -i blue
+ 450  cat vehicles | grep -i blue honda
+ 451  cat vehicles | grep -i blue-honda
+ 452  cat vehicles | grep -i blue_honda
+ 453  cat vehicles | grep -i Blue Honda
+ 454  ls
+ 455  history
+ 456  grep -A 5 L337 vehicles | grep -A 5 Hona | grep -A 5 Blue
+ 457  cd week1
+ 458  cd day1
+ 459  grep -A 5 L337 vehicles | grep -A 5 Hona | grep -A 5 Blue
+ 460  cd mystery
+ 461  ls
+ 462  cd conmmand-line-murder-mystery
+ 463  cd Command-Line-murder-mystery
+ 464  cd conmmand-line-murder-mystery
+ 465  cd command-line-murder-mystery
+ 466  ls
+ 467  grep -A 5 L337 vehicles | grep -A 5 Hona | grep -A 5 Blue
+ 468  cd mystery
+ 469  grep -A 5 L337 vehicles | grep -A 5 Hona | grep -A 5 Blue
+ 470  grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+ 471  grep -A  L337 vehicles | grep -A  Honda | grep -A  Blue
+ 472  grep -A 10  L337 vehicles | grep -A 10 Honda | grep -A 10 Blue
+ 473  grep -A 10  L337 vehicles
+ 474  grep -A 10  L3371 vehicles
+ 475  grep -A 10  L3371A  vehicles
+ 476  grep -A L3371A vehicles
+ 477  grep -A L337 vehicles
+ 478  grep -A 10  L337 vehicles | grep -A 10 Honda
+ 479  grep -A 5 L337 vehicles | grep -A 5 Honda
+ 480  grep -A 5 L337 vehicles | grep -A 10 Honda
+ 481  grep -A 10  L337 vehicles | grep -A 10 Honda | grep -A 10 Blue
+ 482  grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+ 483  \tgrep -A 5 "L337" mystery/vehicles\n
+ 484  cd ..
+ 485  \tgrep -A 5 "L337" mystery/vehicles\n
+ 486  \tgrep -A 5 "L3371" mystery/vehicles\n
+ 487  \tgrep -A 5 "L337" mystery/vehicles\n
+ 488  ls
+ 489  cd mystery
+ 490  ls
+ 491  cat vehicles | -i John
+ 492  cat vehicles | grep -i John
+ 493  ls
+ 494  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"\n
+ 495  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"\n
+ 496  cd memberships
+ 497  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"\n
+ 498  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"\n
+ 499  ls
+ 500  cat AAA | grep -i Erik
+ 501  cat AAA | grep -i joes
+ 502  cat AAA | grep -i jeremy
+ 503  cat AAA | grep -i jacqui
+ 504  cat delta_skymiles | grep -i jacqui
+ 505  cat delta_skymiles | grep -i jeremy
+ 506  cat musuem | grep -i jeremy
+ 507  cat museumm | grep -i jeremy
+ 508  cat museum | grep -i jeremy
+ 509  cat museum_of_bash_history | grep -i jeremy
+ 510  cat museum_of_bash_history | grep -i jacqui
+ 511  cat terminal_city_library | grep -i jacqui
+ 512  cat terminal_city_library | grep -i jeremy
+ 513  cat Terminal_City_Library Museum_Of_Bash_History  AAA Delta_SkyMiles |grep "John Smith" | wc -l
+ 514  cat Terminal_City_Library Museum_Of_Bash_History  AAA Delta_SkyMiles |grep "Jeremy Bowersh" | wc -l
+ 515  cat Terminal_City_Library Museum_Of_Bash_History  AAA Delta_SkyMiles |grep "Jeremy Bowers" | wc -l
+ 516  cat Terminal_City_Library Museum_Of_Bash_History  AAA Delta_SkyMiles |grep "Jacqui Maher" | wc -l
+ 517  cat Terminal_City_Library Museum_Of_Bash_History  AAA Delta_SkyMiles |grep "Erik owenrs" | wc -l
+ 518  cat Terminal_City_Library Museum_Of_Bash_History  AAA Delta_SkyMiles |grep "Erik owens" | wc -l
+ 519  cat Terminal_City_Library Museum_Of_Bash_History  AAA Delta_SkyMiles |grep "Joes Germuska" | wc -l
+ 520  cd ..
+ 521  ls
+ 522  cd people
+ 523  cat people
+ 524  cat people | grep -i Jeremy
+ 525  cat people | grep -i Jacq
+ 526  cat crimescene | grep CLUE
+ 527  CD ..
+ 528  ls
+ 529  grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+ 530  grep -A L3371A vehicles
+ 531  cat interview-9620713
+ 532  ls
+ 533  cd interview
+ 534  cd interviews
+ 535  cat interview-9620713
+ 536  cat interview-29741223
+ 537  cd ..
+ 538  cd streets
+ 539  cat interview-9620713
+ 540  cd ..
+ 541  cat interview-9620713
+ 542  cd interviews
+ 543  cat interview-9620713
+ 544  ls
+ 545  history
+ 546  cat interviews-9437737
+ 547  cat interview-9437737
+ 548  cat interview-696607
+ 549  cat interview-699607
+ 550  cd..
+ 551  cd ..
+ 552  grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+ 553  \tgrep -A 5 "L337" mystery/vehicles\n
+ 554  cd vehicles
+ 555  cd ..\n
+ 556  \tgrep -A 5 "L337" mystery/vehicles\n
+ 557  git add -A
+ 558  git status
+ 559  history
+
+
+
+Jeremy Bowers
