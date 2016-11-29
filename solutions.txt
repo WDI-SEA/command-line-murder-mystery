@@ -1,0 +1,356 @@
+  162  cat instructions
+  163  cat Instructions.txt
+  164  ls
+  165  cd command-line-murder-mystery
+  166  ls
+  167  cat instructions
+  168  cd mystery
+  169  ls
+  170  cat  crimescene
+  171  cat crimescene.txt | grep CLUE
+  172  cat crimescene | grep CLUE
+  173  ls
+  174  cd interviews
+  175  ls
+  176  cd ..
+  177  ls
+  178  cd memberships
+  179  ls
+  180  cat 1.txt
+  181  cat Museum_of_bash_history
+  182  ls
+  183  cat Delta_SkyMiles
+  184  cd ..
+  185  ls
+  186  cat people
+  187  ls
+  188  cat people | gerp " M"
+  189  cat people | grep "M"
+  190  cd ..
+  191  ls
+  192  cd mystery
+  193  ls
+  194  cd streets
+  195  ls
+  196  cd ..
+  197  LS
+  198  ls
+  199  cat vehicles
+  200  cat vehicles | grep "6'0""\ngreap 6'0"
+  201  cat vehicles | grep 6'0"\n6\n6'0"\ngrep 6'0"
+  202  cd ..
+  203  ls
+  204  cd mystery
+  205  ls
+  206* cat README.md
+  207  ls
+  208  cat people
+  209  cd ..
+  210  ls
+  211  cd mystery
+  212  ls
+  213  cd memberships
+  214  ls
+  215  cat Museum_of_Bash_History | grep Annabel
+  216  cat AAA | gerp Annabel
+  217  cat Delta_SkyMiles | gerp Annabel
+  218  cat AAA | grep Annabel
+  219  cat Delta_SkyMiles | gerp Annabel
+  220  cat Delta_SkyMiles | grep Annabel
+  221  cat library.txt | grep Annabel
+  222  cat Terminal_City_Library | grep Annabel
+  223  cd ..
+  224  ls
+  225  cd interviews
+  226  ls
+  227  grep Annabel
+  228  cd ..
+  229  ls
+  230  cat people | grep Annabel
+  231  ls
+  232  cd streets
+  233  ls
+  234  cat Buckingham_Place
+  235  cd ..
+  236  ls
+  237  cat vEHICLES
+  238  cat vehicles | grep Annabel
+  239  cat vechiles | grep Annabel_Church
+  240  cat vehicles | grep Annabel_Church
+  241  cd ..
+  242  ls
+  243  cat License
+  244  cd ..
+  245  ls
+  246  cd command-line-murder-mystery
+  247  ls
+  248  cd mystery
+  249  ls
+  250  cd interviews
+  251  ls
+  252  cat interview-7541406
+  253  cd ..
+  254  ls
+  255  cd streets
+  256  ls
+  257  cat Buckingham_Place
+  258  cat Buckingham_Place | grep Annabel
+  259  cat Buckingham_Place | grep church
+  260  cat Buckingham_Place | grep line
+  261  cat Buckingham_Place | grep wallet
+  262  cat Buckingham_Place | grep membership
+  263  cd ..
+  264  ls
+  265  cat crimescene | grep CLUE
+  266  ls
+  267  cd interviews
+  268  ls
+  269  cd ..
+  270  ls
+  271  cat people
+  272  cd ..
+  273  ls
+  274  cd mystery
+  275  ls
+  276  cat vehicles | grep Annabel_Church
+  277  cat Vehicles | grep church
+  278  cat vehicles | grep Annabel
+  279  cat vehicles
+  280  cd ..
+  281  ls
+  282  cd mystery
+  283  ls
+  284  cd streets
+  285  ls
+  286  cat Buckingham_Place
+  287  cat Buckingham_Place | grep run
+  288  cat Buckingham_Place | grep blonde
+  289  cat Buckingham_Place | grep blond
+  290  cat Buckingham_Place | grep 179
+  291  cat Buckingham_Place | grep 38
+  292  cat Buckingham_Place | grep woman
+  293  cat Buckingham_Place | grep lady
+  294  cd ..
+  295  ls
+  296  cat interviews | grep Annabel
+  297  ls
+  298  cd memberships
+  299  ls
+  300  cd..
+  301  cd ..
+  302  ls
+  303  cat people | grep Annabel
+  304  cat people
+  305  cd .
+  306  cd ..
+  307  ls
+  308  cd mystery
+  309  ls
+  310  cd streets
+  311  ls
+  312  cd ..
+  313  ls
+  314  cat vehicles | grep Annabel
+  315  cd memberships
+  316  ls
+  317  cd ..
+  318  ls
+  319  cd interviews
+  320  ls
+  321  cd ..
+  322  ls
+  323  cat people | grep Annabel
+  324  cd ..
+  325  ls
+  326  cd mystery
+  327  ls
+  328  cd streets
+  329  ls
+  330  cat Buckingham_Place
+  331  cd .
+  332  cd ..
+  333  ls
+  334  cat vehicles | grep Annabel
+  335  cat vehicles | grep -C 2 Annabel
+  336  ls
+  337  cd memberships
+  338  ls
+  339  cat AAA | grep Annabel
+  340  cat Delta_SkyMiles | grep Annabel
+  341  cat Museum_of_Bash_History | grep Annabel
+  342  cat delta.txt
+  343  cat delta.txt | grep annabel
+  344  ls
+  345  cat library.txt | grep Annabel
+  346  cat musem.txt | grep Annabel
+  347  cat museum.txt | grep Annabel
+  348  ls
+  349  cd ..
+  350  ls
+  351  cd streets
+  352  ls
+  353  cat Buckingham_Place | grep BMW
+  354  cat Buckingham_Place | grep Orange
+  355  cat buckingham_place
+  356  cd ..
+  357  cat Buckingham_Place | grep New
+  358  ls
+  359  cd streets
+  360  cat Buckingham_Place | grep New
+  361  cat Buckingham_Place | grep accent
+  362  cat Buckingham_Place | grep coffee
+  363  cat Buckingham_Place | grep cafe
+  364  cat Buckingham_Place | grep ATM
+  365  cd ..
+  366  ls
+  367  cd interviews
+  368  ls
+  369  cat interview-223913
+  370  cd ..
+  371  ld
+  372  ls
+  373  cat vehicles | grep BMW
+  374  cat Vehicles | grep orange
+  375  cd ..
+  376  ls
+  377  cat hint1
+  378  ls
+  379  cd mystery
+  380  ls
+  381  head -n 20 people
+  382* ls
+  383* cat hint2
+  384* cat hint3
+  385* cat hint7
+  386* cat hint8
+  387* cat hint6
+  388  cd ..
+  389  ls
+  390  cd mystery
+  391  ls
+  392* cat hint5
+  393  cd interviews
+  394  ls
+  395  head -n 179/Buckingham_Place | tail -n 1
+  396  cd ..
+  397  ls
+  398  cd streets
+  399  head -n 179/Buckingham_Place | tail -n 1
+  400  ls
+  401  head -n 179/Buckingham_Place
+  402  cd buckingham_place
+  403  ls
+  404  cat Buckingham_place
+  405* cat hint1
+  406* ls
+  407* cat hint4
+  408  ls
+  409  cd ..
+  410  ls
+  411  cd streets
+  412  head -n 20 Buckingham_Place
+  413  ls
+  414  head -n 173 streets/Mattapan_Street | tail -n 1
+  415  head -n 173 Mattapan_Street | tail -n 1
+  416  cd ..
+  417  ls
+  418  cd interviews
+  419  cat #9437737
+  420  cat 9437737
+  421  ls
+  422  cat interview-9437737
+  423  ls
+  424  cd ..
+  425  ls
+  426  cd streets
+  427  head -n 179 Buckingham_Place | tail -n 1
+  428  cd ..
+  429  ls
+  430  cd interviews
+  431  cat interview-699607
+  432  cd
+  433  ls
+  434  cd Code
+  435  ls
+  436  cd Week1
+  437  cd Day1
+  438  ls
+  439  cd command-line-murder-mystery
+  440  ls
+  441  cd mystery
+  442  ls
+  443  cd vehicles
+  444  grep Honda
+  445  cd vehicles
+  446  ls
+  447  cd vehicles
+  448  cat vehicles | grep -C 2 L337
+  449  cd
+  450  cd ..
+  451  ls
+  452  cd Jae
+  453  s
+  454  ls
+  455  cd code
+  456  cd week1
+  457  cd day1
+  458  ls
+  459  cd command-line-murder-mystery
+  460  ls
+  461  cd mystery
+  462  cd
+  463  cd desktop
+  464  ls
+  465  cd code
+  466  ls
+  467  cd ..
+  468  ls
+  469  cd Code
+  470  cd Week1
+  471  cd day1
+  472  ls
+  473  cd command-line-murder-mystery
+  474  ls
+  475  cd mystery
+  476  ls
+  477  cat vehicles | grep -C 5 "L337??9"
+  478  cat vehicles | grep -C 5 L337WR9
+  479  cd L3375A9
+  480  cat vehicles | grep -C 5 L3375A9
+  481  cat vehicles | grep -C 5 L337DV9
+  482  cat vehicles | grep -C 5 L337369
+  483  cat vehicles | grep -C 5 L337539
+  484  cat vehicles | grep -C 5 L337QE9
+  485  cd ..
+  486  ls
+  487  cd mystery
+  488  ls
+  489  cat people | grep Jeremy Bowers
+  490  cat people | grep Bowers
+  491  cat people | grep Joe
+  492  ls
+  493  cd interviews
+  494  cd ..
+  495  cd streets
+  496  ls
+  497  head -n 284 streets/Dunstable_Road | tail -n 1
+  498  head -n 284 Dunstable_Raod | tail -n 1
+  499  head -n 275 Plainfield_street | tail -n 1
+  500  cd ..
+  501  ls
+  502  cd interviews
+  503  cat interview-29741223
+  504  cd ..
+  505  ls
+  506  cd streets
+  507  ls
+  508  head -n 284 Dunstable_Road
+  509  cd ..
+  510  ls
+  511  cd interviews
+  512  cat interview-9620713
+  513  cd ..
+
+-
+
+2. Jeremy Bowers
