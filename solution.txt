@@ -1,0 +1,103 @@
+  222  cat crimescene | grep CLUE
+  223  ls
+  224  cd ..
+  225  ls
+  226  cat hint1
+  227  ls mystery
+  228  ls
+  229  cd mystery
+  230  ls
+  231  head -n 20 people
+  232* ls
+  233* cd mystery
+  234* ls
+  235* cd streets
+  236* ls
+  237* cd Mystic_Street
+  238* head -n 48 Mystic_Street
+  239* head -n 22 Mystic_Street
+  240* cd ..
+  241* ls
+  242* cd memberships
+  243* ls
+  244* cat AAA
+  245* cat Delta_SkyMiles
+  246  ls
+  247  head -n 1 Mystic_Street
+  248  ls
+  249  cd interviews
+  250  ls
+  251  cat * | grep annabel
+  252  cat . | grep annabel
+  253  cd ..
+  254  ls
+  255  open hint2
+  256  cat hint3
+  257  ls
+  258  ls -a
+  259  cd mystery
+  260  ls
+  261  cd people
+  262  ls
+  263  cat people
+  264  cat people | Annabel
+  265  cat people | grep Annabel
+  266* ls
+  267* cd ..
+  268* ls
+  269* cd streets
+  270* ls
+  271* head -n 26 Hart_Place
+  272* head -n 38 Buckingham_Place
+  273* head -n 40 Hart_Place
+  274* head -n 179 Buckingham_Place
+  275* ls
+  276* cd ..
+  277* ls
+  278* cd interviews
+  279* ls
+  280* cat interview-47246024
+  281* cat interview-699607
+  282* cd ..
+  283* ls
+  284* cat vehicles
+  285* cat vehicles | grep L337
+  286  ls
+  287  cd ..
+  288  ls
+  289  cat hint3
+  290  cat hint4
+  291  cat hint5
+  292  cat hint6
+  293* head -n 30 vehicles
+  294* grep "Honda" vehicles
+  295  cat hint7
+  296* grep -A 5 L337 vehicles
+  297* grep Blue | grep -A 5 L337 vehicles
+  298* grep Blue grep -A 5 L337 vehicles
+  299* grep -A 5 L337 vehicles
+  300  cat hint8
+  301* grep -A 5 L337 vehicles | grep Blue
+  302* grep -A 5 L337 vehicles | grep -A 5 Honda
+  303* grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A Blue
+  304* grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+  305* grep -A 5 L337 vehicles
+  306* grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+  307* grep -A 5 L337 vehicles
+  308* grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+  309* ls
+  310* cd memberships
+  311* ls
+  312* cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Erika Owens"
+  313* cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  314* cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep -c "Joe Germuska"
+  315* cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  316* cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc-l
+  317* cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  318* cat Delta_SkyMiles | grep -c "Joe Germuska"
+  319* grep -c "Jeremy Bowers" Delta_SkyMiles
+  320* grep -c "Jeremy Bowers" AAA
+  321* grep -c "Jeremy Bowers" library.txt
+  322* grep -c "Jeremy Bowers" Museum_of_Bash_History
+
+Jeremy Bowers
