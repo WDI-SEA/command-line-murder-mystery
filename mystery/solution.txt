@@ -1,0 +1,27 @@
+Jeremey Bowers
+
+  250  cd Desktop
+  251  cd GAWDI
+  252  cd command-line-murder-mystery
+  253  ls
+  254  cd mystery
+  255  ls
+  256  grep CLUE crimescene > clues.txt
+  257  cat clues.txt
+  258  grep Annabel ./interviews/*
+  259  grep Annabel -rl .?*
+  260  grep Annabel -rl ./*
+  261  grep Annabel -r ./*
+  262  grep -A 10 Church ./interviews/*
+  263  grep -A 3 -B 3 -i blue honda vehicles
+  264  grep -A 3 -B 3 -i blue | honda vehicles
+  265  grep -A 3 -B 3 -i blue | grep -A 3 -B 3 -i honda vehicles
+  266  grep L337 vehicles
+  267  grep -A 3 -B 3 L337 vehicles
+  268  grep Germuska -rl ./*
+  269  grep Bowers -rl ./*
+  270  grep Maher -rl ./*
+  271  grep Maher -r ./interviews
+  272  echo "Jeremey Bowers" > solution.txt
+  273  cat solution.txt
+  274  history
