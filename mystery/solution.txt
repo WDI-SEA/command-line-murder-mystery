@@ -1,0 +1,333 @@
+    1  ls
+    2  subl ~/.zshrc
+    3  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+    4  subl ~/.zshrc
+    5  which psql
+    6  #Install MongoDB
+    7  brew install mongodb
+    8  #make data directory
+    9  sudo mkdir -p /data/db
+   10  #get your user name
+   11  whoami
+   12  sudo chown -R CTWapple1:wheel /data
+   13  #Start the MongoDB server
+   14  mongod
+   15  git --version
+   16  psql --version
+   17  node --version
+   18  atom --version
+   19  mongod --version
+   20  atom --version
+   21  git --version
+   22  git atom--version
+   23  atom --version
+   24  git --version
+   25  psql --version
+   26  node --version
+   27  atom --versin
+   28  atom --version
+   29  mongod --version
+   30  ssh -T git@github.com
+   31  ls -a ~/.ssh
+   32  ls -a ~/ .ssh
+   33  ssh -T git@github.com
+   34  ssh-keygen -t rsa -b 4096 -C "whitakertchristopher@gmail.com"
+   35  ssh -T git@github.com
+   36  eval "$(ssh-agent -s)"
+   37  ssh-add ~/.ssh/id_rsa
+   38  pbcopy < ~/.ssh/id_rsa.pub
+   39  ssh -T git@github.com
+   40  ping google.com
+   41  ls
+   42  cd fundamentals
+   43  ls
+   44  ping www.google.com
+   45  ping www.amazon.com
+   46  ping 54.239.17.7
+   47  traceroute washington.edu
+   48  curl -I http://www.google.com
+   49  curl -v http://google.com
+   50  home
+   51  curl -I http://www.google.com
+   52  ls
+   53  cd fundamentals
+   54  ls
+   55  cd wdi-fundamentals-memorygame
+   56  ls
+   57  matrix
+   58  ls
+   59  pwd
+   60  /
+   61  pwd
+   62  ls
+   63  cd users
+   64  ls
+   65  ~
+   66  ls
+   67  /
+   68  ls
+   69  cd
+   70  ls
+   71  cd Documents
+   72  cd
+   73  ls
+   74  cd Documents
+   75  cd ..
+   76  cd doucument/
+   77  ls
+   78  cd fundamentals
+   79  ls
+   80  pwd
+   81  cd
+   82  ls
+   83  man ls
+   84  ls -a
+   85  ls -al
+   86  open .
+   87  ls
+   88  open World
+   89  pwd
+   90  la
+   91  ls
+   92  cd fundamentals
+   93  pwd
+   94  ls
+   95  pwd
+   96  cd
+   97  ls
+   98  history
+   99  ls
+  100  clear
+  101  mkdir my-directory
+  102  ls
+  103  cd my-directory
+  104  ls
+  105  cd
+  106  ls
+  107  cd my-directory
+  108  touch another.txt books.txt one-more.txt
+  109  ls
+  110  which atom
+  111  ls
+  112  atom books.txt
+  113  cat books.txt
+  114  vi books.txt
+  115  echo "Hello World"
+  116  echo "This is a bookshelf" > bookshelf.txt
+  117  ls
+  118  cat bookshelf.txt
+  119  echo "my name is chris" > bookshelf.txt
+  120  cat bookshelf.txt
+  121  echo "append" >> bookshelf.txt
+  122  cat bookshelf.txt
+  123  cat books.txt | sort
+  124  cat books.txt | grep Mil
+  125  ps aux | grep node
+  126  mv another.txt ../
+  127  ls
+  128  mv bookshelf.txt mybookshelf,txt
+  129  ls
+  130  cp books.txt ../books2.txt
+  131  ls
+  132  cd fundamentals
+  133  cd
+  134  ls
+  135  mkdir Code
+  136  ls
+  137  cd Code
+  138  ls
+  139  mkdir Week1
+  140  ls
+  141  cd Weeks1
+  142  cd Week1
+  143  mkdir Day1
+  144  ls
+  145  cd Day1
+  146  ls
+  147  git@github.com:1CTWgha/command-line-murder-mystery.git
+  148  git clone git@github.com:1CTWgha/command-line-murder-mystery.git
+  149  ls
+  150  cd Code
+  151  ls
+  152  CD Week1
+  153  ls
+  154  cd Week1
+  155  ls
+  156  cd Day1
+  157  ls
+  158  cd command-line-murder-mystery
+  159  ls
+  160  cat instructions
+  161  ls
+  162  mkdir solution.txt
+  163  ls
+  164  touch solution.txt
+  165  ls
+  166  rm -r solution.txt
+  167  ls
+  168  touch solution.txt
+  169  ls
+  170  cat instructions
+  171  ls
+  172  cd mystery
+  173  ls
+  174  cd crimescene
+  175  ls
+  176  cat crimescene
+  177  ls
+  178  cat crimescene | grep CLUE
+  179  cd ../
+  180  ls
+  181  cat hint1
+  182  cd crimescene
+  183  cd mystery
+  184  ls
+  185  cd people
+  186  head -n 20 people
+  187  cd ../
+  188  ls
+  189  cd mystery streets
+  190  cd ..//streets
+  191  cd mystery
+  192  ls
+  193  cd streets
+  194  ls
+  195  cat Walton_Street
+  196  cd ../
+  197  ls
+  198  cd ../
+  199  ls
+  200  cat hint3
+  201  cd mystery
+  202  ls
+  203  head -n 20 vehicles
+  204* ls
+  205* cd ../
+  206* ls
+  207  cd ../
+  208  ls
+  209  cat hint4
+  210* cd mystery
+  211* ls
+  212* cat people | grep Annabel
+  213  ls
+  214  cat hint4
+  215  cat hint5
+  216  ls
+  217* cd streets
+  218  cd mystery
+  219* cd interviews
+  220* cd interview
+  221* cd ../
+  222* cd interviews
+  223* head -n40
+  224  cd interviews
+  225  ls
+  226  head -n 173 streets/Mattapan_Street | tail -n 1
+  227  head -n 40 | -n 1
+  228  ls
+  229  cd ../
+  230  ls
+  231  cd ../
+  232  ls
+  233  cat hint5
+  234  cat hint6
+  235* cd ../
+  236* ls
+  237* cat vehicles | grep Honda
+  238* ls
+  239* cat vehicles | grep Honda Blue L337
+  240* cat vehicles | grep Honda grep Blue grep L337
+  241  LS
+  242  cat hint7
+  243  ls
+  244* ls vehicles
+  245* cat vehicles
+  246* grep -A 5 "L337" mystery/vehicles
+  247  cat hint8
+  248* grep -A 5 "L337" mystery/vehicles
+  249* cd ../
+  250* ls
+  251* open cheatsheet.pdf
+  252* open cheatsheet.md
+  253* open README.md
+  254* LS
+  255* CD MYSTERY
+  256* LS
+  257* cd mystery
+  258* ls
+  259* cd vehicles
+  260* grep -A 6 Honda vehicles | grep -A 6 Blue | grep -A 6 BLUE
+  261* grep -A 6 L337 vehicles 
+  262* grep -A 6 L337 vehicles | grep -A 6 Honda | grep -A 6 Blue
+  263* grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+  264* ➜  mystery git:(master) ✗ grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue 
+  265* rep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue 
+  266  cd mystery
+  267  grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+  268  cat people | grep Annabel
+  269  head -n 173 streets/Mattapan_Street | tail -n 1
+  270  head -n 173 streets/Buckingham Place | tail -n 1
+  271  head -n 173 streets/Buckingham_Place | tail -n 1
+  272  ls
+  273  cd streets
+  274  head -n 173 streets/Buckingham_Place | tail -n 1
+  275  head -n 173 Buckingham_Place | tail -n 1
+  276  Buckingham_Place | tail -n 1head -n 173 streets/Buckingham Place | tail -n 1
+  277  head -n 173 streets/Buckingham_Place | tail -n 1
+  278  head -n 173 Buckingham_Place | tail -n 1
+  279  head -n 179 Buckingham_Place | tail -n 1
+  280  cd ../
+  281  ls
+  282  cd interviews
+  283  head -n 179 699607 | tail -1
+  284  cat interviews | grep 699607
+  285  ls cat interviews | grep 699607
+  286  cat interviews | grep 699607
+  287  ls
+  288  cat interviews-699607
+  289  cat interview-699607
+  290  cd ../
+  291  ls
+  292  cd vehicles
+  293  grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+  294* cd ../
+  295* ls
+  296* cat hint6
+  297* cat hint 7
+  298* cat hint7
+  299* cd mystery
+  300* ls
+  301* grep -A 5 L337 vehicles | grep -B 5 Honda | grep -C 5 Blue
+  302* grep -A 5 L337 vehicles | grep -A 5 Honda | grep -A 5 Blue
+  303* cd ../
+  304* cat hint8
+  305  ls
+  306  cd memberships
+  307  cd
+  308  ls
+  309  cd Code
+  310  ls
+  311  cd week1
+  312  ls
+  313  cd day1
+  314  ls
+  315  cd command-line-murder-mystery
+  316  ls
+  317  cd mystery
+  318  cd memberships
+  319  ls
+  320* cat instructions
+  321* cat hint1
+  322* cat hint2
+  323* cat hint3
+  324* cat hint7
+  325* cat hint8
+  326  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Erika Owens"
+  327  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"
+  328  at AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"
+  329  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"
+  330  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  331  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"
+  332  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  333  cd ../
