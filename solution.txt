@@ -5,11 +5,6 @@ $ cat hint3
 $ head -n 20 people
 
 $ grep "CLUE" crimescene
-CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
-CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. 
-The cards are totally untraceable and have no name, for some reason.
-CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
-grep "Annabel" people
 
 $ grep "Annabel" people
 Annabel Sun     F       26      Hart Place, line 40
@@ -110,16 +105,8 @@ $ cd interviews/
 
 $ cat interview-862173
 
-Matches our profile, except car does not match witness accounts.
-
-Does Waite own a second car?  If so, he may be a suspect.  Otherwise is not a suspect.
-
 $ cat interview-9620713
-Home appears to be empty, no answer at the door.
 
-After questioning neighbors, appears that the occupant may have left for a trip recently.
-
-Considered a suspect until proven otherwise, but would have to eliminate other suspects to confirm.
 
 does Waite has a second car?
 
