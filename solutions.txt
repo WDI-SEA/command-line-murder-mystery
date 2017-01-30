@@ -1,0 +1,224 @@
+ 118  cd test_repo
+  119  ls
+  120  git status
+  121  git commit -m "initial push to my test_repo"
+  122  git remote add origin https://github.com/myjavabean/test_repo.git
+  123  cd ..
+  124  pwd
+  125  cd ..
+  126  ls
+  127  mkdir week1
+  128  git clone git@github.com:myjavabean/command-line-murder-mystery.git
+  129  ls
+  130  cd command-line-murder-mystery
+  131  ls
+  132  cat instructions
+  133  pwd
+  134  ls
+  135  pwd
+  136  cd ..
+  137  cd week1
+  138  git clone git@github.com:myjavabean/command-line-murder-mystery.git
+  139  ls
+  140  cd command-line-murder-mystery
+  141  ls
+  142  cat instructions
+  143  ls
+  144  cd mystery
+  145  ls
+  146  ls -ltr
+  147  cat crimescene
+  148  ls
+  149  cat crimescene
+  150  cd ..
+  151  ls
+  152  cat instructions
+  153  pwd
+  154  cd comm
+  155  ls
+  156  cat instructions
+  157  cd mystery
+  158  cat crimescene |grep CLUE
+  159  cat crimescene |grep CLUE>clue.txt
+  160  ls
+  161  cd ..
+  162  ls
+  163  cd mystery
+  164  cat hint1
+  165  ls
+  166  cd ..
+  167  cat hint1
+  168  cat hint2
+  169  grep "CLUE" mystery/crimescene
+  170  cat instructions
+  171  ls
+  172  cd mystery
+  173  ls
+  174  cat clue.txt
+  175  ls
+  176  cd interviews
+  177  ls
+  178  cd ..
+  179  ls
+  180  cat clue
+  181  ls
+  182  cat clue.txt
+  183  grep AAA memberships/*
+  184  cd memberships
+  185  ls
+  186  cd AAA
+  187  ls
+  188  cat AAA
+  189  ls
+  190  cat delta
+  191  ls
+  192  pwd
+  193  cd ..
+  194  ls
+  195  cd mystery
+  196  cat clue.txt
+  197  ls
+  198  cat people
+  199  head -n 20 people
+  200  cat clue.txt
+  201  head -n 20 people
+  202  grep M people >male.txt
+  203  ls
+  204  cat male.txt
+  205  grep 'M' people >male.txt
+  206  cat male
+  207  cat male.txt
+  208  ls
+  209  cd ..
+  210  cd mystery
+  211  cat clue.txt
+  212  grep 'Annabel' people.txt
+  213  ls
+  214  ls -trl
+  215  grep 'Annabel' people
+  216  cd streets
+  217  ls
+  218  ls -trl
+  219  ls -tra
+  220  ls -tral
+  221  grep Bucking .
+  222  sort
+  223  ls * |sort
+  224  ls * |sort >street.txt
+  225  ls
+  226  cat street.txt
+  227  head -n20 street.txt
+  228  head -n30 street.txt
+  229  ls stree*
+  230  ls
+  231  ls -trl
+  232  gret Hart street.txt
+  233  grep Hart street.txt
+  234  grep hart -C 5 street.txt
+  235  grep hart street.txt
+  236  grep Hart -C 5.street.txt
+  237  grep Hart -C 5 street.txt
+  238  grep Buck -C 5 street.txt
+  239  ls
+  240  ls -trla
+  241  cat Hart_Place
+  242  head -n 20 Hart_Place
+  243  pwd
+  244  cd ..
+  245  cat clue.txt
+  246  cd interview
+  247  ls
+  248  cat -n 20 interviews
+  249  cd interviews
+  250  ls
+  251  ls -trla
+  252  ls
+  253  pwd
+  254  cd ..
+  255  pwd
+  256  cd ..
+  257  pwd
+  258  ls
+  259  cat instructions
+  260  cd mystery
+  261  ls
+  262  cat clue.txt
+  263  cd memberships
+  264  ls
+  265  cat AAA
+  266  cd ..
+  267  cat clue.txt
+  268  cd interviews
+  269  ls
+  270  cd ..
+  271  ls
+  272  cat people | grep annabel
+  273  cat people | grep Annabel
+  274  cd streets
+  275  cat Hart_Place
+  276  cat Buckingham_Place
+  277  cat Buckingham_Place | grep Interview
+  278  cd ..
+  279  ls
+  280  cd interviews
+  281  ls
+  282  ls interview-699607*
+  283  cat interview-699607
+  284  cat interview-47246024*
+  285  pwd
+  286  cd ..
+  287  ls
+  288  cd streets
+  289  ls
+  290  cat Buckingham_Place
+  291  ls
+  292  cat Hart_Place
+  293  ls
+  294  cd ..
+  295  ls
+  296  cd interviews
+  297  ls
+  298  ls *472460*
+  299  cat *472460*
+  300  lsls
+  301  cat *6996007*
+  302  cat *699607*
+  303  cd ..
+  304  ls
+  305  cat vehicles
+  306  grep L337 -C 10 vehicles
+  307  grep L337 -C 5 vehicles
+  308  grep L337 -A 5 vehicles
+  309  grep L337 -B 5 vehicles
+  310  ls
+  311  grep L337 vehicles >car.txt
+  312  cat car.txt
+  313  cd memberships
+  314  ls
+  315  grep 'Joe Germuska' AAA
+  316  cat AAA |grep 'Joe Germuska'
+  317  cat AAA |grep 'Jeremy Bowers'
+  318  cat delta |grep 'Jeremy Bowers'
+  319  cat delta.txt |grep 'Jeremy Bowers'
+  320  cat delta.txt |grep 'Joe'
+  321  cat delta.txt |grep 'Jere'
+  322  cat library.txt |grep 'Jere'
+  323  ls
+  324  cd ../clue.txt
+  325  cat ../clue.txt
+  326  ls
+  327  cat Museum_of_Bash_History |grep 'Jere'
+  328  cat United_MileagePlus |grep 'Jere'
+  329  cat Delta_SkyMiles |grep 'Jere'
+  330  ls
+  331  cd ..
+  332  ls
+  333  cat crimescene
+  334  ls
+  335  cd ..
+  336  ls
+  337  touch solutions.txt
+
+
+
+2. Jeremy Bowers
