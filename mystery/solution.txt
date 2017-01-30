@@ -1,0 +1,237 @@
+  149  cat instructions
+  150  ls
+  151  cd mystery
+  152  ls
+  153  cat crimescene| grep CLUE
+  154  cd interviews
+  155  ls
+  156  cat | grep clue
+  157  cd
+  158  ls
+  159  cd Documents
+  160  ls
+  161  cd ga
+  162  ls
+  163  cd Week1
+  164  ls
+  165  cd command-line-murder-mystery
+  166  ls
+  167  cat instructions
+  168  cd mystery
+  169  ls
+  170  cat crimescene| grep CLUE
+  171  cat people| grep Annabel
+  172  ls
+  173  cd streets
+  174  ls
+  175  cat B_Street
+  176  cd ..
+  177  ls
+  178  cd memberships
+  179  ls
+  180  cd ..
+  181  ls
+  182  cd interviews
+  183  ls
+  184  cd ..
+  185  ls
+  186  cat vehicles
+  187  cat vehicles| grep Annabel -C 3
+  188  ls
+  189  cat people
+  190  cd
+  191  ls
+  192  cd Documents
+  193  ls
+  194  cd GA
+  195  cd Week1
+  196  ls
+  197  cd command-line-murder-mystery
+  198  ls
+  199  cd mystery
+  200  ls
+  201  cat people| grep 6
+  202  ls
+  203  cat vehicles| grep 6'
+  204  cat vehicles| grep 6\'
+  205  ls
+  206  cd interviews
+  207  cat  | grep "Annabel"
+  208  cat | grep -rnw "Annabel"
+  209  grep -rnw "Annabel"
+  210  grep -rnw -e "Annabel"
+  211  grep "/interviews" -rnw -e "Annabel"
+  212  grep "\interviews" -rnw -e "Annabel"
+  213  cd ..
+  214  ls
+  215  grep "\interviews" -rnw -e "Annabel"
+  216  grep "interviews" -rnw -e "Annabel"
+  217  cd interviews
+  218  grep "Annabel" *
+  219  grep "CLUE" *
+  220  grep -r "CLUE" *
+  221  grep -r "Annabel" *
+  222  cd ..
+  223  ls
+  224  cd ..
+  225  ls
+  226  cat cheatsheet.pdf
+  227  open cheatsheet.pdf
+  228  ls
+  229  cd mystery
+  230  ls
+  231  cd interviews
+  232  grep -l "annabel"
+  233  grep -l "annabel" *
+  234  cd
+  235  cd Documents
+  236  cd GA
+  237  cd practice_commands
+  238  cd ..
+  239  cd Week1
+  240  cd command-line-murder-mystery
+  241  ls
+  242  cd mystery
+  243  ls
+  244  cd interviews
+  245  ls
+  246  cd interview-2642139
+  247  cat interview-210355
+  248  cat interview-218131
+  249  cd ..
+  250  ls
+  251  cd streets
+  252  ls
+  253  cat Hart_Place
+  254  ls
+  255  cat Mattapan_Street
+  256  cat Buckingham_Place
+  257  cat Haley_Street
+  258  ls
+  259  cd ..
+  260  ls
+  261  cd ..
+  262  l
+  263  ls
+  264  cd mystery
+  265  ls
+  266  cd memberships
+  267  ls
+  268  cat Museum_of_Bash_History
+  269  cat AAA 
+  270  cd Do
+  271  cds Documents
+  272  cd Documents
+  273  ls
+  274  cd GA
+  275  ls
+  276  cd Week1
+  277  ls
+  278  cd c
+  279  cd command-line-murder-mystery
+  280  ls
+  281  cd mystery
+  282  ls
+  283  cd memberships
+  284  ls
+  285  comm AAA Delta_SkyMiles
+  286  cd ..
+  287  ls
+  288  cd people
+  289  cat people|grep Annabel
+  290  cat crimescene| grep 9R7TTGF
+  291  cat crimescene| grep L2E48EF
+  292  cat crimescene| grep 0O27BTD
+  293  cat crimescene| grep 20VVU2P
+  294  cat crimescene| grep Annabel
+  295  cat vahicles| grep Annabel
+  296  cat vehicles| grep Annabel
+  297  cat vehicles| grep Annabel -C 3
+  298  ls
+  299  cd interviews
+  300  grep Annabel *
+  301  grep "Annabel" *
+  302  grep "a" *
+  303  grep "barista" *
+  304  grep "killer" *
+  305  grep "suspect" *
+  306  l
+  307  ls
+  308  cat interview-9620713
+  309  cd ..
+  310  ls
+  311  cat vehicles | grep honda -C 3
+  312  cat vehicles | grep blue -C 2
+  313  ls
+  314  cat vehicles
+  315  cat vehicles | grep Blue -C 
+  316  cat vehicles | grep Blue -C 2 
+  317  cd ..
+  318  ls
+  319  cd mystery
+  320  ls
+  321  cd streets
+  322  ls
+  323  cat Mattapan_Street | grep 173
+  324  head Mattapan_Street 10
+  325  head Mattapan_Street 
+  326  head Mattapan_Street 173
+  327  head 173 Mattapan_Street 173
+  328  head n -173 Mattapan_Street 173
+  329  head n -173 Mattapan_Street
+  330  cat Mattapan_Street
+  331  head Buckingham_Place
+  332  head Hart_Place
+  333  head Haley_Street
+  334  ls
+  335  head Haley_Street | grep 173
+  336  Haley_Street | grep 173
+  337  head Haley_Street | grep 173
+  338  head Haley_Street | grep 176
+  339  head Mattapan_Street
+  340  head -n 173  Mattapan_Street
+  341  cd ..
+  342  ls
+  343  cd interviews
+  344  cat interview-#9437737
+  345  cat interview-9437737
+  346  cd ..
+  347  ls
+  348  cd streets
+  349  head -n 40 Hart_Place
+  350  cd ..
+  351  ls
+  352  cd interviews
+  353  cat interview-47246024
+  354  cd ..
+  355  ls
+  356  cd streets
+  357  ls
+  358  head -179 Buckingham_Place
+  359  cd ..
+  360  ls
+  361  cd interviews
+  362  cat interview-699607
+  363  cd ..
+  364  ls
+  365  cat vehicles| grep "L337"
+  366  cat vehicles| grep "L337" -C 3
+  367  cat vehicles| grep "L337" -A 3
+  368  cat vehicles| grep "L337" -A 5
+  369  cd ..
+  370  ls
+  371  cd mystery
+  372  ls
+  373  cat people| grep Germuska
+  374  cat people| grep Maher
+  375  cat people| grep Bowers
+  376  ls
+  377  cd memberships
+  378  ls
+  379  grep Bowers *
+  380  grep Germuska *
+  381  cd ..
+  382  ls
+  383  touch solution.txt
+
+  Killer is: Jeremy Bowers
