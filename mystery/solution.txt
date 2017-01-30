@@ -230,8 +230,6 @@
   378  ls
   379  grep Bowers *
   380  grep Germuska *
-  381  cd ..
-  382  ls
-  383  touch solution.txt
+
 
   Killer is: Jeremy Bowers
