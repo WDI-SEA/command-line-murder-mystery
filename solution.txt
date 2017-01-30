@@ -1,81 +1,4 @@
-    1  ln
-    2  curl -L http://install.ohmyz.sh | sh
-    3  subl ~/.zshrc
-    4  which psql
-    5  #Install MongoDB
-    6  brew install mongodb
-    7  sudo mkdir -p /data/db
-    8  whoami
-    9  sudo chown -R rosswildin:wheel /data
-   10  mongod
-   11  ls
-   12  rmdir zoo-repo
-   13  cd Drumpf
-   14  ls
-   15  ls -l
-   16  ls -a
-   17  cwd
-   18  pwd
-   19  cd ..
-   20  cd Joust
-   21  ls
-   22  cd ..
-   23  clear
-   24  h
-   25  history
-   26  clear
-   27  ls
-   28  cd Documents
-   29  ls
-   30  cd ..
-   31  cd World
-   32  ls
-   33  touch books.txt
-   34  ls
-   35  subl books.txt
-   36  cat books.txt
-   37  touch books2.txt
-   38  echo "Orwell, George: 1984" > books2.txt
-   39  echo "Murakami, Haruki: IQ84" >> books2.txt
-   40  cat books2.txt
-   41  cat books.txt books2.txt
-   42  subl books.txt
-   43  cat books.txt books2.txt
-   44  clear
-   45  cat books.txt | sort
-   46  clear
-   47  cat books.txt books2.txt | sort > sorted_books.txt
-   48  ls
-   49  cat sorted_books.txt
-   50  cat sorted_books.txt | grep Mil
-   51  cat sorted_books.txt | grep John
-   52  cat sorted_books.txt | grep Johnson -a 1
-   53  cat sorted_books.txt | grep Johnson -A 1
-   54  cat sorted_books.txt | grep -C 1
-   55  cat sorted_books.txt | grep Johnson -C 1
-   56  mv sorted_books.txt books.txt
-   57  cat books.txt
-   58  cp books.txt books_copy.txt
-   59  ls
-   60  rm books_copy.txt
-   61  ls
-   62  rm books2.txt
-   63  ls
-   64  mkdir myfolder
-   65  ls
-   66  rm -rf myfolder
-   67  ls
-   68  history
-   69  ls
-   70  cat books.txt
-   71  history
-   72  clear
-   73  ls -la *.txt
-   74  man
-   75  man cd
-   76  ls -o
-   77  clear
-   78  cd ..
+Jeremy Bowers dunnit
    79  mkdir GA
    80  cd GA
    81  mkdir Deliverables
@@ -206,4 +129,4 @@
   206  cat solution.txt
   207  echo    83  git clone https://github.com/rosswildin/command-line-murder-mystery.git
   208  hHahHahHahHahHahHahhehHahHahH HhHahHahHahH thHahHahHahHahHahcdhHahHahHahHahHahHahhehHahHahH HiehHahHahHahH72hHahHahH15hHahHahHahHahHah
-Jeremy Bowers dunnit
+
