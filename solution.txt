@@ -1,0 +1,209 @@
+    1  ln
+    2  curl -L http://install.ohmyz.sh | sh
+    3  subl ~/.zshrc
+    4  which psql
+    5  #Install MongoDB
+    6  brew install mongodb
+    7  sudo mkdir -p /data/db
+    8  whoami
+    9  sudo chown -R rosswildin:wheel /data
+   10  mongod
+   11  ls
+   12  rmdir zoo-repo
+   13  cd Drumpf
+   14  ls
+   15  ls -l
+   16  ls -a
+   17  cwd
+   18  pwd
+   19  cd ..
+   20  cd Joust
+   21  ls
+   22  cd ..
+   23  clear
+   24  h
+   25  history
+   26  clear
+   27  ls
+   28  cd Documents
+   29  ls
+   30  cd ..
+   31  cd World
+   32  ls
+   33  touch books.txt
+   34  ls
+   35  subl books.txt
+   36  cat books.txt
+   37  touch books2.txt
+   38  echo "Orwell, George: 1984" > books2.txt
+   39  echo "Murakami, Haruki: IQ84" >> books2.txt
+   40  cat books2.txt
+   41  cat books.txt books2.txt
+   42  subl books.txt
+   43  cat books.txt books2.txt
+   44  clear
+   45  cat books.txt | sort
+   46  clear
+   47  cat books.txt books2.txt | sort > sorted_books.txt
+   48  ls
+   49  cat sorted_books.txt
+   50  cat sorted_books.txt | grep Mil
+   51  cat sorted_books.txt | grep John
+   52  cat sorted_books.txt | grep Johnson -a 1
+   53  cat sorted_books.txt | grep Johnson -A 1
+   54  cat sorted_books.txt | grep -C 1
+   55  cat sorted_books.txt | grep Johnson -C 1
+   56  mv sorted_books.txt books.txt
+   57  cat books.txt
+   58  cp books.txt books_copy.txt
+   59  ls
+   60  rm books_copy.txt
+   61  ls
+   62  rm books2.txt
+   63  ls
+   64  mkdir myfolder
+   65  ls
+   66  rm -rf myfolder
+   67  ls
+   68  history
+   69  ls
+   70  cat books.txt
+   71  history
+   72  clear
+   73  ls -la *.txt
+   74  man
+   75  man cd
+   76  ls -o
+   77  clear
+   78  cd ..
+   79  mkdir GA
+   80  cd GA
+   81  mkdir Deliverables
+   82  cd Deliverables
+   83  git clone https://github.com/rosswildin/command-line-murder-mystery.git
+   84  ls
+   85  cd command-line-murder-mystery
+   86  ls
+   87  open instructions
+   88  cat instructions
+   89  cat cheatsheet.md
+   90  ls
+   91  touch solution.txt
+   92  ls
+   93  cd ..
+   94  cd command-line-murder-mystery
+   95  cd mystery
+   96  ls
+   97  cat crimescene | grep CLUE
+   98  cd interviews
+   99  ls
+  100  cd ..
+  101  ls
+  102  cd memberships
+  103  ls
+  104  cd ..
+  105  cd streets
+  106  ls
+  107  cd ..
+  108  cat people
+  109  cat people | grep Annabel
+  110  cd ..
+  111  ls
+  112  cd mystery
+  113  ls
+  114  cat people | grep Ann
+  115  cat crimescene
+  116  cat crimescene | grep st
+  117  cat crimescene | grep hart
+  118  cat crimescene | grep Hart
+  119  cat crimescene | grep Palace
+  120  cat crimescene | grep Haley
+  121  ls
+  122  cat vehicles
+  123  cat vehicles | grep 6
+  124  cat crimescene | grep vehicle
+  125  cat crimescene | grep car
+  126  cat crimescene | grep "car"
+  127  cat crimescene | grep man
+  128  cat vehicles | grep CLUE
+  129  cat crimescene | grep -FX car
+  130  cat crimescene | grep car -FX
+  131  cat crimescene | grep car -Fx
+  132  cat crimescene | grep man -Fx
+  133  cat crimescene | -Fx grep man
+  134  ls
+  135  cd ..
+  136  ls
+  137  cat hint1
+  138  cat hint2
+  139  head -n 20 people
+  140  cat hint3
+  141  cat hint4
+  142  cat hint5
+  143  cd mystery
+  144  ls
+  145  cat people | grep Annabel
+  146  cd streets
+  147  ls
+  148  cat Hart_Place
+  149  head -n 40 Hart_Place | tail -n 1
+  150  cd ..
+  151  ls
+  152  cat interviews | grep 47246024
+  153  cd interviews
+  154  ls
+  155  headn -n interview-47246024
+  156  head -n interview-47246024
+  157  head -n interview-47246024 | tail -n 1
+  158  cat interview-47246024
+  159  cd ..
+  160  ls
+  161  cd streets
+  162  head -n 179 Buckingham_Palace | tail -n 1
+  163  head -n 179 Buckingham_Place | tail -n 1
+  164  ls
+  165  cd ..
+  166  cd interviews
+  167  cat interview-699607
+  168  cd ..
+  169  ls
+  170  cat vehicles | grep blue
+  171  cat vehicles | grep honda
+  172  cd vehicles
+  173  cat vehicles
+  174  cat vehicles | grep l337
+  175  cat vehicles | grep Honda
+  176  cat vehicles | L337
+  177  cat vehicles | grep L337
+  178  cat vehicles | grep L337 -C 
+  179  cat vehicles | grep -C L337
+  180  cat vehicles | grep -C 2 L337
+  181  cat vehicles | grep -A 4 L337
+  182  ls
+  183  cd memberships
+  184  ls
+  185  cat REi
+  186  cd ..
+  187  ls
+  188  cat hint6
+  189  cat hint7
+  190  cat hint8
+  191  cd mystery
+  192  cd memberships
+  193  ls
+  194  cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Jacqui maher"
+  195  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  196  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  197  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  198  cd ..
+  199  ls
+  200  cat people | grep "Jacqui Maher"
+  201  history
+  202  ls
+  203  cd ..
+  204  ls
+  205  echo history >> solution.txt
+  206  cat solution.txt
+  207  echo    83  git clone https://github.com/rosswildin/command-line-murder-mystery.git
+  208  hHahHahHahHahHahHahhehHahHahH HhHahHahHahH thHahHahHahHahHahcdhHahHahHahHahHahHahhehHahHahH HiehHahHahHahH72hHahHahH15hHahHahHahHahHah
+Jeremy Bowers dunnit
