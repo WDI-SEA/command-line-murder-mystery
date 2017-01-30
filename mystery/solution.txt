@@ -1,0 +1,108 @@
+  457  ls
+  458  cat instructions
+  459  nano cheatsheet.md
+  460  cat instructions
+  461  open cheatsheet.md
+  462  ls
+  463  cd mystery
+  464  ls
+  465  cat crimescene grep "CLUE"
+  466  cat crimescene | grep "clue"
+  467  ls
+  468  cat people | grep "clue"
+  469  cd interviews
+  470  ls
+  471  cd ..
+  472  ls
+  473  cat interviews | grep "clue"
+  474  grep "clue" crimescene
+  475  grep "clue" -i crimescene
+  476  ls
+  477  grep "clue" -i people
+  478  grep "clue" -i vehicles
+  479  cd memberships
+  480  ls
+  481  cd ..
+  482  cd interviews
+  483  cd ..
+  484  grep "clue" -i interviews/
+  485  cd interviews
+  486  grep "clue" *
+  487  grep -r "clue" *
+  488  cd ..
+  489  grep -r "clue" *
+  490  grep "clue" *
+  491  grep -i "clue" *
+  492  grep -ir "clue" *
+  493  grep -r "clue" *
+  494  touch solution.txt
+  495  ls
+  496  cd people
+  497  cat people head
+  498  ls
+  499  grep -i "annabel" people
+  500  cd streets
+  501  ls
+  502  head -41 Hart_Place
+  503  head -179 Buckingham_Place
+  504  cd ..
+  505  ls
+  506  cd interviews
+  507  ls
+  508  cat interview #47246024
+  509  cat #47246024
+  510  cat interview-47246024
+  511  cat interview-699607
+  512  cd ..
+  513  ls
+  514  grep -i "honda" vehicles
+  515  grep -i ".L337." vehicles
+  516  grep -i ".L337." -c 5 vehicles
+  517  grep -i ".L337." vehicles | grep -c 5
+  518  grep -i ".L337." vehicles | grep -c 5 vehicles
+  519  grep -c ".L337." vehicles | grep -c 5 vehicles
+  520  grep -c 5 vehicles | grep -i ".L337."
+  521  grep -c 5 ".L337." vehicles | grep -i ".L337."
+  522  grep -c 5 ".L337." vehicles | grep -i ".L337." vehicles
+  523  grep -i ".L337." vehicles| grep -c 5 ".L337" vehicles
+  524  grep -i ".L337." vehicles | grep -c 5 ".L337" vehicles
+  525  grep c 3 "L337ZR9" vehicles
+  526  grep -c 3 "L337ZR9" vehicles
+  527  grep man
+  528  grep -i ".L337." vehicles | grep -i "honda" vehicles
+  529  cat vehicles | grep -i "honda" | grep -i ".L337."
+  530  cat vehicles | grep -i ".L337."
+  531  cat vehicles | grep -i ".L337." | grep -c 3
+  532  cat vehicles | grep -c 3 "L337ZR9"
+  533  cat vehicles | grep -c3 "L337ZR9"
+  534  cat vehicles | grep -C3 "L337ZR9"
+  535  cat vehicles | grep -C3 ".L337."
+  536  cat vehicles | grep -C5 ".L337."
+  537  cat vehicles | grep -A5 ".L337."
+  538  ls
+  539  cat people | grep "Joe Germuska"
+  540  cat people | grep "Jeremy Bowers"
+  541  cat people | grep "Jacqui Maher"
+  542  cat people | grep "Erika Owens"
+  543  cd streets
+  544  head -284 Dunstable_Road
+  545  head -275 Plainfield_Street
+  546  cd ..
+  547  ls
+  548  cd interviews
+  549  ls
+  550  cat interview-
+  551  cat interview-29741223
+  552  cat interview-9620713
+  553  cd ..
+  554  ls
+  555  cd memberships
+  556  ls
+  557  cat AAA | grep "Jeremy Bowers"
+  558  cat Delta_SkyMiles | grep "Jeremy Bowers"
+  559  cat library.txt | grep "Jeremy Bowers"
+  560  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  561  cd ..
+  562  open solution.txt
+
+Killer name: Jeremy Bowers
