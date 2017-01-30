@@ -1,0 +1,17 @@
+  It's Jeremy Bowers!
+
+  394  cd memberships/
+  395  -E "Joe Germuska|Jeremy Bowers" AAA
+  396  grep -E "Joe Germuska|Jeremy Bowers" AAA
+  397  grep -E "Joe Germuska|Jeremy Bowers|Jacqui Maher" AAA
+  398  grep -E "Joe Germuska|Jeremy Bowers|Jacqui Maher" Delta SkyMiles
+  399  ls
+  400  grep -E "Joe Germuska|Jeremy Bowers|Jacqui Maher" AAA Delta_SkyMiles library.txt Museum_of_Bash_History
+  401  cd ..
+  402  ls
+  403  grep -E "Jeremy Bowers|Jacqui Maher" people -C 4
+  404  grep -E "Jeremy Bowers|Jacqui Maher" people
+  405  cd ..
+  406  ls
+  407  touch solution.txt
+  408  history
