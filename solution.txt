@@ -1,0 +1,245 @@
+120  cat instructions
+  121  cd mystery
+  122  ls
+  123  cd crimescene
+  124  cat crimescene
+  125  grep CLUE
+  126  cat crimescene | grep CLUE
+  127  cd interviews
+  128  ls
+  129  cd memberships
+  130  cd ..
+  131  cd memberships
+  132  ls
+  133  cat aaa
+  134  ls
+  135  cd delta_skymiles
+  136  cat delta_skymiles
+  137  cd ..
+  138  ls
+  139  cat people
+  140  cd streets
+  141  ls
+  142  cd ..
+  143  ls
+  144  cat vehicles
+  145  cd memberships
+  146  ls
+  147  cat library.txt
+  148  ls
+  149  cat aaa
+  150  cls
+  151  ls
+  152  cat AAA | annabel
+  153  cat AAA | grep annabel
+  154  cat AAA | grep ana
+  155  ls
+  156  cat delta_skymiles
+  157  cat delta_skymiles | grep ana
+  158  cat delta_skymiles | anabel
+  159  cat delta_skymiles | grep anabel
+  160  cat delta_skymiles
+  161  cd ..
+  162  crimescene
+  163  ls
+  164  cat crimescene
+  165  cat crimescene | grep CLUE
+  166  ls
+  167  cd memberships
+  168  ls
+  169  cat AAA
+  170  grep annabel
+  171  cat AAA | grep Annabel
+  172  cat AAA | grep Anabel
+  173  ls
+  174  cd ..
+  175  ls
+  176  cat people
+  177  cat people | grep Anabel
+  178  ls
+  179  cd streets
+  180  ls
+  181  cd ..
+  182  ls
+  183  cd interviews
+  184  ls
+  185  cd ..
+  186  ls
+  187  cat vehicles
+  188  cat vehicles | grep Height: 6
+  189  cat vehicles | grep Height
+  190  cat vehicles | grep Height: 6
+  191  cat vehicles | grep 6
+  192  cat vehicles | grep 6'
+  193  cat vehicles
+  194  cd ..
+  195  ls
+  196  cd mystery
+  197  ls
+  198  cat crimscene
+  199  ls
+  200  cat crimescene
+  201  cat crimescene | grep CLUE
+  202  cd ..
+  203  hint1
+  204  cat hint1
+  205  cat hint2
+  206  cat hint3
+  207  ls
+  208  mystery
+  209  ls
+  210  head -n 20 people
+  211  head -n 40 people
+  212  head -n 60 people
+  213  head -n 80 people
+  214  head -n 100 people
+  215  ls
+  216  cat people | Anabel
+  217  cat people | grep Anabel
+  218  cat people | Annabel
+  219  cat people | grep Annabel
+  220  cat hint1
+  221  cd ..
+  222  cat hint1
+  223  cat hint2
+  224  cat hint3
+  225  cd mystery
+  226  ls
+  227  head -n 20 vehicles
+  228  cat vehicles | grep anabel
+  229  ls
+  230  cat vehicles
+  231  cat vehicles | grep anabel
+  232  cat vehicles | grep annabel
+  233  cat vehicles | grep anabelle
+  234  cat vehicles | grep yannick
+  235  cat vehicles | grep Yannick
+  236  cat vehicles | grep Anabel
+  237  ls
+  238  cd streets
+  239  ls
+  240  cat streets | Cedar_Lane_Way
+  241  cat streets | grep cedar_lane_way
+  242  cat streets | grep Clay_Street
+  243  cat Buckingham_Place
+  244  ls
+  245  cat Haley_Street
+  246  ls
+  247  cat Hart_Place
+  248  ls
+  249  cd ..
+  250  cat hint4
+  251  mystery
+  252  cd mystery
+  253  ls
+  254  cat people | grep Annabel
+  255  cd streets
+  256  ls
+  257  cat Mattapan_Street
+  258  cd mystery
+  259  cd ..
+  260  ls
+  261  cat instructions
+  262  cat hint5
+  263  ls
+  264  cd mystery
+  265  ls
+  266  cat crimescene
+  267  cat crimescene | grep CLUE
+  268  ls
+  269  cd streets
+  270  ls
+  271  cd ..
+  272  ls
+  273  cd interviews
+  274  cat interviews* | Annabel
+  275  cat interviews* | grep Annabel
+  276  cat interviews* | grep Anabel
+  277  cat interviews* | grep Anabelle
+  278  cd ..
+  279  cd memberships
+  280  cat memberships* | grep Anabel
+  281  cat memberships* | grep Annabel
+  282  cat memberships* | grep Anabelle
+  283  ls
+  284  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt* | grep Anabel
+  285  cd ..
+  286  ls
+  287  cat poeple | grep Anabel
+  288  cat people
+  289  cat Anabel Kal
+  290  cat people | grep Anabel Kal
+  291  cat people | grep Anabel Dominguez
+  292  ls
+  293  cd interviews
+  294  ls
+  295  cd ..
+  296  ls
+  297  cat vehicles | grep Anabel Kal
+  298  cat vehicles
+  299  cat vehicles | grep Anabel
+  300  cat vehicles | grep Anabel Kal
+  301  cat vehicles | grep Owner: Anabel Kal
+  302  cat vehicles
+  303  cat vehicles | grep Kal
+  304  cat vehicles | grep Dominguez
+  305  cd ..
+  306  cd mystery
+  307  ls
+  308  cd ..
+  309  cat hint4
+  310  ls
+  311  cd mystery
+  312  cat people | grep Annabel
+  313  ls
+  314  cd streets
+  315  ls
+  316  cat Hart_Place
+  317  cat Hart_Place | grep -A 3 interview
+  318  cat Hart_Place | grep -A 3 Interview
+  319  cat Hart_Place | grep -A 3 INterview
+  320  cat Buckingham_Place
+  321  cd ..
+  322  ls
+  323  cd interviews
+  324  ls
+  325  cat interview-699607
+  326  cat interview-47246024
+  327  cd ..
+  328  ls
+  329  cat vehicles
+  330  cat vehicles | grep L337
+  331  cat vehicles | grep blue
+  332  cat vehicles | Blue
+  333  cat vehicles | grep Blue
+  334  cat vehicles
+  335  cat vehicles* | grep Blue
+  336  cat vehicles | grep L337
+  337  cat vehicles | grep L337 -C 10
+  338  cd ..
+  339  cat hint5
+  340  cat hint6
+  341  cat hint7
+  342  cat hint8
+  343  ls
+  344  cd mystery
+  345  ls
+  346  cd memberships
+  347  ls
+  348  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep Jeremy Bowers
+  349  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep Germuska
+  350  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep Bowers
+  351  cd ..
+  352  ls
+  353  cd ..
+  354  ls
+  355  cat instructions
+  356  cat solution
+  357  touch solution.txt
+  358  git add solution.txt
+  359  git commit -m "Solution File"
+  360  git push origin master
+
+
+
+2. Jeremy Bowers
