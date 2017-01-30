@@ -1,0 +1,197 @@
+
+Whodunit: Jeremy Bowers
+
+  876  cat instructions
+  877  ls
+  878  cd mystery
+  879  ls
+  880  cd crimescene
+  881  cat crimescene
+  882  ls
+  883  cat crimescene | grep CLUE
+  884  ls
+  885  cd people
+  886  cat people
+  887  ls
+  888  touch info
+  889  vim info
+  890* ls
+  891* cat people
+  892* ls
+  893* cat people | grep M
+  894* cat people | grep M > sorted people
+  895* cat sorted people
+  896* ls
+  897* cd interviews
+  898* cd ..
+  899* ls
+  900* cat sorted
+  901* ls
+  902* cd interviews
+  903* ls
+  904* cd ..
+  905* ls
+  906* cat interview | grep Annabel
+  907* cd ..
+  908* ls
+  909* cd mystery
+  910* ls
+  911* cat interviews | grep Annabel
+  912* cd interviews
+  913* ls
+  914* cat interview-
+  915* cat interview-9185205
+  916* ls
+  917* cd ..
+  918* ls
+  919* cd memberships
+  920* ls
+  921* cat AAA | grep Annabel
+  922* ls
+  923* cd AA
+  924* cd AAA
+  925* ls
+  926* cat AAA
+  927* ls
+  928* cat Delta SkyMiles | grep Annabel
+  929* cat Delta_SkyMiles | grep Annabel
+  930* cat Museum_of_Bash_History | grep Annabel
+  931* ls
+  932* cd memberships
+  933* ls
+  934* cat library.txt | grep Annabel
+  935* ls
+  936* cd ..
+  937* ls
+  938* cd vehicles
+  939* ls
+  940* cat vechicles
+  941* cat vehicles
+  942* ls
+  943* cat vehicles | grep Annabel
+  944* cat vehicles | grep Oluwasegun Annabel
+  945* cat vehicles | grep Oluwasegun_Annabel
+  946* cat vehicles | grep Oluwasegun\Annabel
+  947* cat vehicles | grep Oluwasegun
+  948* cat vechicles | sort
+  949* cat vehicles | sort
+  950* cat vehicles | sort Height
+  951* cat vehicles | Height sort
+  952* cat vehicles
+  953* cat vehicles | grep Annabel
+  954* cat vehicles | grep 6'-0"
+  955* cat vehicles | grep 6\'-0\"
+  956* cat vehicles | grep 6/'-0/"
+  957* cat vehicles | grep 6
+  958* cat vehicles | grep Annabel\6
+  959* cat vehicles | grep Annabel|6
+  960* ls
+  961* cd people
+  962* cat people | grep Annabel
+  963* ls
+  964* cd info
+  965* cat info
+  966* cat crimescene
+  967* ls
+  968* cd streets
+  969* ls
+  970* cat Buckingham_Place
+  971* ls
+  972* cat Buckingham_Place | grep Annabel
+  973* cat Buckingham_Place | grep Interview
+  974* ls
+  975* cat Buckingham_Place | grep INTERVIEW
+  976* ls
+  977* cd ..
+  978* ls
+  979* cd interviews
+  980* ls
+  981* cat interview-699607
+  982* cd ..
+  983* ls
+  984* cd vehicles
+  985* cat vehicles
+  986* cat vehicles | grep L337
+  987* cat vehicles | grep L337 > newvec
+  988* cd newvec
+  989* ls
+  990* cat newvec
+  991* cat vehicles | grep L337Zr9
+  992* cat vehicles | grep L337ZR9
+  993* cat vehicles | grep L337ZR9 -C
+  994* cat vehicles | grep L337ZR9 -C 1
+  995* cat vehicles | grep L337ZR9 -C 2
+  996* cat vehicles | grep L337ZR9 -A 2
+  997* cat vehicles | grep L337ZR9 -A 3
+  998* cat vehicles | grep L337 -A 3
+  999* cat vehicles | grep L337 -A 3 > vech2
+ 1000* cat vech2 | grep honda -A 3 > vech3
+ 1001* cat vech2 | grep honda -A 3
+ 1002* cat vech2 | grep Honda -A 3
+ 1003* cat vech2 | grep Honda -A 4
+ 1004* cat vech2 | grep Honda -A 3
+ 1005* cat vech2 | grep Honda -A 2
+ 1006* cat vech2 | grep Honda -A 2 > vech3
+ 1007* cat vech3 | grep Blue -A 2
+ 1008* cat vech3 | grep Blue -A 2 > vech3
+ 1009* cat vech3 | grep Blue -A 2
+ 1010* cat vech3 | grep Blue -A
+ 1011* cat vech3 | grep Blue -A 1
+ 1012* cat vech3 | grep Blue -A 2
+ 1013* cat vech3
+ 1014* ls
+ 1015* -rm vech2
+ 1016* rm vech2
+ 1017* ls
+ 1018* cd memberships
+ 1019* ls
+ 1020* cat AAA | grep Jeremy Bowers
+ 1021* cat AAA | grep Jeremy
+ 1022* cat AAA | grep Jacqui Maher
+ 1023* cat AAA | grep Joe Germuska
+ 1024* cat AAA | grep Aron Pilhofer
+ 1025* cat AAA | grep Aron
+ 1026* cat AAA | grep Joe
+ 1027* cat AAA | grep Jacqui
+ 1028* cat Delta_SkyMiles | grep Jacqui
+ 1029* cat Delta_SkyMiles | grep Joe
+ 1030* cat Delta_SkyMiles | grep Jeremy
+ 1031* ls
+ 1032* cat library.txt | grep Jeremy
+ 1033* cat library.txt | grep Jacqui
+ 1034* cat Museum_of_Bash_History | grep Jacqui
+ 1035* ls
+ 1036* cat Museum_of_Bash_History | grep Jeremy
+ 1037* cd ..
+ 1038* ls
+ 1039* cd people
+ 1040* cat people | grep Jeremy Bowers -B
+ 1041* cat people | grep Jeremy Bowers -A 3
+ 1042* cat people | grep Jeremy  -A 3
+ 1043* cat people | grep Jacqui  -A 3
+ 1044* ls
+ 1045* cd interviews
+ 1046* cd ..
+ 1047* cat crimescene
+ 1048* ls
+ 1049* cat people
+ 1050* ls
+ 1051* cat info
+ 1052* cd streets
+ 1053* ls
+ 1054* cd ..
+ 1055* cd vechicles
+ 1056* cd vehicles
+ 1057* cat vehicles | grep Jeremy -A 3
+ 1058  ls
+ 1059  cd ..
+ 1060  ls
+ 1061  cd ..
+ 1062  ls
+ 1063  cat command-line-murder-mystery
+ 1064  cd command-line-murder-mystery
+ 1065  ls
+
+
+
+
