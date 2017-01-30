@@ -1,0 +1,221 @@
+    1  sdglkdg
+    2  ln
+    3  clear
+    4  subl ~/.zshrc
+    5  which psql
+    6  clear
+    7  brew install mongodb
+    8  sudo mkdir -p /data/db
+    9  whoami
+   10  sudo chown -R kylerichardson:wheel /data
+   11  clear
+   12  whoami
+   13  sudo chown -R kylerichardson:wheel /data
+   14  mongod
+   15  clear
+   16  ls
+   17  ls -a
+   18  pwd
+   19  cd fundamentals
+   20  ls
+   21  cd wdi-fundamentals-memory-game
+   22  cd wdi-fundamentals-memorygame
+   23  ls
+   24  cd starter-code
+   25  ls\\nls
+   26  ls
+   27  open main.js
+   28  cd ..
+   29  clear
+   30  cd ~
+   31  pwd
+   32  ls
+   33  cd fundamentals
+   34  mkdir practice_commands
+   35  ls
+   36  cd practice_commands
+   37  touch books.txt
+   38  ls
+   39  subl .
+   40  cat books.txt
+   41  touch books2.txt
+   42  echo "Orwell, George:1984"
+   43  echo "Orwell, George:1984" > books2.txt
+   44  echo "Murakami, Harukie:IQ984" >> books2.txt
+   45  cat books2.txt
+   46  cat books.txt books2.txt
+   47  subl books.txt
+   48  cat books.txt books2.txt
+   49  clear
+   50  cat books.txt | sort
+   51  cat books.txt books2.txt | sort
+   52  cat books.txt books2.txt | sort > sorted_books.txt
+   53  ls
+   54  cat sorted_books.txt
+   55  clear
+   56  cat sorted_books.txt | grep Mil
+   57  cat sorted_books.txt | grep il
+   58  cat sorted_books.txt | grep Johnson -A 1
+   59  cat sorted_books.txt | grep Johnson -C 1
+   60  clear
+   61  mv sorted_books.txt books.txt
+   62  ls
+   63  cat books.txt
+   64  cp books.txt books_copy.txt
+   65  ls
+   66  rm books-copy.txt
+   67  rm books_copy.txt
+   68  rm books2.txt
+   69  ls
+   70  mkdir myfolder
+   71  ls
+   72  rm -rf myfolder
+   73  ls
+   74  hist
+   75  history
+   76  clear
+   77  touch temp.txt
+   78  touch temp.abc
+   79  ls
+   80  ls -la *.txt
+   81  ls -la
+   82  ls -a
+   83  clear
+   84  exit
+   85  pwd
+   86  ls
+   87  mkdir Code
+   88  ls
+   89  cd Code
+   90  mkdir week_1
+   91  cd week_1
+   92  mkdir command_murder_mystery
+   93  cd command_murder_mystery
+   94  git@github.com:krichdev/command-line-murder-mystery.git
+   95  git clone git@github.com:krichdev/command-line-murder-mystery.git
+   96  ls
+   97  cd command-line-murder-mystery
+   98  ls
+   99  cat instructions
+  100  ls
+  101  cd mystery
+  102  ls
+  103  cat crimescene
+  104  ls
+  105  crimscene | grep CLUE
+  106  crimescene | grep CLUE
+  107  cd crimescene
+  108  cat crimescene | grep CLUE
+  109  pwd
+  110  ls
+  111  cd interviews
+  112  ls
+  113  cat interviews | grep Annabel
+  114  cd ..
+  115  ls
+  116  cat people
+  117  pwd
+  118  ls
+  119  cd memberships
+  120  ls
+  121  cat Delta_SkyMiles
+  122  cd ..
+  123  ls
+  124  cat people | grep M
+  125  cd ..
+  126  ls
+  127  cd mystery
+  128  cd ..
+  129  cat hint1
+  130  cd mystery
+  131  ls
+  132  head -n 20 people
+  133  cd ..
+  134  ls
+  135  cat hint2
+  136  cat hint3
+  137  cat hint4
+  138  cd mystery
+  139  cat people | grep Annabel
+  140  ls
+  141  cd streets
+  142  ls
+  143  cat Hart_Place
+  144  ls
+  145  cat Buckingham_Place
+  146  cd ..
+  147  ls
+  148  cd ..
+  149  ls
+  150  cat hint5
+  151  ls
+  152  cd mystery
+  153  ls
+  154  cd interviews
+  155  ls
+  156  cd streets
+  157  cd ..
+  158  ls
+  159  cd streets
+  160  ls
+  161  head -n 40 Hart_Place | tail -n 1
+  162  head -n 38 Buckingham_Place | tail -n 1
+  163  cd ..
+  164  ls
+  165  cd interviews
+  166  cat interview-47246024
+  167  cd ..
+  168  ls
+  169  cat people | grep Annabel
+  170  cd ..
+  171  ls
+  172  cat hint6
+  173  cat hint7
+  174  cd mystery
+  175  ls
+  176  cat crimscene | grep CLUE
+  177  cat crimescene | grep CLUE
+  178  ls
+  179  cat people | grep anna
+  180  cat people | grep annabel
+  181  cat people | grep Annabel
+  182  cat people | grep Anna
+  183  ls
+  184  cd streets
+  185  ls
+  186  head -n 179 Buckingham_Place | tail -n 1
+  187  cd ..
+  188  cd interviews
+  189  cat interviews-699607
+  190  ls
+  191  cat interview-699607
+  192  cd ..
+  193  ls
+  194  cat vehicles | grep L337
+  195  cat vehicles | grep -A 4 L337
+  196  cd ..
+  197  ls
+  198  cat hint8
+  199  cd mystery
+  200  ls
+  201  cd memberships
+  202  ls
+  203  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c Joe Germuska
+  204  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  205  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  206  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jacqui Maher"
+  207  cd ..
+  208  ls
+  209  cat people | grep Jacqui Maher
+  210  cat people | grep Jacqui
+  211  ls
+  212  cd ..
+  213  ls
+  214  touch solution.txt
+  215  ls
+  216  history
+  217  echo    92  mkdir command_murder_mystery\n   93  cd command_murder_mystery\n   94  git@github.com:krichdev/command-line-murder-mystery.git\n   95  git clone git@github.com:krichdev/command-line-murder-mystery.git\n   96  ls\n   97  cd command-line-murder-mystery\n   98  ls\n   99  cat instructions\n  100  ls\n  101  cd mystery\n  102  ls\n  103  cat crimescene\n  104  ls\n  105  crimscene | grep CLUE\n  106  crimescene | grep CLUE\n  107  cd crimescene\n  108  cat crimescene | grep CLUE\n  109  pwd\n  110  ls\n  111  cd interviews\n  112  ls\n  113  cat interviews | grep Annabel\n  114  cd ..\n  115  ls\n  116  cat people\n  117  pwd\n  118  ls\n  119  cd memberships\n  120  ls\n  121  cat Delta_SkyMiles\n  122  cd ..\n  123  ls\n  124  cat people | grep M\n  125  cd ..\n  126  ls\n  127  cd mystery\n  128  cd ..\n  129  cat hint1\n  130  cd mystery\n  131  ls\n  132  head -n 20 people\n  133  cd ..\n  134  ls\n  135  cat hint2\n  136  cat hint3\n  137  cat hint4\n  138  cd mystery\n  139  cat people | grep Annabel\n  140  ls\n  141  cd streets\n  142  ls\n  143  cat Hart_Place\n  144  ls\n  145  cat Buckingham_Place\n  146  cd ..\n  147  ls\n  148  cd ..\n  149  ls\n  150  cat hint5\n  151  ls\n  152  cd mystery\n  153  ls\n  154  cd interviews\n  155  ls\n  156  cd streets\n  157  cd ..\n  158  ls\n  159  cd streets\n  160  ls\n  161  head -n 40 Hart_Place | tail -n 1\n  162  head -n 38 Buckingham_Place | tail -n 1\n  163  cd ..\n  164  ls\n  165  cd interviews\n  166  cat interview-47246024\n  167  cd ..\n  168  ls\n  169  cat people | grep Annabel\n  170  cd ..\n  171  ls\n  172  cat hint6\n  173  cat hint7\n  174  cd mystery\n  175  ls\n  176  cat crimscene | grep CLUE\n  177  cat crimescene | grep CLUE\n  178  ls\n  179  cat people | grep anna\n  180  cat people | grep annabel\n  181  cat people | grep Annabel\n  182  cat people | grep Anna\n  183  ls\n  184  cd streets\n  185  ls\n  186  head -n 179 Buckingham_Place | tail -n 1\n  187  cd ..\n  188  cd interviews\n  189  cat interviews-699607\n  190  ls\n  191  cat interview-699607\n  192  cd ..\n  193  ls\n  194  cat vehicles | grep L337\n  195  cat vehicles | grep -A 4 L337\n  196  cd ..\n  197  ls\n  198  cat hint8\n  199  cd mystery\n  200  ls\n  201  cd memberships\n  202  ls\n  203  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c Joe Germuska\n  204  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"\n  205  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"\n  206  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jacqui Maher"\n  207  cd ..\n  208  ls\n  209  cat people | grep Jacqui Maher\n  210  cat people | grep Jacqui\n  211  ls\n  212  cd ..\n  213  ls\n  214  touch solution.txt\n  215  ls > solution.txt
+  218  ls
+  219  solution.txt
+  220  cat solution.txt
+Jeremy Bowers is the prime suspect
