@@ -1,4 +1,6 @@
-histortery
+
+Whodunit: Jeremy Bowers
+
   876  cat instructions
   877  ls
   878  cd mystery
@@ -190,7 +192,6 @@ histortery
  1064  cd command-line-murder-mystery
  1065  ls
 
-Jeremy Bowers
 
 
 
