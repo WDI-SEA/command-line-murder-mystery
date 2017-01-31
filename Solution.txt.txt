@@ -1,0 +1,68 @@
+Jeremy Bowers is the killer
+
+
+ grep "CLUE" crimescene
+   81  cd ..
+   82  cat hint2
+   83  cat hint3
+   84  cd mystery/
+   85  grep "Annabel" people
+   86  cd ..
+   87  cat hint4
+   88  cat hint5
+   89  cd mystery/people
+   90  cd mystery/
+   91  head n 40 streets/Hart Place | tail -n 1
+   92  head -n 40 streets/Hart place | tail -n 1
+   93  head -n 40 streets/Hart_Place | tail -n 1
+   94  cd ..
+   95  cat hint6
+   96  cd mystery/
+   97  cat interviews
+   98  ls
+   99  head interviews
+  100  cd interviews
+  101  ls
+  102  cat interview-47246024
+  103  head -n 179 streets/Hart_Place | tail -n 1
+  104  cd..
+  105  cd ..
+  106  head -n 179 streets/Hart_Place | tail -n 1
+  107  head -n 179 streets/Buckingham_Place | tail -n 1
+  108  cd interviews/
+  109  cat interview-699607
+  110  cd ..
+  111  cat hint6
+  112  cd ..
+  113  cat hint6
+  114  cd mystery/
+  115  cd vehicles
+  116  head vehicles
+  117  grep "HONDA"
+  118  grep "HONDA" vehicles
+  119  grep "Honda" vehicles
+  120  grep "Honda" vehicles -C 2
+  121  grep "Honda" vehicles -A 3 -B 1
+  122  grep "Honda" vehicles -A 3 -B 1 | grep "Blue" -B 2 -A 3
+  123  grep "Honda" vehicles -A 3 -B 1 | grep "Blue" -B 2 -A 3 | grep "L337"
+  124  grep "Honda" vehicles -A 3 -B 1 | grep "Blue" -B 2 -A 3 | grep "L337" -A 5
+  125   cd ..
+  126  cagt hin7
+  127  cat hint7
+  128  cd mystery/
+  129  ls
+  130  cd memberships
+  131  ls
+  132  grep "Delta_SkyMiles" -C 3
+  133  grep "Joe" Delta_SkyMiles -C 2
+  134  grep "Jeremy" Delta_SkyMiles
+  135  grep "Jeremy" Museum_of_Bash_History
+  136  cd ..
+  137  cd ..
+  138  touch solution.txt
+  139  echo Jeremy Bowers
+
+
+After reading Annabel Church's report, I searched for the blue honda with corresponding license. This narrowed the search down to 2 suspects.
+The names of both suspects were cross-referenced with the membership cards found in the wallet at the scene.
+Only one of the 2 men was on the corresponding rosters for the membership cards in the wallet, Jeremy Bowers
