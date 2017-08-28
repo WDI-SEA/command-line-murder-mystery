@@ -1,0 +1,100 @@
+443  cd mystery
+  444  ls -a
+  445  cat crimscene
+  446  cat crimescene
+  447  crimescene | grep CLUE
+  448  ls
+  449  crimescene.txt | grep CLUE
+  450  cat crimescene | grep CLUE
+  451  cd interviews
+  452  ls
+  453  cat interviews | grep CLUE
+  454  cat hint1
+  455  cd ..
+  456  cat hint1
+  457  cd ..
+  458  cat hint1
+  459  ls
+  460  cd mystery
+  461  ls
+  462  cat people
+  463  cat people | grep Ann
+  464  cat people | grep Annabel
+  465  ls
+  466  cd memberships
+  467  ls
+  468  cd ..
+  469  cd interviews
+  470  cat interview-000296
+  471  cd ..
+  472  cd streets
+  473  ls
+  474  cat Buckingham_Place
+  475  cat Hart_Place
+  476  cd ..
+  477  ls
+  478  cat crimescene | grep Annabel
+  479  ls
+  480  cd ..
+  481  cat hint2
+  482  cat hint3
+  483  cat vehicles | grep Anabel
+  484  cd mystery
+  485  cat vehicles | grep Anabel
+  486  cat vehicles | grep Annabel
+  487  cat vehicles
+  488  ls
+  489  cd interviews
+  490  ls
+  491  cat interviews | grep Annabel
+  492  cd ..
+  493  ls
+  494  cd streets
+  495  ls
+  496  cat Hart_Place
+  497  cat Hart_Place | grep Interview
+  498  cat Hart_Place | grep interview
+  499  cat Hart_Place | grep INTERVIEW
+  500  cd ..
+  501  cd interviews
+  502  ls
+  503  cat interview-47246024
+  504  cd ..
+  505  cd streets
+  506  cat Buckingham_Place | grep INTERVIEW
+  507  cd ..
+  508  cd interviews
+  509  cat interview-699607
+  510  cd ..
+  511  ls
+  512  cat vehicles | grep blue
+  513  cat vehicles
+  514  cat vehicles | grep BLUE
+  515  cat vehicles | grep Blue
+  516  cat vehicles | grep L337
+  517  cat vehicles | grep Mike
+  518  ls
+  519  cd memberships
+  520  ls
+  521  cat AAA
+  522  cat AAA | grep Jacqui
+  523  cat AAA | grep Bowers
+  524  cat AAA | Germuska
+  525  ls
+  526  cat Delta
+  527  cat Delta_SkyMiles | grep Jacqui
+  528  cat Delta_SkyMiles | grep Bowers
+  529  ls
+  530  cat Museum_of_Bash_History | grep Jacqui
+  531  cat Museum_of_Bash_History | grep Bowers
+  532  cat library.txt | grep Jacqui
+  533  cat library.txt | grep Bowers
+  534  cd ..
+  535  ls
+  536  cat people | grep Jacqui
+  537  cat people | grep Bowers
+  538  touch solution.txt
+  539  subl solution.txt
+
+
+  SOLUTION: Jeremy Bowers
