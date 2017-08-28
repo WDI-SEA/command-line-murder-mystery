@@ -1,0 +1,191 @@
+  293  ls
+  294  cd mystery
+  295  ls
+  296  cat crimescene
+  297  ls
+  298  cd interviews
+  299  ls
+  300  cd ..
+  301  ls
+  302  ls memberships
+  303  ls people
+  304  cat people
+  305  ls
+  306  cat vehicles
+  307  ls
+  308  cat *CLUES*
+  309  cat crimescene *CLUED*
+  310  cat crimescene *CLUES*
+  311  cat crimescene || grep *CLUES*
+  312  ls
+  313  cat crimescene || grep *CLUE*
+  314  cat crimescene || grep CLUE*
+  315  grep *CLUE* crimescene
+  316  grep CLUE crimescene
+  317  ls
+  318  grep Annabel people
+  319  cat people || grep 'Annabel Sun'
+  320  cat people
+  321  grep 'annabel' people
+  322  grep 'Annabel' people
+  323  ls
+  324  ls streets
+  325  cat streets/Hart_Place
+  326  lks
+  327  ls
+  328  grep CLUE crimescene
+  329  grep crimescene Annabel
+  330  grep Annabel crimescene
+  331  ls interviews
+  332  grep -r Annabel interviews
+  333  cat interviews/interview-37747405
+  334  grep -r shot interviews
+  335  ls
+  336  ls people
+  337  cat people
+  338  cat Annabel people
+  339  grep Annabel people
+  340  ls
+  341  grep -r foot interviews
+  342  grep Bostock people
+  343  ls
+  344  ls memberships
+  345  grep -r Bostock memberships
+  346  ls
+  347  cd ..
+  348  ls
+  349  cat instructions
+  350  cd mystery
+  351  ls
+  352  grep Bostock crimescene
+  353  grep CLUE crimescene
+  354  cd ..
+  355  ls
+  356  cat README.md
+  357  history
+  358  cd mystery
+  359  ls
+  360  grep Bostock people
+  361  grep Mike crimescene
+  362  grep streets/Senders_Court
+  363  cat streets/Senders_Court
+  364  grep murder streets/Senders_Court
+  365  ls
+  366  cd ..
+  367  ls
+  368  cat cheatsheet.md
+  369  ls
+  370  cat hint1
+  371  cd mys
+  372  cd mystery
+  373  head -n 20 people
+  374  head -n 20 crimescene
+  375  ls
+  376  grep -r feet
+  377  grep -r feet interviews
+  378  grep -n 20 -r feet interviews
+  379  grep -r feet interviews
+  380  grep -r foot interviews
+  381  cat interviews/interview-290346
+  382  grep -r membership interviews
+  383  grep -r library interviews
+  384  grep -r wallet interviews
+  385  grep -r Delta interviews
+  386  grep -r SkyMiles interviews
+  387  cat interviews/interview-290346
+  388  cat interviews/interview-30259493
+  389  grep Shaw people
+  390  ls
+  391  cat streets/Manton_Terrace
+  392  grep -r 6" interviews
+  393  grep -r "Church" interviews
+  394  grep -r "Bash" interviews
+  395  cat memberships/library.txt
+  396  grep "Bostock" crimescene
+  397  grep "Bostock" interview
+  398  grep -r "Bostock" interview
+  399  grep -r "Bostock" interviews
+  400  grep "vehicle" crimescene
+  401  grep "Vehicle" crimescene
+  402  grep "car" crimescene
+  403  cat crimescene | grep CAR
+  404  grep interview vehicle
+  405  grep -r "vehicle" interviews
+  406  grep -r "car" interviews
+  407  grep -r "license" interviews
+  408  ls
+  409  grep "L337" vehicles
+  410  head -n 20 vehicles
+  411  grep -Pzo "L337"
+  412  cat vehicles | grep "L337"
+  413  cat vehicles | grep "L337ZR9"
+  414  head -n 20 vehicles | grep "L337"
+  415  cd ..
+  416  \ls
+  417  nano README.md
+  418  nano cheatsheet.md
+  419  cd mystery
+  420  grep -A 20 vehicles"L337"
+  421  nano cheatsheet.md
+  422  cd ..
+  423  nano cheatsheet.md
+  424  cd mystery
+  425  ls
+  426  grep -A 7 "L337" vehicles
+  427  grep -A 8 "L337" vehicles
+  428  grep -A 6 "L337" vehicles
+  429  ls
+  430  grep "Germuska" people
+  431  cat streets/Plainfield_Street
+  432  grep "Jacqui" peole
+  433  grep "Jacqui" people
+  434  grep "Eric Owens" people
+  435  grep "Owens" people
+  436  cat streets/Trapelo_Street
+  437  grep "Erika Owens" interviews
+  438  grep -r "Erika Owens" interviews
+  439  grep "Owens" interviews
+  440  grep -r "Owens" interviews
+  441  grep -r "Maher" interviews
+  442  grep -r "Germuska" interviews
+  443  grep -r "Joe" interviews
+  444  grep -A 6 "L337" vehicles
+  445  grep -r "Bowers" interviews
+  446  grep -r "Jeremy" interviews
+  447  grep "Jeremy" people
+  448  cat streets/Dunstable_Road
+  449  ls
+  450  cat interviews/interview-9620713
+  451  ls
+  452  grep -r "Jeremy Bowers" memberships
+  453  cat newfile.txt
+  454  cat memberships/newfile.txt
+  455  grep -r "Jeremy Bowers" memberships
+  456  grep "CLUE" crimescene
+  457  grep "Germuska" people
+  458  cat streets/Plainfield_Street
+  459  cat interviews/interview-29741223
+  460  ls
+  461  grep -r "considered a suspect" interviews
+  462  grep "Boyer" people
+  463  grep -A -6 "Boyer" vehicles
+  464  grep -A 6 "Boyer" vehicles
+  465  grep "Boyer" people
+  466  grep -A 6 "66 vehicles
+  467  grep -A 6 201 vehicles
+  468  cat interviews/interview-9620713
+  469  grep -A 6 L337 vehicles
+  470  grep -A 6 L3375A9 crimescene
+  471  grep -r L3375A9 interviews
+  472  ls 
+  473  ls memberships
+  474  nano memberships/Delta
+  475  nano memberships/Delta_SkyMiles
+  476  grep -r Jeremy interviews
+  477  grep -r Bowers interviews
+  478  cd ..
+  479  ls
+  480  echo Jeremy Bowers >> solutions.txt
+  481  ls
+  482  cat README.md
+Jeremy Bowers
