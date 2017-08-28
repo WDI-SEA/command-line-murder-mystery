@@ -1,0 +1,107 @@
+
+Killer Name: Jeremy Bowers  
+	Meets Physical Description (height)
+	Car and license plate meet Annabel's description from interview
+	Has all of the appropriate membership cards
+
+Commands:
+  136  git clone git@github.com:unclebconnor/command-line-murder-mystery.git
+  137  ls
+  138  cd command-line-murder-mystery
+  139  ls
+  140  subl instructions
+  141  subl cheatsheet
+  142  clear
+  143  ls
+  144  cd mystery
+  145  ls
+  146  subl crimescene
+  147  ls
+  148  cat crimescene
+  149  clear
+  150  ls
+  151  cat crimescene grep -w "CLUE"
+  152  grep "CLUE" crimescene
+  153  touch mynotes.txt
+  154  echo | grep "CLUE" crimescene >> mynotes.txt
+  155  clear
+  156  cat mynotes.txt
+  157  grep -C 10 "CLUE" crimescene
+  158  clear
+  159  cat mynotes.txt
+  160  grep "Annabel" crimescene
+  161  grep "latte" crimescene
+  162  ls
+  163  cat people
+  164  grep "Annabel" people
+  165  echo | grep "Annabel" people >> mynotes.txt
+  166  ls
+  167  cd interviews
+  168  ls
+  169  cd ..
+  170  grep "Annabel" interviews
+  171  interviews
+  172  cd interviews
+  173  cd interview
+  174  grep -r "Annabel" *
+  175  grep -r "Anna" *
+  176  grep "Anna"
+  177  grep "Annabel"
+  178  grep "Annabel" *
+  179  greap "Anna" *
+  180  grep "Anna" *
+  181  grep "6'" *
+  182  echo | grep "6'" * >> mynotes.txt
+  183  cd ..
+  184  grep "Bostock" people
+  185  echo | grep "Bostock" people >> mynotes.txt
+  186  cd interviews
+  187  grep "Bostock" *
+  188  cd ..
+
+  207  grep "Annabel" Delta_SkyMiles
+  208  grep "Annabel" museum.txt
+
+  211  grep "Annabel" library.txt
+  212  grep "Annabel" delta.txt
+  213  grep "Annabel" Museum_of_Bash_History
+  214  grep "Annabel" Terminal_City_Library
+  215  grep "Bostock" Terminal_City_Library
+  216  grep "Bostock" Museum_of_Bash_History
+  217  grep "Bostock" Delta_SkyMiles
+
+  226  grep "Height: 6" vehicles
+  227  grep "Annabel" vehicles
+  228  grep -C 3 "Annabel"
+  229  grep -C 3 "Annabel" vehicles
+  230  grep -C 3 "Bostock" vehicles
+  231  cd interviews
+  232  grep "Teal" *
+  233  grep "Honda" *
+  234  grep "BMW" *
+  235  grep "Orange" *
+  236  grep "Volkswagen" *
+  237  grep "Yellow" *
+  238  cat interview-56892213
+  239  cat interview-699607
+  240  cat interview-706620
+  241  cd ..
+  242  cd vehicles
+  243  grep "L337" vehicles
+  244  grep -C 3 "L337" vehicles
+  245  cat vehicles
+  246  grep -B 6 vehicles
+  247  grep -B 6 "L337" vehicles
+  248  grep -B 5 "L337" vehicles
+  249  grep -A 5 "L337" vehicles
+  250  clear
+  251  cd memberships
+  252  ls
+  253  grep "Germuska" AAA
+  254  grep "Germuska" AAdvantage
+  255  grep "Germuska" Delta_SkyMiles
+  256  grep "Germuska" delta.txt
+  257  grep "Bowers" AAA
+  258  grep "Bowers" Delta_SkyMiles
+  259  grep "Bowers" Terminal_City_Library
+  260  grep "Bowers" Museum_of_Bash_History
