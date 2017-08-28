@@ -1,0 +1,213 @@
+cd command-line-murder-mystery
+  192  cat instructions
+  193  ls -a
+  194  cd mystery
+  195  -ls a
+  196  la -a
+  197  cd crimescene
+  198  cd interviews
+  199  ls -a
+  200  cd ..
+  201  la-a
+  202  ls -a
+  203  cd ..
+  204  touch solution.txt
+  205  grep clue
+  206  ls -a
+  207  pwd
+  208  cd mystery | grep clue
+  209  cd mystery
+  210  grep clue
+  211  ls -a
+  212  cd streets
+  213  ls -a
+  214  cd ..
+  215  la -a
+  216  cat interview
+  217  cat interviews
+  218  cat
+  219  cat crimescene
+  220  ls -a
+  221  cat people
+  222  cat vehicles
+  223  ls -a
+  224  cat crimescene| grep clue
+  225  cat crimescene | grep CLUE
+  226  cat people | grep Annabel
+  227  cat people | grep Annabell
+  228  cat people |grep CLUE 
+  229  cat people | grep CLUE
+  230  cat vehicle | grep CLUE
+  231  cat vehicles | grep CLUE
+  232  cd interviews
+  233  ls -a
+  234  cd ..
+  235  ls -a
+  236  cd ..
+  237  ls -a
+  238  cd mystery
+  239  ls -a
+  240  la -al
+  241  cat people | grep Annabel
+  242  ls -a
+  243  cat crimescene | grep new zealand
+  244  cat crimscene | grep New
+  245  cat crimescene
+  246  cat crimscene | grep blond
+  247  cat crimscene | grep f
+  248  cat people | grep Annabel
+  249  ls -a
+  250  cd streets
+  251  ls -a
+  252  cat Buckingham Place
+  253  cat Buckingham_Place
+  254  cat Hart_Place
+  255  cat Bristol_Street
+  256  cd .
+  257  cd ..
+  258  la -a
+  259  cat people | grep Annabel
+  260  cd streets
+  261  cat Mattapan_Street
+  262  cat Haley_Street 
+  263  cd ..
+  264  ls -a
+  265  cd intervies
+  266  cd interviews
+  267  grep spike
+  268  cd ..
+  269  cd memberships
+  270  cay
+  271  cat
+  272  ls -a
+  273  cat AAA
+  274  cat Delta_Skymiles
+  275  ls -a
+  276  cat Museum_of_Bash_History
+  277  cat museum.txt
+  278  cat library.txt
+  279  ls -a
+  280  cat newfile.txt
+  281  cd ..
+  282  ls -a
+  283  interviews
+  284  cd interviws
+  285  cd interviews
+  286  ls -a
+  287  cd ..
+  288  ls -a
+  289  cd memberships
+  290  ls -a
+  291  cat Delta_SkyMiles
+  292  cat Delta_SkyMiles | grep Annabel
+  293  cat Museum_of_Bash_History | grep Anabel
+  294  cd ..
+  295  ls -a
+  296  cat crimescene | grep CLUE
+  297  cd ..
+  298  cat hint1
+  299  cd interviews
+  300  cd mystery
+  301  ls -a
+  302  head -n 20 people
+  303  head -n 20 vehicles
+  304  cat vehicles | grep Height: 6'\n
+  305  cat vehicles grep 6'
+  306  cat vehicles | grep 6'
+  307  cat vehicles | grep "6'"
+  308  cat vehicles | grep "Male""6'"
+  309  cat vehicles
+  310  ls -a
+  311  cd streets
+  312  cat Buckingham_Place | grep INTERVIEW
+  313  cd ..
+  314  cd interviews
+  315  grep #699607
+  316  cat interview | grep v
+  317  cd ..
+  318  cat interviews | grep #699607
+  319  cd interviews
+  320  ls -a
+  321  cat interview#699607
+  322  cat interview-699607
+  323  cd ..
+  324  ls -a
+  325  cd vehicles
+  326  cat vehicles | grep "L337"
+  327  cat vehicles | grep "Blue Honda"
+  328  cat vehicles | grep "Honda"
+  329  head -n 20 vehicles
+  330  cat vehicles | grep blue
+  331  cat vehicles | grep "blue"
+  332  cat vehicles
+  333  ls a
+  334  ls -a
+  335  cd memberships
+  336  ls -a
+  337  cat AAA | grep 'Erika Owens'
+  338  cat AAA | grep "Erika Owens"
+  339  cat AAA
+  340  cd ..
+  341  ls -a
+  342  cd streets
+  343  ls -a
+  344  cat Trapelo_Street
+  345  cd ..
+  346  cd interviews
+  347  cat
+  348  ls -a
+  349  interview-5455315
+  350  cat interview-5455315
+  351  cd ..
+  352  vehicles
+  353  cat vehicles
+  354  ls -a
+  355  cat people
+  356  cat streets
+  357  cd streets
+  358  ls -a
+  359  Plainfield_Street
+  360  cat Plainfield_Street
+  361  cd ..
+  362  cd interviews
+  363  cat interview-29741223
+  364  cd ..
+  365  cat vehicles
+  366  cd people
+  367  ls -a
+  368  cat people | Jeremy Bowers
+  369  cat people
+  370  cd ..
+  371  ls -a
+  372  cd mystery
+  373  ls -a
+  374  cd streets
+  375  ls -a
+  376  cat Dubstable_Road
+  377  cat Dunstable_Road
+  378  cd ..
+  379  cd interviews
+  380  cat interview-9620713
+  381  cd ..
+  382  cd people
+  383  cat people
+  384  cat vehickes
+  385  cat vehicles
+  386  cd people
+  387  cat people
+  388  cd streets
+  389  cat Andover_Road
+  390  cd ..
+  391  streets
+  392  cd interviews
+  393  cd ..
+  394  cd interviews
+  395  cat interview-904020
+  396  cd ..
+  397  cd vehicles
+  398  cat vehcles
+  399  cat cehicles
+  400  cat vehicale
+  401  cat vehicles
+  402  subl solutions.txt
+Jeremy Bowers
