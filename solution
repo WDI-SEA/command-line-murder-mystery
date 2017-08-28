@@ -1,0 +1,37 @@
+cat crimescene | grep 'CLUE'
+cat people | 'Annabel'
+cd streets
+cat Buckingham_Place | grep 'SEE'
+cd ..
+ls
+cd interviews
+cat interview-699607
+cd ..
+ls
+grep -C 4 'L337*' vehicles
+cd ..
+ls
+cat people | grep 'Jeremy Bowers'
+cd streets
+cat Dunstable_Road | grep 'SEE'
+cd ..
+ls
+cd interviews
+cat interview-9620713
+cd ..
+ls
+cat people | grep 'Matt Waite'
+ls
+cd streets
+cat Alpine_Street
+cd ..
+ls
+cd interviews
+cat interview-862173
+cd ..
+cat people | grep 'Joe Germuska'
+ls
+cd streets
+cat Plainfield_Street | grep 'SEE'
+
+JEREMY BOWERS IS THE KILLER
