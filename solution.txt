@@ -1,0 +1,188 @@
+Killer = Jeremy Bowers
+
+
+162  git clone git@github.com:willylikestokayak/command-line-murder-mystery.git
+  163  ls
+  164  cd command-line-murder-mystery
+  165  ls
+  166  cd instructions
+  167  cat instructions
+  168  cd mystery
+  169  ls
+  170  cat crimescene
+  171  clear
+  172  cat instructions
+  173  ls
+  174  cd ..
+  175  ls
+  176  cat instructions
+  177  *CLUE
+  178  ls
+  179  cd..
+  180  cd ..
+  181  ls
+  182  cd command-line-murder-mystery
+  183  ls
+  184  cd mystery
+  185  ls
+  186  grep -r 'CLUE' crimescene
+  187  grep -r 'CLUE' interviews
+  188  cd ..
+  189  ls
+  190  cat hint1
+  191  cat hint2
+  192  head -n 20 people
+  193  ls
+  194  cd ..
+  195  ls
+  196  cd command-line-murder-mystery
+  197  ls
+  198  cd mystery
+  199  ls
+  200  cd interviews
+  201  ls
+  202  cd ..
+  203  ls
+  204  cd memberships
+  205  grep -r 'Delta Skymiles' memberships
+  206  grep -r 'library' memberships
+  207  cd ..
+  208  ls
+  209  cd ..
+  210  cat hint3
+  211  head 'people'
+  212  cat people
+  213  ls
+  214  cat hint4
+  215  cd mystery
+  216  lss
+  217  ls
+  218  grep "Annabel" people
+  219  cd ..
+  220  cat hint8
+  221  grep "Annabel Sun" people
+  222  ls
+  223  cd mystery
+  224  grep "Annabel Sun" people
+  225  cd ..
+  226  cat hint1
+  227  cd mystery
+  228  head -n 20 people
+  229  ls
+  230  cat people | grep Annabel
+  231  cat interviews | grep Annabel Sun
+  232  cd interviews
+  233  grep Annabel
+  234  cat interviews | grep Annabel
+  235  cd .. 
+  236  cat interviews | grep Annabel
+  237  cd interviews
+  238  grep line 40
+  239  cat interviews
+  240  ls
+  241  *Annabel
+  242  * Annabel
+  243  cat interview-000296
+  244  grep -r Annabel *
+  245  cat interview-000296 
+  246  cat interview-416243
+  247  grep | Annabel
+  248  cd ..
+  249  cat hint8
+  250  ls
+  251  cd mystery
+  252  ls
+  253  cd memberships
+  254  ls
+  255  cat AAA Delta_SkyMiles museum.txt library.txt
+  256  clear
+  257  cat library.txt
+  258  clear
+  259  cd ..
+  260  cat hint6
+  261  cat hint5
+  262  cat hint4
+  263  ls
+  264  cd mystery
+  265  ls
+  266  grep Annabel people
+  267  head -n 176 streets/Haley_Street | tail -n 1
+  268  head -n 40 streets/Hart_Place | tail -n 1
+  269  head -n 179 streets/Buckingham_Place | -n 1
+  270  head -n 179 streets/Buckingham_Place | tail -n 1
+  271  ls
+  272  cd interviews
+  273  cat 47246024
+  274  ls
+  275  cat interview-47246024
+  276  cat interview-699607
+  277  cd ..
+  278  ls
+  279  grep vehicles l337
+  280  cat vehicles | grep L337
+  281  cat License Plate L337ZR9
+  282  ls
+  283  cat vehicles
+  284  clear
+  285  ls
+  286  cat vehicles | grep Blue Honda
+  287  cat vehicles
+  288  cat vehicles | grep make: Honda
+  289  ls
+  290  cd..
+  291  cd ..
+  292  cat hint 8
+  293  cat hint7
+  294  cat hint8
+  295  cd mystery
+  296  grep -A 5 "L337" vehicles
+  297  ls
+  298  cd .
+  299  cd ..
+  300  ls
+  301  cat hint8
+  302  cd mystery
+  303  ls
+  304  cd memberships
+  305  cat AAA Delta_SkyMiles | grep "Joe Germuska"
+  306  cat people "Joe Germuska"
+  307  cat AA Delta_SkyMiles | grep "Jeremy Boners"
+  308  cat AAA Delta_SkyMiles | grep "Jeremy Boners"
+  309  cd ..
+  310  ls
+  311  cat people | grep "Joe Germuska"
+  312  cd interviews
+  313  cat Joe Germuska
+  314  cat "Joe Germuska"
+  315  grep "Joe Germuska"
+  316  grep "Joe"
+  317  ls
+  318  cd ..
+  319  ls
+  320  cat vehicles | grep "Joe Germuska"
+  321  cat "Joe Germuska"
+  322  grep "Joe Germuska"
+  323  cat vehicles | grep "Owner: Joe Germuska"
+  324  cat vehicles | gerp "L337DU9"
+  325  cat vehicles | grep "L337DU9"
+  326  cat vehciles | grep -A 5 
+  327  ls
+  328  cat vehicles | grep -A 5 L337 | grep -B 2 -A 3 Blue 
+  329  ls
+  330  cd memberships
+  331  ls
+  332  cd ..
+  333  cat hint8
+  334  ls
+  335  cd mystery
+  336  ls
+  337  cd memberships
+  338  ls
+  339  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Joe Germuska" 
+  340  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Jermey Bowers"
+  341  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Jeremy Bowers"
+  342  cd ..
+  343  ls
+  344  cd command-line-murder-mystery
+  345  touch solution.txt
+  346  ls
