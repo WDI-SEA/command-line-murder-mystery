@@ -1,0 +1,126 @@
+  173  cd command-line-murder-mystery
+  174  ls
+  175  cat instructions
+  176  ls
+  177  cd mystery
+  178  ls
+  179  cd crimescene
+  180  cat crimescene
+  181  cd ..
+  182  ls
+  183  cat hint1
+  184  cat hint2
+  185  grep "clue" crimescene
+  186  cat hint3
+  187  pwd
+  188  cd crimescene
+  189  ls
+  190  cd ..
+  191  ls
+  192  cd command-line-murder-mystery
+  193  ls
+  194  cd instructions
+  195  cat instructions
+  196  cd mystery
+  197  ls
+  198  cat crimescene | grep clue
+  199  cat hint1
+  200  cd ..
+  201  ls
+  202  cat hint1
+  203  ls
+  204  cat hint2
+  205  cat hint3
+  206  cd mystery
+  207  ls
+  208  cd crimescene
+  209  grep "CLUE" crimescene
+  210  head -n 20 people
+  211  ls
+  212  cd ..
+  213  ls
+  214  subl cheatsheet.md
+  215  subl hint1
+  216  subl hint2
+  217  subl hint3
+  218  subl hint4
+  219  subl hint5
+  220  subl hint6
+  221  subl hint7
+  222  subl hint8
+  223  head -n 20 vehicles
+  224  cd mystery
+  225  ls
+  226  head -n 20 vehicles
+  227  cat vehicles
+  228  cd ..
+  229  ls
+  230  cd mystery
+  231  ls
+  232  cat interviews | grep ANNABELLE
+  233  cd interviews
+  234  ls
+  235  cd ..
+  236  clear
+  237  ls
+  238  cat people | grep Annabel
+  239  ls
+  240  cat crimescene | grep clue
+  241  cat crimescene | grep CLUE
+  242  head -n 40 streets/Hart_Place | tail -n 1
+  243  head -n 179 streets/Buckingham_Place | tail -n 1
+  244  cd ..
+  245  ls
+  246  cd mystery
+  247  ls
+  248  cd interviews
+  249  ls
+  250  clear
+  251  cat interview-699607
+  252  cat interview-47246024
+  253  ls
+  254  cd ..
+  255  clear
+  256  ls
+  257  head -n 20 vehicles
+  258  cat vehicles | grep L337
+  259  cat vehicles | Blue
+  260  cat vehicles | grep Blue
+  261  clear
+  262  cat vehicles | grep L337
+  263  grep -A 5 "L337ZR9" mystery/vehicles
+  264  cat vehicles | grep -A 5 "L337ZR9"
+  265  cat vehicles | grep -A 5 "L337P89"
+  266  cat vehicles | grep -A 5 "L337GX9"
+  267  cat vehicles | grep -A 5 "L337QE9"
+  268  cat vehicles | grep -A 5 "L337GB9"
+  269  cat vehicles | grep -A 5 "L3370I9"
+  270  cat vehicles | grep -A 5 "L337OI9"
+  271  cat vehicles | grep -A 5 "L337"
+  272  ls
+  273  cd memberships
+  274  ls
+  275  cd ..
+  276  ls
+  277  cat crimescene | grep CLUE
+  278  ls
+  279  cd memberships
+  280  ls
+  281  cat AAA | grep Maher
+  282  cat AAA | grep Bowers
+  283  cat AAA | grep Germuska
+  284  cat Delta_SkyMiles | grep Maher
+  285  cat Delta_SkyMiles | grep Bowers
+  286  cat Delta_SkyMiles | grep Germuska
+  287  cat library.txt | grep Maher
+  288  cat library.txt | grep Bowers
+  289  cat Museum_of_Bash_History | grep Bowers
+  290  cat Museum_of_Bash_History | grep Maher
+  291  cd ..
+  292  ls
+  293  cd interviews
+  294  cat interview-699607
+  295  history
+  296  clear
+
+  The killer is Jeremy Bowers
