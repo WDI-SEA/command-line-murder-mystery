@@ -1,0 +1,337 @@
+  251  git clone https://github.com/regbake/command-line-murder-mystery.git
+  252  cd
+  253  .
+  254  ls
+  255  cd source
+  256  ls
+  257  cd unit1
+  258  ls
+  259  cd command-line-murder-mystery
+  260  ls
+  261  cd README.md
+  262  cat README.md
+  263  ls
+  264  cd instructions
+  265  cat instructions
+  266  ls
+  267  cd mystery
+  268  ls
+  269  ls -a
+  270  cat crimescene
+  271  ls
+  272  cd interviews
+  273  ls
+  274  cd ..
+  275  ls
+  276  cd memberships
+  277  ls
+  278  pwd 
+  279  cd ..
+  280  ls
+  281  cd streets
+  282  ls
+  283  pwd
+  284  ls
+  285  cd ..
+  286  ls
+  287  cat vehicles
+  288  pwd
+  289  cd ..
+  290  ls
+  291  cat readme.md
+  292  ls
+  293  cat instructions
+  294  ls
+  295  cd mystery
+  296  ls
+  297  cat crimescene | grep clue
+  298  cat crimescene
+  299  ls
+  300  cat crimescene | grep "clue"
+  301  cat crimescene | grep *clue*
+  302  cat crimescene | grep --clue
+  303  cat crimescene.txt | grep --clue
+  304  cat crimescene.txt | grep clue
+  305  ls
+  306  cat crimescene
+  307  cat crimescene | grep
+  308  cat crimescene | grep -clue
+  309  cat crimescene | grep k
+  310  cat crimescene | grep c
+  311  cat crimescene | grep cl
+  312  cat crimescene | grep clu
+  313  cat crimescene | grep C
+  314  cat crimescene | grep Cl
+  315  cat crimescene | grep cl
+  316  ls
+  317  cd interviews
+  318  ls
+  319  cd ..
+  320  ls
+  321  cat crimescene | grep CLU
+  322  ls
+  323  cat people | grep bel
+  324  cat people | grep Annabel
+  325  ls
+  326  cd interviews
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd interviews
+  331  ls
+  332  grep -r a
+  333  ls
+  334  cd source
+  335  ls
+  336  cd unit1
+  337  ls
+  338  cd command-line-murder-mystery
+  339  ls
+  340  cd mystery
+  341  ls
+  342  cd interviews
+  343  ls
+  344  cd ..
+  345  ls
+  346  cd interviews
+  347  cat -r | grep a
+  348  ls
+  349  cat interview-7541406
+  350  ls
+  351  grep -lr "ann"
+  352  ls
+  353  cd source
+  354  ls
+  355  cd unit1
+  356  ls
+  357  cd command-line-murder-mystery
+  358  ls
+  359  cd mystery
+  360  ls
+  361  cd interviews
+  362  ls
+  363  grep -R <anna> *
+  364  grep -R <An> *
+  365  grep -R <n> *
+  366  cd ..
+  367  ls
+  368  cd ..
+  369  ;s
+  370  ls
+  371  cat hint1
+  372  ls
+  373  cd mystery
+  374  ls
+  375  cd interviews
+  376  ls
+  377  cat . | grep -r "an"
+  378  grep -r 'Anna'
+  379  ls
+  380  cd source
+  381  ls
+  382  cd unit1
+  383  ls
+  384  cd command-line-murder-mystery
+  385  ls
+  386  cd mystery
+  387  ls
+  388  cd interviews
+  389  ls
+  390  grep "anna"
+  391  ls
+  392  cd source
+  393  ls
+  394  cd unit1
+  395  ls
+  396  cd command-line-murder-mystery
+  397  ls
+  398  cd mystery
+  399  ls
+  400  cd interviews
+  401  ls
+  402  cd ..
+  403  ls
+  404  cd interviews
+  405  grep -R *nnabelle
+  406  grep -R *nnabel
+  407  grep -R Annabel
+  408  cat people | grep annabel
+  409  cd ..
+  410  ls
+  411  cd streets
+  412  ls
+  413  grep Hart
+  414  ls
+  415  cd source
+  416  ls
+  417  cd unit1
+  418  ls
+  419  cd command-line-murder-mystery
+  420  ls
+  421  cd mystery
+  422  ls
+  423  cd streets
+  424  ls
+  425  cat Hart_Place
+  426  ls
+  427  cat Mattapan_Street
+  428  ls
+  429  cat Buckingham_Place
+  430  ls
+  431  cat Haley_Street
+  432  ls
+  433  cd ..
+  434  ls
+  435  cd interviews
+  436  ls
+  437  cat interview-871877
+  438  ls
+  439  cd ..
+  440  ls
+  441  cd interviews
+  442  ls
+  443  cd ..
+  444  ls
+  445  cat people
+  446  cd ..
+  447  ls
+  448  cd mystery
+  449  ls
+  450  cat people | grep Fugslang
+  451  ls
+  452  cat people | grep *lang
+  453  cat people | grep Ann
+  454  ls
+  455  cd streets
+  456  ls
+  457  cat Haley_Street
+  458  ls
+  459  cd ..
+  460  ls
+  461  cd memberships
+  462  ls
+  463  cat AAA
+  464  ls
+  465  cat AAA | grep Annabel
+  466  ls
+  467  cat Delta_SkyMiles | grep Annabel
+  468  cat Museum_of_Bash_History | grep Annabel
+  469  ls
+  470  cat library.txt
+  471  ls
+  472  cat library.txt | grep Annabel
+  473  ls
+  474  cd ..
+  475  ls
+  476  cat vehicles
+  477  ls
+  478  cat vehicles | grep Annabel
+  479  ls
+  480  cd ..
+  481  ls
+  482  cat hint2
+  483  ls
+  484  cat hint3
+  485  ls
+  486  cat hint4
+  487  ls 
+  488  cat hin5
+  489  cat hint5
+  490  history
+  491  ls
+  492  cd ..
+  493  ls
+  494  cd command-line-murder-mystery
+  495  ls
+  496  cd mystery
+  497  ls
+  498  cd ..
+  499  ls
+  500  cd ..
+  501  ls
+  502  cd command-line-murder-mystery
+  503  ls
+  504  git commit
+  505  git add -A
+  506  git status
+  507  git commit -a -m "added the solution.txt file"
+  508  git push origin master
+  509  ls
+  510  cd mystery
+  511  ls
+  512  cd streets
+  513  ls
+  514  cat Mattapan_Street
+  515  ls
+  516  cd ..
+  517  ls
+  518  cd interviews
+  519  ls
+  520  cat interview-9437737
+  521  ls
+  522  cd ..
+  523  ls
+  524  cd streets
+  525  ls
+  526  cat Buckingham_Place
+  527  ls
+  528  cat Mattapan_Street
+  529  ls
+  530  cat Haley_Street
+  531  cd ..
+  532  ls
+  533  cd interviews
+  534  ls
+  535  cat interview-699607
+  536  ls
+  537  cd ..
+  538  ls
+  539  cd vehicles
+  540  ls
+  541  cat vehicles | grep L337
+  542  cat vehicles | grep Annabel
+  543  ls
+  544  cat vehicles
+  545  ls
+  546  cat vehicles | grep Honda
+  547  cat vehicles | grep blue
+  548  ls
+  549  cat vehicles
+  550  ls
+  551  cat vehicles | grep Blue
+  552  ls
+  553  cd ..
+  554  ls
+  555  cat hint7
+  556  ls
+  557  cd mystery
+  558  ls
+  559  grep -A 5 "L337" mystery/vehicles
+  560  grep -A 5 "L337" 
+  561  ls
+  562  cd ..
+  563  ls
+  564  cat hint6
+  565  ls
+  566  cat hint5
+  567  cat hint4
+  568  ls
+  569  cat mystery
+  570  ls
+  571  cd mystery
+  572  ls
+  573  cat vehicles | grep L337ZR9
+  574  cat vehicles | grep L337
+  575  cat vehicles | grep -A 5 L337
+  576  ls
+  577  cd streets
+  578  ls
+  579  cat Mattapan_Street
+  580  ls
+  581  cd ..
+  582  ls
+  583  cd interviews
+  584  ls
+  585  cat interview-9437737
+
+  I think the killer was Oluwasagun Annabel. 
