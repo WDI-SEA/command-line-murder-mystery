@@ -1,0 +1,298 @@
+   290  git clone https://github.com/bjudas03/command-line-murder-mystery.git
+  291  ls
+  292  cd command-line-murder-mystery
+  293  ls
+  294  ls -a
+  295  open instructions
+  296  touch solutions.txt
+  297  ls
+  298  subl solutions.txt
+  299  history
+  300  ls
+  301  cd mystery
+  302  ls
+  303  cd crimescene
+  304  cat crimescene
+  305  ls
+  306  cat people
+  307  ls
+  308  ls *CLUE
+  309  ls CLUE*
+  310  ls -l clue*
+  311  ls -l *clue
+  312  ls -a
+  313  ls memberships
+  314  cat AAA
+  315  cd memberships
+  316  ls
+  317  cat AAA
+  318  ls -a
+  319  cd ..
+  320  ls -l *txt
+  321  cd memberships
+  322  ls
+  323  ls -l *txt
+  324  cd -a
+  325  ls -al *txy
+  326  ls -al *txt
+  327  ls -al *CLUE
+  328  cd ..
+  329  ls -al *CLUE
+  330  ls
+  331  cd ..
+  332  ls
+  333  cat instructions
+  334  cd mystery
+  335  ls -a 
+  336  ls -l *CLUE
+  337  ls -a *CLUE
+  338  ls -al CLUE*
+  339  ls -a CLUE*
+  340  ls -a
+  341  ls
+  342  cd ..
+  343  ls
+  344  cat cheatsheet..md
+  345  cat cheatsheet.md
+  346  ls
+  347  cd mystery
+  348  ls
+  349  cd crimescene
+  350  ls
+  351  grep CLUE
+  352  cat crimescene
+  353  grep CLUE
+  354  ls
+  355  cd ..
+  356  ls
+  357  cat hint1
+  358  cd mystery
+  359  ls
+  360  head -n 20 crimescene
+  361  grep CLUE
+  362  ls -l
+  363  cat crimescene | grep CLUE
+  364  cat mystery | clue
+  365  ls -a
+  366  ls people 
+  367  cat people | grep CLUE
+  368  cat vehicles | grep CLUE
+  369  ls
+  370  cd interviews
+  371  ls
+  372  cd ..
+  373  cd interviews
+  374  cat interview-259909
+  375  cd .
+  376  cd ..
+  377  ls
+  378  cd memberships
+  379  ls
+  380  cd ..
+  381  cat crimescene | grep CLUE
+  382  cd memberships
+  383  ls
+  384  cat AAA | grep CLUE
+  385  cat Delta_SkyMiles | grep CLUE
+  386  cd ..
+  387  ls
+  388  cd interviews
+  389  ls
+  390  cd ..
+  391  ls 
+  392  cat people | grep CLUE
+  393  cd people
+  394  ls
+  395  cd interviews
+  396  ls
+  397  cd ..
+  398  ls
+  399  cd interviews
+  400  ls
+  401  cd ..
+  402  ls
+  403  cat people | grep Annabelle
+  404  cd memberships
+  405  ls 
+  406  cat library | grep CLUE
+  407  cat library.txt | grep CLUE
+  408  cat library.txt 
+  409  cd ..
+  410  ls
+  411  cat crimescene | grep CLUE
+  412  cd memberships
+  413  ls
+  414  cat newfile.txt
+  415  ls
+  416  cat newfile.txt | grep CLUE
+  417  cat delta.txt | grep CLUE
+  418  cat 1 | grep CLUE
+  419  cat 1
+  420  cat 1.txt | grep CLUE
+  421  cat 2.txt grep CLUE
+  422  ls
+  423  cat 2.txt | grep CLUE
+  424  cat museum.txt | grep CLUE
+  425  cat newfile.txt |\nq
+  426  cat newfile.txt | grep CLUE
+  427  cd ..
+  428  ls
+  429  cd streets
+  430  ls
+  431  sort CLUDE
+  432  sort CLUE
+  433  cd ..
+  434  sort streets > CLUE.txt
+  435  cd ..
+  436  ls
+  437  cat hint2
+  438  cat hint3
+  439  cd mystery
+  440  cd ..
+  441  ls
+  442  cat cheatsheet.md
+  443  ls
+  444  open cheatsheet.pdf
+  445  ls
+  446  cd mystery
+  447  ls
+  448  clear
+  449  ls
+  450  rm CLUE.txt
+  451  ls
+  452  cat crimescene 
+  453  }clear
+  454  clear
+  455  cat crimescene | grep CLUE
+  456  ls
+  457  head people | grep "Annabelle"
+  458  cat people
+  459  grep "Anabelle
+  460  grep "Anabelle"
+  461  ls
+  462  cat crimescene | grep CLUE
+  463  cat people | grep "Annabell
+  464  cat people | grep "Annabelle"
+  465  cat people | grep "Annabel"
+  466  clear
+  467  cat crimescene | grep CLUE
+  468  cd .
+  469  cd ..
+  470  ls
+  471  cat instructions
+  472  cd mystery
+  473  ls
+  474  cat people | grep "Annabel"
+  475  clear
+  476  ls
+  477  cd streets
+  478  ls
+  479  cd ls
+  480  ls
+  481  cd ..
+  482  ls
+  483  cd interviews
+  484  ls
+  485  cd ..
+  486  ls
+  487  cd streets
+  488  ls
+  489  grep "Hart_Place"
+  490  ls
+  491  cat Hart_Place
+  492  ls
+  493  cat Hart_Place | grep CLUE
+  494  cat Buckingham_Place |
+  495  cat Buckingham_Place | grep CLUYE
+  496  cat Buckingham_Place | grep CLUE
+  497  cd ..
+  498  ls
+  499  people
+  500  cat people | grep "Annabel"
+  501  cat crimescene | grep "Hart_Place"
+  502  cat streets | grep "Hart_Place"
+  503  cd streets
+  504  cd ..
+  505  ls
+  506  cd ..
+  507  ls
+  508  cat hint 3
+  509  cat hint3
+  510  cat hint2
+  511  cat hint1
+  512  cat hint2
+  513  cat hint3
+  514  mystery
+  515  head -n 179 people
+  516  ls
+  517  cat vehicles | grep "Annabel"
+  518  head vehicles
+  519  head -20 vehicles
+  520  ls 
+  521  cd streets
+  522  ls
+  523  head -20 Hart_Place
+  524  head -20 Buckingham_Place
+  525  cat Buckingham_Place | grep Clue
+  526  cat ls
+  527  ls
+  528  head -40 streets/Hart_Place | tail -n 1
+  529  cd ..
+  530  head -40 /streets/Hart_Place | tail -n 1
+  531  ls
+  532  cd streets
+  533  head -n 40 Hart_Place | tail -n
+  534  head -n 40 Hart_Place | tail -n 1
+  535  head -n 179 Buckingham_Place | tail -n 1
+  536  cd ..
+  537  ls
+  538  cd intervies
+  539  cd interviews
+  540  ls
+  541  cat interview-472460244
+  542  cat interview-699607
+  543  cd ..
+  544  cd streets
+  545  head -n 40 | tail -n 1
+  546  ls
+  547  head -n 40 Hart_Place | tail -n 1
+  548  cd ..
+  549  cd intervies
+  550  cd interviews
+  551  cat interview-4726024
+  552  ls
+  553  cat interview-47246024
+  554  cd ..
+  555  ls
+  556  head n -20 vehicles
+  557  cat vehicles | grep "L337"
+  558  cat vehicles | grep "L337" | grep "Blue"
+  559  cd ..
+  560  cd mystery
+  561  head vehicles
+  562  grep -A 5 "L337" mystery/vehicles
+  563  grep -A 5 "L337" vehicles
+  564  cd interviews
+  565  cat interview-699607
+  566  cd ..
+  567  ls
+  568  head -20 people
+  569  ls
+  570  ls memberships
+  571  head -n 20 AAA
+  572  head -n 20 library.txt
+  573  cat library.txt
+  574  ls
+  575  cd membershipos
+  576  cd memberships
+  577  ls
+  578  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Erika Ownes"
+  579  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Libraruy | grep -c "Joe Germuska"
+  580  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library |grep -c "Jeremy Bowers"
+  581  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Libraru | grep -c "Jacqui Maher"
+  582  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jacqui Maher"
+  583  history
+  584  clear
+  585  cd ..
+  586  historyt
+Jeremy Bowers
