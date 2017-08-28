@@ -1,7 +1,4 @@
-    
-  358  git clone git@github.com:efriedla/command-line-murder-mystery.git
-  359  git clone https://github.com/efriedla/command-line-murder-mystery.git
-  360  ls
+
   361  cd command-line-murder-mystery/
   362  ls
   363  cat instructions
