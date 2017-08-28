@@ -1,0 +1,150 @@
+
+  361  cd command-line-murder-mystery/
+  362  ls
+  363  cat instructions
+  364  grep "CLUE"
+  365  ls
+  366  *CLUE
+  367  git *CLUE
+  368  cat hint1
+  369  cat2
+  370  cat3
+  371  cat hint3
+  372  cat hint2
+  373  cat hint4
+  374  cat hint1
+  375  cat hint2
+  376  cat hint3
+  377  cat hint4
+  378  cat hint5
+  379  cat hint6
+  380  cat hint7
+  381  cat hint8
+  382  cat hint9
+  383  ls
+  384  cat LICENSE
+  385  ls
+  386  grep "honda"
+  387  ls
+  388  cat crimescene
+  389  cd mystery
+  390  ls
+  391  grep "CLUE"
+  392  grep "CLUE" mystery
+  393  grep 'CLUE' 
+  394  grep 'CLUE' mystery
+  395  clear
+  396  cd ..
+  397  ls
+  398  cat hint1
+  399  head -n 20 people
+  400  cat hint2
+  401  grep "CLUE" crimescene
+  402  grep 'CLUE' crimescene
+  403  ls
+  404  cd mystery
+  405  grep "CLUE" crimescene
+  406  ls
+  407  grep "Annabel" people
+  408  grep "Annabel" interviews
+  409  grep "Annabel" Interview
+  410  ls
+  411  cd ..
+  412  ls
+  413  cat hint2
+  414  cat hint3
+  415  ls
+  416  cd mystery
+  417  ls
+  418  cat interviews
+  419  cat vehicles
+  420  ls
+  421  grep "Annabel"vehicles
+  422  grep "Annabel" vehicles
+  423  ls
+  424  cd ..
+  425  cat hint3
+  426  cat hint4
+  427* 
+  428  cat hint6
+  429  cat hint7
+  430  grep -A 5 "L337" mystery/vehicles
+  431  cat hint1
+  432  cat hint2
+  433  grep "CLUE" mystery/crimescene
+  434  cat hint8
+  435  grep "John Smith" mystery/membership
+  436  cd mystery
+  437  ls
+  438  grep "John Smith" people
+  439  cat people
+  440  grep "John" people
+  441  grep "Smith" people
+  442  grep "John Smith" people
+  443  ls
+  444  grep "John Smith" vehicles
+  445  grep "Annable Church" interviews
+  446  cd ..
+  447  cat hint 6
+  448  cat hint6
+  449  cd mystery
+  450  grep "Honda" vehicles
+  451  grep "Blue" vehical
+  452  ls
+  453  grep "Blue" vehicles
+  454  grep 5 "L337" vehicals
+  455  ls
+  456  grep 5 "L337" vehicles
+  457  grep "Honda"\|"Blue" vehicles
+  458  ls
+  459  grep "Honda"\|"Blue" vehicles
+  460  grep "Honda\|Blue" vehicles
+  461  grep "Honda\|Blue\L337" vehicles
+  462  clear
+  463  ls
+  464  grep "Honda\|Blue\L337" vehicles
+  465  grep "Honda\|Blue\|L337" vehicles
+  466  grep "Honda\|Blue\|L337\|6" vehicles
+  467  clear
+  468  grep "Honda\|Blue\|L337\|6" vehicles
+  469  clear
+  470  grep "Honda\|Blue\|L337\|6\|m" vehicles
+  471  grep "Honda\Blue\L337\6\" vehicles
+  472  cd ..
+  473  ls
+  474  cat hint6
+  475  cat hint7
+  476  grep -A "L337" mystery/vehicles
+  477  grep -A "L337" mystery/vehiclescd mystery
+  478  grep -A 5 "L337" vehicles
+  479  grep 5 "L337" vehicles
+  480  ls
+  481  cd mystery
+  482  grep 5 "L337" vehicles
+  483  cat vehicals | grep -A L337
+  484  ls
+  485  cat vehicles | grep -A L337
+  486  cat vehicles | grep -A "L337"
+  487  cat vehicles | grep -A 5 L337
+  488  cat vehicles | grep -A 5 L337 | grep -B 2 -A 3 Blue
+  489* cat vehicles | grep -A 5 L337 | grep -B 2 -A 3 Blue | grep -B 1 -A 4 Honda 
+  490  cat vehicles | grep -A 5 L337 | grep -B 2 -A 3 Blue | grep -B 4 -A 1 6'
+  491  cat vehicles | grep -A 5 L337 | grep -B 2 -A 3 Blue | grep -B 1 -A 4 Honda | grep -B 4 -A 1 6'
+  492  cat people | grep Jacqui
+  493  cat people | grep james
+  494  cat people | grep jeremy
+  495  cat people | grep Bowers
+  496  ls
+  497  cat people | grep Germuska
+  498  ls
+  499  cd memberships
+  500  ls
+  501  cat AAA | delta.txt | library.txt | Jeremy Bowers
+  502  Bowers
+  503  ls
+  504  cd ..
+  505  touch solution.txt
+  506  history
+  507  > history.txt
+  508  history
+  509  history > history.txt
