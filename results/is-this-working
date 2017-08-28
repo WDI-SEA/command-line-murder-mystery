@@ -1,0 +1,642 @@
+1  /Applications/Postgres.app/Contents/Versions/9.5/bin/psql
+    2  clear
+    3  pwd
+    4  cd
+    5  pwd
+    6  cd stevens1434/downloads
+    7  pwd
+    8  clear
+    9  pwd
+   10  clear
+   11  pwd
+   12  clear
+   13  pwd
+   14  subl
+   15  cd /Applications
+   16  ls -al
+   17  cd /usr/local
+   18  ls -al
+   19  cd bin
+   20  ls -al
+   21  rm subl
+   22  cd /Applications
+   23  ls -al
+   24  cd ~
+   25  export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin
+   26  subl ~/.zshrc
+   27  export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin
+   28  export VISUAL=subl
+   29  export EDITOR="$VISUAL"
+   30  function zedit() {\n  subl ~/.zshrc\n}
+   31  function zrefresh() {\n  echo "Refreshing your ZSH configuration."\n  source ~/.zshrc\n}
+   32  /Applications/Postgres.app/Contents/Versions/9.5/bin/psql
+   33  clear
+   34  df
+   35  clear
+   36  df
+   37  clear
+   38  Last Login was at this tim
+   39  clear
+   40  this one is cool
+   41  pwd
+   42  this one is cool too
+   43  pwd
+   44  this one is MSU colors
+   45  pwd
+   46  clear
+   47  cd /
+   48  /pwd
+   49  ~ cd /
+   50  / pwd
+   51  /
+   52  cd ~
+   53  pwd
+   54  cd -
+   55  pwd
+   56  ls
+   57  cd Users
+   58  pwd
+   59  ls
+   60  cd stevens1434
+   61  pwd
+   62  cd ~
+   63  pwd
+   64  cd Users
+   65  cd /Documents
+   66  pwd
+   67  ls
+   68  cd Applications
+   69  pwd
+   70  ls
+   71  cd ~
+   72  pwd
+   73  cd ..
+   74  cd .
+   75  pwd
+   76  cd stevens1434
+   77  pwd
+   78  ~ ls
+   79  ls
+   80  ls -l
+   81  ls
+   82  ls -l
+   83  ls -al
+   84  cd Pictures
+   85  ls -al
+   86  cd ..
+   87  pwd
+   88  cat /pictures.localized
+   89  cat /pictures
+   90  cat pictures
+   91  cat pictures/.localized
+   92  pwd
+   93  cd ..
+   94  ls
+   95  cd ~
+   96  ls
+   97  cd Desktop
+   98  ls
+   99  cd ~
+  100  pwd
+  101  clear
+  102  pwd
+  103  mkdir source
+  104  ls
+  105  cd source
+  106  pwd
+  107  clea
+  108  clear
+  109  pwd
+  110  mkdir command-line
+  111  ls
+  112  cd command-line
+  113  ls -al
+  114  touch books.txt
+  115  ls -al
+  116  subl books.txt
+  117  open .
+  118  ls
+  119  ls -l
+  120  ls -al
+  121  cat book.txt
+  122  lwd
+  123  pwd
+  124  cd books.txt
+  125  cat books.txt
+  126  touch another.txt
+  127  open .
+  128  ls
+  129  cat book.txt another.txt
+  130  cat book.txt
+  131  cat books.txt another.txt
+  132  clear
+  133  echo "Hello, I am Echo\n;\nq\necho\necho "Hello"\nquit
+  134  echo "hello"
+  135  echo "Hello, I am echo
+  136  echo "Hello"
+  137  echo 'This is a new line of text' > another.txt
+  138  echo 'this is another line of text' 
+  139  cat another.txt
+  140  echo 'this is another line of text >> another.txt
+  141  echo 'this is another line of text' >> another.txt
+  142  cat another.txt
+  143  cat books.txt
+  144  clear
+  145  cat books.txt
+  146  cat books.txt | sort
+  147  cat books.txt | grep Mil
+  148  grep Mil
+  149  cat books.txt | sort > sorted-books.txt
+  150  mv sorted-books.txt books.txt
+  151  ls
+  152  ls -al
+  153  ls-l
+  154  ls
+  155  ls -l
+  156  ls -al
+  157  ls
+  158  pwd
+  159  cd ..
+  160  pwd
+  161  ls
+  162  grep Mil
+  163  cd ..
+  164  cat stevens1434 | grep Mil
+  165  cd ~
+  166  ls
+  167  cd source/command-line
+  168  pwd
+  169  cp books.txt all-books.txt
+  170  rm all-books.txt
+  171  open .
+  172  clear
+  173  subl another.txt
+  174  cd
+  175  pwd
+  176  ls
+  177  cd source/command-line
+  178  subl another.txt
+  179  ls -al
+  180  cp another.txt some-text.txt
+  181  rm another.txt
+  182  ls
+  183  ls -l *.txt
+  184  ls -l some*
+  185  clear
+  186  pwd
+  187  ls
+  188  la *.txt
+  189  la
+  190  ls
+  191  ls - al *.txt
+  192  ls -al *.txt
+  193  la *.txt
+  194  la *.txt .o some*
+  195  la *.txt | la some*
+  196  clear
+  197  pw
+  198  pwd
+  199  clear
+  200  pwd
+  201  la *.txt .o some*
+  202  ls(1)
+  203  clear
+  204  rtfm
+  205  clear
+  206  man ls
+  207  man
+  208  ls
+  209  books.txt
+  210  man
+  211  books.txt
+  212  man books.txt
+  213  man .o
+  214  clear
+  215  man ls
+  216  man >>
+  217  man la
+  218  man ls -al
+  219  man ls
+  220  clear
+  221  cd ~
+  222  pwd
+  223  clear
+  224  cd ~
+  225  pwd
+  226  clear
+  227  pdw
+  228  pwd
+  229  ls
+  230  cd source
+  231  mkdir unit1
+  232  cd unit1
+  233  pwd
+  234  clear
+  235  pwd
+  236  cd ..
+  237  pwd
+  238  mkdir code
+  239  mv unit1 code
+  240  pwd
+  241  ls
+  242  cd code
+  243  ls
+  244  cd unit1
+  245  owd
+  246  pwd
+  247  mkdir git_practice
+  248  touch readme.md
+  249  ls
+  250  rm readme.md
+  251  ls
+  252  pwd
+  253  ls
+  254  cd git_practice
+  255  touch readme.md
+  256  ls
+  257  git init
+  258  ls
+  259  ls -a
+  260  pwd
+  261  git status
+  262  git log
+  263  git stats
+  264  git status
+  265  git add -A
+  266  git status
+  267  git commit -a -m "first commit"
+  268  git status
+  269  git -v
+  270  la -a
+  271  ls
+  272  la
+  273  subl rea
+  274  subl readme.md
+  275  open .
+  276  pwd
+  277  ls
+  278  git status
+  279  git diff
+  280  git -v
+  281  git help
+  282  git add -A
+  283  git commit -a -m "added a sick readme file"
+  284  git status
+  285  git checkout
+  286  git status
+  287  git diff
+  288  git status
+  289  git log
+  290  git help
+  291  cd..
+  292  pwd
+  293  git@github.com:stevens1434/firstPush.git
+  294  https://github.com/stevens1434/firstPush.git
+  295  git remote add origin https://github.com/stevens1434/firstPush.git
+  296  git push -u origin master
+  297  pwd
+  298  git status
+  299  git log
+  300  git status
+  301  git log
+  302  git help
+  303  git status
+  304  git add -A
+  305  git status
+  306  git diff
+  307  git add -A
+  308  git commit -a -m "adding another thingy"
+  309  git push origin master
+  310  git remote -v
+  311  git status
+  312  git log
+  313  git -v
+  314  git help
+  315  pwd
+  316  clear
+  317  cd ..
+  318  cd git_practice
+  319  pwd
+  320  ls
+  321  cd readme.md
+  322  cd firstCommit
+  323  pwd
+  324  clear
+  325  pwd
+  326  git clone https://github.com/stevens1434/command-line-murder-mystery.git
+  327  pwd
+  328  ls
+  329  rm -rf command-line-murder-mystery
+  330  cd source
+  331  git clone https://github.com/stevens1434/command-line-murder-mystery.git
+  332  cd command-line-murder-mystery
+  333  cat command-line-murder-mystery | grep clue
+  334  cd mystery
+  335  ls
+  336  cat crimescene | grep clue
+  337  cat crimescene
+  338  grep clue
+  339  cat crimescene | grep clue
+  340  pwd
+  341  ls
+  342  cd source
+  343  ls
+  344  cd command-line-
+  345  cd command-line-murder-mystery
+  346  ls
+  347  cat readme.md
+  348  clear
+  349  ls
+  350  cat cheatsheet.pdf
+  351  clear
+  352  ls
+  353  cat hint1
+  354  head -n
+  355  head -n 2o people
+  356  head -n 20 people
+  357  head - n 20
+  358  head
+  359  head -n
+  360  head -n 20
+  361  cat hint2
+  362  cat hint3
+  363  head -people
+  364  cat hint1
+  365  head -n hint4
+  366  head hint4
+  367  grep "Annabel" people
+  368  lwd
+  369  lws
+  370  lsw
+  371  lpd
+  372  lws
+  373  ls
+  374  pwd
+  375  clear
+  376  pwd
+  377  ls
+  378  cat cheatsheet.md
+  379  clear
+  380  pwd
+  381  ls
+  382  cat hint5
+  383  head -n173 streets/Mattapan_Street
+  384  head -n 173 streets/Mattapan_Street ù tail -n 1
+  385  head -n 173 streets
+  386  cd mystery
+  387  lw
+  388  ls
+  389  cat crimescene | grep clue
+  390  clear
+  391  lws
+  392  ls
+  393  cd people
+  394  cat people
+  395  cd ..
+  396  cat hint5
+  397  cat hint6
+  398  ls
+  399  mystery
+  400  cd mystery
+  401  ls
+  402  pwd
+  403  ls
+  404  cd source
+  405  ls -la
+  406  cd command-line-murder-mystery
+  407  ls-al
+  408  ls -al
+  409  cd mystery
+  410  ls -al
+  411  cat crimescene
+  412  cat crimescene | grep CLUE
+  413  ls
+  414  cd ..
+  415  ls
+  416  cat instructions
+  417  ls
+  418  cd mystery
+  419  ls
+  420  vehicles
+  421  cat vehicles
+  422  ls
+  423  cd interviews
+  424  ls
+  425  cat interview-322305
+  426  ls
+  427  cat interview | grep Francisco
+  428  cat interview* | grep Francisco
+  429  cat interview* | grep Lips
+  430  cat interview* | grep Annabel
+  431  ls
+  432  cd ..
+  433  lw
+  434  ls
+  435  cd memberships
+  436  ls
+  437  cat AAA
+  438  ls
+  439  cat AAA | grep Frans
+  440  cat AA | grep Fr
+  441  cat AAA | grep Fr
+  442  cat Delta_SkyMiles | grep Fr
+  443  cat AAA | grep Francisc
+  444  cat Delta_SkyMiles | grep Francisc
+  445  cat Museum_of_Bash_History | grep Francisc
+  446  cat library.txt | grep Francisc
+  447  ls
+  448  cd ..
+  449  ls
+  450  cat people | ➜  memberships git:(master) cat AAA | grep Francisc
+  451  Francisca Mocsai
+  452  Francisco Irvine
+  453  Timothy Francisca
+  454  ➜  memberships git:(master) cat Delta_SkyMiles | grep Francisc
+  455  Timothy Francisca
+  456  Francisca Mocsai
+  457  ➜  memberships git:(master) cat Museum_of_Bash_History | grep Francisc
+  458  Francisco Feldwehr
+  459  ➜  memberships git:(master) cat library.txt | grep Francisc
+  460  Francisco Lahbabi
+  461  Francisco Lips
+  462  ➜  memberships git:(master) 
+  463  cat people | grep Annabel
+  464  ls
+  465  s
+  466  ls
+  467  cd interviews
+  468  cat interview* | grep Oluwasegun
+  469  cat interv* | grep Anna
+  470  grep Anna
+  471  cat interview-* | grep Annabel
+  472  cat interview*
+  473  ls
+  474  cd ..
+  475  ls
+  476  la
+  477  cat vehicles | grep 9R7TTF
+  478  cat vehicles | grep Volks
+  479  cat vehicles
+  480  ls
+  481  cd ..
+  482  cat hint1
+  483  cat hint2
+  484  cat hint3
+  485  ls
+  486  cd mystery
+  487  ls
+  488  cd streets
+  489  ls
+  490  cd ..
+  491  ls
+  492  cd people
+  493  cat people | grep Annabel
+  494  cat people | grep Francisco
+  495  ls
+  496  cat vehicles
+  497  cd ..
+  498  ls
+  499  cat hint4
+  500  cd mystery
+  501  ls
+  502  cat people | grep Annabel
+  503  cat cheatsheet.md
+  504  cat cheatsheet
+  505  cat hint5
+  506  ls
+  507  cd ..
+  508  cat hint5
+  509  head -n 173 streets/Mattapan_Street | tail -n 1
+  510  cd mystery
+  511  ls
+  512  la
+  513  ls
+  514  cd streets
+  515  head -n 173 streets/Mattapan_Street | tail -n 1
+  516  ls
+  517  cat Mattapan_Street
+  518  head -n 173 streets/Mattapan_Street | tail -n 1
+  519  head -n 173 streets/Mattapan_Street
+  520  head -n 173 Mattapan_Street | tail -n 1
+  521  ls
+  522  cd ..
+  523  ls
+  524  cat crimescene
+  525  ls
+  526  cd memberships
+  527  SEE INTERVIEW #9437737
+  528  cd ..
+  529  ls
+  530  cd interviews
+  531  ls
+  532  INTERVIEW-9437737
+  533  cat interview-9437737
+  534  ls
+  535  cd ..
+  536  ls
+  537  cd ..
+  538  cat hint6
+  539  cat hint7
+  540  ls
+  541  cd mystery
+  542  ls
+  543  cd streets
+  544  ls
+  545  cat Hart_Place  
+  546  cd ..
+  547  ls
+  548  cd streets
+  549  cat streets
+  550  ls
+  551  cat Buckingham_Place
+  552  ls
+  553  cat Haley_Street
+  554  ls
+  555  cd ..
+  556  ls
+  557  cd interviews
+  558  ls
+  559  cat interview-871877
+  560  cat interview-699607
+  561  cat interview-47246024
+  562  ls
+  563  cd ..
+  564  ls
+  565  cat vehicles | grep *L337
+  566  cat vehicles
+  567  cat vehicles | grep L33
+  568  ls
+  569  cat people
+  570  cat people | grep Bostock
+  571  ls
+  572  cd memberships
+  573  ls
+  574  cat AAA | joe
+  575  cat AAA | grep joe
+  576  cat AAA | grep Bowers
+  577  cat AAA | grep Joe
+  578  cat AAA | grep Jacq
+  579  cat Delta_SkyMiles | grep Joe
+  580  cat Delta_SkyMiles | grep Bowers
+  581  cat Delta_SkyMiles | grep Jacq
+  582  cat library.txt | grep Joe
+  583  cat library.txt | grep Bowers
+  584  cat library.txt | grep Jacq
+  585  cat Museum_of_Bash_History | grep Joe
+  586  cat Museum_of_Bash_History | grep Bowers
+  587  cat Museum_of_Bash_History | grep Jacq
+  588  ls
+  589  cd ..
+  590  ls
+  591  cat people | grep Jacqui Maher
+  592  cat people | grep Jacqui
+  593  cd ..
+  594  ls
+  595  cat hint8
+  596  I FOUND IT, IT WAS J. BOWERS
+  597  git add -A
+  598  git status
+  599  git commit -a -m "completed project"
+  600  git init
+  601  git add -A
+  602  git commit -a -m "completed project"
+  603  git log
+  604  git status
+  605  git history
+  606  git hlep
+  607  git help
+  608  git push origin master
+  609  history
+  610  ls
+  611  pwd
+  612  touch results
+  613  ls
+  614  cd results
+  615  pwd
+  616  mkdir Results
+  617  rm results
+  618  ls
+  619  mkdir results
+  620  cd results
+  621  ls
+  622  pwd
+  623  history
+  624  git add -A
+  625  git commit -a -m "commit"
+  626  git status
+  627  ls
+  628  pwd
+  629  touch is-this-working
+  630  ls
+  631  git status
+  632  history
+  633  git status
+  634  git add -A
+  635  git status
+
+
+
+THE KILLER IS….
+
+
+Jeremy Bowers
