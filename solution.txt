@@ -237,5 +237,101 @@
   487  ls 
   488  cat hin5
   489  cat hint5
+  490  history
+  491  ls
+  492  cd ..
+  493  ls
+  494  cd command-line-murder-mystery
+  495  ls
+  496  cd mystery
+  497  ls
+  498  cd ..
+  499  ls
+  500  cd ..
+  501  ls
+  502  cd command-line-murder-mystery
+  503  ls
+  504  git commit
+  505  git add -A
+  506  git status
+  507  git commit -a -m "added the solution.txt file"
+  508  git push origin master
+  509  ls
+  510  cd mystery
+  511  ls
+  512  cd streets
+  513  ls
+  514  cat Mattapan_Street
+  515  ls
+  516  cd ..
+  517  ls
+  518  cd interviews
+  519  ls
+  520  cat interview-9437737
+  521  ls
+  522  cd ..
+  523  ls
+  524  cd streets
+  525  ls
+  526  cat Buckingham_Place
+  527  ls
+  528  cat Mattapan_Street
+  529  ls
+  530  cat Haley_Street
+  531  cd ..
+  532  ls
+  533  cd interviews
+  534  ls
+  535  cat interview-699607
+  536  ls
+  537  cd ..
+  538  ls
+  539  cd vehicles
+  540  ls
+  541  cat vehicles | grep L337
+  542  cat vehicles | grep Annabel
+  543  ls
+  544  cat vehicles
+  545  ls
+  546  cat vehicles | grep Honda
+  547  cat vehicles | grep blue
+  548  ls
+  549  cat vehicles
+  550  ls
+  551  cat vehicles | grep Blue
+  552  ls
+  553  cd ..
+  554  ls
+  555  cat hint7
+  556  ls
+  557  cd mystery
+  558  ls
+  559  grep -A 5 "L337" mystery/vehicles
+  560  grep -A 5 "L337" 
+  561  ls
+  562  cd ..
+  563  ls
+  564  cat hint6
+  565  ls
+  566  cat hint5
+  567  cat hint4
+  568  ls
+  569  cat mystery
+  570  ls
+  571  cd mystery
+  572  ls
+  573  cat vehicles | grep L337ZR9
+  574  cat vehicles | grep L337
+  575  cat vehicles | grep -A 5 L337
+  576  ls
+  577  cd streets
+  578  ls
+  579  cat Mattapan_Street
+  580  ls
+  581  cd ..
+  582  ls
+  583  cd interviews
+  584  ls
+  585  cat interview-9437737
 
-  I think the killer was Annabel Fuglslang. 
+  I think the killer was Oluwasagun Annabel. 
