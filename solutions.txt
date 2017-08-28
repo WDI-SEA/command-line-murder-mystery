@@ -1,0 +1,403 @@
+➜  memberships git:(master) history
+    1  sudo gem update
+    2  sudo gem install rails
+    3  rails -v
+    4  $ sudo gem install rails
+    5  rails -v
+    6  ruby -v
+    7  which ruby
+    8  which rails
+    9  which bundle
+   10  which gem
+   11  node -v
+   12  npm -v
+   13  git --version
+   14  psql --version
+   15  subl -v{or atom -v)
+   16  subl -v
+   17  psql --version
+   18  psql
+   19  cd fundamentals
+   20  ls
+   21  git commit -m 'created game logic'
+   22  git push origin master
+   23  cd memory_game
+   24  git commit -m 'created game logic'
+   25  git push origin master
+   26  cd index.html
+   27  cd ~
+   28  ls
+   29  cd fundamentals
+   30  ls
+   31  git comit -m 'created game logic'
+   32  git commit -m 'created gae logic'
+   33  q
+   34  quit
+   35  exit git
+   36  cd ~
+   37  ls
+   38  cd fundamentals
+   39  ls
+   40  exit git
+   41  ls
+   42  cd fundamentals
+   43  exit git:(master)
+   44  exit: git
+   45  quit git
+   46  git commit
+   47  git commit: memory_game
+   48  commit memory_game
+   49  commit: memory_game
+   50  cd memory_game
+   51  git commit
+   52  ls
+   53  cd fundamentals
+   54  ls
+   55  cd memory_game
+   56  git add -A
+   57  git commit -m 'created game logic'\n\n
+   58  git push origin master
+   59  cd index.html
+   60  cd memory_game/index.html
+   61  cd fundamentals
+   62  ls
+   63  git commit
+   64  ls
+   65  cd fundamentals
+   66  git add -A
+   67  ls
+   68  git commit -m 'created game logic'
+   69  git commit -m'created game logic'
+   70  ls
+   71  cd fundamentals
+   72  ls
+   73  cd memory_game
+   74  git add -A
+   75  git commit -m 'created game logic'
+   76  ls
+   77  cd fundamentals
+   78  ls
+   79  cd memory_game
+   80  git add -A
+   81  git commit -m 'created game logic' 
+   82  git push origin master
+   83  echo "# memory_game" >> README.md
+   84  ls
+   85  cd fundamentals
+   86  cd memory_game
+   87  git init
+   88  git add README.md
+   89  git commit
+   90  git remote add origin https://github.com/tbricca/memory_game.git
+   91  push -u origin master
+   92  git push -u origin master
+   93  cd index.html
+   94  git push index.html
+   95  ls
+   96  cd fundamentals
+   97  git clone https://github.com/tbricca/wdi-fundamentals-memorygame.git
+   98  git push
+   99  git remote add 
+  100  ls
+  101  git add -A
+  102  git commit -m 'created game logic'
+  103  git push origin master
+  104  pwd
+  105  cd /
+  106  /pwd
+  107  / pwd
+  108  cd / pwd
+  109  ~ cd /
+  110  / pwd
+  111  / ls
+  112  ls
+  113  cd
+  114  pwd
+  115  ls
+  116  cd Users
+  117  /Users pwd
+  118  cd ~
+  119  cd /
+  120  ls
+  121  cd Users
+  122  ls
+  123  cd ~
+  124  cd .
+  125  ls
+  126  ls - l
+  127  ls -l
+  128  -al
+  129  - al
+  130  ls -a
+  131  ls -al
+  132  pwd
+  133  cd
+  134  cd~
+  135  ls
+  136  cd ~
+  137  ls
+  138  mkdir source
+  139  ls
+  140  cd source 
+  141  mkdir command-line
+  142  ls
+  143  cd command line
+  144  cd command-line
+  145  touch books.txt
+  146  subl books.txt
+  147  ls-l
+  148  ls -l
+  149  touch another.txt
+  150  subl another.txt
+  151  touch cat books.txt
+  152  cat books.txt another .txt
+  153  cat books.txt another.txt
+  154  clear
+  155  echo "Hello I am echo\n;\nq\n'\n/q\nquit\n\n\n\nexit\necho 'Hello I am echo\!'\nls ~\nclear
+  156  echo 'Hello I am echo!'
+  157  echo 'This is a new line of tect' > another.txt
+  158  cat another.txt
+  159  echo 'This is another one.' >> antoher.txt
+  160  cat antoher.txt
+  161  echo 'This is another one.' >>another.txt
+  162  cat another.txt
+  163  cat books.txt
+  164  cat books.txt | sort
+  165  ls -al
+  166  ls | sort
+  167  cat books.txt | grep
+  168  cat books. txt | grep MIl
+  169  cat books.txt | sort > sorted-books.txt
+  170  cat sorted-books.txt
+  171  mv sorted-books.txt books.txt
+  172  mv another.txt ssome-text.txt
+  173  ls -al
+  174  cp books.txt all-books.txt
+  175  ls -al
+  176  rm all-books.txt
+  177  ls-l
+  178  ls -l
+  179  subl
+  180  subl ssome-text.txt
+  181  cd ~
+  182  cd/source/command-line
+  183  cd source/command-line
+  184  ls -l *.txt
+  185  ls -l some*
+  186  ls -l ssome*
+  187  man ls
+  188  clear
+  189  cd ~
+  190  cd source
+  191  mkdir unit1
+  192  cd unit1
+  193  mkdi git_practice
+  194  mkdir git_practice
+  195  cd git_practice
+  196  touch readme.md
+  197  ls readme.md
+  198  git init
+  199  ls -a
+  200  git status 
+  201  git add -A
+  202  git commit -a -m "first commit"
+  203  git status
+  204  git --version
+  205  ls
+  206  sblme readme.md
+  207  subl readme.md
+  208  git diff
+  209  git add -a
+  210  git add -A
+  211  git commit -a -m"added a sick readme file"
+  212  git log
+  213  cd
+  214  ~
+  215  cd
+  216  cd ~
+  217  clear
+  218  cd ..
+  219  cd ~
+  220  cd code
+  221  cd source
+  222  ls
+  223  cd unit1
+  224  git clone git@github.com:tbricca/flooly.git
+  225  ls
+  226  cd flooly
+  227  touch readme.md
+  228  subl readme.md
+  229  git add -A
+  230  git status
+  231  git commit -a -m"firt commit, added readme.md"
+  232  git push origin master
+  233  git remote -v
+  234  cd unit1
+  235  ls
+  236  cd ~
+  237  ls
+  238  cd source
+  239  ls
+  240  cd unit1
+  241  git clone git@github.com:tbricca/command-line-murder-mystery.git
+  242  ls
+  243  mv command-line-murder-mystery
+  244  ls
+  245  cd command-line-murder-mystery
+  246  ls
+  247  cd instructions
+  248  cat instructions
+  249  ls
+  250  grep [CLUE][command-line-murderm-mystery]
+  251  grep [CLUE] [command-line-murder-mystery]
+  252  mdfind [search_CLUE]
+  253  grep [search_CLUE] [command-line-murder-mystery]
+  254  grep [search_CLUE} [LICENSE]
+  255  grep [search_CLUE][LICENSE]
+  256  grep [search_CLUE] [LICENSE]
+  257  grep [search_CLUE] [mystery]
+  258  grep [search_CLUE][mystery]
+  259  grep -r [search_CLUE] [mystery]
+  260  cd mystery
+  261  grep [search_CLUE] [mystery]
+  262  grep CLUE
+  263  ls
+  264  cd crimescene
+  265  grep [search_CLUE] [crimescene]
+  266  grep [search_"CLUE"] [crimescene
+  267  grep [search_"CLUE"] [crimescene]
+  268  grep [search_
+  269  grep [search_"CLUE"][crimescene]
+  270  grep[search_"CLUE"][crimescene]
+  271  cat crimescene | grep CLUE
+  272  cat interviews | grep Annabel
+  273  cd interviews
+  274  ls
+  275  grep -r --include=*.{cc,h} "Annabel"
+  276  grep -r "Annabel"
+  277  cd memberships
+  278  cd mystery
+  279  cd ~
+  280  ls
+  281  cd source
+  282  ls
+  283  cd unit1
+  284  ls
+  285  cd command-line-murder-mystery
+  286  ls
+  287  cd mystery
+  288  ls
+  289  cd memberships
+  290  ls
+  291  cd ~
+  292  ls
+  293  cd source
+  294  ls
+  295  cd unit1
+  296  ls
+  297  cd command-line-murder-mystery
+  298  cd
+  299  mystery
+  300  ls
+  301  cd source
+  302  cd unit1
+  303  ls
+  304  cd command-line-murder-mystery
+  305  cat people | grep Annabel
+  306  ls
+  307  cd mystery
+  308  ls
+  309  cat people | grep Annabel
+  310  cat people | grep New Zealand
+  311  at people | grep Zealand
+  312  cat people | grep blonde
+  313  ls
+  314  cat people | grep blonde
+  315  cat crimescene | grep Zealand
+  316  cat crimescene | grep Annabel
+  317  grep people | grep barista
+  318  cat people | grep barista
+  319  ls
+  320  open people.txt
+  321  open people
+  322  ls
+  323  cd -
+  324  ls
+  325  cd hint1
+  326  open hint1
+  327  opeb hint1
+  328  open hint1
+  329  head -n 20 people
+  330  cat people | grep Annabel
+  331  cd mystery
+  332  cat people | grep Annabel
+  333  ls
+  334  cat vehicles | grep Annabel Sun
+  335  cat vehicles | Hart
+  336  cd streets
+  337  ls
+  338  cd Hart_Place
+  339  open Hart_Place
+  340  cat Hart_Place | Annabel
+  341  cd interviews
+  342  ls
+  343  cd -
+  344  ls
+  345  cd interviews
+  346  ls
+  347  cd -
+  348  ls
+  349  cd streets
+  350  open Hart_Place
+  351  cat Hart_Place | grep male
+  352  ls
+  353  cat Hart_Place | grep Line 40
+  354  cat Hart_Place | grep line
+  355  open Hart_Place
+  356  cat Hart_Place | grep interview
+  357  ls
+  358  cat Hart_Place | grep INTERVIEW
+  359  cd - 
+  360  ls
+  361  cd interviews
+  362  cat INTERVIEW #47346024 | grep male
+  363  ls
+  364  cat interview-47246024 | grep male
+  365  cat interview-47246024 | grep tall
+  366  cat interview-47246024 | robbery
+  367  open interview-47246024
+  368  ls
+  369  cd -
+  370  ls
+  371  cd streets
+  372  ls
+  373  cd Buckingham_Place
+  374  open Buckingham_Place
+  375  cat Buckingham_Place | grep INTERVIEW
+  376  CD -
+  377  cd -
+  378  ls
+  379  cd interviews
+  380  open interview-#699607
+  381  open interview-699607
+  382  cd -
+  383  cd vehicles
+  384  open vehicles
+  385  ls
+  386  cat people | grep jeremy bowers
+  387  cat people | grep Joe Germuska
+  388  cat people | grep Jeremy Bowers
+  389  cat people | grep Bowers
+  390  cat people | grep Germuska
+  391  cd streets
+  392  open Plainfield_Street
+  393  open Dunstable_Road
+  394  cd -
+  395  ls
+  396  cd interviews
+  397  open interview-29741223
+  398  open interview-9620713
+  399  cd -
+  400  cd memberships
+  401  ls
+Jeremy Bowers did it. 
