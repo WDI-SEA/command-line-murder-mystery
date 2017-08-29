@@ -1,0 +1,308 @@
+    1  subl ~/.zshrc
+    2  brew install rbenv
+    3  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+    4  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+    5  source ~/.zshrc
+    6  sudo chown -R $USER ~/.rbenv
+    7  brew install ruby-build
+    8  rbenv install 2.4.1
+    9  rbenv global 2.4.1
+   10  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+   11  sudo gem update
+   12  sudo gem install rails
+   13  rails -v
+   14  ruby -v
+   15  which ruby
+   16  which rails
+   17  which bundle
+   18  which gem
+   19  node -v
+   20  npm -v
+   21  git --version
+   22  psql --version
+   23  subl -v
+   24  which psql
+   25  subl ~/.zshrc
+   26  which psql
+   27  psql --version
+   28  rvm list known
+   29  rvm install X.X
+   30  pwd
+   31  cd downloads
+   32  cd wdi-fundamentals-memorygame-master
+   33  open
+   34  cd ..
+   35  open wdi-
+   36  pwd
+   37  cd /
+   38  pwd
+   39  ls
+   40  cd Users
+   41  pwd
+   42  ls
+   43  cd admin
+   44  pwd
+   45  cd Documents
+   46  cd ..
+   47  pwd
+   48  cd .
+   49  ls
+   50  ls -l
+   51  ls -la
+   52  cd ~
+   53  pwd
+   54  mkdir ga
+   55  ls
+   56  cd ga
+   57  pwd
+   58  mkdir command-line
+   59  ls -al
+   60  cd command-line
+   61  ls -al
+   62  touch books.txt
+   63  ls -al
+   64  subl books.txt
+   65  ls -al
+   66  cat books.txt
+   67  touch another.txt
+   68  subl another.txt
+   69  cat books.txt another.txt
+   70  clear
+   71  echo
+   72  echo 'Hello I am echo'
+   73  echo 'This is a new line of text' > another.txt
+   74  cat another.txt
+   75  echo 'this is another one' >> another.txt
+   76  cat another.txt
+   77  cat books.txt
+   78  cat books.txt | sort
+   79  ls | sort
+   80  cat books.txt | grep Dic
+   81  cat books.txt | grep Dik
+   82  cat books.txt | grep car
+   83  cat books.txt | grep Car
+   84  cat books.txt | sort > sorted-books.txt
+   85  ls -al
+   86  cat sorted-books.txt
+   87  ls -al
+   88  mv sorted-books.txt books.txt
+   89  ls -al
+   90  mv another.txt some-text.txt
+   91  cp books.txt all-books.txt
+   92  ls -al
+   93  rm all-books.txt
+   94  ls -al
+   95  subl some-text.txt
+   96  ~
+   97  cd ga/command-line
+   98  ls
+   99  touch another-thing
+  100  touch something-else
+  101  ls -al
+  102  ls -l *.txt
+  103  ls -l some*
+  104  ls -l *.txt -o some*
+  105  history
+  106  man ls
+  107  pwd
+  108  cd ga
+  109  mkdir code
+  110  cd code
+  111  mkdir unit1
+  112  ls
+  113  cd unit1
+  114  mkdir git_practice
+  115  cd git_practice
+  116  touch readme.md
+  117  ls
+  118  git init
+  119  ls -a
+  120  git status
+  121  git add -A
+  122  git status
+  123  git commit -a -m "first commit"
+  124  git status
+  125  git --version
+  126  cd ..
+  127  ls
+  128  cd git_practice
+  129  ls
+  130  open rea
+  131  open readme.md
+  132  clear
+  133  diff --git a/readme.md b/readme.md
+  134  diff --git readme.md
+  135  git diff readme.md
+  136  git status
+  137  git checkout
+  138  git status
+  139  git log
+  140  git rm readme.md
+  141  git status
+  142  git rm readme.md
+  143  git checkout readme.md
+  144  git status
+  145  git rm readme.md
+  146  git status
+  147  git commit -a -m "deleted"
+  148  git clone git@github.com:ElenaOl/flooly.git
+  149  unit1 ls
+  150  cd ga
+  151  cd git_practice
+  152  ls
+  153  cd code
+  154  ls
+  155  cd unit1
+  156  ls
+  157  cd git_practice
+  158  git status
+  159  cd ..
+  160  git clone git@github.com:ElenaOl/flooly.git
+  161  ls
+  162  cd flooly
+  163  touch readme.md
+  164  subl readme.md
+  165  git add -A
+  166  git status
+  167  git commit -a -m "first file"
+  168  git push origin master
+  169  git remote -v
+  170  cd ..
+  171  git clone git@github.com:ElenaOl/command-line-murder-mystery.git
+  172  ls
+  173  cd command-line-murder-mystery
+  174  ls
+  175  cat instructions
+  176  open instructions
+  177  pwd
+  178  ls
+  179  ls -al
+  180  cd mystery
+  181  ls
+  182  open crimescene
+  183  pwd
+  184  cat crimescene
+  185  cat crimescene | grep CLUE
+  186  ls
+  187  open people
+  188  cat people | grep Annabel
+  189  open people
+  190  open crimescene
+  191  ls
+  192  cd interviews
+  193  ls
+  194  ls -l Annabel*
+  195  cd ..
+  196  ls
+  197  cat crimescene |grep Annabel
+  198  ls
+  199  cat people | grep Annabel
+  200  cd streets
+  201  ls
+  202  cd ..
+  203  ls
+  204  cd memberships
+  205  ls
+  206  open AAA
+  207  cat AAA | sort
+  208  cat Delta |sort
+  209  ls
+  210  cat Delta_SkyMiles | sort
+  211  cd ..
+  212  ls
+  213  open crimescene
+  214  open cheatsheet
+  215  open cheatsheet.md 
+  216  ls
+  217  ls -la cheat*
+  218  cat hint1
+  219  open CL
+  220  pwd
+  221  cd ..
+  222  ls
+  223  open hint1
+  224  open hint2
+  225  open hint3
+  226  open cheatsheet
+  227  open cheatsheet.md
+  228  head -n 20 people
+  229  cd mystery
+  230  head -n 20 people
+  231  cat people | grep Annabel
+  232  ls
+  233  /interviews$ -i "Annabel" 
+  234  cd interviews
+  235  grep -r "Annabel" *
+  236  cd ..
+  237  grep -r "Annabel" *
+  238  cd interviews
+  239  ls
+  240  open interview-000296 
+  241  open hint2
+  242  cd ..
+  243  open hint2
+  244  open hint1
+  245  ls
+  246  cd mystery
+  247  ls
+  248  cd streets
+  249  ls -al
+  250  ls
+  251  grep "Hart Place"
+  252  cat Hart_Place
+  253  cd Hart Place
+  254  pwd
+  255  ls
+  256  cd Hart Place
+  257  cd Hart_Place
+  258  open Hart_Place
+  259  head -n 40 Hart_Place
+  260  head -n 179 Buckingham_Place
+  261  cd ..
+  262  ls
+  263  cd interviews
+  264  ls
+  265  open interview-47246024
+  266  open interview-699607
+  267  cd ..
+  268  ls
+  269  cd vehicles
+  270  cat vehicles | sort
+  271  cat vehicles | grep L337 -a 5
+  272  cat vehicles | grep L337 -A 5
+  273  ls
+  274  cd membership
+  275  cd memberships
+  276  ls
+  277  cat AAA | grep Maher -A 5
+  278  cat Delta_SkyMiles | grep Maher -A 5
+  279  cat library.txt | grep Maher -A 5
+  280  cat Museum_of_Bash_History | grep Maher -A 5
+  281  open interview-47246024
+  282  cd ..
+  283  cd interviews
+  284  open interview-47246024
+  285  cat AAA | grep Owens -A 5
+  286  cd ..
+  287  ls
+  288  cd memberships
+  289  cat AAA | grep Owens -A 5
+  290  cat Museum_of_Bash_History | grep Owens -A 5
+  291  cat AAA | grep Pilhofer -A 
+  292  cat AAA | grep Pilhofer 
+  293  cat AAA | grep Germuska
+  294  cat Delta_SkyMiles | grep Germuska
+  295  cat Delta_SkyMiles | grep Bowers
+  296  cat AAA | grep Bowers
+  297  cat Delta_ | grep Bowers
+  298  cat Delta_S | grep Bowers
+  299  cat Delta_SkyMiles | grep Bowers
+  300  cat library.txt | grep Bowers 
+  301  cat Museum_of_Bash_History | grep Bowers 
+  302  cd ..
+  303  ls
+  304  cat people | grep Bowers
+  305  cat people | grep Maher
+  306  history
+  307  cd ..
+  308  history
