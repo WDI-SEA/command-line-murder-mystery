@@ -1,0 +1,194 @@
+History from the Start fo the Mystery! 
+
+  181  cd command-line-murder-mystery
+  182  ls
+  183  cat instructions
+  184  ls
+  185  cd mystery
+  186  ls
+  187  cd crimescene
+  188  ls
+  189  cd crimescene
+  190  ls
+  191  cat crimescene
+  192  clear
+  193  cd ..
+  194  cat instructions
+  195  cd mystery
+  196  cat crimescene CLUE*
+  197  cat crimescene | grep CLUE
+  198  cd ..
+  199  ls
+  200  cd mystery
+  201  ls
+  202  cd ..
+  203  touch solution.txt
+  204  subl solution.txt
+  205  ls
+  206  cd mystery
+  207  ls
+  208  cd interviews
+  209  ls
+  210  cd memberships
+  211  cd ..
+  212  cd memberships
+  213  ls
+  214  cat AAA
+  215  clear
+  216  cd..
+  217  cd ..
+  218  ls
+  219  cat people
+  220  cat people.txt | grep annabelle*
+  221  ls
+  222  cat people.txt | grep ann*
+  223  cat poeple.txt | grep Ann*
+  224  clear
+  225  la
+  226  ls - a
+  227  ls -a
+  228  cd interviews
+  229  ls
+  230  cd ..
+  231  cd streets
+  232  ls
+  233  cd ..
+  234  ls
+  235  cat vehicles
+  236  ls
+  237  cd memberships
+  238  ls
+  239  subl museum.txt
+  240  subl Museum_of_Bash_History
+  241  subl library.txt
+  242  cd ..
+  243  ls
+  244  cd ..
+  245  ls
+  246  open cheatsheet.pdf
+  247  cd mystery
+  248  ls
+  249  head -n 20 people
+  250  ls
+  251  cd interviews
+  252  grep Annabel
+  253  grep "Annabel" *
+  254  cd ..
+  255  ls
+  256  grep -A 4 "Annabel" people.txt
+  257  ls -a
+  258  ls -l
+  259  cd interviews
+  260  grep "Annabel" *
+  261  cd streets 
+  262  cd streets
+  263  cd ..
+  264  ls
+  265  cd streets
+  266  ls
+  267  cd ..
+  268  cd memberships
+  269  ls
+  270  open 1.txt
+  271  open 2.txt
+  272  head -n 20 AAA
+  273  head -n 20 Costco
+  274  cd ..
+  275  ls
+  276  head -n 20 vehicles
+  277  grep "Annabel" people
+  278  cd streets
+  279  grep "Mattapan"
+  280  ls
+  281  open Mattapan_Street
+  282  cd ..
+  283  ls
+  284  cd interviews
+  285  ls
+  286  clear
+  287  ls
+  288  clear
+  289  cd ..
+  290  ls
+  291  grep "Annabel Sun" vehicles
+  292  grep -A 4 "Annabel Sun" vehicles
+  293  grep -A 4 "Annabel Church" vehicles
+  294  grep -A 4 "Annabel Fuglsang" vehicles
+  295  ls
+  296  grep "Anabel" People
+  297  cat people.txt | grep "Annabel"
+  298  cat people | grep "Annabel"
+  299  cd streets
+  300  head -n 248 streets/Monument_Avenue -n 1
+  301  cat people | grep annabel
+  302  cd ..
+  303  cat people | grep annabel
+  304  cd streets 
+  305  ls
+  306  grep Monument Avenue
+  307  grep Monument_Avenue
+  308  cat Monument_Ave | grep "Annabel"
+  309  cat Hart_Place 
+  310  cat Hart_Place | "Annabel"
+  311  cat Hart_Place | grep "Annabel"
+  312  cd ..
+  313  ls
+  314  cd interviews
+  315  ls
+  316  grep "Annabel" *
+  317  cat vehicles | greb "Annabel"
+  318  cd ..
+  319  ls
+  320  cat vehicles | greb "Annabel"
+  321  cat vehicles | grep "Annabel"
+  322  cat vehicles | grep -A 5 "Annabel Church"
+  323  head -n 25 vehicles
+  324  cd interviews
+  325  grep "Annabel"
+  326  cd ..
+  327  cd streets 
+  328  ls 
+  329  cat Hart_Place | grep "Annabel"
+  330  head -n 173 streets/Mattapan_Street | tail -n 1
+  331  head -n 179 streets/Buckingham_Place | tail -n 1
+  332  head -n 179 Buckingham_Place | tail -n 1
+  333  cd ..
+  334  ls
+  335  cd interviews
+  336  grep "699607"
+  337  ls
+  338  open interview-699607
+  339  cd ..
+  340  cd vehicles
+  341  cat vehicles | grep "blue honda"
+  342  cd vehicles
+  343  cat vehicles | grep "honda"
+  344  cat vehicles | grep "L337"
+  345  head -n 20 vehicles
+  346  grep -A 5 "L337" vehicles
+  347  ls
+  348  cd memberships
+  349  ls
+  350  cat AAA | grep "Jeremy Bowers"
+  351  cat Delta_SkyMiles | grep "Jeremy Bowers"
+  352  cat library.txt | grep "Jeremy Bowers"
+  353  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  354  cat AAA | grep "Jacqui Maher"
+  355  cat Delta_SkyMiles | grep "Jacqui Maher"
+  356  cat library.txt | grep "Jacqui Maher"
+  357  cat library.txt | grep "Joe Germuska"
+  358  grep -A 4 "Joe Germuska"
+  359  grep -A 4 "Joe Germuska" AAA
+  360  grep -A 4 "Jeremy Bowers" AAA
+  361  cat AAA Delta_SkyMiles library Museum_of_Bash_History | "Joe Germuska"
+  362  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Joe Germuska"
+  363  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Jeremy Bowers"
+  364  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | "Joe Germusk"
+  365  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  366  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  367  cd ..
+  368  ls
+
+
+
+Jeremy Bowers is the Kiiller! 
