@@ -1,0 +1,328 @@
+1  sudo mkdir -p /etc/paths.d/postgresapp
+    2  MARVIN88
+    3  manning88
+    4  subl ~/.zshrc
+    5  export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bi
+    6  brew install mongodb\n
+    7  sudo mkdir -p /data/db
+    8  manning88
+    9  marvin88
+   10  manning88
+   11  sudo mkdir -p /data/db
+   12  whoami
+   13  sudo chown -R USERNAME:wheel /data
+   14  sudo chown -R chasedeger:wheel /data
+   15  brew update
+   16  brew install rbenv
+   17  echo 'export PATH="$HOME/.rbenv/bin:$PATH" ' >> ~/.zhrc
+   18  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+   19  source ~/.zshrc
+   20  sudo chown -R $chasedeger ~/. rbenv
+   21  sudo chown -R $USER ~/. rbenv
+   22  sudo chown -R $USER ~/.rbenv\n
+   23  brew update
+   24  brew install ruby-build
+   25  rbenv install 2.4.1
+   26  rbenv global 2.4.1
+   27  echo  "gem: --no-ri --no-rdoc" > ~/.gemrc
+   28  sum gem update
+   29  sudo gem install rails
+   30  sudo gem update 
+   31  rails -v
+   32  ruby -v
+   33  which ruby
+   34  node -v
+   35  \curl -sSL https://get.rvm.io | bash -s stable --ruby
+   36  rvm list known 
+   37  rvm list known
+   38  rvm use X.X
+   39  rvm install 2.4.1
+   40  rvm use 2.4.1
+   41  rvm use 2.4.1 --default
+   42  cd /
+   43  pwd
+   44  ls
+   45  cd ~
+   46  ls
+   47  cd ~
+   48  pwd
+   49  cd ..
+   50  ls -l
+   51  cd ~
+   52  ls -l
+   53  ls -al
+   54  cd ~
+   55  pwd
+   56  cd ~
+   57  pwd
+   58  clear
+   59  pwd
+   60  mkdir source 
+   61  pwd
+   62  ls
+   63  cd source 
+   64  ls al
+   65  ls -al
+   66  mkdir command-line
+   67  ls -al
+   68  cd command line
+   69  cd..
+   70  cd ..
+   71  ls a
+   72  ls l
+   73  cd source
+   74  cd ~
+   75  cd source
+   76  mkdir command-line
+   77  cd command-line
+   78  touch
+   79  ls -al
+   80  touch books.txt
+   81  ls -al
+   82  subl books.txt
+   83  cat books.txt
+   84  touch another.txt
+   85  subl another.txt
+   86  cat books.txt
+   87  cat books.tx another.txt
+   88  cat books.txt another.txt
+   89  clear
+   90  echo
+   91  echo "Hello I am echo
+   92  echo "Hello I am echo\necho 'hello I am echo\!'\necho 'This is a newline of text' > another.txt
+   93  echo 'This is a newline of text.' >> another.txt
+   94  cat another.txt
+   95  cat books.txt
+   96  cat books.txt | sort
+   97  cat books.txt | grep
+   98  cat books.txt | grep Great
+   99  cat books.txt | sort > sorted-books.txt
+  100  ls -al
+  101  cat sorted-books.txt
+  102  mv sorted-bokos.txt books.txt
+  103  ls -al
+  104  mv sorted-books.txt books.txt
+  105  ls -al
+  106  cp books.txt all books.txt
+  107  cp books.txt all-books.txt
+  108  ls -al
+  109  rm all-books.txt
+  110  ls -al
+  111  subl books.txt
+  112  cd ~
+  113  cd source/command-line
+  114  ls -al
+  115  touch another-thing
+  116  touch something-else
+  117  ls -al
+  118  ls -l *.txt
+  119  history 
+  120  man ls 
+  121  cd ~
+  122  mkdir Code
+  123  cd ~
+  124  ls 
+  125  cd Code
+  126  mkdir unit1
+  127  cd unit1
+  128  mkdir git_practice
+  129  cd git_practice
+  130  touch readme.md
+  131  ls
+  132  git init
+  133  ls -a 
+  134  git status 
+  135  git add -A
+  136  git status 
+  137  git commit -a -m "first commit"
+  138  git status
+  139  git --version
+  140  cd git_practice 
+  141  subl readme.md
+  142  git status
+  143  git diff readme.md
+  144  git add -A
+  145  git commit -a -m "added a sick readme file"
+  146  git log 
+  147  cd ..
+  148  git clone https://github.com/chasedeger88/flooly.git
+  149  cd flooly
+  150  ls
+  151  cd ..
+  152  ls
+  153  cd flooly
+  154  touch readme.md
+  155  subl readme.md
+  156  git add -A
+  157  git status
+  158  git commit -a -m "first commit, added readme.md file"
+  159  git push origin master
+  160  git remote -v
+  161  cd unit1
+  162  cd ..
+  163  git clone git@github.com:chasedeger88/command-line-murder-mystery.git
+  164  cd command-line-murder-mystery
+  165  ls
+  166  cat instructions
+  167  ls
+  168  cd mystery 
+  169  cat cheatsheet.md
+  170  cd cheatsheet.md
+  171  cat cheatsheet.md
+  172  nano cheatsheet.md
+  173  cat hint1
+  174  cd ..
+  175  cd hint1
+  176  cat hint1
+  177  head -n 20 people
+  178  head hint1
+  179  head hint2
+  180  grep | CLUE
+  181  pwd
+  182  cd mystery 
+  183  ls
+  184  cat crimescene
+  185  cd crimescene 
+  186  cd ..
+  187  cd mystery
+  188  ls 
+  189  cd crimescene
+  190  pwd
+  191  grep | CLUE
+  192  grep -w "CLUE" file
+  193  pwd
+  194  ls
+  195  cd crimescene 
+  196  pd
+  197  pwd
+  198  grep | CLUE
+  199  grep CLUE
+  200  pwd
+  201  cat crimescene | grep CLUE
+  202  cat hint1
+  203  pwd
+  204  cd ..
+  205  cat hint1
+  206  cat hint 2
+  207  cat hint2
+  208  cat hint3
+  209  head people 
+  210  head -n people
+  211  head -n 20 people 
+  212  pwd
+  213  cd ..
+  214  ls 
+  215  cd command-line-murder-mystery
+  216  ls
+  217  cat hint4
+  218  cd mystery 
+  219  ls
+  220  cd people
+  221  grep "Annabel" people
+  222  cat hint5
+  223  cd ..
+  224  ls
+  225  cat hint4
+  226  cat hint5
+  227  head -n 173 streets/Mattapan_Street | tail -n 1
+  228  cd ..
+  229  ls
+  230  cd command-line-murder-mystery
+  231  ls
+  232  cd mystery
+  233  ls
+  234  cd streets 
+  235  head -n 173 streets/Mattapan_Street | tail -n 1
+  236  head -n 173 
+  237  pwd
+  238  cd interviews 
+  239  cd ..
+  240  ls
+  241  cd interviews
+  242  ls
+  243  head -n 173 streets/Mattapan_Street | tail -n 1\n
+  244  pwd
+  245  cd ..
+  246  cd streets
+  247  head -n 173 streets/Mattapan_Street | tail -n 1\n
+  248  cd ..
+  249  head -n 173 streets/Mattapan_Street | tail -n 1\n
+  250  cd ..
+  251  ls
+  252  cd mystery
+  253  ls
+  254  cd interviews
+  255  ls
+  256  cd interview-#9437737
+  257  cd ..
+  258  cat hint6
+  259  la
+  260  ls
+  261  cd mystery
+  262  ls
+  263  cd vehicles
+  264  grep "Honda" vehicles 
+  265  gre "Blue" vehicles
+  266  grep "Blue" vehicles 
+  267  pwd
+  268  head vehicles
+  269  cat vehicles
+  270  cat vehicles | grep -B 2 -A 3 -E '(Blue|Honda|L337)'
+  271  cat vehicles | grep -A 5 L337 | grep Blue
+  272  cat vehicles | grep -A 5 L337 | grep -A 3 -B 2 Blue
+  273  cat vehicles | grep -A 5 L337 | grep -A 3 -B 2 Blue | grep -B 1 -a
+  274  cat vehicles | grep -A 5 L337 | grep -A 3 -B 2 Blue | grep -B 1 -A 4
+  275  cat vehicles | grep -A 5 L337 | grep -A 3 -B 2 Blue | grep -B 1 -A 4 Honda
+  276  pwd
+  277  cat hint7
+  278  cd ..
+  279  cat hint7
+  280  cat hint8
+  281  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel"
+  282  cat hint9
+  283  pwd
+  284  ls
+  285  cat hint1
+  286  hint2
+  287  cat hint2
+  288  pwd
+  289  ls
+  290  cd mystery 
+  291  ls
+  292  cd interviews 
+  293  cat interview-#9437737
+  294  cd ..
+  295  cat hint 3
+  296  cat hint3
+  297  cd ..
+  298  ls
+  299  cd command-line-murder-mystery
+  300  ls
+  301  cat hint3
+  302  cat hint4
+  303  cat hint5
+  304  cat hint6
+  305  cat hint7
+  306  cat hint8
+  307  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  308  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  309  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  310  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  311  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  312  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  313  cat Fitness_Galaxy AAA United_MileagePlus | grep Jacqui Maher
+  314  cat Fitness_Galaxy AAA United_MileagePlus | grep Jeremy Bowers
+  315  cat Fitness_Galaxy AAA United_MileagePlus | grep Joe Germuska
+  316  ls
+  317  cd mystery
+  318  ls
+  319  cd memberships
+  320  cat Fitness_Galaxy AAA United_MileagePlus | grep Joe Germuska
+  321  cat Fitness_Galaxy AAA United_MileagePlus | grep Jeremy Bowers
+  322  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  323  cd ..
+  324  pwd
+  325  ls
+  326  touch solution.txt
+
+Jeremy Bowers 
