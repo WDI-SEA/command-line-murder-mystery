@@ -1,0 +1,316 @@
+Killer Name: Jeremy Bowers
+
+1  sudo gem update
+    2  sudo gem install rails
+    3  rails -v
+    4  sudo gem install rails
+    5  rails -v
+    6  sudo gem install rails
+    7  rails -v
+    8  sudo gem install rails
+    9  rails -v
+   10  rbenv install 2.4.1
+   11  sudo gem install rails
+   12  rails -v
+   13  sudo gem install rails
+   14  rails -v
+   15  ruby -v
+   16  which ruby
+   17  which rails
+   18  which bundle
+   19  which gem
+   20  pwd
+   21  cd / 
+   22  pwd
+   23  ls
+   24  cd Users
+   25  pwd
+   26  ls
+   27  cd stephanieHester
+   28  pwd
+   29  cd  ..
+   30  ls l
+   31  ls-l
+   32  ls -l
+   33  ls -al
+   34  cd source
+   35  cd ..
+   36  cd ~
+   37  mkdir
+   38  mk dir
+   39  mkdir
+   40  source
+   41  mk dir cource
+   42  mk dir source
+   43  mkdir source
+   44  mkdir command-line
+   45  ls -al
+   46  command-line touch books.txt
+   47  touch books.txt
+   48  subl books.txt
+   49  ls -l
+   50  cat books.txt
+   51  touch another.txt
+   52  subl another.txt
+   53  cat books.txt another.txt
+   54  clear
+   55  cd
+   56  pwd
+   57  echo "Hello i am echo"
+   58  echo 'This is a new line of text' > another.txt
+   59  cat another.txt
+   60  echo "this is another one" >> another.txt
+   61  cat another.txt
+   62  cat books.txt
+   63  cat books.txt | sort
+   64  cat books.txt
+   65  cat books.txt | grep Mil
+   66  cat books.txt | sort > sorted-books.txt
+   67  ls -al
+   68  cat sorted-books.txt
+   69  mv sorted-books.txt books.txt
+   70  ls -al
+   71  mv another.txt some-text.txt
+   72  ls -al
+   73  cp books.txt all-books.txt
+   74  rm all-books.txt
+   75  ls -l
+   76  subl so
+   77  ls -l *.doc
+   78  ls -l *.txt
+   79  ls -l *.png
+   80  pwd
+   81  ls -l *.img
+   82  ls -l *s*
+   83  ls -l *s
+   84  ls -l *My
+   85  cat sorted-books.txt
+   86  history
+   87  man
+   88  man ls
+   89  clear
+   90  cd ~
+   91  mkdir
+   92  mkdir code
+   93  mkdir unit1
+   94  cd unit1
+   95  mkdir git_practice
+   96  cd git-practice
+   97  cd git_practice
+   98  touch readme.md
+   99  ls
+  100  git init
+  101  ls
+  102  ls -a
+  103  git status
+  104  git commit
+  105  git commit -a -m "first commit"
+  106  git status
+  107  git --version
+  108  subl readme.md
+  109  git status
+  110  git diff
+  111  git diff readme.md
+  112  git add -A
+  113  git commit -a -m "added a readme file"
+  114  git checkout readme.md
+  115  git status
+  116  git log
+  117  git rm readme.md
+  118  git commit -a -m 'deleted'
+  119  git status
+  120  git log
+  121  cd ..
+  122  git clone git@github.com:steffidawn/newproject.git
+  123  ls
+  124  cd newproject
+  125  touch readme.md
+  126  subl readme.md
+  127  git add -A
+  128  git status
+  129  git commit -a -m 'first commit, added readme.md file'
+  130  git push origin master
+  131  git remote -v
+  132  git@github.com:steffidawn/command-line-murder-mystery.git
+  133  git@github.com:WDI-SEA/command-line-murder-mystery.gic
+  134  cd unit1
+  135  cd ..
+  136  git@github.com:WDI-SEA/command-line-murder-mystery.git
+  137  git clone git@github.com:WDI-SEA/command-line-murder-mystery.git
+  138  cd command-line-murder-mystery
+  139  ls
+  140  cat instructions
+  141  cd mystery
+  142  ls
+  143  cd crimescene
+  144  cd interviews
+  145  ls
+  146  cd ..
+  147  ls -l *CLUE
+  148  ls
+  149  cd mystery
+  150  ls -l *CLUE
+  151  ls
+  152  cd interviews
+  153  ls -l *CLUE
+  154  cd command-line-murder-mystery
+  155  cd ..
+  156  ls -l *CLUE*
+  157  ls
+  158  cat hint1
+  159  ls
+  160  hint2
+  161  cat hint2
+  162  grep "CLUE" command-line-murder-mystery
+  163  grep "CLUE" mystery
+  164  grep "CLUE" interviews
+  165  cd mystery
+  166  grep "CLUE" interviews
+  167  cd interviews
+  168  grep "CLUE"
+  169  grep CLUE
+  170  cd command-line-murder-mystery
+  171  git@github.com:WDI-SEA/command-line-murder-mystery.git
+  172  git clone
+  173  git clonegit@github.com:WDI-SEA/command-line-murder-mystery.git
+  174  git clone git@github.com:WDI-SEA/command-line-murder-mystery.git
+  175  cat instructions
+  176  pwd
+  177  cd source
+  178  cd unit1
+  179  cd code
+  180  ls
+  181  cd ..
+  182  cd code
+  183  cd unit1
+  184  ls
+  185  cd ..
+  186  ls
+  187  cd command-line-murder-mystery
+  188  cat instructions
+  189  ls
+  190  cd mystery
+  191  ls
+  192  cd crimescene
+  193  ls
+  194  cat crimescene | grep CLUE
+  195  cd ..
+  196  ls
+  197  cd mystery
+  198  ls
+  199  cd interviews
+  200  cat interviews | grep CLUE
+  201  grep CLUE
+  202  ls
+  203  cd ..
+  204  ls
+  205  cd people
+  206  ls
+  207  cat people | grep CLUE
+  208  cat people | grep Annabel
+  209  ls
+  210  cd streets
+  211  ls
+  212  cd ..
+  213  memberships
+  214  ls
+  215  cd ..
+  216  ls
+  217  cat streets | grep Sun F 26 Hart Place
+  218  cat hint1
+  219  cd ..
+  220  cat hint1
+  221  cat hint2
+  222  cat hint3
+  223  cd mystery
+  224  ls
+  225  cd vehicles
+  226  head -n 20 vehicles
+  227  cd ..
+  228  ls
+  229  cd cheatsheet.pdf
+  230  cheatsheet.pdf
+  231  hint3
+  232  cd hint3
+  233  cd mystery
+  234  ls
+  235  cd ..
+  236  cd streets
+  237  cd mystery
+  238  cd streets
+  239  grep Annabel
+  240  ls
+  241  cat streets | grep Hart
+  242  grep Hart
+  243  cd ..
+  244  cat streets | grep Mattapan 
+  245  cd streets
+  246  grep Mattapan 
+  247  cd ..
+  248  cat cheatsheet.
+  249  la
+  250  ls
+  251  cat cheatsheet.md
+  252  ls
+  253  cd mystery
+  254  ls
+  255  grep Buckingham 
+  256  ls
+  257  cd memberships
+  258  ls
+  259  cat memberships
+  260  grep Buckingham 
+  261  cd ..
+  262  ls
+  263  cd streets
+  264  cat streets
+  265  cd ..
+  266  cat streets
+  267  cat streets | grep Hart Place, line 40
+  268  ls
+  269  cd streets
+  270  ls
+  271  head -n 40 Hart_Place | tail -n 1
+  272  head -n 179 Buckingham_Place | tail -n 1
+  273  cd ..
+  274  ls
+  275  cd interviews
+  276  ls
+  277  grep interview-47246024
+  278  cat interviews | grep 47246024
+  279  open interview-47246024.txt
+  280  open interview-47246024
+  281  opent interview-699607
+  282  open interview-699607
+  283  cd ..
+  284  ls
+  285  cd vehicles
+  286  cat vehicles
+  287  cat vehicles | grep blue
+  288  cat vehicles | grep L337
+  289  grep -A 5 "L337" vehicles
+  290  ls
+  291  cd memberships
+  292  ls
+  293  cat Delta_SkyMiles | grep Joe Germuska
+  294  cat Delta_SkyMiles | grep "Joe Germuska"
+  295  cat Delta_SkyMiles | "Jeremy Bowers"
+  296  cat Delta_SkyMiles | grep "Jeremy Bowers"
+  297  cat AAA | grep "Jeremy Bowers"
+  298  cat library.txt | grep "Jermey Bowers"
+  299  grep -A 4 "Jeremy Bowers" Delta_SkyMiles
+  300  grep -A 4 "Jeremy Bowers" Museum_of_Bash_History
+  301  grep -A 4 "Jeremy Bowers" library.txt
+  302  grep -A 4 "Joe Germuska" AAA
+  303  grep -A 4 "Joe Germuska" Delta_SkyMiles
+  304  cat Delta_SkyMiles AAA Museum_of_Bash_History libary.txt | grep "Joe Germuska"
+  305  cat Delta_SkyMiles AAA Museum_of_Bash_History libary.txt | grep "Jeremy Bowers"
+  306  cat Delta_SkyMiles AAA Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
+  307  cat Delta_Skymiles AAA Museum_of_Bash_History library.txt | grep "Joe Germuska\n\ncat Delta_SkyMiles AAA Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
+  308  cat Delta_Skymiles AAA Museum_of_Bash_History library.txt | grep "Joe Germuska"
+  309  cd ..
+  310  touch solution.txt
+  311  ls
+  312  subl solution.txt
+  313  history
+  314  cd ..
