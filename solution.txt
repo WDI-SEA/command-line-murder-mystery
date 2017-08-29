@@ -1,0 +1,125 @@
+// Justen Cracraft// 
+
+ 205  cd command-line-murder-mystery
+  207  cat instructions
+  209  cat cheatsheet.md
+  211  cat instructions -a
+  213  cd mystery
+  215  grep CLUE
+  216  cat crimescene | grep CLUE
+  217  subl .
+  219  cat interviews | grep CLUE
+  220  cat people | grep CLUE
+  221  cd people
+  222  cat vehicles | grep CLUE
+  223  cat interviews | grep CLUE
+  224  cat crimescene | grep CLUE
+  226  cat people | grep CLUE
+  227  cd interviews
+  229  cat interview | grep CLUE
+  230  cat interview*
+  231  cat interview* | grep CLUE
+  233  cat interview-19577850
+  234  cd ..
+  236  cd streets
+  238  grep clue
+  239  cd ..
+  241  cd memberships
+  243  cat AAA | grep CLUE
+  244  cat AAA
+  246  cat Delta_SkyMiles
+  248  cat Museum_of_Bash_History
+  250  cd ..
+  252  cat people
+  253  cat people | grep Annabel
+  255  cd ..
+  257  cd mystery
+  259  cd ..
+  260  cat instructions
+  262  cd mystery
+  264  cd interviews
+  266  cat interview* | grep Annabel
+  267  cat interview-19577850
+  268  cat interview* | grep jurors
+  269  cat interview* | grep Zealand
+  270  cat interview* | grep spiky
+  271  cat interview* | grep blonde
+  272  cat interview* | grep Church
+  273  cd ..
+  275  cd people
+  276  cat people
+  277  cat people | grep Church
+  278  cat people | grep Buckingham
+  279  cat people | grep 179
+  281  cat crimescene
+  282  cat crimescene | grep Church
+  283  cat crimescene | grep Delta
+  285  cd streets
+  287  cat *_* | grep Church
+  288  cat Buckingham_Place
+  290  cat Buckingham_Place | grep Church
+  291  cd ..
+  293  cd ..
+  295  cat hint1
+  296  cat hint2
+  297  cat hint3
+  298  cat hint4
+  299  cat hint5
+  300  cat hint6
+  302  cd mystery
+  304  head -n 179 streets/Buckingham_Place | tail -n 1
+  306  cd interviews
+  308  cat *699607
+  309  cd ..
+  311  cat vehicles
+  312  cat vehicles | grep HONDA
+  313  cat vehicles | grep Honda
+  314  cd ..
+  315  cat hint5
+  316  cat hint6
+  318  cd mystery
+  319  cat vehicles| grep L337 head
+  320  head cat vehicles | grep L337
+  321  cat vehicles | grep L337 head
+  322  head -n | grep L337
+  323  man head
+  324  cd ..
+  325  cat hint6
+  326  cat hint7
+  328  cd mystery
+  330  cat vehicles
+  331  cat vehicles | grep -A 5 "L337"
+  332  cat vehicles | grep -A 5 "L337" "Honda"
+  333  cat vehicles | grep -A 5 "L337"
+  335  cd memberships
+  337  cat AAA | grep Germuska
+  338  cat AAA | grep Bowers
+  339  cat AAA | grep Maher
+  341  cd ..
+  343  cat people | grep Maher
+  344  cat people | grep Ericka
+  345  cat people | grep Erika
+  346  cd ..
+  348  cd mystery
+  350  cd memberships
+  352  cat Delta_SkyMiles| grep Germuska
+  353  cat Delta_SkyMiles| grep Bowers
+  354  cat Delta_SkyMiles| grep Germ
+  355  cat Museum_of_Bash_History | grep Bowers
+  356  cat library.txt| grep Bowers
+  357  cd ..
+  359  cat people | grep Bowers
+  360  cd ..
+  361  cat hint6
+  362  cat hint8
+  364  cat instructions
+  366  cd mystery
+  368  cd ..
+  370  cd ..
+  371  cd command-line-murder-mystery
+  touch solution.txt
+  subl solution.txt
+
+
+  Jeremy Bowers
+
