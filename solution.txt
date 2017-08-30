@@ -1,0 +1,236 @@
+ 737  cd source
+  738  ls -a
+  739  cd command-line-murder-mystery
+  740  ls -a
+  741  ls -al
+  742  cat instructions
+  743  open .
+  744  ped
+  745  pwd
+  746  ls -a
+  747  cat cheatsheet.md
+  748  ls -al
+  749  cat hint1
+  750  ls -a
+  751  cat hint1
+  752  head -n 20 people
+  753  cd mystery
+  754  ls -a
+  755  ls -al
+  756  head -n 20 people
+  757  ls -al
+  758  cat crimescene
+  759  cat crimescene grep CLUE
+  760* PWD
+  761* CD SOURCE
+  762* LS -A
+  763* CD source
+  764* ls -a
+  765* cd source
+  766* ls -a
+  767* cd command-line-murder-mystery
+  768* ls -al
+  769* cat instructions
+  770* ls -a
+  771* cat hint2
+  772  cat crimescene |  grep CLUE
+  773* cd mystery
+  774* ls -al
+  775* cat people
+  776* cat people | grep Annabel
+  777  ls -al
+  778  cd memberships
+  779  ls -al
+  780  cat AAA Delta_SkyMiles term
+  781  cat AAA Delta_SkyMiles Terminal_City_Library | grep Annabel
+  782* cat Annabel Church
+  783  ls -al
+  784  cd ..
+  785  ls -sl
+  786  cd streets
+  787  ls -al
+  788  cat Buckingham_Place
+  789  cat Buckingham_Place | grep '*line 173'
+  790  cat Buckingham_Place | grep '*line 173' -print
+  791  cat Buckingham_Place | grep line 173
+  792  cat Buckingham_Place | grep Annabel
+  793  cat Buckingham_Place | grep 179
+  794* ls -a
+  795* cd streets
+  796* ls -al
+  797* cat Buckingham_Place
+  798* cat Buckingham_Place | grep -n 179
+  799* grep -n 179
+  800* grep -n "179"
+  801* grep -n 179 Buckingham_Place
+  802  cd ..
+  803  ls -al
+  804  cd ..
+  805  ls -al
+  806  cat hint3
+  807* ls -al
+  808* cd ..
+  809* ls -al
+  810* head people vehicles | grep Annabel
+  811* head people vehicles | grep "Annabel"
+  812* head people | grep "Annabel Church"
+  813* head vehicles | grep "annabel"
+  814* head vehicles | grep annabel
+  815* cd source
+  816* ls -al
+  817* cd command-line-murder-mystery
+  818* ls -al
+  819* cat cheatsheet.md
+  820  cd mystery
+  821  ls -al
+  822  cd streets
+  823  cat Buckingham_Place
+  824  head -n 179 Buckingham_Place
+  825* ls -al
+  826* cd interviews
+  827* ls -a
+  828* cat interview-699607
+  829* cd source
+  830* mkdir html-css-intro
+  831* ls -al
+  832* cd html-css-intro
+  833* subl .html
+  834* mk index.html
+  835* touch index.html
+  836* subl index.html
+  837* touch resume.html
+  838* subl resume.html
+  839* ls 
+  840* mkdir css
+  841* ls -a
+  842* cd css
+  843* touch stlye.css
+  844* subl stlye.css
+  845* cd ..
+  846* pwd
+  847* cd ..
+  848* pwd
+  849* cd html-css-intro
+  850* subl index.html
+  851* cd ..
+  852* ls -al
+  853* cd html-css-intro
+  854* ls -al
+  855* cd css
+  856* ls -al
+  857* pwd
+  858* touch resumestyle.css
+  859* subl resumestyle.css
+  860* cd ..
+  861* ls -a
+  862  pwd
+  863  cd ,,
+  864  cd ..
+  865  ls -al
+  866  cat vehicles | grep "Honda"
+  867  cat vehicles | grep "Honda" "blue"
+  868  cat vehicles | grep -o "blue hondae"
+  869  ls -al
+  870  cat vehicles
+  871  cat vehicles | grep L337
+  872  cat vehicles | grep -a  L337 -a Honda
+  873  cat vehicles | grep -n  337 -a Honda
+  874  grep -i "Honda.B" vehicles
+  875  cat vehicles | grep -n 337 a -honda
+  876  cat vehicles | grep L337
+  877  cat vehicles | sort
+  878  cat vehicles | grep -A 5 "Honda:
+  879  cat vehicles | grep -A 5 "Honda"
+  880  cat vehicles | grep L337  -A 5 "Honda"
+  881  cat vehicles | grep -A 5 "Honda" -w "L337"
+  882  cat vehicles | grep -A 5 "Honda" -w "l"
+  883  ls -al
+  884  cat vehicles | grep -A 5 "L337"
+  885  cat vehicles | grep -A 5 "L337" -w "Honda"
+  886  cat vehicles | grep -A 5 "L337" "Honda"
+  887  cat vehicles | grep -A 5 "L337" --include="Honda"
+  888  cat vehicles | grep -A 5 "L337.9" --include="Honda"
+  889  cat vehicles | grep -A 5 "L337.9" -n "honda"
+  890  cat vehicles | grep -A 5 "L337.9" -n honda
+  891  cat vehicles | grep -A 5 "L337" -n honda
+  892  cat vehicles | grep -A 5 "L337" --include="Honda" -n "L337.9"
+  893  cat vehicles | grep -A 5 "L337" --include="Honda"
+  894  cat vehicles | grep -A 5 "L337" -n ="Honda"
+  895  cat vehicles | grep -A 5 "L337" -n "Honda"
+  896  cat vehicles | grep -A 5 "L337" -n Honda
+  897  cat vehicles | grep -A 5 "L337" honda
+  898  cat vehicles | grep -A 5 "L337" --include=Honda
+  899  cat vehicles | gerp honda -A 5 "L337"
+  900  cat vehicles | gerp -n honda -A 5 "L337"
+  901* cd source
+  902* ls -al
+  903* cd html-css-intro
+  904* ls -al
+  905* cd ..
+  906* ls -al
+  907* mkdir CSS-lab
+  908* ls -al
+  909* cd CSS-lab
+  910* git clone git@github.com:KKLee0928/css-positioning.git
+  911* cd css-positioning
+  912* ls -al
+  913* npm install
+  914* npm run lint:css
+  915* npm start
+  916* subl CSS-lab
+  917* ls -al
+  918* subl index.html
+  919* subl css-positioning
+  920* cd ~
+  921* pwd
+  922* ls -al
+  923* cd source
+  924* ls -al
+  925* subl css-lab/
+  926* subl .
+  927* ls
+  928* cd CSS-lab
+  929* ls
+  930* cd ..
+  931* cd CSS-lab
+  932* cd css-positioning
+  933* npm install
+  934* npm start
+  935  grep 'honda' vehicles
+  936  grep 'l337' | grep 'honda' | grep 'blue\ngrep 'honda' vehicles
+  937  grep 'L337' | grep 'Honda' | grep 'Blue' | head
+  938  cat vehicles | grep -n honda | grep -A 5 "L337" | head
+  939  head vehicles | grep -A 5 'L337' | grep 'Honda' | grep 
+  940  head vehicles | grep -A 5 'L337' | grep 'Honda' | grep 'blue'
+  941  head vehicles
+  942  head vehicles | grep l337
+  943  head vehicles | grep honda
+  944  head vehicles | grep Honda
+  945  ls -
+  946  ls -al
+  947  cat 6
+  948  grep Crimescene
+  949  cat vehicles | head
+  950  cat vehicles | head | grep Honda
+  951  cat vehicles | grep Honda
+  952  ls -al
+  953  cd interviews
+  954  ls -al
+  955* pwd
+  956* ls -a
+  957* cd ..
+  958* ls
+  959* cd command-line-murder-mystery/
+  960* ls
+  961* touch solution.txt
+  962* open solution.txt
+➜  interviews git:(master) ✗ 
+
+I am gonna day it was JOE GERMUSKA
+
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
