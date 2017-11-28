@@ -1,0 +1,199 @@
+   1  ls
+    2  cd desktop
+    3  ls
+    4  cd programming files
+    5  ls
+    6  cd ProgrammingFiles
+    7  cd programmin\ files
+    8  cd programming\ files
+    9  ls
+   10  cd websites
+   11  ls
+   12  cd gorgai\mockup\v2
+   13  cd gorgai\ mockup\ v2
+   14  ls
+   15  subl .
+   16  clear
+   17  cd ~
+   18  clear
+   19  ls -l
+   20  cd ~
+   21  clear
+   22  mkdir code
+   23  cd code
+   24  mkdir flerble
+   25  cd flerble
+   26  clear
+   27  touch thingy.txt
+   28  ls
+   29  subl thingy.txt
+   30  subl .  thingy.txt
+   31  touch index.html style.css script.js
+   32  ls
+   33  touch books.txt
+   34  ls
+   35  subl . books.txt
+   36  ls
+   37  ls -al
+   38  ls -a
+   39  ls -l
+   40  cat 
+   41  ls
+   42  cd code
+   43  ls
+   44  cd flerble
+   45  cd
+   46  ls
+   47  cd code
+   48  cd flerble
+   49  ls
+   50  cat books.txt
+   51  ls
+   52  cat thingy.txt
+   53  cat books.txt
+   54  clear
+   55  echo c
+   56  echo cat books.txt
+   57  echo sadfasdfasdf
+   58  echo "test text to add" > thingy.txt
+   59  cat thingy.txt
+   60  echo cat books.txt > thingy.txt
+   61  cat thingy.txt
+   62  echo " jacksons dad is weak " >> creation.txt
+   63  cat creation.txt
+   64  echo " jacksons dad is weak " >> creation.txt
+   65  cat creation.txt
+   66  ls
+   67  cd code
+   68  ls
+   69  cd flerble
+   70  cd
+   71  ls
+   72  cd code
+   73  cd flerble
+   74  ls
+   75  clear
+   76  cat books.txt
+   77  clear
+   78  cat books.txt | sort
+   79  cat books.txt | sort > sorted_books.txt
+   80  ls
+   81  cat sorted_books.txt
+   82  cat books.txt
+   83  cat books.txt | grep Mil
+   84  cat books.txt | grep Mil | sort
+   85  cd ..
+   86  rm flerble
+   87  rm -rf
+   88  rm -rf flerble
+   89  ls
+   90  cd flerble
+   91  ls
+   92  la
+   93  ls
+   94  cd desktop
+   95  cd programming
+   96  ls
+   97  cd websites
+   98  ls
+   99  cd ..
+  100  ls
+  101  cd school
+  102  ls
+  103  cd unit1
+  104  ls
+  105  git clone git@github.com:taibayard/command-line-murder-mystery.git
+  106  ls
+  107  cd command-line-murder-mystery
+  108  cat instructions
+  109  ls
+  110  cd mystery
+  111  grep "CLUE" crimescene
+  112  grep "Annabel" people
+  113  head -n 173 streets/Mattapan_Street | tail -n 1\n
+  114  cd interviews
+  115  cat interview-9437737
+  116  cd ..\n
+  117  ls
+  118  head -n 40 streets/Hart Place | tail -n 1
+  119  head -n 40 streets/Hart_Place | tail -n 1
+  120  cd interviews
+  121  cat interview-47246024
+  122  cd ..
+  123  ls
+  124  cd interviews
+  125  cat interview-699607
+  126  cd ..
+  127  grep "honda" vehicles
+  128  f
+  129  grep
+  130  ls
+  131  grep "HONDA" vehicles
+  132  ls
+  133  grep "L337" vehicles
+  134  head -n 0 vehicles | tail n 1
+  135  head -n 100 vehicles | tail n 1
+  136  grep -A 5 "L337" mystery/vehicles
+  137  ls
+  138  grep -A 5 "L337" vehicles
+  139  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  140  cd memberships
+  141  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  142  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  143  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  144  cat Fitness_Galaxy AAA United_MileagePlus 
+  145  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  146  License Plate L337ZR9\nMake: Honda\nColor: Red\nOwner: Katie Park\nHeight: 6'2"\nWeight: 189 lbs\n--\nLicense Plate L337P89\nMake: Honda\nColor: Teal\nOwner: Mike Bostock\nHeight: 6'4"\nWeight: 173 lbs\n--\nLicense Plate L337GX9\nMake: Mazda\nColor: Orange\nOwner: John Keefe\nHeight: 6'4"\nWeight: 185 lbs\n--\nLicense Plate L337QE9\nMake: Honda\nColor: Blue\nOwner: Erika Owens\nHeight: 6'5"\nWeight: 220 lbs\n--\nLicense Plate L337GB9\nMake: Toyota\nColor: Blue\nOwner: Matt Waite\nHeight: 6'1"\nWeight: 190 lbs\n--\nLicense Plate L337OI9\nMake: Jaguar\nColor: Blue\nOwner: Brian Boyer\nHeight: 6'6"\nWeight: 201 lbs\n--\nLicense Plate L337X19\nMake: Fiat\nColor: Blue\nOwner: Al Shaw\nHeight: 6'5"\nWeight: 240 lbs\n--\nLicense Plate L337539\nMake: Honda\nColor: Blue\nOwner: Aron Pilhofer\nHeight: 5'3"\nWeight: 198 lbs\n--\nLicense Plate L3373U9\nMake: Ford\nColor: Blue\nOwner: Miranda Mulligan\nHeight: 6'6"\nWeight: 156 lbs\n--\nLicense Plate L337369\nMake: Honda\nColor: Blue\nOwner: Heather Billings\nHeight: 5'2"\nWeight: 244 lbs\n--\nLicense Plate L337DV9\nMake: Honda\nColor: Blue\nOwner: Joe Germuska\nHeight: 6'2"\nWeight: 164 lbs\n--\nLicense Plate L3375A9\nMake: Honda\nColor: Blue\nOwner: Jeremy Bowers\nHeight: 6'1"\nWeight: 204 lbs\n--\nLicense Plate L337WR9\nMake: Honda\nColor: Blue\nOwner: Jacqui Maher\nHeight: 6'2"\nWeight: 130 lbs\n\nLicense Plate L337ZR9\nMake: Honda\nColor: Red\nOwner: Katie Park\nHeight: 6'2"\nWeight: 189 lbs\n--\nLicense Plate L337P89\nMake: Honda\nColor: Teal\nOwner: Mike Bostock\nHeight: 6'4"\nWeight: 173 lbs\n--\nLicense Plate L337GX9\nMake: Mazda\nColor: Orange\nOwner: John Keefe\nHeight: 6'4"\nWeight: 185 lbs\n--\nLicense Plate L337QE9\nMake: Honda\nColor: Blue\nOwner: Erika Owens\nHeight: 6'5"\nWeight: 220 lbs\n--\nLicense Plate L337GB9\nMake: Toyota\nColor: Blue\nOwner: Matt Waite\nHeight: 6'1"\nWeight: 190 lbs\n--\nLicense Plate L337OI9\nMake: Jaguar\nColor: Blue\nOwner: Brian Boyer\nHeight: 6'6"\nWeight: 201 lbs\n--\nLicense Plate L337X19\nMake: Fiat\nColor: Blue\nOwner: Al Shaw\nHeight: 6'5"\nWeight: 240 lbs\n--\nLicense Plate L337539\nMake: Honda\nColor: Blue\nOwner: Aron Pilhofer\nHeight: 5'3"\nWeight: 198 lbs\n--\nLicense Plate L3373U9\nMake: Ford\nColor: Blue\nOwner: Miranda Mulligan\nHeight: 6'6"\nWeight: 156 lbs\n--\nLicense Plate L337369\nMake: Honda\nColor: Blue\nOwner: Heather Billings\nHeight: 5'2"\nWeight: 244 lbs\n--\nLicense Plate L337DV9\nMake: Honda\nColor: Blue\nOwner: Joe Germuska\nHeight: 6'2"\nWeight: 164 lbs\n--\nLicense Plate L3375A9\nMake: Honda\nColor: Blue\nOwner: Jeremy Bowers\nHeight: 6'1"\nWeight: 204 lbs\n--\nLicense Plate L337WR9\nMake: Honda\nColor: Blue\nOwner: Jacqui Maher\nHeight: 6'2"\nWeight: 130 lbs\n\n\n\n\n\n\nls\nc\n\n\n\n\n\n\n\n
+  147  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  148  cat Fitness_Galaxy AAA United_MileagePlus | grep "Heather Billings" | wc -l
+  149  cat Fitness_Galaxy AAA United_MileagePlus | grep "Miranda Mulligan" | wc -l
+  150  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens" | wc -l
+  151  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer" | wc -l
+  152  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc -l
+  153  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher" | wc -l
+  154  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  155  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  156  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  157  cd ..
+  158  ls
+  159  cd memberships
+  160  cat 1.txt
+  161  cat aaa
+  162  cat AAA
+  163  grep "Jacqui Maher" AAA
+  164  clear
+  165  grep -A 5 "L337" mystery/vehicles
+  166  ls
+  167  cd ..
+  168  grep -A 5 "L337" mystery/vehicles
+  169  grep -B  5 "L337" mystery/vehicles
+  170  grep -c  5 "L337" mystery/vehicles
+  171  grep -C  5 "L337" mystery/vehicles
+  172  ls
+  173  cd mystery
+  174  ls
+  175  cd memberships
+  176  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  177  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  178  cd ..
+  179  ls
+  180  cd interviews
+  181  cd ..
+  182  ls
+  183  grep "Jacqui Maher" people
+  184  head -n 224 streets/Andover_Road | tail -n 1
+  185  cd interviews
+  186  cat interview-904020
+  187  cd ..
+  188  grep "Jeremy Bowers" people
+  189  head -n 284 streets/Dunstable_Road | tail -n 1
+  190  cd interviews
+  191  cat interview-9620713
+  192  cd ..
+  193  ls
+  194  grep "Joe Germuska" people
+  195  head -n 275 streets/Plainfield_Street | tail -n 1
+  196  cd interviews
+  197  cat interview-29741223
+
+  killer = Jeremy Bowers ??
