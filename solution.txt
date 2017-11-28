@@ -1,0 +1,28 @@
+touch solution.txt
+
+cd mystery/
+
+grep -ir 'clue'
+
+grep -i 'annabel' people
+
+sed -n '40p' streets/Hart_Place
+
+cat interviews/interview-47246024
+
+sed -n '179p' streets/Buckingham_Place
+
+cat interviews/interview-699607
+
+grep -iEC 4 'l337.*9' vehicles | grep -C 4 'Make: Honda' | grep -C 4 'Color: Blue' | grep -EC 4 'Height: 6.*' | grep -i 'owner' | awk '{print $2, $3}' > owners-of-hondas-with-a-leet-plate-over-6-feet 
+
+grep -f memberships/AAA memberships/Delta_SkyMiles | grep -f memberships/library.txt | grep -f memberships/Museum_of_Bash_History > people-with-all-four-accouts
+
+grep -E $'\tM\t' people | awk '{print $1, $2;}'> males
+
+grep -f males owners-of-hondas-with-a-leet-plate-over-6-feet | grep -f people-with-all-four-accouts
+
+// Jeremy Bowers
+
+
+
