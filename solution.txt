@@ -1,0 +1,197 @@
+  126  git clone git@github.com:FreeKev/command-line-murder-mystery.git
+  127  ls
+  128  cd command-line-murder-mystery
+  129  ls
+  130  open README.md
+  131  cat instruction
+  132  cat instructions
+  133  ls
+  134  cd mystery
+  135  ls
+  136  grep clue crimescene
+  137  cd ..
+  138  touch solution.txt
+  139  cat instructions
+  140  ls
+  141  cd mystery
+  142  ls
+  143  cat crimescene | grep CLUE > hints.txt
+  144  cat hints.txt
+  145  cat people | grep CLUE >> hints.txt
+  146  cat vehicles | grep CLUE >> hints.txt
+  147  cat hints.txt
+  148  ls
+  149  cat *./* | grep CLUE >> hints.txt
+  150  cd interviews
+  151  ls
+  152  touch hints.txt
+  153  cat . | grep CLUE >> hints.txt
+  154  cat *interview* | grep CLUE >> hints.txt
+  155  cat hints.txt
+  156  cd ..
+  157  cd interviews
+  158  cat interview-7541406
+  159  cd ..
+  160  ls
+  161  find CLUE 
+  162  man find
+  163  find . CLUE
+  164  cat . | grep CLUE >> hints2.txt
+  165  ls
+  166  cd ..
+  167  ls
+  168  cat instructions
+  169  ls
+  170  cat hint1
+  171  cat hint 2
+  172  cat hint2
+  173  cat hint3
+  174  cd mystery
+  175  ls
+  176  head -n 20 people
+  177  cat people
+  178  ls
+  179  head -n 20 vehicles
+  180  head -n 20 crimescene
+  181  ls
+  182  cat hints.txt
+  183  history
+  184  ls
+  185  head -n 20 people
+  186  cat people | grep M 
+  187  cat people | grep * M * 
+  188  cat people | grep *M\*
+  189  man grep
+  190  ls
+  191  cat hints.txt
+  192  cd memberships
+  193  ls
+  194  cat *.txt | grep CLUE >> hints.txt
+  195  cat hints.txt
+  196  cd ..
+  197  ls
+  198  cd streets
+  199  ls
+  200  cat Abbot_Street
+  201  cat Abbot_Street -n 20
+  202  ls
+  203  cat *Street* | grep CLUE > hints2.txt
+  204  cat *Road* | grep CLUE > hintsRd.txt
+  205  cat *Place* | grep CLUE > hintsPl.txt
+  206  cat hintsPl.txt
+  207  CAT *Avenue* | grep CLUE > hintsAv.txt
+  208  cat *Circle* | grep CLUE > hintsCr.txt
+  209  cat *Park* | grep CLUE > hintsPk.txt
+  210  cat *.txt
+  211  rm *.txt
+  212  ls
+  213  cd ..
+  214  ls
+  215  cat hints2.txt
+  216  rm hints2.txt
+  217  cat hints.txt
+  218  cd memberships
+  219  ls
+  220  cat 1.txt
+  221  ls
+  222  cd ..
+  223  cat hints.txt
+  224  ls
+  225  head -20 crimescene
+  226  cat crimescene | grep Annabel
+  227  head -20 1.txt
+  228  ls
+  229  cd memberships
+  230  ls
+  231  head -n 20 1.txt
+  232  head -n 20 2.txt
+  233  head -n 26 2.txt
+  234  ls
+  235  head -n 20 Delta_SkyMiles
+  236  cd ..
+  237  ls
+  238  cat hints.txt
+  239  head -n 20 people
+  240  cat people | grep " M " >> men.txt
+  241  cat men
+  242  ls
+  243  cat men.txt
+  244  grep people " M "
+  245  grep " M " people
+  246  ls
+  247  cp people people.txt
+  248  ls
+  249  cat people.txt
+  250  cat people.txt | grep " M " 
+  251  ls
+  252  cat people.txt | grep " M "
+  253  cat people | grep M
+  254  ls
+  255  cat hints.txt
+  256  cd interviews
+  257  ls
+  258  cat *interview* | grep AAA > hint.txt
+  259  cat hint
+  260  cat hint.txt
+  261  ls
+  262  ls *.txt
+  263  rm *.txt
+  264  grep AAA | head -n 20
+  265  history
+  266  ls
+  267  cd code
+  268  ls
+  269  unit1
+  270  ls
+  271  cd cmdLine
+  272  ls
+  273  command-line-murder-mystery
+  274  ls
+  275  cat *hint*
+  276  cat *hint* > getIt.txt
+  277  open getIt.txt
+  278  ls
+  279  cd mystery
+  280  ls
+  281  open hints.txt
+  282  grep "Annabel" people
+  283  head -n 173 streets/Mattapan_Street | tail -n 1
+  284  head -n 40 streets/Hart_Place | tail -n 1
+  285  head -n 179 streets/Buckingham_Place | tail -n 1
+  286  head -n 20 vehicles
+  287  grep "Annabel" vehicles
+  288  ls
+  289  cd interviews
+  290  cat interview-47246024 > checkOne.txt
+  291  open checkOne.txt
+  292  cat interview-699607 > checkTwo.txt
+  293  open checkTwo.txt
+  294  cd ..
+  295  ls
+  296  grep "L337" vehicles
+  297  grep "L337" vehicles | tail -n 2
+  298  grep "Honda" vehicles
+  299  grep "blue" vehicles
+  300  head -n 20 vehicles
+  301  open vehicles
+  302  ls
+  303  grep -A 5 "L337" vehicles
+  304  ls
+  305  cd memberships
+  306  ls
+  307  cat AAA Delta_SkyMiles *ibrary* Museum_of_Bash_History | grep "Joe Germuska" > suspect1.txt
+  308  cat suspect1.txt
+  309  head -n 20 AAA
+  310  cat AAA Delta_SkyMiles *ibrary* Museum_of_Bash_History | grep "Jeremy Bowers" > suspect2.txt
+  311  cat suspect2.txt
+  312  ls
+  313  cd ..
+  314  ls
+  315  cd ..
+  316  ls
+  317  echo tail -n 500 >> solution.txt
+  318  echo " " >> solution.txt
+  319  echo "The most guilty looking suspect, and very likely the perpetrator, is Jeremy Bowers." >> solution.txt
+  320  open solution.txt
+ 
+The most guilty looking suspect, and very likely the perpetrator, is Jeremy Bowers.
