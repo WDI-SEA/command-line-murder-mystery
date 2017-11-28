@@ -1,0 +1,167 @@
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd unit1
+   10  ls
+   11  cd command-line-murder-mystery
+   12  ls
+   13  cat mystery | grep "CLUE"
+   14  cd mystery
+   15  ls
+   16  cd interviews
+   17  ls
+   18  grep "int" | grep "CLUE"
+   19  cat interview-00448418
+   20  cat int | grep "CLUE"
+   21  cat int* | grep "CLUE"
+   22  cat interview/* | "CLUE"
+   23  cat interview* | "CLUE"
+   24  cat interview* | grep  "CLUE"
+   25  cat interview\* | grep  "CLUE"
+   26  cd
+   27  cd projects/ga/wdi/unit1/command-line-murder-mystery
+   28  cd mystery
+   29  cat crimescene | grep "CLUE"
+   30  cat crimescene | grep "CLUE" >> clues.txt
+   31  ls
+   32  cat clues.txt
+   33  ls
+   34  cd intervieww
+   35  cd interviews
+   36  cat interview* | grep "CLUE"
+   37  ls
+   38  cat interview* | grep "Annabel"
+   39  cat interview* | grep "a"
+   40  cat interview* | grep "Annabel"
+   41  cd ..
+   42  cat clues.txt
+   43  ls
+   44  cd memberships
+   45  ls
+   46  cat AAA | grep "CLUE"
+   47  cat AAA | grep "Annabel"
+   48  cat Delta_SkyMiles | grep "Annabel"
+   49  cat *.txt | grep "Annabel"
+   50  ls
+   51  cd
+   52  cd projects/ga/wdi/unit1/command-line-murder-mystery/mystery
+   53  ls
+   54  cat people | grep "Annabel"
+   55  cat people | grep "Annabel" > sort
+   56  cat people | grep "Annabel" |  sort
+   57  cat people
+   58  cd ..
+   59  ls
+   60  cd mystery
+   61  cat clues.txt
+   62  ls
+   63  cat sort
+   64  cat vehicles
+   65  cd ..
+   66  ls
+   67  cd mystery
+   68  cat clue
+   69  cat clues.txt
+   70  cat sort
+   71  cat sort | sort > sort
+   72  cat sort
+   73  ls
+   74  cat sort
+   75  cat people | grep "Annabel" | sort 
+   76  ls
+   77  cd streets
+   78  ls
+   79  echo grep "Annabel"
+   80  echo|  grep "Annabel"
+   81  echo |  grep "Annabel"
+   82  ls
+   83  cd ..
+   84  ;s
+   85  ls
+   86  cd memberships
+   87  cd ..
+   88  echo clues.txt
+   89  cat clues.txt
+   90  ls
+   91  cd memberships
+   92  ls
+   93  cat delta.txt | "Annabel"
+   94  cat delta.txt | grep "Annabel"
+   95  cat delta.txt library.txt | grep "Annabel"
+   96  cat delta.txt library.txt museum.txt | grep "Annabel"
+   97  cat museum.txt | grep "Annabel"
+   98  cd ..
+   99  ls
+  100  cat clues.txt
+  101  cd memberships
+  102  cat AAA | grep "Annabel"
+  103  ls
+  104  cat Delta_SkyMiles | grep "Annabel"
+  105  cat Delta_SkyMiles | grep "Church"
+  106  cat delta.txt | grep "Church"
+  107  ls
+  108  cd ..
+  109  ls
+  110  cat clues
+  111  cat clues.txt
+  112  ls
+  113  cat people | grep "Church"
+  114  ls
+  115  cat crimescene | grep "blonde"
+  116  cat crimescene | grep "hair"
+  117  ls
+  118  cat clues.txt
+  119  cd interviews
+  120  cd ..
+  121  cat streets | grep "Buckingham Place"
+  122  cd streets
+  123  ls
+  124  cat Buckingham_Place
+  125  cat Buckingham_Place | grep "Church"
+  126  head -n 179 | tails -n 1
+  127  head -n 179 | tail -n 1
+  128  cat Buckingham_Place | head -n 179 | tail -n 179
+  129  cd ..
+  130  head -n 179 streets\Buckingham_Place | tail -n 1
+  131  head -n 179 streets/Buckingham_Place | tail -n 1
+  132  ls
+  133  cd interviews
+  134  cat INTERVIEW-699607
+  135  ls
+  136  cd ..
+  137  ls
+  138  cat vehicles
+  139  cat vehicles | grep "L337"
+  140  cat vehicles | grep "Make: Honda\ Color: Blue"
+  141  cat vehicles | grep "Make: Honda Color: Blue"
+  142  cat vehicles | grep "L337" | grep "Make: Honda"
+  143  cat vehicles | grep "L337" | grep "Honda"
+  144  cd ..
+  145  ls
+  146  cat hint 4
+  147  cat hint4
+  148  cd hint5
+  149  cat hint5
+  150  cat hint6
+  151  cat hint7
+  152  cd mystery
+  153  cat vehicles | grep -A 5 "L337\n\n"
+  154  cat vehicles | grep -A 5 "L337"
+  155  cd ..
+  156  cat hint7
+  157  cat hint8
+  158  ls
+  159  cd mystery
+  160  ls
+  161  cd memberships
+  162  grep "Jeremy Bowers"
+  163  ls
+  164  cat AAA museum.txt libary.txt delta.txt
+  165  cat AAA museum.txt libary.txt delta.txt | grep "Bowers"
+  166  ls
+  167  cat AAA museum.txt libary.txt delta.txt | grep "Germuska"
+  168  cat AAA museum.txt libary.txt delta.txt | grep "Owens"
+  169  cat AAA museum.txt library.txt delta.txt | grep "Bowers"
+  170  echo DING DING DING
+
+JEREMY BOWERS IS THE KILLER
