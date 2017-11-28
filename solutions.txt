@@ -1,0 +1,216 @@
+ 23  cd code
+   24  cd unit1
+   25  ls -al
+   26  cd command-line-muder-mystery
+   27  cd command-line-murder-mystery
+   28  ls -al
+   29  cat instructions
+   30  cd mystery
+   31  ls -al
+   32  cat crimescene
+   33  cat vehicles
+   34  ls -al
+   35  crimescene | grep CLUE
+   36  cat crimescene | grep CLUE
+   37  cat crimescene | grep CLUE | mv clues.txt
+   38  cat clues.txt
+   39  ls -al
+   40  cd interviews
+   41  ls -al
+   42  cat interview-* | grep CLUE
+   43  cat interview* | grep CLUE
+   44  cat inter* | grep CLUE
+   45  cat * | grep CLUE
+   46  cd ..
+   47  ls -al
+   48  cat crimescene | grep CLUE > clues.txt
+   49  ls -al
+   50  cat clues.txt
+   51  cat people | grep CLUE
+   52  cap vehicles | grep CLUE
+   53  cat vehicles | grep CLUE
+   54  cd interviews
+   55  cat * | grep CLUE
+   56  cat * | grep blond
+   57  cat * | grep skymiles
+   58  cat * | grep male
+   59  cat * | grep female
+   60  cat * | grep barista
+   61  cat * | grep coffee
+   62  cd ..
+   63  cat people
+   64  cat people | grep F
+   65  cd interviews
+   66  cat * | grep CLUE
+   67  ls -al
+   68  cat * | grep Zealand
+   69  ls -al
+   70  cd ..
+   71  ls -al
+   72  cd memberships
+   73  ls -al
+   74  cat Delta_SkyMiles
+   75  cat * | grep CLUE
+   76  cd ..
+   77  ls -al
+   78  cat crimescene | grep CLUE
+   79  cd memberships
+   80  ls -al
+   81  cat AAA | sort > memberships.txt
+   82  cat memberships.txt
+   83  ls -al
+   84  cat Delta_SkyMiles | sort >> memberships.txt
+   85  cat Terminal_City_Library | sort >> memberships.txt
+   86  cat Museum_of_Bash_History | sort >> memberships.txt
+   87  cat memberships.txt | sort
+   88  cat memberships.txt | sort > sorted_memberships.txt
+   89  cat sorted_memberships.txt
+   90  cd ..
+   91  ls -al
+   92  cd streets
+   93  ls -al
+   94  cat * | grep ATM
+   95  cd ..
+   96  cd interviews
+   97  cat * | grep ATM
+   98  cat * | grep AAA
+   99  cat * | -H grep AAA
+  100  cat * | grep -H AAA
+  101  cat * | grep -H, --with-filename AAA
+  102  cd ..
+  103  list -al
+  104  ls -al
+  105  cat hint1
+  106  cd mystery
+  107  head -n 20 people
+  108  ls -al
+  109  cd interviews
+  110  cat * | grep AAA
+  111  cat crimescene
+  112  cd ..
+  113  cat crimescene
+  114  cd interviews
+  115  ls -al
+  116  cd ..
+  117  ls -al
+  118  cd ..
+  119  hint2
+  120  ls -al
+  121  cat hint2
+  122  cat hint3
+  123  cd mystery
+  124  ls -al
+  125  head people
+  126  head -n 60 people
+  127  cat people | sot
+  128  cat people | sort
+  129  ls -al
+  130  cd streets
+  131  ls -al
+  132  cat * | grep Monument
+  133  cat * | grep Cedar
+  134  cat Hart_Place
+  135  head -n 40 Hart_Place
+  136  head -n 176 Haley_Street
+  137  head -n 179 Buckingham_Place
+  138  head -n 168 Forest_Place
+  139  ls -al
+  140  cd ..
+  141  ls -al
+  142  cd interviews
+  143  ls -al
+  144  cat interview-699607
+  145  cat interview-871877
+  146  cat interview-47246024
+  147  cd ..
+  148  ls -al
+  149  cd vehicles
+  150  cat vehicles | grep Honda
+  151  cat vehicles | grep L337
+  152  cat vehicles | sort
+  153  cat vehicles | grep L337 | sort 
+  154  cat vehicles
+  155  cat vehicles | grep 'Honda'\'L337'
+
+cd ..
+~
+cd ~
+clear
+|
+'
+  156  cat vehicles | grep -A 5 L337
+  157  cd interviews
+  158  cat * | grep -A 5 AAA
+  159  cat * | grep -B 5 AAA
+  160  cd ..
+  161  ls -al
+  162  cat people | sort
+  163  ls -al
+  164  cd streets
+  165  ls -a
+  166  cat Andover_Road -n 224
+  167  head -n 224 Andover_Road
+  168  head -284 Dunstable_Road
+  169  head -n 275 Plainfield_Street
+  170  head n -16 Claybourne_Street
+  171  cd ..
+  172  ls -al
+  173  cd interviews
+  174  ls -a
+  175  cat interview-9620713
+  176  cat interview-904020
+  177  ls -a
+  178  cd ..
+  179  ls -a
+  180  cat people | grep Erika
+  181  cat people | grep Matt
+  182  cat people | grep Miranda
+  183  ls -a
+  184  cd streets
+  185  head -n 98 Trapelo_Street
+  186  head n -79 Alpine_Street
+  187  head n -16 Claybourne_Street
+  188  head -n 98 Trapelo_Street
+  189  head -n 79 Alpine_Street
+  190  head -n 145 Claybourne_Street
+  191  cd ..
+  192  ls -a
+  193  cd interviews
+  194  cat interview-29741223
+  195  cat interview-1767435
+  196  cd ..
+  197  ls -a
+  198  cd streets
+  199  head -n 92 Wentworth_street
+  200  cd ..
+  201  cd interviews
+  202  cat interview-79667499
+  203  cat * | grep Bowers
+  204  cd ..
+  205  ls -a
+  206  cd memberships
+  207  ls -a
+  208  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Jeremy Bowers | wc -|
+'
+'
+  209  cd ..
+  210  cd interviews
+  211  cat interview-5455315
+  212  cat interview-862173
+  213  cd ..
+  214  ls -a
+  215  cd memberships
+  216  ls -a
+  217  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles | grep Bowers
+  218  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles | grep Miranda
+  219  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles | grep Matt
+  220  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles | grep Matt Waite
+  221  ls -a
+  222  cat museum.txt
+  223  ls -a
+  224  cat delta.txt
+  225  ls -a
+  226  cd ..
+  227  ls -a
+  228  cat crimescene | grep Jeremy 
+The murderer is Jeremy Bowers
