@@ -1,0 +1,90 @@
+ Jeremy Bowers is the murderer.
+ 71  git clone git@github.com:RAnderso0325/command-line-murder-mystery.git
+   72  ls
+   73  cd command-line-murder-mystery
+   74  cat instructions
+   75  ls
+   76  grep CLUE
+   77  cat
+   78  cat command-line-murder-mystery | grep CLUE
+   79  ls
+   80  cd mystery
+   81  ls
+   82  cat crimescene | grep CLUE
+   83  cat interviews | grep CLUE
+   84  cd interviews
+   85  ls
+   86  cat interviews | grep CLUE
+   87  cat interview | grep CLUE
+   88  cd ..
+   89  ls
+   90  cd memberships
+   91  ls
+   92  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | sort
+   93  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | sort | uniq -c | grep -v '^ *1 ' | sort -nr
+   94  cd ..
+   95  ls
+   96  cat people
+   97  cat people | grep M
+   98  cat people | grep Annabel
+   99  ls
+  100  cd interviews
+  101  ls
+  102  cat interviews/* | grep Annabel
+  103  cat interviews/* | hair
+  104  cat interviews/* | grep Zealand
+  105  cat * | grep Zealand
+  106  cat * | grep Church
+  107  cat * | male
+  108  cat * | grep male
+  109  cat * | grep "considered a suspect"
+  110  cat * | greb Boyer
+  111  cat * | grep Boyer
+  112  cd ..
+  113  ls
+  114  cat vehicles
+  115  cat vehicles | grep Boyer
+  116  cat vehicles | grep mazda
+  117  cat vehicles | grep Mazda
+  118  cat vehicles | grep "make: Mazda" | grep "6'"
+  119  cat vehicles | grep "6'"
+  120  cat vehicles | grep Mazda "6'"
+  121  cat vehicles | grep Mazda grep "6'"
+  122  cat vehicles | grep Mazda | grep "6'"
+  123  cat vehicles | grep -e Mazda -e "6'"
+  124  ls
+  125  cd streets
+  126  ls
+  127  cat * | grep Buckingham_Place
+  128  grep Buckingham_Place
+  129  cd ..
+  130  cat streets | grep Buckingham_Place
+  131  cat streets/* | grep Buckingham_Place
+  132  cd streets
+  133  cat Buckingham_Place
+  134  cat Buckingham_Place | grep interview
+  135  cat Buckingham_Place | grep Interview
+  136  cd ..
+  137  cat Interviews/*699607
+  138  ls
+  139  cat vehicles | grep "L337"
+  140  cat vehicles | grep -E --color=auto 'L337|$'
+  141  ls
+  142  cd ..
+  143  ls
+  144  cat hint7
+  145  cd mystery
+  146  cat vehicles | grep -A 5 "L337" mystery/vehicles
+  147  cd ..
+  148  cat vehicles | grep -A 5 "L337" mystery/vehicles
+  149  cd mystery
+  150  ls
+  151  cat interviews | grep Jeremy
+  152  cd interviews
+  153  cat * | grep Jeremy
+  154  cat * | grep Jacqui
+  155  cat * | grep Bowers
+  156  cat * | grep Maher
+  157  cd ..
+  158  ls -a
+  159  echo "Jeremy Bowers is the murderer." > solution.txt
