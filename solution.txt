@@ -1,0 +1,133 @@
+Jeremy bowers killed my best friend
+
+   54  cd command-line-murder-mystery
+   55  cat instructions
+   56  ls
+   57  cd mystery
+   58  ls
+   59  cat crimescene
+   60  cd ..
+   61  ls
+   62  cat instructions
+   63  cd mystery
+   64  ls
+   65  cat crimescene
+   66  ls
+   67  cat crimescene| grep CLUE
+   68  ls
+   69  cat people
+   70  ls
+   71  cd interviews
+   72  ls
+   73  cd ..
+   74  ls
+   75  cd ..
+   76  ls
+   77  cat hint1
+   78  ls
+   79  head -n 15 instructions
+   80  cat instructions
+   81  ls
+   82  cd mystery
+   83  ls
+   84  cat crimescene | grep CLUE
+   85  head -n 10 people
+   86  cd memberships
+   87  ls
+   88  head -n 20 Museum_of_Bash_History
+   89  cat AAA | grep annabel
+   90  cat delta.txt
+   91  cat delta.txt | grep annabel
+   92  ls
+   93  cat newfile.txt
+   94  ls
+   95  cat Fitness_Galaxy
+   96  ls
+   97  cd ..
+   98  ls
+   99  cd interviews
+  100  ls
+  101  cat interview-324389
+  102  cat interview-3099757
+  103  ls
+  104  cd ..
+  105  ls
+  106  cat people| grep annabel
+  107  ls
+  108  cat people | grep annabel
+  109  cat people | grep an
+  110  ca
+  111  cat people | grep anna
+  112  ls
+  113  cd streets
+  114  ls
+  115  cat Dock_Street
+  116  ls
+  117  cd ..
+  118  ls
+  119  cat people | grep Anna
+  120  cat people | grep Annabel
+  121  ls
+  122  cd streets
+  123  ls
+  124  head -n 179 Buckingham_Place
+  125  cd ..
+  126  ls
+  127  cd interviews
+  128  ls
+  129  cat interview-699607
+  130  ls
+  131  cd ..
+  132  ls
+  133  cat vehicles| grep L33
+  134  cat vehicles| grep L337
+  135  ls
+  136  cd memberships
+  137  ls
+  138  cat AAA
+  139  ls
+  140  cat Rotary_Club
+  141  cd
+  142  ls
+  143  cd Code
+  144  ls
+  145  cd Unit_1
+  146  ls
+  147  cd command-line-murder-mystery
+  148  ls
+  149  mystery
+  150  ls
+  151  cd interviews
+  152  ls
+  153  pwd
+  154  cd ..
+  155  ls
+  156  cat vehicles | grep Annabel grep L337
+  157  cat vehicles
+  158  grep -a5 L337
+  159  grep -a 5 "L337" vehicles
+  160  grep -A 5 'L337' vehicles
+  161  ls
+  162  cd memberships
+  163  ls
+  164  cat AAA | grep Owens
+  165  cat Delta_SkyMiles
+  166  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep Owens
+  167  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Maher 
+  168  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Bowers
+  169  cd ..
+  170  ls
+  171  cat people | grep Maher
+  172  cat people | grep Bowers
+  173  ls
+  174  .. cd
+  175  ls
+  176  cd ..
+  177  ls
+  178  cat instructions
+  179  ls
+  180  open cheatsheet.pdf 
+  181  cat cheatsheet.md
+  182  cd ..
+  183  ls
+  184  cd command-line-murder-mystery
