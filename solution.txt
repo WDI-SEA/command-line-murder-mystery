@@ -1,0 +1,203 @@
+1.    56  mkdir unit1
+   57  cd unit1
+   58  git clone git@github.com:jaderosse/command-line-murder-mystery.git
+   59  cd command-line-murder-mystery
+   60  cat instructions
+   61  ls
+   62  cd mystery
+   63  ls
+   64  cat crimescene
+   65  cat instructions
+   66  pwd
+   67  cat crimescene | grep CLUE
+   68  cd ..
+   69  cat instructions
+   70  cat hint1
+   71  head -n 20 people
+   72  ls
+   73  cat hint3
+   74  head -n 20 vehicles
+   75  cat crimescene | head -n 20 vehicles
+   76  cat vehicles | head -n 20
+   77  cat vehicles
+   78  vehicles | head -n 20
+   79  cd mystery
+   80  ls
+   81  vehicles | head -n 20
+   82  ls
+   83  cat vehicles
+   84  cd ..
+   85  ls
+   86  cd mystery
+   87  ls
+   88  cat crimescene 
+   89  cat crimescene | grep CLUE 
+   90  cat people
+   91  cat people | grep Annabelle
+   92  cat people | grep ANNABELLE
+   93  ls
+   94  cat people | grep ANNABEL
+   95  cat people | grep ANABEL
+   96  cat people | grep anabel
+   97  cat people | grep Anabel
+   98  cat crimescene | grep CLUE
+   99  cat streets
+  100  cd streets
+  101  ls
+  102  cat hint 5
+  103  cd ..
+  104  cat hint 5
+  105  cd..
+  106  cd ..
+  107  cat hint5
+  108  cat hint4
+  109  cat people | grep Annabel
+  110  cat people | grep Ann
+  111  ls
+  112  cd mystery
+  113  ls
+  114  cat people | grep Ann
+  115  cat people | grep Annabe
+  116  cd memberships
+  117  ls
+  118  cat AAA | grep Annabel
+  119  cat Delta_SkyMiles | grep Annabel
+  120  cd ..
+  121  cd interviews
+  122  ls
+  123  cd ..
+  124  cd streets
+  125  ls
+  126  cat Mattapan_Street
+  127  cat Mattapan_Street | grep Annabel
+  128  pwd
+  129  cat Mattapan_Street
+  130  cat 
+  131  cat Mattapan_Street | head -n 173
+  132  cd ..
+  133  cd interviews
+  134  ls
+  135  cat interview-9457737
+  136  cat interview-9437737
+  137  cd ..
+  138  cd streets
+  139  Haley_Street | head -n 176
+  140  cat Haley_Street | head -n 176
+  141  cd ..
+  142  cd interviews
+  143  ls
+  144  cat interview-871877
+  145  cd ..
+  146  ls
+  147  cd ..
+  148  ls
+  149  cat hint6
+  150  hint5
+  151  cat hint5
+  152  ls
+  153  cd mystery
+  154  cd streets
+  155  ls
+  156  cat Hart_Place | head -n 40
+  157  cd ..
+  158  interviews
+  159  cat interview-47246024
+  160  cat inverview-699607
+  161  cat interview-699607
+  162  cd ..
+  163  ls
+  164  cat vehicles | grep Honda
+  165  cat vehicles | grep L337
+  166  cd ..
+  167  ls
+  168  cd mystery
+  169  ls
+  170  cd memberships
+  171  ls
+  172  cat AAA
+  173  cd ..
+  174  ls
+  175  cat vehicles | grep Honda blue
+  176  cat vehicles | grep blue
+  177  ls
+  178  cat vehicles | grep L337
+  179  cat vehicles | blue
+  180  cat vehicles | Honda L337
+  181  cat vehicles | Honda
+  182  cat vehicles | grep blue Honda
+  183  cat vehicles | grep Honda L337
+  184  cat License Plate
+  185  cd memberships
+  186  cat Lisa Wang
+  187  cat 
+  188  cat "Lisa Wang"
+  189  ls
+  190  cat AAA 
+  191  cat Lisa Wang
+  192  cat AAA | grep Annabel
+  193  cat Annabel Church
+  194  cd Annabel Church
+  195  cd ..
+  196  ls
+  197  cd ..
+  198  hint6
+  199  cat hint6
+  200  cd mystery
+  201  ls
+  202  cat vehicles | grep 6'\nno
+  203  cat vehicles | grep "6'"
+  204  cd ..
+  205  cd mystery
+  206  cat vehicles | grep Honda | grep "6'"
+  207  cat vehicles | head -n 20
+  208  cat vehicles | grep Blue
+  209  cat vehicles | grep Blue | grep Honda
+  210  ls
+  211  cd ..
+  212  cat hint7
+  213  cat vehicles | grep -A 5 "L337" 
+  214  grep -A 5 "L337" mystery/vehicles
+  215  cd 
+  216  cd ..
+  217  cat hint7
+  218  cd command-line-murder-mystery
+  219  ls
+  220  cd jaderosse
+  221  ls
+  222  cd code
+  223  ls
+  224  cd unit1
+  225  ls
+  226  cd command-line-murder-mystery
+  227  ls
+  228  cd mystery
+  229  ls
+  230  cd memberships
+  231  ls
+  232  cat AAA | grep Jeremy
+  233  cat Delta_SkyMiles | grep Jeremy
+  234  cat museum.txt
+  235  cat museum.txt | grep Jeremy
+  236  cd ..
+  237  ls
+  238  cat people | Jeremy
+  239  cat people | grep Jeremy
+  240  cd ..
+  241  ls
+  242  cd mystery
+  243  ls
+  244  cd interviews
+  245  cd ..
+  246  cd streets
+  247  cat Dunstable_Road | head -n 289
+  248  cd ..
+  249  cd interviews
+  250  cat interview-9620713
+  251  cd ..
+  252  git status
+  253  touch solution.txt
+  254  pwd
+  255  ls
+  256  open solution.txt
+
+2. Jeremy Bowers
