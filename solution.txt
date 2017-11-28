@@ -1,0 +1,115 @@
+   56  clear
+   57  cd ~
+   58  clear
+   59  ls
+   60  cd Code
+   61  ls
+   62  cd Unit1
+   63  git clone https://github.com/TaylorDarneille/command-line-murder-mystery.git
+   64  ls
+   65  cd command-line-murder-mystery
+   66  cat instructions
+   67  ls
+   68  nano cheatsheet.md
+   69  open cheatsheet.pdf
+   70  open instructions
+   71  cd mystery
+   72  ls
+   73  cat crimescene
+   74  cat crimescene | grep CLUE
+   75  ls
+   76  cd interviews
+   77  ls
+   78  cd ..
+   79  ls
+   80  cd memberships
+   81  ls
+   82  cat AAA
+   83  ls
+   84  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | sort
+   85  cd ..
+   86  ls
+   87  cd memberships
+   88  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | sort | uniq -c | grep -v '^ *1 ' | sort -nr
+   89  cd ..
+   90  cat people | grep Annabel
+   91  cd ..
+   92  ls
+   93  cd mystery
+   94  ls
+   95  cat crimescene | grep CLUE
+   96  ls
+   97  cat interviews/* | grep Annabel
+   98  cd interviews
+   99  ls
+  100  cat interview-999372
+  101  ls
+  102  cd ..
+  103  ls
+  104  cat interviews/* | grep zealand
+  105  cat interviews/* | grep Zealand
+  106  cat interviews/* | grep Church
+  107  cat interviews/* | grep male
+  108  ls
+  109  ls streets
+  110  cat interviews/* | grep "considered a suspect"
+  111  ls
+  112  cat people | grep Boyer
+  113  cat vehicles
+  114  cat vehicls | grep Boyer
+  115  cat vehicles | grep Boyer
+  116  cat vehicles | grep 6'\n"6'"\n
+  117  cat vehicles | grep Mazda "6'"\n"6'"\n
+  118  cat vehicles | grep Mazda | grep "6'"\n"6'"\n
+  119  cat vehicles | grep -e grep mazda "6'"\n"6'"\n
+  120  cat vehicles | grep -e  mazda -e  "6'"\n"6'"\n
+  121  ls
+  122  cd ..
+  123  ls
+  124  cat hint1
+  125  ls
+  126  cd mystery
+  127  ls
+  128  cat people | grep Church
+  129  cat streets | grep Buckingham Place
+  130  cd streets
+  131  ls
+  132  cat Buckingham_Place
+  133  cat Buckingham_Place | grep Interview
+  134  cd ..
+  135  ls
+  136  cd interviews
+  137  ls
+  138  cat interview-699607
+  139  cd ..
+  140  ls
+  141  cd vehicles
+  142  ls
+  143  cd vehicles
+  144  cat vehicles
+  145  cat vehicles | sort
+  146  cat vehicles | ls
+  147  cat vehicles
+  148  grep -E --color=auto "l337|$"
+  149  cat vehicles | grep -E --color=auto "l337|$"
+  150  head -n 50 vehicles
+  151  cd ..
+  152  ls
+  153  cat hint2
+  154  cd hint3
+  155  cat hint3
+  156  cat vehicles
+  157  ls
+  158  cd mystery
+  159  cat vehicles
+  160  cd ..
+  161  ls
+  162  cat hint7
+  163  cat vehicles | grep -A 5 "L337" mystery/vehicles
+  164  ls
+  165  cd mystery
+  166  ls
+  167  cd interviews
+  168  cat * | grep Maher
+
+Jeremy Bowers is the murderer!
