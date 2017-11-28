@@ -1,0 +1,144 @@
+Killer: Jeremy Bowers
+
+115  git clone https://github.com/cgroark/command-line-murder-mystery.git
+  116  cd command-line-murder-mystery
+  117  cat instructions
+  118  ls
+  119  cd mystery
+  120  ls
+  121  cat crimescene
+  122  cat crimescene | grep CLUE
+  123  cd ..
+  124  ls
+  125  cat instructions
+  126  ls
+  127  cat hint1
+  128  head -n 20 people
+  129  cat hint1
+  130  cat hint2
+  131  cat hint3
+  132  head -n 20 crimescene
+  133  cd mystery
+  134  ls
+  135  head -n 20 crimescene
+  136  cd ..
+  137  ls
+  138  cat hint4
+  139  cd mystery
+  140  cat crimescene | grep Annabel
+  141  ls
+  142  cat people | grep Annabel
+  143  cd memberships
+  144  ls
+  145  cat AAA | grep Annabel
+  146  cat Delta_SkyMiles | grep Annabel
+  147  cat library.txt | grep Annabel 
+  148  cat Museum_of_Bash_History | grep Annabel
+  149  cat Delta_SkyMiles library.txt Museum_of_Bash_History AAA | grep Annabel
+  150  cd ..
+  151  ls
+  152  cd ..
+  153  ls
+  154  cat hint5
+  155  ls
+  156  cd mystery
+  157  ls
+  158  cd interviews
+  159  ls
+  160  cd ..
+  161  ls
+  162  cd memberships
+  163  ls
+  164  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep Anabel
+  165  cd ..
+  166  ls
+  167  cd streets
+  168  ls
+  169  head -n 173 streets/Mattapan_Street | tail -n 1
+  170  cat Mattapan_Street
+  171  ls
+  172  head -n 173 Mattapan_Street
+  173  ls
+  174  cd ..
+  175  ls
+  176  cd interviews
+  177  ls
+  178  cat interview-9437737
+  179  cd ..
+  180  ls
+  181  cd ..
+  182  ls
+  183  cat hint5
+  184  ls
+  185  cd mystery
+  186  ls
+  187  cd streets
+  188  head -n 179 Buckingham_Place
+  189  cd ..
+  190  ls
+  191  cd interviews
+  192  cat interview-699607
+  193  cd ..
+  194  ls
+  195  cat vehicles | grep L337
+  196  cd ..
+  197  ls
+  198  cd mystery
+  199  ls
+  200  cd memberships
+  201  ls
+  202  cat AAA | grep L337
+  203  cat Rotary_Club library.txt Museum_of_Bash_History Delta_SkyMiles | grep L337
+  204  cat 1.txt
+  205  cd ..
+  206  ls
+  207  cat vehicles
+  208  ls
+  209  cd ..
+  210  ls
+  211  cat hint6
+  212  cat hint7
+  213  ls
+  214  cd mystery
+  215  ls
+  216  cat vehicles | -A 5 "L337" mystery/vehicles
+  217  grep -A 5 "L337" mystery/vehicles
+  218  cd ..
+  219  grep -A 5 "L337" mystery/vehicles
+  220  ls
+  221  cat hint8
+  222  cd mystery
+  223  ls
+  224  cd memberships
+  225  ls
+  226  cat AAA Delta_SkyMiles library.txt | "Jeremy Bowers"
+  227  cat AAA Delta_SkyMiles library.txt | grep  "Jeremy Bowers"
+  228  cat Museum_of_Bash_History |grep  Jeremy Bowers
+  229  cat Museum_of_Bash_History | grep Jeremy Bowers
+  230  cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt | grep  "Jeremy Bowers"
+  231  cd ..
+  232  ls
+  233  cd interviews
+  234  cd ..
+  235  cd streets
+  236  cd ..
+  237  ls
+  238  cat people | Bowers
+  239  cat people | grep Bowers
+  240  cd ..
+  241  ls
+  242  cs mystery
+  243  cd mystery
+  244  ls
+  245  cd streets
+  246  ls
+  247  cat Dunstable_Road | head -n 284
+  248  ls
+  249  cd ..
+  250  ls
+  251  cd interviews
+  252  cat interview-9620713
+  253  cd ..
+  254  ls
+  255  touch solution.txt
+  256  open solution.txt
