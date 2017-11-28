@@ -1,0 +1,54 @@
+ git clone https://github.com/Abraud92/command-line-murder-mystery.git
+  153  cat instructions
+  154  ls
+  155  cd command-line-murder-mystery
+  156* history
+  157* git@github.com:Abraud92/command-line-murder-mystery.git
+  158* cd code
+  159* ls
+  160* git clone https://github.com/Abraud92/command-line-murder-mystery.git
+  161* ls
+  162* cat instructions
+  163  git clone https://github.com/Abraud92/command-line-murder-mystery.git\n
+  164  ls
+  165  cd command-line-murder-mystery\n\n
+  166  ls
+  167  cat instructions
+  168  cd mystery
+  169  ls
+  170  grep -r "CLUE" *
+  171  grep Annabel people  
+  172  sed -n '40p' streets/Hart_Place
+  173  less interviews/interview-47246024
+  174  sed -n '179p' streets/Buckingham_Place
+  175  less interviews/interview-699607
+  176  head -15 vehicles
+  177  grep L337 vehicles
+  178  grep L337 vehicles -A3
+  179  grep L337 vehicles -A3 | grep Blue -B1 -A1
+  180  grep L337 vehicles -A3 | grep Blue -C1 
+  181  grep L337 vehicles -A3 | grep Blue -C1 | grep Honda -A2\n
+  182  grep "Erika Owens" people
+  183  sed -n '98p' streets/Trapelo_Street
+  184  less interviews/interview-5455315
+  185  grep "Aron Pilhofer" people | cut -f 4\n
+  186  grep "Aron Pilhofer" people | cut -f 4 | cut -d',' -f1
+  187  grep "Aron Pilhofer" people | cut -f 4 | cut -d',' -f1 | tr ' ' '_'
+  188  NAME="Aron Pilhofer"; LOC=`grep $NAME people | cut -f 4`; echo $LOC | cut -d',' -f1 
+  189  NAME="aron Pilhofer": LOC=grep $NAME people | cut -f 4 `; STREET_NAME=`echo $LOC | cut -d',' -f1 | tr '''_'`:
+  190  NAME="Aron Pilhofer"; LOC=`grep $NAME people | cut -f 4`; STREET_NAME=`echo $LOC | cut -d',' -f1 | tr ' ' '_'`;
+  191  NAME="Aron Pilhofer"; LOC=`grep $NAME people | cut -f 4`; STREET_NAME=`echo $LOC | cut -d',' -f1 | tr ' ' '_'`;
+  192  NAME="Aron Pilhofer"; LOC=`grep $NAME people | cut -f 4`; STREET_NAME=`echo $LOC | cut -d',' -f1 | tr ' ' '_'`; LINE_NUM=`echo $LOC | awk '{ print $NF }'`;
+  193  NAME="Aron Pilhofer"; LOC=`grep $NAME people | cut -f 4`; STREET_NAME=`echo $LOC | cut -d',' -f1 | tr ' ' '_'`; LINE_NUM=`echo $LOC | awk '{ print $NF }'`; sed -n "${LINE_NUM}p" streets/$STREET_NAME
+  194  NAME="Aron Pilhofer"; LOC=`grep $NAME people | cut -f 4`; STREET_NAME=`echo $LOC | cut -d',' -f1 | tr ' ' '_'`; LINE_NUM=`echo $LOC | awk '{ print $NF }'`; INTERVIEW_NUM=`sed -n "${LINE_NUM}p" streets/$STREET_NAME | cut -d '#' -f2`; cat interviews/interview-$INTERVIEW_NUM\n
+  195  function interview { NAME=$1; LOC=`grep $NAME people | cut -f 4`; STREET_NAME=`echo $LOC | cut -d',' -f1 | tr ' ' '_'`; LINE_NUM=`echo $LOC | awk '{ print $NF }'`; INTERVIEW_NUM=`sed -n "${LINE_NUM}p" streets/$STREET_NAME | cut -d '#' -f2`; cat interviews/interview-$INTERVIEW_NUM }\n
+  196  interview "Aron Pilhofer"
+  197  grep L337 vehicles -A3 | grep Blue -C1 | grep Honda -A2 | grep Owner | sed 's/Owner: //'\n
+  198  IFS=$'\n'; for w in `grep L337 vehicles -A3 | grep Blue -C1 | grep Honda -A2 | grep Owner | sed 's/Owner: //'`; do echo "----------"; echo $w; interview "$w"; done
+  199  cat solution
+  200  echo "jeremy Bowers"| $(command -v md5 || command -v md5sum) | grep -qif /dev/stdin encoded && echo CORRECT\! GREAT WORK, GUMSHOE. || echo SORRY, TRY AGAIN.
+  201  echo "Jeremy Bowers" | $(command -v md5 || command -v md5sum) | grep -qif /dev/stdin encoded && echo CORRECT\! GREAT WORK, GUMSHOE. || echo SORRY, TRY AGAIN.
+  202  grep Owner | sed 's/Owner: //'`; do echo "----------"; echo $w; interview "$w"; done\n\nq
+  203  cat solution
+  204  echo "Jeremy Bowers" | $(command -v md5 || command -v md5sum) | grep -qif /dev/stdin encoded && echo CORRECT\! GREAT WORK, GUMSHOE. || echo SORRY, TRY AGAIN.
+Jeremy Bowers
