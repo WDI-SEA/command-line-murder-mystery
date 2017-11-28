@@ -1,0 +1,147 @@
+  101  git clone https://github.com/Revandeluxe/command-line-murder-mystery.git
+  102  cd command-line-murder-mystery
+  103  ls
+  104  cat instructions
+  105  ls
+  106  cat instructions
+  107  ls
+  108  cat hint1
+  109  cd mystery
+  110  ls
+  111  cd people
+  112  ls people
+  113  ls
+  114  head -n 50 people
+  115  cd ..
+  116  ls
+  117  mystery
+  118  ls
+  119  crimescene
+  120  ls crimescene
+  121  ls
+  122  cat crimescene
+  123  ls
+  124  cat crimescene grep clue
+  125  cat crimescene
+  126  ls
+  127  cd ..
+  128  ls
+  129  cat hint1
+  130  cat hint 2
+  131  cat hint2
+  132  ls
+  133  grep CLUE crimescene
+  134  ls
+  135  cd mystery
+  136  ls
+  137  grep CLUE srimescene
+  138  grep CLUE crimescene
+  139  ls
+  140  cat people grep barista
+  141  ls
+  142  cat people | grep annabel
+  143  ls
+  144  cat people
+  145  ls
+  146  cd ..
+  147  ls
+  148  cd mystery
+  149  ls
+  150  cat people 
+  151  cat people grep Annabel
+  152  cat people
+  153  cat people 
+  154  grep Annabel
+  155  ls
+  156  cd ..
+  157  ls
+  158  cat hint3
+  159  cd mystery
+  160  ls
+  161  cat vehicles -head 20
+  162  ls
+  163  cat vehicless
+  164  cat vehicles
+  165  grep nissan
+  166  ls
+  167  people | tail -n 20
+  168  cat people grep Annabel
+  169  ls
+  170  cat streets
+  171  cd streets
+  172  ls
+  173  grep oak
+  174  ls
+  175  cd ..
+  176  ls
+  177  cat Dock_Street
+  178  ls
+  179  cd interviews
+  180  ls
+  181  pwd
+  182  ls
+  183  cd ..
+  184  ls
+  185  cat people | grep Annabel
+  186  ls
+  187  cat people | grep Anabel
+  188  cd streets
+  189  ls
+  190  cd Abbot_Street
+  191  cat Abbot_Street
+  192  cd ..
+  193  ls
+  194  cd interviews
+  195  cat interviews 173
+  196  ls
+  197  cd ..
+  198  ls
+  199  cat interviews-699607
+  200  cd interviews
+  201  cat interview-699607
+  202  ls
+  203  cd ..
+  204  ls
+  205  cd memberships
+  206  ls
+  207  cat AAA
+  208  grep Annabel
+  209  ls
+  210  cd ..
+  211  ls
+  212  cd vehicles
+  213  cat vehicles
+  214  cat vehicles | grep blue
+  215  ls
+  216  cat vehicles
+  217  cat vehicles | grep Blue
+  218  ls
+  219  cat vehicles | grep 1337
+  220  cat vehicles | grep Annabel
+  221  ls
+  222  cat vehicles | grep Annabel L337
+  223  cat vehicles | grep Annabel
+  224  cat vehicles | grep L337
+  225  grep -a5 L337 vehicles
+  226  grep -A5 vehicles
+  227  ls
+  228  cd memberhips
+  229  cat memberships | grep Jacqui Maher
+  230  ls
+  231  cat memberships | grep Jacqui Maher
+  232  cat AAA | grep
+  233  ls
+  234  cd memberships
+  235  ls
+  236  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Maher
+  237  cd ..
+  238  ls
+  239  cat people Jeremy
+  240  ls
+  241  cat people | grep Jeremy
+  242  history
+  243  ls
+  244  cd ..
+  245  ls
+  246  touch solution.txt
+  247  ls
