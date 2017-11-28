@@ -1,0 +1,151 @@
+  148  ssh-add -l -E md5 githubkey
+  149  ssh-add -l -E md5 githubkey.pub
+  150  ssh-add -l githubkey.pub
+  151  ssh-add -l githubkey
+  152  cd class
+  153  cd unit1
+  154  ls
+  155  cd command-line-murder-mystery
+  156  ls
+  157  cat instructions
+  158  ls
+  159  ls mystery
+  160  ls
+  161  ls mystery
+  162  ls mystery/crimescene
+  163  cd mystery
+  164  ls
+  165  ls crimescene
+  166  ls crimescene -l
+  167  ls -l crimescene
+  168  cat crimescene
+  169  ls
+  170  cat crimescene | grep clue
+  171  cat crimescene | grep "Crime Scene"
+  172  cat crimescene | grep "Crime Scene" | sort
+  173  ls
+  174  ls interviews
+  175  ls memberships
+  176  ls streets
+  177  ls
+  178  cat people
+  179  ls
+  180  cat vehicles
+  181  ls
+  182  cat crimescene
+  183  ls
+  184  cat ../instructions
+  185  ls
+  186  cat crimescene | grep CLUE
+  187  ls interviews/Annabel*
+  188  ls interviews
+  189  ls
+  190  cat interviews/* | grep barista
+  191  cat interviews/* | grep Annabel
+  192  cat interviews/* | grep Zealand
+  193  cat interviews/* | grep male
+  194  cat interviews/* | grep barista
+  195  cat interviews/* | grep Ann
+  196  cat interviews/* | grep 6
+  197  cat interviews/* | grep 6 > myclue1.txt
+  198  ls
+  199  cat interviews/* | grep Bostock
+  200  ls
+  201  cat people | grep Bostock
+  202  cat people | grep Bostock > myclue2.txt
+  203  ls streets
+  204  cat streets/Senders_Court
+  205  cat streets/Senders_Court | grep SEE > myclue3.txt
+  206  cat myclue3.txt
+  207  ls
+  208  ls interviews/
+  209  ls interviews/interview-290346
+  210  cat interviews/interview-290346
+  211  cat interviews/interview-290346 > myclue4.txt
+  212  cat myclue4.txt
+  213  ls
+  214  cd memberships
+  215  ls
+  216  ls AAA
+  217  cat AAA
+  218  cat AAA | grep Bostock
+  219  cd ..
+  220  ls
+  221  cat myclue4.txt
+  222  ls vehicles
+  223  cat vehicles
+  224  cat vehicles | grep Bostock
+  225  cat vehicles | grep Bo
+  226  cat vehicles | grep Bos
+  227  cat vehicles | grep Bostock
+  228  cat vehicles | sort
+  229  cat vehicles
+  230  cat vehicles | sort Owner
+  231  cat vehicles | Owner
+  232  cat vehicles | grep Owner
+  233  ls
+  234  cat myclue1.txt
+  235  cat crimescene| grep CLUE
+  236  cat myclue2.txt
+  237  cat vehicles| grep Senders
+  238  ls
+  239  cat people
+  240  cat people | grep Ann
+  241  cat people | grep Annabel
+  242  ls
+  243  cd streets
+  244  ls
+  245  cat Hart_Place
+  246  cat Hart_Place | grep SEE > myclue5.txt
+  247  cat myclue5.txt
+  248  ls
+  249  cd ..
+  250  ls interviews/interview-47246024
+  251  cat interviews/interview-47246024
+  252  cat streets/Mattapan_Street | grep SEE > myclue5b.txt
+  253  cat myclue5b.txt
+  254  cat interviews/interview-9437737
+  255  cat streets/Buckingham_Place | grep SEE > myclue5b.txt
+  256  cat myclue5b.txt
+  257  cat interviews/interview-699607
+  258  ls
+  259  cat vehicles| grep L337
+  260  cat vehicles| grep Honda
+  261  cat vehicles| grep L337 | grep Honda
+  262  cat vehicles| grep L337
+  263  cat streets/Mattapan_Street
+  264  cat vehicles| grep Honda
+  265  cat vehicles
+  266  cat vehicles| grep Honda | head 10
+  267  cat vehicles| grep Honda | head -n 10
+  268  cat vehicles| grep L337 | head -n 10
+  269  cat vehicles| grep L337 -A 5
+  270  cat vehicles| grep L337 -A 5 | grep Honda -A 5
+  271  cat vehicles| grep L337 -A 5 | grep Honda -A 5 | grep Blue -A 5
+  272  cat vehicles| grep L337 -A 5 | grep Honda -A 5 | grep Blue -A 5 > myclues6.txt
+  273  ls
+  274  cat memberships/AAA | grep Bowers
+  275  cat memberships/AAA | grep Germuska
+  276  cat memberships/* | grep Bowers
+  277  cat memberships/* | grep Bowers -A 5
+  278  man grep
+  279  cat memberships/* | grep Bowers -H
+  280  cat memberships/* | grep Bowers -h
+  281  cat memberships/* | grep Bowers -Hn
+  282  cat memberships/* | grep -H Bowers
+  283  cat memberships/* | grep -Hn Bowers
+  284  cat memberships/* | grep -H Germuska
+  285  cat memberships/* | grep -Hn Bowers > myclue7.txt
+  286  cat myclue7.txt
+  287  ls memberships
+  288  grep Bowers AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+  289  grep "Bowers" AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+  290  cd memberships
+  291  grep "Bowers" AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+  292  grep "Germuska" AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+  293  cd ..
+  294  touch solution.txt
+  295  history | head 150
+  296  history | head -n 150
+  297  history | tail -n 150
+Jeremy Bowers
