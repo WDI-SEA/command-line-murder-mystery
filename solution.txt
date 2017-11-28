@@ -1,0 +1,386 @@
+    1  ls
+    2  cd Code
+    3  ls
+    4  cd Unit
+    5  cd Unit1
+    6  ls
+    7  rmdir command-line-murder-mystery
+    8  ls
+    9  cd command-line-murder-mystery
+   10  ls
+   11  mv command-line-murder-mystery ..
+   12  mv -r command-line-murder-mystery ..
+   13  ls
+   14  cd ..
+   15  ls
+   16  cd command-line-murder-mystery
+   17  ls
+   18  cat inst
+   19  cat instructions
+   20  cat solution.txt
+   21  ls
+   22  git pull origin master
+   23  ls
+   24  cat hint1
+   25  cat cheatsheet.
+   26  cat cheatsheet.pdf
+   27  ls
+   28  cheatsheet.md
+   29  cat cheatsheet.
+   30  cat cheatsheet.md
+   31  clear
+   32  ls
+   33  ls mystery
+   34  cat cheatsheet.
+   35  cat crimescene
+   36  ls
+   37  cd mystery
+   38  ls
+   39  cat crimescene
+   40  ls
+   41  cd ..
+   42  ls
+   43  cat hint*
+   44  cat hint1
+   45  ls
+   46  cd mystery
+   47  ls
+   48  cat crimescene
+   49  ls
+   50  cd interviews
+   51  ls
+   52  cat interview-3588302
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd memberships
+   57  ls
+   58  cat Fitness_Galaxy
+   59  ls
+   60  cat library.txt
+   61  cd ..
+   62  ls
+   63  cat people
+   64  ls
+   65  cd streets
+   66  ls
+   67  cd ..
+   68  ls
+   69  cat vehicles
+   70  ls
+   71  cat crimescene
+   72  ls
+   73  clear
+   74  ls
+   75  cd ..
+   76  ls
+   77  cat hint 1
+   78  cat hint1
+   79  ls
+   80  cd mystery
+   81  ls
+   82  head -n 20 people
+   83  ls
+   84  cd ..
+   85  cat hint2
+   86  ls
+   87  cd mystery
+   88  ls
+   89  grep "CLUE" crimescene | echo > crimesceneClues
+   90  ls
+   91  cat crimescene
+   92  cat crimesceneClues
+   93  ls
+   94  grep "CLUE" crimescene
+   95  grep "CLUE" crimescene | echo > crimesceneClue
+   96  ls
+   97  cat crimesceneClues
+   98  ls
+   99  grep "CLUE" crimescene
+  100  grep "CLUE" crimescene | echo > test
+  101  ls
+  102  cat test
+  103  echo grep "CLUE" crimescene 
+  104  cd ..
+  105  ls
+  106  cat hint4
+  107  cd mystery
+  108  ls
+  109  cd memberships
+  110  ls
+  111  cd ..
+  112  ls
+  113  cd pe
+  114  cat people
+  115  clear
+  116  ls
+  117  cd ..
+  118  ls
+  119  grep "CLUE" crimescene
+  120  ls
+  121  cd mystery
+  122  grep "CLUE" crimescene
+  123  ls
+  124  rm crimesceneClue
+  125  rm crimesceneClues
+  126  ls
+  127  rm test
+  128  ls
+  129  cat people
+  130  head people -n 10
+  131  ls
+  132  cat vehicles
+  133  grep "6*" vehicles
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd hint 3
+  138  cd hint3
+  139  cat hint3
+  140  ls
+  141  cd mystery
+  142  ls
+  143  cd ..
+  144  cat hint1
+  145  cat hint2
+  146  ls
+  147  cd mystery
+  148  s
+  149  ls 
+  150  ls
+  151  grep "CLUE" crimescene
+  152  ls
+  153  cd ..
+  154  ls
+  155  cd hint4
+  156  ls
+  157  cat hint4
+  158  ls
+  159  cd mystery
+  160  grep "Annabel" people
+  161  ls
+  162  cd ..
+  163  cat hint5
+  164  ls
+  165  cd mystery
+  166  ls
+  167  cat crimescene
+  168  ls
+  169  cat people
+  170  ls
+  171  cat vehicles
+  172  grep "6'*" vehicles
+  173  grep "6'"* vehicles
+  174  grep "6'*" vehicles
+  175  grep "6'*" vehicles | sort
+  176  grep "6'*" vehicles
+  177  cat va
+  178  cat vehicles
+  179  ls
+  180  cd ..
+  181  head ve
+  182  head vehicles
+  183  head -n 10 vehicles
+  184  ls
+  185  cd mystery
+  186  ls
+  187  cd mystery
+  188  head -n 10 vehicles
+  189  ls
+  190  cd ..
+  191  ls
+  192  cd clear
+  193  clear
+  194  ls
+  195  cat hint1
+  196  cat hint2
+  197  cat hint3
+  198  cat hint4
+  199  cat hint5
+  200  ls
+  201  cd mystery
+  202  ls
+  203  cd interviews
+  204  ls
+  205  cd ..
+  206  ls
+  207  cd interviews
+  208  ls
+  209  cat interview-*
+  210  cat interview-* | grep "Annabel" 
+  211  cat interview-* | grep Annabel
+  212  cat interview-* | grep you
+  213  cat interview-* | grep coffee
+  214  ls
+  215  cat interview-*
+  216  cat interview-* | grep shot
+  217  cat interview-* | grep latte
+  218  cat interview-*
+  219  ls
+  220  cd ..
+  221  ls
+  222  cat people
+  223  grep Annabel 
+  224  ls
+  225  cat people | grep Annabel 
+  226  ls
+  227  ls interviews
+  228  cd ..
+  229  ls
+  230  cd ls
+  231  ls
+  232  cd mystery
+  233  ls
+  234  cat crimescene
+  235  ls
+  236  cd interviews
+  237  ls
+  238  cd ..
+  239  ls
+  240  cat people
+  241  ls
+  242  cat people | grep Annabel 
+  243  ls
+  244  cd streets
+  245  ls
+  246  cat Buckingham_Place
+  247  ls
+  248  cat Mattapan_Street
+  249  ls
+  250  cd ls
+  251  ls
+  252  cd Mattapan_Street
+  253  ls
+  254  cd ..
+  255  ls
+  256  cd interviews
+  257  ls
+  258  cd ..
+  259  ls
+  260  cat vehicles
+  261  ls
+  262  cd interviews
+  263  ls
+  264  cat interview-*
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd crime
+  269  cat crimescene
+  270  ls
+  271  cd streets
+  272  ls
+  273  cat Buckingham_Place
+  274  cat Buckingham_Place | head -173
+  275  ls
+  276  cat Buckingham_Place | head -2
+  277  cat Buckingham_Place
+  278  cat Buckingham_Place | head -179
+  279  cat Hart_Place
+  280  cat Hart_Place | head -n 40
+  281  cat Mattapan_Street 
+  282  cat Mattapan_Street | head -n 173
+  283  clear
+  284  ls
+  285  cat Haley_Street | head -n 176
+  286  ls
+  287  cd ..
+  288  ls
+  289  cd interviews
+  290  ls
+  291  cat interview-47246024
+  292  cat interview-9437737
+  293  cat interview-699607
+  294  cat interview-871877
+  295  ls
+  296  cd ..
+  297  ls
+  298  cat vehicles
+  299  cat vehicles | grep L337**9
+  300  cat vehicles | grep 'L337**9'
+  301  cat vehicles | grep L337
+  302  cat vehicles | grep L337**9
+  303  cat vehicles | grep "L337"**"9"
+  304  cat vehicles | grep "L337\ncat vehicles | grep L337
+  305  ls
+  306  cat vehicles | grep L337\ncat vehicles | grep L337
+  307  ls
+  308  cat vehicles
+  309  ls
+  310  cat vehicles | grep L33T
+  311  cat vehicles
+  312  cat vehicles | grep L337
+  313  cat vehicles | grep L337 | head -n 6
+  314  cat vehicles | grep L337 head -n 6
+  315  cat vehicles | grep 5 L337 
+  316  grep -h
+  317  cat vehicles | grep -5 L337 
+  318  grep -help
+  319  grep --help
+  320  cat vehicles | grep -5 L337 
+  321  cat vehicles | grep -5 L337
+  322  cat vehicles | grep -5 L337 | grep blue
+  323  cat vehicles | grep -5 L337 | grep Blue
+  324  cat vehicles | grep -5 L337 
+  325  cat vehicles 
+  326  cat vehicles | grep -5 L337 
+  327  cat vehicles | grep -6 L337 
+  328  cat vehicles | grep -7 L337 
+  329  cat vehicles | grep -5 L337 
+  330  ls
+  331  cd memberships
+  332  ls
+  333  cat AAA
+  334  ls
+  335  cat AAA
+  336  cat AAA | grep Mona Taibi Dani Loukas
+  337  cat AAA | grep Mona Taibi
+  338  cat AAA | grep "Mona Taibi"
+  339  cat AAA | grep "Mona Taibi""Dani Loukas"
+  340  cat AAA | grep "Mona Taibi" "Dani Loukas"
+  341  ls
+  342  grep "Mike Bostock" AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  343  grep "Erika Owens" AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  344  grep "Joe Germuska" AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  345  grep "Jeremy Bowers" AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  346  grep "Jacqui Maher" AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  347  ls
+  348  cd ..
+  349  ls
+  350  cd interviews
+  351  ls
+  352  cd ..
+  353  ls
+  354  cd ..
+  355  ls
+  356  cd ny
+  357  cd mystery
+  358  ls
+  359  cat crimescene
+  360  ls
+  361  cat people
+  362  cat people | grep "Mike Bostock"\n
+  363  cat people | grep "Jeremy Bowers"\n
+  364  cat people | grep "Jacqui Maher"\n
+  365  ls
+  366  cd interviews
+  367  ls
+  368  cd ..
+  369  ls
+  370  cd streets
+  371  ls
+  372  cat Senders_Court | head -n 287
+  373  cat Dunstable_Road | head -n 284
+  374  ls
+  375  cat Andover_Road | head -n 224
+  376  ls
+  377  cd ..
+  378  ls
+  379  cd interviews
+  380  ls
+  381  cat interview-290346
+  382  cat interview-9620713
+  383  cat interview-904020
+  384  cd
+  385  ls
+The hunt for Jeremy Bowers begins
