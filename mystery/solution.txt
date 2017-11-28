@@ -1,0 +1,211 @@
+  118  ls
+  119  cat crimescene | grep CLUE
+  120  cd interviews
+  121  ls
+  122  cat interviews | grep CLUE
+  123  cat people
+  124  cd mystery
+  125  cd ..
+  126  cat people
+  127  cd mystery
+  128  cat interviews | grep CLUE
+  129  cd interviews
+  130  cat interviews | grep CLUE
+  131  cat crimescene | grep CLUE
+  132  ls
+  133  cd ..
+  134  ls
+  135  cat crimescene | grep CLUE
+  136  cd interviews
+  137  cat interviews | grep Annabel
+  138  cd ..
+  139  cat people | grep Annabel
+  140  ls -a
+  141  ~
+  142  ls -a
+  143  rm -rf .git
+  144  ls
+  145  cd desktop
+  146  cd ga
+  147  cd code
+  148  cd "unit 1"
+  149  ls
+  150  cd command-line-murder-mystery
+  151  ls
+  152  cat hint1
+  153  head -n 20 people
+  154  cd mystery
+  155  ls
+  156  head -n 20 people
+  157  ls
+  158  cat crimescene | grep clue
+  159  cat crimescene | grep CLUE
+  160  cd ..
+  161  ls
+  162  cat hint1
+  163  cd mystery
+  164  ls
+  165  cd interviews
+  166  cd ..
+  167  head -n 20 people
+  168  cd streets
+  169  ls
+  170  cd ..
+  171  cd..
+  172  cd ..
+  173  cat hint2
+  174  cat hin3
+  175  cat hint3
+  176  ls
+  177  cd mystery
+  178  ls
+  179  cd memberships
+  180  ls
+  181  cat AAA
+  182  ls
+  183  cd ..
+  184  ls
+  185  cat crimescene | grep CLUE
+  186  head -n 20 people
+  187  cd memberships
+  188  cat AAA | grep Dato
+  189  grep -r "wenk"
+  190  cd ..
+  191  cat hint1
+  192  cd ..
+  193  cat hint1
+  194  cat people
+  195  ls
+  196  cd mystery
+  197  ls
+  198  cat people
+  199  ls
+  200  cd ..
+  201  ls
+  202  ls mystery
+  203  cat hint5
+  204  cat hint3
+  205  cat hint2
+  206  cat hin3
+  207  cat hint3
+  208  cat hint4
+  209  ls
+  210  cd mystery
+  211  ls
+  212  cat people | grep Annabel
+  213  cd ..
+  214  cat hint5
+  215  cd mystery
+  216  ls
+  217  head -n 40 streets/Hart_Place | tail -n 1
+  218  cd interviews
+  219  cat interview-47246024
+  220  cd ..
+  221  head -n 38 streets/Buckingham_Place | tail -n 1
+  222  cd
+  223  cd desktop
+  224  cd ga
+  225  cd code
+  226  cd "unit 1"
+  227  ls
+  228  cd command-line-murder-mystery
+  229  ls
+  230  cat hint5
+  231  cd mystery
+  232  ls
+  233  cat crimescene | grep CLUE
+  234  echo cat crimescene | grep CLUE > clues.txt
+  235  ls
+  236  cat clues.txt
+  237  cat clues
+  238  cd ..
+  239  cat hint4
+  240  cd mystery
+  241  cat people | grep Annabel
+  242  cd ..
+  243  cat hint5
+  244  cd mystery
+  245  ls
+  246  head -n 179 streets/Buckingham_Place | tail -n 1
+  247  cd interviews
+  248  cat interview-699607
+  249  cd ..
+  250  ls
+  251  cat vehicles | grep Honda
+  252  cat interview-699607
+  253  cd interviews
+  254  cat interview-699607
+  255  ls
+  256  cd interviews
+  257  cat interview-699607
+  258  ls
+  259  cat interview-699607
+  260  cd ..
+  261  ls
+  262  cat vehicles
+  263  cat interview-699607
+  264  cd interviews
+  265  cat interview-699607
+  266  cd ..
+  267  ls
+  268  cat vehicles | grep Blue | grep Honda | grep L337
+  269  cat vehicles | grep Blue | Honda
+  270  cat vehicles | grep 'blue\honda\L337'
+  271  cat vehicles | grep 'blue\|honda'
+  272  cat vehicles | grep "blue" | grep "honda" | grep "L337"
+  273  cat vehicles | grep "blue" | grep "honda"
+  274  cat vehivles | grep "Blue" | grep "Honda" 
+  275  cat vehicles | grep "Blue" | grep "Honda"
+  276  cat vehicles | grep "Color: Blue"
+  277  cat vehicles | grep "Color: Blue" | "Make: Honda"
+  278  cat interview-699607
+  279  ls
+  280  cat vehicles
+  281  ls
+  282  cat vehicles | grep "License Plate L337" | grep "Make: Honda" | grep "Color: Blue"
+  283  cat vehicles | grep "License Plate L337"
+  284  cat vehicles | grep "License Plate L337" | grep "Make: Honda"
+  285  cat vehivles | grep "License Plate L337ZR9"
+  286  cat vehicles | grep "License Plate L337ZR9"
+  287  cd ..
+  288  ls
+  289  cat hint6
+  290  cat hint4
+  291  cat hint3
+  292  head vehicles
+  293  cd mystery
+  294  head vehicles
+  295  head vehicles | grep "Honda" | grep "Blue"
+  296  cd ..
+  297  cat hint7
+  298  cd mystery
+  299  cat vehicles | grep L337 -A 5 | grep "Blue" -A 5 | grep "Honda" -A 5
+  300  cat vehicles | grep L337 -A 5 | grep Honda -A 5 | grep Blue -A 5
+  301  cd ..
+  302  ls
+  303  cd mystery 
+  304  ls
+  305  cat crimescene | grep CLUE
+  306  cd membership
+  307  cd memberships
+  308  ls
+  309  cat AAA | grep Bowers
+  310  cat AAA | grep Germuska
+  311  cat Delta_SkyMiles | grep Germuska
+  312  cat Delta_SkyMiles | grep Bowers
+  313  cat Museum_of_Bash_History | grep Bowers
+  314  grep -rnw -e 'Bowers'
+  315  grep 'Bowers' AAA Delta_SkyMiles Museum_of_Bash_History
+  316  grep 'Bowers' AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+  317  grep 'Germuska' AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+  318  cd ..
+  319  ls
+  320  cd ..
+  321  ls
+  322  cat instructions
+  323  git add
+  324  cd mystery
+  325  touch solution.txt
+  326  history
+  327  history | tail -n 210 
+Jeremy Bowers
