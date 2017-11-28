@@ -1,0 +1,128 @@
+    1  pwd
+    2  ls
+    3  cd D
+    4  cd Desktop
+    5  cd code
+    6  ls
+    7  cd unit1
+    8  ls
+    9  cd command-line-murder-mystery
+   10  ls
+   11  cat instructions
+   12  nano cheatsheet.md
+   13  cd mystery
+   14  ls
+   15  cat crimescene
+   16  clear
+   17  ls
+   18  cat crimescene
+   19  clear
+   20  ls
+   21  cd ..
+   22  ls
+   23  cat hint1
+   24  cat hint2
+   25  grep "CLUE" crimescene
+   26  cd mystery
+   27  grep "CLUE" crimescene
+   28  ls
+   29  ls -a
+   30  grep "CLUE" people
+   31  grep "CLUE" vehicles
+   32  grep "CLUE" memberships
+   33  cd memberships
+   34  ls
+   35  cat AAA
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd interviews
+   40  ls
+   41  grep "CLUE" interview-
+   42  cd ..
+   43  grep "CLUE" interview-
+   44  grep "CLUE" interviews
+   45  clear
+   46  ls
+   47  cd ..
+   48  cat hint3
+   49  ls
+   50  cd mystery
+   51  ls
+   52  head -n 20 people
+   53  head -n 20 vehicles
+   54  grep "Annabel" vehicles
+   55  grep "Annabel" people
+   56  ls
+   57  cd streets
+   58  ls
+   59  cat Hart_Place
+   60  head -n 40 Hart_Place
+   61  cd ..
+   62  ls
+   63  cd interviews
+   64  ls
+   65  cat interview-47246024
+   66  cd ..
+   67  ls
+   68  cd streets
+   69  ls
+   70  head -n 179 Buckingham_Place
+   71  cd ..
+   72  cd interviews
+   73  cat interview-699607
+   74  cd ..
+   75  ls
+   76  cat vehicles
+   77  License Plate L3375A9
+   78  Make: Honda
+   79  Color: Blue
+   80  Owner: Jeremy Bowers
+   81  Height: 6'1"\nWeight: 204 lbs\n
+   82  ls
+   83  grep "Jeremy Boweres" people
+   84  grep "Jeremy Bowers" people
+   85  cd streets
+   86  head -n 284 Dunstable_Road
+   87  cd
+   88  ls
+   89  cd Desktop
+   90  cd code
+   91  cd unit1
+   92  ls
+   93  cd command-line-murder-mystery
+   94  ls
+   95  cd mystery
+   96  ls
+   97  cd interviews
+   98  ls
+   99  cat interview-9620713
+  100  cd ..
+  101  ls
+  102  cd memberships
+  103  ls
+  104  grep "Jermey Bowers" AAA
+  105  grep "Jermey" AAA
+  106  cd ..
+  107  grep "CLUE" crimescene
+  108  cd memberships
+  109  cat 1.txt
+  110  cd ..
+  111  cat hint4
+  112  ls
+  113  cd ..
+  114  ls
+  115  cat hint4
+  116  cat hint5
+  117  cat hint6
+  118  cat hint7
+  119  cat hint8
+  120  cd mystery
+  121  cd memberships
+  122  ls
+  123  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+
+
+
+
+The Killer is Jeremy Bowers
