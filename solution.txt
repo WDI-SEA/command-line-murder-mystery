@@ -1,0 +1,183 @@
+I think the killer is Jeremy Bowers
+
+   62  cd unit_1
+   63  git clone https://github.com/rallysport206/command-line-murder-mystery.git
+   64  ls
+   65  cd command-line-murder-mystery
+   66  ls
+   67  cat instructions
+   68  ls -a
+   69  cd mystery
+   70  ls
+   71  cat crimescene | grep 
+   72  cat crimescene | grep clue
+   73  cd crimescene
+   74  cat crimescene
+   75  clear
+   76  ls
+   77  cat crimescene | grep clue
+   78  cat crimescene | grep Clue
+   79  cd
+   80  ls
+   81  cd coding
+   82  ls
+   83  cd unit_1
+   84  ls
+   85  cd command-line-murder-mystery
+   86  ls
+   87  cd mystery
+   88  ls
+   89  cat instructions
+   90  cd ..
+   91  cat instructions
+   92  ls
+   93  cd mystery
+   94  ls
+   95  cat crimescene | grep CLUE
+   96  ls
+   97  cat membership | aaa
+   98  cat membership | grep AAA
+   99  cd memberships | grep AAA
+  100  cat membership | grep AAA
+  101  cd memberships | grep AAA
+  102  cd memberships
+  103  ls
+  104  cat AAA
+  105  cd ..
+  106  ls
+  107  cat interviews | grep Annabel
+  108  cd interviews
+  109  ls
+  110  cat interviews | grep Annabel
+  111  cat interview | grep Anna
+  112  cat interview* | grep Annabel
+  113  cat interview* | grep Anna
+  114  cat interview* | grep AAA
+  115  cat interview* | grep AAA male 
+  116  cat interview* | grep AAA Annabel
+  117  ls
+  118  cd ..
+  119  ls
+  120  cat crimescene | grep CLUE
+  121  cat people | grep anna
+  122  cat people | grep annabel
+  123  ls
+  124  cd ..
+  125  ls
+  126  cat hint 1
+  127  cat hint1
+  128  head -n 20 people
+  129  cd mystery
+  130  head -n 20 people
+  131  ls
+  132  cat hint2
+  133  cd ..
+  134  ls
+  135  cat hint2
+  136  cat hint3
+  137  cd mystery
+  138  head 6' vehicles\n
+  139  head 6 vehicles
+  140  ls
+  141  grep " annabel" people
+  142  grep "annabel" people
+  143  cat grep Annabel people
+  144  ls
+  145  grep "Annabel" people
+  146  cat crimescene | grep "CLUE"
+  147  cat membership | grep AAA
+  148  cat memberships | grep AAA
+  149  cd memberships
+  150  grep AAA
+  151  cat memberships | grep AAA
+  152  cd ..
+  153  cd interviews
+  154  cd ..
+  155  cd interviews
+  156  grep line 176
+  157  cd ..
+  158  cat interviews | grep 179
+  159  cd interviews
+  160  cat interviews | grep 179
+  161  grep 179 
+  162  cd ..
+  163  ls
+  164  cd interviews
+  165  ls
+  166  head 179
+  167  cd ..
+  168  cd street
+  169  ls
+  170  cd streets
+  171  cat Buckham_Palace | head -179
+  172  cat Buckingham_Palace | head -179
+  173  cat Buckingham_Place | head -179
+  174  cat Hart_Place | head -40
+  175  cat Mattapan_Street | head -173
+  176  cat Haley_Street | head -176
+  177  cd ..
+  178  cd interviews
+  179  ls
+  180  cat interview-699607
+  181  cat interview-47246024
+  182  cat interview-9437737
+  183  cat interview-871877
+  184  cd ..
+  185  cat vehicles | grep LE337 | head "honda"
+  186  cat vehicles | grep LE337
+  187  ls
+  188  cat vehicles | grep -5 LE337 
+  189  cat vehicles | grep -5 L337 
+  190  cat vehicles | grep -5 L337 | head blue
+  191  cd memberships
+  192  cat AAA
+  193  cat AAA | grep Jacqui Jeremy Joe Erika Mike
+  194  cat AAA | grep "Jacqui Maher"
+  195  cat Jacqui Maher
+  196  grep "Jacqui Maher" AAA Delta_SkyMiles Terminal_City_Library
+  197  grep "Jacqui Maher" AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  198  grep "Erika Owens" AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History\n
+  199  grep "Jeremy Bowers" AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  200  grep "Joe Germuska" AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  201  grep "Mike Bostock" AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  202  cd ..
+  203  lsit
+  204  ls
+  205  cat people | grep Mike Bostock
+  206  cat people | grep "Mike Bostock"
+  207  cat people | grep "Jeremy Bowers"
+  208  cat people | grep "Jacqui Maher"
+  209  cat interviews Andeover_Road | grep 224
+  210  cd interviews
+  211  cat interviews Andover_Road | grep 224
+  212  cat Andover_Road | grep 224
+  213  cd ..
+  214  cd street
+  215  cd streets
+  216  cat Andover_Road | grep 224
+  217  cd ..
+  218  cd interviews
+  219  cat Andover_Road | head -n 224
+  220  cat Andover_Road | head 224
+  221  cat Andover_Road | head -224
+  222  cat Dustable_Road | head -284
+  223  cd ..
+  224  cd streets
+  225  cat Dustable_Road | head -284
+  226  cd ..
+  227  ls
+  228  cd interviews
+  229  ls
+  230  cd ..
+  231  cd streets
+  232  cat Andover_Road | head -n 224
+  233  cat Dustable_Road | head -n 284
+  234  cat Dunstable_Road | head -n 284
+  235  cat Senders Court | head -n 287
+  236  cat Senders_Court | head -n 287
+  237  cd ..
+  238  cat interview-290346
+  239  cd interviews
+  240  cat interview-290346
+  241  cat interview-9620713
+  242  cat interview-904020
