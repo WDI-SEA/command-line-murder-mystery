@@ -1,0 +1,43 @@
+**Jeremy Bower is the killer**
+
+384  grep -w "Annabel" people
+  385  head -40 streets/Hart_Place | tail -1
+  386  cat interviews/intervite-47246024
+  387  cat interviews/interview-47246024
+  388  head -179 streets/Buckingham_Place | tail -1
+  389  cat interviews/intervite-699607
+  390  cat interviews/interview-699607
+  391  grep "L337" vehicles -A4
+  392  grep L337 vehicles -A4
+  393  grep L337 vehicles -A3 | grep Blue -B1 -A1
+  394  grep L337 vehicles -A3 | grep Blue -C1 | grep Honda -A2
+  395  grep "Erika Owens" people
+  396  history
+  397  grep "Erika Owens" people
+  398  head -98 streets/Trapelo Street | tail -1
+  399  ls
+  400  head -98 streets/Trapelo_Street | tail -1
+  401  cat interviews/interview-5455315
+  402  grep L337 vehicles -A3 | grep Blue -C1 | grep Honda -A2
+  403  grep L337 vehicles -A3 | grep Blue -C1 | grep Honda -A2 > suspects.txt
+  404  cat suspects.txt
+  405  grep "Aron Pilhofer" people | cut -f 3
+  406  grep "Aron Pilhofer" people | cut -f 4
+  407  head -98 streets/Claybourne_Street | tail -1
+  408  head -145 streets/Claybourne_Street | tail -1
+  409  cat interviews/interview-1767435
+  410  grep "Heather Billings" people
+  411  head -19 streets/Culbert_Street | tail -1
+  412  cat interviews/interview-2939888
+  413  grep "Joe Germuska" people
+  414  head -275 streets/Plainfield_Street | tail -1
+  415  cat interviews/interview-29741223
+  416  grep "Jeremy Bowers" people
+  417  head -34 streets/Dunstable_Road | tail -1
+  418  head -284 streets/Dunstable_Road | tail -1
+  419  cat interviews/interview-9620713
+  420  grep "Jacqui Maher" people
+  421  head -40 streets/Andover Road | tail -1
+  422  head -224 streets/Andover Road | tail -1
+  423  head -224 streets/Andover_Road | tail -1
+  424  cat interviews/interview-904020
