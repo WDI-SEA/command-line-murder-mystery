@@ -1,0 +1,188 @@
+Jeremy Bowers IS A MURDERER!
+
+58  git clone git@github.com:philpatt/command-line-murder-mystery.git
+   59  cd command-line-murder-mystery
+   60  cat instructions
+   61  ls
+   62  cd mystery
+   63  ls
+   64  cd crimescene
+   65  cat crimescene
+   66  cat crimescence | grep "CLUE"
+   67  cat crimescene | grep CLUE
+   68  cd instructions
+   69  cd ..instructions
+   70  cd ..
+   71  cat instructions
+   72  cat crimescence | grep CLUE
+   73  cat crimescene | grep CLUE
+   74  cat crimescene
+   75  cd mystery
+   76  cat crimescene | grep CLUE
+   77  cat hint1
+   78  cd ..
+   79  mystery
+   80  ls
+   81  crimescene | grep hint1
+   82  cd crimescene
+   83  cd ..
+   84  cat hint1
+   85  ls
+   86  cat hint2
+   87  cat hint3
+   88  mystery
+   89  ls
+   90  cat vehicles
+   91  cat vehicles | grep clue
+   92  cat vehicles | grep CLUE
+   93  cd..
+   94  ls
+   95  cat crimescene | grep CLUE
+   96  ls
+   97  interviews
+   98  ls
+   99  cat people
+  100  cd..
+  101  cd ..
+  102  cat people
+  103  cat people | grep Anabel
+  104  ls
+  105  cd streets
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd ..
+  110  cd memberships
+  111  ls
+  112  mystery
+  113  crimescene
+  114  ls
+  115  cd memberships
+  116  ls
+  117  cat AAA
+  118  cat AAA | Anabel
+  119  cat AAA | greb Anabel
+  120  ls
+  121  cat AAA | grep Anabel
+  122  cat Delta_SkyMiles | grep Anabel
+  123  ls
+  124  cat Museum_of_Bash_History | grep Anabel
+  125  cat library.txt | grep Anabel
+  126  cat library.txt
+  127  cd ..
+  128  ls
+  129  memberships
+  130  ls
+  131  cat crimescene | grep CLUE
+  132  cd ..
+  133  ls
+  134  cd ..
+  135  ls
+  136  cat hint4
+  137  hint5
+  138  cat hint5
+  139  ls
+  140  cd
+  141  ls
+  142  cd unit1
+  143  cd code
+  144  ls
+  145  cd unit1
+  146  ls
+  147  cd command-line-murder-mystery
+  148  ls
+  149  mystery
+  150  ls
+  151  cat people | grep Annabel
+  152  cat people | grep Anabel
+  153  cd streets
+  154  ls
+  155  cat haley_street | greb 176
+  156  cat haley_street | grep 176
+  157  ls
+  158  cat haley_street
+  159  ls
+  160  cd ..
+  161  ls
+  162  streets
+  163  cat haley_street | head -n 173 
+  164  cd..
+  165  cd ..
+  166  ls
+  167  cat people | grep Anabel
+  168  cat people | grep Annabel
+  169  cd streets
+  170  Mattapan_street -n 173
+  171  ls
+  172  head -n 173 Mattapan_street
+  173  ls
+  174  cd ..
+  175  ls
+  176  cat crimescene | grep CLUE
+  177  cd memberships
+  178  ls
+  179  cat Museum_of_Bash_History | greb Anabel
+  180  cat Museum_of_Bash_History | grep Anabel
+  181  cat Museum_of_Bash_History | grep Annabel
+  182  cd ..
+  183  ls
+  184  cat people | grep Annabel
+  185  streets
+  186  head -n 179 Buckingham_Place
+  187  ls
+  188  cd..
+  189  cd ..
+  190  ls
+  191  interviews
+  192  cat interview-699607
+  193  cd ..
+  194  cat vehicles | grep blue
+  195  cat vehicles | grep L337
+  196  memberships
+  197  ls
+  198  cat AAA
+  199  cd ..
+  200  ls
+  201  cat people | grep Maher
+  202  cd streets
+  203  head -n 224 Andover_Road
+  204  ls
+  205  cd ..
+  206  interiews
+  207  ls
+  208  interviews
+  209  cat interviews-904020
+  210  cat interview-904020
+  211  cd ..
+  212  ls
+  213  cd ..
+  214  cat hint6
+  215  cat hint7
+  216  grep -A 5 "L337" mystery/vehicles
+  217  cat intructions
+  218  ls
+  219  cat instructions
+  220  grep -A 5 "L337" mystery/vehicles
+  221  ls
+  222  mystery
+  223  ls
+  224  memberships
+  225  ls
+  226  cat AAA | grep Germuska
+  227  cat Delta_SkyMiles | grep Germuska
+  228  cat Museum_of_Bash_History | grep Germuska
+  229  cd ..
+  230  memberships
+  231  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep Bowers
+  232  cd ..
+  233  cat people | grep Bowers
+  234  streets
+  235  head -n 284 Dunstable_Road
+  236  cd ..
+  237  ls
+  238  interviews
+  239  cat interview-9620713
+  240  cd ..
+  241  git status
+  242  touch solutions.txt
+  243  open solutions.txt
