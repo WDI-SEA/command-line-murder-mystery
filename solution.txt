@@ -1,0 +1,139 @@
+  526  cat mystery
+  527  cd mystery
+  528  ls
+  529  cd crimescene
+  530  cat crimescene
+  531  ls
+  532  cat crimescene 
+  533  ls
+  534  cd documents
+  535  ls
+  536  cd Code
+  537  ls
+  538  cd unit1
+  539  ls
+  540  cd command-line-murder-mystery
+  541  ls
+  542  cd mystery
+  543  ls
+  544  cat crimescene | grepclue
+  545  cat crimescene | grep clue
+  546  ls
+  547  cat crimescene | grep Clue
+  548  cat crimescene | grep CLUE
+  549  LS
+  550  cat people | grep male
+  551  cat interviews | grep barista
+  552  cat crimescene | grep ATM
+  553  ls
+  554  cd ..
+  555  ls
+  556  cat hint1
+  557  cd memberships
+  558  ls
+  559  cd mystery
+  560  ls
+  561  cd memberships
+  562  ls
+  563  cat AAA
+  564  ls
+  565  cd ..
+  566  ls
+  567  cat crimescene
+  568  cat crimescene | grep CLUE
+  569  ls
+  570  cat people | grep M
+  571  cat crimescene | grep CLUE
+  572  ls
+  573  cd ..
+  574  ls
+  575  cd hint 2
+  576  cd hint2
+  577  cat hint2
+  578  cat hint3
+  579  ls
+  580  cd mystery
+  581  cat crimescene | grep CLUE
+  582  ls
+  583  cat vehicles | grep Annabel
+  584  ls
+  585  cat interviews | grep Annabel
+  586  cd interviews 
+  587  ls
+  588  cat crimescene | grep CLUE
+  589  cd ..
+  590  cat crimescene | grep CLUE
+  591  ls
+  592  cd streets
+  593  cat streets | grep Annabel Church
+  594  ls
+  595  cd ..
+  596  head -n 40 streets/Hart_Place | tail -n 1
+  597  cd interviews
+  598  cat interview-47246024
+  599  cd ..
+  600  head -n 38 streets/Buckingham_Place | tail -n 1
+  601  cat crimescene | grep CLUE
+  602  ls
+  603  cd streets
+  604  head -n streets/Buckingham_Place |tail -n 
+  605  head -n 38 streets/Buckingham_Place |tail -n 1
+  606  ls
+  607  cat crimescene | grep CLUE
+  608  cd ..
+  609  ls
+  610  cd hint4
+  611  cat hint4
+  612  ls
+  613  cd mystery
+  614  cat people | grep Annabel
+  615  ls
+  616  cd streets
+  617  head -n 179 streets/Buckingham_Place | tail -n 1
+  618  cd ..
+  619  head -n 179 streets/Buckingham_Place | tail -n 1
+  620  cd interviews
+  621  cat interview-699607
+  622  cd ..
+  623  cat vehicles | grep L337
+  624  cat vehicles | grep L337|Blue|Honda
+  625  cat vehicles | grep blue\honda
+  626  cat vehicles | grep blue | grep honda | grep L337
+  627  cat vehicles | grep Blue
+  628  cat crimescene | grep CLUE
+  629  cat vehicles | grep Blue Honda
+  630  cat vehicles | grep Blue honda
+  631  cd vehicles
+  632  cat vehicles
+  633  cat vehicles | grep License Plate L337
+  634  cat vehicles | grep License Plate L337 | grep Make: Honda | grep Color: Blue
+  635  ls
+  636  head -n vehicles
+  637  cat vehicles | grep -A 5 L337
+  638  cat crimescene | grep CLUE
+  639  ls
+  640  cat memberships | grep Mike Bostock
+  641  cd memberships
+  642  ls
+  643  cat AAA | grep AAA
+  644  cat AAA | grep Jeremy Bowers
+  645  cat AAA Museum_of_Bash_History Delta_SkyMiles library.txt
+  646  ls
+  647  cat AAA library.txt museum.txt | grep Jeremy Bowers
+  648  cat Museum_of_Bash_History | grep Jeremy Bowers
+  649  cat AAA library.txt museum.txt | grep Joe Germuska
+  650  cat AAA library.txt museum.txt | grep Mike Bostock
+  651  cat AAA library.txt museum.txt delta.txt | Mike Bostock
+  652  cat AAA library.txt museum.txt delta.txt | grep Mike Bostock
+  653  cat AAA library.txt museum.txt delta.txt | grep Jeremy Bowers
+  654  cat AAA library.txt museum.txt delta.txt | grep Joe Germuska
+  655  cd ..
+  656  git ad
+  657  git add
+  658  git commit
+  659  git push origin master
+  660  ls
+  661  mkdir solution.txt
+  662  ls
+  663  cd solution.txt
+  664  history Jeremy Bowers
