@@ -1,0 +1,112 @@
+ 71  git clone https://github.com/Sean-Cesmat/command-line-murder-mystery.git
+   72  ls
+   73  cd command-line-murder-mystery
+   74  cat instructions
+   75  ls
+   76  cd mystery
+   77  cat crimescene | grep CLUE
+   78  cat crimescene | grep "CLUE"
+   79  ls
+   80  cat people
+   81  cat interviews
+   82  cd interviews
+   83  ls
+   84  cd ..
+   85  ls
+   86  cat crimescene | grep CLUE
+   87  ls
+   88  cd ve
+   89  cd vehicles
+   90  ls
+   91  cat vehicles
+   92  cat vehicles | grep 6'\n
+   93  cat vehicles | grep 6\n
+   94  cat vehicles | grep "6'"\n
+   95  ls
+   96  cd memberships
+   97  ls
+   98  cat AAA
+   99  ls
+  100  cat 1.txt
+  101  cd ..
+  102  ;s
+  103  ls
+  104  cd streets
+  105  ls
+  106  cd ..
+  107  ls
+  108  cd interviews
+  109  grep Annabel
+  110  grep * Annabel
+  111  grep -r Annabel
+  112  grep *.txt Annabel
+  113  ls
+  114  grep -rnw Annabel
+  115  grep -r "Annabel"
+  116  ls
+  117  cd ..
+  118  ls
+  119  cd memberships
+  120  ls
+  121  cat Museum_of_Bash_History
+  122  ls
+  123  cd ..
+  124  ls
+  125  cat people | grep Annabel
+  126  ls
+  127  cd streets
+  128  ls
+  129  cat Hat Place
+  130  cat Hart Place
+  131  cat Hart_Place
+  132  cat Hart_Place | head -n 40 
+  133  cat Haley_Street
+  134  cat Haley_Street | grep Interview
+  135  cat Haley_Street | grep management
+  136  cat Haley_Street | grep interview
+  137  cat Buckingham_Place
+  138  cat Buckingham_Place | grep interview
+  139  cat Buckingham_Place | grep Interview
+  140  cd ..
+  141  ls
+  142  cd interviews
+  143  ls
+  144  cat interview-47246024
+  145  cd ..
+  146  ls
+  147  cd streets
+  148  ls
+  149  cat Buckingham_Place
+  150  cat Buckingham_Place | head -n 179
+  151  cd ..
+  152  ls
+  153  cd interviews
+  154  cat interview-699607
+  155  cd ..
+  156  ls
+  157  cat vehicles | grep L337
+  158  cat vehicles | grep -w  L337
+  159  cat vehicles | grep L337
+  160  cat vehicles
+  161  cat vehicles | grep --after-context=2  L337
+  162  cat vehicles | grep --after-context=5  L337
+  163  cd ..
+  164  cd mystery
+  165  ls
+  166  cd memberships
+  167  ls
+  168  cat AAA | grep Joe Germuska
+  169  cat AAA | grep "Joe Germuska"
+  170  cat AAA | grep --after-context=2  "Joe Germuska"
+  171  cat AAA | grep "Jeremy Bowers"
+  172  ls
+  173  cat Delta_SkyMiles | grep "Joe Germuska"
+  174  cat Delta_SkyMiles | grep "Jacqui Maher"
+  175  cat Delta_SkyMiles | grep "Jeremy Bowers"
+  176  cat Museum_of_Bash_History| grep "Joe Germuska"
+  177  cat Museum_of_Bash_History| grep "Jeremy Bowers"
+  178  cd ..
+  179  ls
+  180  cd ..
+  181  touch solution.txt
+Jeremy Bowers
