@@ -1,0 +1,165 @@
+
+
+Matt Waite
+
+
+
+➜  memberships git:(master) history
+    1  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+    2  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+    3  subl
+    4  atom
+    5  subl
+    6  pwd
+    7  source cd ..
+    8  chelsea
+    9  pwd
+   10  cd wdi
+   11  ls
+   12  open
+   13  open.
+   14  cd ..
+   15  open file2.txt
+   16  ls -L
+   17  pwd
+   18  cd wdi
+   19  ls -l
+   20  ls -la
+   21  cd ..
+   22  pwd
+   23  cd wdi
+   24  cd ~
+   25  pwd
+   26  clear
+   27  cd ~
+   28  cd /Users/Chelsea/wdi
+   29  cd U1
+   30  ls
+   31  -ls
+   32  ls =a
+   33  ls -a
+   34  mkdir living_room
+   35  ls
+   36  cd living_room
+   37  touch books.txt
+   38  ls -la
+   39  subl books.txt
+   40  cat books.txt
+   41  echo "hello there"
+   42  echo "hello love" << books.txt\ncat books.txt\n\nf\n\nq\nexit\n<<-word
+   43  echo "hello" < books.txt
+   44  cat books.txt
+   45  echo "hello" >> books.txt
+   46  cat books.txt
+   47  cat books.txt | sort
+   48  cat books.txt | sort >sorted_books.txt
+   49  cat sorted_books.txt
+   50  cat books.txt | grep John
+   51  mv sorted_books.txt books.txt
+   52  ls
+   53  history
+   54  *.txt
+   55  cd ~
+   56  pwd
+   57  git clone https://github.com/vivian5668/command-line-murder-mystery.git
+   58  cd wdi
+   59  cd command-line-murder-mystery
+   60  cat instructions
+   61  cd mystery
+   62  cd crimescene
+   63  ls
+   64  ls -l
+   65  cat crimescene | grep CLUE
+   66  ls -l
+   67  cat people
+   68  cat people | grep CLUE
+   69  ls
+   70  cd interviews
+   71  ls
+   72  cat crimescene | grep CLUE
+   73  cd ..
+   74  pwd
+   75  cat crimescene | grep CLUE
+   76  cd AAA
+   77  cd memberships
+   78  cat AAA
+   79  ls
+   80  cd ..
+   81  ls
+   82  cat people | grep Annabel
+   83  ls
+   84  cd streets
+   85  cat streets | grep blond
+   86  cat Mattapan_Street | grep blond
+   87  head -n 173 streets/Mattapan_Street | tail -n 1
+   88  cd ..
+   89  pwd
+   90  ls
+   91  head -n 173 streets/Mattapan_Street | tail -n 1
+   92  ls
+   93  cd interviews
+   94  ls
+   95  cat interview-9437737
+   96  head -n 500 streets/Mattapan_Street | tail -n 1
+   97  ls
+   98  cd ..
+   99  pwd
+  100  ls
+  101  cat people | grep Annabel
+  102  ls
+  103  cd streets
+  104  head -n 179 streets/Buckinghan_Place | tail -n 1
+  105  head -n 179 Buckinghan_Place
+  106  head -n 179 Buckingham_Place
+  107  head -n 179 Buckingham_Place | tail -n 1
+  108  ls
+  109  cd ..
+  110  pwd
+  111  cd interview
+  112  cd interviews
+  113  ls
+  114  interview-➜  streets git:(master) head -n 179 Buckingham_Place | tail -n 1
+  115  SEE INTERVIEW #699607
+  116  interview 699607
+  117  interview-699607
+  118  interview_699607
+  119  interview-699607
+  120  cat interview-699607
+  121  cd ~
+  122  cd wdi
+  123  ls
+  124  cd command-line-murder-mystery
+  125  ls
+  126  cat hint1 hint2 hint3
+  127  cat hint1
+  128  cat hint4 hint5 hint6
+  129  ls
+  130  cd mystery
+  131  ls
+  132  head 20 vehicles
+  133  head 60 vehicles
+  134  head -n 60 vehicles
+  135  cd ..
+  136  ls
+  137  cat hint6 hint7 hint8
+  138  ls
+  139  cd mystery
+  140  ls
+  141  grep -A 5 "Honda" vehicles
+  142  grep -A 5 "Honda" "Blue" "L377" vehicles
+  143  grep -A 5 "L377" vehicles
+  144  grep -A 5 "L337" vehicles
+  145  cd ..
+  146  pwd
+  147  ls
+  148  cd mystery
+  149  pwd
+  150  ls
+  151  cd memberships
+  152  ls
+  153  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  154  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  155  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  156  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Matt Waite"
+  157  cat Fitness_Galaxy AAA Museum_of_Bash_History | grep -c "Matt Waite"
+  158  cat Delta_Skymiles AAA Museum_of_Bash_History library.txt | grep -c "Matt Waite"
