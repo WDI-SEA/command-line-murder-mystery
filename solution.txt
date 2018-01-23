@@ -1,0 +1,113 @@
+   
+Jeremy Bowers is the murderer!!!
+
+
+   49  git clone https://github.com/egarrett94/command-line-murder-mystery.git
+   50  ls
+   51  cd command-line-murder-mystery
+   52  cat instructions
+   53  cd mystery
+   54  ls
+   55  cat crimescene | grep CLUE
+   56  cd ..
+   57  touch solution.txt
+   58  ls
+   59  cd mystery
+   60  ls
+   61  cat people blond
+   62  cat people | grep Annabel
+   63  cd interviews
+   64  ls
+   65  cd ..
+   66  ls
+   67  cd memberships
+   68  ls
+   69  cat AAA
+   70  cd AAA | grep Annabel
+   71  cat AAA | grep Annabel
+   72  ls
+   73  cat Delta_SkyMiles | grep Church
+   74  cat Delta_SkyMiles | grep Annabel
+   75  cat Terminal_City_Library | grep Annabel
+   76  cat Terminal_City_Library | grep Church
+   77  cat delta.txt | grep Annabel
+   78  cat delta.txt | grep Church
+   79  cat Museum_of_Bash_History | grep Church
+   80  cd ..
+   81  cat instructions
+   82  cd .. 
+   83  cat instructions
+   84  cd mystery
+   85  ls
+   86  cat crimescene | grep CLUE
+   87  cd streets
+   88  cd ..
+   89  cat people | grep Annabel
+   90  cd streets
+   91  ls
+   92  cat Buckingham_Place
+   93  cat Buckingham_Place 179
+   94  awk NR==179 Buckingham_Place
+   95  cd ..
+   96  ls
+   97  cd interviews
+   98  ls
+   99  cat interview-699607
+  100  cd ..
+  101  ls
+  102  cat vehicles | grep Honda | grep L337
+  103  cat vehicles | grep Honda
+  104  cat vehicles | grep L337
+  105  cat vehicles | grep L337 Honda
+  106  cat vehicles | grep -e L337 -e Honda
+  107  cat vehicles | grep (L337\Honda)
+  108  cat vehicles | grep L337 | grep Honda
+  109  grep L337 vehicles | grep Honda
+  110  grep -E 'L337|Honda'
+  111  grep 'L337\|Honda' vehicles
+  112  grep -e L337 -e Honda vehicles
+  113  cat vehicles
+  114  grep -e L337 -e Honda -e Blue vehicles
+  115  clear
+  116  ls
+  117  cat vehicles
+  118  cat vehicles | grep Church
+  119  cat -n vehicles | grep Church
+  120  awk 'NR>4&&NR<11' vehicles
+  121  awk 'NR>22675&&NR<22686' vehicles
+  122  cat -n vehicles | grep Blue | grep Honda | grep L337**9
+  123  cat -n vehicles | grep Blue | grep Honda | grep L337
+  124  clear
+  125  ls
+  126  cd interviews
+  127  cat interview_699607
+  128  cat interview-699607
+  129  cd ..
+  130  cat vehicles | grep -e Blue grep -e Honda grep -e L337
+  131  grep -e Blue -e Honda -e L337
+  132  grep -e Blue -e Honda -e L337 vehicles
+  133  grep -n -e Blue -e Honda -e L337 vehicles
+  134  ls
+  135  cat crimescene | grep CLUE
+  136  sed -n '31824,31832p'
+  137  history
+  138  awk 'NR>31820&&31832' vehicles
+  139  awk 'NR>31820&&NR<31832' vehicles
+  140  awk 'NR>24834&&NR<24840' vehicles
+  141  awk 'NR>23826&&NR<23832' vehicles
+  142  awk 'NR>17743&&NR<17750' vehicles
+  143  awk 'NR>7166&&NR<7172' vehicles
+  144  ls
+  145  cd memberships
+  146  cat AAA | grep Germuska
+  147  cat AAA | grep Bowers
+  148  ls
+  149  cat Delta_SkyMiles | grep Germuska
+  150  cat Delta_SkyMiles | grep Bowers
+  151  cat Museum_of_Bash_History | grep Bowers
+  152  cat Terminal_City_Library | grep Bowers
+  153  cd ..
+  154  ls
+  155  cd ..
+  156  ls
+  157  subl solution.txt
