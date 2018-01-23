@@ -1,0 +1,116 @@
+ 486  ls
+  487  rm sorted_bookstxt
+  488  ls
+  489  cat books.txt
+  490  cp bookshelf.txt second_bookshelf.txt
+  491  ls
+  492  history
+  493  cd ..
+  494  git clone https://github.com/danielrvancura/command-line-murder-mystery.git
+  495  cd command-line-murder-mystery
+  496  cat instructions
+  497  cd mystery
+  498  cd crimescene
+  499  start crimescene
+  500  cat crimescene | grep CLUE
+  501  ls
+  502  cd interviews
+  503  cat interviews | grep CLUE
+  504  cat interviews | grep CLUE
+  505  cd ..
+  506  cat interviews | grep CLUE
+  507  cat interviews
+  508  cat interviews/
+  509  cd people
+  510  cd vehicles
+  511  cat interviews
+  512  cat hint2
+  513  ls
+  514  cat memberships
+  515  cat memberships | grep Annabel
+  516  cd memberships
+  517  cat memberships | grep Annabel
+  518  ls
+  519  cat Delta_SkyMiles
+  520  cat memberships | grep Annabel
+  521  cd ..
+  522  ls
+  523  cd streets
+  524  ls
+  525  cd ..
+  526  cd people
+  527  ls
+  528  cat people | grep Annabel
+  529  cat streets
+  530  cd streets
+  531  cd
+  532  cd streets
+  533  pwd
+  534  cd source
+  535  cd unit_one
+  536  ls
+  537  cd comman
+  538  cd command-line-murder-mystery/
+  539  ls
+  540  cd mystery
+  541  cd streets
+  542  ls
+  543  head -n 40 Hart_Place
+  544  cd ..
+  545  ls
+  546  cd interviews
+  547  ls
+  548  *47246024
+  549  cat interview-47246024
+  550  cd ..
+  551  cd streets
+  552  head -n 173
+  553  head -n 173 Buckingham_Place
+  554  head -n 179 Buckingham_Place
+  555  cd ..
+  556  ls
+  557  cd interviews
+  558  ls
+  559  cat interview-SEE INTERVIEW #699607
+  560  cat interview-699607
+  561  cd ..
+  562  ls
+  563  cd vehicles
+  564  cat vehicles
+  565  cat l337
+  566  cat L337
+  567  cat mystery | grep L337
+  568  grep -A 5 "L337"
+  569  cat hint7
+  570  ls
+  571  cd crimescene
+  572  cd crimescene
+  573  cat crimescene
+  574  ls
+  575  cd ..
+  576  ls
+  577  cat hint7
+  578  cd mystery
+  579  ls
+  580  cat vehicles | grep -A 5 "L337"
+  581  cd ..
+  582  ls
+  583  cd mystery
+  584  ls
+  585  cd memberships
+  586  ls
+  587  cat Delta_Skymiles
+  588  cat memberships | grep Jeremy Bowers
+  589  cd ..
+  590  cat memberships | grep Jeremy Bowers
+  591  ls
+  592  cd memberships
+  593  ls
+  594  cat Delta_SkyMiles | grep Jeremy Bowers
+  595  cd Delta_SkyMiles
+  596  ls -al
+  597  cat Delta_SkyMiles | grep Jeremy Bowers
+  598  cat Delta_SkyMiles | grep Jeremy
+  599  history
+Jeremy Bowers is the killer
+
