@@ -1,0 +1,112 @@
+73  git clone https://github.com/smolsn13/command-line-murder-mystery.git
+74  cd command-line-murder-mystery
+75  cat instructions
+76  cd mystery
+77  ls
+78  cd crimescene
+79  cat crimescene
+80  cat crimescene | grep CLUE
+81  cd ..
+82  ls
+83  cd mystery
+84  ls
+85  cd interviews
+86  ls
+87  cd ..
+88  ls
+89  cat people
+90  cat people | grep M
+91  ls
+92  cd memberships
+93  ls
+94  cat AAA
+95  cat DeltaSkyMiles
+96  ls
+97  cat Delta_SkyMiles
+98  ls
+99  cat library.txt
+100  ls
+101  cat Museum_of_Bash_History
+102  cd ..
+103  ls
+104  cd streets
+105  ls
+106  cd ..
+107  ls
+108  cat vehicles
+109  cat vehicles | grep 6'\nls\ncd ..
+110  ls
+111  cat vehicles
+112  cat vehicles | grep 6'
+113  cat vehicles | grep 6
+114  cd people
+115  ls
+116  cat people
+117  ls
+118  cat vehicles
+119  cat vehicles | grep Height: 6'
+120  cat vehicles | grep "Height: 6'"
+121  ls
+122  cd interviews
+123  ls
+124  cd ..
+125  cd interviews
+126  grep Annabel
+127  cat interview-322305
+128  grep -r Annabel
+129  grep -r 'Annabel'
+130  grep -r 'Annabel' /interviews
+131  cd ..
+132  ls
+133  cat people
+134  cd interviews
+135  ls
+136  grep -r ./interviews
+137  grep -r New Zealand
+138  grep -r 'New Zealand'
+139  grep 'New Zealand'
+140  cd ..
+141  ls
+142  cd streets
+143  ls
+144  cd ..
+145  ls
+146  cd people
+147  ls
+148  cat people
+149  cat people | grep Annabel
+150  ls
+151  cd streets
+152  ls
+153  cat Hart_Place
+154  cat Buckingham_Place
+155  head -n 179
+156  cat Buckingham Place | head -n 179
+157  cat Buckingham_Place | head -n 179
+158  cd ..
+159  ls
+160  cd interviews
+161  ls
+162  cat interview-47246024
+163  cat interview-699607
+164  cd ..
+165  ls
+166  cat vehicles | grep L337
+167  cat vehicles
+168  cat vehicles | sort
+169  cat vehicles | grep L337 --after-context=5 L337
+170  cat vehicles | grep --after-context=5 L337
+171  ls
+172  cd memberships
+173  ls
+174  cd AAA
+175  cat AAA | grep 'Joe Germuska'
+176  cat Delta_SkyMiles | grep 'Joe Germuska'
+177  cat library.txt | grep 'Joe Germuska'
+178  cat Museum_of_Bash_History | grep 'Joe Germuska'
+179  cat AAA | grep 'Jeremy Bowers'
+180  cat Delta_SkyMiles | grep 'Jeremy Bowers'
+181  cat library.txt | grep 'Jeremy Bowers'
+182  cat Museum_of_Bash_History | grep 'Jeremy Bowers'
+
+Jeremy Bowers is the killer.
