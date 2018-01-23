@@ -1,0 +1,341 @@
+➜  command-line-murder-mystery git:(master) ✗ atom solutions.txt
+➜  command-line-murder-mystery git:(master) ✗ history
+    1  ls
+    2  ls -a
+    3  cd source
+    4  ls
+    5  cd~
+    6  cd ~
+    7  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl\n
+    8  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+    9  sudo ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+   10  atom
+   11  sub
+   12  subl
+   13  ls
+   14  pwd
+   15  ls -a
+   16  open .
+   17  open
+   18  open .
+   19  ls
+   20  cd source
+   21  ls
+   22  cd git_test
+   23  open newFile.txt
+   24  ls -l
+   25  cd ~
+   26  ls -l
+   27  ls -la
+   28  cd Music
+   29  ls
+   30  cd Music
+   31  ls
+   32  cd Apps
+   33  cd ..
+   34  ls
+   35  cd ~
+   36  ls
+   37  cd Music
+   38  ls
+   39  cd Audio
+   40  ls
+   41  cd ~
+   42  clear
+   43  ls
+   44  cd wdi_fundamentals
+   45  cd wdi-fundamentals
+   46  ls
+   47  open GA-Blog
+   48  cd ~
+   49  pwd
+   50  cd source
+   51  ls
+   52  cd git_test
+   53  ls
+   54  touch newFile.html
+   55  ls
+   56  clear
+   57  ls
+   58  cd source
+   59  ls
+   60  cd git_test
+   61  mkdir unit1
+   62  ls
+   63  cd unit1
+   64  mkdir living_room
+   65  cd living_room
+   66  touch books.txt
+   67  ls
+   68  atom books.txt
+   69  ls
+   70  ls -la
+   71  cat book.txt
+   72  cat books.txt
+   73  echo "This bookshelf flexes under the weight of the books it holds."
+   74  echo "This bookshelf flexes under the weight of the books it holds." > books.txt
+   75  cat books.txt
+   76  echo "Carroll, Lewis:Through the Looking-Glass\nShakespeare, William:Hamlet\nBartlett, John:Familiar Quotations\nMill, John :On Nature\nLondon, Jack:John Barleycorn\nBunyan, John:Pilgrim's Progress, The\nDefoe, Daniel:Robinson Crusoe\nMill, John Stuart:System of Logic, A\nMilton, John:Paradise Lost\nJohnson, Samuel:Lives of the Poets\nShakespeare, William:Julius Caesar\nMill, John Stuart:On Liberty\nBunyan, John:Saved by Grace" > books.txt
+   77  cat books.txt
+   78  \nShakespeare, William:Julius Caesar\nMill, John Stuart:On Liberty\nBunyan, John:Saved by Graceecho "This bookshelf flexes under the weight of the books it holds"
+   79  echo "This bookshelf flexes under the weight of the books it holds" > bookshelf.txt
+   80  ls
+   81  cat bookshelf.txt
+   82  cler
+   83  clear
+   84  echo "It does not break, it does its job admirably" >> bookshelf.txt
+   85  cat bookshelf.txt
+   86  cat books.txt bookshelf.txt | sort
+   87  cat books.txt | sort > sorted_books.txt
+   88  cat sorted_books.txt
+   89  cat books.txt | grep john
+   90  cat books.txt | grep John
+   91  mv sorted_books.txt books.txt
+   92  ls
+   93  cat books.txt
+   94  cp bookshelf.txt second_bookshelf.txt
+   95  cat second_bookshelf.txt
+   96  ls
+   97  cp livingRoom2 -r
+   98  ls
+   99  ls -a
+  100  cd ..
+  101  ls
+  102  cp livingRoom2 -r livingRoom
+  103  ls
+  104  cp -r living_room living_room2
+  105  ls
+  106  cd living_room2
+  107  ls
+  108  cd ..
+  109  ls
+  110  rm second_bookshelf.txt
+  111  ls
+  112  cd living_room2
+  113  ls
+  114  rm second_bookshelf.txt
+  115  ls
+  116  cd  ..
+  117  ls
+  118  history
+  119  cd ..
+  120  ls
+  121  cd ..
+  122  get clone https://github.com/Tim-Hass-GA/command-line-murder-mystery.git
+  123  git clone https://github.com/Tim-Hass-GA/command-line-murder-mystery.git
+  124  ls
+  125  cd command-line-murder-mystery
+  126  ls
+  127  cat instructions
+  128  ls
+  129  cd mystery
+  130  ls
+  131  cd crimescene
+  132  cat crimescene
+  133  cat crimescene | grep clue
+  134  cat crimescene | grep CLUE
+  135  ls
+  136  cat Hint1
+  137  ls
+  138  cd ..
+  139  ls
+  140  cat hint1
+  141  head -n 20 people
+  142  cd mystery
+  143  head -n 20 people
+  144  ls
+  145  cd streets
+  146  ls
+  147  cat Walton
+  148  cd Walton
+  149  cat Mystic_Street
+  150  open cheatsheet.md
+  151  cd ..
+  152  ls
+  153  cd ..
+  154  ls
+  155  open cheatsheet.md
+  156  cd mystery
+  157  ls
+  158  cd streets
+  159  ls
+  160  head -n 20 people
+  161  cd ..
+  162  ls
+  163  head -n 20 people
+  164  cd streets
+  165  cd Walton
+  166  cd Hemenway
+  167  cd Walton_Street
+  168  cd Hemenway
+  169  cd Elmwood_Avenue
+  170  cd Winthrop_Street
+  171  cd Mystic_Street
+  172  head -n 477 Mystic_Street
+  173  cat -n 477 Mystic_Street
+  174  wc -1 WlatonMystic_Street
+  175  tail Mystic_Street
+  176  cd ..
+  177  ls
+  178  cd ..
+  179  hint 2
+  180  ls
+  181  cat hint2
+  182  cat hint3
+  183  cat hint4
+  184  ls
+  185  cd mystery
+  186  ls
+  187  cd people
+  188  ls
+  189  cat people | grep "Annabel"
+  190  cd ..
+  191  ls
+  192  cat hint5
+  193  cd ..
+  194  ls
+  195  cd command-line-murder-mystery
+  196  ls
+  197  cat hint6
+  198  cd mystery
+  199  ls
+  200  cd vehicles
+  201  cat vehicles \ grep "Honda"
+  202  cat vehicles | grep "Honda"
+  203  cat vehicles | grep "Blue"
+  204  cat vehicles | grep "L337"
+  205  head -n 173 streets/Mattapan_Street | tail -n 1
+  206  hint6
+  207  ls
+  208  cd ..
+  209  ls
+  210  hint6
+  211  cat hint6
+  212  cat hint7
+  213  cat hint5
+  214  cat hint4
+  215  ls
+  216  cd mystery
+  217  grep "Annabel" people
+  218  cd ..
+  219  cat hint5
+  220  grep -A 5 "L337" vehicles
+  221  ls
+  222  cd mystery
+  223  ls
+  224  grep -A 5 "L337" vehicles
+  225  cd ..
+  226  cat hint8
+  227  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  228  ls
+  229  cd mystery
+  230  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  231  ls
+  232  cd memberships
+  233  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  234  ;s
+  235  ls
+  236  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"
+  237  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  238  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel"
+  239  cd ..
+  240  ls
+  241  touch solution.txt
+  242  clear
+  243  cat instructions
+  244  ls
+  245  cd mystery
+  246  ls
+  247  cat crimescene | grep "CLUE"
+  248  cd ..
+  249  cat hint1
+  250  ls
+  251  cd mystery
+  252  head -n20 people
+  253  cd ..
+  254  cat hint2
+  255  cd mystery
+  256  grep "CLUE" crimescene
+  257  cd ..
+  258  cat hint2
+  259  cat hint3
+  260  cd mystery
+  261  cd ..
+  262  cat hint4
+  263  cd mystery
+  264  cat people | grep "Annabel"
+  265  cd ..
+  266  cat hint5
+  267  ls
+  268  cd mystery
+  269  cat people | grep "Annabel"
+  270  head -n 173 streets/Mattapan_Street | tail -n
+  271  head -n 40 streets/"Hart Place" | tail -n 1
+  272  head -n 40 streets/Hart_Place | tail -n 1
+  273  head -n 40 streets/Haley_Street | tail -n 1
+  274  ls
+  275  cd interviews
+  276  ls
+  277  cat interview-47246024
+  278  cd ..
+  279  ls
+  280  cat hint6
+  281  ls
+  282  cd mystery
+  283  head -n 37 streets/Haley_Street | tail -n 1
+  284  head -n 38 streets/Haley_Street | tail -n 1
+  285  head -n 176 streets/Haley_Street | tail -n 1
+  286  cat interview-871877
+  287  ls
+  288  cd ..
+  289  cd mystery
+  290  cd in
+  291  cd interviews
+  292  cat interview-871877
+  293  cd ..
+  294  head -n 179 streets/Buckingham_Place | tail -n 1
+  295  cd interviews
+  296  cat interview-699607
+  297  cd ..
+  298  cd mystery
+  299  ls
+  300  cd vehicles
+  301  cat vehicles | grep "Honda" "Blue" "L337"
+  302  ls
+  303  grep "Honda" "Blue" "L377" vehicles
+  304  cd ..
+  305  ls
+  306  cat hint6
+  307  cat hint7
+  308  cd mystery
+  309  grep -A 5 "L337" vehicles
+  310  cd ..
+  311  ls
+  312  cat hint8
+  313  cd mystery
+  314  ls
+  315  cat AAA Delta_Skymiles Library Bash History | grep "Jeremy Bowers"
+  316  cd memberships
+  317  cat AAA Delta_Skymiles Library Bash History | grep "Jeremy Bowers"
+  318  cat AAA Delta_Skymiles Library Bash_History | grep "Jeremy Bowers"
+  319  cat AAA Delta_Skymiles Library Museum_Bash_History | grep "Jeremy Bowers"
+  320  cat AAA Delta_Skymiles Local_library Museum_of_Bash_History | grep "Jeremy Bowers"
+  321  cat AAA Delta_Skymiles Local_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  322  cat AAA Delta_Skymiles Local_library Museum_of_Bash_History | grep "Jeremy Bowers"
+  323  cat AAA Delta_Skymiles Local_library Museum_of_Bash_History | grep "Joe Germuska"
+  324  cat AAA Delta_Skymiles Local_Library Museum_of_Bash_History | grep "Joe Germuska"
+  325  cat AAA Delta_Skymiles Local_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  326  cat AAA Delta_Skymiles Local_Library Museum_of_Bash_History | grep "Aron Pilhofer"
+  327  ls
+  328  cat AAA Delta_Skymiles library Museum_of_Bash_History | grep "Jacqui Maher"
+  329  cat AAA Delta_Skymiles library Museum_of_Bash_History | grep "Jeremy Bower"
+  330  cat AAA Delta_Skymiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  331  ls
+  332  ls -la
+  333  open REI
+  334  ls
+  335  cd ..
+  336  ls
+  337  cd ..
+  338  ls
+  339  atom solutions.txt
