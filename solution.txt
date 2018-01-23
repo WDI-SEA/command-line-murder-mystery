@@ -1,0 +1,130 @@
+1.  156  cd command-line-murder-mystery
+  157  ls
+  158  cat instructions
+  159  cd mystery
+  160  ls
+  161  cat crimescene
+  162  cat crimescene | grep CLUE
+  163  ls
+  164  cat people
+  165  cat people | greap Anna
+  166  cat crimescene | grep CLUE
+  167  ls
+  168  cd interviews
+  169  ls
+  170  grep Annabel
+  171  ce ..
+  172  cd ..
+  173  ls
+  174  cat people | grep Annabel
+  175  ls
+  176  cd ..
+  177  ls
+  178  cat hint1
+  179  hint 2
+  180  cat hint2
+  181  cat hint3
+  182  cat hint4
+  183  cat hint5
+  184  ls
+  185  cd mystery
+  186  ls
+  187  cd memberships
+  188  ls
+  189  cat 1.txt
+  190  cat 2.txt
+  191  ls
+  192  cd ..
+  193  ls
+  194  cd streets
+  195  ls
+  196  cd ..
+  197  ls
+  198  cat people | greap Annabel
+  199  cat people | grep Annabel
+  200  cd streets
+  201  cat Hart_Place
+  202  ls
+  203  cd ..
+  204  ls
+  205  cat people | grep Annabel
+  206  cd interviews
+  207  ls
+  208  cd ..
+  209  head 
+  210  head
+  211  cd ..
+  212  ls
+  213  cat hint5
+  214  ls
+  215  cd Mystery
+  216  ls
+  217  cat people | grep Annabel
+  218  ls
+  219  cd streets
+  220  head -n 40 streets/Hart_Place | tail -n 1
+  221  cd satreets
+  222  cd streets
+  223  ls
+  224  head -n 40 Hart_Place | tail -n 1
+  225  la
+  226  pwd
+  227  cd ..
+  228  ls
+  229  cd interviews
+  230  ls
+  231  cat interview-47246024
+  232  cd ..
+  233  ls
+  234  cat people | grep Annabel
+  235  cd streets
+  236  ls
+  237  head -n 176  Buckingham_Place | tail -1 
+  238  head -n 179  Buckingham_Place | tail -1 
+  239  cd ..
+  240  ls
+  241  cd interviews
+  242  ls
+  243  cat interview-699607
+  244  cd ..
+  245  ls
+  246  cd interviews
+  247  cd ..
+  248  cat veh
+  249  cat vehicles
+  250  cat vehicles| grep L337
+  251  cat vehicles| grep L337*9
+  252  cat vehicles| grep L337
+  253  cat vehicles| grep L337 | grep Make: Honda
+  254  cat vehicles| grep L337
+  255  grep "Honda" vehicles | greap L337
+  256  grep "Honda" vehicles | greap L337 vehicles
+  257  ls
+  258  cd ..
+  259  ls
+  260  cat hint5
+  261  cat hint6
+  262  cat hint7
+  263  cd mystery
+  264  greap -A 5 "L337" vehicles
+  265  grep -A 5 "L337" vehicles
+  266  pwd
+  267  ls
+  268  cd memberships
+  269  ls
+  270  cat AAA | grep Aaron
+  271  cat AAA | grep Joe
+  272  cat AAA | grep Jetrmy
+  273  cat AAA | grep Jeremy
+  274  ls
+  275  cd ..
+  276  ls
+  277  cat crimescene | grep CLUE
+  278  cd memberships
+  279  ls
+  280  cat Delta_SkyMiles | grep Joe
+  281  cat Delta_SkyMiles | grep Jeremy
+  282  cat Museum_of_Bash_History| grep Jeremy
+  283  cat library.txt Terminal_City_Library | grep Jeremy
+
+2. Jeremy Bowers
