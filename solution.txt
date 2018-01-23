@@ -1,0 +1,353 @@
+ 1  pwd
+    2  ls
+    3  cd mit_python
+    4  ls
+    5  cd .
+    6  cd ..
+    7  cd ~
+    8  ls
+    9  pwd
+   10  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+   11  ls
+   12  atom summary.txt
+   13  ls
+   14  open
+   15  open -R code
+   16  ls
+   17  open .
+   18  ls
+   19  ls -l
+   20  pwd
+   21  cd ..
+   22  cd ~
+   23  ls
+   24  pwd
+   25  clear
+   26  pwd
+   27  clear
+   28  cd code
+   29  ls
+   30  pwd
+   31  mkdir unit1
+   32  pwd
+   33  ls
+   34  cd unit1
+   35  ls
+   36  pwd
+   37  clear
+   38  cd ..
+   39  ls
+   40  cd unit1
+   41  clear
+   42  mkdir living_room
+   43  ls
+   44  cd living_room
+   45  ls -la
+   46  ls -al
+   47  clear
+   48  ls
+   49  touch books.txt
+   50  ls
+   51  subl books.txt
+   52  ls
+   53  ls -la
+   54  ls
+   55  cat books.txt
+   56  echo "This"
+   57  echo "This bookshelf flexes under the weight of the books it holds" > bookshelf.txt
+   58  ls
+   59  cat bookshelf.txt
+   60  echo "It does not break, it does its job admirably" >> bookshelf.txt
+   61  cat bookshelf.txt
+   62  cat books.txt | sort
+   63  cat books.txt | sort > sorted_books.txt
+   64  cat sorted_books.txt
+   65  ls
+   66  cat books.txt | grep Mil
+   67  mv sorted_books.txt books.txt
+   68  ls
+   69  cat books.txt
+   70  cp bookshelf.txt second_bookshelf.txt
+   71  ls
+   72  rm second_bookshelf.txt
+   73  ls
+   74  clear
+   75  pwd
+   76  ls
+   77  cd ..
+   78  pwd
+   79  ls
+   80  cp -r living_room /living_room2
+   81  ls
+   82  cp -r living_room ./living_room2
+   83  ls
+   84  cd living_room2
+   85  ls
+   86  cd ..
+   87  ls
+   88  rm living_room2
+   89  rm -r living_room2
+   90  ls
+   91  cp -r living_room living_room2
+   92  ls
+   93  rm living_room2
+   94  rm -r living_room2
+   95  ls
+   96  cd living_room
+   97  ls
+   98  rm -rf
+   99  ls
+  100  open bookshelf.txt
+  101  ls
+  102  pws
+  103  pwd
+  104  ls
+  105  ls *txt
+  106  touch index.html
+  107  ls
+  108  ls *html
+  109  ls *txt
+  110  ls
+  111  cd ~
+  112  cd fundamentals/memory_game
+  113  ls
+  114  git push origin master
+  115  git status
+  116  ls
+  117  cd ~
+  118  ls
+  119  cd code
+  120  cd unit1
+  121  ls
+  122  rm -r living_room
+  123  git clone https://github.com/zakirb/command-line-murder-mystery.git
+  124  ls
+  125  cd ..
+  126  ls
+  127  git init
+  128  ls
+  129  cd unit1
+  130  ls
+  131  command line command-line-murder-mystery
+  132  cd command-line-murder-mystery
+  133  ls
+  134  cd ..
+  135  ls
+  136  pwd
+  137  cw ..
+  138  cd ..
+  139  ls
+  140  pwd
+  141  ls -a
+  142  rm -r .git
+  143  ls
+  144  cd unit1
+  145  ls
+  146  git init
+  147  git status
+  148  git add command-line-murder-mystery/
+  149  git commit -a
+  150  ls
+  151  cd code
+  152  cd unit1
+  153  ls
+  154  git status
+  155  git commit -m "first download"
+  156  git status
+  157  git push origin master
+  158  git push
+  159  ls
+  160  cd command-line-murder-mystery
+  161  ls
+  162  git push
+  163  git statu
+  164  git status
+  165  cd ..
+  166  ls
+  167  ls -a
+  168  rm -r .git
+  169  ls
+  170  cd code
+  171  cd unit1
+  172  ls
+  173  git status
+  174  cd command-line-murder-mystery
+  175  git status
+  176  cls
+  177  ls
+  178  cd mystery
+  179  ls
+  180  cd ..
+  181  ls
+  182  touch solution.txt
+  183  ls
+  184  cat instructions
+  185  ls
+  186  cd mystery
+  187  ls
+  188  cat crimescene
+  189  ls
+  190  cd interviews
+  191  ls
+  192  cd ..
+  193  ls
+  194  cd crimescene
+  195  cat crimescene
+  196  ls
+  197  cd ..
+  198  ls
+  199  cat instructions
+  200  ls
+  201  cd mystery
+  202  ls
+  203  cat crimscene | grep "clue"
+  204  cat crimescene | grep CLUE
+  205  cat crimescene | grep Annabel
+  206  ls
+  207  cd ..
+  208  ls
+  209  cat hint1
+  210  ls
+  211  cd mystery
+  212  ls
+  213  head -n 20 crimescene
+  214  ls
+  215  head -n 20 people
+  216  ls
+  217  cd ..
+  218  ls
+  219  cd hint1
+  220  cat hint1
+  221  cd mystery
+  222  ls
+  223  cat crimescene | grep CLUE
+  224  ls
+  225  cd ..
+  226  ls
+  227  cd mystery
+  228  ls
+  229  head -n 40 people
+  230  ls
+  231  cat people | grep annabel
+  232  cat people | grep ANNABEL
+  233  ls
+  234  cat people | grep "annabel"
+  235  head -n 60 people
+  236  ls
+  237  cd streets
+  238  ls
+  239  cd May_Street
+  240  ls
+  241  cd ..
+  242  ls
+  243  cd ..
+  244  ls
+  245  head -n 80 people
+  246  cat people | grep Annabel
+  247  ls
+  248  cd streets
+  249  ls
+  250  cd Hart_Place
+  251  cat Hart_Place
+  252  head -n 40 Hart_Place
+  253  ls
+  254  cd ..
+  255  ls
+  256  cd interviews
+  257  ls
+  258  cd ..
+  259  ls
+  260  cat interviews | grep 47246024
+  261  interviews
+  262  ls
+  263  cd ..
+  264  ls
+  265  streets
+  266  ls
+  267  head -n 40 Hart_Place
+  268  ls
+  269  cd ..
+  270  ls
+  271  pwd
+  272  ls
+  273  cd interviews
+  274  ls
+  275  * 47246024
+  276  *47246024
+  277  cat interview-47246024
+  278  ls
+  279  cd ..
+  280  ls
+  281  streets
+  282  ls
+  283  head -n 173 Mattapan_Street
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd interviews
+  288  ls
+  289  cat interview-9437737
+  290  ls
+  291  cs ..
+  292  cd ..
+  293  ls
+  294  cd streets
+  295  ls
+  296  head -n 179 buckingham_place
+  297  ls
+  298  cd ..
+  299  ls
+  300  cd interviews
+  301  ls
+  302  cat interview-699607
+  303  ls
+  304  cd ..
+  305  ls
+  306  cd vehicles
+  307  head -n 40 vehicles
+  308  ls
+  309  cat vehicles | grep Honda
+  310  cat vehicles | grep l337
+  311  cat vehicles | grep L337
+  312  ls
+  313  cat vehicles | grep L337*9
+  314  head -n 40 vehicles
+  315  ls
+  316  open vehicles
+  317  ls
+  318  cd ..
+  319  ls
+  320  cat hint2
+  321  cat hint3
+  322  cat hint4
+  323  cat hint5
+  324  cat hint6
+  325  cat hint7
+  326  ls
+  327  cd mystery
+  328  ls
+  329  cat vehicles | grep -A 5 "L337"
+  330  cd ..
+  331  ls
+  332  cd mystery
+  333  ls
+  334  cat crimescene | grep CLUE
+  335  ls
+  336  cd memberships
+  337  ls
+  338  cat delta_skymiles | grep "Joe"
+  339  cat delta_skymiles | grep "Jeremy"
+  340  cat delta_skymiles | grep "Jacqui"
+  341  ls
+  342  cat AAA | grep "Jacqui"
+  343  cat AAA | grep "Jeremy"
+  344  cat Terminal_City_Library | grep "Jacqui"
+  345  cat Terminal_City_Library | grep "Jeremy"
+  346  cat museum.txt | grep "Jeremy"
+  347  cat museum.txt | grep "Jacqui"
+  348  cat museum.txt | grep "Joe"
+
+
+
+
+Jeremy Bowers is the killer
