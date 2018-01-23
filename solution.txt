@@ -1,0 +1,225 @@
+  172  cd command-line-murder-mystery
+  173  ls
+  174  cat instructions
+  175  ls
+  176  cd mystery
+  177  ls
+  178  pwd
+  179  cat crimescene | grep clue
+  180  cat crimescene | grep CLUE
+  181  cd interviews
+  182  ls
+  183  cd ..
+  184  ls
+  185  cd memberships
+  186  ls
+  187  cd ../streets
+  188  ls
+  189  cd ..
+  190  ls
+  191  cd peo
+  192  cat people
+  193  ls
+  194  cat people | grep CLUE
+  195  cd memberships
+  196  ls
+  197  clear
+  198  cd ..
+  199  ls
+  200  cat crimescene | grep CLUE
+  201  cd memberships
+  202  ls
+  203  cat aaa
+  204  ls
+  205  cat Delta_SkyMiles
+  206  ls
+  207  cat delta.txt
+  208  ls
+  209  cd ..
+  210  ls
+  211  cd ..
+  212  ls
+  213  cat hint1
+  214  cd mystery
+  215  ls
+  216  head -n 20 people
+  217  cd streets | ls
+  218  cd streets
+  219  ls
+  220  cat Mystic_Street
+  221  subl Mystic_Street
+  222  cat Spaulding_Street
+  223  cd ..
+  224  ls
+  225  cd ..
+  226  ls
+  227  cat hint2
+  228  hint3
+  229  cat hint3
+  230  cd mystery
+  231  ls
+  232  head -n 20 vehicles
+  233  head -n 20 people
+  234  head -n 30 vehicles
+  235  ls
+  236  cd memberships
+  237  ls
+  238  head -n 20 aaa
+  239  ls
+  240  cd ..
+  241  ls
+  242  cd streets
+  243  ls
+  244  cat Glenville_Avenue
+  245  cd ..\..
+  246  ls
+  247  cd ..
+  248  ls
+  249  cat instructions
+  250  ls
+  251  cd mystery
+  252  ls
+  253  cat crimescene | grep CLUE
+  254  ls
+  255  cd memberships
+  256  ls
+  257  cat Delta_SkyMiles | grep CLUE
+  258  head -n 20 Delta_SkyMiles
+  259  head -n 20 aaa
+  260  head -n 20 Museum_of_Bash_History
+  261  cat delta.txt
+  262  ls
+  263  cd ..
+  264  ls
+  265  cd interviews
+  266  ls
+  267  cd ..
+  268  ls
+  269  cat crimescene | grep CLUE
+  270  cd ..
+  271  cat hint1
+  272  ls
+  273  cd mystery
+  274  ls
+  275  cat people
+  276  ls
+  277  pwd
+  278  ls
+  279  cd interviews
+  280  ls
+  281  cd .
+  282  cd ..
+  283  ls
+  284  head -n 20 people
+  285  pwd
+  286  head -n 226 streets/Glenville_Avenue
+  287  ls
+  288  head -n 20 people
+  289  head -n 205 streets/Rockwood_Street
+  290  head -n 440 streets/Tennis_Road
+  291  cd streets
+  292  ls
+  293  cd ..
+  294  ls
+  295  cat people | grep Anabel
+  296  head -n 248 streets/Monument_Avenue
+  297  cat crimescene | grep CLUE
+  298  cat people | grep Annabel
+  299  head -n 40 streets/Hart_Place
+  300  ls
+  301  cd interviews
+  302  ls
+  303  ls *47246024
+  304  cat interview-47246024
+  305  cd ..
+  306  ls
+  307  head -n 173 streets/Mattapan_Street
+  308  cd interviews
+  309  ls *9437737
+  310  cat interview-9437737
+  311  cd ..
+  312  head -n 179 streets/Buckingham_Place
+  313  cd interviews
+  314  ls *699607
+  315  cat interview-699607
+  316  cd ..
+  317  head -n 176 streets/Haley_Street
+  318  ls
+  319  cd interviews/interview-871877
+  320  cd interviews
+  321  cat interview-871877
+  322  cd ..
+  323  cat vehicles | grep L337
+  324  cat vehicles
+  325  cat vehicles | grep L337
+  326  cat vehicles | grep Honda
+  327  cd ..
+  328  cat hint3
+  329  cat hint4
+  330  cat hint5
+  331  cat hint6
+  332  cd mystery
+  333  ls
+  334  head vehicles
+  335  cat vehicles | grep License Plate L337*9
+  336  cat vehicles | grep "License Plate L337*9"
+  337  cd ..
+  338  cat hint7
+  339  cd mystery
+  340  grep -A 5 "L337"
+  341  grep -A 5 "L337" vehicles
+  342  ls
+  343  cat people
+  344  License Plate L337QE9\nMake: Honda\nColor: Blue\nOwner: Erika Owens\nHeight: 6'5"\nWeight: 220 lbs\n--\nLicense Plate L337GB9\nMake: Toyota\nColor: Blue\nOwner: Matt Waite\nHeight: 6'1"\nWeight: 190 lbs\n--\nLicense Plate L337OI9\nMake: Jaguar\nColor: Blue\nOwner: Brian Boyer\nHeight: 6'6"\nWeight: 201 lbs\n--\nLicense Plate L337X19\nMake: Fiat\nColor: Blue\nOwner: Al Shaw\nHeight: 6'5"\nWeight: 240 lbs\n--\nLicense Plate L337539\nMake: Honda\nColor: Blue\nOwner: Aron Pilhofer\nHeight: 5'3"\nWeight: 198 lbs\n--\nLicense Plate L3373U9\nMake: Ford\nColor: Blue\nOwner: Miranda Mulligan\nHeight: 6'6"\nWeight: 156 lbs\n--\nLicense Plate L337369\nMake: Honda\nColor: Blue\nOwner: Heather Billings\nHeight: 5'2"\nWeight: 244 lbs\n--\nLicense Plate L337DV9\nMake: Honda\nColor: Blue\nOwner: Joe Germuska\nHeight: 6'2"\nWeight: 164 lbs\n--\nLicense Plate L3375A9\nMake: Honda\nColor: Blue\nOwner: Jeremy Bowers\nHeight: 6'1"\nWeight: 204 lbs\n--\nLicense Plate L337WR9\nMake: Honda\nColor: Blue\nOwner: Jacqui Maher\nHeight: 6'2"\nWeight: 130 lbs\nls
+  345  ls
+  346  grep "Germuska" people
+  347  grep "Bowers" people
+  348  head -n 275 streets/Plainfield_Street
+  349  cd interviews
+  350  cat interview-29741223
+  351  cd ..
+  352  head -n 284 streets/Dunstable_Road
+  353  cd interviews
+  354  cat interview-9620713
+  355  cd ..
+  356  ls
+  357  grep 5 "L337" vehicles
+  358  grep -A 5 "L337" vehicles
+  359  ls
+  360  grep "Pilhofer" people
+  361  head -n 145 streets/Claybourne_Street
+  362  cat interviews/interview-1767435
+  363  ls
+  364  cd memberships
+  365  ls
+  366  head delta.txt
+  367  grep "Bowers" delta.txt
+  368  grep "Bowers" library.txt
+  369  head Delta_SkyMiles
+  370  grep "Bowers" AAA
+  371  grep "Bowers" Delta_SkyMiles
+  372  grep "Bowers" Museum_of_Bash_History
+  373  cd ..
+  374  ls
+  375  cd ..
+  376  ls
+  377  cat hint7
+  378  cat hint8
+  379  cat mystery/memberships/aaa | grep "Bowers"
+  380  cd mystery/memberships
+  381  grep "Bowers" AAA Delta_SkyMiles Museum_of_Bash_History
+  382  ls
+  383  cd ..
+  384  ls
+  385  cat crimescene | grep CLUE
+  386  ls
+  387  cd ..
+  388  ls
+  389  touch solution.txt
+  390  cd ..
+  391  cd command-line-murder-mystery
+  392  ls
+  393  cat instructions
+  394  ls
+
+  The killer is Jeremy Bowers
