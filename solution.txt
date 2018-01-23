@@ -1,0 +1,6 @@
+cd command-line-murder-mystery
+   38  ls
+   39  touch solution.txt
+   40  ls
+
+Jeremy Bowers
