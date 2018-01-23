@@ -1,0 +1,146 @@
+   45  git clone https://github.com/HamMike/command-line-murder-mystery.git
+   46  ls
+   47  cd command-line-murder-mystery
+   48  ls
+   49  cat instructions
+   50  ls
+   51  cd mystery
+   52  ls
+   53  cat crimescene | grep CLUE
+   54  cat people
+   55  cat hint1
+   56  cd ..
+   57  ]ls
+   58  ls
+   59  cat hint1
+   60  head -n 20 people
+   61  ls
+   62  cd mystery
+   63  ls
+   64  head -n 20 people
+   65  cat crimescene | grep CLUE
+   66  cat people | grep Annabel
+   67  cd interviews
+   68  ls
+   69  cd ..
+   70  ls interviews
+   71  ls streets
+   72  subl streets
+   73  cat Hart Place
+   74  ls
+   75  cd streets
+   76  cat Hart Place
+   77  cat Hart_Place
+   78  cat -n Hart_Place
+   79  cat -n Hart_Place line 40
+   80  head -n 40 Hart_Place
+   81  cd ..
+   82  ls
+   83  cd streets
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd interviews
+   88  cd ..
+   89  cat interviews | grep #47246024
+   90  cat interview-47246024
+   91  ls 
+   92  cd interviews
+   93  cat interview-47246024
+   94  cd mystery
+   95  cd..
+   96  cd ..
+   97  ls
+   98  cat people | grep Annabel
+   99  ls
+  100  lks
+  101  ls
+  102  cd streets
+  103  head -n 179 Buckingham_Place
+  104  ls
+  105  cd ..
+  106  ls
+  107  cd interviews
+  108  cat interview-699607
+  109  cd ..
+  110  ls
+  111  cd ..
+  112  ls
+  113  cat hint2
+  114  cat hint3
+  115  cat hint4
+  116  hint5
+  117  cat hint5
+  118  cat hint6
+  119  cd mystery
+  120  ls
+  121  cat grep "Honda" vehicles
+  122  ls
+  123  cat vehicles | grep Honda
+  124  cd ..
+  125  ls
+  126  cat hint7
+  127  cat hint6
+  128  ls
+  129  cat mystery/vehicle | grep -A "blue" "Honda" "L337" "9"
+  130  cat vehicle | grep -A "blue" "Honda" "L337" "9"
+  131  cd mystery
+  132  ls
+  133  cat vehicle | grep -A "blue" "Honda" "L337" "9"
+  134  cd ..
+  135  grep -A 5 "L337" mystery/vehicles
+  136  cat hint8
+  137  ls
+  138  ls mystery
+  139  ls memberships
+  140  ls membershipd
+  141  ls memberships
+  142  cd memberships
+  143  ls
+  144  ls mystery/memberships
+  145  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Matt Waite"
+  146  cd memberships
+  147  cd mystery
+  148  cd memberships
+  149  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Matt Waite"
+  150  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Joe Germuska"
+  151  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  152  cat library.txt | grep "Jeremy Bowers"
+  153  cat library.txt | grep "Matt Waite"
+  154  cat library.txt
+  155  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  156  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Matt Waite"
+  157  cd ..
+  158  ls
+  159  cd ..
+  160  ls
+  161  cat hint8
+  162  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Matt Waite" | wc -l
+  163  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers" | wc -l
+  164  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"
+  165  cd mystery
+  166  ls
+  167  cd memberships
+  168  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers" | wc -l
+  169  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Matt Waite" | wc -l
+  170  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"
+  171  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Matt Waite"
+  172  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  173  cd ..
+  174  cat cheatsheet.md
+  175  cd mystery 
+  176  ls
+  177  cd meberships
+  178  cd memberships
+  179  cat library.txt grep "Waite"
+  180  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
+  181  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Matt Waite"
+  182  history
+  183  cd ..
+  184  ls
+  185  touch.txt
+  186  touch solution.txt
+  187  ls
+  188  subl solution.txt
+
+  NAME OF KILLER: Jeremy Bowers
