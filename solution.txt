@@ -1,0 +1,361 @@
+ 114  cat instructions
+  115  cd mystery
+  116  ls
+  117  cat crimescene
+  118  ls
+  119  cat crimescene | grep CLUE
+  120  cd ..
+  121  ls
+  122  cd crimescene
+  123  ls
+  124  pwd
+  125  ls
+  126  cd instructions
+  127  ls
+  128  cd hint1
+  129  ls
+  130  ls -a
+  131  cd crimescene
+  132  ls
+  133  cd hint1
+  134  ls
+  135  cd mystery
+  136  ls
+  137  cd crimescene
+  138  cd interviews
+  139  ls
+  140  cd ..
+  141  s
+  142  ls
+  143  cd memberships
+  144  ls
+  145  cd Delta_SkyMiles
+  146  ls
+  147  ls -a
+  148  cd ..
+  149  ls
+  150  cd streets
+  151  ls
+  152  cd ..
+  153  ls 
+  154  cat crimescene | grep CLUE
+  155  cat interviews | grep CLUE
+  156  cat people | grep CLUE
+  157  ls
+  158  cat crimescene | grep CLUE
+  159  open cheatsheet.md
+  160  cat people
+  161  clear
+  162  cat instructions
+  163  ls
+  164  cd ..
+  165  cat instructions
+  166  cd mystery
+  167  ls
+  168  cat crimescene | grep CLUE
+  169  cat hint1
+  170  cd ..
+  171  cat hint1
+  172  cd people
+  173  cd mystery
+  174  cd people
+  175  ls
+  176  cd memberships
+  177  cat memberships | grep AAA
+  178  ls
+  179  cd ..
+  180  cd people
+  181  cd memberships
+  182  cd people
+  183  cd streets
+  184  cd ..
+  185  cd streets
+  186  ls
+  187  cd ..
+  188  cd people
+  189  cd ..
+  190  cd mystery
+  191  ls
+  192  cd vehicles
+  193  cd crimescene
+  194  cat interviews
+  195  cat people
+  196  cat people | grep M
+  197  cd ..
+  198  cd mystery
+  199  ls
+  200  cat crimescene | grep CLUE
+  201  cat vehicles
+  202  cat hin1
+  203  cat hint1
+  204  cd ..
+  205  cat hint1
+  206  cat hint2
+  207  cat hint3
+  208  cd mystery
+  209  ls
+  210  cat vehicles
+  211  head -n newzealand
+  212  head -n
+  213  cd ..
+  214  ls
+  215  cd mystery
+  216  cd hint1
+  217  cd ..
+  218  cd hint1
+  219  cat hint1
+  220  cat hint2
+  221  cat hint3
+  222  cat hint4
+  223  cd mystery
+  224  cat people | grep Annabel
+  225  cd ..
+  226  cat hint4
+  227  cat hint5
+  228  cat hint6
+  229  cat hint7
+  230  cat hint8
+  231  cat instructions
+  232  cat solution
+  233  cd ..
+  234  cd command-line-murder-mystery
+  235  ls
+  236  cat mystery
+  237  ls
+  238  cat license
+  239  ls
+  240  cat license.txt
+  241  ls
+  242  cat cheatsheet.pdf
+  243  ls
+  244  cat mystery
+  245  cd mystery
+  246  ls
+  247  clear
+  248  pwd
+  249  cd https://github.com/EricV04/command-line-murder-mystery.git
+  250  https://github.com/EricV04/command-line-murder-mystery.git
+  251  cd command-line-murder-mystery
+  252  pwd
+  253  cd code
+  254  ls
+  255  cd unit_1
+  256  ls
+  257  cd command-line-murder-mystery
+  258  cd ..
+  259  cd command-line-murder-mystery
+  260  ls
+  261  cat hint1
+  262  cd mystery
+  263  cd ..
+  264  ls
+  265  cd mystery
+  266  cd ..
+  267  cat instructions
+  268  cd mystery
+  269  cat crimescene | grep CLUE
+  270  ls
+  271  cat people | grep Annabel
+  272  cd .. 
+  273  cd streets
+  274  cd crimescene
+  275  cd ..
+  276  cd command-line-murder-mystery
+  277  ls
+  278  cd mystery
+  279  ls
+  280  cd membershis
+  281  cd memberships
+  282  ls 
+  283  cat Delta_SkyMiles
+  284  cat Delta_SkyMiles | grep Annabel
+  285  clear
+  286  cd ..
+  287  ls
+  288  cat people | grep Annabel
+  289  cd ..
+  290  ls
+  291  cat hint1
+  292* pwd
+  293  /Users/ericvaniman/code/unit_1/command-line-murder-mystery
+  294  cat instructions
+  295  ls
+  296  cd mystery
+  297  ls
+  298  cd memberships
+  299  ls
+  300  ls ./streets
+  301  cd ..
+  302  ls ./streets
+  303  ls
+  304  cat crimescene | grep CLUES
+  305  cat crimescene | grep CLUE
+  306  cat crimescene | grep new zealand
+  307  cat crimescene | grep "New Zealand"
+  308  cat crimescene | grep Fuglsang
+  309  cd ..
+  310  cd interviews
+  311  ls
+  312  cd mystery
+  313  cd interviews
+  314  ls
+  315  cd ..
+  316  ls
+  317  cd ..
+  318  cat hint3
+  319  ls
+  320  cd mystery
+  321  ls
+  322  cd interviews
+  323  cd ..
+  324  cat hint1
+  325  cd ..
+  326  ls
+  327  cat hint1
+  328  cd mystery
+  329  grep -r 'Annabel' interviews
+  330  ls
+  331  grep CLUE crimescene
+  332  cat people
+  333* cd ..
+  334* cd command-line-murder-mystery
+  335* grep -r 'coffee' interviews
+  336  cd ..
+  337  ls
+  338  cat hint1
+  339  head -n 20 people
+  340  cd mystery
+  341  head -n 20 people
+  342  cat hint3
+  343  cd ..
+  344  ls
+  345  grep ananabel people
+  346  grep annabel people
+  347  ls
+  348  cd mystery
+  349  ls
+  350  cd streets
+  351  cat streets
+  352  cat
+  353* ls
+  354* cd mystery
+  355* ls
+  356* cd streets
+  357* ls streets
+  358* cd ..
+  359* ls streets
+  360* cat streets/Hart_Place | grep 'SEE INTERVIEW'
+  361* ls
+  362* cd interviews
+  363* ls
+  364* cat interview-47246024
+  365* cd ..
+  366* ls
+  367* cd interviews 
+  368* ls
+  369* cd ..
+  370* ls
+  371* cat crimescene | grep CLUE
+  372* grep CLUE crimescene
+  373* grep people Annabel
+  374* grep Annabel people
+  375* ls
+  376* cd streets
+  377* ls
+  378* cat Buckingham_Place
+  379* cd ..
+  380* grep "SEE INTERVIEW" ./streets/Buckingham_Palace
+  381* SEE INTERVIEW #699607cd ..
+  382* ls
+  383* cd interviews
+  384* cat
+  385* cat 699607
+  386* cat interview-699607
+  387* cd ..
+  388* grep honda vehicles
+  389* grep Honda vehicles
+  390* grep Honda n-20 vehicles 
+  391* cat vehicles
+  392* grep -B 1 -A 4 Honda vehicles
+  393* grep -B 1 -A 4 Honda\l337
+  394* ls
+  395* cd ..
+  396* cd crimescene
+  397* ls
+  398* cd mystery
+  399* grep -r Bostock 
+  400* grep -r Germuska interviews
+  401* ls
+  402* cd streets
+  403* ls
+  404* cd ..
+  405* ls
+  406* can people
+  407* cat people
+  408* grep Germuska 
+  409* grep Germuska people
+  410* ls
+  411* cd interviews
+  412* grep Plainfield Street interviews
+  413* cd ..
+  414* cd streets
+  415* grep Plainfield Street 
+  416* grep "SEE INTERVIEW"
+  417* grep "SEE INTERVIEW" streets
+  418* grep "SEE INTERVIEW" Plainfield_Street
+  419* cd ..
+  420* ls
+  421* cd interviews
+  422* grep -r 29741223
+  423* grep -r interview-29741223
+  424* cd ..
+  425* ls
+  426* cd interviews
+  427* cat interview-29741223
+  428* cd ..
+  429* ls
+  430* cat crimescene | grep CLUES
+  431* cat crimescene | grep CLUE
+  432* cat peoplee | grep Annabel
+  433* cat people | grep Annabel
+  434* cd interviews
+  435* head -n 40 streets/Hart_Place | tail -n 1
+  436* cd ..
+  437* cd streets
+  438* head -n 40 streets/Hart_Place | tail -n 1
+  439* head -n 40 Hart_Place | tail -n 1
+  440* cd ..
+  441* ls
+  442* cd interviews
+  443* cat interview-47246024
+  444* cd ..
+  445* cd streets
+  446* head -n 179 Buckingham_Palace | tail -n 1
+  447* head -n 179 Buckingham_Place | tail -n 1
+  448* cd ..
+  449* cd interviews
+  450* cat interview-699607
+  451* cd ..
+  452* ls
+  453* cat vehicles grep Honda
+  454* cat vehicles | grep Honda
+  455* ls
+  456* cd vehicles
+  457* cat vehicles
+  458* cat vehicles | grep -A 5 "L337" mystery/vehicles
+  459* cd vehicles
+  460* grep -A 5 "L337" mystery/vehicles
+  461* grep -A 5 "L337" vehicles
+  462* ls
+  463* cd memberships
+  464* cat Delta_SkyMiles AAA library.txt | grep "Joe Germuska"
+  465* cat Delta_SkyMiles AAA library.txt | grep "Jeremy Bowers"
+  466  clear
+  467  cd ..
+  468  touch solution.txt
+  469  ls
+  470  atom solution
+  471  subl
+  472  subl solution
+  473  subl solution.txt
+  474  open solution.txt
