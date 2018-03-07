@@ -29,7 +29,7 @@ There's been a murder in Terminal City, and TCPD needs your help.
 
 To figure out whodunit, you need access to a command line.
 
-##Getting Started
+## Getting Started
 
 * Fork and clone this repo.
 * Once the repo has been cloned...
@@ -46,7 +46,7 @@ cat instructions
   * Again, you can use the `cat` command to do this
 * Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
 
-##Deliverables
+## Deliverables
 
 * Create a file called `solution.txt` in this repo
 * Copy/paste the following:
