@@ -1,0 +1,13 @@
+grep "CLUE" crimescene
+
+grep Annabel people
+
+head -179 Buckingham_Place
+
+cat interview-699607
+
+grep -A 5 "L337" mystery/vehicles
+
+cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy""
+
+Killer is Jeremy Bowers
