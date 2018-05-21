@@ -1,0 +1,39 @@
+My solution to the Murdery Mystery:
+
+JEREMY BOWERS IS THE KILLER!
+
+Command line history of game:
+
+257  cd command-line-murder-mystery
+258  ls
+259  touch solution.txt
+260  cd mystery
+261  ls
+262  cat crimescene | grep -n 'CLUE'
+263  head -n 20 people
+264  grep "Annabel" people
+265  head -n 40 streets/Hart_Place | tail -n 1
+266  ls
+267  cd interviews
+268  cat interview-47246024
+269  cd ..
+270  ls
+271  head -n 179 streets/Buckingham_Place | tail -n 1
+272  cd interviews
+273  cat interview-699607
+274  grep "Honda"
+275  grep "Honda" vehicles
+276  ls
+277  cd ..
+278  ls
+279  grep "Honda" vehicles
+280  grep -A 5 "L337"
+281  grep -A 5 "L337" vehicles
+282  cat AAA Delta_SkyMiles Museum_of_Bash_History | gre"Joe Germuska"
+283  cat AAA Delta_SkyMiles Museum_of_Bash_History | gre"Jeremy Bowers"
+284  ls
+285  cd memberships
+286  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+287  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+288  cat AAA Delta_SkyMiles Museum_of_Bash_History library | grep "Jeremy Bowers"
+289  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
