@@ -1,0 +1,45 @@
+1. commands  
+  313  cd code/unit1/command-line-murder-mystery/mystery
+  314  cd ..
+  315  grep -r "CLUE" *
+  316  cd interviews
+  317  ls
+  318  cd mystery
+  319  grep -r "CLUE" *
+  320  cd ..
+  321  cd mystery/interviews
+  322  grep -r "CLUE" *
+  323  cd ./memberships
+  324  cd .memberships
+  325  cd ..
+  326  cd memberships
+  327  grep -r "CLUE" *
+  328  cd ..
+  329  head -n 20 people
+  330  head -n 100\n
+  331  cd code/unit1/command-line-murder-mystery/mystery
+  332  grep "CLUE" crimescene
+  333  grep "Annabel" people
+  334  grep "zealand" people
+  335  grep "NZ" people
+  336  head -n 20 vehicle
+  337  head -n 20 vehicles
+  338  grep "NZ" vehicles
+  339  grep "Zealand" vehicles
+  340  cd interviews
+  341  head -n 173 streets/Mattapan_Street | tail -n 1
+  342  cd ..
+  343  grep "Annabel" vehicles
+  344  grep -A 5 "Sun" mystery/vehicles
+  345  grep -A 5 "L337" mystery/vehicles
+  346  grep -A 5 "L337" vehiclew
+  347  grep -A 5 "L337" vehicles
+  348  cd memberships
+  349  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  350  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  351  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  352  cat Fitness_Galaxy AAA United_MileagePlus library.txt | grep "Jeremy Bowers"
+  353  cat Delta_SkyMiles library.txt AAA Museum_of_Bash_History | grep -c "Joe Germuska"
+  354  cat Delta_SkyMiles library.txt AAA Museum_of_Bash_History | grep -c "Jeremy Bowers"
+
+2. Jeremy Bowers
