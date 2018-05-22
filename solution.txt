@@ -1,0 +1,172 @@
+274  cat instructions
+  275  cd mystery
+  276  ls
+  277  cat crimescene
+  278  cd ..
+  279  ls
+  280  cat instructions
+  281  cat crimescene | grep 'CLUE'
+  282  cat crimescene
+  283  cd mystery
+  284  cat crimescene | grep 'CLUE'
+  285  cat crimescene | 'male'
+  286  cat crimescene | grep 'male"\nq
+  287  cat crimescene | grep 'male'
+  288  cat crimescene | grep 'Annabel'
+  289  cd ..
+  290  cat hint1
+  291  cd mystery
+  292  ls
+  293  cat people | grep 'Annabel'
+  294  cd ..
+  295  head -n 20 people
+  296  cd mystery
+  297  head -n 20 people
+  298  cat hint2
+  299  cd ..
+  300  cat hint2
+  301  cat hint3
+  302  cat hint4
+  303  cd mystery
+  304  cat people | grep 'Annabel'
+  305  ls
+  306  cd streets
+  307  ls
+  308  cat Hart 
+  309  cat Hart Place | grep 'Annabel'
+  310  cat 'Hart Place
+  311  cat 'Hart Place'
+  312  cat Hart_Place | grep 'Annabel'
+  313  cat Hart_Place
+  314  cat SEE INTERVIEW #47246024
+  315  cd ..
+  316  ls
+  317  cd interviews
+  318  ls
+  319  cat interview-47246024
+  320  cd ..
+  321  cd streets
+  322  cat Mattapan_street
+  323  cd ..
+  324  cd interviews
+  325  ls
+  326  cat interview-9437737
+  327  cd ..
+  328  cd streets
+  329  cat Buckingham_palace
+  330  cat
+  331  ls
+  332  cat Buckingham_Palace
+  333  cat Buckingham_Place
+  334  cd ..
+  335  cd interviews
+  336  cat interview-699607
+  337  ls
+  338  cd code
+  339  ls
+  340  cd unit1
+  341  ls
+  342  cd command-line-murder-mystery
+  343  ls
+  344  cd mystery
+  345  ls
+  346  cat vehicles
+  347  cat vehicles | grep 'L337'
+  348  cat vehicles | grep 'L337' 'blue'
+  349  cat vehicles | grep 'L337' | grep 'blue'
+  350  cat vehicles | grep 'L337'
+  351  man grep
+  352  cat vehicles | grep 'blue'
+  353  cat vehicles | grep 'color:blue'
+  354  ls
+  355  cat vehicles | grep 'anna'
+  356  cat vehicles | grep 'L337'
+  357  cd ..
+  358  ls
+  359  cd mystery
+  360  ls
+  361  cd streets
+  362  cat Buckingham_Place
+  363  cat vehicles | grep 'L337'
+  364  cd ..
+  365  cat vehicles | grep 'L337'
+  366  cat vehicles | grep 'Honda'
+  367  cat vehicles | grep 'L337'
+  368  cat vehicles | grep 'L337 | grep 'Honda'
+  369  cat vehicles | grep 'L337' | grep 'Honda'
+  370  cat vehicles | grep 'L337'
+  371  cat License Plate L337ZR9
+  372  ls
+  373  cd ..
+  374  cat hint5
+  375  cat hint6
+  376  ls
+  377  cd mystery
+  378  ls
+  379  cat vehicles | grep 'L337'
+  380  cat vehicles | grep 'Blue'
+  381  cat vehicles | grep 'L337'
+  382  cat vehicles
+  383  cat vehicles | grep 'L337'
+  384  cat [Licence Plate L337ZR9]
+  385  cat [License Plate L337ZR9]
+  386  cat ['License Plate L337ZR9']
+  387  cat vehicles | grep -A [5] 'L337'
+  388  man grep
+  389  cat vehicles | grep 'L337' -A [5]
+  390  cat vehicles | grep 'L337' -A[5]
+  391  cat vehicles | grep 'L337 -A[5]
+  392  head man
+  393  man head
+  394  grep -A 5 'L337' vehicles
+  395  ls
+  396  grep -A 5 'Jeremy' people
+  397  grep -A 5 'joe' people
+  398  grep -A 5 'Joe' people
+  399  grep -A 5 'Joe Germuska' people
+  400  grep -A 5 'Mike Bostock' people
+  401  ls
+  402  cd streets
+  403  cat Dunstable_Road
+  404  cat Plainfield_Street
+  405  cd
+  406  ls
+  407  cd code
+  408  ls
+  409  cd unit1
+  410  cd
+  411  cd code/unit1
+  412  ls
+  413  cd command-line-murder-mystery
+  414  ls
+  415  cd mystery
+  416  ls
+  417  cd interviews
+  418  cat interview-9620713
+  419  cat interview-29741223
+  420  ls
+  421  cd ..
+  422  ls
+  423  cd streets
+  424  ls
+  425  cat Senders_Court
+  426  ls
+  427  cd ..
+  428  ls
+  429  cd interviews
+  430  cat interview-290346
+  431  cd memberships
+  432  cd ..
+  433  cd memberships
+  434  ls
+  435  grep -A 5 Delta_SkyMiles 'Jeremy Bowers'
+  436  cat Delta_SkyMiles | grep 'Jeremy Bowers'
+  437  cd ..
+  438  ls
+  439  touch solution.txt
+  440  ls
+  441  open solution.txt
+➜  command-line-murder-mystery git:(master) ✗ 
+➜  command-line-murder-mystery git:(master) ✗        
+
+Jeremy Bowers is the killer!  We found that the memberships matched what Jeremy Bowers had in our group and matched them with the interview information.
