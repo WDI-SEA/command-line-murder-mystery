@@ -1,0 +1,40 @@
+ 259  cat instructions
+  260  ls
+  261  cat mystery/crimescene
+  262  grep "CLUE" mystery/crimescene
+  263  history
+  264  cat instructions
+  265  grep "CLUE" mystery/crimescene
+  266  grep "Annabel" mystery/people
+  267  cat mystery/streets/Hart_Place
+  268  head -n 40 mystery/streets/Hart_Place
+  269  head -n 40 mystery/streets/Hart_Place | tail -n 1
+  270  cat mystery/interviews/interview-47246024
+  271  history
+  272  cat mystery/streets/Buckingham_Place
+  273  history
+  274  head -n 179 mystery/streets/Buckingham_Place
+  275  history
+  276  head -n 179 mystery/streets/Buckingham_Place | tail -n 1
+  277  cat mystery/interviews/interview-699607
+  278  cat mystery/vehicles
+  279  grep "1337" mystery/vehicles
+  280  grep "L337" mystery/vehicles
+  281  grep "Color: Blue" mystery/vehicles
+  282  grep "Color: Blue" "Make: Honda" mystery/vehicles
+  283  cat cheatsheet.md
+  284  grep -A 5 "L337" mystery/vehicles
+  285  grep -A 5 "L337" mystery/vehicles | grep "Make: Honda"
+  286  grep -A 5 "L337" mystery/vehicles | grep -A 5 "Make: Honda"
+  287  grep -A 5 "L337" mystery/vehicles | grep -A 5 -B 1 "Make: Honda"
+  288  grep -A 5 "L337" mystery/vehicles | grep -A 5 -B 1 "Make: Honda" | grep -A 3 -B 2 "Color: Blue"
+  289  grep -A 5 "L337" mystery/vehicles | grep -A 5 -B 1 "Make: Honda" | grep -A 3 -B 2 "Color: Blue" | grep -A 1 -B 4 "Height: 6"
+  290  cat mystery/memberships
+  291  head  mystery/memberships/Delta_SkyMiles
+  292  head  mystery/memberships/AAA
+  293  grep "Joe Germuska"
+  294  grep "Joe Germuska" mystery/memberships/
+  295  grep "Joe Germuska" mystery/memberships/*
+  296  grep "Jeremy Bowers" mystery/memberships/*
+
+The killer is Jeremy Bowers
