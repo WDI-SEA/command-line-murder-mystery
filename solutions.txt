@@ -1,0 +1,289 @@
+Name of killer: Jeremy Bowers with the candle stick in the library.
+
+710  git clone git@github.com:WDI-SEA/command-line-murder-mystery.git
+  711  ls
+  712  git clone git@github.com:WDI-SEA/command-line-murder-mystery.git
+  713  ls
+  714  cd command-line-murder-mystery
+  715  ls
+  716  atom.
+  717  atom .
+  718  cat instructions
+  719  run history
+  720  grep i '.e\n'
+  721  grep i 'mystery'
+  722  ls
+  723  grep i 'subdirectory'
+  724  grep i 'crime'
+  725  head [file]
+  726  grep -i 'crime'
+  727  grep i 'mystery'
+  728  grep -i 'mystery'
+  729  ls
+  730  cd mystery
+  731  ls
+  732  grep -i 'clues'
+  733  cat crimescene | grep 'CLUE'
+  734  cat people | grep 'Delta'
+  735  ls
+  736  cd vehicles
+  737  ls
+  738  cat vehicles | grep 'CLUE'
+  739  cat hint1
+  740  ls
+  741  .
+  742  cat people | grep 'CLUE'
+  743  cat people | grep 'male'
+  744  cat people | grep 'Annabel'
+  745  cat vehicles | grep 'CLUE'
+  746  ls
+  747  cat vehicles
+  748  grep 'AAA'
+  749  cat people
+  750  rep 'GENDER'
+  751  rep -i 'M'
+  752  cat interviews
+  753  cd interviews
+  754  cat interviews
+  755  cat people grep 'Annabel'
+  756  ls
+  757  cd .
+  758  cd people
+  759  ls
+  760  ~
+  761  ls
+  762  .
+  763  ..
+  764  interviews
+  765  cd interviews
+  766  ls
+  767  ~
+  768  ls
+  769  coding
+  770  ls
+  771  cd Unit1
+  772  ls
+  773  pwd
+  774  cd ..
+  775  pwd
+  776  l
+  777  cd Unit1
+  778  l
+  779  cd command-line-murder-mystery
+  780  cat crimescene | grep 'CLUE'
+  781  ls
+  782  cat crimescene | grep 'CLUE'
+  783  ls
+  784  cat hint1
+  785  head -n 20 people
+  786  ls
+  787  head -n 20 people
+  788  head -n 20 LICENSE
+  789  ls
+  790  cd cheatsheet.pdf
+  791  ls
+  792  grep 'CLUE'
+  793  cd hint1
+  794  cd mystery
+  795  ls
+  796  cd memberships
+  797  ls
+  798  cd AAA
+  799  cat AAA
+  800  -n 15 names.txt
+  801  ls
+  802  cd mystery
+  803  ~
+  804  ls
+  805  cd coding
+  806  ls
+  807  cd wdi-fundamentals-memorygame
+  808  ls
+  809  ..
+  810  ls
+  811  Unit1
+  812  ls
+  813  cd command-line-murder-mystery
+  814  ls
+  815  cd hint4
+  816  cat hint4
+  817  cat hint5
+  818  grep 'Annabel' people
+  819  .
+  820  ..
+  821  ls
+  822  cd command-line-murder-mystery
+  823  ls
+  824  cd mystery
+  825  ls
+  826  cd vehicles
+  827  cat vehicles
+  828  cd ~
+  829  ls
+  830  cd coding
+  831  ls
+  832  cd Unit1
+  833  ls
+  834  cd command-line-murder-mystery
+  835  ls
+  836  hint4
+  837  cat hint4
+  838  cat hint5
+  839  cat hint6
+  840  ls
+  841  cat LICENSE.txt
+  842  cat LICENSE
+  843  cat hint6
+  844  ls
+  845  cd hint7
+  846  .
+  847  ls
+  848  cd mystery
+  849  ls
+  850  cat vehicles
+  851  cat vehicles | grep 'L337'
+  852  cat vehicle
+  853  cat vehicles
+  854  grep -a 5
+  855  grep -A 5 'L337'
+  856  ls
+  857  cd vehicles
+  858  cat vehicles
+  859  ls
+  860  cat vehicles | grep -A 5 'L337'
+  861  cd memberships
+  862  ls
+  863  cat people | grep 'AAA'
+  864  cat AAA
+  865  ls
+  866  cd..
+  867  cd ..
+  868  cat people | grep 'Joe'
+  869  cat people | grep 'Joe Germuska'
+  870  cd streets
+  871  ls
+  872  cat -n Plainfild_Street
+  873  history
+  874  ls
+  875  cd coding
+  876  ls
+  877  cd Unit1
+  878  ls
+  879  cd command-line-murder-mystery
+  880  ls
+  881  cat hint1
+  882  cd mystery
+  883  ls
+  884  cd memberships
+  885  cat people
+  886  cd ..
+  887  ls
+  888  cd memberships
+  889  cat membership
+  890  cd .
+  891  cat people
+  892  cd people
+  893  cat crimescene
+  894  cd .
+  895  cd ..
+  896  ls
+  897  cd ..
+  898  ls
+  899  cat cheatsheat
+  900  ls
+  901  hint1
+  902  cat hint1
+  903  cat hint2
+  904  cat hint3
+  905  cat hint4
+  906  cat hint5
+  907  cd mystery
+  908  ls
+  909  pwd
+  910  ls
+  911  head -n 20 people
+  912  grep 'CLUE' crimescene
+  913  grep 'Annabel' people
+  914  ls
+  915  cd interviews
+  916  ls
+  917  cd ..
+  918  ls
+  919  cd streets
+  920  ls
+  921  cat Buckingham_Place
+  922  head -n 179 Buckingham_Place
+  923  head -n 40 Hart_Place
+  924  cd ..
+  925  ls
+  926  cat hint4
+  927  ls
+  928  cd ..
+  929  ls
+  930  cat hint4
+  931  cat hint5
+  932  cat hint6
+  933  cd ..
+  934  ls
+  935  cd command-line-murder-mystery
+  936  ls
+  937  cd mystery
+  938  ls
+  939  pwd
+  940  cd interviews
+  941  ls
+  942  cat interview
+  943  cat interview-47246024
+  944  cat interview-699607
+  945  cd ..
+  946  ls
+  947  grep 'blue'
+  948  cat vehicles
+  949  grep 'Honda' vehicles
+  950  ls
+  951  grep -n 6 'Honda'
+  952  grep -n 6 'Honda' vehicles
+  953  grep -n6 'Honda' vehicles
+  954  head -n6 '
+  955  head -n6 'Honda' vehicles
+  956  head -n6 'Honda'
+  957  grep -n6 'Honda' 'Blue'  vehicles
+  958  grep 'Honda' vehicles | grep 'Blue'
+  959  grep 'Honda' vehicles | grep 'Blue' vehicles
+  960  grep -A 6 "Honda|Blue" vehicles
+  961  ls
+  962  grep -A 6 'Honda' vehicles
+  963  history
+  964  grep -A 6 'Honda' vehicles
+  965  grep -A 6 'Honda'| 'Blue' vehicles
+  966  grep -A 6 'Honda' | 'Blue' vehicles
+  967  grep -A 6 'Honda|Blue' vehicles
+  968  grep -A 6 'Honda' vehicles | grep 'Blue' vehicles
+  969  egrep -A 6 'Honda|Blue' vehicles
+  970  cd ..
+  971  ls
+  972  cat hint 6
+  973  cant hint6
+  974  cat hint6
+  975  cat hint7
+  976  cd mystery
+  977  grep -A 5 'L337' vehicles
+  978  cd ..
+  979  cat hint8
+  980  cat AAA | grep 'Bowers'
+  981  cd mystery
+  982  cat AAA | grep 'Bowers'
+  983  ls
+  984  cd memberships
+  985  cat AAA | grep 'Bowers'
+  986  cat AAA | grep 'Germuska'
+  987  cd ..
+  988  ls
+  989  cat crimescene
+  990  grep 'CLUE' crimescene
+  991  pwd
+  992  ls
+  993  cd memberships
+  994  ls
+  995  cat AAA Delta_SkyMiles library.txt| grep 'Bowers'
+  996  cat AAA Delta_SkyMiles library.txt| grep 'Germuska'
