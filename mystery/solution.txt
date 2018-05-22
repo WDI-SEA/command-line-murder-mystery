@@ -1,0 +1,445 @@
+The murderer is Jeremy Bowers
+
+1  pwd
+    2  ssh-keygen -t rsa -b 4096 -C "elijahbruce907@gmail.com"
+    3  eval "$(ssh-agent -s)"
+    4  cd ~
+    5  pwd
+    6  l
+    7  ls
+    8  cd .ssh
+    9  pwd
+   10  ls
+   11  l
+   12  touch config
+   13  l
+   14  subl
+   15  subl config
+   16  config
+   17  ls
+   18  subl config
+   19  atom config
+   20  cd ~
+   21  pwd
+   22  l
+   23  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl\n
+   24  pwd
+   25  l
+   26  cd/user/local/bin
+   27  cd ~
+   28  pwd
+   29  cd cd .ssh
+   30  cd .ssh
+   31  l
+   32  subl config
+   33  ssh-add -K ~/.ssh/id_rsa
+   34  pbcopy < ~/.ssh/id_rsa.pub
+   35  pwd
+   36  cd ~
+   37  pwd
+   38  cd .ssh
+   39  cd ~
+   40  .ssh
+   41  subl
+   42  cd ~
+   43  pwd
+   44  subl
+   45  cd fundamentals
+   46  pwd
+   47  cd ~
+   48  subl
+   49  cd ~
+   50  l
+   51  ls
+   52  cd ~
+   53  pwd
+   54  cd desktop
+   55  cd ~
+   56  cd ..
+   57  pwd
+   58  cd ~
+   59  ls
+   60  pwd
+   61  cd fundamentals
+   62  cd ~
+   63  cd home
+   64  cd elijahbruce
+   65  ls
+   66  cd mkdir
+   67  mkdir
+   68  cd ~
+   69  cd desktop
+   70  l
+   71  ls
+   72  cd ~
+   73  pwd
+   74  mkdir code
+   75  cd code
+   76  mkdir Unit 1
+   77  cd Unit 1
+   78  rm -rf Unit 1
+   79  mkdir unit1
+   80  cd unit1
+   81  mkdir command-git-instructions
+   82  cd command-git-instructions
+   83  cd ..
+   84  open command-git-instructions
+   85  touch README.txt
+   86  ls
+   87  pwd
+   88  cd command-git-instructions
+   89  echo 'hello'
+   90  cd ..
+   91  touch test.txt
+   92  cd command-git-instructions
+   93  echo 'hello' > test.txt
+   94  cat test.txt
+   95  echo 'goodbye' > test.txt 
+   96  cat test.txt
+   97  ehco 'hello' >> test.txt
+   98  cat test.txt
+   99  ls
+  100  mkdir README.md
+  101  ls
+  102  echo '#Navigation Terminal quote> \n**cd** _> Change directory\n**ls** _> display what is in current directory with short list\n**l** _> display complete file information in the directory\n**pwd** _> print wording directory, the where the hell am I command.\n**open** _> command will open a file in default program or directory in finder \n' >> README.md
+  103  subl README.md
+  104  ls
+  105  cd ~
+  106  ls
+  107  cd code/unit1
+  108  cd .. 
+  109  cd code/unit1
+  110  cd ..
+  111  cd command-git-instructions
+  112  cd code
+  113  cd command-git-instructions
+  114  cd unit1
+  115  cd command-git-instructions
+  116  rm -rf README.md
+  117  rm -rf test.txt
+  118  cd code/unit1
+  119  cd ..
+  120  ls
+  121  cd unit1
+  122  cd command-git-instructions
+  123  mkdir README.md
+  124  ls
+  125  rm -rf README.md
+  126  touch README.md
+  127  ls
+  128  touch test.txt
+  129  ls
+  130  echo '#Navigation Terminal quote>\n**cd** _> Change directory\n' >> README.md
+  131  subl README.md
+  132  ls
+  133  mkdir testdir
+  134  ls
+  135  cat test.txt
+  136  mv test.txt newfile.txt
+  137  ls
+  138  mv newfile.txt test.txt
+  139  ls
+  140  mv test.txt ./testdir/elijah.txt
+  141  ls
+  142  cd testdir
+  143  ls
+  144  cd .
+  145  cd ..
+  146  touch bob.txt
+  147  ls
+  148  mv bob.txt ./random/tim.txt
+  149  ls
+  150  rm -rf bob.txt
+  151  ls
+  152  rm -r testdir
+  153  ls
+  154  cd code
+  155  cd unit1
+  156  cd command-git-instructions
+  157  ls
+  158  touch file.txt
+  159  ls
+  160  echo 'this is a file\nfull of things \nand stuff\nmore lines\nmore lines\nthrow more dots\ncoding' > file.txt
+  161  cat file.txt
+  162  cat file.txt | grep 'and stuff' 
+  163  cat file.txt | grep 'm'
+  164  touch bob.txt | echo 'new stuff' > bob.txt
+  165  cat file.txt bob.txt
+  166  ls
+  167  cd ..
+  168  cd command-git-instructions
+  169  ccd ..
+  170  cd ..
+  171  rm -r test.txt
+  172  cd command-git-instructions
+  173  cat file.txt | grep 'm' -n
+  174  man grep
+  175  atom README.md
+  176  ls
+  177  man grep
+  178  rm -r bob.txt
+  179  ls
+  180  pwd
+  181  ls
+  182  git init
+  183  cd ..
+  184  cd command-git-instructions
+  185  git status
+  186  git add README.md
+  187  git status
+  188  git add -A
+  189  git status
+  190  git add .
+  191  git status
+  192  git commit
+  193  git commit -m 'created repo'
+  194  cd code
+  195  cd unit1
+  196  cd command-git-instructions
+  197  git commit -m 'created repo'
+  198  git status
+  199  git log
+  200  git status
+  201  git checkout -b elijahwork
+  202  git status
+  203  git add -A
+  204  pwd
+  205  git add -A
+  206  git commit -m 'elijah test'
+  207  git checkout master
+  208  git checkout elijahwork
+  209  git remote -v
+  210  git status
+  211  git add .
+  212  ls
+  213  git status
+  214  git log
+  215  git status
+  216  git commit -m 'created new elijahwork'
+  217  git add
+  218  git add .
+  219  git status
+  220  git commit -m 'new elijahwork'
+  221  git log
+  222  git remote add origin https://github.com/elijah0ne/command-git-instructions.git\ngit push -u origin master
+  223  git add .
+  224  git status
+  225  git commit -m 'fixed markdown formating for headers'
+  226  git push origin master
+  227  git push origin elijahwork
+  228  git status
+  229  git checkout master
+  230  git pull origin master
+  231  git status
+  232  git log
+  233  git status
+  234  cd ~
+  235  pwd
+  236  cd code
+  237  ls
+  238  cd unit1
+  239  cd ..
+  240  cd unit1
+  241  pwd
+  242  git clone git@github.com:elijah0ne/command-line-murder-mystery.git
+  243  cd command-line-murder-mystery
+  244  subl .
+  245  cat instructions
+  246  history
+  247  subl .
+  248  touch solution.txt
+  249  git status
+  250  git add -A
+  251  git status
+  252  cd ~
+  253  cd code
+  254  ls
+  255  cd unit1
+  256  ls
+  257  cd command-line-murder-mystery
+  258  ls
+  259  cd ~
+  260  cd code
+  261  cd unit1
+  262  ls
+  263  cd command-git-instructions
+  264  ls
+  265  subl README.md
+  266  cat mystery | grep 'clue'
+  267  cd ~
+  268  cd code
+  269  cd unit1
+  270  ls
+  271  cd command-line-murder-mystery
+  272  cd mystery
+  273  cat crimescene.txt | grep 'clues'
+  274  cd crimescene.txt
+  275  cat crimescene.txt | grep 'CLUES'
+  276  ls
+  277  cd crimescene
+  278  /files$ grep -i "CLUES" crimescene.txt
+  279  cd code
+  280  ls
+  281  cd unit1
+  282  ls
+  283  cd command-line-murder-mystery
+  284  grep 'CLUE'
+  285  cd code
+  286  cd unit1
+  287  cd command-list
+  288  ls
+  289  command-line
+  290  command-line-murder-mystery
+  291  cd mystery
+  292  ls
+  293  cat crimescene | grep 'CLUES'
+  294  cat crimescene
+  295  cat crimescene| grep 'CLUES'
+  296  cat crimescene| grep 'CLUE'
+  297  cat people| grep 'CLUES'
+  298  PWD
+  299  cd interviews
+  300  open 
+  301  open -e
+  302  pwd 
+  303  cd ..
+  304  open
+  305  open -e
+  306  cat hint1
+  307  cd ..
+  308  cat hint1
+  309  head -n 20 people
+  310  cd mystery
+  311  head -n 20 people
+  312  head -n 20 vehicles
+  313  cd ..
+  314  cat hint2
+  315  cat hint3
+  316  cd mystery
+  317  head -n interviews
+  318  cd ..
+  319  head -n 50 people
+  320  cd mystery
+  321  head -n 50 people
+  322  head -n 30 street
+  323  cd streets
+  324  head -n 40
+  325  cd code
+  326  cd unit1
+  327  cd command-line-murder-mystery
+  328  cat crimescene| grep 'CLUE'
+  329  cat crimescene| grep "CLUE"
+  330  cd mystery
+  331  cat crimescene| grep 'CLUE'
+  332  cat people| grep 'Annabel'
+  333  cat memberships| grep 'Annabel'
+  334  cat vehicles| grep 'Annabel'
+  335  cat interviews| grep 'Annabel'
+  336  cd memberships
+  337  open 1.txt
+  338  open 2.txt
+  339  cat AAA| grep 'Annabel'
+  340  cat AAdvantage| grep 'Annabel'
+  341  cat costco| 'Anabel'
+  342  cat costco| grep 'Anabel'
+  343  cat Delta_SkyMiles| grep 'Anabel'
+  344  cat Fitness_Galaxy| grep 'Annabel'
+  345  cat Delta_SkyMiles| grep 'Annabel'
+  346  cd ..
+  347  cat hint3
+  348  cd mystery
+  349  head -n 50 people
+  350  head -n 90 people
+  351  cd streets
+  352  cd ..
+  353  cat people| grep 'Annabel'
+  354  cd streets
+  355  cat streets| grep 'Hart Place'
+  356  pwd
+  357  grep 'Annabel'
+  358  cd code
+  359  cd unit1
+  360  ls
+  361  cd command-line-murder-mystery
+  362  cd mystery
+  363  cat crimescene| grep 'CLUE'
+  364  cat people| grep 'Annabel'
+  365  cat vehicles| grep 'Annabel'
+  366  ls
+  367  head vehicles
+  368  cat crimescene| grep 'CLUE'
+  369  cd ..
+  370  cat hint4
+  371  grep 'Annabel' people
+  372  cat people| grep 'Annabel'
+  373  cd mystery
+  374  cat people| grep 'Annabel'
+  375  cat streets| grep 'Buckingham Place'
+  376  cd streets
+  377  ls
+  378  grep Buckingham_Place
+  379  cat -n Buckingham_Place
+  380  cd ..
+  381  cd interviews
+  382  cat -n #699607
+  383  li
+  384  ls
+  385  cat -n interview_699607
+  386  cat interview-699607
+  387  cd ..
+  388  cd vehicles
+  389  cat vehicles | grep 'L337'
+  390  cat vehicles | grep 'blue honda'
+  391  cat vehicles | grep 'make'
+  392  cat vehicle
+  393  grep -a 5
+  394  cat vehicle| grep -a 'L337'
+  395  cat vehicle| grep -a 5 'L337'
+  396  ls
+  397  cat vehicles | grep -A 5 'L337'
+  398  ls
+  399  cat people | grep 'Jacqui Maher'
+  400  cd memberships
+  401  cd ..
+  402  cat people | grep 'Jeremy Bowers'
+  403  cat people | grep 'Joe Germuska'
+  404  cd ..
+  405  cd interviews
+  406  ls
+  407  cd ..
+  408  cd command-line-murder-mystery
+  409  cd  address
+  410  cd mystery
+  411  cd streets
+  412  cat -n PlainFeild_Street
+  413  cat Plainfield_Street
+  414  ls
+  415  cat Plainfield_Street -n  224
+  416  cat -n
+  417  cat -n Plainfield_street
+  418  cd ..
+  419  cd interviews
+  420  cat interview 29741223
+  421  cat interiews 29741223
+  422  cat interview-29741223
+  423  .. streets
+  424  cd ..
+  425  cd streets
+  426  ..
+  427  cd interviews
+  428  cat interview-9620713
+  429  ..
+  430  cd streets
+  431  cat -n Andover_Road
+  432  cd interviews
+  433  cat interview-904020
+  434  cd ..
+  435  cat people | grep 'Erika Owens'
+  436  ..
+  437  cd mystery
+  438  touch solution.txt
+  439  echo 'The murderer is Jeremy Bowers' > solution.txt
+  440  cat solution.txt
+  441  echo history
+  442  echo history >> solution.txt 
+  443  cat solution.txt
