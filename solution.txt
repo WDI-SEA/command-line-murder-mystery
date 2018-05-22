@@ -1,0 +1,42 @@
+#The Killer Is ...
+
+Jeremy Bowers
+
+
+#Commands Used
+
+311  grep "Annabel" people
+312  ls
+313  cd interviews
+314  ls
+315  cd ..
+316  cd streets
+317  ls
+318  cat Mattapan_Street
+319  cd interviews
+320  cd ..
+321  cd interviews
+322  ls
+323  cat interview-9437737
+324  cd ..
+325  cd streets
+326  ls
+327  cat Hart_Place
+328  cat Hart_Place | grep 'interview'
+329  cat Hart_Place | grep 'SEE'
+330  cat ../interviews/interview_47246024
+331  cat ../interviews/interview-47246024
+332  cat Buckingham_Place | grep 'SEE'
+333  cat ../interviews/interview-699607
+334  cd ..
+335  cd vehicles
+336  cat vehicles | grep 'L337'
+337  grep -A 5 "L337" mystery/vehicles
+338  ls
+339  cd ..
+340  grep -A 5 "L337" mystery/vehicles
+341  ls
+342  cd mystery
+343  ls
+344  cd memberships
+345  grep 'Jeremy Bowers' *
