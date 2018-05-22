@@ -1,1 +1,167 @@
 The murderer is Jeremy Bowers!!
+  247  cd wdi/Unit1
+  248  cd command-line-murder-mystery
+  249  cd mystery
+  250  ls
+  251  l
+  252  ls
+  253  cat crimescene | grep CLUE -n
+  254  ls
+  255  cd interviews
+  256  ls
+  257  cd ../memberships
+  258  ls
+  259  cat AAA
+  260  ls
+  261  cat Museum_of_Bash_History
+  262  cat Delta_SkyMiles
+  263  cd ..
+  264  ls
+  265  cd people
+  266  cd interviews
+  267  ls
+  268  cat interview-000296
+  269  cd ..
+  270  ls
+  271  cd ..
+  272  cat hint1
+  273  head -n 20 people
+  274  cd mystery
+  275  head -n 20 people
+  276  cd streets
+  277  hcd ..
+  278  cd ..
+  279  head -n 20 streets
+  280  cd streets
+  281  ls
+  282  cd ..
+  283  head -n 40 people
+  284  cat people | grep Annabel
+  285  cd ..
+  286  cat hint2
+  287  hint3
+  288  cat hint3
+  289  cd mystery/streets
+  290  ls
+  291  cat Hart_Place
+  292  cat Hart_Place -n 40
+  293  cat -n 40 Hart_Place
+  294  cd ..
+  295  pwd
+  296  ls
+  297  cd interviews
+  298  ls
+  299  cat interview-47246024
+  300  cd streets
+  301  cd ../streets
+  302  cat -n Buckingham_Place
+  303  cat -n Haley_Street
+  304  cat -n Mattapan_Street
+  305  cd ../interviews
+  306  cat interview-9437737
+  307  cat interview-699607
+  308  cd ..
+  309  ls
+  310  cat vehicles
+  311  grep Honda
+  312  cd wdi/Unit1
+  313  cd command-line-murder-mystery
+  314  ls
+  315  cd mystery
+  316  ls
+  317  man grep
+  318  cat crimescene | grep CLUE
+  319  cat people | grep Annabel
+  320  cd streets
+  321  ls
+  322  cat Haley_Street
+  323  cat Haley_Street -n
+  324  cat -n Haley_Street
+  325  cd ..
+  326  ls
+  327  cd interviews
+  328  cat interview-871877
+  329  cd ..
+  330  cd streets
+  331  cat -n Buckingham_Place
+  332  cd ..
+  333  ls
+  334  cd interviews
+  335  cat interview-699607
+  336  cd ..
+  337  ls
+  338  cat vehicles | grep Honda
+  339  cat vehicles | grep L337
+  340  cat vehicles | grep L337 -A 2
+  341  cat vehicles | grep L337 -A 4
+  342  cat vehicles | grep L337 -A 6
+  343  cat vehicles | grep L337 -A 8
+  344  cat vehicles | grep L337 -A 6
+  345  ls
+  346  cat people | grep Joe Germuska
+  347  cd ../streets
+  348  cd streets
+  349  cat Plainfield_Street
+  350  cat -n  Plainfield_Street
+  351  cd ..
+  352  ls
+  353  cd interviews
+  354  cat interview-29741223
+  355  cd ../streets
+  356  cd ..
+  357  cat people | grep Jeremy Bowers
+  358  cd streets
+  359  cat -n Dunstable_Road
+  360  cd ../interviews
+  361  cat interview-9620713
+  362  cd ..
+  363  cat people | grep Jacqui Maher
+  364  cd streets
+  365  cat -n Andover_Road
+  366  cd ../interviews
+  367  cat interview-904020
+  368  cd ..
+  369  cat people | grep Heather Billings
+  370  cd streets
+  371  cat -n Culbert_Street
+  372  cd ../interview
+  373  cd ..
+  374  ls
+  375  cd interviews
+  376  cat interview-2939888
+  377  cd ..
+  378  cat people | grep Aron Pilhofer
+  379  cd streets
+  380  cat -n Claybourne_Street
+  381  cd ../interviews
+  382  cat interview-1767435
+  383  cd ..
+  384  cat people | grep Erika Owens
+  385  cd streets
+  386  cat -n Trapelo_Street
+  387  cd ../interviews
+  388  cat interview-5455315
+  389  cd ..
+  390  ls
+  391  cd memberships
+  392  ls
+  393  cat AAA | grep Jeremy Bowers
+  394  cat AAA | grep Jeremy Bows
+  395  cat Delta_SkyMiles | grep Jeremy Bowers
+  396  cat library.txt | grep Jeremy Bowers
+  397  cat Museum_of_Bash_History | grep Jeremy Bowers
+  398  cd ..
+  399  touch solution
+  400  ls
+  401  rm solution
+  402  ls
+  403  touch solution.txt
+  404  echo The murderer is Jeremy Bowerscd command-line-murder-mystery > solution.txt
+  405  cat solution.txt
+  406  git status
+  407  git add .
+  408  git status
+  409  git commit -m cracked the case
+  410  git status
+  411  git push origin master
+
