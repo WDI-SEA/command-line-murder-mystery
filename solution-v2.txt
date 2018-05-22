@@ -1,0 +1,70 @@
+1.  
+  357  touch solution.txt
+  358  git add -A
+  359  git commit -m "include solution.txt"
+  360  git push origin master
+  361  exit
+  362  cd code
+  363  ls
+  364  cd unit1
+  365  ls
+  366  cd command-line-murder-mystery
+  367  cat instructions
+  368  cat crimescene | grep 'CLUE'
+  369  cd mystery
+  370  cat crimescene | grep 'CLUE'
+  371  cat people | grep 'Annabel'
+  372  cat vehicles | grep 'Annabel'
+  373  cat vehicles | grep -N 5 'Annabel'
+  374  cat vehicles | grep -B 5 'Annabel'
+  375  cat vehicles | grep -B 10 'Annabel'
+  376  cd interviews
+  377  cd ..
+  378  cat interviews | grep  'Annabel'
+  379  cat interviews | grep -r  'Annabel'
+  380  man grep
+  381  cat interviews | grep -R  'Annabel'
+  382  grep -R 'Annabel'
+  383* grep -R 'Annabel' .
+  384  grep -R 'Annabel' /interviews
+  385  grep -R 'Annabel' .//interviews
+  386  grep -R 'Annabel' ./interviews
+  387  cd interviews
+  388  grep -R 'Annabel' .
+  389  pwd
+  390  grep -R 'Annabel' /Users/hellodevyn/code/unit1/command-line-murder-mystery/mystery/interviews
+  391  cd ..
+  392  cat vehicles | grep  "6'"
+  393  grep interviews -R "Zealand"
+  394  grep -R "Zealand"
+  395  grep 
+  396  grep "Annabel" .interviews
+  397  cd interviews
+  398  grep "Annabel"
+  399  cd ..
+  400  grep "Annabel" /interviews
+  401  ls
+  402  grep Annabel ./interviews
+  403  grep -R Annabel ./interviews
+  404  cd interviews
+  405  grep Annabel *
+  406  cd ..
+  407  cd vehicles
+  408  grep Annabel *
+  409  cd interviews
+  410  grep Annabel *
+  411  grep Zealand *
+  412  grep -B 10 Zealand *
+  413  grep -A 10 Zealand *
+  414  man grep
+  415  grep -C 10 Zealand *
+  416  grep -C 10 Church *
+  417  cd ..
+  418  grep -C 10 L337 *
+  419  grep CLUE *
+  420  cd memberships
+  421  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep Germuska
+  422  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Germuska
+  423  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Bowers
+
+2. Jeremy Bowers
