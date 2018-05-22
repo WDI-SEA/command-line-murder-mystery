@@ -1,0 +1,182 @@
+History:
+
+  214  git clone git@github.com:gschultz64/command-line-murder-mystery.git
+  215  cd command-line-murder-mystery
+  216  code
+  217  ls
+  218  code .
+  219  cat instructions
+  220  cd mystery
+  221  history
+  222  touch solution.txt
+  223  rm solution.txt
+  224  cd ..
+  225  touch solution.txt
+  226  cat instructions
+  227  cd mystery
+  228  cat crimescene | grep 'CLUE'
+  229  cat -n crimescene | grep 'CLUE'
+  230  echo 'CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at             least 6'.
+  231  CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards             for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally un            traceable and have no name, for some reason.
+  232  CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard t            he shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+  233  echo 'CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at
+least 6'.
+  234  echo 'CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at
+least 6'. CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards
+  235  echo 'CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at
+least 6'. CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards
+  236  echo 'CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at
+least 6 ft
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at
+'
+  237  echo '9213  CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6 ft.
+9370  CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for
+AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and
+have no name, for some reason.
+11002  CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the
+shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.' >> solution.txt
+  238  cat solution.txt
+  239  cat hint1
+  240  cd ..
+  241  cat hint1
+  242  head -n 20 people
+  243  cd mystery
+  244  head -n 20 people
+  245  grep -n 'Annabel' people
+  246  cd streets
+  247  ls -a
+  248  cat Hart_Place
+  249  cat Buckingham_Place
+  250  cat hint2
+  251  cd ..
+  252  cat hint2
+  253  cd ..
+  254  cat hint2
+  255  cat hint3
+  256  cat hint4
+  257  cat hint5
+  258  head -n 40 streets/Hart_Place | tail -n 1
+  259  head -n 40 mystery/streets/Hart_Place | tail -n 1
+  260  cd ..
+  261  cd command-line-murder-mystery
+  262  cd mystery/interviews
+  263  ls -a
+  264  grep "interview-47246024"
+  265  cd interview-47246024
+  266  cat "interview-47246024"
+  267  head -n 179 streets/Buckingham_Place | tail -n 1
+  268  head -n 179 mystery/streets/Buckingham_Place | tail -n 1
+  269  cd ..
+  270  head -n 179 streets/Buckingham_Place | tail -n 1
+  271  cd interviews
+  272  cat "interview-699607"
+  273  cd ..
+  274  cd vehicles
+  275  cat vehicles
+  276  cd vehicles
+  277  history
+  278  cd interviews
+  279  cat "interview-699607"
+  280  grep -n "License Plate L337" vehicles
+  281  cd ..
+  282  grep -n "License Plate L337" vehicles
+  283  head -n 866 vehicles | tail -n 1
+  284  grep -A 6 "L337ZR9" vehicles
+  285  grep -A 6 "L337ZR9" vehicles
+  286  grep -A 6 "L337P89" vehicles
+  287  grep -A 6 "L337GX9" vehicles
+  288  grep -A 6 "L337QE9" vehicles
+  289  echo 'License Plate L337QE9
+Make: Honda
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs' >> solution.txt
+  290   echo 'License Plate L337QE9
+Make: Honda
+Color: Blue
+Owner: Erika Owens
+Height: 6 ft 5 in
+Weight: 220 lbs' >> solution.txt
+  291  cat solution.txt
+  292  cd people
+  293  grep "Erika Owens" people
+  294  head -n 98 streets/Trapelo_Street | tail -n 1
+  295  cd interviews
+  296  cat "interview-5455315"
+  297  /files$ grep "fox"
+  298  grep "fox"
+  299  grep "fox" *
+  300  cd ..
+  301  grep "fox" *
+  302  grep "fox" crimescene
+  303  grep -w "fox" crimescene
+  304  grep -w "costume" crimescene
+  305  cd memberships
+  306  Echo 'Owens has an alibi for the morning in question, she was in Toronto for the Mozilla All Hands Meeting.
+Multiple sources, including a person in a fox costume, corroborate this.  Not a suspect.' >> solution.txt
+  307  cat solution.txt
+  308  cd ..
+  309  cat solution.txt
+  310  Echo 'Owens has an alibi for the morning in question, she was in Toronto for the Mozilla All Hands Meeting.
+Multiple sources, including a person in a fox costume, corroborate this.  Not a suspect.' >> solution.txt
+  311  cat solution.txt
+  312  cd memberships
+  313  rm solution.txt
+  314  ls -a
+  315  cat AAA
+  316  history
+  317  cat ../solution.txt
+  318  ls -a
+  319  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History > suspect_memberships
+  320  cd ..
+  321  cd memberships
+  322  grep "Erika Owens" suspect_memberships
+  323  grep -A 4 "Erika Owens" suspect_memberships
+  324  cat suspect_memberships
+  325  grep "Erika" *
+  326  grep "Owens" *
+  327  history
+  328  cat hint6
+  329  cd ..
+  330  cat ../hint6
+  331  ../hint7
+  332  cat ../hint7
+  333  cat ../hint8
+  334  grep -n "License Plate L337" vehicles
+  335  grep -n -A 5 "License Plate L337" vehicles
+  336  echo '24834:License Plate L337DV9
+24837-Owner: Joe Germuska
+24838-Height: 6 ft 2 in' >> solution.txt
+  337  cat solution.txt
+  338  echo '31827:License Plate L3375A9
+31830-Owner: Jeremy Bowers
+31831-Height: 6 ft 1 in' >> solution.txt
+  339  echo '34312:License Plate L337WR9
+34315-Owner: Jacqui Maher
+34316-Height: 6 ft 2 in' >> solution.txt
+  340  cat solution.txt
+  341  cd memberships
+  342  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  343   cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Joe Germuska"
+  344  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  345  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jacqui Maher"
+  346  cd ..
+  347  cd interviews
+  348  cd ..
+  349  grep "Jeremy Bowers" people
+  350  grep "Jacqui Maher" people
+  351  cd streets
+  352  head -n 284 streets/Dunstable_Road | tail -n 1
+  353  head -n 284 Dunstable_Road | tail -n 1
+  354  head -n 224 Andover_Road | tail -n 1
+  355  cd ..
+  356  cd interviews
+  357  grep "interview-9620713"
+  358  cat "interview-9620713"
+  359  cat "interview-904020"
+  360  history
+
+
+***The killer is Jeremy Bowers***
