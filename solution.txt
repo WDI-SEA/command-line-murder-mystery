@@ -1,0 +1,79 @@
+
+  115  git clone git@github.com:shullmb/command-line-murder-mystery.git
+  116  git clone https://github.com/shullmb/command-line-murder-mystery.git
+  117  cd command-line-murder-mystery
+  118  atom .
+  119  cat instructions
+  120  cd mystery
+  121  ls
+  122  cat crimescene
+  123  cat crimescene | grep -n 'CLUE'
+  124  touch solution.txt
+  125  cat crimescene | grep -n 'CLUE' >> solution.txt
+  126  cat solution.txt
+  127  rm solution.txt
+  128  cd ..
+  129  touch solution.txt
+  130  history
+  131  touch clues.txt
+  132  cat mystery/crimescene | grep -n 'CLUE'
+  133  cat mystery/crimescene | grep -n 'CLUE' >> clues.txt
+  134  cd mystery
+  135  ls
+  136  echo 'People' >> ../clues.txt
+  137  cat people | grep -n "6'" >> ../clues.txt
+  138  cat people | grep -n "male" >> ../clues.txt
+  139  cat people | grep -n " M " >> ../clues.txt
+  140  cd interviews
+  141  grep 'Annabel'
+  142  cat ../../hint1
+  143  man head
+  144  cd ..
+  145  head people
+  146  head crimescene
+  147  head vehicles
+  148  cat people | grep -n 'Annabel' >> ../clues.txt
+  149  echo '\n Annabel search \n' >> ../clues.txt
+  150  ls ./streets
+  151  man cat
+  152  cd streets
+  153  l
+  154  cat Buckingham_Place | grep 'line 179'
+  155  cd ..
+  156  head vehicles
+  157  cat vehicles | grep 'Annabel' >> ../clues.txt
+  158  cat vehicles | grep 'Annabel'
+  159  head -n 40 ./streets/Hart_Place
+  160  head -n 176 ./streets/Buckingham_Place
+  161  head -n 179 ./streets/Buckingham_Place
+  162  echo 'Interview #699607' >> ../clues.txt
+  163  cd interviews
+  164  ls
+  165  cata interview-699607
+  166  cat interview-699607
+  167  cd ../
+  168  cat vehicles | grep 'Honda' >> ../clues.txt
+  169  cat vehicles | grep -A 4 'blue'
+  170  cat vehicles | grep -A 4 'Blue'
+  171  cat vehicles | grep -B 4 'Blue'
+  172  cat vehicles | grep -A 3 'L337*9'
+  173  cat vehicles | grep -A 3 'L337'*'9'
+  174  man grep
+  175  cat vehicles | grep -A 3 'L337'
+  176  head vehicles
+  177  man grep
+  178  head vehicles
+  179  cat vehicle | grep -B 6 'L337'
+  180  cat vehicles | grep -B 6 'L337'
+  181  cat vehicles | grep -A 6 'L337'
+  182  cat vehicles | grep -A 6 'L337' | grep  'Blue'
+  183  cat vehicles | grep -A 6 'L337' | grep -A 6  'Blue'
+  184  cat vehicles | grep -A 6 'L337' | grep -A 6  'Blue' | grep -A 6 'Honda' | grep -A 6 "6'"
+  185  cat vehicles | grep -A 6 'L337' | grep -A 6  'Blue' | grep -A 6 'Honda'
+  186  cat vehicles | grep -A 6 'L337' | grep -A 6  'Blue'
+  187  cat vehicles | grep -A 6 'L337' | grep -C 6  'Blue'
+  188  head memberships/AAA
+  189  cd memberships
+  190  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History| grep -c 'Jeremy Bowers'
+  191  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History| grep -c 'Joe Germuska'
+  192  cd ..
