@@ -1,0 +1,192 @@
+    1  ls
+    2  md Code
+    3  cd code
+    4  cd
+    5  pwd
+    6  nano .zshrc
+    7  cd Code
+    8  cd ..
+    9  mv fundamentals ./Code
+   10  l
+   11  cd Code/fundamentals
+   12  cd wdi-fundamentals-memorygame
+   13  atom .
+   14  clear
+   15  cd
+   16  clear
+   17  cd code
+   18  md Unit1
+   19  l
+   20  cd Unit1
+   21  md command-git
+   22  rm -rf command-git
+   23  md command-git-instructions
+   24  cd command-git-instructions
+   25  l
+   26  touch README.md
+   27  l
+   28  echo 'hello'
+   29  echo 'hello' > test.txt
+   30  cat test.txt
+   31  echo $USER
+   32  echo 'hello ' + $USER 
+   33  echo 'hello ' $USER 
+   34  echo 'hello '$USER > test.txt
+   35  cat test.txt
+   36  echo 'goodbye' >> test.txt
+   37  cat test.txt
+   38  echo #Navigation Terminal
+   39  echo '#Navigation Terminal\n**cd** -> Change directory\n**ls** -> Display what is in current dir with short list\n**l** -> display complete file info in directory\n**pwd** -> present working directory\n**open** -> command will open file in default program or dir in finder\n' >> README.md
+   40  atom README.md
+   41  cd
+   42  cd Code/Unit1/command-git-instructions
+   43  l
+   44  touch test.txt
+   45  l
+   46  md testdir
+   47  mv test.txt testdir
+   48  mv testdir/test.txt testdir/mike.txt
+   49  l testdir
+   50  man mv
+   51  rm -r testdir
+   52  man rm
+   53  man ls
+   54  touch file.txt
+   55  echo 'this is a file\nof lot of things\nand stuff\nmore lines\nmore lines\nthrow more dots\ncoding' > file.txt
+   56  cat file
+   57  cat file.txt
+   58  cat file.txt | grep 'and stuff'
+   59  man grep
+   60  cat file.txt | grep 'm'
+   61  touch bob.txt | echo 'new stuff' > bob.txt
+   62  cat file.txt bob.txt
+   63  man grep
+   64  clear
+   65  l
+   66  git init
+   67  git status
+   68  git add README.md
+   69  git status
+   70  git add -A
+   71  git add .
+   72  git status
+   73  git commit -m 'created repo'
+   74  git status
+   75  git log
+   76  git config --list
+   77  git config --global user.email="shullmb@gmail.com"
+   78  git config --list
+   79  git config --global user.email "shullmb@gmail.com"
+   80  git config --list
+   81  git checkout -b testbranch
+   82  touch test.txt
+   83  git status
+   84  rm test.txt
+   85  git add .
+   86  rm test.txt
+   87  git status
+   88  git commit -m 'added more git commands to list'
+   89  git log
+   90  git remote add origin https://github.com/shullmb/command-git-instructions.git\ngit push -u origin master
+   91  git status
+   92  git add .
+   93  git commit -m 'corrected markdown formatting'
+   94  git push origin testbranch
+   95  git checkout master
+   96  git checkout testbranch
+   97  git checkout master
+   98  git pull origin master
+   99  git status
+  100  git add .
+  101  git commit -m 'removed branch commands to avoid screwing myself up'
+  102  git push origin master
+  103  git add .
+  104  git commit -m 'removed branch commands to avoid screwing myself up'
+  105  git push origin master
+  106  git add .
+  107  git commit -m "added push command"
+  108  git push origin master
+  109  git add .
+  110  git commit -m 'fix formatting of GHFMD'
+  111  git push origin master
+  112  cd ../../
+  113  cd Unit1
+  114  clear
+  115  git clone git@github.com:shullmb/command-line-murder-mystery.git
+  116  git clone https://github.com/shullmb/command-line-murder-mystery.git
+  117  cd command-line-murder-mystery
+  118  atom .
+  119  cat instructions
+  120  cd mystery
+  121  ls
+  122  cat crimescene
+  123  cat crimescene | grep -n 'CLUE'
+  124  touch solution.txt
+  125  cat crimescene | grep -n 'CLUE' >> solution.txt
+  126  cat solution.txt
+  127  rm solution.txt
+  128  cd ..
+  129  touch solution.txt
+  130  history
+  131  touch clues.txt
+  132  cat mystery/crimescene | grep -n 'CLUE'
+  133  cat mystery/crimescene | grep -n 'CLUE' >> clues.txt
+  134  cd mystery
+  135  ls
+  136  echo 'People' >> ../clues.txt
+  137  cat people | grep -n "6'" >> ../clues.txt
+  138  cat people | grep -n "male" >> ../clues.txt
+  139  cat people | grep -n " M " >> ../clues.txt
+  140  cd interviews
+  141  grep 'Annabel'
+  142  cat ../../hint1
+  143  man head
+  144  cd ..
+  145  head people
+  146  head crimescene
+  147  head vehicles
+  148  cat people | grep -n 'Annabel' >> ../clues.txt
+  149  echo '\n Annabel search \n' >> ../clues.txt
+  150  ls ./streets
+  151  man cat
+  152  cd streets
+  153  l
+  154  cat Buckingham_Place | grep 'line 179'
+  155  cd ..
+  156  head vehicles
+  157  cat vehicles | grep 'Annabel' >> ../clues.txt
+  158  cat vehicles | grep 'Annabel'
+  159  head -n 40 ./streets/Hart_Place
+  160  head -n 176 ./streets/Buckingham_Place
+  161  head -n 179 ./streets/Buckingham_Place
+  162  echo 'Interview #699607' >> ../clues.txt
+  163  cd interviews
+  164  ls
+  165  cata interview-699607
+  166  cat interview-699607
+  167  cd ../
+  168  cat vehicles | grep 'Honda' >> ../clues.txt
+  169  cat vehicles | grep -A 4 'blue'
+  170  cat vehicles | grep -A 4 'Blue'
+  171  cat vehicles | grep -B 4 'Blue'
+  172  cat vehicles | grep -A 3 'L337*9'
+  173  cat vehicles | grep -A 3 'L337'*'9'
+  174  man grep
+  175  cat vehicles | grep -A 3 'L337'
+  176  head vehicles
+  177  man grep
+  178  head vehicles
+  179  cat vehicle | grep -B 6 'L337'
+  180  cat vehicles | grep -B 6 'L337'
+  181  cat vehicles | grep -A 6 'L337'
+  182  cat vehicles | grep -A 6 'L337' | grep  'Blue'
+  183  cat vehicles | grep -A 6 'L337' | grep -A 6  'Blue'
+  184  cat vehicles | grep -A 6 'L337' | grep -A 6  'Blue' | grep -A 6 'Honda' | grep -A 6 "6'"
+  185  cat vehicles | grep -A 6 'L337' | grep -A 6  'Blue' | grep -A 6 'Honda'
+  186  cat vehicles | grep -A 6 'L337' | grep -A 6  'Blue'
+  187  cat vehicles | grep -A 6 'L337' | grep -C 6  'Blue'
+  188  head memberships/AAA
+  189  cd memberships
+  190  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History| grep -c 'Jeremy Bowers'
+  191  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History| grep -c 'Joe Germuska'
+  192  cd ..
