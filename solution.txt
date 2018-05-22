@@ -1,0 +1,342 @@
+the person is Jeremy Bowers
+ 1  ls
+    2  cd ~
+    3  ls
+    4  pwd
+    5  mkdir code
+    6  ls
+    7  cd code
+    8  ls
+    9  cd ~
+   10  ls
+   11  cd code
+   12  mkdir unit1
+   13  ls
+   14  cd ~
+   15  mkdir source
+   16  ls
+   17  cd code
+   18  ls
+   19  cd unit1
+   20  mkdir command-git-instructions
+   21  ls
+   22  cd command-git-instructions
+   23  open command-git-instructions
+   24  touch README.md
+   25  touch test.txt
+   26  echo 'hello' > test.txt
+   27  cat text.txt
+   28  cat test.txt
+   29  echo 'goodbye' > test.txt
+   30  cat test.txt
+   31  echo 'hello' >> test.txt
+   32  cat test.txt
+   33  ls
+   34  echo '#Navigation Terminal\n**cd**-> Change directory\n**ls**-> display what is in current directory with short list\n**l**-> display complete file information in directory\n**pwd**-> print wording directory, there where the hell am I command. \n**open**_> command will open a file in default program or directory in finder\n' >> README.md
+   35  atom README.md
+   36  sbl README.md
+   37  subl README.md
+   38  cd ~
+   39  ls
+   40  /code/unit1
+   41  cd/Users/rahulkv/code/unit1
+   42  pwd
+   43  cd code
+   44  ls
+   45  cd ~
+   46  /Users/rahulkv/code/unit1
+   47  cd command-git-instructions ls
+   48  cd command-git-instructions
+   49  ls
+   50  subl README.md
+   51  mkdir testdir
+   52  ls 
+   53  cat test.txt
+   54  mv test.txt newfile.txt
+   55  ls
+   56  mv test.txt testdi ./testdir/kyle.txt
+   57  cd .
+   58  cd ..
+   59  cd command-git-instructions
+   60  ls
+   61  touch bob.txt
+   62  ls
+   63  mv bob.txt ./random/tim/txt
+   64  cd ..
+   65  cd.
+   66  cd .
+   67  cd command-git-instructions
+   68  man rm
+   69  ls
+   70  rm -r bob.txt
+   71  rm -r newfile.txt
+   72  rm -r testdir
+   73  ls
+   74  touch file.txt
+   75  echo 'this is a file\nfull of things\nand stuff\nmore lines\nmore lines\nthrow more dots\ncoding' < file.txt
+   76  cat file.txt | grep 'and stuff'
+   77  cat file.txt | grep 'm'
+   78  cat file.txt| grep 'and stuff'
+   79  ls
+   80  cat file.txt | grep 'm'
+   81  cat file.txt
+   82  rm -r file.txt
+   83  touch file.txt
+   84  echo 'hi how are you\ni am searching for \na certain letter\ncan you find the letter' > file.text
+   85  cat file.txt
+   86  rm -r file.txt
+   87  ls
+   88  rm -r file.text
+   89  ls
+   90  touch file.txt
+   91  echo 'this is file\ni am trying to search\nfile for this \nwhy oh why' > file.txt
+   92  cat file.txt
+   93  cat file.txt | grep 'm'
+   94  rm -r file.txt
+   95  ls
+   96  man grep
+   97  git init
+   98  git status
+   99  git add README.md
+  100  git status
+  101  git add -A
+  102  git add . 
+  103  git status
+  104  git commit -m 'created repo'
+  105  git status
+  106  git log
+  107  git status
+  108  git checkout -b rahulwork
+  109  git status
+  110  get checkout master
+  111  git checkout master
+  112  git checkout rahulwork
+  113  git status
+  114  git add
+  115  git add .
+  116  git status
+  117  git commit -m 'added more git commands to list'
+  118  git log
+  119  git remote add origin https://github.com/rkvasisht/git-commit-instructions.git\ngit push -u origin master
+  120  git add .
+  121  git commit -m 'fixed markdown formating for headers'
+  122  git remote add origin
+  123  git checkout master
+  124  git checkout rahulwork
+  125  git status
+  126  git add .
+  127  git commit -m 'resyncing brang'
+  128  git push origin rahulwork
+  129  git checkout master
+  130  git pull origin master
+  131  q
+  132  https://github.com/rkvasisht/command-line-murder-mystery.git
+  133  pwd
+  134  ls
+  135  cd code
+  136  ls
+  137  cd unit1
+  138  pwd
+  139  git clone https://github.com/rkvasisht/command-line-murder-mystery.git
+  140  ls
+  141  cd command-line-murder-mystery
+  142  subl .
+  143  cat instructions
+  144  ls
+  145  cd mystery
+  146  ls
+  147  cat hint 1
+  148  cd ..
+  149  ls
+  150  cd command-line-murder-mystery
+  151  cat hint 1
+  152  ls
+  153  cat 'hint1'
+  154  cd mystery
+  155  ls
+  156  cd interviews
+  157  man grep
+  158  cd interviews
+  159  pwd
+  160  head -n 20 interviews
+  161  ls
+  162  cat interview
+  163  cd memberships
+  164  cd ..
+  165  cd memberships
+  166  ls
+  167  cat 1.txt
+  168  grep 'CL' 1.txt
+  169  head -n 20 people
+  170  head -n 20
+  171  ls
+  172  code
+  173  ls
+  174  cd unit1
+  175  ls
+  176  cd command-line-murder-mystery
+  177  ls
+  178  cat instructions
+  179  cd mystery
+  180  ls
+  181  cat vehicles
+  182  ls
+  183  ..
+  184  ls
+  185  cat hint1
+  186  cd mystery
+  187  head -n 20 people
+  188  ls
+  189  cd streets
+  190  ls
+  191  ..
+  192  ls
+  193  -n 20 people
+  194  head -n 20 people
+  195  cd streets
+  196  cat streets | grep 'Walton Street'
+  197  ls
+  198  grep 'Walton' streets
+  199  ls
+  200  cat Mystic_Street
+  201  cat Walton_Street | grep 'Interview'
+  202  cat Mystic_Street | grep 'Interview'
+  203  ls
+  204  cd code
+  205  ls
+  206  cd unit1
+  207  ls
+  208  cd command-line-murder-mystery
+  209  ls
+  210  cd mystery
+  211  ls
+  212  ls crimescene
+  213  cat crimescene
+  214  cat crimescene | grep 'CLUE'
+  215  ls
+  216  cat people | grep 'Annabel'
+  217  ls
+  218  cd streets
+  219  cat Buckingham Place
+  220  cat Buckingham_Place
+  221  ..
+  222  ls
+  223  cd interviews
+  224  cat interview-699607
+  225  ..
+  226  cat vehicles | grep 'L337'
+  227  cat vehicle
+  228  head -n 20
+  229  head -n 20 people
+  230  ..
+  231  ls
+  232  cat hint2
+  233  cat hint3
+  234  ls
+  235  cd mystery
+  236  ls
+  237  cat vechicles
+  238  ls
+  239  cat vehicles
+  240  cat vehicles | grep 'honda'
+  241  ls
+  242  cat vehicles | grep 'Honda'
+  243  ls
+  244  cat vehicles
+  245  cat vehicles | grep '699607'
+  246  ls
+  247  cat vehicles | grep '699607'
+  248  cat vehicles
+  249  ..
+  250  cat hint4
+  251  cat hint5
+  252  cd mystery
+  253  ls
+  254  cat people | grep 'Annabel'
+  255  ..
+  256  cat crimscene | grep 'CLUE'
+  257  cd mystery
+  258  cat crimscene | grep 'CLUE'
+  259  ls
+  260  cat crimscene
+  261  cat crimescene | grep 'CLUE'
+  262  ls
+  263  cd streets
+  264  ls
+  265  grep 'Buckingham_Place'
+  266  cat Buckingham_Place
+  267  -n 179
+  268  grep Buckingham_Place -n 179
+  269  cat Buckingham_Place | grep -n 179
+  270  man grep
+  271  cat Buckingham_Place
+  272  cat Buckingham_Place -n 179
+  273  man cat
+  274  cat -n Buckingham_Place
+  275  ..
+  276  ls
+  277  cd interviews
+  278  ls
+  279  grep 'interview-699607'
+  280  cat interview
+  281  interview-699607
+  282  cat interview-699607
+  283  ..
+  284  ls
+  285  cat vehicles | grep 'Honda L337'
+  286  cat vehicles | grep 'L337'
+  287  cat vehicles
+  288  cat vehicles | grep -A 5 'L337'
+  289  ls
+  290  cd memberships
+  291  ..
+  292  cat people | grep Jacqui Maher
+  293  cat people | grep 'Jacqui Maher'
+  294  cat people | grep 'Jeremy Bower'
+  295  cat people | grep 'Joe Germuska'
+  296  cd interviews
+  297  ls
+  298  ..
+  299  cd streets
+  300  cat 'Plainfield_Street'
+  301  cat -n 224
+  302  grep -n 
+  303  cat Plainfield_Street -n
+  304  cat Plainfield_Street -n 224
+  305  cat Plainfield_Street | grep -n 275
+  306  cat Plainfield_Street | grep -n
+  307  cat Plainfield_Street -n
+  308  cat -n
+  309  cat -n Plainfield_Street
+  310  ..
+  311  ls
+  312  cd interviews
+  313  cat interviews-29741223
+  314  ls
+  315  cat interview-29741223
+  316  ..
+  317  ls
+  318  cd streets
+  319  cat Dunstable_Road 
+  320  cat -n Dunstable_Road
+  321  ..
+  322  cd interviews
+  323  cat interview-9620713
+  324  ..
+  325  cd streets
+  326  cat Andover_Road
+  327  cat -n Andover_Road
+  328  ..
+  329  cd interviews
+  330  cat interview-904020
+  331  ..
+  332  ls
+  333  cat people | grep 'Erika Owens'
+  334  ..
+  335  touch solution.txt
+  336  echo 'the person is Jeremy Bowers' > solution.txt
+  337  cat solution.txt
+  338  echo history >> solution.txt
+  339  cat solution.txt
+➜  command-line-murder-mystery git:(master) ✗ 
+
