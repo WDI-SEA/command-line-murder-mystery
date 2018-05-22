@@ -1,0 +1,203 @@
+1  cd~
+    2  cd ~
+    3  pwd
+    4  cd .ssh
+    5  atom config
+    6  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+    7  atom config
+    8  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+    9  atom .
+   10  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+   11  atom config
+   12  atom
+   13  cd .ssh
+   14  l
+   15  atom config
+   16  ls
+   17  cd config
+   18  cd ..
+   19  pbcopy < ~/.ssh/id_rsa.pub
+   20  clear
+   21  ls
+   22  mkdir code
+   23  ls
+   24  cd /
+   25  ls
+   26  cd ~
+   27  ls
+   28  pwd
+   29  cd ia
+   30  mkdir unit1
+   31  ls
+   32  rm unit1
+   33  ls
+   34  cd unit1
+   35  mkdir command-git-instructions
+   36  cd command-git-instructions
+   37  cd ..
+   38  open command-git-instructions
+   39  cd command-git-instructions
+   40  ls
+   41  touch README.md
+   42  touch test.txt
+   43  ls
+   44  echo 'hello'
+   45  echo 'hello' > test.txt
+   46  cd test.txt
+   47  cat test.txt
+   48  echo 'goodbye' > test.txt
+   49  cat text.txt
+   50  cat test.txt
+   51  echo 'hello' >> test.txt
+   52  cat test.txt
+   53  ls
+   54  echo '#Navigation Terminal\n**cd** -> Change directory\n**ls** -> display what is in current directory with short list\n**l** -> display complete file information in directory\n**pwd** -> print working directory, the where the hell am I command.\n**open** -> command will open a file in default program or directory in finder\n' >> README.md
+   55  atom README.md
+   56  cd ~
+   57  ls
+   58  cd /unit1
+   59  cd /Users/jacobspade/unit1
+   60  cd ~
+   61  cd unit1
+   62  pwd
+   63  cd /
+   64  pwd
+   65  ls
+   66  cd ~
+   67  cd ia/unit1
+   68  cd unit1
+   69  ls
+   70  cd command-git-instructions
+   71  atom README.md
+   72  ls
+   73  mkdir testdir
+   74  ls
+   75  cat test.txt
+   76  mv test.txt newfile.txt
+   77  ls
+   78  mv test.txt testdir/jacob.txt
+   79  mv newfile.txt ./testdir/jacob.txt
+   80  ls
+   81  cd testdir
+   82  ls
+   83  rm random/
+   84  rm -r random
+   85  rm -r testdir
+   86  cd ..
+   87  ls
+   88  rm -r testdir
+   89  man -rm
+   90  touch file.txt
+   91  echo 'this is a file\nfull of things\nand stuff\nmore lines\nmore lines\nthrow more dots\ncoding' > file.txt
+   92  cat file.txt | grep 'and stuff'
+   93  cat file.txt | grep 'm'
+   94  touch bob.txt | echo 'new stuff' > bob.txt
+   95  cat file.txt bob.txt
+   96  man grep
+   97  ls
+   98  git init
+   99  cd ..
+  100  cd command-git-instructions
+  101  git status
+  102  git add README.md
+  103  git status
+  104  git add -A
+  105  git add .
+  106  git status
+  107  git commit -m 'created repo'
+  108  git status
+  109  git log
+  110  git checkout -b jacobwork
+  111  git add -A
+  112  git commit -m 'jacob test'
+  113  git checkout master
+  114  git checkout jacobwork
+  115  git status
+  116  git add .
+  117  git status
+  118  git commit -m 'added more git commands to list'
+  119  git log
+  120  git remote add origin https://github.com/spadejac000/command-git-instructions.git\ngit push -u origin master
+  121  git status
+  122  git add .
+  123  git commit -m 'fixed markdown formating for headers'
+  124  git push origin jacobwork
+  125  git checkout master
+  126  git pull origin master
+  127  git add .
+  128  git commit -m 'made another change'
+  129  git push origin master
+  130  cd ~
+  131  cd code
+  132  ls
+  133  mkdir unit1
+  134  cd unit1
+  135  pwd
+  136  git clone https://github.com/spadejac000/command-line-murder-mystery.git
+  137  cd command-line-murder-mystery
+  138  atom .
+  139  cat instructions
+  140  ls
+  141  cd cheatsheet.md
+  142  cat cheatsheet.md
+  143  touch solution.txt
+  144  ls
+  145  head -n 20 people
+  146  cd mystery
+  147  ls
+  148  head -n 20 people
+  149  cat crimescene | grep 'CLUE'
+  150  cat people | grep Annabel
+  151  head -n 20 vehicles
+  152  cat people | grep Annabel
+  153  cat streets | grep Hart Place
+  154  cd streets
+  155  cat Hart Place
+  156  cat Mattapan Street
+  157  cd ..
+  158  head -n 20 people
+  159  cat crimescene | grep 'CLUE'
+  160  head people | grep Annabel
+  161  head -n 5 people | grep Annabel
+  162  cat people | grep Annabel
+  163  head people | grep Annabel
+  164  ls
+  165  cd people
+  166  cat people | grep Annabel
+  167  head -n 20 | grep New Zealand
+  168  head -n 40 streets/Hart Place | tail -n 1
+  169  head -n 40 streets/Hart
+  170  head -n 40 streets/Hart Place | tail -n 1
+  171  head -n 40 streets/Hart_Place | tail -n 1
+  172  ls
+  173  cd interviews
+  174  ls
+  175  cat interview-47246024
+  176  head -n 179 streets/Buckingham_Place | tail -n 1
+  177  cd ..
+  178  head -n 179 streets/Buckingham_Place | tail -n 1
+  179  cat interview-699607
+  180  cd interviews
+  181  cat interview-699607
+  182  cd ..
+  183  ls
+  184  grep 'Honda' vehicles
+  185  grep 'Blue' vehicles
+  186  grep 'L337'
+  187  grep 'L337' vehicles
+  188  grep -A 5 'L337' vehicles
+  189  cat memberships | grep 'Joe Germuska'
+  190  cd memberships
+  191  cat AAA | grep 'Joe Germuska'
+  192  cat Delta_SkyMiles | grep 'Joe Germuska'
+  193  cat AAA | grep 'Jeremy Bowers'
+  194  cat Delta_SkyMiles | grep 'Joe Germuska'
+  195  cat library.txt | grep 'Joe Germuska'
+  196  cat library.txt | grep 'Jeremy Bowers'
+  197  cat Museum_of_Bash_History | grep 'Jeremy Bowers'
+  198  cat Delta_SkyMiles | grep 'Jeremy Bowers'
+  199  ls
+  200  cd ..
+
+
+The name of the killer is Jeremy Bowers.
