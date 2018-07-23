@@ -1,0 +1,51 @@
+  202  pwd
+  203  ls
+  204  pwd
+  205  ls
+  206  cd ..
+  207  cat hint6
+  208  ls
+  209  cd mystery 
+  210  cat vehicle | head Honda 
+  211  pwd
+  212  ls
+  213  cat vehicles | head 
+  214  cat vehicles | grep Make: Honda Color: Blue
+  215  cat vehicles | grep "Make: Honda" | grep "Color: Blue" 
+  216  ls
+  217  cat vehicles | grep L337
+  218  cat vehicles | grep Honda grep L337
+  219  cat vehicles | grep Honda | grep L337
+  220  ls
+  221  cd .. 
+  222  ls
+  223  cat hint6
+  224  cat hint7
+  225  cd .. 
+  226  ls
+  227  cd command-line-murder-mystery
+  228  ls
+  229  cd mystery 
+  230  cat vehicles | grep -A "L337"
+  231  grep -A "L337" mystery/vehicles 
+  232  cat vehicles | grep L337
+  233  cat vehicles | grep -A 5 "L337" 
+  234  ls
+  235  cat people | grep Maher
+  236  cd 
+  237  wd
+  238  pwd
+  239  ls
+  240  cd GA 
+  241  cd mystery 
+  242  ls
+  243  cd command-line-murder-mystery 
+  244  ls
+  245  cat solution.txt 
+  246  ls
+  247  cd mystery 
+  248  ls
+  249  cd mystery 
+  250  ls
+  251  history | tail -50 > solutions.txt
+Jeremy Bowers
