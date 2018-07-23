@@ -1,0 +1,7 @@
+cat crimescene | grep CLUE
+cat people | grep Annabel
+head -n 179 streets/Buckingham_Place | tail -n 1
+cat interviews/669607
+cat vehicles | grep -A 3 L337 | grep -A 2 -B 1 Honda | grep -A 1 -B 2 Blue
+cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c Bowers
+Jeremy Bower's car matches the description and he is a member of all the organizations in the killer's wallet, therefore he is the killer.
