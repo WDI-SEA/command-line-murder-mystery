@@ -1,0 +1,51 @@
+  482  ls
+  483  cat crimescene | grep CLUE
+  484  cat hint8
+  485  cd ..
+  486  cat hint8
+  487  ls
+  488  cd mystery/
+  489  ls
+  490  cd mem
+  491  cd memberships/
+  492  ls
+  493  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c Bowrs
+  494  cat AAA
+  495  cd ..
+  496  clear
+  497  ls
+  498  cd vehicles 
+  499  grep L337QE9 | tail -n 10
+  500  ls
+  501  cd ga_work/
+  502  ls
+  503  cd command_line_practice/
+  504  ls
+  505  cd command-line-murder-mystery/
+  506  cd mystery/
+  507  ls
+  508  cat vehicles | grep L337
+  509  cat vehicles | grep L337QE9 -A 8
+  510  ls
+  511  cat people | grep Erika
+  512  cd ..
+  513  ls
+  514  cat hint8
+  515  cd mystery/
+  516  cd memberships/
+  517  cd ..
+  518  cat people | grep Bowrs
+  519  cat people | grep Bow
+  520  cd ..
+  521  ls
+  522  cd mystery/
+  523  cat people | grep Bowers
+  524  cd memberships/
+  525  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Bowers
+  526  cd ..
+  527  ls
+  528  cd ..
+  529  cat instructions 
+  530  ls -l
+  531  history | tail -n 50 > ../murder_mystery_command_history.txt
+Jeremy Bowers
