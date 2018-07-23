@@ -1,0 +1,51 @@
+  449  ls
+  450  cd streets
+  451  ls
+  452  open Manton Terrace
+  453  open Manton_Terrace
+  454  open Trapelo_Street
+  455  open Alpine_Street
+  456  open Harbor_Point_Boulevard
+  457  ls
+  458  cd ..
+  459  ls
+  460  cat vehicles | grep Blue L337 -A 6
+  461  cd vehicles
+  462  cat vehicles
+  463  cat vehicles | grep Blue l337
+  464  ls
+  465  cat vehicles | grep blue
+  466  ls
+  467  git status
+  468  ls
+  469  cat vehicles | grep Blue
+  470  cat vehicles | grep Blue L337 -A | grep Honda -B 4 | grep Blue -B 2 -A3 | grep "Height: 6'" -A 1 -B 4
+  471  cat vehicles | grep Blue L337 -A 6 | grep Honda -B 4 | grep Blue -B 2 -A3 | grep "Height: 6'" -A 1 -B 4
+  472  cat vehicles | grep Blue L337 -A 6 | grep Honda -B 4
+  473  ls
+  474  cat vehicles
+  475  ls
+  476  cat vehicles | Blue L337 -A 6
+  477  cat vehicles | grep Blue L337 -A 6
+  478  cat vehicles | grep Blue L337 -A 5
+  479  cat vehicles | grep Blue L337 -A5
+  480  cat vehicles | grep Blue L337 -A 1
+  481  cat vehicles | grep Blue -A 2 -B 3
+  482  cat vehicles | grep Blue -A 2 -B 3 | grep Honda -B 4 -A 4 | grep "Height: 6'" -A 1 -B 4
+  483  cat vehicles | grep Blue -A 2 -B 3 | grep Honda -B 4 -A 4 | grep "Height: 6'" -A 1 -B 4 | grep L337 -A 6
+  484  ls
+  485  cat AAA Delta_Skymiles Museum_of_Bash_History | "Joe Germuska"
+  486  cat AAA Delta-Skymiles
+  487  ls
+  488  cat memberships
+  489  cd memberships
+  490  ls
+  491  cat Museum_of_Bash_History
+  492  ls
+  493  cat Museum-of_Bash_History AAA Delta_SkyMiles Terminal_City_Library | "Joe Germuska"
+  494  cat Museum-of_Bash_History AAA Delta_SkyMiles Terminal_City_Library | grep "Joe Germuska"
+  495  cat Museum-of_Bash_History AAA Delta_SkyMiles Terminal_City_Library | grep "Jeremy Bowlers"
+  496  cat Museum-of_Bash_History AAA Delta_SkyMiles Terminal_City_Library | grep "Jeremy Bowers"
+  497  history | tail -n 50
+  498  history | tail -n 50 > solution.txt
+Jeremy Bowers is the murderer
