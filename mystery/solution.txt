@@ -1,0 +1,17 @@
+cat instructions
+cd mystery/
+cat people | grep Annabel
+cd streets/
+cat Buckingham_Place | head -n 179
+cat Hart_Place | head -n 40
+cd interviews/
+cat interview-47246024
+cat interview-699607
+  819  cat vehicles | grep -A 5 L337 | grep Honda -B 1 -A 4| grep Blue -B 2 -A 3 | grep "Height: 6'" -B 4 -A 1
+  820  history|tail -n -2 >> sl.txt 
+cd memberships/
+  841  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  842  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  843  cd ..
+  844  history |tail -n 4 >> sl.txt 
+Jeremy Bowers
