@@ -1,0 +1,51 @@
+  125  rm '- (1).txt' 
+  126  rm ./'./- (1).txt' 
+  127  ls
+  128  rm google-chrome-stable_current_amd64.deb 
+  129  ls
+  130  ls temp
+  131  ls
+  132  mv ./-.txt books.txt
+  133  ls
+  134  mv books.txt ~/Documents/GA/sketches/
+  135  ls
+  136  rm -r temp
+  137  cd ~/Documents/GA/sketches/
+  138  ls
+  139  sort books.txt
+  140  sort books.txt > sorted_books.txt
+  141  ls
+  142  gvi sorted_books.txt 
+  143  clone https://github.com/AFresnedo/command-line-murder-mystery.git
+  144  git clone https://github.com/AFresnedo/command-line-murder-mystery.git
+  145  git status
+  146  ls
+  147  cd ..
+  148  cd sketches/
+  149  ls
+  150  cd command-line-murder-mystery/
+  151  git status
+  152  ls
+  153  cat instructions
+  154  cd ~/Documents/GA/sketches/command-line-murder-mystery/
+  155  ls
+  156  cd mystery/
+  157  grep CLUE crimescene 
+  158  cat AA 'Delta SkyMiles' library 'Museum of Bash History'
+  159  ls
+  160  cd memberships/
+  161  ls
+  162  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jacqui
+  163  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Bowers
+  164  cd ..
+  165  grep Jacqui Maher people
+  166  grep Jeremy Bowers people
+  167  history
+  168  history | tail -n 50 > ~/Documents/GA/sketches/murder_sol.txt
+  169  gvi ~/Documents/GA/sketches/murder_sol.txt 
+  170  echo "Jeremy Bowers" >> ~/Documents/GA/sketches/murder_sol.txt 
+  171  gvi ~/Documents/GA/sketches/murder_sol.txt 
+  172  echo "Jeremy Bowers" >> solution.txt 
+  173  cd ..
+  174  history | tail -n 50 > solution.txt
+Jeremy Bowers
