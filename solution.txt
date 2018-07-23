@@ -1,0 +1,51 @@
+  526  ls
+  527  cd command-line-murder-mystery/
+  528  cd mystery/
+  529  head -n 20 people
+  530  head -n 20 vehicles
+  531  ls
+  532  cd ..
+  533  ls
+  534  cat hint2
+  535  cat hint3
+  536  cat hint4
+  537  cat hint5
+  538  cat hint6
+  539  cat hint7
+  540  cat hint8
+  541  ls
+  542  cd mystery/
+  543  ls
+  544  cat people | grep Annabel
+  545  head -n 173 streets.mattapan_street | tail -n
+  546  head -n 173 streets | mattapan_street | tail -n
+  547  head -n 173 streets | mattapan_street | tail -n 10
+  548  1
+  549  cat vehicles | grep -20 L337 
+  550  ls -l
+  551  cat people | grep Annabel
+  552  cat street
+  553  ls
+  554  cat streets
+  555  cd streets/
+  556  ls
+  557  cat Hart_Place | grep line 40
+  558  cat Hart_Place | grep line 40
+  559  cd Hart_Place 
+  560  cat Hart_Place 
+  561  cat Hart_Place | grep line 40
+  562  cat Hart_Place | grep Annabel
+  563  cat Hart_Place | grep Annabel
+  564  cd ..
+  565  ls
+  566  cat vehicles | grep -A 5 L337 | grep Honda -B 1 -A 4 | grep Blue -B 2 -A 3 | grep "Height: 6'" -A 1 -B 4
+  567  ls
+  568  cd memberships/
+  569  ls
+  570  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Joe Germuska
+  571  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  572  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  573  cd ..
+  574  cd ..
+  575  history | tail -n 50 > solution.txt
+ Jeremy Bowers
