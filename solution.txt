@@ -1,0 +1,52 @@
+Jeremy Bowers
+history
+  207  cd ..
+  208  cat hint4
+  209  cat hint5
+  210  cd mystery
+  211  head -n 5 streets
+  212  cd streets
+  213  ls
+  214  head -n 5 Buckingham_Place
+  215  head -n 179 streets/Buckingham_Place| tail -n 1
+  216  head -n 179 Buckingham_Place| tail -n 1
+  217  cd ..
+  218  cd interviews
+  219  cat interview-699607
+  220  cd ..
+  221  ls
+  222  cd vehicles
+  223  cat vehicles | grep L337
+  224  cd ..
+  225  cd mystery
+  226  ls
+  227  cd memberships
+  228  head -n 5 AAA
+  229  cd ..
+  230  cd vehicles
+  231  head -n 10 vehicles
+  232  head -n 15 vehicles
+  233  grep L337 -B 6
+  234  cd documents
+  235  cd fundamentals
+  236  cd command-line-murder-mystery
+  237  cd mystery
+  238  cat vehicles | grep L337ZR9 -B 6
+  239  cat vehicles | grep L337 -A 6
+  240  cat crimescene | grep CLUE
+  241  cd memberships
+  242  ls
+  243  cat AAA | grep Germuska
+  244  cat AAA | grep Bowers
+  245  cat Museum_of_Bash_History | grep Germuska
+  246  cat Museum_of_Bash_History | grep Bowers
+  247  cd ..
+  248  cd ..
+  249  touch solution.txt
+  250  ls
+  251  echo "Jeremy Bowers" >> solution.txt
+  252  cat solution
+  253  cat solution.txt
+  254  echo history | tail -n 50 >> solution.txt
+  255  cat solution.txt
+  256  history | tail -n 50 >> solution.txt
