@@ -1,0 +1,123 @@
+ 1013  git clone git@github.com:nikotsafos/command-line-murder-mystery.git
+ 1014  cd command-line-murder-mystery
+ 1015  ls
+ 1016  cat instructions
+ 1017  ls
+ 1018  cd mystery
+ 1019  ls
+ 1020  cat crimescene
+ 1021  cat crimescene | grep CLUE
+ 1022  ls
+ 1023  cat people
+ 1024  cat peope 
+ 1025  cat people | grep Annabel
+ 1026  ls
+ 1027  cd streets
+ 1028  ls
+ 1029  cat Buckingham_Place
+ 1030  cat Buckingham_Place | grep line 179
+ 1031  cat Buckingham_Place | grep -A 179
+ 1032  grep Buckingham_Place -A 179
+ 1033  cd code
+ 1034  ls
+ 1035  cd wdi20
+ 1036  ls
+ 1037  cd command-line-murder-mystery
+ 1038  ls
+ 1039  cd mystery
+ 1040  ls
+ 1041  cd streets
+ 1042  ls
+ 1043  cd .
+ 1044  cd ..
+ 1045  ls
+ 1046  cd streets
+ 1047  ls
+ 1048  cat Buckingham_Place | grep Buckingham_Place -A 179
+ 1049  ls
+ 1050  cat Buckingham_Place
+ 1051  cat Buckingham_Place | grep -A 179
+ 1052  cat Buckingham_Place | grep 179
+ 1053  cat Buckingham_Place | grep --179
+ 1054  cat Buckingham_Place | grep one -A 179
+ 1055  ls
+ 1056  cd ..
+ 1057  ls
+ 1058  cat people | grep Annabel
+ 1059  cd ..
+ 1060  ls
+ 1061  cd mystery
+ 1062  ls
+ 1063  cd interviews
+ 1064  ls
+ 1065  cat interview-699607
+ 1066  cd ..
+ 1067  ls
+ 1068  cat vehicles
+ 1069  cat vehicles | grep Honda -C 3
+ 1070  cat vehicles | grep L337 -B 2 -A 4
+ 1071  cd streets
+ 1072  cat Hart_Place
+ 1073  cat Hart_Place | grep downhills -A 40
+ 1074  cd ..
+ 1075  ls
+ 1076  cd interviews
+ 1077  ls
+ 1078  cat interview-47246024
+ 1079  cd ..
+ 1080  ls
+ 1081  cd streets
+ 1082  ls
+ 1083  cd ..
+ 1084  ls
+ 1085  cat people
+ 1086  cat people | grep Jacqui -C 5
+ 1087  cd ..
+ 1088  ls
+ 1089  cd mystery
+ 1090  ls
+ 1091  cat vehicles | grep L337 -B 2 -A 4
+ 1092  ls
+ 1093  cat people | grep Jeremy -C 5
+ 1094  cd streets
+ 1095  cat Dunstable_Road
+ 1096  cat Dunstable_Road | grep nebulas -A 284
+ 1097  ls
+ 1098  cd ..
+ 1099  ls
+ 1100  cd interviews
+ 1101  cat interview-9620713
+ 1102  cd ..
+ 1103  cat crimescene | grep CLUE
+ 1104  cat people
+ 1105  cat people | grep Joe -C 5
+ 1106  ls
+ 1107  cd streets
+ 1108  ls
+ 1109  cat Plainfield_Street
+ 1110  cat Plainfield_Street | grep airheads -A 275
+ 1111  cd ..
+ 1112  ls
+ 1113  cd interviews
+ 1114  cat interview-29741223
+ 1115  cd memberships
+ 1116  cd ..
+ 1117  cd memberships
+ 1118  la
+ 1119  ls
+ 1120  cat AAA
+ 1121  cat AAA | grep Jeremy
+ 1122  ls
+ 1123  cat Delta_SkyMiles | grep Jeremy
+ 1124  cat Museum_of_Bash_History | grep Jeremy
+ 1125  cd ..
+ 1126  ls
+ 1127  cat crimescene | grep CLUE
+ 1128  cd memberships
+ 1129  ls
+ 1130  cat library.txt | grep Jeremy
+ 1131  cat Terminal_City_Library | grep Jeremy
+
+
+
+Answer: Jeremy Bowers
