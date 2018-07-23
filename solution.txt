@@ -1,425 +1,122 @@
-    1  ssh-keygen -t rsa -b 4096 -C "nikotsafos@gmail.com"
-    2  (/Users/niko/.ssh/id_rsa)
-    3  cd ~
-    4  pwd
-    5  ssh-keygen -t rsa -b 4096 -C "nikotsafos@gmail.com"
-    6  \neval "$(ssh-agent -s)"eval "$(ssh-agent -s)"\n Agent pid 59566Agent pid 59566
-    7  cd .ssh
-    8  pwd
-    9  touch config
-   10  cd ~
-   11  ls
-   12  ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-   13  cd ~
-   14  pwd
-   15  cd .ssh
-   16  subl config
-   17  eval "$(ssh-agent -s)"\nAgent pid 59566
-   18  eval "$(ssh-agent -s)"
-   19  ssh-add -K ~/.ssh/id_rsa
-   20  pbcopy < ~/.ssh/id_rsa.pub
-   21  cd 1
-   22  cd~
-   23  cd ~
-   24  ls
-   25  cd wdi-fundamentals-memorygame
-   26  git add -A
-   27  git commit -m 'created game logic'
-   28  git push origin master
-   29  git clone https://github.com/nikotsafos/nikotsafos.github.io
-   30  cd nikotsafos.github.io
-   31  echo "Hello World" > index.html
-   32  git add --all
-   33  git commit -m "Initial commit"
-   34  git push -u origin master
-   35  ls
-   36  cd ~
-   37  ls
-   38  pwd
-   39  cd ~
-   40  touch code/
-   41  ls
-   42  cd ..
-   43  cd ~
-   44  ls
-   45  touch code
-   46  ls
-   47  mkdir code
-   48  rm -rf code
-   49  ls
-   50  mkdir code
-   51  ls
-   52  cd cpde
-   53  cd code
-   54  pwd
-   55  mkdir unit1
-   56  ls
-   57  cd unit1
-   58  mkdir command-git-instructions
-   59  ls
-   60  cd command-git-instructions
-   61  cd ..
-   62  open command-git-instructions
-   63  cd command-git-instructions
-   64  ls
-   65  touch README.md
-   66  touch test.txt
-   67  ls
-   68  echo 'hello'
-   69  echo 'hello' > test.txt
-   70  cat test.txt
-   71  echo 'goodbye' > test.txt
-   72  cat test.txt
-   73  echo 'hello' >> test.txt
-   74  cat test.txt
-   75  ls
-   76  echo '#Navigation Terminal\n**cd** -> Change directory\n**ls** -> display what is in current directory with short list\n**l** -> displau complete file information in directory\n**pwd** -> print working directory. the where am i command\n**open** -> command will open a file in default program or directory in finder\n' >> README.md
-   77  atom README.md
-   78  subl README.md
-   79  cd ~
-   80  ls
-   81  cd /code/unit1
-   82  cd /Users/nikotsafos/code/unit1
-   83  cd ~
-   84  cd code/unit1
-   85  pwd
-   86  cd ~
-   87  cd code/unit1
-   88  ls
-   89  cd command-git-instructions
-   90  ls
-   91  subl README.md
-   92  mkdir testdir
-   93  ls
-   94  cat test.txt
-   95  mv test.txt ./testdir/niko.txt
-   96  ls
-   97  cd testdir
-   98  ls
-   99  cd..
-  100  cd ..
-  101  ls
-  102  rm -r testdir
-  103  ls
-  104  man rm
-  105  ls
-  106  touch file.txt
-  107  ls
-  108  echo 'this is a file\nfull of things\nand stuff\nmore\nmore lines\nthrow more dots' > file.txt
-  109  cat file.txt
-  110  cat file.txt | grep 'and stuff'
-  111  cat file.txt | grep 'm'
-  112  touch bob.txt | echo 'new stuff' > bob.txt
-  113  cat file.txt bob.txt
-  114  ls
-  115  git init
-  116  cd ..
-  117  cd command-git-instructions
-  118  git status
-  119  git add README.md
-  120  git status
-  121  git add -A
-  122  got add .
-  123  git add .
-  124  git status
-  125  git commit -m 'created repo'
-  126  git status
-  127  git log
-  128  git checkout -b nikowork
-  129  git status
-  130  git checkout master
-  131  git status
-  132  git add .
-  133  git status
-  134  git commit -m 'added more git commands to list'
-  135  git log
-  136  git remote add origin https://github.com/nikotsafos/command-git-instructions.git\ngit push -u origin master
-  137  git status
-  138  git add .
-  139  git commit -m 'fixed markdown formating for headers'
-  140  git push origin master
-  141  git status
-  142  git add .
-  143  git commit -m 'deleted git checkout info'
-  144  git push origin master
-  145  git status
-  146  git add .
-  147  git commit -m 'added git push'
-  148  git push origin master
-  149  git add .
-  150  git commit -m 'formatting'
-  151  git push origin master
-  152  cd ~
-  153  ls
-  154  pwd
-  155  cd code
-  156  pwd
-  157  cd unit1
-  158  pwd
-  159  git clone git@github.com:nikotsafos/command-line-murder-mystery.git
-  160  ls
-  161  cd command-line-murder-mystery
-  162  subl .
-  163  ls
-  164  cat instructions
-  165  touch soulution.txt
-  166  ls
-  167  git status
-  168  git add .
-  169  ls
-  170  cd mystery
-  171  ls
-  172  cd crimescene
-  173  ls
-  174  cat crimescene
-  175  ls
-  176  cat crimescene | grep 'CLUE'
-  177  ls
-  178  cat people | grep 'CLUE'
-  179  cat people
-  180  cat people | grep 'annabelle'
-  181  ls
-  182  cat people | grep 'Annabelle'
-  183  cat people | grep 'Annabel'
-  184  cd streets
-  185  ls
-  186  cd ..
-  187  ls
-  188  cd memberships
-  189  ls
-  190  cat Delta_SkyMiles
-  191  cd interviews
-  192  ls
-  193  cd ..
-  194  ls
-  195  cd memberships
-  196  ls
-  197  cd ..
-  198  cd interviews
-  199  ls
-  200  cd ..
-  201  ls
-  202  cd ..
-  203  ls
-  204  man grep
-  205  cd mystery
-  206  ls
-  207  cat crimescene | grep 'CLUE'
-  208  man grep
-  209  ls
-  210  cd memberships
-  211  ls
-  212  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History library.txt delta.txt museum.txt | grep -o
-  213  man grep
-  214  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History library.txt delta.txt museum.txt | grep -x
-  215  ls
-  216  cat AAA
-  217  ls
-  218  cat AAA | grep 'Annabel'
-  219  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History library.txt delta.txt museum.txt | grep 'Annabel'
-  220  ls
-  221  cd ..
-  222  ls
-  223  cat crimescene | grep 'CLUE'
-  224  cat people | grep 'Annabel'
-  225  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep 'Annabel'
-  226  ls
-  227  cd memberships
-  228  ls
-  229  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep 'Annabel'
-  230  cat AAA Delta_SkyMiles Terminal_City_Library museum.txt | grep 'Annabel'
-  231  cd ..
-  232  ls
-  233  cd ..
-  234  ls
-  235  mystery
-  236  ls
-  237  cd streets
-  238  cat streets | grep 'Buckingham Place'
-  239  cd ..
-  240  cat streets | grep 'Buckingham Place'
-  241  ls
-  242  cd streets
-  243  ls
-  244  grep 'Buckingham Place'
-  245  pwd
-  246  ls
-  247  cd code
-  248  ls
-  249  cd unit1
-  250  ls
-  251  command-line-murder-mystery
-  252  ls
-  253  cat hint1
-  254  cd mystery
-  255  ls
-  256  head -n 20 people
-  257  man grep
-  258  cd ..
-  259  ls
-  260  cd mystery
-  261  ls
-  262  cd streets
-  263  ls
-  264  cd ..
-  265  ls
-  266  cd mystery
-  267  ls
-  268  cat people | grep 'Annabel'
-  269  ls
-  270  cd streets
-  271  ls
-  272  cd ..
-  273  cat streets | grep -n 179
-  274  ls
-  275  cd streets
-  276  ls
-  277  grep -n 179
-  278  ls
-  279  cd code
-  280  cd unit1
-  281  ls
-  282  cd command-line-murder-mystery
-  283  ls
-  284  cd mystery
-  285  ls
-  286  cd people
-  287  cat people | grep 'Annabel'
-  288  cat people | grep -n 179
-  289  cat people | grep -n 40
-  290  cd interviews
-  291  ls
-  292  cd ..
-  293  ls
-  294  cd ..
-  295  ls
-  296  cat hint2
-  297  hint3
-  298  cat hint3
-  299  ls
-  300  cd mystery
-  301  ls
-  302  cat vehicles
-  303  cat vehicles | grep 'Annabel'
-  304  cat vehicles | grep -n 'Annabel'
-  305  cat vehicles | grep -A 5 'Annabel'
-  306  cat vehicles | grep -B 5 'Annabel'
-  307  cat vehicles | grep 'L2E48EF'
-  308  cd ..
-  309  ls
-  310  cd mystery
-  311  ls
-  312  cd interviews
-  313  ls
-  314  cd ..
-  315  ls
-  316  cat interviews
-  317  cd interviews
-  318  cat interview-L2E48EF
-  319  cat interview-3299
-  320  cat interview | grep 'Annabel'
-  321  pwd
-  322  cd ..
-  323  ls
-  324  cd vehicles
-  325  cd ..
-  326  ls
-  327  cd mystery
-  328  ls
-  329  cat people | grep 'Annabel'
-  330  cd ..
-  331  ls
-  332  cd mystery
-  333  ls
-  334  cd streets
-  335  ls
-  336  cat Buckingham_Place
-  337  cat Buckingham_Place | grep 179
-  338  ls
-  339  man grep
-  340  head -n 179
-  341  pwd
-  342  ls
-  343  cd code
-  344  cd unit1
-  345  ls
-  346  cd command-line-murder-mystery
-  347  ls
-  348  cd mystery
-  349  ls
-  350  cd streets
-  351  ls
-  352  head -n 179 streets
-  353  cd ..
-  354  head -n 179 streets
-  355  head -n 179 Buckingham_Place
-  356  ls
-  357  cd streets
-  358  head -n 179 Buckingham_Place
-  359  ls
-  360  head -n 179 Buckingham_Place
-  361  cd ..
-  362  cd interviews
-  363  ls
-  364  cat interview-699607
-  365  pwd
-  366  cd ..
-  367  cd vehicles
-  368  ls
-  369  cat vehicles | grep 'L337'
-  370  cat vehicles | grep -A 5 'L337'
-  371  ls
-  372  cat crimescene | grep 'CLUE'
-  373  ls
-  374  cat people | grep 'Erika Owens'
-  375  cat vehicles
-  376  cat vehicles | grep -A 5 'L337'
-  377  ls
-  378  cat people | grep 'Jacqui Maher'
-  379  cat people | grep 'Jeremy Bowers'
-  380  cat people | grep 'Joe Germuska'
-  381  cat people | grep 'Erika Owens'
-  382  ls
-  383  cd streets
-  384  head -n 284 Dunstable_Road
-  385  cd ..
-  386  cat interview-9620713
-  387  ls
-  388  cd interview
-  389  cd interviews
-  390  cat interview-9620713
-  391  cd ..
-  392  ls
-  393  cd streets
-  394  ls
-  395  head -n 275 Plainfield_Street
-  396  cd ..
-  397  cd interviews
-  398  cat interview-29741223
-  399  cd ..
-  400  ls
-  401  cat people | grep 'Annabel'
-  402  cd streets
-  403  head -n 40 Hart_Place
-  404  cd ..
-  405  cd interviews
-  406  cat interview-47246024
-  407  ls
-  408  cd ..
-  409  ls
-  410  cd memberships
-  411  ls
-  412  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep 'Jeremy Bowers'
-  413  cd ..
-  414  ls
-  415  cd ..
-  416  ls
-  417  echo 'Jeremy Bowers' > soulution.txt
-  418  cat soulution.txt
-  419  mv soulution.txt solution.txt
-  420  ls
-  421  cat solution.txt
-  422  run history
+ 1013  git clone git@github.com:nikotsafos/command-line-murder-mystery.git
+ 1014  cd command-line-murder-mystery
+ 1015  ls
+ 1016  cat instructions
+ 1017  ls
+ 1018  cd mystery
+ 1019  ls
+ 1020  cat crimescene
+ 1021  cat crimescene | grep CLUE
+ 1022  ls
+ 1023  cat people
+ 1024  cat peope 
+ 1025  cat people | grep Annabel
+ 1026  ls
+ 1027  cd streets
+ 1028  ls
+ 1029  cat Buckingham_Place
+ 1030  cat Buckingham_Place | grep line 179
+ 1031  cat Buckingham_Place | grep -A 179
+ 1032  grep Buckingham_Place -A 179
+ 1033  cd code
+ 1034  ls
+ 1035  cd wdi20
+ 1036  ls
+ 1037  cd command-line-murder-mystery
+ 1038  ls
+ 1039  cd mystery
+ 1040  ls
+ 1041  cd streets
+ 1042  ls
+ 1043  cd .
+ 1044  cd ..
+ 1045  ls
+ 1046  cd streets
+ 1047  ls
+ 1048  cat Buckingham_Place | grep Buckingham_Place -A 179
+ 1049  ls
+ 1050  cat Buckingham_Place
+ 1051  cat Buckingham_Place | grep -A 179
+ 1052  cat Buckingham_Place | grep 179
+ 1053  cat Buckingham_Place | grep --179
+ 1054  cat Buckingham_Place | grep one -A 179
+ 1055  ls
+ 1056  cd ..
+ 1057  ls
+ 1058  cat people | grep Annabel
+ 1059  cd ..
+ 1060  ls
+ 1061  cd mystery
+ 1062  ls
+ 1063  cd interviews
+ 1064  ls
+ 1065  cat interview-699607
+ 1066  cd ..
+ 1067  ls
+ 1068  cat vehicles
+ 1069  cat vehicles | grep Honda -C 3
+ 1070  cat vehicles | grep L337 -B 2 -A 4
+ 1071  cd streets
+ 1072  cat Hart_Place
+ 1073  cat Hart_Place | grep downhills -A 40
+ 1074  cd ..
+ 1075  ls
+ 1076  cd interviews
+ 1077  ls
+ 1078  cat interview-47246024
+ 1079  cd ..
+ 1080  ls
+ 1081  cd streets
+ 1082  ls
+ 1083  cd ..
+ 1084  ls
+ 1085  cat people
+ 1086  cat people | grep Jacqui -C 5
+ 1087  cd ..
+ 1088  ls
+ 1089  cd mystery
+ 1090  ls
+ 1091  cat vehicles | grep L337 -B 2 -A 4
+ 1092  ls
+ 1093  cat people | grep Jeremy -C 5
+ 1094  cd streets
+ 1095  cat Dunstable_Road
+ 1096  cat Dunstable_Road | grep nebulas -A 284
+ 1097  ls
+ 1098  cd ..
+ 1099  ls
+ 1100  cd interviews
+ 1101  cat interview-9620713
+ 1102  cd ..
+ 1103  cat crimescene | grep CLUE
+ 1104  cat people
+ 1105  cat people | grep Joe -C 5
+ 1106  ls
+ 1107  cd streets
+ 1108  ls
+ 1109  cat Plainfield_Street
+ 1110  cat Plainfield_Street | grep airheads -A 275
+ 1111  cd ..
+ 1112  ls
+ 1113  cd interviews
+ 1114  cat interview-29741223
+ 1115  cd memberships
+ 1116  cd ..
+ 1117  cd memberships
+ 1118  la
+ 1119  ls
+ 1120  cat AAA
+ 1121  cat AAA | grep Jeremy
+ 1122  ls
+ 1123  cat Delta_SkyMiles | grep Jeremy
+ 1124  cat Museum_of_Bash_History | grep Jeremy
+ 1125  cd ..
+ 1126  ls
+ 1127  cat crimescene | grep CLUE
+ 1128  cd memberships
+ 1129  ls
+ 1130  cat library.txt | grep Jeremy
+ 1131  cat Terminal_City_Library | grep Jeremy
 
 
 
