@@ -1,50 +1,7 @@
- 2592  cat people | grep Annabel
- 2593  head -n 179 streets/Buckingham_Place | tail -n 1
- 2594  cat interviews/interview-699607
- 2595  cat vehicles| grep L33
- 2596  cat vehicles | grep L337 | grep *9
- 2597  cat vehicles | grep L337*9
- 2598  cat vehicles | grep -C 5 L337
- 2599  cat vehicles | grep -C 5 L337 | grep Honda | grep Blue
- 2600  c
- 2601  cat interviews/interview-699607
- 2602  ls
- 2603  cat vehicles | grep -C 3 L337
- 2604  cat vehicles | grep -A 3 L337
- 2605  cat vehicles | grep -A 3 L337 | grep -A 2 -B 1 Honda
- 2606  cat vehicles | grep -A 3 L337 | grep -A 2 -B 1 Honda | grep -A 1 -B 2 Blue
- 2607* cd wdi/deliverables/7.23/command-line-murder-mystery
- 2608* ls
- 2609* vim solution.txt
- 2610* cd mystery
- 2611* ls
- 2612* echo "cat crimescene | grep CLUE" >> solution.txt
- 2613* cat people | grep Annabel
- 2614* echo "cat people | grep Annabel" >> solution.txt
- 2615* head -n 173 streets/Buckingham_Place | tail -n 1
- 2616* echo head -n 179 streets/Buckingham_Place | tail -n 1
- 2617* echo "head -n 179 streets/Buckingham_Place | tail -n 1" >> solution.txt
- 2618* cat solution.txt
- 2619* head -n streets/Buckingham_Place | tail -n 1
- 2620* head -n 179 streets/Buckingham_Place | tail -n 1
- 2621* echo "cat interviews/interview_699607"
- 2622  cat people | grep Joe
- 2623  cat ../hint7
- 2624  cat ../hint8
- 2625* echo "cat vehicles | grep L337 | grep -A 2 -B 1 Honda| grep -A 1 -B 2 Blue" > solution.txt
- 2626  cat crimescene| grep CLUE
- 2627  cd memberships
- 2628  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History| grep Aron
- 2629  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History| grep -c Aron
- 2630  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History| grep -c Germuska
- 2631  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History| grep -c Bowers
- 2632  cat history | tail -n 1 >> ../solution.txt
- 2633  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History| grep -c Bowers
- 2634  history | tail -n 1 >> ../solution.txt
- 2635  echo "Jeremy Bowers' car matches the description and has all the memership cards so he is the killer"
- 2636  echo "Jeremy Bowers' car matches the description and has all the memership cards so he is the killer" >> ../solution.txt
- 2637  cd ..
- 2638  cat solution.txt
- 2639  cat interviews
- 2640  cat ../instructions
- 2641  history tail -n 50 > solution.txt
+cat crimescene | grep CLUE
+cat people | grep Annabel
+head -n 179 streets/Buckingham_Place | tail -n 1
+cat interviews/669607
+cat vehicles | grep -A 3 L337 | grep -A 2 -B 1 Honda | grep -A 1 -B 2 Blue
+cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c Bowers
+Jeremy Bower's car matches the description and he is a member of all the organizations in the killer's wallet, therefore he is the killer.
