@@ -1,0 +1,81 @@
+  410  ls
+  411  cd ..
+  412  cat people | grep Aron Pilhofer -C 5
+  413  ls
+  414  ls -a
+  415  cat people
+  416  cat people | grep Aron
+  417  cat people | grep Erika Owens
+  418  ls
+  419  cat people | grep Erika
+  420  cat people | grep Heather
+  421  cat people | grep Joe
+  422  cat people | grep Germuska
+  423  cat people | grep Bowers
+  424  cat people | grep Maher
+  425  ls
+  426  c streets
+  427  cd streets
+  428  ls
+  429  head -n 145 Claybourne_Street | tail -n 1
+  430  head -n 98 Trapelo_Street | tail -n 1
+  431  head -n 145 Claybourne_Street | tail -n 1
+  432  head -n 19 Culbert_Street | tail -n 1
+  433  head -n 275  Plainfield_Street | tail -n 1
+  434  head -n 284 Dunstable_Road  | tail -n 1
+  435  head -n 224 Andover_Road | tail -n 1
+  436  ls
+  437  cd ..
+  438  ls
+  439  cd interviews
+  440  ls
+  441  cat interview-1767435
+  442  cat interview-5455315
+  443  cat interview-2939888
+  444  cat interview-29741223
+  445  cat interview-9620713
+  446  cat interview-904020
+  447  cd ..
+  448  ls
+  449  cat people | grep Bowers
+  450  cd memberships
+  451  ls
+  452  cat delta.txt | grep Bowers
+  453  cat delta.txt | grep Bowers -C 10
+  454  cd ..
+  455  ls
+  456  cd ..
+  457  instructions
+  458  ls
+  459  cat instructions
+  460  ls
+  461  cd mystery
+  462  ls
+  463  cat crimescene | grep CLUE
+  464  ls
+  465  cd memberships
+  466  ls
+  467  cat newfile.txt
+  468  cat library.txt | grep Bowers -C 10
+  469  ls
+  470  cd ..
+  471  ls
+  472  cat crimescene
+  473  cat crimescene | grep Bowers
+  474  cd ..
+  475  ls
+  476  cat hint6
+  477  cat hint7
+  478  cat hint8
+  479  instructions
+  480  cat instructions
+  481  history | tail -n 50
+  482  history | tail -n 70
+  483  ls
+  484  cd ..
+  485  ls -a
+  486  cd command-line-murder-mystery/
+  487  ls -a
+  488  echo "Jeremy Bowers" >> solutions.txt
+  489  history | tail -n 80 > solutions.txt
+Jeremy Bowers
