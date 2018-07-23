@@ -1,0 +1,51 @@
+  458    323  cat vehicles
+  459    324  cat vehicles | grep L337
+  460    325  cat vehicles | grep Honda
+  461    326  cat vehicles | grep L337 -c
+  462    327  cat vehicles | grep L337 -c 3
+  463    328  cat vehicles | grep L337 -C 3
+  464    329  cd ..
+  465    330  ls
+  466    331  cd instructions
+  467    332  cat instructions
+  468    333  ls
+  469    334  echo "Jeremy Bowers matches the description and has a blue honda, he's also 6'1" > solution.txt
+  470    335  ls
+  471    336  cat hint 4
+  472    337  cat hint4
+  473    338  cat hint5
+  474    339  hint6
+  475    340  cat hint6
+  476    341  cat hint7
+  477    342  cat hint8
+  478    343  cat vehicles | grep L337 -c 5
+  479    344  ls
+  480    345  cd mystery
+  481    346  ls
+  482    347  cat vehicles | grep L337 -c 5
+  483    348  ls
+  484    349  cd vehicles
+  485    350  ls
+  486    351  cat vehicles | grep L337 -C 5
+  487    352  cd memberships
+  488    353  ls
+  489    354  cat Fitness_Galaxy AAA United_MileagePlus | grep -C
+  490    355  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  491    356  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  492    357  history
+  493  dfa
+  494  cat
+  495  ls
+  496  cd informative_murder_porn
+  497  ls
+  498  cd command-line-murder-mystery
+  499  ls
+  500  history
+  501  history | tail -n 100 solution.txt
+  502  ls
+  503  cat solution.txt
+  504  cat solution.txt
+  505  history | tail -n 50 solution.txt
+  506  cat solution.txt
+  507  history | tail -n 50 > solution.txt
+Jeremy Bowers matches the description and has a blue honda, he's also 6'1
