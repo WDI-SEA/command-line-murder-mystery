@@ -1,0 +1,46 @@
+    1  cd comand_line_murder_mystery
+    2  ls
+    3  cd command-line-murder-mystery
+    4  ls
+    5  cat solution.txt
+    6  cd crimescene
+    7  cd mystery
+    8  ls
+    9  cat crimescene | grep CLUE
+   10  cd people
+   11  cat people | grep Annabe
+   12  cd streets
+   13  cat Hart_place | head -n 40
+   14  cat Buckingham_Place | head -n 179
+   15  cd ..
+   16  cd interviews
+   17  cat interview-6099607
+   18  ls
+   19  cat interview-699607
+   20  cd ..
+   21  cd vehicles
+   22  cat vehhicles
+   23  ls
+   24  cat vehicles | grep L337 -A 5
+   25  cat vehicles | grep L337 -A 5 | grep Blue -A 3 -B 2
+   26  cat vehicles | grep L337 -A 5 | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1
+   27  cat vehicles | grep L337 -A 5 | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | greb "6'"
+   28  cat vehicles | grep L337 -A 5 | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | greb "6'" -A 1 -B 4
+   29  cat vehicles | grep L337 -A 5 | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep "6'" -A 1 -B 4
+   30  pwd
+   31  cd memmberships
+   32  ls
+   33  cd memberships
+   34  ls
+   35  cat AAA Delta_SkyMiles library.txt museum.txt | greb "Jeremy Bowers"
+   36  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Jeremy Bowers"
+   37  cd ..
+   38  history 
+   39  history -n 50 >solutions.txt
+   40  history tail -n 50 > solutions.txt
+   41  ls
+   42  rm solutions.txt
+   43  cd ..
+   44  ls
+   45  rm solutios.txt Solution.txt
+   46  ls
