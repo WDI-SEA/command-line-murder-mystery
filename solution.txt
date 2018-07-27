@@ -1,0 +1,52 @@
+  552  cat hint6
+  553  cat hint7
+  554  ls
+  555  cd mystery/
+  556  ls
+  557  cd vehicles 
+  558  cat vehicles 
+  559  ls
+  560  cd ..
+  561  ls
+  562  cd mystery/
+  563  ls
+  564  cd streets
+  565  cat Hart_place | head -n 40
+  566  cat Buckingham_Place | head -n 179
+  567  cd ..
+  568  cd interviews
+  569  cat interview-6099607
+  570  ls
+  571  cat interview-699607
+  572  cd ..
+  573  cd vehicles
+  574  ls
+  575  cd vehicles 
+  576  cat vehicles 
+  577  ls
+  578  cat vehicles | grep L337 -A 5
+  579  cat vehicles | grep L337 -A 5 
+  580  cat vehicles | grep L337 -A 5 | grep Blue -A 3 -B 2
+  581  cat vehicles | grep L337 -A 5 | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1
+  582  cat vehicles | grep L337 -A 5 | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep "6'"
+  583  cat vehicles | grep L337 -A 5 | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep "6'" -A 1 -B 4
+  584  ls
+  585  cd memberships/
+  586  ls
+  587  cat AAA Delta_SkyMiles  library.txt  museum.txt | greb "Jeremy Bowers"
+  588  cat AAA Delta_SkyMiles  library.txt  museum.txt | grep "Jeremy Bowers"
+  589  ls
+  590  pwd
+  591  cd ..
+  592  ls
+  593  cd ..
+  594  ls
+  595  history >solution.txt
+  596  open solution.txt
+  597  history tail -n 50 >solution.txt
+  598  history tail -n 50 > solution.txt
+  599  history -n 50 > solution
+  600  open solution
+  601  history | tail -n 50 > solution.txt
+
+Jeremy Bowers
