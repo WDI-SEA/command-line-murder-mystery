@@ -1,0 +1,25 @@
+  262  cat vehicles | grep "L337.*9"
+  263  cat vehicles | grep "Blue Honda"
+  264  cd ..
+  265  cat hint6
+  266  cd mystery/
+  267  cat vehicles | grep "Honda" vehicles
+  268  $ cat vehicles | grep "Honda" vehicles
+  269  cat vehicles | grep "Honda" "Blue" "L337"
+  270  cat vehicles | grep "Honda, Blue, L337"
+  271  cat vehicles | grep "Honda\|Blue\|L337"
+  272  $ cat vehicles | grep "Honda" vehicles
+  273  cat vehicles | grep Honda -A 4 -B 1
+  274  cat vehicles | grep Honda -A4 -B1 | grep Blue -A 3 -B2|grep L337 -A5
+  275  cd..
+  276  ls membership/
+  277  cd memberships
+  278  ls
+  279  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | "Joe Germuska"
+  280  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City Library
+  281  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City Library | grep Jeremy Bowers
+  282  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City Library | grep "Jeremy Bowers"
+  283  cd..
+  284  cd ..
+  285  cd ..
+  286  history | tail -n25 >> solution.txt
