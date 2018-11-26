@@ -1,0 +1,26 @@
+Jeremy Bowers is the killer
+  328  grep -B "L337.*9" vehicles
+  329  grep -A 7 "L337.*9" vehicles
+  330  cd ..
+  331  ls
+  332  cd ..
+  333  ls
+  334  cd command-line-murder-mystery
+  335  ls
+  336  cd mystery
+  337  ls
+  338  cd memberships
+  339  ls
+  340  grep "Joe Bowers" *
+  341  ls
+  342  cd ..
+  343  pwd
+  344  cd ..
+  345  ls
+  346  echo Jeremy Bowers is the murderer
+  347  touch solution.txt
+  348  history | tail -n 25 >> solution.txt
+  349  cat solution.txt
+  350  echo "Jeremy Bowers is the killer" > solution.txt
+  351  cat solution.txt
+  352  history | tail -n 25 >> solution.txt
