@@ -1,0 +1,26 @@
+Jeremy Bowers is the murderer.
+  598  cd ..
+  599  ls
+  600  cd vehicles
+  601  cat vehicles
+  602  cat "L337.*9"
+  603  cat vehicles | grep Honday
+  604  cat vehicles | "Height: 6'0"
+  605  cat vehicles | grep "Height: 6'0""
+  606  cat vehicles | grep Honda -A 4 -B 1 | grep Blue
+  607  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2
+  608  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5
+  609  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4
+  610  cd ..
+  611  ls
+  612  cd mystery
+  613  ls
+  614  cd memberships
+  615  ls
+  616  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  617  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  618  cd ..
+  619  cd ..
+  620  ls
+  621  echo "Jeremy Bowers is the murderer." > solution.txt
+  622  history | tail -n 25 >> solution.txt
