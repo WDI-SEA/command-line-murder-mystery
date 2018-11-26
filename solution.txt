@@ -1,0 +1,26 @@
+Jeremy bowers did it
+  339  head -n 40 Hart_place | tail -n 1
+  340  sed -40 
+  341  cd ..
+  342  cat interviews
+  343  cd interviews
+  344  cat interview-47246024
+  345  cat interview-699607
+  346  cd ..
+  347  grep "L337" vehicles
+  348  grep "L337" "Honda" vehicles
+  349  cd ..
+  350  memberships
+  351  cd memberships
+  352  cd mystery
+  353  memebrships
+  354  memberships
+  355  cat memberships
+  356  cd memberships
+  357  cd ..
+  358  cd..
+  359  cd ..
+  360   echo "Jeremy bowers did it" > solution.txt
+  361  ls
+  362  history | tail -n 25
+  363  history | tail -n 25 >> solution.txt
