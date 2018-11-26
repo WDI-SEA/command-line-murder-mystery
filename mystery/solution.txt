@@ -1,0 +1,26 @@
+cat instructions 
+clear
+cd mystery/
+cat crimescene | grep "CLUE"
+ls
+cat people | grep "Annabel"
+ls interviews/
+ls streets
+cat streets/Hart_Place 
+cat streets/Hart_Place | grep "SEE"
+cat interviews/interview-47246024
+cat streets/Buckingham_Place | grep "SEE"
+cat interviews/interview-699607
+cat vehicles | grep "L337.*9"
+cat vehicles | grep -A 5 "L337.*9"
+ls memberships/
+cat memberships/AAA | grep "Joe Germuska"
+cat memberships/Delta_SkyMiles | grep "Joe Germuska"
+cat memberships/Delta_SkyMiles | grep "Jeremy Bowers"
+cat memberships/library.txt | grep "Jeremy Bowers"
+cat memberships/Museum_of_Bash_History | grep "Jeremy Bowers"
+cat memberships/AAA | grep "Jeremy Bowers"
+history > solution.txt 
+vim solution.txt
+
+Jeremy Bowers
