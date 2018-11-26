@@ -1,51 +1,26 @@
-10542  cat crimescene | grep CLUE
-10543  ls
-10544  ls -l
-10545  cat people
-10546  cat people | grep Annabel
-10547  clear
-10548  cat people | grep Annabel
-10549  ls
-10550  cd streets
-10551  ls
-10552  cat Hart_Place
-10553  cat Hart_Place | head -n 179
-10554  cat Hart_Place | head -n 40
-10555  cat Buckingham_Place| head -n 179
-10556  d ..
-10557  cd ..
-10558  interviews
-10559  ls
-10560  cat interview-47246024
-10561  cat interview-699607
-10562  cd ..
-10563  ls
-10564  cat vehicles
-10565  cat vehicles| grep Blue
-10566  cat vehicles| grep L337 -A 6
-10567  cat vehicles| grep L337 -A 5
-10568  cat vehicles| grep -A 5 L337
-10569  cat vehicles| grep -A 5 L337 | grep Honda -B 1 -A 4
-10570  cat vehicles| grep -A 5 L337 | grep Honda -B 1 -A 4 | grep Blue -B 2 -A 3
-10571  cat vehicles| grep -A 5 L337 | grep Honda -B 1 -A 4 | grep Blue -B 2 -A 3 | grep "Height: 6'" -A 1 -B 4
-10572  cat vehicles| grep  L337 | grep Honda -B 1 -A 4 | grep Blue -B 2 -A 3 | grep "Height: 6'" -A 1 -B 4
-10573  cat vehicles| grep L337
-10574  cd ..
-10575  ls
-10576  cd mystery
-10577  ls
-10578  cd memberships
-10579  ls
-10580  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
-10581  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
-10582  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
-10583  ..
-10584  grep -r memberships "Jeremy Bowers"
-10585  grep -r "Jeremy Bowers" memberships
-10586  cd memberships
-10587  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers" grep -c
-10588  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers" -c
-10589  ..
-10590  history
-10591  history | tail -n 50
-Jeremy Bowers
+Jeremy Bowers is the murderer! Arrest him
+10109  cd ..
+10110  ls
+10111  cat vehicles
+10112  cat vehicles | grep Honda
+10113  cat vehicles
+10114  cat vehicles | grep Honda -A 4 -B 1
+10115  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2
+10116  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5
+10117  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4
+10118  cd ..
+10119  cd mystery
+10120  ls
+10121  memberships
+10122  ls
+10123  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+10124  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+10125  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+10126  cd ..
+10127  ..
+10128  clear
+10129  echo "Jeremy Bowers is the murderer! Arrest him > solution.txt\n"
+10130  echo "Jeremy Bowers is the murderer! Arrest him" > solution.txt
+10131  ls
+10132  cat solution.txt
+10133  history | tail -n 25
