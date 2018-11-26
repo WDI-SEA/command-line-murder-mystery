@@ -1,0 +1,26 @@
+Jeremy Bowers is the murderer! Arrest him!
+ 2078  cd interviews/
+ 2079  ls
+ 2080  cat interview-47246024 
+ 2081  cat interview-699607 
+ 2082  cd ..
+ 2083  ls
+ 2084  cat vehicles 
+ 2085  cat vehicles | grep L337
+ 2086  cat vehicles | grep Honda
+ 2087  cat vehicles | grep Honda -A 4 -B 1
+ 2088  cat vehicles | grep Honda -A 4 -B 1 | grep Blue
+ 2089  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2
+ 2090  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5
+ 2091  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5 | grep "6'" -A 1 -B 4
+ 2092  cd ..
+ 2093  ls
+ 2094  echo "Jeremy Bowers is the murderer! Arrest him!" > solution.txt
+ 2095  less solution.txt 
+ 2096  ls
+ 2097  cat solution.txt 
+ 2098  ls
+ 2099  clear
+ 2100  history | tail pn 25
+ 2101  history | tail -n 25
+ 2102  history | tail -n 25 >> solution.txt
