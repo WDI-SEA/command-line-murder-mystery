@@ -1,0 +1,31 @@
+It's Jeremy Bowers
+  327  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 
+  328  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337
+  329  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep -A 5
+  330  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5
+  331  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4
+  332  cd .. 
+  333  ls
+  334  cd mystery
+  335  ls
+  336  cd memberships
+  337  ls
+  338  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  339  cd ..
+  340  ls
+  341  cd .
+  342  cd..
+  343  ls
+  344  cd ..
+  345  ls
+  346  echo "Jeremy Bowers is the murderer! Arrest him"h2 {background: purple; } >> style.css
+"h2 {background: red; } >> style.css > solution.txt
+  347  ls
+  348  touch solution.txt
+  349  "Jeremy Bowers is the murderer"h2 {background: purple; } >> style.css
+"h2 {background: red; } >> style.css > solution.txt
+  350  echo "Jeremy is the murderer"Jeremy Bowers is the murderer"h2 {background: purple; } >> style.css
+"h2 {background: red; } >> style.css > solution.txt > solution.txt
+  351  history | tail -n 25
+  352  echo "It's Jeremy Bowers" > solution.txt
+  353  history | tail -n 30 >> solution.txt
