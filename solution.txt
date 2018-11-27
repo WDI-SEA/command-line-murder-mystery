@@ -1,0 +1,194 @@
+the murderer is Jeremy Bowers
+  
+342  cat mystery/
+  343  cd mystery/
+  344  ls
+  345  cat crimescene 
+  346  cat crimescene | grep "CLUE"
+  347  cat crimescene | grep "Annabel"
+  348  ls
+  349  cat people | grep "Annabel"
+  350  ls
+  351  cat memberships/
+  352  cd memberships/
+  353  ls
+  354  cat Delta_SkyMiles 
+  355  cat Delta_SkyMiles | grep "Annabel"
+  356  cat AAA | grep "Annabel"
+  357  ls
+  358  cd .
+  359  cd .
+  360  cd ..
+  361  ls
+  362  cat crimescene | grep "CLUE"
+  363  cat people | "An.*l"
+  364  cat people | grep "An.*l"
+  365  cat people | grep "An.*bel"
+  366  cat people | grep "An.*bel "
+  367  ls
+  368  cd interviews/
+  369  ls
+  370  cd
+  371  cd Desktop/GA-WDI/
+  372  cd Unit1/
+  373  ls
+  374  cd code-alongs/
+  375  ls
+  376  cd command-line-murder-mystery/
+  377  ls
+  378  cd mystery/
+  379  ls
+  380  cd people 
+  381  cd memberships/
+  382  ls
+  383  cat library.txt | grep "An.*bel"
+  384  cd Terminal_City_Library 
+  385  ls
+  386  cat Terminal_City_Library | grep "An.*bel"
+  387  cd
+  388  cd Desktop/GA-WDI/Unit1/code-alongs/command-line-murder-mystery/
+  389  cd mystery/
+  390  ls
+  391  cd people 
+  392  cat people 
+  393  ls
+  394  cd interviews/
+  395  ls
+  396  cat interview-000276
+  397  cat interview-000296
+  398  cd ..
+  399  ls
+  400  cd crimescene 
+  401  cat crimescene 
+  402  cat crimescene | grep "An.*bel"
+  403  cat crimescene | grep "shots"
+  404  ls
+  405  cat people | grep "An.*bel"
+  406  ls
+  407  cd streets/
+  408  ls
+  409  cat Haley_Street 
+  410  cat Haley_Street | grep "Annabel"
+  411  cat Haley_Street | grep "Anabel"
+  412  cat Haley_Street | grep "Fuglsang"
+  413  ls
+  414  cd ..
+  415  ls
+  416  cd meme
+  417  cd memberships/
+  418  ls
+  419  cat Museum_of_Bash_History | grep "An.*bel"
+  420  cat Terminal_City_Library | grep "An.*bel"
+  421  cat library.txt | grep "An.*bel"
+  422  cat AAA | grep "An.*bel"
+  423  cat Delta_SkyMiles | grep "An.*bel"
+  424  cd ..
+  425  ls
+  426  cat interviews/ | grep "An.*bel"
+  427  ls
+  428  cd ..
+  429  ls
+  430  cat hint 1
+  431  cat hint1
+  432  ls
+  433  cd mystery/
+  434  ls
+  435  head -n 20 people
+  436  ls
+  437  cd streets/
+  438  cd ..
+  439  cat people | grep "An.*bel"
+  440  ls
+  441  cd streets/
+  442  ls
+  443  cat Hart_Place | grep " line 40"
+  444  cat Hart_Place | grep "line 40"
+  445  cat Hart_Place | grep Lline 40"
+cat Hart_Place | grep "40"
+cat Hart_Place | line 40
+ls
+
+  446  cat Hart_Place | grep "line 40"
+  447  cat Hart_Place | grep "40"
+  448  cat Hart_Place | line 4"
+  449  cat Hart_Place Line 40
+  450  cat Hart_Place -n 40
+  451  ls
+  452  cd ..
+  453  ls
+  454  head -n 20 people 
+  455  cd ..
+  456  cat hint2
+  457  cat hint3
+  458  ls
+  459  cd mystery/
+  460  ls
+  461  head -n 20 vehicles 
+  462  cat vehicles | grep "6'.*"
+  463  cat vehicles | grep "Name:.*6'"
+  464  cat vehicles | grep "Name:.*6'"
+  465  ls
+  466  head -n 20 vehicles 
+  467  cat vehicles | grep "Owner: An.*6'"
+  468  cat vehicles | grep "Owner: An.bel"
+  469  cd ..
+  470  ls
+  471  hint5
+  472  cat hint5
+  473  cat hint4
+  474  ls
+  475  cd mystery/
+  476  ls
+  477  cd interviews/
+  478  ls
+  479  cat interview* | grep "Annabel"
+  480  cd ..
+  481  ls
+  482  cd streets
+  483  ls
+  484  cat Hart_Pl
+  485  cat Hart_Place | line 40
+  486  cat Hart_Place | Line 40
+  487  head -n 40 Hart_Place 
+  488  ls
+  489  head -n 179 tail -1 Buckingham_Place 
+  490  cd ..
+  491  ls
+  492  cd interviews/
+  493  cat interview-47246024
+  494  cat interview-699607
+  495  cd ..
+  496  ls
+  497  cat vehicles | grep "L337.*9"
+  498  head -n 20 vehicles 
+  499  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6"
+  500  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4
+  501  cd ..
+  502  ls
+  503  cd mys
+  504  cd mystery/
+  505  ls
+  506  cd mem
+  507  cd memberships/
+  508  ls
+  509  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  510  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  511  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  512  cd ..
+  513  ls
+  514  cat people | grep "Jeremy Bowers"
+  515  cat people | grep "Jacqui Maher"
+  516  cd streets/
+  517  head -n 224 Andover_Road
+  518  head -n 284 Dunstable_Road 
+  519  cd ..
+  520  ls
+  521  cd interviews/
+  522  cat interview-904020
+  523  cat interview-9620713
+  524  cd ..
+  525  ls
+  526  cat people | grep "Jeremy Bowers"
+  527  cat people | grep "Jacqui Maher"
+
+
