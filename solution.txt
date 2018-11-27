@@ -1,0 +1,25 @@
+Jeremy Bowers is the murderer.
+  329  cat people
+  330  ls
+  331  cd vehicles
+  332  grep height 6 *
+  333  ls
+  334  cd ..
+  335  ls
+  336  ls
+  337* echo 
+  338  echo Jeremy Bowers is the murderer. > solution.txt
+  339  ls
+  340  cat solution.txt
+  341  history
+  342  cat vehicles | grep Honda
+  343  cat vehicles | grep Honda | grep Blue -A 3 -B 2
+  344  cat vehicles | grep Honda | grep Blue -A 3 -B 2 | grep l337 -A 5
+  345  cat vehicles | grep Honda | grep Blue -A 3 -B 2 | grep l337 -A 5 | grep Height: 6 -A 1 -B 4
+  346  cd ..
+  347  cd mystery
+  348  ls
+  349  memberships
+  350  ls
+  351  grep Bowers *
+  352  grep Germuska *
