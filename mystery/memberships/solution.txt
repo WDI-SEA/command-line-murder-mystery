@@ -1,0 +1,501 @@
+murder is Jeremy Bowers
+   16  ls
+   17  rm -R .git/
+   18  ls
+   19  cd project folder
+   20  touch.git/
+   21  ls
+   22  touch .git/
+   23  touch .git
+   24  ls
+   25  rm .git
+   26  ls
+   27  clear
+   28  touch .git/
+   29  ls
+   30  pwd
+   31  touch .git
+   32  ls
+   33  touch .git/
+   34  ls -a
+   35  ls
+   36  git init
+   37  cd .git/
+   38  cd .git
+   39  ls
+   40  open .git/
+   41  pwd
+   42  clear
+   43  git init
+   44  cd ..
+   45  ls
+   46  rm -r newtogit
+   47  ls
+   48  cd fundamentals
+   49  touch .git/
+   50  ls -a
+   51  touch .git
+   52  ls
+   53  ls -a
+   54  git init
+   55  cd .git
+   56  open .git
+   57  rm .git
+   58  ls -a
+   59  touch -h
+   60  touch h
+   61  ls
+   62  rm h
+   63  ls
+   64  touch .git/ -h
+   65  touch .git/
+   66  mkdir .git/
+   67  ls
+   68  rm -h
+   69  ls
+   70  rm -r -h
+   71  rm h
+   72  rm  -h
+   73  ls
+   74  rm -r
+   75  rm -R -h
+   76  ls
+   77  cd ..
+   78  ls
+   79  rm -R fundamentals
+   80  ls
+   81  mkdir fundamentals
+   82  ls
+   83  mkdir .git/
+   84  ls
+   85  ls -a
+   86  cd .git
+   87  pwd
+   88  git init
+   89  cd
+   90  cd desktop
+   91  mkdir GA-Blog
+   92  cd GA-Blog
+   93  pwd
+   94  git init
+   95  git status
+   96  touch post.txt
+   97  ls
+   98  git status
+   99  git add post.txt
+  100  git status
+  101  git add
+  102  git add post.txt
+  103  la
+  104  ls
+  105  git commit -m "created a new post.txt file"
+  106  git log
+  107  which subl
+  108  subl .
+  109  cd /usr
+  110  open .
+  111  which subl
+  112  subl .
+  113  which subl
+  114  subl .
+  115  cd /
+  116  ls
+  117  cd Users/
+  118  cd kristentaylor/
+  119  ls
+  120  cd wdi-22-code/
+  121  ls
+  122  cd Unit1/
+  123  clear
+  124  pwd
+  125  ls
+  126  cd hello-world-practice/
+  127  ls
+  128  open index.html 
+  129  open -A "Sublime Text"
+  130  open -a "Sublime Text"
+  131  alias
+  132  alias subl "open -a "Sublime Text""
+  133  alias subl 'open -a "Sublime Text"'
+  134  alias blah "ls"
+  135  open ./~bashrc
+  136  open ./~bash_profile
+  137  open .~/bashrc
+  138  open ~/.bashrc
+  139  open ~/.bash_*
+  140  open ~/.bash_profile
+  141  touch ~/.bash_profile
+  142  open ~/.bash_profile
+  143  subl 
+  144  open ~/.bashrc
+  145  source ~/.bashrc
+  146  touch ~/.bashrc
+  147  open ~/.bashrc
+  148  subl
+  149  subl
+  150  open ~/.bash_profile
+  151  subl
+  152  subl .
+  153  cd ..
+  154  ~
+  155  cd ..
+  156  cd ..
+  157  ~
+  158  cd wdi22
+  159  mkdir wdi22
+  160  cd wdi22
+  161  pwd
+  162  ls
+  163  touch hello.html
+  164  ls
+  165  ls -a
+  166  ls -l
+  167  clear
+  168  mkdir code-alongs
+  169  ls
+  170  cp hello.html code-alongs
+  171  ls
+  172  cp hello.html code-alongs
+  173  ls
+  174  code-alongs
+  175  cd code-alongs
+  176  ls
+  177  cd ..
+  178  ls
+  179  hello.html
+  180  ls
+  181  rm hello.html
+  182  ls
+  183  touch world.html
+  184  ls
+  185  mv worl.html code-alongs
+  186  ls
+  187  cd code-alongs
+  188  ls
+  189  cd ..
+  190  open hello.html
+  191  ls
+  192  cd code-alongs
+  193  ls
+  194  open hello.html
+  195  open -a "Sublime Text" hello.html
+  196  pwd
+  197  touch style.css
+  198  echo "hello"
+  199  echo "h1 { color: blue; }" >style.css
+  200  cat style.css
+  201  echo "h21 { color: red; }" >>style.css
+  202  cat style.css
+  203  history
+  204  touch books.txt
+  205  ls
+  206  subl .
+  207  cat books.txt
+  208  cat books.txt
+  209  cat books.txt
+  210  head books.txt
+  211  cat books.txt
+  212  tail -n 2 books.txt
+  213  head -n 2 books.txt
+  214  tail -n 2 books.txt
+  215  tail -n 3 books.txt
+  216  cat books.txt | grep John
+  217  cat books.txt "Lewis C"
+  218  cat books.txt | grep "Lewis C"
+  219  ls
+  220  cd books.txt
+  221  ls
+  222  cat books.txt | grep "L.*T"
+  223  cat books.txt | grep ":.*Glass
+  224  cat books.txt | grep ":.*Glass
+  225  cat books.txt | grep ":.*Glass"
+  226  git clone <paste>
+  227  git clone https://github.com/ktaylor75/command-line-murder-mystery.git
+  228  cat instructions
+  229  ls
+  230  cd command-line-murder-mystery
+  231  cat instructions
+  232  ls
+  233  cd mystery
+  234  ls
+  235  cat crimescene
+  236  cat crimescene | grep "CLUE"
+  237  ls
+  238  cd people
+  239  cat people
+  240  ls
+  241  cat people | grep "Annabel"
+  242  clear
+  243  ls
+  244  cd ..
+  245  ls
+  246  cat mystery
+  247  cd mystery
+  248  ls
+  249  cd ..
+  250  cat crimescene | grep "clue"
+  251  ls
+  252  cd mystery
+  253  ls
+  254  cat crimescene | grep "clue"
+  255  ls
+  256  cat crimescene
+  257  ls
+  258  cat people | "Annabel"
+  259  cat people | "Annabell"
+  260  cat people | "Annabelle"
+  261  cat people
+  262  cat crimescene | grep "CLUE"
+  263  cat people | grep Annabel
+  264  cat people | grep "Annabel C"
+  265  ls
+  266  cat Annabel
+  267  cat people | "New Zealand"
+  268  cat people | grep "New Zealand"
+  269  cat people | grep blond
+  270  cat people | grep "blond"
+  271  ls
+  272  cat people | grep "Annabel"
+  273  cat people | grep "blond"
+  274  ls
+  275  cat interviews
+  276  cd interviews
+  277  ls
+  278  cat interviews | "Annabel"
+  279  cat interviews | grep "blond"
+  280  cat interviews | grep "Annabel"
+  281  cls
+  282  ls
+  283  cd ..
+  284  ls
+  285  cd crimescene
+  286  cat crin=mescene
+  287  cat crimescene
+  288  ls
+  289  cat crimescene | grep "CLUE"
+  290  ls
+  291  cat people | grep "Annabel"
+  292  cat Annabel Sun
+  293  cat people | "DETAILS"
+  294  cat people | grep "DETAILS
+  295  ls
+  296  cd ..
+  297  ls
+  298  ..
+  299  ls
+  300  cat peope
+  301  cat people
+  302  cd command-line-murder-mystery
+  303  pwd
+  304  cd ..
+  305  ls
+  306  cd hello-world-practice/
+  307  ls
+  308  ..
+  309  cd ..
+  310  cd ..
+  311  ls
+  312  cd ..
+  313  ls
+  314  cd wdi22
+  315  ls
+  316  cd code-alongs/
+  317  ls
+  318  rm wdi-22-code
+  319  cd ..
+  320  ls
+  321  cd ..
+  322  ls
+  323  rm wdi-22-code
+  324  cd wdi22
+  325  ls
+  326  cdd ..
+  327  cd ..
+  328  ls
+  329  rm -a wdi-22-code
+  330  ls
+  331  rm a- wdi-22-code
+  332  cd wdi22
+  333  ls
+  334  cd code-alongs
+  335  ls
+  336  cd command-line-murder-mystery
+  337  ls
+  338  cat hint2
+  339  cat mystery | grep "CLUE"
+  340  cd mystery
+  341  cat mystery | grep "CLUE"
+  342  cls
+  343  ls
+  344  cat crimescene
+  345  cat crimescene | grep "CLUE"
+  346  cat people | grep "Annabel"
+  347  cat people | grep "blond"
+  348  ls
+  349  cat memberships
+  350  cd memberships
+  351  ls
+  352  cat AAA
+  353  cat AAA | grep "Annabel"
+  354  ls
+  355  cat delta.txt
+  356  cat delta.txt | grep "Annabel"
+  357  cat delta.txt | grep "Annabel"
+  358  cd memberships
+  359  cd ..
+  360  ls
+  361  cat streets
+  362  cd streets
+  363  ls
+  364  cd ..
+  365  cat mystery | grep "clue"
+  366  cat mystery | grep "CLUE"
+  367  ls
+  368  cat crimescene | grep "CLUE"
+  369  cat streets | grep "New Zealand"
+  370  cd streets
+  371  cat streets | grep "New Zealand"
+  372  ls
+  373  cd ..
+  374  ls
+  375  cd vehicles
+  376  cat vehicles
+  377  cat vehicles | "Annabel"
+  378  ls
+  379  cd interviews
+  380  ls
+  381  cd ..
+  382  ls
+  383  cd memberships
+  384  ls
+  385  cat AAA
+  386  cd memberships | Annabel
+  387  cd memberships | grep "Annabel"
+  388  cd memberships | cd ..
+  389  cd..
+  390  cd ..
+  391  ls
+  392  cd people | grep Annabel
+  393  cd people
+  394  cd people | grep "Annabel"
+  395  ls
+  396  cat people | grep "Annabel"
+  397  cat interviews | grep line 179
+  398  cat interviews
+  399  cd interviews
+  400  cat interviews | grep line 179
+  401  cat interviews | grep "line 179"
+  402  cat interviews | grep "Buckingham Place"
+  403  cd streets
+  404  cd ..
+  405  cd streets
+  406  head -n 40 Hart Place
+  407  head -n 40 Hart_Place
+  408  head -n 40 Hart_Place |tail -n 1
+  409  head -n 179 Buckingham_Place
+  410  cat interview-47246024
+  411  cd ..
+  412  ls
+  413  cd interviews
+  414  cat interviews-699607
+  415  interview-699607
+  416  ls
+  417  cat interview-699607
+  418  cd ..
+  419  ls
+  420  cd vehicles
+  421  cat vehicles
+  422  cat vehicles | grep Honda -A 4 -B 1
+  423  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2
+  424  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 |grep L337 -A 5
+  425  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 |grep L337 -A 5 | grep "Height: 6" -A 1 B -4"
+  426  cd vehicles
+  427  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 |grep L337 -A 5 | grep "Height: 6" -A 1 B -4"
+  428  cd vehicles
+  429  cd vehicles
+  430  ls
+  431  cat vehicles
+  432  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 |grep L337 -A 5 | grep "Height: 6" -A 1 B -4"
+  433  cd vehicles
+  434  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 |grep L337 -A 5 | grep "Height: 6" -A 1 B -4"
+  435  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 |grep L337 -A 5 | grep "Height: 6" -A 1 B -4"
+  436  cd vehicles
+  437  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 |grep L337 -A 5 | grep "Height: 6" -A 1 B -4
+  438  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  439  cd
+  440  cd ..
+  441  cd..
+  442  cd
+  443  ..
+  444  la
+  445  la
+  446  ls
+  447  ls
+  448  cd index.html
+  449  ls
+  450  ls
+  451  cd ..
+  452  ls
+  453  cd ..
+  454  ls
+  455  cd ..
+  456  ;s
+  457  lsl
+  458  ls
+  459  cd wdi22
+  460  ls
+  461  cd code-alongs
+  462  ls
+  463  cd command-line-murder-mystery
+  464  history | tail -n 25 >> solution.txt
+  465  cat solution.txt
+  466  cat solution.txt 
+  467  cat vehicles
+  468  cd
+  469  ls
+  470  cd wdi22
+  471  ls
+  472  cd code-alongs
+  473  ls
+  474  cd command-line-murder-mystery
+  475  ls
+  476  cd mystery
+  477  ls
+  478  git add .
+  479  git add.
+  480  git add .
+  481  git commit -m"Adding solution.txt to show murderer"
+  482  cls
+  483  ks
+  484  ls
+  485  cat crimescene | get "CLUE"
+  486  cat crimescene | grep "CLUE"
+  487  ls
+  488  cat people
+  489  cat people | grep "Annabel
+  490  cat people | grep "Annabel"
+  491  cd
+  492  cd..
+  493  cd
+  494  ls
+  495  cd wdi22
+  496  ls
+  497  cd code-alongs
+  498  ls
+  499  cd command-line-murder-mystery
+  500  ls
+  501  cd mystery
+  502  ls
+  503  cat crimescene | grep "CLUE"
+  504  ls
+  505  cat people | grep "Annabel"
+  506  ls
+  507  history
+  508  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  509  pwd
+  510  cd memberships
+  511  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  512  echo "murderer is Jeremy Bowers">> solutions txt
+  513  echo "murder is Jeremy Bowers" >> solution.txt
+  514  history
+  515  history >> solution.txt
