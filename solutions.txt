@@ -1,0 +1,500 @@
+  237  cd ..
+  238  cp -r jokes copy_of_jokes
+  239  cd~
+  240  ls
+  241  cd~
+  242  cd ~
+  243  ls
+  244  cd Downloads
+  245  ls World
+  246  ls -r World
+  247  mv World ~/
+  248  pwd
+  249  cd ~
+  250  ls
+  251  ls World
+  252  ls -r World
+  253  ls -R World
+  254  pwd
+  255  cd World
+  256  pwd
+  257  mkdir Antarctica/
+  258  ls World
+  259  ls
+  260  ls South_America
+  261  mv \South_America\*.* North_America
+  262  pwd
+  263  mv -r South_America North_America
+  264  help mv
+  265  man mv
+  266  mv North_America\ South_America\
+  267  mv North_America South_America/
+  268  cd North_America
+  269  pwd
+  270  ls
+  271  ls South_America
+  272  cd South_America
+  273  ls North_America
+  274  pwd
+  275  pwd
+  276  pwd
+  277  /Users/Michael/Desktop/KybdPort2Off.sh ; exit;
+  278  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  279  path
+  280  $PATH
+  281  brew ls uhubctl
+  282  brew --cache
+  283  brew link uhubctl
+  284  find usr/local -name uhubctl
+  285  find usr/bin -name uhubctl
+  286  find usr/sbin -name uhubctl
+  287  find ~Library/Caches/Homebrew -name uhubctl
+  288  pwd
+  289  find ~//Library/Caches/Homebrew -name uhubctl
+  290  find ~//Library/Caches/Homebrew -name uhubctl
+  291  ls
+  292  cd Library
+  293  cd Caches
+  294  ls
+  295  cd Homebrew
+  296  ls
+  297  find -name uhubctl
+  298  find \ -name uhubctl
+  299  man fi9nd
+  300  man find
+  301  find uhubctl -name
+  302  find /Homebrew -name uhubctl
+  303  find /Homebrew/ -name uhubctl
+  304  cd ..
+  305  find /Homebrew -name uhubctl
+  306  ls
+  307  cd ~
+  308  find /usr/local -name uhubctl
+  309  $P
+  310  $PATH
+  311  brew unlink uhubctl
+  312  brew link uhubctl
+  313  uhubctl -l 64-1.1 -a 0 -p 3
+  314  uhubctl -l 64-1.1 -a 1 -p 3
+  315  uhubctl -l 64-1.1 -a 1 -p 3
+  316  pwd 
+  317  cd fundamentals
+  318  ls
+  319  cd wdi-fundamentals-memorygame
+  320  ls
+  321  mkdir memory_game
+  322  ls
+  323  cd memory_game
+  324  ls
+  325  cd ~
+  326  cd ShellScripts
+  327  ls
+  328  mv UHub_Kbd_Port_2_Off.sh USBOff.sh
+  329  ls
+  330  mv UHub_Kbd_Port_2_On.sh USBOn.sh
+  331  ls
+  332  type USBOff.sh
+  333  print USBOff.sh
+  334  run USBOff
+  335  run USBOff.sh
+  336  USBOff
+  337  USBOff.sh
+  338  ./USBOff
+  339  chmod +x USBOff.sh
+  340  ./USBOff.sh
+  341  chmod +x USBOn.sh
+  342  ./USBOn.sh
+  343  mv USBOff.sh.app/Contents/MacOS/USBOff.sh
+  344  mv USBOff.sh USBOff.app
+  345  mv USBOff.app /Contents/MacOS/USBOff.app
+  346  mv USBOff.app ~/Contents/MacOS/USBOff.app
+  347  cd~
+  348  cd ~
+  349  ls
+  350  cd..
+  351  cd..
+  352  cd ..
+  353  ls
+  354  cd ..
+  355  ls
+  356  cd System
+  357  ls
+  358  cd Libary
+  359  cd Library
+  360  ls
+  361  cd ShellScriprts
+  362  cd ShellScripts
+  363  cd ~
+  364  cd ShellScripts
+  365  ls
+  366  mv USBOff.app /Desktop
+  367  mv USBOff.app USBOff.command
+  368  ls
+  369  cp USBOff.command /Desktop
+  370  cd ..
+  371  pwd
+  372  cd ..
+  373  pwd
+  374  cd ..
+  375  pwd
+  376  cd usr/local
+  377  ls
+  378  cd share
+  379  ls
+  380  cd ..
+  381  ls
+  382  pwd
+  383  cd bin
+  384  ls
+  385  chmod +x appify
+  386  pwd
+  387  ls
+  388  lspwd
+  389  pwd
+  390  ls appify
+  391  ls -w
+  392  ls -l
+  393  ls
+  394  mv appify.sh appify
+  395  chmod +x appify
+  396  appify USBOff.sh USBOff
+  397  cd ~
+  398  cd ShellScripts
+  399  appify USBOff.sh USBOff
+  400  ls
+  401  mv USBOff.command USBOff.sh
+  402  ls
+  403  appify USBOff.sh USBOff
+  404  del
+  405  rm USBOff.app
+  406  ls
+  407  rm USBOff.app
+  408  cd USBOff.app
+  409  ls
+  410  cd..
+  411  cd ..
+  412  ls
+  413  rmdir USBOff.app
+  414  rm -r USBOff.app
+  415  ls
+  416  appify USBOff.sh USBOff
+  417  mv USBOff.app ~
+  418  cd ~
+  419  ls
+  420  ls
+  421  chmod +x USBOff.app
+  422  chmod +x USBOff.app
+  423  ./USBOff
+  424  ls
+  425  USBOff.app
+  426  USBOff
+  427  ./USBOff.sh
+  428  ls
+  429  cd ShellScripts
+  430  ls
+  431  ./USBOff
+  432  ./USBOff.sh
+  433  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  434  /Users/Michael/Desktop/KybdPort2Off.sh ; exit;
+  435  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  436  /Users/Michael/Desktop/KybdPort2Off.sh ; exit;
+  437  /Users/Michael/USBOff.app/Contents/MacOS/USBOff ; exit;
+  438  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  439  /Users/Michael/USBOff.app/Contents/MacOS/USBOff ; exit;
+  440  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  441  /usr/local/bin/appify ; exit;
+  442  /Users/Michael/USBOff.app/Contents/MacOS/USBOff ; exit;
+  443  /Users/Michael/USBOff.app/Contents/MacOS/USBOff ; exit;
+  444  /Users/Michael/USBOff.app/Contents/MacOS/USBOff ; exit;
+  445  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  446  /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -f USBOff.app
+  447  /Users/Michael/Desktop/USBOff ; exit;
+  448  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  449  /Users/Michael/Desktop/USBKOff.app/Contents/Resources/script ; exit;
+  450  /Users/Michael/Desktop/USBOff ; exit;
+  451  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  452  /Users/Michael/Desktop/USBOff ; exit;
+  453  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  454  /Applications/USBKOff.app/Contents/Resources/script ; exit;
+  455  /Users/Michael/Desktop/KybdPort2Off.sh ; exit;
+  456  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  457  /Applications/USBKOff.app/Contents/Resources/script ; exit;
+  458  /Applications/USBKOff.app/Contents/Resources/script ; exit;
+  459  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  460  /Users/Michael/Desktop/USBOff ; exit;
+  461  /Users/Michael/Desktop/KybdPort2Off.sh ; exit;
+  462  /Users/Michael/Desktop/USBOff ; exit;
+  463  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  464  /Users/Michael/Desktop/KybdPort2Off.sh ; exit;
+  465  /Users/Michael/Desktop/KybdPort2On.sh ; exit;
+  466  pwd
+  467  cd ~
+  468  pwd
+  469  ls
+  470  cd GitRepository
+  471  ls
+  472  pwd
+  473  git add -A
+  474  git commit -m 'created game logic'
+  475  git push origin master
+  476  ls
+  477  pwd
+  478  cd ..
+  479  ls
+  480  ls ./fundamentals
+  481  cd /fundamentals/wdi-fundamentas-memorygame
+  482  cd fundamentals
+  483  ls
+  484  cd wdi-fundamentals-memorygame
+  485  ls
+  486  cd memory_game
+  487  ls
+  488  cd ..
+  489  ls
+  490  rem ./js
+  491  del ./js
+  492  rm -r ./js
+  493  ls
+  494  cd memory_game
+  495  ls
+  496  git add -A
+  497  git commit -m 'created game logic'
+  498  git push origin master
+  499  /Users/Michael/Desktop/USBOff ; exit;
+  500  /Users/Michael/Desktop/USBOff ; exit;
+  501  history
+  502  pwd
+  503  ls
+  504  cd code/Unit1
+  505  ls
+  506  cd command-line-murder-mystery/
+  507  shell
+  508  cd
+  509  cd code/Unit1
+  510  cd command-line-murder-mystery/
+  511  ls
+  512  cat cheatsheet.md
+  513  touch solutions.txt
+  514  ls
+  515  cd mystery
+  516  ls
+  517  cat crimescene
+  518  cat crimescene | grep CLUE
+  519  pwd
+  520  cat crimescene | grep CLUE
+  521  ls
+  522  ls
+  523  cat people
+  524  cat people | grep Annabel
+  525  ls
+  526  cat memberships | grep AAA
+  527  cd memberships
+  528  ls
+  529  cat AAA
+  530  cat AAA && Delta_Skymiles | grep 
+  531  ls
+  532  cd delta.txt
+  533  cat delta.txt
+  534  ls
+  535  man grep
+  536  cd AAA
+  537  grep AAA | DeltaSkymiles
+  538  clear
+  539  pwd
+  540  cd ..
+  541  pwd
+  542  ls
+  543  cd memberships
+  544  ls
+  545  cat Museum_of_Bash_History
+  546  cat Museum_of_Bash_History | grep Annable
+  547  cat Museum_of_Bash_History | grep Annabel
+  548  ls
+  549  cat AAA | grep Annabel
+  550  cat Delta_Skymiles | Annabel
+  551  cat Delta_Skymiles | grep Annabel
+  552  ls
+  553  cd ..
+  554  ls
+  555  cd streets
+  556  ls
+  557  ls
+  558  pwd
+  559  cd ..
+  560  ls
+  561  cd streets
+  562  cd Buckingham_Place 
+  563  cat Buckingham_Place
+  564  cat Buckingham_Place | grep ATM
+  565  cat Buckingham_Place | grep camera
+  566  cat Buckingham_Place | grep surveillance
+  567  pwd
+  568  cd ll
+  569  cd ll
+  570  cd ..
+  571  ls
+  572  cd interviews
+  573  ls
+  574  cd ..
+  575  ls
+  576  cd crimescene
+  577  cat crimescene | grep CLUE
+  578  cd ..
+  579  ls
+  580  cd mystery
+  581  ls
+  582  cd streets
+  583  cat hart_Place
+  584  cat hart_Place | grep atm
+  585  cat hart_Place | grep AAA
+  586  cat hart_Place | grep camera
+  587  cat hart_Place | grep Annabel
+  588  cat hart_Place | grep museum
+  589  cat hart_Place | grep spotter
+  590  grep streets 
+  591  grep streets spotter
+  592  grep spotter streets
+  593  man greo
+  594  man grep
+  595  pwd
+  596  cd ..
+  597  ls
+  598  cd ..
+  599  ls
+  600  cat hint1
+  601  cat hint2
+  602  cat crimescene | grep CLUE
+  603  cat hint3
+  604  ls
+  605  cd mystery
+  606  head -n20 vehicles
+  607  cat vehicles
+  608  cat vehicles | grep 'height:6*'
+  609  cat vehicles | grep 'height:6 *'
+  610  cat vehicles | grep "height:6 *"
+  611  cat vehicles | grep "height: 6 *"
+  612  cat vehicles | grep "height: 6*"
+  613  cat vehicles | grep "Height: 6*"
+  614  cat vehicles | grep "Height: 6 *"
+  615  cat vehicles
+  616  cd ..
+  617  ls
+  618  cd mystery
+  619  ls
+  620  cd memberships
+  621  ls
+  622  cat AAA
+  623  ls
+  624  cd 1.txt
+  625  cat library.txt
+  626  ls
+  627  cat Museum_of_Bash_History 
+  628  ls
+  629  cat library.txt 
+  630  ls
+  631  cd ..
+  632  ls
+  633  cd vehicles
+  634  cd interviews
+  635  cat interviews
+  636  cat interviews
+  637  ls
+  638  cat vehicles
+  639  ls
+  640  ls
+  641  cd ..
+  642  ls
+  643  cd ..
+  644  cat vehicles
+  645  ls
+  646  cd mystery
+  647  ls
+  648  cd streets
+  649  ls
+  650  cat hart_place
+  651  cd ..
+  652  ls
+  653  cd interviews
+  654  ls 47246024
+  655  ls
+  656  ls interview-47246024
+  657  cat interview-47246024
+  658  cd ..
+  659  ls
+  660  cd streets
+  661  ls mattapam
+  662  cd interviews
+  663  ls
+  664  cd ..
+  665  ls
+  666  cd interviews
+  667  ls interview-9437737
+  668  cat interview-9437737
+  669  cd ..
+  670  ls
+  671  cd streets
+  672  cd steets
+  673  cat Buckingham_Place | grep c
+  674  cat Buckingham_Place | grep c*
+  675  cat Buckingham_Place | grep SEE
+  676  cd ..
+  677  ls
+  678  cd interviews
+  679  cat interview-699607
+  680  pwd
+  681  ls
+  682  cd ..
+  683  ls
+  684  cat vehicles
+  685  cat vehicles | grep "L337" && Honda && Blue
+  686  cat vehicles | grep "License Plate: L337" && "Make: Honda" && "Color: Blue"
+  687  man sort
+  688  head vehicles -n5 | grep "L337" && "Honda"
+  689  head -n20 vehicles | grep "L337"
+  690  head -n20 vehicles
+  691  cat vehicles |  head -n5
+  692  cat vehicles |  head -n5 && grep "honda"
+  693  ls
+  694  cd crimescene
+  695  ls
+  696  cd ll
+  697  cd ..
+  698  ls
+  699  cat hint5
+  700  cat hint6
+  701  cat hint7
+  702  cd vehicles
+  703  ls
+  704  cd mystery
+  705  grep -A 5 "L337" mystery/vehicles
+  706  grep -A 5 "L337" vehicles
+  707  cd ..
+  708  ls
+  709  cat hint7
+  710  cat hint8
+  711  grep -A 5 "L337" mystery/vehicles
+  712  cat hint8
+  713  cat AAA Delta_Skymiles Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  714  cat AAA Delta_Skymiles Museum_of_Bash_History | grep -c "Jeremy Bowers"[
+  715  pwd
+  716  cd memberships
+  717  ls
+  718  cd mystery
+  719  ls
+  720  cat AAA Delta_Skymiles Museum_of_Bash_History | grep -c "Jeremy Bowers"[
+  721  cat AAA Delta_Skymiles Museum_of_Bash_History | grep memberships -c "Jeremy Bowers"
+  722  cat AAA Delta_Skymiles Museum_of_Bash_History | grep memberships  "Jeremy Bowers"
+  723  cat memberships AAA Delta_Skymiles Museum_of_Bash_History | grep "Jeremy"
+  724  cat memberships AAA Delta_Skymiles Museum_of_Bash_History | grep Jeremy
+  725  pwd
+  726  ls
+  727  cat AAA Delta_Skymiles Museum_of_Bash_History | grep "Jeremy"
+  728  pwd
+  729  cd memberships
+  730  cat AAA Delta_Skymiles Museum_of_Bash_History | grep "Jeremy"
+  731  ls
+  732  cd ..
+  733  ls
+  734  cd ..
+  735  ls
+  736  history >> solutions.txt
