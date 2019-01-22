@@ -1,0 +1,500 @@
+  187  rm post.txt
+  188  ls
+  189  git init
+  190  git status
+  191  touch post.txt
+  192  ls
+  193  git status
+  194  git add post.txt
+  195  git status
+  196  git commit -m "created a new post.txt file"
+  197  git log
+  198  ls
+  199  cd fundamentals
+  200  git clone https://github.com/Kilwand/wdi-fundamentals-memorygame.git
+  201  ls
+  202  cd wdi-fundamentals-memorygame
+  203  ls
+  204  pwd
+  205  ls
+  206  cd fundamentals
+  207  ls
+  208  cd wdi-fundamentals-memorygame
+  209  ls
+  210  mkdir memory_game
+  211  ls
+  212  ls
+  213  cd fundamentals
+  214  ls
+  215  cd wdi-fundamentals-memorygame
+  216  ls
+  217  cd memory_game
+  218  ls
+  219  mkdir css
+  220  ls
+  221  ls
+  222  cd css
+  223  ls
+  224  rm untitled
+  225  ls
+  226  pwd
+  227  cd desktop
+  228  ls
+  229  cd General Assembly
+  230  cd General Assembly
+  231  mv General Assembly
+  232  ls
+  233  cd General_Assembly
+  234  s
+  235  ls
+  236  cd Pre-Work
+  237  ls
+  238  cd ..
+  239  ls
+  240  mkdir js
+  241  cd js
+  242  ls
+  243  touch main.js
+  244  ls
+  245  ls
+  246  cd fundamentals
+  247  ls
+  248  cd wdi-fundamentals-memorygame
+  249  ls
+  250  rm memory_game
+  251  rm -r memory_game
+  252  ls
+  253  ls
+  254  mkdir memory_game
+  255  ls
+  256  cd memory_game
+  257  pwd
+  258  ls
+  259  cd downloads
+  260  ls
+  261  mv images /Users/gavincallander/fundamentals/wd
+  262  ls
+  263  cd fundamentals
+  264  ls
+  265  cd wdi-fundamentals-memorygame
+  266  ls
+  267  cd memory_game
+  268  ls
+  269  cd fundamentals
+  270  ls
+  271  cd wdi-fundamentals-memorygame/memory_game
+  272  ls
+  273  cd css
+  274  touch style.css
+  275  ls
+  276  cd fundamentals
+  277  ls
+  278  cd wdi-fundamentals-memorygame/memory_game
+  279  ls
+  280  cd cdd
+  281  cd css
+  282  ls
+  283  ls
+  284  cd fundamentals
+  285  ls
+  286  wdi-fundamentals-memorygame
+  287  cd wdi-fundamentals-memorygame
+  288  ls
+  289  cd memory_game
+  290  ls
+  291  cd ..
+  292  cd..
+  293  cd ..
+  294  ls
+  295  cd wdi-fundamentals-memorygame
+  296  ls
+  297  mkdir memory_git
+  298  ls
+  299  cd memory_git
+  300  ls
+  301  git init
+  302  git status
+  303  ls
+  304  git add -A
+  305  git commit -m 'created game logic'
+  306  git push origin master
+  307  cd ..
+  308  ls
+  309  ls
+  310  cd fundamentals/wdi-fundamentals-memorygame
+  311  ls
+  312  git add -A
+  313  git commit -m 'created game logic'
+  314  git push origin master
+  315  git push origin master
+  316  git statu
+  317  git status
+  318  git push
+  319  ls
+  320  git push origin master
+  321  git push origin master
+  322  ls
+  323  cd fundamentals/wdi-fundamentals-memorygame
+  324  ls
+  325  git init
+  326  git status
+  327  git add -A
+  328  git commit -m 'created game logic'
+  329  git push origin master
+  330  pwd
+  331  ls
+  332  cd fundamentals/wdi-fundamentals-memorygame
+  333  ls
+  334  git init
+  335  git add -A
+  336  git commit -m 'created game logic'
+  337  git push origin master
+  338  ls
+  339  pwd
+  340  cd fundamentals/wdi-fundamentals-memorygame
+  341  ls
+  342  cd add -A
+  343  git init
+  344  cd add -A
+  345  git add -A
+  346  git commit -m 'created game logic'
+  347  git push origin master
+  348  git add -A
+  349  git commit -m 'created game logic'
+  350  git push origin master
+  351  git add -A
+  352  git commit -m 'created game logic'
+  353  git push origin master
+  354  ls
+  355  cd Code/Unit1/living-room
+  356  ls
+  357  code books.txt
+  358  pwd
+  359  ls
+  360  cat books.txt
+  361  clear
+  362  cat books.txt
+  363  echo 'hello, world'
+  364  echo "this bookshelf flexes under the weight of the books it holds."
+  365  echo "this bookshelf flexes under the weight of the books it holds."
+  366  echo "this bookshelf flexes under the weight of the books it holds." > bookshelf.txt
+  367  ls
+  368  cat bookshelf.txt
+  369  echo "this sentence is too long." > bookshelf.txt
+  370  ls
+  371  cat bookshelf.txt
+  372  echo "this is another line." >> bookshelf.txt
+  373  clear
+  374  cat bookshelf.txt
+  375  cat books.txt bookshelf.txt
+  376  clear
+  377  cd Code/Unit1/living-room
+  378  ls
+  379  cat books.txt
+  380  cat books.txt | sort
+  381  cat books.txt
+  382  cat books.txt | sort > sorted-books.txt
+  383  ls
+  384  cldar
+  385  clear
+  386  ls
+  387  clear
+  388  cat books.txt | grep Mil
+  389  clear
+  390  mv sorted-books.txt ../sorted.txt
+  391  cd ..
+  392  ls
+  393  cd living-room
+  394  s
+  395  ls
+  396  cp bookshelf.txt second-bookshelf.txt
+  397  ls
+  398  cat bookshelf.txt second-bookshelf.txt
+  399  rm second-bookshelf.txt
+  400  ls
+  401  ls
+  402  clear
+  403  ls
+  404  pwd
+  405  clear
+  406  cd ..
+  407  ls
+  408  rm -rf living-room/
+  409  ls
+  410  clear
+  411  ls -la *.txt
+  412  cd
+  413  ls
+  414  pwd
+  415  clear
+  416  man cd
+  417  man cd
+  418  man chown
+  419  man chmov
+  420  man whoami
+  421  id -un
+  422  ls
+  423  pwd
+  424  clear
+  425  cd
+  426  ls
+  427  pwd
+  428  cd
+  429  cldasr
+  430  clear
+  431  ls
+  432  cd Code
+  433  ls
+  434  cd Unit1
+  435  ls
+  436  git clone https://github.com/GavinCallander/command-line-murder-mystery.git
+  437  ls
+  438  cd command-line-murder-mystery
+  439  ls
+  440  ls -la
+  441  cat readme.md
+  442  ls
+  443  cat instructions
+  444  ls
+  445  touch solution.txt
+  446  ls
+  447  clear
+  448  run history
+  449  history
+  450  history
+  451  clear
+  452  clear
+  453  ls
+  454  cd Code
+  455  ls
+  456  cd Unit1
+  457  ls
+  458  cd command-line-murder-mystery/
+  459  ls
+  460  cat mystery
+  461  cd mystery
+  462  ls
+  463  cd crimescene
+  464  cat crimescene
+  465  clear
+  466  pwd
+  467  grep 'clue'
+  468  ls
+  469  cd Code/Unit1/
+  470  ls
+  471  cd command-line-murder-mystery/
+  472  ls
+  473  cd mystery
+  474  ls
+  475  cat crimescene | grep 'CLUE'
+  476  cd .. 
+  477  cat streets
+  478  cat streets
+  479  ls
+  480  cd mystery
+  481  ls
+  482  cat streets
+  483  cd streets
+  484  ls
+  485  clear
+  486  ls
+  487  cd ..
+  488  clear
+  489  ls
+  490  cat interviews
+  491  cd interviews
+  492  ls
+  493  cd ..
+  494  ls
+  495  cat interviews | grep "barista"
+  496  ls
+  497  cat crimescene | grep "CLUE"
+  498  cat people | grep 
+  499  cat people | grep "Annabel" 
+  500  cat memberships | 
+  501  ls
+  502  cd Code/Unit1/
+  503  ls
+  504  cd command-line-murder-mystery/
+  505  ls
+  506  cd mystery/
+  507  ls
+  508  cd memberships
+  509  ls
+  510  cat Museum_of_Bash_History 
+  511  cat Delta_SkyMiles 
+  512  clear
+  513  ls
+  514  man grep
+  515  ls
+  516  cd Museum_of_Bash_History 
+  517  cat Museum_of_Bash_History 
+  518  clear
+  519  ls
+  520  cd ..
+  521  ls
+  522  cat crimescene | grep "clue"
+  523  ls
+  524  cat crimescene | grep "CLUE"
+  525  cd people | Annabel
+  526  cat people | grep "Annabel"
+  527  cd streets
+  528  ls
+  529  cat Buckingham_Place
+  530  cat buckingham place | grep "New Zealand"
+  531  cat Buckingham_Place | grep "New Zealand"
+  532  ls
+  533  cd ..
+  534  ls
+  535  cd streets
+  536  la
+  537  ls
+  538  cat Buckingham_Place | grep "surveillance"
+  539  ls
+  540  cd ..
+  541  ls
+  542  cat crimescene | grep "CLUE"
+  543  cat people | grep "Annabel"
+  544  cd ..
+  545  ls
+  546  cd mystery
+  547  ls
+  548  cd streets
+  549  ls
+  550  cat Mattapan Street | grep "ATM"
+  551  cat Mattapan_Street | grep "ATM"
+  552  clear
+  553  ls
+  554  clear
+  555  cd ..
+  556  ls
+  557  cd ..
+  558  ls
+  559  cat hint2
+  560  cat hint5
+  561  ls
+  562  cd mystery
+  563  ls
+  564  cd vehicles
+  565  ls
+  566  cat vehicles
+  567  cat vehicles | grep "6'"
+  568  ls
+  569  cat vehicles
+  570  cat vehicles | grep -r "Height: 6"
+  571  cat vehicle
+  572  cat vehicles
+  573  ls
+  574  cd memberships
+  575  ls
+  576  cat AAA
+  577  cat AAA | grep "Annabel"
+  578  cd ..
+  579  ls
+  580  cat vehicles | grep "Annabel"
+  581  cd ..
+  582  ls
+  583  cat hint 8
+  584  cat hint8
+  585  cat hint7
+  586  ls
+  587  cat hint1
+  588  ls
+  589  man head
+  590  cat hint2
+  591  cat hint3
+  592  ls
+  593  cd mystery
+  594  ls
+  595  head memberships
+  596  head people
+  597  head -n 20 people
+  598  head -n 20 | grep "Annabel"
+  599  cd streets
+  600  ls
+  601  cat Hart_Place
+  602  head -n 30  Hart_Place 
+  603  head -n 20 Hart_Place
+  604  cd ..
+  605  ls
+  606  cd interviews
+  607  ls
+  608  ls #47246024
+  609  ls Interview-#47246024
+  610  ls "Interview-#47246024"
+  611  cd ..
+  612  ls
+  613  cd streets
+  614  ls
+  615  cat Mattapan_Street
+  616  cat Mattapan_Street | grep "SEE"
+  617  cd ..
+  618  ls
+  619  cd interviews
+  620  ls
+  621  ls "Interview-#9437737"
+  622  cd ..
+  623  ls
+  624  cd streets
+  625  ls
+  626  cat Buckingham_Place | grep "SEE"
+  627  ls
+  628  cd ..
+  629  ls
+  630  cd interviews
+  631  ls
+  632  cd ..
+  633  ls
+  634  cd vehicles
+  635  ls
+  636  cat vehicles | grep "L337 *9"
+  637  cat vehicles | grep "L337*9"
+  638  cat vehicles | grep "L337"
+  639  cat vehicles | grep "L337" && grep "Honda" && grep "Blue"
+  640  cd ..
+  641  ls
+  642  cd mystery
+  643  ,s
+  644  ls
+  645  cat vehicles
+  646  cat vehicles | grep "L337" && "color: Blue" && " Make: Honda"
+  647  head -n 10 | grep "L337"
+  648  head -n 1
+  649  head -n 20 vehicles | grep "L337"
+  650  clear
+  651  head -n 20 vehicles | grep "L337"
+  652  cat vehicles 
+  653  clear
+  654  cat vehicles | head -n 20 | grep "L337"
+  655  cd ..
+  656  ls
+  657  cd mystery
+  658  ls
+  659  cd memberships
+  660  ls
+  661  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe"
+  662  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy"
+  663  cd ..
+  664  ls
+  665  cd ..
+  666  ls
+  667  history
+  668  cd ..
+  669  ls
+  670  cd command-line-murder-mystery/
+  671  s
+  672  ls
+  673  clear
+  674  ls
+  675  cd mystery
+  676  ls
+  677  cd memberships
+  678  ls
+  679  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy"
+  680  history
+  681  ls
+  682  cd ..
+  683  ls
+  684  cd ..
+  685  ls
+  686  history > solution.txt
