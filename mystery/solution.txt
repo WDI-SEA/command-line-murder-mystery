@@ -1,0 +1,301 @@
+    1  clear
+    2  lx
+    3  ls
+    4  clear
+    5  cd wdi-fundamentals
+    6  ls
+    7  clear
+    8  cd c://
+    9  clear
+   10  pwd
+   11  open .
+   12  ls
+   13  clear
+   14  open
+   15  open.
+   16  open .
+   17  ls
+   18  ls -la
+   19  ls -l
+   20  clear
+   21  cd documents
+   22  pwd
+   23  cd users
+   24  clear
+   25  cd /
+   26  ls
+   27  cd ~
+   28  cd Users
+   29  open .
+   30  .
+   31  clear
+   32  ls
+   33  open ./applications
+   34  pwd
+   35  ls
+   36  nautilus applications
+   37  cd
+   38  clear
+   39  mkdir code
+   40  ls
+   41  cd code
+   42  nautilus
+   43  open code
+   44  open .
+   45  clear
+   46  mkdir unit1
+   47  cd unit1
+   48  mkdir living_room
+   49  ls
+   50  cd living_room
+   51  ls
+   52  ls -la
+   53  touch books.txt
+   54  lsd
+   55  ls
+   56  ls -la
+   57  code books.txt
+   58  cd /mnt/c/users/
+   59  ls
+   60  cd o_jam
+   61  mkdir code
+   62  mkdir living_room
+   63  ls
+   64  clear
+   65  cd code
+   66  ls
+   67  cd /mnt/c/users/o_jam
+   68  ls
+   69  cd code
+   70  mkdir living_room
+   71  cd living_room
+   72  clear
+   73  ls
+   74  touch books.txt
+   75  ls
+   76  code books.txt
+   77  echo 'hello, world'
+   78  echo "this bookshelf flexes under the weight of tthe books it holds"
+   79  cd .
+   80  cd /mnt/c/users/o_jam/code
+   81  mkdir unit1
+   82  ls
+   83  cd unit1
+   84  mkdir living_room
+   85  cd living_room
+   86  touch book.txt
+   87  code book.txt
+   88  ls
+   89  echo "this bookshelf flexes under the weight of the books it holds"
+   90  touch bookshelf.txt
+   91  cat books.txt
+   92  ls
+   93  cat book.txt
+   94  cat books.txt | sort
+   95  cat book.txt | sort
+   96  clear
+   97  cat book.txt
+   98  cat book.txt | sort > sorted_books.txt
+   99  code books.txt
+  100  cat books.txt | grep Mil
+  101  mv sortedbooks.txt ../sorted.txt
+  102  mv sorted_books.txt ../sorted.txt
+  103  ls ..
+  104  cp bookshelf.txt second_bookshelf.txt
+  105  ls
+  106  cat second_bookshelf.txt
+  107  cat bookshelf
+  108  rm second_bookshelf.txt
+  109  code bookshelf.txt
+  110  cat bookshelf.txt
+  111  ls
+  112  cat bookshelf.txt
+  113  cd ..
+  114  clear
+  115  ls -la *.txt
+  116  cd 
+  117  cd /mnt/c/users/o_jam
+  118  cd cdoe
+  119  cd code
+  120  cd unit1
+  121  export MY_SETTINGS='code .'
+  122  $MY_SETTINGS 
+  123  man cd
+  124  man
+  125  man cd
+  126  man chown
+  127  chmod chown
+  128  chown chown
+  129  whoami chown
+  130  man chown
+  131  man whoami
+  132  whoami
+  133  clear
+  134  cd ..
+  135  cd unit1
+  136  pwd
+  137  git clone https://github.com/orjames/command-line-murder-mystery.git
+  138  ls
+  139  rm -rf living_room
+  140  ls
+  141  cd command-line-murder-mystery/
+  142  ls -la
+  143  ls
+  144  clear
+  145  ls -la
+  146  car readme.md
+  147  cat README.md 
+  148  cat instructions
+  149  ls
+  150  cd mystery
+  151  ls
+  152  cd ..
+  153  touch solution.txt
+  154  history
+  155  clear
+  156  ls
+  157  cat instructions
+  158  cd mystery
+  159  ls
+  160  cd ..
+  161  cd /mnt/c/users/o_jam/
+  162  history
+  163  clear
+  164  ls
+  165  cd code
+  166  cd unit1
+  167  ls
+  168  cd command-line-murder-mystery/
+  169  ls
+  170  cat instructions
+  171  cd mystery
+  172  ls
+  173  grep "CLUE"
+  174  cat interview | grep "CLUE"
+  175  cat interview
+  176  cat interviews | grep "CLUE"
+  177  cd interviews
+  178  ls
+  179  cat interviews | grep "clue"
+  180  grep "CLUE"
+  181  interviews | grep "clue"
+  182  inerviews | grep clue
+  183  interviews | grep clue
+  184  cd ..
+  185  interviews | grep clue
+  186  grep clue /interviews
+  187  grep -r clue
+  188  cd interviews
+  189  grep -r clue
+  190  history
+  191  clear
+  192  -r interviews | grep clue
+  193  interviews -r | grep clue
+  194  grep -r clue .
+  195  grep clue .
+  196  . grep clue
+  197  grep -nr clue .
+  198  grep -nr CLUE .
+  199  grep -nr "CLUE" .
+  200  ls
+  201  . | grep CLUE
+  202  . grep CLUE 
+  203  cd interview-071537
+  204  cat interview-071537
+  205  cd .. 
+  206  l
+  207  . grep CLUE
+  208  cat crimescene | grep CLUE
+  209  ls
+  210  cat people
+  211  clear
+  212  ls
+  213  cat crimescene | grep CLUE
+  214  cd memberships
+  215  ls
+  216  cat AAA
+  217  clear
+  218  cat crimescene | grep CLUE
+  219  cd ..
+  220  cat crimescene | grep CLUE
+  221  cat people | grep Annabel
+  222  ls
+  223  cd streets
+  224  ls
+  225  cat Hart_Place
+  226  cat Hart_Place | grep blond
+  227  cat buckingham_palace | grep blond
+  228  ls
+  229  cat buckingham_place | grep blond
+  230  cat Buckingham_Place | grep blond
+  231  cat Haley_Street | grep blond
+  232  cat Haley_Street | grep accent
+  233  cat Buckingham_Place | grep accent
+  234  cat Hart_Place | grep accent
+  235  cat Haley_Street | grep New
+  236  cat Hart_Place | grep New
+  237  cat Buckingham_Place | grep New
+  238  cat Buckingham_Place | grep zealand
+  239  cat Hart_Place | grep zealand
+  240  cat Haley_Street | grep zealand
+  241  cat Haley_Street | grep Zealand
+  242  cat Hart_Place | grep Zealand
+  243  cat Buckingham_Place | grep Zealand
+  244  cd ..
+  245  ls
+  246  cd ..
+  247  ls
+  248  cat hint1
+  249  ls
+  250  cat instructions
+  251  ls
+  252  cd mystery
+  253  ls
+  254  cat crimescene | grep CLUE
+  255  cd streets
+  256  ls
+  257  cd ..
+  258  cat people | grep Annabel
+  259  ls
+  260  cd streets
+  261  head -n 40 Hart_Place
+  262  head -n 179 Buckingham_Place
+  263  cd..
+  264  ls
+  265  cd ..
+  266  ls
+  267  cd interviews
+  268  ls
+  269  cat interview-47246024
+  270  cat interview-699607
+  271  ls
+  272  cd ..
+  273  ls
+  274  cat vehicles
+  275  clear
+  276  ls
+  277  cat vehicles | grep L337
+  278  cat vehicles | grep L337 && Honda
+  279  cat vehicles | grep Honda
+  280  clear
+  281  cat vehicles | grep L337
+  282  cat vehicles | grep Make Honda License Plate L337
+  283  ls
+  284  head -20
+  285  head -n 20 vehicles
+  286  cat vehicles | grep "Make: Honda Color: Yellow"
+  287  cat vehicles | grep -A L337 
+  288  cat vehicles | grep -A "L337" 
+  289  cat vehicles | grep -A 5 "L337" 
+  290  ls
+  291  cd memberships
+  292  ls
+  293  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep -A 5 "Joe Germuska"
+  294  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep -A 5 "Jeremy Bowers"
+  295  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -A 5 "Jeremy Bowers"
+  296  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -A 5 "Joe Germuska"
+  297  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -A 5 "Jeremy Bowers"
+  298  cd ..
+  299  history
+  300  history > solution.txt
+Jeremy Bowers
