@@ -1,1 +1,507 @@
+    1  sudo apt-get update
+    2  sudo apt-get update --fix-missing
+    3  sudo apt install firefo
+    4  sudo apt install firefox
+    5  sudo apt install gpa
+    6  sudo apt install gedit
+    7  sudo apt install transmission
+    8  sudo apt install clementine
+    9  sudo apt install openshot
+   10  echo Buy more cookies, STAT!
+   11  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   12  sudo apt-get install apt-transport-https
+   13  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   14  sudo apt-get update
+   15  sudo apt-get install sublime-text
+   16  pwd
+   17  cd /home/userpc/Desktop
+   18  ls
+   19  cd world
+   20  cd World
+   21  ls
+   22  cd World
+   23  ls
+   24  cd Africa
+   25  ls
+   26  cd /home/userpc/Desktop
+   27  ls
+   28  cd World
+   29  ls
+   30  cd Europe
+   31  ls
+   32  ls -a
+   33  cd Desktop
+   34  touch joke.txt
+   35  joke.txt
+   36  ls
+   37  open joke.txt
+   38  cat joke.txt
+   39  joke.txt
+   40  ls
+   41  open joke.txt
+   42  gedit joke.txt
+   43  nano joke.txt
+   44  cat joke.txt
+   45  mkdir funny_things
+   46  mv joke.txt funny_things/
+   47  ls
+   48  cd funny_things
+   49  ls
+   50  cp joke.txt joke2.txt
+   51  ls
+   52  cd /home/userpc/Desktop
+   53  ls
+   54  cd World
+   55  ls
+   56  cd World
+   57  ls
+   58  mkdir Antarctica
+   59  ls
+   60  cd South_America
+   61  ls
+   62  pwd
+   63  mkdir wdi-fundamentals
+   64  ls
+   65  git --version
+   66  sudo apt install git
+   67  sudo apt install gimp
+   68  sudo apt install mixxx
+   69  sudo apt install ardour
+   70  sudo apt install hydrogen
+   71  ls
+   72  cd wdi-fundamentals
+   73  ls
+   74  mkdir git-practice
+   75  ls
+   76  cd git-practice
+   77  pwd
+   78  git init
+   79  git status
+   80  ls -a
+   81  git add README.txt
+   82  git status
+   83  touch README.txt
+   84  git add README.txt
+   85  git status
+   86  git commit -m "readme file created"
+   87  git status
+   88  git commit
+   89  git config user.name userpc
+   90  git commit -m "readme file created"
+   91  git status
+   92  git config --global user.name "userpc"
+   93  git commit -m "created readme"
+   94  git commit
+   95  git status
+   96  git log
+   97  git commit -m
+   98  git commit -m "created readme"
+   99  git config --global user.name "userpc" commit -m "created readme"
+  100  git config user.name "userpc"
+  101  git status
+  102  git commit
+  103  git config --global user.email "userpc@mail.com"
+  104  git commit
+  105  ls
+  106  ls _a
+  107  ls -a
+  108  mkdir src
+  109  ls
+  110  cd src
+  111  touch file1.txt
+  112  touch file2.txt
+  113  touch file3.txt
+  114  pwd
+  115  cd /home/userpc/wdi-fundamentals/git-practice/srcd
+  116  cd /home/userpc/wdi-fundamentals/git-practice/src
+  117  cd /home/userpc/wdi-fundamentals/git-practice/
+  118  git add src
+  119  git status
+  120  git commit
+  121  cd src
+  122  ls
+  123  file1.txt
+  124  nano file1.txt
+  125  git diff
+  126  git commit
+  127  git status
+  128  nano file1.txt
+  129  git status
+  130  git diff
+  131  git log
+  132  git add file1.txt
+  133  git status
+  134  git commit
+  135  git log
+  136  cd /home/userpc/wdi-fundamentals/git-practice/
+  137  git clone https://github.com/dbillings2019/wdi-fundamentals-memorygame.git
+  138  cd /home/userpc/wdi-fundamentals
+  139  ls
+  140  ls -a
+  141  pwd
+  142  ls
+  143  cd wdi-fundamentals
+  144  ls
+  145  cd wdi-fundamentals-memorygame
+  146  ls
+  147  cd
+  148  ls -a
+  149  cd wdi-fundamentals
+  150  ls -a
+  151  cd wdi-fundamentals-memorygame
+  152  ls -a
+  153  git status
+  154  git add
+  155  git add index.html
+  156  git add css/
+  157  git add images/
+  158  git status
+  159  git commit
+  160  git push
+  161  cd
+  162  ls -a
+  163  cd wdi-fundamentals
+  164  ls
+  165  cd wdi-fundamentals-memorygame
+  166  ls
+  167  git status
+  168  git add -A
+  169  git commit
+  170  git status
+  171  git push origin master
+  172  git status
+  173  ls
+  174  cd wdi-fundamentals
+  175  ls _s
+  176  ls -a
+  177  cd wdi-fundamentals-memorygame
+  178  ls
+  179  git status
+  180  git add -A
+  181  git status
+  182  git commit
+  183  git push origin master
+  184  sudo apt install wine
+  185  ls -a
+  186  cd wdi-fundamentals
+  187  ls
+  188  cd wdi-fundamentals-memorygame
+  189  ls
+  190  git status
+  191  git add -A
+  192  git commit
+  193  git push origin master
+  194  cd wdi-fundamentals
+  195  cd wdi-fundamentals-memorygame
+  196  ls
+  197  git status
+  198  git add -A
+  199  git commit
+  200  git push origin master
+  201  git status
+  202  cp
+  203  sudo apt update
+  204  lsb_release -a
+  205  sudo apt install rednotebook
+  206  sudo apt install solitaire
+  207  sudo apt install aisleriot
+  208  sudo apt install libreoffice
+  209  sudo apt install kazam
+  210  sudo apt install wifite
+  211  history
+  212  history
+  213  pwd
+  214  open
+  215  open .
+  216  open.
+  217  open~
+  218  open /home/userpc
+  219  open. /home/userpc
+  220  ls
+  221  ls -a
+  222  open .
+  223  ls -l
+  224  ls -a -l
+  225  clear
+  226  ls -l Documents
+  227  ls -l home
+  228  ls -l /home/userpc
+  229  clear
+  230  pwd
+  231  cd /
+  232  ls
+  233  cd /home/userpc
+  234  pwd
+  235  ls
+  236  ls -a
+  237  clear
+  238  cd /
+  239  ls
+  240  cd
+  241  ls
+  242  pwd
+  243  clear
+  244  open.
+  245  open cd
+  246  cd ..
+  247  pwd
+  248  ls
+  249  cd userpc
+  250  cd
+  251  ls
+  252  pwd
+  253  clear
+  254  open .
+  255  open ./home
+  256  xdg-open
+  257  xdg-open /hoe
+  258  xdg-open /homee
+  259  xdg-open /home
+  260  cd
+  261  clear
+  262  ls -a
+  263  mkdir code
+  264  ls
+  265  cd code
+  266  mkdir Unit1
+  267  cd unit1
+  268  cd Unit1
+  269  mkdir living-room
+  270  cd living-room
+  271  ls
+  272  ls -la
+  273  touch books.txt
+  274  ls -la
+  275  code books.txt
+  276  cd
+  277  clear
+  278  subl books.txt
+  279  cd code
+  280  ls
+  281  cd Unit1
+  282  ls
+  283  cd living-room
+  284  clear
+  285  pwd
+  286  cat books.txt
+  287  clear
+  288  echo 'hello, world'
+  289  echo "this bookshelf flexes under the weight of the books it holds"
+  290  clear
+  291  echo "this bookshelf flexes under the weight of the books it holds."
+  292  echo "this bookshelf flexes under the weight of the books it holds." > bookshelf.txt
+  293  ls
+  294  cat bookshelf.txt
+  295  echo "this sentence is too long" > bookshelf.txt
+  296  cat bookshelf.txt
+  297  echo "this is another line" >> bookshelf.txt
+  298  cat bookshelf.txt
+  299  cd /code/Unit1/living-room
+  300  cd /code/Unit1/
+  301  cd
+  302  cd /home/userpc/code/Unit1/living-room
+  303  ls
+  304  cat books.txt | sort
+  305  cat books.txt
+  306  cat books.txt | sort > sorted-books.txt
+  307  ls
+  308  cat sorted-books.txt
+  309  cat books.txt|grep Mil
+  310  clear
+  311  mv sorted-books.txt ../sorted.txt
+  312  ls
+  313  ls..
+  314  ls ..
+  315  cp bookshelf.txt second-bookshelf.txt
+  316  ls
+  317  cat bookshelf.txt second-bookshelf.txt
+  318  rm second-bookshelf.txt
+  319  ls
+  320  rm -rf living-room
+  321  ls
+  322  cd ..
+  323  rm -rf living-room
+  324  ls
+  325  ls -la
+  326  ls -la *.txt
+  327  cd
+  328  cd code/Unit1/
+  329  cler
+  330  clear
+  331  export MY_SETTINGS='code .'
+  332  $MY_SETTINGS
+  333  man cd
+  334  man pwd
+  335  man chown
+  336  man whoami
+  337  id -un
+  338  man id
+  339  cd
+  340  clear
+  341  ls
+  342  cd code
+  343  cd Unit1
+  344  ls
+  345  pwd
+  346  git clone https://github.com/dbillings2019/command-line-murder-mystery.git
+  347  ls -la
+  348  ls
+  349  cd command-line-murder-mystery/
+  350  ls -la
+  351  cat readme.md
+  352  cat README.md
+  353  open cheatsheet.md
+  354  xdg-open cheatsheet.md
+  355  history
+  356  xdg-open cheatsheet.md
+  357  history
+  358  kill
+  359  xkill
+  360  history
+  361  cd code
+  362  cd Unit1/command-line-murder-mystery/
+  363  ls
+  364  cd mystery/
+  365  sl
+  366  ls
+  367  cd streets
+  368  ls
+  369  cat Hart_Place
+  370  ls
+  371  cat Buckingham_Place
+  372  cat Haley
+  373  cat Haley_Street
+  374  cat Hart_Place
+  375  head -n 4
+  376  ls
+  377  cd..
+  378  ls
+  379  cd ..
+  380  ls
+  381  cat vehicles | grep honda
+  382  cat vehicles | grep Honda
+  383  cat vehicles | grep Blue
+  384  cat vehicles
+  385  cat vehicles | grep 6'
+  386  cat vehicles | grep 6
+  387  grep -A 5 "L337"
+  388  cat vehicles | grep -A 5 "L337"
+  389  cd code
+  390  cd Unit1/command-line-murder-mystery/
+  391  ls
+  392  cd mystery
+  393  ls
+  394  cat crimescene | grep CLUE
+  395  cat people | grep CLUE
+  396  cat vehicles | grep CLUE
+  397  head -n 20 people
+  398  cat people | grep Annabel
+  399  ls
+  400  cd memberships
+  401  ls
+  402  cat 1.txt
+  403  cd ..
+  404  ls
+  405  cd memberships
+  406  ls
+  407  cat AAA
+  408  ls
+  409  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  410  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  411  history
+  412  xdg-open cheatsheet.md
+  413  cd command-line-murder-mystery/
+  414  cd code
+  415  cd Unit1
+  416  cd command-line-murder-mystery/
+  417  ls
+  418  touch solution.txt
+  419  cat instructions
+  420  ls
+  421  grep CLUE
+  422  cat hint1
+  423  ls -la
+  424  cd mystery
+  425  ls -la
+  426  cat crimescene
+  427  ls
+  428  man grep
+  429  interviews | grep "CLUE"
+  430  cat interviews | grep "CLUE"
+  431  cat interviews/ | grep "CLUE"
+  432  ls
+  433  cd interviews
+  434  ls
+  435  clear
+  436  cd ..
+  437  ls
+  438  cd ..
+  439  ls
+  440  cat hint1
+  441  ls
+  442  cd mystery/
+  443  ls
+  444  cd streets
+  445  ls
+  446  head -n 40 Hart_Place
+  447  head -n 179 Buckingham_Place
+  448  head -n 173 Mattapan_Street
+  449  head -n 40 Hart_Place
+  450  head -n 179 Buckingham_Place
+  451  cd ..
+  452  ls
+  453  cd interviews
+  454  ls
+  455  cat interview-47246024
+  456  cat interview-699607
+  457  cd ..
+  458  ls
+  459  cat vehicles
+  460  vehicles | grep L337
+  461  cat vehicles | grep L337
+  462  cd code
+  463  cd Unit!
+  464  cd Unit1
+  465  ls
+  466  cd command-line-murder-mystery/
+  467  ls
+  468  cat instructions
+  469  ls
+  470  cat hint2
+  471  cat 
+  472  cat hint3
+  473  ls
+  474  cat hint4
+  475  cat hint5
+  476  cat hint6
+  477  cat hint7
+  478  cat hint8
+  479  clear
+  480  history
+  481  cd ..
+  482  ls
+  483  cd command-line-murder-mystery/
+  484  ls
+  485  cat solution.txt
+  486  echo "Jeremy Bowers" > solution.txt
+  487  ls
+  488  cat solution.txt
+  489  git status
+  490  git add
+  491  git add -A
+  492  git status
+  493  git commit
+  494  cd code/Unit1/command-line-murder-mystery/
+  495  ls
+  496  history
+  497  cat history > solution.txt
+  498  cat solution.txt
+  499  git status
+  500  cat history
+  501  history
+  502  history > solution.txt
+  503  cat solution.txt
+  504  echo "Jeremy Bowers" >> solutions.txt
+  505  cat solutions.txt
+  506  history > solution.txt
 Jeremy Bowers
