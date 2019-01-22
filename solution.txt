@@ -1,0 +1,505 @@
+
+JEREMY BOWERS
+
+
+  189  mkdir living_room
+  190  ls
+  191  rm Unit
+  192  rm Unit 1
+  193  cd living_room
+  194  pwd
+  195  clear
+  196  pwd
+  197  ls -la
+  198  touch books.txt
+  199  ls
+  200  ls -la
+  201  subl books.txt
+  202  subl books.txt
+  203  code books.txt
+  204  ls
+  205  cd ~
+  206  cd
+  207  clear
+  208  cd Coe
+  209  cd code
+  210  pwd
+  211  ls
+  212  codeclear
+  213  clear
+  214  pwd
+  215  code books.txt
+  216  cd code
+  217  pwd
+  218  clear
+  219  pwd
+  220  pwd
+  221  ls
+  222  mv books.txt living_room
+  223  ls
+  224  cd living_room
+  225  ls
+  226  pw
+  227  pwd
+  228  clear
+  229  pwd
+  230  ls -la
+  231  pwd
+  232  ls
+  233  clear
+  234  pwd
+  235  ls
+  236  ls -la
+  237  pwd
+  238  cd ..
+  239  pwd
+  240  ls
+  241  mv living_room Unit1
+  242  ls
+  243  cd Unit1
+  244  ls
+  245  cd living_room
+  246  ls
+  247  cat books.txt
+  248  cat books.txt
+  249  clear
+  250  echo 'hello world'
+  251  echo "this bookshelf flexes under the weight of the books it holds"
+  252  echo "this bookshelf flexes under the weight of the books it holds"
+  253  echo "this bookshelf flexes under the weight of the books it holds." > bookshelf.txt
+  254  ls
+  255  cat bookshelf.txt
+  256  echo "this sentence is too long" > bookshelf.txt
+  257  ls
+  258  cat bookshelf.txt
+  259  echo "this other sentence is also way too long" >> bookshelf.txt
+  260  cat bookshelf.txt
+  261  code bookshelf.txt
+  262  code books.txt
+  263  cat books.txt
+  264  cat bookshelf.txt
+  265  cd
+  266  pwd
+  267  cd code
+  268  ls
+  269  cd Unit1
+  270  ls
+  271  cd living_room
+  272  cat books.txt
+  273  cat books.txt | sort
+  274  clear
+  275  cat books.txt | sort
+  276  cat books.txt
+  277  cat books.txt | sort > sorted_books.txt
+  278  ls
+  279  cat sorted_books.txt
+  280  pwd
+  281  ls -la
+  282  cd ..
+  283  pwd
+  284  clear
+  285  pwd
+  286  cd living_room
+  287  cat books.txt | grep Mil
+  288  ls
+  289  ls ..
+  290  cd living_room
+  291  pwd
+  292  ls
+  293  cp bookshelf.txt second_bookshelf.txt
+  294  ls
+  295  cat second_bookshelf.txt
+  296  pwd
+  297  ls
+  298  rm second_bookshelf.txt
+  299  ls
+  300  pwd
+  301  ls -a
+  302  ls -la
+  303  cd ..
+  304  pwd
+  305  pwd
+  306  ls
+  307  ls -la
+  308  cd living_room
+  309  ls
+  310  ls -la
+  311  clear
+  312  cd
+  313  ls -la *.txt
+  314  pwd
+  315  ls -la
+  316  cd code
+  317  ls 
+  318  cd unit1
+  319  ls
+  320  cd living_room
+  321  ls -la *.txt
+  322  cd ..
+  323  ls
+  324  cd ..
+  325  ls
+  326  cd ..
+  327  ls
+  328  clear
+  329  pwd
+  330  export MY_SETTINGS='code .'
+  331  $MY_SETTINGS
+  332  clear
+  333  pwd
+  334  man cd
+  335  clear
+  336  man mv
+  337  clear
+  338  man chown
+  339  man chown
+  340  man whoami
+  341  id -un
+  342  whoami
+  343  man id -un
+  344  clear
+  345  pwd
+  346  cd documents
+  347  cd ..
+  348  cd documents ls
+  349  pwd
+  350  cd ..
+  351  pwd
+  352  cd documents && ls
+  353  clear
+  354  cd code
+  355  pwd
+  356  cd ..
+  357  ls
+  358  cd Code
+  359  cd Unit1
+  360  pwd
+  361  git clone https://github.com/GarrettOMoore/command-line-murder-mystery.git
+  362  ls 
+  363  cd command-line-murder-mystery/
+  364  l
+  365  ls
+  366  clear
+  367  pwd
+  368  ls
+  369  ls -la
+  370  cat README.md
+  371  cat instructions
+  372  pwd
+  373  touch solution.txt
+  374  ls -la
+  375  history
+  376  clear
+  377  pwd
+  378  ls
+  379  cat instructiomns
+  380  cat instructions
+  381  cd mystery
+  382  ls -la
+  383  cd crimescene
+  384  pwd
+  385  ls -la
+  386  ls
+  387  cd crimescene
+  388  cat crimescene.txt
+  389  cat crimescene
+  390  cat crimescene | grep CLUE
+  391  code instructions.txt
+  392  code instructions
+  393  pwd
+  394  ls
+  395  cd ..
+  396  pwd
+  397  ls
+  398  code instructions
+  399  pwd
+  400  ls
+  401  cd peop;e
+  402  cd people
+  403  cd mystery
+  404  pwd
+  405  ls
+  406  cd interviews | grep CLUES
+  407  cat interviews | grep CLUES
+  408  pwd
+  409  ls
+  410  cd interviews
+  411  ls
+  412  grep CLUES
+  413  pwd
+  414  ls
+  415  cd code
+  416  ls
+  417  cd unit1
+  418  ls
+  419  cd command-line-murder-mystery/
+  420  ls
+  421  cd mystery
+  422  ls
+  423  cat interviews | grep CLUE
+  424  cat crimescene | grep CLUE
+  425  cd interviews
+  426  ls
+  427  code hint1
+  428  cd ..
+  429  ls
+  430  cd ..
+  431  ls
+  432  code hint1
+  433  code hint2
+  434  code hint3
+  435  code cheatsheet.
+  436  code cheatsheet.pdf
+  437  grep interviews clue
+  438  cd interviews | cat grep CLUE
+  439  pwd
+  440  ls
+  441  cd mystery
+  442  ls
+  443  cd interviews | grep clue
+  444  ls
+  445  c interviews
+  446  cd interviews
+  447  ls
+  448  grep -rnw '../interview' -e 'clue
+  449  jjf
+  450  cd code
+  451  ls
+  452  cd unit1
+  453  pwd
+  454  ls
+  455  cd command-line-murder-mystery/
+  456  ls
+  457  cd muystery
+  458  cd mystery
+  459  ls
+  460  cd interviews | grep CLUE
+  461  fh
+  462  pwd
+  463  grep interviews -e 'clue'
+  464  pwd
+  465  ls -la
+  466  code hint4
+  467  cd ..
+  468  ls
+  469  code hint4
+  470  grep 
+  471  clear
+  472  pwd
+  473  ls
+  474  cd mystery
+  475  cat instructions | grep CLUE
+  476  pwd
+  477  ls
+  478  cat interviews | grep Annabel
+  479  cd interviews
+  480  ls
+  481  cd ..
+  482  grep annabel
+  483  pwd
+  484  cd code
+  485  ls
+  486  cd unit2
+  487  cd ..
+  488  cd unit1
+  489  pwd
+  490  ls
+  491  cd command-line-murder-mystery/
+  492  pwd
+  493  ls
+  494  cd mystery
+  495  grep =rnw '/interviews/
+  496  dd
+  497  pwd
+  498  cd code
+  499  pwd
+  500  ls
+  501  cd unit1
+  502  ls
+  503  cd command-line-murder-mystery/
+  504  ls
+  505  cd mystery
+  506  ls
+  507  head -n annabel interviews
+  508  grep "Annabel" interviews
+  509  grep "Annabe;"
+  510  grep "
+  511  grep clear
+  512  clear
+  513  pwd
+  514  ls -la
+  515  cd people
+  516  pwd
+  517  ls
+  518  cd ..
+  519  ls
+  520  pwd
+  521  cd mystery
+  522  cd interviews
+  523  pwd
+  524  grep -r "Annabel" *
+  525  grep -r "Annabel" interviews
+  526  pwd
+  527  cd ..
+  528  grep -r "Annabel" interviews
+  529  clear
+  530  pwd
+  531  ls
+  532  cd interviews
+  533  ls -la
+  534  pwd
+  535  grep 
+  536  grep "Annabel" 
+  537  grep "Annabel"
+  538  grep "Annabel" *
+  539  grep -r "Annabel
+grep -r "Annabel" *
+  540  grep -r "Annabel" *
+  541  clear
+  542  pwd
+  543  cd ..
+  544  cd ..
+  545  pwd
+  546  ls
+  547  cat hint3
+  548  cat hint2
+  549  cat hint34
+  550  cat hint4
+  551  grep "Annabel" people
+  552  pwd
+  553  ls
+  554  cd mystery
+  555  ls
+  556  grep "Annabel" people
+  557  head -n 20 people
+  558  head -n 20 vehicles
+  559  grep "Annabel" vehicles
+  560  ls
+  561  cat hint5
+  562  cd ..
+  563  ls
+  564  code hint5
+  565  code hint6
+  566  code hint7
+  567  cd mystery
+  568  ls
+  569  grep 
+  570  cd crimescene
+  571  grep CLUE
+  572  cd ..
+  573  cat crimescene | grep CLUE
+  574  clear
+  575  pwd
+  576  ls
+  577  cat crimescene
+  578  cd mystery
+  579  ls
+  580  cat crimescene
+  581  grep CLUE
+  582  cat crimescene | grep CLUE
+  583  pwd
+  584  cat people | grep Annabel
+  585  grep "Annabel" interviews
+  586  clear
+  587  ls
+  588  cd interviews
+  589  lsa
+  590  ls
+  591  grep "Annabel" interview
+  592  cd ..
+  593  pwd
+  594  ls
+  595  grep 
+  596  cd people
+  597  ls
+  598  cd people
+  599  ls
+  600  grep "Annabel" people
+  601  grep "Annabel" streets
+  602  grep "Annabel" vehicles
+  603  grep "Mattapan" streets
+  604  cd mystery/streets
+  605  cd streets
+  606  ls
+  607  grep "Interview"
+  608  cat Mattapan_Street | grep "INTERVIEW"
+  609  cat Hart_Place | grep "INTERVIEW"
+  610  cat Buckingham_Place | grep "INTERVIEW"
+  611  cat Haley_Street | grep "INTERVIEW"
+  612  pwd
+  613  cd ..
+  614  cd Interviews
+  615  cat pwd
+  616  pwd
+  617  cat interview-9437737
+  618  cat interview-47246024
+  619  cat interview-699607
+  620  pwd
+  621  cd ..
+  622  ls
+  623  cd vehicles
+  624  cat vehicles
+  625  cat vehicles | grep L337
+  626  cat vehicles | grep L337 Blue
+  627  cat vehicles | grep Blue 
+  628  cat vehicles | grep Make Honda Color Blue
+  629  grep Honda
+  630  cat vehicles | grep Honda
+  631  clear
+  632  cat vehicles | grep l337
+  633  pwd
+  634  ls
+  635  cd vehicles
+  636  cat vehicles | grep l3379
+  637  cat vehicles | grep L337
+  638  head
+  639  head -n 20
+  640  head -n 20 vehicles
+  641  cat vehicles | grep License Plate L337 grep Make: Honda grep Color: Blue
+  642  cat vehicles | grep License Plate L337
+  643  clear
+  644  pwd
+  645  ls
+  646  cat vehicles | grep L337
+  647  cat vehicles | greg -r L337
+  648  clear
+  649  cat vehicles | grep -r L337
+  650  cat vehicles | grep -C 4 L337
+  651  cat vehicles | grep -A 5 L337
+  652  pwd
+  653  ls
+  654  cd memberships
+  655  ls
+  656  cd AAA
+  657  cat AAA | grep Bowers
+  658  cat AAA | grep Germuska
+  659  cat Costco | bowers
+  660  cat Costco | grep Bowers
+  661  ls
+  662  cd costco
+  663  cat Costco | grep Germuska
+  664  cat Costco | grep Joe
+  665  cat crimescene | grep CLUE
+  666  ls
+  667  cd ..
+  668  cat crimescene | grep CLUE
+  669  ls
+  670  cd memberships
+  671  ls
+  672  cat Delta_SkyMiles | grep Joe
+  673  cat Delta_SkyMiles | grep Bowers
+  674  cat Delta_SkyMiles | grep Germuska
+  675  cat Terminal_City_Library | grep Bowers
+  676  cat Terminal_City_Library | grep Germuska
+  677  cat Delta_SkyMiles | grep Germuska
+  678  cat Museum_of_Bash_History | grep Bowers
+  679  cat Museum_of_Bash_History | grep Germuska
+  680  pwd
+  681  cd ..
+  682  cd ..
+  683  cd ..
+  684  pwd
+  685  ls
+  686  cd command-line-murder-mystery/
+  687  ls
+  688  history >> solution.txt
