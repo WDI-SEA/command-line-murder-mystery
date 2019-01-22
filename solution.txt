@@ -1,0 +1,270 @@
+    1  apt-get git
+    2  apt-get install git
+    3  sudo apt-get install git
+    4  code
+    5  pwd
+    6  mkdir projects
+    7  cd projects/
+    8  git clone git@github:fx-wood/dicemagic.beyond.git
+    9  git clone git@github.com:fx-wood/dicemagic.beyond.git
+   10  ls -al ~/.ssh
+   11  ls ~/.ssh
+   12  ssh-keygen -t rsa -b 4096 -C "fxwood2@gmail.com"
+   13  eval "$(ssh-agent -s)"
+   14  ssh-add ~/.ssh/id_rsa
+   15  ls ~/.ssh
+   16  cd ~/.ssh
+   17  ls
+   18  id_rsa
+   19  vim id_rsa
+   20  code id_rsa
+   21  code id_rsa.pub
+   22  cd ~/projects
+   23  ls
+   24  git clone git@github:FX-Wood/dicemagic.beyond.git
+   25  git clone git@github.com:FX-Wood/dicemagic.beyond.git
+   26  ls
+   27  cd projects/
+   28  ls
+   29  cd dicemagic.beyond/
+   30  ls
+   31  notes
+   32  application
+   33  software
+   34  ls
+   35  cd desktop/dicemagic.beyond
+   36  cd desktop/
+   37  ls
+   38  cd Desktop/
+   39  ls 
+   40  cd dicemagic.beyond/
+   41  mkdir css
+   42  mkdir html
+   43  mkdir images
+   44  mkdir js
+   45  curl -d '{"cmd":"2d20"}' 'https://api.dicemagic.com/roll
+   46  '
+   47  curl -d '{"cmd":"2d20"}' 'https://api.dicemagic.com/roll'
+   48  curl -d {"cmd":"2d20"} 'https://api.dicemagic.com/roll'
+   49  curl -d '{"cmd":"2d20"}' 'https://api.dicemagic.com/roll'
+   50  curl '{"cmd":"2d20"}' 'https://api.dicemagic.com/roll'
+   51  curl {"cmd":"2d20"} 'https://api.dicemagic.com/roll'
+   52  curl {"cmd":"2d20"} https://api.dicemagic.com/roll
+   53  curl '{"cmd":"2d20"}' https://api.dicemagic.com/roll
+   54  curl -d '{"cmd":"2d20"}' https://api.dicemagic.com/roll
+   55  curl -d {"cmd":"2d6"}' https://api.dicemagic.com/roll
+   56  curl -d {"cmd":"2d6"}' 'https://api.dicemagic.com/roll'
+   57  curl -d {"cmd":"2d6"}' 'https://api.dicemagic.io/roll'
+   58  curl -d '{"cmd":"2d6"}' 'https://api.dicemagic.io/roll'
+   59  curl -d '{"cmd":"1d20+0"}', 'https://api.dicemagic.io/roll'
+   60  sudo apt install curl
+   61  curl -d '{"cmd":"1d20+0"}', 'https://api.dicemagic.io/roll'
+   62  history
+   63  man history
+   64  HIST_ENTRY * remove entry
+   65  man history
+   66  history clear_history
+   67  history clear_history 0
+   68  history clear_history 
+   69  history
+   70  ls
+   71  cat hint1
+   72  cd mystery
+   73  ls
+   74  people
+   75  cat people
+   76  head -n 20
+   77  head -n people 20
+   78  people head -n 20
+   79  people -n 20
+   80  cd ..
+   81  hint1
+   82  cat hint1
+   83  head -n 20 ./mystery/people
+   84  cat hint2
+   85  grep "CLUE" crimescene
+   86  grep "CLUE" /mystery/crimescene
+   87  ls
+   88  cd mystery
+   89  ls
+   90  head crimescene
+   91  grep 'CLUE' crimescene
+   92  grep 'CLUE' crimescene > clues.txt
+   93  ls
+   94  cat clues
+   95  cat clues.txt
+   96  touch suspect
+   97  suspect >> echo 'male'
+   98  echo 'male' >> suspect
+   99  ls
+  100  cat suspect
+  101  echo '6feet or more' >> suspect
+  102  ls
+  103  cat suspect
+  104  cat clues
+  105  cat clues.txt
+  106  echo 'Wallet \n  AA\n  Delta SkyMiles\n  library\n  museum of bash' >> suspect
+  107  ls
+  108  cat clues
+  109  cat clues.txt
+  110  grep 'New Zealand'
+  111  grep 'New Zealand' people
+  112  grep 'New Zealand' .
+  113  grep 'nz' people
+  114  clear
+  115  head interviews
+  116  ls interviews
+  117  grep 'CLUE' interviews
+  118  cat clues.txt
+  119  cat ../hint3
+  120  head people
+  121  head vehicle
+  122  head vehicles
+  123  ls
+  124  head streets
+  125  ls streets
+  126  ls
+  127  head people
+  128  head vehicles
+  129  head -n 20 vehicles
+  130  clues
+  131  cat clues
+  132* cat clues.txta
+  133  grep 'annabell' people
+  134  grep 'nnabell' people
+  135  grep 'Annabell' people
+  136  grep 'Annabel' people
+  137  grep 'Annabel' people > annabels
+  138  cat annabels 
+  139  cat buckingham Place
+  140  cat BuckinghamPlace
+  141  ls
+  142  cd streets
+  143  ls
+  144  cd Buckingham_Place
+  145  cat Buckingham_Place 
+  146  tail -nclear
+  147  clear
+  148  ls
+  149  clear
+  150  tail | head Buckingham_Place 176 
+  151  tail | head -n 176 Buckingham_Place
+  152  head -n 176 Buckingham_Place
+  153  cat ann
+  154  cat ../annabels 
+  155  head -n 179 Buckingham_Place
+  156  head -n 179 Buckingham_Place | tail
+  157  head -n 179 Buckingham_Place | tail -n 1 >> clues
+  158  ls
+  159  cat clues
+  160  mv clues ../clues
+  161  ls
+  162  cat clues
+  163  cd ..
+  164  ls
+  165  cat clues.txt >clues
+  166  ls
+  167  cat clues
+  168  head -n 179 streets/Buckingham_Place | tail -n 1 >> ./clues
+  169  cat clues
+  170  ls
+  171  ls interviews/
+  172  clear
+  173  clues
+  174  cat clues
+  175  cat interviews/interview-#699607
+  176  cat interviews/interview-699607
+  177  tail -n 3 interviews/interview-69907
+  178  tail -n 3 interviews/interview-699607
+  179  tail -n 3 interviews/interview-69907
+  180  tail -n 3 interviews/interview-699607
+  181  tail -n 1 interviews/interview-699607
+  182  tail -n 1 interviews/interview-699607 >> clues
+  183  ls
+  184  clues
+  185  cat clues
+  186  ls vehicle
+  187  ls vehicles
+  188  vehicles grep 'L337'
+  189  grep 'L337' vehicles
+  190  grep 'L337' vehicles | grep 'Honda'
+  191* mkdir Suspect-vehicles && cp | grep 'L337' vehicles 
+  192  mv man
+  193  man mv
+  194  cp man
+  195  cd vehicles
+  196  cat vehicles
+  197  man grep
+  198  grep -A 6 'L337' vehicles >> suspect-vehicles
+  199  cat suspect vehicles
+  200  clear
+  201  man grep
+  202  grep --trailing-content -6 'L337' vehicles
+  203  grep --after-context -6 'L337' vehicles
+  204  grep --after-context 6 'L337' vehicles
+  205  grep --after-context 6 'L337' vehicles > suspect-vehicles 
+  206  cat suspect-vehicles 
+  207  grep 'Blue' --after-context 4 > suspect-vehicles 
+  208  grep 'Blue' --after-context 4 suspect-vehicles > suspect-vehicles 
+  209  grep 'Blue' --after-context 4 suspect-vehicles > suspect-vehicles-color 
+  210  suspect-vehicles-color
+  211  cat suspect-vehicles-color
+  212  grep 'Blue' --after-context=4 suspect-vehicles > suspect-vehicles-color 
+  213  cat suspect-vehicles-color
+  214  grep 'Blue' suspect-vehicles
+  215  cat suspect-vehicles
+  216  grep --after-context 6 'L337' vehicles > suspect-vehicles 
+  217  cat suspect-vehicles\
+  218  cat suspect-vehicles
+  219  grep 'Blue' suspect-vehicles
+  220  grep --after-context 6 'L337' vehicles > grep --after-context 4 'blue'
+  221* grep --after-context 6 'L337' vehicles | grep --after-context 4 'blue'
+  222  cat suspect-vehicles
+  223  grep --after-contexts 4 'Blue' suspect-vehicles
+  224  grep --after-context 4 'Blue' suspect-vehicles
+  225  grep --after-context 4 'Blue' suspect-vehicles > vehicles-colors
+  226  cat clues
+  227  grep -B 1 -A 1 "6'"
+  228  grep -B 1 -A 1 "6\'"
+  229  grep -B 1 -A 1 '6\''
+vehicles-colors
+
+  230  grep -A 3 'Jeremy Bowers' vehicle-colors
+  231  grep -A 3 'Jeremy Bowers' vehicles-colors
+  232  grep -A 3 'Jeremy Bowers' vehicles-colors >> poi
+  233  grep -A 3 'Joe Germuska' vehicles-colors >> poi
+  234  grep -A 3 'Matt Waite' vehicles-colors >> poi
+  235  cat clues
+  236  cat people
+  237  cat hint1
+  238  cat ..hint1
+  239  cat ../hint1
+  240  cat ../hint2
+  241  cat ../hint3
+  242  cat ../hint4
+  243  cat ../hint5
+  244  cat ../hint6
+  245  cat ../hint7
+  246  cat ../hint8
+  247  ls
+  248  clues
+  249  cat clues
+  250  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy"
+  251  ls
+  252  cd memberships/
+  253  ls
+  254  cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History | grep "Jeremy"
+  255  cd ..
+  256  cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History | grep "Jeremy"
+  257  cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History | grep A-2 "Jeremy"
+  258  cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History | grep A 2 "Jeremy"
+  259  cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History | grep -A 2 "Jeremy"
+  260  cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep "Jeremy"
+  261  cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep "Jeremy" >> poi-filter
+  262  cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep "Joe Germuska"
+  263  pwd
+  264  cd ..
+  265  ls
+  266  touch solution.txt
+  267  history > solution.txt
+The name of the killer is Jeremy Bowers!
