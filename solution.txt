@@ -1,0 +1,501 @@
+  136  npm start
+  137  npm run build
+  138  npm run deploy
+  139  npm start
+  140  npm start
+  141  npm start
+  142  npm install
+  143  npm start
+  144  npm install
+  145  npm audit fix
+  146  npm start
+  147  npm install
+  148  npm audit fix
+  149  npm audit fix --force
+  150  npm start
+  151  npm install
+  152  npm start
+  153  npm install
+  154  npm start
+  155  npm install
+  156  npm run build
+  157  npm run start
+  158  rm node_modules
+  159  rm -rf  node_modules
+  160  npm install
+  161  npm start
+  162  npm install
+  163  npm start
+  164  cd /Users/carlobruno/Web\ Dev/Udemy
+  165  ls
+  166  cd react-16-maximillian
+  167  ls
+  168  create-react-app udemy-burger-builder
+  169  cd udemy-burger-builder
+  170  git remote add origin https://github.com/carlo-bruno/udemy-burger-builder
+  171  git remote -v
+  172  git push -u origin master
+  173  git pull
+  174  git push -u origin master
+  175  git push --help
+  176  git push --force -u origin master
+  177  npm start
+  178  git pull
+  179  git add .
+  180  git commit -m "recreate burger builder"
+  181  git push -u origin master
+  182  ls
+  183  npm eject
+  184  npm run eject
+  185  npm start
+  186  npm install --save prop-types
+  187  npm start
+  188  npm start
+  189  npm start
+  190  irb
+  191  ruby
+  192  ifb
+  193  irb
+  194  learn test
+  195  test
+  196  learn test
+  197  mocha test
+  198  nodejs ./test/index-test.js
+  199  nodejs ./test/index-test.js
+  200  npm start
+  201  npm audit
+  202  npm audit fix
+  203  npm start
+  204  node -v
+  205  node -v
+  206   cd downloads
+  207  cd world
+  208  ls
+  209  cd world
+  210  ls
+  211  ls -a
+  212  cd north_america
+  213  ls -a
+  214  cd united_states
+  215  ls -a
+  216  cd .
+  217  cd ..
+  218  cd canada
+  219  ls -a
+  220  cd ..
+  221  cd..
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd africa
+  226  ls -a
+  227  cd cameroon
+  228  ls -1
+  229  ls -a europe
+  230  cd ..
+  231  cd..
+  232  cd ..
+  233  ls
+  234  ls -a
+  235  ls -a europe
+  236  cd europe
+  237  open carmen_sandiego.png
+  238  open .carmen_sandiego.png
+  239  cd
+  240  pwd
+  241  mkdir fundamentals
+  242  ls
+  243  cd fundamentals
+  244  git --version
+  245  mkdir git-practice
+  246  cd git-practice
+  247  pwd
+  248  git init
+  249  ls -a
+  250  touch README.txt
+  251  git status
+  252  git add README.txt
+  253  git status
+  254  git commit -m "git practice"
+  255  mkdir src
+  256  cd src
+  257  touch index.html
+  258  touch sytle.css
+  259  cd ..
+  260  ls
+  261  git status
+  262  git add src/
+  263  git status
+  264  git diff
+  265  open src/index.html
+  266  code scr/index.html
+  267  code src/index.html
+  268  diff
+  269  git diff
+  270  git add src/index.html
+  271  dit diff
+  272  git diff
+  273  code src/index.html
+  274  git status
+  275  git status
+  276  git add src
+  277  git status
+  278  git diff
+  279  git commit -m "more practice, staging, status and diff"
+  280  git log
+  281  cd ..
+  282  git clone https://github.com/carlo-bruno/wdi-fundamentals-memorygame.git
+  283  ls
+  284  cd wdi-fundamentals-memorygame
+  285  mkdir memory_game
+  286  ls
+  287  code .
+  288  git status
+  289  git add .
+  290  git status
+  291  git commit -m "added images folder and updated html"
+  292  git push
+  293  git status
+  294  ls
+  295  cd memory_game
+  296  mkdir css
+  297  touch css/style.css
+  298  cd ..
+  299  git status
+  300  git add .
+  301  git status
+  302  git commit -m "added css, modified style of the page"
+  303  git status
+  304  git add .
+  305  git status
+  306  git commit -m "using semantic tags to separate sections in html, updated style"
+  307  git push
+  308  git add reset.css
+  309  git add css/reset.css
+  310  ls
+  311  cd memory_game
+  312  git add css/reset.css
+  313  git status
+  314  git commit -m "added css reset file"
+  315  git push
+  316  git status
+  317  git add .
+  318  git commit -m "added footer, updated nav links, updated style for link hover and footer"
+  319  git push
+  320  git log
+  321  ls
+  322  mkdir js
+  323  touch js/main.js
+  324  code js/main.js
+  325  git status
+  326  git add -A
+  327  git status
+  328  git commit -m "created game logic"
+  329  git push origin master
+  330  git log
+  331  git status
+  332  git add -a
+  333  git add -A
+  334  git status
+  335  git commit -m "created game logic"
+  336  git push origin master
+  337  git add -A
+  338  git commit -m "updated game logic with functions"
+  339  git push
+  340  git add -A
+  341  git commit -m "updated to array of objects, modified functions to access properties"
+  342  git push
+  343  git log
+  344  git checkout 7630619b5d031bbe3f3229b3b3c892381bb15
+  345  git checkout 6d207d6
+  346  git status
+  347  git add -A
+  348  git commit -m "working with dom"
+  349  git push origin master
+  350  git log
+  351  git checkout f38b9ec
+  352  git add -A
+  353  git commit -m "working with dom"
+  354  git push origin master
+  355  git add -A
+  356  git commit -m "working with dom"
+  357  git push
+  358  git status
+  359  git add -a
+  360  git add -A
+  361  git commit -m "used flexbox instead of float"
+  362  git push
+  363  ls
+  364  pwd
+  365  cd web\ dev
+  366  ls
+  367  cd career
+  368  cd ~
+  369  open .
+  370  la
+  371  ls
+  372  ls -all
+  373  ls -a
+  374  ls -l
+  375  ls -l -a
+  376  ls -l -a
+  377  ls -l
+  378  clear
+  379  ls -a
+  380  ls -l
+  381  ks documents
+  382  ls -l documents
+  383  clear
+  384  cd /
+  385  pwd
+  386  ls
+  387  open applications
+  388  cd ..
+  389  cd..
+  390  cd ..
+  391  cd .
+  392  cd ~
+  393  cd ..
+  394  cd ..
+  395  cd ..
+  396  cd~
+  397  cd ~
+  398  clear
+  399  pwd
+  400  clear
+  401  cd web\ dev
+  402  ls
+  403  mkdir General_Assembly
+  404  ls
+  405  cd general_assembly
+  406  hel
+  407  help
+  408  help rename
+  409  info rename
+  410  cd
+  411  clear
+  412  ls
+  413  ls
+  414  cd web\ dev
+  415  cd wdi
+  416  mkdir Unit1
+  417  ls
+  418  mkdir living_room
+  419  ls
+  420  cd living_room
+  421  ls -la
+  422  ls -l -a
+  423  touch books.txt
+  424  code books.txt
+  425  cat books.txt
+  426  echo 'hello, world'
+  427  echo " this bookshelf flexes under the weight of the books it holds
+  428  echo " this bookshelf flexes under the weight of the books it holds"
+  429  echo " this bookshelf flexes under the weight of the books it holds"
+  430  echo " this bookshelf flexes under the weight of the books it holds" > books.txt
+  431  cat books.txt
+  432  echo " this bookshelf flexes under the weight of the books it holds" > bookshelf.txt
+  433  cat bookshelf.txt
+  434  eho "this sentence is too long" > bookshelf.txt
+  435  echo "this sentence is too long" > bookshelf.txt
+  436  echo "this is another line" >> bookshelf.txt
+  437  cat bookshelf.txt
+  438  cat books.txt
+  439  cat bookshelf.txt 
+  440  clear
+  441  ls
+  442  cat books.txt
+  443  cat books.txt | sort
+  444  cat books.txt
+  445  cat books.txt | sort > sorted_books.txt
+  446  cat sorted_books.txt
+  447  cat books.txt | grep Mil
+  448  mv sorted_books.txt ../sorted.txt
+  449  ls ..
+  450  ls
+  451  mv living_room ./Unit1
+  452  mv living_room Unit1
+  453  mv living_room ./Unit1
+  454  mv living_room /Unit1
+  455  mv living_room Unit1
+  456  ls
+  457  cd .
+  458  cd ..
+  459  mv living_room Unit1
+  460  mv sorted.txt
+  461  mv sorted.txt Unit1
+  462  cd unit1
+  463  ls
+  464  ls
+  465  rm -rf living_room
+  466  cd
+  467  cd 
+  468  cd web_dev
+  469  clear
+  470  man
+  471  man cd
+  472  man chown
+  473  man code
+  474  man whoami
+  475  whoami
+  476  id -un
+  477  ls
+  478  cd wdi
+  479  cd unit1
+  480  pwd
+  481  git clone https://github.com/carlo-bruno/command-line-murder-mystery.git
+  482  ls
+  483  cd command-line-murder-mystery/
+  484  ls
+  485  cat hint1
+  486  ls -la
+  487  cat readme.md
+  488  cat instructions
+  489  history
+  490  ls
+  491  cd web_dev
+  492  cd wdi
+  493  cd unit1
+  494  ls
+  495  cd command-line-murder-mystery/
+  496  ls
+  497  ls -la
+  498  history
+  499  history
+  500  ls
+  501  cd web_dev
+  502  cd wdi
+  503  cd unit1
+  504  ls
+  505  cd command-line-murder-mystery/
+  506  ls
+  507  ls -la
+  508  cat instructions
+  509  code instructions
+  510  cd mystery
+  511  ls
+  512  cat crimescene
+  513  cat crimescene | grep CLUE > clues.txt
+  514  ls
+  515  cat clues.txt
+  516  cd vehicles
+  517  ls -la
+  518  cat vehicles
+  519  cat clues.txt
+  520  ls -la
+  521  cat interviews
+  522  cd interviews
+  523  ls
+  524  cd ..
+  525  cd people
+  526  cat people
+  527  clear
+  528  cat clues.txt
+  529  ls -la
+  530  cat people | grep Annabel > poi
+  531  cat poi
+  532  cat clues.txt
+  533  ls
+  534  ls -la
+  535  cd memberships
+  536  ls
+  537  cat delta.txt
+  538  ls
+  539  cat 1
+  540  cat 1.txt
+  541  ls
+  542  cd ..
+  543  ls
+  544  code clues.txt
+  545  ls
+  546  cd people
+  547  cat people | grep barista
+  548  cat streets
+  549  cd streets
+  550  ls -la
+  551  cd ..
+  552  ls
+  553  cd ..
+  554  ls
+  555  cat hint1
+  556  cat hint2
+  557  cat hint3
+  558  cat hint4
+  559  hint 5
+  560  cat hint5
+  561  cd mystery
+  562  cat poi
+  563  ls -la
+  564  ls streets
+  565  head -n streets/hart_place
+  566  cd hart_place
+  567  cat hart_place
+  568  cat streets/hart_place
+  569  ls
+  570  cd interviews
+  571  ls
+  572  ls
+  573  cd
+  574  cd ..
+  575  cd web_dev
+  576  ls
+  577  cd ~
+  578  cd web_dev
+  579  cd wdi
+  580  cd unit1
+  581  ls
+  582  cd command-line-murder-mystery/
+  583  ls
+  584  cd mystery
+  585  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8 > hints
+  586  cat hint1
+  587  ls
+  588  cd ..
+  589  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8 > hints
+  590  cat hints
+  591  code hints
+  592  ls -la
+  593  cd mystery
+  594  grep "Annabel" people
+  595  head -n 40 streets/Hart_Place | tail -n 1
+  596  ls
+  597  cd interviews
+  598  head -n 10
+  599  head -n 10 interviews
+  600  ls
+  601  cat interview-47246024
+  602  grep "Annabel" people
+  603  cd ..
+  604  grep "Annabel" people
+  605  head -n 179 streets/Buckingham_Place | tail -n 1
+  606  pwd
+  607  ls
+  608  cat interviews/interview-699607
+  609  cd vehicles
+  610  ls
+  611  head -n 20 vehicles
+  612  grep "Honda" vehicles
+  613  man grep
+  614  grep -A 20 "Honda" vehicles
+  615  grep -A 7 "L337" vehicles
+  616  man grep
+  617  grep -A 6 "L337" vehicles
+  618  grep -A 6 "L337" vehicles | grep "Honda"
+  619  grep -A 6 "L337" vehicles | grep -A "Honda"
+  620  grep -A 6 "L337" vehicles | grep -A 6 "Honda"
+  621  grep -A 6 "L337" vehicles | grep -A 6 "Honda" | grep -A 6 "Blue"
+  622  ls
+  623  cd people
+  624  grep "Joe Germuska" people
+  625  grep "Jeremy Bowers" people
+  626  grep "Jacqui Maher" people
+  627  grep "Jeremy Bowers" people > poi
+  628  grep "Joe Germuska" people > poi
+  629  head -n 284 streets/Dunstable_Road
+  630  head -n 275 streets/Plainfield_Street | tail -1
+  631  cat interviews/interview-29741223
+  632  cat interviews/interview-9620713
+  633  history
+  634  cd ..
+  635  history > solution.txt
+Jeremy Bowers
