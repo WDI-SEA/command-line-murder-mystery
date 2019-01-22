@@ -1,0 +1,501 @@
+   61  cd japan
+   62  ls -c
+   63  cd ..
+   64  cd vietnam
+   65  ls -c
+   66  cd ..
+   67  cd ..
+   68  cd australia
+   69  ls -c
+   70  cd ..
+   71  cd north_america
+   72  ls
+   73  cd united_states
+   74  ls -c
+   75  cd ..
+   76  cd canada
+   77  ls -c
+   78  cd ..
+   79  cd ..
+   80  cd south_america
+   81  ls
+   82  cd argentina
+   83  ls -c
+   84  cd ..
+   85  cd brazil
+   86  ls -c
+   87  cd ..
+   88  cd chile
+   89  ls -c
+   90  cd world
+   91  cd ..
+   92  cd world
+   93  cd ..
+   94  cd north_america
+   95  ls
+   96  cd ..
+   97  cd north_america
+   98  ls -c
+   99  ls -.
+  100  cd canada
+  101  ls -.
+  102  ls -png
+  103  ls -p
+  104  cd ..
+  105  cd united_states
+  106  ls -p
+  107  ls -png
+  108  cd ..
+  109  cd ..
+  110  cd asia
+  111  ls
+  112  cd india
+  113  ls -png
+  114  cd ..
+  115  cd japan
+  116  ls -png
+  117  cd ~
+  118  touch joke.txt
+  119  open joke.txt
+  120  cat joke.tzt
+  121  cat joke.txt
+  122  mkdir funny_things
+  123  cd ~
+  124  ls
+  125  mv joke.txt funny_things/
+  126  ls
+  127  cd funny_things
+  128  ls
+  129  cp joke.txt joke2.txt
+  130  rm joke2.txt
+  131  mkdir jokes
+  132  mv joke.txt jokes/joke.txt
+  133  cp -r jokes copy_of_jokes
+  134  rm -r copy_of_jokes
+  135  cd ~
+  136  cd downloads
+  137  ls
+  138  mv world ~
+  139  ls
+  140  cd ~
+  141  ls
+  142  cd world
+  143  mkdir Antarctica
+  144  ls
+  145  cd south_america
+  146  ls
+  147  mv Argentina North_America
+  148  mv Brazil North_america
+  149  mv Chile north_america
+  150  rm south_america
+  151  cd ..
+  152  rm south_america
+  153  ls
+  154  rm -r south_america
+  155  ls
+  156  mkdir Americas
+  157  ls
+  158  rm -r americas
+  159  ls
+  160  ren north_america Americas
+  161  ls
+  162  mv north_america Americas
+  163  ls
+  164  cd ~
+  165  pwd
+  166  users/cy/world/americas
+  167  cy/world/americas
+  168  cy/world/americas/ls
+  169  cy\world\americas
+  170  ~/world/americas
+  171  ls
+  172  cd ~
+  173  ~/world/americas/ls
+  174  ~/world/americas
+  175  ls
+  176  cd world
+  177  ls
+  178  cd americas
+  179  ls
+  180  cd ~
+  181  mkdir wdi-fundamentals
+  182  mv wdi-fundamentals fundamentals
+  183  ls
+  184  git --version
+  185  pwd
+  186  cd project
+  187  cd documents
+  188  cd project
+  189  git init
+  190  ls -a
+  191  cd ~
+  192  cd desktop
+  193  mkdir GA-Blog
+  194  pwd
+  195  cd GA-Blog
+  196  git init
+  197  git status
+  198  pwd
+  199  touch post.txt
+  200  git status
+  201  git add post.txt
+  202  git status
+  203  pwd
+  204  git add
+  205  git add .
+  206  git commit -m "created a new post.txt file"
+  207  git log
+  208  ls -a
+  209  cd ~
+  210  cd downloads
+  211  ls
+  212  cd ~
+  213  cd fundamentals
+  214  pwd
+  215  mkdir git-practice
+  216  pwd
+  217  cd git-practice
+  218  git init
+  219  git status
+  220  pwd
+  221  ls -a
+  222  mkdir readme.txt
+  223  git status
+  224  git add README.txt
+  225  git status
+  226  git commit -m "created a new file"
+  227  pwd
+  228  mkdir src
+  229  git add src
+  230  git status
+  231  git diff
+  232  cd documents
+  233  ls
+  234  cd project
+  235  git clone https://github.com/nodejs/node.git
+  236  cd fundamentals
+  237  pwd
+  238  git clone https://github.com/c-yun/wdi-fundamentals-memorygame.git
+  239  cd ~
+  240  cd desktop
+  241  cd fundamentals
+  242  cd ~
+  243  cd fundamentals
+  244  pwd
+  245  cd wdi-fundamentals-memorygame
+  246  pwd
+  247  cd memory_game
+  248  git status
+  249  pwd
+  250  git add index.html
+  251  git status
+  252  pwd
+  253  git add images
+  254  git status
+  255  pwd
+  256  cd css
+  257  pwd
+  258  git add style.css
+  259  git status
+  260  pwd
+  261  cd ..
+  262  pwd
+  263  git status
+  264  git reset HEAD css/style.css
+  265  git status
+  266  pwd
+  267  cd status
+  268  git status
+  269  cd css
+  270  git add style.css
+  271  git status
+  272  cd ..
+  273  pwd
+  274  cd index.html
+  275  pwd
+  276  git add index.html
+  277  git status
+  278  git commit -m "created project files"
+  279  git status
+  280  git log
+  281  git push
+  282  git push
+  283  git push
+  284  pwd
+  285  cd fundamentals
+  286  cd wdi-memory-game
+  287  cd wdi-fundamentals-memorygame
+  288  cd memory_game
+  289  cd js
+  290  cd main.js
+  291  pwd
+  292  git add -A
+  293  git commit -m 'created game logic'
+  294  git push origin master
+  295  cd fundamentals
+  296  cd wdi-fundamentals-memorygame
+  297  cd memory_game
+  298  cd js
+  299  git add -A
+  300  git commit -m 'created game logic'
+  301  git push origin master
+  302  cd fundamentals
+  303  cd wdi-fundamentals-memorygame
+  304  cd memory_game
+  305  cd js
+  306  git add -A
+  307  git commit -m 'created card object'
+  308  git push origin master
+  309  pwd
+  310  cd fundamentals
+  311  cd wdi-fundamentals-memorygame
+  312  cd memory_game
+  313  cd js
+  314  git add -A
+  315  git commit -m 'created game logic'
+  316  git push origin master
+  317  pwd
+  318  cd desktop
+  319  git clone https://github.com/c-yun/c-yun.github.io.git
+  320  cd c-yun.github.io
+  321  echo "Hello World" > index.html
+  322  git add --all
+  323  git commit -m "Initial commit"
+  324  git push -u origin master
+  325  pwd
+  326  open .
+  327  ls
+  328  open .
+  329  ls -la
+  330  ls -l
+  331  clear
+  332  ls -l Documents
+  333  clear
+  334  pwd
+  335  cd /
+  336  ls
+  337  cd Users
+  338  cd cy
+  339  cd
+  340  clear
+  341  pwd
+  342  cd documents
+  343  pwd
+  344  cd documents
+  345  cd
+  346  ls
+  347  clear
+  348  open .
+  349  open ./Applications
+  350  pwd
+  351  cd code
+  352  pwd
+  353  cd ../Applications
+  354  pwd
+  355  cd applications
+  356  cd ~
+  357  mkdir code
+  358  cd code
+  359  mkdir Unit1
+  360  mkdir Unit2
+  361  mkdir Unit3
+  362  mkdir Unit4
+  363  cd Unit1
+  364  mkdir living_room
+  365  cd living_room
+  366  ls -la
+  367  touch books.txt
+  368  ls -la
+  369  code books.txt
+  370  cd
+  371  clear
+  372  code 
+  373  code books.txt
+  374  cd
+  375  cd code/Unit1/living_room
+  376  cat books.txt
+  377  pwd
+  378  ls
+  379  cat books.txt
+  380  l
+  381  ls -al
+  382  cd ..
+  383  l
+  384  ls -al
+  385  cd ..
+  386  ls -a
+  387  ls -al
+  388  cd ..
+  389  ls -al
+  390  ls
+  391  cd code
+  392  ls
+  393  cd Unit1
+  394  ls
+  395  cd living_room/
+  396  l
+  397  ls
+  398  clear
+  399  pwd
+  400  cd
+  401  cd code
+  402  cd Unit1
+  403  cd living_room
+  404  echo 'hello, world'
+  405  echo "this bookshelf flexes under the weight of the books it holds." this bookshelf flexes under the weidght of the books it holds.
+  406  echo "this bookshelf flexes under the weight of the books it holds." > bookshelf.txt
+  407  ls
+  408  cat bookshelf.txt
+  409  cat bookshelf.txt
+  410  echo clear
+  411  cd
+  412  clear
+  413  cd code/Unit1/living_room
+  414  cat books.txt
+  415  cat books.txt | sort
+  416  cat books.txt
+  417  cat books.txt | sort > sorted_books.txt
+  418  cat sorted_books.txt
+  419  clear
+  420  cat books.txt | grep Mil
+  421  mv sorted_books.txt ../sorted.txt
+  422  ls
+  423  ls ..
+  424  cp bookshelf.txt second_bookshelf.txt
+  425  ls
+  426  cat bookshelf.txt second_bookshelf.txt
+  427  rm second_bookshelf.txt
+  428  ls
+  429  cd Unit1
+  430  cd
+  431  cd Unit1
+  432  cd code
+  433  cd Unit1
+  434  ls -la *.txt
+  435  cd
+  436  clear
+  437  cd
+  438  export MY_SETTINGS='code .'
+  439  MY_SETTINGS
+  440  CD
+  441  cd
+  442  man chown
+  443  man who am i
+  444  man whoami
+  445  id -un
+  446  whoami
+  447  man un
+  448  man -un
+  449  clear
+  450  pwd
+  451  cd
+  452  clear
+  453  cd code
+  454  cd Unit1
+  455  pwd
+  456  git clone https://github.com/c-yun/command-line-murder-mystery.git
+  457  ls
+  458  cd command-line-murder-mystery/
+  459  ls -la
+  460  cat readme.md
+  461  cat instructions
+  462  pwd
+  463  history
+  464  history
+  465  history
+  466  pwd
+  467  cd code
+  468  cd unit1
+  469  ls
+  470  cd command-line-murder-mystery
+  471  cat instructions
+  472  open cheatsheet.md
+  473  mkdir solution.txt
+  474  cd mystery
+  475  ls
+  476  cat crimescene
+  477  ls
+  478  cd ..
+  479  ls
+  480  cat hint1
+  481  pwd
+  482  ls
+  483  cd ..
+  484  cd command-line-murder-mystery/
+  485  ls
+  486  cd mystery
+  487  ls
+  488  cd crimescene
+  489  cat crimescene
+  490  crimescene | grep "CLUE"
+  491  head crimescene | grep "CLUE"
+  492  ls
+  493  grep "CLUE" crimescene
+  494  cat hint1
+  495  cd ..
+  496  cat hint1
+  497  ls
+  498  cd mystery
+  499  ls
+  500  grep people
+  501  history
+  502  pwd
+  503  cd code
+  504  cd unit1
+  505  cd command_line_murder_mystery
+  506  cd command-line-murder-mystery
+  507  ls
+  508  cd mystery
+  509  ls
+  510  grep "CLUE" crimescene
+  511  cat interviews
+  512  cd interviews
+  513  ls
+  514  cd people
+  515  cd ..
+  516  cd people
+  517  cat people
+  518  pwd
+  519  grep "Annabel" people
+  520  head -n 40 streets/Hart_Place | tail -n 1
+  521  head -n 179 streets/Buckingham Place | tail -n 1
+  522  head -n 179 streets/Buckingham_Place | tail -n 1
+  523  pwd
+  524  ls
+  525  cat interviews
+  526  grep "47246024" interviews
+  527  cd interviews
+  528  ls
+  529  grep "47246024" interviews
+  530  grep "interview-47246024" interviews
+  531  cat interview-47246024
+  532  cat interview-699607
+  533  pwd
+  534  cd ..
+  535  pwd
+  536  ls
+  537  cd vehicles
+  538  cat vehicles
+  539  grep "Honda" vehicles
+  540  grep "Blue" vehicles
+  541  grep "Honda" vehicles
+  542  grep "L337" vehicles
+  543  grep "Honda" "Blue" "L337" vehicles
+  544  head vehicles | grep "Honda"
+  545  ls
+  546  cat vehicles
+  547  grep -A 5 "L337" mystery/vehicles
+  548  cd ..
+  549  grep -A 5 "L337" mystery/vehicles
+  550  pwd
+  551  ls
+  552  cd mystery
+  553  ls
+  554  cd memberships
+  555  ls
+  556  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  557  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  558  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  559  history
+  560  history > solution.txt
+Jeremy Bowers
