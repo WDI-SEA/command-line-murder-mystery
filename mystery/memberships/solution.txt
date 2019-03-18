@@ -1,0 +1,50 @@
+  244  cat Mattapan_Street
+  245  ..
+  246  ls -a
+  247  cd memberships
+  248  ls -a
+  249  cat Museum_of_Bash_History
+  250  ls -a
+  251  cat AAA
+  252  ls -a
+  253  ..
+  254  ls -a
+  255  cd streets
+  256  cat Mattapan_Street | head -n 40
+  257  cat Mattapan_Street | tail -n 40
+  258  cat Mattapan_Street 
+  259  ..
+  260  ls -a
+  261  cd interviews
+  262  cat interview-9437737
+  263  cd streets
+  264  ls -a
+  265  ..
+  266  cd streets
+  267  cat Haley_Street
+  268  ..
+  269  cd interviews
+  270  cat interview-871
+  271  cat interview-871877
+  272  ..
+  273  cs streets
+  274  cd streets
+  275  cat Buckingham_Place
+  276  ..
+  277  cd streets
+  278  ..
+  279  cd interviews
+  280  ls -a
+  281  cat interview-699607
+  282  ..
+  283  ls -a
+  284  cat vehicles
+  285  cat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1
+  286  cat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1 | grep 6' -C 2\n\ncat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1\npwd\n..
+  287  cat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1 | grep 6' -C\n\ncat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1\npwd\n..\n¨
+  288  cat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1 | grep "Height: 6'" -B 4
+  289  ls -a
+  290  cd memberships
+  291  cat Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library  AAA | grep Joe Germuska
+  292  cat Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library  AAA | grep "Joe Germuska"
+  293  cat Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library  AAA | grep "Jeremy Bowers"
