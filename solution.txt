@@ -1,0 +1,150 @@
+  350  cat vehicles | grep -A5 L337
+  351  ls
+  352  cd memberships
+  353  ls
+  354  cat 1.txt
+  355  cd ..
+  356  ls
+  357  cd memberships
+  358  ls
+  359  cat AAA | Grep Mike Bostock
+  360  cat AAA | Grep 'Mike Bostock'
+  361  cat . | Grep 'Mike Bostock'
+  362  ls
+  363  cat AAA Delta_SkyMiles | grep 'Mike'
+  364  cat AAA Delta_SkyMiles Mueseum_of_Bash_History library.txt| grep 'Mike'
+  365  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Mike'
+  366  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Erika Owens'
+  367  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Erika'
+  368  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Mike'
+  369  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Joe'
+  370  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Joe Germuska'
+  371  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Mike Bostock'
+  372  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Jeremy Bowers'
+  373  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Jacqui Maher'
+  374  ls
+  375  cd ..
+  376  ls
+  377  cd people
+  378  cat people
+  379  cat people | grep 'Mike Bostock'
+  380  cat people | grep 'Jeremy Bowers'
+  381  cat people | grep 'Jacqui Maher'
+  382  ls
+  383  cd people
+  384  cat people | 'Jacqui Maher'
+  385  cat people | grep 'Jacqui Maher'
+  386  ls
+  387  cd streets
+  388  ls
+  389  cd Oakley_Street
+  390  cat Oak_Place
+  391  cat Andover_Road | grep Jacqui
+  392  cat Andover_Road
+  393  cd ..
+  394  ls
+  395  cd interviews
+  396  ls
+  397  cd ..
+  398  ls
+  399  cd people
+  400  ls
+  401  cd streets
+  402  cat Senders_Court -n
+  403  cat -n Senders_Court
+  404  cat -n Dunstable_Road
+  405  cat -n Andover_Road
+  406  cd ..
+  407  ls
+  408  cd interviews
+  409  ls
+  410  cat interview-290346
+  411  cat interview-9620713
+  412  cat interview-904020
+  413  ls
+  414  cd ..
+  415  ls
+  416  crimescene
+  417  cat crimescene
+  418  cat crimescene | grep jeremy
+  419  cat crimescene | grep Bowers
+  420  cd ..
+  421  ls
+  422  cd mystery
+  423  ls
+  424  cd memberships
+  425  ls
+  426  cat 1.txt
+  427  cd ..
+  428  ls
+  429  cd streets
+  430  cat -n Haley_Street
+  431  cd ..
+  432  ls
+  433  cd interviews
+  434  ls
+  435  cat interview-871877
+  436  ls
+  437  cd ..
+  438  ls
+  439  cd memberships
+  440  ls
+  441  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Erika'
+  442  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'joe germuska'
+  443  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'joe'
+  444  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Joe'
+  445  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep 'Joe Germuska'
+  446  ls
+  447  cat AAA delta.txt Museum_of_Bash_History library.txt| grep 'Joe Germuska'
+  448  cat AAA delta.txt Museum_of_Bash_History library.txt| grep 'Erika Owens'
+  449  cd
+  450  cd ..
+  451  ls
+  452  cd mayhem
+  453  ls
+  454  cd fundamentals
+  455  ls
+  456  cd command-line-murder-mystery
+  457  ls
+  458  cd mystery
+  459  ls
+  460  cd people
+  461  cat people | 'Erika Owens'
+  462  cat people | grep 'Erika Owens'
+  463  cat people | grep 'Joe Germuska'
+  464  cd ..
+  465  ls
+  466  cd mystery
+  467  ls
+  468  cd streets
+  469  cat -n Trapelo_Street
+  470  cat -n Plainfield_Street
+  471  cd ..
+  472  ls
+  473  cd interview
+  474  cat interview-5455315
+  475  ls
+  476  cd interviews
+  477  ls
+  478  cat interview-5455315
+  479  cat interview-29741223
+  480  ls
+  481  cd ..
+  482  ls
+  483  cat vehicles | grep -A6 "L337"
+  484  cd ..
+  485  ls
+  486  cat hint1
+  487  cat hint2
+  488  cat hint3
+  489  cat hint4
+  490  cat hint5
+  491  cat hint6
+  492  cat hint7
+  493  cat hint8
+  494  cat hint9
+  495  History | tail -n 50 > solution.txt
+  496  history | tail -n 50 > solution.txt
+  497  ls
+  498  cat solution.txt
+  499  history | tail -n 150 > solution.txt
