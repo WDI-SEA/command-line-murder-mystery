@@ -1,0 +1,50 @@
+10041  ls
+10042  rm badfile.txt
+10043  ..
+10044  ls
+10045  rm -rf one
+10046  ls
+10047  mkdir one/two/three
+10048  mkdir one/two/three -p
+10049  ls
+10050  rm -rf -p
+10051  rm -p
+10052  cd two
+10053  ls
+10054  echo "Carroll, Lewis:Through the Looking-Glass\nShakespeare, William:Hamlet\nBartlett, John:Familiar Quotations\nMill, John :On Nature\nLondon, Jack:John Barleycorn\nBunyan, John:Pilgrim's Progress, The\nDefoe, Daniel:Robinson Crusoe\nMill, John Stuart:System of Logic, A\nMilton, John:Paradise Lost\nJohnson, Samuel:Lives of the Poets\nShakespeare, William:Julius Caesar\nMill, John Stuart:On Liberty\nBunyan, John:Saved by Grace" > books.txt
+10055  ls
+10056  cat books.txt
+10057  cat hello.txt books.txt
+10058  clear
+10059  cat books.txt | sort
+10060  cat books.txt
+10061  cat books.txt | sort
+10062  clear
+10063  cat books.txt | grep Mil
+10064  cat books.txt | sort
+10065  cat books.txt | sort > sorted.txt
+10066  ls
+10067  cat books.txt | grep Milton -A 2
+10068  cat books.txt | grep Milton -B 2
+10069  cat books.txt | grep Milton -C 2
+10070  cat sorted.txt | grep Milton -C 2
+10071  history
+10072  history | tail -n 10
+10073  clear
+10074  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+10075  clear
+10076  brew install git
+10077  clear
+10078  git clone git@github.com:brandiw/command-line-murder-mystery.git
+10079  ls
+10080  cd command-line-murder-mystery
+10081  cat instructions
+10082  ls
+10083  cd mystery
+10084  ls
+10085  cat crimescene
+10086  cat crimescene | grep CLUE
+10087  ls
+10088  cat people
+10089  ls
+10090  cat crimescene | grep CLUE
