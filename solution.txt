@@ -1,0 +1,52 @@
+Justins-MacBook-Pro:memberships jk$ history 50
+  312  cat people | grep Annabel -C 2
+  313  ls
+  314  cat interviews | grep Annabel 
+  315  cd interviews
+  316  ls
+  317  cd ..
+  318  ls
+  319  cd ..
+  320  ls
+  321  cat hint1
+  322  head -n 20 people
+  323  ls
+  324  cd mystery
+  325  head -n 20 people
+  326  cat people | grep Annabel
+  327  cd streets
+  328  ls
+  329  cd Buckingham_Place
+  330  cat Buckingham_Place | grep 179
+  331  cat Buckingham_Place
+  332  head -n 179 Buckingham_Place
+  333  cd..
+  334  cd ..
+  335  ls
+  336  cd interviews
+  337  ls
+  338  cat interview-699607
+  339  cd ..
+  340  ls
+  341  cd vehicles
+  342  cat vehicles | grep L337
+  343  head -n 20 vehicles
+  344  cat vehicles | grep L337 -A 5
+  345  cd memberships
+  346  ls
+  347  cat AAA | grep Germuska
+  348  head -n 20 AAA
+  349  cat AAA | grep Bowers
+  350  cat AAA | grep Bostock
+  351  cat Delta_SkyMiles | grep Germuska
+  352  cat -n 20 Delta_SkyMiles
+  353  head -n 20 Delta_SkyMiles
+  354  cat Delta_SkyMiles | grep Bowers
+  355  cat Museum_of_Bash_History | grep Bowers
+  356  ls
+  357  cat Terminal_City_Library | grep Bowers
+  358  history tail -50
+  359  history -50 tail
+  360  history 50 tail
+  361  history 50
+Jeremy Bowers is the killer
