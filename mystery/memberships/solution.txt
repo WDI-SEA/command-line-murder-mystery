@@ -1,0 +1,50 @@
+  483  clear
+  484  ls
+  485  cat Museum_of_Bash_History | grep Muse
+  486  ls
+  487  cd ../
+  488  ls
+  489  head vehicles 
+  490  head people
+  491  head -20 people
+  492  head -20 vehicles 
+  493  head -50 vehicles 
+  494  clear
+  495  grep "Annebel" people
+  496  ls
+  497  cat people |grep "Annebel" 
+  498  cat people | grep "Annebel" 
+  499  cat people | grep Annebel 
+  500  cat people | grep Annabel 
+  501  cd code/command-line-murder-mystery/ls
+  502  cd code/command-line-murder-mystery/
+  503  ls
+  504  cd mystery/
+  505  ls
+  506  cat vehicles | grep Blue -C 2
+  507  grep Honda -A 3 -B 1 | grep "Height: 6" -B 4
+  508  cat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1 | grep "Height: 6" -B 4
+  509  cat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1 | grep "Height: 6" -B 4 | grep L337 -A 4
+  510  cat Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library AAA
+  511  cd ..
+  512  ls
+  513  cd mystery/
+  514  ls
+  515  cd crimescene 
+  516  ls
+  517  ls
+  518  cd ..
+  519  ls
+  520  cd ..
+  521  ls
+  522  cd command-line-murder-mystery/
+  523  ls -R | grep Museum
+  524  ls
+  525  cd instructions 
+  526  cd mystery/
+  527  ls
+  528  ls -la
+  529  cd memberships/
+  530  ls
+  531  cat Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library AAA | grep "Jeremy Bowers"
+  532  history | tail -n 50 > solution.txt
