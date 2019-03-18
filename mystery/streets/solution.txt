@@ -1,0 +1,50 @@
+  551  ..
+  552  ls
+  553  cd comm
+  554  cd code
+  555  ls
+  556  cd command-line-murder-mystery
+  557  cat instructions
+  558  ls
+  559  cd mystery
+  560  ls
+  561  cat crimescene
+  562  cat crimescene | grep CLUE
+  563  ls
+  564  cat people
+  565  cat people | grep Annabel
+  566  head -n 173 streets/Mattapan_Street | tail -n 1
+  567  ls
+  568  cat interviews
+  569  ls
+  570  cd interviews
+  571  ls
+  572  grep interview-9437737
+  573  cd code
+  574  cd command-line-murder-mystery
+  575  cat instructions
+  576  ls
+  577  cd mystery
+  578  ls
+  579  cat crimescene
+  580  cat crimescene | grep CLUE
+  581  ls
+  582  cat people
+  583  cat people | grep Annabel
+  584  head -n 173 streets/Mattapan_Street | tail -n 1
+  585  ls
+  586  cd interviews
+  587  ls
+  588  cat interview
+  589  cat interview-93473333
+  590  cat interview-9437737
+  591  head -n head 40 streets/Hart_Place | tail -n 1
+  592  head -n 40 streets/Hart_Place | tail -n 1
+  593  cd mystery
+  594  ..
+  595  ls
+  596  cat streets
+  597  cd streets
+  598  cat Hart_Place | head -n 40 |tail -n 1
+  599  cat Buckingham_Place | head -n 179 |\ncd..
+  600  git commit .
