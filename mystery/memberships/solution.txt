@@ -1,0 +1,51 @@
+  317  ls
+  318  cd people 
+  319  cd vehicles 
+  320  grep "CLUE"
+  321  ls
+  322  cd murdermystery/
+  323  ls
+  324  cd command-line-murder-mystery/
+  325  ls
+  326  cd mystery/
+  327  ls
+  328  grep "CLUE" crimescene 
+  329  cd people 
+  330  grep "Annabel" people 
+  331  head people 
+  332  cd streets/
+  333  head -n 40
+  334  ls
+  335  head -n 40 Hart_Place 
+  336  cd ..
+  337  cd interviews/
+  338  head interview-47246024
+  339  pwd
+  340  cd ../streets/
+  341  head -n 179 Buckingham_Place 
+  342  cd ../interviews/
+  343  head interview-699607
+  344  cd ../vehicles 
+  345  ls
+  346  cd ../vehicles 
+  347  cd ..
+  348  ls
+  349  head vehicles 
+  350  grep -A 5 "L337"
+  351  grep -A 5 "L337" vehicles 
+  352  grep -A 5 "L337" vehicles | grep -B 1 -A 3 "Height: 6"
+  353  grep -A 5 "L337" vehicles | grep  "Height: 6"
+  354  grep -A 5 "L337" vehicles | grep -B 4 "Height: 6"
+  355  grep -A 5 "L337" vehicles | grep -B 4 "Height: 6" | grep -C 2 "Blue"
+  356  grep -A 5 "L337" vehicles | grep -B 4 "Height: 6" | grep -C 2 "Blue" | grep -B 1 -A 2 "Honda"
+  357  cd ..
+  358  ls
+  359  cd mystery/
+  360  ls
+  361  cd memberships/
+  362  ls
+  363  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles "FourMembershipsCombined.txt"
+  364  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles | grep "Jeremy Bowers"
+  365  echo "GOT 'IM"
+  366  history | tail -n 50 > solution.txt
+Jeremy Bowers
