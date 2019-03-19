@@ -1,0 +1,51 @@
+  534* 
+  535  cat street | grep Haley 
+  536  cat streets | grep Haley 
+  537  cat streets | grep Haley Street
+  538  cat streets | grep Haley Street
+  539  cat streets | grep "Haley Street"
+  540  cd streets/
+  541  ls
+  542  cat Haley_Street | grep -n 176
+  543  cat Haley_Street -n 176
+  544  head -n 176 Haley_Street | tail -n 1
+  545  cd ..
+  546   ls
+  547  cd interviews/
+  548  ls
+  549  cd interview-71877
+  550  cd interview-871877
+  551  cd interview-#871877
+  552  cat interview-#871877
+  553  cat interview-871877
+  554  cat interview-871877
+  555  cd ..
+  556  ls
+  557  cd streets/
+  558  head -n 179 Buckingham_Place | tail -n 1
+  559  cd ..
+  560  ls
+  561  cd interviews/
+  562  cat interview-699607
+  563  cat interview-699607
+  564  cd ..
+  565  ls
+  566  cd vehicles 
+  567  cat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1 
+  568  cat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1 | grep "Height: 6" -B 4 | grep L337 -A 4
+  569  cd ..
+  570  ls
+  571  cd mystery/
+  572  ls
+  573  cat Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library AAA | grep "Jeremy Bowers"
+  574  cd memberships/
+  575  cat Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library AAA | grep "Jeremy Bowers"
+  576  history | tail -n 50 > solution.txt
+  577  echo "Jeremy Bowers" >> solution.txt
+  578  cd ..
+  579  ls
+  580  cd ..
+  581  ls
+  582  open solution.txt 
+  583  history | tail -n 50 > solution.txt
+Jeremy Bowers
