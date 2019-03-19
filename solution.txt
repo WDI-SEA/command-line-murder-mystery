@@ -1,0 +1,51 @@
+  131  pwd
+  132  ls
+  133  cd command-line-murder-mystery
+  134  ls
+  135  cat cheatsheet.md
+  136  pwd
+  137  ls
+  138  head mystery
+  139  cat mystery
+  140  cd mystery
+  141  mystery
+  142  pwd
+  143  ls
+  144  head people
+  145  grep "CLUE" crimescene
+  146  grep "Annabel" people
+  147  pwd
+  148  ls
+  149  head -n 173 street/Mattapan_Street | tail _n 1
+  150  cd streets
+  151  ls
+  152  head n- 173 streets/Mattapan street | tail -n 1
+  153  head -n 173 streets/Mattapan street | tail -n 1
+  154  ls
+  155  cd ..
+  156  ls
+  157  grep "Annabel" people
+  158  head -n 173 streets/Mattapan_Street | tail -n 1
+  159  grep interview-9437737
+  160  ls
+  161  grep "Honda" vehicles
+  162  grep "l339"
+  163  grep "L339" vehicles
+  164  ls
+  165  head vehicles
+  166  grep -A 5 "L337" mystery/vehicles
+  167  ls
+  168  head people
+  169  cat Fitness_Galaxy AAA United_MileagePlus
+  170  cat Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library AAA | grep "Jeremy Bowers"
+  171  pwd
+  172  cd memberships
+  173  ls
+  174  cat Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library AAA | grep "Jeremy Bowers"
+  175  cd ..
+  176  ls
+  177  cd vehicles
+  178  cat vehicles
+  179  cat vehicles | grep Blue -C 2 | grep Honda -A 3 -B 1 | grep "Height: 6" -B 4 | grep L337 -A 4
+  180  history | tail -n 50 > solution.txt
+Jeremy Bowers
