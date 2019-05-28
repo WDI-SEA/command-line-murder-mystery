@@ -1,0 +1,13 @@
+1. cat instructions
+2. cat crimescene | grep CLUE
+3. cat people | grep "Annabel"
+4. head -n 40 streets/Hart_Place | tail -n 1
+   head -n 179 streets/Buckingham_Place | tail -n 1
+5. cat interviews/interview-47246024 
+   cat interviews/interview-699607
+6. cat vehicles | grep "L337" -A 5 | grep "Honda" -C 4 | grep "Blue" -C 3 
+7. cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+   cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jacqui Maher"
+8. cat people | grep "Jacqui Maher"
+
+The criminal is Jeremy Bowers. 
