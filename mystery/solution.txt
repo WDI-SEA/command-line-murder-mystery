@@ -1,0 +1,297 @@
+   419  Jeremy Bowers\tM\t34\tDunstable Road, line 284
+  
+  125  l
+  126  cd command-line-murder-mystery
+  127  l
+  128  cat instructions
+  129  cd mystery
+  130  l
+  131  mystery |grep "Clue"
+  132  mystery | grep "Clue"
+  133  mystery | grep "CLUE""\n"
+  134  mystery | grep "CLUE"\n"\n"
+  135  mystery | grep 'CLUE'\n"\n"
+  136  cat mystery | grep 'CLUE'
+  137  cat crimescene | grep 'CLUE'
+  138  cd ..
+  139  cat command-line-murder-mystery | grep 'CLUE'
+  140  l
+  141  cd mystery
+  142  l
+  143  cd interviews
+  144  cat interviews | grep "CLUES"
+  145  cd ..
+  146  cd memberships | grep 'CLUES'
+  147  cat memberships | grep 'CLUES'
+  148  cat people | grep 'CLUES'
+  149  cat streets | grep 'CLUES'
+  150  cat streets | grep 'CLUE'
+  151  cd crimescene | grep 'CLUE'
+  152  cd interviews
+  153  cat interview | grep "CLUE"
+  154  cat interview | grep 'CLUE'
+  155  cat interviews | grep 'CLUE'
+  156  cd ..
+  157  cd memberships
+  158  cat memberships | grep 'CLUE'
+  159  cd ..
+  160  cd people
+  161  cat people | grep 'CLUE'
+  162  l
+  163  cd streets
+  164  cat streets | grep 'CLUE'
+  165  cd ..
+  166  cat streets | grep 'CLUE'
+  167  cd streets
+  168  ;
+  169  l
+  170  cd ..
+  171  l
+  172  cd vehicles
+  173  cat vehicles| grep "CLUE"
+  174  cat vehicles| grep 'CLUE'
+  175  l
+  176  cd streets
+  177  cat streets | grep 'CLUE'
+  178  l
+  179  cd ..
+  180  l
+  181  cd interviews
+  182  cat interviews | grep 'CLUE'
+  183  l
+  184  cat interview | grep 'CLUE'
+  185  cat interview | grep CLUE
+  186  cat interview- | grep CLUE
+  187  cd ..
+  188  l
+  189  cat interview- | grep CLUE
+  190  cat interview- | grep 'CLUE'
+  191  cat interview | grep 'CLUE'
+  192  cat interviews | grep 'CLUE'
+  193  cd interviews
+  194  cd ..
+  195  cd interviews
+  196  cat interview- | grep 'Annabelle'
+  197  cat interview- | grep '6 f'
+  198  l
+  199  cd ..
+  200  l
+  201  cat crimescene | grep "CLUE"
+  202  cat interview- | grep "Anna"
+  203  cat interview- | grep "6'"
+  204  cat interview- | grep "ID"
+  205  cd interviews
+  206  l
+  207  cat interview- | grep - A "ID"
+  208  cat interview- | grep -A "ID"
+  209  cat interview- | grep -A 'CLUE'
+  210  cd ..
+  211  cat interview- | grep -A '9'
+  212  cat interviews | grep -A '9'
+  213  cat interviews | grep '9'
+  214  cd interviews
+  215  cat interview- | grep -A '9'
+  216  cat interviews | grep -A 'interview-'
+  217  ls | grep 'CLUE''\n'
+  218  ls | grep 'CLUE'\n'\n'
+  219  ls | grep "9"\n'\n'
+  220  ls | grep "6'"\n'\n'
+  221  cd ..\n'\n'
+  222  l
+  223  cd memberships
+  224  l
+  225  cd AAA
+  226  cat AAA | grep "6'"
+  227  cat Museum_of_Bash_History | grep "6'"
+  228  cat Museum_of_Bash_History | grep "Annabel"
+  229  cd ..
+  230  cd interviews
+  231  cd ..
+  232  l
+  233  cat streets | grep "Church"
+  234  cat streets | grep "Annabel""\n"
+  235  cat streets | grep "Annabel"\n"\n"
+  236  cat streets | grep 'Annabel'\n"\n"
+  237  cat people | grep 'Annabel'\n"\n"
+  238  cat people | grep 'Fuglsang'\n"\n"
+  239  cat people | grep 'Sun'\n"\n"
+  240  cat people | grep 'Annabel'\n"\n"
+  241  cat people | grep 'Oluwasegun'\n"\n"
+  242  cd ..
+  243  cd mystery
+  244  l
+  245  cat vehicles | grep "Os"
+  246  cat vehicles | grep "Annabel"
+  247  cd interviews
+  248  cd ..
+  249  l
+  250  cat crimescene| grep "CLUE"
+  251  cd memberships
+  252  l
+  253  cat Delta_SkyMiles | grep "6"
+  254  cat library | grep "6"
+  255  cd library.txt"\n"
+  256  cd library.txt\n"\n""\n'\n\n"
+  257  cd library
+  258  cat library | grep 'Annabel'
+  259  l
+  260  grep 1.txt
+  261  cd ..
+  262  cd memberships
+  263  cat library.txt | grep "M"
+  264  cat library.txt | grep "Anna"
+  265  cat delta.txt | grep "Anna"
+  266  cat Museum_of_Bash_History | grep "Anna"
+  267  cd ..
+  268  l
+  269  cat people | grep 'Oluwasegun Annabel'
+  270  cd streets
+  271  l
+  272  grep 'Mattapan Street, line 173'
+  273  cat Mattapan Street, line 173 | grep "Anna"
+  274  Mattapan_Street
+  275  cd ..
+  276  l
+  277  cat vehicles | grep "Anna"
+  278  l
+  279  vehicles
+  280  cd vehicles
+  281  cd interviews
+  282  l
+  283  interview-016463
+  284  cd ..
+  285  l
+  286  cat crimescene | grep 'CLUE'
+  287  cat people | grep 'blonde'
+  288  cat people | grep 'spiky'
+  289  cat people | grep 'Annabel'
+  290  cd streets
+  291  l
+  292  cd ..
+  293  l
+  294  cat people | grep 'Annabel'
+  295  cd streets
+  296  cat Hart 
+  297  cd ..
+  298  l
+  299  cat vehicles | grep "Hart"
+  300  cat vehicles | grep "Buck"
+  301  cat vehicles | grep "Haley"
+  302  cat vehicles | grep "Annabel"
+  303  cat vehicles | grep "Anna"
+  304  cat vehicles | grep "Ol\n"
+  305  cat vehicles | grep "Ols"\n"\n"
+  306  cat vehicles | grep "Oluwas"\n"\n"
+  307  cat vehicles | grep "Owner: Anna"\n"\n"
+  308  cat vehicles | grep "Height: 6'"\n"\n"
+  309  cat vehicles | grep "Ol\n"
+  310  cd ..\n"\n"
+  311  cd mystery
+  312  l
+  313  cd membership
+  314  cd memberships
+  315  l
+  316  cat AAA | grep " "
+  317  cat AAA | grep "Anna"
+  318  cd ..
+  319  l
+  320  cd streets
+  321  l
+  322  Buckingham_Place
+  323  cat Buckingham_Place
+  324  l
+  325  Hart_Place
+  326  cat hart
+  327  cat Hart_Place
+  328  head -n 40 Hart Place
+  329  head -n 40 'Hart Place'
+  330  head -n 40 'Hart_Place'
+  331  cd
+  332  l
+  333  cd code
+  334  l
+  335  cd unit1
+  336  l
+  337  cd command-line-murder-mystery
+  338  cd mystery
+  339  l
+  340  cd interviews
+  341  cat #47246024
+  342  cat 47246024
+  343  cat interview-47246024
+  344  cd ..
+  345  cat vehicles | grep -A 5 L337 | grep -A 4 Blue | grep -A 3 -B 'blue'
+  346  cat vehicles | grep -A 5 L337 | grep -A 4 -B 1 Honda | grep -A 3 -B 1 Blue
+  347  l
+  348  cd memberships
+  349  l
+  350  cat Museum_of_Bash_History | grep "Jeremy"
+  351  cat Museum_of_Bash_History | grep "Joe"
+  352  cd ..
+  353  l
+  354  cat people | grep "Jeremy Bowers"
+  355  l
+  356  cd streets
+  357  echo Dunstable Road
+  358  cat Dunstable Road
+  359  l
+  360  head -n 28 284 Dun
+  361  head -n 28 Dun
+  362  head -N 28 Dun
+  363  head -n 28 Dunstable_Road
+  364  head -n 284 Dunstable_Road
+  365  cd ..
+  366  l
+  367  cd interviews
+  368  cat interview- | grep "9620713"
+  369  cat interview-9620713
+  370  cd ..
+  371  l
+  372  cd streets
+  373  cat Hart_Place
+  374  head -n 40 
+  375  head -n 40 Hart_Place
+  376  cd ..
+  377  cd interviews
+  378  cat interview-47246024
+  379  cd ..
+  380  cd streets
+  381  l
+  382  head -n 179 Buckingham_Place
+  383  cd ..
+  384  cd interviews
+  385  cat interview-699607
+  386  cd ..
+  387  l
+  388  cat vehicles | grep -A 5 L337 | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue
+  389  cat people | grep "Erika"
+  390  cd streets
+  391  head -n 98 Trapelo Street
+  392  head -n 98 Trapelo_Street
+  393  cd ..
+  394  l
+  395  cd interviews
+  396  cat interview-5455315
+  397  cd ..
+  398  cat interview-2939888
+  399  cd ..
+  400  l
+  401  cd mystery
+  402  l
+  403  cd interviews
+  404  cd ..
+  405  l
+  406  cd memberships
+  407  head -n Jerem
+  408  l
+  409  cat AAA | grep "Jere"
+  410  cat Delta_Skymiles | grep "Jere"
+  411  cat library.txt | grep "Jere"
+  412  cd ..
+  413  touch solution.txt
+  414  history
+  415  l
+  416  cat people | grep "Jeremy"
+  417  history
+  418  cat people | grep "Jeremy"
+  419  Jeremy Bowers\tM\t34\tDunstable Road, line 284
