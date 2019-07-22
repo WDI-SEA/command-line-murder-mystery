@@ -1,0 +1,51 @@
+Jeremy Bowers
+  199  cd sh
+  200  ls
+  201  pwd
+  202  ls
+  203  cd sh
+  204  history | -5
+  205  history
+  206  clear
+  207  ls
+  208  cd mystery
+  209  ls
+  210  cat crimescene | grep CLUE
+  211  LS
+  212  cd streets
+  213  ls
+  214  cd ..
+  215  ls
+  216  cat people | grep Annabel
+  217  ls
+  218  cd streets
+  219  ls
+  220  cat cd ..
+  221  ls
+  222  cd ..
+  223  ls
+  224  cat people | grep Hart Place
+  225  cat people | grep Hart
+  226  ls
+  227  cd streets
+  228  ls
+  229  grep Hart
+  230  ls
+  231  cd ..
+  232  ls
+  233  cd ..
+  234  ls
+  235  cd ..
+  236  ls
+  237  cd command-line-murder-mystery
+  238  ls
+  239  touch solution.txt
+  240  ls
+  241  cd sol
+  242  ls
+  243  echo "Jeremy Bowers" > solution.txt
+  244  cat solution.txt
+  245  history | tail n -50 
+  246  history
+  247  history | tail n -50
+  248  history | tail -50
