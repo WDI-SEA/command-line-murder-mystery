@@ -1,0 +1,101 @@
+Jeremy Bowers
+  208  cat streets/hart_place | "Zealand"
+  209  cat streets/buckingham_place | "Zealand"
+  210  ls
+  211  cat vehicles
+  212  cat people
+  213  ls
+  214  cat people
+  215  ls
+  216  cat vehicles
+  217  cat vehicles | grep "Sun" -C 2
+  218  cat vehicles | grep "Church" -C 2
+  219  cd ..
+  220  cat vehicles | grep "Church" -C 3
+  221  ls
+  222  cd mystery/
+  223  cat vehicles | grep "Church" -C 3
+  224  cat vehicles | grep "Annabel Sun" -C 3
+  225  ls
+  226  cat vehicles
+  227  ls
+  228  cd memberships/
+  229  ls
+  230  cat AAA
+  231  ls
+  232  cat museum.txt
+  233  cd ..
+  234  ls
+  235  ls
+  236  ls streets
+  237  ls
+  238  cat crimescene 
+  239  ls
+  240  cat suspects.txt 
+  241  ls
+  242  cat people 
+  243  cat people | grep "Annabel Sun" -C 3
+  244  cat people | grep "Annabel Church" -C 3
+  245  ls
+  246  cat vehicles
+  247  cat people
+  248  cat people | grep "Hart Place"
+  249  cat suspects.txt 
+  250  cat suspects.txt | grep "Height: 6'" -B 1
+  251  cat people | grep "Hart Place"
+  252  cat people | grep "Hart Place" | grep "Remy Barac"
+  253  cat people | grep "Hart Place" | grep "Denis Rezola"
+  254  cat people | grep "Buckingham"
+  255  cat people | grep "Buckingham" | grep "Remy Barac"
+  256  cat people | grep "Buckingham" | grep "Denis Rezola"
+  257  ls
+  258  cat vehicles | grep "Remy Barac"
+  259  cat vehicles | grep "Remy Barac" -C 3
+  260  cat vehicles | grep "Denis Rezola" -C 3
+  261  ls
+  262  cat memberships/aaa | grep "Remy Barac"
+  263  cat memberships/aaa | grep "Denis Rezola"
+  264  cat memberships/aaa
+  265  cat vehicles
+  266  cat vehicles | grep "Height: 6'" -B 1 | grep memberships/aaa
+  267  cat vehicles | grep "Height: 6'" -B 1 
+  268  cat -n 40 streets/Hart_Place
+  269  cat interviews/*47246024
+  270  cat -n 179 buckingham_place | tail -n 1
+  271  ls streets/bu*
+  272  git remote -v
+  273  ls
+  274  cat people | grep "Annabel Church" -C 3
+  275  cat "streets/Buckingham_Place"
+  276  head -n 179 "streets/Buckingham_Place" | tail -n 1
+  277  cat interviews/*699607
+  278  ls
+  279  cat vehicles | grep "L337" -C 3
+  280  cat vehicles | grep "L337" -C 3 | grep "Height: 6'"
+  281  cat vehicles | grep "L337" -C 3 | grep "Height: 6'" -C 3
+  282  cat memberships/aaa | grep "Brian Boyer"
+  283  cat memberships/aaa | grep "Jeremy Bowers"
+  284  cat memberships/delta_skymiles | grep "Jeremy Bowers"
+  285  cat memberships/delta_skymiles | grep "Brian Boyer"
+  286  ls memberships/
+  287  cat memberships/library.txt | grep "Brian Boyer"
+  288  cat memberships/library.txt | grep "Jeremy Bowers"
+  289  cat memberships/museum_of_bash_history | grep "Jeremy Boyers"
+  290  cat memberships/museum_of_bash_history | grep "Brian Boyer"
+  291  cat people | grep "Brian Boyer" -C 3
+  292  cat memberships/museum_of_bash_history | grep "Jeremy Bowers"
+  293  cat memberships/museum_of_bash_history | grep "Joe Germuska"
+  294  cat memberships/AAA | grep "Joe Germuska"
+  295  cat memberships/AAA | grep "Jeremy Bowers"
+  296  cat memberships/Delta_Skymiles | grep "Jeremy Bowers"
+  297  cat memberships/AAA memberships Delta_SkyMiles Terminal_City_Library Museum_Of_Bash_History | grep "Jeremy Bowers"
+  298  cd memberships/
+  299  cat AAA Delta_SkyMiles Terminal_City_Library Museum_Of_Bash_History | grep "Jeremy Bowers"
+  300  cat AAA Delta_SkyMiles Terminal_City_Library Museum_Of_Bash_History | grep "Joe Germuska"
+  301  cd ..
+  302  ls
+  303  touch solution.txt
+  304  Echo "Jeremy Bowers" solution.txt 
+  305  Echo "Jeremy Bowers" >> solution.txt 
+  306  history -100 >> solution.txt
+  307  history | tail -n 100 >> solution.txt
