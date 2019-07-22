@@ -1,0 +1,51 @@
+Jeremy Bowers
+  103  ls
+  104  cat interview-699607
+  105  cd ..
+  106  ls
+  107  cat vehicles | grep L337*
+  108  cat vehicles | grep L337
+  109  cat vehicles
+  110  cat vehicles | grep Honda
+  111  cat vehicles
+  112  cat vehicles | grep Honda -A 4 -B 1
+  113  cat vehicles | grep Honda -A 4 -B 1 | grep Blue
+  114  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2
+  115  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5
+  116  cat vehicles | grep Honda -A 4 -B 1 | grep Blue -A 3 -B 2 | grep L337 -A 5pwd
+  117  pwd
+  118  ls
+  119  cat people | grep Joe
+  120  cat people | grep Jeremy
+  121  ls
+  122  cd streets
+  123  ls | grep Plainfield
+  124  cat Plainfield_Street | grep SEE
+  125  ls | grep Dunstable
+  126  cat Dunstable_Road | grep SEE
+  127  ls
+  128  cd ..
+  129  ls
+  130  cd interviews
+  131  ls
+  132  cat interview-29741223
+  133  cat interview-9620713
+  134  cd ..
+  135  ls
+  136  cd memberships
+  137  ls
+  138  cat AAA | grep Jeremy
+  139  cat Delta_SkyMiles | grep Jeremy
+  140  cat Museum_of_Bash_History | grep Jeremy
+  141  cat library.txt | grep Jeremy
+  142  ls
+  143  cd ..
+  144  ls
+  145  touch solution.txt
+  146  ls
+  147  rm solution.txt
+  148  cd ..
+  149  ls
+  150  touch solution.txt
+  151  echo "Jeremy Bowers" > solution.txt
+  152  history  | tail -n 50
