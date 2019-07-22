@@ -1,0 +1,51 @@
+Jeremy Bowers
+  143  cd memberships | grep Annabel
+  144  cat people | grep Annabel
+  145  cat vehicles | grep Annabel
+  146  cd ..
+  147  ls
+  148  cat instructions
+  149  ls
+  150  cd mystery
+  151  ls
+  152  cd interviews
+  153  ls
+  154  cd ..
+  155  ls
+  156  cat crimescene | grep CLUE
+  157  cat people | grep Annabel
+  158  cd streets
+  159  ls
+  160  cd streets
+  161  cd ..
+  162  cd streets
+  163  ls
+  164  cat Hart_Place | head -n 40 | tail -n 1
+  165  cat Buckingham Pl | head -n 179
+  166  cd ..
+  167  ls
+  168  cd interviews
+  169  cat interview-47246024
+  170  cat interview-699607
+  171  cd ..
+  172  ls
+  173  cat vehicles
+  174  cat vehicles | grep Blue -A 3 -B 2
+  175  clear
+  176  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1
+  177  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4
+  178  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4 | grep L337 -A 5
+  179  cd ..
+  180  ls
+  181  cd mystery
+  182  ls
+  183  cd memberships
+  184  ls
+  185  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska" | grep "Jeremy Bowers"
+  186  cd ..
+  187  ls
+  188  cd ..
+  189  touch solution.txt
+  190  echo "Jeremy Bowers" >> solution.txt
+  191  ls
+  192  cat solution.txt
