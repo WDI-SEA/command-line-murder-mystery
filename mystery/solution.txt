@@ -1,0 +1,174 @@
+ 1106  cd memberships/
+ 1107  ls
+ 1108  cd ..
+ 1109  cat people | grep Annabel >> annabels.txt
+ 1110  ls
+ 1111  cat annabels.txt 
+ 1112  cat annabels.txt | grep memberships/AAA
+ 1113  cd memberships/
+ 1114  ls
+ 1115  cat AAA
+ 1116  clear
+ 1117  cat AAA | grep Annabel
+ 1118  ls
+ 1119  cat annabels.txt 
+ 1120  cat memberships/library.txt | grep Annabel
+ 1121  cat memberships/AAA.txt | grep Annabel
+ 1122  cat memberships/AAA | grep Annabel
+ 1123* cat memberships/Delta_SkyMiles | grep Anabel
+ 1124  cat memberships/Museum_of_Bash_History | grep Annabel
+ 1125  cat memberships/museum.txt 
+ 1126  cat memberships/museum.txt | grep Annabel
+ 1127  ls
+ 1128  clear
+ 1129  ls
+ 1130  ls memberships/
+ 1131  ls interviews/
+ 1132  clear
+ 1133  ls
+ 1134  cat vehicles 
+ 1135  clear 
+ 1136  cat vehicles | grep Annabel
+ 1137  cat vehicles | grep Annabel -A 3
+ 1138  cat vehicles | grep Annabel -A 4
+ 1139  cat vehicles | grep Annabel -F 1
+ 1140  cat vehicles | grep Annabel -B 1
+ 1141  cat vehicles | grep 6' -B 1
+ 1142  cat vehicles | grep "6'" -B 1
+ 1143  clear
+ 1144  ls
+ 1145  cd crim
+ 1146  cat crimescene 
+ 1147  cat crimescene | grep CLUE
+ 1148  clear
+ 1149  ls
+ 1150  cat people 
+ 1151  clear
+ 1152  ls
+ 1153  cat vehicles
+ 1154  cat vehicles | grep Annabel -A 4
+ 1155  ls
+ 1156  cd streets/
+ 1157  ls
+ 1158  cd ..
+ 1159  cat Wycliff_Avenue
+ 1160  cat streets/Wycliff_Avenue
+ 1161  clar
+ 1162  clear
+ 1163  ls
+ 1164  cd interviews/
+ 1165  ls
+ 1166  cd ..
+ 1167  ls
+ 1168  clear
+ 1169  ls
+ 1170  cat vehicles
+ 1171  clear
+ 1172  ls
+ 1173  head -n 20 people 
+ 1174  ls
+ 1175  cat annabels.txt 
+ 1176  cat streets/Hart_Place
+ 1177  head -n 20 streets/Hart_Place 
+ 1178  clear
+ 1179  cat annabels.txt 
+ 1180  head -n 40 streets/Hart_Place 
+ 1181  head -n 173 streets/Mattapan_Street 
+ 1182  clear
+ 1183  cat annabels.txt 
+ 1184  head -n 1798 streets/Buckingham_Place 
+ 1185  head -n 179 streets/Buckingham_Place 
+ 1186  clear
+ 1187  cat annabels.txt 
+ 1188  head -n 176 streets/Haley_Street 
+ 1189  clear
+ 1190  ls
+ 1191  ls interviews/
+ 1192  clear
+ 1193  cat interviews/interview-47246024
+ 1194  clear
+ 1195  cat interviews/interview-9437737
+ 1196  clear
+ 1197  cat interviews/interview-699607
+ 1198  clear
+ 1199  cat interviews/interview-871877
+ 1200  ls
+ 1201  cat vehicles
+ 1202  clear
+ 1203  cat vehicles | grep Honda | grep blue
+ 1204  cat vehicles | grep Honda
+ 1205  cat vehicles | grep Blue
+ 1206  cat vehicles | grep Honda | grep Blue
+ 1207  cat vehicles
+ 1208  cat vehicles | grep l337**9
+ 1209  cat vehicles | grep l337*9
+ 1210  cat vehicles | grep l337
+ 1211  cat vehicles | grep L337
+ 1212  cat vehicles | grep L337**9
+ 1213  cat vehicles | grep L337 -A 4
+ 1214  cat vehicles | grep L337 -A 5
+ 1215  cat vehicles | grep L337 -A 6
+ 1216  cat vehicles | grep L337 -A 5
+ 1217  cat vehicles | grep L337 -A 5 >> vehicles.txt
+ 1218  ls
+ 1219  cat vehicles.txt 
+ 1220  clear
+ 1221  cat vehicles.txt | grep Blue
+ 1222* cat vehicles.txt | grep Blue -A 4 >> 
+ 1223  cat vehicles
+ 1224  cat vehicles.txt | grep Honda -A -4
+ 1225  cat vehicles.txt | grep Honda -A 4
+ 1226  ls
+ 1227  cat people | grep "Mike Bostock"
+ 1228  cat people | grep "Mike Bostock" >> suspects.txt
+ 1229  cat people | grep "Erik Owens" >> suspects.txt
+ 1230  cat people | grep "Joe Germuska" >> suspects.txt
+ 1231  cat people | grep "Jeremy Bowers" >> suspects.txt
+ 1232  cat people | grep "Jacqui Maher" >> suspects.txt
+ 1233  ls
+ 1234  cat suspects.txt 
+ 1235  cat people | grep "Erika Owens" >> suspects.txt
+ 1236  cat suspects.txt 
+ 1237  cler
+ 1238  clear
+ 1239  cat suspects.txt 
+ 1240  ls
+ 1241  cat streets/Senders_Court | head -n 287
+ 1242  cat suspects.txt 
+ 1243  cat streets/Plainfield_Street | head -n 275
+ 1244  clear
+ 1245  cat suspects.txt 
+ 1246  cat streets/Dunstable | head -n 275
+ 1247  cat streets/Dunstable_Roade | head -n 284
+ 1248  cat streets/Dunstable_Road | head -n 284
+ 1249  clear
+ 1250  cat suspects.txt 
+ 1251  cat streets/Andover | head -n 224
+ 1252  cat streets/Andover_Roadver | head -n 224
+ 1253  cat streets/Andover_Road | head -n 224
+ 1254  clear
+ 1255  cat suspects.txt 
+ 1256  cat streets/Trapelo_Street | head -n 98
+ 1257  ls
+ 1258  cat interviews/interview-290346
+ 1259  clear
+ 1260  cat interviews/interview-29741223
+ 1261  cat interviews/interview-9620713
+ 1262  cat interviews/interview-96207clear
+ 1263  cat interviews/interview-904020
+ 1264  clear
+ 1265  cat interviews/interview-5455315
+ 1266  cat suspects.txt 
+ 1267  cat interviews/interview-9620713
+ 1268  cat interviews/interview-29741223
+ 1269  cat suspects.txt 
+ 1270  ls
+ 1271  cat memberships/AAA | grep Bowers
+ 1272  cat memberships/Delta_SkyMiles | grep Bowers
+ 1273  cat memberships/library.txt | grep Bowers
+ 1274  cat memberships/Museum_of_Bash_History | grep Bowers
+ 1275  clear
+ 1276  history 
+ 1277  history 170
+ 1278  history 173 >> solution.txt
+Jeremy Bowers
