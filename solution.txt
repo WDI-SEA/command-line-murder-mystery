@@ -1,0 +1,10 @@
+
+I must apologize. I have a lot of experience on command lines, and one bit of "muscle memory" I have is to exit when I'm done. I exited the prompt and lost the history...
+
+Compared to the walkthrough, I used "cat *" to scan all files and some regex in the grep to get multiple values concurrently. 
+
+Found Annebel first name, last name Church. Also found Ms. Sun. Interviews with Ms. Church identified Blue Honda with L337 and ends in 9. Ms. Sun wasn't at the coffee shop. Two people match height and gender description and car description. Jeremy Bowers and Gerz-something. 
+
+Gerz-something didn't have all the memberships in the cards found on the scene.
+
+Jeremy Bowers matched the height, gender, car make and color, license plate and memberships.
