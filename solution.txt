@@ -1,0 +1,50 @@
+  158  cat hint2
+  159  pwd
+  160  grep "CLUE"
+  161  pwd
+  162  ls
+  163  cd mystery
+  164  ls
+  165  interviews | grep CLUE
+  166  cat interviews
+  167  ls interviews
+  168  pwd
+  169  cd ..
+  170  ls
+  171  cat hint3
+  172  cat hint1
+  173  cat hint2
+  174  ls crimescene
+  175  ls mystery
+  176  ls crimescene
+  177  cat crimescene
+  178  cd crimescene
+  179  cd mystery
+  180  ls
+  181  cat crimescene
+  182  cd ..
+  183  pwd
+  184  ls
+  185  hint8
+  186  cat hint8
+  187  cat hint4
+  188  cat hint4
+  189  cat hint5
+  190  cat hint6
+  191  pwd
+  192  clear
+  193  cat instructions
+  194  cd mystery
+  195  cat crimescene
+  196  clear
+  197  cat crimescene | grep CLUE
+  198  pwd
+  199  ..
+  200  cd ..
+  201  ls
+  202  touch foundMurderer.txt
+  203  ls
+  204  echo "Jeremy Bowers" > foundMurderer.txt
+  205  cat foundMurderer.txt
+  206  history 50
+  207  history | tail -n 50 >> solution.txt
