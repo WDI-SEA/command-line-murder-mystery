@@ -1,1 +1,51 @@
 Jeremy Bowers
+  140  ls
+  141  cd ..
+  142  cd streets
+  143  ls
+  144  cat Buckingham_Place| head -n 179
+  145  cd
+  146  ..
+  147  ls
+  148  cd ~
+  149  ls
+  150  cd SEI
+  151  ls
+  152  cd command-line-murder-mystery
+  153  ls
+  154  cd mystery
+  155  ls 
+  156  ls interviews
+  157  cat interview-699607
+  158  cat interview-000296
+  159  ls
+  160  cd interviews
+  161  ls
+  162  cat interview-699607
+  163  cd ..
+  164  ls
+  165  cat vehicles | grep Blue -A 3 -B 2
+  166  cat vehicles | grep Blue -A 3 -B 2 | grep Honda
+  167  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 3 -B 2
+  168  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep " Height: 6" | grep License Plate L337 
+  169  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep " Height: 6" -A 1 -B 4 | grep License Plate L337 -A 5 
+  170  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep " Height: 6" -A 1 -B 4 | grep "License Plate L337" -A 5 
+  171  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1
+  172  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep " Height: 6" -A 1 -B 4
+  173  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4
+  174  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4 | grep "License Plate L337" -A 5 
+  175  ls
+  176  cd memberships
+  177  ls
+  178  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library| grep "Joe Germuska"
+  179  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library| grep "Jeremy Bowers"
+  180  cd ..
+  181  ls
+  182  cd ..
+  183  ls
+  184  cat solution.txt
+  185  history | tail -n 50
+  186  git add -A
+  187  git status
+  188  git commit -m "Found Killer"
+  189  git push origin master
