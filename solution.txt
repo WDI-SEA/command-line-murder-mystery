@@ -1,0 +1,51 @@
+Jeremy Bowers
+  562  cat crimescene | grep "CLUE"
+  563  head memberships/
+  564  head -20 memberships/
+  565  ls
+  566  cd memberships/
+  567  ls
+  568  head AAA -20
+  569  cd ..
+  570  cat vehicles | grep 'L337' -A 6
+  571  cd memberships/
+  572  ls
+  573  cat AAA | grep "Jeremy Bowers"
+  574  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  575  cat Museum_of_Bash_History | grep "Joe Germuska"
+  576  ls
+  577  cd ..
+  578  ls
+  579  cat crimescene | grep "CLUE"
+  580  cd ..
+  581  cat instructions 
+  582  ls
+  583  cat hint8
+  584  ls
+  585  cd mystery/
+  586  ls
+  587  cat crimescene | grep "CLUE"
+  588  cd memberships/
+  589  cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt | grep "Jeremy Bowers"
+  590  ls
+  591  cd ..
+  592  ls
+  593  cd ..
+  594  ls
+  595  cd cheatsheet.md
+  596  open cheatsheet.pdf
+  597  ls
+  598  cd mystery/
+  599  ls
+  600  cat vehicles | grep Blue -A 3 B -2 | grep Honda A -5 B -1 | grep "Height: 6" A -1 B -4 | grep L337 -A 5
+  601  cat vehicles | grep Blue A 3 B -2 | grep Honda A -5 B -1 | grep "Height: 6" A -1 B -4 | grep L337 A -5
+  602  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 5 -B 1 | grep "Height: 6" -A 1 -B 4 | grep L337 -A 5
+  603  cd ..
+  604  ls
+  605  touch solution.txt
+  606  clear
+  607  echo "Jeremy Bowers" > solution.txt 
+  608  cat solution.txt 
+  609  ls
+  610  history | tail -n 50
+  611  history | tail -n 50 >> solution.txt 
