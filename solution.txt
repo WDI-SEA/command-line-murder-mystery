@@ -1,0 +1,51 @@
+Jeremy Bowers
+10202  ls
+10203  cat crimescene
+10204  cat crimescene | grep CLUE
+10205  ls
+10206  cd interviews
+10207  ls
+10208  ..
+10209  cat people
+10210  cat people | grep Annabel
+10211  ls
+10212  cd streets
+10213  ls
+10214  cat Hart_Place
+10215  cat Hart_Place 40
+10216  cat Hart_Place | head -n 40
+10217  cat Hart_Place | head -n 40 | tail
+10218  cat Hart_Place | head -n 40 | tail -n 1
+10219  cat Buckingham_Place| head -n 179
+10220  ..
+10221  ls
+10222  cd interviews
+10223  ls
+10224  cat interview-47246024
+10225  cat interview-699607
+10226  ls
+10227  ..
+10228  ls
+10229  cat vehicles
+10230  cat vehicles | grep Blue
+10231  cat vehicles | grep Blue -A 3 -B 2
+10232  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1
+10233  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4
+10234  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4 | grep L337 -A 5
+10235  ls
+10236  cd memberships
+10237  ls
+10238  cat AAA | grep "Joe Germuska"
+10239  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+10240  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+10241  touch solution.txt
+10242  ..
+10243  cd memberships
+10244  rm solution.txt
+10245  ..
+10246  clear
+10247  touch solution.txt
+10248  ls
+10249  echo "Jeremy Bowers" > solution.txt
+10250  cat solution.txt
+10251  history | tail -n 50 
