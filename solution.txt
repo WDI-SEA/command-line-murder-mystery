@@ -1,0 +1,117 @@
+    1  echo buy more cookies
+    2  hello?
+    3  pwd
+    4  cd documents
+    5  pwd
+    6  ls
+    7  cd ..
+    8  ls -a
+    9  cd downloads
+   10  cd world
+   11  cd Downloads
+   12  cd World
+   13  World
+   14  cd ~
+   15  touch joke.txt
+   16  open joke.txt
+   17  joke.txt
+   18  cat joke.txt
+   19  git --version
+   20  git init
+   21  pwd
+   22  ls -a
+   23  hello
+   24  pwd
+   25  ls
+   26  cd /
+   27  pwd
+   28  ls
+   29  cd home
+   30  pwd
+   31  cd pauls
+   32  cd ..
+   33  pwd
+   34  cd ..
+   35  pwd
+   36  cd ~
+   37  pwd
+   38  clear
+   39  pwd
+   40  touch exampleFile
+   41  open /c/Users/pauls/exampleFile
+   42  ls /c/Users/pauls/exampleFile
+   43  open /c/Users/pauls/exampleFile
+   44  open(1) /c/Users/pauls/exampleFile
+   45  cd ~
+   46  mkdir test
+   47  ls
+   48  ~/test
+   49  ls
+   50  cd test/
+   51  ls
+   52  pwd
+   53  mkdir ../otherFolder
+   54  ls
+   55  cd ~
+   56  ls
+   57  pwd
+   58  mv exampleFile otherFolder
+   59  ls
+   60  cd /otherFolder/
+   61  cd otherFolder
+   62  pwd
+   63  cd ..
+   64  pwd
+   65  open Untitled.ipynb
+   66  vim Untitled.ipynb
+   67  ls
+   68  mkdir fileManipulation
+   69  echo "hello world"
+   70  pwd
+   71  cd fileManipulation
+   72  echo "hello world" >> hello
+   73  ls
+   74  cat hello
+   75  cat hello | grep hello
+   76  ls
+   77  touch file1.txt
+   78  touch file2.txt
+   79  touch example.txt 
+   80  lsd
+   81  ls
+   82  ls *.txt
+   83  history -5
+   84  pwd
+   85  ls
+   86  history | grep "Hello World"
+   87  clear
+   88  git clone https://github.com/pdangelo4/command-line-murder-mystery.git
+   89  ls
+   90  git clone git@github.com/pdangelo4/command-line-murder-mystery.git
+   91  git clone github.com/pdangelo4/command-line-murder-mystery.git
+   92  git clone github.com/pdangelo4/command-line-murder-mystery.git
+   93  git clone github.com/pdangelo4/command-line-murder-mystery.gitgithub.com/pdangelo4/command-line-murder-mystery.git
+   94  git clone github.com/pdangelo4/command-line-murder-mystery.git
+   95  git clone https://github.com/pdangelo4/command-line-murder-mystery.git
+   96  pwd
+   97  cat instructions
+   98  cd command-line-murder-mystery.git
+   99  ls
+  100  pwd
+  101  cd command-line-murder-mystery
+  102  list
+  103  ls
+  104  cat instructions
+  105  mkdir solution.txt
+  106  history > solution.txt
+  107  pwd
+  108  echo history > solution.txt
+  109  history>>solution.txt
+  110  pwd
+  111  ls
+  112  rm solution.txt
+  113  rm -r solution.txt
+  114  touch solution.txt
+  115  echo history > solution.txt
+  116  cat solution.txt
+  117  history>solution.txt
