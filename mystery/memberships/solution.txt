@@ -1,0 +1,67 @@
+history- Ari Greif 9/16/2019
+ 1  history
+    2  /User/Ari/code/
+    3  user/Ari/code
+    4  pwd
+    5  cd code
+    6  pwd
+    7  l
+    8  cd unit1
+    9  l
+   10  cd command-line-murder-mystery
+   11  cat instructions
+   12  cd mystery
+   13  cat crimescene | grep CLUE
+   14  cd interviews
+   15  cat people | grep Annabel
+   16  cd .. 
+   17  cat people | grep Annabel
+   18  cat memberships | grep library  
+   19  cd memberships
+   20  cat AAA | grep Annabel 
+   21  cat  Mesuem_of_Bash_History | grep Annabel Church 
+   22  cat  Mesuem_of_Bash_History | grep Annabel 
+   23  cat  Museum_of_Bash_History | grep Annabel 
+   24  cd .. 
+   25  cd streets
+   26  cat Buckingham_Place 
+   27  cd ..
+   28  cat interviews 
+   29  cd interviews
+   30  cat INTERVIEW #699607 
+   31  cat interview-699607
+   32  cd .. 
+   33  cat vehicles | grep  L337
+   34  cat vehicles | grep L337 -C 4 | grep Honda 
+   35  cat vehicles | grep L337 -C 4 |
+   36  cat vehicles | grep L337 -C 4
+   37  cat vehicles | grep L337 && Honda
+   38  cat vehicles | grep L337 -C 4 && cat vehicles | grep Honda -C 4
+   39  cat vehicles | grep L337 -C 4 
+   40  cat vehicles | grep Honda | Blue | L337
+   41  cat vehicles | grep Honda | grep Blue 
+   42  cat vehicles | grep Honda | grep L337
+   43  cat vehicles | grep Honda *  | grep Blue
+   44  cat vehicles | grep Honda | grep L337
+   45  cat vehicles | grep Honda | L337 
+   46  cat vehicles | grep 'Honda' | grep L337
+   47  cat vehicles | grep "L337" -A 5 | grep Honda -A 4 | grep Blue -A 3
+   48  cat AAA Museum_of_Bash_History Delta_Sky_Miles | grep "Jacque Maher" 
+   49  cd memberships
+   50  cat AAA Museum_of_Bash_History Delta_Sky_Miles | grep "Jacque Maher" 
+   51  cat AAA Museum_of_Bash_History Delta_Skymiles | grep "Jacque Maher" 
+   52  cat AAA Museum_of_Bash_History Delta_Skymiles | grep "Jacqui  Maher" 
+   53  cat AAA Museum_of_Bash_History Delta_Skymiles | grep "Jacqui"" \ncat AAA Museum_of_Bash_History Delta_Skymiles | grep "Jacqui  Maher"
+   54  cat AAA Museum_of_Bash_History Delta_Skymiles | grep "Jacqui" 
+   55  cat AAA Museum_of_Bash_History Delta_Skymiles | grep "Jeremy Bowers"" 
+   56  cat AAA Museum_of_Bash_History Delta_Skymiles | grep "Jeremy Bowers"
+   57  cat AAA Museum_of_Bash_History Delta_Skymiles Terminal_City_Library | grep "Jeremy Bowers" 
+   58  cat AAA Museum_of_Bash_History Delta_Skymiles Terminal_City_Library | grep "Jacqui Maher" 
+   59  cat AAA Museum_of_Bash_History Delta_Skymiles library | grep "Jacqui Maher" 
+   60  cd mystery 
+   61  cd ..
+   62  cat people | grep Jacqui 
+   63  cat AAA Museum_of_Bash_History Delta_Skymiles Terminal_City_Library | grep "Jeremy Bowers" 
+   64  cat AAA Museum_of_Bash_History Delta_Skymiles Terminal_City_Library | grep "Jeremy Bowers"
+   65  cd memberships
+   66  cat AAA Museum_of_Bash_History Delta_Skymiles Terminal_City_Library | grep "Jeremy Bowers"
