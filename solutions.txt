@@ -1,0 +1,116 @@
+1.182  cat instructions
+  183  cd mystery
+  184  pwd
+  185  clear
+  186  ls
+  187  cat crimescene | grep CLUE
+  188  cat people
+  189  cat people | grep Annabel
+  190  ls
+  191  clear
+  192  ls
+  193  cd interviews
+  194  ls
+  195  pwd
+  196  cd..
+  197  cd ..
+  198  cd memberships
+  199  ls
+  200  cat AAA
+  201  cat AAA | grep Annabel
+  202  ls
+  203  cat Delta_SkyMiles | grep Annabel
+  204  cat delta.txt | grep Annabel
+  205  cat library.txt | grep Annabel
+  206  cat Museum_of_Bash_History | grep Annabel
+  207  cat museum.text | grep Annabel
+  208  cat museum.txt | grep Annabel
+  209  cd ..
+  210  ls
+  211  cd interviews
+  212  ls
+  213  head interview-000296
+  214  cat * | grep Annabel
+  215  cat * | grep Delta
+  216  cd streets
+  217  ls
+  218  cd ..
+  219  cd streets
+  220  ls
+  221  cd ..
+  222  ls
+  223  cat crimescene | grep CLUE
+  224  cat crimescene | grep street
+  225  cat crimescene | grep address
+  226  cat crimescene | grep ATM
+  227  ls
+  228  cat vehicles
+  229  cat vehicles | grep Annabel
+  230  cat vehicle | grep 6'
+  231  cat vehicle | grep "6"
+  232  cat vehicles | grep "6"
+  233  cat vehicles | grep "6'"
+  234  cat vehicles | grep -C 3 Annabel
+  235  ls
+  236  cat crimescene | grep vehicle
+  237  cat crimescene | grep Annabel
+  238  cat crimescene | grep  "New Zealand"
+  239  cat people | grep "New Zealand"
+  240  ls
+  241  cd ..
+  242  ls
+  243  cat hint1
+  244  cat hint2
+  245  cat hint3
+  246  cat hint4
+  247  ls
+  248  cd mystery
+  249  ls
+  250  cat people | grep Annabel
+  251  cd streets
+  252  ls
+  253  cat Hart_Place
+  254  cat Hart_Place | grep "New Zealand"
+  255  cat Hart_Place | grep Annabel
+  256  head -n 20  Buckingham_Place
+  257  cd ..
+  258  ls
+  259  cd interviews
+  260  ls
+  261  cat * | grep shots
+  262  cat * | grep blonde
+  263  cat * | grep blond
+  264  cat * | grep spiky
+  265  cat * | grep latte
+  266  cat * | grep tall
+  267  cat * | grep -C 5 tall
+  268  cat * | grep -C 5 license
+  269  cd ..
+  270  ls
+  271  cat vehicles | grep -C 5 L337
+  272  LS
+  273  ls
+  274  cd interviews
+  275  cat * | grep Germuska
+  276  cat * | grep Bowers
+  277  cat * | grep Maher
+  278  cd ..
+  279  ls
+  280  cd memberships
+  281  ls
+  282  cat AAA | grep Germuska
+  283  cat AAA | grep Bowers
+  284  cat Delta_SkyMiles
+  285  clear
+  286  ls
+  287  cat Delta_SkyMiles | grep Germuska
+  288  cat Delta_SkyMiles | grep Bowers
+  289  cat Museum_of_Bash_History | grep Bowers
+  290  cat library.txt | grep Bowers
+  291  cd ..
+  292  ls
+  293  touch solutions.txt
+  294  ls
+  295  cat README.md
+
+  2. Jeremy Bowers
