@@ -58,4 +58,7 @@
    58  cat AAA Delta_Skymiles  Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
    59  cat delta.txt library.txt museum.txt | grep "Jeremy Bowers"
    60  cat delta.txt library.txt museum.txt | grep "Jacqui Maher"
+   61  cd ..
+   62  cat people | grep Jacqui
+(Did not read Jacqui as a female name haha)
 Murderer: Jeremy Bowers
