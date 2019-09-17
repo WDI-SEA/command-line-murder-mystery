@@ -1,2 +1,125 @@
+ 1222  history
+ 1223  cat instructions
+ 1224  l
+ 1225  cd mystery
+ 1226  l
+ 1227  cat crimescene | grep CLUE
+ 1228  cat hint 2
+ 1229  cd .
+ 1230  cd ..
+ 1231  cat hint 2
+ 1232  cat hint2
+ 1233  cat hint3
+ 1234  cd mystery
+ 1235  l
+ 1236  cat people
+ 1237  cd mystery
+ 1238  cat crimescene | grep CLUE
+ 1239  cd ..
+ 1240  code .
+ 1241  cd mystery
+ 1242  l
+ 1243  cat people head -n 20
+ 1244  head -n 20 people
+ 1245  cat crimescene | grep CLUE
+ 1246  head -n 50 people
+ 1247  cat people | grep Annabel
+ 1248  l
+ 1249  cd interviews
+ 1250  l
+ 1251  cd ..
+ 1252  l
+ 1253  cat streets
+ 1254  cd streets
+ 1255  l
+ 1256  cd streets | grep hart
+ 1257  cd ..
+ 1258  l
+ 1259  cat vehicles
+ 1260  q
+ 1261  cd streets | grep hart
+ 1262  l
+ 1263  cd ..
+ 1264  cd memberships
+ 1265  cd mystery
+ 1266  cd memberships
+ 1267  l
+ 1268  cd ..
+ 1269  l
+ 1270  cd mystery
+ 1271  l
+ 1272  cat people | grep Anabelle
+ 1273  l
+ 1274  cat people | grep Annabel
+ 1275  cd streets
+ 1276  l
+ 1277  cd ..
+ 1278  l
+ 1279  cd interviews
+ 1280  l
+ 1281  head -n 40/Hart_place
+ 1282  head -n 40
+ 1283  cd ..
+ 1284  l
+ 1285  cd streets
+ 1286  l
+ 1287  head -n 40 streets/Hart_Place | tail 5
+ 1288  head -n 40 streets/Hart_Place | tail -n 5
+ 1289  cd ..
+ 1290  head -n 40 streets/Hart_Place | tail -n 5
+ 1291  head -n 40 streets/Buckingham_Palace | tail -n 5
+ 1292  head -n 40 streets/Buckingham_Place | tail -n 5
+ 1293  cd interviews
+ 1294  l
+ 1295  cat interview-47246024
+ 1296  head -n 40 streets/Buckingham_Place | tail -n 5
+ 1297  cd ..
+ 1298  head -n 40 streets/Buckingham_Place | tail -n 5
+ 1299  head -n 179 streets/Buckingham_Place | tail -n 5
+ 1300  l
+ 1301  cd interviews
+ 1302  cat interview-699607
+ 1303  cd ..
+ 1304  l
+ 1305  cat vehicles | grep Blue head -n 20
+ 1306  cat vehicles | grep blue honda
+ 1307  cat vehicles
+ 1308  cat vehicles | grep Make: Honda
+ 1309  cat vehicles | grep Honda
+ 1310  cat vehicles | grep -A 5 Honda
+ 1311  cat vehicles | grep -A 5 Honda | Blue
+ 1312  cat vehicles | grep -A 5 Honda/Blue
+ 1313  cat vehicles | grep -A 5 Honda /|Blue
+ 1314  cat vehicles | grep -A 5 'Honda\|Blue'
+ 1315  cat vehicles | grep -A 5 'Honda\|Blue\|L337'
+ 1316  grep -A 5 'Honda\|Blue\|L337' vehicles
+ 1317  grep -A 5 'Honda|Blue|L337' vehicles
+ 1318  grep -A 5 'Make: Honda|Color: Blue|License_Plate_L337' vehicles
+ 1319  grep -A 5 "Honda" vehicles
+ 1320  grep -A 5 "Honda" vehicles | grep "Blue"
+ 1321  grep -A 5 "Honda" vehicles &&  grep "Blue"
+ 1322  grep -A 5 "Honda" vehicles
+ 1323  grep -A 5 "Blue" vehicles
+ 1324  grep -A 5 (Blue|Honda) vehicles
+ 1325  grep -A 5 "(Blue|Honda)" vehicles
+ 1326  grep -A 5 Honda vehicles
+ 1327  grep -A 5 Honda vehicles head -n 5
+ 1328  grep -A 5 "L337" vehicles
+ 1329  l
+ 1330  cat memberships
+ 1331  cd memberships
+ 1332  ls
+ 1333  cat AAdvantage
+ 1334  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City
+ 1335  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe"
+ 1336  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy"
+ 1337  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui"
+ 1338  cd ..
+ 1339  ls
+ 1340  cat people | grep Joe Germuska
+ 1341  cat people | grep Joe
+ 1342  cat people | grep Jeremy
+ 1343  cat people | grep Jacqui
+
 the Perpetrator is .....
 Jeremy Bowers
