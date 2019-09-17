@@ -1,0 +1,16 @@
+cd mystery/
+grep CLUE crimescene
+grep -R Annabel .
+grep -R 'Annabel Church' .
+cd streets/
+grep S Buckingham_Place
+cd ../interviews/
+cat interview-699607
+cd ..
+cat vehicles | grep -E 'L337' -A 5 | grep -o '\(Honda\)' -A 4 | grep -o '\(Blue\)' -A 3 | grep -o '\(6\)' -B 1
+cd memberships/
+cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library library.txt | grep -E 'Erika Owens|Joe Germuska|Jeremy Bowers|Jacqui Maher' | sort
+cd ..
+grep -E 'Jeremy Bowers|Jacqui Maher' people
+
+Jeremy Bowers is the killer.
