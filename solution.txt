@@ -1,0 +1,48 @@
+ 248  ls
+  249  cat crimescene | grep CLUE
+  250  cat people | grep Annabel
+  251  cd streets 
+  252  cat Buckingham_Place| grep Annabel
+  253  cd ..
+  254  cd streets
+  255  cat Buckingham_Place
+  256  cd ..
+  257  ls
+  258  cd interviews
+  259  cat 699607
+  260  cat interview-699607
+  261  cd ..
+  262  ls
+  263  cat vehicles | grep "L337" -A 5 | grep Honda -A 4 | grep Blue -A 3
+  264  cd memberships
+  265  ls
+  266  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  267  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  268  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jacqui Maher"
+  269  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  270  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  271  cd ..
+  272  cat vehicles | grep L337 Honda Blue
+  273  ls
+  274  cat people | grep Jeremy Bowers
+  275  cat people | grep Jeremy
+  276  cd streets 
+  277  cat Dunstable_Road
+  278  cd ..
+  279  ls
+  280  cd interviews
+  281  cat interview-960713
+  282  ls
+  283  cat interview-9620713
+  284  cd..
+  285  cd ..
+  286  ls
+  287  cat people | grep Jacqui
+  288  cd streets
+  289  cat Andover_Road
+  290  cd ..
+  291  cd interviews
+  292  cat interview-904020
+  293  cd ..
+
+  The Murderer is Jeremy Bowers
