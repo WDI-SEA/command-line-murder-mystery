@@ -1,0 +1,27 @@
+    1  history
+    2  cd sei/sei27/homework/command-line-murder-mystery
+    3  cd command-line-murder-mystery
+    4  ls
+    5  cd mystery
+    6  ls
+    7  cat crimescene | grep CLUE
+    8  cat people | grep Annabel
+    9  head -n 179 streets/Buckingham_Place | tail -n 5
+   10  cat interview-699607
+   11  grep interview-699607
+   12  cd sei/sei27/homework/command-line-murder-mystery
+   13  cd command-line-murder-mystery
+   14  cd mystery
+   15  ls
+   16  history
+   17  cat interviews | grep 699607
+   18  cd interviews
+   19  cat interview-699607
+   20  cd ..
+   21  grep -A L337 vehicles
+   22  grep -A 5 L337 vehicles
+   23  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Jeremy
+   24  cd memberships
+   25  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Jeremy
+   26  cd ..
+   27  ls
