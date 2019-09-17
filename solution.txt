@@ -1,0 +1,196 @@
+    1  cat instructions
+    2  cd mystery
+    3  l
+    4  cat crimescene
+    5  cat instructions
+    6  git add
+    7  git add solutions.txt
+    8  cd ..
+    9  l
+   10  cd mystery
+   11  l
+   12  cd crim
+   13  cat crimescene | grep CLUE
+   14  cat people
+   15  cat crimescene | grep CLUE
+   16  l
+   17  cat people | grep Annabel
+   18  cat interviews | grep Annabel
+   19  cd interviews
+   20  l
+   21  cat crimescene | grep CLUE
+   22  cd ..
+   23  l
+   24  cat crimescene | grep CLUE
+   25  cd memberships
+   26  l
+   27  cat AAA
+   28  cat AAA | grep Annabel
+   29  l
+   30  cd ..
+   31  l
+   32  cd..
+   33  cd ..
+   34  l
+   35  cat instructions
+   36  l
+   37  cat hint2
+   38  cat hint3
+   39  l
+   40  cd mystery
+   41  l
+   42  head people
+   43  cat people | grep annabel
+   44  cat people | grep Annabel
+   45  mattapan
+   46  cd streets
+   47  cd ..
+   48  cd streets
+   49  l
+   50  grep mattapan
+   51  cat Mattapan_Street
+   52  head cat Mattapan_Street
+   53  head Mattapan_Street
+   54  cd..
+   55  cd ..
+   56  l
+   57  cat crimescene | grep CLUE
+   58  l
+   59  cd memberships
+   60  l
+   61  cat AAA
+   62  l
+   63* cd ..
+   64* l
+   65* cat hint4
+   66* cd mystery
+   67* cd people
+   68* l
+   69* cat people | grep Annabel
+   70* cd streets
+   71* l
+   72* cat Buckingham_Place
+   73* head Buckingham_Place
+   74* cd ..
+   75* l
+   76* cat people | grep Annabel
+   77  cd ..
+   78  l
+   79  cd streets
+   80  l
+   81  head Haley Street
+   82  Haley_Street
+   83  cat Haley_Street
+   84  head Haley_Street
+   85  head Hart_Place
+   86* l
+   87* cd ..
+   88* l
+   89* cat hint6
+   90* cat hint7
+   91* cat hint8
+   92* l
+   93* cd mystery
+   94* ls
+   95* l
+   96* cd memberships
+   97* l
+   98* touch memberships.txt
+   99  l
+  100  cd ..
+  101  l
+  102  cd memberships
+  103  l
+  104* cd ..
+  105* l
+  106* cat crimescene | grep CLUE
+  107  cat AAA >> memberships.txt
+  108  cat Delta_SkyMiles >> memberships.txt
+  109  cat library.txt >> memberships.txt
+  110  cat Museum_of_Bash_History >> memberships.txt
+  111  cat memberships.txt | grep -m 4
+  112  cat memberships.txt | grep -m 
+  113  cat memberships.txt | grep -m4 
+  114  cat memberships.txt | grep -m 4
+  115  cat memberships.txt | grep -o
+  116* cd people
+  117* l
+  118* cat people
+  119* l
+  120* cat crimescene | grep CLUE
+  121* cat people | frep Annabel
+  122* cat people | grep Annabel
+  123* l
+  124* cd interviews
+  125* l
+  126* cd ..
+  127* cat people | grep Annabel
+  128* cd ..
+  129* l
+  130* cat hint1
+  131* cd m
+  132* cd mystery
+  133* head -n 20 people
+  134* cat people | grep Annabel
+  135  l
+  136  cd ..
+  137  l
+  138  cd streets
+  139  l
+  140  cat Buckingham_Place
+  141  cat Buckingham_Place | grep -n
+  142  cat -n Buckingham_Place
+  143* l
+  144* cd interviews
+  145* cat INTERVIEW #699607
+  146* l
+  147* cat interview-699607
+  148  l
+  149  cd ..
+  150  l
+  151  cat vehicles | grep honda
+  152  cat vehicles
+  153  cat vehicles | grep Honda
+  154  cat vehicles | grep -c 4 Honda
+  155  cat vehicles | grep Honda -c 4
+  156  cat vehicles | grep Honda
+  157  cat vehicles | grep Honda -C 4
+  158  cat vehicles | grep L337 -C 4
+  159  cat vehicles | grep L337 -C 3
+  160  cat vehicles | grep L337 -C 2
+  161  cat vehicles | grep L337 -C 5
+  162  cat vehicles | grep L337 -C 6
+  163  Jacqui Maher, Jeremy Bowers, Joe Germuska, 
+  164  l
+  165  cat people | grep jacqui
+  166  cat people
+  167  Jacqui Maher, Jeremy Bowers, Joe Germuska, 
+  168  cat people | grep maher
+  169  cat people | grep Jacqui
+  170  cat people | grep Jeremy
+  171  cat people | grep Germuska
+  172* cd ..
+  173* l
+  174* cd streets
+  175* l
+  176* cat -n Andover-Road
+  177* cat -N Andover_Road
+  178* cat -n Andover_Road
+  179  l
+  180  cd interviews
+  181  l
+  182  cat interview-904020
+  183* cat -n Dunstable_Road
+  184  cat interview-9620713
+  185* cat Plainfield_Street
+  186* cat -n Plainfield_Street
+  187  cat interview-29741223
+  188  i think the second guy then is only option
+  189  therefore the guy who did it is: Jeremy Bowers
+  190  history
+  191  cd.. 
+  192  cd ..
+  193  l
+  194  cd ..
+  195  l
+  196  cat history >> solution.txt
