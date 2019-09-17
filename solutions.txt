@@ -1,0 +1,32 @@
+// Start the Investigation
+grep -B 5 'CLUE' crimescene
+
+// Then, search folder recursively for Annabel
+Grep -R ‘Annabel’
+
+//Found Annabel in People file
+cat people
+
+//Go into streets directory and look for Annabel's address. Find Interview #
+Cd streets
+Cat -n Buck*
+
+//Read Annabel Interview
+Cd ..
+Cd interviews
+Cat interview-699607
+
+//Look for license plate in vehicles. Retrieve shortlist of vehicles matching plate details provided by Annabel
+Cd..
+grep -A 5 "L337..9" vehicles
+
+//Go into memberships. Narrow down culprits based on what we know about membership data retrieved at crime scene. Eliminate Joe as Suspect.
+Cd memberships
+cat Delta_SkyMiles AAA Terminal_City_Library Museum_of_Bash_History | grep -c "Jacqui Maher"
+cat Delta_SkyMiles AAA Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+cat Delta_SkyMiles AAA Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+
+//Down to two perps. Perform lookup on Jacqui and determine that she is a female which excludes her from the investigation
+Grep ‘Jacqui Maher’ people
+
+//The person who committed the crime is Jeremy Bowers based on all the detail found in records.
