@@ -1,0 +1,61 @@
+    1  l
+    2  cd mystery
+    3  l
+    4  cat crimescene | grep CLUE
+    5  cd interviews
+    6  l
+    7  cd ..
+    8  cat people
+    9  cat people | grep Annabel
+   10  cd memberships
+   11  l
+   12  cat AAA | grep Annabel
+   13  cat Museum_of_Bash_History | grep Annabel
+   14  cd ..
+   15  l
+   16  cat streets | grep Buckingham
+   17  cd streets
+   18  l
+   19  cat Buckingham_Place 
+   20  cd ..
+   21  cd interviews
+   22  l
+   23  cat interview-699607
+   24  cd ..
+   25  l
+   26  cat vehicles | grep L337
+   27  cat vehicles | grep Blue
+   28  cat vehicles | grep -n honda
+   29  cat vehicles | grep -b1 blue
+   30  cat vehicles | grep -c4 L337
+   31  cat vehicles | grep L337 -C 4
+   32  grep "Blue | L337" vehicles
+   33  cat vehicles | grep "Blue|Honda" -C 4
+   34  cat vehicles | grep Honda -C 4
+   35  cat vehicles | grep "Blue/|Honda/|L337" 
+   36  cat vehicles | grep Blue/|Honda/|L337
+   37  cat vehicles | grep Honda | Blue | L337
+   38  cat vehicles | grep Honda | grep Blue | grep L337
+   39  grep L337 vehicles | grep Blue | grep Honda
+   40  grep "L337" vehicles | grep Blue | grep Honda
+   41  cat vehicles | grep L337 | grep Blue | grep Honda
+   42  cat vehicles | grep 'L337' | grep 'Blue' | grep 'Honda'
+   43  cat vehicles | grep "L337" -A 5 | grep Honda -A 5 | grep Blue -A 5
+   44  cat vehicles | grep "L337" -C 5 | grep Honda -C 5 | grep Blue -C 5
+   45  cd code
+   46  l
+   47  cd unit1
+   48  l
+   49  cd command-line-murder-mystery
+   50  cd mystery
+   51  l
+   52  cd memberships
+   53  cat AAA Delta_Skymiles  Museum_of_Bash_History | grep "Jeremy Bowers"
+   54  cat AAA Delta_Skymiles  Museum_of_Bash_History | grep "Jeremy Bower"
+   55  cat AAA Delta_Skymiles  Museum_of_Bash_History | grep "Jacqui Maher"
+   56  l
+   57  cat AAA Delta_Skymiles  Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bower"
+   58  cat AAA Delta_Skymiles  Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+   59  cat delta.txt library.txt museum.txt | grep "Jeremy Bowers"
+   60  cat delta.txt library.txt museum.txt | grep "Jacqui Maher"
+Murderer: Jeremy Bowers
