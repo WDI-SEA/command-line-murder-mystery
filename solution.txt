@@ -1,51 +1,63 @@
-Jeremy Bowers
-   25  head -n 20 people
-   26  cd mystery
-   27  ls
+ 1  pwd
+    2  cd sei27
+    3  cd weekOne
+    4  cd command-line-murder-mystery
+    5  touch solution.txt
+    6  ls
+    7  open instructions
+    8  cd mystery
+    9  l
+   10  cd interviews
+   11  cd ..
+   12  cd crimescene
+   13  open crimescene
+   14  grep "CLUE"
+   15  pwd
+   16  cd sei27
+   17  cd weekOne
+   18  cd command-line-murder-mystery
+   19  cd mystery
+   20  grep -B 'CLUE' crimescene
+   21  grep -B s 'CLUE' crimescene
+   22  cat people | grep Annabelle
+   23  cat people | grep Annabel
+   24  cd streets
+   25  cd ..
+   26  cd interviews
+   27  l
    28  head -n 20 people
    29  cd ..
-   30  pwd
-   31  cat hint2
-   32  cat crimescene | grep "clue"
-   33  history | grep "CLUE" crimescene%
-   34  cat crimescene | grep clue
-   35  cat crimescene
-   36  ls
-   37  cd mystery
-   38  ls
-   39  cat crimescene | grep clue
-   40  cat crimescene | grep CLUE
-   41  cat crimescene | grep CLUES
-   42  cat crimescene | grep CLUE
-   43  cd ..
-   44  cd people
-   45  cd ..
-   46  pwd
-   47  ls
-   48  cd command-line-murder-mystery
-   49  LS
-   50  cd mystery
-   51  ls
-   52  cd people
-   53  cat people
+   30  head -n 20 people
+   31  cat crimescene | grep CLUE
+   32  head -n 40 streets
+   33  grep Annabel people
+   34  head -n 173  streets/Mattapan_Street | tail -n 1
+   35  head -n 179 streets/Buckingham_Place | tail -n 1
+   36  head -n 40 people
+   37  head -40 vehicles
+   38  head vehicles
+   39  grep Annabel people
+   40  cat interviews | grep Buckingham_Place streets
+   41  grep -r
+   42  cat vehicles | grep "L337" | grep Honda -A4 | grep Blue -A3
+   43  l
+   44  clear
+   45  grep -R 'Annabel' .
+   46  cd streets
+   47  l
+   48  cat Buckingham_Place
+   49  cd ..
+   50  cd interviews
+   51  cat interviews- 699607
+   52  cat interviews-699607
+   53  cat interview-699607
    54  cd ..
-   55  cd mystery
-   56  cd hint3
+   55  cat vehicles | grep "L337" -A 5 | grep Honda -A 4 | grep Blue -A 3
+   56  cat AAA Museum_of_Bash_History Delta_Skymiles | grep "Jeremy Bowers"
    57  ls
-   58  cd streets
-   59  cat Hart_Place | head -n 40 | tail - n 1
-   60  pwd
-   61  cd ..
-   62  cat interview-699607
-   63  cd interviews
-   64  cat interview-699607
-   65  cd ..
-   66  cat vehicles
-   67  cat vehicles | grep Blue -A 3 -B 2 | grep Honda -A 4 -B 1 | grep "Height: 6" -A 4 -B 2
-   68  ls
-   69  cd memberships
-   70  ls
-   71  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
-   72  touch solution.txt
-   73  ls
-   74  echo "Jeremy Bowers" > solution.txt
+   58  cd memberships
+   59  ls
+   60  cat AAA Museum_of_Bash_History Delta_Skymiles | grep "Jeremy Bowers"
+   61  cat AAA Museum_of_Bash_History Delta_Skymiles | grep "Joe Germuska"
+
+The murderer is Jeremy Bowers
