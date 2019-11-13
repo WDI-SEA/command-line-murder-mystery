@@ -1,0 +1,21 @@
+The murder is Jeremy Bowers
+10123  cat vehicles | grep "Honda" -B 1
+10124  cat vehicles | grep "Honda" -B 1 -A 4
+10125  cat vehicles | grep "Honda" -B 1 -A 4 | grep "Blue" -A 3 -B 2
+10126  cat vehicles | grep "Honda" -B 1 -A 4 | grep "Blue" -A 3 -B 2 | grep "L337" -A 5
+10127  cat vehicles | grep "Honda" -B 1 -A 4 | grep "Blue" -A 3 -B 2 | grep "L337" -A 5 | grep "Height: 6" -A 1 -B 4
+10128  ls
+10129  cd memberships
+10130  ls
+10131  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+10132  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+10133  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+10134  cd ..
+10135  ..
+10136  ls
+10137  touch solution.txt
+10138  ls
+10139  echo "The murder is Jeremy Bowers" >> solution.txt 
+10140  cat solution.txt
+10141  history 
+10142  history | tail -n 50
