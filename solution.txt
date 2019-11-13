@@ -1,0 +1,21 @@
+The murderer is Jeremy Bowers.
+  584  ls
+  585  cd memberships
+  586  ls
+  587  grep "Jeremy Bowers" AAA
+  588  grep "Jeremy Bowers" Delta_SkyMiles
+  589  grep "Jeremy Bowers" Rotary_Club
+  590  grep "Jeremy Bowers" Museum_of_Bash_History
+  591  grep "Jeremy Bowers" Terminal_City_Library
+  592  ls
+  593  cd ..
+  594  l
+  595  ls
+  596  cd ..
+  597  ls
+  598  touch solution.txt
+  599  ls
+  600  echo "The murderer is Jeremy Bowers." >> solution.txt
+  601  cat solution.txt
+  602  history
+  603  history | tail -n 50
