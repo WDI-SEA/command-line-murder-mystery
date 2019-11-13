@@ -1,0 +1,239 @@
+    1  ls
+    2  cd ~
+    3  clear
+    4  cd ~
+    5  ls
+    6  cd sei28
+    7  ls
+    8  git config --global user.name "bjgoddard"
+    9  git status
+   10  git config --list
+   11  clear
+   12  ls
+   13  git config --global user-email "bjgoddard94@gmail.com"
+   14  git config --global user.email "bjgoddard94@gmail.com"
+   15  git config --global push.default simple
+   16  git config
+   17  git config --global credential.helper cache
+   18  clear
+   19  cd ~
+   20  ls
+   21  cd sei28
+   22  ls
+   23  git clone https://github.com/bjgoddard/command-line-murder-mystery.git
+   24  ls
+   25  mkdir unit1
+   26  ls
+   27  cd ..
+   28  ls
+   29  cd sei28
+   30  ls
+   31  mv command-line-murder-mystery unit1
+   32  ls
+   33  cd unit1
+   34  ls
+   35  mkdir labs
+   36  ls
+   37  mv command-line-murder-mystery labs
+   38  ls
+   39  cd laba
+   40  cd labs
+   41  ls
+   42  cd command-line-murder-mystery
+   43  ls
+   44  cd mystery
+   45  ls
+   46  cd crimescene
+   47  ls
+   48  cat crimescene
+   49  ls
+   50  cd .
+   51  cd ..
+   52  ls
+   53  cd mystery
+   54  ls
+   55  cd streets
+   56  ls
+   57  cd ..
+   58  ls
+   59  cd interviews
+   60  ls
+   61  cd ..
+   62  cd memberships
+   63  ls
+   64  cat museum
+   65  cat museum_of_bash_history
+   66  ls
+   67  s
+   68  cd
+   69  cd ..
+   70  ls
+   71  cd ~
+   72  ls
+   73  cd sei28
+   74  ls
+   75  cd unit1
+   76  ls
+   77  cd labs
+   78  ls
+   79  cd command-line-murder-mystery
+   80  ls
+   81  cd mystery
+   82  ls
+   83  cat crimescene
+   84  clear
+   85  ls
+   86  cd interviews
+   87  ls
+   88  cd ..
+   89  cd memberships
+   90  ls
+   91  cd ..
+   92  ls
+   93  cat people
+   94  clear
+   95  ls
+   96  cd ..
+   97  ls
+   98  cat hint2
+   99  cat hint1
+  100  grep "CLUE" crimescene
+  101  ls
+  102  cd ..
+  103  ls
+  104  cd command-line-murder-mystery
+  105  ls
+  106  cd mystery
+  107  ls
+  108  grep "CLUE" crimescene
+  109  cat hint3
+  110  ls
+  111  cd ..
+  112  cat hint3
+  113  ls
+  114  cd mystery
+  115  ls
+  116  head people
+  117  grep "Annabel" people
+  118  ls
+  119  cat vehicles
+  120  cd ..
+  121  ls
+  122  cat hint5
+  123  cat hint4
+  124  cat hint3
+  125  head vehicles
+  126  cat hint5
+  127  cat hint6
+  128  cat hint7
+  129  cat hint8
+  130  cat hint5
+  131  ls
+  132  cd mystery
+  133  head -4 40 streets/Hart Place | tail -n 1
+  134  head -n 40 streets/Hart_Place | tail -n1
+  135  head -n 179 streets/Buckingham_Place | tail -n 1
+  136  ls
+  137  cd interviews
+  138  ls
+  139  cat interview-47246024
+  140  cat interview-69960
+  141  cat interview 699607
+  142  cat interview-699607
+  143  ls
+  144  cd ..
+  145  ls
+  146  cd vehicles
+  147  cat vehicles
+  148  grep "L337" vehicles
+  149  SEE INTERVIEW #47246024\n➜  mystery git:(master) head -n 179 streets/Buckingham_Place | tail -n 1\nSEE INTERVIEW #699607
+  150  ls
+  151  grep "L337" 
+  152  ls
+  153  cd sei28
+  154  ls
+  155  cd unit1
+  156  ls
+  157  cd labs
+  158  ls
+  159  cd command-line-murder-mystery
+  160  ls
+  161  cd mystery
+  162  ls
+  163  cat vehicles | grep "L337"
+  164  cd ..
+  165  ls
+  166  cat hint6
+  167  cat hint 7
+  168  cat hint7
+  169  ls grep -A 5 "L337" mystery/vehicles
+  170  ls
+  171  cat hint8
+  172  ls
+  173  cd mystery
+  174  ls
+  175  grep -A 5 "L337" mystery/vehicles
+  176  grep -A 5 "L337" vehicles
+  177  cd ..
+  178  ls
+  179  cat hint7
+  180  cat hint8
+  181  ls
+  182  cd mystery
+  183  ls
+  184  cd interviews
+  185  ls
+  186  cat interview-699607
+  187  cd ..
+  188  ls
+  189  cd ..
+  190  ls
+  191  cat hint7
+  192  cat hint8
+  193  ls
+  194  cd mystery
+  195  ls
+  196  cd memberships
+  197  ls
+  198  cat AAA
+  199  cd ..
+  200  ls
+  201  cat hint8
+  202  ls
+  203  cd mystery
+  204  ls
+  205  cd memberships
+  206  ls
+  207  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  208  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  209  cd ..
+  210  ls
+  211  cd ..
+  212  ls
+  213  cd ..
+  214  ls
+  215  cd mystery
+  216  ls
+  217  cd command-line-murder-mystery
+  218  pid
+  219  ls
+  220  cd sei28
+  221  ls
+  222  cd unit1
+  223  ls
+  224  cd labs
+  225  cd
+  226  ls
+  227  cd sei28
+  228  ls
+  229  cd unit1
+  230  ls
+  231  cd labs
+  232  ls
+  233  cd command-line-murder-mystery
+  234  ls
+  235  cat instructions
+  236  ls
+  237  history
+  238  ls
+The murderer is Jeremy Bowers
