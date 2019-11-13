@@ -1,0 +1,101 @@
+The murderer is Jeremy Bowers
+   43  grep "CLUE" crimescene
+   44  cat people
+   45  clear
+   46  ls
+   47  grep "CLUE" crimescene
+   48  grep "male" people
+   49  grep "M" people
+   50  grep -w "M" people
+   51  clear
+   52  ls
+   53  grep "CLUE" crimescene
+   54  grep -w "M"
+   55  grep -w "M" people
+   56  clear
+   57  ls
+   58  grep "Annabel" interviews
+   59  cd interviews
+   60  ls
+   61  grep "Annabel" *
+   62  grep -r "Annabel" *
+   63  cd ..
+   64  grep -r "Annabel" *
+   65  ls
+   66  cd memberships
+   67  cd ..
+   68  ls
+   69  cat hint1
+   70  cat hint2
+   71  cat hint3
+   72  clear
+   73  grep -A 4 "Annabel" people
+   74  grep "Annabel" people
+   75  cd mystery
+   76  grep -A 4 "Annabel" people
+   77  ls
+   78  cd streets
+   79  ls
+   80  head Hart_Place
+   81  head Mattapan_Street
+   82  head Buckingham_Place
+   83  head Haley_Street
+   84  cat hint3
+   85  cd ..
+   86  cat hint3
+   87  cat hint4
+   88  ls
+   89  cd mystery
+   90  ls
+   91  cd memberships
+   92  ls
+   93  head Delta_SkyMiles
+   94  cat Delta_SkyMiles
+   95  clear
+   96  ls
+   97  cd..
+   98  cd ..
+   99  ls
+  100  head interviews
+  101  ls interview
+  102  ls interviews
+  103  clear
+  104  grep "Annabel" *
+  105  ls
+  106  cd streets
+  107  cat Buckingham_Place
+  108  cat Hart_Place
+  109  head -n 40 Hart_Place
+  110  head -n 179 Buckingham_Place
+  111  cd ..
+  112  ls
+  113  cd interviews
+  114  ls
+  115  cat interview-47246024
+  116  cat interview-699607
+  117  cd ..
+  118  ls
+  119  head vehicles
+  120  grep "Honda" vehicles
+  121  grep "L337" vehicles
+  122  grep -A 4 "L337"
+  123  grep -A 4 "L337" vehicles
+  124  ls
+  125  grep "Katie Park" people
+  126  grep "Mike Bostock" people
+  127  grep "Erika Owens" people
+  128  grep "Joe Germuska" people
+  129  grep "Jeremy Bowers" people
+  130  grep "Jacqui Maher" people
+  131  cd memberships
+  132  ls
+  133  grep "Mike Bostock" *
+  134  grep "Joe Germuska" *
+  135  grep "Jeremy Bowers" *
+  136  cd ..
+  137  touch "solution.txt"
+  138  ls
+  139  history
+  140  echo "The murderer is Jeremy Bowers" >> solution.txt
+  141  cat solution.txt
+  142  history | tail -n 100
