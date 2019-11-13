@@ -1,0 +1,21 @@
+The murder is Jeremy Bowers
+  205  cat vehicles | grep "Honda" -B1 -A4 
+  206  cat vehicles | grep "Honda" -B1 -A4 | grep "Blue" -A 3 - B2
+  207  cat vehicles | grep "Honda" -B1 -A4 | grep "Blue" -A 3 - B2 | grep "L337" -A 5
+  208  cat vehicles | grep "Honda" -B1 -A4 | grep "Blue" -A 3 -B 2 | grep "L337" -A 5
+  209  cat vehicles | grep "Honda" -B1 -A4 | grep "Blue" -A 3 -B 2 | grep "L337" -A 5 | grep "Height: 6" -A1
+  210  cat vehicles | grep "Honda" -B1 -A4 | grep "Blue" -A 3 -B 2 | grep "L337" -A 5 | grep "Height: 6" -A1 -B4
+  211  ls
+  212  cd memberships
+  213  ls
+  214  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+  215  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "
+  216  cat vehicles | grep "Honda" -B1 -A4 | grep "Blue" -A 3 -B 2 | grep "L337" -A 5 | grep "Height: 6" -A1 -B4
+  217  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  218  cd ..
+  219  ls
+  220  cd ..
+  221  ls
+  222  echo "The murder is Jeremy Bowers" >>solution.txt
+  223  cat solution.txt
+  224  history | tail -n 20
