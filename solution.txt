@@ -1,0 +1,139 @@
+Name: Yashoma Boodhan
+Task: command-line-murder-mystery
+
+1. Commands to get solution:
+
+    1  clear
+    2  cd ~
+    3  l
+    4  cd Desktop
+    5  cd ga-sei
+    6  git config --list
+    7  git config --global user.name "yboodhan"
+    8  git config --list
+    9  git config --global user.email "yboodhan@gmail.com"
+   10  git config --list
+   11  git config --global push.default simple
+   12  git config --global credential.helper cache
+   13  git config --list
+   14  git clone https://github.com/yboodhan/command-line-murder-mystery.git
+   15  ls
+   16  cd command-line-murder-mystery
+   17  cat instructions
+   18  nano cheatsheet.md
+   19  cat instructions
+   20  cat cheatsheet
+   21  cat cheatsheet.md
+   22  clear
+   23  pwd
+   24  code .
+   25  head -n 20 hint2
+   26  grep "CLUE" crimescene
+   27  grep "CLUE" mystery
+   28  grep "CLUE" interviews
+   29  cd mystery
+   30  pwd
+   31  grep "CLUE" crimescene
+   32  head -n 20 people
+   33  head -n 100 people
+   34  head -n 20 vehicles
+   35  pwd
+   36  grep "Annabel" people
+   37  pwd
+   38  cd streets
+   39  pwd
+   40  head -n 20 Hart_Place
+   41  head -n 20 Mattapan_Street
+   42  head -n 20 Buckingham_Place
+   43  head -n 20 Haley_Street
+   44  head -n 1 Hart_Place
+   45  cd ..
+   46  pwd
+   47  cd ..
+   48  pwd
+   49  touch clues.txt
+   50  open clues.txt
+   51  pwd
+   52  cd mystery
+   53  cd streets
+   54  pwd
+   55  head -n 40 Hart_Place
+   56  head -n 173 Mattapan_Street
+   57  head -n 179 Buckingham_Place
+   58  head -n 176 Haley_Street
+   59  git add .
+   60  git commit -m "new clues file to track clues"
+   61  git status
+   62  cd ..
+   63  pwd
+   64  cd ..
+   65  ls
+   66  git add .
+   67  git status
+   68  git commit -m "new clues file to track clues"
+   69  git status
+   70  git log
+   71  cd mystery
+   72  cd streets
+   73  pwd
+   74  head -n 173 streets/Mattapan_Street | tail -n 1
+   75  cd ..
+   76  head -n 173 streets/Mattapan_Street | tail -n 1
+   77  pwd
+   78  grep "Honda" vehicles\n
+   79  grep "Blue" vehicles
+   80  grep "L337" vehicles
+   81  cd ..
+   82  grep -A 5 "L337" mystery/vehicles
+   83  grep -B 5 "L337" mystery/vehicles
+   84  grep -C 5 "L337" mystery/vehicles
+   85  ls
+   86  cd myster
+   87  ls
+   88  cd mystery
+   89  ls
+   90  cat crimescene
+   91  grep -A 5 "L337" mystery/vehicles
+   92  pwd
+   93  cd ..
+   94  grep -A 5 "L337" mystery/vehicles
+   95  pwd
+   96  cd mystery
+   97  cd interviews
+   98  ls
+   99  cat interview-47246024
+  100  cat interview-699607
+  101  grep -A 5 "L337" mystery/vehicles
+  102  cd ..
+  103  grep -A 5 "L337" mystery/vehicles
+  104  pwd
+  105  cd ..
+  106  grep -A 5 "L337" mystery/vehicles
+  107  pwd
+  108  cd mystery
+  109  grep "Erika Owens" people
+  110  grep "Jacqui Maher" people
+  111  grep "Jeremy Bowers" people
+  112  grep "Joe Germuska" people
+  113  pwd
+  114  cd ..
+  115  cd mystery
+  116  cd memberships
+  117  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  118  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  119  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep -c "John Smith"
+  120  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep -c "Joe Germuska"
+  121  l
+  122  ls
+  123  cat library.txt
+  124  ls
+  125  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Joe Germuska"
+  126  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  127  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  128  pwd
+  129  cd ..
+  130  pwd
+  131  touch solution.txt
+  132  open solution.txt
+
+2. Name of the killer: Jeremy Bowers
