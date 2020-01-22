@@ -1,0 +1,110 @@
+    1  ls
+    2  cat instructions
+    3  ls
+    4  cd mystery
+    5  ls
+    6  cat people
+    7  cat vehicles
+    8  ls
+    9  grep "CLUE" ./crimescene
+   10  cd mystery
+   11  cd crimescene
+   12  ls
+   13  cd crimescene
+   14  cat crimescene
+   15  ls
+   16  cd interviews
+   17  ls
+   18  cd ..
+   19  ls
+   20  grep "Annabel" people
+   21  ls memberships
+   22  ls streets
+   23  ls memberships
+   24  cat memberships/1.txt
+   25  ls
+   26  ls streets
+   27  cat streets/Hart_Place
+   28  cd ..
+   29  ls
+   30  cat cheatsheet.md
+   31  ls
+   32  cd mystery
+   33  cd addresses
+   34  ls
+   35  cd streets
+   36  cat Hart_Place
+   37  cat Buckhingham_Palace
+   38  cat Buckingham_Palace
+   39  cat Buckingham_Place
+   40  grep "INTERVIEW" Buckingham_Place
+   41  cd ..
+   42  ls
+   43  cd interviews
+   44  ls
+   45  cat interview-47246024
+   46  cat interview-699607
+   47  cd ..
+   48  ls
+   49  cat vehicles
+   50  ls
+   51  grep "L337" vehicles
+   52  grep "Make: Fiat" vehicles
+   53  Color: Teal
+   54  grep "Make: Honda" vehicles
+   55  grep "Color: Blue" vehicles
+   56  ls
+   57  grep -B 5 "L337" vehicles
+   58  grep -A 5 "L337" vehicles
+   59  cat vehicles | grep -A 5 "L337" > suspicious_cars.md 
+   60  grep -B 1 -A 4 "Honda" suspicious_cars.md
+   61  cat suspicious_cars | grep -B 1 -A 4 "Honda" > sus_hondas.md
+   62  ls
+   63  cat suspicious_cars.md | grep -B 1 -A 4 "Honda" > sus_hondas.md
+   64  cat sus_hondas.md
+   65  cat sus_hondas.md | grep -B 2 -A 3 "Blue" > sus_bluehondas.md
+   66  cat sus_bluehondas.md
+   67  cat sus_bluehondas.md | grep -B 4 -A 1 "Height: 6" > tall_drivers.md
+   68  cat tall_drivers.md
+   69  ls
+   70  ls
+   71  cat people
+   72  ls
+   73  grep "Erika Owens" people
+   74  grep "Joe Germuska" people
+   75  grep "Jeremy Bowers" people
+   76  grep "Jacqui Maher" people
+   77  ls
+   78  cd interviews
+   79  ls
+   80  cd ..
+   81  cd streets
+   82  grep "INTERVIEW" Plainfield_Street
+   83  grep "INTERVIEW" Dunstable_Road
+   84  cd ..
+   85  ls
+   86  cd interviews
+   87  ls
+   88  ls
+   89  cat interview-29741223
+   90  cat interview-9620713
+   91  cd ..
+   92  ls
+   93  cd memberships
+   94  ls
+   95  grep "Jeremy Bowers" Delta_SkyMiles
+   96  grep "Jeremy Bowers" AAA
+   97  grep "Jeremy Bowers" Museum_of_Bash_History
+   98  grep "Jeremy Bowers" library
+   99  ls
+  100  grep "Jeremy Bowers" library.txt
+  101  cd ..
+  102  ls
+  103  cd ..
+  104  ls
+  105  touch solution.txt
+  106  ls
+  107  history > solution.txt
+
+THE KILLER IS:
+Jeremy Bowers
