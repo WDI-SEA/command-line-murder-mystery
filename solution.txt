@@ -1,0 +1,234 @@
+Jeremy Bowers
+  506  cd homework/
+  507  ls
+  508  cd homework_0
+  509  ls
+  510  cd command-line-murder-mystery/
+  511  ls
+  512  cat instructions 
+  513  cat hint1 | grep "CLUE"
+  514  cat hint1
+  515  head -n 20 CLUE
+  516  cat hint2
+  517  cat hint3
+  518  ls
+  519  cd mystery/
+  520  LS
+  521  head -n 20 people
+  522  cd ..
+  523  ls
+  524  cat hint3
+  525  cat hint2
+  526  cat hint1
+  527  cd mystery/
+  528  ls
+  529  cat people
+  530  head -n 20 people
+  531  ls
+  532  grep "CLUE" crimescene
+  533  grep "CLUE" crimescene > clues.txt
+  534  cat clues.txt
+  535  head -n 20 people
+  536  grep "Annabel" people
+  537  grep "Annabel" people > Annabels.txt
+  538  ls
+  539  cd ..
+  540  ls
+  541  cat hint4
+  542  cat hint5
+  543  cd ..
+  544  ls
+  545  cd command-line-murder-mystery/
+  546  ls
+  547  cd mystery/
+  548  ls
+  549  cat clues.txt 
+  550  cat interviews/
+  551  cd interviews/
+  552  ls
+  553  cd ..
+  554  ls
+  555  cd ..
+  556  cat hint5
+  557  cat hint6
+  558  ls
+  559  cd ..
+  560  ks
+  561  ls
+  562  cd command-line-murder-mystery/
+  563  ls
+  564  cd mystery/
+  565  cat clues.txt 
+  566  ls
+  567  cat Annabels.txt
+  568  cd ..
+  569  ls
+  570  cat hint3
+  571  cd mystery/
+  572  head -n 20 vehicles 
+  573  grep "Annabel" vehicles 
+  574  head vehicles
+  575  head -n vehicles
+  576  head -n 100 vehicles
+  577  cd ..
+  578  ls
+  579  cd mystery/
+  580  cat clues
+  581  cat clues.txt
+  582  hint5
+  583  cat hint5
+  584  cd ..
+  585  cat hint5
+  586  cd mystery/
+  587  head -n 173 streets/Mattapan_Street | tail -n 1
+  588  cat interviews/interview-9437737 
+  589  head -n 173 streets/Mattapan_Street | tail -n 2
+  590  hint6
+  591  cd ..
+  592  cat hint6
+  593  cd mystery/
+  594  ls
+  595  head -20 vehicles 
+  596  cd ..
+  597  ls
+  598  cat hint8
+  599  cat hint1
+  600  hint2
+  601  cat hint2
+  602  cat hint3
+  603  cd ..
+  604  cd command-line-murder-mystery/
+  605  cd mystery/
+  606  cat Annabels.txt 
+  607  head -n 173 streets/Hart_Place | tail -n 2
+  608  head -n 173 streets/Hart_Place | tail -n 1
+  609  head -n 173 streets/Haley_Street | tail -n 1
+  610  head -n 173 streets/Buckingham_Place | tail -n 1
+  611  head -n 173 streets/Mattapan_Street | tail -n 1
+  612  cat interviews/interview-9437737 
+  613  head -n 40 streets/Hart_Place | tail -n 1
+  614  cat interviews/interview-47246024 
+  615  head -n 38 streets/Hart_Place | tail -n 1
+  616  head -n 38 streets/Haley_Place | tail -n 1
+  617  head -n 38 streets/Buckingham_Place | tail -n 1
+  618  head -n 179 streets/Buckingham_Place | tail -n 1
+  619  cat interviews/interview-699607 
+  620  ls
+  621  grep "L337" vehicles 
+  622  head vehicles 
+  623  ls
+  624  cat vehicles 
+  625  cd ..
+  626  l
+  627  ls
+  628  cat hint5
+  629  cat hint6
+  630  cat hint8
+  631  cd mystery/
+  632  grep "Honda" vehicles
+  633  grep "L337" vehicles
+  634  grep -n "L337" vehicles
+  635  head -n 866
+  636  head -n 866 | tail -n 1
+  637  head -n 866 vehicles | tail -n 1
+  638  head -n 866 vehicles | tail -n 4
+  639  head -n 866 vehicles | tail -n 6
+  640  head -n 2168 vehicles | tail -n 6
+  641  head -n 5458 vehicles | tail -n 6
+  642  head -n 7166 vehicles | tail -n 6
+  643  head -n 13564 vehicles | tail -n 6
+  644  head -n 13564 vehicles | tail -n 7
+  645  head -n 13564 vehicles | tail -n 7
+  646  head -n 13653 vehicles | tail -n 7
+  647  head -n 15923 vehicles | tail -n 7
+  648  head -n 17743 vehicles | tail -n 7
+  649  head -n 22083 vehicles | tail -n 7
+  650  head -n 23826 vehicles | tail -n 7
+  651  head -n 24834 vehicles | tail -n 7
+  652  head -n 31827 vehicles | tail -n 7
+  653  head -n 34312 vehicles | tail -n 7
+  654  clear
+  655  cat interviews/interview-699607 
+  656  head -n 34312 vehicles | tail -n 7
+  657  clear
+  658  head -n 866 | tail -n 7
+  659  head -n 866 vehicles | tail -n 7
+  660  grep "Honda" vehicles
+  661  grep -n "Honda" vehicles
+  662  cat interviews/interview-699607 
+  663  grep -n "Honda" vehicles | grep -n "Blue"
+  664  head -n 34312 vehicles | tail -n 7 | grep -n "Blue"
+  665  grep -n "L337" vehicles
+  666  head -n 866 vehicles | tail -n 7
+  667  head -n 2168 vehicles | tail -n 7
+  668  head -n 5458 vehicles | tail -n 7
+  669  head -n 7166 vehicles | tail -n 7
+  670  head -n 7166 vehicles | tail -n 7
+  671  head -n 13564 vehicles | tail -n 7
+  672  head -n 13655 vehicles | tail -n 7
+  673  head -n 15923 vehicles | tail -n 7
+  674  head -n 17743 vehicles | tail -n 7
+  675  head -n 22083 vehicles | tail -n 7
+  676  head -n 23826 vehicles | tail -n 7
+  677  head -n 24834 vehicles | tail -n 7
+  678  head -n 31827 vehicles | tail -n 7
+  679  head -n 34312 vehicles | tail -n 7
+  680  head -n 34312 vehicles | tail -n 7
+  681  cd ..
+  682  cat hint7
+  683  grep -A 7 "L337"
+  684  grep -A 7 "L337" mystery/vehicles 
+  685  cat hint8
+  686  ls
+  687  cd mystery/
+  688  ls
+  689  cd memberships/
+  690  ls
+  691  ls
+  692  cd ..
+  693  ls
+  694  cd clues.txt 
+  695  ls
+  696  subl clues.txt 
+  697  memberships/
+  698  ls
+  699  cd memberships/
+  700  ls
+  701  cat Museum_of_Bash_History AAA United_MileagePlus library.txt | grep "Jeremy Bowers"
+  702  cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt | grep "Jeremy Bowers"
+  703  ls
+  704  cd ..
+  705  ls
+  706  cd ..
+  707  ls
+  708  cat instructions 
+  709  ls
+  710  cd mystery/
+  711  ls
+  712  cd ..
+  713  ls
+  714  cd instructions 
+  715  ls
+  716  cd mystery/
+  717  ls
+  718  cd crimescene 
+  719  ls
+  720  cat crimescene 
+  721  ls
+  722  cat Annabels.txt > crimescene
+  723  cat clues.txt > crimescene
+  724  cat clues.txt
+  725  ls
+  726  cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt | grep "Jeremy Bowers" > crimescene
+  727  cd memberships/
+  728  cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt | grep "Jeremy Bowers" > checkMemberships.txt
+  729  mv checkMemberships.txt ..
+  730  ls
+  731  cd ..
+  732  ls
+  733  cat checkMemberships.txt > crimescene 
+  734  ls
+  735  cd crimescene 
+  736  cd ..
+  737  ls
+  738  ls -a
