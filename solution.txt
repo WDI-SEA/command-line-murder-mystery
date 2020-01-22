@@ -1,0 +1,101 @@
+
+    1  Jan 21 08: 18 PM cd Unit1/HomeWork/
+    2  Jan 21 08: 18 PM cd command-line-murder-mystery/
+    3  Jan 21 08: 18 PM cat instructions
+    4  Jan 21 08: 20 PM code cheatsheet.md
+    5  Jan 21 08: 25 PM cd mystery
+    6  Jan 21 08: 27 PM grep -r * "CLUE"
+    7  Jan 21 08: 27 PM grep -r "CLUE" *
+    8  Jan 21 08: 29 PM cat crimescene
+    9  Jan 21 08: 30 PM cd ..
+   10  Jan 21 08: 31 PM cat hint1
+   11  Jan 21 08: 31 PM cat hint2
+   12  Jan 21 08: 31 PM cat hint3
+   13  Jan 21 08: 32 PM cat hint*
+   14  Jan 21 08: 35 PM cat hint* > reference.txt
+   15  Jan 21 08: 36 PM ls mystery
+   16  Jan 21 08: 36 PM ls mystery/interviews
+   17  Jan 21 08: 37 PM ls mystery/memberships/
+   18  Jan 21 08: 38 PM ls mystery/streets
+   19  Jan 21 08: 42 PM cat instructions
+   20  Jan 21 08: 48 PM cd mystery
+   21  Jan 21 08: 49 PM grep crimescene "CLUE" | clues.txt
+   22  Jan 21 08: 50 PM grep crimescene "CLUE" > clues.txt
+   23  Jan 21 08: 50 PM grep "CLUE" crimescene > clues.txt
+   24  Jan 21 08: 50 PM cat clues.txt
+   25  Jan 21 08: 58 PM cat people
+   26  Jan 21 09: 01 PM ls ./streets
+   27  Jan 21 09: 03 PM cat people | grep "Annabel"
+   28  Jan 21 09: 06 PM cat ./streets/Buckingham_Place 
+   29  Jan 21 09: 09 PM cat -n ./streets/Buckingham_Place 
+   30  Jan 21 09: 15 PM ls interviews/
+   31  Jan 21 09: 16 PM cat .interviews/interview-699607
+   32  Jan 21 09: 16 PM cd interviews
+   33  Jan 21 09: 17 PM cat interview-699607
+   34  Jan 21 09: 19 PM cd ..
+   35  Jan 21 09: 21 PM grep "Honda" vehicles
+   36  Jan 21 09: 22 PM cat -n vehicles
+   37  Jan 21 09: 22 PM grep "L337*9" vehicles
+   38  Jan 21 09: 25 PM grep -A 5 "L337" vehicles
+   39  Jan 21 09: 33 PM ls memberships
+   40  Jan 21 09: 33 PM cat 1.txt
+   41  Jan 21 09: 33 PM cd memberships
+   42  Jan 21 09: 33 PM cat 1.txt
+   43  Jan 21 09: 35 PM cat Delta_SkyMiles 
+   44  Jan 21 09: 38 PM cd ..
+   45* Jan 21 09: 38 PM cd interview
+   46  Jan 21 09: 39 PM cat interview-699607
+   47  Jan 21 09: 40 PM cd ..
+   48  Jan 21 09: 41 PM grep "Blue" vehicles | grep "Honda" | grep "L337"
+   49  Jan 21 09: 42 PM grep -A 5 "Honda" vehicles
+   50  Jan 21 09: 46 PM grep -A 5 "Honda" vehicles > Hondas.txt
+   51  Jan 21 09: 47 PM cat Hondas.txt
+   52  Jan 21 09: 48 PM grep -A 5 "Blue" Hondas.txt > blue_hondas.txt
+   53  Jan 21 09: 48 PM cat blue_hondas.txt 
+   54  Jan 21 09: 50 PM grep -A 4 "6'" blue_hondas.txt > sixfeet.txt
+   55  Jan 21 09: 50 PM cat sixfeet.txt 
+   56  Jan 21 09: 51 PM grep -A 5 "6'" blue_hondas.txt > sixfeet.txt
+   57  Jan 21 09: 51 PM cat sixfeet.txt 
+   58  Jan 21 09: 52 PM grep -A 6 "6'" blue_hondas.txt > sixfeet.txt
+   59  Jan 21 09: 52 PM cat sixfeet.txt 
+   60  Jan 21 09: 55 PM cat blue_hondas.txt
+   61  Jan 21 09: 56 PM cat Hondas.txt
+   62  Jan 21 09: 58 PM grep -A 2 "Color: Blue" Hondas.txt
+   63  Jan 21 10: 03 PM rm sixfeet.txt
+   64  Jan 21 10: 03 PM rm blue_hondas.txt 
+   65  Jan 21 10: 03 PM cd memberships
+   66  Jan 21 10: 14 PM cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Lubomir Frank"
+   67  Jan 21 10: 14 PM cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library 
+   68  Jan 21 10: 15 PM cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Pape Kantarci"
+   69  Jan 21 10: 16 PM grep * "Pape Kantarci"
+   70  Jan 21 10: 16 PM grep "Pape Kantarci" *
+   71  Jan 21 10: 17 PM grep "Lubomir Frank" *
+   72  Jan 21 10: 18 PM grep "Maharyta Willmott" *
+   73  Jan 21 10: 18 PM grep "Marharyta Willmott" *
+   74  Jan 21 10: 19 PM grep "Jaqui Maher" *
+   75  Jan 21 10: 19 PM grep "Darae Charlos" *
+   76  Jan 21 10: 20 PM cat museum.txt
+   77  Jan 21 10: 20 PM grep "Alberto Pederson" *
+   78  Jan 21 10: 21 PM grep "Joe" *
+   79  Jan 21 10: 22 PM grep "Joe Germuska" *
+   80  Jan 21 10: 23 PM grep "Jeremy Bowers" *
+   81  Jan 21 10: 24 PM cd ..
+   82  Jan 21 10: 24 PM grep -A 5 "Jeremy Bowers" vehicles
+   83  Jan 21 10: 26 PM grep -B 2 "Jeremy Bowers" vehicles
+   84  Jan 21 10: 27 PM grep -C 2 "Jeremy Bowers" vehicles
+   85  Jan 21 10: 28 PM rm Hondas.txt
+   86  Jan 21 10: 28 PM cat clues.txt
+   87  Jan 21 10: 29 PM grep "Jeremy Bowers" people
+   88  Jan 21 10: 30 PM cat -n streets/Dunstable_Road 
+   89  Jan 21 10: 31 PM cd interviews
+   90  Jan 21 10: 31 PM cat interview-9620713
+   91  Jan 21 10: 34 PM cd ..
+   92  Jan 21 10: 34 PM rm clues.txt
+   93  Jan 21 10: 34 PM cd ..
+   94  Jan 21 10: 35 PM rm reference.txt
+   95  Jan 21 10: 35 PM cat instructions
+   96  Jan 21 10: 37 PM cat history
+   97  Jan 21 10: 38 PM history > solution.txt
+
+
+JEREMY BOWERS is the evil killer!!!
