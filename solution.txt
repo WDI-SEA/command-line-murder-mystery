@@ -1,0 +1,74 @@
+git clone git@github.com:dannygoodrich/command-line-murder-mystery.git
+  117  ls
+  118  ls command-line-murder-mystery
+  119  man cat
+  120  cat command-line-murder-mystery
+  121  cd command-line-murder-mystery
+  122  cat command-line-murder-mystery
+  123  man cat
+  124  cat instructions
+  125  cat README.md
+  126  open cheatsheet.pdf
+  127  open hint1
+  128  open hint2
+  129  open hint3
+  130  open hint 4
+  131  open hint4
+  132  open hint5
+  133  open hint6
+  134  open hint7
+  135  grep "CLUE" ./mystery/crimescene
+  136  touch clues.txt
+  137  cat ./mystery/crimescene | grep "CLUE" ./mystery/crimescene  > clues.txt
+  138  open clues.txt
+  139  head -n 20 people
+  140  head -n 20 ./mystery/people
+  141  head -n 40 ./mystery/crimescene
+  142  head -n 40 ./mystery/people
+  143  cat ./mystery/people/streets/Townsend_Street
+  144  cat ./mystery/people/streets
+  145  cat ./mystery/people
+  146  cat ./mystery/streets
+  147  head -n 20 ./mystery/streets
+  148  head -n 20 ./mystery/streets/
+  149  grep "Annabel" ./mystery/people
+  150  ls mystery
+  151  head -n 40 ./mystery/streets/Hart_Place
+  152  ls .mystery/
+  153  cd mystery
+  154  ls
+  155  ls interviews
+  156  cat interviews/interview-47246024
+  157  head -n 179 ./mystery/streets/Buckingham_Place
+  158  head -n 40 ./streets/Buckingham_Place
+  159  head -n 179 ./streets/Buckingham_Place
+  160  cat interviews/interview-699607
+  161  ls
+  162  head -n 50 ./vehicles
+  163  find "Honda" vehicles
+  164  find "Honda" ./vehicles
+  165  cd vehicles
+  166  ls vehicles
+  167  ls -a vehicles
+  168  grep -a "L337" vehicles
+  169  cat grep -a "L337" vehicles | grep -a "Honda" vehicles 
+  170  cat vehicles | grep -A 5 "L337" > please.txt
+  171  cat please.txt
+  172  grep "Jeremy Bowers" ./people
+  173  head -n 284 ./streets/Dunstable_Road
+  174  cat interviews/interview-9620713
+  175  grep "Joe Germuska" ./people
+  176  head -n 275 ./streets/Plainfield_Street
+  177  cat  .interviews/interview-29741223
+  178  cat interviews/interview-29741223
+  179  cat hint8
+  180  cd ..
+  181  cat hint8
+  182  cat AAA Delta_Skymiles | grep "Jeremy Bowers"
+  183  cd mystery
+  184  cd memberships
+  185  cat AAA Delta_Skymiles | grep "Jeremy Bowers"
+  186  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  187  cd ..
+
+Jeremy Bowers
