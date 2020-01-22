@@ -1,0 +1,144 @@
+747  git clone git@github.com:micajank/command-line-murder-mystery.git
+  748  ls
+  749  cd command-line-murder-mystery
+  750  ls
+  751  cat instructions
+  752  cd mystery
+  753  ls
+  754  cd ..
+  755  ls
+  756  touch solution.txt
+  757  ls
+  758  cd mystery
+  759  ls
+  760  cat crimescene
+  761  grep "CLUE"
+  762  grep "CLUE" ./crimescene
+  763  cat ./crimescene | grep "CLUE" > clues.txt
+  764  ls
+  765  cat clues.txt
+  766  ls
+  767  cat people
+  768  cd ..
+  769  ls
+  770  cd mystery
+  771  ls
+  772  ls memberships
+  773  cd memberships
+  774  ls
+  775  cat Delta_SkyMiles
+  776  cd ..
+  777  ls
+  778  cat clues.txt
+  779  grep "Annabel" ./crimescene
+  780  grep "Annabel" ./interviews
+  781  cd interviews
+  782  ls
+  783  find . -name "Annabel*"
+  784  cd ..
+  785  ls
+  786  grep "Annabel" ./people
+  787  grep "Hart_Place" ./streets
+  788  ls streets
+  789  cd ..
+  790  ls
+  791  cd mystery
+  792  ;s
+  793  ls
+  794  cd streets
+  795  ls
+  796  cd Hart_Place
+  797  cat Hart_Place
+  798  ls
+  799  cd ..
+  800  ls
+  801  cd interviews
+  802  ls
+  803  grep "47246024"
+  804  grep "47246024" .
+  805  grep "47246024" ./
+  806  cd ..
+  807  ls
+  808  grep "47246024" ./interviews
+  809  ls
+  810  cat interview-47246024
+  811  cd interviews
+  812  cat interview-47246024
+  813  grep "Annabel" ./people
+  814  ls
+  815  cd ..
+  816  grep "Annabel" ./people
+  817  ls
+  818  cd streets
+  819  ls
+  820  cd Buckingham_Place
+  821  cat Buckingham_Place
+  822  cd ..
+  823  ls
+  824  cd interviews
+  825  ls
+  826  cat interview-699607
+  827  ls
+  828  cd ..
+  829  ls
+  830  cat vehicles
+  831  grep "License Plate L337" .
+  832  grep "License Plate L337" ./vehicles
+  833  grep -b 5 "L337" vehicles
+  834  grep -B 5 "L337" vehicles
+  835  grep -A 5 "L337" vehicles
+  836  ls
+  837  cat clues.txt
+  838  cat vehicles | grep -A 5 "L337" > clues.txt
+  839  cat clues.txt
+  840  cat clues | grep -A "Honda" > clues.txt
+  841  cat clues | grep "Honda" > clues.txt
+  842  cat clues.txt | grep "Honda" > clues.txt
+  843  cat clues.txt
+  844  cat vehicles | grep -A 5 "L337" > clues.txt
+  845  cat clues.txt
+  846  cat clues.txt | grep "Honda" > clues2.txt
+  847  cat clues2.txt
+  848  cat vehicles | grep -A 4 "Honda" > clues2.txt
+  849  cat clues2.txt
+  850  cat vehicles | grep -A 3 "Blue" > clues3.txt
+  851  cat clues3.txt
+  852  cat clues.txt
+  853  cat clues | grep -A 3 "Blue" > clues3.txt
+  854  cat clues.txt | grep -A 3 "Blue" > clues3.txt
+  855  cat clues3.txt
+  856  cat clues3.txt | grep -B 1 -A 1 "6" > clues.txt
+  857  cat clues.txt
+  858  ls
+  859  rm clues3.txt
+  860  rm clues2.txt
+  861  ls
+  862  cat vehicles
+  863  cat vehicles | grep -A 5 "L337" > clues.txt
+  864  cat clues.txt
+  865  cat clues.txt | grep -A 4 "Honda" > clues2.txt
+  866  cat clues2.txt
+  867  cat clues2.txt | grep -A 3 "Blue" > clues2.txt
+  868  cat clues2.txt
+  869  cat clues.txt | grep -A 4 "Honda" > clues2.txt
+  870  cat clues2.txt | grep -A 3 "Blue" > clues3.txt
+  871  cat clues3.txt
+  872  cat clues3.txt | grep -B 1 -A 1 "6" > clues.txt
+  873  cat clues.txt
+  874  ls
+  875  grep "Erika Owens" ./people
+  876  grep "Joe Germuska" ./people
+  877  grep "Jeremy Bowers" ./people
+  878  grep "Jacqui Maher" ./people
+  879  cd memberships
+  880  ls
+  881  grep "Joe Germuska" ./Delta_SkyMiles
+  882  grep "Joe Germuska" ./AAA
+  883  grep "Joe Germuska" ./Museum_of_Bash_History
+  884  grep "Jeremy Bowers" ./Museum_of_Bash_History
+  885  grep "Jeremy Bowers" ./AAA
+  886  grep "Jeremy Bowers" ./Delta_SkyMiles
+  887  grep "Jeremy Bowers" ./library.txt
+
+
+2. Jeremy Bowers is the killer
