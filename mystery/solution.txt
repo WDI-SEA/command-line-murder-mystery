@@ -1,0 +1,169 @@
+  480  git clone https://github.com/petefitton/command-line-murder-mystery.git
+  481  cd command-line-murder-mystery
+  482  ls
+  483  cat instructions
+  484  ls mystery
+  485  cd mystery
+  486  grep "CLUE" crimescene
+  487  grep "CLUE" people
+  488  grep "CLUE" vehicles
+  489  ls interviews
+  490  ls memberships
+  491  ls streets
+  492  ls memberships
+  493  man grep
+  494  man find
+  495  man find
+  496  grep "CLUE" 1.txt
+  497  cd memberships
+  498  grep "CLUE" 1.txt
+  499  grep "CLUE" 2.txt
+  500  cd AAA
+  501  cat AAA
+  502  ls
+  503  grep "CLUE" delta.txt
+  504  grep "CLUE" library.txt
+  505  grep "CLUE" museum.txt
+  506  grep "CLUE" newfile.txt
+  507  pwd
+  508  cd ..
+  509  ls
+  510  ls streets
+  511  pwd
+  512  ls
+  513  cd ..
+  514  ls
+  515  cat README.md
+  516  ls
+  517  cat instructions
+  518  ls
+  519  cd mystery
+  520  ls
+  521  cat cheatsheet.md
+  522  cd ..
+  523  cat cheatsheet.md
+  524  ls
+  525  cat hint1
+  526  cat hint2
+  527  cat hint3
+  528  pwd
+  529  ls
+  530  cd mystery
+  531  ls
+  532  head -n 20 people
+  533  grep "Annabel" people
+  534  ls streets
+  535  cat Haley_Street
+  536  cat streets/Haley_Street
+  537  cd interviews
+  538  ls
+  539  cat interview-871877
+  540  cd ..
+  541  cat streets/Buckingham_Place
+  542  cat streets/Hart_Place
+  543  cd streets
+  544  cat interview-699607
+  545  cd ..
+  546  cd streets
+  547  cat interview-699607
+  548  ls
+  549  cd ..
+  550  cd interviews
+  551  cat interview-699607
+  552  cat interview-47246024
+  553  ls
+  554  cd ..
+  555  ls
+  556  cd vehicles
+  557  ls
+  558  grep "Honda" vehicles
+  559  cat vehicles | grep "L337" > carsFromHint
+  560  cat carsFromHint
+  561  cat vehicles | grep "Honda" > carsFromHint2
+  562  cat carsFromHint2
+  563  head -n 20 vehicles
+  564  cat vehicles | grep -A 5 "L337" > carsFromHint
+  565  cat carsFromHint
+  566  License Plate L337QE9
+  567  Make: Honda
+  568  Color: Blue
+  569  Owner: Erika Owens
+  570  Height: 6'5"
+pwd
+"
+
+"
+ "
+q
+"
+'
+  571  pwd
+  572  cat carsFromHint | grep -A 4 "Honda" > carsFromHint2
+  573  cat carsFromHint2
+  574  cat carsFromHint2 | grep -B "6'" > carsFromHint3
+  575  cat carsFromHint2 | grep -B 1  "6'" > carsFromHint3
+  576  cat carsFromHint3
+  577  cat carsFromHint2 | grep -A 4  "Blue" > carsFromHint3
+  578  cat carsFromHint3 | grep -B 1  "6'" > carsFromHint4
+  579  cat carsFromHint
+  580  cat carsFromHint4
+  581  cd ..
+  582  ls
+  583  cd mystery
+  584  ls
+  585  grep "Erika Owens" people
+  586  grep "Joe Germuska" people
+  587  grep "Jeremy Bowers" people
+  588  grep "Jacqui Maher" people
+  589  ls
+  590  cd streets
+  591  grep "98" Trapelo_Street
+  592  grep 98 Trapelo_Street
+  593  head -n 20 Trapelo_Street
+  594  grep "Interview" Trapelo_Street
+  595  head -n 98 Trapelo_Street
+  596  head -n 275 Plainfield_Street
+  597  head -n 284 Dunstable_Road
+  598  head -n 224 Andover_Road
+  599  ls
+  600  cd ..
+  601  ls
+  602  cd interviews
+  603  ls
+  604  cat interview-5455315
+  605  cat interview-29741223
+  606  cat interview-9620713
+  607  cat interview-904020
+  608  ls
+  609  cd ..
+  610  ls
+  611  grep "Jacqui Maher" crimescene
+  612  grep "Jacqui Maher" interviews
+  613  grep "Jacqui Maher" peope
+  614  grep "Jacqui Maher" people
+  615  cd ..
+  616  ls
+  617  cat hint3
+  618  cat hint4
+  619  cat hint5
+  620  cat hint6
+  621  cat hint7
+  622  cat hint8
+  623  grep "Jacqui Maher" peope
+  624  ls
+  625  cd mystery
+  626  ls
+  627  cd people
+  628  grep "Jeremy Bowers" people
+  629  grep "Jeremy Bowers" memberships/AAA
+  630  cd memberships
+  631  ls
+  632  grep "Jeremy Bowers" Delta_SkyMiles
+  633  grep "Jeremy Bowers" library.txt
+  634  grep "Jeremy Bowers" Museum_of_Bash_History
+  635  history
+
+The killer is Jeremy Bowers
+
+
+
