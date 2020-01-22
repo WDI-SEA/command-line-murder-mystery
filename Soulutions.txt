@@ -1,0 +1,127 @@
+1. Jeremy Bowers
+
+2. command lines: (everything before 72   
+
+
+72  cd home
+   73  `
+   74  cd desktop
+   75  cd Desktop
+   76  clear
+   77  cd home
+   78  cd Home
+   79  mkdir SEI29
+   80  mkdir unit 1
+   81  cd desktop
+   82  cd Home
+   83  cd Desktop
+   84  cd SEI29
+   85  cd ..
+   86  cd SEI29
+   87  cd units
+   88  cd Unit_1
+   89  cd homework'
+cd homework
+   90  cd homework
+   91  cd homework_0
+   92  ls
+   93  cd command-line-murder-mystery-master
+   94  ls
+   95  grep "CLUE" crimescene
+   96  cd mystery
+   97  grep "CLUE" crimescene
+   98* 
+   99  grep "Annabel" crimescene
+  100  grep "Annabel" people
+  101  head -n 173 streets/Mattapan_Street | tail -n 1
+  102  cd interviews
+  103  ls
+  104  file interview-9437737
+  105  cat interview-9437737
+  106  grep "Annabel_Church" vehicles
+  107  ..
+  108  cd..
+  109  cd ..
+  110  grep "Annabel_Church" vehicles
+  111  grep "Annabel Church" vehicles
+  112  cd interviews
+  113  grep "Annabel Church" 
+  114  grep "Annabel Church" interviews
+  115  cd ..
+  116  grep "Annabel Church" interviews
+  117  head -n 40 streets/Hart_Place | tail -n 1
+  118  head -n 179 streets/Buckingham_Place | tail -n 1
+  119  cat vehicles
+  120  cat vehicles | -A 5 "L377" > clues.txt
+  121  cat vehicles | -a 5 "L377" > clues.txt
+  122  cat vehicles | grep -A 5 "L377" > clues.txt
+  123  cat clues.txt
+  124  cat clues
+  125  cat clues.txt
+  126  cat vehicles | grep -A 4 "Honda" > clues.txt
+  127  cat clues.txt
+  128  cat vehicles | grep -A 4 "Blue" > clues.txt
+  129  cat clues.txt
+  130  cat vehicles | grep -A 5 "L377" > clues.txt
+  131  cat clues.txt
+  132  cat vehicles | -A 5 "L377" > clues.txt
+  133  cat clues.txt
+  134  cat vehicles | grep -A 5 "L377" > clues.txt
+  135  cat clues.txt
+  136  grep -A 5 "L337" mystery/vehicles
+  137  grep -A 5 "L337" vehicles
+  138  cd ..
+  139  cd mystery
+  140  cd interview
+  141  cd interviews
+  142  cd interview-47246024
+  143  cat interview-47246024
+  144  cat interview-699607
+  145  cd ..
+  146  cd memberships
+  147  cd ~
+  148  xrandr -o normal
+  149  cd desktop
+  150  cd Desktop
+  151  cd SEI29
+  152  cd units
+  153  cd Unit_1
+  154  cd homework'
+  155  cd homework
+  156  cd homework_0
+  157  cd command-line-murder-mystery-master
+  158  cd mystery'
+cd memberships
+  159  cd mystery
+  160  cat Fitness_Galaxy United_MileagePlus AAA | grep "Joe Gremuska"
+  161  cat Fitness_Galaxy United_MileagePlus AAA | grep -c "Joe Gremuska"
+  162  cd memberships
+  163  cat Fitness_Galaxy United_MileagePlus AAA | grep -c "Joe Gremuska"
+  164  cat Fitness_Galaxy United_MileagePlus AAA | grep -c "Jeremy Powers"
+  165  cat Delta_SkyMiles AAA | grep -c "Jeremy Powers
+cat Delta_SkyMiles AAA | grep -c "Jeremy Powers"
+  166  cat Delta_SkyMiles AAA | grep -c "Jeremy Powers"
+  167  cat Delta_SkyMiles AAA | grep "Jeremy Powers"
+  168  cat Museum_of_Bash_History Delta_SkyMiles AAA | grep "Jeremy Powers"
+  169  cd~
+  170  cd ~
+  171  xrandr -o normal
+  172  cd Desktop
+  173  cd SEI29
+  174  cd units
+  175  cd Unit_1
+  176  cd homework
+  177  cd homework_0
+  178  cd command-line-murder-mystery-master
+  179  cd mystery'
+  180  cd mystery
+  181  cd memberships
+  182  cat Museum_of_Bash_History Delta_SkyMiles AAA | grep "Jeremy Powers"
+  183  cd ..
+  184  cat Museum_of_Bash_History Delta_SkyMiles AAA | grep "Jeremy Powers"
+  185  cd memberships
+  186  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy_Powers"
+  187  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Powers"
+  188  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  189  history
+dylan@Alladin:~/
