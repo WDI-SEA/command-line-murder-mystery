@@ -1,0 +1,87 @@
+  230  cd command-line-murder-mystery/
+  231  ls
+  232  cd mystery/
+  233  ls
+  234  cat crimescene | grep "CLUE" > clue.txt
+  235  ls
+  236  cat clue.txt 
+  237  ls
+  238  cat people
+  239  cat people | grep "Annabel" > clue.txt
+  240  cat clue.txt
+  241  ls
+  242  cd interviews/
+  243  ls
+  244  cd ../
+  245  ls streets/
+  246  cat Hart_Place
+  247  cat streets/Hart_Place 
+  248  cat streets/Hart_Place | grep "INTERVIEW" > clue.txt
+  249  cat clue.txt
+  250  cat streets/Haley_Street | grep "INTERVIEW" > clue.txt
+  251  cat clue.txt
+  252  cat interviews/interview-47246024
+  253  cat interviews/interview-871877
+  254  cat streets/Haley_Street | grep "INTERVIEW" > clue.txt
+  255  cat clue.txt
+  256  cat crimescene | grep "CLUE" > clue.txt
+  257  cat clue.txt 
+  258  cat people | grep "Annabel" > clue.txt
+  259  cat clue.txt
+  260  cat streets/Buckingham_Place | grep "INTERVIEW" > clue.txt
+  261  cat clue.txt
+  262  cat interviews/interview-699607
+  263  ls
+  264  cat vehicles | grep "L337" > clue.txt
+  265  cat clue.txt
+  266  cat vehicles 
+  267* grep -A 5 "L337" 
+  268  cat vehicles | grep -A 5 "L337" > clue.txt
+  269  cat clue.txt
+  270  cat clue.txt | grep -A 5 "Honda" > clue.txt
+  271  cat clue.txt
+  272  cat vehicles | grep -A 5 "L337" > clue.txt
+  273  cat clue.txt | grep -A 4 "L337" > clue_2.txt
+  274  cat clue_2.txt
+  275  cat clue.txt | grep -A 4 "Honda" > clue_2.txt
+  276  cat clue_2.txt
+  277  cat clue_2.txt | grep -A 3 "Blue" > clue.txt
+  278  cat clue.txt 
+  279  ls
+  280  cat people | grep "Erika Owens" > clue.txt
+  281  cat clue.txt
+  282  cat people | grep "Joe Germuska" > clue.txt
+  283  cat clue.txt
+  284  cat people | grep "Jeremy Bowers" > clue.txt
+  285  cat clue.txt
+  286  cat people | grep "Jacqui Maher" > clue.txt
+  287  cat clue.txt
+  288  ls
+  289  cd streets/
+  290  cat Plainfield_Street | grep "INTERVIEW" > clue.txt
+  291  cat clue.txt
+  292  cat ../interviews/interview-29741223 | grep "INTERVIEW" > clue.txt
+  293  cat clue.txt
+  294  cd ../
+  295  cat interviews/interview-29741223
+  296  cat streets/Plainfield_Street | grep "INTERVIEW" > clue.txt
+  297  cat clue.txt
+  298  cat streets/Dunstable_Road | grep "INTERVIEW" > clue.txt
+  299  cat clue.txt
+  300  cat interviews/interview-9620713
+  301  ls
+  302  cd memberships/
+  303  ls
+  304  cat 1.txt 
+  305  cat 2.txt
+  306  ls
+  307  cat AAA | grep "Jeremy Bowers" > clue.txt
+  308  cat clue.txt 
+  309  cat Delta_SkyMiles | grep "Jeremy Bowers" > clue.txt
+  310  cat clue.txt 
+  311  cat Museum_of_Bash_History | grep "Jeremy Bowers" > clue.txt
+  312  cat clue.txt 
+  313  cat library.txt | grep "Jeremy Bowers" > clue.txt
+  314  cat clue.txt 
+
+The killer is Jeremy Bowers.
