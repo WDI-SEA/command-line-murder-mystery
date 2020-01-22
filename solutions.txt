@@ -1,0 +1,89 @@
+cd command-line-murder-mystery
+  198  ls
+  199  open hint1
+  200  open hint2
+  201  open hint1
+  202  head -n 20 people 
+  203  cd command-line-murder-mystery
+  204  pwd
+  205  ls
+  206  cut instructions
+  207  cat instructions
+  208  cd mystery
+  209  ls
+  210  head -n 20 people
+  211  open hint2
+  212  cd ..
+  213  ls
+  214  open hint2
+  215  grep "clue" crimescene
+  216  cd mystery
+  217  ls
+  218  cd crimescene
+  219  grep "clue" crimescene
+  220  ls
+  221  cd crimescene
+  222  ls crimescene
+  223  grep "clue" crimescene
+  224  cd ..
+  225  ls
+  226  cd mystery
+  227  grep "CLUE" crimescene
+  228  cd ..
+  229  ls
+  230  open hint3
+  231  cd mystery
+  232  ls
+  233  grep "annabel" people
+  234  grep "Annabel" people
+  235  head -n 179 ./streets/Buckingham_Place
+  236  cat interview/interview-699607
+  237  cat interviews/interview-699607
+  238  cd..
+  239  cd ..
+  240  ls
+  241  open hint4
+  242  open hint5
+  243  open hint6
+  244  cd mystery
+  245  ls
+  246  grep "Honda" vehicles
+  247  grep "blue" vehicles
+  248  grep "Blue" vehicles
+  249  grep "L337" vehicles
+  250  cat vehicles | grep -A 5 "l337" > killer.txt
+  251  cat vehicles | grep -A 5 "337" > killer.txt
+  252  cat vehicles | grep -A 5 "l337" > killer.txt
+  253  cat vehicles | grep -A 5 "L337" > killer.txt
+  254  cat killer.txt
+  255  grep "Joe Germuska" people
+  256  head -n line 275 streets/Plainfield_street
+  257  head -n 275 streets/Plainfield_Street
+  258  cat intervies/interview-29741223
+  259  cat interviews/interview-29741223
+  260  grep "Jeremy Bowers" people
+  261  head -n line 284 streets/Dunstable_Road
+  262  head -n 284 streets/Dunstable_Road
+  263  cat intervies/interview-9620713
+  264  cat interviews/interview-9620713
+  265  cd ..
+  266  ls
+  267  open hint 8
+  268  open hint8
+  269  cd mystery
+  270  ls
+  271  cat AAA Delta_MileagePlus | grep "Jeremy Bowers" | wc -l
+  272  cat AAA Delta_SkyMiles | grep "Jeremy Bowers" | wc -l
+  273  cat AAA Delta_Skymiles | grep "Jeremy Bowers" | wc -l
+  274  cat AAA Delta_SkyMiles | grep "Jeremy Bowers"
+  275  ls
+  276  cd memberships
+  277  cat AAA Delta_SkyMiles | grep "Jeremy Bowers"
+  278  git add -A
+  279  git commit -m "killer homework"
+  280  git push
+  281  cd ..
+  282  ls
+  283  cd ..
+  284  ls
+  285  touch solutions.txt
