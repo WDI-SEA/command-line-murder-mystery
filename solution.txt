@@ -1,0 +1,204 @@
+684  cat instructions
+  685  ls
+  686  cd mystery
+  687  ls
+  688  cat crimescene
+  689  q
+  690  ls
+  691  cd interviews
+  692  ls
+  693  cd ..
+  694  ls
+  695  cd memberships
+  696  ls
+  697  cd ..
+  698  ls
+  699  cd streets
+  700  ls
+  701  cd ..
+  702  ls
+  703  cat vehicles
+  704  clera
+  705  clear
+  706  ls
+  707  cat crimescene
+  708  history
+  709  mystery | grep “CLUE” > clues.txt
+  710  ls
+  711  cat clues.txt
+  712  crimescene | grep “CLUE” > clues.txt
+  713  cat instructions
+  714  cat README.md
+  715  cat instructions
+  716  clera
+  717  clear
+  718  ls
+  719  history
+  720  cat crimescene | grep “CLUE” > clues.txt
+  721  cat clues.txt
+  722  cat crimescene
+  723  grep "CLUE" crimescene
+  724  ls
+  725  cat people
+  726  ls
+  727  cd memberships
+  728  ls
+  729  cat AAA
+  730  cd ..
+  731  ls
+  732  cd memberships
+  733  ls
+  734  cat library.txt
+  735  ls
+  736  cd ..
+  737  ls
+  738  cat clues.txt
+  739  cd interviews
+  740  ls
+  741  grep "barista" interview*
+  742  grep "barista" interview-*
+  743  cat interview-324389 
+  744  grep -R "barista" *
+  745  cd ..
+  746  ls
+  747  grep -R "barista" interviews
+  748  cd interviews
+  749  ls
+  750  clear
+  751  ls
+  752  cat interview-4299898
+  753  grep "lobsters" interview-*
+  754  grep "barista" interview-*
+  755  grep "coffee" interview-*
+  756  grep "zealand" interview-*
+  757  grep "CLUE" interview-*
+  758  grep "Annabel" interview-*
+  759  cat instructions
+  760  ls
+  761  cat hint1
+  762  cat hint2
+  763  cat hint3
+  764* ls
+  765* cd mystery
+  766* grep "CLUE" crimescene 
+  767  ls
+  768* grep "Annabel" people
+  769* exit
+  770  cd mystery
+  771  ls
+  772  cat hint3
+  773  ls
+  774  cd ..
+  775  ls
+  776  cat hint3
+  777  cat hint1
+  778  ls
+  779  head -n 20 ./mystery/people
+  780* pwd
+  781* ls
+  782* cd ..
+  783* ls
+  784* cd ..
+  785* ls
+  786* cd ga-sei-29
+  787* ls
+  788* pwd
+  789* ls
+  790* clear
+  791* ls
+  792* cd unit1
+  793* ls
+  794* cd hwlabs
+  795* ls
+  796* cd homework_0
+  797* ls
+  798* cd command-line-murder-mystery
+  799* ls
+  800* cat instructions
+  801* grep "lobsters" interview-*
+  802* cat interview-54851634 
+  803  grep "Buckingham" streets
+  804  ls
+  805  grep "Buckingham" ./mystery/streets
+  806  cd mystery/streets
+  807  ls
+  808  cat Buckingham_Place
+  809  clear
+  810  ls
+  811  cd ..
+  812  ls
+  813  cd ..
+  814  ls
+  815  cat hint4
+  816  cat hint5
+  817* grep "Annabel" people
+  818* clear
+  819* grep "CLUE" crimescene
+  820* grep "Annabel" people
+  821  ls
+  822  head -n 173 streets/Mattapan_Street | tail -n 1
+  823  cd mystery
+  824  head -n 173 streets/Mattapan_Street | tail -n 1
+  825  ls
+  826  cd interviews
+  827  ls
+  828  cat interview-9437737
+  829  cd ..
+  830  head -n 173 streets/Buckingham_Place | tail -n 1
+  831  head -n 173 streets/Hart_Place | tail -n 1
+  832  head -n 173 streets/Buckingham_Place | tail -n 1
+  833  head -n 173 streets/Haley_Street | tail -n 1
+  834  head -n 173 streets/Mattapan_Street | tail -n 1
+  835  cat interview-9437737
+  836  head -n 173 streets/Mattapan_Street | tail -n 1
+  837  cat hint5
+  838  ls
+  839  cd ..
+  840  ls
+  841  cat hint5
+  842  cat hint6
+  843  cat hint7
+  844  cat hint6
+  845  cat hint7
+  846  ls
+  847  cd mystery
+  848  ls
+  849  cd interviews
+  850  ls
+  851  cat interview-27042476
+  852  clear
+  853* ls
+  854* cd mystery
+  855* ls
+  856  clear
+  857  ls
+  858  cd ..
+  859  ls
+  860  head -n 20 people
+  861  grep "Annabel" vehicles
+  862  head -n 20 vehicles
+  863  grep "Annabel" vehicles
+  864  head -n 20 people
+  865  grep "Annabel" vehicles
+  866  grep "Annabel" people
+  867  head -n 173 streets/Mattapan_Street | tail -n 1
+  868  head -n 173 streets/Hart_Place | tail -n 1
+  869  head -n 173 streets/Buckingham_Place | tail -n 1
+  870  head -n 173 streets/Mattapan_Street | tail -n 1
+  871  head -n 173 streets/Haley_Street | tail -n 1
+  872  head -n 20 vehicles
+  873  head -n 173 streets/Mattapan_Street | tail -n 1
+  874* ls
+  875* cd interviews
+  876* ls
+  877* cat interview-9437737
+  878  cd ..
+  879  ls
+  880  cd ..
+  881  ls
+  882  pwd
+  883  ls
+  884  cd command-line-murder-mystery
+  885  ls
+  886  cat README.md
+  887  touch solution.txt
