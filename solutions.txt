@@ -1,0 +1,103 @@
+672  git clone git@github.com:CCLancaster/command-line-murder-mystery.git
+  673  cat instructions
+  674  ls
+  675  rm -rf pull_test
+  676  ls
+  677  cd command-line-murder-mystery
+  678  ls
+  679  cat instructions
+  680  ssh-add -K ~/.ssh/id_rsa
+  681  ls
+  682  mkdir solution.txt
+  683  ls
+  684  cd mystery
+  685  ls
+  686  cd ..
+  687  ls
+  688  ls hint1
+  689  ls hint1/hint1
+  690  cd hint1
+  691  cat hint1
+  692  cat hint2
+  693  cat hint3
+  694  cat hint4
+  695  mkdir clues.txt
+  696  ls
+  697  cd mystery
+  698  ls
+  699  grep "CLUE" crimescene
+  700  cat grep "clue" > clues.txt
+  701  grep "CLUE" > clues.txt
+  702  cat crimescene | grep "CLUE" > clues.txt
+  703  cd ..
+  704  ls
+  705  code clues.txt
+  706  cd command-line-murder-mystery
+  707  cd mystery
+  708  ls
+  709  code clues.txt
+  710  ls
+  711  cd interviews
+  712  ls
+  713  cd .. 
+  714  cd ..
+  715  code cheatsheet.md
+  716  cd mystery
+  717  head -n 20 people
+  718  head -n 50 people
+  719  grep "Annabel" people
+  720  head -n 20 streets
+  721  ls streets
+  722  head -n 40 Hart_Place
+  723  head -n 40 Hart_Place.txt
+  724  file Hart_Place
+  725  file streets/Hart_Place
+  726  head -n 40 streets/Hart_Place
+  727  cat interview/interview-47246024
+  728  cd interview
+  729  cat interviews/interview-47246024
+  730  head -n 176 streets/Buckingham_Place
+  731  head -n 179 streets/Buckingham_Place
+  732  cat interviews/interview-699607
+  733  ls
+  734  ls vehicles
+  735  cd vehicles
+  736  grep "Honda" vehicles
+  737  cat hint5
+  738  cd ..
+  739  cat hint5
+  740  cat hint6
+  741  cat hint7
+  742  cat hint8
+  743  grep -A 5 "L337" mystery/vehicles
+  744  grep -e "L337" -e "Blue" mystery/vehicles
+  745  ls
+  746  cd mystery
+  747  ls
+  748  cd memberships
+  749  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"\n
+  750  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n
+  751  ls
+  752  cd ..
+  753  ls
+  754  grep "Joe Germuska" people
+  755  head -n 275 streets/Plainfield_Street
+  756  cat interviews/interview-29741223
+  757  grep "Jeremy Bowers" people
+  758  head -n 284 streets/Dunstable_Road
+  759  cat interviews/interview-9620713
+  760  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"\n
+  761  ls
+  762  cd memberships
+  763  l
+  764  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"\n
+  765  \tcat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Bowers"\n
+  766  cd ..
+  767  ls
+  768  cd ..
+  769  ls
+  770  code solutions.txt
+
+
+
+Murderer is Jeremy Bowers
