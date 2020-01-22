@@ -1,0 +1,55 @@
+    1  history
+    2  cd Desktop/ga_sei/units/homework/command-line-murder-mystery
+    3  cat instructions
+    4  cd mystery
+    5  ls
+    6  cat crimescene
+    7  cat vehicles
+    8  cat people
+    9  cd interviews
+   10  ls
+   11  cd ..
+   12  cat hint1
+   13  head -n 20 mystery/people
+   14  cat hint2
+   15  grep "CLUE" mystery/crimescene
+   16  cd mystery
+   17  grep "Annabel" people
+   18  head -n 173 streets/Mattapan_Street | tail -n 1
+   19  head -n 40 streets/Hart_Place | tail -n 1
+   20* history
+   21* cd Desktop/ga_sei/units/homework/command-line-murder-mystery/mystery
+   22* ls
+   23* head -n 40 streets | tail -n 1
+   24* head -n 40 streets/Hart | tail -n 1
+   25  head -n 179 streets/Buckingham_Place | tail -n 1
+   26  cat interviews/interview-699607
+   27  cat interviews/interview-47246024
+   28  head vehicles
+   29  grep -A 6 "L337" vehicles
+   30  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt | "Jacqui Maher"
+   31  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt | grep -c "Jacqui Maher"
+   32  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt | grep -c "Jeremy Bowers"
+   33  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt | grep -c "Joe Germuska"
+   34  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt | grep -c "Jacqui Maher" | wc -l
+   35  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt | grep -c "Jeremy Bowers" | wc -l
+   36  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt | grep -c "Joe Germuska" | wc -l
+   37  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt | grep -c "Joe Germuska"
+   38  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt | grep "Joe Germuska" | wc -l
+   39  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt | grep "Jeremy Bowers" | wc -l
+   40* history
+   41* exit
+   42* cd Desktop/ga_sei/units/homework/command-line-murder-mystery/mystery
+   43* ls
+   44* head -n 40 streets/Hart_Place
+   45* head -n 40 streets/Hart_Place | tail -n 2
+   46  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep -c "Jacqui Maher"
+   47  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep -c "Jeremy Bowers"
+   48  grep -A 5 "L337" vehicles | grep -A 4 -B 1 "Make: Honda"
+   49  grep -A 5 "L337" vehicles | grep -A 4 -B 1 "Make: Honda" | grep -A 3 -B 2 "Color: Blue"
+   50  grep "Jacqui Maher" people
+   51  grep "Jeremy Bowers" people
+   52  head -n 284 streets/Dunstable_Road | tail -n 1
+   53  cat interviews/interview-9620713
+
+   The name of the killer is Jeremy Bowers.
