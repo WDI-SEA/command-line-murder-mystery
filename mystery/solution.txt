@@ -136,3 +136,13 @@ Jacqui Maher
 ➜  memberships git:(master) cd ..
 ➜  mystery git:(master)  grep "Jacqui Maher" people
 Jacqui Maher	F	40	Andover Road, line 224
+
+And finally
+
+➜  memberships git:(master) cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+4
+➜  memberships git:(master) cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska" 
+2
+
+
+So, only Jeremy has all 4 memberships. He is the killer.
