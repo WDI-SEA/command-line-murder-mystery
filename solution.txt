@@ -1,0 +1,17 @@
+Jeremy Bowers
+  889  cd memberships
+  890  ls
+  891  Cat Terminal_City_Library AAA Museum_of_Bash_History Delta_SkyMiles | grep Germuska
+  892  Cat Terminal_City_Library AAA Museum_of_Bash_History Delta_SkyMiles | grep Boyer
+  893  Cat Terminal_City_Library AAA Museum_of_Bash_History Delta_SkyMiles | grep Bowers
+  894  clear
+  895  cd ..
+  896  cd ..
+  897  cat instructions
+  898  ls
+  899  clear
+  900  echo "Jeremy Bowers"  > solution.txt
+  901  ls
+  902  cat solution
+  903  cat solution.txt
+  904  history | -n 60 >> solution.txt
