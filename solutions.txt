@@ -1,89 +1,72 @@
 cd command-line-murder-mystery
-  198  ls
-  199  open hint1
-  200  open hint2
-  201  open hint1
-  202  head -n 20 people 
-  203  cd command-line-murder-mystery
-  204  pwd
-  205  ls
-  206  cut instructions
-  207  cat instructions
-  208  cd mystery
-  209  ls
-  210  head -n 20 people
-  211  open hint2
-  212  cd ..
-  213  ls
-  214  open hint2
-  215  grep "clue" crimescene
-  216  cd mystery
-  217  ls
-  218  cd crimescene
-  219  grep "clue" crimescene
-  220  ls
-  221  cd crimescene
-  222  ls crimescene
-  223  grep "clue" crimescene
-  224  cd ..
-  225  ls
-  226  cd mystery
-  227  grep "CLUE" crimescene
-  228  cd ..
-  229  ls
-  230  open hint3
-  231  cd mystery
-  232  ls
-  233  grep "annabel" people
-  234  grep "Annabel" people
-  235  head -n 179 ./streets/Buckingham_Place
-  236  cat interview/interview-699607
-  237  cat interviews/interview-699607
-  238  cd..
-  239  cd ..
-  240  ls
-  241  open hint4
-  242  open hint5
-  243  open hint6
-  244  cd mystery
-  245  ls
-  246  grep "Honda" vehicles
-  247  grep "blue" vehicles
-  248  grep "Blue" vehicles
-  249  grep "L337" vehicles
-  250  cat vehicles | grep -A 5 "l337" > killer.txt
-  251  cat vehicles | grep -A 5 "337" > killer.txt
-  252  cat vehicles | grep -A 5 "l337" > killer.txt
-  253  cat vehicles | grep -A 5 "L337" > killer.txt
-  254  cat killer.txt
-  255  grep "Joe Germuska" people
-  256  head -n line 275 streets/Plainfield_street
-  257  head -n 275 streets/Plainfield_Street
-  258  cat intervies/interview-29741223
-  259  cat interviews/interview-29741223
-  260  grep "Jeremy Bowers" people
-  261  head -n line 284 streets/Dunstable_Road
-  262  head -n 284 streets/Dunstable_Road
-  263  cat intervies/interview-9620713
-  264  cat interviews/interview-9620713
-  265  cd ..
-  266  ls
-  267  open hint 8
-  268  open hint8
-  269  cd mystery
-  270  ls
-  271  cat AAA Delta_MileagePlus | grep "Jeremy Bowers" | wc -l
-  272  cat AAA Delta_SkyMiles | grep "Jeremy Bowers" | wc -l
-  273  cat AAA Delta_Skymiles | grep "Jeremy Bowers" | wc -l
-  274  cat AAA Delta_SkyMiles | grep "Jeremy Bowers"
-  275  ls
-  276  cd memberships
-  277  cat AAA Delta_SkyMiles | grep "Jeremy Bowers"
-  278  git add -A
-  279  git commit -m "killer homework"
-  280  git push
-  281  cd ..
-  282  ls
-  283  cd ..
-  284  ls
-  285  touch solutions.txt
+  940  ls
+  941  cat README.md
+  942  cat instructions
+  943  ls
+  944  cd mystery
+  945  ls
+  946  cat crimescene
+  947  cd ..
+  948  cat hint1
+  949  cd mystery
+  950  ls
+  951  cd interviews
+  952  ls
+  953  cd ..
+  954  cat people
+  955  head -n 20 people
+  956  ls
+  957  cd streets
+  958  ls
+  959  cd ..
+  960  ls
+  961  grep "CLUE" crimescene
+  962  ls
+  963  grep "Annabel" people
+  964  ls
+  965  cd interviews
+  966  ls
+  967  head -n line 179
+  968  head -n 179 line
+  969  head -n 179
+  970  history
+  971  cd Desktop
+  972  cd GA_SEI_30
+  973  cd unit1
+  974  cd lab
+  975  cd command-line-murder-mystery
+  976  ls
+  977  cd mystery
+  978  ls
+  979  head -n 179 ./streets/Buckingham_Place
+  980  cat interviews/interview-699607\n
+  981  cd ..
+  982  ls
+  983  cd mystery
+  984  ls
+  985  grep "L337" vehicles
+  986  \n
+  987  grep "Honda" vehicles
+  988  grep "Blue" vehicles
+  989  cat vehicles | grep -A 5 "L337" > killer.txt
+  990  ls
+  991  cat vehicles
+  992  greap grep "L337" vehicles
+  993  grep "L337" vehicles
+  994  \tgrep -A 5 "L337" mystery/vehicles\n
+  995  cat vehicles | grep 5 "L337"
+  996  grep "L337" people
+  997  ls
+  998  grep 
+  999  grep -A 5 "L337" mystery/vehicles
+ 1000  cat killer.txt
+ 1001  grep "Joe Germuska" people
+ 1002  ls
+ 1003  cd memberships
+ 1004  ls
+ 1005  cat Delta_SkyMiles
+ 1006  grep "Joe Germuska" Delta_SkyMiles
+ 1007  cat Delta_SkyMiles | grep "Joe Germuska"
+ 1008  cat Delta_SkyMiles | grep "Jeremy Bowers"
+ 1009  cat Delta_SkyMiles | grep "Jacqui Maher"
+ 1010  cat AAA Delta_SkyMiles | grep "Jeremy Bowers"
