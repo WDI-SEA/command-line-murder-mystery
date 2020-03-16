@@ -1,0 +1,55 @@
+Jeremy Bowers
+
+291  cd hint1
+  292  nano hint1
+  293  head -n 20 people
+  294  vim hint1
+  295  nano hint1
+  296  head -n 20 people
+  297  nano hint1
+  298  head
+  299  ls
+  300  cd mystery
+  301  ls
+  302  cd vehicles
+  303     grep "Honda" vehicles
+  304  head vehicles
+  305  nano vehicles
+  306  ls -a
+  307  cd streets
+  308  head -n 173 Mattapan_Street | tail -n 1
+  309  nano Mattapan_Street
+  310  nano Mattapan_Street
+  311  cd ..
+  312  ls
+  313  grep -x “Honda Blue L337” *
+  314  cd vehicles
+  315  nano vehicles
+  316  ls -a
+  317  cd .
+  318  cd ..
+  319  ls
+  320  hint6
+  321  nano hint6
+  322  nano hint7
+  323  nano hint8
+  324  nano instructions
+  325  nano hint1
+  326  nano hint9
+  327  nano hint7
+  328  nano instructions
+  329  cd interviews
+  330  nano interviews
+  331  ls
+  332  cd mystery
+  333  ls
+  334  nano interviews
+  335  cd interviews
+  336  ls
+  337  cd ..
+  338  ls
+  339  cd people
+  340  nano people
+  341  nano people
+  342  nano people
+
