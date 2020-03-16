@@ -1,0 +1,124 @@
+  438  git clone https://github.com/letsgitthisbreadd/command-line-murder-mystery.git
+  439  ls
+  440  cd command-line-murder-mystery
+  441  ls
+  442  cat instructions
+  443  cat cheatsheet.md
+  444  ls
+  445  cat instructions
+  446  ls
+  447  cd mystery
+  448  ls
+  449  cat crimescene
+  450  cd ..
+  451  cat instructions
+  452  cd mystery
+  453  cat crimescene | grep CLUE
+  454  cat crimescene | grep Annabel
+  455  ls
+  456  cat people
+  457  cat people | sort
+  458  cat people | Annabel
+  459  cat people | grep Annabel
+  460  ls
+  461  cat crimescene | grep CLUE
+  462  ls
+  463  cat memberships | grep AAA
+  464  cd memberships
+  465  ls
+  466  cat AAA
+  467  cat AAA | sort
+  468  cat AAA | grep Church
+  469  cat AAA | grep Sun
+  470  ls
+  471  cat delta.txt | grep Church
+  472  cat delta.txt | sort
+  473  cat delta.txt | Sun
+  474  cat delta.txt | grep Sun
+  475  cd ..
+  476  ls
+  477  cd interviews
+  478  ls
+  479  cd ..
+  480  cd ..
+  481  ls
+  482  cat hint1
+  483  cat hint2
+  484  cat hint3
+  485  cat hint4
+  486  ls
+  487  cd mystery
+  488  ls
+  489  cd people
+  490  cat people | grep Annabel
+  491  cd ..
+  492  ls
+  493  cat hint5
+  494  cd mystery
+  495  ls
+  496  cd streets
+  497  ls *173*
+  498  ls
+  499  cat Mattapan_Street
+  500  ls
+  501  cat Hart_Place | grep #
+  502  cat Mattapan_Street | grep #
+  503  cd ..
+  504  ls
+  505  cat interviews | grep #9437737
+  506  ls
+  507  cd interviews
+  508  ls
+  509  cat 9437737
+  510  cat interview-9437737
+  511  cat interview-47246024
+  512  cd ..
+  513  cd ..
+  514  cat hint6
+  515  cd mystery
+  516  cd streets
+  517  cat Buckingham_Place
+  518  cat Buckingham_Place | grep #
+  519  cd ..
+  520  ls
+  521  cd interviews
+  522  cat interview-699607
+  523  cd ..
+  524  ls
+  525  cd vehicles
+  526  cat vehicles | blue
+  527  cat vehicles | grep blue
+  528  cat vehicles | grep Honda
+  529  cat vehicles
+  530  cat vehicles | grep L337
+  531  cat vehicles | grep L3379
+  532  cat vehicles | grep blue
+  533  cat vehicles | grep L337 | grep Honda |\ncd ..
+  534  ls
+  535  cat hint6
+  536  cd mystery
+  537  cd vehicles
+  538  cat vehicles | grep Blue
+  539  cd ..
+  540  ls
+  541  cd vehicles
+  542  cd mystery
+  543  ls
+  544  cd ..
+  545  cat hint7
+  546  cd vehicles
+  547  cd mystery
+  548  cat vehicles | grep -A 5 "L337"
+  549  cd ..
+  550  cat hint8
+  551  cd mystery
+  552  ls
+  553  cd memberships
+  554  ls
+  555  cat AAA delta.txt library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  556  cat AAA delta.txt library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  557  history
+  558  history 0
+  559  history 438
+  560  echo history 438
+  561  echo
