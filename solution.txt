@@ -1,0 +1,51 @@
+Jeremy Bowers
+10053  cd command-line-murder-mystery
+10054  ls
+10055  cat instructions
+10056  ls
+10057  cd mystery
+10058  ls
+10059  cat crimescene
+10060  cat crimescene | grep CLUE
+10061  ls
+10062  cat people
+10063  cat people | grep Annabel
+10064  ls
+10065  cd streets
+10066  ls
+10067  cat Hart_Place
+10068  cat Hart_Place | head -n 40
+10069  cat Buckingham_Place | head -n 179
+10070  ..
+10071  ls
+10072  cd interviews
+10073  ls
+10074  cat interview-47246024
+10075  cat interview-699607
+10076  cd ..
+10077  ls
+10078  cat vehicles
+10079  cat vehicles | grep Honda
+10080  cat vehicles | grep Honda -A 4 -B 1
+10081  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue"
+10082  cat vehicles | grep Honda -A 4 -B 1 
+10083  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2
+10084  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5
+10085  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4
+10086  ls
+10087  cat people | grep Jacqui
+10088  cat people | grep Erika
+10089  cat people | grep Germuska
+10090  cat people | grep Bowers
+10091  ls
+10092  cd memberships
+10093  ls
+10094  cat Terminal_City_Library Museum_of_Bash_History Delta_SkyMiles AAA 
+10095  cat Terminal_City_Library Museum_of_Bash_History Delta_SkyMiles AAA | grep "Joe Germuska"
+10096  cat Terminal_City_Library Museum_of_Bash_History Delta_SkyMiles AAA | grep "Jeremy Bowers"
+10097  ..
+10098  cat instructions
+10099  cat README.md
+10100  echo "Jeremy Bowers" > solution.txt
+10101  ls
+10102  cat solution.txt
