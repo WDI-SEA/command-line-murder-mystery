@@ -1,0 +1,51 @@
+Jeremy Bowers
+  343  ls
+  344  cd ..
+  345  ls
+  346  cd sei30
+  347  ls
+  348  cd unit1
+  349  ls
+  350  cd labs
+  351  ls
+  352  cd command-line-murder-mystery
+  353  ls
+  354  cd mystery
+  355  history
+  356  cd ..
+  357  ls
+  358  cd mystery
+  359  ls
+  360  cat crimescene | grep CLUE
+  361  ls
+  362  cat people | grep Annabel
+  363  ls
+  364  cd streets
+  365  ls
+  366  cat hart_place | head -n 40
+  367  cat buckingham_place | head -n179
+  368  cd ..
+  369  ls
+  370  cd interviews
+  371  ls
+  372  cat interview-47246024
+  373  cat interview-699607
+  374  cd ..
+  375  ls
+  376  cat vehicles | grep honda
+  377  cat vehicles | grep Honda
+  378  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2
+  379  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5
+  380  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4
+  381  cat people | grep Jacqui
+  382  cat people | grep Erika
+  383  cat people | grep Germuska
+  384  cat people | grep Bowers
+  385  ls
+  386  cd memberships
+  387  ls
+  388  cat Terminal_City_Library Museu
+  389  cat Terminal_City_Library 
+  390  cat Terminal_City_Library Museum_of_Bash_History AAA
+  391  cd ..
+  392  ls
