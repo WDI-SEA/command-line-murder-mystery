@@ -1,0 +1,442 @@
+40  git clone https://github.com/spazevic/command-line-murder-mystery.git
+   41  git status
+   42  cd command-line-murder-mystery
+   43  ls
+   44  git cat instructions
+   45  cat cheatsheet.md
+   46  git -v
+   47  git log
+   48  ls
+   49  cd sei30
+   50  cd unit1
+   51  cd code-alongs/command-line-murder-mystery
+   52  ls
+   53  cat instructions
+   54  cat cheatsheet.md
+   55  cat instructions
+   56  claer
+   57  clear
+   58  cat instructions
+   59  ls
+   60  cd mystery
+   61  ls
+   62  cat crimescene
+   63  ls
+   64  cd interviews
+   65  ls
+   66  cd ..
+   67  ls
+   68  cd ..
+   69  ls
+   70  cat instructions
+   71  cd mystery
+   72  cat crimescene | grip CLUE
+   73  pwd
+   74  ls
+   75  cat crimescene | grep CLUE
+   76  ls
+   77  echo CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+
+"
+   78  echo "CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6.nCLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.nCLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent. > clues.txt
+   79  ls
+   80  cat clues.txt
+   81  cat crimescene | grep CLUE
+   82  ls
+   83  cat people | grep CLUE
+   84  cat people | grep
+   85  cat people
+   86  clear
+   87  ls
+   88  cat vehicles | grep CLUE
+   89  cd interviews
+   90  ls
+   91  cat interviews | grep CL
+   92  cat clues.txt
+   93  ls
+   94  cd ..
+   95  ls
+   96  cat clues.txt
+   97  cat people | grep Annabel
+   98  ls
+   99  echo Annabel SuntFt26tHart Place, line 40Annabel ChurchtFt38tBuckingham Place, line 179nAnnabel FuglsangtMt40tHaley Street, line 176n > suspects.txt
+  100  ls
+  101  cat clues.txt
+  102  ls
+  103  cd streets
+  104  ls
+  105  cd ..
+  106  cat clues.txt
+  107  cat people
+  108  clear
+  109  cat people | head
+  110  cat people | head -n 20
+  111  cat clues.txt
+  112  cat suspects.txt
+  113  ls
+  114  cat vehicles | head
+  115  cat vehicles | grep Annabel
+  116  cat vehicles | head -n 20
+  117  ls
+  118  clues.txt
+  119  ls
+  120  cat suspects.txt
+  121  ls
+  122  cd streets
+  123  ls
+  124  cd ..
+  125  cat streets/ | grep Hart
+  126  cd streets
+  127  cd ..
+  128  head -n 173 streets/Mattapan_Street | tail -n 1
+  129  head -n 173 streets/Hart | tail -n1
+  130  cat suspects.txt
+  131  head -n 173 streets/Hart Place | tail -n1
+  132  head -n 173 streets/Hart Place | tail -n1ls
+  133  ls
+  134  head -n 173 streets/Buckingham Palace | tail -n1ls
+  135  head -n 173 streets/Buckingham_Palace | tail -n1ls
+  136  head -n 173 streets/Hart Place | tail -n1
+  137  head -n 173 streets/Hart_Place | tail -n1
+  138  head -n 173 streets/Buckingham_Palace | tail -n1
+  139  head -n 173 streets/Mattapan_Street | tail -n 1
+  140  head -n 173 streets/Hart_Place | tail -n 1
+  141  head -n 173 streets/Buckingham_Palace | tail -n 1
+  142  cat suspects.txt
+  143  head -n 173 streets/Mattapan_Street | tail -n 1
+  144  head streets/Hart_Place
+  145  head -n 1 streets/Hart_Place
+  146  head -n 1 streets/Hart_Place | tail -n 1
+  147  ls
+  148  cat streets/Hart_Place
+  149  cat streets/Hart_Place | grep CLUE
+  150  cat streets/Hart_Place | grep Anna
+  151  cat streets/Hart_Place
+  152  cat streets/Hart_Place | grep interview
+  153  cat streets/Buckingham_Palace | grep interview
+  154  cat streets/Buckingham_Palace
+  155  cat people | grep Annabel
+  156  cat streets/Buckingham_Place
+  157  cat streets/Buckingham_Place | grep inter
+  158  cat streets/Buckingham_Place | grep interview
+  159  cat streets/Buckingham_Place
+  160  cat streets/Buckingham_Place | grep interview
+  161  cat streets/Buckingham_Place | grep
+  162  cat streets/Buckingham_Palace
+  163  cat people | grep Annabel
+  164  head -n 179 streets/Buckingham_Palace 
+  165  cat streets/Buckingham_Palace 
+  166  cat streets/Buckingham_Place
+  167  head -n 179 streets/Buckingham_Place
+  168  cat people | grep Annabel
+  169  head -n 40 streets/Hart_Place
+  170  head -n 179 streets/Buckingham_Place
+  171  ls
+  172  cd interviews
+  173  ls
+  174  cat interview-699607
+  175  cat interview-47246024
+  176  cd
+  177  cd sei30
+  178  cd unit1
+  179  cd code-alongs
+  180  cd command-line-murder-mystery
+  181  cd mystery
+  182  ls
+  183  cat vehicles
+  184  cat License Plate | grep L337
+  185  ls
+  186  cat vehicles
+  187  cat vehicles | grep L337
+  188  cat vehicles | grep L337 | head -n 5 | tail -n 5
+  189  cat vehicles | grep L337 | head -n 5
+  190  cat vehicles | grep L337
+  191  cat vehicles | grep L337| tail
+  192  cat vehicles | grep L337
+  193  ls
+  194  cat vehicles | grep Blue
+  195  cat vehicles | grep Blue| grep Honda
+  196  cat vehicles
+  197  head -n 5 cat vehicles | grep Blue
+  198  cat vehicles
+  199  grep -A 5 L337 mystery/vehicles
+  200  ls
+  201  grep -A 5 L337 vehicles
+  202  ls
+  203  cat clues.txt
+  204  cd memberships/ls
+  205  ls
+  206  cd memberships
+  207  ls
+  208  cd AAA | grep Erika
+  209  cat AAA | grep Aron
+  210  cat AAA | grep Joe
+  211  cat AAA | grep Jeremy
+  212  cat AAA | grep Jac
+  213  cat clues.txt
+  214  cat Delta_Sky_Miles | grep Jac
+  215  cat Delta_SkyMiles | grep Jac
+  216  cat Delta_SkyMiles | grep Joe
+  217  cat Delta_SkyMiles | grep Jeremy
+  218  cat Muesuem_of_Bash_History | grep jeremy
+  219  cat Musuem_of_Bash_History | grep jeremy
+  220  cat Museum_of_Bash_History | grep jeremy
+  221  cat Museum_of_Bash_History | grep jac
+  222  cat Museum_of_Bash_History | grep joe
+  223  cat library.txt | grep Jeremy
+  224  cat library.txt | grep Jacq
+  225  cat Museum_of_Bash_History | grep jac
+  226  cat library.txt | grep joe
+  227  cat Museum_of_Bash_History | grep joe
+  228  cat Museum_of_Bash_History | grep jacqu
+  229  cat Museum_of_Bash_History | grep jeremy
+  230  cat Museum_of_Bash_History
+  231  clear
+  232  cat Museum_of_Bash_History | grep jeremy
+  233  cat Museum_of_Bash_History | grep aron
+  234  cat Museum_of_Bash_History | grep jeremy
+  235  ls
+  236  pwd
+  237  cd ..
+  238  ls
+  239  cat clues.txt
+  240  ls
+  241  history
+  242  ls
+  243  cd memberships
+  244  ls
+  245  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Joe
+  246  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Joe Germ
+  247  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy B
+  248  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy 
+  249  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy Bowers
+  250  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jacqui
+  251  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Germus
+  252  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy Bowlins
+  253  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jacqui
+  254  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jacqui Mahar
+  255  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c  Jeremy Bowlins
+  256  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c  Jeremy
+  257  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c  Jacqui
+40  git clone https://github.com/spazevic/command-line-murder-mystery.git
+   41  git status
+   42  cd command-line-murder-mystery
+   43  ls
+   44  git cat instructions
+   45  cat cheatsheet.md
+   46  git -v
+   47  git log
+   48  ls
+   49  cd sei30
+   50  cd unit1
+   51  cd code-alongs/command-line-murder-mystery
+   52  ls
+   53  cat instructions
+   54  cat cheatsheet.md
+   55  cat instructions
+   56  claer
+   57  clear
+   58  cat instructions
+   59  ls
+   60  cd mystery
+   61  ls
+   62  cat crimescene
+   63  ls
+   64  cd interviews
+   65  ls
+   66  cd ..
+   67  ls
+   68  cd ..
+   69  ls
+   70  cat instructions
+   71  cd mystery
+   72  cat crimescene | grip CLUE
+   73  pwd
+   74  ls
+   75  cat crimescene | grep CLUE
+   76  ls
+   77  echo CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+
+"
+   78  echo "CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6.nCLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.nCLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent. > clues.txt
+   79  ls
+   80  cat clues.txt
+   81  cat crimescene | grep CLUE
+   82  ls
+   83  cat people | grep CLUE
+   84  cat people | grep
+   85  cat people
+   86  clear
+   87  ls
+   88  cat vehicles | grep CLUE
+   89  cd interviews
+   90  ls
+   91  cat interviews | grep CL
+   92  cat clues.txt
+   93  ls
+   94  cd ..
+   95  ls
+   96  cat clues.txt
+   97  cat people | grep Annabel
+   98  ls
+   99  echo Annabel SuntFt26tHart Place, line 40Annabel ChurchtFt38tBuckingham Place, line 179nAnnabel FuglsangtMt40tHaley Street, line 176n > suspects.txt
+  100  ls
+  101  cat clues.txt
+  102  ls
+  103  cd streets
+  104  ls
+  105  cd ..
+  106  cat clues.txt
+  107  cat people
+  108  clear
+  109  cat people | head
+  110  cat people | head -n 20
+  111  cat clues.txt
+  112  cat suspects.txt
+  113  ls
+  114  cat vehicles | head
+  115  cat vehicles | grep Annabel
+  116  cat vehicles | head -n 20
+  117  ls
+  118  clues.txt
+  119  ls
+  120  cat suspects.txt
+  121  ls
+  122  cd streets
+  123  ls
+  124  cd ..
+  125  cat streets/ | grep Hart
+  126  cd streets
+  127  cd ..
+  128  head -n 173 streets/Mattapan_Street | tail -n 1
+  129  head -n 173 streets/Hart | tail -n1
+  130  cat suspects.txt
+  131  head -n 173 streets/Hart Place | tail -n1
+  132  head -n 173 streets/Hart Place | tail -n1ls
+  133  ls
+  134  head -n 173 streets/Buckingham Palace | tail -n1ls
+  135  head -n 173 streets/Buckingham_Palace | tail -n1ls
+  136  head -n 173 streets/Hart Place | tail -n1
+  137  head -n 173 streets/Hart_Place | tail -n1
+  138  head -n 173 streets/Buckingham_Palace | tail -n1
+  139  head -n 173 streets/Mattapan_Street | tail -n 1
+  140  head -n 173 streets/Hart_Place | tail -n 1
+  141  head -n 173 streets/Buckingham_Palace | tail -n 1
+  142  cat suspects.txt
+  143  head -n 173 streets/Mattapan_Street | tail -n 1
+  144  head streets/Hart_Place
+  145  head -n 1 streets/Hart_Place
+  146  head -n 1 streets/Hart_Place | tail -n 1
+  147  ls
+  148  cat streets/Hart_Place
+  149  cat streets/Hart_Place | grep CLUE
+  150  cat streets/Hart_Place | grep Anna
+  151  cat streets/Hart_Place
+  152  cat streets/Hart_Place | grep interview
+  153  cat streets/Buckingham_Palace | grep interview
+  154  cat streets/Buckingham_Palace
+  155  cat people | grep Annabel
+  156  cat streets/Buckingham_Place
+  157  cat streets/Buckingham_Place | grep inter
+  158  cat streets/Buckingham_Place | grep interview
+  159  cat streets/Buckingham_Place
+  160  cat streets/Buckingham_Place | grep interview
+  161  cat streets/Buckingham_Place | grep
+  162  cat streets/Buckingham_Palace
+  163  cat people | grep Annabel
+  164  head -n 179 streets/Buckingham_Palace 
+  165  cat streets/Buckingham_Palace 
+  166  cat streets/Buckingham_Place
+  167  head -n 179 streets/Buckingham_Place
+  168  cat people | grep Annabel
+  169  head -n 40 streets/Hart_Place
+  170  head -n 179 streets/Buckingham_Place
+  171  ls
+  172  cd interviews
+  173  ls
+  174  cat interview-699607
+  175  cat interview-47246024
+  176  cd
+  177  cd sei30
+  178  cd unit1
+  179  cd code-alongs
+  180  cd command-line-murder-mystery
+  181  cd mystery
+  182  ls
+  183  cat vehicles
+  184  cat License Plate | grep L337
+  185  ls
+  186  cat vehicles
+  187  cat vehicles | grep L337
+  188  cat vehicles | grep L337 | head -n 5 | tail -n 5
+  189  cat vehicles | grep L337 | head -n 5
+  190  cat vehicles | grep L337
+  191  cat vehicles | grep L337| tail
+  192  cat vehicles | grep L337
+  193  ls
+  194  cat vehicles | grep Blue
+  195  cat vehicles | grep Blue| grep Honda
+  196  cat vehicles
+  197  head -n 5 cat vehicles | grep Blue
+  198  cat vehicles
+  199  grep -A 5 L337 mystery/vehicles
+  200  ls
+  201  grep -A 5 L337 vehicles
+  202  ls
+  203  cat clues.txt
+  204  cd memberships/ls
+  205  ls
+  206  cd memberships
+  207  ls
+  208  cd AAA | grep Erika
+  209  cat AAA | grep Aron
+  210  cat AAA | grep Joe
+  211  cat AAA | grep Jeremy
+  212  cat AAA | grep Jac
+  213  cat clues.txt
+  214  cat Delta_Sky_Miles | grep Jac
+  215  cat Delta_SkyMiles | grep Jac
+  216  cat Delta_SkyMiles | grep Joe
+  217  cat Delta_SkyMiles | grep Jeremy
+  218  cat Muesuem_of_Bash_History | grep jeremy
+  219  cat Musuem_of_Bash_History | grep jeremy
+  220  cat Museum_of_Bash_History | grep jeremy
+  221  cat Museum_of_Bash_History | grep jac
+  222  cat Museum_of_Bash_History | grep joe
+  223  cat library.txt | grep Jeremy
+  224  cat library.txt | grep Jacq
+  225  cat Museum_of_Bash_History | grep jac
+  226  cat library.txt | grep joe
+  227  cat Museum_of_Bash_History | grep joe
+  228  cat Museum_of_Bash_History | grep jacqu
+  229  cat Museum_of_Bash_History | grep jeremy
+  230  cat Museum_of_Bash_History
+  231  clear
+  232  cat Museum_of_Bash_History | grep jeremy
+  233  cat Museum_of_Bash_History | grep aron
+  234  cat Museum_of_Bash_History | grep jeremy
+  235  ls
+  236  pwd
+  237  cd ..
+  238  ls
+  239  cat clues.txt
+  240  ls
+  241  history
+  242  ls
+  243  cd memberships
+  244  ls
+  245  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Joe
+  246  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Joe Germ
+  247  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy B
+  248  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy 
+  249  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy Bowers
+  250  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jacqui
+  251  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Germus
+  252  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy Bowlins
+  253  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jacqui
+  254  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jacqui Mahar
+  255  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c  Jeremy Bowlins
+  256  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c  Jeremy
+  257  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c  Jacqui
