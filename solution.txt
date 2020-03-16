@@ -1,0 +1,51 @@
+Jeremy Bowers
+  433  grep "Hart" *
+  434  tail -n +40 Hart_Place 
+  435  head -n +40 Hart_Place 
+  436  ls
+  437  cd ..
+  438  cd mystery
+  439  cd .
+  440  ls
+  441  cd interviews | grep "47246024" *
+  442  cd interviews
+  443  grep "47246024"
+  444  cd Documents/General\ Assembly/unit1/command-line-murder-mystery
+  445  ls
+  446  cat instructions
+  447  cd mystery
+  448  cat crimescene | grep "CLUE"
+  449  cat people | grep "Annabel"
+  450  cd streets 
+  451  cat Hart_Place |head -n 40
+  452  cd ..
+  453  cd interviews
+  454  cat interview-47246024
+  455  cd ..
+  456  cd streets
+  457  head -n 40 Buckingham_Place
+  458  head -n 179 Buckingham_Place
+  459  cd .
+  460  cd..
+  461  cd ../interviews
+  462  cat interview-699607
+  463  cd ..
+  464  ls
+  465  cat vehicles | grep Honda -a 4 -b 1
+  466  cat vehicles | grep Honda -A 4 -B 1 | "Color: Blue" -A 3 -B 2
+  467  cat vehicles | grep Honda -A 4 -B 1 |grep "Color: Blue" -A 3 -B 2
+  468  cat vehicles | grep Honda -A 4 -B 1 |grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6"
+  469  cat vehicles | grep Honda -A 4 -B 1 |grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4
+  470  cat people | grep Jacqui
+  471  cat people | grep Erika
+  472  cat people | grep Germuska
+  473  cat people | grep Bowers
+  474  cd memberships
+  475  ls
+  476  cat Terminal_City_Library Museum_of_Bash_History Delta_SkyMiles AAA | grep "Joe Germuska"
+  477  cat Terminal_City_Library Museum_of_Bash_History Delta_SkyMiles AAA | grep "Jeremy Bowers"
+  478  ..
+  479  ls
+  480  echo "Jeremy Bowers" > solution.txt
+  481  ls
+  482  cat solution.txt
