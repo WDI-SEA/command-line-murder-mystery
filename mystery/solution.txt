@@ -122,3 +122,17 @@ Costco                  Rotary_Club             library.txt
 Jeremy Bowers
 Jeremy Bowers
 Jeremy Bowers
+
+There is another person who matches the following criteria but she is a female:
+
+memberships git:(master) cat Delta_SkyMiles AAA Museum_of_Bash_History | grep -c "Jacqui Maher" 
+3
+➜  memberships git:(master) cat Delta_SkyMiles AAA Museum_of_Bash_History | grep -c "Jacqui Maher"
+3
+➜  memberships git:(master) cat Delta_SkyMiles AAA Museum_of_Bash_History | grep  "Jacqui Maher" 
+Jacqui Maher
+Jacqui Maher
+Jacqui Maher
+➜  memberships git:(master) cd ..
+➜  mystery git:(master)  grep "Jacqui Maher" people
+Jacqui Maher	F	40	Andover Road, line 224
