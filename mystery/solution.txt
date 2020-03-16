@@ -1,0 +1,124 @@
+  144  cd command-line-murder-mystery
+  145  ls
+  146  cd ..
+  147  ls
+  148  cd command-line-murder-mystery
+  149  ls
+  150  cd mystery
+  151  ls
+  152  cat crimescene
+  153  ls
+  154  cat crimescene | grep CLUE
+  155  cat crimescene | grep CLUE > officer
+  156  cat officer
+  157  cat hint 1
+  158  cat hint1
+  159  ls
+  160  cd ..
+  161  ls
+  162  cd mystery
+  163  ls
+  164  head -n 20 people
+  165  cat officer
+  166  grep "Annabel" people
+  167  head -n 20 vehicle
+  168  head -n 20 vehicles
+  169  cat officer
+  170  ls
+  171  cd interviews
+  172  head -n 173 streets/Mattapan_Street | tail -n 1
+  173  ls
+  174  cd ..
+  175  grep "Annabel" people
+  176  head -n 173 streets/Mattapan_Street | tail -n 1
+  177  cd intrviews
+  178  cd interviews
+  179  ls
+  180  cat interview-9437737
+  181  open interview-9437737
+  182  ls
+  183  cd ..
+  184  ls
+  185  cd streets
+  186  ls
+  187  head -n 173 streets/Mattapan_Street | tail -n 1
+  188  cat Mattapan_Street
+  189  l
+  190  ls
+  191  cd ..
+  192  head -n 173 streets/Mattapan_Street | tail -n 1
+  193  ls
+  194  grep "Honda" vehicles
+  195  grep "Honda" vehicles | head -n 10
+  196  grep "blue" vehicles | head -n 10
+  197  grep -A 5 "L337" mystery/vehicles
+  198  ls
+  199  cd vehicles
+  200  ls
+  201  grep -A 5 "L337" vehicles
+  202  cd ..
+  203  ls
+  204  cat hint5
+  205  cd mystery
+  206  ls
+  207  grep "Annabel" people
+  208  head -n 176 streets/Haley Street | tail -n 1
+  209  head -n 176 streets/Haley_Street | tail -n 1
+  210  cat interview_871877
+  211  cat interview-871877
+  212  ls
+  213  cd interviews
+  214  cat interview-871877
+  215  cd..
+  216  ls
+  217  cd ..
+  218  ls
+  219  grep "Annabel" people
+  220  head -n 40 streets/Hart_Place | tail -n 1
+  221  cat interviews/interview_47246024
+  222  ls
+  223  cd interviews
+  224  cat interview_47246024
+  225  cat interview-47246024
+  226  head -n 179 streets/Buckingham_Place | tail -n 1
+  227  cd ..
+  228  head -n 179 streets/Buckingham_Place | tail -n 1
+  229  cd interviews
+  230  cat interview-699607
+  231  grep "Annabel" people
+  232  cd ..
+  233  grep "Annabel" people
+  234  grep "L337" vehicles
+  235  grep -A 5 "L337" mystery/vehicles
+  236  grep -A 5 "L337" vehicles
+  237  ls
+  238  cat officer
+  239  grep -A 5 "L337" vehicles
+  240  cat officer
+  241  ls
+  242  cd memberships
+  243  ls
+  244  cat Delta_SkyMiles AAA Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  245  cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Jeremy Bowers"
+  246  cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Joe Germuska"
+  247  cat officer
+  248  cd ..
+  249  ls
+
+
+Killer is Jeremy Bowers.
+
+Proof:
+
+memberships git:(master) ✗ ls
+1.txt                   Delta_SkyMiles          TCSU_Alumni_Association museum.txt
+2.txt                   Fitness_Galaxy          Terminal_City_Library   newfile.txt
+AAA                     Museum_of_Bash_History  United_MileagePlus
+AAdvantage              REI                     delta.txt
+Costco                  Rotary_Club             library.txt
+➜  memberships git:(master) ✗ cat Delta_SkyMiles AAA Museum_of_Bash_History | grep -c "Jeremy Bowers"
+3
+➜  memberships git:(master) ✗ cat Delta_SkyMiles AAA Museum_of_Bash_History | grep  "Jeremy Bowers" 
+Jeremy Bowers
+Jeremy Bowers
+Jeremy Bowers
