@@ -1,0 +1,51 @@
+Jeremy Bower
+  166  cd mystery 
+  167  cd..
+  168  cat instructions
+  169  cd ..
+  170  cat instructions
+  171  ls
+  172  cd mystery 
+  173  ls
+  174  cat crimescene 
+  175  cat crimescene | grep CLUE
+  176  ls 
+  177  cat people 
+  178  cat people | grep Annabel 
+  179  ls
+  180  cd streets
+  181  ls
+  182  cat Hart_Place 
+  183  cat Hart_Place | head -n 40
+  184  cat Hart_Place | head -n 179
+  185  cat Buckingham_Place | head -n 179
+  186  .. 
+  187  ls
+  188  cd interveiws
+  189  cd interviews
+  190  cat interview-47246924
+  191  at interview-47246024
+  192  Cat interview-47246024
+  193  cat interview-699607
+  194  cd ..
+  195  cat vehicles 
+  196  cat vehicles | grep Honda
+  197  cat vehicles | grep Honda -A 4 -B 1
+  198  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue"
+  199  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2
+  200  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 
+  201  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6"
+  202  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 4 -B 1
+  203  ls
+  204  cat people | grep Jacqui
+  205  cat people | grep Erika
+  206  cat people | grep Germuska
+  207  cat people | grep Bowers
+  208  cd memberships
+  209  ls
+  210  cat Terminal_City_Library Museum_of_Bash_History Delta_SkyMiles AAA
+  211  cat Terminal_City_Library Museum_of_Bash_History Delta_SkyMiles AAA | grep "Joe Germuska"
+  212  cat Terminal_City_Library Museum_of_Bash_History Delta_SkyMiles AAA | grep "Jeremy Bowers"
+  213  echo "Jeremy Bower" > solution.txt
+  214  ls 
+  215  cat solution.txt
