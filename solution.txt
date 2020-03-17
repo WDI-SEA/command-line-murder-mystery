@@ -1,15 +1,4 @@
 Jeremy Bowers
-  433  grep "Hart" *
-  434  tail -n +40 Hart_Place 
-  435  head -n +40 Hart_Place 
-  436  ls
-  437  cd ..
-  438  cd mystery
-  439  cd .
-  440  ls
-  441  cd interviews | grep "47246024" *
-  442  cd interviews
-  443  grep "47246024"
   444  cd Documents/General\ Assembly/unit1/command-line-murder-mystery
   445  ls
   446  cat instructions
