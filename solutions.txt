@@ -1,0 +1,17 @@
+Jeremy Bowers
+ 264  cat people | grep Erika
+  265  cat people | grep Germuska
+  266  cat people | grep Bowers
+  267  ls
+  268  cd memberships
+  269  ls
+  270  cat Terminal_City_Library AAA Delta_SkyMiles
+  271  echo Jeremy Bowers > solutions.txt
+  272  ls
+  273  cd ..
+  274  ls
+  275  cd ..
+  276  ls
+  277  echo Jeremy Bowers > solutions.txt
+  278  ls
+  279  cat solutions.txt
