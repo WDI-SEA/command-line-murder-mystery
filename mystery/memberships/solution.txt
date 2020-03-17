@@ -1,0 +1,155 @@
+  512  cat streets
+  513  cd streets
+  514  ls
+  515  cat Hart_Place
+  516  cd ..
+  517  ls
+  518  cd interviews
+  519  ls
+  520  cat interview-47246024
+  521  cd ..
+  522  cd streets
+  523  ls
+  524  cat Buckingham_Place
+  525  cd ..
+  526  ls
+  527  cd interview
+  528  cd interviews
+  529  cat interview-699607
+  530  cd ..
+  531  ls
+  532  cd vehicles
+  533  cat vehicles 
+  534  cat vehicles | grep Honda
+  535  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue"
+  536  cat vehicles | grep Honda -A 4 -B 1
+  537  cat vehicles | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4
+  538  cat vehicles | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4 | grep L337 -A 5
+  539  LS
+  540  cd memberships
+  541  ls
+  542  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History 
+  543  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Park
+  544  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Bostock
+  545  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Owens
+  546  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep OwensGermuska
+  547  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Park
+  548  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Bostock
+  549  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History |clear
+  550  cd ..
+  551  ls
+  552  cat vehicles | grep Honda -A 1 -B 4
+  553  clear
+  554  cat vehicles | grep Honda
+  555  cat vehicles | grep Honda -A 4 -B 1
+  556  cat vehicles
+  557  cat vehicles | grep Honda -B 1 -A 4 | grep "Height: 6" -B 4 -A 1
+  558  cat vehicles | grep Honda -B 1 -A 4 | grep "Height: 6" -B 4 -A 1 | grep "Color: Blue" -B 2 -A 3
+  559  cat vehicles | grep Honda -B 1 -A 4 | grep "Height: 6" -B 4 -A 1 | grep "Color: Blue" -B 2 -A 3 | grep L337 -A 5
+  560  ls
+  561  cd memberships
+  562  ls
+  563  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Owens
+  564  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Germuska
+  565  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Bowers
+  566  history | tail -n 55 >> solution.txt
+  520  cat interview-47246024
+  521  cd ..
+  522  cd streets
+  523  ls
+  524  cat Buckingham_Place
+  525  cd ..
+  526  ls
+  527  cd interview
+  528  cd interviews
+  529  cat interview-699607
+  530  cd ..
+  531  ls
+  532  cd vehicles
+  533  cat vehicles 
+  534  cat vehicles | grep Honda
+  535  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue"
+  536  cat vehicles | grep Honda -A 4 -B 1
+  537  cat vehicles | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4
+  538  cat vehicles | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4 | grep L337 -A 5
+  539  LS
+  540  cd memberships
+  541  ls
+  542  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History 
+  543  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Park
+  544  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Bostock
+  545  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Owens
+  546  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep OwensGermuska
+  547  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Park
+  548  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Bostock
+  549  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History |clear
+  550  cd ..
+  551  ls
+  552  cat vehicles | grep Honda -A 1 -B 4
+  553  clear
+  554  cat vehicles | grep Honda
+  555  cat vehicles | grep Honda -A 4 -B 1
+  556  cat vehicles
+  557  cat vehicles | grep Honda -B 1 -A 4 | grep "Height: 6" -B 4 -A 1
+  558  cat vehicles | grep Honda -B 1 -A 4 | grep "Height: 6" -B 4 -A 1 | grep "Color: Blue" -B 2 -A 3
+  559  cat vehicles | grep Honda -B 1 -A 4 | grep "Height: 6" -B 4 -A 1 | grep "Color: Blue" -B 2 -A 3 | grep L337 -A 5
+  560  ls
+  561  cd memberships
+  562  ls
+  563  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Owens
+  564  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Germuska
+  565  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Bowers
+  566  history | tail -n 55 >> solution.txt
+  567  history
+  568  history | tail -N 50 >> solution.txt
+  569  history | tail -n 50 >> solution.txt
+  524  cat Buckingham_Place
+  525  cd ..
+  526  ls
+  527  cd interview
+  528  cd interviews
+  529  cat interview-699607
+  530  cd ..
+  531  ls
+  532  cd vehicles
+  533  cat vehicles 
+  534  cat vehicles | grep Honda
+  535  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue"
+  536  cat vehicles | grep Honda -A 4 -B 1
+  537  cat vehicles | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4
+  538  cat vehicles | grep Honda -A 4 -B 1 | grep "Height: 6" -A 1 -B 4 | grep L337 -A 5
+  539  LS
+  540  cd memberships
+  541  ls
+  542  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History 
+  543  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Park
+  544  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Bostock
+  545  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Owens
+  546  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep OwensGermuska
+  547  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Park
+  548  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Bostock
+  549  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History |clear
+  550  cd ..
+  551  ls
+  552  cat vehicles | grep Honda -A 1 -B 4
+  553  clear
+  554  cat vehicles | grep Honda
+  555  cat vehicles | grep Honda -A 4 -B 1
+  556  cat vehicles
+  557  cat vehicles | grep Honda -B 1 -A 4 | grep "Height: 6" -B 4 -A 1
+  558  cat vehicles | grep Honda -B 1 -A 4 | grep "Height: 6" -B 4 -A 1 | grep "Color: Blue" -B 2 -A 3
+  559  cat vehicles | grep Honda -B 1 -A 4 | grep "Height: 6" -B 4 -A 1 | grep "Color: Blue" -B 2 -A 3 | grep L337 -A 5
+  560  ls
+  561  cd memberships
+  562  ls
+  563  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Owens
+  564  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Germuska
+  565  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Bowers
+  566  history | tail -n 55 >> solution.txt
+  567  history
+  568  history | tail -N 50 >> solution.txt
+  569  history | tail -n 50 >> solution.txt
+  570  history tail
+  571  history tail -n 50 >> solution.txt
+  572  history tail -n 50 >> solution.txt
+  573  history | tail -n 50 >> solution.txt
