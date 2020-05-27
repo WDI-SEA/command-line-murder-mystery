@@ -1,0 +1,172 @@
+86  cd command-line-murder-mystery
+   87  ;s
+   88  ls
+   89  cat README.md
+   90  cat instructions
+   91  cat cheatsheet.md
+   92  open cheatsheet.md
+   93  cat instructions
+   94  cd mystery
+   95  ls
+   96  cd crimescene
+   97  cat crimescene
+   98  open crimescene
+   99  head -n 50 crimescene
+  100  cat crimescene
+  101  head -n 75 crimescene
+  102  head -n 100 crimescene
+  103  head -n 125 crimescene
+  104  head -n 150 crimescene
+  105  head -n 175 crimescene
+  106  head -n 200 crimescene
+  107  head -n 225 crimescene
+  108  head -n 250 crimescene
+  109  head -n 275 crimescene
+  110  head -n 300 crimescene
+  111  head -n 325 crimescene
+  112  head -n 350 crimescene
+  113  head -n 375 crimescene
+  114  head -n 400 crimescene
+  115  head -n 425 crimescene
+  116  cat crimescene | grep "CLUE"
+  117  ls
+  118  ls -a
+  119  cat interviews
+  120  cd interviews
+  121  ls
+  122  cd .
+  123  cd ..
+  124  ls
+  125  cat hint1
+  126  cat hint2
+  127  cat hint3
+  128  cat hint4
+  129  cat hint5
+  130  cd mystery
+  131  ls
+  132  cd memberships
+  133  ls
+  134  cat AAA
+  135  ls
+  136  cat Delta_SkyMiles
+  137  ls
+  138  cat Museum_of_Bash_History
+  139  ls
+  140  cd ..
+  141  ls
+  142  cat hint6
+  143  cat hint1
+  144  cd mystery
+  145  ls
+  146  cat people
+  147  ls
+  148  greb "Annabel" people
+  149  cat people | greb "Annabel"
+  150  grep "Annabel" people
+  151  ls
+  152  cd ..
+  153  ls
+  154  cat hint7
+  155  cat hint2
+  156  cat hint3
+  157  ls
+  158  cd mystery
+  159  cat crimescene | grep "CLUE"
+  160  ls
+  161  cd streets
+  162  ls
+  163  cd ..
+  164  ls
+  165  cd memberships
+  166  ls
+  167  cat AAA | grep "Annabel"
+  168  cat Delta_SkyMiles | grep "Annabel"
+  169  cat library.txt | grep "Annabel"
+  170  cat Terminal_City_Library | grep "Annabel"
+  171  cat Museum_of_Bash_History | grep "Annabel"
+  172  cd ..
+  173  ls
+  174  cd interviews
+  175  cd ..
+  176  grep "Annabel" interviews
+  177  cd interviews
+  178  grep Annabel *
+  179  man grep
+  180  cd ..
+  181  ls
+  182  streets
+  183  cd interviews
+  184  cd ..
+  185  ls
+  186  cat people | grep "Annabel"
+  187  cd streets
+  188  ls
+  189  cat Buckingham_Place
+  190  cat Buckingham_Place | grep "Annabel"
+  191  cat Buckingham_Place | grep "New Zealand"
+  192  ;s
+  193  ls
+  194  cd ..
+  195  ls
+  196  cat people | grep "Annabel"
+  197  cd streets
+  198  cat Hart_Place
+  199  cd ..
+  200  ls
+  201  hint 4
+  202  cat hint4
+  203  cat hint3
+  204  cat hint5
+  205  cd mystery
+  206  cd streets
+  207  cd ..
+  208  head -n 173 streets/Buckingham_Place | tail -n 1
+  209  grep "Annabel" people
+  210  head -n 179 streets/Buckingham_Place | tail -n 1
+  211  cd interviews
+  212  ls
+  213  cat interview-699607
+  214  cd ..
+  215  ls
+  216  cat vehicles | grep "L337"
+  217  ls
+  218  cat vehicles | grep "Honda"
+  219  cat vehicles | grep "Honda" | grep "L337"
+  220  pwd
+  221  grep Honda /Users/devin/Desktop/seir526/homeworks/command-line-murder-mystery/mystery/vehicles | grep L337
+  222  cd ..
+  223  ls
+  224  cat hint6
+  225  cd mystery
+  226  head -n 50 vehicles
+  227  cd ..
+  228  ls
+  229  cat hint7
+  230  grep -A 5 "L337" mystery/vehicles
+  231  mystery
+  232  ls
+  233  cd memberships
+  234  ls
+  235  cat AAA | grep "Joe Germuska"
+  236  cat Delta_SkyMiles | grep "Joe Germuska"
+  237  cat AAA | grep "Jeremy Bowers"
+  238  cat Delta_SkyMiles | grep "Jeremy Bowers"
+  239  cat Terminal_City_Library | grep "Jeremy Bowers"
+  240  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  241  cat Museum_of_Bash_History | grep "Jacqui Maher"
+  242  cat Terminal_City_Library | grep "Jacqui Maher"
+  243  cat Delta_SkyMiles | grep 
+  244  cat Delta_SkyMiles | grep "Jacqui Maher"
+  245  cat AAA | grep "Jacqui Maher"
+  246  cd ..
+  247  ls
+  248  cat hint7
+  249  cat hint8
+  250  cd mystery
+  251  cat people | grep "Jacqui Maher"
+  252  ls
+  253  cd ..
+  254  ls
+  255  cat instructions
+
+Killer: Jeremy Bowers
