@@ -1,0 +1,148 @@
+  147  echo history >> history.txt
+  146  history
+  145  ls
+  144  touch history.txt
+  143  cd ..
+  142  ls
+  141  cat vehicles | grep -A 10 "Waite"
+  140  cat vehicles | grep -A 5 "Waite"
+  139  grep -c "Waite" vehicles
+  138  ls
+  137  cat crimescene
+  136  ls
+  135  cd mystery
+  134  ls
+  133  clear
+  132  ls
+  131  cat cheatsheet.md
+  130  cat cheatsheet.pdf
+  129  ls
+  128  cd ..
+  127  ls
+  126  grep -c "Waite" vehicles
+  125  vehicles grep "Waite"
+  124  cat vehicles | grep -A 5 "Waite"
+  123  cat vehicles | grep -A "Waite"
+  122  cd ..
+  121  cat interview-862173
+  120  cd interviews
+  119  ls
+  118  cd ..
+  117  cat Alpine_Street | head -n 79
+  116  cd streets
+  115  cat people | grep  "Matt Waite"
+  114  cat people | grep Matt Waite
+  113  cd ..
+  112  cat interview-904020
+  111  cd interviews
+  110  ls
+  109  cd ..
+  108  cat Andover_Road | head -n 224
+  107  cd streets
+  106  cat people | grep Jacqui
+  105  ls
+  104  cd ..
+  103  cat interview-9620713
+  102  cd interviews
+  101  ls
+  100  cd ..
+   99  cat Dunstable_Road | head -n 284 
+   98  cat Dunstable_Road | head -n 284 tail -1
+   97  cat Dunstable_Road | head 284 tail -1
+   96  cat Dunstable_Road | head 284 tail -a
+   95  cd streets
+   94  ls
+   93  \tgrep -A 5 "Jeremy" people
+   92  head people
+   91  cd ..
+   90  cat Museum_of_Bash_History library.txt AAA Delta_SkyMiles | grep "Joe"
+   89  cat Museum_of_Bash_History library.txt AAA Delta_SkyMiles | grep "Jeremy"
+   88  cat Museum_of_Bash_History library.txt AAA Delta_SkyMiles | grep "Jacqui"
+   87  cat Museum_of_Bash_History library.txt AAA Delta_SkyMiles | "Jacqui"
+   86  cat Museum_of_Bash_History library.txt AAA Delta | grep "Jacqui"
+   85  ls
+   84  cd memberships
+   83  ls
+   82  cd mystery
+   81  ls
+   80  cat hint8
+   79  \tgrep -A 5 "L337" mystery/vehicles
+   78  cat hint7
+   77  cat hint6
+   76  cat hint5
+   75  cat hint3
+   74  ls
+   73  cd ..
+   72  cat vehicles | grep 'Toyota/|Blue'
+   71  head vehicles -n6 6 L337ZR9*
+   70  head vehicles L337ZR9*
+   69  head vehicles | grep L337ZR9
+   68  cat vehicles | grep L337ZR9 | head 
+   67  cat vehicles | grep L337
+   66  cat vehicles | grep 'Toyota|Blue'
+   65  head vehicles
+   64  ls
+   63  head vehicle
+   62  cat vehicles | grep Honda
+   61  cat vehicles | greo Honda
+   60  cat vehicles | grepo Honda
+   59  cd ..
+   58  cat interview-871877
+   57  cd interviews
+   56  cd intervies
+   55  ls
+   54  cat Haley_Street | head -n 176
+   53  cd streets
+   52  cat vehicles | grep L337
+   51  cat vehicles | head L337*
+   50  cat vehicles | head -n L337
+   49  ls
+   48  cd ..
+   47  cat interview-699607
+   46  cd interviews
+   45  cd ..
+   44  cat Buckingham_Place | head -n 179
+   43  cd streets
+   42  ls
+   41  cd ..
+   40  clear
+   39  cat interview-9437737
+   38  cd interviews
+   37  cd ..
+   36  cat Mattapan_Street | head -n 173
+   35  cd streets
+   34  cd ..
+   33  cat interview-47246024
+   32  ls
+   31  cd interviews
+   30  ls
+   29  cd ..
+   28  cat Hart_Place | head -n 40
+   27  cd Hart_Place
+   26  ls
+   25  cd streets
+   24  cat people | grep "Annabel"
+   23  cat crimescene | grep "CLUE"
+   22  head people
+   21  ls
+   20  cat vehicles
+   19  head vehicles
+   18  head people
+   17  ls
+   16  cat crimescene | grep "CLUE"
+   15  cat crimescene | grepo "CLUE"
+   14  cat crimescene
+   13  ls
+   12  cd mystery
+   11  cd myustery
+   10  ls
+    9  cd command-line-murder-mystery
+    8  cd murder_mystery
+    7  ls
+    6  cd Week1
+    5  ls
+    4  cd GeneralAssembly
+    3  ls
+    2  cd Desktop
+    1  clear
+Matt Waite
