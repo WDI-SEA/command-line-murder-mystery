@@ -1,0 +1,256 @@
+    1  /.zshrc
+    2  xcode-select --install
+    3  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    4  clear
+    5  bew doctor
+    6  brew doctor
+    7  brew install git
+    8  git config
+    9  ping google.com
+   10  clear
+   11  ssh-keygen -t rsa -b 4096 -C "chuckhperry@gmail.com"
+   12  eval "$(ssh-agent -s)"
+   13  open ~/.ssh/config
+   14  touch ~/.ssh/config
+   15  open ~/.ssh/config
+   16  ssh-add -K ~/.ssh/id_rsa
+   17  pbcopy < ~/.ssh/id_rsa.pub
+   18  clear
+   19  pwd
+   20  ls
+   21  cd Desktop
+   22  cd GA_Classwork/seir526
+   23  pwd
+   24  ls
+   25  ~
+   26  cd Desktop/GA_Classwork/seir526
+   27  mkdir units
+   28  cd units
+   29  pwd
+   30  cd Desktop/GA_Classwork/seir526
+   31  ls
+   32  open .
+   33  mkdir README.md
+   34  ls -a
+   35  ls -S
+   36  ls
+   37  mkdir Unit_1
+   38  ls
+   39  ls -aS
+   40  pwd
+   41  touch Unit_2/test.txt
+   42  mkdir Unit_2
+   43  touch Unit_2/test.txt
+   44  ls
+   45  open /Unit_2/test.txt
+   46  open Unit_2/test.txt
+   47  cat Unit_2/test.txt
+   48  ls -R
+   49  cp Unit_2/test.txt Unit_1/anotherOne.txt
+   50  ls -R
+   51  cd seir526
+   52  ~
+   53  cd Desktop/GA_Classwork
+   54  rm unit_1 -f
+   55  cd Unit_1
+   56  cd seir526
+   57  rm unit_1
+   58  cd units
+   59  cd Unit_1
+   60  rm anotherOne.txt
+   61  cd ~/Desktop/GA_Classwork/seir526
+   62  rm unit_1 -f
+   63  rm unit_1
+   64  cd Unit_1
+   65  touch secondMessage.txt
+   66  echo "This is another secret message hheh" >> secondMessage.txt
+   67  echo "Second appendmenth" >> secondMessage.txt
+   68  cat secondMessage.txt
+   69  cat secondMessage.txt | sort
+   70  echo "a" >> secondMessage.txt
+   71  echo "z" >> secondMessage.txt
+   72  cat secondMessage.txt | sort > sortedMessage.txt
+   73  cat sortedMessage.txt
+   74  cat sortedMessage.txt | grep "another"
+   75  history
+   76  cd ..
+   77  cd .
+   78  cd units
+   79  head
+   80  head -n 1
+   81  cd Unit_1
+   82  head -n 1
+   83  head -n 2 secondMessage.txt > twoLines.txt
+   84  ls
+   85  ~
+   86  cd Desktop/GA_Classwork/seir526
+   87  mkdir homeworks
+   88  cd homeworks
+   89  git clone git@github.com:CharlesHPerry/command-line-murder-mystery.git
+   90  cat
+   91  ls
+   92  cd command-line-murder-mystery
+   93  cat
+   94  ls
+   95  cat instructions
+   96  cd mystery
+   97  cat
+   98  ls
+   99  cd crimescene
+  100  ls -a
+  101  cd..
+  102  cd ..
+  103  cd units
+  104  ls
+  105  cd Unit_1
+  106  ls
+  107  cat twoLines.txt
+  108  cd ..
+  109  cd homeworks
+  110  ls
+  111  cd command-line-murder-mystery
+  112  ls
+  113  cat hint1
+  114  cat hint2
+  115  cd mystery
+  116  ls
+  117  head crimescene
+  118  grep "CLUE" crimescene
+  119  ls
+  120  head -n 20 people
+  121  cd ..
+  122  ls
+  123  cat hint3
+  124  cat hint4
+  125  cd mystery
+  126  cd people
+  127  grep "Annabel" people
+  128  read people/line 179
+  129  cd ..
+  130  cat hint5
+  131  head -n 40 streets/Hart_Place | tail-n 1
+  132  head -n 40 streets/Hart_Place | tail -n 1
+  133  cd mystery/
+  134  head -n 40 streets/Hart_Place | tail -n 1
+  135  grep "#47246024" interviews
+  136  cat interviews
+  137  cd interviews
+  138  ls
+  139  cat interview-47246024
+  140  cd ..
+  141  head -n 179 streets/Buckingham_Place | tail -n 1
+  142  cd interviews
+  143  cat interview-699607
+  144  cd ..
+  145  ls
+  146  head -n 15 vehicles
+  147  grep "blue" vehicles
+  148  grep "Honda" vehicles
+  149  grep "L337" vehicles
+  150  cd ..
+  151  cat hint6
+  152  cd mystery
+  153  head vehicles
+  154  cd ..
+  155  cat hint7
+  156  cd mystery
+  157  grep -A 5 "L337" vehicles
+  158  cd ..
+  159  cat hint 7
+  160  cat hint7
+  161  grep -C 5 "L337" vehicles
+  162  ls
+  163  cat hint8
+  164  cd mystery
+  165  ls
+  166  cat memberships
+  167  ls memberships/
+  168  cd memberships
+  169  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+  170  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "J"
+  171  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "J"
+  172  rm ~/.bash_history
+  173  cd Desktop/GA_Classwork/seir526/homeworks/command-line-murder-mystery
+  174  ls
+  175  cat hint1
+  176  cat hint2
+  177  cat hint3
+  178  cat hint4
+  179  cat hint5
+  180  cat hint6
+  181  cat hint7
+  182  cat hint8
+  183  cat instructions
+  184  grep "CLUE" mystery/crimescene
+  185  grep "Annabel" mystery/people
+  186  head -n 179 mystery/streets/Buckingham_Place
+  187  head -n 179 mystery/streets/Buckingham_Place | tail -n 1
+  188  cat mystery/interviews/699607
+  189  cd mystery/interviews
+  190  ls -n 5
+  191  head -n 5
+  192  head -n 5 interview
+  193  head -n 5 interview-
+  194  cd ..
+  195  ls
+  196  cat cheatsheet.md
+  197  ls
+  198  cd mystery
+  199  ls
+  200  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  201  cd memberships
+  202  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  203  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "J"
+  204  cd ..
+  205  ls
+  206  grep "blue" "Honda" "L337" vehicles 
+  207  grep "L337" vehicles
+  208  grep 'blue\|Honda\|L337' vehicles
+  209  grep 'Blue\|Honda\|L337' vehicles
+  210  grep -w 'Blue\|Honda\|L337' vehicles
+  211  grep -w 'Honda\|L337' vehicles
+  212  cat interviews
+  213  cd ..
+  214  ls
+  215  cat instructions
+  216  cat solution
+  217  cd mystery
+  218  cat solution
+  219  grep "CLUE" crimescene 
+  220  grep -A 5 'L337\|Honda' vehicles
+  221  grep -A 5 "L337" vehicles
+  222  grep -A 5 "L337\|Honda" vehicles
+  223  grep -A 5 "L337" vehicles
+  224  cd memberships
+  225  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  226  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  227  cd ..
+  228  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  229  grep "L337\|Honda\|Blue\|6'" vehicles
+  230  grep "L337ZR9" vehicles
+  231  grep -A 5 "L337ZR9" vehicles
+  232  grep -A 5 "L337QE9" vehicles
+  233  grep -A 5 "L337539" vehicles
+  234  grep -A 5 "L337369" vehicles
+  235  grep -A 5 "L337DV9" vehicles
+  236  grep -A 5 "L3375A9" vehicles
+  237  grep -A 5 "L337WR9" vehicles
+  238  head memberships
+  239  ls memberships
+  240  cd memberships
+  241  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  242  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  243  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  244  cd ..
+  245  ls
+  246  cat hint1
+  247  cat hint2
+  248  cat hint3
+  249  head mystery/people
+  250  cd mystery
+  251  grep "CLUES" crimescene
+  252  ls
+  253  grep "CLUE" crimescene
+  254  cd ..
+  255  cd..
+  256  cd ..
