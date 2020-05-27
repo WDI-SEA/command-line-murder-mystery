@@ -1,0 +1,60 @@
+  119  cd command-line-murder-mystery/
+  120  touch solution.txt
+  121  cat cheatsheet.md
+  122  cat instructions
+  123  cd mystery/
+  124  ls
+  125  cat crimescene
+  126  grep -A 4 "CLUE"
+  127  pwd
+  128  ls
+  129  grep -A 4 "CLUE" crimescene ]
+  130  grep -A 4 "CLUE" crimescene
+  131  grep -A 4 "CLUE" vehicles
+  132  grep -A 4 "CLUE" people
+  133  cat vehicles
+  134  grep -A 4 "6'" people
+  135  grep -B "6" people
+  136  grep -B 4 "6" people
+  137* grep "6"
+  138  cat people
+  139  ls
+  140  cat people
+  141  cat vehicles
+  142  grep -B 4 "6" vehicles
+  143  ls
+  144  cd interviews/
+  145  ls
+  146  cd ..
+  147  ls
+  148  grep -A 4 "Annabel" people
+  149  grep "Annabel" people
+  150  grep "Annabel" vehicles
+  151  grep -A 4 "Annabel" vehicles
+  152  head -n 173 streets hart place | tail -n 1
+  153  head -n 173 streets hart_place | tail -n 1
+  154  head -n 40 streets hart place | tail -n 1
+  155  head -n 40 streets hart_place | tail -n 1
+  156  head -n 40 streets Hart_Place | tail -n 1
+  157  head -n 40 streets/Hart_Place | tail -n 1
+  158  head -n 179 streets/Buckingham_Place | tail -n 1
+  159  grep -A 4 "CLUE" crimescene
+  160  head interviews/
+  161  cat interviews/interview-47246024
+  162  cat interviews/interview-699607
+  163  grep -A 4 "L337" vehicles
+  164  grep -A 4 "L337" vehicles | grep "Honda"
+  165  grep -A 4 "L337" vehicles | grep -A 3 "Honda"
+  166  grep -A 4 "L337" vehicles | grep -A 3 "Honda" | grep -A 3 "Blue"
+  167  grep -A 4 "L337" vehicles | grep -A 3 "Honda" | grep -A 3 "Blue" | grep -A 3 "Height: 6"
+  168  grep -A 4 "L337" vehicles | grep -A 3 "Honda" | grep -A 3 "Blue" | grep -B 3 "Height: 6"
+  169  ls
+  170  cd memberships/
+  171  ls
+  172  cat Delta_SkyMiles Museum_of_Bash_History AAA Terminal_City_Library | grep "Joe Germuska"
+  173  cat Delta_SkyMiles Museum_of_Bash_History AAA Terminal_City_Library | grep "Jeremy Bowers"
+  174  echo "Jeremy Bowers" > solution.txt
+  175  history
+
+
+Jeremy Bowers
