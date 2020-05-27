@@ -1,0 +1,630 @@
+    1  hello
+    2  where am i?
+    3  pwd
+    4  ls
+    5  documents
+    6  cd documents
+    7  ls
+    8  ls
+    9  ls -a
+   10  cd home
+   11  cd /users/nick
+   12  ls
+   13  ls -a
+   14  cd .trash
+   15  cd ..
+   16  mkdir myfolder
+   17  pwd
+   18  ls
+   19  cd myfolder
+   20  touch index.html style.css
+   21  ls
+   22  rm style.css
+   23  ls
+   24  cd ..
+   25  re -r myfolder
+   26  rm -r myfolder
+   27  ls
+   28  cd downloads
+   29  ls
+   30  cd worlds
+   31  ls
+   32  cd world
+   33  ls
+   34  cd africa
+   35  ls
+   36  cd cameroon
+   37  ls
+   38  cd ..
+   39  cd ethiopia
+   40  ls
+   41  cd lalibela
+   42  ls
+   43  lalibela
+   44  cd kenya
+   45  cd ..
+   46  cd kenya
+   47  ls
+   48  cd ..
+   49  cd ..
+   50  pwd
+   51  ls -a
+   52  ls africa -a
+   53  ls asia -a
+   54  ls australia -a
+   55  ls europe -a
+   56  ls australia -a
+   57  ls north_america -a
+   58  ls south_america -a
+   59  cd .
+   60  cd ..
+   61  ls . -a
+   62   ls .. -a
+   63  ls
+   64  cd downloads
+   65  ls
+   66  cd world
+   67  ls
+   68  ls -a
+   69  ls .. -a
+   70  ls .ds_store -a
+   71  ls . -a
+   72  cd .
+   73  ls
+   74  ls africa -a
+   75  cd africa
+   76  ls cameroon -a
+   77  cd cameroon
+   78  ls
+   79  cd ..
+   80  ls ethiopia -a
+   81  ls kenya -a
+   82  ls zimbabwe -a
+   83  cd ..
+   84  ls
+   85  cd asia
+   86  ls -a
+   87  ls . -a
+   88  cd .
+   89  ls
+   90  ls india -a
+   91  ls japan -a
+   92  ls vietnam -a
+   93  cd ..
+   94  ls
+   95  ls -a
+   96  cd ..
+   97  ls -a
+   98  cd ..
+   99  pwd
+  100  ls
+  101  cd downloads
+  102  ls
+  103  cd world
+  104  ls -a
+  105  cd .
+  106  ls -a
+  107  cd  .
+  108  ls -a
+  109  pwd
+  110  cd africa
+  111  ls -a
+  112  cd cameroon
+  113  ls -a
+  114  cd l
+  115  cd .
+  116  ls -a
+  117  cd .
+  118  ls -a
+  119  cd ..
+  120  cd ethiopia
+  121  ls -a
+  122  cd ..
+  123  cd kenya
+  124  ls -a
+  125  cd ..
+  126  cd zimbabwe
+  127  ls -a
+  128  cd ..
+  129  cd ..
+  130  cd australia
+  131  ls -a
+  132  cd australia
+  133  ls -a
+  134  cd ..
+  135  cd ..
+  136  cd europe
+  137  ls -a
+  138  .carmen_sandiego.png
+  139  cd .carmen_sandiego.png
+  140  git --version
+  141  git --version
+  142  pwd
+  143  ls
+  144  cd desktop
+  145  ls
+  146  mkdr GA-Blog
+  147  ls
+  148  mkdir GA-Blog
+  149  ls
+  150  cd ga-blog
+  151  ls
+  152  mkdir .git/
+  153  ls
+  154  ls -a
+  155  pwd
+  156  $ git init
+  157  git init
+  158  ls -a
+  159  cd .git
+  160  ls
+  161  cd ..
+  162  git status
+  163  pwd
+  164  git status
+  165  touch my-first-post.txt
+  166  git status
+  167  git add my-first-post.txt
+  168  git status
+  169  ls
+  170  git status
+  171  git log
+  172  ls
+  173  cd documents
+  174  ls
+  175  ls
+  176  ls -a
+  177  cd .localized
+  178  ls
+  179  cd ..
+  180  pwd
+  181  ls
+  182  cd documents
+  183  pwd
+  184  mkdir GA Course
+  185  ls
+  186  rmv ga
+  187  rm ga
+  188  rm ga -r
+  189  rmdir ga
+  190  rmdir course
+  191  pwd
+  192  mkdir GA-Course
+  193  cd ga-course
+  194  ls
+  195  pwd
+  196  mkdir git-practice
+  197  ls
+  198  cd git-practice
+  199  ls
+  200  git status
+  201  git init
+  202  ls -a
+  203  touch README.txt
+  204  git status
+  205  git add readme.txt
+  206  git status
+  207  git add README.txt
+  208  git status
+  209  git commit -m readme.txt
+  210  git status
+  211  ls
+  212  open readme.txt
+  213  pwd
+  214  git clone https://github.com/Nhvattum/awesome-android-ui.git
+  215  ls
+  216  cd downloads
+  217  ls
+  218  git -version
+  219  git - -version
+  220  git --version
+  221  cd
+  222  git --version
+  223  ls
+  224  cd desktop
+  225  ls
+  226  cd ..
+  227  ls
+  228  cd documents
+  229  ls
+  230  cd GA-Course
+  231  ls
+  232  pwd
+  233  mkdir unit-1
+  234  cd unit-1
+  235  touch readme.md
+  236  ls
+  237  git init
+  238  git status
+  239  git add readme.md
+  240  git status
+  241  git commit -m "initial commit"
+  242  zsh --version
+  243  echo $SHELL
+  244  echo $SHELL
+  245  $SHELL --version
+  246  chsh -s /bin/zsh
+  247  chsh -s $(which zsh)
+  248  zsh --version
+  249  zsh --version
+  250  pwd
+  251  ls
+  252  xcode-select --install
+  253  xcode-select --install\n2:30\nruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  254  brew doctor
+  255  brew install git
+  256  ping google.com
+  257  ssh-keygen -t rsa -b 4096 -C "nhvattum@gmail.com"
+  258  eval "$(ssh-agent -s)"
+  259  open ~/.ssh/config
+  260  touch ~/.ssh/config
+  261  open ~/.ssh/config
+  262  ssh-add -K ~/.ssh/id_rsa
+  263  pbcopy < ~/.ssh/id_rsa.pub
+  264  clear
+  265  pwd
+  266  ls
+  267  ls .a
+  268  ls .
+  269  ls
+  270  clear
+  271  ls
+  272  cd desktop
+  273  ls
+  274  pwd
+  275  mkdir seir_526
+  276  ls
+  277  cd seir_526
+  278  pwd
+  279  mkdir units
+  280  ls
+  281  cd units
+  282  ls
+  283  cd ..
+  284  mkdir units/unit1
+  285  ls
+  286  cd units
+  287  ls
+  288  touch README.md
+  289  ls
+  290  open .
+  291  ls
+  292  ls -l
+  293  clear
+  294  ls -l
+  295  ls -la
+  296  ls -a
+  297  man ls
+  298  ls -S
+  299  ls -Sa
+  300  ls -aS
+  301  mkdir unit2
+  302  touch unit2/test.txt
+  303  ls -R
+  304  open unit2
+  305  cat unit2/test.txt
+  306  clear
+  307  cat unit2/test.txt
+  308  ls -R
+  309  cp unit2/test.txt unit1/anotherOne.txt
+  310  ls -R
+  311  cat unit1/anotherOne.txt
+  312  cd unit1
+  313  pwd
+  314  rm anotherOne.txt
+  315  ls
+  316  touch text.txt
+  317  rm -i text.txt
+  318  man
+  319  rm
+  320  man rm
+  321  echo asldfaj;sklfaj
+  322  echo "asidfhaskdfhakfdjs"
+  323  echo 'sakfjdsaiepw'
+  324  tough secondMessage.txt
+  325  touch secondMessage.txt
+  326  echo "this is another secret message ahahahahahha" >>secondMessage.txt
+  327  ls
+  328  cat secondMessage.txt
+  329  echo "some more words" >> secondMessage.txt
+  330  cat secondMessage.txt
+  331  echo "a" >> 
+  332  echo "a" >> secondMessage.txt
+  333  cat secondMessage.txt
+  334  echo "z" >> secondMessage.txt
+  335  cat secondMessage.txt
+  336  cat secondMessage.txt | sort 
+  337  open secondMessage.txt
+  338  cat secondMessage.txt| sort > sortedmessage.txt
+  339  ls -l
+  340  cat sortedmessage.txt
+  341  cat sortedmessage.txt| grep "secret"
+  342  cat secondMessage.txt| grep "ya"
+  343  cat secondMessage.txt | grep "ya"
+  344  cat secondMessage.txt | grep "ha"
+  345  history 
+  346  clear
+  347  history
+  348  clear
+  349  cd ..
+  350  cd .
+  351  pwd
+  352  man head
+  353  cd unit1
+  354  head -n 1 secondMessage.txt
+  355  head -n 2 secondMessage.txt
+  356  head -n 2-3 secondMessage.txt
+  357  head -n 2 secondMessage.txt > twoLines.txt
+  358  ls
+  359  cat twoLines.txt
+  360  cat secondMessage.txt
+  361  cat secondMessage.txt| grep "words"
+  362  cd ..
+  363  history > history.txt
+  364  ls
+  365  open history.txt
+  366  clear
+  367  git@github.com:Nhvattum/command-line-murder-mystery.gitpwd
+  368  pwd
+  369  cd ..
+  370  mkdir homeworks
+  371  cd homeworks
+  372  git@github.com:Nhvattum/command-line-murder-mystery.git
+  373  ls
+  374  git clone git@github.com:Nhvattum/command-line-murder-mystery.git
+  375  ls
+  376  cd command-line-murder-mystery
+  377  cd ..
+  378  cd command-line-murder-mystery
+  379  ls
+  380  cd mystery
+  381  ls
+  382  cd ..
+  383  open README.md
+  384  cat README.md
+  385  cat instructions
+  386  clear
+  387  pwd
+  388  ls
+  389  cd mystery
+  390  ls
+  391  cd interviews
+  392  ls
+  393  cat interviews | grep "CLUE"
+  394  cd ..
+  395  clear
+  396  pwd
+  397  ls
+  398  cat crimescene 
+  399  by collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).pwd
+  400  cat crimescene| grep "CLUE"
+  401  cd ..
+  402  ls
+  403  cd mystery
+  404  ls
+  405  cd memberships
+  406  ls
+  407  cat AAA
+  408  by collecting all the clues at the crime scene (the 'crimescene' file).\ncat AAA | grep "anabelby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect\n\nclear\n"
+  409  clear
+  410  cat AAA | grep "Annabel"
+  411  ls
+  412  cat Delta_SkyMiles| grep "Annabel"
+  413  cat Museum_of_Bash_History | grep "Annabel"
+  414  cat museum.txt
+  415  escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 cd..
+  416  pwd
+  417  ls
+  418  cd ..
+  419  ls
+  420  cat LICENSE
+  421  cd ..
+  422  ls
+  423  cd command-line-murder-mystery
+  424  ls
+  425  cat hint1
+  426  cd mystery
+  427  ls
+  428  head -n 20 people
+  429  cat people | grep "Church"
+  430  cd street
+  431  ls
+  432  cd streets
+  433  ls
+  434  cat Buckingham_Place
+  435  cd ..
+  436  cat people | grep "Church"
+  437  cat people | grep "Annabel"
+  438  cd ..
+  439  ls
+  440  cd mystery
+  441  ls streets
+  442  cat Haley_Street
+  443  pwd
+  444  cd streets
+  445  cat Haley_Street
+  446  escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 
+  447  clear
+  448  pwd
+  449  cd ..
+  450  ls
+  451  cat interviews | grep "CLUE"
+  452  cd ..
+  453  ls
+  454  cat hint1
+  455  cat hint2
+  456  ls
+  457  cd mystery
+  458  ls
+  459  cat crimescene| grep "CLUE"
+  460  cd ..
+  461  cat README.md
+  462  escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clu
+  463  pwd
+  464  ls
+  465  cat hint3
+  466  cd mystery
+  467  ls
+  468  head -n 25 vehicles
+  469  cat vehicles | grep "Annabel"
+  470  head -n 50 vehicles
+  471  cat vehicles | grep "Annabel" | head -n 6
+  472  ls
+  473  cat people | grep "Annabel"
+  474  cd streets
+  475  ls
+  476  cat Hart_Place
+  477  cat Mattapan_Street
+  478  pwd
+  479  cd ..
+  480  ls
+  481  clear
+  482  cat people | grep "Annabel"
+  483  cd streets
+  484  head -n 40 Hart_Place 
+  485  ls
+  486  cd ..
+  487  ls
+  488  cd interviews
+  489  cat interview #47246024
+  490  ls
+  491  cat interview-47246024
+  492  cd ..
+  493  ls
+  494  cd streets
+  495  head -n 179 Buckingham_Place
+  496  cd ..
+  497  ls
+  498  cd interviews
+  499  cat interview-699607
+  500  cd ..
+  501  ls
+  502  cat vehicles | grep "L337"
+  503  ls
+  504  cat vehicle
+  505  cat vehicles
+  506  cd ..
+  507  cd interviews
+  508  ls
+  509  cd mystery
+  510  ls
+  511  cd interviews
+  512  cat interview-699607
+  513  cd ..
+  514  head -n 25 vehicles
+  515  cd ..
+  516  cat vehicles | grep honda
+  517  cat vehicles | grep "honda"
+  518  cat vehicles | grep "Honda"
+  519  cat vehicles | grep "Blue"
+  520  pwd
+  521  ls
+  522  cd mystery
+  523  cat vehicles | grep "Honda"
+  524  cd ..
+  525  ls
+  526  cd mystery
+  527  ls
+  528  man sort
+  529  man grep
+  530  pwd
+  531  cat vehicles | grep -C "L337"
+  532  cat vehicles | grep -c "L337"
+  533  man grep
+  534  grep -A 5 "L337" 
+  535  zsh --version
+  536  pwd
+  537  ls
+  538  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+  539  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  540  clear
+  541  pwd
+  542  ls
+  543  cd desktop
+  544  ls
+  545  cd seir_526
+  546  ls
+  547  cd homeworks
+  548  ls
+  549  cd command-line-murder-mystery
+  550  ls
+  551  cd mystery
+  552  ls
+  553  cat vehicles | grep -A 5 "L337" 
+  554  ls
+  555  cat crimescene 
+  556  cat crimescene | grep "CLUE"
+  557  cd memberships
+  558  ls
+  559  cat aaa | grep "Joe Germuska"
+  560  cat Delta_SkyMiles | grep "Joe Germuska"
+  561  cat Delta_SkyMiles | grep "Jeremy Bowers"
+  562  cat aaa | grep "Jeremy Bowers"
+  563  cat Terminal_City_Library | grep "Jeremy Bowers"
+  564  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  565  cat Museum_of_Bash_History | grep "Jacqui Maher"
+  566  cat Terminal_City_Library | grep "Jacqui Maher"
+  567  cat Delta_SkyMiles | grep "Jacqui Maher"
+  568  cat aaa | grep "Jacqui Maher"
+  569  cd ..
+  570  ls
+  571  cat people | grep "Jeremy Bowers"
+  572  cat people | grep "Jacqui Maher"
+  573  ls
+  574  cd streets
+  575  head -n 25 streets
+  576  ls
+  577  head -n 224 Andover_Road
+  578  head -n 284 Dunstable_Road
+  579  cd ..
+  580  ls
+  581  cd interviews
+  582  ls
+  583  cat interview-9620713
+  584  cat interview-904020
+  585  cd ..
+  586  ls
+  587  clea
+  588  clear
+  589  ls
+  590  cd ..
+  591  ls
+  592  cat instructions
+  593  cat README.md
+  594  mkdir solution.txt
+  595  ls
+  596  rm solution.txt
+  597  rmdir solution.txt
+  598  ls
+  599  touch solution.txt
+  600  ls
+  601  history
+  602  echo "370  mkdir homeworks\n  371  cd homeworks\n  372  git@github.com:Nhvattum/command-line-murder-mystery.git\n  373  ls\n  374  git clone git@github.com:Nhvattum/command-line-murder-mystery.git\n  375  ls\n  376  cd command-line-murder-mystery\n  377  cd ..\n  378  cd command-line-murder-mystery\n  379  ls\n  380  cd mystery\n  381  ls\n  382  cd ..\n  383  open README.md\n  384  cat README.md\n  385  cat instructions\n  386  clear\n  387  pwd\n  388  ls\n  389  cd mystery\n  390  ls\n  391  cd interviews\n  392  ls\n  393  cat interviews | grep "CLUE"\n  394  cd ..\n  395  clear\n  396  pwd\n  397  ls\n  398  cat crimescene \n  399  by collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).pwd\n  400  cat crimescene| grep "CLUE"\n  401  cd ..\n  402  ls\n  403  cd mystery\n  404  ls\n  405  cd memberships\n  406  ls\n  407  cat AAA\n  408  by collecting all the clues at the crime scene (the 'crimescene' file).\ncat AAA | grep "anabelby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect\n\nclear\n"\n  409  clear\n  410  cat AAA | grep "Annabel"\n  411  ls\n  412  cat Delta_SkyMiles| grep "Annabel"\n  413  cat Museum_of_Bash_History | grep "Annabel"\n  414  cat museum.txt\n  415  escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 cd..\n  416  pwd\n  417  ls\n  418  cd ..\n  419  ls\n  420  cat LICENSE\n  421  cd ..\n  422  ls\n  423  cd command-line-murder-mystery\n  424  ls\n  425  cat hint1\n  426  cd mystery\n  427  ls\n  428  head -n 20 people\n  429  cat people | grep "Church"\n  430  cd street\n  431  ls\n  432  cd streets\n  433  ls\n  434  cat Buckingham_Place\n  435  cd ..\n  436  cat people | grep "Church"\n  437  cat people | grep "Annabel"\n  438  cd ..\n  439  ls\n  440  cd mystery\n  441  ls streets\n  442  cat Haley_Street\n  443  pwd\n  444  cd streets\n  445  cat Haley_Street\n  446  escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 \n  447  clear\n  448  pwd\n  449  cd ..\n  450  ls\n  451  cat interviews | grep "CLUE"\n  452  cd ..\n  453  ls\n  454  cat hint1\n  455  cat hint2\n  456  ls\n  457  cd mystery\n  458  ls\n  459  cat crimescene| grep "CLUE"\n  460  cd ..\n  461  cat README.md\n  462  escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clu\n  463  pwd\n  464  ls\n  465  cat hint3\n  466  cd mystery\n  467  ls\n  468  head -n 25 vehicles\n  469  cat vehicles | grep "Annabel"\n  470  head -n 50 vehicles\n  471  cat vehicles | grep "Annabel" | head -n 6\n  472  ls\n  473  cat people | grep "Annabel"\n  474  cd streets\n  475  ls\n  476  cat Hart_Place\n  477  cat Mattapan_Street\n  478  pwd\n  479  cd ..\n  480  ls\n  481  clear\n  482  cat people | grep "Annabel"\n  483  cd streets\n  484  head -n 40 Hart_Place \n  485  ls\n  486  cd ..\n  487  ls\n  488  cd interviews\n  489  cat interview #47246024\n  490  ls\n  491  cat interview-47246024\n  492  cd ..\n  493  ls\n  494  cd streets\n  495  head -n 179 Buckingham_Place\n  496  cd ..\n  497  ls\n  498  cd interviews\n  499  cat interview-699607\n  500  cd ..\n  501  ls\n  502  cat vehicles | grep "L337"\n  503  ls\n  504  cat vehicle\n  505  cat vehicles\n  506  cd ..\n  507  cd interviews\n  508  ls\n  509  cd mystery\n  510  ls\n  511  cd interviews\n  512  cat interview-699607\n  513  cd ..\n  514  head -n 25 vehicles\n  515  cd ..\n  516  cat vehicles | grep honda\n  517  cat vehicles | grep "honda"\n  518  cat vehicles | grep "Honda"\n  519  cat vehicles | grep "Blue"\n  520  pwd\n  521  ls\n  522  cd mystery\n  523  cat vehicles | grep "Honda"\n  524  cd ..\n  525  ls\n  526  cd mystery\n  527  ls\n  528  man sort\n  529  man grep\n  530  pwd\n  531  cat vehicles | grep -C "L337"\n  532  cat vehicles | grep -c "L337"\n  533  man grep\n  534  grep -A 5 "L337" \n  535  zsh --version\n  536  pwd\n  537  ls\n  538  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh\n  539  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n  540  clear\n  541  pwd\n  542  ls\n  543  cd desktop\n  544  ls\n  545  cd seir_526\n  546  ls\n  547  cd homeworks\n  548  ls\n  549  cd command-line-murder-mystery\n  550  ls\n  551  cd mystery\n  552  ls\n  553  cat vehicles | grep -A 5 "L337" \n  554  ls\n  555  cat crimescene \n  556  cat crimescene | grep "CLUE"\n  557  cd memberships\n  558  ls\n  559  cat aaa | grep "Joe Germuska"\n  560  cat Delta_SkyMiles | grep "Joe Germuska"\n  561  cat Delta_SkyMiles | grep "Jeremy Bowers"\n  562  cat aaa | grep "Jeremy Bowers"\n  563  cat Terminal_City_Library | grep "Jeremy Bowers"\n  564  cat Museum_of_Bash_History | grep "Jeremy Bowers"\n  565  cat Museum_of_Bash_History | grep "Jacqui Maher"\n  566  cat Terminal_City_Library | grep "Jacqui Maher"\n  567  cat Delta_SkyMiles | grep "Jacqui Maher"\n  568  cat aaa | grep "Jacqui Maher"\n  569  cd ..\n  570  ls\n  571  cat people | grep "Jeremy Bowers"\n  572  cat people | grep "Jacqui Maher"\n  573  ls\n  574  cd streets\n  575  head -n 25 streets\n  576  ls\n  577  head -n 224 Andover_Road\n  578  head -n 284 Dunstable_Road\n  579  cd ..\n  580  ls\n  581  cd interviews\n  582  ls\n  583  cat interview-9620713\n  584  cat interview-904020\n  585  cd ..\n  586  ls\n  587  clea\n  588  clear\n  589  ls\n  590  cd ..\n  591  ls\n  592  cat instructions\n  593  cat README.md\n  594  mkdir solution.txt\n  595  ls\n  596  rm solution.txt\n  597  rmdir solution.txt\n  598  ls\n  599  touch solution.txt\n  600  ls" >> solution.txt
+  603  echo "370  mkdir homeworks\n  371  cd homeworks\n  372  git@github.com:Nhvattum/command-line-murder-mystery.git\n  373  ls\n  374  git clone git@github.com:Nhvattum/command-line-murder-mystery.git\n  375  ls\n  376  cd command-line-murder-mystery\n  377  cd ..\n  378  cd command-line-murder-mystery\n  379  ls\n  380  cd mystery\n  381  ls\n  382  cd ..\n  383  open README.md\n  384  cat README.md\n  385  cat instructions\n  386  clear\n  387  pwd\n  388  ls\n  389  cd mystery\n  390  ls\n  391  cd interviews\n  392  ls\n  393  cat interviews | grep "CLUE"\n  394  cd ..\n  395  clear\n  396  pwd\n  397  ls\n  398  cat crimescene \n  399  by collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).pwd\n  400  cat crimescene| grep "CLUE"\n  401  cd ..\n  402  ls\n  403  cd mystery\n  404  ls\n  405  cd memberships\n  406  ls\n  407  cat AAA\n  408  by collecting all the clues at the crime scene (the 'crimescene' file).\ncat AAA | grep "anabelby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect\n\nclear\n"\n  409  clear\n  410  cat AAA | grep "Annabel"\n  411  ls\n  412  cat Delta_SkyMiles| grep "Annabel"\n  413  cat Museum_of_Bash_History | grep "Annabel"\n  414  cat museum.txt\n  415  escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 cd..\n  416  pwd\n  417  ls\n  418  cd ..\n  419  ls\n  420  cat LICENSE\n  421  cd ..\n  422  ls\n  423  cd command-line-murder-mystery\n  424  ls\n  425  cat hint1\n  426  cd mystery\n  427  ls\n  428  head -n 20 people\n  429  cat people | grep "Church"\n  430  cd street\n  431  ls\n  432  cd streets\n  433  ls\n  434  cat Buckingham_Place\n  435  cd ..\n  436  cat people | grep "Church"\n  437  cat people | grep "Annabel"\n  438  cd ..\n  439  ls\n  440  cd mystery\n  441  ls streets\n  442  cat Haley_Street\n  443  pwd\n  444  cd streets\n  445  cat Haley_Street\n  446  escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 \n  447  clear\n  448  pwd\n  449  cd ..\n  450  ls\n  451  cat interviews | grep "CLUE"\n  452  cd ..\n  453  ls\n  454  cat hint1\n  455  cat hint2\n  456  ls\n  457  cd mystery\n  458  ls\n  459  cat crimescene| grep "CLUE"\n  460  cd ..\n  461  cat README.md\n  462  escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collect                                                 escene' file).\nby collecting all the clues at the crime scene (the 'crimescene' file).\nby collecting all the clu\n  463  pwd\n  464  ls\n  465  cat hint3\n  466  cd mystery\n  467  ls\n  468  head -n 25 vehicles\n  469  cat vehicles | grep "Annabel"\n  470  head -n 50 vehicles\n  471  cat vehicles | grep "Annabel" | head -n 6\n  472  ls\n  473  cat people | grep "Annabel"\n  474  cd streets\n  475  ls\n  476  cat Hart_Place\n  477  cat Mattapan_Street\n  478  pwd\n  479  cd ..\n  480  ls\n  481  clear\n  482  cat people | grep "Annabel"\n  483  cd streets\n  484  head -n 40 Hart_Place \n  485  ls\n  486  cd ..\n  487  ls\n  488  cd interviews\n  489  cat interview #47246024\n  490  ls\n  491  cat interview-47246024\n  492  cd ..\n  493  ls\n  494  cd streets\n  495  head -n 179 Buckingham_Place\n  496  cd ..\n  497  ls\n  498  cd interviews\n  499  cat interview-699607\n  500  cd ..\n  501  ls\n  502  cat vehicles | grep "L337"\n  503  ls\n  504  cat vehicle\n  505  cat vehicles\n  506  cd ..\n  507  cd interviews\n  508  ls\n  509  cd mystery\n  510  ls\n  511  cd interviews\n  512  cat interview-699607\n  513  cd ..\n  514  head -n 25 vehicles\n  515  cd ..\n  516  cat vehicles | grep honda\n  517  cat vehicles | grep "honda"\n  518  cat vehicles | grep "Honda"\n  519  cat vehicles | grep "Blue"\n  520  pwd\n  521  ls\n  522  cd mystery\n  523  cat vehicles | grep "Honda"\n  524  cd ..\n  525  ls\n  526  cd mystery\n  527  ls\n  528  man sort\n  529  man grep\n  530  pwd\n  531  cat vehicles | grep -C "L337"\n  532  cat vehicles | grep -c "L337"\n  533  man grep\n  534  grep -A 5 "L337" \n  535  zsh --version\n  536  pwd\n  537  ls\n  538  https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh\n  539  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n  540  clear\n  541  pwd\n  542  ls\n  543  cd desktop\n  544  ls\n  545  cd seir_526\n  546  ls\n  547  cd homeworks\n  548  ls\n  549  cd command-line-murder-mystery\n  550  ls\n  551  cd mystery\n  552  ls\n  553  cat vehicles | grep -A 5 "L337" \n  554  ls\n  555  cat crimescene \n  556  cat crimescene | grep "CLUE"\n  557  cd memberships\n  558  ls\n  559  cat aaa | grep "Joe Germuska"\n  560  cat Delta_SkyMiles | grep "Joe Germuska"\n  561  cat Delta_SkyMiles | grep "Jeremy Bowers"\n  562  cat aaa | grep "Jeremy Bowers"\n  563  cat Terminal_City_Library | grep "Jeremy Bowers"\n  564  cat Museum_of_Bash_History | grep "Jeremy Bowers"\n  565  cat Museum_of_Bash_History | grep "Jacqui Maher"\n  566  cat Terminal_City_Library | grep "Jacqui Maher"\n  567  cat Delta_SkyMiles | grep "Jacqui Maher"\n  568  cat aaa | grep "Jacqui Maher"\n  569  cd ..\n  570  ls\n  571  cat people | grep "Jeremy Bowers"\n  572  cat people | grep "Jacqui Maher"\n  573  ls\n  574  cd streets\n  575  head -n 25 streets\n  576  ls\n  577  head -n 224 Andover_Road\n  578  head -n 284 Dunstable_Road\n  579  cd ..\n  580  ls\n  581  cd interviews\n  582  ls\n  583  cat interview-9620713\n  584  cat interview-904020\n  585  cd ..\n  586  ls\n  587  clea\n  588  clear\n  589  ls\n  590  cd ..\n  591  ls\n  592  cat instructions\n  593  cat README.md\n  594  mkdir solution.txt\n  595  ls\n  596  rm solution.txt\n  597  rmdir solution.txt\n  598  ls\n  599  touch solution.txt\n  600  ls" >>solution.txt
+  604  ls
+  605  open solution.txt
+  606  cleat
+  607  clear
+  608  history
+  609  clear
+  610  history
+  611  ls
+  612  cat README.md
+  613  ls
+  614  pwd
+  615  cd desktop
+  616  ls
+  617  cd seir_526
+  618  ls
+  619  cd homeworks
+  620  clear
+  621  cd desktop
+  622  ls
+  623  cd seir_526
+  624  ls
+  625  cd homeworks
+  626  ls
+  627  cd command-line-murder-mystery
+  628  ls
+  629  rm solution.txt
+  630  ls
