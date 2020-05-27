@@ -1,0 +1,450 @@
+    1  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    2  echo $SHELL
+    3  zsh --version
+    4  clear
+    5  zsh --version
+    6  echo $SHELL
+    7  zsh --version
+    8  xcode-select --install
+    9  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"clear
+   10  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   11  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
+   12  brew doctor
+   13  brew install git
+   14  git config
+   15  ping google.com
+   16  ssh-keygen -t rsa -b 4096 -C "zachary.barovsky@gmail.com"
+   17  eval "$(ssh-agent -s)"
+   18  open ~/.ssh/config
+   19  touch ~/.ssh/config
+   20  open ~/.ssh/config
+   21  open ~/.ssh/config 
+   22  ssh-add -K ~/.ssh/id_rsa
+   23  pbcopy < ~/.ssh/id_rsa.pub
+   24  clear
+   25  pwd
+   26  ls
+   27  cd Desktop
+   28  ls
+   29  mkdir seir_526
+   30  cd seir_526
+   31  pwd
+   32  mkdir units
+   33  ls
+   34  mkdir units/unit1
+   35  ls
+   36  cd units
+   37  ls
+   38  touch README.md
+   39  ls
+   40  pwd
+   41  open .
+   42  ls
+   43  ls -l
+   44  ls -la
+   45  ls -a
+   46  man ls
+   47  ls -s
+   48  ls -S
+   49  ls -aS
+   50  mkdir unit2
+   51  touch unit2/test.txt
+   52  ls -R
+   53  open unit2/test.txt
+   54  cat unit2/test.txt
+   55  pwd
+   56  ls
+   57  ls -R
+   58  cp unit2/test.txt unit1/anotherOne.txt
+   59  ls -R
+   60  cat unit1/anotherOne.txt
+   61  cd unit1
+   62  pwd
+   63  rm anotherOne.txt
+   64  ls
+   65  echo "al;sedfj"
+   66  touch secondMessage.txt
+   67  echo "this is another secret message hahahaha" >> secondMessage.txt
+   68  cat secondMessage.txt
+   69  echo "some more words" >> secondMessage.txt
+   70  cat secondMessage.txt
+   71  echo "a" >> secondMessage.txt
+   72  echo "z" >> secondMessage.txt
+   73  cat secondMessage.txt
+   74  cat secondMessage.txt | sort
+   75  cat secondMessage.txt | sort > sortedMessage.txt
+   76  ls -l
+   77  cat sortedMessage.txt
+   78  cat sortedMessage.txt | grep "secret"
+   79  cat secondMessage.txt | grep "another"
+   80  history
+   81  man head
+   82  ls
+   83  head -n 1 secondMessage.txt
+   84  head -n 2 secondMessage.txt
+   85  head -n 2 secondMessage.txt > twoLines.txt
+   86  cat twoLines.txt
+   87  clear
+   88  history
+   89  history > history.txt
+   90  open unit1/history.txt
+   91  history
+   92  history >> history.txt
+   93  open unit1/history.txt
+   94  pwd
+   95  ls
+   96  cd Desktop
+   97  cd seir_526
+   98  mkdir homeworks
+   99  cd homeworks
+  100  git@github.com:zbarovsky/command-line-murder-mystery.git
+  101  git clone git@github.com:zbarovsky/command-line-murder-mystery.git
+  102  ls
+  103  cd command-line-murder-mystery
+  104  ls
+  105  grep "instructions"
+  106  cd
+  107  ls
+  108  pwd
+  109  cd Desktop
+  110  ls
+  111  cd seir_526
+  112  ls
+  113  cd homeworks
+  114  ls
+  115  cd command-line-murder-mystery
+  116  ls
+  117  cd instructions
+  118  echo "instructions"
+  119  cat README.md
+  120  cat instructions
+  121  cat README.md
+  122  ls
+  123  cat mystery
+  124  cd mystery
+  125  ls
+  126  cat crimescene
+  127  clear
+  128  pwd
+  129  ls
+  130  cd Desktop
+  131  ls
+  132  cd seir_526
+  133  ls
+  134  cd homeworks
+  135  ls
+  136  cd command-line-murder-mystery
+  137  ls
+  138  cat README.md
+  139  open cheatsheet.md
+  140  cat cheatsheet.md
+  141  cd Desktop
+  142  ls
+  143  cd seir_526
+  144  ls
+  145  cd homeworks
+  146  ls
+  147  cd command-line-murder-mystery
+  148  ls
+  149  cat README.md
+  150  cat instructions
+  151  ls
+  152  cd mystery
+  153  ls
+  154  cat crimescene
+  155  ls
+  156  cd crimescene
+  157  man grep
+  158  cat crimescene | grep -w "CLUE"
+  159  cd interviews
+  160  ls
+  161  grep -w "Annabelle"
+  162  cd Desktop
+  163  ls
+  164  cd seir_526
+  165  cd homeworks
+  166  ls
+  167  cd command-line-murder-mystery
+  168  ls
+  169  cat README.md
+  170  cat instructions
+  171  ls
+  172  cd mystery
+  173  ls
+  174  cat crimescene | grep -w "CLUE"
+  175  cat people
+  176  ls
+  177  cat people | grep -w "Annabel"
+  178  cd ..
+  179  ls
+  180  cat crimescene | grep -w "CLUE"
+  181  cd mystery
+  182  cat crimescene | grep -w "CLUE"
+  183  ls
+  184  cd memberships
+  185  ls
+  186  cat AAA
+  187  cat AAA | grep -w "Annabel"
+  188  ls
+  189  cd ..
+  190  ls
+  191  cat crimescene | grep "CLUE"
+  192  cat interviews | grep -w "Annabel"
+  193  cd interviews
+  194  cat interviews | grep -w "Annabel"
+  195  cd .
+  196  cd ..
+  197  ls
+  198  cat people | grep -w "Annabel"
+  199  cd interviews
+  200  ls
+  201  cd ..
+  202  ls
+  203  cd memberships
+  204  ls
+  205  cat Delta_SkyMiles | grep -w "Annabel"
+  206  cat Museum_of_Bash_History | grep -w "Annabel"
+  207  cat library | grep -w "Annabel"
+  208  cat library.txt| grep -w "Annabel"
+  209  ls
+  210  cd ..
+  211  ls
+  212  cat crimescene | grep "vehicle"
+  213  cat crimescene | grep -w "vehicle"
+  214  cat crimescene | grep -w "Clue"
+  215  cat crimescene | grep -w "CLUE"
+  216  cd streets
+  217  ls
+  218  cat streets | grep -w "Buckingham"
+  219  cd ..
+  220  ls
+  221  men sort
+  222  man sort
+  223  cat vehicles
+  224  ls
+  225  cd ..
+  226  ls
+  227  cat hint1
+  228  cd mystery
+  229  ls
+  230  head -n 20 people
+  231  cd ..
+  232  cat hint2
+  233  cat hint3
+  234  ls
+  235  cd mystery
+  236  cat crimescene | grep "CLUE"
+  237  ls
+  238  head -n 10 vehicle
+  239  head -n 10 vehicles
+  240  cat vehicles | gerp "Annabel"
+  241  cat vehicles | grep "Annabel"
+  242  man sort
+  243  cat vehicles | grep "Annabel" | sort
+  244  head -n 20 vehicles
+  245  head -n 20 vehicles | grep "Annabel" | sort
+  246  ls
+  247  cd Desktop
+  248  ls
+  249  cd seir_526
+  250  ls
+  251  cd homeworks
+  252  ls
+  253  cd command-line-murder-mystery
+  254  ls
+  255  cat README.md
+  256  cat instructions
+  257  ls
+  258  cd mystery
+  259  ls
+  260  cat crimescene | grep "CLUE"
+  261  cat hint2
+  262  cd ..
+  263  cat hint2
+  264  cat hint3
+  265  cd mystery
+  266  ls
+  267  head -n 30 people | grep "Annabel"
+  268  head -n 40 people | grep "Annabel"
+  269  head -n 30 people
+  270  head -n 100 people | grep "Annabel"
+  271  cd Desktop
+  272  ls
+  273  cd seir_526
+  274  ls
+  275  cd homeworks
+  276  cd command-line-murder-mystery
+  277  ls
+  278  cat instructions
+  279  open cheatsheet.md
+  280  open cheatsheet.pdf
+  281  ls
+  282  cd mystery
+  283  ls
+  284  cat vehicles | grep -B "Annabel"
+  285  cat vehicles | grep -B 5  "Annabel"
+  286  cat vehicles | grep -B 4  "Annabel"
+  287  cat vehicles | grep -C 3  "Annabel"
+  288  ls
+  289  cd ..
+  290  cat hint5
+  291  cat hint4
+  292  ls
+  293  cd mystery
+  294  ls
+  295  cat people | grep "Annabel"
+  296  ls
+  297  head -n streets/Buckingham_Place | tail -1
+  298  cd streets
+  299  head -n streets/Buckingham_Place | tail -1
+  300  cat streets | grep "Buckingham"
+  301  cat streets | grep "Buckingham_Place"
+  302  cat streets | grep "Hart"
+  303  grep "Buckingham"
+  304  history
+  305  clear
+  306  pwd
+  307  cd Desktop
+  308  cd seir_526
+  309  cd homeworks
+  310  cd command-line-murder-mystery
+  311  ls
+  312  cd mystery
+  313  ls
+  314  cat vehicles | grep -C 3 "Annabel"
+  315  cat people | grep "Annabel"
+  316  ls -a
+  317  ls
+  318  cd interviews
+  319  ls
+  320  cd ..
+  321  ls
+  322  cd ..
+  323  ls
+  324  cat hint5
+  325  cd streets
+  326  head -n 179 | tail -n 1
+  327  cd Desktop/seir_526/homeworks/command-line-murder-mystery
+  328  ls
+  329  cat instructions
+  330  cd mystery
+  331  ls
+  332  cat people | gerp "Annabel"
+  333  cat people | grep "Annabel"
+  334  cat vehicles | grep -C 3 "Annabel"
+  335  ls
+  336  cd ..
+  337  ls
+  338  cat hint6
+  339  cat hint5
+  340  head -n 173 streets/Mattapan_Street | tail -n 1
+  341  ls
+  342  cd mystery
+  343  ls
+  344  cd streets
+  345  head -n 173 streets/Mattapan_Street | tail -n 1
+  346  ls
+  347  cat Buckingham_Place
+  348  ls
+  349  head -n 173 streets/Mattapan_Street | tail -n 1
+  350  cat Buckingham_Place | head -n 179 | tail -n 1
+  351  cat Hart_Place | head -n 40 | tail -n 1
+  352  cd ..
+  353  ls
+  354  cd interviews
+  355  cat interviews | grep "#699607"
+  356  pwd
+  357  cat #699607
+  358  cd Desktop/seir_526/homeworks/command-line-murder-mystery
+  359  ls
+  360  cd mystery
+  361  ls
+  362  history
+  363  ls
+  364  cd streets
+  365  cat Buckingham_Place | head -n 179 | tail -n 1
+  366  cat Hart_Place | head -n 40 | tail -n 1
+  367  cd ..
+  368  ls
+  369  cd interviews
+  370  ls
+  371  cat interview-699607
+  372  cat interview-47246024
+  373  cd ..
+  374  ls
+  375  cat vehicles | grep -C 3 "Honda"
+  376  ls
+  377  cat vehicles | grep "Honda" | grep "Blue"
+  378  cat interview-699607
+  379  cd interviews
+  380  cat interview-699607
+  381  cd ..
+  382  ls
+  383  cat vehicles | grep "L337"
+  384  man grep
+  385  ls
+  386  cd ..
+  387  ls
+  388  cat hint6
+  389  cat hint5
+  390  cat hint7
+  391  ls
+  392  cd mystery
+  393  ls
+  394  cat vehicles | grep "Honda\|Blue\|L337"
+  395  cat vehicles | grep -C 3 "Honda\|Blue\|L337"
+  396  ls
+  397  cd ..
+  398  ls
+  399  cat hint8
+  400  cat hint7
+  401  ls
+  402  cd mystery
+  403  ls
+  404  cd Desktop/seir_526/homeworks/command-line-murder-mystery
+  405  ls
+  406  cd mystery
+  407  ls
+  408  cat vehicles |\ngrep 
+  409  ls
+  410  cat vehicles | grep -C 3 "L337"
+  411  cat vehicles | grep -C 4 "L337"
+  412  cat vehicles | grep -C 5 "L337"
+  413  cat vehicles | grep -A 5 "L337"
+  414  ls
+  415  cat crimescene | gerp "CLUE"
+  416  cat crimescene | grep "CLUE"
+  417  ls
+  418  cd memberships
+  419  ls
+  420  cd ..
+  421  ls
+  422  cat hint8
+  423  ls
+  424  cd mystery
+  425  ls
+  426  cd memberships
+  427  ls
+  428  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  429  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -C 3 "Joe Germuska"
+  430  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  431  cd ..
+  432  ls
+  433  touch solvedTheCrime.txt
+  434  ls
+  435  history >> solvedTheCrime.txt
+  436  open solvedTheCrime.txt
+  437  echo "Jeremy Bowers did the crime" >> solvedTheCrime.txt
+  438  open solvedTheCrime.txt
+  439  cd Desktop/seir_526/homeworks/command-line-murder-mystery
+  440  ls
+  441  cd mystery
+  442  ls
+  443  cat people | grep "Jacqui"
+  444  cat people | grep "Jeremy"
+  445  cd ..
+  446  ls
+  447  open solvedTheCrime.txt
+  448  cd Desktop/seir_526/homeworks/command-line-murder-mystery
+  449  ls
+Jeremy Bowers did it
