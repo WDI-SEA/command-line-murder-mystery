@@ -1,0 +1,242 @@
+    1  ls
+    2  cd documents
+    3  ls
+    4  cd sei526
+    5  cd unit_1
+    6  ls
+    7  cd for_git
+    8  git status
+    9  zsh --version
+   10  sudo port install zsh zsh-completions
+   11  zsh --versin
+   12  zsh --version
+   13  echo $SHELL
+   14  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/master/tools/install.sh)"
+   15  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   16  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   17  brew doctor
+   18  brew install git
+   19  ping google.com
+   20  ssh-keygen -t rsa -b 4096 -C "jimmy.granadino@gmail.com"
+   21  eval "$(ssh-agent -s)"
+   22  open ~/.ssh/config
+   23  touch ~/.ssh/config
+   24  open ~/.ssh/config
+   25  ssh-add -K ~/.ssh/id_rsa
+   26  pbcopy < ~/.ssh/id_rsa.pub
+   27  pwd
+   28  ls
+   29  cd documents
+   30  ls
+   31  cd sei526
+   32  ls
+   33  cd unit_1
+   34  ls
+   35  cd for_git
+   36  git status
+   37  ls
+   38  pwd
+   39  cd documents
+   40  cd sei526
+   41  ls
+   42  touch README.md
+   43  ls
+   44  open .
+   45  ls
+   46  ls -l
+   47  ls -la
+   48  man ls
+   49  ls -S
+   50  ls -a
+   51  mkdir unit2
+   52  touch unit2/test.txt
+   53  ls -R
+   54  cd units
+   55  mkdir unit2
+   56  ls -R
+   57  touch unit2/test.txt
+   58  ls -R
+   59  open unit2/test.txt
+   60  cat unit2/test.txt
+   61  pwd
+   62  ls -R
+   63  cp unit2/text.txt unit1/anotherOne.txt
+   64  cp unit2/test.txt unit1/anotherOne.txt
+   65  cp unit2/test.txt unit 1/anotherOne.txt
+   66  mkdir unit1
+   67  cp unit2/test.txt unit1/anotherOne.txt
+   68  cat unit1/anotherOne.txt
+   69  cd unit
+   70  pwd
+   71  ls
+   72  cd unit1
+   73  pwd
+   74  ls
+   75  rm anotherOne.txt
+   76  ls
+   77  open units
+   78  pwd
+   79  cd units
+   80  ls
+   81  cd documents
+   82  sei5226
+   83  cd sei526
+   84  ls
+   85  cd units
+   86  cd unit1
+   87  touch secondMessage.txt
+   88  echo "Leave bananas and breakfast sandwiches here" >> secondMessage.txt
+   89  cat secondMessage.txt
+   90  echo "a" >> secondMessage.txt
+   91  echo "z" >> secondMessage.txt
+   92  cat secondMessage.txt
+   93  cat secondMessage.txt | sort
+   94  echo "dont forget the ginger shots" >> secondMessage.txt
+   95  cat secondMessage.txt | sort
+   96  cat secondMessage.txt | sort > sortedMessage.txt
+   97  ls
+   98  cat sortedMessage.txt
+   99  cat sortedMessage.txt | grep "banana"
+  100  cat sortedMessage.txt | grep "breakfast"
+  101  cat secondMessage.txt | grep "a"
+  102  history
+  103  man head
+  104  ..
+  105  cd unit1
+  106  ls
+  107  head -n 1 secondMessage.txt
+  108  head -n 2 secondMessage.txt
+  109  head -n 2 secondMessage.txt > twoLines.txt
+  110  cat twoLines.txt
+  111  pwd
+  112  cd ..
+  113  cd desktop
+  114  cd ..
+  115  cd documents
+  116  cd SEI526
+  117  mkdir homeworks
+  118  cd homeworks
+  119  git clone git@github.com:jimmygranadino/command-line-murder-mystery.git
+  120  ls
+  121  cd command-line-murder-mystery
+  122  ls
+  123  cat instructions
+  124  cd ..
+  125  compaudit | xargs chmod g-w,o-w
+  126  history
+  127  cd documents
+  128  cd sei526
+  129  ls
+  130  cd homeworks
+  131  ls
+  132  cd command-line-murder-mystery
+  133  ls
+  134  cat instructions
+  135  cd mystery
+  136  ls
+  137  cat crimescene
+  138  ls
+  139  cat crimescene | grep "CLUE"
+  140  cat people | grep "Annabel"
+  141  cd memberships
+  142  ls
+  143  cat AAA | grep "Annabel"
+  144  cat Delta_SkyMiles | grep "Annabel"
+  145  cat Terminal_City_Library | grep "Annabel"
+  146  cat Museum_of_Bash_History | grep "Annabel"
+  147  cat delta.txt | grep "Annabel"
+  148  cat museum.txt | grep "Annabel"
+  149  cat library.txt | grep "Annabel"
+  150  cd ..
+  151  cd interviews
+  152  ls
+  153  cd ..
+  154  cd streets
+  155  ls
+  156  head -n 4 Buckingham_Place
+  157  cd ..
+  158  ls
+  159  cd memberships
+  160  ls
+  161  cat Delta_SkyMiles | grep -i "Annabel"
+  162  ls -a
+  163  cd ..
+  164  ls -a
+  165  head -n 5 vehicles
+  166  cat memberships/Delta_SkyMiles | grep "Church"
+  167  cat hint1
+  168  clear
+  169  ls
+  170  cd ..
+  171  ls
+  172  cat instructions
+  173  nano cheatsheet.md
+  174  cd mystery
+  175  cd memberships
+  176  ls
+  177  grep "Annabel" *
+  178  grep -C 2 "Annabel" newfile.txt
+  179  cd ..
+  180  cat hint1
+  181  cd mystery
+  182  ls
+  183  head -n 20 people
+  184  cat people | grep "Annabel"
+  185  cd streets
+  186  ls
+  187  tail -n +178 Buckingham_Place | head -n 5
+  188  cd ..
+  189  cd interviews
+  190  ls
+  191  head interview-699607
+  192  cat interview-699607
+  193  cd ..
+  194  head vehicles
+  195  cat vehicles | grep "L337" *
+  196  grep "L337" * | grep "Honda" *
+  197  grep "L337" * && grep "Honda"
+  198  head -n 5 vehicles | grep "L337..9"
+  199  head -n 5 vehicles | grep "L337"
+  200  man -A
+  201  man
+  202  a
+  203  man -a
+  204  1
+  205  man pwd
+  206  man ls
+  207  grep -n 5 "L337"
+  208  grep -n 5 "L337" vehicles
+  209  cd ..
+  210  cat hint2
+  211  cat hint3
+  212  cat hint4
+  213  cat hint5
+  214  cat hint6
+  215  cat hint7
+  216  cat hint8
+  217  grep -A 5 "L337" mystery/vehicles
+  218  cd mystery
+  219  ls
+  220  cat people | grep "Annabel"
+  221  cd streets
+  222  ls
+  223  head -n 172 Mattapan_Street | tail -n 2
+  224  head -n 173 Mattapan_Street | tail -n 1
+  225  cd ..
+  226  head interviews/interview-9437737
+  227  cd memberships
+  228  ls
+  229  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  230  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  231  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacque Maher"
+  232  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  233  cd ..
+  234  history
+  235  cat crimescene | grep "CLUE"
+  236  cat people | grep "Jacqui"
+  237  cat people | grep "Jeremy"
+  238  head -n 284 streets/Dunstable_Road | tail -n 1
+  239  head interviews/interview-9620713
+  240  ls
+  241  cd ..
+Killer is Jeremy Bowers by process of elimination
