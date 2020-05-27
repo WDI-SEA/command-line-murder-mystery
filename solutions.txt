@@ -1,0 +1,185 @@
+    1  xcode-select --install
+    2  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    3  brew doctor
+    4  install git
+    5  brew install git
+    6  ping npr.org
+    7  ssh-keygen -t rsa -b 4096 -C "jennifer.dephillips@gmail.com"
+    8  eval "$(ssh-agent -s)"
+    9  open ~/.ssh/config
+   10  touch ~/.ssh/config
+   11  open ~/.ssh/config
+   12  ssh-add -K ~/.ssh/id_rsa
+   13  pbcopy < ~/.ssh/id_rsa.pub
+   14  clear
+   15  pwd
+   16  ls
+   17  cd Desktop
+   18  mkdir seir_526
+   19  cd seir_526
+   20  mkdir units
+   21  ls
+   22  mkdir units/unit1
+   23  cd units
+   24  ls
+   25  touch README.md
+   26  open .
+   27  ls -l
+   28  ls -la
+   29  man ls
+   30  ls -S
+   31  mkdir unit2
+   32  touch unit2/test.txt
+   33  ls -R
+   34  open unit2/test.txt
+   35  cat unit2/test.txt
+   36  pwd
+   37  ls -R
+   38  cp unit2/test.txt unit1/anotherOne.txt
+   39  ls -R
+   40  cat unit1/anotherOne.txt
+   41  cd unit1
+   42  pwd
+   43  rm anotherOne.txt
+   44  ls
+   45  touch secondMessage.txt
+   46  echo "This is another secret message" >> secondMessage.txt
+   47  cat secondMessage.tct
+   48  cat secondMessage.txt
+   49  echo "more words" >> secondMessage.txt
+   50  cat secondMessage.txt
+   51  echo "a" >> secondMessage.txt
+   52  echo "z" >> secondMessage.txt
+   53  cat secondMessage.txt
+   54  cat secondMessage.txt | sort
+   55  cat secondMessage.txt | sort > sortedMessage.txt
+   56  ls -l
+   57  cat sortedMessage.txt
+   58  cat sortedMessage.txt | grep "secret"
+   59  history
+   60  head -n 2 secondMessage.txt
+   61  head -n 2 secondMessage > twoLines.txt
+   62  cat twoLines.txt
+   63  head -n 2 secondMessage.txt > twoLines.txt
+   64  cat twoLines.txt
+   65  cd ..
+   66  history > history.txt
+   67  head -n 5 history.txt
+   68  clear
+   69  pwd
+   70  cd Desktop
+   71  cd seir_526
+   72  mkdir homework
+   73  cd homework
+   74  git@github.com:jdephil/command-line-murder-mystery.git
+   75  git clone git@github.com:jdephil/command-line-murder-mystery.git
+   76  ls
+   77  cd command-line-murder-mystery
+   78  ls
+   79  cat instructions
+   80  cat README.txt
+   81  cat README.md
+   82  cd mystery
+   83  ls
+   84  cd crimescene
+   85  ls
+   86  cat crimescene
+   87  cat crimescene | grep "clue"
+   88  cat crimescene | grep "CLUE"
+   89  ls
+   90  cat people
+   91  ls
+   92  cd memberships
+   93  ls
+   94  cat AAA
+   95  cd ..
+   96  ls
+   97  cd interviews
+   98  ls
+   99  cd ..
+  100  ls
+  101  cat crimescene | grep "CLUE"
+  102  cat interviews | grep "Annabel"
+  103  cd interviews | grep "Annabel"
+  104  cd interviews
+  105  grep "Annabel"
+  106  grep Annabel *
+  107  grep "Annabel" *
+  108  ls
+  109  grep -l Annabel
+  110  grep -r Annabel ~/interviews/*
+  111  grep -r Annabel ~/Desktop/seir_526/*
+  112  cd **
+  113  cd mystery
+  114  cd ..
+  115  cd hint4
+  116  cat hint4
+  117  ls
+  118  cd ..
+  119  ls
+  120  cat hint4
+  121  cat hint1
+  122  cat hint2
+  123  cat hint3
+  124  cat hint5
+  125  cd mystery
+  126  cd streets
+  127  \thead -n 173 streets/Mattapan_Street | tail -n 1
+  128  head -n 20 ls
+  129  ls
+  130  head -n 179 streets/Buckingham_Place | tail -n 1
+  131  head -n 179 Buckingham_Place | tail -n 1
+  132  cd ..
+  133  cd interviews
+  134  cat INTERVIEW #699607
+  135  cat interview-669607
+  136  cat interview-699607
+  137  cd ..
+  138  ls
+  139  cat vehicles | grep L337
+  140  head -n 10 vehicles
+  141  cat vehicles | sort
+  142  cat vehicles
+  143  cd ..
+  144  ls
+  145  cat hint 7
+  146  cat hint7
+  147  cd mystery
+  148  grep -A 5 "L337" mystery/vehicles
+  149  grep -A 5 "L337" vehicles
+  150  ls
+  151  cd memberships
+  152  ls
+  153  cat delta.txt | grep "Joe Germuska"
+  154  cat delta.txt | grep "Germuska"
+  155  cat delta.txt | grep "Bowers"
+  156  cat museum.txt | grep "Bowers"
+  157  cat library.txt | grep "Bowers"
+  158  cd ..
+  159  ls
+  160  cat hint8
+  161  cat instructions
+  162  cat solution
+  163  ls
+  164  mystery
+  165  ls
+  166  cat people | grep "Bowers"
+  167  cd streets
+  168  ls
+  169  head -n 284 Dunstable_Road | tail -n 1
+  170  cd ..
+  171  ls
+  172  cd interviews
+  173  cat interview-9620713
+  174  cd ..
+  175  ls
+  176  cat people | "Germuska"
+  177  cat people | grep "Germuska"
+  178  cd ..
+  179  cd mystery/streets
+  180  head -n 275 Plainfield_Street | tail -n 1
+  181  cd ..
+  182  cat interview-9620713
+  183  cd interviews
+  184  cat interview-29741223
+  185  cd ..
