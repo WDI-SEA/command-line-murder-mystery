@@ -333,6 +333,6 @@
   333  ls
   334  cat people | grep "Jacqui Maher"
   335  cd ../
-  336  echo "The person who commited the murder was none other than Jeremy Bowers. 
-  337  echo "The person who commited the murder was none other than Jeremy Bowers. We have a witness that puts Mr Bowers car on the scene of the crime and is the only male with memberships to all of the mystery membership cards with no name on them. Take him away\n
-  338  echo "The person who commited the murder was none other than Jeremy Bowers. We have a witness that puts Mr Bowers car on the scene of the crime and is the only male with memberships to all of the mystery membership cards with no name on them. Take him away"\n
+  336  echo "The person who committed the murder was none other than Jeremy Bowers. 
+  337  echo "The person who committed the murder was none other than Jeremy Bowers. We have a witness that puts Mr Bowers car on the scene of the crime and is the only male with memberships to all of the mystery membership cards with no name on them. Take him away\n
+  338  echo "The person who committed the murder was none other than Jeremy Bowers. We have a witness that puts Mr Bowers car on the scene of the crime and is the only male with memberships to all of the mystery membership cards with no name on them. Take him away"\n
