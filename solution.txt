@@ -1,0 +1,201 @@
+  180  cat instructions
+  181  pwd
+  182  ls
+  183  cd Desktop
+  184  ls
+  185  cd SEIR_526
+  186  ls
+  187  cd Units
+  188  ls
+  189  cd Unit_1
+  190  ls
+  191  cd homework
+  192  ls
+  193  cd command-line-murder-mystery
+  194  ls
+  195  cat instructions
+  196  cd mystery
+  197  ls
+  198  cd crimescene
+  199  cat crimescene
+  200  cat crimescene | grep "CLUE"
+  201  ls
+  202  cd interviews
+  203  LS
+  204  cd .. 
+  205  cd interviews
+  206  cat interview-000296
+  207  cd .. 
+  208  ls
+  209  cd memberships
+  210  ls
+  211  cat AAA
+  212  cat AAA | sort
+  213  ls
+  214  clear
+  215  man diff
+  216  ls
+  217  diff %= AAA Delta_SkyMiles
+  218  diff --help 
+  219  diff --GTYPE-group-format=%= AAA Delta_SkyMiles
+  220  diff --GTYPE-group-format="%=" AAA Delta_SkyMiles
+  221  diff --GTYPE %= AAA Delta_SkyMiles
+  222  --GTYPE-group-format= %= AAA Delta_SkyMiles
+  223  diff GTYPE-group-format = %= AAA Delta_SkyMiles
+  224  diff -r
+  225  diff -r AAA Delta_SkyMiles
+  226  cd..
+  227  cd .. 
+  228  ls
+  229  cd ..
+  230  ls
+  231  cat cheatsheet.md
+  232* cd mystery
+  233  ls
+  234  cd mystery
+  235  grep -r "Annabel" 
+  236  grep -r "Annabel" *
+  237  grep -r "male" *
+  238  grep -r "Fugslang" *
+  239  grep -r "Fuglsang" *
+  240  grep -r Oluwasegun *
+  241  grep -r "New Zealand" *
+  242  grep -r "Sun" *
+  243  cat interviews/interview-94126412
+  244  grep -r "tall" *
+  245  cd .. 
+  246  cat cheatsheet.md
+  247  cd memberships
+  248  ls
+  249  cd mystery
+  250  cd memberships
+  251  ls
+  252  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History > suspectmemberships
+  253  cat AAA.txt Delta_SkyMiles.txt Terminal_City_Library.txt Museum_of_Bash_History > suspectmemberships.txt
+  254  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History > suspectmemberships.txt
+  255  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History 
+  256  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort
+  257  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort > allmembers
+  258  cd ..
+  259  cat cheatsheet.md
+  260  ls
+  261  cd mystery
+  262  cat allsuspects
+  263  ls
+  264  cat allmembers
+  265  ls
+  266  cd memberships
+  267  cat allmembers
+  268  cd ..
+  269  cat cheatsheet.md
+  270  head allmembers
+  271  cd mystery
+  272  cd memberships
+  273  head allmembers
+  274  head -n 20 allmembers
+  275  head -n +20 allmembers
+  276  tail -n +20 all members | -n 20
+  277  tail -n +20 all members | head -n 20
+  278  tail -n +20 allmembers | head -n 20
+  279  tail -n +17  allmembers | head -n 20
+  280  tail -n +37  allmembers | head -n 20
+  281  tail -n +60  allmembers | head -n 20
+  282  tail -n +80  allmembers | head -n 20
+  283  tail -n +100  allmembers | head -n 20
+  284  tail -n +120  allmembers | head -n 20
+  285  tail -n +140  allmembers | head -n 20
+  286  tail -n +160  allmembers | head -n 20
+  287  tail -n +180  allmembers | head -n 20
+  288  tail -n +200  allmembers | head -n 20
+  289  man grep
+  290  cd mystery
+  291  cd ..
+  292  cd mystery
+  293  cd ..
+  294  ls
+  295  cat hint1
+  296  tail -n +220  allmembers | head -n 40
+  297  cd memberships
+  298  cd mystery
+  299  cd memberships
+  300  cd allmembers
+  301  tail -n +220  allmembers | head -n 40
+  302  tail -n +260  allmembers | head -n 40
+  303  tail -n +300  allmembers | head -n 40
+  304  tail -n +340  allmembers | head -n 40
+  305  tail -n +380  allmembers | head -n 40
+  306  tail -n +420  allmembers | head -n 40
+  307  tail -n +460  allmembers | head -n 40
+  308  tail -n +500  allmembers | head -n 40
+  309  tail -n +540  allmembers | head -n 40
+  310  cd .. 
+  311  cat hint2
+  312  cat hint3
+  313  cd mystery
+  314  ls
+  315  cat people
+  316  grep "Annabel" *
+  317  grep "Annabel Church" *
+  318  grep -r "Annabel Church" *
+  319  ls
+  320  cat crimescene
+  321  grep "Annabel Church" crimescene
+  322  grep -r "Annabel Church" *
+  323  cd .. 
+  324  cat hint3
+  325  cat hint4
+  326  cat hint5
+  327  head -n 179 street/Buckingham_Place | tail -n 1
+  328  head -n 179 streets/Buckingham_Place | tail -n 1
+  329  cd mystery
+  330  head -n 179 streets/Buckingham_Place | tail -n 1
+  331  cat INTERVIEW #699607
+  332  cd interviews
+  333  cat INTERVIEW #699607
+  334  cat interview #699607
+  335  ls
+  336  cat interview-699607
+  337  cd .. 
+  338  grep -r "Annabel" *
+  339  head -n 40 streets/Hart_Place | tail -n 1
+  340  cd interviews
+  341  cat interview-47246024
+  342  cd .. 
+  343  ls
+  344  grep -r "L337" *
+  345  grep -r "blue Honda" *
+  346  cat vehicles
+  347  grep -r "Honda" "L337" "9" *
+  348  grep -r "L337" *
+  349  cat vehicles: License Plate L337ZR9
+  350  cat vehicles:License_Plate_L337ZR9
+  351  grep -r "L337ZR9" *
+  352  cd vehicles
+  353  cd .. 
+  354  cat cheatsheet.md
+  355  cd mystery
+  356  grep -r "L337ZR9" *
+  357  grep -r "Honda" *
+  358  grep -r "Honda" "L337" *
+  359  clear
+  360  grep -r "Honda" "L337" *
+  361  grep -r "Make: Honda" "License Plate: L377" *
+  362  grep -r "L337ZR9" *
+  363  grep -r "L337" *
+  364  cat vehicles:LicensePlate L337ZR9
+  365  cat vehicles
+  366  grep -r "L337ZR9" *
+  367  grep -r "L337" *
+  368* cd .. 
+  369* cat cheatsheet.md
+  370  grep -A 4 "L377ZR9" 
+  371  grep -A 4 "L377ZR9" *
+  372  grep -r -A 4 "L377ZR9" *
+  373  grep -r -A 4 "L337ZR9" *
+  374  grep -r -A 4 "L337" *
+  375  grep -r "Aron Pilhofer" *
+  376  grep -r "Joe Germuska" *
+  377  grep -r "Jeremy Bowers" *
+  378  cd .. 
+  379  touch solution.txt 
+The killer is Jeremy Bowers.
