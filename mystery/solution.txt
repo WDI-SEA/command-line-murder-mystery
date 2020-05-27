@@ -1,0 +1,351 @@
+    1  ls
+    2  pwd
+    3  nvm
+    4  npm -v
+    5  code .
+    6  homebrew install nvm
+    7  cd ~
+    8  quit
+    9  brew install nvm
+   10  brew install npm
+   11  brew install nvm
+   12  brew install gcc
+   13  xcode-select --install
+   14  brew install nvm
+   15  mkdir ~/.nvm
+   16  nano ~/.bash_profile
+   17  source ~/.bash_profile
+   18  source $(brew --prefix nvm)/nvm.sh
+   19  nvm install 0.12
+   20  npm -v
+   21  irb
+   22  code .
+   23  git pull
+   24  git pull upstream 
+   25  git remote -v
+   26  https://github.com/paulpadian/paul-toy-problems.git
+   27  cd ~
+   28  mkdir toy-problems
+   29  cd toy-problems
+   30  git clone https://github.com/paulpadian/paul-toy-problems.git
+   31  el3fr33
+   32  cd ~
+   33  mkdir toy-problems
+   34  toy-problems % got clone https://github.com/paulpadian/paul-toy-problems.git
+   35  cd toy-problems
+   36  got clone https://github.com/paulpadian/paul-toy-problems.git
+   37  git clone https://github.com/paulpadian/paul-toy-problems.git
+   38  get clone https://github.com/paulpadian/paul-toy-problems.git
+   39  git clone https://github.com/paulpadian/paul-toy-problems.git
+   40  git clone https://github.com/paulpadian/paul-toy-problems.git
+   41  git clone
+   42  git clone https://github.com/paulpadian/paul-toy-problems.git
+   43  git clone https://github.com/paulpadian/paul-toy-problems.git
+   44  git clone https://github.com/paulpadian/paul-toy-problems.git
+   45  git clone https://github.com/paulpadian/paul-toy-problems.git
+   46  ls
+   47  cd paul-toy-problems
+   48  code .
+   49  cd ..
+   50  open 
+   51  open .
+   52  git clone https://github.com/haydenbass13/paul-toy-problems.git
+   53  git checkout -b paul
+   54  ls
+   55  cd paul-toy-problems
+   56  git checkout -b paul
+   57  code .
+   58  npm run test
+   59  npm run test -- -g 'balancedParens.js'
+   60  npm run test -- -g 'balancedParens.js'
+   61  npm run test -- -g 'balancedParens.js'
+   62  npm run test -- -g 'balancedParens.js'
+   63  npm run test -- -g 'balancedParens.js'
+   64  npm run test -- -g 'balancedParens.js'
+   65  npm run test -- -g 'balancedParens.js'
+   66  npm run test -- -g 'balancedParens.js'
+   67  git status
+   68  git add .
+   69  git status
+   70  git commit -m 'not quite passing all tests yet' 
+   71  gst
+   72  git status
+   73  git push
+   74  git push --set-upstream origin paul
+   75  git pull origin master
+   76  git pull origin master
+   77  npm run test -- -g 'balancedParens.js'
+   78  npm run test -- -g 'balancedParens.js'
+   79  npm run test -- -g 'balancedParens.js'
+   80  git pull origin master
+   81  git pull origin master
+   82  npm run test -- -g '<name of test suite>\nnpm run test -- -g '<name of test suite>
+   83  npm run test -- -g sum-array-tests.ts
+   84  npm run test -- -g 'sum-array-tests.ts'
+   85  npm run test -- -g 'sum-array-tests.ts'
+   86  git commit
+   87  git commit
+   88  git pushj
+   89  git push
+   90  nom run test
+   91  npm run test
+   92  git clone
+   93  git clone https://github.com/haydenbass13/paul-toy-problems.git
+   94  npm run test
+   95  npm run test
+   96  npm run test 'sum-array-test.ts'
+   97  npm run test sum-array-test.ts
+   98  npm run test 
+   99  npm run test 'sum-array-tests.ts'
+  100  npm run test
+  101  npm run test
+  102  npm run test 'sum-array-test.ts'
+  103  npm run test
+  104  npm run test
+  105  npm run test
+  106  npm run test
+  107  npm run test
+  108  npm run test
+  109  git comit 
+  110   commit
+  111  git commit
+  112  git
+  113  git --version
+  114  git ls
+  115  mkdir sei526
+  116  ls
+  117  brew install zsh
+  118  zsh --version
+  119  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  120  $ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+  121  zsh --version
+  122  echo $SHELL
+  123  zsh -- version
+  124  zsh --version
+  125  cmd
+  126  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  127  xcode-select --install
+  128  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  129  brew doctor
+  130  softwareupdate --all
+  131  --install
+  132  --force
+  133  ls -al ~/.ssh
+  134  $ ssh-keygen -t rsa -b 4096 -C "pdpadian@gmail.com"
+  135  ssh-keygen -t rsa -b 4096 -C "pdpadian@gmail.com"
+  136  eval "$(ssh-agent -s)"
+  137  open ~/.ssh/config
+  138  touch ~/.ssh/config
+  139  open ~/.ssh/config
+  140  ssh-add -K ~/.ssh/id_rsa
+  141  pbcopy < ~/.ssh/id_rsa.pub
+  142  pwd
+  143  ls
+  144  cd desktop
+  145  mkdir
+  146  mk dir sei_526
+  147  mkdir sei_526
+  148  cd sei_526
+  149  ls
+  150  mkdir units
+  151  kdir unit1
+  152  mkdir unit1
+  153  cd units
+  154  ls
+  155  cd unit
+  156  cd units
+  157  mkdir
+  158  ls
+  159  cd unit
+  160  cd unit1
+  161  touch README.md
+  162  ls
+  163  open
+  164  open .
+  165  la -la
+  166  la -a
+  167  ls -a
+  168  man ls
+  169  open units
+  170  open desktop
+  171  cd desktop
+  172  ls
+  173  cd sei_526
+  174  cd units
+  175  mkdir unit 2
+  176  ls
+  177  delete unit
+  178  cd unit1
+  179  ls
+  180  touch sendMessage.txt
+  181  echo "This is another secret message ahahhaha"
+  182  echo "This is another secret message" >> secondMessage.txt
+  183  cat secondMessage.txt
+  184  echo "z" >> secondMessage.txt
+  185  echo "z" >> sendMessage.txt
+  186  touch secondMessage.txt
+  187  cat secondMessage.txt 
+  188  cat secondMessage.txt | sort > sortedMessage.txt
+  189  ls -l
+  190  cat sorted
+  191  cat sortedMessage.txt | grep "secret"
+  192  history
+  193  ..
+  194  head
+  195  ls
+  196  cd desktop
+  197  ls
+  198  cd sei_526
+  199  ls
+  200  cd units
+  201  ls
+  202  cd unit
+  203  git@github.com:paulpadian/command-line-murder-mystery.git
+  204  pwd
+  205  ls
+  206  cd
+  207  cd desktop
+  208  ls
+  209  cd sei_526
+  210  mkdir homeworks
+  211  cd homeworks
+  212  git@github.com:paulpadian/command-line-murder-mystery.git
+  213  git git@github.com:paulpadian/command-line-murder-mystery.git
+  214  git clone git@github.com:paulpadian/command-line-murder-mystery.git
+  215  ls
+  216  history
+  217  cd desktop
+  218  cd sei_526
+  219  ls
+  220  cd homework
+  221  cd homeworks
+  222  ls
+  223  cd command-line-murder-mystery
+  224  head -n 20 people
+  225  grep "CLUE" crimescene
+  226  ls
+  227  cd mystery
+  228  ls
+  229  peope
+  230  cd people
+  231  ls people
+  232  ..
+  233  ls
+  234  cd hint1
+  235  echo hint1
+  236  echo | hint1
+  237  open people
+  238  open hint1
+  239  cd mystery
+  240  ..
+  241  ls
+  242  open hint2
+  243  cd mystery
+  244  grep "CLUE" crimescene
+  245  ls
+  246  open people 
+  247  ..
+  248  open hint3
+  249  head -n 20 vehicles
+  250  cd mystery
+  251  head n- 20 vehicles
+  252  open vehicles
+  253  ..
+  254  ls
+  255  open hint4
+  256  cd mystery
+  257  grep "Annabel" people\n
+  258  ..
+  259  open hint5
+  260  cd mystery
+  261  head -n 173 streets/Mattapan_Street | tail -n 1\n
+  262  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  263  grep -A 5 "L337" mystery/vehicles
+  264  grep -A 5 "L337" mystery
+  265  grep -A 5 "L337" vejocles
+  266  grep -A 5 "L337" vehicles
+  267  ls
+  268  cd interviews
+  269  ls
+  270  open interview-9437737
+  271  ..
+  272  open hint3
+  273  open hint4
+  274  grep "Annabel" people
+  275  open hint2
+  276  grep "CLUE" crimescene
+  277  ls
+  278  cd mystery
+  279  ls
+  280  grep "CLUE" crimescene
+  281  ..
+  282  head -n 173 streets/Mattapan_Street | tail -n 1\n
+  283  ls
+  284  cd mystery
+  285  ls
+  286  head -n 173 streets/Mattapan_Street | tail -n 1\n
+  287  grep "Annabel" people
+  288  head -n 179 streets/Buckingham_Palace | tao; -n 1
+  289  head -n 173 streets/Buckingham_Place | tail -n 1\n
+  290  head -n Haley_Street | tail -n 1
+  291  head -n 179 streets/Haley_Street | tail -n 1
+  292  head -n 173 streets/Mattapan_Street | tail -n 1
+  293  ls
+  294  open crimescen
+  295  open crimescene
+  296  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  297  history
+  298  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  299  cd desktop
+  300  ls
+  301  cd sei_526
+  302  cd homeworks
+  303  ls
+  304  cd command-line-murder-mystery
+  305  ls
+  306  cd mystery
+  307  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  308  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabelh"
+  309  cd desktop
+  310  cd sei_526
+  311  cd homeworks
+  312  cd command-line-murder-mystery
+  313  cd mystery
+  314  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  315  grep -A 5 "L337" mystery/vehicles
+  316  ls
+  317  grep -A 5 "L337" vehicles
+  318  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"\n
+  319  ls
+  320  cd memberships
+  321  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"\n
+  322  cat Fitness_Galaxy AAA United_MileagePlus | grep  "Joe Germuska"\n
+  323  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  324  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc -l
+  325  ls
+  326* grep "CLUE" crimescene
+  327* cd desktop
+  328* cd
+  329* cd desktop
+  330* cd sei_526
+  331* cd homeworks
+  332* cd command-line-murder-mystery
+  333* grep "CLUE" crimescene
+  334* cd mystery
+  335* grep "CLUE" crimescene
+  336  cat Museum_of_Bash_History AAA Delta_SkyMiles  | grep "Jeremy Bowers" | wc -l
+  337  cat Museum_of_Bash_History AAA Delta_SkyMiles  | grep "Joe Germuska" | wc -l
+  338  ..
+  339  ls
+  340  cd mystery
+  341  ls
+  342  open cat_solution
+  343  cat hint1
+  344  ..
+  345  cat hint1
+  346  cat solution
+  347  cd mystery
+  348  cat solution
+  349  touch solution.txt
+  350  history > soliution.txt
+Joe Germuska
