@@ -1,0 +1,89 @@
+    1  history
+    2  pwd
+    3  ls
+    4  cd Documents/general-assembly
+    5  ls
+    6  cd homework
+    7  ls
+    8  cd command-line-murder-mystery
+    9  ls
+   10  cat instructions
+   11  open cheatsheet.pdf
+   12  cd mystery
+   13  ls
+   14  cat crimescene
+   15  cat crimescene | grep CLUE
+   16  cat crimescene | grep CLUE >> clues.txt
+   17  ls
+   18  cat people
+   19  ls
+   20  cd ..
+   21  ls
+   22  cat hint1
+   23  cat hint2
+   24  ls
+   25  cd mystery
+   26  ls
+   27  open clues.txt
+   28  cd ..
+   29  cat hint3
+   30  cd mystery
+   31  ls
+   32  head people.txt
+   33  head people
+   34  man head
+   35  head -n 25 names.txt | sort
+   36  head -n 25 people | sort
+   37  cat people | grep Annabel
+   38  cd streets
+   39  ls
+   40  cat Hart_Place
+   41  cat Buckingham_Place
+   42  cat Hart_Place | grep 40
+   43  grep 40 Hart_Place
+   44  head -n 40 Hart_Place
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd interviews
+   49  ls
+   50  cat interview-47246024
+   51  ls
+   52  cd ..
+   53  ls
+   54  cd streets
+   55  head -n 179 Buckingham_Place
+   56  cd ..
+   57  ls
+   58  cd interviews
+   59  cat interview-699607
+   60  cd ..
+   61  ls
+   62  cat vehicles
+   63  vehicles | grep L337
+   64  cat vehicles | grep L337
+   65  ls
+   66  cd ..
+   67  ls
+   68  cat hint3
+   69  cat hint4
+   70  cat hint5
+   71  cat hint6
+   72  cat hint7
+   73  grep -A "L337" mystery/vehicles
+   74  grep -A 5 "L337" mystery/vehicles
+   75  cat hint8
+   76  ls
+   77  cd mystery
+   78  ls
+   79  cd memberships
+   80  ls
+   81  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Joe Germuska
+   82  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+   83  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+   84  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers""\ncat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"\n\nq\ncd ..\nls\n"
+   85  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+   86  ls
+   87  cd ..
+   88  ls
+Woah! It was freaking Jeremy Bowers???
