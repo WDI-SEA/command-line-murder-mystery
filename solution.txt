@@ -1,0 +1,488 @@
+Jeremy Bowers
+
+1  ld
+2  ld
+3  -help
+4  pwd
+5  ls
+6  cd documents
+7  ls
+8  cd pics
+9  cp -R pics ../P
+10  cd documents
+11  ls
+12  cd ..
+13  pw
+14  ls
+15  cp -R pics ../Pictures
+16  ls
+17  cd pics
+18  ls
+19  cd ..
+20  cd ..
+21  cd Pictures
+22  ls
+23  rm pics
+24  rm -r pics
+25  ls
+26  cd ..
+27  cd documents
+28  ls
+29  cp -R pics/. ../Pictures
+30  ls
+31  cd pics
+32  ls
+33  cd ..
+34  cd ..
+35  ls
+36  cd Pictures
+37  ls
+38  cd ..
+39  cd Document
+40  cd Documents
+41  ls 
+42  ls
+43  cd ..
+44  cd Documents
+45  rm -r pics
+46  ls
+47  ls
+48  cd ..
+49  cd 
+50  ls
+51  pwd
+52  ls
+53  cd Applications
+54  pwd
+55  ls
+56  ls
+57  ls
+58  cd ..
+59  ls
+60  cd downloads
+61  ls
+62  sudo spctl --master-disable
+63  ls -a
+64  ls
+65  rn -r /downloads/
+66  rm -r /downloads/
+67  rm -R
+68  ls
+69  rm -R
+70  rm 
+71  rm -iR /downloads/
+72  rm -iR *
+73  ls
+74  cd
+75  pwd
+76  cd
+77  pwd
+78  ls
+79  cd Desktop
+80  ls
+81  rm -iR 
+82  rm -iR *
+83  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+84  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+85  git --version
+86  git version
+87  git /help
+88  git version --help
+89  git --help
+90  git update
+91  git version update
+92  git version
+93  ls
+94  pwd
+95  cd documents
+96  ls
+97  cd General Assembly
+98  cd General
+99  ls
+100  cd general_assembly
+101  ls
+102  mkdir for_git
+103  cd for_git
+104  git init
+105  git staus
+106  git status
+107  touch git_test.txt
+108  git status
+109  git add git_test.txt
+110  git stauts
+111  git status
+112  git commit -m "initial commit"
+113  git status
+114  ls
+115  clear
+116  git add remote origin
+117  git remote add orign  https://generalassembly.zoom.us/j/4088960873?pwd=dE1YTzJ1SjZVdHBPY0NyUDJqbUx1dz09
+118  git remote add https://github.com/weston-bailey/for_git.git
+119  git push origin master
+120  exit
+121  brew --version
+122  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+123  brew install zsh
+124  chsh -s /bin/zsh
+125  chsh -s /bin/zsh
+126  pwd
+127  cd general_assembly
+128  cd documents
+129  ls
+130  cd  general_assembly
+131  ls
+132  cd for_git
+133  git
+134  zsh
+135  zsh version
+136  zsh --version
+137  zsh
+138  zsh
+139  clear
+140  zsh
+141  zsh --version
+142  zsh
+143  zsh --help
+144  zsh option
+145  pwd
+146  zsh
+147  zsh
+148  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+149  pwd
+150  xcode-select --install
+151  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+152  clear
+153  zsh
+154  sude -s
+155  sudo -s
+156  sudo chmod -R 755 ~/.oh-my-zsh
+157  sudo -s
+158  chmod 755 /usr/local/share/zsh
+159  chmod 755 /usr/local/share/zsh/site-functions
+160  sudo -s
+161  chown -R $(whoami) /usr/local/share/zsh
+162  sudo -s
+163  compaudit | xargs chmod g-w,o-w
+164  sudo -s
+165  compaudit | xargs chmod g-w,o-w
+166  ZSH_DISABLE_COMPFIX
+167  brew doctor
+168  brew dotor
+169  brew doctor
+170  brew install git
+171  sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
+172  chmod u+w /usr/local/share/zsh /usr/local/share/zsh/site-functions
+173  brew install git
+174  sudo -s
+175  zshrc
+176  zsh
+177  ping google.com
+178  pwd
+179  zsh
+180  sudo
+181  sudo -s
+182  source $ZSH/oh-my-zsh.sh
+183  h
+184  $ ssh-keygen -t rsa -b 4096 -C "wdbailey87@gmail.com"
+185  ssh-keygen -t rsa -b 4096 -C "wdbailey87@gmail.com"
+186  eval "$(ssh-agent -s)"
+187  open ~/.ssh/config
+188  touch ~/.ssh/config
+189  open ~/.ssh/config
+190  ssh-keygen -t rsa -b 4096 -C "wdbailey87@gmail.com"
+191  eval "$(ssh-agent -s)"
+192  open ~/.ssh/config
+193  touch ~/.ssh/config
+194  open ~/.ssh/config
+195  ssh-add -K ~/.ssh/id_rsa
+196  pbcopy < ~/.ssh/id_rsa.pub
+197  ping google.com
+198  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+199  zsh
+200  sudo
+201  sudo -s
+202  pwd
+203  ls
+204  cd Desktop
+205  ls
+206  mkdir sier_526
+207  cd sier_526
+208  mkdir units
+209  cd units
+210  mkdir unit1
+211  ls
+212  cd unit1
+213  ls
+214  touch README.md
+215  ls
+216  cd ..
+217  ls
+218  touch README.md
+219  ls
+220  open .
+221  ls -l
+222  ls -l -a
+223  man ls
+224  ls -laS
+225  mkdir unit2
+226  touch unit/test.txt
+227  touch unit2/test.txt
+228  ls -R
+229  open unit2/test.txt
+230  cat unit2/test.txt
+231  ls -R
+232  cp unit2/test.txt unit1/another1.txt
+233  ls -R
+234  cat unit1/another1.txt
+235  cd unit1
+236  pwd
+237  rm another1.txt
+238  ls
+239  rm README.md
+240  ls
+241  echo "derp"
+242  touch secondMessage.txt
+243  ls
+244  echo "this is another secret message ahahaahahahahaha" >> secondMessage.txt
+245  cat secondMessage.txt
+246  echo "some more words" >> secondMessage.txt
+247  cat secondMessage.txt
+248  echo "a" >> secondMessage.txt
+249  echo "z" >> secondMessage.txt
+250  cat secondMessage.txt
+251  cat secondMessage | sort
+252  cat secondMessage.txt | sort
+253  cat secondMessage | sort sortedMessage.txt
+254  cat secondMessage.txt | sort sortedMessage.txt
+255  cat secondMessage.txt | sort > sotedMessage.txt
+256  cat sortedMessage.txt
+257  cat sotedMessage.txt
+258  cat sotedMessage.txt | grep "secret"
+259  history
+260  clear
+261  history
+262  ping google.com
+263  cd Desktop
+264  ls
+265  cd sier_562
+266  sier_526
+267  ls
+268  cd unit1
+269  cd units
+270  cd unit1
+271  ls
+272  head -n 1 secondMessage.txt
+273  cd ..
+274  history
+275  history > history.txt
+276  cat history.txt
+277  pwd
+278  cd ..
+279  cd..
+280  cd ..
+281  cd sier_526
+282  mkdir homeworks
+283  cd homeworks
+284  git clone git@github.com:weston-bailey/command-line-murder-mystery.git
+285  ls
+286  cd command-line-murder-mystery
+287  ls
+288  cat README.md
+289  ls
+290  cat instructions
+291  sudo -s
+292  ls -a
+293  cd zshrc
+294  cd .zshrc
+295  cat zshrc
+296  open .zshrc
+297  sudo -s
+298  man zsh
+299  zshoptions
+300  man zsh
+301  cd Desktop
+302  cd seir_526
+303  cd homeworks
+304  ls
+305  cd command-line-murder-mystery
+306  cd streets
+307  cd mystery
+308  history
+309  cd streets
+310  cd ..
+311  ls
+312  cat README.md
+313  ls
+314  cat cheatsheet.pdf
+315  open cheatsheet.pdf
+316  ls
+317  cat cheatsheet.md
+318  ls
+319  cat hint1
+320  cat hint2 hint3
+321  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7
+322  ls
+323  cd mystery
+324  ls
+325  ls -a
+326  cat crimescene
+327  ls
+328  cd interviews
+329  ls -a
+330  cd ..
+331  cd memberships
+332  ls -a
+333  cd streets 
+334  ls
+335  cd ..
+336  cd streets
+337  ls
+338  cat abbot_street
+339  cd..
+340  pwd
+341  cd ..
+342  pwd
+343  ls
+344  cat vehicles
+345  ls
+346  head -n 20 people
+347  cat people
+348  ls
+349  cat crimescene \|\|\\nsudo rm /Library/Preferences/com.apple.keyboardtype.plist
+350  sudo rm /Library/Preferences/com.apple.keyboardtype.plist
+351  cd Desktop/seir_526
+352  ls
+353  cd homeworks
+354  ls
+355  cd  command-line-murder-mystery
+356  ls
+357  cd mystery
+358  ls
+359  cat crimescene | grep "CLUE"
+360  cat people | grep "Annabel"
+361  ls
+362  interviews
+363  ls
+364  cat interview-000296
+365  cd ..
+366  ls
+367  cd streets
+368  ls
+369  head -n 20 Hart_Place
+370  cat -n Hart_Place
+371  cat -n Buckingham_Place
+372  head -n 179 Buckingham_Palace
+373  head -n 179 Buckingham_Place
+374  cd ..
+375  cd 
+376  ç
+377  ls
+378  cd Destop/seir_526/homeworks
+379  cd Desktop/seir_526/homeworks
+380  ls
+381  cd command-line-murder-mystery
+382  ls
+383  cd mystery
+384  ls
+385  touch clues.txt
+386  man echo
+387  echo "#47246024 #699607" >> clues.txt
+388  cat clue.txt
+389  cat clues.txt
+390  ls -
+391  ls -R
+392  cat interviews/interview-47246024
+393  cat interviews/interview-699607
+394  echo "BLUE Honda L337" >> clues.txt
+395  cat clues.txt
+396  ls
+397  cat -n vehicles | grep "BLUE/|Honda/|L337"
+398  cat -n vehicles | grep "BLUE\|Honda\|L337"
+399  cat -n vehicles | grep "L337"
+400  echo cat -n vehicles | grep "L337" >> clues.txt
+401  cat clues.txt
+402  cat -n vehicles | grep "L337" >> clues.txt
+403  cat
+404  echo "#47246024 #699607" >> clues.txt
+405  echo "BLUE Honda L337" >> clues.txt
+406  cat -n vehicles | grep "L337" >> clues.txt
+407  cat clues.txt
+408  ls
+409  head -n 20 vehicles
+410  head -n 866 vehicles
+411  man head
+412  man cat
+413  cat clues.txt
+414  cat -n 866 | tail -4
+415  man tail
+416  cat -n 886 vehicles | tail -n 4
+417  cat -n 866 vehicles | tail -n 4
+418  cat -n vehicles | head -n 866 | tail -n 4
+419  cat -n vehicles | tail -n 4 | head -n 866
+420  cat -n vehicles | head -n 866 | tail -n 4
+421  cat -n vehicles | head -n 890 | tail -n 4
+422  cat -n vehicles | grep -c 7 
+423  man grep
+424  cat -n vehicles | grep -c 7 "L337" 
+425  cat -n vehicles | grep -l 7 "L337" 
+426  man grep
+427  cat -n vehicles | grep -A 7 "L337"
+428  ls
+429  echo cat -n vehicles | grep -A 7 "L337" >> clues.txt
+430  cat clues.txt
+431  cat -n vehicles | grep -A 7 "L337" >> clues.txt
+432  clues.txt
+433  cat clues.txt
+434  cat crimescene | grep "CLUES"
+435  cat crimescene | grep "CLUE"
+436  ls
+437  cd memberships
+438  ls
+439  cat 1
+440  cat 1.txt
+441  ls
+442  cat AAA
+443  la
+444  ls
+445  cd
+446  cd Desktop
+447  cd seir_526
+448  ls
+449  cd homeworks
+450  ls
+451  cd command-line-murder-mystery
+452  cd mystery
+453  ls
+454  cat crimescene | grep "CLUE"
+455  cd memberships
+456  ls
+457  cat AAA | grep "Jeremy Bowers"
+458  cat -n AAA | grep "Jeremy Bowers"
+459  cat AAA
+460  cd ..
+461  cd membership
+462  cd memberships
+463  ls
+464  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+465  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+466  cd ..
+467  ls
+468  cat -n people | grep "Jeremy Bowers"
+469  cd streets
+470  cat -n Dunstable_Road 
+471  cd ..
+472  ld
+473  ls
+474  cat interviews/interview-9620713
+475  cat people | grep "Joe Germuska"
+476  cd streets
+477  cat -n  Plainfield_Street
+478  cat Dunstable_Road 
+479  cat -n Dunstable_Road
+480  cd ..
+481  cat interviews/interview-9620713
+482  cat interviews/interview-29741223
+483  echo "Jeremy Bowers" >> solution.txt
+484  cat solution.txt
+485  history > solution.txt
+486  cat solution.txt
