@@ -1,0 +1,127 @@
+    1  history
+    2  ls
+    3  cd Desktop
+    4  ls
+    5  cd seir_526
+    6  ls
+    7  cd homeworks
+    8  ls
+    9  cat command-line-murder-mystery
+   10  cd command-line-murder-mystery
+   11  ls
+   12  cat instructions
+   13  cd mystery
+   14  ls
+   15  cat crimescene
+   16  cd ..
+   17  open instructions
+   18  ls
+   19  cat hint1
+   20  ls -a
+   21  cd mystery
+   22  ls
+   23  cat crimescene | grep "CLUE"
+   24  cd ..
+   25  cat hint1
+   26  cat hint2
+   27  cd mystery
+   28  ls
+   29  cat people
+   30  head -n 20 people
+   31  ls
+   32  cd ..
+   33  cat hint2
+   34  cat hint3
+   35  cd mystery
+   36  cat people | grep "Annabel"
+   37  ls
+   38  head -n 20 vehicles
+   39  cat vehicles | grep "Annabel"
+   40  cd ..
+   41  cat hint4
+   42  cat people | grep "Annabel"
+   43  cd mystery
+   44  cat people | grep "Annabel"
+   45  cat vehicles | grep "Annabel"
+   46  cd ..
+   47  cat hint5
+   48  head -n 173 streets/Mattapan_Street | tail -n 1
+   49  ls
+   50  cd mystery
+   51  ls
+   52  head -n 173 streets/Mattapan_Street | tail -n 1
+   53  cd interviews
+   54  ls
+   55  cat interview-9437737
+   56  cd ..
+   57  ls
+   58  head -n 176 streets/Haley_Street | tail -n 1
+   59  cat interviews/interview-871877
+   60  head -n 40 streets/Hart_Place | tail -n 1
+   61  cat interviews/interview-47246024
+   62  head -n 179 streets/Buckingham_Place | tail -n 1
+   63  cat interviews/interview-699607
+   64  ls
+   65  cat vehicles | grep "L337"
+   66  cd ..
+   67  ls
+   68  cat hint4
+   69  cat hint5
+   70  cat hint6
+   71  ls
+   72  cd mystery
+   73  ls
+   74  head -n 20 vehicles
+   75  cat vehicles | grep "Honda"
+   76  cd ..
+   77  cat hint7
+   78  man grep
+   79  cd mystery
+   80  cat vehicles | grep -C 5 "L337"
+   81  cd ..
+   82  cat hint7
+   83  cat hint8
+   84  ls
+   85  cd mystery
+   86  ls
+   87  cd memberships
+   88  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Erika Owens"
+   89  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+   90  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+   91  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jacqui Maher"
+   92  ls
+   93  cd ..
+   94  ls
+   95  cd ..
+   96  ls
+   97  cat hint1
+   98  cat hint2
+   99  cat hint3
+  100  cat hint4
+  101  cat hint5
+  102  cat hint6
+  103  cat hint7
+  104  cat hint8
+  105  ls
+  106  cd mystery
+  107  ls
+  108  cd memberships
+  109  ls
+  110  cat library.txt | grep "Jeremy Bowers"
+  111  cat library.txt | grep "Jacqui Maher"
+  112  cat Terminal_City_library | grep "Jacqui Maher"
+  113  cat Terminal_City_library | grep "Jeremy Bowers"
+  114  man wc
+  115  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt Terminal_City_library | grep "Jacqui Maher"
+  116  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt Terminal_City_library | grep "Jeremy Bowers"
+  117  cd ..
+  118  ls
+  119  open cheatsheet.pdf
+  120  cd mystery
+  121  cd memberships
+  122  ls
+  123  cd ..
+  124  ls
+  125  cat people | grep -C 5 "Jeremy Bowers"
+  126  cat people | grep -C 5 "Jacqui Maher"
+  127  history
