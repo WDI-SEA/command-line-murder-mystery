@@ -1,0 +1,177 @@
+  141  mkdir homeworks
+  142  cd homeworks
+  143  git clone https://github.com/AJRJ29/command-line-murder-mystery.git
+  144  git clone git@github.com:AJRJ29/command-line-murder-mystery.git
+  145  cd command-line-murder-mystery
+  146  ls
+  147  homeworks
+  148  open instructions
+  149  cd mystery
+  150  cat hint1 
+  151  cd ..
+  152  cat hint1
+  153  cd mystery
+  154  grep "CLUE" crimescene
+  155  cd solution
+  156  cd..
+  157  cd ..
+  158  cd solution
+  159  cd.
+  160  cd solution
+  161  cat solution
+  162  cd mystery 
+  163  cd ..
+  164  cat solution
+  165  cd mystery
+  166  cat solution
+  167  cat hint1
+  168  cd ..
+  169  cat hint2
+  170  cat hint3
+  171  cat solution 
+  172  cd solution
+  173  cat hint4
+  174  cat hint5
+  175  cat hint6
+  176  cat hint7
+  177  cat hint8
+  178  head -n tall male
+  179  cat mystery
+  180  cd mystery
+  181  head -n tall male
+  182  head -n male
+  183  head -n 20 people
+  184  cd ..
+  185  open cheatsheet.md
+  186  open cheetsheet.md
+  187  open cheatsheet.md
+  188  cat solution
+  189  cd solution
+  190  grep honda vehicle
+  191  grep "Honda" vehicle
+  192  cd ..
+  193  cd.
+  194  cd command-line-murder-mystery
+  195  cd mystery
+  196  grep "Honda" vehicle 
+  197  grep "Honda" vehicles
+  198  head -n people
+  199  grep "Blue" vehicles
+  200  cd ..
+  201  cd mystery
+  202  grep "Annabel" people
+  203  head -n173 streets/Mattapan Street| tail -n 1
+  204  head -n 173 streets/Mattapan_Street| tail -n 1
+  205  grep "L337" vehicles
+  206  grep-A 5 "L337" mystery/vehicles
+  207  grep -A 5 "L337" mystery/vehicles
+  208  cd ..
+  209  cat hint1
+  210  cd crimescene
+  211  cd pwd
+  212  grep -A 5 "L337" mystery/vehicles
+  213  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  214  cd mystery
+  215  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  216  cd..
+  217  cd ..
+  218  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erick Owens"
+  219  cd ..
+  220  cat hint1 
+  221  cd mystery
+  222  cat "CLUES" crimescene
+  223  grep "CLUES" crimescene
+  224  grep "CLUE" crimescene
+  225  cd ..
+  226  cat hin1
+  227  cat hint1
+  228  cd mystery
+  229  grep "Annabels" people
+  230  grep "Annabel" people
+  231  cat crimescene
+  232  cd crimescene
+  233  head -n 173 streets/Mattapan_Street | tail -n 1
+  234  cd mystery
+  235  head -n 173 streets/Mattapan_Street | tail -n 1
+  236  cat interview 
+  237  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  238  cd ..
+  239  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  240  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"
+  241  cd mystery
+  242  grep "CLUE" crimesce
+  243  grep "CLUE" crimescene
+  244  cd crimescene
+  245  cd ..
+  246  cd crimescene
+  247  cd membership
+  248  cd mystery
+  249  cat membership
+  250  cd membership
+  251  membership
+  252  grep "Annabel" people 
+  253  grep "AAA" Delta SkyMiles
+  254  grep "membership" people
+  255  cd ..
+  256  grep "membership" people
+  257  cd ..
+  258  cd command-line-murder-mystery
+  259  cd mystery
+  260  grep "membership" cards
+  261  grep "membership" people
+  262  ls
+  263  head -n 40 street/_place | tail -n 1
+  264  head -n 40 street/Hart_Place | tail -n 1
+  265  head -n 40 streets/Hart_Place | tail -n 1
+  266  head -n 40 streets/Buckingham_Place | tail -n 1
+  267  head -n 179 streets/Buckingham_Place | tail -n 1
+  268  cat interviews/interview-47246024
+  269  cat interviews/interview-699607
+  270  grep "Blue" vehicle
+  271  grep -A 4 L337 vehicle | grep -A 3 Honda | grep -A 2 Blue 
+  272  grep -A 4 L337 vehicles | grep -A 3 Honda | grep -A 2 Blue 
+  273  cd membership
+  274  cd memberships
+  275  ls
+  276  cat AAA | grep -F Delta_SkyMiles > ../members
+  277  cd membership
+  278  cd memberships
+  279  grep "Joe" members
+  280  cd..
+  281  cd ..
+  282  grep "Joe" members
+  283  grep "Bawers" members
+  284  cd ..
+  285  cd command-line-murder-mystery
+  286  cd memberships
+  287  cd mystery
+  288  cd memberships
+  289  ls
+  290  cd ..
+  291  cd mystery
+  292  grep "CLUE" crimescene
+  293  grep "Annabel" people
+  294* open cheatsheet.md
+  295  head -n 40 streets/Hart_Place | tail -n 
+  296  head -n 40 streets/Hart_Place | tail -n 1
+  297  cat interviews/interview #9437737 interviews/interview #47246024
+  298  cat interviews/interview 9437737 interviews/interview 47246024
+  299  cat interviews/interview-9437737 interviews/interview-47246024
+  300  head -n 170 streets/Buckingham_Place | tail -n 1
+  301  head -n 179 streets/Buckingham_Place | tail -n 1
+  302  cat interviews/interview-699607
+  303* grep command option
+  304  grep -A "L337" vehicles
+  305  grep -A 10  "L337" vehicles
+  306  cd memberships
+  307  ls
+  308  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Erika Owens"
+  309  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep -c "Erika Owens"
+  310  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Erika Owens"
+  311  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Joe Gemuska"
+  312  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  313  cd ..
+  314  ls
+  315  touch solution.txt
+
+The murderer is Jeremy Bowers
