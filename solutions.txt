@@ -1,0 +1,497 @@
+    1  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\n
+    3  git --version
+    4  ~ls
+    5  ls
+    6  downloads ls
+    7  ls.downloads
+    8  ls downloads
+    9  general_assembly mkdir seir526
+   10  general_assembly ls
+   11  git
+   12  init general_assembly
+   13  clear
+   14  zsh --version
+   15  echo $SHELL
+   16  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n
+   17  $ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"\n\n
+   18  curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)
+   19  zsh --version
+   20  git --version
+   21  zsh --version\n\n
+   22  djhksadjhsda
+   23  xcode-select --install\n\n
+   24  https://raw.githubusercontent.com/Homebrew/install/master/install
+   25  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n\n
+   26  brew help
+   27  zsh --version
+   28  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   29  homebrew --version
+   30  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   31  brew doctor
+   32  brew install git
+   33  ping google.com
+   34  eval "$(ssh-agent -s)"
+   35  open ~/.ssh/config
+   36  touch ~/.ssh/config
+   37  open ~/.ssh/config
+   38  Host *\n  AddKeysToAgent yes\n  UseKeychain yes\n  IdentityFile ~/.ssh/id_rsa
+   39  open ~/.ssh/config
+   40  ssh-add -K ~/.ssh/id_rsa
+   41  pbcopy < ~/.ssh/id_rsa.pub
+   42  pwd
+   43  ls
+   44  cd Desktop 
+   45  \mkdir seir_526_kms
+   46  cd seir_526_kms
+   47  pwd
+   48  mkdir units
+   49  ls
+   50  mkdir units/unit1
+   51  ls
+   52  cd seir_526_kms
+   53  cd units
+   54  ls
+   55  cd 
+   56  units cd
+   57  units
+   58  Desktop ls
+   59  pwd
+   60  cd Desktop
+   61  ls
+   62  cd seir_526_kms
+   63  cd
+   64  ls
+   65  /Desktop/seir_526_kms/units ls
+   66  /Desktop/seir_526_kms
+   67  /Desktop/seir_526_kms pwd
+   68  cd Desktop
+   69  cd seir_526_kms
+   70  cd units
+   71  cd unit1
+   72  units
+   73  touch unit1/test.txt
+   74  units cd
+   75  cd Desktop
+   76  cd seir_526_kms
+   77  cd units
+   78  touch unit1/test.txt
+   79  cat unit1/test.txt
+   80  open unit1/test.txt
+   81  ➜  units cat unit1/test.txt\n
+   82  cat unit1/test.txt
+   83  pbcopy < ~/.ssh/id_rsa.pub
+   84  cp unit1/test.txt unit1/anotherOne.txt
+   85  ls -R
+   86  cat unit1/anotherOne.txt
+   87  cd unit1
+   88  pwd
+   89  rm anotherOne.txt
+   90  ls
+   91  cd units
+   92  units cd
+   93  pwd
+   94  $ pbcopy < ~/.ssh/id_rsa.pub
+   95  man rm
+   96  echo "five cats"
+   97  cd Desktop
+   98  pwd
+   99  cd seir_526_kma
+  100  cd seir_526_kms
+  101  cd units
+  102  mkdir unit2
+  103  ls
+  104  cd unit1
+  105  touch secondMessage.text
+  106  echo "This is another secret cat message for cats" >> secondMessage.txt
+  107  cat secondMessage.txt
+  108  ls
+  109  echo "a" >> secondMessage.txt
+  110  echo "z" >> secondMessage.txt
+  111  cat second Message.txt
+  112  cat secondMessage.txt
+  113  cat secondMessage.txt | sort
+  114  cat secondMessage.txt | sort > sortedMessage.txt
+  115  ls -l
+  116  cat sortedMessage.txt
+  117  cat sortedMessage.txt | grep "secret"
+  118  cat sortedMessage.txt | grep "another"
+  119  history
+  120  cd ..units
+  121  cd ..
+  122  man head
+  123  head -n 1 secondMessage.txt
+  124  head -n
+  125  cd units
+  126  cd unit1
+  127  head -n 1 secondMessage.txt
+  128  head -n 1 secondMessage.txt > twoLines.txt
+  129  cat twoLines.txt
+  130  cd ..
+  131  history
+  132  head history
+  133  cat history
+  134  history > cat
+  135  head -n 5 history.txt
+  136  clear
+  137  pwd
+  138  cd /Users/karlymsmith
+  139  cd/Desktop
+  140  cd Desktop
+  141  cd seir_526_kms
+  142  cd units
+  143  cd unit1
+  144  mkdir homeworks
+  145  cd homeworks
+  146  git@github.com:karlmiche/command-line-murder-mystery.git
+  147  git clone git@github.com:karlmiche/command-line-murder-mystery.git
+  148  cat instructions
+  149  ls
+  150  cd command-line-murder-mystery
+  151  ls
+  152  cat instructions
+  153  cd mystery
+  154  ls
+  155  cat crimescene
+  156  crimescene | grep "CLUE"
+  157  q
+  158  cd ..
+  159  cd instructions
+  160  cd interviews
+  161  cat interviews
+  162  cat crimescene | grep "CLUE"
+  163  cd crimescene
+  164  command-line-murder-mystery git:(master)
+  165  cd ..
+  166  ls
+  167  cd command-line-murder-mystery
+  168  ls
+  169  cat mystery
+  170  cd mystery
+  171  ls
+  172  cd interviews
+  173  cat interviews
+  174  cat memberships
+  175  cd people
+  176  cat
+  177  cd Desktop
+  178  cd seir_526_kms
+  179  cd units
+  180  cd ..
+  181  cd homeworks
+  182  cd units
+  183  cd homeworks
+  184  cd unit1
+  185  cd homeworks
+  186  cd command_line_murder_mystery
+  187  cd command-line-murder-mystery
+  188  ls
+  189  ls mystery
+  190  cat streets
+  191  cat >> streets
+  192  ➜  ~ cd Desktop\n➜  Desktop cd seir_526_kms\n➜  seir_526_kms cd units\n➜  units cd ..\n➜  seir_526_kms cd homeworks\ncd: no such file or directory: homeworks\n➜  seir_526_kms cd units\n➜  units cd homeworks\ncd: no such file or directory: homeworks\n➜  units cd unit1\n➜  unit1 cd homeworks\n➜  homeworks cd command_line_murder_mystery\ncd: no such file or directory: command_line_murder_mystery\n➜  homeworks cd command-line-murder-mystery\n➜  command-line-murder-mystery git:(master) ls
+  193  cd Desktop
+  194  cd seir_526_kms
+  195  cd units
+  196  cd unit1
+  197  cd homeworks
+  198  cd command-line-murder-mystery
+  199  ls
+  200  instructions
+  201  cat instructions
+  202  cat streets
+  203  ls streets
+  204  cat hint2
+  205  grep "CLUE" crimescene
+  206  crimescene grep | "CLUE"
+  207  cat crimescene | grep "CLUE"
+  208  cd mystery
+  209  cat crimescene | grep "CLUE"
+  210  ls 
+  211  cd memberships
+  212  cat memberships
+  213  ls
+  214  cat 1.txt
+  215  cat AAA
+  216  cat Museum_of_Bash_History
+  217  cd ..
+  218  cd streets
+  219  ls
+  220  cd ..
+  221  cd interviews
+  222  ls
+  223  cat interview-325611 
+  224  cd ..
+  225  cd people
+  226  cat people
+  227  cd ..
+  228  cat hint1
+  229  cat hint2
+  230  cat hint3
+  231  cd mystery
+  232  head -n 20 people
+  233  head -n 20 vehicles
+  234  head -n 100 vehicles
+  235  cat line 433
+  236  cd strets
+  237  cat line 433
+  238  cd streets
+  239  cat line 433
+  240  echo line 433
+  241  line 433
+  242  cd ..
+  243  cat hint4
+  244  cd mystery
+  245  cd people
+  246  ls people
+  247  cat people 
+  248  cat people | grep "Annabel"
+  249  cd
+  250  cd ..
+  251  cd Desktop
+  252  cd seir_526_kms
+  253  cd units
+  254  cd unit1
+  255  cd homeworks
+  256  cd command-line-murder-mystery
+  257  cd mystery
+  258  cd ..
+  259  cat instructions
+  260  ls
+  261  cat streets | grep "Hart Place"
+  262  cat streets
+  263  cd streets
+  264  cd mystery
+  265  ls
+  266  cd streets
+  267  ls
+  268  cd ..
+  269  cat vehicles | grep "Annabel"
+  270  sort vehicles 
+  271  tail -n 100 vehicles
+  272  cat vehicles
+  273  cd ..
+  274  hint5
+  275  cat hint5
+  276  cd mystery
+  277  \thead -n 173 streets/Mattapan_Street | tail -n 1\n
+  278  cat interviews | grep "#9437737"
+  279  cd interviews
+  280  cat #9437737
+  281  cd Desktop
+  282  cd seir_526_kms
+  283  cd units
+  284  cd unit1
+  285  cd homeworks
+  286  cd command-line-murder-mystery
+  287  ls
+  288  cat hint6
+  289  cd streets
+  290  cd msytery
+  291  cd mystery
+  292  ls
+  293  head people
+  294  head streets
+  295  head interviews
+  296  head vehicles
+  297  cat vehicles | "Annabel"
+  298  cat vehicles | grep "Annabel"
+  299  cd Desktop
+  300  cd seir_526_kms
+  301  cd units
+  302  cd unit1
+  303  cd homeworks
+  304  cd command-line-murder-mystery
+  305  ls
+  306  cat hint7
+  307  cd mystery
+  308  ls
+  309  cd interviews
+  310  ls
+  311  cd ..
+  312  cat hint5
+  313  cat hint4
+  314  cat hint6
+  315  cat hint3
+  316  head people
+  317  cd mystery
+  318  cd people
+  319  cat people | grep "Annabel"
+  320  cd streets
+  321  cat streets | grep "Annabel"
+  322  cat streets | grep "173"
+  323  head -n 173 streets/Mattapan_Street | tail -n 1
+  324  ls
+  325  cat hint8
+  326  cd ..
+  327  cat hint8
+  328  cat hint7
+  329  cd mystery
+  330  cd streets
+  331  cat streets | grep "Annabel"
+  332  grep "Annabel"
+  333  cd Desktop
+  334  cd seir_526_kms
+  335  cd units
+  336  cd unit1
+  337  cd homework
+  338  cd homeworks
+  339  cd command-line-murder-mystery
+  340  ls
+  341  cat cheatsheet.pdf
+  342  open cheatsheet,pdf
+  343  cat cheatsheet
+  344  cat cheatsheet.md
+  345  /Desktop/seir_526_kms/units/unit1/homeworks
+  346  cd Desktop/seir_526_kms
+  347  cd units/unit1/homeworks
+  348  ls
+  349  cd command-line-murder-mystery
+  350  ls
+  351  cd mystery
+  352  ls
+  353  /vehicles grep "6"
+  354  cd vehicles
+  355  head vehicles
+  356  mystery/vehicles grep "6" 
+  357  ls
+  358  cd streets
+  359  head
+  360  cd Desktop/seir_526_kms/units/unit1/homeworks
+  361  ls
+  362  cd command-line-murder-mystery
+  363  ls
+  364  cat hint4
+  365  cat hint5
+  366  cd streets
+  367  cat streets
+  368  ls
+  369  cd mystery
+  370  ls
+  371  cd streets
+  372  \thead -n 173 streets/Mattapan_Street | tail -n 1
+  373  streets/Mattapan_Street  head n -173 | tail -n 1
+  374  head n -173
+  375  head
+  376  cd Desktop/seir_526_kms/units/unit1/homeworks/command-line-murder-mystery/mystery
+  377  ls
+  378  cd interviews
+  379  ls
+  380  cat interview-7541406
+  381  cd ..
+  382  ls
+  383  cd crimescene
+  384  cd ..
+  385  ls
+  386  cd mystery
+  387  ls
+  388  cd streets
+  389  streets$ cat street-name | grep "address"
+  390  head
+  391  cd Desktop/seir_526_kms/units/unit1/homeworks/command-line-murder-mystery/mystery
+  392  ls
+  393  ls people
+  394  cat people
+  395  pwd
+  396  ls
+  397  $head -n 
+  398  cd people
+  399  cd streets
+  400  head 
+  401  history
+  402  /Desktop/seir_526_kms/units/unit1/homeworks/command-line-murder-mystery/mystery/streets/
+  403  /Desktop
+  404  desktop
+  405  cd seir_526_kms
+  406  cd units
+  407  cd unit1
+  408  cd homeworks
+  409  cd command-line-murder-mystery
+  410  ls
+  411  cat hint8
+  412  \tcat Fitness_Galaxy AAA | grep -c "Annabel"
+  413  cd mystery
+  414  ls
+  415  cd memberships
+  416  ls
+  417  cd ..
+  418  history > history_for_mystery.txt
+  419  ls
+  420  cd command-line-murder-mystery
+  421  ls
+  422  cd mystery
+  423  ls
+  424  cd people
+  425  cat people | grep "Annabel Oluwasegun"
+  426  cat
+  427  desktop/seir_526_kms/units/unit1/homeworks
+  428  ls
+  429  cd command-line-murder-mystery
+  430  ls
+  431  cd streets
+  432  head -n 40 streets
+  433  ls
+  434  cd streets
+  435  cat streets
+  436  streets
+  437  cd crimescene
+  438  ls
+  439  cd mystery
+  440  ls
+  441  cat streets  |grep  "Hart Place"
+  442  cd streets
+  443  cat | grep "Hart Place"
+  444  /desktop
+  445  cd dekstop/seir_526_kms/units
+  446  cd desktop
+  447  cd seir_526_kms
+  448  cd units
+  449  cd unit1
+  450  cd homeworks
+  451  ls
+  452  cd command-line-murder-mystery
+  453  ls
+  454  cd mystery
+  455  ls
+  456  cd crimescene
+  457  head n -40 streets/Hart_Place
+  458  head n -40 streets/Buckingham_Place
+  459  head n -40 streets/Haley_Street
+  460  head n -40 streets/Mattapan_Street
+  461  ls
+  462  cat people 
+  463  cat people | grep "Annabel"
+  464  cat Annabel Sun\tF\t26\tHart Place, line 40\n
+  465  cd ..
+  466  ls
+  467  cat hint4
+  468  cat hint6
+  469  head people
+  470  ls
+  471  cd mystery
+  472  head people
+  473  cat line 173
+  474  cat people | grep "line 173"
+  475  cat people | grep "line 40"
+  476  head people
+  477  head streets
+  478  cd streets
+  479  head streets
+  480  cd ..
+  481  history > history_mystery.txt
+  482  ls
+  483  history > history_for_mystery.txt
+  484  ls
+  485  history
+  486  pwd
+  487  cd Desktop
+  488  history
+  489  cd seir_526_kms
+  490  cd units
+  491  cd unit1
+  492  ls
+  493  cd homeworks
+  494  ls
+  495  history > solutions.txt
+  496  ls
+  497  cd command-line-murder-mystery
