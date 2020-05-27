@@ -1,0 +1,338 @@
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    2  brew install git
+    3  xcode-select --version
+    4  brew install node
+    5  node --version
+    6  git --version
+    7  ls
+    8  cd Desktop
+    9  mkdir timer-app
+   10  cd timer-app
+   11  touch index.html
+   12  touch index.js
+   13  code .
+   14  compaudit | xargs chmod g-w,o-w
+   15  ls
+   16  cd ../
+   17  ls
+   18  cd ../
+   19  git --version
+   20  node --version
+   21  homebrew --version
+   22  git --version
+   23  ls
+   24  cd desktop
+   25  ls
+   26  cd timer-app
+   27  ls
+   28  git status
+   29  git init
+   30  git status
+   31  git add .
+   32  git commit -m "initial commit"
+   33  git push origin master
+   34  git push origin-master
+   35  git push
+   36  clear
+   37  cd ../
+   38  cd timer-app
+   39  git remote add origin clear
+   40  clear
+   41  brew install zsh
+   42  echo 'export PATH="/usr/local/opt/ncurses/bin:$PATH"' >> ~/.zshrc
+   43  zsh --version
+   44  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   45  clear
+   46  cd ../../
+   47  cd ../
+   48  cd ../
+   49  cd ../
+   50  cd ../../.../
+   51  clear
+   52  git --version
+   53  zsh --version
+   54  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   55  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   56  ls
+   57  zsh --version
+   58  cd Desktop
+   59  cd timer-app
+   60  git status
+   61  ls
+   62  zsh --version
+   63  cd ../
+   64  cd ../../
+   65  cd ../
+   66  cd../
+   67  ls
+   68  xcode-select --install
+   69  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n\n
+   70  brew doctor
+   71  brew install git
+   72  brew upgrade git
+   73  ping google.com
+   74  clear
+   75  ssh-keygen -t rsa -b 4096 -C "jamesonaardalen@gmail.com"
+   76  eval "$(ssh-agent -s)"
+   77  open ~/.ssh/config
+   78  touch ~/.ssh/config\n
+   79  open ~/.ssh/config
+   80  ssh-add -K ~/.ssh/id_rsa
+   81  pbcopy < ~/.ssh/id_rsa.pub
+   82  clear
+   83  pwd
+   84  ls
+   85  cd users
+   86  ls
+   87  cd jamesonaardalen
+   88  ls
+   89  pwd
+   90  cd Desktop
+   91  mkdir seir_526
+   92  cd seir_526
+   93  mkdir units
+   94  ls
+   95  mkdir units/unit1
+   96  cd units
+   97  ls
+   98  touch README.md
+   99  ls
+  100  open .
+  101  ls -s
+  102  ls -S
+  103  ls -aS
+  104  mkdir unit2
+  105  touch unit2/test.txt
+  106  ls -R
+  107  cat unit2/test.txt
+  108  open unit2/test.txt
+  109  cat unit2/test.txt
+  110  cp unit2/test.txt unit1/anotherOne.txt
+  111  ls -R
+  112  cd unit1
+  113  pwd
+  114  rm anotherOne.txt
+  115  ls
+  116  touch secondMessage.txt
+  117  ls
+  118  echo "This is another secret message ahahaha" >> secondMessage.txt
+  119  cat secondMessage.txt
+  120  echo "some more words" >> secondMessage.txt
+  121  cat secondMessage.txt
+  122  echo "a" >> secondMessage.txt
+  123  cat secondMessage.txt
+  124  echo "z" >> secondMessage.txt
+  125  cat secondMessage.txt
+  126  cat secondMessage.txt | sort 
+  127  cat secondMessage.txt| sort > sortedMessage.txt
+  128  cat secondMessage.txt
+  129  ls -l
+  130  cat sortedMessage.txt
+  131  cat sortedMessage.txt | grep "secret"
+  132  cat secondMessage.txt | grep "another"
+  133  ls
+  134  head -n 1 secondMessage.txt
+  135  head -n 2 secondMessage.txt > twoLines.txt
+  136  cat secondMessage.txt 
+  137  cat twoLines.txt
+  138  cd Desktop
+  139  ls
+  140  cd seir_526
+  141  ls
+  142  mkdir homeworks
+  143  cd homeworks
+  144  git@github.com:jamo1998/command-line-murder-mystery.git
+  145  git clone git@github.com:jamo1998/command-line-murder-mystery.git
+  146  ls
+  147  cd command-line-murder-mystery
+  148  cat instructions
+  149  cd Desktop
+  150  cd seir_526
+  151  cd units
+  152  ls
+  153  cd ../
+  154  cd homeworks
+  155  cd command-line-murder-mystery
+  156  cat instructions
+  157  ls
+  158  cd mystery
+  159  ls
+  160  cat crimescene
+  161  history
+  162  cat crimescene | grep "CLUE"
+  163  cat instructions
+  164  cd ../../
+  165  cd command-line-murder-mystery
+  166  cat instructions
+  167  ls
+  168  cd mystery
+  169  ls
+  170  cat people
+  171  ls
+  172  cat crimescene | grep "CLUE"
+  173  ls
+  174  cd memberships
+  175  ls
+  176  cat AAA
+  177  ls
+  178  cd ../
+  179  ls
+  180  cd ../
+  181  cat instructions
+  182  cat hint1
+  183  head -n 20 people
+  184  cd mystery
+  185  ls
+  186  head -n 20 people
+  187  cd ../
+  188  cat hint2
+  189  cat hint3
+  190  cd mystery
+  191  ls
+  192  cat crimescene | grep "CLUE"
+  193  head -n 20 people
+  194  ls
+  195  cd streets
+  196  ls
+  197  cat Doane_Street
+  198  cd ../
+  199  cat streets | grep "New Zealand"
+  200  cd streets
+  201  ls
+  202  cd ../
+  203  cat hint3
+  204  cd mystery
+  205  ls
+  206  cd ../
+  207  cat instructions
+  208  cat hint3
+  209  cd mystery
+  210  ks
+  211  ls
+  212  cd interviews
+  213  ls
+  214  cd ../
+  215  ls
+  216  cat people
+  217  ls
+  218  head -n 20 vehicles
+  219  cat vehicles | grep 6'\n\n6\nexit\nc
+  220  cat vehicles | grep "Annabel"
+  221  cat vehicles
+  222  cat vehicles | grep "Annabel Height: 6""
+  223  cat vehicles | grep "Annabel Height: 6"
+  224  cat vehicles | grep "Annabel"
+  225  ls
+  226  cat people | grep "Oluwasegun Annabel"
+  227  cd streets
+  228  cat Mattapan Street
+  229  ls
+  230  cat Mattapan_Street
+  231  cd ..
+  232  ls
+  233  cat vehicles | grep "Annabel"
+  234  cat people | grep "Annabel Church"
+  235  cd streets
+  236  cat Buckingham_Place
+  237  cd ../
+  238  cat vehicles | grep "Annabel"
+  239  cat people | grep "Annabel Sun"
+  240  cd streets
+  241  cat Hart Place
+  242  ls
+  243  cat Hart_Place
+  244  cd ../
+  245  cat vehicles | grep "Annabel"
+  246  cat people | grep "Annabel Fuglsang"
+  247  cd streets
+  248  cat Haley_Street
+  249  clear
+  250  cd ../
+  251  ls
+  252  cat vehicles | grep "6"
+  253  cat vehicles | grep "Height: 6"
+  254  cat vehicles | grep "Height: 6" | grep "Annabel"
+  255  cd interviews
+  256  ls
+  257  cd ../
+  258  ls
+  259  cd memberships
+  260  ls
+  261  cat 1.txt
+  262  cat 2.txt
+  263  ls
+  264  cat AAA | grep "Annabel"
+  265  cat AAA | grep "Anabel"
+  266  cd ../
+  267  ls
+  268  cat vehicles | grep "Anabel"
+  269  cat vehicles | grep "Anabel Height"
+  270  cat people | grep "Anabel"
+  271  cd streets
+  272  cat Cedar_Lane_Way
+  273  ls
+  274  history
+  275  cd Desktop/seir_526/homeworks/command-line-murder-mystery/
+  276  cat hint
+  277  cat hint4
+  278  cd mystery
+  279  cat people | grep "Annabel"
+  280  cd ../
+  281  cat hint6
+  282  cd mystery
+  283  grep "Honda" vehicles
+  284  head vehicles
+  285  grep "Honda" | "Blue" | "L337" vehicles
+  286  grep "Honda\|Blue\|L337" vehicles
+  287  cd ../
+  288  cat hint5
+  289  cd mystery
+  290  head -n 173 streets/Mattapan_Street | tail -n 1
+  291  ls
+  292  cd interviews
+  293  ls
+  294  cat interview-9437737
+  295  head -n 179 streets/Buckingham_Place | tail -n 1
+  296  cd ../
+  297  head -n 179 streets/Buckingham_Place | tail -n 1
+  298  cd interviews
+  299  cat interview-699607
+  300  cd ../
+  301  grep "Honda" | "Blue" | "L337" vehicles
+  302  ls
+  303  grep "Honda\|Blue\|L337" vehicles
+  304  grep "L337" vehicles
+  305  cat vehicles | grep "L337"
+  306  lw
+  307  ls
+  308  cat vehicles
+  309  grep "L337" vehicles
+  310  cd ../
+  311  cat hint7
+  312  grep -A 5 "L337" mystery/vehicles
+  313  cd mystery
+  314  ls
+  315  head -n 20 people
+  316  cd memberships
+  317  ls
+  318  head -n 20 AAA
+  319  cat courtney yankey
+  320  cd ../
+  321  cat hint8
+  322  cd mystery
+  323* ls
+  324* cat crimescene | grep "CLUE"
+  325  cd memberships
+  326  ls
+  327  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jacqui Maher"
+  328  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c ""
+  329  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  330  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Joe Germuska"
+  331  cd ../
+  332  cat people | grep -A "Jacqui Maher"
+  333  ls
+  334  cat people | grep "Jacqui Maher"
+  335  cd ../
+  336  echo "The person who commited the murder was none other than Jeremy Bowers. 
+  337  echo "The person who commited the murder was none other than Jeremy Bowers. We have a witness that puts Mr Bowers car on the scene of the crime and is the only male with memberships to all of the mystery membership cards with no name on them. Take him away\n
+  338  echo "The person who commited the murder was none other than Jeremy Bowers. We have a witness that puts Mr Bowers car on the scene of the crime and is the only male with memberships to all of the mystery membership cards with no name on them. Take him away"\n
