@@ -1,0 +1,443 @@
+    1  "hello?"
+    2  pwd
+    3  ls
+    4  cd document
+    5  cd documents
+    6  ls
+    7  ls -a
+    8  cd ..
+    9  pwd
+   10  cd ~
+   11  mkdir myfolder
+   12  ls
+   13  cd myfolder
+   14  touch index.html style.css
+   15  rm style.css
+   16  ;o
+   17  li
+   18  ls
+   19  cd ..
+   20  rm -r myfolder
+   21  cd documents
+   22  ls
+   23  mkdir myfolder
+   24  cd myfolder
+   25  cd myfolder
+   26  cd myfolder
+   27  pwd
+   28  pwd
+   29  ls
+   30  ls
+   31  cd documents
+   32  ls
+   33  pwd
+   34  cd..
+   35  cd ..
+   36  /pwd
+   37  [wd
+   38  pwd
+   39  cd
+   40  cd documents
+   41  ~
+   42  ~
+   43  mkdir myfolder
+   44  ls
+   45  cd myfolder
+   46  touch index.html style.css
+   47  rm style.css
+   48  ls
+   49  cd ..
+   50  rm -r myfolder
+   51  ~
+   52  cd home
+   53  cd downloads
+   54  list
+   55  li
+   56  ls
+   57  cd world
+   58  ls
+   59  is -a world
+   60  ls -a world
+   61  ls -a world
+   62  ls -a download
+   63  ls -a downloads
+   64  /Library/Developer/CommandLineTools/usr/bin/git-shell ; exit;
+   65  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\n
+   66  ~
+   67  git --version
+   68  git --version
+   69  cd git
+   70  git init
+   71  cd ga-blog
+   72  cd GA-Blog
+   73  cd GA - Blog
+   74  cd GA-Blog
+   75  cd SEI GA
+   76  /Users/rms/Desktop/git-shell ; exit;
+   77  pwd
+   78  cd GA-Blog
+   79  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n
+   80  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n
+   81  rew install git
+   82  brew install git\n
+   83  git --version
+   84  git --version
+   85  ~ clear
+   86  ~
+   87  git --version
+   88  ls
+   89  ~
+   90  cd desktop
+   91  ~
+   92  ls
+   93  cd SEI GA
+   94  cd SEI_GA
+   95  sei ga
+   96  cd sei ga
+   97  cd SEIGA
+   98  mkdir seir526
+   99  cd seir626
+  100  cd seir526
+  101  touch readme.md
+  102  ls
+  103  git init
+  104  git status
+  105  git add readme.md
+  106  git add .
+  107  git commit -m "initial commit"
+  108  zsh --version
+  109  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n.
+  110  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n
+  111  ~
+  112  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n
+  113   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n
+  114  ~
+  115  cd documents
+  116  ~
+  117  zsh --version
+  118  git --version
+  119  ~
+  120  zsh --version
+  121  ~
+  122  cd seiga
+  123  cd desktop
+  124  ls
+  125  ~
+  126  cd desktop
+  127  ls
+  128  cd GA-Blog
+  129  ls
+  130  ~
+  131  cd desktop
+  132  cd sei_ga
+  133  ls
+  134  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n\n
+  135  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n:heart:\n2
+  136  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  137  brew doctor
+  138  brew install git
+  139  ping google.com
+  140  $ ssh-keygen -t rsa -b 4096 -C "feelivey9196@gmail.com"
+  141  eval "$(ssh-agent -s)"
+  142  open ~/.ssh/config
+  143  touch ~/.ssh/config
+  144  open ~/.ssh/config
+  145  ssh-add -K ~/.ssh/id_rsa
+  146  pbcopy < ~/.ssh/id_rsa.pub
+  147  clear
+  148  pwd
+  149  ls
+  150  cd desktop
+  151  pwd
+  152  mkdir seir_526
+  153  cd seir_526
+  154  pwd
+  155  mkdir units
+  156  ls
+  157  mkdir units/unit1
+  158  ls
+  159  cd units
+  160  ls
+  161  touch README.md
+  162  ls
+  163  open .
+  164  ls -l
+  165  ls -la
+  166  ls -a
+  167  man ls
+  168  cd desktop
+  169  cd units
+  170  cd seir_526
+  171  cd units
+  172  ls -s
+  173  ls -aS
+  174  ls -S
+  175  mkdir unit2
+  176  touch unit2/test.txt
+  177  ls -R
+  178  open unit2/test.txt
+  179  cat unit2/test.txt
+  180  pwd
+  181  ls -R
+  182  cp unit2/text.txt unit1/anotherOne.txt
+  183  cp unit2/test.txt unit1/anotherOne.txt
+  184  ls -R
+  185  cat unit1/anotherOne.txt
+  186  cd unit1
+  187  pwd
+  188  ls
+  189  rm anotherOne.txt
+  190  ls
+  191  touch text.txt
+  192  rm -1 text.txt
+  193  echo "dhiuahd"
+  194  touch secondMessage.txt
+  195  echo "This is another seceret message 123123123" >> secondMessage.txt
+  196  cat secondMessage.txt
+  197  echo "some more words" >> secondMessage.txt
+  198  cat secondMessage.txt
+  199  echo "a" >> secondMessage.txt
+  200  echo "z" >> secondMessage.txt
+  201  cat secondMessage.txt
+  202  cat secondMessage.txt | sort
+  203  cat secondMessage.txt | sort > sortedMessage.txt
+  204  ls -l
+  205  cat sortedMessage.txt
+  206  cat sortedMessage.txt | grep "secret"
+  207  cat sortedMessage.txt | grep "seceret"
+  208  cat secondMessage.txt | grep "another"
+  209  history
+  210  cd unit1
+  211  ls
+  212  head -n 1 secondMessage.txt
+  213  head -n 2 secondMessage.txt > towLines.txt
+  214  cat towLines.txt
+  215  cat secondMessage.txt
+  216  cat secondMessage.txt | grep "words"
+  217  cd ..
+  218  history > history.txt
+  219  ssh-keygen -t rsa -b 4096 -C "feelivey9196@gmail.com"
+  220  y
+  221  n
+  222  yes
+  223  ~/.ssh/id_rsa.pub
+  224  pbcopy <~/.ssh/id_rsa.pub
+  225  ~/.ssh/id_rsa.pub
+  226  ssh-keygen -t rsa -b 4096 -C "feelivey9196@gmail.com"
+  227  pbcopy < ~/.ssh/id_rsa.pub
+  228  ~\n
+  229  ~
+  230  clear
+  231  cd desktop
+  232  cd seir_526
+  233  mkdir homeworks
+  234  cd homeworks
+  235  git@github.com:feelivey9196/command-line-murder-mystery.git
+  236  git clone git@github.com:feelivey9196/command-line-murder-mystery.git
+  237  ls
+  238  cd command-line-murder-mystery
+  239  ls
+  240  cat instruction
+  241  cat insturctions
+  242  cat instructions
+  243  cd mystery
+  244  cat mystery
+  245  ls
+  246  ls -R
+  247  man ls
+  248  cat crimesecene
+  249  cat crimescene
+  250  cat crimescene | grep "CLUE"
+  251  ls
+  252  cd interviews
+  253  /ls
+  254  ls
+  255  cat interviews | grep "Annabel"
+  256  cd memberships
+  257  history
+  258  cd crimescene
+  259  cd ..
+  260  cd memberships
+  261  ls
+  262  cat AAA
+  263  cat AAA | "Annabel"
+  264  ls
+  265  cat 1.txt
+  266  cat 1.txt | grep "Annabel"
+  267  ls
+  268  cat 1.txt | grep "Annabel"
+  269  cat AAA | grep "king"
+  270  cat txt | grep "Annabel"
+  271  cat AAA | grep "Anna"
+  272  cat Delta_SkyMiles | grep "Annabel"
+  273  cat Delta_SkyMiles | grep "Church"
+  274  cat Museum_of_Bash_History | grep "Annabel"
+  275  cat Museum_of_Bash_History | grep "Church"
+  276  cat library.txt | grep "Annabel"
+  277  cat library.txt | grep "Church"
+  278  cat library
+  279  cat library.txt
+  280  ls
+  281  cat library.txt | grep "Annabel"
+  282  cat library.txt | grep "Church"
+  283  cat 1.txt | grep "Annabel"
+  284  cat 1.txt | grep "Church"
+  285  cat21.txt | grep "Church"
+  286  cat 2.txt | grep "Church"
+  287  cat 2.txt | grep "Annabel"
+  288  cat Terminal_City_Library | grep "Annabel"
+  289  cat Terminal_City_Library | grep "Church"
+  290  cat museum.txt | grep "Annabel"
+  291  cat museum.txt | grep "Church"
+  292  cat delta.txt | grep "Annabel"
+  293  cat delta.txt | grep "Church"
+  294  cat newfile.txt | grep "Church"
+  295  cat memberships | grep "Annabel"
+  296  cat AAdvantage | grep "Annabel"
+  297  cd ..
+  298  ls
+  299  cd people
+  300  cat people
+  301  cat people | grep "Church"
+  302  cat people | grep "Buckingham"
+  303  ls
+  304  cd streets
+  305  ls
+  306  cat Buckingham_palce
+  307  cat Buckingham_place
+  308  cat Buckingham_place | grep "Annabel"
+  309  cat Buckingham_place | grep "179"
+  310  cat Buckingham_place | grep "Church"
+  311  cd ..
+  312  ls
+  313  cat vehicles
+  314  cat vehicles | grep "Church"
+  315  cat vehicles | head -n 6 && grep "Church"
+  316  clear
+  317  cd desktop
+  318  cd seir_526
+  319  cd homeworks
+  320  git clone git@github.com:feelivey9196/command-line-murder-mystery.git
+  321  ls
+  322  cd command-line-murder-mystery
+  323  ls
+  324  cat license
+  325  ls
+  326  cat readme.md
+  327  ls
+  328  cd mystery
+  329  ls
+  330  cd interviews
+  331  ls
+  332  head -n 173 streets/Mattapan_Street | tail -n 1
+  333  cd ..
+  334  cat vehicles
+  335  head
+  336  cd desktop
+  337  cd seir_526
+  338  ls
+  339  cd homeworks
+  340  ls
+  341  cd command-line-murder-mystery
+  342  ls
+  343  cd mystery
+  344  ls
+  345  head -n 20 people
+  346  cat people | grep "Church"
+  347  head -15 vehicle
+  348  head -15 vehicles
+  349  ls
+  350  cd interviews
+  351  ls
+  352  head -15 interview-000296
+  353  cat interviews | grep "Berkingham"
+  354  cd ..
+  355  ls
+  356  head -30 vehicles
+  357  cat vehicles | grep -5 "Annabel"
+  358  ls
+  359  cd streets
+  360  ld
+  361  ls
+  362  head -n 50 Buckingham_Place
+  363  cd ..
+  364  ls
+  365  cd interviews
+  366  ls
+  367  cat interview-000296 | head -n 15
+  368  $
+  369  cd ..
+  370  ls
+  371  cd ..
+  372  ls
+  373  cat README.md
+  374  cat LICENSE
+  375  ls
+  376  cat LICENSE.txt
+  377  ls
+  378  cd mystery
+  379  ls
+  380  cd streets
+  381  ls
+  382  cat Buckingham_street
+  383  cat Buckingham_Place
+  384  cat buckingham_Place | grep "interview"
+  385  cd ..
+  386  ls
+  387  cd interviews
+  388  ls
+  389  cat interview-699607
+  390  cd ..
+  391  ls
+  392  vehicles
+  393  head -n 15 vechicles
+  394  head -n 15 "vehicles"
+  395  cat vehicles | grep -A 5 "L337"
+  396  ls
+  397  cd memberships
+  398  ls
+  399  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library Delta.txt library.txt museum.txt | grep -c "Erika Owens"
+  400  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library Delta.txt library.txt museum.txt | grep -c "Joe Germuska"
+  401  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library Delta.txt library.txt museum.txt | grep -c "Jeremy Bowers"
+  402  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library Delta.txt library.txt museum.txt | grep -c "Jacqui Maher"
+  403  cd ..
+  404  ls
+  405  head -n 15 people
+  406  cat people 
+  407  cat people | grep "Jacqui Meher"
+  408  cat people | grep "Jacqui"
+  409  cat people | gret "Jeremy"
+  410  cat people | grep "Jeremy"
+  411  cd ..
+  412  ls
+  413  cat README.md
+  414  touch solution.txt
+  415  ls
+  416  echo " 1. The commands you used to get the solution (hint: run `history` for a list of the commands you ran)." >> solution.txt\n
+  417  cat solution.txt
+  418  rm solution.txt
+  419  ls
+  420  touch solution.txt
+  421  echo "31" >> soulution.txt
+  422  cat solution.txt
+  423  ls
+  424  rm solution.txt
+  425  rm soulution.txt
+  426  ls
+  427  touch solution.txt
+  428  echo "TEST" >> soluttion.txt
+  429  cat solution.txt
+  430  ls
+  431  rm solution.txt
+  432  rm soluttion.txt
+  433  ls
+  434  touch solution.txt
+  435  ls
+  436  echo "TEST" >> solution.txt
+  437  cat solution.txt
+  438  rm solution.txt
+  439  touch solution.txt
+  440  ls
+  441  echo "The commands you used to get the solution" >> solution.txt
+  442  cat solution.txt
+Jeremy Bowers
