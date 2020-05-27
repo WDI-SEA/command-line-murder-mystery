@@ -1,0 +1,189 @@
+    1  git --version
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    3  $ brew install git
+    4  brew install git
+    5  code
+    6  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    7  zsh
+    8  zsh --version
+    9  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   10  xcode-select --install
+   11  ^[[200~ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   12  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\n\n\n\n\n\n
+   13  brew doctor
+   14  ping battle.net
+   15  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+   16  ssh-keygen -t rsa -b 4096 -C "eliott.davidson@gmail.com"
+   17  eval "$(ssh-agent -s)"
+   18  open ~/.ssh/config
+   19  touch ~/.ssh/config
+   20  open ~/.ssh/config
+   21  ssh-add -K ~/.ssh/id_rsa
+   22  pbcopy < ~/.ssh/id_rsa.pub
+   23  touch README.md
+   24  ls
+   25  pwd
+   26  open .
+   27  cd desktop
+   28  mkdir test
+   29  cd test
+   30  cd ..
+   31  cd test
+   32  cd ..
+   33  mkdir seir526
+   34  cd seir526
+   35  mkdir homework
+   36  cd homework
+   37  git@github.com:fussypuppet/command-line-murder-mystery.git
+   38  git clone git@github.com:fussypuppet/command-line-murder-mystery.git
+   39  ls
+   40  cd command-line-murder-mystery
+   41  ls
+   42  cat README.md
+   43  ls
+   44  cat instructions
+   45  cd mystery
+   46  ls
+   47  cat crimescene
+   48  man grep
+   49  ls
+   50  grep "CLUE" crimescene
+   51  ls
+   52  grep "CLUE" interviews
+   53  cd interviews
+   54  ls
+   55  grep "CLUE" *
+   56  cd ..
+   57  grep "CLUE" *
+   58  ls
+   59  cd memberships
+   60  ls
+   61  cat AAA
+   62  ls
+   63  cd ..
+   64  ls
+   65  cat peop.e
+   66  cat people
+   67  man comm
+   68  ls
+   69  cd memberships
+   70  ls
+   71  cat AAA
+   72  man sort
+   73  sort AAA -0 AAA_sorted
+   74  sort AAA -o AAA_sorted
+   75  ls
+   76  cat AAA_sorted
+   77  ls
+   78  sort Delta_SkyMiles -o Delta_SkyMiles_sorted
+   79  cat delta.txt
+   80  ls
+   81  sort Terminal_City_Library -o Terminal_City_Library_sorted
+   82  sort Museum_of_Bash_History -o Museum_of_Bash_History_sorted
+   83  comm -12 AAA_sorted Delta_SkyMiles_sorted -o AAADelta
+   84  comm -12 AAA_sorted Delta_SkyMiles_sorted >  AAADelta
+   85  ;s
+   86  ls
+   87  cat AAADelta
+   88  ls
+   89  comm -12 AAADelta Museum_of_Bash_History_sorted > AAADeltaMus
+   90  comm -12 AAADeltaMus Terminal_City_Library_sorted > AAADeltaMusLib
+   91  cat AAADeltaMusLib
+   92  cd ..
+   93  ls
+   94  grep "Aldo Nicolas" people
+   95  cd streets
+   96  ls
+   97  man sed
+   98  man awk
+   99  cd ..
+  100  ls
+  101  grep "Aldo Nicolas" people
+  102  cat ./memberships/AAADeltaLibMus
+  103  cat ./memberships/AAADeltaMusLib
+  104  ls
+  105  grep "Andrei Masna" people
+  106  grep "Augustin Lozano" people
+  107  grep "Brian Boyer" people
+  108  awk 'NR=183' ./streets/Harbor_Point_Boulevard
+  109  man awk
+  110  awk 'NR = 183' ./streets/Harbor_Point_Boulevard
+  111  ls
+  112  cd interviews
+  113  ls
+  114  cat interview-628618
+  115  cd ..
+  116  cat ./memberships/AAADeltaMusLib
+  117  grep "Dalibor Vidal" people
+  118  cd streets
+  119  ls
+  120  cd ..
+  121  grep "Deron Estanguet" people
+  122  grep "Didier Munoz" people
+  123  grep "Jeremy Bowers" people
+  124  awk 'NR==284' ./streets/Dunstable_Road
+  125  cat ./interviews/interview-9620713
+  126  grep "Kelly Kulish" people
+  127  grep "Krystian Pen" people
+  128  grep "LiangLiang Miller" people
+  129  grep "Liangliang Miller" people
+  130  grep "Matt Waite" people
+  131  awk 'NR==79' ./streets/Alpine_Street
+  132  cat ./interviews/interview-862173
+  133  grep "Mike Bostock" people
+  134  awk 'NR==287' ./streets/Senders_Court
+  135  cat ./interviews/interview-290346
+  136  grep "Nikolaus Milotz" people
+  137  grep "Nikolaus Milatz" people
+  138  grep "Sonata Raif" people
+  139  grep "Emma Wei" people
+  140  grep "Annabel" people
+  141  awk 'NR==40' ./streets/Hart_Place
+  142  cat ./interviews/interview-47246024
+  143  awk 'NR==173' ./streets/Mattapan_Street
+  144  cat ./interviews/interview-9437737
+  145  awk 'NR==179' ./streets/Buckingham_Place
+  146  cat ./interviews/interview-699687
+  147  cat ./interviews/interview-699607
+  148  ls
+  149  cat vehicles
+  150  grep "L337" vehicles
+  151  grep "L337" vehicles -n
+  152  awk 'NR==867' vehicles
+  153  awk 'NR==868' vehicles
+  154  awk 'NR==2168' vehicles
+  155  awk 'NR==2169' vehicles
+  156  awk 'NR==2170' vehicles
+  157  awk 'NR==5458' vehicles
+  158  awk 'NR==5459' vehicles
+  159  awk 'NR==7167' vehicles
+  160  awk 'NR==7168' vehicles
+  161  awk 'NR==7169' vehicles
+  162  awk 'NR==13565' vehicles
+  163  awk 'NR==13656' vehicles
+  164  awk 'NR==15924' vehicles
+  165  awk 'NR==17744' vehicles
+  166  awk 'NR==17745' vehicles
+  167  awk 'NR==17746' vehicles
+  168  awk 'NR==17747' vehicles
+  169  awk 'NR==22084' vehicles
+  170  awk 'NR==23827' vehicles
+  171  awk 'NR==23828' vehicles
+  172  awk 'NR==23829' vehicles
+  173  awk 'NR==24835' vehicles
+  174  awk 'NR==24836' vehicles
+  175  awk 'NR==24837' vehicles
+  176  awk 'NR==24838' vehicles
+  177  awk 'NR==31828' vehicles
+  178  awk 'NR==31829' vehicles
+  179  awk 'NR==31830' vehicles
+  180  awk 'NR==31831' vehicles
+  181  awk 'NR==34313' vehicles
+  182  awk 'NR==34314' vehicles
+  183  awk 'NR==34315' vehicles
+  184  cd ..
+  185  ls
+  186  cat README.md
+  187  touch solution.txt
+  188  history
+  189  awk 'NR>37' history >> solution.txt
