@@ -1,0 +1,523 @@
+    1  ls
+    2  cd
+    3  cd documents
+    4  ls
+    5  ls-a
+    6  cd..
+    7  cd ..
+    8  pwd
+    9  mkdir myfolder
+   10  ls
+   11  cd myFolder
+   12  touch index.html style.css
+   13  rm style.css
+   14  ls
+   15  cd ..
+   16  rm ~r myfolder
+   17  cwd
+   18  pwd
+   19  ls
+   20  cd downloads
+   21  cd world
+   22  ls
+   23  ls~a
+   24  ls ~a
+   25  ls ~a world
+   26  ls ~a
+   27  cd africa
+   28  ls ~a
+   29  cd australia
+   30  cd ..
+   31  cd australia
+   32  ls ~a
+   33  cd ..
+   34  cd north_america
+   35  ls ~a
+   36  cd ..
+   37  cd asia
+   38  ls ~a
+   39  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   40  git
+   41  git--version
+   42  git --version
+   43  brew install git
+   44  git init
+   45  ls
+   46  cd desktop
+   47  touch GA-Blog
+   48  ls
+   49  cd GA-Blog
+   50  pwd
+   51  cd ..
+   52  cd desktop
+   53  mkdir GA-Blog
+   54  ls
+   55  cd GA-Blog
+   56  rm ~r GA-Blog
+   57  rm GA-Blog
+   58  ls
+   59  mkdir GA-Blog
+   60  ls
+   61  cd GA-Blog
+   62  git init
+   63  ls ~a
+   64  ls -a
+   65  git status
+   66  touch my-first-post.txt
+   67  git status
+   68  git add my-first-post.txt
+   69  git status
+   70  git log
+   71  git commit
+   72  ls
+   73  cd desktop
+   74  ls
+   75  cd SEI Docs
+   76  mkdr git-practice
+   77  mkdir git-practice
+   78  ls
+   79  cd SEI Docs
+   80  cd sei docs
+   81  pwd
+   82  cd cd ..
+   83  cd SEI Docs
+   84  cd git-practice
+   85  git init
+   86  git status
+   87  ls -a
+   88  mkdir README.txt
+   89  git status
+   90  git add README.txt 
+   91  git status
+   92  git add README.txt
+   93  git commit -m 
+   94  git commit -m README.txt
+   95  git commit -m"created new txt file"
+   96  git log
+   97  git add README.txt
+   98  git commit -m "new"
+   99  git clone https://github.com/neriram/firefox-ios.git
+  100  git add
+  101  git --version
+  102  ls
+  103  zsh --version
+  104  echo $SHELL
+  105  chsh -s
+  106  chsh -s $(which zsh)
+  107  chsh -s (which zsh)
+  108  zsh --version
+  109  chsh -s $(which zsh)
+  110  echo $SHELL
+  111  $SHELL --version
+  112  xcode-select --install
+  113  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+  114  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  115  brew doctor
+  116  brew install git
+  117  brew upgrade git
+  118  git config
+  119  ping.google.com
+  120  ping google.com
+  121  ssh-keygen -t rsa -b 4096 -C "neriram@gmail.com"
+  122  eval "$(ssh-agent -s)"
+  123  open ~/.ssh/config
+  124  touch ~/.ssh/config
+  125  open ~/.ssh/config
+  126  ssh-add -K ~/.ssh/id_rsa
+  127  pbcopy < ~/.ssh/id_rsa.pub
+  128  clear
+  129  pwd
+  130  ls
+  131  cd desktop
+  132  ls
+  133  cd sei docs
+  134  pwd
+  135  cd SEI Docs
+  136  mkdir seir_526
+  137  pwd
+  138  cd seir_526
+  139  mkdir units
+  140  cd units
+  141  mkdir unit1
+  142  cd unit1
+  143  ls
+  144  touch README.md
+  145  ls
+  146  pwd
+  147  open .
+  148  ls -l
+  149  ls -la
+  150  ls -S
+  151  pwd
+  152  cd units
+  153  cd seir_526
+  154  cd ..units
+  155  cd units
+  156  cd Desktop
+  157  ..desktop
+  158  cd..
+  159  cd ..
+  160  pwd
+  161  mkdir units2
+  162  cd units2
+  163  touch text.txt
+  164  cp unit1/text.txt unit2
+  165  pwd
+  166  cd..
+  167  cd ..
+  168  rm text.txt
+  169  ls
+  170  cd unit1
+  171  ls
+  172  man rm
+  173  touch secondmessage.txt
+  174  echo "This is a secrete message" >> secondmessage.txt
+  175  cat secondmessage.txt
+  176  echo "more words" >> secondmessage.txt
+  177  cat secondmessage.txt
+  178  echo "a" >> secondmessage.txt
+  179  echo "z" >> secondmessage.txt
+  180  cat secondmessage.txt
+  181  cat secondmessage.txt | sort
+  182  cat secondmessage.txt | sort >sortedmessage.txt
+  183  ls -l
+  184  cat sortedmessage.txt
+  185  cat sortedmessage.txt | grep "secret"
+  186  history
+  187  ls
+  188  head -n 1 secondmessage.txt
+  189  head -n 2 secondmessage.txt
+  190  head -n 2 secondmessage.txt > twolines,txt
+  191  cat twolines.txt
+  192  cd ..
+  193  history > history.txt
+  194  history -n 5 history.txt
+  195  history >> history.txt
+  196  ls
+  197  history -n 5
+  198  pwd
+  199  cd units
+  200  cd unit
+  201  cd unit1
+  202  mkdir homework
+  203  ls
+  204  cd homework
+  205  git@github.com:neriram/command-line-murder-mystery.git
+  206  git close git@github.com:neriram/command-line-murder-mystery.git
+  207  git clone git@github.com:neriram/command-line-murder-mystery.git
+  208  ls
+  209  cd command-line-murder-mystery
+  210  ls
+  211  cat instructions
+  212  cd mystery
+  213  cd crimescene
+  214  cd crimescene.txt
+  215  pwd
+  216  ls
+  217  cat crimescene
+  218  cd ..
+  219  ls
+  220  cat cheatsheet.pdf
+  221  cd ..
+  222  pwd
+  223  cd command-line-murder-mystery
+  224  ls
+  225  cd hint1
+  226  cat hint1
+  227  head -n 20 murder
+  228  head -n 20 people
+  229  cat hint2
+  230  man grep
+  231  cat crimescene.txt grep
+  232  cat crimescene.txt grep "clues"
+  233  cat hint3
+  234  cat hint4
+  235  cat instructions
+  236  cat cheatsheet.md
+  237  cd..
+  238  cd ..
+  239  ls
+  240  cd ..
+  241  cd command-line-murder-mystery
+  242  ls
+  243  pwd
+  244  cd ..
+  245  cd command-line-murder-mystery
+  246  ls
+  247  cd desktop
+  248  ls
+  249  cd seir_526
+  250  ls
+  251  cd command-line-murder-mystery
+  252  git clone git@github.com:WDI-SEA/command-line-murder-mystery.git
+  253  ls
+  254  pwd
+  255  cd command-line-murder-mystery
+  256  ls
+  257  cat instructions
+  258  cat nano cheatsheet.md
+  259  cat solutions
+  260  cat hint1
+  261  cat hint2
+  262  cd crimescene.txt
+  263  cd mystery
+  264  cd ..
+  265  cat hint3
+  266  cat hint4
+  267  cd mystery
+  268  cat crimescene.txt
+  269  ls
+  270  cat people
+  271  cd interviews
+  272  cat interviews
+  273  cd ..
+  274  cat interviews
+  275  cd crimescene
+  276  cat crimescene.txt | sort
+  277  cat crimescene.txt | grep "clues"
+  278  ;s
+  279  ls
+  280  cat crimescene.txt
+  281  cat crimescene
+  282  gerp "clues"
+  283  grep "clues"
+  284  pwd
+  285  cd command-line-murder-mystery
+  286  git clone git@github.com:WDI-SEA/command-line-murder-mystery.git
+  287  ls
+  288  cd command-line-murder-mystery
+  289  ls
+  290  cat instructions
+  291  cat cheatsheet.md
+  292  cd mystery
+  293  ls
+  294  cat grep | "CLUES" crimescene.txt
+  295  cat crimescene.txt | grep "CLUES"
+  296  grep "CLUES" crimecence.txt
+  297  grep "CLUES" crimescene.txt
+  298  cat crimescene | grep "CLUE"
+  299  echo "CLUE" > solutions.txt
+  300  cat hint1
+  301  cd ..
+  302  cat hint1
+  303  ls
+  304  head -n 20 people
+  305  cat people | grep "annabel"
+  306  cat people
+  307  cd ..
+  308  hint2
+  309  cat hint2
+  310  cat hint3
+  311  cat hint4
+  312  cd mystery
+  313  grep "Annabel" people
+  314  cd streets
+  315  cat streets
+  316  head -n 15
+  317  git clone git@github.com:WDI-SEA/command-line-murder-mystery.git
+  318  cd command-line-murder-mystery
+  319  ls
+  320  cd mystery
+  321  ls
+  322  cd streets
+  323  cd mystery
+  324  cat streets
+  325  cd mystery
+  326  cd ..
+  327  cat streets
+  328  cd streets
+  329  head -n hart place
+  330  cat streets
+  331  cd ..
+  332  ls
+  333  cat memberships
+  334  cd memberships
+  335  cat memberships
+  336  head memberships
+  337  cd ..
+  338  cat hint4
+  339  cat hint5
+  340  cat hint2
+  341  cat hint3
+  342  cd mystery
+  343  ls
+  344  head -n 15 streets
+  345  cat streets
+  346  cd streets
+  347  cat streets
+  348  ls
+  349  cd hart_place
+  350  cat hart_place
+  351  cat Buckingham_Place
+  352  cd..
+  353  ls
+  354  cd mystery
+  355  cd ..
+  356  ls
+  357  cd interviews
+  358  cat interviews
+  359  ls
+  360  cd..
+  361  cd ..
+  362  ls
+  363  cd vehicles
+  364  cat vehicles
+  365  cat vehicles | grep "6'0"
+  366  ls
+  367  cat solutions.txt
+  368  cat people
+  369  cat people | grep "Shiho Brens"
+  370  ls
+  371  cd streets
+  372  cat streets
+  373  cd streets
+  374  ls
+  375  cd memberships
+  376  cd ..
+  377  ls
+  378  cd memberships
+  379  cat
+  380  history
+  381  pws
+  382  pwd
+  383  ls
+  384  cd command-line-murder-mystery
+  385  ls
+  386  cat hint5
+  387  cat hint6
+  388  cat hint7
+  389  cd instructions
+  390  cat instructions
+  391  cat solution
+  392  cd solution
+  393  cd ls
+  394  ls
+  395  cd mystery
+  396  ls
+  397  cd memberships
+  398  ls
+  399  cat Delta_SkyMiles
+  400  cd ..
+  401  ls
+  402  cd interviews
+  403  cat interviews
+  404  ls
+  405  cd ..
+  406  ls
+  407  cat interview-999372
+  408  cd streets
+  409  ls
+  410  cat Hart_Place
+  411  cd ..
+  412  ls
+  413  head names
+  414  ls
+  415  head people
+  416  grep "Hart_Place" 
+  417  cd command-line-murder-mystery
+  418  ls
+  419  cat instructions
+  420  cat hint1
+  421  cat hint2
+  422  cat crimescene | grep "CLUE"
+  423  cd mystery
+  424  cat crimescene | grep "CLUE"
+  425  cd people
+  426  ;s
+  427  ls
+  428  cd people
+  429  cat people
+  430  cat people | grep "Annabel"
+  431  ;s
+  432  ls
+  433  cd streets
+  434  cat streets
+  435  ls
+  436  cd Buckingham_Place
+  437  cat Buckingham_Place
+  438  head -n 40 streets/Hart_Place
+  439  cd interviews
+  440  cd ..
+  441  ls
+  442  cd interviews
+  443  cat interviews | 699607
+  444  ls
+  445  head interview-699607
+  446  cd ..
+  447  ls
+  448  cd vehicles
+  449  cat -n vehicles | grep "L337"
+  450  head -n 7168 vehicles | tail -n 3
+  451  head -n 17745 vehicles | tail -n3
+  452  head -n 22085 vehicles | tail -n3
+  453  head -n 23828 vehicles | tail -n3
+  454  head -n 24836 vehicles | tail -n3
+  455  head -n 31829 vehicles | tail -n3
+  456  head -n 34314 vehicles | tail -n3
+  457  cd people
+  458  cat people
+  459  cd ..
+  460  cd mystery
+  461  ls
+  462  cat vehicles
+  463  cat vehicles 
+  464  cat vehicles | grep "L337QE9"
+  465  cat -n vehicles | grep -c 7 "L337DV9"
+  466  cd vehicles
+  467  ls
+  468  cat -n vehicles | grep -c 7 "L337DV9"
+  469  cd vehicles
+  470  cd ..
+  471  ls
+  472  cd mystery
+  473  cat -n vehicles | grep -c 7 "L337DV9"
+  474  cat -n vehicles | grep -l 7 "L337DV9"
+  475  man grep
+  476  cat vehicles | grep -A 6 "L337"
+  477  ls
+  478  cd ..
+  479  hint4
+  480  ls
+  481  cat hint3
+  482  cat hint4
+  483  cat hint5
+  484  cat hint6
+  485  cat hint7
+  486  ls
+  487  cd mystery
+  488  ls
+  489  cd memberships
+  490  cat memberships
+  491  cat
+  492  cat memberships
+  493  cd memberships
+  494  ls
+  495  cat Delta_SkyMiles
+  496  cat memberships | "Jeremy Bowers"
+  497  cat memberships | "Jacqui Maher"
+  498  cat memberships | grep "Jeremy Bowers"
+  499  cat memberhips | grep "Joe Germuska"
+  500  cat memberships | grep "Jeremy Bowers"
+  501  ls
+  502  cat AAA
+  503  head memberships | grep "Jeremy Bowers"
+  504  cat memberships | grep "Joe Germuska"
+  505  cd ..
+  506  ls
+  507  cat hint2
+  508  cat hint3
+  509  cat hint6
+  510  cat hint1
+  511  cat hint2
+  512  cat hint3
+  513  cat hint4
+  514  cat hint5
+  515  cat hint6
+  516  cat hint7
+  517  cat hint8
+  518  cd mystery
+  519  cd memberships
+  520  ls
+  521  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  522  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  523  history
