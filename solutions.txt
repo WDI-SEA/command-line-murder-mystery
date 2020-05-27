@@ -1,0 +1,71 @@
+    1  pwd
+    2  cd Desktop/seir_526/homeworks/
+    3  cd command-line-murder-mystery
+    4  ls
+    5  cat instructions
+    6  cd msytery
+    7  cd mystery
+    8  cat crimescene | grep "CLUE"
+    9  touch clues.md
+   10  ls
+   11  cat crimescene | grep "CLUE" >> clues.md
+   12  cat clues.md
+   13  ls
+   14  cat people | grep "Annabel"
+   15  cat people | grep "Annabel F"
+   16  cat people | grep "Annabel" "F"
+   17  pwd
+   18  cd streets
+   19  head -n 40 Hart_Place | tails -n 1
+   20  head -n 40 Hart_Place | tail -n 1
+   21  head -n 40 Hart_Place | tail -n 1 >> clues.md
+   22  cd ..
+   23  cat clues.md
+   24  cd streets
+   25  head -n 179 Buckingham_Place | tail -n 1
+   26  cd ..
+   27  cd interviews
+   28  cat interview-47246024 interview-699607
+   29  cd ..
+   30  ls
+   31  cat vehicles
+   32  cat vehicles | grep "L337" | grep "Honda" | grep "Blue" 
+   33  cat vehicles | grep "L337"
+   34  man 
+   35  man cat
+   36  man grep
+   37  cat vehicles | grep -A 5 "L337"
+   38  cd memberships
+   39  ;s
+   40  ls
+   41  man grep
+   42  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | -c "Joe Germuska"
+   43  man grep
+   44  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+   45  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+   46  cd ..
+   47  touch solutions.txt
+   48  ls
+   49  rm solutions.txt
+   50  ls
+   51  cd ..
+   52  touch solutions.txt 
+   53  echo history >> solutions.txt
+   54  cat solutions.txt
+   55  history
+   56  rm solutions.txt
+   57  touch solutions.txt
+   58  echo "1  pwd\n    2  cd Desktop/seir_526/homeworks/\n    3  cd command-line-murder-mystery\n    4  ls\n    5  cat instructions\n    6  cd msytery\n    7  cd mystery\n    8  cat crimescene | grep "CLUE"\n    9  touch clues.md\n   10  ls\n   11  cat crimescene | grep "CLUE" >> clues.md\n   12  cat clues.md\n   13  ls\n   14  cat people | grep "Annabel"\n   15  cat people | grep "Annabel F"\n   16  cat people | grep "Annabel" "F"\n   17  pwd\n   18  cd streets\n   19  head -n 40 Hart_Place | tails -n 1\n   20  head -n 40 Hart_Place | tail -n 1\n   21  head -n 40 Hart_Place | tail -n 1 >> clues.md\n   22  cd ..\n   23  cat clues.md\n   24  cd streets\n   25  head -n 179 Buckingham_Place | tail -n 1\n   26  cd ..\n   27  cd interviews\n   28  cat interview-47246024 interview-699607\n   29  cd ..\n   30  ls\n   31  cat vehicles\n   32  cat vehicles | grep "L337" | grep "Honda" | grep "Blue" \n   33  cat vehicles | grep "L337"\n   34  man \n   35  man cat\n   36  man grep\n   37  cat vehicles | grep -A 5 "L337"\n   38  cd memberships\n   39  ;s\n   40  ls\n   41  man grep\n   42  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | -c "Joe Germuska"\n   43  man grep\n   44  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"\n   45  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"\n   46  cd ..\n   47  touch solutions.txt\n   48  ls\n   49  rm solutions.txt\n   50  ls\n   51  cd ..\n   52  touch solutions.txt \n   53  echo history >> solutions.txt\n   54  cat solutions.txt" >> solutions.txt
+   59  cat solutions.txt
+   60  echo "Jeremy Bowers is the MURDERERcat solutions.txt" >> solutions.txt
+   61  cat solutions.txt
+   62  compaudit | xargs chmod g-w
+   63  compaudit | xargs chmod g-w,o-w
+   64  history
+   65  pwd
+   66  cd Desktop/seir_526/homeworks/
+   67  cd command-line-murder-mystery
+   68  history
+   69  rm -R solutions.txt
+   70  ls
+   71  touch solutions.txt
