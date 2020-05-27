@@ -1,0 +1,685 @@
+    1  /Applications/Atom.app/Contents/MacOS/Atom ; exit;
+    2  pwd
+    3  ls
+    4  cd Documents
+    5  pwd
+    6  pwd
+    7  owd
+    8  pwd
+    9  cd..
+   10  cd.
+   11  cd...
+   12  pwd
+   13  ls
+   14  ls
+   15  cd Downloads
+   16  ls -a
+   17  cd.
+   18  cd..
+   19  ..
+   20  .
+   21  ..
+   22  cd..
+   23  ls -a
+   24  cd ..
+   25  pwd
+   26  cd ~
+   27  cd
+   28  pwd
+   29  cd Downloads
+   30  ls =a
+   31  ls -a
+   32  cd Photos
+   33  ls
+   34  ls -a
+   35  ls
+   36  cd ~
+   37  pwd
+   38  cd ~
+   39  cd Documents
+   40  ls
+   41  mkdir myfolder
+   42  cd myfolder
+   43  touch index.html style.css 
+   44  cd myfolder
+   45  ls 
+   46  rm style.css
+   47  cd ..
+   48  cd
+   49  ls -a
+   50  rm myfolder -r
+   51  pwd
+   52  cd documents
+   53  rm myfolder -r
+   54  rm myfolder
+   55  pwd
+   56  rm -r myfolder
+   57  pwd
+   58  cd ..
+   59  cd ..
+   60  cd ~
+   61  git --version
+   62  CD ~
+   63  pwd
+   64  ls -a
+   65  cd Desktop
+   66  mkdir GA-Blog
+   67  la
+   68  -la
+   69  ls
+   70  cd GA-Blog
+   71  pwd
+   72  $ git init
+   73  $git init
+   74  git init
+   75  ls -a
+   76  git status
+   77  touch my-first-post.txt
+   78  git status
+   79  git add my-first-post.txt
+   80  git status
+   81  git log
+   82  git commit -m "created a new my-first-post.txt"
+   83  git log
+   84  mwd
+   85  pwd
+   86  git -r rm GA-Blog
+   87  rm -r GA-Blog
+   88  cd ..
+   89  rm -r GA-Blog
+   90  pwd
+   91  pwd
+   92  ls
+   93  rm -r GA-Blog
+   94  pwd
+   95  pwd
+   96  wdp
+   97  pwd
+   98  ls -a
+   99  ls
+  100  git --version
+  101  pwd
+  102  cd GA-Blog
+  103  pwd
+  104  git reset --hard HEAD^
+  105  cd .git
+  106  git status
+  107  pwd
+  108  git reset --hard HEAD^
+  109  git status
+  110  cd ..
+  111  git status
+  112  git --status
+  113  cd ..
+  114  git --version
+  115  git status
+  116  cd GA-Blog
+  117  pwd
+  118  git init
+  119  git status
+  120  cd ..
+  121  rm -r GA-Blog
+  122  pwd
+  123  pwd
+  124  cd GA-Blog
+  125  rmdir
+  126  pwd
+  127  git log
+  128  cd .giot
+  129  cd .git
+  130  git log
+  131  git add 
+  132  cd ~
+  133  ls
+  134  cd Desktop
+  135  -r rm GA-Blog
+  136  rm -r GA-Blog
+  137  pwd
+  138  pwd
+  139  rm -r GA-Blog
+  140  pwd
+  141  cd GA-Blog
+  142  git add new.txt
+  143  git note new.txt
+  144  notes new.txt
+  145  note new.txt
+  146  git init
+  147  touch new.txt
+  148  rm -r
+  149  rm -f
+  150  rm -r
+  151  rm new.txt
+  152  touch new.txt
+  153  cd ..
+  154  pwd
+  155  rm -r GA-Blog
+  156  mkdir kevinok
+  157  cd kevinok
+  158  pwd
+  159  cd ..
+  160  cd ~
+  161  pwd
+  162  cd desktop
+  163  pwd
+  164  mkdir kevinok
+  165  cd kevinok
+  166  touch index.html
+  167  atom .
+  168  atom .
+  169  open index.html
+  170  atom .
+  171  cd ~
+  172  pwd
+  173  -ls
+  174  ls
+  175  cd Desktop
+  176  ls
+  177  cd kevinok
+  178  cd
+  179  ls
+  180  cd Desktop
+  181  cd kevinok
+  182  ls
+  183  mkdir assessment
+  184  touch index.html
+  185  atom .
+  186  pwd
+  187  cd assessment
+  188  touch index.html
+  189  atom .
+  190  cd Desktop/kevinok/assessment/
+  191  cd index.html
+  192  open index.html
+  193  cd ~/desktop
+  194  pwd
+  195  mkdir kevinoktest
+  196  cd kevinoktest
+  197  touch index.html
+  198  atom .
+  199  open index.html
+  200  open dir desktop
+  201  open dir
+  202  open desktop
+  203  open downloads
+  204  open downloads
+  205  cd Desktop
+  206  mkdir practice
+  207  cd practice
+  208  touch index.html
+  209  touch main.js
+  210  atom .
+  211  cd Downloads
+  212  open dir
+  213  open .
+  214  cd desktop/practice/atom dir
+  215  cd desktop/practice
+  216  atom .
+  217  cd practice
+  218  cd desktop/practice
+  219  open index.html
+  220  open index.html
+  221  cd Desktop/practice/atom .
+  222  cd Desktop/practice
+  223  atom i
+  224  atom .
+  225  cd Desktop/practice
+  226  open index.html
+  227  git --version
+  228  git
+  229  cd ~
+  230  clear
+  231  cd Desktop/practice
+  232  cd dir
+  233  code .
+  234  zsh --version
+  235  echo $SHELL
+  236  zsh --version
+  237  zsh --version
+  238  xcode-select --install
+  239  cd ~ls
+  240  cd -ls
+  241  -ls
+  242  ls
+  243  \n\n\ncd Desktop/practice
+  244  ls
+  245  git init
+  246  cd ~
+  247  ls
+  248  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  249  ping
+  250  ping www.google.com
+  251  brew install git
+  252  ssh-keygen -t rsa -b 4096 -C "noanonoa@gmail.com"
+  253  eval "$(ssh-agent -s)"
+  254  open ~/.ssh/config
+  255  touch ~/.ssh/config
+  256  open ~/.ssh/config
+  257  ssh-add -K ~/.ssh/id_rsa
+  258  pbcopy < ~/.ssh/id_rsa.pub
+  259  clear
+  260  pwd
+  261  ls
+  262  cd Desktop
+  263  mkdir seir_526
+  264  cd seir_526
+  265  ls
+  266  mkdir units
+  267  cd units
+  268  cd ..
+  269  ls
+  270  mkdir units/unit1
+  271  cd units
+  272  ls
+  273  touch README.md
+  274  ls
+  275  46543
+  276  open .
+  277  open ..
+  278  ohmyzsh
+  279  zsh
+  280  oh-my-zsh
+  281  ls -l
+  282  clear
+  283  ls -1
+  284  ls -l
+  285  ls -la
+  286  ls -a
+  287  man ls
+  288  man zsh
+  289  ls -s
+  290  ls -S
+  291  mkdir unit2
+  292  touch unit2/test.txt
+  293  open unit2
+  294  ls -R
+  295  open unit2
+  296  cat unit2/test.txt
+  297  pwd
+  298  clear
+  299  ls -R
+  300  cp unit2/test.txt unit1/another.txt
+  301  ls -R
+  302  open units
+  303  open .
+  304  cd unit1
+  305  pwd
+  306  ;s
+  307  ls
+  308  rm another.txt
+  309  ls
+  310  ..
+  311  rm -i
+  312  cd unit
+  313  cd units
+  314  cd unit1
+  315  touch text.txt
+  316  rm -i text.txt
+  317  ls
+  318  rm -i text.txt
+  319  ls
+  320  man r
+  321  man rm
+  322  ls
+  323  ..
+  324  ls
+  325  touch unit1/secondMessage.txt
+  326  ls
+  327  man ls
+  328  ls -t
+  329  ls -a
+  330  ls -ta
+  331  echo "This is another secret message" >> unit1/secondMessage.txt
+  332  open unit1/secondMessage.txt
+  333  echo "some more words" >> unit1/secondMessage.txt
+  334  cat unit1/secondMessage.txt
+  335  open unit1/secondMessage.txt
+  336  man echo
+  337  echo "a" >> unit1/secondMessage.txt
+  338  echo "z" >> unit1/secondMessage.txt
+  339  ls -R
+  340  ls -r
+  341  ls -R
+  342  cd unit1
+  343  cat secondMessage.txt
+  344  cat secondMessage.txt | sort
+  345  cat secondMessage.txt | sort > sortedMessage.txt
+  346  ls -R
+  347  cat sortedMessage.txt
+  348  clear
+  349  history
+  350  cd .
+  351  cd ..
+  352  cd units
+  353  pwd
+  354  cd unit 1
+  355  cd unit1
+  356  ls
+  357  head -n 1 secondMessage.txt
+  358  head -n 21 secondMessage.txt
+  359  head man
+  360  man head
+  361  cd .
+  362  cat secondMessage.txt
+  363  cat secondMessage.txt | grep "words"
+  364  ..
+  365  history > history.txt
+  366  ls -R
+  367  mkdir homework
+  368  touch hw.txt
+  369  open homework/hw.txt
+  370  open hw.txt
+  371  chrome
+  372  https://github.com/noanonoa/command-line-murder-mystery.git
+  373  pwd
+  374  cd homework
+  375  cd ..
+  376  cd homework
+  377  git@github.com:noanonoa/command-line-murder-mystery.git
+  378  git clone git@github.com:noanonoa/command-line-murder-mystery.git
+  379  ls
+  380  open command-line-murder-mystery
+  381  ..
+  382  cd homework
+  383  ls
+  384  cd command-line-murder-mystery
+  385  ls
+  386  cat README.md
+  387  ..
+  388  cd homework
+  389  ls
+  390  man history
+  391  zsh --version
+  392  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  393  clear
+  394  pwd
+  395  cd Desktop/seir_526/units
+  396  dir
+  397  pwd
+  398  ls
+  399  cd homework
+  400  ls
+  401  cd command-linee-murder-mystery
+  402  cd command-line-murder-mystery
+  403  ls
+  404  cat instructions
+  405  ls
+  406  cd mystery
+  407  ls -R
+  408  cat crimescene
+  409  clear
+  410  cat crimescene
+  411  ls
+  412  cat crimescene | grep "CLUE"
+  413  ls
+  414  pwd
+  415  cat crimescene | grep "CLUE" > CLUE.txt
+  416  ls
+  417  cat CLUE.txt
+  418  cat crimescene | grep "Delta"
+  419  ls
+  420  cd memberships
+  421  ls
+  422  cat AAA
+  423  cat peope
+  424  cat people
+  425  ls
+  426  cd ..
+  427  cat people
+  428  cat crimescene | grep "CLUE"
+  429  ls
+  430  cd streets
+  431  ls
+  432  ..
+  433  clear
+  434  pwd
+  435  ls -r
+  436  cat ../instructions
+  437  open ../cheatsheet.md
+  438  nano cheatsheet.pdf
+  439  open cheatsheet.pdf
+  440  pwd
+  441  open /cheatsheet.pdf
+  442  open ../cheatsheet.pdf
+  443  cat hint1
+  444  cat ../hint1
+  445  head -n 20 people
+  446  cat hin2
+  447  cat ../hint2
+  448  cat -CLUE.txt
+  449  cat CLUE.txt
+  450  grep "Annabel" people
+  451  pwd
+  452  ls
+  453  ls -R
+  454  grep "Annabel" people >> CLUE.txt
+  455  cat CLUE.txt
+  456  cat streets/Haley_street
+  457  cat streets/Haley_street -n 176
+  458  cat streets/Haley_street head -n 176
+  459  head streets/Haley_street -n 176
+  460  pwd
+  461  open instructions
+  462  open ../instructions
+  463  pwd
+  464  ls
+  465  ls ../
+  466  cat ../hint2
+  467  cat CLUE.txt
+  468  head names -n 20
+  469  cd mystery
+  470  pwd
+  471  ls
+  472  head people -n 20
+  473  head streets/Hart_Place -n 40
+  474  head streets/Buckingham_Place -n 179
+  475  head streets/Haley_Street -n 176
+  476  head streets/Mattapan_Street -n 173
+  477  cd streets
+  478  head Mattapan_Street -n 173
+  479  ..
+  480  pwd
+  481  man head
+  482  head -n 173 streets/Mattapan_Street
+  483  pwd
+  484  ls
+  485  cat interviews/INTERVIEW #9437737
+  486  cat interviews/9437737
+  487  ls -r
+  488  ls -R
+  489  ls interviews
+  490  cat interviews/interview-9437737
+  491  head CLUE.txt
+  492  head -n 40 streets/Hart_Place
+  493  cat interviews/interview-47246024
+  494  head -n 179 streets/Buckingham_Place
+  495  cat interviews/interview-699607
+  496  cat interviews/interview-699607 >> CLUE.txt
+  497  cat CLUE.txt
+  498  preg "blue Honda" CLUE.txt
+  499  cat CLUE.txt | preg "blue Honda"
+  500  grep "blue Honda" CLUE.txt
+  501  ls
+  502  ls vehicles
+  503  head vehicles
+  504  cat vehicles | grep "L337"
+  505  cat vehicles | grep "blue Honda"
+  506  cat vehicles
+  507  cat vehicles | grep Honda
+  508  open cd ~
+  509  open ..
+  510  pwd
+  511  vehicles
+  512  ls
+  513  grep "blue\|honda\|L337\|9" vehicles
+  514  grep "blue\|honda\|L337" vehicles
+  515  grep 'blue\|honda\|L337' vehicles
+  516  grep 'blue\|honda' vehicles
+  517  'grep "blue\Honda" vehicles\ngrep "blue\Honda" vehicles\n'
+  518  '\n'
+  519  grep "blue\Honda" vehicles
+  520  grep "blue\|Honda" vehicles
+  521  grep -w "blue|Honda|L337" vehicles
+  522  ls
+  523  grep -w 'blue\|Honda' vehicles
+  524  grep -w "blue|Honda|L337" vehicles
+  525  cat vehicles | grep "blue|Honda|L337"
+  526  cat vehicles | grep "blue\|Honda"
+  527  head -n 30 vehicles
+  528  cat vehicles | grep "L337"
+  529  cat - n vehicles | grep "blue\|Honda\|L337"
+  530  cat -n vehicles | grep "blue\|Honda\|L337"
+  531  cat -n vehicles | grep "Blue\|Honda\|L337"
+  532  cat vehicles | grep "L337"
+  533  head -n 20 vehicles
+  534  cat vehicles | grep "L337" >> CLUE.txt
+  535  cat CLUE.txt
+  536  cat -n vehicles | grep "L337"
+  537  head -n 868 vehicles
+  538  cat -n vehicles | grep "L337"
+  539  head -n 2170 vehicles
+  540  cat instructions
+  541  pwd
+  542  ls
+  543  cat ..instructions
+  544  cat ../instructions
+  545  ls
+  546  cat crimescene | grep "CLUE"
+  547  cat people | grep "Annabel"
+  548  head people
+  549  ls -r streets
+  550  head -n 40 streets/Hart_Place
+  551  cat CLUE.txt
+  552  ls interview
+  553  ls
+  554  ls interviews
+  555  cat interviews/interview-47246024
+  556  cat CLUE.txt
+  557  head -n 179 streets/Buckingham_Place
+  558  ls
+  559  cat interviews/interview-699607
+  560  cat CLUE.txt
+  561  cat vehicles | grep "Honda"
+  562  cat -n vehicles | grep "Honda"
+  563  head vehicles
+  564  cat -n vehicles | grep "L337"
+  565  head -n 868 | tail -n 3
+  566  head -n 868 vehicles | tail -n 3
+  567  head -n 2170 vehicles | tail -n 3
+  568  head -n 5460 vehicles | tail -n 3
+  569  head -n 7168 vehicles | tail -n 3
+  570  echo "L337QE9" >> CLUE.txt
+  571  cat CLUE.txt
+  572  echo "suspects9" >> CLUE.txt
+  573  head -n 13566 vehicles | grep "L337"
+  574  head -n 13566 vehicles | tail -n 3
+  575  cat -n vehicles | grep "L337"
+  576  head -n 13657 vehicles | tail -n 3
+  577  head -n 15925 vehicles | tail -n 3
+  578  head -n 17745 vehicles | tail -n 3
+  579  head -n 15925 vehicles | tail -n 3 >> CLUE.txt
+  580  head -n 17745 vehicles | tail -n 3
+  581  cat CLUE.txt
+  582  open CLUE.txt
+  583  head -n 17745 vehicles | tail -n 3
+  584  head -n 17745 vehicles | tail -n 3 >> CLUE.txt
+  585  head -n 22085 vehicles | tail -n 3
+  586  head -n 23828 vehicles | tail -n 3
+  587  head -n 23828 vehicles | tail -n 3 >> CLUE.txt
+  588  cat CLUE.txt
+  589  head -n 23828 vehicles | tail -n 3
+  590  cat -n vehicles | grep "L337"
+  591  cat -n 24836 vehicles | grep "L337"
+  592  cat -n 24836 vehicles | tail -n 3
+  593  cat -n vehicles | head -n 24836 | tail -n 3
+  594  cat CLUE.txt
+  595  cat -n vehicles | head -n 24836 | tail -n 3 >> CLUE.txt
+  596  cat CLUE.txt
+  597  echo "cat -n vehicles | head -n 24836 | tail -n 3" >> CLUE.txt
+  598  cat CLUE.txt
+  599  cat instructions
+  600  cat ../instructions
+  601  ls
+  602  head -n vehicles
+  603  head vehicles
+  604  cat CLUE.txt
+  605  cat -n vehicles | grep "L337"
+  606  open CLUE.txt
+  607  cat -n vehicles | head -n 7170 | tail -n 3
+  608  cat -n vehicles | head -n 7166 | tail -n 5
+  609  cat -n vehicles | head -n 7170 | tail -n 4
+  610  cat -n vehicles | head -n 7169 | tail -n 4
+  611  cat -n vehicles | head -n 7169 | tail -n 4 >> CLUE.txt
+  612  open CLUE.txt
+  613  cat -n vehicles | grep -c 7 "L337DV9"
+  614  pwd
+  615  ls
+  616  cat -n vehicles | grep -c 7 "L337DV9"
+  617  cat -n vehicles | grep -l 7 "L337DV9"
+  618  cat -n vehicles | grep -l "L337DV9"
+  619  cat -n vehicles | grep -w 7 "L337DV9"
+  620  cat -n vehicles | grep -c77 "L337DV9"
+  621  cat -n vehicles | grep -c7 "L337DV9"
+  622  17745
+  623  cat vehicles | grep -A 6 "L337"
+  624  cat -n vehicles | grep -A 6 "L337"
+  625  man grep
+  626  17743
+  627  cat -n vehicles | grep -A 6 "17743"
+  628  cat -n vehicles | grep -A 5 "17743"
+  629  cat -n vehicles | grep -A 5 "17743" >> CLUE.txt
+  630  open CLUE.txt
+  631  cat -n vehicles | grep -A 6 "L337"
+  632  cat -n vehicles | grep "L337"
+  633  23826
+  634  24834
+  635  cat -n vehicles | grep -A 5 "23826"
+  636  cat -n vehicles | grep -A 5 "23826" >> CLUE.txt
+  637  cat -n vehicles | grep -A 5 "24834"
+  638  cat -n vehicles | grep -A 5 "24834" >> CLUE.txt
+  639  open CLUE.txt
+  640  ls
+  641  cat CLUE.txt | grep "Owner"
+  642  ls memberships
+  643  open CLUE.txt
+  644  \n
+  645  echo "\n" >> CLUE.txt
+  646  open CLUE.txt
+  647  cd memberships
+  648  ls
+  649  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+  650  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Aron Pilhofer"
+  651  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Heather Billings"
+  652  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  653  ..
+  654  cat -n vehicles | grep "L337"
+  655  cat -n vehicles | grep -A 5 "866"
+  656  cat -n vehicles | grep -A 5 "L337"
+  657  ls
+  658  cd memberships
+  659  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  660  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  661  ..
+  662  ls
+  663  head people
+  664  head -n 20 people
+  665  cat -n people | grep "Jeremy Bowers"
+  666  head -n 284 streets/Dunstable_Road
+  667  cat interviews/interview-96501713
+  668  cat interviews/interview-9620713
+  669  open CLUE.txt
+  670  cat people | grep "Jackie Maher"
+  671  ls
+  672  cat people | grep "Jackie"
+  673  cat -n people | grep "Jacqui Maher"
+  674  head -n 224 streets/Andover_Road
+  675  cat interviews/interview-904020
+  676  cat -n people | grep "Erika Owens"
+  677  head -n 98 streets/Trapelo_Street
+  678  cat interviews/interview-5455315
+  679  cat -n people | grep "Joe Germuska"
+  680  head -n 275 streets/Plainsfield_Street
+  681  head -n 275 streets/Plainfield_Street
+  682  cat interviews/interview-29741223
+  683  echo "Jeremy Bower" >> solutions.txt
+  684  cat solutions.txt
+  685  open .

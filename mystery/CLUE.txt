@@ -1,0 +1,56 @@
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+
+
+Annabel Sun	F	26	Hart Place, line 40
+Oluwasegun Annabel	M	37	Mattapan Street, line 173
+Annabel Church	F	38	Buckingham Place, line 179
+Annabel Fuglsang	M	40	Haley Street, line 176
+Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"License Plate 
+
+L337ZR9
+
+
+
+suspects
+
+(cat -n vehicles | grep -A 5 "7166")
+  7166	License Plate L337QE9
+  7167	Make: Honda
+  7168	Color: Blue
+  7169	Owner: Erika Owens
+
+(cat -n vehicles | grep -A 5 "17743")
+  17743	License Plate L337539
+  17744	Make: Honda
+  17745	Color: Blue
+  17746	Owner: Aron Pilhofer
+  17747	Height: 5'3"
+  17748	Weight: 198 lbs
+
+(cat -n vehicles | grep -A 5 "23826")
+  23826	License Plate L337369
+  23827	Make: Honda
+  23828	Color: Blue
+  23829	Owner: Heather Billings
+  23830	Height: 5'2"
+  23831	Weight: 244 lbs
+
+(cat -n vehicles | grep -A 5 "24834")
+  24834	License Plate L337DV9
+  24835	Make: Honda
+  24836	Color: Blue
+  24837	Owner: Joe Germuska
+  24838	Height: 6'2"
+  24839	Weight: 164 lbs
+
+(cat -n vehicles | grep -A 5 "31827")
+ 31827	License Plate L3375A9
+ 31828	Make: Honda
+ 31829	Color: Blue
+ 31830	Owner: Jeremy Bowers
+ 31831	Height: 6'1"
+ 31832	Weight: 204 lbs
