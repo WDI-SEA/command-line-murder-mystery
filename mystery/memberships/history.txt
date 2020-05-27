@@ -1,0 +1,537 @@
+    1  hello
+    2  pwd
+    3  ls
+    4  touch
+    5  rm .carmen_sandiego.png
+    6  cd downloads
+    7  ls
+    8  cd World
+    9  ls
+   10  cd africa
+   11  ls
+   12  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\n
+   13  brew help
+   14  cd desktop
+   15  mkdir GA-Blog
+   16  cd GA-Blog
+   17  $ git init
+   18  pwd
+   19  git init
+   20  ls
+   21  \ls
+   22  ls
+   23  touch my-first-post.txt
+   24  git add my-first-post.txt
+   25  git status
+   26  git commit -m "created a new post.txt file"
+   27  git log
+   28  mkdir git-practice
+   29  cd git-practice
+   30  pwd
+   31  git init
+   32  ls -a
+   33  git add README.txt
+   34  git status
+   35  cd git-practice
+   36  git add README.txt
+   37  git status
+   38  git commit -m
+   39  git commit -m "..."
+   40  /Applications/Exodus.app/Contents/Frameworks/Electron\ Framework.framework/Versions/A/Electron\ Framework ; exit;
+   41  general_assembly git --version
+   42  clear
+   43  git --version
+   44  mkdir seir 526
+   45  ls
+   46  rm seir
+   47  ls
+   48  mkdir seir526
+   49  ;s
+   50  ls
+   51  cd seir526
+   52  mkdir unit_1
+   53  cd unit_1
+   54  mkdir for_git
+   55  cd for_git
+   56  touch readme.md
+   57  git init
+   58  cd for_git
+   59  ls
+   60  git init
+   61  git status
+   62  git add readme.md
+   63  git add .
+   64  git commit -m "initial commit"
+   65  cl;ear
+   66  clear
+   67  git add remote origin
+   68  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   69  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   70  true
+   71  ij]
+   72  ls
+   73   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   74  clear
+   75  zsh --version
+   76  clear
+   77  index
+   78  faggot
+   79  shit
+   80  clear
+   81  true
+   82  sxcode-select --install\n\n
+   83  Software Update
+   84  "Software Update"
+   85  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   86  ok
+   87  y
+   88  yes
+   89  true
+   90  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   91  brew instaoll git
+   92  brew doctor
+   93  brew cleanup
+   94  brew install git
+   95  ping google.com
+   96  true
+   97  ssh-keygen -t rsa -b 4096 -C "octaviusthunder@gmail.com"
+   98  open ~/.ssh./config
+   99  touch ~/.ssh/config
+  100  open ~/.ssh/config
+  101  $ ssh-add -K ~/.ssh/id_rsa\n
+  102  $ ssh-add -K ~/.ssh/id_rsa
+  103  ssh-add -K ~/.ssh/id_rsa
+  104  pbcopy < ~/.ssh/id_rsa.pub
+  105  ssh-add -K ~/.ssh/id_rsa
+  106  ls
+  107  open ~/.ssh/config
+  108  val "$(ssh-agent -s)"
+  109  eval "$(ssh-agent -s)"
+  110  Agent pid 59566
+  111  open ~/.ssh/config
+  112  true
+  113  pwd
+  114  mkdir seir_526
+  115  cd seir_526
+  116  pwd
+  117  mkdir units
+  118  ls
+  119  mkdir units/unit1
+  120  ls
+  121  cd units
+  122  ls
+  123  touch README.md
+  124  ls
+  125  open
+  126  ls -l
+  127  clear
+  128  ls -S
+  129  mkdir unit2
+  130  touch unit2/test/txt
+  131  touch unit2/test.txt
+  132  open test.tct
+  133  open test.txt
+  134  cd unit2
+  135  open test.txt
+  136  pwd
+  137  ls -R
+  138  cp unit2/test.txt
+  139  cp unit2/text.txt unit1/anotherOne.txt
+  140  pwd
+  141  cd unit2
+  142  cd unit1
+  143  pwd
+  144  cd groovemachine
+  145  ls
+  146  open seir_526
+  147  cd unit2
+  148  cd seir_526
+  149  ls
+  150  true
+  151  ssh-keygen -t rsa -b 4096 -C "octaviusthunder@gmail.com"
+  152  eval "$(ssh-agent -s)"
+  153  open ~/.ssh/config
+  154  ssh-add -K ~/.ssh/id_rsa
+  155  pbcopy < ~/.ssh/id_rsa.pub
+  156  man
+  157  pwd
+  158  man rm
+  159  q
+  160  echo "aklsdjsad"
+  161  echo daksds
+  162  echo 1921
+  163  touch secondMessage.txt
+  164  echo "This is another secret message hahaha" >> secondMessage.txt
+  165  cat secondMessage.txt
+  166  echo "some more words" >> secondMessage.txt
+  167  cat secondMessage.txt
+  168  echo "a" >> secondMessage.txt
+  169  echo "z" >> secondMessage.txt
+  170  cat secondMessage.tct
+  171  cat secondMessage.txt
+  172  cat secondMessage.txt | sort
+  173  cat secondMessage.txt | sort > sortedMessage.txt
+  174  ls -l
+  175  cp seir256 > seir_256
+  176  ls
+  177  cd seir_256
+  178  cd seir_526
+  179  ls
+  180  ls -l
+  181  clear
+  182  pwd
+  183  cd groovemachine
+  184  cd Users
+  185  cat sortedMessage.txt | grep "secret"
+  186  compaudit
+  187  xargs chmod g-w,o-w
+  188  ZSH_DISABLE_COMPFIX = true
+  189  ZSH_DISABLE_COMPFIX
+  190  history
+  191  compaudit
+  192  sudo chmod -R 755 /usr/local/share/zsh
+  193  clear
+  194  compaudit
+  195  man head
+  196  head -n 1 secondMessage.txt
+  197  grep potato
+  198  asjd
+  199  grep
+  200  grep Desktop
+  201  cd Desktop
+  202  pwd
+  203  touch message.txt
+  204  ls
+  205  open message.txt
+  206  ..
+  207  pwd
+  208  history
+  209  clear history
+  210  history
+  211  history pwd
+  212  pwd
+  213  ls
+  214  ls -l
+  215  pwd
+  216  ls
+  217  cd Desktop
+  218  mkdir seir526
+  219  cd seir526
+  220  mkdir homeworks
+  221  cd homeworks
+  222  https://github.com/WDI-SEA/command-line-murder-mystery.git
+  223  git clone git@github.com/WDI-SEA/command-line-murder-mystery.git
+  224  git clone git@https://github.com/octaviusthunder/command-line-murder-mystery.git
+  225  git clone git@github.com/octaviusthunder/command-line-murder-mystery.git
+  226  git@github.com/octaviusthunder/command-line-murder-mystery.git
+  227  git clone git@github.com:octaviusthunder/command-line-murder-mystery.git
+  228  cd command-line-murder-mystery
+  229  ls
+  230  cat instructions
+  231  open instructions
+  232  cat mystery
+  233  cd mystery
+  234  xx
+  235  ..
+  236  ls
+  237  cat README.md
+  238  pwd
+  239  ls
+  240  cat LICENSE
+  241  pwd
+  242  ls
+  243  cat cheatsheet.md
+  244  pwd
+  245  ls
+  246  cat hint1
+  247  head -n 20 people
+  248  cat hint2
+  249  cat hint3
+  250  cat hint4
+  251  cat hint5
+  252  cat hint6
+  253  cat hint7
+  254  cat hint8
+  255  cat instructions
+  256  cd mystery
+  257  ls
+  258  cd crimescene
+  259  cat crimescene
+  260  open crimescene
+  261  pwd
+  262  ls
+  263  grep "killed"
+  264  pwd
+  265  ls
+  266  cd Desktop
+  267  ls
+  268  cd seir526
+  269  ls
+  270  cd homeworks
+  271  ls
+  272  cd command-line-murder-mystery
+  273  ls
+  274  cd mystery
+  275  ls
+  276  cat vehicles
+  277  head cat vehicles
+  278  pwd
+  279  ls
+  280  cd interviews
+  281  ls
+  282  pwd
+  283  ..
+  284  pwd
+  285  ls
+  286  cd streets
+  287  ls
+  288  ..
+  289  list
+  290  ls
+  291  ..
+  292  ls
+  293  open instructions
+  294  cd crimescene
+  295  cd mystery
+  296  cd crimescene
+  297  ls
+  298  cat crimescene head grep "CLUES"
+  299  pwd
+  300  ls
+  301  ..
+  302  ls
+  303  open cheatsheet.md
+  304  pwd
+  305  ls
+  306  cd mystery
+  307  ls
+  308  head crimescene | grep "CLUES"
+  309  cat crimescene | grep "CLUES"
+  310  grep "CLUES" crimescene
+  311  xlear
+  312  clrea
+  313  clear
+  314  pwd
+  315  ls
+  316  grep "CLUES" crimescene
+  317  clear
+  318  cat crimescene
+  319  grep "CLUES" crimescene.txt
+  320  grep "CLUES"
+  321  pwd
+  322  ls
+  323  cd desktop
+  324  ls
+  325  cd seir526
+  326  ls
+  327  cd homeworks
+  328  ls
+  329  cd command-line-murder-mystery
+  330  ls
+  331  cd mystery
+  332  ls
+  333  grep "CLUES" crimescene
+  334  /mystery grep "CLUES"
+  335  pwd
+  336  cd desktop
+  337  cd seir526
+  338  cd homeworks
+  339  cd mystery
+  340  ls
+  341  cd command-line-murder-mystery
+  342  ls
+  343  grep -A 4 "CLUES"
+  344  ls
+  345  cd desktop
+  346  cd seir526
+  347  cd homeworks
+  348  ls
+  349  cd command-line-murder-mystery
+  350  ls
+  351  cd mystery
+  352  ls
+  353  grep "CLUES" crimescene
+  354  skldjasd
+  355  cat crimescene
+  356  grep "CLUE" crimescene
+  357  pwd
+  358  cd
+  359  ls
+  360  cd desktop
+  361  ls
+  362  cd seir526
+  363  cd homeworks
+  364  ls
+  365  cd command-line-murder-mystery
+  366  ls
+  367  cd mystery
+  368  ls
+  369  grep "Annabel" interviews
+  370  grep "Annabel" people
+  371  cd streets
+  372  ls
+  373  grep "Hart Place" streets
+  374  grep "Mattapan" streets
+  375  grep "Buckingham" streets
+  376  grep "Haley" streets
+  377  pwd
+  378  grep "Hart"
+  379  pwd
+  380  cd groovemachine/desktop/seir526/homeworks/
+  381  pwd
+  382  cd
+  383  ls
+  384  cd desktop\\ncd desktoip
+  385  cd desktop
+  386  cd seir526
+  387  cd homeworks
+  388  cd command-line-murder-mystery
+  389  ls
+  390  cd mystery
+  391  ls
+  392  cd streets
+  393  ls
+  394  grep "Newcastle" streets
+  395  ..
+  396  ls
+  397  cat hint1
+  398  cd desktop
+  399  cd seir526
+  400  cd homework
+  401  cd homeworks
+  402  cd command-line-murder-mystery
+  403  ls
+  404  cat hint1
+  405  cat hint2
+  406  head -n 20 streets
+  407  head streets
+  408  cat hint3
+  409  pwd
+  410  head people
+  411  pwd
+  412  ls
+  413  cd streets
+  414  ls
+  415  head streets
+  416  pwd
+  417  ls
+  418  grep "Hart"
+  419  head people
+  420  /Users/groovemachine/Desktop/seir526 
+  421  /Users/groovemachine/Desktop/seir526/homeworks/command-line-murder-mystery/mystery 
+  422  head people
+  423  cat hint4
+  424  head vehicles
+  425  head 4 poeple
+  426  head 4 people
+  427  head -n 20 people
+  428  head -n 20 vehicles
+  429  cat hint4
+  430  cat hint5
+  431  cd streets
+  432  ls
+  433  cd Mattapan_Street
+  434  ls
+  435  cat Mattapan_Street
+  436  cat Hart_Place
+  437  cat Buckingham_Place
+  438  cat Haley_Street
+  439  cat Walton_Street
+  440  cat Hemenway_Street
+  441  pwd
+  442  ls
+  443  ..
+  444  ls
+  445  grep "Annabel" people
+  446  pwd
+  447  ls
+  448  cd interviews
+  449  ls
+  450  \thead -n 173 streets/Mattapan_Street | tail -n 1\n
+  451  ..
+  452  l;s
+  453  ls
+  454  \thead -n 173 streets/Mattapan_Street | tail -n 1\n
+  455  ls
+  456  cd interviews
+  457  ls
+  458  cat interview-9437737
+  459  ..
+  460  ls
+  461  \thead -n 173 streets/Mattapan_Street | tail -n 1\n
+  462  cat hint6
+  463  cd streets
+  464  cat Mattapan_Street
+  465  pwd
+  466  ls
+  467  ..
+  468  ls
+  469  grep "Toyota" vehicles
+  470  grep "Honda" vehicles
+  471  grep "L337" vehicles
+  472  head vehicles
+  473  hint7
+  474  cat hint7
+  475  grep -A 5 "L337: mystery/vehicles\ngrep -A 5 "L337: mystery/vehicles
+  476  grep -A 5 "L337" mystery/vehicles
+  477  ls
+  478  grep -A 5 "L337" vehicles
+  479  cat hint8
+  480  grep "Honda" vehicles
+  481  ls
+  482  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"\n
+  483  ..
+  484  ls
+  485  cd mystery
+  486  ls
+  487  cd memberships
+  488  ls
+  489  cd AAA
+  490  cat AAA
+  491  grep "Annabel" AAA
+  492  ..
+  493  ls
+  494  cd streets
+  495  cd Buckingham_Place
+  496  cat Buckingham_Place
+  497  head -n 179 streets/Buckingham_Place
+  498  head -n 179 Buckingham_Place
+  499  ..
+  500  ls
+  501  cd interviews
+  502  ls
+  503  cd interview-699607
+  504  cat interview-699607
+  505  ..
+  506  ls
+  507  cd vehicles
+  508  grep "BLUE" vehicles
+  509  ls
+  510  grep "Blue" vehicles
+  511  pwd
+  512  ls
+  513  cat vehicles
+  514  grep "L337" vehicles
+  515  head vehicles
+  516  ls
+  517  cd memberships
+  518  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"\n
+  519  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  520  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  521  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  522  ls
+  523  grep "Germuska" AAA
+  524  grep "Bowers" AAA
+  525  grep United_MileagePlus
+  526  /Users/groovemachine/Desktop/seir526/homeworks/command-line-murder-mystery/mystery 
+  527  ls
+  528  cd memberships
+  529  ls
+  530  cat library.txt
+  531  grep "Germuska" library.txt
+  532  grep "Bowers" library.tct
+  533  grep "Bowers" library.txt
+  534  ls
+  535  grep "Bowers" library.txt | grep "Germuska" museum.txt
+  536  grep "Bowers" museum.txt
+  537  grep "Germuska" museum.txt
