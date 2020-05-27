@@ -1,0 +1,687 @@
+history
+    1  pwd
+    2  python
+    3  python3
+    4  shuf -i 1-9
+    5  shuf -i 1-9 -n 1
+    6  fortune |cowsay
+    7  sudo apt install cowsay
+    8  sudo apt install fortune
+    9  fortune |cowsay
+   10  fortune|cowsay
+   11  shuf -i 1-9 -n 1
+   12  xinput
+   13  man xinput
+   14  xinput
+   15  xinput 11
+   16  xset q
+   17  xinput --list --short
+   18  xinput --list-props "USB Optical Mouse"
+   19  sudo apt-get update chromium
+   20  git
+   21  sudo apt install git
+   22  pwd
+   23  ls
+   24  cd Downloads
+   25  ls
+   26  cd..
+   27  cd
+   28  pwd
+   29  cd Downloads/snes
+   30  cd ..
+   31  cd 
+   32  ls
+   33  pwd
+   34  cd ~
+   35  touch joke.txt
+   36  open joke.txt
+   37  ls
+   38  edit joke.txt
+   39  cd ~
+   40  ls
+   41  gedit joke.txt
+   42  sudo apt install gedit
+   43  gedit joke.txt
+   44  edit joke.txt
+   45  cd ~
+   46  ls
+   47  cd git-projects
+   48  ls
+   49  mkdir funny_things
+   50  mv joke.txt /funny_things
+   51  mv joke.txt funny_things/
+   52  ls
+   53  cd funny_things
+   54  ls
+   55  cp joke.txt joke2.txt
+   56  gedit joke2.txt
+   57  cd ~
+   58  cd Downloads
+   59  ls
+   60  open navigating-the-command-line.pdf
+   61  ls
+   62  cd World
+   63  ls
+   64  mv World ~
+   65  cd ~
+   66  ls
+   67  cd World
+   68  ls
+   69  mkdir Antarctica
+   70  ls
+   71  mv -r North_America Americas/
+   72  cp -r North_America Americas/
+   73  ls
+   74  cd Americas
+   75  ls
+   76  cd ..
+   77  rm Americas
+   78  rm -r Americas
+   79  ls
+   80  mv North-America Americas
+   81  mv North_America Americas
+   82  ls
+   83  cd Americas
+   84  ls
+   85  cd ..
+   86  cd South_America
+   87  ls
+   88  mv * ../Americas/
+   89  ls
+   90  cd ..
+   91  cd Americas
+   92  ls
+   93  cd ..
+   94  rm South_America
+   95  rm -r South_America
+   96  ls
+   97  ls -help
+   98  ls --help
+   99  ls /Americas
+  100  ls Americas/
+  101  ls
+  102  grep
+  103  grep --help
+  104  grep -r 'Carmen Sandiego' *
+  105  cd ..
+  106  grep -r 'Carmen Sandiego; World/
+  107  grep -r 'Carmen Sandiego; World
+  108  grep 'carmen Sandiego' World
+  109  grep -r 'carmen Sandiego' World
+  110  grep -r 'Carmen Sandiego' World
+  111  grep -r -l 'Carmen Sandiego' World
+  112  grep -r  "Carmen Sandiego" World/
+  113  grep -r  "Carmen Sandiego" World
+  114  grep -r "Carmen Sandiego" World
+  115  grep -r "Carmen Sandiego" World/
+  116  grep -r "carmen sandiego" World/
+  117  grep -r "carmen sandiego" World
+  118  grep -r -l "carmen sandiego" World
+  119  grep -r -l "carmen sandiego" World/
+  120  cd World
+  121  ls
+  122  cd Africa
+  123  ls
+  124  cd Cameroon
+  125  ls
+  126  cd ~/World
+  127  grep -r -l 'Carmen Sandiego.png' World/
+  128  grep -r -l 'Carmen Sandiego.png' World
+  129  cd ..
+  130  grep -r -l 'Carmen Sandiego.png' World
+  131  grep -r -l 'Carmen_Sandiego.png' World
+  132  grep -r 'Carmen_Sandiego.png' World
+  133  grep -r 'Carmen_Sandiego.png' World/
+  134  find
+  135  find --help
+  136  find '-D help'
+  137  find -D help
+  138  cd World
+  139  find name 'Carmen_Sandiego.png' -print
+  140  find * 'Carmen_Sandiego.png' -print
+  141  cd Europe
+  142  ls
+  143  cd ..
+  144  find * 'carmen_sandiego.png' -print
+  145  find * '.carmen_sandiego.png' -print
+  146  cd Europe
+  147  ls
+  148  cd France
+  149  ls
+  150  cd
+  151  cd Italy
+  152  ls
+  153  cd World
+  154  cd Europe
+  155  cd Italy
+  156  ls
+  157  cd ..
+  158  ls
+  159  cd Luxembourg
+  160  ls
+  161  cd ..
+  162  cd Spain
+  163  ls
+  164  cd ..
+  165  ls
+  166  find . -name .carmen*
+  167  find
+  168  cd Europe
+  169  open .carmen_sandiego.png
+  170  cd ..
+  171  cd Europe
+  172  ls -a 
+  173  ls --help
+  174  git --version
+  175  cd ~
+  176  mkdir git=projects
+  177  mv git=projects git-projects/
+  178  cd git-projects
+  179  git init
+  180  git status
+  181  touch post.txt
+  182  ls
+  183  git status
+  184  gedit post.txt
+  185  git add post.txt
+  186  git status
+  187  git commit -m "babbys first commit"
+  188  touch README.txt
+  189  git status
+  190  mkdir src
+  191  git add src/
+  192  git status
+  193  git add src
+  194  git status
+  195  touch --help
+  196  touch new.txt src/
+  197  ls
+  198  mv new.txt src
+  199  cd src
+  200  touch old.txt
+  201  ls
+  202  cd ..
+  203  git commit
+  204  git config --global user.email "lreillywillhight@gmail.com"
+  205  git config --global user.name "Louis"
+  206  git commit
+  207  git commit -m "babbys first commit"
+  208  git status
+  209  git add README.txt
+  210  git commmit
+  211  git commit -m "whoa"
+  212  git status
+  213  git add src/
+  214  git status
+  215  git commit -m "thrice"
+  216  git status
+  217  ls
+  218  gedit post.txt
+  219  git diff
+  220  git add post.txt
+  221  git diff
+  222  git status
+  223  gedit post.txt
+  224  gedit -add post.txt
+  225  gedit diff
+  226  git diff
+  227  git status
+  228  git add post.txt
+  229  git commit -m "thrice"
+  230  git log
+  231  ls
+  232  git clone https://github.com/lreillywillhight/node.git
+  233  rm node
+  234  ls
+  235  git clone https://github.com/lreillywillhight/LRWmemorygame.git
+  236  ls
+  237  cd LRWmemorygame
+  238  cd ..
+  239  rm LRWmemorygame
+  240  rm LRWmemorygame/
+  241  rd LRWmemorygame/
+  242  mv LRWmemorygame memory/
+  243  cd memory
+  244  touch README.txt
+  245  gedit README.txt
+  246  git add README.txt
+  247  git commit
+  248  git commit -m "readme"
+  249  git push
+  250  touch index.html
+  251  ls
+  252  cd ~
+  253  cd Downloads
+  254  ls
+  255  mv images /home
+  256  mv images home/
+  257  cd ..
+  258  ls
+  259  mv images git-projects/memory
+  260  mv images git-projects/memory/
+  261  ls
+  262  mv images git-projects/
+  263  cd git-projects/
+  264  mv images memory/
+  265  cd memory
+  266  ls
+  267  mkdir css
+  268  cd css
+  269  touch style.css
+  270  ls
+  271  cd ..
+  272  ls -a
+  273  git add images
+  274  git add index.html
+  275  git add README.txt
+  276  git push
+  277  cd ..
+  278  ls
+  279  rn memory LRWmemorygame/
+  280  ls
+  281  cd LRWmemorygame
+  282  ls
+  283  git push
+  284  git report
+  285  git status
+  286  git commit
+  287  ls
+  288  git add css
+  289  git commit -m "testing"
+  290  ls
+  291  git status
+  292  git push
+  293  git status
+  294  ls
+  295  cwd
+  296  pwd
+  297  ls
+  298  cd memory-game
+  299  git add -A
+  300  git status
+  301  git commit -m 'created game logic'
+  302  git push origin master
+  303  pwd
+  304  cd ..
+  305  cd git-projects
+  306  ls
+  307  cd louis
+  308  ls
+  309  cd gir-projects
+  310  cd git-projects
+  311  git add -A
+  312  ls
+  313  cd LRWmemorygame
+  314  git add -A
+  315  ls
+  316  cd ..
+  317  git rm --cached LRWmemorygame
+  318  git status
+  319  git push
+  320  git commit m 'created game logic'
+  321  git commit -m 'created game logic'
+  322  git add -A
+  323  git status
+  324  git commit -m 'hopefully fixed error'
+  325  cd LRWmemorygame
+  326  git add -A
+  327  git status
+  328  git commit -m "i have no idea what i'm doing"
+  329  git push origin master
+  330  git add -A
+  331  git commit -m 'created game logic'
+  332  git push origin master
+  333  pwd
+  334  git add -A
+  335  git commit -m 'created game logic'
+  336  git push origin master
+  337  pwd
+  338  git add -A
+  339  git commit -m 'project finished'
+  340  git push origin master
+  341  lreillywillhight
+  342  git push origin master
+  343  pwd
+  344  git add -A
+  345  git commit -m "stumped"
+  346  git push origin master
+  347  git
+  348  git --version
+  349  pwd
+  350  cd Desktop
+  351  mkdir GA-Blog
+  352  cd GA-Blog
+  353  git init
+  354  ls -a
+  355  git-status
+  356  git status
+  357  touch myFirstPost.txt
+  358  ls
+  359  git status
+  360  git add myFirstPost.txt
+  361  git status
+  362  git log
+  363  git commit -m 'new'
+  364  git log
+  365  cd ..
+  366  ls
+  367  cd git-projects
+  368  git status
+  369  cd ..
+  370  terminus
+  371  node.js
+  372  sudo apt install nodejs
+  373  php
+  374  sudo apt install php7.2-cli
+  375  java --version
+  376  vimtutor
+  377  vim tutorial
+  378  tutorial
+  379  vim-tutorial
+  380  vimtutor
+  381  ls
+  382  touch test.txt
+  383  ls
+  384  touch file1.html
+  385  touch file1c.css
+  386  touch helloworld.js
+  387  ls
+  388  zoom --version
+  389  sublimetext --version
+  390  terminus
+  391  vintutor
+  392  vimtutor
+  393  git --version
+  394  sudo apt-get install git
+  395  refresh
+  396  xrefresh
+  397  ls
+  398  git --version
+  399  sudo add-apt-repository:git-core/ppa
+  400  sudo add-apt-repository ppa:git-core/ppa
+  401  sudo apt-get update
+  402  sudo apt-get install gitr
+  403  sudo apt-get install git
+  404  git --version
+  405  ls
+  406  cd projects
+  407  ls
+  408  cd..
+  409  cd ..
+  410  ls
+  411  mkdir GA_SEI
+  412  cd GA_SEI
+  413  ls
+  414  touch hello.txt
+  415  ls
+  416  mkdir unit_1
+  417  cd unit_1
+  418  mkdir for_git
+  419  cd for_git
+  420  touch readme.md
+  421  ls
+  422  git init
+  423  git status
+  424  git add readme.md
+  425  ls
+  426  git status
+  427  git rm --cached readme.md
+  428  ls
+  429  git status
+  430  zsh --version
+  431  sudo apt install zsh
+  432  zsh --version
+  433  history
+  434  cd ..
+  435  cd command-line-murder-mystery/
+  436  ls
+  437  cat instructions
+  438  grep --help
+  439  ls
+  440  cat hint1 | grep "CLUE"
+  441  cat hint1
+  442  head -n 20 hint1
+  443  cd mystery
+  444  ls
+  445  cat crimescene | grep "clue"
+  446  cat crimescene
+  447  cat crimescene | grep "Report"
+  448  grep --help
+  449  cat . | grep "CLUE"
+  450  cat . | grep -r "CLUE"
+  451  ls
+  452  cd ..
+  453  gedit instructions
+  454  cat instructions
+  455  cat interviews | grep -r "CLUE"
+  456  ls
+  457  cat interviews | grep "CLUE"
+  458  cd mystery
+  459  cat interviews | grep "CLUE"
+  460  cat interviews | grep -r "CLUE"
+  461  ls
+  462  cat people
+  463  cat people | grep "CLUE"
+  464  ls
+  465  cd interviews
+  466  ls
+  467  cat . | grep -r "CLUE"
+  468  cd ..
+  469  ls
+  470  cat interviews | grep -r "CLUE"
+  471  cat interviews/. | grep -r "CLUE"
+  472  cd interviews
+  473  head -n 20 interview-1310392
+  474  cat interview-1310392 | grep -r "the"
+  475  cat interview-1310392 | grep -r "stupidest"
+  476  cat interview. | grep -r "stupidest"
+  477  cat interview.* | grep -r "stupidest"
+  478  cat interview.* | grep -r "tea"
+  479  cat interview.* | grep -r "CLUE"
+  480  cd ..
+  481  cat . | grep -r "CLUE"
+  482  cat ../instructions
+  483  ls
+  484  cd people
+  485  head -n 100 people
+  486  cd memberships
+  487  ls
+  488  head -n 100 1.txt
+  489  ls
+  490  head -n 100 AAA
+  491  cd ..
+  492  ls
+  493  cat . | grep "CLUE"
+  494  cat . | grep -r "CLUE"
+  495  man grep
+  496  awk --help
+  497  man grep
+  498  comp --help
+  499  compare --help
+  500  find --help
+  501  man find
+  502  man grep
+  503  ls
+  504  cat | grep -r "CLUE"
+  505  cat | grep -r "Annabel"
+  506  ls
+  507  cd streets
+  508  ls
+  509  cd Buckingham_Place
+  510  man cat
+  511  head -n 30 Buckingham_Place
+  512  man cat
+  513  cat -n
+  514  cat -n Buckingham_Place
+  515  cd ..
+  516  ls
+  517  cd interviews
+  518  ls
+  519  cat interview-699607
+  520  cd ..
+  521  ls
+  522  cd vehicles
+  523  ls
+  524  head -n 30 vehicles
+  525  cat vehicles | grep "L337"
+  526  cat vehicles | grep -E '"Honda"|"L337"'
+  527  cat vehicles | grep -E "Blue"
+  528  cat vehicles | grep "L337"
+  529  cat -n vehicles | grep "L337"
+  530  cat -n vehicles | grep "Blue"
+  531  cat -n vehicles | grep "Blue" "Honda" "L337"
+  532  cat -n vehicles | grep /"Blue" "Honda" "L337"/
+  533  cat -n vehicles | grep 'Blue\|Honda\|L337'
+  534  cat -n vehicles | grep 'Blue\|Honda\|L337' carClue.txt
+  535  cd ..
+  536  ls
+  537  cat | grep -r "CLUE"
+  538  ls
+  539  cd mystery
+  540  ls
+  541  cat man
+  542  man cat
+  543  man tac
+  544  man grep
+  545  head -n 30 | grep '^$'
+  546  head -n 30 vehicles | grep '^$'
+  547  pcregrep -M "Blue0 .*\n.*Honda" filename
+  548  cat -n vehicles | grep "L337"
+  549  man grep
+  550  man cat
+  551  cat -n vehicles | grep 'L337\|17743'
+  552  head -n 20 vehicles
+  553  cat -n vehicles | grep 'L337\|Honda\|Blue\|Height: 6'
+  554  sed --help
+  555  sed -n -e 5p -e 8p vehicles
+  556  head -n 20 vehicles
+  557  sed -n -e 1,6p vehicles
+  558  head --help
+  559  sed -n -e 34312,34317p vehicles
+  560  sed -n -e 34312,34317p -e 31827,31832p -e 24834,24839p -e 7166,7171p vehicles
+  561  sed -n -e 34312,34318p -e 31827,31833p -e 24834,24840p -e 7166,7172p vehicles
+  562  cd ..
+  563  ls
+  564  cd mystery
+  565  cd interviews
+  566  cat interview-699607
+  567  cd ..
+  568  cat | grep -r "CLUE"
+  569  touch suspects.txt
+  570  cat "Joe Germuska, Jeremy Bowers, Jacqui Miller*, Erika Owens*" suspects.txt
+  571  cat suspects.txt "Joe Germuska, Jeremy Bowers, Jacqui Miller*, Erika Owens*"
+  572  cat suspects.txt "Joe Germuska, Jeremy Bowers, Jacqui Miller, Erika Owens"
+  573  cat "Joe Germuska, Jeremy Bowers, Jacqui Miller, Erika Owens" suspects.txt
+  574  ls
+  575  cat suspects.txt
+  576  cat suspects.txt "blahahal
+  577  "
+  578  cat suspects.txt "blahaha
+  579  "
+  580  cat suspects.txt "blahaha"
+  581  cat "blahaha" suspects.txt
+  582  cat --help
+  583  man cat
+  584  cat "blah" suspects.txt
+  585  gedit suspects.txt
+  586  cat "blah" >> suspects.txt
+  587  cat suspects.txt >> "blah"
+  588  cat suspects.txt
+  589  cat "huh" >> suspects.txt
+  590  echo "Joe Germuska, Jeremy Bowers, Jacqui Miller, Erika Owens" >>  suspects.txt
+  591  cat suspects.txt
+  592  ls
+  593  cd memberships
+  594  ls
+  595  head -n 20 AAA
+  596  cat AAA 'Delta SkyMiles' Terminal_City_Library 'Museum of Bash History' | grep "Joe Germuska"
+  597  cat AAA Delta SkyMiles\ Terminal_City_Library Museum of Bash History\ | grep "Joe Germuska"
+  598  cat AAA \Delta SkyMiles\ Terminal_City_Library \Museum of Bash History\ | grep "Joe Germuska"
+  599  cat AAA Terminal_City_Library | grep "Joe Germuska"
+  600  cat AAA Terminal_City_Library 'Delta SkyMiles' | grep "Joe Germuska"
+  601  cat AAA Terminal_City_Library Delta\ SkyMiles | grep "Joe Germuska"
+  602  ls
+  603  cat AAA Terminal_City_Library Delta_SkyMiles | grep "Joe Germuska"
+  604  cat AAA Terminal_City_Library Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+  605  cat AAA Terminal_City_Library Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  606  cd ..
+  607  ls
+  608  cd people
+  609  head -n 20 people
+  610  cat people | grep "Jeremy Bowers"
+  611  ls
+  612  cd streets
+  613  lx
+  614  ls
+  615  cat -n Dunstable Road
+  616  cat -n Dunstable_Road
+  617  cd ..
+  618  cd interviews
+  619  cat interview-9620713
+  620  cd ..
+  621  cat suspects.txt
+  622  cd memberships
+  623  cat AAA Terminal_City_Library Delta_SkyMiles Museum_of_Bash_History | grep "Jacqui Miller"
+  624  cat AAA Terminal_City_Library Delta_SkyMiles Museum_of_Bash_History | grep "Erika Owens"
+  625  cat AAA Terminal_City_Library Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bower"
+  626  cd ..
+  627  cat people | grep "Joe Germuska"
+  628  cd streets
+  629  cat Plainfield Street
+  630  cat Plainfield_Street
+  631  cat -n Plainfield_Street
+  632  cd ..
+  633  cd interviews
+  634  cat interview-29741223
+  635  cd ..
+  636  cat instructions
+  637  ls
+  638  cd ..
+  639  cat intstructions
+  640  ls
+  641  cat instructions
+  642  gedit cheatcheet.md
+  643  gedit cheatsheet.md
+  644  cat solution
+  645  ls
+  646  cat solution.txt
+  647  ls
+  648  cat solution.txt
+  649  gedit solution.txt
+  650  cat hint2
+  651  cat hint3
+  652  cat hint4
+  653  cat hint5
+  654  cat hint6
+  655  cat hint7
+  656  cat hint8
+  657  exit
+  658  history
+  659  grep --help
+  660  pwd
+  661  cd Desktop
+  662  ls
+  663  cd sei526
+  664  ls
+  665  cd homeworks
+  666  ls
+  667  cd command-line-murder-mystery/
+  668  cd mystery
+  669  ls
+  670  cat vehicles | grep -A 6 "L337"
+  671  cd ..
+  672  cat hint6
+  673  ls
+  674  cd command-line-murder-mystery/
+  675  cat hint6
+  676  cat hint7
+  677  cat hint8
+  678  wc --help
+  679  exit
+  680  cd Desktop/sei526/homeworks
+  681  ls
+  682  cd command-line-murder-mystery/
+  683  echo history >> completedMystery.txt
+  684  ls
+  685  cat completedMystery.txt 
+  686  history >> completedMystery.txt
