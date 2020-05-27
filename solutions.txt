@@ -1,0 +1,32 @@
+    1  5/26/2020 16:52  pwd
+    2  5/26/2020 16:52  history
+    3  5/26/2020 17:21  cd Desktop
+    4  5/26/2020 17:21  cd seir_526
+    5  5/26/2020 17:23  cd ~
+    6  5/26/2020 17:23  cat ./.zshrc
+    7  5/27/2020 10:56  pwd
+    8  5/27/2020 10:56  cd Desktop
+    9  5/27/2020 10:56  mkdir command-line-hw
+   10  5/27/2020 10:56  cd command-line-hw
+   11  5/27/2020 10:56  git clone git@github.com:azocher/command-line-murder-mystery.git
+   12  5/27/2020 10:57  ls
+   13  5/27/2020 10:57  cd command-line-murder-mystery
+   14  5/27/2020 10:57  ls
+   15  5/27/2020 10:57  history
+    1  5/26/2020 16:52  pwd
+    2  5/26/2020 16:52  history
+    3  5/26/2020 17:21  cd Desktop
+    4  5/26/2020 17:21  cd seir_526
+    5  5/26/2020 17:23  cd ~
+    6  5/26/2020 17:23  cat ./.zshrc
+    7  5/27/2020 10:56  pwd
+    8  5/27/2020 10:56  cd Desktop
+    9  5/27/2020 10:56  mkdir command-line-hw
+   10  5/27/2020 10:56  cd command-line-hw
+   11  5/27/2020 10:56  git clone git@github.com:azocher/command-line-murder-mystery.git
+   12  5/27/2020 10:57  ls
+   13  5/27/2020 10:57  cd command-line-murder-mystery
+   14  5/27/2020 10:57  ls
+   15  5/27/2020 10:57  history
+   16  5/27/2020 10:58  history > solutions.txt
+   17  5/27/2020 10:58  cat solutions.txt
