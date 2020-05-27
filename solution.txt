@@ -1,0 +1,49 @@
+    1  cd Desktop
+    2  cd seir_526
+    3  cd homework
+    4  cd command-line-murder-mystery/
+    5  ls
+    6  cat instructions
+    7  cd mystery
+    8  ls
+    9  grep "CLUE" crimescene
+   10  grep "Annabel" people
+   11  cat streets/Hart_Place
+   12  cd interviews
+   13  ls
+   14  cat interview-4726024
+   15  cat interview-47246024
+   16  cd ..
+   17  cat streets/Mattapan_Street
+   18  cat interviews/interview-9437737
+   19  cat streets/Buckingham_Place
+   20  cat interviews/interview-699607
+   21  cat streets/Haley_Street
+   22  cat interviews/interview-871877
+   23  grep -A 10 "L337" vehicles
+   24  ls
+   25  cd memberships
+   26  ls
+   27  cat Delta_SkyMiles
+   28  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+   29  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Aron Pilhofer"
+   30  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Heather Billings"
+   31  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+   32  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+   33  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jaqui Maher"
+   34  cd ..
+   35  ls
+   36  cat people
+   37  cat people | grep "Jeremy Bowers"
+   38  cat streets/Dunstable_Road
+   39  cat interviews/interview-9620713
+   40  ls
+   41  cd ..
+   42  ls
+   43  history > solution.txt
+   44  cat solution.txt
+   45  echo "Jeremy Bowers" > solution.txt
+   46  cat solution.txt
+   47  cat solution.txt
+   48  history > solution.txt
+Jeremy Bowers
