@@ -1,0 +1,427 @@
+    1  git status
+    2  ls
+    3  cd seir526
+    4  ls
+    5  cd unit_1
+    6  git status
+    7  zsh --version
+    8  xcode-select --install\n\n
+    9  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   10  brew doctor
+   11  install git
+   12  ping google.com
+   13  ping instagram.com
+   14  ls
+   15  cd seir526
+   16  ls
+   17  cd unit_1
+   18  ls
+   19  git commit
+   20  for_git git commit
+   21  doctor brew
+   22  ls
+   23  doctor brew
+   24  brew doctor
+   25  install git
+   26  ssh-keygen -t rsa -b 4096 -C "salman5436@gmail.com"
+   27  eval "$(ssh-agent -s)"
+   28  open ~/.ssh/config
+   29  touch ~/.ssh/config
+   30  open ~/.ssh/config
+   31  ssh-add -K ~/.ssh/id_rsa
+   32  pbcopy < ~/.ssh/id_rsa.pub
+   33  clear
+   34  pwd
+   35  ls
+   36  cd Desktop
+   37  ls
+   38  opem JS meme.jpg
+   39  open JS meme.jpg
+   40  open JS meme
+   41  mkdir seir_526
+   42  cd seir_526
+   43  pwd
+   44  mkdir units
+   45  ls
+   46  cd units
+   47  cd seir_526
+   48  mkdir unit1
+   49  ls
+   50  touch README.md
+   51  ls
+   52  open .
+   53  ls -l
+   54  ls -la
+   55  ;s -a
+   56  ls -a
+   57  man ls
+   58  las -S
+   59  ls -S
+   60  ls -aS
+   61  mkdir unit2
+   62  touch unit2/test.txt
+   63  open unit2/test.txt
+   64  cat unit2/test.txt
+   65  clear
+   66  cat unit2/test.txt
+   67  cp unit2/test.txt
+   68  cp unit2/test.txt unit1/anotherOne.txt
+   69  ls -R
+   70  cat unit1/anotherOne.txt
+   71  cd unit1
+   72  pwd
+   73  rm anotherOne.txt
+   74  ls -R
+   75  echo 1234325
+   76  touch secondMessage.txt
+   77  echo "This is another secret message jajajaj"
+   78  echo "This is another secret message jajajaj"  >> secondMessage.txt
+   79  cat secondMessage.txt
+   80  echo "Some more words" >> secondMessage.txt
+   81  cat secondMessage.txt
+   82  echo "a" >> secondMessage.txt
+   83  echo "z" >> secondMessage.txt
+   84  cat secondMessage.txt
+   85  cat secondMessage.txt | sort
+   86  open secondMessage.txt
+   87  cat secondMessage.txt | sort >> sortedMessage.txt
+   88  open secondMessage.txt
+   89  cat sortedMessage.txt
+   90  ls -l
+   91  cat sortedMessage.txt | grep "secret"
+   92  cat secpmdMessage.txt | grep "another"
+   93  cat secondMessage.txt | grep "another"
+   94  history
+   95  clear
+   96  history
+   97  clear
+   98  pwd
+   99  cd ..
+  100  pwd
+  101  cd ..
+  102  cd ...
+  103  cd Desktop
+  104  history
+  105  lds
+  106  ls
+  107  cd salmanmalik
+  108  cd Desktop
+  109  cd seir_526/units/unit1
+  110  head -n 1 secondMessage
+  111  head -n 1 secondMessage.txt
+  112  head -n 2 secondMessage.txt
+  113  head -n 2 secondMessage.txt >> twoLines.txt
+  114  cat twoLines.txt
+  115  histroy
+  116  history
+  117  history >> history.txt
+  118  ls
+  119  head -n 5 history.txt
+  120  doctor brew
+  121  brew doctor
+  122  brew install git
+  123  cd seir526
+  124  ls
+  125  mkdir homewords
+  126  cd homewords
+  127  cd ..
+  128  mkdir homeworks
+  129  git clone https://github.com/salman5436/command-line-murder-mystery.git
+  130  ls
+  131  ls -a
+  132  ls -l
+  133  cd command-line-murder-mystery
+  134  ls
+  135  cat instructions
+  136  cd ~/.zshrc\n\n
+  137  open ~/.zshrc\n\n
+  138  source $ZSH/oh-my-zsh.sh\n\n
+  139  cd Desktop
+  140  pwd
+  141  cd seir_526
+  142  cd
+  143  ls
+  144  cd seir526
+  145  ls
+  146  cd command-line-murder-mystery
+  147  ls
+  148  cat instructions
+  149  cd mystery
+  150  ls
+  151  cat crimescene
+  152  cat crimescene | grep "CLUE"
+  153  ls
+  154  cat people
+  155  cat crimescene | grep "CLUE"
+  156  ls
+  157  cat people | grep "M"
+  158  cat crimescene | grep "CLUE"
+  159  ls
+  160  cd memberships
+  161  ls
+  162  cat Museum_of_Bash_History
+  163  cat crimescene | grep "CLUE"
+  164  cd .
+  165  cd ..
+  166  cat crimescene | grep "CLUE"
+  167  ls
+  168  cd interviews
+  169  ls
+  170  cat crimescene | grep "CLUE"
+  171  cd ..
+  172  cat crimescene | grep "CLUE"
+  173  cd ..
+  174  ls
+  175  cat hint1
+  176  cd mystery
+  177  ls
+  178  head -n 20 people
+  179  cat people | grep "Annabel" 
+  180  cd ..
+  181  cat hint2
+  182  cat hint3
+  183  ls
+  184  cd mystery
+  185  ls
+  186  cd memberships
+  187  ls
+  188  cat AAA | grep "Annabel"
+  189  cd ..
+  190  cat hint 4
+  191  cat hint4
+  192  cd ..
+  193  cat hint4
+  194  cat hint5
+  195  head -n 173 | tail -n 1
+  196  head -n 173 streets/Mattapan_Street  | tail -n 1
+  197  ls
+  198  cd mystery
+  199  ls
+  200  head -n 173 streets/Mattapan_Street  | tail -n 1
+  201  cd interviews
+  202  ls
+  203  cat interview-9437737
+  204  head -n 40 streets/Hart_place  | tail -n 1
+  205  head -n 40 streets/Hart_Place  | tail -n 1
+  206  cd ..
+  207  ls
+  208  head -n 40 streets/Hart_Place  | tail -n 1
+  209  cat interview-47246024
+  210  cd ..
+  211  cat interview-47246024
+  212  cd interviews
+  213  cd ..
+  214  ls
+  215  cd command-line-murder-mystery
+  216  ls
+  217  cd mystery
+  218  ls
+  219  cd interviews
+  220  cat interview-47246024
+  221  cd ..
+  222  ls
+  223  cd ..
+  224  ls
+  225  cat hint5
+  226  cd hint6
+  227  cat hint6
+  228  cd mystery
+  229  ls
+  230  head -n 179 streets/Buckingham_Palace | tail -n 1
+  231  ls
+  232  head -n 179 streets/Buckingham_Palace | tail -n 1
+  233  cd streets
+  234  head -n 179 streets/Buckingham_Palace | tail -n 1
+  235  ls
+  236  cd ..
+  237  head -n 179 streets/Buckingham_Palace | tail -n 1
+  238  head -n 179 streets/Buckingham_Palace | tail -n 1\n
+  239  head -n 179 streets/Buckingham_Placee | tail -n 1\n
+  240  head -n 179 streets/Buckingham_Place | tail -n 1\n
+  241  cd interviews
+  242  cat interview-699607
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd vehicles
+  247  cat vehicles
+  248  grep "Honda" vehicles
+  249  history
+  250  cd ..
+  251  cat hint6
+  252  cd mystery
+  253  grep "L337" vehicles
+  254  head -n vehicles/"L337" | tail -n 6
+  255  head vehicles/"L337" | tail -n 6
+  256  ls
+  257  head -n vehicles/Honda7" | tail -n 6\n
+  258  head -n vehicles/"L337a"
+  259  head -n vehicles/"L337"
+  260  head -n vehicles/"L337" / tail -n 6
+  261  head vehicles
+  262  grep "L337" | tail -n 6
+  263  grep "L337" vehicles | tail -n 6
+  264  cd
+  265  ls
+  266  cd seir526
+  267  ls
+  268  cd command-line-murder-mystery
+  269  ls
+  270  cd mystery
+  271  ls
+  272  cat vehicles | grep "L337"
+  273  cat vehicles | grep "L337" | head -n 
+  274  cat vehicles | grep "L337" | head -n 10
+  275  cat people | grep "Aron"
+  276  ls 
+  277  head -n 145 streets/Claybourne_Streets | tail -n 1\n
+  278  head -n 145 streets/Claybourne_Street | tail -n 1\n
+  279  cd interviews
+  280  cat interview-1767435
+  281  cat -n vehicles | grep "L337"\n"\n\n
+  282  cat -n vehicles | grep "L337""\n\n\n
+  283  cat -n vehicles | "Blue\|Honda\|L337"
+  284  ls
+  285  cd ..
+  286  cat -n vehicles | "Blue\|Honda\|L337"
+  287  cat -n vehicles | grep "L337"\n\n\n
+  288  cat -n vehicles | grep "L337"
+  289  head -n 866 vehicles
+  290  head -n 866 vehicles | tail -n 6
+  291  cat -n vehicles | grep "L337"
+  292  head -n 2168 vehicles | tail -n 6
+  293  head -n 5458 vehicles | tail -n 6
+  294  head -n 7176 vehicles | tail -n 6
+  295  head -n 7166 vehicles | tail -n 6
+  296  head -n 13546 vehicles | tail -n 6
+  297  head -n 13655 vehicles | tail -n 6
+  298  head -n 15923 vehicles | tail -n 6
+  299  head -n 17743 vehicles | tail -n 6
+  300  head -n 22083 vehicles | tail -n 6
+  301  head -n 6 22083 vehicles
+  302  head -n 10 22083 vehicles
+  303  cat -n vehicles | grep "Blue\|Honda\|L337"
+  304  cat people | grep "Erika Owensn"
+  305  ls
+  306  cat people | grep "Erika"
+  307  cat people | grep "Matt Waithe"
+  308  ls
+  309  cat people | grep "Matt"
+  310  cat people | grep "Erika"
+  311  cat people | grep "Matt Waite"
+  312  cat people | grep "Brian Boyer"
+  313  cat people | grep "Heather Billinger"
+  314  cat people | grep "Heather"
+  315  cat people | grep "Joe Germuska"
+  316  cat people | grep "Jeremy Bowers"
+  317  cat people | grep "Jacqui Maher"
+  318  head -n 98 streets/Trapelo_Street | tail -n 1\n
+  319  head -n 79 streets/Alpine_Street | tail -n 1\n
+  320  head -n 183 streets/Harbor_Point_Boulevard | tail -n 1\n
+  321  head -n 19 streets/Culbert_Street | tail -n 1\n
+  322  head -n 275 streets/Plainfield_Street | tail -n 1\n
+  323  head -n 284 streets/Dunstable_Road | tail -n 1\n
+  324  head -n 224 streets/Andover_Road | tail -n 1\n
+  325  ls
+  326  cd interviews
+  327  cat interview-5455315
+  328  cat interview-862173
+  329  cat interview-628618
+  330  cat interview-2939888
+  331  cat interview-29741223
+  332  cat interview-9620713
+  333  ls
+  334  cat -n vehicles | grep "Boyer"
+  335  cd ..
+  336  cat -n vehicles | grep "Boyer"
+  337  cat -n 13658 vehicles | tail n -6
+  338  cat -n 13658 vehicles
+  339  cat -n vehicles | grep "Waite"
+  340  cd ..
+  341  ls
+  342  cat hint7
+  343  grep -A 5 "L337" mystery/vehicles
+  344  cat hint8
+  345  ls
+  346  cd mystery
+  347  ls
+  348  cd memberships
+  349  ls
+  350  cat AAA United_MileagePlus | grep "Matt Waite"
+  351  cat AAA United_MileagePlus | grep "Matt Waite" | wc - l
+  352  cat AAA United_MileagePlus | grep "Matt Waite" | wc -ll
+  353  cat AAA United_MileagePlus | grep "Matt Waite" | wc -l
+  354  cat AAA United_MileagePlus | grep "Jacqui Maher" | wc -l
+  355  cat AAA United_MileagePlus | grep "Jacqui Maher
+  356  cat AAA United_MileagePlus | grep "Jacqui Maher"
+  357  cat AAA United_MileagePlus | grep -c "Jacqui Maher"
+  358  cat AAA United_MileagePlus | grep -c "Matt Waiter"
+  359  cat AAA United_MileagePlus | grep -c "Matt Waite"
+  360  cat AAA United_MileagePlus | grep -c "Jeremy Bowers""
+  361  cat AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  362  cd ..
+  363  cat cheatsheet
+  364  ls
+  365  cd ..
+  366  ls
+  367  cat cheatsheet.md
+  368  open cheatsheet.pdf
+  369  cd mystery
+  370  ls
+  371  cd memberships
+  372  ls
+  373  cat AAA Delta_SkyMiles Museum_of_Bash_History library | grep -c "Matt Waite"
+  374  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Matt Waite"
+  375  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  376  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
+  377  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Matt Waite"
+  378  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Matt Waite" | wc -l
+  379  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowerse" | wc -l
+  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowers" | wc -l
+  381  grep -A 5 "Jeremy Bowers" mystery/vehicles
+  382  cd ..
+  383  grep -A 5 "Jeremy Bowers" mystery/vehicles
+  384  ls
+  385  cd ..
+  386  grep -A 5 "Jeremy Bowers" mystery/vehicles
+  387  grep -A 5 "Matt Waite" mystery/vehicles
+  388  grep -A 105 "Jeremy Bowers" mystery/vehicles
+  389  cat hint7
+  390  grep 5 "Jeremy Bowens" mystery/vehicles
+  391  grep "Jeremy Bowens" mystery/vehicles
+  392  cd mystery
+  393  grep "Jeremy Bowens"/vehicles
+  394  cat vehicles
+  395  /mystery$ cat -n vehicles | grep "L337"
+  396  cat people | grep "Jeremy Bowers"
+  397  head -n 284 streets/Dunstable_Road | tail -n 1\n
+  398  cd interviews
+  399  cat interview-9620713
+  400  cd ..
+  401  cd //
+  402  pwd
+  403  cd mystery
+  404  ls
+  405  cd ..
+  406  history
+  407  ls
+  408  cd Desktop
+  409  cd seir526
+  410  ls
+  411  cd seir_526
+  412  ls
+  413  cd units
+  414  ls
+  415  cd unit1
+  416  ls
+  417  cd ..
+  418  cd unit2
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd ..
+  423  ls
+  424  cd ..
+  425  cd seir526
+  426  ls
+  427  cd command-line-murder-mystery
