@@ -1,4 +1,250 @@
-Jeremy Bowers
+    1  ls
+    2  cd General_Assembly
+    3  ls
+    4  cd unit1
+    5  ls
+    6  cd codealongs
+    7  cd code-alongs
+    8  ls
+    9  clear
+   10  cd ~
+   11  clear
+   12  ls
+   13  cd General_Assembly
+   14  ls
+   15  cd unit1
+   16  mkdir labs
+   17  ls
+   18  git clone https://github.com/smcleod86/command-line-murder-mystery.git
+   19  ls
+   20  cd command-line-murder-mystery
+   21  clear
+   22  ls
+   23  cat instructions
+   24  cat cheatsheet.md
+   25  cat instructions
+   26  ls
+   27  cd mystery
+   28  ls
+   29  cd crimescene
+   30  ls
+   31  cd interviews
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd memberships
+   36  ls
+   37  cd ..
+   38  cd people
+   39  cd streets
+   40  ls
+   41  cd ..
+   42  ls
+   43  cat crimescene
+   44  cd ..
+   45  cat cheat
+   46  cat cheatsheet
+   47  ls
+   48  cd mystery
+   49  ls
+   50  cat people
+   51  cd ..
+   52  clear
+   53  ls
+   54  cat instructions
+   55  *CLUE
+   56  cd mystery
+   57  ls
+   58  cat crimescene | grep CLUE
+   59  cd ..
+   60  ls
+   61  cd mystery
+   62  ls
+   63  cat people | Annabel
+   64  cat people | grep Annabel
+   65  cat people | grem M
+   66  cat people | grep M
+   67  clear
+   68  ls
+   69  cd memberships
+   70  ls
+   71  cat AAA
+   72  ls
+   73  cd ..
+   74  ls
+   75  cat crimescene | grep CLUE
+   76  cat people | grep CLUE
+   77  ls
+   78  cd interviews | grep CLUE
+   79  cat people | grep Annabel
+   80  cat clue1
+   81  clear
+   82  ls
+   83  cd ./.
+   84  cd ..
+   85  ls
+   86  cat hint1
+   87  cat hint2
+   88  cat hint3
+   89  cat hint4
+   90  cat hint5
+   91  cat hint6
+   92  cat hint7
+   93  cat hint8
+   94  cd mystery
+   95  ls
+   96  cat people | grep Annabel
+   97  ls
+   98  cd streets | grep Haley
+   99  cd streets | grep Mattapan
+  100  cat street | grep Haley
+  101  cd streets
+  102  ls
+  103  cat Haley+Street
+  104  cat Haley_Street
+  105  cat hint1
+  106  cd
+  107  cd ..
+  108  ls
+  109  cd sdmn
+  110  cd sdm
+  111  ls
+  112  cd General_Assembly
+  113  ls
+  114  cd unit1
+  115  ls
+  116  cd command-line-murder-mytery labs
+  117  labs
+  118  cd labs
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd command-line-murder-mystery
+  123  ls
+  124  clear
+  125  ls
+  126  cat hint 1
+  127  cat hint1
+  128  hint2
+  129  cat hint2
+  130  cat hint3
+  131  cat hint4
+  132  cd mystery
+  133  ls
+  134  head -n people
+  135  head -n 20 people
+  136  cat people | grep Annabel
+  137  head -n 20 vehicles
+  138  cat vehicles | grep Annabel
+  139  cat people | grep Annabel
+  140  cat hint3
+  141  cat hint 4
+  142  cd ..
+  143  cat hint3
+  144  cat hint4
+  145  cat hint5
+  146  cd mystery
+  147  ls
+  148  head -n 176 streets/Haley_Street | tail -n1
+  149  ls
+  150  cd interviews | grep #871877
+  151  cat interviews | grep #871877
+  152  cd interviews
+  153  grep 871877
+  154  ls
+  155  cd General_Assembly
+  156  ls
+  157  cd unit1
+  158  ls
+  159  cd command-line-murder-mystery
+  160  ls
+  161  cd mysteryt
+  162  cd mystery
+  163  ls
+  164  cd interviews
+  165  ls
+  166  cat interview-871877
+  167  cd ..
+  168  ls
+  169  cat people | grep Annabel
+  170  head -n 20 people | grep line 173
+  171  clear
+  172  ls
+  173  cd streets
+  174  ls
+  175  cat Mattapan_Street
+  176  clear
+  177  ls
+  178  cd ..
+  179  ls
+  180  cd ..
+  181  hint5
+  182  cat hint5
+  183  cd mystery
+  184  ls
+  185  head -n 173 streets/Mattapan_Street | tail -n 1
+  186  ls
+  187  cd interviews | grep 9437737
+  188  cd interviews
+  189  ls
+  190  cat interview_7437737
+  191  cat interview_9437737
+  192  cat interview-9437737
+  193  ls
+  194  cd ..
+  195  ls
+  196  cat people | grep Annabel
+  197  head -n 176/Haley_Street
+  198  head ls
+  199  ls
+  200  head cd ..
+  201  ls
+  202  cat hint6
+  203  cd ..
+  204  ;s
+  205  cat hint6
+  206  cat hint5
+  207  cd mystery
+  208  head -n 176/Haley_Street | tail -n 1
+  209  ls
+  210  clear
+  211  ls
+  212  history
+  213  clear
+  214  ls
+  215  cat people | grep Annabel
+  216  head -n 176 streets/Haley_Street | tails -n 1
+  217  cd ..
+  218  ls
+  219  cat hint 4
+  220  cat hint4
+  221  cat hint5
+  222  cd mystery
+  223  head -n 176 streets/Haley_Street | tail -n 1
+  224  grep 
+  225  grep "871877" interviews
+  226  ls
+  227  cd interviews
+  228  grep "871877" interviews
+  229  grep 871877
+  230  ls
+  231  cd General_Assembly
+  232  ls
+  233  cd unit1
+  234  ls
+  235  cd command-line-murder-mystery
+  236  ls
+  237  clear
+  238  cat hint5
+  239  cat hint6
+  240  cat hint7
+  241  cat hint8
+  242  cat hint9
+  243  cat instructions
+  244  ls
+  245  cat cheatsheet.md
+  246  clear
+  247  ls
   248  cd mystery
   249  ls
   250  cat crimescene
@@ -22,9 +268,9 @@ Jeremy Bowers
   268  ls
   269  cat vehicles
   270  cat vehicles | grep Honda -A 4 -B 1
-  271  cat vehicles| grep Honda -A 4 -B 1 | grep Color: Blue -A 3 -B 2
+  271  cat vehicles| grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2
   272  ls
-  273  cat vehicles| grep Honda -A 4 -B 1 | grep Color: Blue -A 3 -B 2 | grep L337 -A 5 | grep Height: 6 -A 1 -B 4
+  273  cat vehicles| grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4
   274  ls
   275  cat people | grep Jacqui
   276  cat people | grep Germusca
@@ -34,4 +280,2047 @@ Jeremy Bowers
   280  cat Terminal_City_Ly
   281  ls
   282  cat Terminal_City_Library Museum_of_Bash_History AAA Delta_SkyMiles | grep Bowers
-  283  echo Jeremy Bowers > solution.txt
+  283  echo "Jeremy Bowers" > solution.txt
+  284  ls
+  285  cat solution.txt Jeremy Bowers
+  286  ls
+  287  cat solution.txt
+  288  history
+  289  ls
+  290  cd ..
+  291  ls
+  292  cd General_Assembly
+  293  ls
+  294  cd unit1
+  295  ls
+  296  cd command-line-murder-mystery
+  297  ls
+  298  cd mystery
+  299  ls
+  300  history
+  301  ls
+  302  cd ..
+  303  ls
+  304  echo "Jeremy Bowers" > solution.txt
+  305  ls
+  306  cat solution.txt
+  307  history tail -n 50
+  308  history
+  309  solution.txt | tail -60
+  310  tail -n 60 solution.txt
+  311  history
+  312  cd
+  313  cd ..
+  314  ls
+  315  cd sdm
+  316  ls
+  317  cd General_Assembly
+  318  ls
+  319  cd unit1
+  320  ls
+  321  cd command-line-murder-mystery
+  322  ls
+  323  solution.txt
+  324  cat solition.txt
+  325  cd
+  326  ls
+  327  cd General_Assembly
+  328  ls
+  329  cd unit1
+  330  ls
+  331  cd command-line-murder-mystery
+  332  ls
+  333  cat README.md
+  334  history
+  335  ls
+  336  cat READ.me
+  337  cat README.md
+  338  cat solution.txt
+  339  echo "  248  cd mystery\n  249  ls\n  250  cat crimescene\n  251  cat crimescene | grep CLUE\n  252  ls\n  253  cat people\n  254  cat people | grep Annabel\n  255  cd streets\n  256  ls\n  257  cat Hart_Place\n  258  cat Hart_Place | head -n 40\n  259  car Buckinham_Place | head -n 179\n  260  cat Buckingham_Place| head -n 179\n  261  cd ..\n  262  ls\n  263  cd interviews\n  264  cat interview-47246024\n  265  cat interview-699607\n  266  cd ./\n  267  cd ..\n  268  ls\n  269  cat vehicles\n  270  cat vehicles | grep Honda -A 4 -B 1\n  271  cat vehicles| grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2\n  272  ls\n  273  cat vehicles| grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4\n  274  ls\n  275  cat people | grep Jacqui\n  276  cat people | grep Germusca\n  277  cat people | grep Germuska\n  278  ls\n  279  cd memberships\n  280  cat Terminal_City_Ly\n  281  ls\n  282  cat Terminal_City_Library Museum_of_Bash_History AAA Delta_SkyMiles | grep Bowers\n  283  echo "Jeremy Bowers" > solution.txt" >> solutions.txt
+  340  cat solutions.txt
+  341  commit add -a
+  342  git commit add -a
+  343  git commit -a
+  344  ls
+  345  cat solutions.txt
+  346  clear
+  347  echo "  248  cd mystery\n  249  ls\n  250  cat crimescene\n  251  cat crimescene | grep CLUE\n  252  ls\n  253  cat people\n  254  cat people | grep Annabel\n  255  cd streets\n  256  ls\n  257  cat Hart_Place\n  258  cat Hart_Place | head -n 40\n  259  car Buckinham_Place | head -n 179\n  260  cat Buckingham_Place| head -n 179\n  261  cd ..\n  262  ls\n  263  cd interviews\n  264  cat interview-47246024\n  265  cat interview-699607\n  266  cd ./\n  267  cd ..\n  268  ls\n  269  cat vehicles\n  270  cat vehicles | grep Honda -A 4 -B 1\n  271  cat vehicles| grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2\n  272  ls\n  273  cat vehicles| grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4\n  274  ls\n  275  cat people | grep Jacqui\n  276  cat people | grep Germusca\n  277  cat people | grep Germuska\n  278  ls\n  279  cd memberships\n  280  cat Terminal_City_Ly\n  281  ls\n  282  cat Terminal_City_Library Museum_of_Bash_History AAA Delta_SkyMiles | grep Bowers\n  283  echo "Jeremy Bowers" > solution.txt" >> solution.txt
+  348  cat solution.txt
+  349  git commit -a
+  350  git commit add -a
+  351  git commit add-a
+  352  git commit add solution.txt
+  353  git status
+  354  git add solution.txt
+  355  git commit add -a
+  356  git commit solution.txt
+  357  ls
+  358  cd General_Assembly
+  359  ls
+  360  cd unit1
+  361  ls
+  362  cd command-line-murder-mystery
+  363  ls
+  364  cat solution.txt
+  365  git commit solution.txt
+  366  ls
+  367  cd General_Assembly
+  368  ls
+  369  cd unit1
+  370  ls
+  371  cd command-line-murder-mystery
+  372  ls
+  373  solution.txt
+  374  git status
+  375  git add solution.txt
+  376  git commit solution.txt
+  377  ls
+  378  cd General_Assembly
+  379  cd unit1
+  380  ls
+  381  cd command-line-murder-mystery
+  382  ls
+  383  solution.txt
+  384  cat solution.txt
+  385  git add -a
+  386  git add -A
+  387  git commit -m "Why did you do it Jeremy"
+  388  git push origin master
+  389  clear
+  390  git clone https://github.com/smcleod86/github_101.git
+  391  ls
+  392  rm -rf github_101
+  393  ls
+  394  cd General_Assembly
+  395  ls
+  396  cd unit1
+  397  ls
+  398  git clone https://github.com/smcleod86/github_101.git
+  399  ls
+  400  cd github_101
+  401  clear
+  402  ls
+  403  cd ..
+  404  ls
+  405  cdv..
+  406  cd ..
+  407  ls
+  408  cd unit1
+  409  ls
+  410  git status
+  411  ls
+  412  cd github_101
+  413  ls
+  414  cat answers.txt
+  415  git status
+  416  git add .
+  417  git commit -m 
+  418  git commit -m "Answers on answers on answers"
+  419  git push origin master
+  420  ls
+  421  cd General_Assembly
+  422  ls
+  423  cd unit1
+  424  ls
+  425  cd github_101
+  426  ls
+  427  cat answers.txt
+  428  cd ..
+  429  ls
+  430  git config --user.name "smcleod86"
+  431  git config --global user.email "mcleod.scott_86@yahoo.com"
+  432  git config --global push.default simple
+  433  git config --global credential.helper cache
+  434  git config --global user.name "smcleod86"
+  435  git config --global user.email "mcleod.scott_86@yahoo.com"\n
+  436  git config --global push.default simple
+  437  git config --global credential.helper cache
+  438  clear
+  439  ls
+  440  cd code-alongs
+  441  ls
+  442  mkdir forms
+  443  ls
+  444  cd forms
+  445  touch index.html
+  446  clear
+  447  ls
+  448  cd ..
+  449  ls
+  450  cd labs
+  451  mkdir user_input
+  452  git clone https://github.com/smcleod86/html_user_inputs.git
+  453  ls
+  454  cd html_user_inputs
+  455  ls
+  456  cat skeleton.png
+  457  clear
+  458  ls
+  459  cd ..
+  460  ls
+  461  cd ..
+  462  ls
+  463  cd code-alongs
+  464  ls
+  465  cd forms
+  466  ls
+  467  touch style.css
+  468  ls
+  469  cd ..
+  470  ;s
+  471  ls
+  472  cd ..
+  473  ls
+  474  cd labs
+  475  ls
+  476  mkdir mockup_html-css
+  477  ls
+  478  cd mockup_html-css
+  479  git clone https://github.com/smcleod86/mockup-html-css.git
+  480  clear
+  481  ls
+  482  cd ..
+  483  ls
+  484  cd code-alongs
+  485  ls
+  486  mkdir grid-fun
+  487  ls
+  488  cd grid-fun
+  489  touch grid-fun
+  490  ls
+  491  html open grid-fun
+  492  clear
+  493  cd ..
+  494  ls
+  495  cd grid-fun
+  496  touch index.html
+  497  ls
+  498  cd General_Assembly
+  499  ls
+  500  cd unit1
+  501  ls
+  502  cd code-alongs
+  503  ls
+  504  cd grid-fun
+  505  ls
+  506  touch style.css
+  507  ls
+  508  cd ..
+  509  ;s
+  510  ls
+  511  cd ..
+  512  ls
+  513  mkdir bootstrap_sample
+  514  cd bootstrap_sample
+  515  touch bootstrap-example
+  516  ls
+  517  cd General_Assembly
+  518  ls
+  519  cd unit1
+  520  ls
+  521  cd bootstrap_sample
+  522  touch index.html
+  523  ls
+  524  cd ..
+  525  ls
+  526  mkdir homework
+  527  ls
+  528  cd homework
+  529  git clone https://github.com/smcleod86/bootstrap-mockups.git
+  530  ls
+  531  npm install
+  532  cd bootstrap-mockups
+  533  ls
+  534  cat package.json
+  535  npm install
+  536  ls -a
+  537  echo "node_modules" >> .gitignore
+  538  cd ~
+  539  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  540  'brew help'
+  541  brew help
+  542  node -v
+  543  npm -v
+  544  brew install node
+  545  node -v
+  546  npm -v
+  547  ls
+  548  cd General_Assembly
+  549  ls
+  550  cd unit1
+  551  ls
+  552  cd homework
+  553  ls
+  554  cd bootstrap-mochup
+  555  cd bootstap-mockup
+  556  ls
+  557  cd bootstrap-mockups
+  558  npm i
+  559  npm start
+  560  ls
+  561  cd General_Assembly
+  562  ls
+  563  cd unit1
+  564  ls
+  565  cd homework
+  566  ls
+  567  cd bootstrap-mockups
+  568  ls
+  569  ls -a
+  570  yarn add bootstrap
+  571  ruby -v
+  572  gem install bundler
+  573  install bundler
+  574  bundle install
+  575  gem install bundler
+  576  brew install ruby
+  577  gem install bundler
+  578  bundle install
+  579  ls
+  580  cd ~
+  581  gem install bundler
+  582  npm run
+  583  npm run dist
+  584  cd bootstrap-mockups
+  585  ls
+  586  cd General_Assembly
+  587  ls
+  588  cd unit1
+  589  ls
+  590  cd homework
+  591  ls
+  592  cd bootstrap-mockups
+  593  ls
+  594  npm run dist
+  595  run npm
+  596  npm run doc-serve
+  597  clear
+  598  ld
+  599  ls
+  600  npm install
+  601  gem install bundler
+  602  npm audit fix
+  603  npm fund
+  604  cd ..
+  605  ls
+  606  pwd
+  607  cd ..
+  608  ls
+  609  cd ~
+  610  ls
+  611  npm install
+  612  gem install bundler
+  613  ls
+  614  cd General_Assembly
+  615  ls
+  616  cd unit1
+  617  ls
+  618  cd homework
+  619  ls
+  620  cd bootstrap-mockups
+  621  ls
+  622  npm install
+  623  npm audit
+  624  npm audit fix
+  625  ls
+  626  rm -rf package-lock.json
+  627  ls
+  628  cd fundamentals
+  629  lds
+  630  ls
+  631  cd General_Assembly
+  632  ls
+  633  cd ..
+  634  cd General_Assembly/unit1
+  635  ls
+  636  cd homework
+  637  ls
+  638  cd bootstrap-mockups
+  639  ls
+  640  npm install
+  641  npm start
+  642  ls
+  643  cd General_Assembly
+  644  ls
+  645  cd unit1
+  646  ls
+  647  cd homework
+  648  ls
+  649  cd bootstrap-mockups
+  650  ls
+  651  cd css
+  652  ls
+  653  touch style.css
+  654  ls
+  655  cd ..
+  656  ls
+  657  git add -A
+  658  git commit -m "Micro Attempt"
+  659  git commit origin master
+  660  git commit orgin master
+  661  git commit add -A
+  662  git add -A
+  663  git commit -m "Microsoft Attempt"
+  664  git push origin master
+  665  npm install bulma
+  666  ls
+  667  cd General_Assembly
+  668  ls
+  669  cd GA_practice
+  670  ls
+  671  touch index.js
+  672  ls
+  673  cd ..
+  674  ls
+  675  cd unit1
+  676  ls
+  677  cd labs
+  678  ls
+  679  mkdir js-primitives
+  680  ls
+  681  cd js-primitives
+  682  git clone https://github.com/smcleod86/js-primitives.git
+  683  ls
+  684  cd ..
+  685  cd labs
+  686  ls
+  687  cd js-primitives
+  688  ls
+  689  cd js-primitives
+  690  ls
+  691  node js/js-priomitives.js
+  692  cd ..
+  693  ls
+  694  node.js/js-primitives.js
+  695  node js/js-primitives.js
+  696  ls
+  697  cd ..
+  698  ls
+  699  rm -rf js-primitives
+  700  ls
+  701  git clone https://github.com/smcleod86/js-primitives.git
+  702  ls
+  703  npm install
+  704  ls
+  705  cd js-primitives
+  706  ls
+  707  cd js
+  708  touch excercise1.js
+  709  npm install
+  710  ls
+  711  cd js
+  712  ls
+  713  touch excercise2.js
+  714  touch excercise2.js 
+  715  touch excercise3.js 
+  716  touch excercise4.js 
+  717  touch excercise5.js 
+  718  touch excercise6.js 
+  719  touch excercise7.js 
+  720  touch excercise8.js 
+  721  touch excercise9.js 
+  722  touch excercise10.js 
+  723  node js/excercise1.js
+  724  clear
+  725  ls
+  726  cd ..
+  727  ls
+  728  cd js-primitives
+  729  ls
+  730  cd js
+  731  ls
+  732  node js/excercise1.js
+  733  node /exercise1.js
+  734  ls
+  735  npm install
+  736  node js/exercise1.js
+  737  node exercise1.js
+  738  node excersize1.js
+  739  node excercise1.js
+  740  ls
+  741  cd General_Assembly
+  742  ls 
+  743  cd unit1
+  744  ls
+  745  cd labs
+  746  ls
+  747  rm -rf js-primitives
+  748  ls
+  749  git clone https://github.com/smcleod86/js-primitives.git
+  750  ls
+  751  cd js-primitives
+  752  ls
+  753  cd js
+  754  npm install
+  755  ls
+  756  cd js
+  757  touch exercise1.js
+  758  touch exercise2.js
+  759  touch exercise3.js
+  760  touch exercise4.js
+  761  touch exercise5.js
+  762  touch exercise6.js
+  763  touch exercise7.js
+  764  touch exercise8.js
+  765  touch exercise9.js
+  766  touch exercise10.js
+  767  cd ..
+  768  ls
+  769  cd js
+  770  node exercise6.js
+  771  node exercise1.js
+  772  node exercise7.js
+  773  ls
+  774  cd ..
+  775  ls
+  776  cd ..
+  777  ls
+  778  cd ..
+  779  ls
+  780  cd labs
+  781  ls
+  782  git clone https://github.com/smcleod86/js-control-flow.git
+  783  ls
+  784  cd ..
+  785  ls
+  786  cd homework
+  787  ls
+  788  git clone https://github.com/smcleod86/js-debugger.git
+  789  ls
+  790  cd js-debugger
+  791  ls
+  792  vs.
+  793  vs .
+  794  code .
+  795  cd ..
+  796  ls
+  797  cd ..
+  798  ls
+  799  cd labs
+  800  ls
+  801  cd js-control-flow
+  802  code .
+  803  npm install
+  804  npm start
+  805  ls
+  806  cd ..
+  807  ls
+  808  cd ..
+  809  ls
+  810  cd homework
+  811  ls
+  812  cd js-debugger
+  813  ls
+  814  code .
+  815  npm install
+  816  npm start
+  817  ls
+  818  git add -A
+  819  git commit -m "ba hum debugger"
+  820  git push orgin master
+  821  git push origin master
+  822  npm install jshint
+  823  node js/grade.js
+  824  ls
+  825  cd js
+  826  ls
+  827  touch bonus.js
+  828  touch arrays.js
+  829  cd ~
+  830  ls
+  831  npm install -g jshint
+  832  npm install
+  833  npm start
+  834  node js/grades.js
+  835  ls
+  836  cd ..
+  837  cd js-control-flow
+  838  cd js
+  839  ls
+  840  node js/grade.js
+  841  node /grade.js
+  842  node grade.js
+  843  clear
+  844  node grade.js
+  845  node larger.js
+  846  npm install
+  847  npm start
+  848  node larger.js
+  849  node grade.js
+  850  ls
+  851  cd js
+  852  ls
+  853  node larger.js
+  854  node grade.js
+  855  node translator.js
+  856  open index.html
+  857  ls
+  858  cd General_Assembly
+  859  ls
+  860  cd unit1
+  861  ls
+  862  cd labs
+  863  git clone https://github.com/smcleod86/loops_conditionals_practice.git
+  864  ls
+  865  cd loops_conditionals_practice
+  866  ls
+  867  code .
+  868  cd ..
+  869  code .
+  870  npm install
+  871  clear
+  872  open solutions.js
+  873  node.solution.js
+  874  node solution.js
+  875  ls
+  876  cd ..
+  877  node solutions.js
+  878  cd loops_conditionals_practice
+  879  node solutions.js
+  880  ls
+  881  cd General_Assembly
+  882  ls
+  883  cd unit1
+  884  ls
+  885  cd code-alongs
+  886  git clone https://github.com/smcleod86/WDI-13-dailies.git
+  887  code .
+  888  node mean.js
+  889  ls
+  890  cd w1
+  891  ls
+  892  cd ..
+  893  ls
+  894  node mean.js
+  895  cd ..
+  896  node mean.js
+  897  ls
+  898  cd WDI-13-dailies
+  899  ls
+  900  node mean.js
+  901  ls
+  902  cd ..
+  903  rm -rf mean.js
+  904  ls
+  905  git clone https://github.com/smcleod86/js-functions.git
+  906  ls
+  907  cd js-functions
+  908  code .
+  909  open .
+  910  code .
+  911  ls
+  912  cd General_Assembly
+  913  cd unit1
+  914  ls
+  915  cd code-alongs
+  916  ls
+  917  cd js
+  918  ls
+  919  touch mean.js
+  920  ls
+  921  cd General_Assembly
+  922  cd u
+  923  cd unit1
+  924  ls
+  925  cd code-alongs
+  926  ls
+  927  cd js-functions
+  928  ls
+  929  code .
+  930  cd js
+  931  ls
+  932  code .
+  933  ls
+  934  cd General_Assembly
+  935  cd unit1
+  936  ls
+  937  cd code-alongs
+  938  ls
+  939  cd js-functions
+  940  ;s
+  941  ls
+  942  code .
+  943  code.
+  944  exec zsh
+  945  code .
+  946  exec /bin/zsh
+  947  code .
+  948  exec /usr/bin/zsh
+  949  ls
+  950  cd General_Assembly
+  951  ls
+  952  cd unit1
+  953  ls
+  954  cd code-alongs
+  955  ls
+  956  cd js-
+  957  cd js-functions
+  958  ls
+  959  code .
+  960  cd js
+  961  ls
+  962  open mean.js
+  963  code .
+  964  code mean.js
+  965  echo $PATH
+  966  ls
+  967  cd General_Assembly
+  968  ls
+  969  cd unit1
+  970  ls
+  971  cd code-alongs
+  972  ls
+  973  cd js-functions
+  974  ;s
+  975  ls
+  976  cd js
+  977  ls
+  978  echo $PATH
+  979  cd ~
+  980  ls
+  981  ls -a
+  982  echo $PATH
+  983  ls
+  984  cd General_Assembly
+  985  ls
+  986  cd unit1
+  987  ls
+  988  cd code-alongs
+  989  cd js-functions
+  990  ls
+  991  open .
+  992  cd js
+  993  cd ..
+  994  code .
+  995  ls
+  996  js
+  997  cd js
+  998  ls
+  999  code .
+ 1000  ls
+ 1001  cd General_Assembly
+ 1002  ls
+ 1003  cd unit1
+ 1004  ls
+ 1005  cd co
+ 1006  cd code-alongs
+ 1007  ls
+ 1008  mkdir DOM-fun
+ 1009  cd DOM-fun
+ 1010  ls
+ 1011  touch index.html
+ 1012  touch style.css
+ 1013  touch index.js
+ 1014  ls
+ 1015  code .
+ 1016  la
+ 1017  ls
+ 1018  cd General_Assembly
+ 1019  cd unit1
+ 1020  ls
+ 1021  cd homework
+ 1022  ls
+ 1023  git clone https://github.com/smcleod86/loops_conditionals_practice.git
+ 1024  ls
+ 1025  cd loops_conditionals_practice
+ 1026  code .
+ 1027  ls
+ 1028  cd General_Assembly
+ 1029  cd unit1
+ 1030  ls
+ 1031  cd homework
+ 1032  ls
+ 1033  git clone https://github.com/smcleod86/temperature-converter-dom.git
+ 1034  open index.html
+ 1035  nps install
+ 1036  npm install
+ 1037  npm start
+ 1038  npm install
+ 1039  npm start
+ 1040  ls
+ 1041  cd General_Assembly
+ 1042  ls
+ 1043  cd unit1
+ 1044  ls
+ 1045  cd homework
+ 1046  ls
+ 1047  cd temperature-converter-dom
+ 1048  ls
+ 1049  git add -A
+ 1050  git commit -m "converts temperature"
+ 1051  git push orgin master
+ 1052  git push origin master
+ 1053  npm install
+ 1054  npm start
+ 1055  ls
+ 1056  cd General_Assembly
+ 1057  cd unit1
+ 1058  ls
+ 1059  cd homework
+ 1060  ls
+ 1061  cd temperature-converter-dom
+ 1062  ls
+ 1063  git add -A
+ 1064  git commit -m "Temp after Nicks help"
+ 1065  git push origin master
+ 1066  cd General_Assembly
+ 1067  ls
+ 1068  cd unit1
+ 1069  ls
+ 1070  cd code-alongs
+ 1071  ls
+ 1072  git clone https://github.com/smcleod86/sim-city-bomb-squad.git
+ 1073  ls
+ 1074  cd sim-city-bomb-squad
+ 1075  ls
+ 1076  code .
+ 1077  open index.html
+ 1078  ls
+ 1079  cd ..
+ 1080  ;s
+ 1081  ls
+ 1082  git clone https://github.com/smcleod86/sim-city-bomb-squad-1.git
+ 1083  open index.html
+ 1084  ls
+ 1085  cd General_Assembly
+ 1086  cd unit1
+ 1087  ls
+ 1088  cd homework
+ 1089  ls
+ 1090  git clone https://github.com/smcleod86/tic-tac-toe.git
+ 1091  ls
+ 1092  cd tic-tac-toe
+ 1093  ls
+ 1094  Code .
+ 1095  code .
+ 1096  npm install
+ 1097  nnpm npm install -g npm
+ 1098  npm install -g npm
+ 1099  npm start
+ 1100  ls
+ 1101  cd General_Assembly
+ 1102  cd unit1
+ 1103  cd homework
+ 1104  ls
+ 1105  cd tic-tac-toe
+ 1106  git add -A
+ 1107  ls
+ 1108  git commit -m "tic-tac-toe"
+ 1109  git push origin master
+ 1110  open index.html
+ 1111  npm install
+ 1112  npm start
+ 1113  npm install
+ 1114  npm start
+ 1115  ls
+ 1116  cd General_Assembly
+ 1117  cd unit1
+ 1118  cd homework
+ 1119  ls
+ 1120  cd tic-tac-toe
+ 1121  git add -A
+ 1122  git commit -m "Slightly better, but no function"
+ 1123  git push origin master
+ 1124  ls
+ 1125  cd General_Assembly
+ 1126  cd unit1
+ 1127  cd code-alongs
+ 1128  ls
+ 1129  git clone https://github.com/smcleod86/r2d2_decoder_js.git
+ 1130  ls
+ 1131  cd r2d2_decoder_js
+ 1132  code .
+ 1133  npm install
+ 1134  npm start
+ 1135  npm install
+ 1136  npm start
+ 1137  ls
+ 1138  cd ..]
+ 1139  cd ..
+ 1140  ls
+ 1141  node solution.js
+ 1142  node solutions.js
+ 1143  node solution.js
+ 1144  cd General_Assembly
+ 1145  cd unit1
+ 1146  cd code-alongs
+ 1147  cd r2d2_decoder_js
+ 1148  code .
+ 1149  cd ..
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  cd labs
+ 1154  ls
+ 1155  git clone https://github.com/smcleod86/JS-Sum-2-Arrays.git
+ 1156  ls
+ 1157  cd JS-Sum-2-Arrays
+ 1158  ls
+ 1159  code .
+ 1160  node ./solutions/p2.js
+ 1161  node p1.js
+ 1162  ls
+ 1163  cd solutions
+ 1164  node p1.js
+ 1165  node p2.js
+ 1166  ls
+ 1167  cd General_Assembly
+ 1168  cd unit1
+ 1169  ls
+ 1170  cd homework
+ 1171  ls
+ 1172  git clone https://github.com/smcleod86/js-clock-intervals.git
+ 1173  cd js-clock-intervals
+ 1174  code .
+ 1175  cd ..
+ 1176  ls
+ 1177  cd ..
+ 1178  ls
+ 1179  cd co
+ 1180  cd code-alongs
+ 1181  ls
+ 1182  cd ..
+ 1183  ls
+ 1184  cd labs
+ 1185  ;s
+ 1186  ls
+ 1187  cd JS-Sum-2-Arrays
+ 1188  code .
+ 1189  open index.html
+ 1190  ls
+ 1191  cd solutions
+ 1192  ls
+ 1193  cd ..
+ 1194  cd..
+ 1195  cd ..
+ 1196  cd homework
+ 1197  ls
+ 1198  cd js-clock-intervals
+ 1199  ls
+ 1200  open index.html
+ 1201  ls
+ 1202  cd ..
+ 1203  ls
+ 1204  cd js-clock-intervals
+ 1205  ls
+ 1206  git add -A
+ 1207  git commit -m "funtional clock"
+ 1208  git push origin master
+ 1209  git add -A
+ 1210  git commit -m "final, only changed notes"
+ 1211  git push origin master
+ 1212  open index.html
+ 1213  os
+ 1214  ls
+ 1215  cd ..
+ 1216  ls
+ 1217  mkdir brandi-solutions
+ 1218  cd brandi-solutions
+ 1219  ls
+ 1220  git clone https://github.com/smcleod86/js-clock-intervals.git
+ 1221  ls
+ 1222  cd js-clock-intervals
+ 1223  ls
+ 1224  code .
+ 1225  cd ..
+ 1226  code .
+ 1227  cd General_Assembly
+ 1228  cd unit1
+ 1229  cd code-alongs
+ 1230  ls
+ 1231  mkdir jquery
+ 1232  cd jquery
+ 1233  touch index.html
+ 1234  touch script.js
+ 1235  code .
+ 1236  open index.html
+ 1237  cd ..
+ 1238  ls
+ 1239  mkdir jquery-temp
+ 1240  cd jquery-temp
+ 1241  touch index.html
+ 1242  touch script.js
+ 1243  touch style.css
+ 1244  code .
+ 1245  open index.html
+ 1246  ls
+ 1247  cd General_Assembly
+ 1248  cd unit1
+ 1249  cd labs
+ 1250  ls
+ 1251  git clone https://github.com/smcleod86/jquery-quiz.git
+ 1252  ls
+ 1253  cd jquery-quiz
+ 1254  code .
+ 1255  ls
+ 1256  touch app.js
+ 1257  open index.html
+ 1258  npm install
+ 1259  npm start
+ 1260  open index.html
+ 1261  ls
+ 1262  git add -A
+ 1263  git commit -m "Scott m, Alex H, Sam y"
+ 1264  git push origin master
+ 1265  ls
+ 1266  cd ..
+ 1267  ls
+ 1268  git clone https://github.com/smcleod86/JS-Loops-Practice.git
+ 1269  ls
+ 1270  cd JS-Loops-Practice
+ 1271  code .
+ 1272  ls
+ 1273  cd js
+ 1274  ls
+ 1275  node problem2.js
+ 1276  cd ..
+ 1277  ls
+ 1278  cd General_Assembly
+ 1279  cd unit1
+ 1280  ls
+ 1281  cd code-alongs
+ 1282  ls
+ 1283  mkdir ajax-fetch
+ 1284  ls
+ 1285  cd ajax-fetch
+ 1286  touch index.html
+ 1287  touch script.js
+ 1288  touch style.css
+ 1289  open .
+ 1290  code .
+ 1291  open index.html
+ 1292  clear
+ 1293  cd ..
+ 1294  cd labs
+ 1295  ls
+ 1296  git clone https://github.com/smcleod86/fetch-cats-lab.git
+ 1297  ls
+ 1298  cd fetch-cats-lab
+ 1299  ls
+ 1300  code .
+ 1301  ls
+ 1302  touch style.css
+ 1303  script.js
+ 1304  touch script.js
+ 1305  open index.html
+ 1306  ls
+ 1307  cd ..
+ 1308  ls
+ 1309  cd ..
+ 1310  ls
+ 1311  cd homework
+ 1312  ls
+ 1313  git clone https://github.com/smcleod86/fetch-reddit-slideshow.git
+ 1314  ls
+ 1315  cd fetch-reddit-slideshow
+ 1316  ls
+ 1317  cd css
+ 1318  ls
+ 1319  touch style.css
+ 1320  ls
+ 1321  cd ..
+ 1322  ls 
+ 1323  cd js
+ 1324  touch script.js
+ 1325  npm install
+ 1326  npm start
+ 1327  ls
+ 1328  cd General_Assembly
+ 1329  cd unit1
+ 1330  ls
+ 1331  cd code-alongs
+ 1332  mkdir canvas-stuff
+ 1333  cd canvas-stuff
+ 1334  touch index.html
+ 1335  touch script.js
+ 1336  open index.html
+ 1337  l;
+ 1338  ls
+ 1339  cd ..
+ 1340  ls
+ 1341  mkdir canvas-crawler-extreme
+ 1342  cd canvas-crawler-extreme
+ 1343  touch index.html
+ 1344  touch style.css
+ 1345  touch script.js
+ 1346  code .
+ 1347  open index.html
+ 1348  cd ..
+ 1349  cd  code-alongs
+ 1350  ls
+ 1351  mkdir coin-flip-game
+ 1352  cd coin-flip-game
+ 1353  touch index.html
+ 1354  touch style.css
+ 1355  touch script.js
+ 1356  code .
+ 1357  open index.html
+ 1358  git add -A
+ 1359  git commit -m "Round 2 of tic-tac"
+ 1360  git push origin master
+ 1361  ls
+ 1362  cd General_Assembly
+ 1363  cd unit1
+ 1364  ls
+ 1365  cd homework
+ 1366  ls
+ 1367  cd ..
+ 1368  ls
+ 1369  cd labs
+ 1370  ls
+ 1371  cd jquery-quiz
+ 1372  code .
+ 1373  open index.html
+ 1374  git add -A
+ 1375  git commit -m "Brandi's fix"
+ 1376  git push origin master
+ 1377  open index.html
+ 1378  git add -A
+ 1379  git commit -m "Sean worked his magic"
+ 1380  git push origin master
+ 1381  git add -A
+ 1382  git commit -m "A little closer"
+ 1383  git push origin master
+ 1384  git add -A
+ 1385  git commit -m "more improvement"
+ 1386  git push origin master
+ 1387  open index.html
+ 1388  npm install
+ 1389  npm start
+ 1390  npm install
+ 1391  npm start
+ 1392  git add -A
+ 1393  git commit -m "Reddit slideshow"
+ 1394  git push origin master
+ 1395  cd ..
+ 1396  ls
+ 1397  cd ..
+ 1398  ls
+ 1399  mkdir project-1
+ 1400  cd project-1
+ 1401  ls
+ 1402  mkdir script.js
+ 1403  mkdir css
+ 1404  mkdir js
+ 1405  mkdir html
+ 1406  ls
+ 1407  cd ..
+ 1408  git clone https://github.com/smcleod86/Skip-Bo.git
+ 1409  open index.html
+ 1410  cd html
+ 1411  open index.html
+ 1412  cd ..
+ 1413  ls
+ 1414  git add -A
+ 1415  git commit -m "final submit"
+ 1416  open index.html
+ 1417  cd ..
+ 1418  ls
+ 1419  cd tic-tac-toe
+ 1420  open index.html
+ 1421  code .
+ 1422  cd ..
+ 1423  ls
+ 1424  cd temperature-converter-dom
+ 1425  code .
+ 1426  cd ..
+ 1427  ls
+ 1428  cd tic-tac-toe
+ 1429  git add -A
+ 1430  git commit -m "Final: Totaly functional, no AI"
+ 1431  git push origin master
+ 1432  open index.html
+ 1433  git add -A
+ 1434  git commit -m "Now Tie works again"
+ 1435  git push origin master
+ 1436  open index.html
+ 1437  git add -A
+ 1438  git commit -m "Tie wasn't actually working"
+ 1439  git push origin master
+ 1440  git add -A
+ 1441  git commit -m "still janky"
+ 1442  git push origin master
+ 1443  git add -A
+ 1444  git commit -m "Fixed bugs"
+ 1445  git push origin master
+ 1446  ls
+ 1447  cd html
+ 1448  open index.html
+ 1449  cd ..
+ 1450  ls
+ 1451  cd Skip-Bo
+ 1452  code .
+ 1453  cd html
+ 1454  open index.html
+ 1455  cd ..
+ 1456  ls
+ 1457  cd ..
+ 1458  ls
+ 1459  mkdir pick-a-potato
+ 1460  ls
+ 1461  cd pick-a-potato
+ 1462  code .
+ 1463  cd html
+ 1464  open index.html
+ 1465  cd ..
+ 1466  ls
+ 1467  cd homework
+ 1468  ls
+ 1469  cd tic-tac-toe
+ 1470  code .
+ 1471  ls
+ 1472  open index.html
+ 1473  ls
+ 1474  cd ..
+ 1475  ls
+ 1476  cd code-alongs
+ 1477  ls
+ 1478  cd coin-flip-game
+ 1479  ls
+ 1480  code .
+ 1481  cd ..
+ 1482  ls
+ 1483  cd sim-city-bomb-squad
+ 1484  code .
+ 1485  ls
+ 1486  open index.html
+ 1487  cd ..
+ 1488  ls
+ 1489  cd sim-city-bomb-squad-1
+ 1490  ls
+ 1491  code .
+ 1492  /Applications/GIMP-2.10.app/Contents/Resources/lib/gimp/2.0/plug-ins/file-png ; exit;
+ 1493  /Applications/GIMP-2.10.app/Contents/Resources/lib/gimp/2.0/plug-ins/file-jpeg ; exit;
+ 1494  ls
+ 1495  cd ..
+ 1496  ls
+ 1497  cd homework
+ 1498  ls
+ 1499  cd tic-tac-toe
+ 1500  code .
+ 1501  open index.html
+ 1502  git add -A
+ 1503  git commit -m "All finished"
+ 1504  git push origin master
+ 1505  cleare
+ 1506  clear
+ 1507  git add -A
+ 1508  git commit -m "width maxed"
+ 1509  git push origin master
+ 1510  clear
+ 1511  ls
+ 1512  cd ..
+ 1513  ls
+ 1514  cd fetch
+ 1515  cd fetch-reddit-slideshow
+ 1516  code .
+ 1517  open index.html
+ 1518  cd ..
+ 1519  ls
+ 1520  cd js-clock-intervals
+ 1521  ls
+ 1522  code .
+ 1523  open index.html
+ 1524  git init
+ 1525  git add -A
+ 1526  git commit -m "Grab-a-potato commit 1"
+ 1527  cd ..
+ 1528  ls
+ 1529  cd pick-a-potato
+ 1530  git init
+ 1531  git add -A
+ 1532  git commit -m "pick-a-potato commit #1"
+ 1533  git push origin master
+ 1534  git init
+ 1535  git add README.md
+ 1536  echo "# Pick-A-Potato" >> README.md
+ 1537  git init
+ 1538  git add README.md
+ 1539  git commit -m "first commit"
+ 1540  git remote add origin https://github.com/smcleod86/Pick-A-Potato.git
+ 1541  git push -u origin maste
+ 1542  git push -u origin master
+ 1543  clear
+ 1544  cd ..
+ 1545  mkdir potato-game
+ 1546  git clone https://github.com/smcleod86/Potato-Game.git
+ 1547  ls
+ 1548  cd potato-game
+ 1549  code .
+ 1550  open index.html
+ 1551  ls
+ 1552  cd html
+ 1553  open index.html
+ 1554  cd ..
+ 1555  ls
+ 1556  cd pick-a-potato
+ 1557  git add -A
+ 1558  git commit -m "commit 2"
+ 1559  git push origin master
+ 1560  clear
+ 1561  git add -A
+ 1562  git commit -m "commit 3"
+ 1563  git push origin master
+ 1564  git add -A
+ 1565  git commit -m "centered"
+ 1566  gut push origin master
+ 1567  ls
+ 1568  cd General_Assembly
+ 1569  ls
+ 1570  cd unit1
+ 1571  ls
+ 1572  mkdir project-1-assessment
+ 1573  ls
+ 1574  cd project-1-assessment
+ 1575  touch index.html
+ 1576  ls
+ 1577  mkdir main.js
+ 1578  mkdir main.css
+ 1579  ls
+ 1580  cd ..
+ 1581  ls
+ 1582  cd labs
+ 1583  ls
+ 1584  cd ..
+ 1585  ls
+ 1586  cd code-alongs
+ 1587  ls
+ 1588  code .
+ 1589  open index.html 
+ 1590  ls
+ 1591  cd ..
+ 1592  ls
+ 1593  cd js-functions
+ 1594  ls
+ 1595  cd ..
+ 1596  ls
+ 1597  cd labsa
+ 1598  cd labs
+ 1599  ls
+ 1600  cd fetch-cats-lab
+ 1601  ls
+ 1602  code .
+ 1603  cd ..
+ 1604  ls
+ 1605  cd project-1-assessment
+ 1606  ls
+ 1607  open index.html
+ 1608  ls
+ 1609  cd ..
+ 1610  ls
+ 1611  cd pick-a-potato
+ 1612  ls
+ 1613  cd html
+ 1614  code .
+ 1615  ls
+ 1616  code .
+ 1617  cd ..
+ 1618  ls
+ 1619  code .
+ 1620  ls
+ 1621  cd ..
+ 1622  ls
+ 1623  cd labs
+ 1624  ls
+ 1625  cd JS-Sum-2-Arrays
+ 1626  ls
+ 1627  cd ..
+ 1628  ls
+ 1629  git init
+ 1630  git add -A
+ 1631  git commit -m "emotional breakdown"
+ 1632  git push origin master
+ 1633  ls
+ 1634  cd ..
+ 1635  cd project-1-assessment
+ 1636  git init
+ 1637  git add -A
+ 1638  git commit -m
+ 1639  git commit -m "commit 1"
+ 1640  git commit origin master
+ 1641  git init
+ 1642  git add -A
+ 1643  git commit -m "commit"
+ 1644  git status
+ 1645  git add readme.md
+ 1646  git add .
+ 1647  git remote -v
+ 1648  ls -a
+ 1649  git remote add origin https://github.com/smcleod86/Project-1-assessment.git
+ 1650  git remote -v
+ 1651  git add -A
+ 1652  git commit -m "committing"
+ 1653  git push origin master
+ 1654  sudo mkdir -p /etc/paths.d
+ 1655  echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+ 1656  which psql
+ 1657  psql
+ 1658  clear
+ 1659  ls
+ 1660  cd General_Assembly
+ 1661  ls
+ 1662  mkdir unit2
+ 1663  cd unit2
+ 1664  ls
+ 1665  mkdir labs
+ 1666  git clone https://github.com/smcleod86/sql-carmen-san-diego.git
+ 1667  ls
+ 1668  cd labs
+ 1669  ls
+ 1670  git clone https://github.com/smcleod86/sql-carmen-san-diego.git
+ 1671  ls
+ 1672  cd ..
+ 1673  ls
+ 1674  cd labs
+ 1675  lx
+ 1676  ls
+ 1677  cd sql-carmen-san-diego
+ 1678  LS
+ 1679  code .
+ 1680  psql 
+ 1681  psql -f starter-code/world.sql
+ 1682  \d
+ 1683  psql -d world
+ 1684  psql -f query1.sql
+ 1685  \d
+ 1686  psql
+ 1687  ls
+ 1688  cd General_Assembly/uni21
+ 1689  cd General_Assembly
+ 1690  cd unit2
+ 1691  ls
+ 1692  cd labs
+ 1693  ls
+ 1694  cd sql-carmen-san-diego
+ 1695  ls
+ 1696  psql
+ 1697  psql -f starter-code/world.sql
+ 1698  psql -d world
+ 1699  node -v
+ 1700  clear
+ 1701  cd ..
+ 1702  mkdir my-first-node-proj
+ 1703  ls
+ 1704  cd my-first-node-proj
+ 1705  nmp init
+ 1706  npm init
+ 1707  code .
+ 1708  touch index.js
+ 1709  node index.js
+ 1710  touch myModule.js
+ 1711  node index.js
+ 1712  touch index.html
+ 1713  npm -v
+ 1714  npm install -g nodemon
+ 1715  nodemon
+ 1716  npm i moment
+ 1717  touch main.js
+ 1718  cd ..
+ 1719  mkdir hello-express
+ 1720  cd hello-express
+ 1721  npm init -y
+ 1722  npm i express
+ 1723  code .
+ 1724  touch index.js
+ 1725  nodemon
+ 1726  open index.js
+ 1727  node index.js
+ 1728  nom install express
+ 1729  npm install express
+ 1730  node index.js
+ 1731  ls
+ 1732  cd gener
+ 1733  cd General_Assembly/unit2
+ 1734  ls
+ 1735  mkdir homework
+ 1736  ls
+ 1737  cd homework
+ 1738  git clone https://github.com/smcleod86/apartment-database.git
+ 1739  ls
+ 1740  cd apartment-database
+ 1741  ls
+ 1742  cd starter_code
+ 1743  ls
+ 1744  cd ..
+ 1745  code .
+ 1746  psql
+ 1747  testdb
+ 1748  \connect apartment
+ 1749  psql
+ 1750  git init
+ 1751  git add -A
+ 1752  git commit -m "SQL commit 1"
+ 1753  git push origin master
+ 1754  git add -A
+ 1755  git commit -m "class work through"
+ 1756  git push origin master
+ 1757  psql
+ 1758  lss
+ 1759  ls
+ 1760  cd General_Assembly
+ 1761  cd unit2
+ 1762  ls
+ 1763  cd labs
+ 1764  ls
+ 1765  git clone https://github.com/smcleod86/booktown.git
+ 1766  ls
+ 1767  cd booktown
+ 1768  code .
+ 1769  psql -f booktown.sql
+ 1770  psql
+ 1771  ls
+ 1772  cd ..
+ 1773  mkdir code-alongs
+ 1774  ls
+ 1775  cd code-alongs
+ 1776  mkdir personal-site-express
+ 1777  ls
+ 1778  cd personal-site-express
+ 1779  npm init-y
+ 1780  npm init -y
+ 1781  npm i express
+ 1782  touch index.js
+ 1783  code .
+ 1784  nodemon
+ 1785  cd html
+ 1786  open index.html
+ 1787  cd General_Assembly
+ 1788  cd unit2
+ 1789  ls
+ 1790  cd ..
+ 1791  ls
+ 1792  mkdir portfolio_site
+ 1793  cd portfolio_site
+ 1794  touch index.html
+ 1795  code .
+ 1796  cd ..
+ 1797  cd unit1
+ 1798  l
+ 1799  ls
+ 1800  cd homework
+ 1801  ls
+ 1802  cd temp
+ 1803  cd temperature-converter-dom
+ 1804  code 
+ 1805  code .
+ 1806  git init
+ 1807  git add -A
+ 1808  git commit -m "Portfolio commit 1"
+ 1809  git push origin master
+ 1810  git init
+ 1811  git add -A
+ 1812  git push origin master
+ 1813  open index.html
+ 1814  cd..
+ 1815  ls
+ 1816  cd ..
+ 1817  git clone https://github.com/smcleod86/Portfolio-Site.git
+ 1818  ls
+ 1819  cd Portfolio-Site
+ 1820  code .
+ 1821  ls
+ 1822  git add -A
+ 1823  git commit 
+ 1824  ls
+ 1825  git add -A
+ 1826  git commin -m "Portfolio commit 1"
+ 1827  git commit -m "Portfolio commit 1"
+ 1828  git push origin master
+ 1829  cd ..
+ 1830  ls
+ 1831  cd hello-express
+ 1832  cd ..
+ 1833  cd code-alongs
+ 1834  ls
+ 1835  cd personal-site-express
+ 1836  code .
+ 1837  nodemon
+ 1838  npm i ejs
+ 1839  cd General_Assembly
+ 1840  cd unit2
+ 1841  ls
+ 1842  cd code-alongs
+ 1843  ls
+ 1844  cd personal-site-express
+ 1845  npm i ejs
+ 1846  npm i express-ejs-layouts
+ 1847  cd General_Assembly
+ 1848  cd unit2
+ 1849  cd labs
+ 1850  ls
+ 1851  mkdir fave-hate
+ 1852  cd fave-hate
+ 1853  touch index.html
+ 1854  npm install
+ 1855  npm init
+ 1856  npm install
+ 1857  npm i ejs express express-ejs-layouts
+ 1858  npm inti -y
+ 1859  npm init -y
+ 1860  npm install
+ 1861  npm i ejs express express-ejs-layouts
+ 1862  mkdir views
+ 1863  code .
+ 1864  npm install express-ejs-layouts
+ 1865  nodemon
+ 1866  code .
+ 1867  cd General_Assembly
+ 1868  ls
+ 1869  cd unit2
+ 1870  ls
+ 1871  cd homework
+ 1872  ls
+ 1873  git clone https://github.com/smcleod86/RESTful-creatures.git
+ 1874  cd RESTful-creatures
+ 1875  code .
+ 1876  npm init -y
+ 1877  npm install express
+ 1878  git commit -m "initial express setup"
+ 1879  git add dinosaurs.json
+ 1880  git commit -m "initial express setup"
+ 1881  touch index.js
+ 1882  npx nodemon
+ 1883  cd ..
+ 1884  cd homework
+ 1885  git clone https://github.com/smcleod86/bcrypt_exercise.git
+ 1886  cd bcrypt_exercise
+ 1887  code .
+ 1888  npm install
+ 1889  git add -A
+ 1890  git commit -m "bcrytion"
+ 1891  git push origin master
+ 1892  node app.js
+ 1893  git add -A
+ 1894  git commit -m "found more"
+ 1895  git push origin master
+ 1896  npx nodemon
+ 1897  git add -A
+ 1898  git commit "day two"
+ 1899  git commit -m "day two"
+ 1900  git push origin master
+ 1901  npx nodemon
+ 1902  npm i ejs
+ 1903  npx codemon
+ 1904  codemon
+ 1905  npx codemon
+ 1906  npx nodemon
+ 1907  nodemon
+ 1908  npx nodemon
+ 1909  cd General_Assembly
+ 1910  cd unit2
+ 1911  ls
+ 1912  cd code-alongs
+ 1913  ls
+ 1914  mkdir movie-search
+ 1915  cd movie-search
+ 1916  npm init
+ 1917  touch index.js
+ 1918  code .
+ 1919  git init
+ 1920  touch .gitignore
+ 1921  ls
+ 1922  cd General_Assembly
+ 1923  cd unit2
+ 1924  ls
+ 1925  cd code-alongs
+ 1926  ls
+ 1927  cd movie-search
+ 1928  ls
+ 1929  code .
+ 1930  nodemon
+ 1931  npm install express
+ 1932  nodemon
+ 1933  git add .
+ 1934  git commit -m "commit 1: base express app"
+ 1935  git remote add origin https://github.com/smcleod86/movie-search.git
+ 1936  git add .
+ 1937  git push origin master
+ 1938  clear
+ 1939  nodemon
+ 1940  npm i ejs
+ 1941  nodemon
+ 1942  npm install dotenv
+ 1943  nodemon
+ 1944  npm i request
+ 1945  npm install node-fetch
+ 1946  npm uninstall request
+ 1947  nodemon
+ 1948  cd ..
+ 1949  cd homework
+ 1950  ls
+ 1951  git clone https://github.com/smcleod86/express-weather-by-zip.git
+ 1952  ls
+ 1953  cd express-weather-by-zip
+ 1954  ls
+ 1955  code .
+ 1956  touch index.js
+ 1957  npm init -y
+ 1958  git i express ejs weather.js
+ 1959  npm i express ejs weather.js
+ 1960  touch .gitignore
+ 1961  echo node_modules >> .gitignore
+ 1962  npm install express-ejs-layouts
+ 1963  nodemon
+ 1964  npm i weather-js
+ 1965  nodemon
+ 1966  ls
+ 1967  lsof -i
+ 1968  lsof -v
+ 1969  lsof -i tcp:3000
+ 1970  lsof -i 8000
+ 1971  ls -i tcp:8000
+ 1972  lsof -i tcp:8000
+ 1973  P kill 35712
+ 1974  p kill 35712
+ 1975  pkill 35712
+ 1976  nodemon
+ 1977  npm i method-override
+ 1978  codemon
+ 1979  npx codemon
+ 1980  cd ..
+ 1981  ls
+ 1982  git clone https://github.com/smcleod86/dino_fun.git
+ 1983  code .
+ 1984  ls
+ 1985  cd dino_fun
+ 1986  ls
+ 1987  code ;
+ 1988  doce .
+ 1989  code .
+ 1990  nodemon
+ 1991  pkill
+ 1992  codemon
+ 1993  ps ax | grep chrome
+ 1994  kill -9 466886
+ 1995  kill -9 46686
+ 1996  clear
+ 1997  nodemon
+ 1998  npx nodemon
+ 1999  npm install -g nodemon\n\n
+ 2000  nodmon
+ 2001  nodempon
+ 2002  nodemon
+ 2003  ls
+ 2004  cd express-weather-by-zip
+ 2005  nodemon
+ 2006  ls
+ 2007  cd General_Assembly
+ 2008  cd unit1
+ 2009  ls
+ 2010  cd project-1-assessment
+ 2011  ls
+ 2012  code .
+ 2013  clear
+ 2014  open index.html
+ 2015  cd ..
+ 2016  mkdir project-1-reassessment
+ 2017  cd project-1-reassessment
+ 2018  ls
+ 2019  touch index.html
+ 2020  touch script.js
+ 2021  code .
+ 2022  cd ..
+ 2023  ls
+ 2024  cd homework
+ 2025  ls
+ 2026  cd temperature-converter-dom
+ 2027  code .
+ 2028  open index.html
+ 2029  git init
+ 2030  git add -A
+ 2031  git commit -m "Temp Conv initial commit"
+ 2032  git push origin master
+ 2033  git remote add origin https://github.com/smcleod86/project-1-reassessment.git\n
+ 2034  git push -u origin master
+ 2035  ls
+ 2036  cd html
+ 2037  open index.html
+ 2038  cd ..
+ 2039  ls
+ 2040  cd pick-a-potato
+ 2041  ls
+ 2042  cd html
+ 2043  open index.html
+ 2044  ls
+ 2045  cd General_Assembly
+ 2046  cd unit1
+ 2047  ;s
+ 2048  ls
+ 2049  cd pick
+ 2050  cd pick-a-potato
+ 2051  cd html
+ 2052  code .
+ 2053  cd..
+ 2054  cd ..
+ 2055  code .
+ 2056  git add -A
+ 2057  git commit -m "getting closer"
+ 2058  git push origin master
+ 2059  clear
+ 2060  ls
+ 2061  cd General_Assembly
+ 2062  cd unit2
+ 2063  mkdir off-boilerplate
+ 2064  cd off-boilerplate
+ 2065  cd ,,
+ 2066  cd ..
+ 2067  mkdir auth-boiler
+ 2068  cd auth-boiler
+ 2069  npm init -y
+ 2070  npm i express ejs express-ejs-layouts
+ 2071  touch index.js
+ 2072  touch .gitignore
+ 2073  code .
+ 2074  git init
+ 2075  git add -A
+ 2076  git commit -m "Initial Commit"
+ 2077  nodemon
+ 2078  git add -A
+ 2079  git commit -m "Barebones express and layout"
+ 2080  nodemon
+ 2081  git add -A
+ 2082  git commit -m "Implemented homepage and nav content"
+ 2083  nodemon
+ 2084  git add -A
+ 2085  git commit -m "Added auth controller and login page"
+ 2086  nodemon
+ 2087  clear
+ 2088  cd ..
+ 2089  cd code-alongs
+ 2090  mkdir sequelize_lesson
+ 2091  cd sequelize_lesson
+ 2092  npm init -y
+ 2093  npm install sequelize-cli
+ 2094  touch index.js
+ 2095  touch .gitignore
+ 2096  echo "node_modules" >> .gitignore
+ 2097  code .\n: 1586802999:0;code .
+ 2098  npm i express ejs pg sequelize
+ 2099  npm i -g sequelize-cli
+ 2100  createdb userapp
+ 2101  sequelize init
+ 2102  clear
+ 2103  sequelize model:create --name user --attributes firstName:string,lastName:string,age:integer,email:string
+ 2104  sequelize db:migrate
+ 2105  node index.js
+ 2106  nodemon
+ 2107  ls
+ 2108  open index.js
+ 2109  nodemon
+ 2110  cd ..
+ 2111  cd homework
+ 2112  git clone https://github.com/smcleod86/express-daily-planet.git
+ 2113  cd express-daily-planet
+ 2114  code .
+ 2115  npm init -y
+ 2116  npm i express ejs express-ejs-layouts pg
+ 2117  createdb daily_planet
+ 2118  sequelize init
+ 2119  git i sequelize
+ 2120  npm i sequelize
+ 2121  sequelize init
+ 2122  code .
+ 2123  sequelize model:create --name articles --attributes title:string,content:text,author:string
+ 2124  sequelize db:migrate
+ 2125  y
+ 2126  Y
+ 2127  git --version
+ 2128  ls
+ 2129  cd General_Assembly
+ 2130  l
+ 2131  ls
+ 2132  cd ..
+ 2133  ls
+ 2134  mkdir SEI-31
+ 2135  ls
+ 2136  cd gen
+ 2137  cd General_Assembly
+ 2138  ls
+ 2139  cd ..
+ 2140  ls
+ 2141  cd SEI-31
+ 2142  mkdir Unit-1
+ 2143  ls
+ 2144  cd SEI-31
+ 2145  ls
+ 2146  cd Unit-1
+ 2147  ls
+ 2148  cd ..
+ 2149  mkdir SEIR-526
+ 2150  ls
+ 2151  cd SEIR-526
+ 2152  mkdir Unit-1
+ 2153  cd Unit-1
+ 2154  git --version
+ 2155  rm -r
+ 2156  y
+ 2157  ld
+ 2158  ls
+ 2159  cd SEIR-526
+ 2160  ls
+ 2161  cd Unit-1
+ 2162  ls
+ 2163  clear
+ 2164  mkdir code-alongs
+ 2165  mkdir labs
+ 2166  mkdir homework
+ 2167  ls
+ 2168  ..
+ 2169  ls
+ 2170  cd sdm
+ 2171  ls
+ 2172  zsh --version
+ 2173  echo $SHELL
+ 2174  zsh --version
+ 2175  xcode-select --install
+ 2176  Software Update
+ 2177  "Software Update"
+ 2178  clear
+ 2179  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ 2180  brew doctor
+ 2181  brew cleanup
+ 2182  brew install git
+ 2183  ping google
+ 2184  ping google.com
+ 2185  $ ssh-keygen -t rsa -b 4096 -C "mcleod.scott_86@yahoo.com"
+ 2186  ssh-keygen -t rsa -b 4096 -C "mcleod.scott_86@yahoo.com"
+ 2187  eval "$(ssh-agent -s)"
+ 2188  open ~/.ssh/config
+ 2189  touch ~/.ssh/config
+ 2190  open ~/.ssh/config
+ 2191  ssh-add -K ~/.ssh/id_rsa
+ 2192  pbcopy < ~/.ssh/id_rsa.pub
+ 2193  clear
+ 2194  pwd
+ 2195  ls
+ 2196  cd Desktop
+ 2197  ls
+ 2198  cd ..
+ 2199  ls
+ 2200  cd SEIR-526
+ 2201  ls
+ 2202  cd Unit-1
+ 2203  ls
+ 2204  touch README.md
+ 2205  ls
+ 2206  open .
+ 2207  ls -l
+ 2208  ls -la
+ 2209  ls -a
+ 2210  man ls
+ 2211  ls -S
+ 2212  cd ..
+ 2213  mkdir Unit-2
+ 2214  touch test.txt
+ 2215  open .
+ 2216  cat
+ 2217  ls
+ 2218  cd SEIR-526
+ 2219  ls
+ 2220  cd unit
+ 2221  cd Unit-2
+ 2222  ls
+ 2223  cd ..
+ 2224  ls
+ 2225  cd unit-1
+ 2226  ls
+ 2227  cd homework
+ 2228  ls
+ 2229  git@github.com:smcleod86/command-line-murder-mystery.git
+ 2230  git clone git@github.com:smcleod86/command-line-murder-mystery.git
+ 2231  ls
+ 2232  cd command-line-murder-mystery
+ 2233  ls
+ 2234  cat instructions
+ 2235  ls -a
+ 2236  ls
+ 2237  cd mystery
+ 2238  ls
+ 2239  cd interviews
+ 2240  ls
+ 2241  cd ..
+ 2242  ls
+ 2243  cd streets
+ 2244  ls
+ 2245  cd ..
+ 2246  ls
+ 2247  cat hint1
+ 2248  cd mystery
+ 2249  ls
+ 2250  cat crimescene
+ 2251  ls
+ 2252  cat crimescene | grep clue
+ 2253  ls
+ 2254  cat crimescene | grep CLUE
+ 2255  cat peopel
+ 2256  cat people
+ 2257  ls
+ 2258  cat people | grep Annabel
+ 2259  man grep
+ 2260  cat hint 1
+ 2261  cat hint1
+ 2262  ls
+ 2263  cd ..
+ 2264  cat hint1
+ 2265  cat hint2
+ 2266  cat hint3
+ 2267  cat hint4
+ 2268  cat hint5
+ 2269  ls
+ 2270  cat hint6
+ 2271  cat hint7
+ 2272  cd mystery
+ 2273  ls
+ 2274  head -n 173 streets/Mattapan_Street | tail -n 1\n
+ 2275  head -n 176 streets/Haley_Street | tail -n 1\n
+ 2276  head people
+ 2277  clear
+ 2278  ls
+ 2279  head -n 40 Hart Place | tail -n 1\n
+ 2280  head -n 40 Hart_Place | tail -n 1\n
+ 2281  head -n 40 streets/Hart_Place | tail -n 1\n
+ 2282  head -n 179 streets/Buckingham_Place | tail -n 1\n
+ 2283  cat interviews/#47246024
+ 2284  cd interviews\n
+ 2285  ls
+ 2286  cd ..
+ 2287  cat interview-47246024
+ 2288  cat interviews/interview-47246024
+ 2289  cat interviews/interview-699607
+ 2290  ls
+ 2291  cat vehicles
+ 2292  cat vehicles| grep Make: Honda 
+ 2293  cat vehicles | grep Make: Honda 
+ 2294  cat vehicles | grep Honda 
+ 2295  cat vehicles | grep *L337* 
+ 2296  cat vehicles | grep L337* 
+ 2297  man grep
+ 2298  cat vehicles | grep L337*
+ 2299  ls
+ 2300  cd ..
+ 2301  ls
+ 2302  cat hint6
+ 2303  cat hint7
+ 2304  cd mystery
+ 2305  grep -A 5 "L337" vehicles
+ 2306  ls
+ 2307  cd memberships
+ 2308  ls
+ 2309  cd ..
+ 2310  cat hint9
+ 2311  ls
+ 2312  cat solution.txt
+ 2313  cat solutions.txt
+ 2314  cat people | grep Germuska
+ 2315  cat mystery/people | grep Germuska
+ 2316  cat mystery/people | grep Bowers
+ 2317  ls
+ 2318  cat instructions
+ 2319  cat cheatsheet.md
+ 2320  ls
+ 2321  history > solution1.txt
+ 2322  ls
+ 2323  rm solution.txt
+ 2324  ls
+ 2325  rm solutions.txt
+ 2326  ls
