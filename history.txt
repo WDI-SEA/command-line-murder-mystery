@@ -1,0 +1,225 @@
+    1  pwd
+    2  cd~
+    3  cd ~
+    4  hisotry
+    5  history
+    6  clear
+    7  pwd
+    8  git status
+    9  ls
+   10  $ date
+   11  date
+   12  whoami
+   13  echo Hello World
+   14  cd Desktop
+   15  ls
+   16  cd ..
+   17  cd seir_526
+   18  ls
+   19  cd homeworks
+   20  ls
+   21  cd command-line-murder-mystery
+   22  ls
+   23  cat instructions
+   24  ls
+   25  cd his
+   26  cd history
+   27  cd mystery
+   28  ls
+   29  cat crimescene
+   30  ls
+   31  cd seir_526
+   32  ls
+   33  cd homeworks
+   34  ls
+   35  cd command-line-murder-mystery
+   36  ls
+   37  cd mystery
+   38  ls
+   39  cd ..
+   40  cat instructions
+   41  cd ..
+   42  ls
+   43  cdmys
+   44  cd command-line-murder-mystery
+   45  ls
+   46  cat hint1
+   47  head -n 20 people
+   48  Cat hint2
+   49  grep CLUE crimescene
+   50  grep "CLUE" crimescene
+   51  cat hint3
+   52  cat cheatsheet.md
+   53  ls
+   54  cd seir_526
+   55  ls
+   56  cd homeworks
+   57  ls
+   58  cd command-line-murder-mystery
+   59  ls
+   60  cat instructions
+   61  cat hint3
+   62  cat hint4
+   63  ls
+   64  cat people
+   65  clear
+   66  cat hint3
+   67  ls
+   68  cd mystery
+   69  ls
+   70  head -n 20 people
+   71  head -n 20 vehicle
+   72  head -n 20 vehicles
+   73  cat hint1
+   74  cd ..
+   75  cat hint1
+   76  head -n 20 people
+   77  cd mystery
+   78  head -n 20 people
+   79  head -n 20 vehicles
+   80  cd ..
+   81  cat hint4
+   82  grep "Annabel" people
+   83  cat hint5
+   84  head -n 173 streets/Mattapan_Street | tail -n 1
+   85  ls
+   86  cd interviews
+   87  ls
+   88  cd seir_526
+   89  ls
+   90  cd homeworks
+   91  ls
+   92  cd command-line-murder-mystery
+   93  ls
+   94  cat instructions
+   95  cd mystery
+   96  ls
+   97  cd ..
+   98  cat hint1
+   99  head -n 20 people
+  100  head -n 20 /mystery/people
+  101  cd mys
+  102  cd mystery
+  103  head -n 20 people
+  104  cd ..
+  105  cat hint2
+  106  cd mystery
+  107  cat crimescene
+  108  clear
+  109  cd ..
+  110  cat hint2
+  111  cd mys
+  112  cd mystery
+  113  grep "CLUE" crimescene
+  114  grep "CLUE" crimescene%
+  115  grep "CLUE" crimescene
+  116  cd ..
+  117  cat hint3
+  118  cd mystery
+  119  head -n 20 people
+  120  head -n 50 people
+  121  head -n 5 vehicles
+  122  head -n 20 vehicles
+  123  head -n 50 vehicles
+  124  cd ..
+  125  cat hint4
+  126  cd mystery
+  127  grep "Annabel" people
+  128  cd ..
+  129  cat hint5
+  130  cd mystery
+  131  head -n 173 streets/Mattapan_Street | tail -n 1
+  132  ls
+  133  cd interviews
+  134  ls
+  135  cat interview-9437737
+  136  cd ..
+  137  cd -
+  138  ls
+  139  cat hint6
+  140  cd mystery
+  141  grep "Honda" vehicles
+  142  clear
+  143  grep "Bluea" vehicles
+  144  grep "Blue" vehicles
+  145  grep "L337" vehicles
+  146  cd ..
+  147  cat hint6
+  148  cat hint7
+  149  cd mystery
+  150  grep -A 5 "L337" mystery/vehicles
+  151  cd ..
+  152  grep -A 5 "L337" mystery/vehicles
+  153  cat hint8
+  154  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  155  cd mystery
+  156  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  157  ls
+  158  cd memberships
+  159  ls
+  160  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  161  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  162  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  163  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  164  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc-1
+  165  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -1
+  166  cd -
+  167  cd ..
+  168  cat hint9
+  169  ls
+  170  cat instructions
+  171  cd mystery
+  172  ls
+  173  cd ..
+  174  cat solution
+  175  cd ..
+  176  ls
+  177  cd command-line-murder-mystery
+  178  ls
+  179  cat cheatsheet.
+  180  cat cheatsheet.md
+  181  cat hint8
+  182  cd mystery
+  183  ls
+  184  cd memberships
+  185  ls
+  186  cat AAA
+  187  clear
+  188  cd..
+  189  cd ..
+  190  cd -
+  191  cd ..
+  192  cat hint8
+  193  cd mystery
+  194  cd memberships
+  195  ls
+  196  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  197  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  198  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  199  cd -
+  200  cd ..
+  201  ls
+  202  cd command-line-murder-mystery
+  203  ls
+  204  cat LICENSE
+  205  clear
+  206  cat LICENSE.txt
+  207  clear
+  208  ls
+  209  cat README.md
+  210  cat instructions
+  211  cd mystery
+  212  ls
+  213  cd interviews
+  214  ls
+  215  cd ..
+  216  ls
+  217  cd streets
+  218  ls
+  219  cd..
+  220  cd ..
+  221  ls
+  222  cd ..
+  223  touch solution.txt
+  224  ls
+  225  history
