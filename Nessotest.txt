@@ -1,0 +1,202 @@
+    1* [A
+    2  LS
+    3  ..
+    4  CD DESKTOP
+    5  cd desktop
+    6  ld
+    7  -help
+    8  help
+    9  info bash
+   10  info
+   11  dir
+   12  cd mt/c
+   13  cd /mt/c
+   14  ..
+   15  cd usr
+   16  dir
+   17  ..
+   18  cd /c/Users/nessoaf/Documents
+   19  cd /c/Users/nesso/Documents
+   20  ..
+   21  cd /c/Users/nesso
+   22  dir
+   23  cd desktop
+   24  cd /c/Users/nesso/desktop/GAWork
+   25  dir
+   26  cd /c/Users/nesso/desktop/GAWork/commandline-murder-mystery
+   27  cd /c/Users/nesso/desktop/GAWork/command-line-murder-mystery
+   28  dir
+   29  start hint1
+   30  cd /c/Users/nesso/desktop/GAWork/command-line-murder-mystery/mystery
+   31  head -n 20 people
+   32  cd /c/Users/nesso/desktop/GAWork/command-line-murder-mystery/mystery/streets
+   33  start walton_street
+   34  start Walton_Street
+   35  start Hemenway_Street
+   36  Start Elmwood_Avenue
+   37  touch history.txt
+   38  start scrimescene
+   39  cd /c/Users/nesso/desktop/GAWork/command-line-murder-mystery/mystery
+   40  start crimescene
+   41  cd C:\Users\nesso\Desktop\GAWork\command-line-murder-mystery\mystery\memberships
+   42  pwd
+   43  dir
+   44  cd memberships
+   45  *. *.txt
+   46  *.file *.txt
+   47  pwd
+   48  cd C:\Users\nesso\Desktop\GAWork\command-line-murder-mystery
+   49  dir
+   50  cd C:\Users\nesso\Desktop\
+   51  cd C:\Users
+   52  cd nesso
+   53  cd Nesso
+   54  cd C:\Users\Nesso
+   55  cd C:\Users\nesso
+   56  cd $ ^[[2;3~
+   57  cd C:\Users\nesso\Desktop
+   58  cd C\Users\nesso\Desktop
+   59  cd Users
+   60  cd c\Users
+   61  cd C\Users
+   62  dir
+   63  pwd
+   64  cd/desktop
+   65  cd desktop
+   66  cd command-line-murder-mystery
+   67  cd GAWork/command-line-murder-mystery
+   68  dir
+   69  cd mystery
+   70  cat crimescene.txt | grep clue
+   71  cat crimescene.txt | grep "clue"
+   72  ..
+   73  cd GAWork/command-line-murder-mystery
+   74  cd command-line-murder-mystery
+   75  cd ..
+   76  cat instruction
+   77  cat instructions
+   78  cat hint1
+   79  cd/mystery
+   80  cd mystery
+   81  dir
+   82  cat crimescene
+   83  cat crimescene | grep "clue"
+   84  cat crimescene | find i/ "clue"
+   85  cat crimescene | find "clue"
+   86  cat crimescene | findstrg "clue"
+   87  cat crimescene | stirgs "clue"
+   88  help
+   89  cat crimescene | findstr
+   90  cat crimescene | findstr clue
+   91  cat crimescene | findstr "CLUE"
+   92  cd ..
+   93  cat hint1
+   94  cd mystery
+   95  head -n 20 people
+   96  cd streets
+   97  head walton street
+   98  head walton_street
+   99  head mystic_street | select -L 477
+  100  head glenville_Avenue 
+  101  head glenville_Avenue | select -L 226
+  102  c/user/nesso
+  103  c/users/nesso
+  104  c/Users/nesso
+  105  C/Users/nesso
+  106  cd C/Users/nesso
+  107  cd c/Users/nesso
+  108  cd c
+  109  cd C
+  110  ~
+  111  pwd
+  112  cd desktop
+  113  pwd
+  114  ls
+  115  cd GAWork/
+  116  cd command-line-murder-mystery/
+  117  cat LICENSE.txt | grep "Section"
+  118  cat LICENSE | grep "Section"
+  119  cat LICENSE | grep "Section"
+  120  << I fixed my problems
+  121  cat instruciton
+  122  pwd
+  123  pwd
+  124  dir
+  125  cd c
+  126  cd Users/nesso
+  127  pwd
+  128  cd desktop
+  129  ls
+  130  cd  GAWork/
+  131  cd command-line-murder-mystery/
+  132  cat instruction
+  133  cat instructions 
+  134  cd mystery/
+  135  ls
+  136  cat interviews | grep "CLUES"
+  137  cat crimescene | grep "CLUES"
+  138  cat crimescene | grep "CLUES"
+  139  cat crimescene | grep "CLUES"
+  140  cat crimescene.txt | grep "CLUES"
+  141* 
+  142  cat crimescene | grep "CLUE"
+  143  ls
+  144  cd memberships/
+  145  ls
+  146  head AAA
+  147  head Delta_SkyMiles 
+  148  head library.txt 
+  149  cat AAA
+  150  cat AAA | sort
+  151  head Delta_SkyMiles | sort
+  152  cat Delta_SkyMiles | sort
+  153  cat library.txt | sort
+  154  cat crimescene.txt | grep "CLUE"
+  155  cat crimescene | grep "CLUE"
+  156  cd .. 
+  157  cat crimescene | grep "CLUE"
+  158  cd memberships/
+  159  cat Museum_of_Bash_History 
+  160  cat Museum_of_Bash_History | sort
+  161  cat Museum_of_Bash_History | grep "Annabel"
+  162  cat library.txt | grep "Annabel"
+  163  cat AAA | grep "Annabel"
+  164  cd ..
+  165  ls
+  166  cat people
+  167  cat people | sort
+  168  cat people | grep "Annabel"
+  169  cd streets/
+  170  head -n 179 people
+  171  cat -n 179 people
+  172  cat people | grep 179
+  173  grep 179 :people"
+  174  grep 179 "people"
+  175  cd ~/desktop
+  176  cd GAWork/
+  177  ls
+  178  git remote -v
+  179  ~users
+  180  cd ~Users
+  181  git remote -v
+  182  ls
+  183  cd desktop
+  184  pwd
+  185  pdw
+  186  dir
+  187  cd C/Users/nesso
+  188  cd desktop
+  189  cd GAWork/
+  190  ls
+  191  cd command-line-murder-mystery/
+  192  ls
+  193  cd mystery/
+  194  ls
+  195  cd streets/
+  196  sed -n ‘2,4p’ someFile
+  197  sed -n 200 Ballard_Street 
+  198  sed -n "200" Ballard_Street 
+  199  sed -n 200 Ballard_Street 
+  200  sed -n 200p Ballard_Street 
+  201  history
+  202  history >> Nessotest.txt
