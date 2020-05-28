@@ -1,0 +1,887 @@
+ The name of the killer is Mike Bostock
+
+
+This is my Terminal History Copied 
+
+
+
+
+Last login: Tue May 26 20:08:27 on ttys001
+➜  ~ git:(master) ✗ history
+    1  xcode-select --install
+    2  brew doctor
+    3  brew install git
+    4  ping google.com
+    5  open ~/.ssh/config
+    6  $ evel "$(ssh-agent -s)"
+    7  $ eval "$(ssh-agent -s)"\n> Agent pid 59566
+    8  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com
+    9  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"
+   10  ~/.ssh/config
+   11  $ touch ~/.ssh/config\n
+   12  Generating public/private rsa key pair
+   13  lmyer12@my.wgu.edu\n–\n$ ssh-keygen -t rsa -b 4096 -Clmyer12@my.wgu.edu
+   14  lmyer12@my.wgu.edu
+   15  $ ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"
+   16  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com
+   17  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"
+   18  $ ls -al ~/.ssh
+   19  ls -al ~/.ssh
+   20  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"
+   21  /Users/you/.ssh/id_rsa
+   22  sshme
+   23  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"
+   24  eval "$(ssh-agent -s)"
+   25  ~/.ssh/config
+   26  touch ~/.ssh/config
+   27  ~/.ssh/config
+   28  ~/.ssh/id_rsa
+   29  open ~/.ssh/config
+   30  ~/.ssh/id_rsa
+   31  open ~/.ssh/config
+   32  ~/.ssh/config
+   33  touch ~/.ssh/config
+   34  ~/.ssh/config
+   35  ~/.ssh/id_rsa
+   36  ssh-add -K ~/.ssh/id_rsa
+   37  open ~/.ssh/config
+   38  pwd
+   39  ls
+   40  cs Desktop
+   41  cd Desktop
+   42  pwd
+   43  mkdir seir_526
+   44  cd seir_526
+   45  mkdir units
+   46  ls
+   47  mkdir units/unit1
+   48  ls
+   49  pwd
+   50  ls
+   51  cd units
+   52  ls
+   53  touch README.md
+   54  ls
+   55  open .
+   56  ls -l
+   57  ls -la
+   58  man ls
+   59  ls -S
+   60  ls -aS
+   61  pwd
+   62  mkdir unit2
+   63  touch unit2/test.txt
+   64  ls _R
+   65  ls -R
+   66  open unit2
+   67  Some seret message random words random words luke likes this. 
+   68  cat unit2/test.txt
+   69  pwd
+   70  ls -R
+   71  cd unit1
+   72  pwd
+   73  rm anotherOne.txt
+   74  ls
+   75  echo " a;sdhf;asdhf"
+   76  touch secondMessage.txt
+   77  echo " This is another secret message Luke ahahahah" >> secondMessage.txt
+   78  cat secondMessage.txt
+   79  echo " some more words" >> secondMessage.txt
+   80  cat secondMessage.txt
+   81  echo "a" >>secondMessage.txt
+   82  cat secondMessage.txt
+   83  echo "z" >> secondMessage.txt
+   84  cat secondMessage.txt
+   85  cat secondMessage.txt | sort
+   86  cat secondMessage.txt | sort > sortedMessage.txt
+   87  ls -l
+   88  cat sortedMessage.txt
+   89  cat sortedMessage.txt | grep "secret"
+   90  cat secondMessage.txt | grep "another"
+   91  history
+   92  clear
+   93  history
+   94  clear
+   95  cd ..
+   96  pwd
+   97  man head
+   98  ls
+   99  cd secondMessage.txt
+  100  cd Documents
+  101  ls
+  102  cd seir526
+  103  cd -seir526
+  104  cd _seir526
+  105  pwd
+  106  cd seir526
+  107  ls
+  108  cd seir526
+  109  cat secondMessage.txt
+  110  cat unit2.txt
+  111  pwd
+  112  cd git-practise
+  113  ls
+  114  pwd
+  115  cd unit1
+  116  ls -S
+  117  ..
+  118  clear
+  119  history
+  120  cd ..
+  121  pwd
+  122  cd git
+  123  cd Documents
+  124  cd Document
+  125  cd Documents
+  126  cd desktop
+  127  ls
+  128  cd seir_526
+  129  ls
+  130  pwd
+  131  ls
+  132  cd Desktop
+  133  ls
+  134  cd seir_526
+  135  ls
+  136  mkdir homeworks
+  137  ls
+  138  cd homeworks
+  139  ls
+  140  cd seir_526
+  141  ..
+  142  ls
+  143  cd seir_526
+  144  ls
+  145  cd homeworks
+  146  https://github.com/sky777666/command-line-murder-mystery.git
+  147  git clone https://github.com/sky777666/command-line-murder-mystery.git
+  148  ls
+  149  cd command-line-murder-mystery
+  150  ls
+  151  cd README.md
+  152  cat README.md
+  153  ls
+  154  ls -al ~/.ssh
+  155  clear
+  156  ~/.ssh/config
+  157  cd desktop
+  158  cd Desktop
+  159  pwd
+  160  ..
+  161  ~/.ssh/config
+  162  $ eval "$(ssh-agent -s)"
+  163  ..
+  164  cd seir-526
+  165  cd seir_526
+  166  ls
+  167  cd units
+  168  ls
+  169  ls -al ~/.ssh
+  170  pbcopy < ~/.ssh/id_rsa.pub
+  171  pwd
+  172  cd homework
+  173  cd homeworks
+  174  ls
+  175  cd seir_526
+  176  cd units
+  177  ls
+  178  cat units
+  179  cat unit1
+  180  cd unit1
+  181  cat unit1
+  182  ls
+  183  ..
+  184  ls
+  185  cats README.md
+  186  ls
+  187  cd README.md
+  188  cd homeworks
+  189  cd homework
+  190  cd seir_526
+  191  pwd
+  192  ..
+  193  ls
+  194  cat
+  195  cat instructions
+  196  pwd
+  197  cd homeworks
+  198  cat instructions
+  199  ls
+  200  cat command-line-murder-mystery
+  201  cd command-line-murder-mystery
+  202  ls
+  203  cd mystery
+  204  ls
+  205  cd crimescene
+  206  cat crimescene
+  207  cat crimescene | grep "clue"
+  208  grep "clue"
+  209  pwd
+  210  cd homework
+  211  cd Desktop
+  212  ls
+  213  cd seir_526
+  214  ls
+  215  cd homeworks
+  216  ls
+  217  cd hint1
+  218  ls
+  219  cat command-line-murder-mystery
+  220  cd command-line-murder-mystery
+  221  ls
+  222  cd mystery
+  223  ls
+  224  cat crimescene | grep "CLUE"
+  225  ls
+  226  cat solution
+  227  cd memberships
+  228  ls
+  229  cd people
+  230  ls
+  231  cd people
+  232  cd hint1
+  233  ls
+  234  ..
+  235  ls
+  236  cd hint1
+  237  cat hint1
+  238  head -n 20 people
+  239  head -n hint1
+  240  grep "CLUE" crimescene
+  241  ls
+  242  cd mystery
+  243  ls
+  244  grep "annabel" people
+  245  ls
+  246  head -n streets/Mattapan_Street | tail -n 1
+  247  cd vehicles
+  248  cd streets
+  249  ls
+  250  grep "Honda"
+  251  pwd
+  252  cd Desktop
+  253  ls
+  254  cd seir_526
+  255  ls
+  256  cd homeworks
+  257  ls
+  258  cd command-line-murder-mystery
+  259  ls
+  260  cd desktop
+  261  ls
+  262  cd seir_526
+  263  ls
+  264  cd homeworks
+  265  ls
+  266  cd command-line-murder-mystery
+  267  ls
+  268  cat solution
+  269  ls
+  270  cd mystery
+  271  ls
+  272  cd interviews
+  273  ls
+  274  grep "annabel"
+  275  cd Desktop
+  276  ls
+  277  cd seir_526
+  278  ls
+  279  cd homeworks
+  280  ls
+  281  cd command-line-murder-mystery
+  282  ls
+  283  cd mystery
+  284  ls
+  285  cd interview
+  286  cd crimescene
+  287  ls
+  288  cd interviews
+  289  ls
+  290  ..
+  291  ls
+  292  grep " blue honda"
+  293  history
+  294  clear history
+  295  history
+  296  ls
+  297  cd Documents
+  298  ls
+  299  cd Desktop
+  300  ls
+  301  cd Desktop
+  302  ls
+  303  cd seir526
+  304  ..
+  305  ls
+  306  cd Desktop
+  307  pwd
+  308  ls
+  309  cd desktop
+  310  history
+  311  ls
+  312  cd Desktop
+  313  ls
+  314  cd seir_526
+  315  ls
+  316  cd homeworks
+  317  ls
+  318  cd command-line-murder-mystery
+  319  ls
+  320  cd mystery
+  321  ls
+  322  cd memberships
+  323  cat Fitness_Galaxy AAA United_MileagePlus | grep "mike bostock"
+  324  ls
+  325  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"
+  326  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"
+  327  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Aron Pilhofer"
+  328  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church"
+  329  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"
+  330  ls
+  331  cat Bash History AAA Delta skymiles | grep -c "Mike Bostock"
+  332  ls
+  333  ..
+  334  ls
+  335  cd vehicles
+  336  cd streets
+  337  ls
+  338  ..
+  339  ls
+  340  cat vehicles
+  341  grep "Mike"
+  342  ls
+  343  cd seir_526
+  344  ls
+  345  cd homeworks
+  346  ls
+  347  cd command-line-murder-mystery
+  348  ls
+  349  cd mystery
+  350  ls
+  351  cd interviews
+  352  ls
+  353  ..
+  354  church
+  355  cd church
+  356  interview-448086
+  357  ..
+  358  ls
+  359  cd mystery
+  360  ls
+  361  cd interviews
+  362  ls
+  363  ..
+  364  ls
+  365  mkdir solution.txt
+  366  ls
+  367  history
+  368  ls
+  369  cd solution.txt
+  370  ls
+  371  > Last login: Tue May 26 19:05:13 on ttys000\n➜  ~ git:(master) ✗ ls\nAgent                      Music\nAndroidStudioProjects      Pictures\nApplications               Public\nDesktop                    PycharmProjects\nDocuments                  WorkSpace Coder\nDownloads                  app.css\nHTML and CSS Love App.html app.js\nJavaScript.JavaScript.js   git-practice\nLibrary                    index.html\nLove app.js                myfolder\nMovies                     seir526\n➜  ~ git:(master) ✗  cd Desktop\n➜  Desktop git:(master) ✗ ls\nAS Degree Luke (1).pdf Important Document     seir_526\n➜  Desktop git:(master) ✗ cd seir_526\n➜  seir_526 git:(master) ✗ ls\nhomeworks units\n➜  seir_526 git:(master) ✗ cd homeworks\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery\n➜  homeworks git:(master) ✗ cd command-line-murder-mystery\n➜  command-line-murder-mystery git:(master) ls\nLICENSE        cheatsheet.md  hint2          hint5          hint8\nLICENSE.txt    cheatsheet.pdf hint3          hint6          instructions\nREADME.md      hint1          hint4          hint7          mystery\n➜  command-line-murder-mystery git:(master) cd mystery\n➜  mystery git:(master) ls\ncrimescene  interviews  memberships people      streets     vehicles\n➜  mystery git:(master) cd interviews\n➜  interviews git:(master) ls\ninterview-000296   interview-2642139  interview-496772   interview-75434722\ninterview-00448418 interview-27042476 interview-498331   interview-755037\ninterview-00502304 interview-27504937 interview-499096   interview-75633580\ninterview-005702   interview-275706   interview-50168425 interview-7580872\ninterview-00617019 interview-279087   interview-50291987 interview-77014856\ninterview-00805135 interview-280877   interview-504687   interview-770439\ninterview-016463   interview-2834518  interview-509105   interview-77135281\ninterview-020337   interview-284560   interview-5143029  interview-7791374\ninterview-022751   interview-2846076  interview-514793   interview-780255\ninterview-0234126  interview-289524   interview-52280505 interview-7863761\ninterview-02422821 interview-290346   interview-528044   interview-789564\ninterview-0251720  interview-291440   interview-529706   interview-791289\ninterview-03098229 interview-2922290  interview-53318557 interview-79360358\ninterview-0315125  interview-29316965 interview-535181   interview-79411932\ninterview-03316077 interview-2939888  interview-5372865  interview-794525\ninterview-034070   interview-296128   interview-538900   interview-7959148\ninterview-0349327  interview-29680692 interview-54026669 interview-796439\ninterview-04393507 interview-29741223 interview-541518   interview-79667499\ninterview-044492   interview-2976680  interview-5455315  interview-79935965\ninterview-0462097  interview-29838622 interview-54619323 interview-7998181\ninterview-049721   interview-2995681  interview-54851634 interview-8095917\ninterview-05297663 interview-301018   interview-549055   interview-809922\ninterview-06032377 interview-30259493 interview-55382746 interview-812725\ninterview-0613334  interview-3049045  interview-55410365 interview-81443363\ninterview-066291   interview-305694   interview-55435298 interview-822576\ninterview-071537   interview-305949   interview-55477243 interview-8245680\ninterview-0732631  interview-306616   interview-555536   interview-825165\ninterview-07497003 interview-3074127  interview-5581158  interview-82705993\ninterview-0768255  interview-3099757  interview-55841398 interview-831512\ninterview-092423   interview-312546   interview-55984022 interview-833367\ninterview-0953437  interview-3128999  interview-565396   interview-838259\ninterview-096267   interview-3140662  interview-566707   interview-8387710\ninterview-102490   interview-31635890 interview-56784802 interview-8402388\ninterview-109118   interview-3201508  interview-56892213 interview-8421696\ninterview-1108561  interview-322305   interview-57236791 interview-8464899\ninterview-114661   interview-32365018 interview-5739404  interview-84688694\ninterview-11495001 interview-324389   interview-5766907  interview-849256\ninterview-116803   interview-325611   interview-5774468  interview-85262552\ninterview-11705111 interview-32639981 interview-5782759  interview-8531248\ninterview-11783660 interview-32712166 interview-579105   interview-856221\ninterview-11817172 interview-331178   interview-5835471  interview-8586380\ninterview-1186827  interview-332596   interview-586668   interview-861780\ninterview-1205060  interview-33399976 interview-58910793 interview-862173\ninterview-1250176  interview-340396   interview-5905106  interview-862717\ninterview-125204   interview-34041151 interview-591273   interview-8631232\ninterview-125271   interview-342393   interview-5993978  interview-86395001\ninterview-1269181  interview-34359897 interview-60081985 interview-865918\ninterview-1310392  interview-344331   interview-604403   interview-867999\ninterview-13768464 interview-34690644 interview-608607   interview-8700943\ninterview-13889608 interview-347303   interview-6093093  interview-87126591\ninterview-13920860 interview-351963   interview-618764   interview-871877\ninterview-1395414  interview-353218   interview-6203192  interview-879569\ninterview-141030   interview-353467   interview-628618   interview-8819490\ninterview-14153840 interview-354262   interview-63308519 interview-891720\ninterview-144873   interview-3588302  interview-637657   interview-896668\ninterview-14590717 interview-3609204  interview-637928   interview-9004767\ninterview-147283   interview-36398447 interview-638121   interview-901603\ninterview-15187437 interview-364735   interview-6417794  interview-901645\ninterview-15354942 interview-36527398 interview-645385   interview-90394637\ninterview-1536668  interview-376115   interview-6553472  interview-904020\ninterview-155049   interview-37747405 interview-65792229 interview-907126\ninterview-1578206  interview-3804339  interview-659803   interview-9074626\ninterview-159848   interview-3824641  interview-66101490 interview-911451\ninterview-16098538 interview-38299069 interview-66282920 interview-91673757\ninterview-1642421  interview-3871205  interview-6643191  interview-917210\ninterview-1643440  interview-3871242  interview-67279454 interview-9185205\ninterview-16889008 interview-38899905 interview-673985   interview-920304\ninterview-17248453 interview-3917097  interview-676473   interview-92391023\ninterview-17343208 interview-391811   interview-67790846 interview-92670500\ninterview-174898   interview-39481114 interview-680549   interview-927642\ninterview-1767435  interview-39825862 interview-6808205  interview-9332386\ninterview-17827186 interview-40534453 interview-68195573 interview-9346061\ninterview-179719   interview-40610944 interview-68488577 interview-93473333\ninterview-1811770  interview-409731   interview-68764140 interview-93696502\ninterview-18193261 interview-41553314 interview-6884359  interview-938991\ninterview-1823688  interview-416243   interview-6894000  interview-9408565\ninterview-18270219 interview-41814745 interview-69170457 interview-94126412\ninterview-18441251 interview-4204949  interview-6933068  interview-9437737\ninterview-1850922  interview-42161907 interview-699607   interview-944493\ninterview-1857368  interview-4223536  interview-70067280 interview-9446528\ninterview-1906958  interview-4225866  interview-70199425 interview-9501580\ninterview-191206   interview-42396365 interview-703831   interview-95095182\ninterview-19300543 interview-4262657  interview-704443   interview-95601730\ninterview-1933118  interview-42934869 interview-70458099 interview-9618669\ninterview-19577850 interview-4299898  interview-7046684  interview-9620713\ninterview-2058907  interview-4335306  interview-7066082  interview-9651888\ninterview-210355   interview-4366523  interview-706620   interview-9666149\ninterview-218131   interview-44533008 interview-707438   interview-97043057\ninterview-221039   interview-4463090  interview-708943   interview-9709892\ninterview-223913   interview-448086   interview-7103823  interview-9711852\ninterview-2277882  interview-45615686 interview-71186817 interview-9712946\ninterview-229443   interview-457117   interview-71226767 interview-9728756\ninterview-23167806 interview-457451   interview-71298441 interview-97393699\ninterview-2326746  interview-466195   interview-7180973  interview-97409610\ninterview-23371263 interview-4673074  interview-71993338 interview-980963\ninterview-233800   interview-46773428 interview-720268   interview-982013\ninterview-2415821  interview-47246024 interview-7254073  interview-9824821\ninterview-243703   interview-4735823  interview-728181   interview-98912259\ninterview-2481877  interview-4765278  interview-730123   interview-9901455\ninterview-250112   interview-476744   interview-73035802 interview-9912172\ninterview-253705   interview-478217   interview-7305678  interview-992072\ninterview-255531   interview-48088300 interview-73585672 interview-99643550\ninterview-25582311 interview-48148020 interview-737609   interview-9969223\ninterview-25834905 interview-483817   interview-7422077  interview-999372\ninterview-259909   interview-485229   interview-74225310\ninterview-2601508  interview-4950099  interview-7469675\ninterview-26373485 interview-4961376  interview-7541406\n➜  interviews git:(master) ..\n➜  mystery git:(master) church\nzsh: command not found: church\n➜  mystery git:(master) cd church\ncd: no such file or directory: church\n➜  mystery git:(master) interview-448086\nzsh: command not found: interview-448086\n➜  mystery git:(master) ..  \n➜  command-line-murder-mystery git:(master) ls\nLICENSE        cheatsheet.md  hint2          hint5          hint8\nLICENSE.txt    cheatsheet.pdf hint3          hint6          instructions\nREADME.md      hint1          hint4          hint7          mystery\n➜  command-line-murder-mystery git:(master) cd mystery\n➜  mystery git:(master) ls\ncrimescene  interviews  memberships people      streets     vehicles\n➜  mystery git:(master) cd interviews\n➜  interviews git:(master) ls    \ninterview-000296   interview-2642139  interview-496772   interview-75434722\ninterview-00448418 interview-27042476 interview-498331   interview-755037\ninterview-00502304 interview-27504937 interview-499096   interview-75633580\ninterview-005702   interview-275706   interview-50168425 interview-7580872\ninterview-00617019 interview-279087   interview-50291987 interview-77014856\ninterview-00805135 interview-280877   interview-504687   interview-770439\ninterview-016463   interview-2834518  interview-509105   interview-77135281\ninterview-020337   interview-284560   interview-5143029  interview-7791374\ninterview-022751   interview-2846076  interview-514793   interview-780255\ninterview-0234126  interview-289524   interview-52280505 interview-7863761\ninterview-02422821 interview-290346   interview-528044   interview-789564\ninterview-0251720  interview-291440   interview-529706   interview-791289\ninterview-03098229 interview-2922290  interview-53318557 interview-79360358\ninterview-0315125  interview-29316965 interview-535181   interview-79411932\ninterview-03316077 interview-2939888  interview-5372865  interview-794525\ninterview-034070   interview-296128   interview-538900   interview-7959148\ninterview-0349327  interview-29680692 interview-54026669 interview-796439\ninterview-04393507 interview-29741223 interview-541518   interview-79667499\ninterview-044492   interview-2976680  interview-5455315  interview-79935965\ninterview-0462097  interview-29838622 interview-54619323 interview-7998181\ninterview-049721   interview-2995681  interview-54851634 interview-8095917\ninterview-05297663 interview-301018   interview-549055   interview-809922\ninterview-06032377 interview-30259493 interview-55382746 interview-812725\ninterview-0613334  interview-3049045  interview-55410365 interview-81443363\ninterview-066291   interview-305694   interview-55435298 interview-822576\ninterview-071537   interview-305949   interview-55477243 interview-8245680\ninterview-0732631  interview-306616   interview-555536   interview-825165\ninterview-07497003 interview-3074127  interview-5581158  interview-82705993\ninterview-0768255  interview-3099757  interview-55841398 interview-831512\ninterview-092423   interview-312546   interview-55984022 interview-833367\ninterview-0953437  interview-3128999  interview-565396   interview-838259\ninterview-096267   interview-3140662  interview-566707   interview-8387710\ninterview-102490   interview-31635890 interview-56784802 interview-8402388\ninterview-109118   interview-3201508  interview-56892213 interview-8421696\ninterview-1108561  interview-322305   interview-57236791 interview-8464899\ninterview-114661   interview-32365018 interview-5739404  interview-84688694\ninterview-11495001 interview-324389   interview-5766907  interview-849256\ninterview-116803   interview-325611   interview-5774468  interview-85262552\ninterview-11705111 interview-32639981 interview-5782759  interview-8531248\ninterview-11783660 interview-32712166 interview-579105   interview-856221\ninterview-11817172 interview-331178   interview-5835471  interview-8586380\ninterview-1186827  interview-332596   interview-586668   interview-861780\ninterview-1205060  interview-33399976 interview-58910793 interview-862173\ninterview-1250176  interview-340396   interview-5905106  interview-862717\ninterview-125204   interview-34041151 interview-591273   interview-8631232\ninterview-125271   interview-342393   interview-5993978  interview-86395001\ninterview-1269181  interview-34359897 interview-60081985 interview-865918\ninterview-1310392  interview-344331   interview-604403   interview-867999\ninterview-13768464 interview-34690644 interview-608607   interview-8700943\ninterview-13889608 interview-347303   interview-6093093  interview-87126591\ninterview-13920860 interview-351963   interview-618764   interview-871877\ninterview-1395414  interview-353218   interview-6203192  interview-879569\ninterview-141030   interview-353467   interview-628618   interview-8819490\ninterview-14153840 interview-354262   interview-63308519 interview-891720\ninterview-144873   interview-3588302  interview-637657   interview-896668\ninterview-14590717 interview-3609204  interview-637928   interview-9004767\ninterview-147283   interview-36398447 interview-638121   interview-901603\ninterview-15187437 interview-364735   interview-6417794  interview-901645\ninterview-15354942 interview-36527398 interview-645385   interview-90394637\ninterview-1536668  interview-376115   interview-6553472  interview-904020\ninterview-155049   interview-37747405 interview-65792229 interview-907126\ninterview-1578206  interview-3804339  interview-659803   interview-9074626\ninterview-159848   interview-3824641  interview-66101490 interview-911451\ninterview-16098538 interview-38299069 interview-66282920 interview-91673757\ninterview-1642421  interview-3871205  interview-6643191  interview-917210\ninterview-1643440  interview-3871242  interview-67279454 interview-9185205\ninterview-16889008 interview-38899905 interview-673985   interview-920304\ninterview-17248453 interview-3917097  interview-676473   interview-92391023\ninterview-17343208 interview-391811   interview-67790846 interview-92670500\ninterview-174898   interview-39481114 interview-680549   interview-927642\ninterview-1767435  interview-39825862 interview-6808205  interview-9332386\ninterview-17827186 interview-40534453 interview-68195573 interview-9346061\ninterview-179719   interview-40610944 interview-68488577 interview-93473333\ninterview-1811770  interview-409731   interview-68764140 interview-93696502\ninterview-18193261 interview-41553314 interview-6884359  interview-938991\ninterview-1823688  interview-416243   interview-6894000  interview-9408565\ninterview-18270219 interview-41814745 interview-69170457 interview-94126412\ninterview-18441251 interview-4204949  interview-6933068  interview-9437737\ninterview-1850922  interview-42161907 interview-699607   interview-944493\ninterview-1857368  interview-4223536  interview-70067280 interview-9446528\ninterview-1906958  interview-4225866  interview-70199425 interview-9501580\ninterview-191206   interview-42396365 interview-703831   interview-95095182\ninterview-19300543 interview-4262657  interview-704443   interview-95601730\ninterview-1933118  interview-42934869 interview-70458099 interview-9618669\ninterview-19577850 interview-4299898  interview-7046684  interview-9620713\ninterview-2058907  interview-4335306  interview-7066082  interview-9651888\ninterview-210355   interview-4366523  interview-706620   interview-9666149\ninterview-218131   interview-44533008 interview-707438   interview-97043057\ninterview-221039   interview-4463090  interview-708943   interview-9709892\ninterview-223913   interview-448086   interview-7103823  interview-9711852\ninterview-2277882  interview-45615686 interview-71186817 interview-9712946\ninterview-229443   interview-457117   interview-71226767 interview-9728756\ninterview-23167806 interview-457451   interview-71298441 interview-97393699\ninterview-2326746  interview-466195   interview-7180973  interview-97409610\ninterview-23371263 interview-4673074  interview-71993338 interview-980963\ninterview-233800   interview-46773428 interview-720268   interview-982013\ninterview-2415821  interview-47246024 interview-7254073  interview-9824821\ninterview-243703   interview-4735823  interview-728181   interview-98912259\ninterview-2481877  interview-4765278  interview-730123   interview-9901455\ninterview-250112   interview-476744   interview-73035802 interview-9912172\ninterview-253705   interview-478217   interview-7305678  interview-992072\ninterview-255531   interview-48088300 interview-73585672 interview-99643550\ninterview-25582311 interview-48148020 interview-737609   interview-9969223\ninterview-25834905 interview-483817   interview-7422077  interview-999372\ninterview-259909   interview-485229   interview-74225310\ninterview-2601508  interview-4950099  interview-7469675\ninterview-26373485 interview-4961376  interview-7541406\n➜  interviews git:(master) ..\n➜  mystery git:(master) ..\n➜  command-line-murder-mystery git:(master) ..\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery\n➜  homeworks git:(master) ✗ mkdir solution.txt\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery solution.txt\n➜  homeworks git:(master) ✗ history\n    1  xcode-select --install\n    2  brew doctor\n    3  brew install git\n    4  ping google.com\n    5  open ~/.ssh/config\n    6  $ evel "$(ssh-agent -s)"\n    7  $ eval "$(ssh-agent -s)"\n> Agent pid 59566\n    8  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n    9  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   10  ~/.ssh/config\n   11  $ touch ~/.ssh/config\n\n   12  Generating public/private rsa key pair\n   13  lmyer12@my.wgu.edu\n–\n$ ssh-keygen -t rsa -b 4096 -Clmyer12@my.wgu.edu\n   14  lmyer12@my.wgu.edu\n   15  $ ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   16  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n   17  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   18  $ ls -al ~/.ssh\n   19  ls -al ~/.ssh\n   20  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   21  /Users/you/.ssh/id_rsa\n   22  sshme\n   23  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   24  eval "$(ssh-agent -s)"\n   25  ~/.ssh/config\n   26  touch ~/.ssh/config\n   27  ~/.ssh/config\n   28  ~/.ssh/id_rsa\n   29  open ~/.ssh/config\n   30  ~/.ssh/id_rsa\n   31  open ~/.ssh/config\n   32  ~/.ssh/config\n   33  touch ~/.ssh/config\n   34  ~/.ssh/config\n   35  ~/.ssh/id_rsa\n   36  ssh-add -K ~/.ssh/id_rsa\n   37  open ~/.ssh/config\n   38  pwd\n   39  ls\n   40  cs Desktop\n   41  cd Desktop\n   42  pwd\n   43  mkdir seir_526\n   44  cd seir_526\n   45  mkdir units\n   46  ls\n   47  mkdir units/unit1\n   48  ls\n   49  pwd\n   50  ls\n   51  cd units\n   52  ls\n   53  touch README.md\n   54  ls\n   55  open .\n   56  ls -l\n   57  ls -la\n   58  man ls\n   59  ls -S\n   60  ls -aS\n   61  pwd\n   62  mkdir unit2\n   63  touch unit2/test.txt\n   64  ls _R\n   65  ls -R\n   66  open unit2\n   67  Some seret message random words random words luke likes this. \n   68  cat unit2/test.txt\n   69  pwd\n   70  ls -R\n   71  cd unit1\n   72  pwd\n   73  rm anotherOne.txt\n   74  ls\n   75  echo " a;sdhf;asdhf"\n   76  touch secondMessage.txt\n   77  echo " This is another secret message Luke ahahahah" >> secondMessage.txt\n   78  cat secondMessage.txt\n   79  echo " some more words" >> secondMessage.txt\n   80  cat secondMessage.txt\n   81  echo "a" >>secondMessage.txt\n   82  cat secondMessage.txt\n   83  echo "z" >> secondMessage.txt\n   84  cat secondMessage.txt\n   85  cat secondMessage.txt | sort\n   86  cat secondMessage.txt | sort > sortedMessage.txt\n   87  ls -l\n   88  cat sortedMessage.txt\n   89  cat sortedMessage.txt | grep "secret"\n   90  cat secondMessage.txt | grep "another"\n   91  history\n   92  clear\n   93  history\n   94  clear\n   95  cd ..\n   96  pwd\n   97  man head\n   98  ls\n   99  cd secondMessage.txt\n  100  cd Documents\n  101  ls\n  102  cd seir526\n  103  cd -seir526\n  104  cd _seir526\n  105  pwd\n  106  cd seir526\n  107  ls\n  108  cd seir526\n  109  cat secondMessage.txt\n  110  cat unit2.txt\n  111  pwd\n  112  cd git-practise\n  113  ls\n  114  pwd\n  115  cd unit1\n  116  ls -S\n  117  ..\n  118  clear\n  119  history\n  120  cd ..\n  121  pwd\n  122  cd git\n  123  cd Documents\n  124  cd Document\n  125  cd Documents\n  126  cd desktop\n  127  ls\n  128  cd seir_526\n  129  ls\n  130  pwd\n  131  ls\n  132  cd Desktop\n  133  ls\n  134  cd seir_526\n  135  ls\n  136  mkdir homeworks\n  137  ls\n  138  cd homeworks\n  139  ls\n  140  cd seir_526\n  141  ..\n  142  ls\n  143  cd seir_526\n  144  ls\n  145  cd homeworks\n  146  https://github.com/sky777666/command-line-murder-mystery.git\n  147  git clone https://github.com/sky777666/command-line-murder-mystery.git\n  148  ls\n  149  cd command-line-murder-mystery\n  150  ls\n  151  cd README.md\n  152  cat README.md\n  153  ls\n  154  ls -al ~/.ssh\n  155  clear\n  156  ~/.ssh/config\n  157  cd desktop\n  158  cd Desktop\n  159  pwd\n  160  ..\n  161  ~/.ssh/config\n  162  $ eval "$(ssh-agent -s)"\n  163  ..\n  164  cd seir-526\n  165  cd seir_526\n  166  ls\n  167  cd units\n  168  ls\n  169  ls -al ~/.ssh\n  170  pbcopy < ~/.ssh/id_rsa.pub\n  171  pwd\n  172  cd homework\n  173  cd homeworks\n  174  ls\n  175  cd seir_526\n  176  cd units\n  177  ls\n  178  cat units\n  179  cat unit1\n  180  cd unit1\n  181  cat unit1\n  182  ls\n  183  ..\n  184  ls\n  185  cats README.md\n  186  ls\n  187  cd README.md\n  188  cd homeworks\n  189  cd homework\n  190  cd seir_526\n  191  pwd\n  192  ..\n  193  ls\n  194  cat\n  195  cat instructions\n  196  pwd\n  197  cd homeworks\n  198  cat instructions\n  199  ls\n  200  cat command-line-murder-mystery\n  201  cd command-line-murder-mystery\n  202  ls\n  203  cd mystery\n  204  ls\n  205  cd crimescene\n  206  cat crimescene\n  207  cat crimescene | grep "clue"\n  208  grep "clue"\n  209  pwd\n  210  cd homework\n  211  cd Desktop\n  212  ls\n  213  cd seir_526\n  214  ls\n  215  cd homeworks\n  216  ls\n  217  cd hint1\n  218  ls\n  219  cat command-line-murder-mystery\n  220  cd command-line-murder-mystery\n  221  ls\n  222  cd mystery\n  223  ls\n  224  cat crimescene | grep "CLUE"\n  225  ls\n  226  cat solution\n  227  cd memberships\n  228  ls\n  229  cd people\n  230  ls\n  231  cd people\n  232  cd hint1\n  233  ls\n  234  ..\n  235  ls\n  236  cd hint1\n  237  cat hint1\n  238  head -n 20 people\n  239  head -n hint1\n  240  grep "CLUE" crimescene\n  241  ls\n  242  cd mystery\n  243  ls\n  244  grep "annabel" people\n  245  ls\n  246  head -n streets/Mattapan_Street | tail -n 1\n  247  cd vehicles\n  248  cd streets\n  249  ls\n  250  grep "Honda"\n  251  pwd\n  252  cd Desktop\n  253  ls\n  254  cd seir_526\n  255  ls\n  256  cd homeworks\n  257  ls\n  258  cd command-line-murder-mystery\n  259  ls\n  260  cd desktop\n  261  ls\n  262  cd seir_526\n  263  ls\n  264  cd homeworks\n  265  ls\n  266  cd command-line-murder-mystery\n  267  ls\n  268  cat solution\n  269  ls\n  270  cd mystery\n  271  ls\n  272  cd interviews\n  273  ls\n  274  grep "annabel"\n  275  cd Desktop\n  276  ls\n  277  cd seir_526\n  278  ls\n  279  cd homeworks\n  280  ls\n  281  cd command-line-murder-mystery\n  282  ls\n  283  cd mystery\n  284  ls\n  285  cd interview\n  286  cd crimescene\n  287  ls\n  288  cd interviews\n  289  ls\n  290  ..\n  291  ls\n  292  grep " blue honda"\n  293  history\n  294  clear history\n  295  history\n  296  ls\n  297  cd Documents\n  298  ls\n  299  cd Desktop\n  300  ls\n  301  cd Desktop\n  302  ls\n  303  cd seir526\n  304  ..\n  305  ls\n  306  cd Desktop\n  307  pwd\n  308  ls\n  309  cd desktop\n  310  history\n  311  ls\n  312  cd Desktop\n  313  ls\n  314  cd seir_526\n  315  ls\n  316  cd homeworks\n  317  ls\n  318  cd command-line-murder-mystery\n  319  ls\n  320  cd mystery\n  321  ls\n  322  cd memberships\n  323  cat Fitness_Galaxy AAA United_MileagePlus | grep "mike bostock"\n  324  ls\n  325  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"\n  326  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  327  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Aron Pilhofer"\n  328  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church"\n  329  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  330  ls\n  331  cat Bash History AAA Delta skymiles | grep -c "Mike Bostock"\n  332  ls\n  333  ..\n  334  ls\n  335  cd vehicles\n  336  cd streets\n  337  ls\n  338  ..\n  339  ls\n  340  cat vehicles\n  341  grep "Mike"\n  342  ls\n  343  cd seir_526\n  344  ls\n  345  cd homeworks\n  346  ls\n  347  cd command-line-murder-mystery\n  348  ls\n  349  cd mystery\n  350  ls\n  351  cd interviews\n  352  ls\n  353  ..\n  354  church\n  355  cd church\n  356  interview-448086\n  357  ..\n  358  ls\n  359  cd mystery\n  360  ls\n  361  cd interviews\n  362  ls\n  363  ..\n  364  ls\n  365  mkdir solution.txt\n  366  ls\n➜  homeworks git:(master) ✗ 
+  372  ls
+  373  ..
+  374  ls
+  375  cd solution.txt
+  376  ls
+  377  >> The Name of the Killer is " Mike Bostock "
+  378  > " The Name of the Killer is Mike Bostock "
+  379  cd Desktop
+  380  ls
+  381  cd seir_526
+  382  ls
+  383  cd homeworks
+  384  ls
+  385  man head
+  386  cd Desktop
+  387  ls
+  388  cd seir_526
+  389  ls
+  390  cd homeworks
+  391  ls
+  392  history
+  393  echo "1  xcode-select --install\n    2  brew doctor\n    3  brew install git\n    4  ping google.com\n    5  open ~/.ssh/config\n    6  $ evel "$(ssh-agent -s)"\n    7  $ eval "$(ssh-agent -s)"\n> Agent pid 59566\n    8  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n    9  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   10  ~/.ssh/config\n   11  $ touch ~/.ssh/config\n\n   12  Generating public/private rsa key pair\n   13  lmyer12@my.wgu.edu\n–\n$ ssh-keygen -t rsa -b 4096 -Clmyer12@my.wgu.edu\n   14  lmyer12@my.wgu.edu\n   15  $ ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   16  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n   17  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   18  $ ls -al ~/.ssh\n   19  ls -al ~/.ssh\n   20  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   21  /Users/you/.ssh/id_rsa\n   22  sshme\n   23  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   24  eval "$(ssh-agent -s)"\n   25  ~/.ssh/config\n   26  touch ~/.ssh/config\n   27  ~/.ssh/config\n   28  ~/.ssh/id_rsa\n   29  open ~/.ssh/config\n   30  ~/.ssh/id_rsa\n   31  open ~/.ssh/config\n   32  ~/.ssh/config\n   33  touch ~/.ssh/config\n   34  ~/.ssh/config\n   35  ~/.ssh/id_rsa\n   36  ssh-add -K ~/.ssh/id_rsa\n   37  open ~/.ssh/config\n   38  pwd\n   39  ls\n   40  cs Desktop\n   41  cd Desktop\n   42  pwd\n   43  mkdir seir_526\n   44  cd seir_526\n   45  mkdir units\n   46  ls\n   47  mkdir units/unit1\n   48  ls\n   49  pwd\n   50  ls\n   51  cd units\n   52  ls\n   53  touch README.md\n   54  ls\n   55  open .\n   56  ls -l\n   57  ls -la\n   58  man ls\n   59  ls -S\n   60  ls -aS\n   61  pwd\n   62  mkdir unit2\n   63  touch unit2/test.txt\n   64  ls _R\n   65  ls -R\n   66  open unit2\n   67  Some seret message random words random words luke likes this. \n   68  cat unit2/test.txt\n   69  pwd\n   70  ls -R\n   71  cd unit1\n   72  pwd\n   73  rm anotherOne.txt\n   74  ls\n   75  echo " a;sdhf;asdhf"\n   76  touch secondMessage.txt\n   77  echo " This is another secret message Luke ahahahah" >> secondMessage.txt\n   78  cat secondMessage.txt\n   79  echo " some more words" >> secondMessage.txt\n   80  cat secondMessage.txt\n   81  echo "a" >>secondMessage.txt\n   82  cat secondMessage.txt\n   83  echo "z" >> secondMessage.txt\n   84  cat secondMessage.txt\n   85  cat secondMessage.txt | sort\n   86  cat secondMessage.txt | sort > sortedMessage.txt\n   87  ls -l\n   88  cat sortedMessage.txt\n   89  cat sortedMessage.txt | grep "secret"\n   90  cat secondMessage.txt | grep "another"\n   91  history\n   92  clear\n   93  history\n   94  clear\n   95  cd ..\n   96  pwd\n   97  man head\n   98  ls\n   99  cd secondMessage.txt\n  100  cd Documents\n  101  ls\n  102  cd seir526\n  103  cd -seir526\n  104  cd _seir526\n  105  pwd\n  106  cd seir526\n  107  ls\n  108  cd seir526\n  109  cat secondMessage.txt\n  110  cat unit2.txt\n  111  pwd\n  112  cd git-practise\n  113  ls\n  114  pwd\n  115  cd unit1\n  116  ls -S\n  117  ..\n  118  clear\n  119  history\n  120  cd ..\n  121  pwd\n  122  cd git\n  123  cd Documents\n  124  cd Document\n  125  cd Documents\n  126  cd desktop\n  127  ls\n  128  cd seir_526\n  129  ls\n  130  pwd\n  131  ls\n  132  cd Desktop\n  133  ls\n  134  cd seir_526\n  135  ls\n  136  mkdir homeworks\n  137  ls\n  138  cd homeworks\n  139  ls\n  140  cd seir_526\n  141  ..\n  142  ls\n  143  cd seir_526\n  144  ls\n  145  cd homeworks\n  146  https://github.com/sky777666/command-line-murder-mystery.git\n  147  git clone https://github.com/sky777666/command-line-murder-mystery.git\n  148  ls\n  149  cd command-line-murder-mystery\n  150  ls\n  151  cd README.md\n  152  cat README.md\n  153  ls\n  154  ls -al ~/.ssh\n  155  clear\n  156  ~/.ssh/config\n  157  cd desktop\n  158  cd Desktop\n  159  pwd\n  160  ..\n  161  ~/.ssh/config\n  162  $ eval "$(ssh-agent -s)"\n  163  ..\n  164  cd seir-526\n  165  cd seir_526\n  166  ls\n  167  cd units\n  168  ls\n  169  ls -al ~/.ssh\n  170  pbcopy < ~/.ssh/id_rsa.pub\n  171  pwd\n  172  cd homework\n  173  cd homeworks\n  174  ls\n  175  cd seir_526\n  176  cd units\n  177  ls\n  178  cat units\n  179  cat unit1\n  180  cd unit1\n  181  cat unit1\n  182  ls\n  183  ..\n  184  ls\n  185  cats README.md\n  186  ls\n  187  cd README.md\n  188  cd homeworks\n  189  cd homework\n  190  cd seir_526\n  191  pwd\n  192  ..\n  193  ls\n  194  cat\n  195  cat instructions\n  196  pwd\n  197  cd homeworks\n  198  cat instructions\n  199  ls\n  200  cat command-line-murder-mystery\n  201  cd command-line-murder-mystery\n  202  ls\n  203  cd mystery\n  204  ls\n  205  cd crimescene\n  206  cat crimescene\n  207  cat crimescene | grep "clue"\n  208  grep "clue"\n  209  pwd\n  210  cd homework\n  211  cd Desktop\n  212  ls\n  213  cd seir_526\n  214  ls\n  215  cd homeworks\n  216  ls\n  217  cd hint1\n  218  ls\n  219  cat command-line-murder-mystery\n  220  cd command-line-murder-mystery\n  221  ls\n  222  cd mystery\n  223  ls\n  224  cat crimescene | grep "CLUE"\n  225  ls\n  226  cat solution\n  227  cd memberships\n  228  ls\n  229  cd people\n  230  ls\n  231  cd people\n  232  cd hint1\n  233  ls\n  234  ..\n  235  ls\n  236  cd hint1\n  237  cat hint1\n  238  head -n 20 people\n  239  head -n hint1\n  240  grep "CLUE" crimescene\n  241  ls\n  242  cd mystery\n  243  ls\n  244  grep "annabel" people\n  245  ls\n  246  head -n streets/Mattapan_Street | tail -n 1\n  247  cd vehicles\n  248  cd streets\n  249  ls\n  250  grep "Honda"\n  251  pwd\n  252  cd Desktop\n  253  ls\n  254  cd seir_526\n  255  ls\n  256  cd homeworks\n  257  ls\n  258  cd command-line-murder-mystery\n  259  ls\n  260  cd desktop\n  261  ls\n  262  cd seir_526\n  263  ls\n  264  cd homeworks\n  265  ls\n  266  cd command-line-murder-mystery\n  267  ls\n  268  cat solution\n  269  ls\n  270  cd mystery\n  271  ls\n  272  cd interviews\n  273  ls\n  274  grep "annabel"\n  275  cd Desktop\n  276  ls\n  277  cd seir_526\n  278  ls\n  279  cd homeworks\n  280  ls\n  281  cd command-line-murder-mystery\n  282  ls\n  283  cd mystery\n  284  ls\n  285  cd interview\n  286  cd crimescene\n  287  ls\n  288  cd interviews\n  289  ls\n  290  ..\n  291  ls\n  292  grep " blue honda"\n  293  history\n  294  clear history\n  295  history\n  296  ls\n  297  cd Documents\n  298  ls\n  299  cd Desktop\n  300  ls\n  301  cd Desktop\n  302  ls\n  303  cd seir526\n  304  ..\n  305  ls\n  306  cd Desktop\n  307  pwd\n  308  ls\n  309  cd desktop\n  310  history\n  311  ls\n  312  cd Desktop\n  313  ls\n  314  cd seir_526\n  315  ls\n  316  cd homeworks\n  317  ls\n  318  cd command-line-murder-mystery\n  319  ls\n  320  cd mystery\n  321  ls\n  322  cd memberships\n  323  cat Fitness_Galaxy AAA United_MileagePlus | grep "mike bostock"\n  324  ls\n  325  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"\n  326  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  327  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Aron Pilhofer"\n  328  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church"\n  329  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  330  ls\n  331  cat Bash History AAA Delta skymiles | grep -c "Mike Bostock"\n  332  ls\n  333  ..\n  334  ls\n  335  cd vehicles\n  336  cd streets\n  337  ls\n  338  ..\n  339  ls\n  340  cat vehicles\n  341  grep "Mike"\n  342  ls\n  343  cd seir_526\n  344  ls\n  345  cd homeworks\n  346  ls\n  347  cd command-line-murder-mystery\n  348  ls\n  349  cd mystery\n  350  ls\n  351  cd interviews\n  352  ls\n  353  ..\n  354  church\n  355  cd church\n  356  interview-448086\n  357  ..\n  358  ls\n  359  cd mystery\n  360  ls\n  361  cd interviews\n  362  ls\n  363  ..\n  364  ls\n  365  mkdir solution.txt\n  366  ls\n  367  history\n  368  ls\n  369  cd solution.txt\n  370  ls\n  371  > Last login: Tue May 26 19:05:13 on ttys000\n➜  ~ git:(master) ✗ ls\nAgent                      Music\nAndroidStudioProjects      Pictures\nApplications               Public\nDesktop                    PycharmProjects\nDocuments                  WorkSpace Coder\nDownloads                  app.css\nHTML and CSS Love App.html app.js\nJavaScript.JavaScript.js   git-practice\nLibrary                    index.html\nLove app.js                myfolder\nMovies                     seir526\n➜  ~ git:(master) ✗  cd Desktop\n➜  Desktop git:(master) ✗ ls\nAS Degree Luke (1).pdf Important Document     seir_526\n➜  Desktop git:(master) ✗ cd seir_526\n➜  seir_526 git:(master) ✗ ls\nhomeworks units\n➜  seir_526 git:(master) ✗ cd homeworks\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery\n➜  homeworks git:(master) ✗ cd command-line-murder-mystery\n➜  command-line-murder-mystery git:(master) ls\nLICENSE        cheatsheet.md  hint2          hint5          hint8\nLICENSE.txt    cheatsheet.pdf hint3          hint6          instructions\nREADME.md      hint1          hint4          hint7          mystery\n➜  command-line-murder-mystery git:(master) cd mystery\n➜  mystery git:(master) ls\ncrimescene  interviews  memberships people      streets     vehicles\n➜  mystery git:(master) cd interviews\n➜  interviews git:(master) ls\ninterview-000296   interview-2642139  interview-496772   interview-75434722\ninterview-00448418 interview-27042476 interview-498331   interview-755037\ninterview-00502304 interview-27504937 interview-499096   interview-75633580\ninterview-005702   interview-275706   interview-50168425 interview-7580872\ninterview-00617019 interview-279087   interview-50291987 interview-77014856\ninterview-00805135 interview-280877   interview-504687   interview-770439\ninterview-016463   interview-2834518  interview-509105   interview-77135281\ninterview-020337   interview-284560   interview-5143029  interview-7791374\ninterview-022751   interview-2846076  interview-514793   interview-780255\ninterview-0234126  interview-289524   interview-52280505 interview-7863761\ninterview-02422821 interview-290346   interview-528044   interview-789564\ninterview-0251720  interview-291440   interview-529706   interview-791289\ninterview-03098229 interview-2922290  interview-53318557 interview-79360358\ninterview-0315125  interview-29316965 interview-535181   interview-79411932\ninterview-03316077 interview-2939888  interview-5372865  interview-794525\ninterview-034070   interview-296128   interview-538900   interview-7959148\ninterview-0349327  interview-29680692 interview-54026669 interview-796439\ninterview-04393507 interview-29741223 interview-541518   interview-79667499\ninterview-044492   interview-2976680  interview-5455315  interview-79935965\ninterview-0462097  interview-29838622 interview-54619323 interview-7998181\ninterview-049721   interview-2995681  interview-54851634 interview-8095917\ninterview-05297663 interview-301018   interview-549055   interview-809922\ninterview-06032377 interview-30259493 interview-55382746 interview-812725\ninterview-0613334  interview-3049045  interview-55410365 interview-81443363\ninterview-066291   interview-305694   interview-55435298 interview-822576\ninterview-071537   interview-305949   interview-55477243 interview-8245680\ninterview-0732631  interview-306616   interview-555536   interview-825165\ninterview-07497003 interview-3074127  interview-5581158  interview-82705993\ninterview-0768255  interview-3099757  interview-55841398 interview-831512\ninterview-092423   interview-312546   interview-55984022 interview-833367\ninterview-0953437  interview-3128999  interview-565396   interview-838259\ninterview-096267   interview-3140662  interview-566707   interview-8387710\ninterview-102490   interview-31635890 interview-56784802 interview-8402388\ninterview-109118   interview-3201508  interview-56892213 interview-8421696\ninterview-1108561  interview-322305   interview-57236791 interview-8464899\ninterview-114661   interview-32365018 interview-5739404  interview-84688694\ninterview-11495001 interview-324389   interview-5766907  interview-849256\ninterview-116803   interview-325611   interview-5774468  interview-85262552\ninterview-11705111 interview-32639981 interview-5782759  interview-8531248\ninterview-11783660 interview-32712166 interview-579105   interview-856221\ninterview-11817172 interview-331178   interview-5835471  interview-8586380\ninterview-1186827  interview-332596   interview-586668   interview-861780\ninterview-1205060  interview-33399976 interview-58910793 interview-862173\ninterview-1250176  interview-340396   interview-5905106  interview-862717\ninterview-125204   interview-34041151 interview-591273   interview-8631232\ninterview-125271   interview-342393   interview-5993978  interview-86395001\ninterview-1269181  interview-34359897 interview-60081985 interview-865918\ninterview-1310392  interview-344331   interview-604403   interview-867999\ninterview-13768464 interview-34690644 interview-608607   interview-8700943\ninterview-13889608 interview-347303   interview-6093093  interview-87126591\ninterview-13920860 interview-351963   interview-618764   interview-871877\ninterview-1395414  interview-353218   interview-6203192  interview-879569\ninterview-141030   interview-353467   interview-628618   interview-8819490\ninterview-14153840 interview-354262   interview-63308519 interview-891720\ninterview-144873   interview-3588302  interview-637657   interview-896668\ninterview-14590717 interview-3609204  interview-637928   interview-9004767\ninterview-147283   interview-36398447 interview-638121   interview-901603\ninterview-15187437 interview-364735   interview-6417794  interview-901645\ninterview-15354942 interview-36527398 interview-645385   interview-90394637\ninterview-1536668  interview-376115   interview-6553472  interview-904020\ninterview-155049   interview-37747405 interview-65792229 interview-907126\ninterview-1578206  interview-3804339  interview-659803   interview-9074626\ninterview-159848   interview-3824641  interview-66101490 interview-911451\ninterview-16098538 interview-38299069 interview-66282920 interview-91673757\ninterview-1642421  interview-3871205  interview-6643191  interview-917210\ninterview-1643440  interview-3871242  interview-67279454 interview-9185205\ninterview-16889008 interview-38899905 interview-673985   interview-920304\ninterview-17248453 interview-3917097  interview-676473   interview-92391023\ninterview-17343208 interview-391811   interview-67790846 interview-92670500\ninterview-174898   interview-39481114 interview-680549   interview-927642\ninterview-1767435  interview-39825862 interview-6808205  interview-9332386\ninterview-17827186 interview-40534453 interview-68195573 interview-9346061\ninterview-179719   interview-40610944 interview-68488577 interview-93473333\ninterview-1811770  interview-409731   interview-68764140 interview-93696502\ninterview-18193261 interview-41553314 interview-6884359  interview-938991\ninterview-1823688  interview-416243   interview-6894000  interview-9408565\ninterview-18270219 interview-41814745 interview-69170457 interview-94126412\ninterview-18441251 interview-4204949  interview-6933068  interview-9437737\ninterview-1850922  interview-42161907 interview-699607   interview-944493\ninterview-1857368  interview-4223536  interview-70067280 interview-9446528\ninterview-1906958  interview-4225866  interview-70199425 interview-9501580\ninterview-191206   interview-42396365 interview-703831   interview-95095182\ninterview-19300543 interview-4262657  interview-704443   interview-95601730\ninterview-1933118  interview-42934869 interview-70458099 interview-9618669\ninterview-19577850 interview-4299898  interview-7046684  interview-9620713\ninterview-2058907  interview-4335306  interview-7066082  interview-9651888\ninterview-210355   interview-4366523  interview-706620   interview-9666149\ninterview-218131   interview-44533008 interview-707438   interview-97043057\ninterview-221039   interview-4463090  interview-708943   interview-9709892\ninterview-223913   interview-448086   interview-7103823  interview-9711852\ninterview-2277882  interview-45615686 interview-71186817 interview-9712946\ninterview-229443   interview-457117   interview-71226767 interview-9728756\ninterview-23167806 interview-457451   interview-71298441 interview-97393699\ninterview-2326746  interview-466195   interview-7180973  interview-97409610\ninterview-23371263 interview-4673074  interview-71993338 interview-980963\ninterview-233800   interview-46773428 interview-720268   interview-982013\ninterview-2415821  interview-47246024 interview-7254073  interview-9824821\ninterview-243703   interview-4735823  interview-728181   interview-98912259\ninterview-2481877  interview-4765278  interview-730123   interview-9901455\ninterview-250112   interview-476744   interview-73035802 interview-9912172\ninterview-253705   interview-478217   interview-7305678  interview-992072\ninterview-255531   interview-48088300 interview-73585672 interview-99643550\ninterview-25582311 interview-48148020 interview-737609   interview-9969223\ninterview-25834905 interview-483817   interview-7422077  interview-999372\ninterview-259909   interview-485229   interview-74225310\ninterview-2601508  interview-4950099  interview-7469675\ninterview-26373485 interview-4961376  interview-7541406\n➜  interviews git:(master) ..\n➜  mystery git:(master) church\nzsh: command not found: church\n➜  mystery git:(master) cd church\ncd: no such file or directory: church\n➜  mystery git:(master) interview-448086\nzsh: command not found: interview-448086\n➜  mystery git:(master) ..  \n➜  command-line-murder-mystery git:(master) ls\nLICENSE        cheatsheet.md  hint2          hint5          hint8\nLICENSE.txt    cheatsheet.pdf hint3          hint6          instructions\nREADME.md      hint1          hint4          hint7          mystery\n➜  command-line-murder-mystery git:(master) cd mystery\n➜  mystery git:(master) ls\ncrimescene  interviews  memberships people      streets     vehicles\n➜  mystery git:(master) cd interviews\n➜  interviews git:(master) ls    \ninterview-000296   interview-2642139  interview-496772   interview-75434722\ninterview-00448418 interview-27042476 interview-498331   interview-755037\ninterview-00502304 interview-27504937 interview-499096   interview-75633580\ninterview-005702   interview-275706   interview-50168425 interview-7580872\ninterview-00617019 interview-279087   interview-50291987 interview-77014856\ninterview-00805135 interview-280877   interview-504687   interview-770439\ninterview-016463   interview-2834518  interview-509105   interview-77135281\ninterview-020337   interview-284560   interview-5143029  interview-7791374\ninterview-022751   interview-2846076  interview-514793   interview-780255\ninterview-0234126  interview-289524   interview-52280505 interview-7863761\ninterview-02422821 interview-290346   interview-528044   interview-789564\ninterview-0251720  interview-291440   interview-529706   interview-791289\ninterview-03098229 interview-2922290  interview-53318557 interview-79360358\ninterview-0315125  interview-29316965 interview-535181   interview-79411932\ninterview-03316077 interview-2939888  interview-5372865  interview-794525\ninterview-034070   interview-296128   interview-538900   interview-7959148\ninterview-0349327  interview-29680692 interview-54026669 interview-796439\ninterview-04393507 interview-29741223 interview-541518   interview-79667499\ninterview-044492   interview-2976680  interview-5455315  interview-79935965\ninterview-0462097  interview-29838622 interview-54619323 interview-7998181\ninterview-049721   interview-2995681  interview-54851634 interview-8095917\ninterview-05297663 interview-301018   interview-549055   interview-809922\ninterview-06032377 interview-30259493 interview-55382746 interview-812725\ninterview-0613334  interview-3049045  interview-55410365 interview-81443363\ninterview-066291   interview-305694   interview-55435298 interview-822576\ninterview-071537   interview-305949   interview-55477243 interview-8245680\ninterview-0732631  interview-306616   interview-555536   interview-825165\ninterview-07497003 interview-3074127  interview-5581158  interview-82705993\ninterview-0768255  interview-3099757  interview-55841398 interview-831512\ninterview-092423   interview-312546   interview-55984022 interview-833367\ninterview-0953437  interview-3128999  interview-565396   interview-838259\ninterview-096267   interview-3140662  interview-566707   interview-8387710\ninterview-102490   interview-31635890 interview-56784802 interview-8402388\ninterview-109118   interview-3201508  interview-56892213 interview-8421696\ninterview-1108561  interview-322305   interview-57236791 interview-8464899\ninterview-114661   interview-32365018 interview-5739404  interview-84688694\ninterview-11495001 interview-324389   interview-5766907  interview-849256\ninterview-116803   interview-325611   interview-5774468  interview-85262552\ninterview-11705111 interview-32639981 interview-5782759  interview-8531248\ninterview-11783660 interview-32712166 interview-579105   interview-856221\ninterview-11817172 interview-331178   interview-5835471  interview-8586380\ninterview-1186827  interview-332596   interview-586668   interview-861780\ninterview-1205060  interview-33399976 interview-58910793 interview-862173\ninterview-1250176  interview-340396   interview-5905106  interview-862717\ninterview-125204   interview-34041151 interview-591273   interview-8631232\ninterview-125271   interview-342393   interview-5993978  interview-86395001\ninterview-1269181  interview-34359897 interview-60081985 interview-865918\ninterview-1310392  interview-344331   interview-604403   interview-867999\ninterview-13768464 interview-34690644 interview-608607   interview-8700943\ninterview-13889608 interview-347303   interview-6093093  interview-87126591\ninterview-13920860 interview-351963   interview-618764   interview-871877\ninterview-1395414  interview-353218   interview-6203192  interview-879569\ninterview-141030   interview-353467   interview-628618   interview-8819490\ninterview-14153840 interview-354262   interview-63308519 interview-891720\ninterview-144873   interview-3588302  interview-637657   interview-896668\ninterview-14590717 interview-3609204  interview-637928   interview-9004767\ninterview-147283   interview-36398447 interview-638121   interview-901603\ninterview-15187437 interview-364735   interview-6417794  interview-901645\ninterview-15354942 interview-36527398 interview-645385   interview-90394637\ninterview-1536668  interview-376115   interview-6553472  interview-904020\ninterview-155049   interview-37747405 interview-65792229 interview-907126\ninterview-1578206  interview-3804339  interview-659803   interview-9074626\ninterview-159848   interview-3824641  interview-66101490 interview-911451\ninterview-16098538 interview-38299069 interview-66282920 interview-91673757\ninterview-1642421  interview-3871205  interview-6643191  interview-917210\ninterview-1643440  interview-3871242  interview-67279454 interview-9185205\ninterview-16889008 interview-38899905 interview-673985   interview-920304\ninterview-17248453 interview-3917097  interview-676473   interview-92391023\ninterview-17343208 interview-391811   interview-67790846 interview-92670500\ninterview-174898   interview-39481114 interview-680549   interview-927642\ninterview-1767435  interview-39825862 interview-6808205  interview-9332386\ninterview-17827186 interview-40534453 interview-68195573 interview-9346061\ninterview-179719   interview-40610944 interview-68488577 interview-93473333\ninterview-1811770  interview-409731   interview-68764140 interview-93696502\ninterview-18193261 interview-41553314 interview-6884359  interview-938991\ninterview-1823688  interview-416243   interview-6894000  interview-9408565\ninterview-18270219 interview-41814745 interview-69170457 interview-94126412\ninterview-18441251 interview-4204949  interview-6933068  interview-9437737\ninterview-1850922  interview-42161907 interview-699607   interview-944493\ninterview-1857368  interview-4223536  interview-70067280 interview-9446528\ninterview-1906958  interview-4225866  interview-70199425 interview-9501580\ninterview-191206   interview-42396365 interview-703831   interview-95095182\ninterview-19300543 interview-4262657  interview-704443   interview-95601730\ninterview-1933118  interview-42934869 interview-70458099 interview-9618669\ninterview-19577850 interview-4299898  interview-7046684  interview-9620713\ninterview-2058907  interview-4335306  interview-7066082  interview-9651888\ninterview-210355   interview-4366523  interview-706620   interview-9666149\ninterview-218131   interview-44533008 interview-707438   interview-97043057\ninterview-221039   interview-4463090  interview-708943   interview-9709892\ninterview-223913   interview-448086   interview-7103823  interview-9711852\ninterview-2277882  interview-45615686 interview-71186817 interview-9712946\ninterview-229443   interview-457117   interview-71226767 interview-9728756\ninterview-23167806 interview-457451   interview-71298441 interview-97393699\ninterview-2326746  interview-466195   interview-7180973  interview-97409610\ninterview-23371263 interview-4673074  interview-71993338 interview-980963\ninterview-233800   interview-46773428 interview-720268   interview-982013\ninterview-2415821  interview-47246024 interview-7254073  interview-9824821\ninterview-243703   interview-4735823  interview-728181   interview-98912259\ninterview-2481877  interview-4765278  interview-730123   interview-9901455\ninterview-250112   interview-476744   interview-73035802 interview-9912172\ninterview-253705   interview-478217   interview-7305678  interview-992072\ninterview-255531   interview-48088300 interview-73585672 interview-99643550\ninterview-25582311 interview-48148020 interview-737609   interview-9969223\ninterview-25834905 interview-483817   interview-7422077  interview-999372\ninterview-259909   interview-485229   interview-74225310\ninterview-2601508  interview-4950099  interview-7469675\ninterview-26373485 interview-4961376  interview-7541406\n➜  interviews git:(master) ..\n➜  mystery git:(master) ..\n➜  command-line-murder-mystery git:(master) ..\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery\n➜  homeworks git:(master) ✗ mkdir solution.txt\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery solution.txt\n➜  homeworks git:(master) ✗ history\n    1  xcode-select --install\n    2  brew doctor\n    3  brew install git\n    4  ping google.com\n    5  open ~/.ssh/config\n    6  $ evel "$(ssh-agent -s)"\n    7  $ eval "$(ssh-agent -s)"\n> Agent pid 59566\n    8  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n    9  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   10  ~/.ssh/config\n   11  $ touch ~/.ssh/config\n\n   12  Generating public/private rsa key pair\n   13  lmyer12@my.wgu.edu\n–\n$ ssh-keygen -t rsa -b 4096 -Clmyer12@my.wgu.edu\n   14  lmyer12@my.wgu.edu\n   15  $ ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   16  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n   17  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   18  $ ls -al ~/.ssh\n   19  ls -al ~/.ssh\n   20  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   21  /Users/you/.ssh/id_rsa\n   22  sshme\n   23  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   24  eval "$(ssh-agent -s)"\n   25  ~/.ssh/config\n   26  touch ~/.ssh/config\n   27  ~/.ssh/config\n   28  ~/.ssh/id_rsa\n   29  open ~/.ssh/config\n   30  ~/.ssh/id_rsa\n   31  open ~/.ssh/config\n   32  ~/.ssh/config\n   33  touch ~/.ssh/config\n   34  ~/.ssh/config\n   35  ~/.ssh/id_rsa\n   36  ssh-add -K ~/.ssh/id_rsa\n   37  open ~/.ssh/config\n   38  pwd\n   39  ls\n   40  cs Desktop\n   41  cd Desktop\n   42  pwd\n   43  mkdir seir_526\n   44  cd seir_526\n   45  mkdir units\n   46  ls\n   47  mkdir units/unit1\n   48  ls\n   49  pwd\n   50  ls\n   51  cd units\n   52  ls\n   53  touch README.md\n   54  ls\n   55  open .\n   56  ls -l\n   57  ls -la\n   58  man ls\n   59  ls -S\n   60  ls -aS\n   61  pwd\n   62  mkdir unit2\n   63  touch unit2/test.txt\n   64  ls _R\n   65  ls -R\n   66  open unit2\n   67  Some seret message random words random words luke likes this. \n   68  cat unit2/test.txt\n   69  pwd\n   70  ls -R\n   71  cd unit1\n   72  pwd\n   73  rm anotherOne.txt\n   74  ls\n   75  echo " a;sdhf;asdhf"\n   76  touch secondMessage.txt\n   77  echo " This is another secret message Luke ahahahah" >> secondMessage.txt\n   78  cat secondMessage.txt\n   79  echo " some more words" >> secondMessage.txt\n   80  cat secondMessage.txt\n   81  echo "a" >>secondMessage.txt\n   82  cat secondMessage.txt\n   83  echo "z" >> secondMessage.txt\n   84  cat secondMessage.txt\n   85  cat secondMessage.txt | sort\n   86  cat secondMessage.txt | sort > sortedMessage.txt\n   87  ls -l\n   88  cat sortedMessage.txt\n   89  cat sortedMessage.txt | grep "secret"\n   90  cat secondMessage.txt | grep "another"\n   91  history\n   92  clear\n   93  history\n   94  clear\n   95  cd ..\n   96  pwd\n   97  man head\n   98  ls\n   99  cd secondMessage.txt\n  100  cd Documents\n  101  ls\n  102  cd seir526\n  103  cd -seir526\n  104  cd _seir526\n  105  pwd\n  106  cd seir526\n  107  ls\n  108  cd seir526\n  109  cat secondMessage.txt\n  110  cat unit2.txt\n  111  pwd\n  112  cd git-practise\n  113  ls\n  114  pwd\n  115  cd unit1\n  116  ls -S\n  117  ..\n  118  clear\n  119  history\n  120  cd ..\n  121  pwd\n  122  cd git\n  123  cd Documents\n  124  cd Document\n  125  cd Documents\n  126  cd desktop\n  127  ls\n  128  cd seir_526\n  129  ls\n  130  pwd\n  131  ls\n  132  cd Desktop\n  133  ls\n  134  cd seir_526\n  135  ls\n  136  mkdir homeworks\n  137  ls\n  138  cd homeworks\n  139  ls\n  140  cd seir_526\n  141  ..\n  142  ls\n  143  cd seir_526\n  144  ls\n  145  cd homeworks\n  146  https://github.com/sky777666/command-line-murder-mystery.git\n  147  git clone https://github.com/sky777666/command-line-murder-mystery.git\n  148  ls\n  149  cd command-line-murder-mystery\n  150  ls\n  151  cd README.md\n  152  cat README.md\n  153  ls\n  154  ls -al ~/.ssh\n  155  clear\n  156  ~/.ssh/config\n  157  cd desktop\n  158  cd Desktop\n  159  pwd\n  160  ..\n  161  ~/.ssh/config\n  162  $ eval "$(ssh-agent -s)"\n  163  ..\n  164  cd seir-526\n  165  cd seir_526\n  166  ls\n  167  cd units\n  168  ls\n  169  ls -al ~/.ssh\n  170  pbcopy < ~/.ssh/id_rsa.pub\n  171  pwd\n  172  cd homework\n  173  cd homeworks\n  174  ls\n  175  cd seir_526\n  176  cd units\n  177  ls\n  178  cat units\n  179  cat unit1\n  180  cd unit1\n  181  cat unit1\n  182  ls\n  183  ..\n  184  ls\n  185  cats README.md\n  186  ls\n  187  cd README.md\n  188  cd homeworks\n  189  cd homework\n  190  cd seir_526\n  191  pwd\n  192  ..\n  193  ls\n  194  cat\n  195  cat instructions\n  196  pwd\n  197  cd homeworks\n  198  cat instructions\n  199  ls\n  200  cat command-line-murder-mystery\n  201  cd command-line-murder-mystery\n  202  ls\n  203  cd mystery\n  204  ls\n  205  cd crimescene\n  206  cat crimescene\n  207  cat crimescene | grep "clue"\n  208  grep "clue"\n  209  pwd\n  210  cd homework\n  211  cd Desktop\n  212  ls\n  213  cd seir_526\n  214  ls\n  215  cd homeworks\n  216  ls\n  217  cd hint1\n  218  ls\n  219  cat command-line-murder-mystery\n  220  cd command-line-murder-mystery\n  221  ls\n  222  cd mystery\n  223  ls\n  224  cat crimescene | grep "CLUE"\n  225  ls\n  226  cat solution\n  227  cd memberships\n  228  ls\n  229  cd people\n  230  ls\n  231  cd people\n  232  cd hint1\n  233  ls\n  234  ..\n  235  ls\n  236  cd hint1\n  237  cat hint1\n  238  head -n 20 people\n  239  head -n hint1\n  240  grep "CLUE" crimescene\n  241  ls\n  242  cd mystery\n  243  ls\n  244  grep "annabel" people\n  245  ls\n  246  head -n streets/Mattapan_Street | tail -n 1\n  247  cd vehicles\n  248  cd streets\n  249  ls\n  250  grep "Honda"\n  251  pwd\n  252  cd Desktop\n  253  ls\n  254  cd seir_526\n  255  ls\n  256  cd homeworks\n  257  ls\n  258  cd command-line-murder-mystery\n  259  ls\n  260  cd desktop\n  261  ls\n  262  cd seir_526\n  263  ls\n  264  cd homeworks\n  265  ls\n  266  cd command-line-murder-mystery\n  267  ls\n  268  cat solution\n  269  ls\n  270  cd mystery\n  271  ls\n  272  cd interviews\n  273  ls\n  274  grep "annabel"\n  275  cd Desktop\n  276  ls\n  277  cd seir_526\n  278  ls\n  279  cd homeworks\n  280  ls\n  281  cd command-line-murder-mystery\n  282  ls\n  283  cd mystery\n  284  ls\n  285  cd interview\n  286  cd crimescene\n  287  ls\n  288  cd interviews\n  289  ls\n  290  ..\n  291  ls\n  292  grep " blue honda"\n  293  history\n  294  clear history\n  295  history\n  296  ls\n  297  cd Documents\n  298  ls\n  299  cd Desktop\n  300  ls\n  301  cd Desktop\n  302  ls\n  303  cd seir526\n  304  ..\n  305  ls\n  306  cd Desktop\n  307  pwd\n  308  ls\n  309  cd desktop\n  310  history\n  311  ls\n  312  cd Desktop\n  313  ls\n  314  cd seir_526\n  315  ls\n  316  cd homeworks\n  317  ls\n  318  cd command-line-murder-mystery\n  319  ls\n  320  cd mystery\n  321  ls\n  322  cd memberships\n  323  cat Fitness_Galaxy AAA United_MileagePlus | grep "mike bostock"\n  324  ls\n  325  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"\n  326  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  327  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Aron Pilhofer"\n  328  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church"\n  329  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  330  ls\n  331  cat Bash History AAA Delta skymiles | grep -c "Mike Bostock"\n  332  ls\n  333  ..\n  334  ls\n  335  cd vehicles\n  336  cd streets\n  337  ls\n  338  ..\n  339  ls\n  340  cat vehicles\n  341  grep "Mike"\n  342  ls\n  343  cd seir_526\n  344  ls\n  345  cd homeworks\n  346  ls\n  347  cd command-line-murder-mystery\n  348  ls\n  349  cd mystery\n  350  ls\n  351  cd interviews\n  352  ls\n  353  ..\n  354  church\n  355  cd church\n  356  interview-448086\n  357  ..\n  358  ls\n  359  cd mystery\n  360  ls\n  361  cd interviews\n  362  ls\n  363  ..\n  364  ls\n  365  mkdir solution.txt\n  366  ls\n➜  homeworks git:(master) ✗ \n  372  ls\n  373  ..\n  374  ls\n  375  cd solution.txt\n  376  ls\n  377  >> The Name of the Killer is " Mike Bostock "\n  378  > " The Name of the Killer is Mike Bostock "\n  379  cd Desktop\n  380  ls\n  381  cd seir_526\n  382  ls\n  383  cd homeworks\n  384  ls\n  385  man head\n  386  cd Desktop\n  387  ls\n  388  cd seir_526\n  389  ls\n  390  cd homeworks\n  391  ls\n➜  homeworks git:(master) ✗ \n "  >> solution.txt
+  394  ls
+  395  cd command-line-murder-mystery
+  396  ls
+  397  cd mystery
+  398  ls
+  399  cd membership
+  400  grep "AAA  Museum_of_Bash_History"
+  401  history
+  402  echo " This is another secret message Luke ahahahah" >> secondMessage.txt
+  403  pwd
+  404  cd Desktop
+  405  ls
+  406  cd seir_526
+  407  ls
+  408  cd homeworks
+  409  ls
+  410  open solution.txt
+  411  ls
+  412  open history.txt
+  413  ls
+  414  cd solution.txt
+  415  ls
+➜  ~ git:(master) ✗ open history.txt
+The file /Users/lukemyers/history.txt does not exist.
+➜  ~ git:(master) ✗ cd Desktop
+➜  Desktop git:(master) ✗ ls
+AS Degree Luke (1).pdf Important Document     seir_526
+➜  Desktop git:(master) ✗ cd seir_526
+➜  seir_526 git:(master) ✗ ls
+homeworks units
+➜  seir_526 git:(master) ✗ cd homeworks
+➜  homeworks git:(master) ✗ ls
+command-line-murder-mystery solution.txt
+history
+➜  homeworks git:(master) ✗ open solution.txt
+➜  homeworks git:(master) ✗ ls
+command-line-murder-mystery solution.txt
+history
+➜  homeworks git:(master) ✗ cd solution.txt
+➜  solution.txt git:(master) ✗ ls
+ The Name of the Killer is Mike Bostock 
+history.txt
+➜  history.txt git:(master) ✗ echo " The name of the killer is Mike Bostock">>history.txt
+➜  history.txt git:(master) ✗ history
+    1  xcode-select --install
+    2  brew doctor
+    3  brew install git
+    4  ping google.com
+    5  open ~/.ssh/config
+    6  $ evel "$(ssh-agent -s)"
+    7  $ eval "$(ssh-agent -s)"\n> Agent pid 59566
+    8  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com
+    9  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"
+   10  ~/.ssh/config
+   11  $ touch ~/.ssh/config\n
+   12  Generating public/private rsa key pair
+   13  lmyer12@my.wgu.edu\n–\n$ ssh-keygen -t rsa -b 4096 -Clmyer12@my.wgu.edu
+   14  lmyer12@my.wgu.edu
+   15  $ ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"
+   16  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com
+   17  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"
+   18  $ ls -al ~/.ssh
+   19  ls -al ~/.ssh
+   20  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"
+   21  /Users/you/.ssh/id_rsa
+   22  sshme
+   23  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"
+   24  eval "$(ssh-agent -s)"
+   25  ~/.ssh/config
+   26  touch ~/.ssh/config
+   27  ~/.ssh/config
+   28  ~/.ssh/id_rsa
+   29  open ~/.ssh/config
+   30  ~/.ssh/id_rsa
+   31  open ~/.ssh/config
+   32  ~/.ssh/config
+   33  touch ~/.ssh/config
+   34  ~/.ssh/config
+   35  ~/.ssh/id_rsa
+   36  ssh-add -K ~/.ssh/id_rsa
+   37  open ~/.ssh/config
+   38  pwd
+   39  ls
+   40  cs Desktop
+   41  cd Desktop
+   42  pwd
+   43  mkdir seir_526
+   44  cd seir_526
+   45  mkdir units
+   46  ls
+   47  mkdir units/unit1
+   48  ls
+   49  pwd
+   50  ls
+   51  cd units
+   52  ls
+   53  touch README.md
+   54  ls
+   55  open .
+   56  ls -l
+   57  ls -la
+   58  man ls
+   59  ls -S
+   60  ls -aS
+   61  pwd
+   62  mkdir unit2
+   63  touch unit2/test.txt
+   64  ls _R
+   65  ls -R
+   66  open unit2
+   67  Some seret message random words random words luke likes this. 
+   68  cat unit2/test.txt
+   69  pwd
+   70  ls -R
+   71  cd unit1
+   72  pwd
+   73  rm anotherOne.txt
+   74  ls
+   75  echo " a;sdhf;asdhf"
+   76  touch secondMessage.txt
+   77  echo " This is another secret message Luke ahahahah" >> secondMessage.txt
+   78  cat secondMessage.txt
+   79  echo " some more words" >> secondMessage.txt
+   80  cat secondMessage.txt
+   81  echo "a" >>secondMessage.txt
+   82  cat secondMessage.txt
+   83  echo "z" >> secondMessage.txt
+   84  cat secondMessage.txt
+   85  cat secondMessage.txt | sort
+   86  cat secondMessage.txt | sort > sortedMessage.txt
+   87  ls -l
+   88  cat sortedMessage.txt
+   89  cat sortedMessage.txt | grep "secret"
+   90  cat secondMessage.txt | grep "another"
+   91  history
+   92  clear
+   93  history
+   94  clear
+   95  cd ..
+   96  pwd
+   97  man head
+   98  ls
+   99  cd secondMessage.txt
+  100  cd Documents
+  101  ls
+  102  cd seir526
+  103  cd -seir526
+  104  cd _seir526
+  105  pwd
+  106  cd seir526
+  107  ls
+  108  cd seir526
+  109  cat secondMessage.txt
+  110  cat unit2.txt
+  111  pwd
+  112  cd git-practise
+  113  ls
+  114  pwd
+  115  cd unit1
+  116  ls -S
+  117  ..
+  118  clear
+  119  history
+  120  cd ..
+  121  pwd
+  122  cd git
+  123  cd Documents
+  124  cd Document
+  125  cd Documents
+  126  cd desktop
+  127  ls
+  128  cd seir_526
+  129  ls
+  130  pwd
+  131  ls
+  132  cd Desktop
+  133  ls
+  134  cd seir_526
+  135  ls
+  136  mkdir homeworks
+  137  ls
+  138  cd homeworks
+  139  ls
+  140  cd seir_526
+  141  ..
+  142  ls
+  143  cd seir_526
+  144  ls
+  145  cd homeworks
+  146  https://github.com/sky777666/command-line-murder-mystery.git
+  147  git clone https://github.com/sky777666/command-line-murder-mystery.git
+  148  ls
+  149  cd command-line-murder-mystery
+  150  ls
+  151  cd README.md
+  152  cat README.md
+  153  ls
+  154  ls -al ~/.ssh
+  155  clear
+  156  ~/.ssh/config
+  157  cd desktop
+  158  cd Desktop
+  159  pwd
+  160  ..
+  161  ~/.ssh/config
+  162  $ eval "$(ssh-agent -s)"
+  163  ..
+  164  cd seir-526
+  165  cd seir_526
+  166  ls
+  167  cd units
+  168  ls
+  169  ls -al ~/.ssh
+  170  pbcopy < ~/.ssh/id_rsa.pub
+  171  pwd
+  172  cd homework
+  173  cd homeworks
+  174  ls
+  175  cd seir_526
+  176  cd units
+  177  ls
+  178  cat units
+  179  cat unit1
+  180  cd unit1
+  181  cat unit1
+  182  ls
+  183  ..
+  184  ls
+  185  cats README.md
+  186  ls
+  187  cd README.md
+  188  cd homeworks
+  189  cd homework
+  190  cd seir_526
+  191  pwd
+  192  ..
+  193  ls
+  194  cat
+  195  cat instructions
+  196  pwd
+  197  cd homeworks
+  198  cat instructions
+  199  ls
+  200  cat command-line-murder-mystery
+  201  cd command-line-murder-mystery
+  202  ls
+  203  cd mystery
+  204  ls
+  205  cd crimescene
+  206  cat crimescene
+  207  cat crimescene | grep "clue"
+  208  grep "clue"
+  209  pwd
+  210  cd homework
+  211  cd Desktop
+  212  ls
+  213  cd seir_526
+  214  ls
+  215  cd homeworks
+  216  ls
+  217  cd hint1
+  218  ls
+  219  cat command-line-murder-mystery
+  220  cd command-line-murder-mystery
+  221  ls
+  222  cd mystery
+  223  ls
+  224  cat crimescene | grep "CLUE"
+  225  ls
+  226  cat solution
+  227  cd memberships
+  228  ls
+  229  cd people
+  230  ls
+  231  cd people
+  232  cd hint1
+  233  ls
+  234  ..
+  235  ls
+  236  cd hint1
+  237  cat hint1
+  238  head -n 20 people
+  239  head -n hint1
+  240  grep "CLUE" crimescene
+  241  ls
+  242  cd mystery
+  243  ls
+  244  grep "annabel" people
+  245  ls
+  246  head -n streets/Mattapan_Street | tail -n 1
+  247  cd vehicles
+  248  cd streets
+  249  ls
+  250  grep "Honda"
+  251  pwd
+  252  cd Desktop
+  253  ls
+  254  cd seir_526
+  255  ls
+  256  cd homeworks
+  257  ls
+  258  cd command-line-murder-mystery
+  259  ls
+  260  cd desktop
+  261  ls
+  262  cd seir_526
+  263  ls
+  264  cd homeworks
+  265  ls
+  266  cd command-line-murder-mystery
+  267  ls
+  268  cat solution
+  269  ls
+  270  cd mystery
+  271  ls
+  272  cd interviews
+  273  ls
+  274  grep "annabel"
+  275  cd Desktop
+  276  ls
+  277  cd seir_526
+  278  ls
+  279  cd homeworks
+  280  ls
+  281  cd command-line-murder-mystery
+  282  ls
+  283  cd mystery
+  284  ls
+  285  cd interview
+  286  cd crimescene
+  287  ls
+  288  cd interviews
+  289  ls
+  290  ..
+  291  ls
+  292  grep " blue honda"
+  293  history
+  294  clear history
+  295  history
+  296  ls
+  297  cd Documents
+  298  ls
+  299  cd Desktop
+  300  ls
+  301  cd Desktop
+  302  ls
+  303  cd seir526
+  304  ..
+  305  ls
+  306  cd Desktop
+  307  pwd
+  308  ls
+  309  cd desktop
+  310  history
+  311  ls
+  312  cd Desktop
+  313  ls
+  314  cd seir_526
+  315  ls
+  316  cd homeworks
+  317  ls
+  318  cd command-line-murder-mystery
+  319  ls
+  320  cd mystery
+  321  ls
+  322  cd memberships
+  323  cat Fitness_Galaxy AAA United_MileagePlus | grep "mike bostock"
+  324  ls
+  325  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"
+  326  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"
+  327  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Aron Pilhofer"
+  328  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church"
+  329  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"
+  330  ls
+  331  cat Bash History AAA Delta skymiles | grep -c "Mike Bostock"
+  332  ls
+  333  ..
+  334  ls
+  335  cd vehicles
+  336  cd streets
+  337  ls
+  338  ..
+  339  ls
+  340  cat vehicles
+  341  grep "Mike"
+  342  ls
+  343  cd seir_526
+  344  ls
+  345  cd homeworks
+  346  ls
+  347  cd command-line-murder-mystery
+  348  ls
+  349  cd mystery
+  350  ls
+  351  cd interviews
+  352  ls
+  353  ..
+  354  church
+  355  cd church
+  356  interview-448086
+  357  ..
+  358  ls
+  359  cd mystery
+  360  ls
+  361  cd interviews
+  362  ls
+  363  ..
+  364  ls
+  365  mkdir solution.txt
+  366  ls
+  367  history
+  368  ls
+  369  cd solution.txt
+  370  ls
+  371  > Last login: Tue May 26 19:05:13 on ttys000\n➜  ~ git:(master) ✗ ls\nAgent                      Music\nAndroidStudioProjects      Pictures\nApplications               Public\nDesktop                    PycharmProjects\nDocuments                  WorkSpace Coder\nDownloads                  app.css\nHTML and CSS Love App.html app.js\nJavaScript.JavaScript.js   git-practice\nLibrary                    index.html\nLove app.js                myfolder\nMovies                     seir526\n➜  ~ git:(master) ✗  cd Desktop\n➜  Desktop git:(master) ✗ ls\nAS Degree Luke (1).pdf Important Document     seir_526\n➜  Desktop git:(master) ✗ cd seir_526\n➜  seir_526 git:(master) ✗ ls\nhomeworks units\n➜  seir_526 git:(master) ✗ cd homeworks\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery\n➜  homeworks git:(master) ✗ cd command-line-murder-mystery\n➜  command-line-murder-mystery git:(master) ls\nLICENSE        cheatsheet.md  hint2          hint5          hint8\nLICENSE.txt    cheatsheet.pdf hint3          hint6          instructions\nREADME.md      hint1          hint4          hint7          mystery\n➜  command-line-murder-mystery git:(master) cd mystery\n➜  mystery git:(master) ls\ncrimescene  interviews  memberships people      streets     vehicles\n➜  mystery git:(master) cd interviews\n➜  interviews git:(master) ls\ninterview-000296   interview-2642139  interview-496772   interview-75434722\ninterview-00448418 interview-27042476 interview-498331   interview-755037\ninterview-00502304 interview-27504937 interview-499096   interview-75633580\ninterview-005702   interview-275706   interview-50168425 interview-7580872\ninterview-00617019 interview-279087   interview-50291987 interview-77014856\ninterview-00805135 interview-280877   interview-504687   interview-770439\ninterview-016463   interview-2834518  interview-509105   interview-77135281\ninterview-020337   interview-284560   interview-5143029  interview-7791374\ninterview-022751   interview-2846076  interview-514793   interview-780255\ninterview-0234126  interview-289524   interview-52280505 interview-7863761\ninterview-02422821 interview-290346   interview-528044   interview-789564\ninterview-0251720  interview-291440   interview-529706   interview-791289\ninterview-03098229 interview-2922290  interview-53318557 interview-79360358\ninterview-0315125  interview-29316965 interview-535181   interview-79411932\ninterview-03316077 interview-2939888  interview-5372865  interview-794525\ninterview-034070   interview-296128   interview-538900   interview-7959148\ninterview-0349327  interview-29680692 interview-54026669 interview-796439\ninterview-04393507 interview-29741223 interview-541518   interview-79667499\ninterview-044492   interview-2976680  interview-5455315  interview-79935965\ninterview-0462097  interview-29838622 interview-54619323 interview-7998181\ninterview-049721   interview-2995681  interview-54851634 interview-8095917\ninterview-05297663 interview-301018   interview-549055   interview-809922\ninterview-06032377 interview-30259493 interview-55382746 interview-812725\ninterview-0613334  interview-3049045  interview-55410365 interview-81443363\ninterview-066291   interview-305694   interview-55435298 interview-822576\ninterview-071537   interview-305949   interview-55477243 interview-8245680\ninterview-0732631  interview-306616   interview-555536   interview-825165\ninterview-07497003 interview-3074127  interview-5581158  interview-82705993\ninterview-0768255  interview-3099757  interview-55841398 interview-831512\ninterview-092423   interview-312546   interview-55984022 interview-833367\ninterview-0953437  interview-3128999  interview-565396   interview-838259\ninterview-096267   interview-3140662  interview-566707   interview-8387710\ninterview-102490   interview-31635890 interview-56784802 interview-8402388\ninterview-109118   interview-3201508  interview-56892213 interview-8421696\ninterview-1108561  interview-322305   interview-57236791 interview-8464899\ninterview-114661   interview-32365018 interview-5739404  interview-84688694\ninterview-11495001 interview-324389   interview-5766907  interview-849256\ninterview-116803   interview-325611   interview-5774468  interview-85262552\ninterview-11705111 interview-32639981 interview-5782759  interview-8531248\ninterview-11783660 interview-32712166 interview-579105   interview-856221\ninterview-11817172 interview-331178   interview-5835471  interview-8586380\ninterview-1186827  interview-332596   interview-586668   interview-861780\ninterview-1205060  interview-33399976 interview-58910793 interview-862173\ninterview-1250176  interview-340396   interview-5905106  interview-862717\ninterview-125204   interview-34041151 interview-591273   interview-8631232\ninterview-125271   interview-342393   interview-5993978  interview-86395001\ninterview-1269181  interview-34359897 interview-60081985 interview-865918\ninterview-1310392  interview-344331   interview-604403   interview-867999\ninterview-13768464 interview-34690644 interview-608607   interview-8700943\ninterview-13889608 interview-347303   interview-6093093  interview-87126591\ninterview-13920860 interview-351963   interview-618764   interview-871877\ninterview-1395414  interview-353218   interview-6203192  interview-879569\ninterview-141030   interview-353467   interview-628618   interview-8819490\ninterview-14153840 interview-354262   interview-63308519 interview-891720\ninterview-144873   interview-3588302  interview-637657   interview-896668\ninterview-14590717 interview-3609204  interview-637928   interview-9004767\ninterview-147283   interview-36398447 interview-638121   interview-901603\ninterview-15187437 interview-364735   interview-6417794  interview-901645\ninterview-15354942 interview-36527398 interview-645385   interview-90394637\ninterview-1536668  interview-376115   interview-6553472  interview-904020\ninterview-155049   interview-37747405 interview-65792229 interview-907126\ninterview-1578206  interview-3804339  interview-659803   interview-9074626\ninterview-159848   interview-3824641  interview-66101490 interview-911451\ninterview-16098538 interview-38299069 interview-66282920 interview-91673757\ninterview-1642421  interview-3871205  interview-6643191  interview-917210\ninterview-1643440  interview-3871242  interview-67279454 interview-9185205\ninterview-16889008 interview-38899905 interview-673985   interview-920304\ninterview-17248453 interview-3917097  interview-676473   interview-92391023\ninterview-17343208 interview-391811   interview-67790846 interview-92670500\ninterview-174898   interview-39481114 interview-680549   interview-927642\ninterview-1767435  interview-39825862 interview-6808205  interview-9332386\ninterview-17827186 interview-40534453 interview-68195573 interview-9346061\ninterview-179719   interview-40610944 interview-68488577 interview-93473333\ninterview-1811770  interview-409731   interview-68764140 interview-93696502\ninterview-18193261 interview-41553314 interview-6884359  interview-938991\ninterview-1823688  interview-416243   interview-6894000  interview-9408565\ninterview-18270219 interview-41814745 interview-69170457 interview-94126412\ninterview-18441251 interview-4204949  interview-6933068  interview-9437737\ninterview-1850922  interview-42161907 interview-699607   interview-944493\ninterview-1857368  interview-4223536  interview-70067280 interview-9446528\ninterview-1906958  interview-4225866  interview-70199425 interview-9501580\ninterview-191206   interview-42396365 interview-703831   interview-95095182\ninterview-19300543 interview-4262657  interview-704443   interview-95601730\ninterview-1933118  interview-42934869 interview-70458099 interview-9618669\ninterview-19577850 interview-4299898  interview-7046684  interview-9620713\ninterview-2058907  interview-4335306  interview-7066082  interview-9651888\ninterview-210355   interview-4366523  interview-706620   interview-9666149\ninterview-218131   interview-44533008 interview-707438   interview-97043057\ninterview-221039   interview-4463090  interview-708943   interview-9709892\ninterview-223913   interview-448086   interview-7103823  interview-9711852\ninterview-2277882  interview-45615686 interview-71186817 interview-9712946\ninterview-229443   interview-457117   interview-71226767 interview-9728756\ninterview-23167806 interview-457451   interview-71298441 interview-97393699\ninterview-2326746  interview-466195   interview-7180973  interview-97409610\ninterview-23371263 interview-4673074  interview-71993338 interview-980963\ninterview-233800   interview-46773428 interview-720268   interview-982013\ninterview-2415821  interview-47246024 interview-7254073  interview-9824821\ninterview-243703   interview-4735823  interview-728181   interview-98912259\ninterview-2481877  interview-4765278  interview-730123   interview-9901455\ninterview-250112   interview-476744   interview-73035802 interview-9912172\ninterview-253705   interview-478217   interview-7305678  interview-992072\ninterview-255531   interview-48088300 interview-73585672 interview-99643550\ninterview-25582311 interview-48148020 interview-737609   interview-9969223\ninterview-25834905 interview-483817   interview-7422077  interview-999372\ninterview-259909   interview-485229   interview-74225310\ninterview-2601508  interview-4950099  interview-7469675\ninterview-26373485 interview-4961376  interview-7541406\n➜  interviews git:(master) ..\n➜  mystery git:(master) church\nzsh: command not found: church\n➜  mystery git:(master) cd church\ncd: no such file or directory: church\n➜  mystery git:(master) interview-448086\nzsh: command not found: interview-448086\n➜  mystery git:(master) ..  \n➜  command-line-murder-mystery git:(master) ls\nLICENSE        cheatsheet.md  hint2          hint5          hint8\nLICENSE.txt    cheatsheet.pdf hint3          hint6          instructions\nREADME.md      hint1          hint4          hint7          mystery\n➜  command-line-murder-mystery git:(master) cd mystery\n➜  mystery git:(master) ls\ncrimescene  interviews  memberships people      streets     vehicles\n➜  mystery git:(master) cd interviews\n➜  interviews git:(master) ls    \ninterview-000296   interview-2642139  interview-496772   interview-75434722\ninterview-00448418 interview-27042476 interview-498331   interview-755037\ninterview-00502304 interview-27504937 interview-499096   interview-75633580\ninterview-005702   interview-275706   interview-50168425 interview-7580872\ninterview-00617019 interview-279087   interview-50291987 interview-77014856\ninterview-00805135 interview-280877   interview-504687   interview-770439\ninterview-016463   interview-2834518  interview-509105   interview-77135281\ninterview-020337   interview-284560   interview-5143029  interview-7791374\ninterview-022751   interview-2846076  interview-514793   interview-780255\ninterview-0234126  interview-289524   interview-52280505 interview-7863761\ninterview-02422821 interview-290346   interview-528044   interview-789564\ninterview-0251720  interview-291440   interview-529706   interview-791289\ninterview-03098229 interview-2922290  interview-53318557 interview-79360358\ninterview-0315125  interview-29316965 interview-535181   interview-79411932\ninterview-03316077 interview-2939888  interview-5372865  interview-794525\ninterview-034070   interview-296128   interview-538900   interview-7959148\ninterview-0349327  interview-29680692 interview-54026669 interview-796439\ninterview-04393507 interview-29741223 interview-541518   interview-79667499\ninterview-044492   interview-2976680  interview-5455315  interview-79935965\ninterview-0462097  interview-29838622 interview-54619323 interview-7998181\ninterview-049721   interview-2995681  interview-54851634 interview-8095917\ninterview-05297663 interview-301018   interview-549055   interview-809922\ninterview-06032377 interview-30259493 interview-55382746 interview-812725\ninterview-0613334  interview-3049045  interview-55410365 interview-81443363\ninterview-066291   interview-305694   interview-55435298 interview-822576\ninterview-071537   interview-305949   interview-55477243 interview-8245680\ninterview-0732631  interview-306616   interview-555536   interview-825165\ninterview-07497003 interview-3074127  interview-5581158  interview-82705993\ninterview-0768255  interview-3099757  interview-55841398 interview-831512\ninterview-092423   interview-312546   interview-55984022 interview-833367\ninterview-0953437  interview-3128999  interview-565396   interview-838259\ninterview-096267   interview-3140662  interview-566707   interview-8387710\ninterview-102490   interview-31635890 interview-56784802 interview-8402388\ninterview-109118   interview-3201508  interview-56892213 interview-8421696\ninterview-1108561  interview-322305   interview-57236791 interview-8464899\ninterview-114661   interview-32365018 interview-5739404  interview-84688694\ninterview-11495001 interview-324389   interview-5766907  interview-849256\ninterview-116803   interview-325611   interview-5774468  interview-85262552\ninterview-11705111 interview-32639981 interview-5782759  interview-8531248\ninterview-11783660 interview-32712166 interview-579105   interview-856221\ninterview-11817172 interview-331178   interview-5835471  interview-8586380\ninterview-1186827  interview-332596   interview-586668   interview-861780\ninterview-1205060  interview-33399976 interview-58910793 interview-862173\ninterview-1250176  interview-340396   interview-5905106  interview-862717\ninterview-125204   interview-34041151 interview-591273   interview-8631232\ninterview-125271   interview-342393   interview-5993978  interview-86395001\ninterview-1269181  interview-34359897 interview-60081985 interview-865918\ninterview-1310392  interview-344331   interview-604403   interview-867999\ninterview-13768464 interview-34690644 interview-608607   interview-8700943\ninterview-13889608 interview-347303   interview-6093093  interview-87126591\ninterview-13920860 interview-351963   interview-618764   interview-871877\ninterview-1395414  interview-353218   interview-6203192  interview-879569\ninterview-141030   interview-353467   interview-628618   interview-8819490\ninterview-14153840 interview-354262   interview-63308519 interview-891720\ninterview-144873   interview-3588302  interview-637657   interview-896668\ninterview-14590717 interview-3609204  interview-637928   interview-9004767\ninterview-147283   interview-36398447 interview-638121   interview-901603\ninterview-15187437 interview-364735   interview-6417794  interview-901645\ninterview-15354942 interview-36527398 interview-645385   interview-90394637\ninterview-1536668  interview-376115   interview-6553472  interview-904020\ninterview-155049   interview-37747405 interview-65792229 interview-907126\ninterview-1578206  interview-3804339  interview-659803   interview-9074626\ninterview-159848   interview-3824641  interview-66101490 interview-911451\ninterview-16098538 interview-38299069 interview-66282920 interview-91673757\ninterview-1642421  interview-3871205  interview-6643191  interview-917210\ninterview-1643440  interview-3871242  interview-67279454 interview-9185205\ninterview-16889008 interview-38899905 interview-673985   interview-920304\ninterview-17248453 interview-3917097  interview-676473   interview-92391023\ninterview-17343208 interview-391811   interview-67790846 interview-92670500\ninterview-174898   interview-39481114 interview-680549   interview-927642\ninterview-1767435  interview-39825862 interview-6808205  interview-9332386\ninterview-17827186 interview-40534453 interview-68195573 interview-9346061\ninterview-179719   interview-40610944 interview-68488577 interview-93473333\ninterview-1811770  interview-409731   interview-68764140 interview-93696502\ninterview-18193261 interview-41553314 interview-6884359  interview-938991\ninterview-1823688  interview-416243   interview-6894000  interview-9408565\ninterview-18270219 interview-41814745 interview-69170457 interview-94126412\ninterview-18441251 interview-4204949  interview-6933068  interview-9437737\ninterview-1850922  interview-42161907 interview-699607   interview-944493\ninterview-1857368  interview-4223536  interview-70067280 interview-9446528\ninterview-1906958  interview-4225866  interview-70199425 interview-9501580\ninterview-191206   interview-42396365 interview-703831   interview-95095182\ninterview-19300543 interview-4262657  interview-704443   interview-95601730\ninterview-1933118  interview-42934869 interview-70458099 interview-9618669\ninterview-19577850 interview-4299898  interview-7046684  interview-9620713\ninterview-2058907  interview-4335306  interview-7066082  interview-9651888\ninterview-210355   interview-4366523  interview-706620   interview-9666149\ninterview-218131   interview-44533008 interview-707438   interview-97043057\ninterview-221039   interview-4463090  interview-708943   interview-9709892\ninterview-223913   interview-448086   interview-7103823  interview-9711852\ninterview-2277882  interview-45615686 interview-71186817 interview-9712946\ninterview-229443   interview-457117   interview-71226767 interview-9728756\ninterview-23167806 interview-457451   interview-71298441 interview-97393699\ninterview-2326746  interview-466195   interview-7180973  interview-97409610\ninterview-23371263 interview-4673074  interview-71993338 interview-980963\ninterview-233800   interview-46773428 interview-720268   interview-982013\ninterview-2415821  interview-47246024 interview-7254073  interview-9824821\ninterview-243703   interview-4735823  interview-728181   interview-98912259\ninterview-2481877  interview-4765278  interview-730123   interview-9901455\ninterview-250112   interview-476744   interview-73035802 interview-9912172\ninterview-253705   interview-478217   interview-7305678  interview-992072\ninterview-255531   interview-48088300 interview-73585672 interview-99643550\ninterview-25582311 interview-48148020 interview-737609   interview-9969223\ninterview-25834905 interview-483817   interview-7422077  interview-999372\ninterview-259909   interview-485229   interview-74225310\ninterview-2601508  interview-4950099  interview-7469675\ninterview-26373485 interview-4961376  interview-7541406\n➜  interviews git:(master) ..\n➜  mystery git:(master) ..\n➜  command-line-murder-mystery git:(master) ..\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery\n➜  homeworks git:(master) ✗ mkdir solution.txt\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery solution.txt\n➜  homeworks git:(master) ✗ history\n    1  xcode-select --install\n    2  brew doctor\n    3  brew install git\n    4  ping google.com\n    5  open ~/.ssh/config\n    6  $ evel "$(ssh-agent -s)"\n    7  $ eval "$(ssh-agent -s)"\n> Agent pid 59566\n    8  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n    9  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   10  ~/.ssh/config\n   11  $ touch ~/.ssh/config\n\n   12  Generating public/private rsa key pair\n   13  lmyer12@my.wgu.edu\n–\n$ ssh-keygen -t rsa -b 4096 -Clmyer12@my.wgu.edu\n   14  lmyer12@my.wgu.edu\n   15  $ ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   16  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n   17  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   18  $ ls -al ~/.ssh\n   19  ls -al ~/.ssh\n   20  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   21  /Users/you/.ssh/id_rsa\n   22  sshme\n   23  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   24  eval "$(ssh-agent -s)"\n   25  ~/.ssh/config\n   26  touch ~/.ssh/config\n   27  ~/.ssh/config\n   28  ~/.ssh/id_rsa\n   29  open ~/.ssh/config\n   30  ~/.ssh/id_rsa\n   31  open ~/.ssh/config\n   32  ~/.ssh/config\n   33  touch ~/.ssh/config\n   34  ~/.ssh/config\n   35  ~/.ssh/id_rsa\n   36  ssh-add -K ~/.ssh/id_rsa\n   37  open ~/.ssh/config\n   38  pwd\n   39  ls\n   40  cs Desktop\n   41  cd Desktop\n   42  pwd\n   43  mkdir seir_526\n   44  cd seir_526\n   45  mkdir units\n   46  ls\n   47  mkdir units/unit1\n   48  ls\n   49  pwd\n   50  ls\n   51  cd units\n   52  ls\n   53  touch README.md\n   54  ls\n   55  open .\n   56  ls -l\n   57  ls -la\n   58  man ls\n   59  ls -S\n   60  ls -aS\n   61  pwd\n   62  mkdir unit2\n   63  touch unit2/test.txt\n   64  ls _R\n   65  ls -R\n   66  open unit2\n   67  Some seret message random words random words luke likes this. \n   68  cat unit2/test.txt\n   69  pwd\n   70  ls -R\n   71  cd unit1\n   72  pwd\n   73  rm anotherOne.txt\n   74  ls\n   75  echo " a;sdhf;asdhf"\n   76  touch secondMessage.txt\n   77  echo " This is another secret message Luke ahahahah" >> secondMessage.txt\n   78  cat secondMessage.txt\n   79  echo " some more words" >> secondMessage.txt\n   80  cat secondMessage.txt\n   81  echo "a" >>secondMessage.txt\n   82  cat secondMessage.txt\n   83  echo "z" >> secondMessage.txt\n   84  cat secondMessage.txt\n   85  cat secondMessage.txt | sort\n   86  cat secondMessage.txt | sort > sortedMessage.txt\n   87  ls -l\n   88  cat sortedMessage.txt\n   89  cat sortedMessage.txt | grep "secret"\n   90  cat secondMessage.txt | grep "another"\n   91  history\n   92  clear\n   93  history\n   94  clear\n   95  cd ..\n   96  pwd\n   97  man head\n   98  ls\n   99  cd secondMessage.txt\n  100  cd Documents\n  101  ls\n  102  cd seir526\n  103  cd -seir526\n  104  cd _seir526\n  105  pwd\n  106  cd seir526\n  107  ls\n  108  cd seir526\n  109  cat secondMessage.txt\n  110  cat unit2.txt\n  111  pwd\n  112  cd git-practise\n  113  ls\n  114  pwd\n  115  cd unit1\n  116  ls -S\n  117  ..\n  118  clear\n  119  history\n  120  cd ..\n  121  pwd\n  122  cd git\n  123  cd Documents\n  124  cd Document\n  125  cd Documents\n  126  cd desktop\n  127  ls\n  128  cd seir_526\n  129  ls\n  130  pwd\n  131  ls\n  132  cd Desktop\n  133  ls\n  134  cd seir_526\n  135  ls\n  136  mkdir homeworks\n  137  ls\n  138  cd homeworks\n  139  ls\n  140  cd seir_526\n  141  ..\n  142  ls\n  143  cd seir_526\n  144  ls\n  145  cd homeworks\n  146  https://github.com/sky777666/command-line-murder-mystery.git\n  147  git clone https://github.com/sky777666/command-line-murder-mystery.git\n  148  ls\n  149  cd command-line-murder-mystery\n  150  ls\n  151  cd README.md\n  152  cat README.md\n  153  ls\n  154  ls -al ~/.ssh\n  155  clear\n  156  ~/.ssh/config\n  157  cd desktop\n  158  cd Desktop\n  159  pwd\n  160  ..\n  161  ~/.ssh/config\n  162  $ eval "$(ssh-agent -s)"\n  163  ..\n  164  cd seir-526\n  165  cd seir_526\n  166  ls\n  167  cd units\n  168  ls\n  169  ls -al ~/.ssh\n  170  pbcopy < ~/.ssh/id_rsa.pub\n  171  pwd\n  172  cd homework\n  173  cd homeworks\n  174  ls\n  175  cd seir_526\n  176  cd units\n  177  ls\n  178  cat units\n  179  cat unit1\n  180  cd unit1\n  181  cat unit1\n  182  ls\n  183  ..\n  184  ls\n  185  cats README.md\n  186  ls\n  187  cd README.md\n  188  cd homeworks\n  189  cd homework\n  190  cd seir_526\n  191  pwd\n  192  ..\n  193  ls\n  194  cat\n  195  cat instructions\n  196  pwd\n  197  cd homeworks\n  198  cat instructions\n  199  ls\n  200  cat command-line-murder-mystery\n  201  cd command-line-murder-mystery\n  202  ls\n  203  cd mystery\n  204  ls\n  205  cd crimescene\n  206  cat crimescene\n  207  cat crimescene | grep "clue"\n  208  grep "clue"\n  209  pwd\n  210  cd homework\n  211  cd Desktop\n  212  ls\n  213  cd seir_526\n  214  ls\n  215  cd homeworks\n  216  ls\n  217  cd hint1\n  218  ls\n  219  cat command-line-murder-mystery\n  220  cd command-line-murder-mystery\n  221  ls\n  222  cd mystery\n  223  ls\n  224  cat crimescene | grep "CLUE"\n  225  ls\n  226  cat solution\n  227  cd memberships\n  228  ls\n  229  cd people\n  230  ls\n  231  cd people\n  232  cd hint1\n  233  ls\n  234  ..\n  235  ls\n  236  cd hint1\n  237  cat hint1\n  238  head -n 20 people\n  239  head -n hint1\n  240  grep "CLUE" crimescene\n  241  ls\n  242  cd mystery\n  243  ls\n  244  grep "annabel" people\n  245  ls\n  246  head -n streets/Mattapan_Street | tail -n 1\n  247  cd vehicles\n  248  cd streets\n  249  ls\n  250  grep "Honda"\n  251  pwd\n  252  cd Desktop\n  253  ls\n  254  cd seir_526\n  255  ls\n  256  cd homeworks\n  257  ls\n  258  cd command-line-murder-mystery\n  259  ls\n  260  cd desktop\n  261  ls\n  262  cd seir_526\n  263  ls\n  264  cd homeworks\n  265  ls\n  266  cd command-line-murder-mystery\n  267  ls\n  268  cat solution\n  269  ls\n  270  cd mystery\n  271  ls\n  272  cd interviews\n  273  ls\n  274  grep "annabel"\n  275  cd Desktop\n  276  ls\n  277  cd seir_526\n  278  ls\n  279  cd homeworks\n  280  ls\n  281  cd command-line-murder-mystery\n  282  ls\n  283  cd mystery\n  284  ls\n  285  cd interview\n  286  cd crimescene\n  287  ls\n  288  cd interviews\n  289  ls\n  290  ..\n  291  ls\n  292  grep " blue honda"\n  293  history\n  294  clear history\n  295  history\n  296  ls\n  297  cd Documents\n  298  ls\n  299  cd Desktop\n  300  ls\n  301  cd Desktop\n  302  ls\n  303  cd seir526\n  304  ..\n  305  ls\n  306  cd Desktop\n  307  pwd\n  308  ls\n  309  cd desktop\n  310  history\n  311  ls\n  312  cd Desktop\n  313  ls\n  314  cd seir_526\n  315  ls\n  316  cd homeworks\n  317  ls\n  318  cd command-line-murder-mystery\n  319  ls\n  320  cd mystery\n  321  ls\n  322  cd memberships\n  323  cat Fitness_Galaxy AAA United_MileagePlus | grep "mike bostock"\n  324  ls\n  325  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"\n  326  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  327  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Aron Pilhofer"\n  328  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church"\n  329  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  330  ls\n  331  cat Bash History AAA Delta skymiles | grep -c "Mike Bostock"\n  332  ls\n  333  ..\n  334  ls\n  335  cd vehicles\n  336  cd streets\n  337  ls\n  338  ..\n  339  ls\n  340  cat vehicles\n  341  grep "Mike"\n  342  ls\n  343  cd seir_526\n  344  ls\n  345  cd homeworks\n  346  ls\n  347  cd command-line-murder-mystery\n  348  ls\n  349  cd mystery\n  350  ls\n  351  cd interviews\n  352  ls\n  353  ..\n  354  church\n  355  cd church\n  356  interview-448086\n  357  ..\n  358  ls\n  359  cd mystery\n  360  ls\n  361  cd interviews\n  362  ls\n  363  ..\n  364  ls\n  365  mkdir solution.txt\n  366  ls\n➜  homeworks git:(master) ✗ 
+  372  ls
+  373  ..
+  374  ls
+  375  cd solution.txt
+  376  ls
+  377  >> The Name of the Killer is " Mike Bostock "
+  378  > " The Name of the Killer is Mike Bostock "
+  379  cd Desktop
+  380  ls
+  381  cd seir_526
+  382  ls
+  383  cd homeworks
+  384  ls
+  385  man head
+  386  cd Desktop
+  387  ls
+  388  cd seir_526
+  389  ls
+  390  cd homeworks
+  391  ls
+  392  history
+  393  echo "1  xcode-select --install\n    2  brew doctor\n    3  brew install git\n    4  ping google.com\n    5  open ~/.ssh/config\n    6  $ evel "$(ssh-agent -s)"\n    7  $ eval "$(ssh-agent -s)"\n> Agent pid 59566\n    8  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n    9  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   10  ~/.ssh/config\n   11  $ touch ~/.ssh/config\n\n   12  Generating public/private rsa key pair\n   13  lmyer12@my.wgu.edu\n–\n$ ssh-keygen -t rsa -b 4096 -Clmyer12@my.wgu.edu\n   14  lmyer12@my.wgu.edu\n   15  $ ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   16  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n   17  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   18  $ ls -al ~/.ssh\n   19  ls -al ~/.ssh\n   20  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   21  /Users/you/.ssh/id_rsa\n   22  sshme\n   23  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   24  eval "$(ssh-agent -s)"\n   25  ~/.ssh/config\n   26  touch ~/.ssh/config\n   27  ~/.ssh/config\n   28  ~/.ssh/id_rsa\n   29  open ~/.ssh/config\n   30  ~/.ssh/id_rsa\n   31  open ~/.ssh/config\n   32  ~/.ssh/config\n   33  touch ~/.ssh/config\n   34  ~/.ssh/config\n   35  ~/.ssh/id_rsa\n   36  ssh-add -K ~/.ssh/id_rsa\n   37  open ~/.ssh/config\n   38  pwd\n   39  ls\n   40  cs Desktop\n   41  cd Desktop\n   42  pwd\n   43  mkdir seir_526\n   44  cd seir_526\n   45  mkdir units\n   46  ls\n   47  mkdir units/unit1\n   48  ls\n   49  pwd\n   50  ls\n   51  cd units\n   52  ls\n   53  touch README.md\n   54  ls\n   55  open .\n   56  ls -l\n   57  ls -la\n   58  man ls\n   59  ls -S\n   60  ls -aS\n   61  pwd\n   62  mkdir unit2\n   63  touch unit2/test.txt\n   64  ls _R\n   65  ls -R\n   66  open unit2\n   67  Some seret message random words random words luke likes this. \n   68  cat unit2/test.txt\n   69  pwd\n   70  ls -R\n   71  cd unit1\n   72  pwd\n   73  rm anotherOne.txt\n   74  ls\n   75  echo " a;sdhf;asdhf"\n   76  touch secondMessage.txt\n   77  echo " This is another secret message Luke ahahahah" >> secondMessage.txt\n   78  cat secondMessage.txt\n   79  echo " some more words" >> secondMessage.txt\n   80  cat secondMessage.txt\n   81  echo "a" >>secondMessage.txt\n   82  cat secondMessage.txt\n   83  echo "z" >> secondMessage.txt\n   84  cat secondMessage.txt\n   85  cat secondMessage.txt | sort\n   86  cat secondMessage.txt | sort > sortedMessage.txt\n   87  ls -l\n   88  cat sortedMessage.txt\n   89  cat sortedMessage.txt | grep "secret"\n   90  cat secondMessage.txt | grep "another"\n   91  history\n   92  clear\n   93  history\n   94  clear\n   95  cd ..\n   96  pwd\n   97  man head\n   98  ls\n   99  cd secondMessage.txt\n  100  cd Documents\n  101  ls\n  102  cd seir526\n  103  cd -seir526\n  104  cd _seir526\n  105  pwd\n  106  cd seir526\n  107  ls\n  108  cd seir526\n  109  cat secondMessage.txt\n  110  cat unit2.txt\n  111  pwd\n  112  cd git-practise\n  113  ls\n  114  pwd\n  115  cd unit1\n  116  ls -S\n  117  ..\n  118  clear\n  119  history\n  120  cd ..\n  121  pwd\n  122  cd git\n  123  cd Documents\n  124  cd Document\n  125  cd Documents\n  126  cd desktop\n  127  ls\n  128  cd seir_526\n  129  ls\n  130  pwd\n  131  ls\n  132  cd Desktop\n  133  ls\n  134  cd seir_526\n  135  ls\n  136  mkdir homeworks\n  137  ls\n  138  cd homeworks\n  139  ls\n  140  cd seir_526\n  141  ..\n  142  ls\n  143  cd seir_526\n  144  ls\n  145  cd homeworks\n  146  https://github.com/sky777666/command-line-murder-mystery.git\n  147  git clone https://github.com/sky777666/command-line-murder-mystery.git\n  148  ls\n  149  cd command-line-murder-mystery\n  150  ls\n  151  cd README.md\n  152  cat README.md\n  153  ls\n  154  ls -al ~/.ssh\n  155  clear\n  156  ~/.ssh/config\n  157  cd desktop\n  158  cd Desktop\n  159  pwd\n  160  ..\n  161  ~/.ssh/config\n  162  $ eval "$(ssh-agent -s)"\n  163  ..\n  164  cd seir-526\n  165  cd seir_526\n  166  ls\n  167  cd units\n  168  ls\n  169  ls -al ~/.ssh\n  170  pbcopy < ~/.ssh/id_rsa.pub\n  171  pwd\n  172  cd homework\n  173  cd homeworks\n  174  ls\n  175  cd seir_526\n  176  cd units\n  177  ls\n  178  cat units\n  179  cat unit1\n  180  cd unit1\n  181  cat unit1\n  182  ls\n  183  ..\n  184  ls\n  185  cats README.md\n  186  ls\n  187  cd README.md\n  188  cd homeworks\n  189  cd homework\n  190  cd seir_526\n  191  pwd\n  192  ..\n  193  ls\n  194  cat\n  195  cat instructions\n  196  pwd\n  197  cd homeworks\n  198  cat instructions\n  199  ls\n  200  cat command-line-murder-mystery\n  201  cd command-line-murder-mystery\n  202  ls\n  203  cd mystery\n  204  ls\n  205  cd crimescene\n  206  cat crimescene\n  207  cat crimescene | grep "clue"\n  208  grep "clue"\n  209  pwd\n  210  cd homework\n  211  cd Desktop\n  212  ls\n  213  cd seir_526\n  214  ls\n  215  cd homeworks\n  216  ls\n  217  cd hint1\n  218  ls\n  219  cat command-line-murder-mystery\n  220  cd command-line-murder-mystery\n  221  ls\n  222  cd mystery\n  223  ls\n  224  cat crimescene | grep "CLUE"\n  225  ls\n  226  cat solution\n  227  cd memberships\n  228  ls\n  229  cd people\n  230  ls\n  231  cd people\n  232  cd hint1\n  233  ls\n  234  ..\n  235  ls\n  236  cd hint1\n  237  cat hint1\n  238  head -n 20 people\n  239  head -n hint1\n  240  grep "CLUE" crimescene\n  241  ls\n  242  cd mystery\n  243  ls\n  244  grep "annabel" people\n  245  ls\n  246  head -n streets/Mattapan_Street | tail -n 1\n  247  cd vehicles\n  248  cd streets\n  249  ls\n  250  grep "Honda"\n  251  pwd\n  252  cd Desktop\n  253  ls\n  254  cd seir_526\n  255  ls\n  256  cd homeworks\n  257  ls\n  258  cd command-line-murder-mystery\n  259  ls\n  260  cd desktop\n  261  ls\n  262  cd seir_526\n  263  ls\n  264  cd homeworks\n  265  ls\n  266  cd command-line-murder-mystery\n  267  ls\n  268  cat solution\n  269  ls\n  270  cd mystery\n  271  ls\n  272  cd interviews\n  273  ls\n  274  grep "annabel"\n  275  cd Desktop\n  276  ls\n  277  cd seir_526\n  278  ls\n  279  cd homeworks\n  280  ls\n  281  cd command-line-murder-mystery\n  282  ls\n  283  cd mystery\n  284  ls\n  285  cd interview\n  286  cd crimescene\n  287  ls\n  288  cd interviews\n  289  ls\n  290  ..\n  291  ls\n  292  grep " blue honda"\n  293  history\n  294  clear history\n  295  history\n  296  ls\n  297  cd Documents\n  298  ls\n  299  cd Desktop\n  300  ls\n  301  cd Desktop\n  302  ls\n  303  cd seir526\n  304  ..\n  305  ls\n  306  cd Desktop\n  307  pwd\n  308  ls\n  309  cd desktop\n  310  history\n  311  ls\n  312  cd Desktop\n  313  ls\n  314  cd seir_526\n  315  ls\n  316  cd homeworks\n  317  ls\n  318  cd command-line-murder-mystery\n  319  ls\n  320  cd mystery\n  321  ls\n  322  cd memberships\n  323  cat Fitness_Galaxy AAA United_MileagePlus | grep "mike bostock"\n  324  ls\n  325  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"\n  326  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  327  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Aron Pilhofer"\n  328  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church"\n  329  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  330  ls\n  331  cat Bash History AAA Delta skymiles | grep -c "Mike Bostock"\n  332  ls\n  333  ..\n  334  ls\n  335  cd vehicles\n  336  cd streets\n  337  ls\n  338  ..\n  339  ls\n  340  cat vehicles\n  341  grep "Mike"\n  342  ls\n  343  cd seir_526\n  344  ls\n  345  cd homeworks\n  346  ls\n  347  cd command-line-murder-mystery\n  348  ls\n  349  cd mystery\n  350  ls\n  351  cd interviews\n  352  ls\n  353  ..\n  354  church\n  355  cd church\n  356  interview-448086\n  357  ..\n  358  ls\n  359  cd mystery\n  360  ls\n  361  cd interviews\n  362  ls\n  363  ..\n  364  ls\n  365  mkdir solution.txt\n  366  ls\n  367  history\n  368  ls\n  369  cd solution.txt\n  370  ls\n  371  > Last login: Tue May 26 19:05:13 on ttys000\n➜  ~ git:(master) ✗ ls\nAgent                      Music\nAndroidStudioProjects      Pictures\nApplications               Public\nDesktop                    PycharmProjects\nDocuments                  WorkSpace Coder\nDownloads                  app.css\nHTML and CSS Love App.html app.js\nJavaScript.JavaScript.js   git-practice\nLibrary                    index.html\nLove app.js                myfolder\nMovies                     seir526\n➜  ~ git:(master) ✗  cd Desktop\n➜  Desktop git:(master) ✗ ls\nAS Degree Luke (1).pdf Important Document     seir_526\n➜  Desktop git:(master) ✗ cd seir_526\n➜  seir_526 git:(master) ✗ ls\nhomeworks units\n➜  seir_526 git:(master) ✗ cd homeworks\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery\n➜  homeworks git:(master) ✗ cd command-line-murder-mystery\n➜  command-line-murder-mystery git:(master) ls\nLICENSE        cheatsheet.md  hint2          hint5          hint8\nLICENSE.txt    cheatsheet.pdf hint3          hint6          instructions\nREADME.md      hint1          hint4          hint7          mystery\n➜  command-line-murder-mystery git:(master) cd mystery\n➜  mystery git:(master) ls\ncrimescene  interviews  memberships people      streets     vehicles\n➜  mystery git:(master) cd interviews\n➜  interviews git:(master) ls\ninterview-000296   interview-2642139  interview-496772   interview-75434722\ninterview-00448418 interview-27042476 interview-498331   interview-755037\ninterview-00502304 interview-27504937 interview-499096   interview-75633580\ninterview-005702   interview-275706   interview-50168425 interview-7580872\ninterview-00617019 interview-279087   interview-50291987 interview-77014856\ninterview-00805135 interview-280877   interview-504687   interview-770439\ninterview-016463   interview-2834518  interview-509105   interview-77135281\ninterview-020337   interview-284560   interview-5143029  interview-7791374\ninterview-022751   interview-2846076  interview-514793   interview-780255\ninterview-0234126  interview-289524   interview-52280505 interview-7863761\ninterview-02422821 interview-290346   interview-528044   interview-789564\ninterview-0251720  interview-291440   interview-529706   interview-791289\ninterview-03098229 interview-2922290  interview-53318557 interview-79360358\ninterview-0315125  interview-29316965 interview-535181   interview-79411932\ninterview-03316077 interview-2939888  interview-5372865  interview-794525\ninterview-034070   interview-296128   interview-538900   interview-7959148\ninterview-0349327  interview-29680692 interview-54026669 interview-796439\ninterview-04393507 interview-29741223 interview-541518   interview-79667499\ninterview-044492   interview-2976680  interview-5455315  interview-79935965\ninterview-0462097  interview-29838622 interview-54619323 interview-7998181\ninterview-049721   interview-2995681  interview-54851634 interview-8095917\ninterview-05297663 interview-301018   interview-549055   interview-809922\ninterview-06032377 interview-30259493 interview-55382746 interview-812725\ninterview-0613334  interview-3049045  interview-55410365 interview-81443363\ninterview-066291   interview-305694   interview-55435298 interview-822576\ninterview-071537   interview-305949   interview-55477243 interview-8245680\ninterview-0732631  interview-306616   interview-555536   interview-825165\ninterview-07497003 interview-3074127  interview-5581158  interview-82705993\ninterview-0768255  interview-3099757  interview-55841398 interview-831512\ninterview-092423   interview-312546   interview-55984022 interview-833367\ninterview-0953437  interview-3128999  interview-565396   interview-838259\ninterview-096267   interview-3140662  interview-566707   interview-8387710\ninterview-102490   interview-31635890 interview-56784802 interview-8402388\ninterview-109118   interview-3201508  interview-56892213 interview-8421696\ninterview-1108561  interview-322305   interview-57236791 interview-8464899\ninterview-114661   interview-32365018 interview-5739404  interview-84688694\ninterview-11495001 interview-324389   interview-5766907  interview-849256\ninterview-116803   interview-325611   interview-5774468  interview-85262552\ninterview-11705111 interview-32639981 interview-5782759  interview-8531248\ninterview-11783660 interview-32712166 interview-579105   interview-856221\ninterview-11817172 interview-331178   interview-5835471  interview-8586380\ninterview-1186827  interview-332596   interview-586668   interview-861780\ninterview-1205060  interview-33399976 interview-58910793 interview-862173\ninterview-1250176  interview-340396   interview-5905106  interview-862717\ninterview-125204   interview-34041151 interview-591273   interview-8631232\ninterview-125271   interview-342393   interview-5993978  interview-86395001\ninterview-1269181  interview-34359897 interview-60081985 interview-865918\ninterview-1310392  interview-344331   interview-604403   interview-867999\ninterview-13768464 interview-34690644 interview-608607   interview-8700943\ninterview-13889608 interview-347303   interview-6093093  interview-87126591\ninterview-13920860 interview-351963   interview-618764   interview-871877\ninterview-1395414  interview-353218   interview-6203192  interview-879569\ninterview-141030   interview-353467   interview-628618   interview-8819490\ninterview-14153840 interview-354262   interview-63308519 interview-891720\ninterview-144873   interview-3588302  interview-637657   interview-896668\ninterview-14590717 interview-3609204  interview-637928   interview-9004767\ninterview-147283   interview-36398447 interview-638121   interview-901603\ninterview-15187437 interview-364735   interview-6417794  interview-901645\ninterview-15354942 interview-36527398 interview-645385   interview-90394637\ninterview-1536668  interview-376115   interview-6553472  interview-904020\ninterview-155049   interview-37747405 interview-65792229 interview-907126\ninterview-1578206  interview-3804339  interview-659803   interview-9074626\ninterview-159848   interview-3824641  interview-66101490 interview-911451\ninterview-16098538 interview-38299069 interview-66282920 interview-91673757\ninterview-1642421  interview-3871205  interview-6643191  interview-917210\ninterview-1643440  interview-3871242  interview-67279454 interview-9185205\ninterview-16889008 interview-38899905 interview-673985   interview-920304\ninterview-17248453 interview-3917097  interview-676473   interview-92391023\ninterview-17343208 interview-391811   interview-67790846 interview-92670500\ninterview-174898   interview-39481114 interview-680549   interview-927642\ninterview-1767435  interview-39825862 interview-6808205  interview-9332386\ninterview-17827186 interview-40534453 interview-68195573 interview-9346061\ninterview-179719   interview-40610944 interview-68488577 interview-93473333\ninterview-1811770  interview-409731   interview-68764140 interview-93696502\ninterview-18193261 interview-41553314 interview-6884359  interview-938991\ninterview-1823688  interview-416243   interview-6894000  interview-9408565\ninterview-18270219 interview-41814745 interview-69170457 interview-94126412\ninterview-18441251 interview-4204949  interview-6933068  interview-9437737\ninterview-1850922  interview-42161907 interview-699607   interview-944493\ninterview-1857368  interview-4223536  interview-70067280 interview-9446528\ninterview-1906958  interview-4225866  interview-70199425 interview-9501580\ninterview-191206   interview-42396365 interview-703831   interview-95095182\ninterview-19300543 interview-4262657  interview-704443   interview-95601730\ninterview-1933118  interview-42934869 interview-70458099 interview-9618669\ninterview-19577850 interview-4299898  interview-7046684  interview-9620713\ninterview-2058907  interview-4335306  interview-7066082  interview-9651888\ninterview-210355   interview-4366523  interview-706620   interview-9666149\ninterview-218131   interview-44533008 interview-707438   interview-97043057\ninterview-221039   interview-4463090  interview-708943   interview-9709892\ninterview-223913   interview-448086   interview-7103823  interview-9711852\ninterview-2277882  interview-45615686 interview-71186817 interview-9712946\ninterview-229443   interview-457117   interview-71226767 interview-9728756\ninterview-23167806 interview-457451   interview-71298441 interview-97393699\ninterview-2326746  interview-466195   interview-7180973  interview-97409610\ninterview-23371263 interview-4673074  interview-71993338 interview-980963\ninterview-233800   interview-46773428 interview-720268   interview-982013\ninterview-2415821  interview-47246024 interview-7254073  interview-9824821\ninterview-243703   interview-4735823  interview-728181   interview-98912259\ninterview-2481877  interview-4765278  interview-730123   interview-9901455\ninterview-250112   interview-476744   interview-73035802 interview-9912172\ninterview-253705   interview-478217   interview-7305678  interview-992072\ninterview-255531   interview-48088300 interview-73585672 interview-99643550\ninterview-25582311 interview-48148020 interview-737609   interview-9969223\ninterview-25834905 interview-483817   interview-7422077  interview-999372\ninterview-259909   interview-485229   interview-74225310\ninterview-2601508  interview-4950099  interview-7469675\ninterview-26373485 interview-4961376  interview-7541406\n➜  interviews git:(master) ..\n➜  mystery git:(master) church\nzsh: command not found: church\n➜  mystery git:(master) cd church\ncd: no such file or directory: church\n➜  mystery git:(master) interview-448086\nzsh: command not found: interview-448086\n➜  mystery git:(master) ..  \n➜  command-line-murder-mystery git:(master) ls\nLICENSE        cheatsheet.md  hint2          hint5          hint8\nLICENSE.txt    cheatsheet.pdf hint3          hint6          instructions\nREADME.md      hint1          hint4          hint7          mystery\n➜  command-line-murder-mystery git:(master) cd mystery\n➜  mystery git:(master) ls\ncrimescene  interviews  memberships people      streets     vehicles\n➜  mystery git:(master) cd interviews\n➜  interviews git:(master) ls    \ninterview-000296   interview-2642139  interview-496772   interview-75434722\ninterview-00448418 interview-27042476 interview-498331   interview-755037\ninterview-00502304 interview-27504937 interview-499096   interview-75633580\ninterview-005702   interview-275706   interview-50168425 interview-7580872\ninterview-00617019 interview-279087   interview-50291987 interview-77014856\ninterview-00805135 interview-280877   interview-504687   interview-770439\ninterview-016463   interview-2834518  interview-509105   interview-77135281\ninterview-020337   interview-284560   interview-5143029  interview-7791374\ninterview-022751   interview-2846076  interview-514793   interview-780255\ninterview-0234126  interview-289524   interview-52280505 interview-7863761\ninterview-02422821 interview-290346   interview-528044   interview-789564\ninterview-0251720  interview-291440   interview-529706   interview-791289\ninterview-03098229 interview-2922290  interview-53318557 interview-79360358\ninterview-0315125  interview-29316965 interview-535181   interview-79411932\ninterview-03316077 interview-2939888  interview-5372865  interview-794525\ninterview-034070   interview-296128   interview-538900   interview-7959148\ninterview-0349327  interview-29680692 interview-54026669 interview-796439\ninterview-04393507 interview-29741223 interview-541518   interview-79667499\ninterview-044492   interview-2976680  interview-5455315  interview-79935965\ninterview-0462097  interview-29838622 interview-54619323 interview-7998181\ninterview-049721   interview-2995681  interview-54851634 interview-8095917\ninterview-05297663 interview-301018   interview-549055   interview-809922\ninterview-06032377 interview-30259493 interview-55382746 interview-812725\ninterview-0613334  interview-3049045  interview-55410365 interview-81443363\ninterview-066291   interview-305694   interview-55435298 interview-822576\ninterview-071537   interview-305949   interview-55477243 interview-8245680\ninterview-0732631  interview-306616   interview-555536   interview-825165\ninterview-07497003 interview-3074127  interview-5581158  interview-82705993\ninterview-0768255  interview-3099757  interview-55841398 interview-831512\ninterview-092423   interview-312546   interview-55984022 interview-833367\ninterview-0953437  interview-3128999  interview-565396   interview-838259\ninterview-096267   interview-3140662  interview-566707   interview-8387710\ninterview-102490   interview-31635890 interview-56784802 interview-8402388\ninterview-109118   interview-3201508  interview-56892213 interview-8421696\ninterview-1108561  interview-322305   interview-57236791 interview-8464899\ninterview-114661   interview-32365018 interview-5739404  interview-84688694\ninterview-11495001 interview-324389   interview-5766907  interview-849256\ninterview-116803   interview-325611   interview-5774468  interview-85262552\ninterview-11705111 interview-32639981 interview-5782759  interview-8531248\ninterview-11783660 interview-32712166 interview-579105   interview-856221\ninterview-11817172 interview-331178   interview-5835471  interview-8586380\ninterview-1186827  interview-332596   interview-586668   interview-861780\ninterview-1205060  interview-33399976 interview-58910793 interview-862173\ninterview-1250176  interview-340396   interview-5905106  interview-862717\ninterview-125204   interview-34041151 interview-591273   interview-8631232\ninterview-125271   interview-342393   interview-5993978  interview-86395001\ninterview-1269181  interview-34359897 interview-60081985 interview-865918\ninterview-1310392  interview-344331   interview-604403   interview-867999\ninterview-13768464 interview-34690644 interview-608607   interview-8700943\ninterview-13889608 interview-347303   interview-6093093  interview-87126591\ninterview-13920860 interview-351963   interview-618764   interview-871877\ninterview-1395414  interview-353218   interview-6203192  interview-879569\ninterview-141030   interview-353467   interview-628618   interview-8819490\ninterview-14153840 interview-354262   interview-63308519 interview-891720\ninterview-144873   interview-3588302  interview-637657   interview-896668\ninterview-14590717 interview-3609204  interview-637928   interview-9004767\ninterview-147283   interview-36398447 interview-638121   interview-901603\ninterview-15187437 interview-364735   interview-6417794  interview-901645\ninterview-15354942 interview-36527398 interview-645385   interview-90394637\ninterview-1536668  interview-376115   interview-6553472  interview-904020\ninterview-155049   interview-37747405 interview-65792229 interview-907126\ninterview-1578206  interview-3804339  interview-659803   interview-9074626\ninterview-159848   interview-3824641  interview-66101490 interview-911451\ninterview-16098538 interview-38299069 interview-66282920 interview-91673757\ninterview-1642421  interview-3871205  interview-6643191  interview-917210\ninterview-1643440  interview-3871242  interview-67279454 interview-9185205\ninterview-16889008 interview-38899905 interview-673985   interview-920304\ninterview-17248453 interview-3917097  interview-676473   interview-92391023\ninterview-17343208 interview-391811   interview-67790846 interview-92670500\ninterview-174898   interview-39481114 interview-680549   interview-927642\ninterview-1767435  interview-39825862 interview-6808205  interview-9332386\ninterview-17827186 interview-40534453 interview-68195573 interview-9346061\ninterview-179719   interview-40610944 interview-68488577 interview-93473333\ninterview-1811770  interview-409731   interview-68764140 interview-93696502\ninterview-18193261 interview-41553314 interview-6884359  interview-938991\ninterview-1823688  interview-416243   interview-6894000  interview-9408565\ninterview-18270219 interview-41814745 interview-69170457 interview-94126412\ninterview-18441251 interview-4204949  interview-6933068  interview-9437737\ninterview-1850922  interview-42161907 interview-699607   interview-944493\ninterview-1857368  interview-4223536  interview-70067280 interview-9446528\ninterview-1906958  interview-4225866  interview-70199425 interview-9501580\ninterview-191206   interview-42396365 interview-703831   interview-95095182\ninterview-19300543 interview-4262657  interview-704443   interview-95601730\ninterview-1933118  interview-42934869 interview-70458099 interview-9618669\ninterview-19577850 interview-4299898  interview-7046684  interview-9620713\ninterview-2058907  interview-4335306  interview-7066082  interview-9651888\ninterview-210355   interview-4366523  interview-706620   interview-9666149\ninterview-218131   interview-44533008 interview-707438   interview-97043057\ninterview-221039   interview-4463090  interview-708943   interview-9709892\ninterview-223913   interview-448086   interview-7103823  interview-9711852\ninterview-2277882  interview-45615686 interview-71186817 interview-9712946\ninterview-229443   interview-457117   interview-71226767 interview-9728756\ninterview-23167806 interview-457451   interview-71298441 interview-97393699\ninterview-2326746  interview-466195   interview-7180973  interview-97409610\ninterview-23371263 interview-4673074  interview-71993338 interview-980963\ninterview-233800   interview-46773428 interview-720268   interview-982013\ninterview-2415821  interview-47246024 interview-7254073  interview-9824821\ninterview-243703   interview-4735823  interview-728181   interview-98912259\ninterview-2481877  interview-4765278  interview-730123   interview-9901455\ninterview-250112   interview-476744   interview-73035802 interview-9912172\ninterview-253705   interview-478217   interview-7305678  interview-992072\ninterview-255531   interview-48088300 interview-73585672 interview-99643550\ninterview-25582311 interview-48148020 interview-737609   interview-9969223\ninterview-25834905 interview-483817   interview-7422077  interview-999372\ninterview-259909   interview-485229   interview-74225310\ninterview-2601508  interview-4950099  interview-7469675\ninterview-26373485 interview-4961376  interview-7541406\n➜  interviews git:(master) ..\n➜  mystery git:(master) ..\n➜  command-line-murder-mystery git:(master) ..\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery\n➜  homeworks git:(master) ✗ mkdir solution.txt\n➜  homeworks git:(master) ✗ ls\ncommand-line-murder-mystery solution.txt\n➜  homeworks git:(master) ✗ history\n    1  xcode-select --install\n    2  brew doctor\n    3  brew install git\n    4  ping google.com\n    5  open ~/.ssh/config\n    6  $ evel "$(ssh-agent -s)"\n    7  $ eval "$(ssh-agent -s)"\n> Agent pid 59566\n    8  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n    9  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   10  ~/.ssh/config\n   11  $ touch ~/.ssh/config\n\n   12  Generating public/private rsa key pair\n   13  lmyer12@my.wgu.edu\n–\n$ ssh-keygen -t rsa -b 4096 -Clmyer12@my.wgu.edu\n   14  lmyer12@my.wgu.edu\n   15  $ ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   16  $ ssh-keygen -t rsa -b 4096 -C sky777666@yahoo.com\n   17  $ ssh-keygen -t rsa -b 4096 -C "sky777666@yahoo.com"\n   18  $ ls -al ~/.ssh\n   19  ls -al ~/.ssh\n   20  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   21  /Users/you/.ssh/id_rsa\n   22  sshme\n   23  ssh-keygen -t rsa -b 4096 -C "lmyer12@my.wgu.edu"\n   24  eval "$(ssh-agent -s)"\n   25  ~/.ssh/config\n   26  touch ~/.ssh/config\n   27  ~/.ssh/config\n   28  ~/.ssh/id_rsa\n   29  open ~/.ssh/config\n   30  ~/.ssh/id_rsa\n   31  open ~/.ssh/config\n   32  ~/.ssh/config\n   33  touch ~/.ssh/config\n   34  ~/.ssh/config\n   35  ~/.ssh/id_rsa\n   36  ssh-add -K ~/.ssh/id_rsa\n   37  open ~/.ssh/config\n   38  pwd\n   39  ls\n   40  cs Desktop\n   41  cd Desktop\n   42  pwd\n   43  mkdir seir_526\n   44  cd seir_526\n   45  mkdir units\n   46  ls\n   47  mkdir units/unit1\n   48  ls\n   49  pwd\n   50  ls\n   51  cd units\n   52  ls\n   53  touch README.md\n   54  ls\n   55  open .\n   56  ls -l\n   57  ls -la\n   58  man ls\n   59  ls -S\n   60  ls -aS\n   61  pwd\n   62  mkdir unit2\n   63  touch unit2/test.txt\n   64  ls _R\n   65  ls -R\n   66  open unit2\n   67  Some seret message random words random words luke likes this. \n   68  cat unit2/test.txt\n   69  pwd\n   70  ls -R\n   71  cd unit1\n   72  pwd\n   73  rm anotherOne.txt\n   74  ls\n   75  echo " a;sdhf;asdhf"\n   76  touch secondMessage.txt\n   77  echo " This is another secret message Luke ahahahah" >> secondMessage.txt\n   78  cat secondMessage.txt\n   79  echo " some more words" >> secondMessage.txt\n   80  cat secondMessage.txt\n   81  echo "a" >>secondMessage.txt\n   82  cat secondMessage.txt\n   83  echo "z" >> secondMessage.txt\n   84  cat secondMessage.txt\n   85  cat secondMessage.txt | sort\n   86  cat secondMessage.txt | sort > sortedMessage.txt\n   87  ls -l\n   88  cat sortedMessage.txt\n   89  cat sortedMessage.txt | grep "secret"\n   90  cat secondMessage.txt | grep "another"\n   91  history\n   92  clear\n   93  history\n   94  clear\n   95  cd ..\n   96  pwd\n   97  man head\n   98  ls\n   99  cd secondMessage.txt\n  100  cd Documents\n  101  ls\n  102  cd seir526\n  103  cd -seir526\n  104  cd _seir526\n  105  pwd\n  106  cd seir526\n  107  ls\n  108  cd seir526\n  109  cat secondMessage.txt\n  110  cat unit2.txt\n  111  pwd\n  112  cd git-practise\n  113  ls\n  114  pwd\n  115  cd unit1\n  116  ls -S\n  117  ..\n  118  clear\n  119  history\n  120  cd ..\n  121  pwd\n  122  cd git\n  123  cd Documents\n  124  cd Document\n  125  cd Documents\n  126  cd desktop\n  127  ls\n  128  cd seir_526\n  129  ls\n  130  pwd\n  131  ls\n  132  cd Desktop\n  133  ls\n  134  cd seir_526\n  135  ls\n  136  mkdir homeworks\n  137  ls\n  138  cd homeworks\n  139  ls\n  140  cd seir_526\n  141  ..\n  142  ls\n  143  cd seir_526\n  144  ls\n  145  cd homeworks\n  146  https://github.com/sky777666/command-line-murder-mystery.git\n  147  git clone https://github.com/sky777666/command-line-murder-mystery.git\n  148  ls\n  149  cd command-line-murder-mystery\n  150  ls\n  151  cd README.md\n  152  cat README.md\n  153  ls\n  154  ls -al ~/.ssh\n  155  clear\n  156  ~/.ssh/config\n  157  cd desktop\n  158  cd Desktop\n  159  pwd\n  160  ..\n  161  ~/.ssh/config\n  162  $ eval "$(ssh-agent -s)"\n  163  ..\n  164  cd seir-526\n  165  cd seir_526\n  166  ls\n  167  cd units\n  168  ls\n  169  ls -al ~/.ssh\n  170  pbcopy < ~/.ssh/id_rsa.pub\n  171  pwd\n  172  cd homework\n  173  cd homeworks\n  174  ls\n  175  cd seir_526\n  176  cd units\n  177  ls\n  178  cat units\n  179  cat unit1\n  180  cd unit1\n  181  cat unit1\n  182  ls\n  183  ..\n  184  ls\n  185  cats README.md\n  186  ls\n  187  cd README.md\n  188  cd homeworks\n  189  cd homework\n  190  cd seir_526\n  191  pwd\n  192  ..\n  193  ls\n  194  cat\n  195  cat instructions\n  196  pwd\n  197  cd homeworks\n  198  cat instructions\n  199  ls\n  200  cat command-line-murder-mystery\n  201  cd command-line-murder-mystery\n  202  ls\n  203  cd mystery\n  204  ls\n  205  cd crimescene\n  206  cat crimescene\n  207  cat crimescene | grep "clue"\n  208  grep "clue"\n  209  pwd\n  210  cd homework\n  211  cd Desktop\n  212  ls\n  213  cd seir_526\n  214  ls\n  215  cd homeworks\n  216  ls\n  217  cd hint1\n  218  ls\n  219  cat command-line-murder-mystery\n  220  cd command-line-murder-mystery\n  221  ls\n  222  cd mystery\n  223  ls\n  224  cat crimescene | grep "CLUE"\n  225  ls\n  226  cat solution\n  227  cd memberships\n  228  ls\n  229  cd people\n  230  ls\n  231  cd people\n  232  cd hint1\n  233  ls\n  234  ..\n  235  ls\n  236  cd hint1\n  237  cat hint1\n  238  head -n 20 people\n  239  head -n hint1\n  240  grep "CLUE" crimescene\n  241  ls\n  242  cd mystery\n  243  ls\n  244  grep "annabel" people\n  245  ls\n  246  head -n streets/Mattapan_Street | tail -n 1\n  247  cd vehicles\n  248  cd streets\n  249  ls\n  250  grep "Honda"\n  251  pwd\n  252  cd Desktop\n  253  ls\n  254  cd seir_526\n  255  ls\n  256  cd homeworks\n  257  ls\n  258  cd command-line-murder-mystery\n  259  ls\n  260  cd desktop\n  261  ls\n  262  cd seir_526\n  263  ls\n  264  cd homeworks\n  265  ls\n  266  cd command-line-murder-mystery\n  267  ls\n  268  cat solution\n  269  ls\n  270  cd mystery\n  271  ls\n  272  cd interviews\n  273  ls\n  274  grep "annabel"\n  275  cd Desktop\n  276  ls\n  277  cd seir_526\n  278  ls\n  279  cd homeworks\n  280  ls\n  281  cd command-line-murder-mystery\n  282  ls\n  283  cd mystery\n  284  ls\n  285  cd interview\n  286  cd crimescene\n  287  ls\n  288  cd interviews\n  289  ls\n  290  ..\n  291  ls\n  292  grep " blue honda"\n  293  history\n  294  clear history\n  295  history\n  296  ls\n  297  cd Documents\n  298  ls\n  299  cd Desktop\n  300  ls\n  301  cd Desktop\n  302  ls\n  303  cd seir526\n  304  ..\n  305  ls\n  306  cd Desktop\n  307  pwd\n  308  ls\n  309  cd desktop\n  310  history\n  311  ls\n  312  cd Desktop\n  313  ls\n  314  cd seir_526\n  315  ls\n  316  cd homeworks\n  317  ls\n  318  cd command-line-murder-mystery\n  319  ls\n  320  cd mystery\n  321  ls\n  322  cd memberships\n  323  cat Fitness_Galaxy AAA United_MileagePlus | grep "mike bostock"\n  324  ls\n  325  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"\n  326  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  327  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Aron Pilhofer"\n  328  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church"\n  329  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"\n  330  ls\n  331  cat Bash History AAA Delta skymiles | grep -c "Mike Bostock"\n  332  ls\n  333  ..\n  334  ls\n  335  cd vehicles\n  336  cd streets\n  337  ls\n  338  ..\n  339  ls\n  340  cat vehicles\n  341  grep "Mike"\n  342  ls\n  343  cd seir_526\n  344  ls\n  345  cd homeworks\n  346  ls\n  347  cd command-line-murder-mystery\n  348  ls\n  349  cd mystery\n  350  ls\n  351  cd interviews\n  352  ls\n  353  ..\n  354  church\n  355  cd church\n  356  interview-448086\n  357  ..\n  358  ls\n  359  cd mystery\n  360  ls\n  361  cd interviews\n  362  ls\n  363  ..\n  364  ls\n  365  mkdir solution.txt\n  366  ls\n➜  homeworks git:(master) ✗ \n  372  ls\n  373  ..\n  374  ls\n  375  cd solution.txt\n  376  ls\n  377  >> The Name of the Killer is " Mike Bostock "\n  378  > " The Name of the Killer is Mike Bostock "\n  379  cd Desktop\n  380  ls\n  381  cd seir_526\n  382  ls\n  383  cd homeworks\n  384  ls\n  385  man head\n  386  cd Desktop\n  387  ls\n  388  cd seir_526\n  389  ls\n  390  cd homeworks\n  391  ls\n➜  homeworks git:(master) ✗ \n "  >> solution.txt
+  394  ls
+  395  cd command-line-murder-mystery
+  396  ls
+  397  cd mystery
+  398  ls
+  399  cd membership
+  400  grep "AAA  Museum_of_Bash_History"
+  401  history
+  402  echo " This is another secret message Luke ahahahah" >> secondMessage.txt
+  403  pwd
+  404  cd Desktop
+  405  ls
+  406  cd seir_526
+  407  ls
+  408  cd homeworks
+  409  ls
+  410  open solution.txt
+  411  ls
+  412  open history.txt
+  413  ls
+  414  cd solution.txt
+  415  ls
+  416  history
+  417  open history.txt
+  418  cd Desktop
+  419  ls
+  420  cd seir_526
+  421  ls
+  422  cd homeworks
+  423  ls
+  424  open solution.txt
+  425  ls
+  426  cd solution.txt
+  427  ls
+  428  cd history.txt
+  429  echo " The name of the killer is Mike Bostock">>history.txt
+
+These helped to Id the name 
+
+grep "Honda" vehicles
+
+	grep "Blue" vehicles
+
+	grep "L337" vehicles
+
+Owner Mike Bostock then I 2nd checked by looking at the memberships. AAA Delta and library. 
+
