@@ -1,0 +1,181 @@
+
+Murderer is Jeremy Bowers
+
+
+  203  cat cd ..
+  204  cd ..
+  205  desktop
+  206  ls
+  207  GA SEI UNIT 1
+  208  GA_SEI_UNIT_1
+  209  ls
+  210  GA SEI UNIT 1
+  211  cd GA_SEI_UNIT_1
+  212  cd GA SEI UNIT 1
+  213  GA
+  214  cd GA
+  215  ls
+  216  GA
+  217  mkdir
+  218  mkdir GA_UNIT_1
+  219  desktop
+  220  ls
+  221  GA_UNIT_1
+  222  mkdir HOMEWORK
+  223  desktop
+  224  GA_UNIT_1
+  225  homework
+  226  git@github.com:maestronick1/command-line-murder-mystery.git
+  227  git init
+  228  git clone git@github.com:maestronick1/command-line-murder-mystery.git
+  229  git remote
+  230  git config
+  231  git config --global maestronicknrp@gmail.com
+  232  git remote add origin https://github.com/maestronick1
+  233  git init
+  234  git clone git@github.com:maestronick1/command-line-murder-mystery.git
+  235  sudo git clone git@github.com:maestronick1/command-line-murder-mystery.git
+  236  sudo git clone https://github.com/maestronick1/command-line-murder-mystery
+  237  ls
+  238  command-line-murder-mystery
+  239  code .
+  240  cat intructions
+  241  ls
+  242  cat instructions
+  243  ls
+  244  mystery
+  245  ls
+  246  crimescene
+  247  cd crimescene
+  248  ls
+  249  cd crimescene
+  250  people
+  251  interviews
+  252  ls
+  253  cd ..
+  254  grep CLUE crimescene
+  255  grep Annabel
+  256  desktop
+  257  ls
+  258  GA_UNIT_1
+  259  ls
+  260  homework
+  261  ls
+  262  command-line-murder-mystery
+  263  ls
+  264  mystery
+  265  cd ..
+  266  intructions
+  267  mystery
+  268  cd ..
+  269  cat intructions
+  270  ls
+  271  cat instructions
+  272  grep CLUE
+  273  grep CLUE crimescene
+  274  grep "CLUE" crimescene
+  275  ls
+  276  instructions
+  277  mystery
+  278  grep CLUE crimescene
+  279  head -n 20 people
+  280  head -40 people
+  281  ls
+  282  cat people
+  283  grep annabelle people
+  284  grep "anabelle" people
+  285  grep "clue" crimescene
+  286  Grep "CLUE" crimescene
+  287  greap "Annabel" people
+  288  grep "Annabel" people
+  289  ls
+  290  interviews
+  291  ls
+  292  mystery
+  293  cd ..
+  294  ls
+  295  streets
+  296  ls
+  297  cat Buckingham_Place
+  298  ls
+  299  head -20 hart place
+  300  grep " hart' streets\n'\n"
+  301  grep "Hart" streets
+  302  cd ..
+  303  grep "hart" streets
+  304  streets
+  305  cat Hart place
+  306  cat Hart_place
+  307  cd ..
+  308  ls
+  309  interviews
+  310  ls
+  311  interview-47246024
+  312  cat interview-47246024
+  313  cat interview-699607
+  314  cd ..
+  315  ls
+  316  grep "L337" vehicles
+  317  grep "honda L337" vehicles
+  318  grep "1337.9" vehicles
+  319  grep -i "L337.9" vehicles
+  320  grep grep -A 5 "L337" mystery/vehicles
+  321  grep -A 5 "L337" mystery/vehicles
+  322  cd ..
+  323  grep -A 5 "L337" mystery/vehicles
+  324  ls
+  325  mystery
+  326  ls
+  327  streets
+  328  Plainfield_street
+  329  ls
+  330  cat Plainstreet_Street
+  331  cat Plainfield_Street
+  332  cd ..
+  333  ls
+  334  insterviews
+  335  interviews
+  336  cat interview-29741223
+  337  cat interview-9620713
+  338  history
+  339  cd ..
+  340  \cd ..
+  341  touch solution.txt
+  342  ls
+  343  mystery
+  344  ls
+  345  memberships
+  346  ls
+  347  cat AAA
+  348  cd ..
+  349  memberships
+  350  grep "joe" memberships
+  351  grep "Bowers" memberships
+  352  cd ..
+  353  grep "Joe" memberships
+  354  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  355  memberships
+  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc -l
+  357  cat AAA Delta_SkyMiles | grep "Jeremy Bowers" | wc -1
+  358  cat AAA Delta_Skymiles Terminal_City_Library  Museum_of_Bash_History | grep "Jeremy Bowers"\nthats how you check the memberships to confirm
+  359  history
+  360  cd ..
+  361  touch solution.txt
+  362  cd ..
+  363  touch solution.txt
+  364  cd command-line-murder-mystery
+  365  sudo touch solution.txt
+  366  touch solution.txt
+  367  ls
+  368  ls -a
+  369  sudo touch solution.txt
+  370  ls
+  371  code .
+  372  history
+  373  sudo code .
+  374  code .
+  375  sudo open /Applications/Visual Studio Code
+  376  sudo open "/Applications/Visual Studio Code.app\n'\n"
+  377  sudo open "/Applications/Visual Studio Code.app"'\n"\n'
+  378  sudo open "/Applications/Visual Studio Code.app"\n
+➜  command-line-murder-mystery git:(master) ✗
