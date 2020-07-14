@@ -1,0 +1,99 @@
+Commands I ran to find a solution:
+
+269  cd deliverables
+  270  git clone https://github.com/yoel0/command-line-murder-mystery.git
+  271  cd command-line-murder-mystery
+  272  git init
+  273  touch solutions.txt
+  274  cat instructions
+  275  git status
+  276  cd mystery
+  277  cd crimescene
+  278  cd ..
+  279  cd crimescene
+  280  ls
+  281  grep -c crimescene
+  282  grep CLUE
+  283  grep CLUE crimescene
+  284  ls
+  285  cd mystery
+  286  grep CLUE crimescene
+  287  cd interviews
+  288  grep 6' interviews
+  289  head interviews
+  290  ls
+  291  cd people
+  292  grep 6' people.txt
+  293  cd mystery
+  294  cd ..
+  295  grep head people.txt
+  296  grep 6 people
+  297  grep CLUE crimescene
+  298  grep Annabel people
+  299  head -n 173
+  300  cd streets
+  301  head -n 173 Mattapan
+  302  head -n 173 Mattapan Street
+  303  head -n 173 "Mattapan street"
+  304  head -n 173 Mattapan_Street
+  305  head -n 40 Hart_Place
+  306  cd interviews
+  307  cd ..
+  308  cd interviews
+  309  cat INTERVIEW #47246024
+  310  ls
+  311  cat interview-47246024
+  312  cd ..
+  313  cd streets
+  314  head -n 179 Buckingham_Place
+  315  cd ..
+  316  cd interviews
+  317  cat interview-699607
+  318  cd ..
+  319  grep L337 vehicles
+  320  grep BLUE L337 vehicles.txt
+  321  grep BLUE L337 vehicles
+  322  ls
+  323  cd vehicles
+  324  head vehicles.txt
+  325  head -n vehicles
+  326  grep -w "Honda" vehicles.txt
+  327  cat License Plate L337ZR9
+  328  grep Honda vehicles.txt
+  329  grep -A 5 "l337" mystery/vehicles
+  330  grep -A 5 "L337" vehicles
+  331  grep "Jeremy Bowers" people
+  332  cd streets
+  333  head -n 284 Dunstable_Road
+  334  cd ..
+  335  cd interview
+  336  cd interviews
+  337  cat interview-9620713
+  338  cd ..
+  339  grep "Jacqui Maher" people
+  340  cd streets
+  341  head -n 224 Andover_Road
+  342  cd ..
+  343  cd interviews
+  344  cat interview-904020
+  345  cd..
+  346  cd ..
+  347  cd memberships
+  348  cd ..
+  349  grep CLUE cimescene
+  350  cd crimscene
+  351  grep CLUE crimescne
+  352  grep CLUE crimescene
+  353  cd memberships
+  354  cat AAA Delta_Skymiles Museum_of_Bash_History library.txt | grep "John Bowers"
+  355  ;s
+  356  ls
+  357  cat AAA Delta_Skymiles Terminal_City_Library  Museum_of_Bash_History | grep "John Bowers"
+  358  cat AAA Delta_Skymiles Terminal_City_Library  Museum_of_Bash_History | grep "Jeremy Bowers"
+
+
+
+
+
+The name of the killer:
+Jeremy Bowers
