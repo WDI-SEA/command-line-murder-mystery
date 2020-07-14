@@ -1,0 +1,1033 @@
+Jeremy seems like he is the killer. 
+He matches all descriptions from clues that are given. 
+
+Jeremy Bowers	M	34	Dunstable Road, line 284
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers (AAA, Delta skymiles, bowers, musueum of bash history)
+Height: 6'1"
+Weight: 204 lbs
+SEE INTERVIEW #9620713
+Home appears to be empty, no answer at the door.
+After questioning neighbors, appears that the occupant may have left for a trip recently.
+Considered a suspect until proven otherwise, but would have to eliminate other suspects to confirm.
+
+
+Channee@DESKTOP-AAB7U1N MINGW64 ~/command-line-murder-mystery (master)
+$ history
+  331  cd ~
+  332  ls
+  333  cd c
+  334  cd desktop
+  335  cd pictures
+  336  ls
+  337  cd New folder
+  338  cd New folder/
+  339  cd -res
+  340  ls
+  341  cd GA-blog
+  342  open
+  343  open .
+  344  ls
+  345  ls
+  346  code .
+  347  open
+  348  documents/profile.png
+  349  ls
+  350  cd ..
+  351  documents/profile.png
+  352  cd documents
+  353  ls
+  354  cd New.Folder
+  355  cd New-Folder
+  356  cd New_folder
+  357  mkdir
+  358  desktop
+  359  cd desktop
+  360  ls
+  361  cd "speech picture Photo'
+  362  cd
+  363  cd ..
+  364  cd desktop
+  365  cd~
+  366  cd ~
+  367  cd desktop
+  368  ls
+  369  mkdir best_cohort_ever
+  370  ls
+  371  cd best_cohort_ever/
+  372  ls
+  373  touch index.html
+  374  ls
+  375  cd ..
+  376  mv best_cohort_ever ../Documents/
+  377  ls
+  378  cd documents
+  379  cd ../Documents/
+  380  ls
+  381  cd best_cohort_ever/
+  382  ls
+  383  cp index.html snacks.html
+  384  ls
+  385  rm snacks.html
+  386  ls
+  387  cd ~
+  388  cd documents
+  389  ls
+  390  mkdir Cat
+  391  ls
+  392  cd cat
+  393  cd ..
+  394  mkdir basketball
+  395  cd basketball
+  396  touch index.html
+  397  cd ..
+  398  ls
+  399  cd basketball
+  400  ls
+  401  cd ..
+  402  ls
+  403  cd basketball
+  404  ls
+  405  cp index.html stepch-curry.html
+  406  ls
+  407  rm stepch-curry.html
+  408  ls
+  409  cd ..
+  410  mkdir Cats
+  411  cd Cats
+  412  touch html.index
+  413  ls
+  414  cp html.index Cat-pig.html
+  415  ls
+  416  cd ..
+  417  mv html.index
+  418  mv Cats
+  419  cd Cats
+  420  ls
+  421  rm Cat-pig.html
+  422  ls
+  423  cd docuemnts
+  424  cd ..
+  425  rm Cats
+  426  cd Cats
+  427  ls
+  428  mv html.index
+  429  cd docuemnts
+  430  cd ..
+  431  mv cats
+  432  mv docuemnts htm
+  433  cd basketball
+  434  ls
+  435  touch lakers.html warriors.html rockets.html
+  436  ls
+  437  cd ..
+  438  mkdir house
+  439  touch living-room.html kitchen.html bathroom.html bar.html master-room.html
+  440  ls
+  441  cd house
+  442  ls
+  443  touch bar.html kitchen.html bathroom.html master-room.html play-room.html
+  444  ls
+  445  ls
+  446  open bar.html
+  447  cd bar.html
+  448  code index.html
+  449  echo "burgers chips fiji water fruit snacks" >> kitchen.txt
+  450  ls
+  451  open
+  452  open kitchen
+  453  code kitchen
+  454  cat kitchen
+  455  cat kitchen.html
+  456  ls
+  457  cat house
+  458  touch kitchen.txt
+  459  ls
+  460  open kitchen.txt
+  461  echo "burgers chips soda" >> kitchen.txt
+  462  ls
+  463  code kitchen.txt
+  464  echo "Chips Beer Chicken" >> kitchen.txt
+  465  ls
+  466  cat kitchen.txt
+  467  code hosue.
+  468  ls
+  469  ls
+  470  ls
+  471  open kitchen.txt
+  472  start kitchen.txt
+  473  start kitchen.html
+  474  start kitchen.txt
+  475  brew install tellnet
+  476  cd ..
+  477  rm - r basketball/
+  478  ls
+  479  cd basketball
+  480  rm -r basketball
+  481  -r basketball
+  482  rm -rbasketball
+  483  rm --help
+  484  rm -R basketball
+  485  history
+  486  ls
+  487  cd ..
+  488  rm -r basketball
+  489  cd basketball
+  490  cd ~
+  491  brew install git
+  492  instll git
+  493  install git
+  494  install
+  495  install --help
+  496  install [option]
+  497  install [option]
+  498  install [git]
+  499  install --help
+  500  cd desktop
+  501  ls
+  502  cd git
+  503  cd ..
+  504  cd git
+  505  ls
+  506  cd ..
+  507  git remote add
+  508  git
+  509  git push
+  510  cd docuemnts
+  511  cd Documents/
+  512  mkdir states
+  513  ls
+  514  cd states
+  515  ls
+  516  git init
+  517  touch index.html
+  518  touch README.md
+  519  ls
+  520  echo "# All the states" >> README.md
+  521  ls
+  522  cat README.md
+  523  git status
+  524  git status
+  525  git add README.md  index.html
+  526  git status
+  527  git reset
+  528  git status
+  529  git add  .
+  530  git add .
+  531  git status
+  532  git commit -m "[states] Add README and html"
+  533  git log
+  534  :wq
+  535  git log
+  536  wq
+  537  WQ
+  538  git diff
+  539  ls
+  540  git diff README.md
+  541  ls
+  542  git checkout README.md
+  543  code .
+  544  git status
+  545  git add .
+  546  git status
+  547  git log
+  548  git rm index.html
+  549  git status
+  550  git commit -m "[html] Remove file"
+  551  git log
+  552  git status
+  553  git remote add origin https://git.generalassemb.ly/chamon562/states
+  554  git remote add origin https://git.generalassemb.ly/states.git
+  555  git remote add
+  556  git remote add origin https://git.generalassemb.ly/chamon562/states.git
+  557  git push -u origin master
+  558  git clone
+  559  cd D:
+  560  mkdir General_Assembly
+  561  cd General_Assembly/
+  562  mkdir SEIR_Deliverable
+  563  ls
+  564  mkdir Labs
+  565  ls
+  566  cd labs
+  567  cd ..
+  568  cd ~
+  569  lis
+  570  ls
+  571  git clone https://github.com/chamon562/command-line-murder-mystery.git
+  572  dir
+  573  git
+  574  git clone https://github.com/chamon562/command-line-murder-mystery.git
+  575  dir
+  576  cd command-line-murder-mystery
+  577  ls
+  578  git status
+  579  git remote
+  580  cat
+  581  ls
+  582  cat instructions
+  583  touch solution.txt
+  584  ls
+  585  cd mystery
+  586  ls
+  587  cd inerviews
+  588  cd interviews
+  589  ls
+  590  get status
+  591  ls -a
+  592  ls
+  593  cd ..
+  594  ls
+  595  la -a
+  596  -a
+  597  ls -a
+  598  cd memberships
+  599  ls
+  600  start 1.txt
+  601  start 2.txt
+  602  start aaa
+  603  start AAA
+  604  start delta.txt
+  605  ls
+  606  start library.txt
+  607  start museum.txt
+  608  start newfile.txt
+  609  cd rotary_club
+  610  cd Terminal_City_Library
+  611  start Terminal_City_Library
+  612  cd ..
+  613  ls
+  614  cd people
+  615  cd people streets
+  616  cd streets
+  617  ls
+  618  ls -a
+  619  cd ..
+  620  ls
+  621  ls -a
+  622  cd vehicle
+  623  cd ..
+  624  ls
+  625  start instructions
+  626  start instructions .
+  627  git instructions .
+  628  git .
+  629  code instructions
+  630  ls
+  631  cd mystery
+  632  ls -a
+  633  code crimescene
+  634  ls
+  635  code people
+  636  cd streets
+  637  ls
+  638  code Fessenden_Street
+  639  cd ..
+  640  ls
+  641  cd interviews
+  642  ls
+  643  cd ..
+  644  ls
+  645  cd memberships
+  646  ls
+  647  code AAA
+  648  code Delta_SkyMiles
+  649  code Museum_of_Bash_History
+  650  la -a
+  651  start library.txt
+  652  ls
+  653  code Delta_SkyMiles
+  654  cd ..
+  655  ls
+  656  grep "CLUE" crimescene
+  657  code vehicls
+  658  code vehicles
+  659  ls -l
+  660  ls
+  661  ls
+  662  ls
+  663  read line 40
+  664  ls
+  665  md streets
+  666  cd streets
+  667  ls
+  668  code Buckingham_Place
+  669  grep
+  670  grep clue
+  671  grep clue crimescene
+  672  grep CLUE crimescene
+  673  grep "CLUE" crimescene
+  674  cd ..
+  675  grep CLUE crimescene
+  676  grep CLUE interview
+  677  grep CLUE interviews
+  678  grep CLUE interviews
+  679  cd interviews
+  680  ls
+  681  grep CLUES interview
+  682  grep CLUES interviews
+  683  grep 6' interviews
+  684  grep 6 interviews
+  685  grep tall
+  686  cd ..
+  687  cat interviews
+  688  cd interviews
+  689  cat interviews
+  690  cat interview-
+  691  cat interview
+  692  ls
+  693  cat interview-26373485
+  694  cat instructions
+  695  cd ..
+  696  cat instructions
+  697  cat instructions
+  698  cat hint1
+  699  ls
+  700  cd ..
+  701  ls
+  702  cat instructions
+  703  ls
+  704  cd mystery
+  705  ls
+  706  cat crimescene
+  707  code crimescene
+  708  ls
+  709  cd streets
+  710  ls
+  711  code streets
+  712  file line 433
+  713  cd ..
+  714  cd ..
+  715  ls
+  716  cat hint1
+  717  head -n 20 people
+  718  cd mystery
+  719  ls
+  720  head -n 20 people
+  721  head -n line 477
+  722  cd streets
+  723  ls
+  724  head -n 20 people
+  725  head in 20 streets
+  726  head -n 20 people
+  727  cd ..
+  728  ls
+  729  cd memberships
+  730  ls
+  731  ls -a
+  732  cd people
+  733  ls
+  734  cd ..
+  735  ls
+  736  head -n people
+  737  head -n 20 people
+  738  head -n 40 people
+  739  head -n people
+  740  head -n 1 people
+  741  head -n 2 people
+  742  head -n 3 people
+  743  ls
+  744  head -n 20 vehicles
+  745  grep "Annabel" people
+  746  ls
+  747  cd streets
+  748  ls
+  749  pwd
+  750  ls
+  751  cd ..
+  752  ls
+  753  code people
+  754  grep "Annabel" people
+  755  head -n 173 streets/Mattapan_Street | tail -n 1
+  756  code interview #9437737
+  757  ls
+  758  code interviews
+  759  prep "INTERVIEW" #9437737
+  760  grep "INTERVIEW" #9437737
+  761  ls
+  762  ls
+  763  code vehicles
+  764  head -n 20 vehicles
+  765  head -n blue vehicles
+  766  grep Blue vehicles
+  767  grep Blue Honda vehicles
+  768  ls
+  769  memberships
+  770  cd memberships
+  771  ls
+  772  grep jeremy Bowers
+  773  grep Jeremy bowers AAA
+  774  Grep Jeremy memberships
+  775  grep membership
+  776  grep bowers membership
+  777  ls
+  778  grep bowers AAA
+  779  grep bowers AAA
+  780  ls
+  781  cd ..
+  782  grep bowers memberships
+  783  grep bowers memberships
+  784  head -n 20 memberships
+  785  head -n 284 streets/Dunstable_Road | tail -n 1
+  786  head -n 224/streets/Andover_Road | -n 1
+  787  head -n 224 streets/Andover_Road | -n 1
+  788*
+  789  cd interview
+  790  ls
+  791  cd interviews
+  792  ls
+  793  cd interview-904020
+  794  code interview-904020
+  795  cd ..
+  796  ls
+  797  code erika owens people
+  798  cd people
+  799  ls
+  800  code people erika
+  801  code people erika owens
+  802  head -n 98 streets/Trapelo_Street/ tail -n | 1
+  803  head -n 98 streets/Trapelo_Street | tail -n 1
+  804  cd interviews
+  805  code interview-5455315
+  806  ls
+  807  cd ..
+  808  ls
+  809  cd memberships/
+  810  ls
+  811  code memberhsips
+  812  code AAA
+  813  cd
+  814  ls
+  815  cd command-line-murder-mystery/
+  816  ls
+  817  cd mystery
+  818  ls
+  819  code people
+  820  head -n 287 streets/Senders_Court | tail -n 1
+  821  ls
+  822  cd interviews
+  823  code interview-290346
+  824  ls
+  825  cd ..
+  826  ls
+  827  cd ..
+  828  ls
+  829  run history
+  830  history
+
+Channee@DESKTOP-AAB7U1N MINGW64 ~/command-line-murder-mystery (master)
+$ ls
+cheatsheet.md   hint2  hint5  hint8         LICENSE.txt  solution.txt
+cheatsheet.pdf  hint3  hint6  instructions  mystery/
+hint1           hint4  hint7  LICENSE       README.md
+
+Channee@DESKTOP-AAB7U1N MINGW64 ~/command-line-murder-mystery (master)
+$ start solution.txt
+
+Channee@DESKTOP-AAB7U1N MINGW64 ~/command-line-murder-mystery (master)
+$ history
+  334  cd desktop
+  335  cd pictures
+  336  ls
+  337  cd New folder
+  338  cd New folder/
+  339  cd -res
+  340  ls
+  341  cd GA-blog
+  342  open
+  343  open .
+  344  ls
+  345  ls
+  346  code .
+  347  open
+  348  documents/profile.png
+  349  ls
+  350  cd ..
+  351  documents/profile.png
+  352  cd documents
+  353  ls
+  354  cd New.Folder
+  355  cd New-Folder
+  356  cd New_folder
+  357  mkdir
+  358  desktop
+  359  cd desktop
+  360  ls
+  361  cd "speech picture Photo'
+  362  cd
+  363  cd ..
+  364  cd desktop
+  365  cd~
+  366  cd ~
+  367  cd desktop
+  368  ls
+  369  mkdir best_cohort_ever
+  370  ls
+  371  cd best_cohort_ever/
+  372  ls
+  373  touch index.html
+  374  ls
+  375  cd ..
+  376  mv best_cohort_ever ../Documents/
+  377  ls
+  378  cd documents
+  379  cd ../Documents/
+  380  ls
+  381  cd best_cohort_ever/
+  382  ls
+  383  cp index.html snacks.html
+  384  ls
+  385  rm snacks.html
+  386  ls
+  387  cd ~
+  388  cd documents
+  389  ls
+  390  mkdir Cat
+  391  ls
+  392  cd cat
+  393  cd ..
+  394  mkdir basketball
+  395  cd basketball
+  396  touch index.html
+  397  cd ..
+  398  ls
+  399  cd basketball
+  400  ls
+  401  cd ..
+  402  ls
+  403  cd basketball
+  404  ls
+  405  cp index.html stepch-curry.html
+  406  ls
+  407  rm stepch-curry.html
+  408  ls
+  409  cd ..
+  410  mkdir Cats
+  411  cd Cats
+  412  touch html.index
+  413  ls
+  414  cp html.index Cat-pig.html
+  415  ls
+  416  cd ..
+  417  mv html.index
+  418  mv Cats
+  419  cd Cats
+  420  ls
+  421  rm Cat-pig.html
+  422  ls
+  423  cd docuemnts
+  424  cd ..
+  425  rm Cats
+  426  cd Cats
+  427  ls
+  428  mv html.index
+  429  cd docuemnts
+  430  cd ..
+  431  mv cats
+  432  mv docuemnts htm
+  433  cd basketball
+  434  ls
+  435  touch lakers.html warriors.html rockets.html
+  436  ls
+  437  cd ..
+  438  mkdir house
+  439  touch living-room.html kitchen.html bathroom.html bar.html master-room.html
+  440  ls
+  441  cd house
+  442  ls
+  443  touch bar.html kitchen.html bathroom.html master-room.html play-room.html
+  444  ls
+  445  ls
+  446  open bar.html
+  447  cd bar.html
+  448  code index.html
+  449  echo "burgers chips fiji water fruit snacks" >> kitchen.txt
+  450  ls
+  451  open
+  452  open kitchen
+  453  code kitchen
+  454  cat kitchen
+  455  cat kitchen.html
+  456  ls
+  457  cat house
+  458  touch kitchen.txt
+  459  ls
+  460  open kitchen.txt
+  461  echo "burgers chips soda" >> kitchen.txt
+  462  ls
+  463  code kitchen.txt
+  464  echo "Chips Beer Chicken" >> kitchen.txt
+  465  ls
+  466  cat kitchen.txt
+  467  code hosue.
+  468  ls
+  469  ls
+  470  ls
+  471  open kitchen.txt
+  472  start kitchen.txt
+  473  start kitchen.html
+  474  start kitchen.txt
+  475  brew install tellnet
+  476  cd ..
+  477  rm - r basketball/
+  478  ls
+  479  cd basketball
+  480  rm -r basketball
+  481  -r basketball
+  482  rm -rbasketball
+  483  rm --help
+  484  rm -R basketball
+  485  history
+  486  ls
+  487  cd ..
+  488  rm -r basketball
+  489  cd basketball
+  490  cd ~
+  491  brew install git
+  492  instll git
+  493  install git
+  494  install
+  495  install --help
+  496  install [option]
+  497  install [option]
+  498  install [git]
+  499  install --help
+  500  cd desktop
+  501  ls
+  502  cd git
+  503  cd ..
+  504  cd git
+  505  ls
+  506  cd ..
+  507  git remote add
+  508  git
+  509  git push
+  510  cd docuemnts
+  511  cd Documents/
+  512  mkdir states
+  513  ls
+  514  cd states
+  515  ls
+  516  git init
+  517  touch index.html
+  518  touch README.md
+  519  ls
+  520  echo "# All the states" >> README.md
+  521  ls
+  522  cat README.md
+  523  git status
+  524  git status
+  525  git add README.md  index.html
+  526  git status
+  527  git reset
+  528  git status
+  529  git add  .
+  530  git add .
+  531  git status
+  532  git commit -m "[states] Add README and html"
+  533  git log
+  534  :wq
+  535  git log
+  536  wq
+  537  WQ
+  538  git diff
+  539  ls
+  540  git diff README.md
+  541  ls
+  542  git checkout README.md
+  543  code .
+  544  git status
+  545  git add .
+  546  git status
+  547  git log
+  548  git rm index.html
+  549  git status
+  550  git commit -m "[html] Remove file"
+  551  git log
+  552  git status
+  553  git remote add origin https://git.generalassemb.ly/chamon562/states
+  554  git remote add origin https://git.generalassemb.ly/states.git
+  555  git remote add
+  556  git remote add origin https://git.generalassemb.ly/chamon562/states.git
+  557  git push -u origin master
+  558  git clone
+  559  cd D:
+  560  mkdir General_Assembly
+  561  cd General_Assembly/
+  562  mkdir SEIR_Deliverable
+  563  ls
+  564  mkdir Labs
+  565  ls
+  566  cd labs
+  567  cd ..
+  568  cd ~
+  569  lis
+  570  ls
+  571  git clone https://github.com/chamon562/command-line-murder-mystery.git
+  572  dir
+  573  git
+  574  git clone https://github.com/chamon562/command-line-murder-mystery.git
+  575  dir
+  576  cd command-line-murder-mystery
+  577  ls
+  578  git status
+  579  git remote
+  580  cat
+  581  ls
+  582  cat instructions
+  583  touch solution.txt
+  584  ls
+  585  cd mystery
+  586  ls
+  587  cd inerviews
+  588  cd interviews
+  589  ls
+  590  get status
+  591  ls -a
+  592  ls
+  593  cd ..
+  594  ls
+  595  la -a
+  596  -a
+  597  ls -a
+  598  cd memberships
+  599  ls
+  600  start 1.txt
+  601  start 2.txt
+  602  start aaa
+  603  start AAA
+  604  start delta.txt
+  605  ls
+  606  start library.txt
+  607  start museum.txt
+  608  start newfile.txt
+  609  cd rotary_club
+  610  cd Terminal_City_Library
+  611  start Terminal_City_Library
+  612  cd ..
+  613  ls
+  614  cd people
+  615  cd people streets
+  616  cd streets
+  617  ls
+  618  ls -a
+  619  cd ..
+  620  ls
+  621  ls -a
+  622  cd vehicle
+  623  cd ..
+  624  ls
+  625  start instructions
+  626  start instructions .
+  627  git instructions .
+  628  git .
+  629  code instructions
+  630  ls
+  631  cd mystery
+  632  ls -a
+  633  code crimescene
+  634  ls
+  635  code people
+  636  cd streets
+  637  ls
+  638  code Fessenden_Street
+  639  cd ..
+  640  ls
+  641  cd interviews
+  642  ls
+  643  cd ..
+  644  ls
+  645  cd memberships
+  646  ls
+  647  code AAA
+  648  code Delta_SkyMiles
+  649  code Museum_of_Bash_History
+  650  la -a
+  651  start library.txt
+  652  ls
+  653  code Delta_SkyMiles
+  654  cd ..
+  655  ls
+  656  grep "CLUE" crimescene
+  657  code vehicls
+  658  code vehicles
+  659  ls -l
+  660  ls
+  661  ls
+  662  ls
+  663  read line 40
+  664  ls
+  665  md streets
+  666  cd streets
+  667  ls
+  668  code Buckingham_Place
+  669  grep
+  670  grep clue
+  671  grep clue crimescene
+  672  grep CLUE crimescene
+  673  grep "CLUE" crimescene
+  674  cd ..
+  675  grep CLUE crimescene
+  676  grep CLUE interview
+  677  grep CLUE interviews
+  678  grep CLUE interviews
+  679  cd interviews
+  680  ls
+  681  grep CLUES interview
+  682  grep CLUES interviews
+  683  grep 6' interviews
+  684  grep 6 interviews
+  685  grep tall
+  686  cd ..
+  687  cat interviews
+  688  cd interviews
+  689  cat interviews
+  690  cat interview-
+  691  cat interview
+  692  ls
+  693  cat interview-26373485
+  694  cat instructions
+  695  cd ..
+  696  cat instructions
+  697  cat instructions
+  698  cat hint1
+  699  ls
+  700  cd ..
+  701  ls
+  702  cat instructions
+  703  ls
+  704  cd mystery
+  705  ls
+  706  cat crimescene
+  707  code crimescene
+  708  ls
+  709  cd streets
+  710  ls
+  711  code streets
+  712  file line 433
+  713  cd ..
+  714  cd ..
+  715  ls
+  716  cat hint1
+  717  head -n 20 people
+  718  cd mystery
+  719  ls
+  720  head -n 20 people
+  721  head -n line 477
+  722  cd streets
+  723  ls
+  724  head -n 20 people
+  725  head in 20 streets
+  726  head -n 20 people
+  727  cd ..
+  728  ls
+  729  cd memberships
+  730  ls
+  731  ls -a
+  732  cd people
+  733  ls
+  734  cd ..
+  735  ls
+  736  head -n people
+  737  head -n 20 people
+  738  head -n 40 people
+  739  head -n people
+  740  head -n 1 people
+  741  head -n 2 people
+  742  head -n 3 people
+  743  ls
+  744  head -n 20 vehicles
+  745  grep "Annabel" people
+  746  ls
+  747  cd streets
+  748  ls
+  749  pwd
+  750  ls
+  751  cd ..
+  752  ls
+  753  code people
+  754  grep "Annabel" people
+  755  head -n 173 streets/Mattapan_Street | tail -n 1
+  756  code interview #9437737
+  757  ls
+  758  code interviews
+  759  prep "INTERVIEW" #9437737
+  760  grep "INTERVIEW" #9437737
+  761  ls
+  762  ls
+  763  code vehicles
+  764  head -n 20 vehicles
+  765  head -n blue vehicles
+  766  grep Blue vehicles
+  767  grep Blue Honda vehicles
+  768  ls
+  769  memberships
+  770  cd memberships
+  771  ls
+  772  grep jeremy Bowers
+  773  grep Jeremy bowers AAA
+  774  Grep Jeremy memberships
+  775  grep membership
+  776  grep bowers membership
+  777  ls
+  778  grep bowers AAA
+  779  grep bowers AAA
+  780  ls
+  781  cd ..
+  782  grep bowers memberships
+  783  grep bowers memberships
+  784  head -n 20 memberships
+  785  head -n 284 streets/Dunstable_Road | tail -n 1
+  786  head -n 224/streets/Andover_Road | -n 1
+  787  head -n 224 streets/Andover_Road | -n 1
+  788*
+  789  cd interview
+  790  ls
+  791  cd interviews
+  792  ls
+  793  cd interview-904020
+  794  code interview-904020
+  795  cd ..
+  796  ls
+  797  code erika owens people
+  798  cd people
+  799  ls
+  800  code people erika
+  801  code people erika owens
+  802  head -n 98 streets/Trapelo_Street/ tail -n | 1
+  803  head -n 98 streets/Trapelo_Street | tail -n 1
+  804  cd interviews
+  805  code interview-5455315
+  806  ls
+  807  cd ..
+  808  ls
+  809  cd memberships/
+  810  ls
+  811  code memberhsips
+  812  code AAA
+  813  cd
+  814  ls
+  815  cd command-line-murder-mystery/
+  816  ls
+  817  cd mystery
+  818  ls
+  819  code people
+  820  head -n 287 streets/Senders_Court | tail -n 1
+  821  ls
+  822  cd interviews
+  823  code interview-290346
+  824  ls
+  825  cd ..
+  826  ls
+  827  cd ..
+  828  ls
+  829  run history
+  830  history
+  831  ls
+  832  start solution.txt
+  833  history
+
+Channee@DESKTOP-AAB7U1N MINGW64 ~/command-line-murder-mystery (master)
+$
