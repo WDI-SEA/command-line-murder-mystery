@@ -1,0 +1,22 @@
+grep “CLUE” crimescene
+grep “Annabel” people
+cd streets
+head -n 40 Hart_Place
+cd ..
+cat interviews/interview-47246024 
+cd ..
+cd streets
+head -n 179 Buckingham_Place 
+cat interviews/interview-699607
+cd ..
+grep -A 5 L337 mystery/vehicles 
+cd ..
+grep “Jeremy Bowers” people
+cd streets
+head -n 284 Dunstable_Road
+cd ..
+cat interviews/interview-9620713
+cd memberships
+cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep “Jeremy Bowers”
+
+Killer: Jeremy Bowers
