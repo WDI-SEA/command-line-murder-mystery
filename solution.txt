@@ -1,0 +1,19 @@
+1.307  grep -r "CLUE" *
+  308  grep Annabel people
+  309  sed -n '179p' streets/Buckingham_Place
+  310  less interviews/interview-699607
+  311  grep L337 vehicles -A4 | grep Blue -C1 | grep Honda -A2
+  312  cat instructions
+  313  cd ..
+  314  cat instructions
+  315  ls
+  316  cd mystery
+  317  cat AAA Delta_SkyMiles | grep “Aron Pilhofer”
+  318  cat AAA Delta_SkyMiles | grep “Joe Germuska”
+  319  cat hint1
+  320  grep "Jeremy Bowers" people
+  321  sed -n '284p' streets/Dunstable_Road
+  322  less interviews/interview-9620713
+
+
+2. Jeremy Bowers
