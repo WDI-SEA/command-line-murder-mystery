@@ -1,0 +1,81 @@
+146  cd desktop
+  147  mkdir general_assembly
+  148  cd general_sembaly
+  149  cd general_assembaly
+  150  cd general_assembly
+  151  git clone https://github.com/subrataroy321/command-line-murder-mystery.git
+  152  ls
+  153  cd command-line-murder-mystery
+  154  ls
+  155  cat instructions
+  156  pwd
+  157  cd desktop
+  158  ls
+  159  cd generalassembly
+  160  cd general-assembly
+  161  cd general_assembly
+  162  ls
+  163  cd command-line-murder-mystery
+  164  ls
+  165  cd mystery
+  166  ls
+  167  open crimescene
+  168  cat hint1
+  169  cd ..
+  170  cat hint1
+  171  cd mystery
+  172  head -n 20 people
+  173  open crimescene
+  174  LS
+  175  grep "CLUE"
+  176  grep "CLUE" ./crimescene
+  177  open people
+  178  grep "Annabel" people
+  179  ls
+  180  cd streets
+  181  ls
+  182  cat hurt place
+  183  cat hart_place
+  184  sed -n 40p hart_place
+  185  cd..
+  186  cd ..
+  187  ls
+  188  cd interviews
+  189  ls
+  190  open interview-47246024
+  191  cat interview-47246024
+  192  cd ..
+  193  cd streets
+  194  cat Buckingham_Place
+  195  sed -n 179p Buckingham_Place
+  196  cd ..
+  197  cd interview
+  198  cd interviews
+  199  cat interview-699607
+  200  cd ..
+  201  ls
+  202  grep "blue honda" vehicles
+  203  open vehicles
+  204  grep "L337" vehicles
+  205  grep -A 5 "L337" vehicles
+  206  ls
+  207  grep "Erika Owens" people
+  208  grep "Jacqui Maher" people
+  209  grep "Jeremy Bowers" people
+  210  grep "Joe Germuska" people
+  211  cd memberships
+  212  ls
+  213  grep "Joe Germuska" AAA
+  214  grep "Joe Germuska" Delta_skyMiles
+  215  grep "Jeremy Bowers" AAA
+  216  grep "Jeremy Bowers" Delta_skyMiles
+  217  grep "Jeremy Bowers" library.txt
+  218  grep "Jeremy Bowers" Museum_of_Bash_History
+  219  cd ..
+  220  touch solution.txt
+
+
+
+
+
+  ####  NAME OF THE KILLER: Jeremy Bowers
