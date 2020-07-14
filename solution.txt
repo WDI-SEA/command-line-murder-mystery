@@ -73,6 +73,23 @@
   218  grep "Jeremy Bowers" Museum_of_Bash_History
   219  cd ..
   220  touch solution.txt
+  221  history
+  222  code .
+  223  git status
+  224  git commit -m "[Solution] Create Solution.txt file"
+  225  git status
+  226  git add .
+  227  git status
+  228  git commit -m "[Solution] Create Solution.txt file"
+  229  git status
+  230  git add .
+  231  git commit -m "[Solution] add code history and killer namee"
+  232  git status
+  233  git log
+  234  git push
+  235  git remote -v
+  236  git push https://github.com/subrataroy321/command-line-murder-mystery.git
+  237  git push
 
 
 
