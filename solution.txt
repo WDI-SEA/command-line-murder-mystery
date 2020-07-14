@@ -185,4 +185,4 @@
   277  rm solution.txt
   278  history
 
-  Killer: Joe Germuska
+  Killer: Jeremy Bowers
