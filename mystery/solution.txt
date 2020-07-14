@@ -1,0 +1,447 @@
+229  cd homework_one
+  230  git clone https://github.com/martinezalphaa/command-line-murder-mystery.git
+  231  ls
+  232  cd command-line-murder-mystery
+  233  cat instructions
+  234  cd mystery
+  235  cat crimescene
+  236  code .
+  237  cd ..
+  238  cat instructions
+  239  code .
+  240  open code .
+  241  telnet towel.blinkenlights.nl
+  242  cat instructions
+  243  ls
+  244  cd mystery
+  245  ls
+  246  cd crimescene
+  247  ls
+  248  cd crimescene
+  249  cat crimescene
+  250  grep CLUE crimescene
+  251  cd ..
+  252  cat crimescene
+  253  ls
+  254  cd mystery
+  255  cat crimescene
+  256  grep THAT crimescene
+  257  grep CLUE crimescene
+  258  grep Annabel
+  259  pwd
+  260  ls
+  261  documents
+  262  ls
+  263  general_assembly
+  264  ls
+  265  cd ..
+  266  ls
+  267  cd ..
+  268  general_assembly
+  269  l
+  270  ls
+  271  unit_one
+  272  ls
+  273  homework_one
+  274  ls
+  275  command-line-murder-mystery
+  276  ls
+  277  mystery
+  278  ls
+  279  cat instructions
+  280  cat instruction
+  281  cd ..
+  282  cat instructions
+  283  ls
+  284  mystery
+  285  grep CLUE crimescene
+  286  cat interview
+  287  ls
+  288  cat intervuews
+  289  interviews
+  290  grep Annabelle interviews
+  291  grep Annabel interviews
+  292  ls
+  293  cd ..
+  294  cat crimescene
+  295  grep Annabel crimescene
+  296  grep barista crimescene
+  297  grep CLUE crimescene
+  298  cd ..
+  299  ls
+  300  mystery
+  301  ls
+  302  memberships people
+  303  cat memberships people
+  304  grep Annabel people memberships
+  305  ls
+  306  grep CLUE crimescene
+  307  people
+  308  cat people
+  309  cat memberships
+  310  ls
+  311  cat memberships
+  312  cat streets
+  313  streets
+  314  ls
+  315  interviews
+  316  ls
+  317  cd ..
+  318  interviews
+  319  grep male interviews
+  320  grep barista interviews
+  321  ls
+  322  grep Annabel interviews
+  323  cd ..
+  324  grep CLUE crimescene
+  325  ls
+  326  grep barista interviews
+  327  crimescene
+  328  ls
+  329  cat crimescene
+  330  grep everybody crimescene
+  331  grep latte crimescene
+  332  ls
+  333  streets
+  334  grep Museum of Bash History streets
+  335  grep Museum
+  336  pwd
+  337  ls
+  338  general_assembly
+  339  ls
+  340  unit_one
+  341  ls
+  342  homework_one
+  343  ls
+  344  command-line-murder-mystery
+  345  ls
+  346  mystery
+  347  ls
+  348  cat streets
+  349  streets
+  350  cat streets
+  351  ls
+  352  cd ..
+  353  memberships people
+  354  ls
+  355  cat people
+  356  grep Annabel people
+  357  head -n 176 streets
+  358  ls
+  359  memberships
+  360  ls
+  361  grep Museum_of_Bash_History memberships
+  362  txt
+  363  open txt
+  364  grep Annabel memberships
+  365  ls
+  366  grep AAA memberships.txt
+  367  streets
+  368  ls
+  369  cd ..
+  370  streets
+  371  ls
+  372  grep Buckingham_Place streets
+  373  ls
+  374  cd ..
+  375  grep clue crimescene
+  376  grep CLUE crimescene
+  377  grep cafe crimescene
+  378  grep CAFE crimescene
+  379  grep CAFE streets
+  380  ls
+  381  ls crimscene
+  382  cat crimescene
+  383  grep Annabel crimescene
+  384  grep GUILT crimescene
+  385  grep PROVES crimescene
+  386  cd ..
+  387  grep -r Annabel *
+  388  head -n 173 “Mattapan Street”
+  389  ls
+  390  mystery
+  391  ls
+  392  grep -r Buckingham Place *
+  393  ls
+  394  memberships
+  395  cat newfile.txt
+  396  ls
+  397  cat Museum_of_Bash_History
+  398  grep Annabel Museum_of_Bash_History
+  399  ls
+  400  grep Annabel Delta_skylines
+  401  grep Annabel Delta_SkyMiles
+  402  grep Annabel AAA
+  403  grep Annabel delta.txt
+  404  grep Annabel library.txt
+  405  grep Annabel Terminal_City_Library
+  406  ls
+  407  cd ..
+  408  head -n 20 people
+  409  ls
+  410  head -n 179 streets
+  411  head -n 179 people
+  412  ls
+  413  streets
+  414  cat Buckingham Place
+  415  cat street
+  416  ls streets
+  417  grep Annabel Buckingham_Place
+  418  ls
+  419  cat Buckingham_Place
+  420  grep cafe Buckingham_Place
+  421  grep blonde Buckingham_Place
+  422  ls
+  423  cd ..
+  424  ls
+  425  interviews
+  426  ls
+  427  cat interview-575776622208
+  428  grep interview-575776622208 interviews
+  429  ls interview-575776622208
+  430  ls
+  431  cat
+  432  history
+  433  pwd
+  434  ls
+  435  general_assembly
+  436  ls
+  437  unit_one
+  438  homework_one
+  439  command-line-murder-mystery
+  440  ls
+  441  mystery
+  442  ls
+  443  vehicles
+  444  ls
+  445  vehicles
+  446  cat vehicles
+  447  greg 60" vehicles
+  448  grep "60 vehicles
+  449  grep Honda vehicles
+  450  ls
+  451  grep CLUE crimescene
+  452  ls
+  453  grep interviews
+  454  ls
+  455  general_assembly
+  456  ls
+  457  unit_one
+  458  homework_one
+  459  ls
+  460  command_line_murder-mystery
+  461  command-line-murder-mystery
+  462  ls
+  463  mystery
+  464  ls
+  465  people
+  466  cat peple
+  467  cat people
+  468  grep Annabel people
+  469  ls
+  470  vehicles
+  471  ls vehicles
+  472  cat vehicles
+  473  grep Oluwasegun Annabel vehicles
+  474  cd ..
+  475  ls
+  476  mystery
+  477  ls
+  478  streets
+  479  head -n 173 Mattapan Street
+  480  head -n 173 streets
+  481  ls
+  482  cat Mattapan_Street
+  483  grep Annabel
+  484  general_assebmly
+  485  general_assembly
+  486  unit_one
+  487  homework_one
+  488  command-line-murder-mystery
+  489  ls
+  490  mystery
+  491  ls
+  492  head -n 20 people
+  493  grep Annabel people
+  494  ls
+  495  grep Annabel memberships
+  496  memberships
+  497  ls
+  498  grep Annabel AAA
+  499  grep Oluwasegun AAA
+  500  grep Oluwasegun Delta_SkyMiles
+  501  ls
+  502  cd ..
+  503  ls
+  504  head -179 people
+  505  head n -179 people
+  506  head - 179 streets
+  507  ls
+  508  people
+  509  grep Annabel people
+  510  cat Oluwasegun Annabel people
+  511  head -n 173 streets/Mattapan_street | tail -n 1
+  512  ls
+  513  interviews
+  514  ls
+  515  ls interview-9437737
+  516  cat interview-9437737
+  517  ls
+  518  cd ..
+  519  ls
+  520  streets
+  521  cd ..
+  522  ls
+  523  people
+  524  ls people
+  525  cat people
+  526  grep Annabel people
+  527  head -n 179 streets/Buckingham_Place | tail -n 1
+  528  cat interview-699607
+  529  interviews
+  530  l
+  531  ls
+  532  cat interview-699607
+  533  ls
+  534  cd ..
+  535  ls
+  536  vehicles
+  537  cd vehicles
+  538  ls
+  539  grep Hona vehicles grep Blue vehicles
+  540  grep Honda vehicles grep Blue vehicles
+  541  grep Honami Kozhenkova vehicles
+  542  grep -A 5 L337 mystery/vehicles
+  543  ls
+  544  grep -A 5 L337 mystery/vehicles
+  545  cat vehicles
+  546  grep L337
+  547  general_assembly
+  548  unit_one
+  549  homework_one
+  550  ls
+  551  command-line-murder-mystery
+  552  ls
+  553  mystery
+  554  hint 7
+  555  hint7
+  556  cat hint7
+  557  ls hint7
+  558  ls
+  559  cd ..
+  560  hint7
+  561  cat hint7
+  562  cd ..
+  563  ls
+  564  command-line-murder-mystery
+  565  ls
+  566  mystery
+  567  grep -A 5 L337 mystery/vehicles
+  568  ls
+  569  ls vehicles
+  570  grep -A 5 L337 mystery/vehicles
+  571  vehicles
+  572  ls vehicles
+  573  cat vehicles
+  574  grep L3379 vehicles
+  575  grep -A 5 L337 mystery/vehicles
+  576  grep -A 5 L337 /vehicles
+  577  cd ..
+  578  ls
+  579  mystery
+  580  cat Fitness_Galaxy AAA United_MileagePlus | grep John Smith
+
+  581  mystery
+  582  ls
+  583  cat Fitness_Galaxy AAA United_MileagePlus | grep John Smith
+
+  584  memberships
+  585  cat Fitness_Galaxy AAA United_MileagePlus | grep John Smith
+
+  586  grep John Smith Fitness_Galaxy
+  587  ls
+  588  cd ..
+  589  ls
+  590  vehicles
+  591  cat vehicles
+  592  ls
+  593  people
+  594  grep Jacqui Maher people
+  595  head -n 224 streets/Andover_Road | tail -n 1
+  596  cat interview-904020
+  597  interivews
+  598  interviews
+  599  ls
+  600  cat interview-904020
+  601  cat vehicles
+  602  ls
+  603  cd ..
+  604  ls
+  605  cat vehicles
+  606  grep -A 5 L337 mystery/vehicles
+  607  ls
+  608  grep -A 5 L337 vehicles
+  609  ls
+  610  grep Jeremy Bowers people
+  611  head -n 284 streets/Dunstable_Road | tail -n 1
+  612  cat interview-9620713
+  613  interviews
+  614  ls
+  615  cat interview-9620713
+  616  grep Joe Germuska people
+  617  cd ..
+  618  grep Joe Germuska people
+  619  head -n 275 streets/Plainfield_Street | tail -n 1
+  620  ls
+  621  interviews
+  622  cat interview-29741223
+  623  cd ..
+  624  grep Mike Bostock people
+  625  head -n 287 streets/Senders_Court | tail -n 1
+  626  interviews
+  627  cat interview-290346
+  628  cd ..
+  629  grep John Keefe people
+  630  head -n 48 streets/Rozella_Street | tail -n 1
+  631  interviews
+  632  cat interview-174898
+  633  cd ..
+  634  grep Matt Waite people
+  635  head -n 79 streets/Alpine_Street | tail -n 1
+  636  interviews
+  637  cat interview-862173
+  638  cd ..
+  639  grep Brian boyer people
+  640  grep Brian Boyer people
+  641  head -n 183 streets/Harbor_Point_Boulevard | tail -n 1
+  642  interviews
+  643  cat interview-628618
+  644  cd ..
+  645  grep Al Show people
+  646  grep Al people
+  647  grep Al Shaw people
+  648  head -n 83 streets/Manton_Terrace | tail -n 1
+  649  interviews
+  650  cat interview-30259493
+  651  cd ..
+  652  cat Fitness_Galaxy AAA United_MileagePlus | grep Jeremy Bowers
+  653  ls
+  654  memberships
+  655  grep Jeremy Bowers memberships
+  656  ls
+  657  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep Jeremy Bowers memberships
+  658  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep Jeremy Bowers
+  659  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep Matt Waite
+  660  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Jeremy Bowers
+  661  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Matt Waites
+  662  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Matt Waite
+  663  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Brian Boyer
+  664  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library library.txt | grep Jeremy Bowers
+  665  cat Fitness_Galaxy AAA United_MileagePlus | grep Jeremy Bowers | wc -l
+
+  666  cat Fitness_Galaxy AAA United_MileagePlus | grep Brian Boyerh | wc -l
+
+  667  cat Fitness_Galaxy AAA United_MileagePlus | grep Brian Boyer | wc -l
+  668  cat Fitness_Galaxy AAA United_MileagePlus | grep Matt Waite | wc -l
+  669  cd .. 
+The murderer is Jeremy Bowers
