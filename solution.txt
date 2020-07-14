@@ -1,0 +1,168 @@
+213  cd Desktop
+  214  ls
+  215  cd command-line-murder-mystery
+  216  ls
+  217  cd mystery
+  218  ls
+  219  cd ..
+  220  cd instructions
+  221  cat instructions
+  222  cd mystery
+  223  ls
+  224  cd ..
+  225  cat cheatsheed.md
+  226  ls
+  227  cat cheatsheet.md
+  228  cd mystery
+  229  ls
+  230  open crimescene
+  231  ls
+  232  grep -A 4 Clue crimescene
+  233  grep -A 4 clue crimescene
+  234  grep -A 4 clue
+  235  pwd
+  236  cd desktop
+  237  command-line-murder-mystery
+  238  ls
+  239  cd mystery
+  240  ls
+  241  /crimescene$ grep -A 4 clue
+  242  crimescene grep -A 4 clue
+  243  /files$ grep -A 4 clue
+  244  /crimescene grep -A 4 clue
+  245  cat crimescene
+  246  grep -A 4 clue
+  247  pwd
+  248  cd desktop
+  249  ls
+  250  cd command-line-murder-mystery
+  251  ls
+  252  cd mystery
+  253  ls
+  254  cat crimescene
+  255  --sort =<#>
+  256  pwd
+  257  grep -A 4 CLUE mystery.txt
+  258  grep -A 4 CLUE
+  259  pwd
+  260  cd Desktop
+  261  cd command-line-murder-mystery
+  262  ls
+  263  cd mystery
+  264  ls
+  265  cd interviews
+  266  ls
+  267  cd ..
+  268  ls
+  269  cd ..
+  270  ls
+  271  cat hint 1
+  272  cat hint1
+  273  cat hint2
+  274  cd ..
+  275  cd command-line-murder-mystery
+  276  ls
+  277  cd mystery
+  278  grep CLUE crimescene
+  279  ls
+  280  grep Annabel people
+  281  grep Annabel interviews
+  282  cd interviews
+  283  grep Annabel interviews
+  284  grep Annabel
+  285  pwd
+  286  cd desktop
+  287  cd command-line-murder-mystery
+  288  ls
+  289  cd mystery
+  290  ls
+  291  cat hint2
+  292  cd ..
+  293  cat hint2
+  294  cat hint3
+  295  cat vehicles
+  296  cd vehicles
+  297  ls
+  298  cd mystery
+  299  cd vehicles
+  300  ls
+  301  cat vehicles
+  302  grep Annabel vehicles
+  303  grep -A Annabel
+  304  grep -A 4 Annabel
+  305  cd desktop
+  306  cd command-line-murder-mystery
+  307  ls
+  308  cd mystery
+  309  ls
+  310  cd vehicles
+  311  grep -A 4 Howard vehicles
+  312  grep -A 4 Annabel vehicles
+  313  grep -A 8 Annabel Sun vehicles
+  314  grep -C 4 Annabel Sun vehicles
+  315  grep -C 4 Annabel Church vehicles
+  316  cd ..
+  317  ls
+  318  cd mystery
+  319  ls
+  320  cd interviews
+  321  ls
+  322  grep -1 Annabel *
+  323  grep -1 CLUE *
+  324  ls
+  325  grep -r Annabel *
+  326  grep -r barista *
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd..
+  331  cd ..
+  332  ls
+  333  cat hint3
+  334  cat hint4
+  335  ls
+  336  cd mystery
+  337  ls
+  338  cd streets
+  339  ls
+  340  cd Hart_Place
+  341  cat Hart_Place
+  342  grep -C 4 INTERVIEW Hart_Place
+  343  grep -C 4 INTERVIEW Buckingham_Place
+  344  cd ..
+  345  cd..
+  346  ls
+  347  cd interviews
+  348  ls
+  349  cat interview-47246024
+  350  cat interview-699607
+  351  cd ..
+  352  ls
+  353  cd vehicles
+  354  grep -C Honda vehicles
+  355  grep -C 4 Honda vehicles
+  356  ls
+  357  grep -C 6 Jacqui people
+  358  ls
+  359  cd streets
+  360  ls
+  361  grep -C 2 Interview Andover_Road
+  362  cat Andover_Road
+  363  cd ..
+  364  ls
+  365  cd ..
+  366  ls
+  367  cd mystery
+  368  ls
+  369  cd memberships
+  370  ls
+  371  cat Fitness_Galaxy AAA United_MileagePlus | grep Jacqui Maher
+  372  cat Delta_SkyMiles AAA Terminal_City_Library Museum_of_Bash_History | grep Jacqui Maher
+  373  cd ..
+  374  ls
+  375  cd ..
+  376  pwd
+  377  touch solution.txt
+  378  echo history
+  379  ls
+Jacqui Maher
