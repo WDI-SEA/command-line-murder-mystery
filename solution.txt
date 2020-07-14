@@ -1,0 +1,119 @@
+295  cd command-line-murder-mystery
+  296  cd mystery
+  297  grep CLUE *
+  298  grep Annabel people
+  299  head -n 173 streets/Mattapan_Street | tail -n 1
+  300  head -n 40 streets/hart_place | tail -n 1
+  301  head -n 40 streets/haley_street | tail -n 1
+  302  head -n 176 streets/haley_street | tail -n 1
+  303  head -n 179 streets/buckingham_place | tail -n 1
+  304  cd interviews
+  305  ls
+  306  cat interview_9437737
+  307  cat interview-9437737
+  308  cat interview-47246024
+  309  cat interview-699607
+  310  cd ..
+  311  head vehicles
+  312  grep -i L337..9 vehicles
+  313  grep -C 4 L337ZR9
+  314  cd desktop
+  315  cd command-line-murder-mystery
+  316  cd mystery
+  317  grep CLUE *
+  318  grep Annabel people                                              <....
+294  cd desktop
+  295  cd command-line-murder-mystery
+  296  cd mystery
+  297  grep CLUE *
+  298  grep Annabel people
+  299  head -n 173 streets/Mattapan_Street | tail -n 1
+  300  head -n 40 streets/hart_place | tail -n 1
+  301  head -n 40 streets/haley_street | tail -n 1
+  302  head -n 176 streets/haley_street | tail -n 1
+  303  head -n 179 streets/buckingham_place | tail -n 1
+  304  cd interviews
+  305  ls
+  306  cat interview_9437737
+  307  cat interview-9437737
+  308  cat interview-47246024
+  309  cat interview-699607
+  310  cd ..
+  311  head vehicles
+  312  grep -i L337..9 vehicles
+  313  grep -C 4 L337ZR9
+  314  cd desktop
+  315  cd command-line-murder-mystery
+  316  cd mystery
+  317  grep CLUE *
+  318  grep Annabel people
+  319  head -n 179 streets/buckingham_place | tail -n 1
+
+  320  cd interviews
+  321  grep -C 4 699607
+  322  cd desktop
+  323  cd command-line-murder-mystery
+  324  cd mystery
+  325  grep CLUE *
+  326  grep Annabel people
+  327  head -n 179 streets/buckingham_place | tail -n 1
+
+  328  cd interviews
+  329  cat interview-699607
+  330  cd ..
+  331  grep -i L337..9 vehicles
+  332  grep -B 4 L337ZR9 vehilces
+  333  grep -B 4 L337ZR9 vehicles
+  334  grep -B 4 L337P89 vehicles
+  335  grep -C 4 L337GX9 vehicles
+  336  grep -A 4 L337GX9 vehicles
+  337  grep -A 4 L337P89 vehicles
+  338  grep -A 4 L337ZR9 vehicles
+  339  grep -A 4 L337QE9 vehicles
+  340  grep -A 4 L337GB9 vehicles
+  341  grep -A 4 L337OI9 vehicles
+  342  grep -A 4 L337X19 vehicles
+  343  grep -A 4 L337539 vehicles
+  344  grep -A 4 L3373U9 vehicles
+  345  grep -A 4 L337369 vehicles
+  346  grep -A 4 L337DV9 vehicles
+  347  grep -A 4 L337%a9 vehicles
+  348  grep -A 4 L3375A9 vehicles
+  349  grep -A 4 L337WR9 vehicles
+  350  grep Bowers memberships
+  351  cd memberships
+  352  grep Bowers *
+  353  grep Germuska *
+  354  cd ..
+  355  grep -A 5 L3375A9 vehicles
+  356  grep -A 7 L3375A9 vehicles
+➜  command-line-murder-mystery git:(master) ✗ cat solution.txt
+➜  command-line-murder-mystery git:(master) ✗ ls -a
+.              LICENSE        hint1          hint6          solution.txt
+..             LICENSE.txt    hint2          hint7
+.git           README.md      hint3          hint8
+.github        cheatsheet.md  hint4          instructions
+.gitignore     cheatsheet.pdf hint5          mystery
+➜  command-line-murder-mystery git:(master) ✗ >....
+  333  grep -B 4 L337ZR9 vehicles
+  334  grep -B 4 L337P89 vehicles
+  335  grep -C 4 L337GX9 vehicles
+  336  grep -A 4 L337GX9 vehicles
+  337  grep -A 4 L337P89 vehicles
+  338  grep -A 4 L337ZR9 vehicles
+  339  grep -A 4 L337QE9 vehicles
+  340  grep -A 4 L337GB9 vehicles
+  341  grep -A 4 L337OI9 vehicles
+  342  grep -A 4 L337X19 vehicles
+  343  grep -A 4 L337539 vehicles
+  344  grep -A 4 L3373U9 vehicles
+  345  grep -A 4 L337369 vehicles
+  346  grep -A 4 L337DV9 vehicles
+  347  grep -A 4 L337%a9 vehicles
+  348  grep -A 4 L3375A9 vehicles
+  349  grep -A 4 L337WR9 vehicles
+  350  grep Bowers memberships
+  351  cd memberships
+  352  grep Bowers *
+  353  grep Germuska *
+The killer is Jeremy Bowers
