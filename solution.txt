@@ -1,0 +1,166 @@
+The Killer is Annabel Church.
+
+Below is my actual history outline. The basic commands I used were:
+cat
+cd
+ls
+grep
+head -n
+open ( accidentally but I am including it)
+pwd
+
+
+
+ My History:
+
+
+  292  cat instructions
+  293  ls
+  294  cd command-line-murder-mystery
+  295  cat instructions
+  296  cd ..
+  297  cd command-line-murder-mystery
+  298  cd ..
+  299  cd sei-713
+  300  cd ..
+  301  mv command-line-murder-mystery sei-713/wk01
+  302  ls
+  303  cd sei-713
+  304  ls
+  305  cd wk01
+  306  ls
+  307  cd command-line-murder-mystery
+  308  ls
+  309  cd mystery
+  310  ls
+  311  open crimescene
+  312  cd ..
+  313  touch solution.txt
+  314  ls
+  315  git add
+  316  git add solution.txt
+  317  git status
+  318  cd mystery
+  319  cat crimescene
+  320  pwd
+  321  ls
+  322  cd ..
+  323  ls
+  324  open README.md
+  325  cat README.md
+  326  ls
+  327  cd mystery
+  328  ls
+  329  cd ..
+  330  cat instructions
+  331  ls
+  332  cd mystery
+  333  ls
+  334  cd interviews
+  335  ls
+  336  cd ..
+  337  ls
+  338  cd memberships
+  339  ls
+  340  cd ..
+  341  cat people
+  342  ls
+  343  cd streets
+  344  ls
+  345  cd ..
+  346  ls
+  347  cat crimescene
+  348  ls
+  349  cat vehicles
+  350  cd ..
+  351  ls
+  352  cat cheatsheet.pdf
+  353  ls
+  354  cat cheatsheet.md
+  355  ls
+  356  cat hint1
+  357  cd mystery
+  358  head -n 50 crimescene
+  359  ls
+  360  head -n 50 people
+  361  head -n 500 crimescene
+  362  cd ..
+  363  ls
+  364  car hint2
+  365  cat hint2
+  366  cd mystery
+  367  grep "CLUE" crimescene
+  368  cd ..
+  369  cat instructions
+  370  nano cheatsheet.md
+  371  ls
+  372  cd sei-713
+  373  cd
+  374  cd sei-713
+  375  ls
+  376  cd wk01/command-line-murder-mystery
+  377  ls
+  378  cat instructions
+  379  cd mystery
+  380  ls
+  381  cd interviews
+  382  ls
+  383  grep "CLUE" interview-
+  384  grep "CLUE" interviews
+  385  cd ..
+  386  grep "CLUE" interviews
+  387  cd interviews
+  388  cat interview-
+  389  ls
+  390  cat interview-1250176
+  391  cd ..
+  392  ls
+  393  cd ..
+  394  ls
+  395  cat hint1
+  396  ls
+  397  cd mystery
+  398  ls
+  399  grep "CLUE" people
+  400  cat -n 30 people
+  401  cat -n 30 peoplehead -n 30 people
+  402  cat -n 30 people
+  403  ls
+  404  cd memberships
+  405  ls
+  406  cat AAA
+  407  grep "CLUE" AAA
+  408  cd ..
+  409  ls
+  410  grep "CLUE" crimescene
+  411  cd ..
+  412  cat hint3
+  413  cd mystery
+  414  head -n 30 people
+  415  ls
+  416  head -n 50 people
+  417  head -n 100 people
+  418  head -n 200 people
+  419  grep "Anabel" people
+  420  ls
+  421  cd memberships
+  422  ls
+  423  grep "Anabel" AAA
+  424  grep "Anabel" Delta_SkyMiles
+  425  grep "Anabel" library.txt
+  426  grep "Anabel" Museum_of_Bash_History
+  427  grep "Anabel" museum.txt
+  428  cd ..
+  429  grep "Annabel" people
+  430  cd memberships
+  431  grep "Annabel" AAA
+  432  grep "Annabel" Delta_SkyMiles
+  433  grep "Annabel" Museum_of_Bash_History
+  434  ls
+  435  cd ..
+  436  ls
+  437  cd ..
+  438  ls
+  439  open solution.txt
+➜  command-line-murder-mystery git:(master) ✗ open solution.txt
+➜  command-line-murder-mystery git:(master) ✗
