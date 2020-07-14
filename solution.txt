@@ -1,0 +1,111 @@
+  276  mkdir GA
+  277  cd GA
+  278  git clone https://github.com/rohunvora/command-line-murder-mystery.git
+  279  cat instructions
+  280  cd command-line-murder-mystery
+  281  cat instructions
+  282  cd mystery
+  283  ls mystery
+  284  ls
+  285  cat crimescene
+  286  cd ..
+  287  ls
+  288  open instructions
+  289  open cheatsheet
+  290  open cheatsheet.md
+  291  cd mystery
+  292  ls
+  293  cd streets
+  294  ls
+  295  cd ..
+  296  cat hint1
+  297  cat hint2
+  298  cat hint3
+  299  open cheatsheet.pdf
+  300  cd mystery
+  301  ls
+  302  cd crimescene
+  303  grep -i "CLUE" crimescene
+  304  head -n 20 people
+  305  cd ..
+  306  cat hint4
+  307  cd mystery
+  308  grep "Annabel" people
+  309  cd ..
+  310  cat hint4
+  311  cat hint5
+  312  cd mystery
+  313  head -n 173 streets/Mattapan_Street | tail -n 1
+  314  grep "#9437737" interviews
+  315  cd interviews
+  316  ls
+  317  cat interview-9437737
+  318  cd ..
+  319  head -n 179 streets/Buckingham_Place | tail -n 1
+  320  cd interviews
+  321  cat interview-699607
+  322  cd ..
+  323  ls
+  324  head -n 20 vehicles
+  325  grep "honda" vehicles
+  326  grep -A 4 "Honda" vehicles
+  327  grep -C 4 "Honda" vehicles
+  328  cd ..
+  329  cat hint5
+  330  cat hint6
+  331  cat hint7
+  332  cat hint8
+  333  cd mystery
+  334  grep "CLUE" crimescene
+  335  cat hint7
+  336  cd ..
+  337  cat hint7
+  338  cat hint8
+  339  cd mystery
+  340  ls
+  341  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  342  cd memberships
+  343  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  344  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  345  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  346  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  347  cat Fitness_Galaxy | grep "Jacqui Maher"
+  348  cat Fitness_Galaxy | grep "Joe Germuska"
+  349  cat Fitness_Galaxy | grep "Jeremy Bowers"
+  350  ls
+  351  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jacqui Maher"
+  352  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Joe Germuska"
+  353  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  354  cd ..
+  355  cat solution
+  356  cd mystery
+  357  cd streets
+  358  grep "Jacqui Maher"
+  359  log
+  360  history
+  361  cd GA
+  362  cd documents
+  363  cd GA
+  364  cd command-line-murder-mystery
+  365  cd mystery
+  366  ls
+  367  cd streets
+  368  ls
+  369  cd ..
+  370  grep "jacqui" people
+  371  grep "Jacqui" people
+  372  head -n 224 streets/Andover_Road | tail -n 1
+  373  cd interviews
+  374  grep "904020"
+  375  cd documents
+  376  cd GA
+  377  cd command-line-murder-mystery
+  378  cd mystery
+  379  cd interviews
+  380  history
+  381  ls
+  382  cat interview-904020
+  383  cd ..
+  384  touch solution.txt
+
+Killer: Jeremy Bowers
