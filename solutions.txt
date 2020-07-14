@@ -1,0 +1,132 @@
+  123  cd command-line-murder-mystery
+  124  ls
+  125  cat instructions
+  126  cd mystery/
+  127  ls
+  128  cd crimescene
+  129  cat crimescene
+  130  cd Desktop
+  131  cd Desktop
+  132  git clone
+  133  mkdir GA-mm
+  134  ls
+  135  cd GA-mm
+  136  git clone
+  137  git clone https://github.com/SLBendak/command-line-murder-mystery.git
+  138  ls
+  139  cd command-line-murder-mystery/
+  140  ls
+  141  cd instructions
+  142  cd mystery/
+  143  cd ..
+  144  cd README.md
+  145  cat
+  146  open instructions
+  147  cd mystery
+  148  cat crimescene
+  149  ls
+  150  cd memberships
+  151  ls
+  152  grep "Annabel" Delta-SkyMiles
+  153  grep "Annabel" Museum_of_Bash_History
+  154  grep "Annabel" AAA
+  155  grep "Annabel" Terminal_City_Library
+  156  ls a-
+  157  ls -a
+  158  grep "Annabel" Delta_SkyMiles
+  159  cat Delta_SkyMiles
+  160  grep "Oluwasegun" AAA
+  161  grep "Sun" AAA
+  162  grep "Annabel" AAA
+  163  cd ..
+  164  ls
+  165  cd streets
+  166  head -n 40 streets/Hart_Place
+  167  head -n 40 streets/Hart_Place | tail -n 1
+  168  cd ..
+  169  ls
+  170  cd memberships
+  171  ls
+  172  grep "Annabel" AAA
+  173  grep "Annabel" Terminal_City_Library
+  174  grep
+  175  grep "Annabel" Museum_of_Bash_History
+  176  grep "Annabel" Delta_SkyMiles
+  177  cd ..
+  178  ls
+  179  cd streets
+  180  grep "Hart Place" streets
+  181  cd ..
+  182  grep "Hart Place" streets
+  183  cd streets
+  184  grep "Buckingham Place" streets
+  185  grep "Buckingham" streets
+  186  ls
+  187  cd ..
+  188  cd vehicles
+  189  cat vehicles
+  190  grep "Annabel" vehicles
+  191  grep "Annabel Church" vehicles
+  192  dc desktop
+  193  cd Desktop
+  194  cd GA-mm
+  195  cd command-line-murder-mystery
+  196  cd mystery
+  197  cd streets
+  198   head -n 39
+  199  head n-173
+  200  head -40 Hart Place
+  201  head streets
+  202  cd ..
+  203  head streets
+  204  cd streets
+  205  head -n 173 "Mattapan Street"
+  206  head -n 173 Mattapan_Street
+  207  cd ..
+  208  grep "INTERVIEW #9437737" crimescene
+  209  grep "#9437737" crimescene
+  210  cd streets
+  211  head -n 179 Buckingham_Place
+  212  cd ..
+  213  crimescene
+  214  cd crimescene
+  215  ls
+  216  grep "#699607" crimescene
+  217  grep "INTERVIEW #699607" crimescene
+  218  ls
+  219  cd interviews
+  220  ls
+  221  cat interview-699607
+  222  cd ..
+  223  ls
+  224  cd people
+  225  cd streets
+  226  head -n 40 Hart_Place
+  227  cd ..
+  228  cd interviews
+  229  cat interview-47246024
+  230  cd ..
+  231  ls
+  232  cd vehicles
+  233  grep "Honda" vehicles
+  234  grep "L337" vehicles
+  235  head
+  236  head vehicles
+  237  grep "Church" vehicles
+  238  cat vehicles
+  239  grep -A 5 "L337" mystery/vehicles
+  240  grep -A 5 "L337" vehicles
+  241  cd memberships
+  242  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+  243  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Aron Pilhofer"
+  244  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Heather Billings"
+  245  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  246  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  247  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  248  cd ..
+  249  cd interviews
+  250  cd ..
+  251  cd ..
+  252  touch solutions.txt
+  253  history
+Jeremy Bowers
