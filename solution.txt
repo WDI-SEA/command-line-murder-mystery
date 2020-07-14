@@ -1,0 +1,600 @@
+➜  mystery git:(master) ✗ cd ..
+➜  command-line-murder-mystery git:(master) ✗ cat hint7
+In order to actually get information about vehicles that might match our description,
+we need to get multiple lines AROUND each match.  We can use the -A, -B, or -C option with grep:
+
+	grep -A 5 "L337" mystery/vehicles
+
+This will match the license plates that contain "L337" and, for each match, show us the five lines AFTER it.%                                                                                               ➜  command-line-murder-mystery git:(master) ✗ cat hint8
+To see who was a member of several different groups, you can combine their membership lists into one and search against that.
+
+	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+
+If you only want to see the number of matches, you can use grep's -c option (the c must be lowercase):
+
+	cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+
+Or you can pipe the result to 'wc -l':
+
+	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%                                                                                                                              ➜  command-line-murder-mystery git:(master) ✗ cd mystery
+➜  mystery git:(master) ✗ ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(master) ✗ cd memberships
+➜  memberships git:(master) ✗ cd ..
+➜  mystery git:(master) ✗ grep "CLUE" crimescene
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+➜  mystery git:(master) ✗ cd memberships
+➜  memberships git:(master) ✗ ls
+1.txt                   AAdvantage              Fitness_Galaxy          Rotary_Club             United_MileagePlus      museum.txt
+2.txt                   Costco                  Museum_of_Bash_History  TCSU_Alumni_Association delta.txt               newfile.txt
+AAA                     Delta_SkyMiles          REI                     Terminal_City_Library   library.txt
+➜  memberships git:(master) ✗ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "joe germuska"
+0
+➜  memberships git:(master) ✗ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "jeremy bowers"
+0
+➜  memberships git:(master) ✗ cd ..
+➜  mystery git:(master) ✗ cd ..
+➜  command-line-murder-mystery git:(master) ✗ cat hint9
+cat: hint9: No such file or directory
+➜  command-line-murder-mystery git:(master) ✗ ls
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions   solution.txt
+➜  command-line-murder-mystery git:(master) ✗ cd mystery
+➜  mystery git:(master) ✗ cd memberships
+➜  memberships git:(master) ✗ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy bowers"
+0
+➜  memberships git:(master) ✗ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep  "Jeremy bowers"
+➜  memberships git:(master) ✗ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy bowers"
+➜  memberships git:(master) ✗ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep wc -l "Jeremy bowers"
+grep: Jeremy bowers: No such file or directory
+➜  memberships git:(master) ✗ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy bowers" | wc -l
+       0
+➜  memberships git:(master) ✗ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+2
+➜  memberships git:(master) ✗ cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+4
+➜  memberships git:(master) ✗ cd ..
+➜  mystery git:(master) ✗ cd ..
+➜  command-line-murder-mystery git:(master) ✗ cd solution.txt
+cd: not a directory: solution.txt
+➜  command-line-murder-mystery git:(master) ✗ ls
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions   solution.txt
+➜  command-line-murder-mystery git:(master) ✗ git innit solution.txt
+git: 'innit' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+➜  command-line-murder-mystery git:(master) ✗ git init solution.txt
+fatal: cannot mkdir solution.txt: File exists
+➜  command-line-murder-mystery git:(master) ✗ mkdir solution.txt
+mkdir: solution.txt: File exists
+➜  command-line-murder-mystery git:(master) ✗ cd ~
+➜  ~ Desktop
+➜  Desktop cd general_assembly
+➜  general_assembly cd unit1
+➜  unit1
+➜  unit1 cd ~
+➜  ~ Jeremy Bowers
+zsh: command not found: Jeremy
+➜  ~ history
+    1  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    2  xcode-select --install
+    3  Software Update
+    4  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    5  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\n
+    6  brew help
+    7  pwd
+    8  cd
+    9  ls
+   10  ls/ .
+   11  downloads
+   12  pwd
+   13  cd
+   14  brew doctor
+   15  open ~/.zshrc
+   16  export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"\n
+   17  cd~
+   18  cd ~
+   19  open .zshrc
+   20  cd ~
+   21  code .
+   22  cd ~
+   23  code .
+   24  cd ~
+   25  code .
+   26  cd Desktop
+   27  ls
+   28  open .
+   29  pwd
+   30  cd
+   31  cd documents
+   32  open grid
+   33  open grid.html
+   34  code ..
+   35  ls
+   36  open image grid
+   37  pwd
+   38  pwd desktop
+   39  cd
+   40  ls
+   41  cd documents
+   42  ls
+   43  open image.grid
+   44  open .
+   45  cd ~
+   46  cd Desktop
+   47  ls
+   48  mkdir best_cohort_ever
+   49  ls
+   50  cd best_cohort_ever
+   51  ls
+   52  touch index.html
+   53  ls
+   54  cd ..
+   55  ls
+   56  mv best_cohort_ever../documents
+   57  ls
+   58  mv best_cohort_ever../Documents
+   59  ls
+   60  cd best_cohort_ever
+   61  cp index.html snacks.html
+   62  ls
+   63  rm snacks.html
+   64  ls
+   65  cd ..
+   66  cd ~
+   67  ls
+   68  cd Documents
+   69  ls
+   70  mkdir myFolder
+   71  ls
+   72  cd myFolder
+   73  touch myIndex.html
+   74  ls
+   75  cd ..
+   76  ls
+   77  cd myFolder
+   78  cp myIndex.html hers.html
+   79  ls
+   80  rm hers.html
+   81  ls
+   82  cd ..
+   83  ls
+   84  cd myFolder
+   85  cd ..
+   86  mv myFolder../Desktop
+   87  mkdir house
+   88  touch livingRoom.html bathroom.html masterBedRoom.html kitchen.htmlkidsRoom.html
+   89  ls
+   90  rm kitchen.htmlkidsRoom.html
+   91  ls
+   92  touch kitchen.html kidsRoom.html
+   93  ls
+   94  mv kidsRoom.html kitchen.html livingRoom.html masterBedRoom.html bathroom.html../house
+   95  rm kidsRoom.html kitchen.html livingRoom.html masterBedRoom.html bathroom.html
+   96  ls
+   97  cd house
+   98  touch kidsRoom.html kitchen.html livingRoom.html masterBedRoom.html bathroom.html
+   99  ls
+  100  touch kitchen.txt
+  101  ls
+  102  echo "lumpia pancit adobo" >> kitchen.txt
+  103  cat kitchen.txt
+  104  cd ~
+  105  telnet towel.blinkenlights.nl
+  106  brew install telnet
+  107  telnet towel.blinkenlights.nl
+  108  cd Documents
+  109  ls
+  110  rm -rs myFolder
+  111  rm -r myFolder
+  112  ls
+  113  cd ~
+  114  <history>
+  115  history
+  116  cd ~
+  117  ls
+  118  cd ~
+  119  brew install git
+  120  ls
+  121  cd Documents
+  122  mkdir states
+  123  cd states
+  124  ls
+  125  git init
+  126  touch index.html
+  127  touch README.md
+  128  ehco "# All the States" >> README.md
+  129  echo "#All the Status" >> README.md
+  130  cat README.md
+  131  git status
+  132  git add README.md index.html
+  133  git status
+  134  cd ~
+  135  pwd
+  136  cd Desktop
+  137  mkdir general_assembly
+  138  ls
+  139  cd general_assembly
+  140  touch unit_1
+  141  ls
+  142  mkdir unit1
+  143  ls
+  144  cd unit1
+  145  git clone https://github.com/vbatallones/command-line-murder-mystery.git
+  146  ls
+  147  cat command-line-murder-mystery
+  148  cd unit1
+  149  ls
+  150  git status
+  151  cat command-line-murder-mystery
+  152  cd command-line-murder-mystery
+  153  cat instructions
+  154  touch solution.txt
+  155  git status
+  156  git add .
+  157  git status
+  158  ls
+  159  cd mystery
+  160  ls
+  161  cd crimescene
+  162  crimescene
+  163  cd crimescene
+  164  cd interviews
+  165  ls
+  166  cd ..
+  167  ls
+  168  open crimescene
+  169  pwd
+  170  cd ..
+  171  ls
+  172  cat instructions
+  173  grep crimescene
+  174  cd
+  175  ls
+  176  cd Desktop
+  177  ls
+  178  cd gene
+  179  cd general_assembly
+  180  ls
+  181  cd unit1
+  182  ls
+  183  cd command-line-murder-mystery
+  184  ls
+  185  cd mystery
+  186  cd ..
+  187  cat instructions
+  188  ls
+  189  open hint1
+  190  head -n 20 people
+  191  head -n
+  192  head
+  193  cd desktop
+  194  cd general_assembly
+  195  cd unit1
+  196  ls
+  197  cd command-line-murder-mystery
+  198  ls
+  199  cat instructions
+  200  ls
+  201  cd mystery
+  202  ls
+  203  head -n 20
+  204  cd Desktop
+  205  cd general_assembly
+  206  cd unit1
+  207  cd command-line-murder-mystery
+  208  cat instructions
+  209  cd mystery
+  210  ls
+  211  cat crimescene | grep all caps
+  212  cat crimescene
+  213  grep crimescene
+  214  cd Desktop
+  215  cd general_assembly
+  216  cd unit1
+  217  cd command-line-murder-mystery
+  218  ls
+  219  cat instructions
+  220  ls
+  221  cd mystery
+  222  ls
+  223  open crimescene
+  224  cd Desktop
+  225  cd general_assembly
+  226  cd unit1
+  227  cd command-line-murder-mystery
+  228  cat instructions
+  229  cd mystery
+  230  ls
+  231  open crimescene
+  232  head -n people
+  233  crimescene head -n people
+  234  ls
+  235  cd ..
+  236  ls
+  237  open hint1
+  238  head -n crimescene
+  239  ls
+  240  cd mystery
+  241  head -n crimescene
+  242  ls
+  243  head -n people
+  244  head -n 20 people
+  245  cd streets
+  246  ls
+  247  open hint2
+  248  cd ..
+  249  open hint2
+  250  cd mystery
+  251  grep "CLUE" crimescene
+  252  history
+  253  cd ..
+  254  ls
+  255  open hint3
+  256  cd mystery
+  257  ls
+  258  head -n people vehicles
+  259  head -n vehicles
+  260  head -n 20 vehichles
+  261  ls
+  262  open vehicles
+  263  head -n 10 vehicles
+  264  cd ..
+  265  open hint4
+  266  cd mystery
+  267  grep "Annabel" people
+  268  cd ..
+  269  ls
+  270  cat solution.txt
+  271  ls
+  272  cat instructions
+  273  cat solution
+  274  open solution.txt
+  275  ls
+  276  cat cheatsheet.md
+  277  cat instructions
+  278  cd mystery
+  279  grep "CLUE" crimescene
+  280  ls
+  281  cd ..
+  282  cat hint1
+  283  cd mystery
+  284  cat people
+  285  cd ..
+  286  cd mystery
+  287  grep "CLUE" crimescene
+  288  ls
+  289  cd memberships
+  290  ls
+  291  cd ..
+  292  ls
+  293  grep "maleE" crimescene
+  294  ls
+  295  grep "male" crimescene
+  296  grep "male" people
+  297  grep "AAA" memberships
+  298  cd memberships
+  299  cd ..
+  300  head -n male
+  301  head -n M
+  302  head -n people male
+  303  cd ..
+  304  cat hint1
+  305  head
+  306  cd Desktop
+  307  cd general_assembly
+  308  ls
+  309  cd unit1
+  310  cd command-line-murder-mystery
+  311  ls
+  312  cat hint1
+  313  head -n 50 people
+  314  grep "CLUE" crimescene
+  315  cd ..
+  316  cat instructions
+  317  cd mystery
+  318  grep "male" people
+  319  grep "M" people
+  320  grep "CLUE" crimescene
+  321  ls
+  322  cd interviews
+  323  ls
+  324  cd ..
+  325  grep "CLUE" crimescene
+  326  cd ..
+  327  ls
+  328  man grap
+  329  man grep
+  330  cd mystery
+  331  ls
+  332  grep "CLUE" interviews
+  333  grep -i "annabel" people
+  334  cd interviews
+  335  ls
+  336  cd..
+  337  cd ..
+  338  grep "CLUE" interviews
+  339  cd interviews
+  340  grep "CLUE" interviews
+  341  grep "CLUE"
+  342  cd Desktop
+  343  cd general_assembly
+  344  cd unit1
+  345  cd command-line-murder-mystery
+  346  cat instructions
+  347  cd mystery
+  348  ls
+  349  grep "CLUE" crimescene
+  350  cat hint1
+  351  cd ..
+  352  cat hint1
+  353  head -n people
+  354  head people
+  355  head people.txt
+  356  cat hint2
+  357  cathint3
+  358  cat hint3
+  359  ls
+  360  cd mystery
+  361  ls
+  362  head -n 10 people
+  363  ls
+  364  head -n 20 people
+  365  grep -n -C 5 "433" streets
+  366  ls
+  367  grep -n "433"
+  368  cd Desktop
+  369  cd general_assembly
+  370  cd unit1
+  371  cd command-line-murder-mystery
+  372  ls
+  373  cat instructions
+  374  cd mystery
+  375  ls
+  376  grep "CLUE" crimescene
+  377  ls
+  378  cd memberships
+  379  ls
+  380  cd ..
+  381  cd interviews
+  382  cat interview-699607
+  383  cd ..
+  384  ls
+  385  grep "CLUE" crimescene
+  386  cd ..
+  387  cat hint3
+  388  cat hint4
+  389  grep "Annabel" people
+  390  cd mystery
+  391  grep "Annabel" people
+  392  cd ..
+  393  cat hint5
+  394  cd mystery
+  395  head -n 173 streets/Mattapon_Street | tail -n 1
+  396  cd interviews
+  397  head -n 173 streets/Mattapon_Street | tail -n 1
+  398  head -n 173 streets/Mattapon_Street
+  399  head -n 173 streets/Mattapan_Street | tail -n 1
+  400  cd ..
+  401  ls
+  402  cd streets
+  403  head -n 173 streets/Mattapon_Street | tail -n 1
+  404  cd ..
+  405  cat hint5
+  406  cat hint6
+  407  cd mystery
+  408  grep "Annabel" people
+  409  cd ..
+  410  cat hint5
+  411  cd mystery
+  412  cd interviews
+  413  ls
+  414  cd ..
+  415  ls
+  416  streets
+  417  ls
+  418  head -n 173 streets/Mattapan_Street | tail -1
+  419  cd ..
+  420  grep "Annabel" people
+  421  cd interviews
+  422  head -n 173 streets/Mattapan_Street
+  423  head -n 173 streets/Mattapan_Street | tail 1
+  424  head -n 173 streets/Mattapan_Street | tail -1
+  425  head -n 173/Mattapan_Street |  -1
+  426  head -n 173/Mattapan_Street | tail -1
+  427  head -n 173 Mattapan_Street | -1
+  428  cd ..
+  429  grep "Annabel" people
+  430  cd ..
+  431  cat hint5
+  432  cat hint 6
+  433  cat hint6
+  434  cat hint 7
+  435  cat hint7
+  436  cd mystery
+  437  cd interviews
+  438  head -n 173 streets/Mattapan_Streets
+  439  cd ..
+  440  head -n 173 streets/Mattapan_Streets
+  441  head -n 173 streets/Mattapan_Streets | tail -n 1
+  442  cd interviews
+  443  head -n 173 streets/Mattapan_Streets | tail -n 1
+  444  head -n 173 streets/Mattapan_Street | tail -n 1
+  445  grep "CLUE"
+  446  cd Desktop
+  447  cd general_assembly
+  448  cd unit1
+  449  cd command-line-murder-mystery
+  450  grep "Annabel" people
+  451  cd mystery
+  452  grep "Annabel" people
+  453  ls
+  454  head -n 173 streets/Mattapan_Street | tail -n 1
+  455  cd interviews
+  456  cat interview-9437737
+  457  cd ..
+  458  head -n 179 streets/Buckingham_Place | tail -n 1
+  459  cd interviews
+  460  cat interview-699607
+  461  cd ..
+  462  cat hint6
+  463  cd mystery
+  464  grep "Honda" vehicles
+  465  cd ..
+  466  cat hint7
+  467  cd mystery
+  468  grep -A 5 "L337" mystery/vehicles
+  469  cd ..
+  470  grep -A 5 "L337" mystery/vehicles
+  471  cat hint8
+  472  cd mystery
+  473  grep "CLUE" crimescene
+  474  ls
+  475  cd memberships
+  476  ls
+  477  cd ..
+  478  cat hint6
+  479  cat hint7
+  480  grep -C  5 "L337" mystery/vehicles
+  481  cd mystery
+  482  grep "Jacqui Maher" people
+  483  cd ..
+  484  cat hint7
+  485  cat hint8
+  486  cd mystery
+  487  ls
+  488  cd memberships
+  489  cd ..
+  490  grep "CLUE" crimescene
+  491  cd memberships
+  492  ls
+  493  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "joe germuska"
+  494  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "jeremy bowers"
+  495  cd ..
+  496  cat hint9
+  497  ls
+  498  cd mystery
+  499  cd memberships
+  500  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy bowers"
+  501  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy bowers"
+  502  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep wc -l "Jeremy bowers"
+  503  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy bowers" | wc -l
+  504  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  505  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  506  cd ..
+  507  cd solution.txt
+  508  ls
+  509  git innit solution.txt
+  510  git init solution.txt
+  511  mkdir solution.txt
+  512  cd ~
+  513  Desktop
+  514  cd general_assembly
+  515  cd unit1
+  516  cd ~
+  517  Jeremy Bowers
+➜  ~
