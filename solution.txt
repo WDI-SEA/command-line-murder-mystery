@@ -1,0 +1,216 @@
+Jeremy Bowers is the murderer  
+
+
+git clone https://github.com/iwasnevergivenaname/command-line-murder-mystery.git
+   61  mkdir GA
+   62  cd GA
+   63  mkdir deliverable
+   64  ls
+   65  mv command-line-murder-mystery GA
+   66  cd ..
+   67  mv command-line-murder-mystery GA
+   68  ls
+   69  cd GA
+   70  ls
+   71  command-line-murder-mystery
+   72  cat command-line-murder-mystery
+   73  open command-line-murder-mystery
+   74  ls
+   75  cd ..
+   76  cat command-line-murder-mystery
+   77  cd command-line-murder-mystery
+   78  ls
+   79  cat instructions
+   80  ls
+   81  cd mystery
+   82  ls
+   83  cd crimescene
+   84  cat crimescene
+   85  cd ..
+   86  ls
+   87  cat command-line-murder-mystery
+   88  ls
+   89  cd desktop
+   90  ls
+   91  cd ga
+   92  ls
+   93  cd command-line-murder-mystery
+   94  ls
+   95  cat instructions
+   96  ls
+   97  cd desktop/ga/command-line-murder-mystery
+   98  ls
+   99  cd mystery
+  100  ls
+  101  cat crimescene
+  102  cd ..
+  103  ls
+  104  cd mystery
+  105  ls
+  106  cd interviews
+  107  ls
+  108  cd ..
+  109  ls
+  110  cat people
+  111  ls
+  112  cd memberships
+  113  ls
+  114  cat 1.txt
+  115  cat 2.txt
+  116  ls
+  117  cat aaa
+  118  ls
+  119  cat newfile.txt
+  120  ls
+  121  cat costco
+  122  ls
+  123  delta.txt
+  124  cat delta.txt
+  125  ls
+  126  cd ..
+  127  ls
+  128  cat vehicles
+  129  ls
+  130  cd streets
+  131  ls
+  132  cd ../..
+  133  ls
+  134  cat hint1
+  135  ls
+  136  mystery
+  137  grep "CLUE"
+  138  ls
+  139  cd desktop/ga/command-line-murder-mystery/mystery
+  140  ls
+  141  grep "CLUE" crimescene
+  142  cd interviews
+  143  ls
+  144  cat interview-4950099
+  145  grep "Annabel" interviews
+  146  cd..
+  147  cd ..
+  148  ls
+  149  grep "Annabel" interviews
+  150  cd memberships
+  151  ls
+  152  grep "Annabel" AAA, Delta_SkyMiles, library.txt, Museum_of_Bash_History
+  153  grep "Annabel" people
+  154  cd ..
+  155  grep "Annabel" people
+  156  cd streets
+  157  ls
+  158  cat Mattpan_Street
+  159  cat Buckingham_Place
+  160  cat Glenville_Avenue
+  161  cd ..
+  162  ls
+  163  grep "Annabel" vehicles
+  164  grep "Church" AAA, Delta_SkyMiles, library.txt, Museum_of_Bash_History
+  165  cd ..
+  166  ls
+  167  cat hint2
+  168  cat hint3
+  169  ls
+  170  cd mystery
+  171  ls
+  172  head people
+  173  cd streets
+  174  ls
+  175  ls | sed -n 173p
+  176  ls Matta* | sed -n 173p
+  177  ls Mattapan_Street | sed -n 173p
+  178  ls Mattapan_Street
+  179  ll
+  180  sed -n '173p' < Mattapan_Street
+  181  sed -n '179p' < Buckingham_Place
+  182  cd ..
+  183  ls
+  184  cat interviews/interview_9437737
+  185  cd interviews
+  186  ls
+  187  cat interview-9437737
+  188  cat interview-699607
+  189  cd ..
+  190  ls
+  191  grep "Honda" vehicles
+  192  cat vehicles
+  193  grep "L337**9" vehicles
+  194  grep "L337" vehicles
+  195  grep "L337" && "Honda" vehicles
+  196  ls
+  197  grep "L337|Honda" vehicles
+  198  grep "L337ZR9" vehicles
+  199  sed -n '179p' < Buckingham_Placegrep
+  200  head -n 6 "L337" vehicles
+  201  cd vehicles
+  202  vehicles
+  203  ls
+  204  cat vehicles
+  205  grep 'Honda|L337' vehicles
+  206  grep -e 'Honda' -e 'L337' vehicles
+  207  grep -e 'Honda' -e 'L337' -e '6' vehicles
+  208  grep -e 'Honda' -e 'L337' -e '6' -e 'blue' vehicles
+  209  grep -e 'Honda' -e 'L337' -e '6'' -e 'blue' vehicles\n\ngrep -e 'Honda' -e 'L337' -e '6' -e 'blue' vehicles
+  210  grep -e 'Honda' -e 'L337' -e 'blue' vehicles
+  211  grep -e 'L337' -e 'blue' vehicles
+  212  grep "blue" vehicles
+  213  cat vehicles
+  214  grep "Color: Blue" vehicles
+  215  grep -e 'Blue' -e 'L337' vehicles
+  216  LS
+  217  cd memberships
+  218  ls
+  219  grep "Erika" Delta_SkyMiles, Museum_of_Bash_History, library.txt, AAA
+  220  grep "Joe" Delta_SkyMiles, Museum_of_Bash_History, library.txt, AAA
+  221  grep "Jeremy" Delta_SkyMiles, Museum_of_Bash_History, library.txt, AAA
+  222  grep "Jacqui" Delta_SkyMiles, Museum_of_Bash_History, library.txt, AAA
+  223  cat Delta_SkyMiles
+  224  grep "Joe" Delta_SkyMiles
+  225  cd ..
+  226  cat hint4
+  227  ls
+  228  cd ..
+  229  cat hint4
+  230  cat hint5
+  231  cat hint6
+  232  cat hint7
+  233  cat hint8
+  234  ls
+  235  cat cheatsheet.pdf
+  236  cd desktop/ga/command-line-murder-mystery
+  237  ls
+  238  cd mystery
+  239  cd ..
+  240  cat hint7
+  241  grep -A 5 "L337" mystery/vehicles
+  242  cat hint6
+  243  cat hint5
+  244  cat hint8
+  245  cd mystery/memberships
+  246  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Erika"
+  247  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Joe"
+  248  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy"
+  249  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jacqui"
+  250  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Aron"
+  251  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Heather"
+  252  cd ..
+  253  ls
+  254  grep "Jeremy" people
+  255  grep "Jacqui" people
+  256  cd streets
+  257  sed -n '284p' < Dunstable_Road
+  258  cd ..
+  259  ls
+  260  cd interviews
+  261  cat interview-9620713
+  262  cd ..
+  263  sed -n '224p' < Andover_Road
+  264  cd streets
+  265  sed -n '224p' < Andover_Road
+  266  cd ../interviews
+  267  cat interview-904020
+  268  cd ..
+  269  ls
+  270  cd ..
+  271  touch solution.txt
+  272  ls
