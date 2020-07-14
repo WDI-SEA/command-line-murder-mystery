@@ -1,0 +1,95 @@
+  1. 
+  315 cd command-line-murder-mystery
+  316 ls
+  317 cat instructions
+  318  cd ..
+  319  man grap
+  320  man grep
+  321  ls
+  322  cd mystery
+  323  ls
+  324  man grep
+  325  grep CLUE interviews
+  326  grep interviews
+  327  open interviews
+  328  cd interviews
+  329  grep CLUE
+  330  ls
+  331  ls -a
+  332  cd ..
+  333  ls
+  334  grep -rl "CLUE" /interviews
+  335  grep -rl "CLUE"
+  336  grel -l "CLUE" .
+  337  cd interviews
+  338  grep -l "CLUE" .
+  339  grep -rl "CLUE" .
+  340  grep -Hr "CLUE" .
+  341  grep -Hrl "CLUE" .
+  342  grep -Hrln "CLUE" .
+  343  cd ..
+  344  ls
+  345  cd ..
+  346  ls
+  347  open cheatsheet.pdf
+  348  cd mystery
+  349  ls
+  350  cd interviews
+  351  grep "CLUE" *
+  352  code .
+  353* open .
+  354* code .
+  355  grep "CLUE" .
+  356  cd ..
+  357  ls
+  358  grep "CLUE" crimescene
+  359  cd interviews
+  360  grep "CLUE"
+  361  cd ..
+  362  ls
+  363  cd people
+  364  cat people
+  365  grep "annabel"
+  366  grep "annabel" people
+  367  grep -c "annabel" people
+  368  grep -l "annabel" people
+  369  ls
+  370  grep -l "annabel" people.txt
+  371  grep "annabel" people
+  372  grep -i "annabel" people
+  373  ls
+  374  cd streets
+  375  ls
+  376  cd ..
+  377  ls
+  378  grep "CLUE" crimescene
+  379  ls
+  380  grep -i "annabel" people
+  381  cd interviews
+  382  cat interview-699607
+  383  cat interview-47246024
+  384  cd .
+  385  cd ..
+  386  ls
+  387  cd interviews
+  388  cd ..
+  389  grep -i "L337" vehicles
+  390  grep -iA "L337" vehicles
+  391  grep -i -A "L337" vehicles
+  392  grep -A "L337" vehicles
+  393  grep -A 5 "L337" vehicles
+  394  head -n 20 vehicles
+  395  ls
+  396  cd memverships
+  397  cd memberships
+  398  ls
+  399  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "joe germuska"
+  400  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "jeremy bowers"
+  401  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  402  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  403  cd ..
+  404  ls
+
+
+
+2. Jeremy Bowers
