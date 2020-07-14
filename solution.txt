@@ -1,2 +1,87 @@
-1.The commands you used to get the solution (hint: run history for a list of the commands you ran).
-2.The name of the killer
+  229  open cheatsheet.
+  230  ls
+  231  cd document
+  232  cd ..
+  233  open command-line-murder-mystery
+  234  cd command-line-murder-mystery
+  235  nano cheatsheet.md
+  236  cd ..
+  237  open command-line-murder-mystery
+  238  cd command-line-murder-mystery
+  239  grep bash_museum
+  240  cd ..
+  241  open command-line-murder-mystery
+  242  cd command-line-murder-mystery
+  243  grep CLUE crimescene
+  244  cat interviews
+  245  cd ..
+  246  open command-line-murder-mystery
+  247  cd command-line-murder-mystery
+  248  head
+  249  'head'
+  250  head -n 20 people
+  251  cat intructions
+  252  cd ..
+  253  cat command-line-murder-mystery
+  254  ls
+  255  cd command-line-murder-mystery
+  256  cat hint1
+  257  cat hint2
+  258  cat hint3
+  259  hint4
+  260  cat hint4
+  261  history
+  262  grep Annabel people
+  263  head -n 173 streets/Mattapan_Street | tail -n 1
+  264  cat head -n 173 streets/Mattapan_Street | tail -n 1
+  265  cd head -n 173 streets/Mattapan_Street | tail -n 1
+  266  grep head -n 173 streets/Mattapan_Street | tail -n 1
+  267  cd mystery/
+  268  head -n 173 streets/Mattapan_Street | tail -n 1
+  269  cd ..
+  270  cd crimsescene
+  271  cd crimescene
+  272  head crimescene
+  273  cat hint1
+  274  cd mystery
+  275  ls
+  276  head crimescene
+  277  cat crimescene
+  278  grep CLUE crimescene
+  279  cat people
+  280  grep Annabel people
+  281  grep Honda vehichle
+  282  cd interview
+  283  ls
+  284  cd interviews
+  285  head -n 173 streets/Mattapan_Street | tail -n 1
+  286  cd ..
+  287  head -n 173 streets/Mattapan_Street | tail -n 1
+  288  cd interview
+  289  cd interviews
+  290  cat #9437737
+  291  cat INTERVIEW #9437737
+  292  cat interviews-9437737
+  293  cat interview-9437737
+  294  cd ..
+  295  cd vehicle
+  296  cd vehicles
+  297  ls
+  298  cd vehicles
+  299  cat vehicle
+  300  cat vehicles
+  301  cd vehicles
+  302  head vehicles
+  303  grep Blue vehicles
+  304  grep L337 vehicles
+  305  grep  Honda Blue L337 vehicles
+  306  head vehicles
+  307  head Honda vehicles
+  308  head -Honda vehicles
+  309  head grep Honda vehicles
+  310  head -Honda vehicles
+  311  grep -A 5 L337 mystery/vehicles
+
+  312  grep -B 5 L337 mystery/vehicles
+
+  313  cd ..
