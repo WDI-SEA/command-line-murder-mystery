@@ -1,0 +1,166 @@
+   73  git init
+   74  git clone https://github.com/mgustavob/command-line-murder-mystery.git
+   75  ls
+   76  cd command-line-murder-mistery
+   77  cd command-line-murder-mystery
+   78  ls
+   79  cat instructions
+   80  ls
+   81  cd mystery
+   82  ls
+   83  cat crimescene
+   84  ls
+   85  cat people
+   86  cat vehicles
+   87  ls
+   88  ls interbiews
+   89  cd interviews
+   90  ls
+   91  cd..
+   92  cd ..
+   93  ls
+   94  cd ..
+   95  ls
+   96  cat hint1
+   97  cd people
+   98  ls
+   99  cd mystery
+  100  cd people
+  101  ls
+  102  head n -20 people
+  103  cd ..
+  104  ls
+  105  cat cheatsheet.md
+  106  ls
+  107  cd mystery
+  108  ls
+  109  cd interviews
+  110  ls
+  111  greg "clue" inter*
+  112  grep "CLUE" *
+  113  grep "CLUE" inter*.*
+  114  grep "CLUE" interview-583571
+  115  cd ..
+  116  grep "CLUE" /interviews
+  117  grep "CLUE" /interviews/*
+  118  ls
+  119  cd interviews
+  120  grep -win -C 2 "CLUE" ./*
+  121  cd ..
+  122  grep -win -C 2 "CLUE" ./*
+  123  ls
+  124  grep -win "male" "6" people.txt
+  125  grep -win "male" "6" people
+  126  cat people
+  127  cd ..
+  128  ls
+  129  cd mystery
+  130  ls
+  131  cd membership
+  132  cd memberships
+  133  ls
+  134  cd ..
+  135  grep -win -C 2 "CLUE" ./*.txt
+  136  grep -win -C 2 "CLUE" ./*.
+  137  grep -win -C 2 "CLUE" ./*
+  138  grep -winr -C 2 "CLUE" ./
+  139  ls
+  140  cd ..
+  141  ls
+  142  cat hint1
+  143  cat hint2
+  144  cat hint3
+  145  grep -winr -C 2 "CLUE" ./
+  146  cat hint3
+  147  grep -winr -C 2 "annnabel" ./
+  148  ls
+  149  cat hint4
+  150  ls
+  151  cd mystery
+  152  ls
+  153  greg -win "annabel" people
+  154  grep -win "annabel" people
+  155  cd ..
+  156  ls
+  157  cat hin5
+  158  cat hint5
+  159  head -n 173 streets/Mattapan_Street | tail -n 1
+  160  ls
+  161  cd mystery
+  162  head -n 173 streets/Mattapan_Street | tail -n 1
+  163  cat interview#9437737
+  164  ls
+  165  cd interviews
+  166  ls
+  167  cat interview-9437737
+  168  cd ..
+  169  ls
+  170  cd ..
+  171  cat hint5
+  172  grep -win "annabel" .
+  173  grep -winr "annabel" .
+  174  cd mystery
+  175  head -n 40 streets/Hart_Place | tail-n 1
+  176  head -n 40 streets/Hart_Place | tail -n 1
+  177  head -n 179 streets/Buckingham_Place | tail -n 1
+  178  ls
+  179  cd interviews
+  180  ls
+  181  cat interview-47246024
+  182  cat interview-699607
+  183  ls
+  184  cd ..
+  185  ls
+  186  greg -win "l337" vehicles
+  187  grep -win "l337" vehicles
+  188  grep -win "l337" .
+  189  grep -win "L337" ./
+  190  cd..
+  191  cd ..
+  192  grep -win "L337" ./
+  193  grep -win "L337" .
+  194  grep -in "L337" .
+  195  ls
+  196  cd mystery
+  197  ls
+  198  grep -i "L337" vehicles
+  199  grep -i -C 1 "L337" vehicles
+  200  grep -i -C 3 "L337" vehicles
+  201  grep -i -C 5 "L337" vehicles
+  202  grep -i -C 9 "L337" vehicles
+  203  grep -i -A 5 "L337" vehicles
+  204  cd
+  205  ..
+  206  ls
+  207  cd nataliiadusanovska
+  208  ..
+  209  cd nataliiadusanovska
+  210  pwd
+  211  ls
+  212  cd documents
+  213  ls
+  214  cd ga
+  215  ls
+  216  cd assigm
+  217  ls
+  218  cd 3-14
+  219  ls
+  220  cd command-line-murder-mystery
+  221  ls
+  222  cat hint 6
+  223  cat hint6
+  224  cat hint7
+  225  cat hint8
+  226  ls
+  227  cd mystery
+  228  ls
+  229  cd memberships
+  230  ls
+  231  cat AAA Delta_SkyMiles Museam_of_Bash_History Terminal_City_Library | grep-in "Joe Germuska"
+  232  cat AAA Delta_SkyMiles Museam_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  233  cat AAA Delta_SkyMiles Museam_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  234  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  235  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  236  cd ..
+  
+  Jeremy Bowers
