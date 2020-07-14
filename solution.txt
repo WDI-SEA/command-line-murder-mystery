@@ -1,0 +1,2 @@
+1.The commands you used to get the solution (hint: run history for a list of the commands you ran) 2.
+The name of the killer.
