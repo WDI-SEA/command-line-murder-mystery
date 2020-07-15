@@ -1,0 +1,37 @@
+1. Commands used to get the solution:
+	cd Desktop
+	cd GA-SEIR-bootcamp/
+	cd homework/
+	cd command-line-murder-mystery/
+	cat crimescene | grep "CLUE"
+	cat people | grep Annabel
+	cd streets
+	ls
+	head -n 40 Hart_Place
+	head -n 179 Buckingham_Place
+	cd ..
+	cd interviews/
+	cat interview-47246024
+	cat interview-699607
+	cd ..
+	cat vehicles
+	cat vehicles | grep L33 -A5
+	cat vehicles | grep L33 -A5 | grep Honda -A4 -B1
+	cat vehicles | grep L33 -A5 | grep Honda -A4 -B1 | grep Blue -A3 -B2 | grep "Height: 6" -A1 -B4
+	cat people | grep Jeremy
+	cat people | grep Jacqui
+	cat people | grep Jeremy
+	cat people | grep Erika
+	cat people | grep Joe
+	cd memberships/
+	ls
+	cat AAA | grep Joe
+	cat AAA | grep Jeremy
+	cat Delta_SkyMiles | grep Joe
+	cat Delta_SkyMiles | grep Jeremy
+	cat library.txt | grep Jeremy
+	cat Museum_of_Bash_History | grep Jeremy
+	cat people | grep Jeremy
+
+2. The name of the killer is:
+	Jeremy Bowers
