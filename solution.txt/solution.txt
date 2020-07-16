@@ -1,0 +1,609 @@
+  275  general_assembly
+  276  ls
+  277  command-line-murder-mystery
+  278  ls
+  279  cat instructions
+  280  cd
+  281  ls
+  282  document
+  283  documents
+  284  ls
+  285  general_assembly
+  286  ls
+  287  command-line-murder-mystery
+  288  cat instructions
+  289  ls
+  290  mystery
+  291  ls
+  292  interviews
+  293  ls
+  294  cd ..
+  295  ls
+  296  streets
+  297  ls
+  298  crimescene
+  299  ls
+  300  cd ..
+  301  ls
+  302  cd ..
+  303  ls
+  304  hint1
+  305  cat hint1
+  306  head
+  307  ls
+  308  cat hint2
+  309  ls
+  310  mystery
+  311  ls
+  312  head
+  313  ls
+  314  mystery
+  315  ls
+  316  crimescene
+  317  ls
+  318  membership
+  319  memberships
+  320  ls
+  321  hint2
+  322  ls
+  323  cd ..
+  324  ls
+  325  hint3
+  326  cat hint3
+  327  cd ..
+  328  ls
+  329  head people
+  330  cd ..
+  331  ls
+  332  mystery
+  333  ls
+  334  cat streets
+  335  streets
+  336  ls
+  337  cat Walton Street
+  338  Walton Street
+  339  ls
+  340  cat Walton_Street
+  341  Walton_street
+  342  ls
+  343  find walton_street
+  344  ls
+  345  cat hint2
+  346  mystery
+  347  ls
+  348  cat crimescene
+  349  grep CRIME
+  350  cd ..
+  351  ls
+  352  cd ..
+  353  ls
+  354  cat hint1
+  355  ls
+  356  mystery
+  357  ls
+  358  cat people
+  359  head -n 20 people
+  360  cd ..
+  361  ls
+  362  cat hint2
+  363  mystery
+  364  ls
+  365  cat crimescene
+  366  ls
+  367  documents
+  368  ls
+  369  general_assembly
+  370  ls
+  371  command-line-murder-mystery
+  372  ls
+  373  cat instructions
+  374  ls
+  375  mystery
+  376  ls
+  377  pwd
+  378  cd general_assembly
+  379  cd ..
+  380  mkdir clues.txt
+  381  ls
+  382  clues.txt
+  383  -A "6' tall male, AAA, delta skymiles, blonde woman left right before shots, name annabel"
+  384  cd general_assembly
+  385  cd ..
+  386  ls
+  387  clues.txt
+  388  cd ..
+  389  rm clues.txt
+  390  rm
+  391  ls
+  392  rm cles.txt
+  393  rm clues.txt
+  394  rm
+  395  clues.txt
+  396  rm
+  397  unlink
+  398  delete
+  399  remove
+  400  clear
+  401  cd ..
+  402  touch clues.txt
+  403  ls
+  404  clues.txt
+  405  ls
+  406  echo "perp 6' male. No ID, AAA, Delta skymiles, & bash history museum. Woman left before gunshots, Blonde spikey hair, New Zealand Accent name: Annabel"
+  407  ls
+  408  cd mystery
+  409  cd ..
+  410  ls
+  411  command-line-murder-mystery
+  412  ls
+  413  cat hint7
+  414  mystery
+  415  ls
+  416  grep -A 5 "L337" mystery/vehicles
+  417  cat vehicles
+  418  grep -A 5 "L337" mystery/vehicles
+  419  grep -A 5 "L337"
+  420  grep -A 5
+  421  cat vehicles
+  422  grep -A 5
+  423  cat vehicles
+  424  grep -A 5 "L337" mystery/vehicles
+  425  cat vehicles
+  426  grep -A 5 "L337"
+  427  cd ..
+  428  ls
+  429  cat cheatsheet.md
+  430  ls
+  431  cat instructions
+  432  ls
+  433  cat hint8
+  434  mystery
+  435  ls
+  436  memberships
+  437  \tcat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  438  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -1
+  439  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  440  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "annabelh" | wc -l
+  441  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel" | wc -l
+  442  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"
+  443  ls
+  444  cat Delta_SkyMiles
+  445  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"
+  446  cd ..
+  447  ls
+  448  cat interviews
+  449  interviews
+  450  ls
+  451  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"
+  452  cd ..
+  453  Cat crimescene
+  454  ls
+  455  grep CLUE mystery
+  456  cd ..
+  457  ls
+  458  mystery
+  459  grep CLUE
+  460  grep "CLUE" crimescene
+  461  head mystery/people -n20
+  462  mystery
+  463  ls
+  464  cat people
+  465  head -n20
+  466  head - 20
+  467  head -n 20
+  468  ls
+  469  cat people
+  470  cd ..
+  471  ls
+  472  cat hint1
+  473  mystery
+  474  ls
+  475  cat people
+  476  head -n 20 people
+  477  ls -la
+  478  cd ..
+  479  mystery
+  480  cat people
+  481  head - n 20 people
+  482  ls
+  483  cat vehicles
+  484  head - n 1 people
+  485  grep "dato rosengren"
+  486  ls
+  487  cat vehicles
+  488  grep "Dato" vehicles
+  489  grep "Dato" vehicles -la
+  490  -la
+  491  ls
+  492  cat vehicles
+  493  -B 1 VEHICLES
+  494  -n 1 VEHICLES
+  495  -n 1 vehicles
+  496  -b1 vehicles
+  497  cat vehicles
+  498  cd ..
+  499  cat hint3
+  500  head "Annabel" >> cat vehicles
+  501  mystery
+  502  ls
+  503  cat people
+  504  head 'Annabel'
+  505  ls
+  506  cat crimescene
+  507  grep 'CLUE'
+  508  grep 'CLUE' crimescene
+  509  ls mystery
+  510  cd ..
+  511  mystery
+  512  ls
+  513  memberships
+  514  ls
+  515  cat Delta_SkyMiles
+  516  head 'Annabel'
+  517  cd..
+  518  cd
+  519  cd ..
+  520  documents
+  521  pwd
+  522  ls
+  523  documents
+  524  folders
+  525  general_assembly
+  526  ls documents
+  527  ls general_assembly
+  528  ls
+  529  shared
+  530  ls
+  531  cd ..
+  532  ls
+  533  Guest Malik
+  534  ls
+  535  Guest
+  536  ls
+  537  documents
+  538  cd ..
+  539  Malik
+  540  ls
+  541  documents
+  542  ls
+  543  general_assembly
+  544  ls
+  545  command-line-murder-mystery
+  546  mystery
+  547  ls
+  548  crimescene
+  549  cat crimescene
+  550  grep 'CLUE' crimescene
+  551  ls
+  552  memberships
+  553  ls
+  554  cat AAA
+  555  grep 'CLUE' memberships
+  556  cd ..
+  557  cat people
+  558  head -n 20 people
+  559  head -n 183 people vehicles
+  560  head -n 183 vehicles people interviews
+  561  grep 'CLUE' vehicles people interviews memberships
+  562  grep 'CLUE' vehicles people
+  563  ls
+  564  -la
+  565  interviews
+  566  ls
+  567  grep 'CLUE' interviews
+  568  grep 'CLUE' INTERVIEW
+  569  grep 'CLUE' interview
+  570  interviews
+  571  head - n 10 interviews
+  572  head -n 10 interviews
+  573  cd ..
+  574  ls
+  575  cd ..
+  576  cat hint3
+  577  cat hint4
+  578  mystery
+  579  cat people
+  580  \tgrep "Annabel" people
+  581  cd ..
+  582  cat hint5
+  583  ls
+  584  interviews
+  585  head -n 173 streets/Mattapan_Street | tail -n 1
+  586  Oluwasegun Annabel M       37      Mattapan Street, line 173        head -n 173 streets/Mattapan_Street | tail
+  587  head -n 173 streets/Mattapan_Street | tail -n 1
+  588  cd ..
+  589  ls
+  590  streets
+  591  head -n 173 streets/Mattapan_Street | tail -n 1
+  592  mystery
+  593  cd ..
+  594  head -n 173 streets/Mattapan_Street | tail -n 1
+  595  interviews
+  596  #9437737
+  597  ls
+  598  find #9437737
+  599  cat interview-9437737
+  600  mystery
+  601  head -n 173 streets/Mattapan_Street | tail -n 1
+  602  interviews
+  603  cat interview-9437737
+  604  cd ..
+  605  people
+  606  cat people
+  607  grep 'Annabel' people
+  608  head -n 179 streets/Buckingham_Place | tail -n 1
+  609  interview
+  610  interviews
+  611  cat interview-#699607
+  612  cat interview-699607
+  613  Buckingham Place, line 179
+  614  blue honda lp 'L337'
+  615  cd ..
+  616  cat vehicles
+  617  grep 'L337' vechicles
+  618  cd ..
+  619  cat hint6
+  620  mystery
+  621  cat vehicles
+  622  head 'l337' vehicles
+  623  -la
+  624  ls
+  625  cat vehicles
+  626  head 'blue' vehicles
+  627  cd ..
+  628  cat hint6
+  629  head 'honda' vehicles
+  630  grep 'blue' vehicles
+  631  ls
+  632  cat
+  633  cat vehicles
+  634  grep "honda" vehicles
+  635  ls
+  636  cat vehicles
+  637  cat hint7
+  638  grep -A 5 'l337' mystery/vehicles
+  639  cat vehicles
+  640  grep -A 5 "L337" mystery/vehicles
+  641  grep -A 5 "honda" mystery/vehicles
+  642  grep -A 5 "blue" mystery/vehicles
+  643  grep -b 5 "blue" mystery/vehicles
+  644  grep -B 5 "blue" mystery/vehicles
+  645  grep -B 5 "Honda" mystery/vehicles
+  646  cat hint8
+  647  grep -C 5 "Honda" mystery/vehicles
+  648  grep -A 5 "Honda" mystery/vehicles
+  649  grep -A 5 "L337" mystery/vehicles
+  650  grep -B 5 "L337" mystery/vehicles
+  651  grep -C 5 "L337" mystery/vehicles
+  652  cd ..
+  653  cat hint7
+  654  grep -A 5 "L337" mystery/vehicles
+  655  grep -A 5 "honda" mystery/vehicles
+  656  grep -B 5 "honda" mystery/vehicles
+  657  LS
+  658  grep -A 5 "L337" mystery/vehicles
+  659  ls
+  660  mystery
+  661  memberships
+  662  ls
+  663  cd ..
+  664  cat AAA Delta_SkyMiles | grep "jeremy"
+  665  cat AAA Delta_SkyMiles | grep "matt"
+  666  grep -A 5 "Blue Honda" mystery/vehicles
+  667  ls
+  668  grep -A 5 "Blue" mystery/vehicles
+  669  grep -A 5 "honda" "blue" mystery/vehicles
+  670  grep -A 5 "Honda" mystery/vehicles
+  671  grep -A 5 "blue" mystery/vehicles
+  672  grep -C 5 "blue" mystery/vehicles
+  673  grep -B 5 "blue" mystery/vehicles
+  674  grep -A 5 "L337" mystery/vehicles
+  675  blue honda lp 'L337' 'ends with 9\nLicense Plate L337QE9\nMake: Honda\nColor: Blue\nOwner: Erika Owens\nHeight: 6'5"\nWeight: 220 lbsLicense Plate L337DV9\nMake: Honda\nColor: Blue\nOwner: Joe Germuska\nHeight: 6'2"\nWeight: 164 lbs
+  676  cat hint8
+  677  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  678  mystery
+  679  memberships
+  680  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  681  ls
+  682  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  683  \n        cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  684  \n        cat Fitness_Galaxy AAA Delta_SkyMiles | grep "John Smith" | wc -1
+  685  \n        cat Fitness_Galaxy AAA Delta_SkyMiles | grep "John Smith" | wc -5
+  686  \n        cat Fitness_Galaxy AAA Delta_SkyMiles | grep "John Smith" | wc -10
+  687  \n        cat Fitness_Galaxy AAA Delta_SkyMiles | grep "John Smith" | wc -30
+  688  cd ..
+  689  \n        cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  690  cat Fitness_Galaxy AAA Delta_SkyMiles | grep "John Smith" | wc -1
+  691  cat hint9
+  692  cat hint8
+  693  cat Fitness_Galaxy AAA Delta_SkyMiles | grep "John Smith" | wc
+  694  mystery
+  695  memberships
+  696  ls
+  697  cd ..
+  698  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Bowersh" | wc
+  699  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Bowersh" | wc -1
+  700  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Bowersh" | wc -l
+  701  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Joe" | wc -l
+  702  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Erika" | wc -l
+  703  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "John Smith" | wc -l
+  704  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "John Smith"
+  705  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Joe""
+  706  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Joe"
+  707  cat hint8
+  708  ls
+  709  cat cheatsheet.pdf
+  710  cat hint7
+  711  cat hint8
+  712  interviews
+  713  cat hint6
+  714  cat hint5
+  715  grep "blue" vehicles
+  716  head -n 173 streets/Mattapan_Street | tail -n 1
+  717  mystery
+  718  head -n 173 streets/Mattapan_Street | tail -n 1
+  719  grep "blue" vehicles
+  720  head -n 173 streets/Mattapan_Street | tail -n 1
+  721  interview-9437737
+  722  https://github.com/WDI-SEA/command-line-murder-mystery.git
+  723  cd ..
+  724  https://github.com/WDI-SEA/command-line-murder-mystery.git
+  725  git status
+  726  git add cat
+  727  git status
+  728  git diff
+  729  git status
+  730  cat hint6
+  731  grep 'CLUE' interviews
+  732  grep 'CLUE' vehicles
+  733  mystery
+  734  grep 'CLUE' interviews
+  735  grep 'CLUE' vehicles
+  736  ls
+  737  vehicles
+  738  cat vehicles
+  739  grep 'CLUE'
+  740  grep 'CLUE' vehicles
+  741  mystery
+  742  history
+  743* cd
+  744* ls
+  745* desktop
+  746* ls
+  747* cd ..
+  748* documents
+  749* ls
+  750* cd
+  751* ls
+  752* documents
+  753* ls
+  754* genera_assembly
+  755* general_assembly
+  756* ls
+  757* command-line-murder-mystery
+  758* git remote -v
+  759* git remote add upstream https://github.com/turnbullm29/command-line-murder-mystery.git
+  760* git o
+  761* git remote -v
+  762* git fetch upstream
+  763* git merge upstream/master
+  764* git add
+  765* git add .
+  766* git commit -m "add existing file"
+  767* git config --global --edit
+  768* git coomit
+  769* git commit
+  770* ls
+  771* mystery
+  772* ls
+  773* cat crimewscene
+  774* cat crimescene
+  775* grep "CLUE" crimescene
+  776* -la
+  777* ls
+  778* head 'honda' - 20 vehivles
+  779* head 'honda' - 20 vehicles
+  780* head 'honda' -n 20 vehicles
+  781* cd ..
+  782* ls
+  783* cat hint2
+  784* git add .
+  785* git commit
+  786* git commit -m
+  787* git commit -m 'solution text'
+  788* git push orignin master
+  789* git push origin master
+  790* solution.txt
+  791* ls
+  792* cat solution.txt
+  793  pwd
+  794  documents
+  795  ls
+  796  general_assembly
+  797  ls
+  798  command-line-murder-mystery
+  799  git push origin master
+  800  git commit -m "history'
+  801  git commit 'history'
+  802  history
+  803  git push --history
+  804  git push --repo
+  805  git push --'repo'
+  806  history
+  807  git remote add origin
+  808  git remote add origin https://github.com/turnbullm29/command-line-murder-mystery.git
+  809  git push -u origin
+  810  git push -u origin master
+  811  git command --amend
+  812  gi commit --amend
+  813  git commit --amend
+  814  git log
+  815  git clone https://github.com/turnbullm29/command-line-murder-mystery.git
+  816  touch file.txt
+  817  git add .
+  818  git rm --cached command-line-murder-mystery
+  819  git status
+  820  git pull
+  821  cat instructions
+  822  cd mystery
+  823  ls
+  824  cat crimescene
+  825  grep 'CLUE' crimescene
+  826  ls
+  827  cat people
+  828  grep annabel people
+  829  grep Annabel poeple
+  830  grep Annabel people
+  831  ls
+  832  cd streets
+  833  head -n 40 hart_place
+  834  sed -n '40p' < hart_place
+  835  sed n- '179p' < buckingham_place
+  836  sed -n '179p' < buckingham_place
+  837  ..
+  838  ls
+  839  interviews
+  840  cat interview-47246024
+  841  cat interview-699307
+  842  cat interview-699607
+  843  ls
+  844  ..
+  845  cat vehicles
+  846  cat vehicles | grep Honda -A 4 -B 1
+  847  grep L337
+  848  cat vehicles | grep L337 vehicles
+  849  cat vehicles | grep L337 vehicles -A 5
+  850  cat vehicles | grep L337 vehicles -A 4 -B 1 | grep "color: blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height 6" -A 1 -B 4
+  851  cat vehicles | grep L337 vehicles -A 4 -B 1 | grep "Color: blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height 6" -A 1 -B 4
+  852  cat vehicles | grep L337 vehicles -A 4 -B 1 | grep "Color: blue" -A 3 -B 2 | grep L337 -A 5
+  853  cd memberships
+  854  ls
+  855  cat people | grep joe germuska
+  856  cat people | grep bowers
+  857  grep bowers
+  858  cat terminal_city_library
+  859  grep "joe germuska"
+  860  grep "joe germuska" Terminal_City_Library AAA
+  861  echo "Annabel" > solution,txt
+➜  memberships git:(master) ✗ git push solution.txt
+fatal: 'solution.txt' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+➜  memberships git:(master) ✗ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Malik@Maliks-MBP.(none)')
+➜  memberships git:(master) ✗ git add . solution.txt
+fatal: pathspec 'solution.txt' did not match any files
+➜  memberships git:(master) ✗
