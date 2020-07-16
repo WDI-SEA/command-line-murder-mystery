@@ -1,0 +1,58 @@
+  178  ls
+  179  cd command-line-murder-mystery
+  180  ls
+  181  touch solution.txt
+  182  ls
+  183  git add .
+  184  git status
+  185  git commit -m "Add solution.txt"
+  186  git push
+  187  ls
+  188  mystery
+  189  ls
+  190  cat crimescene
+  191  cd ..
+  192  ls
+  193  cd mystery
+  194  ls
+  195  grep "CLUE" crimescene
+  196  head -n 20 people
+  197  grep "Annabel" people
+  198  head -n 173 streets/Mattapan_Street | tail -n 1
+  199  head -n 20 vehicle
+  200  head -n 20 vehicles
+  201  grep "Blue" vehicles
+  202  grep -A 5 "L337" mystery/vehicles
+  203  grep -A 5 "L337" vehicles
+  204  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  205  ls
+  206  street
+  207  streets
+  208  ls
+  209  sed -n "40p" < Hart_Place
+  210  sed -n "179p" < Buckingham_Place
+  211  ..
+  212  cd interview
+  213  ls
+  214  interviews
+  215  ls
+  216  cat interview-47246024
+  217  cat interview-699607
+  218  ..
+  219  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height:6" -A1 -B 4
+  220  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height:6" -A 1 -B 4
+  221  ls
+  222  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5
+  223  cat vehicles | grep Honda -A 4 -B 1 | grep "Color: Blue" -A 3 -B 2 | grep L337 -A 5 | grep "Height: 6" -A 1 -B 4
+  224  memberships
+  225  grep Erika Owens
+  226  ls
+  227  cat AAA Museum_of_Bash_History Terminal_City_Library | grep Erika Owens
+  228  cat AAA Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  229  cat AAA Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  230  cat AAA Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  231  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles| grep "Jacqui Maher"
+  232  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles| grep "Jeremy Bowers"
+  233
+
+The killer is Jeremy Bowers.
