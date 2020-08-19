@@ -1,0 +1,297 @@
+1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    2  $ brew install git
+    3  brew install git
+    4  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\n
+    5  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\n
+    6  brew help
+    7  brew install git
+    8  git --version
+    9  pwd
+   10  ls
+   11  cd Desktop
+   12  cd GA-Blogs
+   13  cd GA-Blog
+   14  pwd
+   15  cd ~
+   16  pwd
+   17  ls
+   18  cd Desktop
+   19  mkdir GA-Blog
+   20  cd GA-Blog
+   21  l
+   22  ls
+   23  git init
+   24  ls
+   25  pwd
+   26  ls -a
+   27  git status
+   28  touch my-first-post.txt
+   29  git status
+   30  git add my-first-post.txt
+   31  git status
+   32  git commit -m "created a new post.txt file"
+   33  git log
+   34  cd ..
+   35  pwd
+   36  ls
+   37  pwd
+   38  mkdir GA-Course
+   39  cd GA-Course
+   40  pwd
+   41  git status
+   42  git init
+   43  mkdir git-practice
+   44  cd git-practice
+   45  git init
+   46  ls -a
+   47  touch README.txt
+   48  git status
+   49  git add README.txt
+   50  git status
+   51  git commit -m "added README.txt"
+   52  git status
+   53  git clone https://github.com/billymoroney/DOOM-FX.git
+   54  ls
+   55  pwd
+   56  ls
+   57  ls -a
+   58  cd DOOM-FX
+   59  ls
+   60  git add LICENSE.txt
+   61  git add LICENSE
+   62  git commit -m "Edited and added license file to learn the process"
+   63  git push origin master
+   64  \n
+   65  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   66  cd
+   67  ls
+   68  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   69  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   70  xcode-select --install\n
+   71  brew install git\n
+   72  git config --global user.name "YOUR-USERNAME"\ngit config --global user.email "YOUR-EMAIL-ADDRESS"\ngit config --global push.default simple\ngit config --global credential.helper cache
+   73  git config --global user.name "YOUR-USERNAME"\n
+   74  git config
+   75  ls -al ~/.ssh
+   76  ssh-keygen -t rsa -b 4096 -C "wjmoroney57@gmail.com"
+   77  eval "$(ssh-agent -s)"
+   78  open ~/.ssh/config
+   79  touch ~/.ssh/config
+   80  open ~/.ssh/config
+   81  ssh-add -K ~/.ssh/id_rsa
+   82  pbcopy < ~/.ssh/id_rsa.pub
+   83  brew install node
+   84  node -v
+   85  npm -v
+   86  sudo chown -R $USER /usr/local/lib
+   87  atom ~/.zshrc
+   88  subl ~/.zshrc
+   89  zsh
+   90  brew install mongodb-community\n
+   91  brew tap mongodb/brew\n
+   92  brew install mongodb-community@4.4\n
+   93  sudo mkdir -p ~/mongodb-data\n
+   94  whoami
+   95  sudo chown -R billy:wheel ~/mongodb-data
+   96  mongod --dbpath ~/mongodb-data\n
+   97  ~/.zshrc
+   98  open ~/.zshrc
+   99  mongod
+  100  pwd
+  101  mkdir /usr/local/lib\n
+  102  mkdir /usr/local/Frameworks\n
+  103  sudo chown -R billy:wheel /usr/local/lib
+  104  sudo chown -R billy:wheel /usr/local/Frameworks
+  105  cd
+  106  ls
+  107  cd Desktop
+  108  clear
+  109  ls
+  110  ~
+  111  ls
+  112  cd Documents
+  113  ls
+  114  clear
+  115  ls
+  116  cd Max 8
+  117  cd Max
+  118  cd GA-Blog
+  119  cd ..
+  120  cd ...
+  121  cd ..
+  122  ~
+  123  clear
+  124  ls
+  125  cd Desktop
+  126  touch index.html
+  127  open index.html
+  128  mkdir example
+  129  mv index.html ./example
+  130  ls
+  131  cd example
+  132  ls
+  133  ~
+  134  brew install python3
+  135  pip3 install --upgrade pip setuptools wheel
+  136  pip install --upgrade pip
+  137  pip3 install ipython
+  138  clear
+  139  cd
+  140  ls
+  141  cd Desktop
+  142  cd
+  143  ls
+  144  cd Desktop
+  145  ls
+  146  cd example
+  147  ls
+  148  clear
+  149  cd ..
+  150  touch bookshelf.txt
+  151  echo "This bookshelf flexes under the weight of the books it holds." > bookshelf.txt
+  152  ~
+  153  python3 -m venv env
+  154  source ./env/bin/activate \n
+  155  clear
+  156  ~
+  157  sudo chown -R billy:wheel /usr/local/lib\n
+  158  sudo chown -R billy:wheel /usr/local/Frameworks\n
+  159  brew install python3
+  160  pip3 install --upgrade pip setuptools wheel\n
+  161  pip3 install ipython
+  162  pip3 install Django
+  163  clear
+  164  atom ~/.zshrc
+  165  https://github.com/billymoroney/command-line-murder-mystery.git
+  166  ls
+  167  cd Desktop
+  168  mkdir SEIFX
+  169  ls
+  170  cd SEIFX
+  171  git clone https://github.com/billymoroney/command-line-murder-mystery.git
+  172  ls
+  173  cat instructions
+  174  cd command-line-murder-mystery
+  175  cat instructions
+  176  atom
+  177  atom ~/.zshrc
+  178  clear
+  179  cd ~
+  180  atom ~/.zshrc
+  181  which psql
+  182  sudo mkdir -p /etc/paths.d &&\necho /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+  183  which psql
+  184  atom
+  185  clear
+  186  ls
+  187  cd Desktop
+  188  ls
+  189  cd SEIFX
+  190  ls
+  191  cd command-line-murder-mystery
+  192  cat instructions
+  193  ls
+  194  cd mystery
+  195  ls
+  196  cat crimescene
+  197  ls
+  198  cd interviews
+  199  ls
+  200  cat interview-000296
+  201  cd ..
+  202  cd memberships
+  203  ls
+  204  cd ..
+  205  cat people
+  206  ls
+  207  cd streets
+  208  ls
+  209  cd ..
+  210  cat vehicles
+  211  ls
+  212  d..
+  213  cd ..
+  214  ls
+  215  cat hint1
+  216  cat hint2
+  217  cd mystery
+  218  ls
+  219  grep "CLUE" crimescene%
+  220  grep "CLUE crimescene\n\ncd ~\n$ cd ~\n"CLUE"\ngrep "CLUE" crimescene\ncd ..\n''\n"
+  221  cd Desktop/SEIFX
+  222  ls
+  223  cd command-line-murder-mystery
+  224  ls
+  225  cat hint3
+  226  cat hint4
+  227  cd mystery
+  228  grep "Annabel" people
+  229  cat hint1
+  230  cd ..
+  231  cat hint1
+  232  cd mystery
+  233  ls
+  234  head -n 20 people
+  235  cd ..
+  236  cat hint4
+  237  cat hint5
+  238  cd mystery
+  239  head -n 179 streets/Buckingham Place | tail -n 1
+  240  head -n 179 streets/Buckingham_Place | tail -n 1
+  241  cd ..
+  242  cat hint 6
+  243  cat hint6
+  244  cat hint7
+  245  cat hint8
+  246  ls
+  247  cd mystery
+  248  ls
+  249  cd interviews
+  250  cd ..
+  251  ls
+  252  head -n 40 streets/Hart_Place | tail -n 1
+  253  ls
+  254  cd interview
+  255  cd interviews
+  256  ls
+  257  cat interview-47246024
+  258  cat interview-699607
+  259  cd ..
+  260  ls
+  261  cat vehicles
+  262  grep "L337" vehicles
+  263  cd ..
+  264  cat hint4
+  265  cat hint5
+  266  cat hint7
+  267  cd mystery
+  268  grep -A 5 "L337" vehicles
+  269  cd ..
+  270  cat hint9
+  271  cat hint8
+  272  ls
+  273  cd mystery
+  274  ls
+  275  cd memberships
+  276  ls
+  277  open 1.txt
+  278  cd ..
+  279  cat hint8
+  280  cat hint7
+  281  cd mystery
+  282  ls
+  283  cd memberships
+  284  ls
+  285  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Mike Bostock"
+  286  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Jeremy"
+  287  cd ..
+  288  touch solution.text
+  289  ls
+  290  open solution.txt
+  291  txt
+  292  touch solution.txt
+  293  ls
+  294  open solution.txt
+
+
+Mike Bostock
