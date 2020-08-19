@@ -1,0 +1,104 @@
+Jeremy Bowers
+353  cs command-line-murder-mystery
+  354  cd command-line-murder-mystery
+  355  ls
+  356  cd mystery
+  357  ls
+  358  cat crimescene
+  359  cat hint1
+  360  ls
+  361  cd ..
+  362  cat hint1
+  363  ls
+  364  cd mystery
+  365  ls
+  366  head -n 20 crimescene
+  367* cat hint2
+  368  grep CLUE crimescene
+  369  grep Annabel crimescene
+  370* cat hint3
+  371  ls
+  372  head
+  373  head -n 20 people
+  374  cat people
+  375  grep Annabel crimescene
+  376  grep Annabel people
+  377  grep CLUE crimescene
+  378  ls
+  379  cd memberships
+  380  ls
+  381  head -n 20 vehicles
+  382  cd ..
+  383  head -n 20 vehicles
+  384  grep 6 vehicles
+  385  grep CLUE crimescene
+  386* cat hint4
+  387  grep Annabel people
+  388  ls
+  389  cd interivews
+  390  ls
+  391  cd interviews
+  392  ls
+  393* cat hint5
+  394  cd ..
+  395  head -n 173 streets/Mattapan_Street | tail -n 1
+  396  cat interviews/interview-9437737
+  397  head -n 40  streets/Hart_Placet | tail -n 1
+  398  head -n 40 streets/Hart_Place | tail -n 1
+  399  cat interviews/interview-47246024
+  400  head -n 179 streets/Buckingham_Place | tail -n 1
+  401  cat interviews/interview-699607
+  402* cat hint6
+  403  grep Honda vehicles
+  404  grep Blue vehicles
+  405  grep L337 vehicles
+  406  head -n 50 vehicles
+  407* cat hint7
+  408  grep -A 5 L337 vehicles
+  409* cat hint8
+  410  grep CLUE crimescene
+  411  cat Fitness_Galaxy AAA United_MileagePlus | grep John Smith
+  412  ls
+  413  cd memberships
+  414  cat Fitness_Galaxy AAA United_MileagePlus | grep John Smith
+  415  cat Fitness_Galaxy AAA United_MileagePlus | grep -c John Smith
+  416  cat Fitness_Galaxy AAA United_MileagePlus | grep -c Mike Bostock
+  417  cat Fitness_Galaxy AAA United_MileagePlus | grep -c Joe Germuska
+  418  cat Fitness_Galaxy AAA United_MileagePlus | grep -c Jeremy Bowers
+  419  cat Fitness_Galaxy AAA United_MileagePlus | grep Mike Bostock | wc -l
+  420* cat hint9
+  421  cat Fitness_Galaxy AAA United_MileagePlus | grep Matt Waite | wc -l
+  422  cat Fitness_Galaxy AAA United_MileagePlus | grep Erika Owens | wc -l
+  423  cat Fitness_Galaxy AAA United_MileagePlus | grep Brian Boyer | wc -l
+  424  cat Fitness_Galaxy AAA United_MileagePlus | grep -c Mike Bostock
+  425  cat Fitness_Galaxy AAA United_MileagePlus | grep -c Joe Germuska
+  426  cat Fitness_Galaxy AAA United_MileagePlus | grep -c Jeremy Bowers
+  427  cd ..
+  428  ls
+  429  cat solution
+  430  cd ..
+  431  ls
+  432  cat solution
+  433  cd ..
+  434  ls
+  435  cd commaind-line-murder-mystery
+  436  ls
+  437  cd command-line-murder-mystery
+  438  ls
+  439  nano cheatsheet.md
+  440  ls
+  441  cd mystery
+  442  ls
+  443  grep CLUE crimescene
+  444  ls memberships
+  445  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c Mike Bostock
+  446  ls
+  447  cd memberships
+  448  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c Mike Bostock
+  449  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c Joe Germuska
+  450  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c Jeremy Bowers
+  451* ls9
+  452* ls
+  453* touch solution.txt
+  454* ls
+  455* echo Jeremy Bowers > solution.txt
