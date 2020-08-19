@@ -1,0 +1,47 @@
+cd SEIFLEX818
+ls
+cd command-line-murder-mystery
+cat instructions
+cd mystery
+ls
+cat crimescene
+grep "CLUE" crimescene
+cat hint 1
+cat hint1
+cd ..
+cat hint1
+cd mystery
+cat crimescene
+head n- 20 people
+grep "CLUE" crimescene
+head -n 20 people
+grep "Annabel" people
+head -n 40 streets/Hart_Place | tail -n 1
+head -n 179 streets/Buckingham_Place | tail -n 1
+cat interviews
+ls
+cd interviews
+cat interview #47246024
+ls
+cat INTERVIEW #47246024
+cat interview-47246024
+cat interview-699607
+cd .
+cd ..
+ls
+cat vehicles
+grep "Honda" vehicles
+grep -A 8 "L337" mystery/vehicles
+grep -A 5 "L337" mystery/vehicles
+cat vehicles
+grep -A 5 "L337" mystery/vehicles
+grep -A 5 L337 mystery/vehicles
+grep -A 5 L337 vehicles
+cd memberships
+ls
+cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germusaka"
+cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowersa"
+cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher
+
+Jeremy Bowers is the murderer.
