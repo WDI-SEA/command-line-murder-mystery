@@ -1,0 +1,604 @@
+Jeremy bowers
+history
+    1  ls
+    2  nano ~/.bash_profile
+    3  nano ~/.zsh/
+    4  nano ~/.zshrc/
+    5  ls
+    6  nano ~/.zshrc/
+    7  nano ~/.zshrc
+    8  ls
+    9  nano ~/.zshrc
+   10  cd Documents
+   11  ls
+   12  cd Code2017
+   13  ls
+   14  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   15  ls
+   16  git status
+   17  cd Documents/Code2017/WDB-Udemy/yelpcamp
+   18  git status
+   19  setopt
+   20  ls ~/Downloads\n
+   21  echo $PATH
+   22  hello
+   23  echo hello
+   24  pwd
+   25  ls
+   26  cd Documents
+   27  ls
+   28  la -a
+   29  ls -a
+   30  cd ..
+   31  cd Downloads
+   32  cd World
+   33  ls
+   34  ls -a Africa
+   35  ls -a Asia
+   36  ls -a Australia
+   37  ls -a Europe
+   38  cd Europe
+   39  open .carmen_sandiego.png
+   40  cd ..
+   41  rm -r World
+   42  node oop.js
+   43  touch closure.js
+   44  node closure.js
+   45  git --version
+   46  git status
+   47  git add -a
+   48  git add -A
+   49  git status
+   50  git commit -m "refactor"
+   51  git push
+   52  git status
+   53  git add -a commit -m "fix columns"
+   54  git add -A
+   55  git commit -m "fix columns"
+   56  git push
+   57  git help
+   58  git help remote
+   59  git remote set
+   60  git remote set-url https://github.com/monicaparrillo/resume-clone.git
+   61  git remote set-url origin https://github.com/monicaparrillo/resume-clone.git
+   62  git status
+   63  git add -all
+   64  git add --all
+   65  git commit -m "fix overflow"
+   66  git push
+   67  git remote show origin
+   68  git remote -v
+   69  git remote set-url origin https://github.com/monicaleep/resume-clone.git
+   70  git remote -v
+   71  git push
+   72  touch readme.md
+   73  git add --all
+   74  git commit -m "add readme"
+   75  git push
+   76  git status
+   77  git add --all
+   78  git commit -m "add media queries"
+   79  git push
+   80  git pull
+   81  git merge
+   82  git status
+   83  git push
+   84  node app.js
+   85  touch .eslintignore
+   86  node app.js
+   87  git status
+   88  git add -a
+   89  git add -A
+   90  git status
+   91  git commit -m "migrate to bootstrap 4 and adjust all styles to work"
+   92  git push
+   93  node app.js
+   94  git status
+   95  git commit -a -m "adjust styling of comment boxes"
+   96  git push
+   97  heroku
+   98  git push heroku master
+   99  npm audit
+  100  npm audit fix
+  101  npm install -g npm
+  102  sudo chown -R $USER /usr/local/lib/node_modules
+  103  npm install -g npm
+  104  node app.js
+  105  heroku logs
+  106  node app.js
+  107  npm i -S multer cloudinary
+  108  node app.js
+  109  npm i -S path
+  110  node app.js
+  111  nodemon app.js
+  112  git commit -a "add image upload with cloudinary and multer"
+  113  git status
+  114  git commit -a "add img upload feature"
+  115  git commit -a 
+  116  git commit -a -m "add img upload feature to camps"
+  117  git push
+  118  nodemon
+  119  git status
+  120  git commit -a -m "refactor create route to use async/await"
+  121  git push
+  122  nodemon
+  123  git status
+  124  git log
+  125  git commit -a -m "add feature to delete image from cloud when associated cg is deleted"
+  126  ls
+  127  cd Documents/Code2017
+  128  ls
+  129  touch notes.md
+  130  open notes.md
+  131  which sass
+  132  sass -v
+  133  npm update -g sass
+  134  sass
+  135  ls
+  136  gem install sass
+  137  npm install sass
+  138  npm install -g npm
+  139  which sass
+  140  ls
+  141  cd Documents
+  142  ls
+  143  cd Code2017
+  144  mkdir sasstest
+  145  cd sasstest
+  146  touch test.scss
+  147  sass test.scss test.css
+  148  sass --help
+  149  npm install -g sass
+  150  which sass
+  151  brew install sass/sass/sass
+  152  which sass
+  153  sass test.scss test.css
+  154  brew install sass/sass/sass
+  155  brew link sass
+  156  brew link --overwrite sass
+  157  which sass
+  158  sass test.scss test.css
+  159  open test.scss
+  160  git status
+  161  heroku help
+  162  heroku logs
+  163  git push heroku master
+  164  cd ..
+  165  mkdir SPA_udemy
+  166  cd SPA_udemy
+  167  git clone https://github.com/nax3t/ajax-jquery-tutorial.git
+  168  cd ajax-jquery-tutorial
+  169  ls
+  170  mongod
+  171  nodemon
+  172  npm install
+  173  npm audit
+  174  nodemon
+  175  npm audit fix
+  176  nodemon
+  177  node --trace-deprecation app.js
+  178  npm update
+  179  npm help
+  180  nodemon
+  181  git --version
+  182  cd ..
+  183  ls
+  184  cd WDB-Udemy
+  185  ls
+  186  cd yelpcamp
+  187  ls -a
+  188  which gulp
+  189  npm i -g gulp
+  190  which gulp
+  191  gulp --v
+  192  gulp help
+  193  npm install --global gulp-cli
+  194  npm outdated -g
+  195  npm install -g npm-check-updates
+  196  npm outdated -g
+  197  create-react-app --v
+  198  create-react-app --version
+  199  npm uninstall -g create-react-app
+  200  create-react-app --version
+  201  npm outdated -g
+  202  npm uninstall -g gulp
+  203  npm ls -g --depth 0
+  204  which nodemon
+  205  which npm
+  206  npm install --global gulp-cli
+  207  gulp --v
+  208  npm install
+  209  npm audit
+  210  npm audit fix
+  211  touch gulpfile.js
+  212  gulp
+  213  npm install gulp
+  214  npm audit
+  215  npm install mongoose@5.9.28
+  216  nodemon
+  217  gulp
+  218  nodemon
+  219  gulp --version
+  220  gulp --tasks
+  221  git status
+  222  git commit -m "edit readme" && git push
+  223  git commit -a -m "update readme"
+  224  git push
+  225  git add -a
+  226  git add -A
+  227  git commit -m "refactor to SPA, add readme, add gulp"
+  228  git status
+  229  git help
+  230  git show remote
+  231  git remote
+  232  git remote -v
+  233  git remote add monica https://github.com/monicaleep/TodoSPA.git
+  234  git push monica
+  235  git remote -v
+  236  git remote
+  237  git push monica master
+  238  git status
+  239  git remote -v
+  240  git remote rm origin
+  241  git remote -v
+  242  git push
+  243  git remote rename monica origin
+  244  git push
+  245  git push --set-upstream origin master
+  246  git push
+  247  git add readme.md
+  248  git commit -m "update readme"
+  249  git push
+  250  nodemon
+  251  node app.js --trace-deprecation
+  252  nodemon
+  253  ls
+  254  touch day0.md
+  255  atom day0.md
+  256  git init
+  257  mv day0.md day1.md
+  258  atom day1.md
+  259  ls
+  260  mv Promise.md day0.md
+  261  atom day0.md
+  262  touch day1.py
+  263  atom day1.py
+  264  cd ..
+  265  ls
+  266  cd notes
+  267  ls
+  268  touch readme.md
+  269  atom readme.md
+  270  git status
+  271  git add .
+  272  git commit -m "Day 0"
+  273  git remote add origin https://github.com/monicaleep/100DaysOfCode.git
+  274  git push -u origin master
+  275  ls
+  276  cd Documents/Code2017
+  277  ls
+  278  cd notes
+  279  ls
+  280  which python
+  281  python -v
+  282  brew info python
+  283  brew update && brew upgrade python
+  284  brew info python
+  285  brew info pip3
+  286  which pip
+  287  which pip3
+  288  which python
+  289  which python3
+  290  pip -V
+  291  which pyenv
+  292  which pip3
+  293  pip3 -V
+  294  ls -a
+  295  pio --help
+  296  nodemon
+  297  cd ..
+  298  mv ajax-jquery-tutorial server
+  299  ls
+  300  mkdir todo-app
+  301  mv server todo-app
+  302  cd todo-app
+  303  ls
+  304  mkdir client
+  305  ls
+  306  mv server/public/css client
+  307  mv server/public/js client
+  308  cd client
+  309  la
+  310  ls
+  311  cd ..
+  312  mv server/src client
+  313  mv server/views/index.ejs client/index.html
+  314  ls
+  315  cd todo-app
+  316  ls
+  317  eslint help
+  318  cd client
+  319  npm init
+  320  npm i -S babel babel-preset-es2015 gulp gulp-babel gulp-connect
+  321  gulp default
+  322  npm install
+  323  gulp default
+  324  npm install --save-dev babel-core babel-preset-env
+  325  gulp default
+  326  npm install --save-dev @babel/cli @babel/core @babel/preset-env
+  327  gulp default
+  328  npm uninstall
+  329  npm uninstall @babel
+  330  npm install
+  331  npm uninstall gulp babel-preset-es2015 gulp-babel gulp-connect
+  332  npm install
+  333  gulp default
+  334  npm audit fix
+  335  npm audit fix --force
+  336  gulp default
+  337  cd ..
+  338  ls server
+  339  npm install
+  340  nodemon
+  341  cd server
+  342  npm install
+  343  nodemon
+  344  cd client
+  345  python3 -m SimpleHHTPServer
+  346  python3 -m SimpleHTTPServer
+  347  python -m SimpleHTTPServer
+  348  node --trace-deprecation
+  349  node --trace-deprecation app.js
+  350  nodemon
+  351  python -m SimpleHTTPServer
+  352  gulp default
+  353  python -m SimpleHTTPServer
+  354  gulp default
+  355  gulp watch
+  356  python -m SimpleHTTPServer
+  357  gulp watch
+  358  gulp default
+  359  python -m SimpleHTTPServer
+  360  gulp default
+  361  gulp watch
+  362  node --trace-deprecation app.js
+  363  python -m SimpleHTTPServer
+  364  nodemon
+  365  python -m SimpleHTTPServer
+  366  nodemon
+  367  python3 -m http.server
+  368  gulp default
+  369  python3 -m http.server
+  370  gulp default
+  371  touch day5.sass
+  372  atom day5.sass
+  373  mv day5.sass day5.md
+  374  ls
+  375  cd Documents/Code2017
+  376  ls
+  377  cd FCC-projects
+  378  ls
+  379  mkdir MarkdownPreviewer
+  380  atom MarkdownPreviewer
+  381  cd MarkdownPreviewer
+  382  touch readme.md
+  383  git init
+  384  cd ..
+  385  mkdir ReactTutorial
+  386  cd ReactTutorial
+  387  npx create-react-app my-app
+  388  create-react-app help
+  389  create-react-app -v
+  390  create-react-app -V
+  391  npm install --save typescript
+  392  cd my-app
+  393  cd src
+  394  rm -f *
+  395  touch index.css
+  396  touch index.js
+  397  cd ..
+  398  npm start
+  399  cd ..
+  400  cd MarkdownPreviewer
+  401  npx create-react-app .
+  402  mv ../MarkdownPreviewer ../markdown-previewer
+  403  pwd
+  404  npx create-react-app .
+  405  touch react.md
+  406  atom react.md
+  407  ls
+  408  brew doctor
+  409  uninstall mongodb
+  410  brew uninstall mongodb
+  411  brew doctor
+  412  which mongo
+  413  brew cleanup
+  414  git -v
+  415  git --version
+  416  brew update git
+  417  brew upgrade git
+  418  brew upgrade node
+  419  export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+  420  brew doctor
+  421  brew link node
+  422  brew link --overwrite node
+  423  brew doctor
+  424  brew cleanup
+  425  brew doctor
+  426  git config -list
+  427  git config --list
+  428  git config --global push.default simple
+  429  git config --global credential.helper cache
+  430  git config --list
+  431  ls -al ~./ssh
+  432  ls -al ~/.ssh
+  433  ls
+  434  cd Documents/Code2017
+  435  ls
+  436  cd notes
+  437  git status
+  438  ls ~
+  439  cd ~
+  440  ssh-keygen -t rsa -b 4096 -C monica.parrillo@gmail.com
+  441  eval "$(ssh-agent -s)"
+  442  open ~/.ssh/config
+  443  touch ~/.ssh/config
+  444  open ~/.ssh/config
+  445  ssh-add -K ~/.ssh/id_rsa
+  446  pbcopy < ~/.ssh/id_rsa.pub
+  447  pwd
+  448  ls
+  449  cd Desktop
+  450  touch bookshelf.txt
+  451  echo "This bookshelf blah blah" > bookshelf.txt
+  452  cat bookshelf.txt
+  453  echo "line 2" >> bookshelf.txt
+  454  cat bookshelf.txt
+  455  cd ..
+  456  mkdir SEIFX818
+  457  cd SEIFX818
+  458  git clone git@github.com:monicaleep/command-line-murder-mystery.git
+  459  ls
+  460  cd command-line-murder-mystery
+  461  cat instructions
+  462  ls
+  463  cd mystery
+  464  ls
+  465  cd SEIFX818
+  466  ls
+  467  cd command-line-murder-mystery
+  468  ls
+  469  cat instructions
+  470  history
+  471  ls
+  472  cd mystery
+  473  ls
+  474  cat crimescene
+  475  grep -i "CLUE" crimescene
+  476  ls
+  477  touch notes.txt
+  478  grep -i "CLUE" crimescene || > notes.txt
+  479  cat notes.txt
+  480  grep -i "CLUE" crimescene >> notes.txt
+  481  cat notes.txt
+  482  ls
+  483  cat people 
+  484  grep -i "Anabel" people
+  485  grep -i "Anabel" people >> notes.txt
+  486  cat notes
+  487  cat notes.txt
+  488  grep -i "Annabel" people
+  489  grep -i "Annabel" people >> notes.txt
+  490  cat notes.txt
+  491  ls
+  492  cat vehicles
+  493  ls
+  494  cd streets
+  495  ls
+  496  cat ../notes.txt
+  497  cat Hart_Place
+  498  cat ../notes.txt
+  499  ls
+  500  cd ..
+  501  ls
+  502  grep "Annabel" -i vehicles
+  503  cat notes.txt
+  504  cat vehicles
+  505  grep -C 3 "Annabel" vehicles
+  506  grep -C 3 "Annabel" vehicles >> notes.txt
+  507  cat notes.txt
+  508  ls
+  509  cd memberships
+  510  ls
+  511  cat 1.txt
+  512  cat 1.txt HEAD
+  513  head 1.txt
+  514  head 2.txt
+  515  ls
+  516  head Fitness_Galaxy
+  517  ls
+  518  cat ../notes.txt
+  519  ls
+  520  cd ..
+  521  ls
+  522  cd interviews
+  523  ls
+  524  grep "Annabel" *
+  525  grep -r "Annabel" *
+  526  cat interview-102490
+  527  grep "CLUE" *
+  528  grep -i "CLUE" *
+  529  ls
+  530  cd ..
+  531  ls
+  532  grep -i "CLUE" *
+  533  grep -i "CLUE" * -r
+  534  ls
+  535  cd interviews
+  536  grep -ir "Annabel" *
+  537  grep -ir "CLUE" *
+  538  ls
+  539  cd ..
+  540  ls
+  541  cat notes.txt
+  542  ls
+  543  ls streets
+  544  cat streets/Buckingham_Place
+  545  grep -ir "interview"  streets/Buckingham_Place
+  546  grep -ir "interview"  streets/Buckingham_Place >> notes.txt
+  547  cat interviews/interview-699607
+  548  cat interviews/interview-699607 >> notes.txt
+  549  cat notes.txt
+  550  ls
+  551  grep "L337" -ir vehicles
+  552  grep "L337" -ir vehicles -B
+  553  grep "L337" -ir vehicles -C 4 
+  554  grep "L337" -ir vehicles -C 4 || grep "Honda" -C 4
+  555  grep "L337" -ir vehicles -C 4 
+  556  grep "L337" -ir vehicles -C 5
+  557  head vehicles
+  558  head 15 vehicles
+  559  head -n 15 vehicles
+  560  grep "L337" -ir vehicles -A 1
+  561  grep "L337" -ir vehicles -A 5 -B 1
+  562  grep "L337" -ir vehicles -A 5 -B 1 || grep "Honda" -ir vehicles -B 2 -A 4
+  563  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir vehicles -B 2 -A 4
+  564  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4
+  565  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3
+  566  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3 | grep "6'" -ir
+  567  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3 | grep "6'" -ir -B 4 -A 1
+  568  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3 | grep "6'" -ir -B 4 -A 1 >> notes.txt
+  569  cat notes.txt
+  570  grep "L337" -ir vehicles -C 3
+  571  cat notes.txt
+  572  ls
+  573  grep "Joe Germuska" -ir *
+  574  grep "Jeremy Bowers" -ir *
+  575  grep "Dunstable Road" -ir *
+  576  cat notes.txt
+  577  grep "Jeremy Bowers" -ir *
+  578  ls
+  579  cat streets/Dunstable_Road
+  580  cat interviews/interview-9620713
+  581  cat "Jeremy Bowers Interview" >> notes.txt
+  582  cat interviews/interview-9620713 >> notes.txt
+  583  ls
+  584  cat notes.txt
+  585  ls
+  586  grep "Interview" -ir streets
+  587  cat interviews/interview-55435298
+  588  grep "Joe Germuska" -ir *
+  589  cat streets/Plainfield_Street
+  590  cat interviews/interview-29741223
+  591  echo $history
+  592  history
+  593  touch solution.txt
+  594  cat "Jeremy Bowers" solution.txt
+  595  echo "Jeremy Bowers" solution.txt
+  596  cat solution.txt
+  597  echo "Jeremy bowers" > solution.txt
+  598  echo history >> solution.txt
+  599  cat solution.txt
+  600  echo >> "469  cat instructions\n  470  history\n  471  ls\n  472  cd mystery\n  473  ls\n  474  cat crimescene\n  475  grep -i "CLUE" crimescene\n  476  ls\n  477  touch notes.txt\n  478  grep -i "CLUE" crimescene || > notes.txt\n  479  cat notes.txt\n  480  grep -i "CLUE" crimescene >> notes.txt\n  481  cat notes.txt\n  482  ls\n  483  cat people \n  484  grep -i "Anabel" people\n  485  grep -i "Anabel" people >> notes.txt\n  486  cat notes\n  487  cat notes.txt\n  488  grep -i "Annabel" people\n  489  grep -i "Annabel" people >> notes.txt\n  490  cat notes.txt\n  491  ls\n  492  cat vehicles\n  493  ls\n  494  cd streets\n  495  ls\n  496  cat ../notes.txt\n  497  cat Hart_Place\n  498  cat ../notes.txt\n  499  ls\n  500  cd ..\n  501  ls\n  502  grep "Annabel" -i vehicles\n  503  cat notes.txt\n  504  cat vehicles\n  505  grep -C 3 "Annabel" vehicles\n  506  grep -C 3 "Annabel" vehicles >> notes.txt\n  507  cat notes.txt\n  508  ls\n  509  cd memberships\n  510  ls\n  511  cat 1.txt\n  512  cat 1.txt HEAD\n  513  head 1.txt\n  514  head 2.txt\n  515  ls\n  516  head Fitness_Galaxy\n  517  ls\n  518  cat ../notes.txt\n  519  ls\n  520  cd ..\n  521  ls\n  522  cd interviews\n  523  ls\n  524  grep "Annabel" *\n  525  grep -r "Annabel" *\n  526  cat interview-102490\n  527  grep "CLUE" *\n  528  grep -i "CLUE" *\n  529  ls\n  530  cd ..\n  531  ls\n  532  grep -i "CLUE" *\n  533  grep -i "CLUE" * -r\n  534  ls\n  535  cd interviews\n  536  grep -ir "Annabel" *\n  537  grep -ir "CLUE" *\n  538  ls\n  539  cd ..\n  540  ls\n  541  cat notes.txt\n  542  ls\n  543  ls streets\n  544  cat streets/Buckingham_Place\n  545  grep -ir "interview"  streets/Buckingham_Place\n  546  grep -ir "interview"  streets/Buckingham_Place >> notes.txt\n  547  cat interviews/interview-699607\n  548  cat interviews/interview-699607 >> notes.txt\n  549  cat notes.txt\n  550  ls\n  551  grep "L337" -ir vehicles\n  552  grep "L337" -ir vehicles -B\n  553  grep "L337" -ir vehicles -C 4 \n  554  grep "L337" -ir vehicles -C 4 || grep "Honda" -C 4\n  555  grep "L337" -ir vehicles -C 4 \n  556  grep "L337" -ir vehicles -C 5\n  557  head vehicles\n  558  head 15 vehicles\n  559  head -n 15 vehicles\n  560  grep "L337" -ir vehicles -A 1\n  561  grep "L337" -ir vehicles -A 5 -B 1\n  562  grep "L337" -ir vehicles -A 5 -B 1 || grep "Honda" -ir vehicles -B 2 -A 4\n  563  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir vehicles -B 2 -A 4\n  564  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4\n  565  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3\n  566  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3 | grep "6'" -ir\n  567  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3 | grep "6'" -ir -B 4 -A 1\n  568  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3 | grep "6'" -ir -B 4 -A 1 >> notes.txt\n  569  cat notes.txt\n  570  grep "L337" -ir vehicles -C 3\n  571  cat notes.txt\n  572  ls\n  573  grep "Joe Germuska" -ir *\n  574  grep "Jeremy Bowers" -ir *\n  575  grep "Dunstable Road" -ir *\n  576  cat notes.txt\n  577  grep "Jeremy Bowers" -ir *\n  578  ls\n  579  cat streets/Dunstable_Road\n  580  cat interviews/interview-9620713\n  581  cat "Jeremy Bowers Interview" >> notes.txt\n  582  cat interviews/interview-9620713 >> notes.txt\n  583  ls\n  584  cat notes.txt\n  585  ls\n  586  grep "Interview" -ir streets\n  587  cat interviews/interview-55435298\n  588  grep "Joe Germuska" -ir *\n  589  cat streets/Plainfield_Street\n  590  cat interviews/interview-29741223\n" >> solutions.txt\n"\n""
+  601  cat solution.txt
+  602  echo "469  cat instructions\n  470  history\n  471  ls\n  472  cd mystery\n  473  ls\n  474  cat crimescene\n  475  grep -i "CLUE" crimescene\n  476  ls\n  477  touch notes.txt\n  478  grep -i "CLUE" crimescene || > notes.txt\n  479  cat notes.txt\n  480  grep -i "CLUE" crimescene >> notes.txt\n  481  cat notes.txt\n  482  ls\n  483  cat people \n  484  grep -i "Anabel" people\n  485  grep -i "Anabel" people >> notes.txt\n  486  cat notes\n  487  cat notes.txt\n  488  grep -i "Annabel" people\n  489  grep -i "Annabel" people >> notes.txt\n  490  cat notes.txt\n  491  ls\n  492  cat vehicles\n  493  ls\n  494  cd streets\n  495  ls\n  496  cat ../notes.txt\n  497  cat Hart_Place\n  498  cat ../notes.txt\n  499  ls\n  500  cd ..\n  501  ls\n  502  grep "Annabel" -i vehicles\n  503  cat notes.txt\n  504  cat vehicles\n  505  grep -C 3 "Annabel" vehicles\n  506  grep -C 3 "Annabel" vehicles >> notes.txt\n  507  cat notes.txt\n  508  ls\n  509  cd memberships\n  510  ls\n  511  cat 1.txt\n  512  cat 1.txt HEAD\n  513  head 1.txt\n  514  head 2.txt\n  515  ls\n  516  head Fitness_Galaxy\n  517  ls\n  518  cat ../notes.txt\n  519  ls\n  520  cd ..\n  521  ls\n  522  cd interviews\n  523  ls\n  524  grep "Annabel" *\n  525  grep -r "Annabel" *\n  526  cat interview-102490\n  527  grep "CLUE" *\n  528  grep -i "CLUE" *\n  529  ls\n  530  cd ..\n  531  ls\n  532  grep -i "CLUE" *\n  533  grep -i "CLUE" * -r\n  534  ls\n  535  cd interviews\n  536  grep -ir "Annabel" *\n  537  grep -ir "CLUE" *\n  538  ls\n  539  cd ..\n  540  ls\n  541  cat notes.txt\n  542  ls\n  543  ls streets\n  544  cat streets/Buckingham_Place\n  545  grep -ir "interview"  streets/Buckingham_Place\n  546  grep -ir "interview"  streets/Buckingham_Place >> notes.txt\n  547  cat interviews/interview-699607\n  548  cat interviews/interview-699607 >> notes.txt\n  549  cat notes.txt\n  550  ls\n  551  grep "L337" -ir vehicles\n  552  grep "L337" -ir vehicles -B\n  553  grep "L337" -ir vehicles -C 4 \n  554  grep "L337" -ir vehicles -C 4 || grep "Honda" -C 4\n  555  grep "L337" -ir vehicles -C 4 \n  556  grep "L337" -ir vehicles -C 5\n  557  head vehicles\n  558  head 15 vehicles\n  559  head -n 15 vehicles\n  560  grep "L337" -ir vehicles -A 1\n  561  grep "L337" -ir vehicles -A 5 -B 1\n  562  grep "L337" -ir vehicles -A 5 -B 1 || grep "Honda" -ir vehicles -B 2 -A 4\n  563  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir vehicles -B 2 -A 4\n  564  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4\n  565  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3\n  566  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3 | grep "6'" -ir\n  567  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3 | grep "6'" -ir -B 4 -A 1\n  568  grep "L337" -ir vehicles -A 5 -B 1 | grep "Honda" -ir  -B 2 -A 4 | grep "Blue" -ir -B 3 -A 3 | grep "6'" -ir -B 4 -A 1 >> notes.txt\n  569  cat notes.txt\n  570  grep "L337" -ir vehicles -C 3\n  571  cat notes.txt\n  572  ls\n  573  grep "Joe Germuska" -ir *\n  574  grep "Jeremy Bowers" -ir *\n  575  grep "Dunstable Road" -ir *\n  576  cat notes.txt\n  577  grep "Jeremy Bowers" -ir *\n  578  ls\n  579  cat streets/Dunstable_Road\n  580  cat interviews/interview-9620713\n  581  cat "Jeremy Bowers Interview" >> notes.txt\n  582  cat interviews/interview-9620713 >> notes.txt\n  583  ls\n  584  cat notes.txt\n  585  ls\n  586  grep "Interview" -ir streets\n  587  cat interviews/interview-55435298\n  588  grep "Joe Germuska" -ir *\n  589  cat streets/Plainfield_Street\n  590  cat interviews/interview-29741223" >> solutions.txt\n\n

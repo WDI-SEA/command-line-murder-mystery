@@ -1,0 +1,83 @@
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+Anabel Dominguez	F	67	Monument Avenue, line 248
+Anabel Mesfioui	F	44	Lansdowne Street, line 16
+Anabelle Ismail	F	72	Forest Place, line 168
+Anabel Kal	F	25	Cedar Lane Way, line 15
+Annabel Sun	F	26	Hart Place, line 40
+Oluwasegun Annabel	M	37	Mattapan Street, line 173
+Annabel Church	F	38	Buckingham Place, line 179
+Annabel Fuglsang	M	40	Haley Street, line 176
+License Plate 9R7TTGF
+Make: Volkswagen
+Color: Yellow
+Owner: Oluwasegun Annabel
+Height: 5'1"
+Weight: 240 lbs
+
+--
+--
+License Plate L2E48EF
+Make: BMW
+Color: Orange
+Owner: Annabel Church
+Height: 5'5"
+Weight: 201 lbs
+
+--
+--
+License Plate 0O27BTD
+Make: Fiat
+Color: Yellow
+Owner: Annabel Sun
+Height: 5'0"
+Weight: 232 lbs
+
+--
+--
+License Plate 20VVU2P
+Make: Mazda
+Color: Pink
+Owner: Annabel Fuglsang
+Height: 5'11"
+Weight: 241 lbs
+
+streets/Buckingham_Place:SEE INTERVIEW #699607
+Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"(standard input)-(standard input)-(standard input)-vehicles:License Plate L337QE9
+(standard input)-(standard input)-(standard input):vehicles-Make: Honda
+(standard input)-(standard input):(standard input)-vehicles-Color: Blue
+(standard input)-(standard input)-(standard input)-vehicles-Owner: Erika Owens
+(standard input):(standard input)-(standard input)-vehicles-Height: 6'5"
+(standard input)-(standard input)-(standard input)-vehicles-Weight: 220 lbs
+--
+--
+(standard input)-(standard input)-(standard input)-vehicles:License Plate L337DV9
+(standard input)-(standard input)-(standard input):vehicles-Make: Honda
+(standard input)-(standard input):(standard input)-vehicles-Color: Blue
+(standard input)-(standard input)-(standard input)-vehicles-Owner: Joe Germuska
+(standard input):(standard input)-(standard input)-vehicles-Height: 6'2"
+(standard input)-(standard input)-(standard input)-vehicles-Weight: 164 lbs
+--
+--
+(standard input)-(standard input)-(standard input)-vehicles:License Plate L3375A9
+(standard input)-(standard input)-(standard input):vehicles-Make: Honda
+(standard input)-(standard input):(standard input)-vehicles-Color: Blue
+(standard input)-(standard input)-(standard input)-vehicles-Owner: Jeremy Bowers
+(standard input):(standard input)-(standard input)-vehicles-Height: 6'1"
+(standard input)-(standard input)-(standard input)-vehicles-Weight: 204 lbs
+--
+--
+(standard input)-(standard input)-(standard input)-vehicles:License Plate L337WR9
+(standard input)-(standard input)-(standard input):vehicles-Make: Honda
+(standard input)-(standard input):(standard input)-vehicles-Color: Blue
+(standard input)-(standard input)-(standard input)-vehicles-Owner: Jacqui Maher
+(standard input):(standard input)-(standard input)-vehicles-Height: 6'2"
+(standard input)-(standard input)-(standard input)-vehicles-Weight: 130 lbs
+Home appears to be empty, no answer at the door.
+
+After questioning neighbors, appears that the occupant may have left for a trip recently.
+
+Considered a suspect until proven otherwise, but would have to eliminate other suspects to confirm.
