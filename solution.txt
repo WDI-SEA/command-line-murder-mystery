@@ -1,0 +1,116 @@
+  92  git clone https://github.com/camillebrown/command-line-murder-mystery.git
+  93  ls
+  94  cd command-line-murder-mystery
+  95  cat instructions
+  96  ls
+  97  cd mystery
+  98  ls
+  99  cat crimescene
+  100  cat hint1
+  101  cd ..
+  102  cat hint1
+  103  cd ..
+  104  touch solution.txt
+  105  cd command-line-murder-mystery
+  106  head people
+  107  ls
+  108  cd mystery
+  109  ls
+  110  head people
+  111  head people
+  112  cd streets
+  113  ls
+  114  head line 477
+  115  cat mystic_street
+  116  cd ..
+  117  ls
+  118  cd ..
+  119  ls
+  120  cat hint2
+  121  grep "CLUE" crimescene
+  122  cd mystery
+  123  grep "CLUE" crimescene
+  124  cd ..
+  125  hint3
+  126  cat hint3
+  127  cd mystery
+  128  head vehicles
+  129  cat vehicles
+  130  cd ..
+  131  cat hint4
+  132  cat hint5
+  133  cd mystery
+  134  ls mystery
+  135  ls
+  136  cd streets
+  137  ls
+  138  head -n 173 streets/Mattapan_Street | tail -n 1
+  139  head -n 179 streets/buckingham_place | tail -n 1
+  140  head -n 179 streets/buckingham_place
+  141  head -n 179 buckingham_place
+  142  head -n 179 buckingham_place | tail -n 1
+  143  cd ..
+  144  cat hint4
+  145  cd ..
+  146  cat hint4
+  147  cd mystery
+  148  ls
+  149  grep "Annabel" peopel
+  150  grep "Annabel" people
+  151  cd streets
+  152  head -n 40 hart_place | tail -n 1
+  153  cd ..
+  154  cd interviews
+  155  ls
+  156  cat interview-699607
+  157  cat interview-47246024
+  158  cd ..
+  159  head vehicles
+  160  grep "Make: Honda" vehicles
+  161  grep "L337" vehicles
+  162  head people
+  163  cd ..
+  164  cat hint5
+  165  cat hint6
+  166  cd mystery
+  167  ls
+  168  grep "Honda" vehicles\n\n\tgrep "Blue" vehicles\n\n\tgrep "L337" vehicles
+  169  head vehicles
+  170  cd ..
+  171  cat hint7
+  172  cd mystery
+  173  grep -A 5 "L337" mystery/vehicles
+  174  ls
+  175  grep -A 5 "L337" vehicles
+  176  cd ..
+  177  ls
+  178  cat hint7
+  179  cat hint8
+  180  cd mystery
+  181  ls
+  182  cd memberships
+  183  ls
+  184  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+  185  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  186  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  187  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska" | wc-l
+  188  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska" | wc -l
+  189  cd ~
+  190  ls
+  191  cd command-line-murder-mystery git:(master)
+  192  cd desktop
+  193  cd SEI_818CLASS
+  194  ls
+  195  cd command-line-murder-mystery
+  196  cat solution.txt
+  197  ls
+  198  cat instructions
+  199  ls
+  200  cd mystery
+  201  ls
+  202  cd ..
+  203  touch solution.txt
+  204  ls
+
+
+Killer's Name: Jeremy Bowers
