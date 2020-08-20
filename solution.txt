@@ -1,0 +1,43 @@
+
+
+used control + F to find all the CLUES:
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: 575776622208 Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+
+used grep -r "Annabel" . for people
+Annabel Sun	F	26	Hart Place, line 40
+Annabel Church	F	38	Buckingham Place, line 179 
+Annabel Fuglsang	M	40	Haley Street, line 176 
+
+used grep -r "Fuglsang" . in interviews directory and found the following:
+ Mr. Fuglsang is male and has brown hair.  Not the witness from the cafe. Rotary and Advantage member
+
+used grep -r "6'" in interviews and saw following excerpt: 
+Bostock is 6' 4", easily tall enough to match the camera footage.
+
+found Bostock in list of names in vehicles:
+
+Bostock
+License Plate L337P89
+Make: Honda
+Color: Teal
+Owner: Mike Bostock
+Height: 6'4"
+Weight: 173 lbs
+
+
+His memberships matched the wallet found:
+
+
+memberships git:(master) grep -r "Bostock" .
+./library.txt:Mike Bostock
+./AAA:Mike Bostock
+./newfile.txt:Mike Bostock
+./museum.txt:Mike Bostock
+./2.txt:Mike Bostock
+./Terminal_City_Library:Mike Bostock
+./1.txt:Mike Bostock
+./delta.txt:Mike Bostock
+./Museum_of_Bash_History:Mike Bostock
+./Delta_SkyMiles:Mike Bostock
