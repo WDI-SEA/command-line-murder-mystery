@@ -1,0 +1,148 @@
+Jeremy Bowers 
+  360  brew install git
+  361  pwd
+  362  cd Applications
+  363  cd Applications
+  364  pwd
+  365  ls -al ~/.ssh
+  366  ssh-keygen -t rsa -b 4096 -C edwards2004@icloud.com
+  367  eval"$(ssh-agent -s)"
+  368  touch ~/.ssh/config
+  369  pwd
+  370  cd ~
+  371  cd Desktop
+  372  mkdir SEIFX
+  373  cd SEIFX
+  374  pwd
+  375  SEIFX git clone https://github.com/samplepage/command-line-murder-mystery.git
+  376  git clone https://github.com/samplepage/command-line-murder-mystery.git
+  377  cd SEIFX
+  378  pwd
+  379  ls
+  380  ls
+  381  cd command-line-murder-mystery
+  382  ls
+  383  cd READ.md
+  384  cd README.md
+  385  open README.md
+  386  open hint1
+  387  head -n 20 people
+  388  head -n 20 mystery
+  389  pwd
+  390  open mystery
+  391  pwd
+  392  open mystery
+  393  ls
+  394  cd mystery
+  395  ls
+  396  open people
+  397  people ls
+  398  ls people
+  399  pwd
+  400  cd ..
+  401  pwd
+  402  ls
+  403  open hint1
+  404  cd mystery
+  405  ls
+  406  head -n 20 people
+  407  cd streets
+  408  ls
+  409  pwd
+  410  ls
+  411  pwd
+  412  cd ..
+  413  pwd
+  414  ls
+  415  cd ..
+  416  ls
+  417  open hint2
+  418  grep "CLUE" crimescene
+  419  cd mystery
+  420  ls
+  421  grep "CLUE" crimescene
+  422  pwd
+  423  cd ..
+  424  ls
+  425  open hint3
+  426  cd mystery
+  427  ls
+  428  cd people
+  429  grep "Annabel" people
+  430  open streets
+  431  open Buckingham_Place
+  432  cd streets
+  433  ls
+  434  open Buckingham_Place
+  435  cd ..
+  436  pwd
+  437  ls
+  438  cd ..
+  439  open hint4
+  440  open hint5
+  441  head -n 173 streets/Mattapan_Street | tail -n 1
+  442  ls
+  443  cd mystery
+  444  ls
+  445  cd head -n 173 streets/Mattapan_Street | tail -n 1
+  446  head -n 173 streets/Mattapan_Street | tail -n 1
+  447  grep "#9437737" interviews
+  448  cd interviews
+  449  ls
+  450   grep "#9437737" interviews
+  451  open interview-9437737
+  452  cd ..
+  453  ls
+  454  cd ..
+  455  ls
+  456  open hint6
+  457  cd mystery
+  458  ls
+  459  grep "Honda" vehicles
+  460  ls
+  461  head -n 20 vehicles
+  462  head -n 80 vehicels
+  463  head -n 80 vehicles
+  464  cd ..
+  465  ls
+  466  open hint7
+  467  grep -A 5 "L337" mystery/vehicles
+  468  cd ..
+  469  pwd
+  470  cd SEIFX
+  471  cd command-line-murder-mystery
+  472  ls
+  473  open hint8
+  474  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  475  cat Fitness_Galaxy AAA United_MileagePlus | grep "Mike Bostock"
+  476  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Keefe"
+  477  cat Fitness_Galaxy AAA United_MileagePlus | grep c- "John Keefe"
+  478  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  479  cd mystery
+  480  ls
+  481  cd people
+  482  grep "Jeremy" people
+  483  grep "Jeremy" memberships
+  484  cd memberships
+  485  ls
+  486  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  487  ls
+  488  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  489  open museum.txt
+  490  open library.txt
+  491  open delta.txt
+  492  cd ..
+  493  ls
+  494  cd ..
+  495  ls
+  496  open cheatsheet.pdf
+  497  open cheatsheet.md
+  498  open cheatsheet.pdf
+  499  cd mystery
+  500  ls
+  501  cd memberships
+  502  ls
+  503  cat Museum_of_Bash_History AAA | "Jeremy Bowers"
+  504  cat Museum_of_Bash_History AAA | grep "Jeremy Bowers"
+  505  `history`
+  506  history
