@@ -1,11 +1,1065 @@
-To see who was a member of several different groups, you can combine their membership lists into one and search against that.
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
 
-	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+Annabel Sun	F	26	Hart Place, line 40
+Annabel Church	F	38	Buckingham Place, line 179
 
-If you only want to see the number of matches, you can use grep's -c option (the c must be lowercase):
 
-	cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
 
-Or you can pipe the result to 'wc -l':
+"Interview" the two possible witnesses by reading the correct line from the streets they live on:
 
-	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+	head -n 173 streets/Mattapan_Street | tail -n 1
+
+This will give you just line 173 of Mattapan street, because it will take first 173 lines, and then take
+the last line from those.%
+
+SEE INTERVIEW #9437737
+From interview: Doesn't appear to be the witness from the cafe, who is female.%
+
+SEE INTERVIEW #47246024 - not the witness
+
+SEE INTERVIEW #699607 - is the witness. Blue Honda, plate ends in 9.
+
+
+
+In order to actually get information about vehicles that might match our description,
+we need to get multiple lines AROUND each match.  We can use the -A, -B, or -C option with grep:
+
+	grep -A 5 "L337" mystery/vehicles
+
+This will match the license plates that contain "L337" and, for each match, show us the five lines AFTER it.%
+
+
+--
+
+--
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+--
+
+
+
+MY ITERM STUFF:
+Didier Munoz
+Katerin Pliev
+William Vicaut
+Ahmed Elkawiseh
+Alexandru Govers
+Meiyu Iljustsenko
+Gal Pascual
+Mona Colupaev
+Maria Drais
+Chana Borges-Mendelblatt
+Krista Coci
+Matteo Nieminen
+Nicholas Howden
+Helen Cheywa
+Kasper You
+Taoufik Geziry
+Aleksei Rouwendaal
+Stefan Noonan
+Juan Kim
+Werner Totrov
+Michael Gigli
+Heiki Outteridge
+Petr Vicaut
+Jade Jallouz
+Rares Hsing
+Agnese Bartakova
+Ryosuke Ciglar
+Ewelina Safronov
+Yuliya Gomes
+Michael Sjostrand
+Yuderqui Mrak
+Niki Batkovic
+Kristina Hochstrasser
+Timothy Francisca
+Joao Ziadi
+Iain Kossayev
+Andres Liu
+Lauryn Fujio
+Murilo Rohart
+Jarmila Hallgrimsson
+Stefanie Thi
+Adonis Kitchens
+John Keefe
+Alberto Bauza
+Sultan Wilson
+Tomasz Lanzone
+Kamila Sakari
+Darae Elsayed
+Joseph Last
+Carole Adams
+Lina SCHIMAK
+Alistair McGeorge
+Madonna Kim
+Jaele Sharp
+El Toth
+Sarra Larsen
+Elea Li
+Junjing Kang
+Jaime Bruno
+Carlos Hall
+Kurt Tran-Swensen
+Anabel Dominguez
+George Fuente
+Ibrahim Seoud
+Line Emanuel
+Christian Brata
+Kanae Uriarte
+Artur Munkhbaatar
+Pawel Jensen
+Hui Akutsu
+Jemma Wang
+Kate Bourihane
+Nikolaus Milatz
+Irina Song
+Raul Baumrtova
+Endri Clijsters
+Jitka Tranter
+Radhouane Klamer
+Zamandosi Chuang
+Lina Hassine
+Gabrielle Raudaschl
+Ingrid Papachristos
+Vincent Lawrence
+Robert Choi
+Mizuho Suetsuna
+Hang Slimane
+Omar Hurst
+Eva-Maria Speirs
+Alena Davis
+Zhe Hochstrasser
+Katrien Na
+Pavlo Stewart
+Adrienne Kreanga
+Paul Kitamoto
+Josefin Lamdassem
+Brendan Mendy
+Grigor Suuto
+Teresa Kim
+Jiao Faulds
+Iosif Wang
+Charlotte Kachalova
+Sally Fuamatu
+Johan Arvaniti
+Sarah Dovgun
+Tapio Gorman
+Mhairi French
+Tamas Guo
+Olha Lewis-Smallwood
+Dmitriy Montano
+Rodrigo Burke
+Peng Kim
+Chia-Ying Djokovic
+Rodrigo Santos
+Mai Csernoviczki
+Asier Filonyuk
+Ali Jallouz
+Zamandosi Flood
+Jianbo Janikowski
+Ka Caulker
+Kristian Surgeloose
+Matias Tait
+Mariela Mortelette
+Marian Jager
+Deni Yao
+Neil Kopp
+Paulo Seric
+Britany Charlos
+Andrea Lammers
+Joel Giordano
+Sebastian Makela-Nummela
+Yayoi Buckman
+Wei Hazard
+Tarek Luis
+David Al-Athba
+Josefin Ifadidou
+Rui Loukas
+Katarzyna Gelana
+Marina Murphy
+Sanne Kuo
+Timothy Goffin
+Lucy Nakaya
+Krystian Pen
+Rebecca Ruta
+Katherine Luca
+Sabrina Abily
+Aida Ganiel
+Desiree Inglis
+Ahmed Magdanis
+Manuel Silva
+Arlene Navarro
+Mhairi Sommer
+Toni Shevchenko
+Rosie Aydemir
+Hannah Lozano
+Miguel Skujyte
+Amine Najar
+Anna Scozzoli
+Neymar Kaczor
+Raul Hoshina
+Yifang Jang
+Ivan Christou
+Greggmar Benassi
+Thomas Song
+Hicham Hendershot
+Melanie Disney-May
+Automne Moline
+Elena Belyakova
+Travis Hammadi
+Luis Booth
+Miljan Henderson
+Ana Dukic
+Aldo Cerkovskis
+Britany Oatley
+Kay Rosa
+Anthony Dahlgren
+Alexa Loch
+Neisha Liang
+Brent Queen
+Kerron Lee
+Ganna Zonta
+Mary Tomashova
+Betkili Betts
+Volha Mahfizur
+Edith Sofyan
+Kyung Kaifuchi
+Eduarda Bartonova
+David Lashin
+Yanmei Matkowski
+Vera Sene
+Xuanxu Barnard
+Ursula Ward
+Lizeth Coertzen
+Ahmed Chammartin
+Peter Jang
+Peter Sloma
+Silviya Elaisa
+Larisa Nagy
+Lina Al-Jumaili
+Mihnea Hamcho
+Emma Chadid
+Toea Robert-Michon
+Charlotte Ranfagni
+Elia Gittens
+Younghui Karasek
+Ligia Czakova
+Marcel Sigurdsson
+Aleksandar Sandell
+Radoslav Susanu
+Sarah Viudez
+Bjorn Couch
+Asafa Robles
+Hendrik Tetyukhin
+Ondrej Houssaye
+Ayman Suursild
+Georgina Manojlovic
+Bruno Kiryienka
+Kate Pink
+Joel Tverdohlib
+Shiho Berkel
+Maryna Desprat
+Chelsea Thiele
+Slobodan Meliakh
+Steven Solomon
+Xavier Cox
+Bin Iersel
+Ferdinand Clair
+Alexandra Solja
+Julien Chen
+Fabienne Bouw
+Robert Skrzypulec
+Mouni Malaquias
+Lok Al-Athba
+Laura Wu
+Amy Kim
+Kum Musil
+Arnaud Gonzalez
+Marvin Rice
+Mateusz Metu
+Destinee Kucana
+Inmara Castro
+Natasha Birgmark
+Ryan Porter
+Sviatlana Yin
+Primoz Aubameyang
+Jamie Kim
+Tate Zucchetti
+Hotaru Terceira
+Boniface Eichfeld
+Yugo Sesum
+Ana Pavia
+Yue Zargari
+Casey Cullen
+Selim Karagoz
+Dominique Hall
+Yumeka Guo
+Luciano Telde
+Gavin Sobhi
+Jose Pedersen
+Vladimer Sorokina
+Paula Zhudina
+Karen Avermaet
+Yuderqui Sahutoglu
+Silvana Erickson
+Rodrigo Surgeloose
+Henri Navruzov
+Manuela Syllabova
+Jinyan Bernard-Thomas
+Flor Jonas
+Angelica Lopez
+Allison Musinschi
+Saori Kienhuis
+Elena Falgowski
+Shannon Lapeyre
+Nan Gionis
+Marcelinho Pendrel
+Milena Wojnarowicz
+Nathan Freixa
+Honami Kozhenkova
+Andja Gabriele
+Becky Wozniak
+Ye Fitzgerald
+Caroline Kirdyapkina
+James Padilla
+Woroud Baroukh
+Sebastian Gamera-Shmyrko
+Kozue Martinez
+Erick Fedoriva
+Vladimir King
+Kazuki Leroy
+Jennifer Kim
+Annie Ali
+Zargo Dehesa
+Andisiwe Graham
+Myung Kim
+Claudia Butkevych
+Alejandro Collins
+Nadzeya Allegrini
+Christinna Hudnut
+Tim Phillips
+Dorian Sauer
+Claire Murphy
+Hector Moutoussamy
+Nuno Rajabi
+Olesya Silnov
+Maartje Fabian
+Rizlen Errigo
+Mel Quinonez
+Magdalena Siladi
+Peter Gonzalez
+Susan Bluman
+Olga Schofield
+Wesley Truppa
+Maja Balykina
+Jeremiah Dean
+Alvaro Tanatarov
+Yihua Grunsven
+Isiah Lacuna
+Carlos Yakimenko
+Zakia Zhurauliou
+Ashley Saramotins
+Tim Bernado
+Jean Andrunache
+Ian Rhodes
+Micah Smith
+Jing Aponte
+Da-Woon Morkov
+Silviya Saholinirina
+Ser-Od He
+Aman Schulte
+Urs Kim
+Christian Godin
+Robert Dent
+Jiaduo Calzada
+Jesus Barrett
+Sidni Sze
+Massimo Groot
+Georgios Kostiw
+Roxana Edoa
+Mariaesthela O'connor
+Kate Scheuber
+Viktoriia Mathlouthi
+Nam Baga
+Mattia Sanchez
+Clara Fuentes
+Kasper Addy
+Kyung Steffensen
+Veronika Wruck
+Lukasz Kovacs
+Dominic Seppala
+Pierre-Alexis Valiyev
+Francis Thiele
+Hichem Schwarz
+Nelly Rumjancevs
+Kateryna Mitrea
+Richard Kaniskina
+Andy Maier
+Victor Kondo
+Eusebio Wallace
+Mariana Selimau
+Marlene Cabrera
+Ebrahim Baggaley
+Denis Gonzalez
+Blair Stratton
+Concepcion Vasilevskis
+Alvaro Viljoen
+Marco Dries
+Joseph Nielsen
+Zi McColgan
+Alejandra Ndong
+Silke Nam
+Robbert Kanerva
+Pui Na
+Kelly Kulish
+Kathleen Jo
+Andile Li
+Georgios Antal
+Iryna Radovic
+Amel Kim
+Fabiana Hortness
+Jessica Ochoa
+Princesa Firdasari
+Natalia Manaudou
+Nikita Kirdyapkina
+Xiayan Harden
+Jordan Voglsang
+Tatyana Wang
+Michael Sinia
+Katya Baddeley
+Ondrej Kitchens
+Simas Takahashi
+Midori Seraphin
+Wassim Matsumoto
+Ai REICHSTAEDTER
+Guojie Timofeyeva
+Danielys Butler
+Zohar Iwashimizu
+Simone Abrantes
+Viktorya Schmidt
+Thi Kostadinov
+Norman Weltz
+Leith Clear
+Marleen Rodrigues
+Arnaud Feck
+Cristian Ghasemi
+Desiree Kavcic
+Birhan Ryan
+Xueying Hillmann
+Attila Tafatatha
+Myung McCafferty
+Daniele Babaryka
+Natalia Gatlin
+Lucie Yang
+Boglarka Vacenovska
+Natalia Child
+Pavel Lambarki
+Anthony Mizutani
+Albert Barthel
+Paula Darzi
+Iain Hartig
+Nahomi Jobodwana
+Ubaldina Ziegler
+Jo-Ting Losev
+Lina Kubiak
+Valentyna Townsend
+Dauren Smulders
+Sangjin Hindes
+Nourhan Benfeito
+Ioannis Martinez
+Lidiia Ng
+Sara Campbell
+Andrija Peker
+Julian Mehmedi
+Christine Heglund
+Eric Silva
+Lyndsie Dudas
+Lucy Maguire
+Lucia Berens
+Annemiek Arikan
+Benjamin Kuramagomedov
+Irene Kreisinger
+Greta Apolonia
+Tassia Grotowski
+Lauryn Powrie
+Wilson Sauvage
+Doris Wilke
+Olga Nguyen
+Maria Smith
+Dmytro Golding
+Anna Tomic
+Jeneba Lee
+Wai Schoeman
+Laura Neben
+Nguse Byrne
+Yakhouba Garcia
+Silvia Nakamoto
+Wenjun Taimsoo
+Oriol Gonci
+James Pohrebnyak
+Matt Waite
+Dante Ma
+Evgeni McDonald
+Byunghee Filipe
+Katerine Podlesnyy
+Rasul Tichelt
+Gabriella Sarup
+Colin Nakayama
+Ines Kovtunovskaia
+Caitlin Carli
+Camille Andersen
+Noraseela Podrazil
+Stanislav Cherobon-Bawcom
+Chia Hilario
+Bohdan Kostelecky
+Seen Flores
+Anastasiya Rupp
+Keri-anne KORSIZ
+Timothy Li
+Petar Bauwens
+Robert Gan
+Chuyoung Sokolowska
+Naomi Gattsiev
+Monika Hwang
+Paula Pamg
+Alexey Gille
+Eva Hirata
+Michael Vasco
+Jordan Panizzon
+Ana Tursunov
+Victoria Abarhoun
+Kristina Cerutti
+Jake Claver
+Afgan Mrvaljevic
+Petar Dominguez
+Yumi Buerge
+Ning Chen
+Elena Coster
+Nick Schodowski
+Andre Romeu
+Taehee Bondaruk
+Aksana Baniotis
+Simone Morin
+Diego Dahlkvist
+Katerina Saenz
+Serhiy Robinson
+Rachel Jelcic
+Emma Wei
+Carrie Spellerberg
+William Bindrich
+Sarah Guzzetti
+Mohamed Koo
+David Jeong
+Mikaela Iwao
+Ingrid Fogarty
+Jean-Christophe Kirkham
+Mana Konyot
+Krisztian Ida
+Sinta Denisov
+Zakari Isakov
+Travis Ponsana
+Carles Solesbury
+Nestor Seric
+Mindaugas Saleh
+Daniele Nurmukhambetova
+Luol Mooren
+Aylin Maurer
+Hans Haldane
+Liangliang Miller
+Olivier Zhang
+Ahmed Korzeniowski
+Telma Andrunache
+Nicolas Dotto
+Georgie Santos
+Bruno Oliver
+Ahmed Kurthy
+Daniela O'malley
+Nils Guzzetti
+Akeem Ngake
+Meredith Yu
+Burcu Bacsi
+Georgina Zuniga
+Glenn Defar
+Natalia Akwu
+Maialen Uriarte
+Dragos Stone
+Ali Milthaler
+Robin Vesely
+Elodie Arcioni
+Sandrine Yumira
+Giulia Schwanitz
+Nataliya Nielsen
+Tervel Pilipenko
+Gauthier Alimzhanov
+Ivan Caballero
+Ruoqi Nowak
+Kristian Yamaleu
+Radhouane Cawthorn
+David Moutton
+Jacqui Maher
+Jamila Rodhe
+Faith Kim
+DeeDee Montoya
+Elena Quinonez
+Stephanie Piasecki
+Julieta Pars
+Andrea Desta
+Tina Susanu
+Johana Carman
+Rand Gilot
+Joyce Kuehner
+Duane Skvortsov
+Marianne Li
+Khalil Shi
+Phuttharaksa Signate
+Flor Magnini
+Dylan Espinosa
+Viktor Lamdassem
+Barry Utanga
+Jonas Vlcek
+Tugce Vozakova
+Darrel Yamane
+Joao Brecciaroli
+Laura Dundar
+Karsten Thompson
+Anzor Gu
+Sehryne Akrout
+Marcel Gustafsson
+Svetlana Dieke
+Donald Guderzo
+Hao Fukumoto
+Sylwia Kiss
+Zhiwen Piron
+Sabina Williams
+Daniela Gavnholt
+Nguyen Ozolina-Kovala
+Kumi Lewis-Francis
+Fatih Eisel
+Vasyl Geijer
+Hung Mutlu
+Piotr Rabente
+Lara Siegelaar
+Marcus Khalid
+Jose Uhl
+Sebastian Drame
+Niki Klimesova
+Ioannis Mockenhaupt
+Aleksei Wang
+Mannad Khitraya
+Nicola Belikova
+Elisabeth Santos
+Ahmed Saladuha
+Lucy White
+Anabel Kal
+Volha Otsuka
+Kwan Otsuka
+Thiago Bruno
+Geoffrey Plotyczer
+Dora Veljkovic
+Miki Zhang
+Phelan Poulsen
+Mie Hall
+Pietro Walker
+Schillonie Benaissa
+Maximiliano Matsumoto
+Ryan Prasad
+Kristy Zhu
+Andrei Masna
+Holder Lamont
+Susana Neymour
+Kari Halsted
+Eric Sawa
+Mohamed Thomas
+Brad Ogimi
+Jianbo Megannem
+Laetitia Manuel
+Fineza Primorac
+Milena Vogel
+Mark Turner
+Andrew Negrean
+Hiroshi Schuring
+Brice Agliotti
+Yukiko Nicolai
+Adam Zaripova
+Johannes Berna
+Eloise Balooshi
+Teodor Wilson
+Yasmin Soliman
+Aniko Ahmed
+Dieter Schooling
+Gulcan Burling
+Grant Watkins
+Ross Nakamura
+Asgeir Dzerkal
+Tina Ipsen
+Alex Hosnyanszky
+Sebastian Lelas
+Ho Thunebro
+Micheen Zhang
+Nina Sornoza
+Rachel Burrows
+Jessica Unger
+Tamara Cafaro
+Kaylyn Chavanel
+Braian Osayomi
+Yasmin Brathwaite
+Christina Maneephan
+Natalie Barbosa
+Kimberley Obiang
+Daniel Blazhevski
+Emma Alphen
+Christian Zambrano
+Mate Montano
+Sergio Ivankovic
+Shijia Conway
+Dong-Young Kim
+Laura Boyce
+Mayara Trinquier
+Simon Alphen
+Aaron Santos
+Gulnara Deeva
+Jo-Wilfried Schornberg
+Jie Gebremariam
+Shota Michta
+Tim Mankoc
+Jane Trotter
+Line Naylor
+Suzanne Silva
+Astrida Roche
+Roderick Huang
+Iveta Blagojevic
+Azneem Sharapova
+Silvia Chaika
+Ioulietta Assefa
+Nadia Jung
+Lucie Kryvitski
+Westley Tatalashvili
+Geraint Traore
+Mikhail Vlcek
+Matthieu Wang
+Florian Filova
+Kelsey Grumier
+Dan Sinker
+Donglun Borlee
+Sophie Ahmadov
+James Hsiao
+Brian Boyer
+Maoxing Bedik
+Theodora Conway
+Pavel Lepron
+Femke Gelana
+Seyha Balogh
+Dalibor Vidal
+Anna Menkov
+Ava Rusakova
+Mike Bostock
+Nicholas Mitchell
+Giorgia Borisenko
+Zouhair Ri
+Audrey Pulgar
+Reine Huertas
+Hyelim Villaplana
+Alicja Kamionobe
+Francois Spanovic
+Michel Sano
+Zhuldyz Hoxha
+Nicolas Aranguiz
+Augustin Lozano
+Andreas Paonessa
+Hongxia Tan
+Angelo Uhl
+Will Mehmedovic
+Javier Volosova
+Natsumi Pohlak
+Henna Causeur
+Komeil Menchov
+Layne Smith
+Lisa Wang
+Olesya Nielsen
+Cristiane Forciniti
+Cedric Subotic
+Barbora Parellis
+Danijel Carriqueo
+Hanna Gynther
+Adam Houssaye
+Erasmus Perez
+Chien-Ying Fraser-Holmes
+Tina Boidin
+Sadio Chouiref
+Juan Tourn
+Sebastian Sorribes
+Yimeng Amaris
+Stephanie Kieng
+Kelsey Bludova
+Chantae Matuhin
+Abdullah Jiao
+Job Kretschmer
+Fabio Figes
+Nils Pascual
+Uvis Fuchs
+Alexander Herrera
+Mona Taibi
+Seiya Railey
+Radoslaw Robles
+Kathleen Schmidt
+Dani Loukas
+Kaspar Brown
+➜  memberships git:(master) ✗ grep "Mike" AAA
+Mike Bostock
+➜  memberships git:(master) ✗ grep "John" AAA
+Lauren Johnson
+John Keefe
+➜  memberships git:(master) ✗ grep "Matt" AAA
+Matteo Nieminen
+Mattia Sanchez
+Matt Waite
+Matthieu Wang
+➜  memberships git:(master) ✗ grep "Brian" AAA
+Brian Boyer
+➜  memberships git:(master) ✗ grep "Al" AAA
+Al Shaw
+Giovani Alflaij
+Alex Kim
+Almensh Zbogar
+Aleksandr Holliday
+Alberto Vidal
+Alana Thiam
+Aldo Nicolas
+Alexandr Liu
+Alex Nichols
+Aleks Eisel
+Dilshod Allen
+Aleksandar Atafi
+Aleksandr Rutherford
+Alexis Diaz
+Alexandru Govers
+Aleksei Rouwendaal
+Alberto Bauza
+Alistair McGeorge
+Alena Davis
+Ali Jallouz
+David Al-Athba
+Aldo Cerkovskis
+Alexa Loch
+Lina Al-Jumaili
+Aleksandar Sandell
+Alexandra Solja
+Lok Al-Athba
+Allison Musinschi
+Annie Ali
+Alejandro Collins
+Nadzeya Allegrini
+Alvaro Tanatarov
+Pierre-Alexis Valiyev
+Alvaro Viljoen
+Alejandra Ndong
+Albert Barthel
+Alexey Gille
+Ali Milthaler
+Gauthier Alimzhanov
+Aleksei Wang
+Alex Hosnyanszky
+Emma Alphen
+Simon Alphen
+Alicja Kamionobe
+Alexander Herrera
+➜  memberships git:(master) ✗ grep "Shaw" AAA
+Al Shaw
+➜  memberships git:(master) ✗ grep "Germuska" AAA
+Joe Germuska
+➜  memberships git:(master) ✗ grep "Bowers" AAA
+Jeremy Bowers
+➜  memberships git:(master) ✗ ls
+1.txt                   Fitness_Galaxy          United_MileagePlus
+2.txt                   Museum_of_Bash_History  delta.txt
+AAA                     REI                     library.txt
+AAdvantage              Rotary_Club             museum.txt
+Costco                  TCSU_Alumni_Association newfile.txt
+Delta_SkyMiles          Terminal_City_Library
+➜  memberships git:(master) ✗ grep "Mike" Museum_of_Bash_History
+Mike Bostock
+➜  memberships git:(master) ✗ grep "John" Museum_of_Bash_History
+Jennifer Johnson
+➜  memberships git:(master) ✗ grep "Waite" Museum_of_Bash_History
+Matt Waite
+➜  memberships git:(master) ✗ grep "Boyer" Museum_of_Bash_History
+Brian Boyer
+➜  memberships git:(master) ✗ grep "Shaw" Museum_of_Bash_History
+➜  memberships git:(master) ✗ grep "Germuska" Museum_of_Bash_History
+➜  memberships git:(master) ✗ grep "Bowers" Museum_of_Bash_History
+Jeremy Bowers
+➜  memberships git:(master) ✗ ls
+1.txt                   Fitness_Galaxy          United_MileagePlus
+2.txt                   Museum_of_Bash_History  delta.txt
+AAA                     REI                     library.txt
+AAdvantage              Rotary_Club             museum.txt
+Costco                  TCSU_Alumni_Association newfile.txt
+Delta_SkyMiles          Terminal_City_Library
+➜  memberships git:(master) ✗ grep "Mike" Delta_SkyMiles
+Mike Bostock
+➜  memberships git:(master) ✗ grep "Matt" Delta_SkyMiles
+Mattia Saramotins
+Matteo Gordeeva
+Matt Waite
+Matthew Chakhnashvili
+Matthieu Wang
+Amber Mattsson
+Matthias Ekimov
+➜  memberships git:(master) ✗ grep "Brian" Delta_SkyMiles
+Brian Boyer
+➜  memberships git:(master) ✗ grep "Bowers" Delta_SkyMiles
+Jeremy Bowers
+➜  memberships git:(master) ✗ grep "Mike"  Terminal_City_Library
+Mike Bostock
+➜  memberships git:(master) ✗ grep "Matt"  Terminal_City_Library
+Mattias Kovtunovskaia
+Mattia Sanchez
+Matteo Verschuren
+Matt Waite
+Matthew Chakhnashvili
+Matthew Dalby
+Matthew Toth
+Matthias Mendes
+Matteo Goncharova
+Matthew Helgesson
+Matti Othman
+➜  memberships git:(master) ✗ grep "Brian"  Terminal_City_Library
+Brian Boyer
+➜  memberships git:(master) ✗ grep "Jeremy"  Terminal_City_Library
+Jeremy Bowers
+➜  memberships git:(master) ✗ cd ..
+➜  mystery git:(master) ✗ ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(master) ✗ cd interviews
+➜  interviews git:(master) ✗ cat INTERVIEW #9437737
+cat: INTERVIEW: No such file or directory
+➜  interviews git:(master) ✗ ls
+interview-000296   interview-2642139  interview-496772   interview-75434722
+interview-00448418 interview-27042476 interview-498331   interview-755037
+interview-00502304 interview-27504937 interview-499096   interview-75633580
+interview-005702   interview-275706   interview-50168425 interview-7580872
+interview-00617019 interview-279087   interview-50291987 interview-77014856
+interview-00805135 interview-280877   interview-504687   interview-770439
+interview-016463   interview-2834518  interview-509105   interview-77135281
+interview-020337   interview-284560   interview-5143029  interview-7791374
+interview-022751   interview-2846076  interview-514793   interview-780255
+interview-0234126  interview-289524   interview-52280505 interview-7863761
+interview-02422821 interview-290346   interview-528044   interview-789564
+interview-0251720  interview-291440   interview-529706   interview-791289
+interview-03098229 interview-2922290  interview-53318557 interview-79360358
+interview-0315125  interview-29316965 interview-535181   interview-79411932
+interview-03316077 interview-2939888  interview-5372865  interview-794525
+interview-034070   interview-296128   interview-538900   interview-7959148
+interview-0349327  interview-29680692 interview-54026669 interview-796439
+interview-04393507 interview-29741223 interview-541518   interview-79667499
+interview-044492   interview-2976680  interview-5455315  interview-79935965
+interview-0462097  interview-29838622 interview-54619323 interview-7998181
+interview-049721   interview-2995681  interview-54851634 interview-8095917
+interview-05297663 interview-301018   interview-549055   interview-809922
+interview-06032377 interview-30259493 interview-55382746 interview-812725
+interview-0613334  interview-3049045  interview-55410365 interview-81443363
+interview-066291   interview-305694   interview-55435298 interview-822576
+interview-071537   interview-305949   interview-55477243 interview-8245680
+interview-0732631  interview-306616   interview-555536   interview-825165
+interview-07497003 interview-3074127  interview-5581158  interview-82705993
+interview-0768255  interview-3099757  interview-55841398 interview-831512
+interview-092423   interview-312546   interview-55984022 interview-833367
+interview-0953437  interview-3128999  interview-565396   interview-838259
+interview-096267   interview-3140662  interview-566707   interview-8387710
+interview-102490   interview-31635890 interview-56784802 interview-8402388
+interview-109118   interview-3201508  interview-56892213 interview-8421696
+interview-1108561  interview-322305   interview-57236791 interview-8464899
+interview-114661   interview-32365018 interview-5739404  interview-84688694
+interview-11495001 interview-324389   interview-5766907  interview-849256
+interview-116803   interview-325611   interview-5774468  interview-85262552
+interview-11705111 interview-32639981 interview-5782759  interview-8531248
+interview-11783660 interview-32712166 interview-579105   interview-856221
+interview-11817172 interview-331178   interview-5835471  interview-8586380
+interview-1186827  interview-332596   interview-586668   interview-861780
+interview-1205060  interview-33399976 interview-58910793 interview-862173
+interview-1250176  interview-340396   interview-5905106  interview-862717
+interview-125204   interview-34041151 interview-591273   interview-8631232
+interview-125271   interview-342393   interview-5993978  interview-86395001
+interview-1269181  interview-34359897 interview-60081985 interview-865918
+interview-1310392  interview-344331   interview-604403   interview-867999
+interview-13768464 interview-34690644 interview-608607   interview-8700943
+interview-13889608 interview-347303   interview-6093093  interview-87126591
+interview-13920860 interview-351963   interview-618764   interview-871877
+interview-1395414  interview-353218   interview-6203192  interview-879569
+interview-141030   interview-353467   interview-628618   interview-8819490
+interview-14153840 interview-354262   interview-63308519 interview-891720
+interview-144873   interview-3588302  interview-637657   interview-896668
+interview-14590717 interview-3609204  interview-637928   interview-9004767
+interview-147283   interview-36398447 interview-638121   interview-901603
+interview-15187437 interview-364735   interview-6417794  interview-901645
+interview-15354942 interview-36527398 interview-645385   interview-90394637
+interview-1536668  interview-376115   interview-6553472  interview-904020
+interview-155049   interview-37747405 interview-65792229 interview-907126
+interview-1578206  interview-3804339  interview-659803   interview-9074626
+interview-159848   interview-3824641  interview-66101490 interview-911451
+interview-16098538 interview-38299069 interview-66282920 interview-91673757
+interview-1642421  interview-3871205  interview-6643191  interview-917210
+interview-1643440  interview-3871242  interview-67279454 interview-9185205
+interview-16889008 interview-38899905 interview-673985   interview-920304
+interview-17248453 interview-3917097  interview-676473   interview-92391023
+interview-17343208 interview-391811   interview-67790846 interview-92670500
+interview-174898   interview-39481114 interview-680549   interview-927642
+interview-1767435  interview-39825862 interview-6808205  interview-9332386
+interview-17827186 interview-40534453 interview-68195573 interview-9346061
+interview-179719   interview-40610944 interview-68488577 interview-93473333
+interview-1811770  interview-409731   interview-68764140 interview-93696502
+interview-18193261 interview-41553314 interview-6884359  interview-938991
+interview-1823688  interview-416243   interview-6894000  interview-9408565
+interview-18270219 interview-41814745 interview-69170457 interview-94126412
+interview-18441251 interview-4204949  interview-6933068  interview-9437737
+interview-1850922  interview-42161907 interview-699607   interview-944493
+interview-1857368  interview-4223536  interview-70067280 interview-9446528
+interview-1906958  interview-4225866  interview-70199425 interview-9501580
+interview-191206   interview-42396365 interview-703831   interview-95095182
+interview-19300543 interview-4262657  interview-704443   interview-95601730
+interview-1933118  interview-42934869 interview-70458099 interview-9618669
+interview-19577850 interview-4299898  interview-7046684  interview-9620713
+interview-2058907  interview-4335306  interview-7066082  interview-9651888
+interview-210355   interview-4366523  interview-706620   interview-9666149
+interview-218131   interview-44533008 interview-707438   interview-97043057
+interview-221039   interview-4463090  interview-708943   interview-9709892
+interview-223913   interview-448086   interview-7103823  interview-9711852
+interview-2277882  interview-45615686 interview-71186817 interview-9712946
+interview-229443   interview-457117   interview-71226767 interview-9728756
+interview-23167806 interview-457451   interview-71298441 interview-97393699
+interview-2326746  interview-466195   interview-7180973  interview-97409610
+interview-23371263 interview-4673074  interview-71993338 interview-980963
+interview-233800   interview-46773428 interview-720268   interview-982013
+interview-2415821  interview-47246024 interview-7254073  interview-9824821
+interview-243703   interview-4735823  interview-728181   interview-98912259
+interview-2481877  interview-4765278  interview-730123   interview-9901455
+interview-250112   interview-476744   interview-73035802 interview-9912172
+interview-253705   interview-478217   interview-7305678  interview-992072
+interview-255531   interview-48088300 interview-73585672 interview-99643550
+interview-25582311 interview-48148020 interview-737609   interview-9969223
+interview-25834905 interview-483817   interview-7422077  interview-999372
+interview-259909   interview-485229   interview-74225310
+interview-2601508  interview-4950099  interview-7469675
+interview-26373485 interview-4961376  interview-7541406
+➜  interviews git:(master) ✗ cat interview-9437737
+Doesn't appear to be the witness from the cafe, who is female.%                 ➜  interviews git:(master) ✗ cd ..
+➜  mystery git:(master) ✗ cd streets
+➜  streets git:(master) ✗ head -n 40 Hart_Place | tail -n 1
+SEE INTERVIEW #47246024
+➜  streets git:(master) ✗ head -n 179 Buckingham_Place | tail -n 1
+SEE INTERVIEW #699607
+➜  streets git:(master) ✗ cd ..
+➜  mystery git:(master) ✗ ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(master) ✗ cd interviews
+➜  interviews git:(master) ✗ cat interview-47246024
+Ms. Sun has brown hair and is not from New Zealand.  Not the witness from the cafe.%                                                                            ➜  interviews git:(master) ✗ cat interview-699607
+Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"%         ➜  interviews git:(master) ✗

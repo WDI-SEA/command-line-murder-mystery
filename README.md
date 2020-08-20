@@ -1,3 +1,9 @@
+Here is my solution!
+
+Right here is where I would have pasted my command line if I would have saved my iTerm commands... sorry.
+
+It was Jeremy Bowers! I was so proud when I got it.. even though I had to use all 8 hints.
+
 The Command Line Murders
 ========================
 
