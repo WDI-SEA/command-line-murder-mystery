@@ -1,0 +1,21 @@
+here are some notes on how i solved the command-line-murder-mystery!
+
+looked through all the Annabels.
+Annabel Sun - F - 26 - Hart Place, line 40
+Oluwasegun Annabel - M - 37 - Mattapon Street, line 173
+Annabel Church - F - 38 - Buckingham Place, line 179
+Annabel Fuglsang - M - 40 - Haley Street, line 176
+looked through the streets of the female Annabels to find the interview.
+Hart Place
+grep “interview” -i Buckingham_Place
+to find interview
+open the interview
+says ms. church was interviewed and shows the car that fled is a blue honda with a license plate that starts with “L337” and ends with “9”
+go through vehicles file
+checked for license plate and stuff
+there are two people at least 6’
+Jeremy Bowers
+Joe Germuska
+checked the memberships for the two males
+Checked Jeremy Bowers
+Matched all the memberships
