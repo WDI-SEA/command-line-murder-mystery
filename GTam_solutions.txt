@@ -1,0 +1,77 @@
+ cd desktop/seiclass
+  422  ls
+  423  cd command-line-murder-mystery
+  424  history
+  425  ls
+  426  open cheatsheet.md
+  427  touch instructions
+  428  cat instructions
+  429  ls
+  430  cd mystery
+  431  ls
+  432  cd crimescene
+  433  grep "CLUES'
+
+  434  grep "CLUES"
+  435  grep "CLUES" crimescene
+  436  grep "CLUE" crimescene
+  437  cd ..
+  438  ls
+  439  touch notes.txt
+  440  open notes.txt
+  441  cd mystery
+  442  ls
+  443  grep "Annabel" people
+  444  ls
+  445  cat interviews
+  446  cd interviews
+  447  ls
+  448  cd ..
+  449  ls
+  450  head crimescene
+  451  head streets
+  452  head vehicles
+  453  ls
+  454  cd streets
+  455  ls
+  456  cd ..
+  457  ls
+  458  head people
+  459  head -n 40 streets/Hart_Place
+  460  head -n 179 streets/Buckingham_Place
+  461  ls
+  462  grep "#347246024" interviews
+  463  cd interviews
+  464  ls
+  465  cd interview-47246024
+  466  touch interview-47246024
+  467  cat interview-47246024
+  468  cat interview-699607
+  469  pwd
+  470  cd ..
+  471  ls
+  472  head vehicles
+  473  head vehicles | grep "blue"
+  474  head vehicles | grep "Blue"
+  475  head vehicles
+  476  grep "Blue" vehicles
+  477  head vehicle
+  478  ls
+  479  head vehicles
+  480  grep "L337" vehicles
+  481  grep -A 6 "L337" vehicles
+  482  ls
+  483  head people
+  484  grep "Erika Owens" people
+  485  grep "Jacqui Maher" people
+  486  ls
+  487  cat memberships
+  488  cd memberships
+  489  ls
+  490  cat AAA | grep "Joe Germuska"
+  491  cat Delta_SkyMiles | grep  "Joe Germuska"
+  492  cat AAA | grep "Jeremy Bowers"
+  493  cat Delta+SkyMiles | grep "Jeremy Bowers"
+  494  cat Delta_SkyMiles | grep "Jeremy Bowers"
+  495  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  496  history
