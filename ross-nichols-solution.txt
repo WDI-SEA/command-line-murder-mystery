@@ -19,7 +19,7 @@ cd interviews
 ls
 head interview-47246024
     - Sun isn't witness from cafe
-head interview 699607
+head interview-699607
     - -blue Honda, with a license plate that starts with "L337" and ends with "9"
 grep -A 5 "L337" vehicles
     -had to use hint for this one
@@ -40,7 +40,9 @@ Weight: 204 lbs
 
 cd memberships
 ls
-cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep 'Joe'
+cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep 'Joe Germuska'
+    -only a member of two
 cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep 'Jeremy'
+    -member of all four
 
-Name of killer: 
+Name of killer: Jeremy Bowers
