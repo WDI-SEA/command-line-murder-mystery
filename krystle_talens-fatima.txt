@@ -1,0 +1,56 @@
+ git clone https://github.com/WDI-SEA/command-line-murder-mystery.git
+   67  ls
+   68  cd
+   69  ls
+   70  pwd
+   71  open. Desktop
+   72  open.Desktop
+   73  pwd
+   74  cd Desktop
+   75  cd SEIRFX818
+   76  ls
+   77  cd command-line-murder-mystery
+   78  ls
+   79  cd instructions
+   80  cat instructions
+   81  cat hint1
+   82  cat hint2
+   83  cat hint3
+   84  pwd
+   85  cd Desktop/SEIRFX818
+   86  cd command-line-murder-mystery
+   87  cat mystery
+   88  cd mystery
+   89  ls
+   90  cat crimescene
+   91  cd ..
+   92  nano cheatsheet.md
+   93  nano cheatsheet.pdf
+   94  nano cheatsheet.md
+   95  ls
+   96  cd Desktop/SEIFX818
+   97  cs Desktop
+   98  cd Desktop
+   99  ls
+  100  cd SEIRFX818                             //this was me following along in class
+  101  cd command-line-murder-mystery
+  102  ls
+  103  cat instructions
+  104  cd mystery
+  105  grep "CLUE"
+  106  pwd
+  107  cd mystery
+  108  ls
+  109  grep "CLUE" crimescene
+  110  cd ..
+  111  cd mystery
+  112  cs people
+  113  cd people
+  114  cat people
+  115  grep "Annabel" people
+  116  cd streets
+  117  cat Hart_Place
+  118  cd ..
+  119  grep "L337" -i vehicles -A 5 -B 1
+  120  grep "L337" -i vehicles -A 5 -B 1 | grep "Honda" - B 2 -A 4 | grep "Blue" -B 3 -A 3
+  121  clear
