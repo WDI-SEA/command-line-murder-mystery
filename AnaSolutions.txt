@@ -1,0 +1,218 @@
+cd SEIFX818
+   46  git clone https://github.com/AnaMz11/command-line-murder-mystery.git
+   47  ls
+   48  cd command-line-murder-mystery
+   49  ls
+   50  cd mystery
+   51  ls
+   52  cat instructions
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd readme.md
+   57  open readme.md
+   58  open cheatsheet.pdf
+   59  open hint1
+   60  head -n
+   61  head -n 20 people
+   62  head
+   63  ls
+   64  head -n
+   65  head -nn
+   66  head -n 20
+   67  ls
+   68  head -n hint2
+   69  head -n 20 people
+   70  open hint2
+   71  grep "CLUE" crimescene
+   72  ls
+   73  open hint 3
+   74  open hint3
+   75  head licence
+   76  head -n hint4
+   77  open instructions
+   78  open chearsheet.pdf
+   79  head names.txt
+   80  ls
+   81  open license
+   82  cd mystery
+   83  ls
+   84  open crimescene
+   85  head CLUE.tx
+   86  head -n 20 people
+   87  grep "CLUE" crimescene
+   88  open hint3
+   89  cd ..
+   90  open hint3
+   91  open hint4
+   92  open hint5
+   93  open hint6
+   94  open hint7
+   95  open hint8
+   96  cd mystery
+   97  ls
+   98  grep "CLUE" crimescene
+   99  git status
+  100  head -n vehicles
+  101  l
+  102  ls
+  103  head -n vehicles
+  104  cd vehicles
+  105  open vehicles
+  106  head -n 40 vehicles
+  107  cat hint3
+  108  cd mystery
+  109  cd ..
+  110  ls
+  111  open hint3
+  112  cd mystery
+  113  ls
+  114  head -n 50 vehicles
+  115  head -n 300 vehicles
+  116  grep "Annabel" people
+  117  head -n 173 streets/Mattapan_Street | tail -n 1
+  118  ls
+  119  cd interviews
+  120  ls
+  121  open interview-9477373
+  122  open interivew-9437737
+  123  open interview-9437737
+  124  grep "Honda" vehicles\n\n\tgrep "Blue" vehicles\n\n\tgrep "L337" vehicles
+  125  cd behicles
+  126  cd vehicles
+  127  ls
+  128  cd ..
+  129  ls
+  130  cd vehicles
+  131  open vehicles
+  132  head "Honda" vehicles\n\n\tgrep "Blue" vehicles\n\n\tgrep "L337" vehicles
+  133  grep -A 5 "L337" mystery/vehicles
+  134  grep -A 5 "L337"
+  135  ls
+  136  cd mystery
+  137  cd desktop
+  138  ls
+  139  cd SEIFX818
+  140  ls
+  141  cd command-line-murder-mystery
+  142  ls
+  143  cd mystery
+  144  ls
+  145  grep -A 5 "L337" mystery/vehicles
+  146  ls
+  147  head -40 vehicles
+  148  grep -A 5 "L337" mystery/vehicles
+  149  grep -A 5 "L337" mystery
+  150  grep -A 5 "L337" vehicles
+  151  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  152  cat solution
+  153  ls
+  154  cd ..
+  155  ls
+  156  cat solution
+  157  open cheatsheet.md
+  158  cat hint1
+  159  open solution
+  160  cd solution
+  161  ls
+  162  cd mystery
+  163  ls
+  164  cd memberships
+  165  ls
+  166  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  167  ls
+  168  cat Fitness_Galaxy AAA United_MileagePlus | grep "Alicia Fuentesh"
+  169  head -20 fitness_Galaxy
+  170  grep "Annabel" people
+  171  cd ..
+  172  grep "Annabel" people
+  173  head -n 173 streets/Mattapan_Street | tail -n 1
+  174  ead -n 173 streets/Buckingham Place | tail -n 1
+  175  head -n 173 streets/Buckingham Place | tail -n 1
+  176  head -n 173 streets/Buckingham_Place | tail -n 1
+  177  head -n 176 streets/Haley_Street | tail -n 1
+  178  head -n 176 streets/Hart_Place | tail -n 1
+  179  head -n 40 streets/Hart_Place | tail -n 1
+  180  cd interivew
+  181  cd interviews
+  182  open interview-871877
+  183  open interivew-47246024
+  184  open interview-47246024
+  185  grep "Honda" veicles
+  186  grep "Honda" vehicles
+  187  head -n 40 vehicles
+  188  pwd
+  189  ls
+  190  cd mystery
+  191  ls
+  192  cd ..
+  193  ls
+  194  head -n 20 vehicles
+  195  grep -A 5 "L337" mystery/vehicles
+  196  grep -A 5 "L337" vehicles
+  197  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel""\ncat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"\n\ncd ..\ngrep -A 5 "L337" mystery/vehicles\ncd ..\ngrep -A 5 "L337" vehicles\nls\ncd mystery\n\n\n\nclear\n\n\n"
+  198  grep "Annabel" people
+  199  head -n 173 streets/Mattapan_Street | tail -n 1
+  200  grep "Honda" vehicles
+  201  grep "Blue" vehicles\n
+  202  head "Blue" vehicles\n
+  203  head "Honda" vehicles
+  204  head -n 20 "Honda" vehicles
+  205  grep -A 5 "L337" mystery/vehicles
+  206  grep -A 5 "L337" vehicles
+  207  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher""\n"
+  208  cd memberships
+  209  ls
+  210  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher""\n'\n"
+  211  cd ..
+  212  ls
+  213  grep -A 5 "L337" mystery
+  214  grep -A 5 "L337"vehicles
+  215  kjkaj
+  216  sdklaksd
+  217  history
+  218  cdkl
+  219  cd desktop
+  220  cd SEIFX818
+  221  ls
+  222  cd command-line-murder-mystery
+  223  ls
+  224  cd mystery
+  225  ls
+  226  grep people
+  227  ls
+  228  grep people
+  229  ls
+  230  cd desktop
+  231  cd SEIFX818
+  232  ls
+  233  cd command-line-murder-mystery
+  234  ls
+  235  open cheatsheet.pdf
+  236  cd mystery
+  237  ls
+  238  grep "CLUE" crimscene
+  239  grep "CLUE" crimescene
+  240  grep "Annabel" people
+  241  cd streets
+  242  ls
+  243  grep "CLUE" crimscene
+  244  cd ..
+  245  grep "CLUE" crimescene
+  246  cd memberships
+  247  ls
+  248  cd interivews
+  249  cd ..
+  250  ls
+  251  cd interviews
+  252  ls
+  253  cd ..
+  254  ls
+  255  cd interviews
+  256  grep "interview\n\n"
+  257  history
+  258  grep "Jeremy Bowers" memberships/*
+  259  cd ..
+  260  ls
+  261  cd desktop
+  262  cd ..
