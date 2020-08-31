@@ -1,0 +1,91 @@
+Jeremy Bowers did it
+
+713  cd command-line-murder-mystery
+  714  ls
+  715  touch solution.txt
+  716  open solution.txt
+  717  open instructions
+  718  cd mystery
+  719  open crimescene
+  720  cat crimescene
+  721  grep "clue" crimescene
+  722  grep "CLUE" crimescene
+  723  history
+  724  ls
+  725  cd memberships
+  726  ls
+  727  cd ..
+  728  ls
+  729  cd interviews
+  730  ls
+  731  grep "Anabel" .
+  732  grep "Annabel" interview-
+  733  grep -l "Annabel" interviews
+  734  cd ..
+  735  grep -l "Annabel" interviews
+  736  cd interviews
+  737  grep -l "Annabel" .
+  738  cat solution
+  739  cd ..
+  740  cat solution
+  741  cd ..
+  742  cat solution
+  743  ls
+  744  cat hint1
+  745  head -n 20 people
+  746  cd mystery
+  747  ls
+  748  head -n 20 people
+  749  grep "Annabel" people
+  750  cat people
+  751  cd ..
+  752  ls
+  753  cat hint2
+  754  cat hint3
+  755  cd mystery
+  756  ls
+  757  head -n 20 vehicles
+  758  grep "Annabel" vehicles
+  759  grep -A 5 -B 5 "Annabel Church" vehicles
+  760  cd ..
+  761  ls
+  762  cat hint4
+  763  cat hint5
+  764  cd mystery
+  765  head -n 173 streets/Mattapan_Street | tail -n 1
+  766  ls
+  767  cd interviews
+  768  cat interview-9437737
+  769  people
+  770  grep -A 5 -B 5 "Annabel Church" people
+  771  cd ..
+  772  grep -A 5 -B 5 "Annabel Church" people
+  773  head -n 173 streets/Buckingham_Place | tail -n 1
+  774  cd ..
+  775  cd myst
+  776  cd mystery
+  777  grep "Buckingham" interviews
+  778  ls
+  779  cd streets
+  780  ls
+  781  grep "Annabel" Buckingham_place
+  782  cat Buckingham_Place
+  783  grep "interview" Buckingham_Place
+  784  cd ..
+  785  ls
+  786  cd interviews
+  787  cat interview-699607
+  788  cd ..
+  789  ls
+  790  grep -A 5 -B 5 "L337" vehicles
+  791  ls
+  792  cd memberships
+  793  ls
+  794  grep "Jeremy Bowers" museum.txt
+  795  grep "Jeremy Bowers" AAA
+  796  grep "Jeremy Bowers" Delta_SkyMiles
+  797  grep "Jeremy Bowers" Museum_of_Bash_History
+  798  grep "Jeremy Bowers" Terminal_City_Library
+  799  grep "Jeremy Bowers" library.txt
+  800  cat library
+  801  cat library.txt
