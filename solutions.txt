@@ -1,0 +1,209 @@
+cd desktop
+  758  cd Desktop
+  759  cd SEIFX818
+  760  ls\\nq
+  761  ls
+  762  cd command-line-murder-mystery
+  763  ls
+  764  grep CLUE clues
+  765  code .
+  766  ls -a
+  767  cat hint1
+  768  cat head -n 200 people
+  769  cat instructions
+  770  ls
+  771  cat cheatsheet.md
+  772  ls
+  773  cat hint1
+  774  grep CLUE
+  775  cd Desktop
+  776  cd SEIFX818
+  777  cd command-line-murder-mystery
+  778  ls
+  779  cd mystery
+  780  ls
+  781  cat crimescene
+  782  ls
+  783  cd interviews
+  784  ls
+  785  cd ..
+  786  ls
+  787  cat people
+  788  head -n 20 people
+  789  cd ..
+  790  ls
+  791  cat hint2
+  792  cd mystery
+  793  ls
+  794  cat crimescene
+  795  grep "CLUE" crimescene
+  796  ls
+  797  cd ..
+  798  ls
+  799  cd mystery
+  800  ls
+  801  cat people
+  802  grep Annabel people
+  803  cd ..
+  804  cat hint3
+  805  cd mystery
+  806  ls
+  807  cat vehicles
+  808  head
+  809  ls
+  810  cd ..
+  811  cat hint 3
+  812  cat hint3
+  813  cd Desktop
+  814  cd SEIFX818
+  815  mkdir mock-up
+  816  cd mock-up
+  817  touch index.html
+  818  code .
+  819  cd D
+  820  cd Desktop
+  821  cd SEIFX818
+  822  ls
+  823  mkdir js-example0901
+  824  cd js-example0901
+  825  touch index.html style.css main.js
+  826  ls
+  827  code .
+  828  cd ..
+  829  ls
+  830  cd CSS-positioning-practice
+  831  ls
+  832  cd ..
+  833  cd command-line-murder-mystery
+  834  ls
+  835  cat hint1
+  836  ls
+  837  cd mystery
+  838  ls
+  839  people
+  840  cat people
+  841  ls
+  842  cd ..
+  843  cat hint2
+  844  ls
+  845  cd mystery
+  846  ls
+  847  cat crimescene
+  848  grep "CLUE" crimescene%
+  849  grep "CLUE" crimescene
+  850  cd ..
+  851  cat hint3
+  852  cd mystery
+  853  ls
+  854  head vehicles
+  855  head people
+  856  grep Annabel people
+  857  cd ..
+  858  cat hint4
+  859  cat hint5
+  860  cd mystery
+  861  \thead -n 173 streets/Mattapan_Street | tail -n 1
+  862  ls
+  863  cd interviews
+  864  cat interview-9437737
+  865  cd stre
+  866  cd ..
+  867  cd streets
+  868  ls
+  869  cat head -n 179 streets/Buckingham_Place | tail -n 1
+  870  cat Buckingham_Place
+  871  head -n 179 streets/Buckingham_Place | tail-n 1
+  872  cd ..
+  873  head -n 179 streets/Buckingham_Place | tail -n 1
+  874  ls
+  875  cd interviews
+  876  cat #699607
+  877  ls
+  878  cat interview-699607
+  879  cd ..
+  880  ls
+  881  cat vehicles
+  882  grep -A L337 vehicles | grep -A 3 Honda | grep -A 2 Blue
+  883  ls
+  884  grep -A L337 vehicles | grep -A 3 Honda | grep -A 2 Blue
+  885  cat vehicles
+  886  grep -A L337 vehicles | grep -A 3 Honda | grep -A 2 Blue
+  887  grep -A 4 L337 vehicles | grep -A 3 Honda | grep -A 2 Blue
+  888  ls
+  889  cd memberships
+  890  ls
+  891  cat AAA
+  892  cat AAA | grep -f Delta_SkyMiles
+  893  cat AAA | grep -f Delta_SkyMiles > ../memberships
+  894  cd ..
+  895  cat AAA | grep -f Delta_SkyMiles > ../memberships
+  896  cat AAA | grep -f Delta_SkyMiles > ../members
+  897  cd members
+  898  ls
+  899  cd memberships
+  900  ls
+  901  cat AAA | grep -f Delta_SkyMiles > ../memberships
+  902  ls
+  903  cat AAA | grep -f Delta_SkyMiles > ../memberships
+  904  cat AAA | grep -f Delta_SkyMiles > ../members
+  905  ls
+  906  2.txt                   Museum_of_Bash_History  delta.txt\nAAA                     REI                     library.txt\nAAdvantage              Rotary_Club             museum.txt\nCostco                  TCSU_Alumni_Association newfile.txt\nDelta_SkyMiles          Terminal_City_Library\n➜  memberships git:(master) ✗ cat AAA | grep -f Delta_SkyMiles > ../memberships\nzsh: is a directory: ../memberships
+  907  ls
+  908  \n➜  memberships git:(master) ✗
+  909  cat AAA | grep -f Delta_SkyMiles > ../memberships
+  910  cat AAA | grep -f Delta_SkyMiles
+  911  ls
+  912  cat AAA
+  913  cat AAA | grep -f Delta_SkyMiles > ../members
+  914  cat AAA | grep -f Delta_SkyMiles > ../memberships
+  915  ls
+  916  cat AAA
+  917  cd ..
+  918  cat hint5
+  919  cat hint6
+  920  cat hint7
+  921  cat hint8
+  922  cat Fitness_Galaxy AAA United_MileagePlus | grep -c Joe Germuska
+  923  cat Delta_Skymiles AAA  | grep -c Joe Germuska
+  924  cd mystery
+  925  ls
+  926  cd memberships
+  927  cat Delta_Skymiles AAA  | grep -c Joe Germuska
+  928  cat Delta_Skymiles AAA  | grep -c Jeremy Bowers
+  929  ls
+  930  cat Delta_Skymiles AAA  | grep -c Joe Germuska
+  931  cat Delta_Skymiles AAA  | grep -c Jeremy Bowers
+  932  ls
+  933  cat AAA
+  934  cat Delta_Skymiles AAA  | grep -c Joe Germuska
+  935  cat AAA | grep -f Delta_SkyMiles
+  936  cat AAA | grep -f Delta_SkyMiles > ../members
+  937  grep Joe members
+  938  grep Jeremny members
+  939  cat AAA | grep -f Delta_SkyMiles > ../members
+  940  cd ..
+  941  grep Joe members
+  942  cd memberships
+  943  ls
+  944  grep Joe
+  945  grep Jeremy members
+  946  cd ..
+  947  cat hint8
+  948  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smi\n
+  949  cd mystery
+  950  cd memberships
+  951  cat Delta_SkyMiles AAA | grep Jeremy Bowers | wc -l%
+  952  history n
+  953  cd Desktop
+  954  cd SEIFX818
+  955  cd comma
+  956  cd command-line-murder-mystery
+  957  cd mystery
+  958  cd Desktop
+  959  cd SEIFX818
+  960  cd command-line-murder-mystery
+  961  https://github.com/epizarro98/command-line-murder-mystery.git
+  962  git clone https://github.com/epizarro98/command-line-murder-mystery.git
+  963  code .
+  964  touch solutions.txt
+➜  command-line-murder-mystery git:(master) ✗
