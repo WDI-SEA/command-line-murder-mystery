@@ -1,0 +1,566 @@
+ The commands you used to get the solution (hint: run history for a list of the commands you ran).
+The name of the killer.
+
+****************
+
+Bowers
+
+*****************
+Commit your solution file
+Push your changes to your forked repo
+Create a pull request to submit your deliverable 
+
+ 92  git --version
+   93  code .
+   94  code .
+   95  clear
+   96  ls
+   97  pwd
+   98  cd Desktop/
+   99  open .
+  100  mkdir homework
+  101  ls
+  102  cd homework/
+  103  open ,
+  104  open .
+  105  git clone https://github.com/K-Tech19/command-line-murder-mystery.git
+  106  ls
+  107  ls
+  108  cd command-line-murder-mystery/
+  109  ls
+  110  ls -a
+  111  cat cheatsheet.pdf
+  112  clear
+  113  ls
+  114  ..
+  115  git status
+  116  pwd
+  117  ls
+  118  cat instructions 
+  119  clear
+  120  pwd
+  121  cd .
+  122  cd ..
+  123  pwd
+  124  cd /
+  125  pwd
+  126  ls
+  127  cd/Users
+  128  cd `
+  129  clear
+  130  cd ~
+  131  ls
+  132  mkdir living_room
+  133  ls
+  134  pwd
+  135  cd living_room/
+  136  touch book.txt
+  137  ls
+  138  ls
+  139  open .
+  140  code books.txt
+  141  cd ~
+  142  ls
+  143  mv living_room/ User
+  144  ls
+  145  cd User/
+  146  ls
+  147  cd ..
+  148  pwd
+  149  open .
+  150  ls
+  151  cd /Users/
+  152  ls
+  153  cd kenny
+  154  cd ..
+  155  cd ~
+  156  ls
+  157  cd Users
+  158  cd User/
+  159  ls
+  160  cd 
+  161  pwd
+  162  cd Users
+  163  cd User
+  164  Users
+  165  User
+  166  pwd
+  167  ls
+  168  cd living_room/
+  169  cat books.txt 
+  170  clear
+  171  pwd
+  172  cat books.txt 
+  173  cd /User
+  174  pwd
+  175  ls
+  176  cd User
+  177  ls
+  178  cat book.txt
+  179  ls
+  180  pwd
+  181  cd living_room/
+  182  ls
+  183  cat books.txt 
+  184  echo " This bookshelf bend to the weight of the books" > bookshelf.txt
+  185  ls
+  186  pwd
+  187  ls
+  188  cd book
+  189  cat bookshelf.txt 
+  190  cat | sort
+  191  pwd
+  192  ls
+  193  cd User/
+  194  ls
+  195  cd liv
+  196  cd living_room/
+  197  ls
+  198  books.txt | sort
+  199  cat books.txt | Sort
+  200  cat books.txt | sort > sorted_books.txt
+  201  ls
+  202  cat sorted_books.txt 
+  203  cat books.txt | grep MIl
+  204  ls
+  205  cat books.txt | grep Mil
+  206  mv sorted_books.txt books.txt
+  207  ls
+  208  cp bookshelf.txt second_bookshelf.txt
+  209  ls
+  210  cd ..
+  211  pwd
+  212  ls
+  213  cd ~
+  214  pwd
+  215  ls
+  216  mkdir general_assembly
+  217  ls
+  218  cd general_assembly/
+  219  touch unit_1
+  220  ls
+  221  cd unit_1 
+  222  open . 
+  223  cd .
+  224  ls
+  225  rm unit_1 
+  226  ls
+  227  mkdir unit_1
+  228  ls
+  229  cd unit_1/
+  230  mkdir labs
+  231  mkdir code_alongs
+  232  ls
+  233  cd ..
+  234  mv homeworks unit_1/
+  235  ls
+  236  desktop
+  237  pwd
+  238  ls
+  239  cd unit_1/
+  240  ls
+  241  mv homework unit_1
+  242  cd ..
+  243  cd ..
+  244  ls
+  245  cd Desktop/
+  246  mv homework general_assembly/unit_1
+  247  mv homeworks general_assembly/unit_1
+  248  cd ..
+  249  ls
+  250  cd Desktop/
+  251  ls
+  252  mkdir general_assembly
+  253  mkdir unit_1
+  254  ls
+  255  mv homeworks general_assembly/unit_1
+  256  ls
+  257  cd ..
+  258  pwd
+  259  cd User/
+  260  ls
+  261  cd living_room/
+  262  ls
+  263  cd ..
+  264  cd ..
+  265  pwd
+  266  l
+  267  ls
+  268  cd User/
+  269  ls
+  270  cd ..
+  271  pwd
+  272  ls
+  273  cd gen
+  274  cd general_assembly/
+  275  ls
+  276  cd unit_1/
+  277  ls
+  278  pwd
+  279  cd ..
+  280  pwd
+  281  pwd
+  282  ls
+  283  cd unit_1/
+  284  ls
+  285  pwd
+  286  cd ..
+  287  cd ..
+  288  pwd
+  289  ls
+  290  cd ..
+  291  ls
+  292  cd ..
+  293  pwd
+  294  ls
+  295  cd Des
+  296  cd Users
+  297  ls
+  298  pw
+  299  cd Shared
+  300  ls
+  301  ls
+  302  cd ..
+  303  ls
+  304  cd kenny/
+  305  ls
+  306  general_assembly/
+  307  ls
+  308  cd general_assembly/
+  309  ls
+  310  pwd
+  311  cd ~
+  312  pwd
+  313  ls
+  314  cd Desktop/
+  315  ls
+  316  cd ..
+  317  pwd
+  318  cd /Users/kenny/general_assembly
+  319  ls
+  320  cd Des
+  321  cd Desktop/
+  322  cd ~
+  323  cd Desktop/general_assembly/
+  324  ls
+  325  cd ..
+  326  pwd
+  327  cd Desktop/general_assembly/unit_1/
+  328  cd Desktop/general_assembly/
+  329  cd Desktop/general_assembly/
+  330  pwd
+  331  cd general_assembly/unit_1/
+  332  ls
+  333  ls
+  334  git clone https://github.com/K-Tech19/command-line-murder-mystery.git
+  335  ls
+  336  mv command-line-murder-mystery homeworks
+  337  ls
+  338  cd homeworks/
+  339  ls
+  340  cd command-line-murder-mystery/
+  341  pwd
+  342  ls
+  343  cat instructions 
+  344  cat cheatsheet.
+  345  clear
+  346  pwd
+  347  ls
+  348  cat cheatsheet.md
+  349  cd ..
+  350  clear
+  351  ls
+  352  pws
+  353  pwd
+  354  cd command-line-murder-mystery/
+  355  ls
+  356  touch clues.txt
+  357  ls
+  358  cat cheatsheet.md
+  359  ls
+  360  touch solutions.txt
+  361  ls
+  362  pwd
+  363  ls
+  364  echo " The commands you used to get the solution (hint: run history for a list of the commands you ran).
+  365  The name of the killer.
+  366  Commit your solution file
+  367  Push your changes to your forked repo
+  368  Create a pull request to submit your deliverable " > solutions.txt
+  369  ls
+  370  cat solutions.txt 
+  371  cat hint1
+  372  echo "head -n 20
+  373  clear
+  374  o
+  375  clear
+  376  ls
+  377  cd Desktop/general_assembly/unit_1/homeworks/command-line-murder-mystery/
+  378  ls
+  379  cat hint2
+  380  pwd
+  381  ls
+  382  cat hint3
+  383  cat mystery/
+  384  cat mystery/
+  385  cd mystery/
+  386  ls
+  387  cd ..
+  388  pwd
+  389  ls
+  390  cat hint1
+  391  echo "head -n 20 people" > clues.txt 
+  392  ls
+  393  cat clues.txt 
+  394  cat hint2
+  395  echo "grep "CLUE" crimescene" > clues.txt 
+  396  pwd
+  397  ls
+  398  cat clues.txt 
+  399  cat hint1
+  400  cd mystery/
+  401  ls
+  402  head -n 20 people
+  403  ls
+  404  cd ..
+  405  ls
+  406  cat clues.txt 
+  407  echo " NAMEGENDERAGEADDRESS
+Alicia FuentesF48Walton Street, line 433
+Jo-Ting LosevF46Hemenway Street, line 390
+Elena EdmondsF58Elmwood Avenue, line 123
+Naydene CabralF46Winthrop Street, line 454
+Dato RosengrenM22Mystic Street, line 477
+Fernanda SerranoF37Redlands Road, line 392
+Emiliano WenkM90Paulding Street, line 490
+Larry LapinM71Atwill Road, line 298
+Jakub GondosM61Mitchell Street, line 187
+Derek KazaninM55Tennis Road, line 440
+Jens TuimalealiifanoM83Rockwood Street, line 205
+  408  clear
+  409  ls
+  410  echo "NAMEGENDERAGEADDRESS
+Alicia FuentesF48Walton Street, line 433
+Jo-Ting LosevF46Hemenway Street, line 390
+Elena EdmondsF58Elmwood Avenue, line 123
+Naydene CabralF46Winthrop Street, line 454
+Dato RosengrenM22Mystic Street, line 477
+Fernanda SerranoF37Redlands Road, line 392
+Emiliano WenkM90Paulding Street, line 490
+Larry LapinM71Atwill Road, line 298
+Jakub GondosM61Mitchell Street, line 187
+Derek KazaninM55Tennis Road, line 440
+Jens TuimalealiifanoM83Rockwood Street, line 205
+Nikola KadhiM75Glenville Avenue, line 226" > clues.txt
+  411  ls
+  412  cat clues.txt 
+  413  pwd
+  414  ls
+  415  cat hint2
+  416  cd mystery/
+  417  grep "CLUE" crimesscene
+  418  grep "CLUE" crimescene
+  419  echo "CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent." >> clues.txt
+  420  ls
+  421  cat clues.txt 
+  422  cd..
+  423  cd ..
+  424  ls
+  425  cd mystery/
+  426  ls
+  427  cp clues.txt clues.txt
+  428  ls
+  429  cd ..
+  430  ls
+  431  echo "CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+" >> clues.txt
+  432  cat clues.txt 
+  433  cd mystery/
+  434  ls
+  435  cd ..
+  436  hint3
+  437  cat hint3
+  438  head people 
+  439  ls
+  440  cd mystery/
+  441  ls
+  442  head people 
+  443  ls
+  444  head streets/
+  445  cd streets/
+  446  ls
+  447  head streets
+  448  head streets
+  449  cd ..
+  450  pwd
+  451  ls
+  452  head vehicles 
+  453  cd ..
+  454  ls
+  455  echo "Vehicle and owner information from the Terminal City Department of Motor Vehicles
+***************
+
+License Plate T3YUHF6
+Make: Toyota
+Color: Yellow
+Owner: Jianbo Megannem
+Height: 5'6"
+  456  Weight: 246 lbs
+  457  ls
+  458  echo "Vehicle and owner information from the Terminal City Department of Motor Vehicles
+***************
+
+License Plate T3YUHF6
+Make: Toyota
+Color: Yellow
+Owner: Jianbo Megannem
+Height: 5'6"
+  459  Weight: 246 lbs
+  460  ls
+  461  echo "Vehicle and owner information from the Terminal City Department of Motor Vehicles
+***************
+
+License Plate T3YUHF6
+Make: Toyota
+Color: Yellow
+Owner: Jianbo Megannem
+Height: 5'6"
+  462  Weight: 246 lbs
+  463  ls
+  464  echo "License Plate T3YUHF6
+Make: Toyota
+Color: Yellow
+Owner: Jianbo Megannem
+Height: 5'6" >> clues.txt
+  465  ls'
+  466  ls
+  467  open clues.txt
+  468  cat hint4
+  469  cd my
+  470  cd mystery/
+  471  grep "Annabel" people
+  472  cd ..
+  473  ls
+  474  echo "Annabel SunF26Hart Place, line 40
+Annabel ChurchF38Buckingham Place, line 179" >> clues.txt
+  475  open clues.txt 
+  476  open clues.txt 
+  477  cd mys
+  478  pwd
+  479  ls
+  480  cd mystery/
+  481  ls
+  482  cat crimescene 
+  483  cat crimescene | grep "Clues"
+  484  cat crimescene | grep "clue"
+  485  clear
+  486  ls
+  487  cat crimescene | grep Clue
+  488  cat crimescene | grep CLUE
+  489  cat people | grep M
+  490  ls
+  491  cd interviews/
+  492  ls
+  493  ls
+  494  cd ..
+  495  ls
+  496  cd memberships/
+  497  cat me
+  498  cat aaa | grep Annabel
+  499  head people
+  500  cd ..
+  501  ls
+  502  head people
+  503  head -20
+  504  ls
+  505  cd streets/
+  506  cat streets
+  507  ls
+  508  pwd
+  509  cd..
+  510  cd ..
+  511  pwd
+  512  ls
+  513  cd ..
+  514  ls
+  515  echo "Buckingham is Annabel's Street name" >> clues.txt
+  516  open clues.txt
+  517  ls
+  518  cat hint4
+  519  cat hint5
+  520  pwd
+  521  ls
+  522  cd mystery/
+  523  ls
+  524  head -n 173 streets/Mattapan_Street | tail -n 1
+  525  cd ..
+  526  ls
+  527  echo "SEE INTERVIEW #9437737" >> clues.txt
+  528  cd mystery/
+  529  ls
+  530  cat interviews/
+  531  cd interviews/
+  532  ls
+  533  cat interview-9437737
+  534  cd .. 
+  535  pwd
+  536  cd ..
+  537  open clues.txt 
+  538  cat people
+  539  pwd
+  540  ls
+  541  cd mystery/
+  542  ls
+  543  cd interviews/
+  544  ls
+  545  cd ..
+  546  ls
+  547  head -n 173 streets/Mattapan_Street | tail -n 1
+  548  head -n 40 streets/Buckingham Place | tail -n 2
+  549  head -n 40 streets/Buckingham_Place | tail -n 2
+  550  head -n 43 streets/Buckingham_Place | tail -n 2
+  551  ls
+  552  cd memberships/
+  553  cat membership
+  554  cat memberships
+  555  cd memberships
+  556  cd ..
+  557  cd ..
+  558  ls
+  559  cat LICENSE.txt
+  560  clear
+  561  ls
+  562  hint6
+  563  cat hint6
+  564  ls
+  565  cat hint7
+  566  pwd
+  567  ls
+  568  cd LICENSE
+  569  grep -C 4 "L337"
+  570  cd mystery/
+  571  ls
+  572  cd vehicles 
+  573  cat vehicles
+  574  grep -c 1 "Blue" LICENSE.txt
+  575  grep -C 1 "Blue" Vechiles
+  576  grep -C 1 "Blue" Vehiles
+  577  ls
+  578  grep -C 1 "Blue" vehicles
+  579  grep -C 2 "Blue" vehicles
+  580  ls
+  581  cat people | grep Bowers
+  582  head -n 284 streets/Dunstable_Road | tail -n 1
+  583  cat people | grep Germuska 
+  584  head -n 275 streets/Plainfield_Street | tail -n 1
+  585  cat people | grep Maher 
+  586  cd interviews/
+  587  cat interview-
+  588  ls
+  589  cat interview-29741223
+  590  cat interview-9620713
+  591  history > solutions.txt
