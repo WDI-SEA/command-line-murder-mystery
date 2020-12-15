@@ -1,0 +1,156 @@
+Suspect = Jeremy Bowers
+    1  command-line-murder-mystery
+    2  cd command-line-murder-mystery
+    3  cd SEI-Red-Devs
+    4  cd unit1
+    5  cd command-line-murder-mystery
+    6  cat instructions
+    7  cat cheatsheet.md
+    8  git add solution.txt
+    9  touch solution.txt
+   10  cd mystery
+   11  git commit -"first step"
+   12  git commit -m"first step"
+   13  ls
+   14  cd interviews
+   15  grep CLUES
+   16  code .
+   17  locate interviews
+   18  pwd
+   19  cd SEI-Red-Devs
+   20  cd unit1
+   21  cd command-line-murder-mystery
+   22  code .
+   23  less instructions
+   24  history
+   25  pwd
+   26  locate command-line-murder-mystery
+   27  pwd
+   28  locate -q"command-line-murder-mystery"
+   29  locate --help
+   30  cd SEI-Rev-Devs unit1 command-line-murder-mystery
+   31  cd SEI-Rev-Devs
+   32  cd SEI-Rev-Devs
+   33  pwd
+   34  SEI-Red-Devs
+   35  cd SEI-Red-Devs
+   36  cd unit1
+   37  cd command-line-murder-mystery
+   38  ls
+   39  cd mystery
+   40  ls
+   41  cat interviews
+   42  cd interviews
+   43  cat interviews
+   44  cat
+   45  cd SEI-Red-Devs
+   46  cd unit1
+   47  cd command-line-murder-mystery
+   48  ls
+   49  cd mystery
+   50  ls
+   51  cd interviews
+   52  ls
+   53  grep CLUE
+   54  cd SEI-Red-devs
+   55  cd unit1
+   56  cd comman-line-murder-mystery
+   57  ls
+   58  cd command-line-murder-mystery
+   59  ls
+   60  cd mystery
+   61  ls
+   62  cd streets
+   63  ls
+   64  head Hart_Place
+   65  head Buckingham_Place
+   66  cat Buckingham_Place
+   67  cat Hart_Place
+   68  cd ..
+   69  ls
+   70  cd interviews
+   71  ls
+   72  cat interview-47246024
+   73  cat interview-699607
+   74  cd ..
+   75  ls
+   76  cat vehicles
+   77  grep "Blue" vehicles
+   78  grep "L337" vehicles
+   79  grep -A 5 "L337" vehicles
+   80  cd ..
+   81  ls
+   82  cd mystery
+   83  ls
+   84  cd memberships
+   85  ls
+   86  grep "Germuska" AAA
+   87  grep "Germuska" Delta_SkyMiles
+   88  grep "Bowers" AAA
+   89  grep "Bowers" Delta_SkyMiles
+   90  grep "Bowers" Museum_of_Bash_History
+   91  grep "Maher" AAA
+   92  grep "Maher" Delta_SkyMiles
+   93  history
+    1  command-line-murder-mystery
+    2  cd command-line-murder-mystery
+    3  cd SEI-Red-Devs
+    4  cd unit1
+    5  cd command-line-murder-mystery
+    6  cat instructions
+    7  cat cheatsheet.md
+    8  git add solution.txt
+    9  touch solution.txt
+   10  cd mystery
+   11  git commit -"first step"
+   12  git commit -m"first step"
+   13  ls
+   14  cd interviews
+   15  grep CLUES
+   16  code .
+   17  locate interviews
+   18  pwd
+   19  cd SEI-Red-Devs
+   20  cd unit1
+   21  cd command-line-murder-mystery
+   22  code .
+   23  less instructions
+   24  history
+   25  pwd
+   26  locate command-line-murder-mystery
+   27  pwd
+   28  locate -q"command-line-murder-mystery"
+   29  locate --help
+   30  cd SEI-Rev-Devs unit1 command-line-murder-mystery
+   31  cd SEI-Rev-Devs
+   32  cd SEI-Rev-Devs
+   33  pwd
+   34  SEI-Red-Devs
+   35  cd SEI-Red-Devs
+   36  cd unit1
+   37  cd command-line-murder-mystery
+   38  ls
+   39  cd mystery
+   40  ls
+   41  cat interviews
+   42  cd interviews
+   43  cat interviews
+   44  cat
+   45  cd SEI-Red-Devs
+   46  cd unit1
+   47  cd command-line-murder-mystery
+   48  ls
+   49  cd mystery
+   50  ls
+   51  cd interviews
+   52  ls
+   53  grep CLUE
+   54  cd SEI-REd-Devs
+   55  cd unit1
+   56  cd command-line-murder-mystery
+   57  ls
+   58  cat hint4
+   59  cat hint5
+   60  cat hint6
+   61  cat hint7
+   62  history
