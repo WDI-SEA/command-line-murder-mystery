@@ -1,0 +1,317 @@
+    1  pwd
+    2  ls
+    3  cd documents
+    4  ls
+    5  ls -a
+    6  cd ..
+    7  pwd
+    8  mkdir myfolder
+    9  ls
+   10  cd myfolder
+   11  touch
+   12  index.html
+   13  touch index.html
+   14  ls
+   15  rm index.html
+   16  ls
+   17  cd ..
+   18  rm -r myfolder
+   19  git --version
+   20  $ git init
+   21  cd GA-Blog
+   22  mkdir GA-Blog
+   23  .git/
+   24  cd GA-Blog
+   25  .git/
+   26  mkdir .git/
+   27  $ git init
+   28  pwd
+   29  ls -a
+   30  git status
+   31  $ git status
+   32  git statur
+   33  status
+   34  git status
+   35  touch my-first-post.txt
+   36  status
+   37  git status
+   38  brew install git
+   39  code .
+   40  clear
+   41  ls
+   42  pwd
+   43  open .
+   44  cd Desktop
+   45  pwd
+   46  mkdir Homeworks
+   47  ls
+   48  cd Homeworks
+   49  git clone 
+   50  git clone https://github.com/Yawprs/command-line-murder-mystery.git
+   51  ls
+   52  cd command-line-murder-mystery
+   53  git status
+   54  ls -a
+   55  clear 
+   56  cd ~
+   57  pwd
+   58  cd Desktop
+   59  cd Homeworks
+   60  ls
+   61  open .
+   62  ls
+   63  cd ~
+   64  mkdir living_room
+   65  cd living_room
+   66  touch living_room/books.txt
+   67  touch books.txt
+   68  ls
+   69  code books.txt
+   70  code books.txt
+   71  cat
+   72  cd living_room
+   73  cat books.txt
+   74  echo "This bookshelf flexes under the weight of the books it holds." > bookshelf.txt
+   75  ls
+   76  cat books.txt
+   77  cat books.txt | sort
+   78  cat books.txt | grep Mil
+   79  ls
+   80  cp bookshelf.txt second_bookshelf.txt
+   81  ls
+   82  cd ~
+   83  mkdir general_assembly
+   84  cd general_assembly
+   85  mkdir unit_1
+   86  .
+   87  ..
+   88  cd .
+   89  cd unit_1
+   90  mkdir labs
+   91  mkdir code_alongs
+   92  mv Homeworks general_assembly/unit_1
+   93  cd Desktop
+   94  ..
+   95  cd ..
+   96  cd ..
+   97  cd ..
+   98  cd ..
+   99  cd .
+  100  .
+  101  clear
+  102  cd Homeworks
+  103  cd Desktop
+  104  cd ~
+  105  cd Desktop
+  106  ls
+  107  mv Homeworks unit_1
+  108  cd unit_1
+  109  ls
+  110  ls
+  111  ls -a
+  112  mv Homeworks general_assmebly/unit_1
+  113  ls
+  114  cd ..
+  115  ls
+  116  mv Homeworks general_assembly/unit_1
+  117  ls general_assembly
+  118  cd ..
+  119  ls
+  120  mv Desktop/Homeworks general_assembly
+  121  sudo mv Desktop/Homeworks general_assembly 
+  122  su mv Desktop/Homeworks general_assembly
+  123  ls
+  124  cd general_assembly
+  125  ls
+  126  cd unit_1
+  127  ls
+  128  cd Homeworks
+  129  ls
+  130  cd ..
+  131  cd ..
+  132  cd general_assembly
+  133  ls
+  134  cd unit_1
+  135  ls
+  136  cd Homeworks
+  137  ls
+  138  cd .
+  139  ls
+  140  cat command-line-murder-mystery
+  141  cat instructions
+  142  cd command-line-murder-mystery
+  143  cat instructions
+  144  code instructions
+  145  cd mystery
+  146  ls
+  147  cd crimescene
+  148  ls
+  149  cd interviews
+  150  ls
+  151  interviews grep CLUE
+  152  cd ..
+  153  ls
+  154  ls -a
+  155  cd memberships
+  156  ls
+  157  code Delta_Skymiles
+  158  cd ..
+  159  cd crimescene
+  160  ls
+  161  cat hint1
+  162  cd ..
+  163  cat hint1
+  164  head n- 20 crimescene
+  165  head -n20 people
+  166  cd mystery 
+  167  head n- 20 people
+  168  cd streets
+  169  ls
+  170  cat Walton_Street
+  171  cd ..
+  172  ls
+  173  cd ..
+  174  ls
+  175  code cheatsheet.md
+  176  grep "CLUE" 
+  177  grep "CLUE" command-line-murder-mystery
+  178  grep "CLUE" master
+  179  ls
+  180  pwd
+  181  cat hint2
+  182  grep "CLUE" crimescene
+  183  cd mystery
+  184  grep "CLUE" crimescene
+  185  cat hint3
+  186  cd..
+  187  cat hint3
+  188  cd..
+  189  cat hint3
+  190  cd..
+  191  cd ..
+  192  cat hint3
+  193  head people
+  194  cd command-line-murder-mystery
+  195  cd mystery
+  196  ls
+  197  head crimescene
+  198  head crimescene
+  199  head interviews
+  200  head people
+  201  head vehicles
+  202  cd people
+  203  cd streets
+  204  grep 433
+  205  grep "line 433" streets
+  206  pwd
+  207  ls
+  208  cd ..
+  209  grep "CLUE" vehicles
+  210  cd ..
+  211  cat hint4
+  212  cat hint5
+  213  cat hint6
+  214  cat hint7
+  215  cat hint8
+  216  cat hint9
+  217  ls
+  218  cd mystery
+  219  ls
+  220  cd people
+  221  grep "annabel" people
+  222  cd people
+  223  grep "annabel" people
+  224  grep "CLUE" people
+  225  ls
+  226  grep "Annabel" people
+  227  head -n 173 streets/Mattapan_Street | tail -n 1
+  228  head -n 40 streets/Hart Place | tail -n 1
+  229  head -n 176 streets/Haley Street | tail -n 1
+  230  head -n 179 streets/Buckingham Place | tail -n 1
+  231  head -n 40 streets/Hart_Place | tail -n 1
+  232  ls
+  233  head -n 179 streets/Buckingham_Place | tail -n 1
+  234  grep "#699607" interviews
+  235  cd interviews
+  236  ls
+  237  cd interview-699607
+  238  cat interview-699607
+  239  cat interview-47246024
+  240  cd ..
+  241  ls
+  242  grep "Honda" vehicles
+  243  head
+  244  head vehicles
+  245  cat solution
+  246  grep -A 5 "L337" mystery/vehicles
+  247  cd vehicles
+  248  ls
+  249  grep -A 5 "L337" vehicles
+  250  cd memberships
+  251  ls
+  252  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | "Matt Waite"
+  253  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | "Brian Boyer"
+  254  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | "Al Shaw"
+  255  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | "Joe Germuska"
+  256  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | "Jeremy Bowers"
+  257  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | "Jacqui Maher"
+  258  cd people
+  259  cd ..
+  260  cd people
+  261  grep "Jacqui Maher" people
+  262  grep "Jacqui Maher" memberships
+  263  cat Fitness_Galexy AAA United_MilagePlus
+  264  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Matt Waite"  
+  265  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Matt Waite"
+  266  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Brian Boyer"
+  267  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Matt Waite" | wc -1
+  268  cat solution
+  269  cd ..
+  270  cat colution
+  271  cat solution
+  272  ls
+  273  cd mystery
+  274  ls
+  275  cat solution
+  276  cd solution
+  277  cat solution
+  278  cd ..
+  279  cat solution
+  280  cd ..
+  281  cat solution
+  282  cd .
+  283  cd command-line-murder-mystery
+  284  cat solution
+  285  cat Fitness_Galaxy
+  286  cd Fitness_Galaxy
+  287  cat Fitness_Galaxy | "Matt Waite"
+  288  open solution
+  289  cat AAA | grep Matt Waite
+  290  cat AAA | grep Brian
+  291  cat AAA | grep -c "Matt Waite"
+  292  code solutions.txt
+  293  cat solutions.txt
+  294  ls
+  295  history
+  296  man history
+  297  cat instructions
+  298  cat solution
+  299  code cheatsheet
+  300  cat cheatsheet.pdf
+  301  history
+  302  cd general_assembly 
+  303  ls
+  304  cd unit_1
+  305  ls
+  306  cd Homeworks
+  307  ls
+  308  cd command-line-myrder-mystery
+  309  cd command-line-murder-mystery
+  310  git status
+  311  touch solutions.txt
+  312  ls
+  313  git status
+  314  code solutions.txt
+  315  code solutions.txt
+  316  git status
+  317  history > solutions.txt
