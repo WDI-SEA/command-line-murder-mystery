@@ -1,0 +1,290 @@
+    1  git --version
+    2  cd
+    3  ls
+    4  code
+    5  code .
+    6  xcode-select --install
+    7  brew install git
+    8  brew install git
+    9  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   10  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   11  sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   12  sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   13  ls
+   14  cd ~
+   15  sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   16  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   17  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"brew install git
+   18  brew install get
+   19  sudo chown -R $(whoami) /usr/local/var/homebrew
+   20  sudo chown -R $(whoami) /usr/local/var/homebrew
+   21  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"brew install git
+   22  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   23  clear
+   24  ls
+   25  pwd
+   26  open  .
+   27  cd Desktop
+   28  mkdir homeworks
+   29  ls
+   30  cd homeworks
+   31  open .
+   32  git clone https://github.com/arwin95/command-line-murder-mystery.git
+   33  open .
+   34  ls
+   35  git status
+   36  open status
+   37  cd command-line-murder-mystery
+   38  git status
+   39  ls -a
+   40  ls -l
+   41  cd..
+   42  pwd
+   43  mkdir living_room
+   44  cd living_room
+   45  cd..
+   46  touch books.txt
+   47  ls
+   48  ope.
+   49  opeope .
+   50  open.
+   51  open .
+   52  code books.txt
+   53  cat books.txt
+   54  echo "This bookshelf flexes under the weight of the thr books it holds." > bookshelf.txt
+   55  ls
+   56  code bookshelf.txt
+   57  cat bookshelf.txt
+   58  echo "lets try this" > bookshelf.txt
+   59  cat bookshelf.txt
+   60  echo "second" >> bookshelf.txt
+   61  cat bookshelf.txt
+   62  cat books.txt | sort
+   63  cat books.txt
+   64  cat books.txt | sort > sorted_books.txt
+   65  cat sorted_books.txt
+   66  open .
+   67  cat books.txt | grep Mil
+   68  mv sorted_books.txt books.txt
+   69  cat books.txt
+   70  ls
+   71  cd ~
+   72  ls
+   73  cd living_room
+   74  cd~
+   75  cd ~
+   76  cd Desktop
+   77  cd ~
+   78  cd Documents
+   79  mkdir general_assembly
+   80  ls
+   81  cd general assembly
+   82  cd general_assembly
+   83  mkdir unit_1
+   84  cd unit_1
+   85  mkdir labs
+   86  mkdir homework
+   87  code_alongs
+   88  mkdir code_alongs
+   89  ls
+   90  mv homeworks unit_1
+   91  mv Desktop/homeworks Documents/unit_1
+   92  cd..
+   93  cd ..
+   94  cd Desktop
+   95  mv homeworks general_assembly/unit_1
+   96  mv homeworks Documents/general_assembly/unit_1
+   97  cd ..
+   98  cd Documents
+   99  ls
+  100  cd general_assembly
+  101  ls
+  102  cd
+  103  ls
+  104  cd Documents
+  105  cd unit_1
+  106  cd general_assembly
+  107  cd unit_1
+  108  cd homeworks
+  109  ls
+  110  git status
+  111  del command-line-murder-mystery
+  112  open .
+  113  git clone https://github.com/arwin95/command-line-murder-mystery.git
+  114  ls
+  115  cd Desktop
+  116  ls
+  117  c..
+  118  cd..
+  119  cd ..
+  120  cd Documents
+  121  ls
+  122  cd general_assembly
+  123  cat instruction
+  124  cat instructions
+  125  ls
+  126  cd unit_1
+  127  ls
+  128  cd homeworks
+  129  ls
+  130  cd 
+  131  cd Documents/general_assembly/unit_1/homeworks
+  132  ls
+  133  cd command-line-murder-mystery
+  134  ls
+  135  cat instructions
+  136  cd mystery
+  137  ls
+  138  ls -la
+  139  ls -a
+  140  cat crimescene
+  141  clear
+  142  ls
+  143  cd..
+  144  cd ..
+  145  ls
+  146  cat instructions
+  147  ls
+  148  cd mystery
+  149  cat crimescene
+  150  cat crimescene | grep CLUE
+  151  ls
+  152  cd ..
+  153  ls
+  154  cat instructions
+  155  ls
+  156  cat hint1
+  157  cat hint1.txt
+  158  cat hint1
+  159  cat hint2
+  160  cat hint3
+  161  cat hint4
+  162  cat hint5
+  163  cat hint6
+  164  cat hint7
+  165  cat hint8
+  166  cd mystery
+  167  ls
+  168  touch solution.txt
+  169  ls
+  170  cat people | grep annebel
+  171  cat people | grep Annebel
+  172  cd..
+  173  cd ..
+  174  cd Documents/general_assembly/unit_1/homeworks
+  175  ls
+  176  cd command-line-murder-mystery
+  177  ls
+  178  cd m,y
+  179  cd mystery
+  180  ls
+  181  cat people
+  182  cat people | grep Annebel
+  183  cat crimescene | grep CLUE
+  184  ls
+  185  cd ..
+  186  ;s
+  187  ls
+  188  cat hint5
+  189  cat hint4
+  190  la
+  191  ls
+  192  cd mystery
+  193  cat people | grep Annabel
+  194  ls
+  195  cd Documents/general_assembly/unit_1/homeworks
+  196  ls
+  197  cd command-line-murder-mystery
+  198  ls
+  199  cat hint5
+  200  history
+  201  clear
+  202  pwd
+  203  ls
+  204  cat hint6
+  205  cat hint
+  206  cat hint7
+  207  cat hint8
+  208  cd ..
+  209  cd home
+  210  cd
+  211  cd Documents/general_assembly/unit_1/homeworks
+  212  ls
+  213  cd command-line-murder-mystery
+  214  ls
+  215  cat instructions
+  216  cd Documents/general_assembly/unit_1/homeworks
+  217  cd command-line-murder-mystery
+  218  ls
+  219  cd mystery
+  220  ls
+  221  cat crimescene | grep CLUE
+  222  cat people | grep Annabel
+  223  cat vehicles | grep Honda
+  224  cat vehicles | grep Blue
+  225  cat vehicles | grep L337
+  226  cat vehicles | grep Honda Blue L337
+  227  cat vehicles
+  228  cat vehicles | grep Annabel
+  229  grep -A 5 "L337" mystery/vehicles
+  230  grep -A 5 "L337" vehicles
+  231  cat vehicles 
+  232  cat vehicles | grep "Honda" "Blue" "L337"
+  233  grep -A 5 "L337" vehicles
+  234  cp grep -A 5 "L337" vehicles solution.txt
+  235  ls
+  236  cat solution.txt
+  237  ls
+  238  s
+  239  ls
+  240  [200~cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"~
+  241  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  242  cd memberships
+  243  ls
+  244  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  245  history
+  246  clear
+  247  history
+  248  pwd
+  249  cd
+  250  pwd
+  251  ls
+  252  cd Documents/general_assembly/unit_1/homeworks/command-line-murder-mystery
+  253  head -n 20 people
+  254  cd mystery
+  255  head -n 20 people
+  256  grep "CLUE" crimescene
+  257  cat crimescene | grep CLUE
+  258  head people
+  259  head crimescene
+  260  cat people | grep Annabel
+  261  head -n 173 streets/Mattapan_Street | tail -n 1
+  262  cat interviews/interview-9437737
+  263  head -n 173 streets/Mattapan_Street | tail -n 1
+  264  ls
+  265  grep "Honda" vehicles
+  266  grep "Blue" vehicles
+  267  grep "L337" vehicles
+  268  head vehicles
+  269  grep -A 5 "L337" mystery/vehicles
+  270  grep -A 5 "L337" vehicles
+  271  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  272  ls
+  273  cd memberships
+  274  ls
+  275  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  276  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  277  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  278  history
+  279  mkdir solution.txt
+  280  ls
+  281  cd ..
+  282  ls
+  283  mkdir solution.txt
+  284  ls
+  285  echo history >> solution.txt
+  286  cat solution.txt
+  287  open solution.txt
+  288  echo history > solution.txt
+  289  ls
+  290  cat solution.txt
