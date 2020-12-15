@@ -1,33 +1,44 @@
-    1  5/26/2020 16:52  pwd
-    2  5/26/2020 16:52  history
-    3  5/26/2020 17:21  cd Desktop
-    4  5/26/2020 17:21  cd seir_526
-    5  5/26/2020 17:23  cd ~
-    6  5/26/2020 17:23  cat ./.zshrc
-    7  5/27/2020 10:56  pwd
-    8  5/27/2020 10:56  cd Desktop
-    9  5/27/2020 10:56  mkdir command-line-hw
-   10  5/27/2020 10:56  cd command-line-hw
-   11  5/27/2020 10:56  git clone git@github.com:azocher/command-line-murder-mystery.git
-   12  5/27/2020 10:57  ls
-   13  5/27/2020 10:57  cd command-line-murder-mystery
-   14  5/27/2020 10:57  ls
-   15  5/27/2020 10:57  history
-    1  5/26/2020 16:52  pwd
-    2  5/26/2020 16:52  history
-    3  5/26/2020 17:21  cd Desktop
-    4  5/26/2020 17:21  cd seir_526
-    5  5/26/2020 17:23  cd ~
-    6  5/26/2020 17:23  cat ./.zshrc
-    7  5/27/2020 10:56  pwd
-    8  5/27/2020 10:56  cd Desktop
-    9  5/27/2020 10:56  mkdir command-line-hw
-   10  5/27/2020 10:56  cd command-line-hw
-   11  5/27/2020 10:56  git clone git@github.com:azocher/command-line-murder-mystery.git
-   12  5/27/2020 10:57  ls
-   13  5/27/2020 10:57  cd command-line-murder-mystery
-   14  5/27/2020 10:57  ls
-   15  5/27/2020 10:57  history
-   16  5/27/2020 10:58  history > solutions.txt
-   17  5/27/2020 10:58  cat solutions.txt
-   some words and an emoji 🙂
+    1  ls
+    2  cd Desktop
+    3  ls
+    4  mkdir homework
+    5  pwd
+    6  ls
+    7  cd homework
+    8  pwd
+    9  ls
+   10  git clone https://github.com/azocher/command-line-murder-mystery.git
+   11  ls
+   12  pwd
+   13  cd command-line-murder-mystery/
+   14  git status
+   15  ls
+   16  code solutions.txt
+   17  history
+   18  vim solutions.txt
+   19  man ls
+   20  ls
+   21  ls -a
+   22  ls -S
+   23  ls -aS
+   24  man history
+   25  man history -a
+   26  history info count
+   27  history info 10
+   28  history info < 0
+   29  history info 1, 10
+   30  history info
+   31  man history
+   32  man history
+   33  man history -a
+   34  git add .
+   35  git status
+   36  git commit -m "updated solutions txt to include emoji"
+   37  git config --global user.email "anna.zocher@gmail.com"
+   38  git config --global user.name "Anna Zocher"
+   39  git status
+   40  git commit -m "updated solutions txt to include emoji"
+   41  git status
+   42  history > solutions.txt
+   43  cat solutions.txt
+   44  history > solutions.txt
