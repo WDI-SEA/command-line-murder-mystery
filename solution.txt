@@ -1,0 +1,435 @@
+ 4627  /Users/dreammachine/Documents/General\ Assembly 
+ 4628  git clone XU8xBVSpp64e
+ 4629  git clone git@github.com:WDI-SEA/command-line-murder-mystery.git
+ 4630  ssh-add
+ 4631  pwd && settings
+ 4632  sss
+ 4633  ga
+ 4634  sss
+ 4635  ga
+ 4636  pd
+ 4637  pwd
+ 4638  ll
+ 4639  o
+ 4640  cd 121420\ command-line-murder-mystery
+ 4641  cat instructions
+ 4642  go
+ 4643  ll
+ 4644  cd mystery
+ 4645  pwd
+ 4646  ll
+ 4647  ca crimescene
+ 4648  cat crimescene
+ 4649  cd ..
+ 4650  ll
+ 4651  cat instructions
+ 4652  notes
+ 4653  code .
+ 4654  ll
+ 4655  ga
+ 4656  ll
+ 4657  cd 121420\ command-line-murder-mystery
+ 4658  ll
+ 4659  cd mystery
+ 4660  ll
+ 4661  cat crimescene
+ 4662  go
+ 4663  ll
+ 4664  cat people
+ 4665  ll
+ 4666  cat vehicles
+ 4667  ..
+ 4668  pwd
+ 4669  ll
+ 4670  cat README.md
+ 4671  ll
+ 4672  cat cheatsheet.md
+ 4673  ll
+ 4674  cat hint1
+ 4675  head -n 20 mystery/people
+ 4676  ls mystery/streets
+ 4677  settings
+ 4678  findfile "
+ 4679  findfile "walton" .
+ 4680  ll
+ 4681  cd mystery
+ 4682  ll
+ 4683  cd streets
+ 4684  ll
+ 4685  cat ../people
+ 4686  historty
+ 4687  history
+ 4688  head -n 20 people
+ 4689  head -n 20 mystery/people
+ 4690  ..
+ 4691  pwd
+ 4692  ll
+ 4693  head -n 20 people
+ 4694  ls streets
+ 4695  cat Walton_street | grep -n 433
+ 4696  pwd
+ 4697  ll
+ 4698  ls -al
+ 4699  ..
+ 4700  pwd
+ 4701  ll
+ 4702  cat cheatsheet.
+ 4703  cat cheatsheet.md
+ 4704  open cheatsheet.pdf
+ 4705  ll
+ 4706  cd mystery
+ 4707  ll
+ 4708  head -n 20 people
+ 4709  ls streets
+ 4710  ls streets | grep "walton"
+ 4711  ls streets | grep "tennis"
+ 4712  ls streets | grep "rockwood"
+ 4713  findfile "rockwood" .
+ 4714  grep -nri "Fuentes" .
+ 4715  ll
+ 4716  cd streets
+ 4717  o .
+ 4718  grep -nri "Walton" .
+ 4719  head -n 20 people
+ 4720  ..
+ 4721  head -n 20 people
+ 4722  grep -nri "Walton" .
+ 4723  grep -nri "Walton Street" .
+ 4724  ..
+ 4725  ll
+ 4726  cat hint2
+ 4727  grep "CLUE" mystery/crimescene
+ 4728  ll
+ 4729  cd mystery
+ 4730  ll
+ 4731  cd streets
+ 4732  ll
+ 4733  ..
+ 4734  ll
+ 4735  ls people
+ 4736  cat -n people
+ 4737  head -n 20 people
+ 4738  ll
+ 4739  ls streets
+ 4740  ..
+ 4741  cat instructions
+ 4742  ll
+ 4743  cd mystery
+ 4744  ll
+ 4745  cat people
+ 4746  cat people | grep -v "F" 
+ 4747  cat people
+ 4748  vi people
+ 4749  ll
+ 4750  cd streets && pwd
+ 4751  ga
+ 4752  ll
+ 4753  cd 121420\ command-line-murder-mystery
+ 4754  ll
+ 4755  cd streets && pwd
+ 4756  ll
+ 4757  cd mystery
+ 4758  cd streets && pwd
+ 4759  ll
+ 4760  ..
+ 4761  ll
+ 4762  cd streets && pwd
+ 4763  ll
+ 4764  ..
+ 4765  ll
+ 4766  cat memberships
+ 4767  cd memberships
+ 4768  ll
+ 4769  cat AAA
+ 4770  ..
+ 4771  ll
+ 4772  cd memberships
+ 4773  ll
+ 4774  cat museum
+ 4775  cat museum.txt
+ 4776  ls -n .
+ 4777  ls -n museum.txt
+ 4778  ..
+ 4779  grep -nri "Annabel" .
+ 4780  grep -nri "Annabel Church" .
+ 4781  ..
+ 4782  ll
+ 4783  cd my
+ 4784  cd mystery
+ 4785  ll
+ 4786  cat streets | grep "Buckingham" .
+ 4787  ls streets
+ 4788  LS streets | grep "Buckingham" .
+ 4789  ls streets | grep "Buckingham" .
+ 4790  ls streets 
+ 4791  cat Buckingham_Place
+ 4792  vi Buckingham_Place
+ 4793  grep -nri "Annabel" .
+ 4794  ga
+ 4795  cd 121420\ command-line-murder-mystery
+ 4796  o
+ 4797* ls streets | grep "Hart_Place" .
+ 4798  grep -nri "Annabel" .
+ 4799  ll
+ 4800  cat mystery/streets/Hart_Place
+ 4801  cd mystery
+ 4802  ll
+ 4803  cat streets/Haley_Street
+ 4804  cat streets/Buckingham_Place
+ 4805  cat streets/Mattapan_Street
+ 4806  cat streets/Hart_Place
+ 4807  ..
+ 4808  ll
+ 4809  cat hint3
+ 4810  cat hint4
+ 4811  cat hint5
+ 4812  head -n 173 streets/Mattapan_Street | tail -n 1
+ 4813  ll
+ 4814  cd mystery
+ 4815  head -n 173 streets/Mattapan_Street | tail -n 1
+ 4816  grep -nri "#9437737" .
+ 4817  ..
+ 4818  grep -nri "#9437737" .
+ 4819  grep -nri "9437737" .
+ 4820  ll
+ 4821  cd mystery
+ 4822  ll
+ 4823  cat crimescene
+ 4824  ll
+ 4825  cat people
+ 4826  vi people
+ 4827  grep -nri 
+ 4828  grep -nri "Annabel" .
+ 4829  grep -nri "Annabel" ./people
+ 4830  ..
+ 4831  ll
+ 4832  cd mystery
+ 4833  ll
+ 4834  grep "Annabel" interviews 
+ 4835  ll
+ 4836  cd interviews
+ 4837  ll
+ 4838  history
+ 4839  findfile "9437737" .
+ 4840  grep -l "9437737" .
+ 4841  grep -1 "9437737" .
+ 4842  grep -1 "9437737" interview-
+ 4843  grep -1 "9437737" interviews
+ 4844  ll
+ 4845  grep -1 "9437737" .
+ 4846  ..
+ 4847  grep -1 "9437737" .
+ 4848  grep -1 "9437737" *
+ 4849  find | grep "9969223" .
+ 4850  find . -name "9969223"
+ 4851  rg
+ 4852  tree | grep "9969223" .
+ 4853  ll
+ 4854  cd streets
+ 4855  ls -l | grep "9969223" 
+ 4856  ls -l | grep "9969223" .
+ 4857  `find . -name "*9969223*" -exec grep -H 'XYZ' {} +`
+ 4858  find . -name "*9969223*" -exec grep -H 'XYZ' {} +\
+ 4859  find . -name "*9969223*" -exec grep -H 'XYZ' {} +
+ 4860  find . -name "*9969223*"
+ 4861  ..
+ 4862  pwd
+ 4863  ..
+ 4864  ll
+ 4865  hint 5
+ 4866  cat hint5
+ 4867  cat hint6
+ 4868  node -v
+ 4869  homebrew -v
+ 4870  man homebrew
+ 4871  homebrew
+ 4872  brew
+ 4873  brew -v
+ 4874  git -v
+ 4875  git
+ 4876  ssh-add
+ 4877  git config --global user.name "PatrickDePuydt"
+ 4878  git config --global user.name "prdepuydt@gmail.com"
+ 4879  git config --global user.name "PatrickDePuydt"
+ 4880  git config --global user.email "prdepuydt@gmail.com"
+ 4881  git config --global push.default simple
+ 4882  git config --global credential.helper cache
+ 4883  git config
+ 4884  ls -al ~/.ssh
+ 4885  settings
+ 4886  code .
+ 4887  man node
+ 4888  node -v
+ 4889  ..
+ 4890  sudo chown -R $USER /usr/local/lib
+ 4891  brew services list
+ 4892  brew services
+ 4893  brew list
+ 4894  brew install mongodb-community
+ 4895* sudo mkdir -p ~/mongodb-data
+ 4896  brew install mongodb-community
+ 4897  git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow
+ 4898  git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask fetch --unshallow
+ 4899  brew install mongodb-community
+ 4900  history
+ 4901  brew install mongodb-community
+ 4902  brew tap mongodb/brew
+ 4903  brew install mongodb-community
+ 4904* brew tap | grep mongodb
+ 4905* xcode-select --install
+ 4906  brew tap mongodb/brew
+ 4907  brew install mongodb-community@4.4
+ 4908  brew install gcc
+ 4909  history
+ 4910  brew tap mongodb/brew
+ 4911  brew install mongodb-community@4.4
+ 4912  cd ~/
+ 4913  ll
+ 4914  ls -al
+ 4915  sudo mkdir ~/mongodb-data
+ 4916  ll
+ 4917  sudo chown -R $(whoami):wheel ~/mongodb-data
+ 4918  ll mongodb-data
+ 4919  mongod --dbpath ~/mongodb-data
+ 4920  settings
+ 4921  sss
+ 4922  mongod
+ 4923  cd /usr/local/lib
+ 4924  ll
+ 4925  mkdir Frameworks
+ 4926  whoami
+ 4927  sudo chown -R $(whoami):wheel .
+ 4928  sudo chown -R $(whoami):wheel Frameworks
+ 4929  brew install python3
+ 4930  history
+ 4931  pwd
+ 4932  ..
+ 4933  ll
+ 4934  cd lib
+ 4935  ll
+ 4936  rm -rf Frameworks
+ 4937  ..
+ 4938  take Framekworks
+ 4939  ll
+ 4940  mkdir Frameworks
+ 4941  sudo mkdir Framekworks
+ 4942  ll
+ 4943  rm -rf Framekworks
+ 4944  sudo rm -rf Framekworks
+ 4945  sudo mkdir Frameworks
+ 4946  sudo chown -R $(whoami):wheel Frameworks
+ 4947  ll
+ 4948  brew install python3
+ 4949  brew link python@3.9
+ 4950  pip3 install --upgrade pip setuptools wheel
+ 4951  SUDO pip3 install --upgrade pip setuptools wheel
+ 4952  sudo pip3 install --upgrade pip setuptools wheel
+ 4953  pip3 install ipython
+ 4954  ga
+ 4955  ll
+ 4956  cd 121420\ command-line-murder-mystery
+ 4957  ll
+ 4958  cat hint6
+ 4959  ll
+ 4960  cd mystery
+ 4961  ll
+ 4962  cat people
+ 4963  ll
+ 4964  cat interviews 
+ 4965  cat interviews | grep "tall"
+ 4966  cat interviews | grep "tall" .
+ 4967  cd interviews
+ 4968  grep -nri "tall" .
+ 4969  cat interview-56892213
+ 4970  ..
+ 4971  grep -nri "Daniel Sinker" .
+ 4972  grep -nri "6.*" vehicles
+ 4973  grep -nri "6.*" vehicles | tail -n 5
+ 4974  grep -nri "6*" vehicles | tail -n 5
+ 4975  grep -nri "6*" vehicles
+ 4976  grep -nri "6\'*" vehicles
+ 4977  grep -nri "6\'*" vehicles | tail -n 5
+ 4978  grep -nri "Annabel" .
+ 4979  head -n 40 streets/hart_place
+ 4980  head -n 40 streets/hart_place | tail -n 1
+ 4981  ll
+ 4982  cd interviews
+ 4983  ll
+ 4984  cat interview-47246024
+ 4985  grep -nri "Annabel" .
+ 4986  ..
+ 4987  grep -nri "Annabel" .
+ 4988  head -n 38 streets/buckingham_place | tail -n 179
+ 4989  head -n 38 streets/buckingham_place | tail -n 1
+ 4990  head -n 38 streets/buckingham_place
+ 4991  grep -nri "Annabel" .
+ 4992  head -n 173 streets/buckingham_place
+ 4993  head -n 173 streets/buckingham_place | tail -n 1`
+ 4994  head -n 173 streets/buckingham_place | tail -n 1
+ 4995  head -n 173 streets/Mattapan_Street | tail -n 1
+ 4996  history
+ 4997  grep -nri "Annabel" .
+ 4998  head -n 173 streets/Mattapan_Street | tail -n 1
+ 4999  cat interviews/interview-9437737
+ 5000  grep -nri "Annabel" .
+ 5001  head -n 176 streets/haley_street | tail -n 1
+ 5002  cat interviews/interview-871877
+ 5003  head -n 40 streets/hart_place | tail -n 1
+ 5004  cat interviews interview-47246024
+ 5005  cat interviews/interview-47246024
+ 5006  head -n 173 streets/mattapan_street | tail -n 1
+ 5007  cat interviews/interview-9437737
+ 5008  head -n 179 streets/buckingham_place | tail -n 1
+ 5009  cat interviews/interview-699607
+ 5010  ll
+ 5011  cd interviews
+ 5012  cd ..
+ 5013  grep -nri "L337" .
+ 5014  ll
+ 5015  cat vehicles
+ 5016  grep -A "L337" .
+ 5017  grep -A "L337" vehicles
+ 5018  ll
+ 5019  cat vehicles
+ 5020  ll
+ 5021  ls -al
+ 5022  grep -A 4 "Honda" .
+ 5023  grep -A 4 "Honda" vehicles
+ 5024  grep -A 4 "Honda" vehicles | grep "L337" .
+ 5025  grep -A 4 "Honda" vehicles | grep -nri "L337" .
+ 5026  grep -A 4 "Honda" vehicles
+ 5027  grep -A 4 "Honda" vehicles | grep -A 4 "6*" .
+ 5028  grep -A 4 "Honda" vehicles | grep -A 4 "6*"
+ 5029  ll
+ 5030  ..
+ 5031  cat hint7
+ 5032  grep -C "L337" mystery/vehicles
+ 5033  grep -C 4 "L337" mystery/vehicles
+ 5034  ll
+ 5035  cat hint8
+ 5036* commit
+ 5037* ggp
+ 5038  ..
+ 5039  ll
+ 5040  take 121520 murder_mystery_fork
+ 5041  o
+ 5042  ..
+ 5043  o
+ 5044  ll
+ 5045  cd 121520\ MurderMysteryFork
+ 5046  git clone git@github.com:PatrickDePuydt/command-line-murder-mystery.git
+ 5047  ll
+ 5048  cd command-line-murder-mystery
+ 5049  gco -b 121520_history
+ 5050  echo history >> solution.txt
+ 5051  cat solution.txt
+ 5052  history
+ 5053  rm -rf solution.txt
+ 5054  cat history >> solution.txt
+ 5055  echo hsitory
+ 5056  echo $(history)
+ 5057  echo $(history) >> solution.txt
+ 5058  cat solution.txt
+ 5059  go
+ 5060  history
+ 5061  rm -rf solution.txt
