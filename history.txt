@@ -1,0 +1,500 @@
+    8  Jeshurun_StreetWoodcliff_Street
+    9  John_Alden_RoadWooddale_Avenue
+   10  Judge_StreetWorrell_Street
+   11  June_StreetWycliff_Avenue
+   12  Patricias-MBP:streets Patricia$ cd ..
+   13  Patricias-MBP:mystery Patricia$ cd interviews
+   14  Patricias-MBP:interviews Patricia$ cat interview-699607 
+   15  Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+   16  However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"Patricias-MBP:interviews Patricia$ cat interview-699607 >> collated_clues.txt
+   17  Patricias-MBP:interviews Patricia$ cat interview-472460247 >> collated_clues.txt
+   18  cat: interview-472460247: No such file or directory
+   19  Patricias-MBP:interviews Patricia$ cat interview-47246024
+   20  Ms. Sun has brown hair and is not from New Zealand.  Not the witness from the cafe.Patricias-MBP:interviews Patricia$ cat interview-871877
+   21  Mr. Fuglsang is male and has brown hair.  Not the witness from the cafe.Patricias-MBP:interviews Patricia$ cat interview-9437737 
+   22  Doesn't appear to be the witness from the cafe, who is female.Patricias-MBP:interviews Patricia$ cd ..
+   23  Patricias-MBP:mystery Patricia$ head vehicles.txt
+   24  ***************
+   25  Vehicle and owner information from the Terminal City Department of Motor Vehicles
+   26  ***************
+   27  License Plate T3YUHF6
+   28  Make: Toyota
+   29  Color: Yellow
+   30  Owner: Jianbo Megannem
+   31  Height: 5'6"
+   32  Weight: 246 lbs
+   33  Patricias-MBP:mystery Patricia$ grek -A 5 "License Plate L337**9" vehicles.txt
+   34  -bash: grek: command not found
+   35  Patricias-MBP:mystery Patricia$ grep -A 5 "License Plate L337**9" vehicles.txt
+   36  grep: repetition-operator operand invalid
+   37  Patricias-MBP:mystery Patricia$ grep -A 5 "License Plate L337*" vehicles.txt
+   38  License Plate L337ZR9
+   39  Make: Honda
+   40  Color: Red
+   41  Owner: Katie Park
+   42  Height: 6'2"
+   43  Weight: 189 lbs
+   44  --
+   45  License Plate L337P89
+   46  Make: Honda
+   47  Color: Teal
+   48  Owner: Mike Bostock
+   49  Height: 6'4"
+   50  Weight: 173 lbs
+   51  --
+   52  License Plate L337GX9
+   53  Make: Mazda
+   54  Color: Orange
+   55  Owner: John Keefe
+   56  Height: 6'4"
+   57  Weight: 185 lbs
+   58  --
+   59  License Plate L337QE9
+   60  Make: Honda
+   61  Color: Blue
+   62  Owner: Erika Owens
+   63  Height: 6'5"
+   64  Weight: 220 lbs
+   65  --
+   66  License Plate L337GB9
+   67  Make: Toyota
+   68  Color: Blue
+   69  Owner: Matt Waite
+   70  Height: 6'1"
+   71  Weight: 190 lbs
+   72  --
+   73  License Plate L337OI9
+   74  Make: Jaguar
+   75  Color: Blue
+   76  Owner: Brian Boyer
+   77  Height: 6'6"
+   78  Weight: 201 lbs
+   79  --
+   80  License Plate L337X19
+   81  Make: Fiat
+   82  Color: Blue
+   83  Owner: Al Shaw
+   84  Height: 6'5"
+   85  Weight: 240 lbs
+   86  --
+   87  License Plate L337539
+   88  Make: Honda
+   89  Color: Blue
+   90  Owner: Aron Pilhofer
+   91  Height: 5'3"
+   92  Weight: 198 lbs
+   93  --
+   94  License Plate L3373U9
+   95  Make: Ford
+   96  Color: Blue
+   97  Owner: Miranda Mulligan
+   98  Height: 6'6"
+   99  Weight: 156 lbs
+  100  --
+  101  License Plate L337369
+  102  Make: Honda
+  103  Color: Blue
+  104  Owner: Heather Billings
+  105  Height: 5'2"
+  106  Weight: 244 lbs
+  107  --
+  108  License Plate L337DV9
+  109  Make: Honda
+  110  Color: Blue
+  111  Owner: Joe Germuska
+  112  Height: 6'2"
+  113  Weight: 164 lbs
+  114  --
+  115  License Plate L3375A9
+  116  Make: Honda
+  117  Color: Blue
+  118  Owner: Jeremy Bowers
+  119  Height: 6'1"
+  120  Weight: 204 lbs
+  121  --
+  122  License Plate L337WR9
+  123  Make: Honda
+  124  Color: Blue
+  125  Owner: Jacqui Maher
+  126  Height: 6'2"
+  127  Weight: 130 lbs
+  128  Patricias-MBP:mystery Patricia$ grep -A 5 "License Plate L337...9" vehicles.txt
+  129  Patricias-MBP:mystery Patricia$ 
+  130  Patricias-MBP:mystery Patricia$ grep -A 5 "License Plate L337..9" vehicles.txt
+  131  License Plate L337ZR9
+  132  Make: Honda
+  133  Color: Red
+  134  Owner: Katie Park
+  135  Height: 6'2"
+  136  Weight: 189 lbs
+  137  --
+  138  License Plate L337P89
+  139  Make: Honda
+  140  Color: Teal
+  141  Owner: Mike Bostock
+  142  Height: 6'4"
+  143  Weight: 173 lbs
+  144  --
+  145  License Plate L337GX9
+  146  Make: Mazda
+  147  Color: Orange
+  148  Owner: John Keefe
+  149  Height: 6'4"
+  150  Weight: 185 lbs
+  151  --
+  152  License Plate L337QE9
+  153  Make: Honda
+  154  Color: Blue
+  155  Owner: Erika Owens
+  156  Height: 6'5"
+  157  Weight: 220 lbs
+  158  --
+  159  License Plate L337GB9
+  160  Make: Toyota
+  161  Color: Blue
+  162  Owner: Matt Waite
+  163  Height: 6'1"
+  164  Weight: 190 lbs
+  165  --
+  166  License Plate L337OI9
+  167  Make: Jaguar
+  168  Color: Blue
+  169  Owner: Brian Boyer
+  170  Height: 6'6"
+  171  Weight: 201 lbs
+  172  --
+  173  License Plate L337X19
+  174  Make: Fiat
+  175  Color: Blue
+  176  Owner: Al Shaw
+  177  Height: 6'5"
+  178  Weight: 240 lbs
+  179  --
+  180  License Plate L337539
+  181  Make: Honda
+  182  Color: Blue
+  183  Owner: Aron Pilhofer
+  184  Height: 5'3"
+  185  Weight: 198 lbs
+  186  --
+  187  License Plate L3373U9
+  188  Make: Ford
+  189  Color: Blue
+  190  Owner: Miranda Mulligan
+  191  Height: 6'6"
+  192  Weight: 156 lbs
+  193  --
+  194  License Plate L337369
+  195  Make: Honda
+  196  Color: Blue
+  197  Owner: Heather Billings
+  198  Height: 5'2"
+  199  Weight: 244 lbs
+  200  --
+  201  License Plate L337DV9
+  202  Make: Honda
+  203  Color: Blue
+  204  Owner: Joe Germuska
+  205  Height: 6'2"
+  206  Weight: 164 lbs
+  207  --
+  208  License Plate L3375A9
+  209  Make: Honda
+  210  Color: Blue
+  211  Owner: Jeremy Bowers
+  212  Height: 6'1"
+  213  Weight: 204 lbs
+  214  --
+  215  License Plate L337WR9
+  216  Make: Honda
+  217  Color: Blue
+  218  Owner: Jacqui Maher
+  219  Height: 6'2"
+  220  Weight: 130 lbs
+  221  Patricias-MBP:mystery Patricia$ grep -A 5 "License Plate L337..9" vehicles.txt >> collated_clues.txt
+  222  Patricias-MBP:mystery Patricia$ code collated_clues.txt
+  223  Patricias-MBP:mystery Patricia$ ls
+  224  collated_clues.txt interviewsstreets
+  225  crimescene.txtmembershipsvehicles.txt
+  226  heights.txt people.txt
+  227  Patricias-MBP:mystery Patricia$ head people.txt
+  228  ***************
+  229  To go to the street someone lives on, use the file
+  230  for that street name in the 'streets' subdirectory.
+  231  To knock on their door and investigate, read the line number
+  232  they live on from the file.  If a line looks like gibberish, you're at the wrong house.
+  233  ***************
+  234  NAMEGENDERAGEADDRESS
+  235  Alicia FuentesF48Walton Street, line 433
+  236  Jo-Ting LosevF46Hemenway Street, line 390
+  237  Patricias-MBP:mystery Patricia$ grep "Jacq." people.txt
+  238  Jacques SmithM49Cambridgepark Drive, line 1
+  239  Jacques RamoneneM56Ryder Hill Road, line 441
+  240  Jacqui MaherF40Andover Road, line 224
+  241  Jacques IdeM56Scotia Street, line 423
+  242  Sara BirarelliF22Jacqueline Road, line 119
+  243  Jacqueline SauvageF16Port Lane, line 433
+  244  Patricias-MBP:mystery Patricia$ ls
+  245  collated_clues.txtinterviewsstreets
+  246  crimescene.txtmembershipsvehicles.txt
+  247  heights.txtpeople.txt
+  248  Patricias-MBP:mystery Patricia$ cd interviews
+  249  Patricias-MBP:interviews Patricia$ cd ..
+  250  Patricias-MBP:mystery Patricia$ cd memberships
+  251  Patricias-MBP:memberships Patricia$ ls
+  252  1.txtFitness_GalaxyUnited_MileagePlus
+  253  2.txtMuseum_of_Bash_Historydelta.txt
+  254  AAAREIlibrary.txt
+  255  AAdvantageRotary_Clubmuseum.txt
+  256  CostcoTCSU_Alumni_Associationnewfile.txt
+  257  Delta_SkyMilesTerminal_City_Library
+  258  Patricias-MBP:memberships Patricia$ grep "Mike" AAA
+  259  Mike Bostock
+  260  Patricias-MBP:memberships Patricia$ grep "John" AAA
+  261  Lauren Johnson
+  262  John Keefe
+  263  Patricias-MBP:memberships Patricia$ grep "Matt" AAA
+  264  Matteo Nieminen
+  265  Mattia Sanchez
+  266  Matt Waite
+  267  Matthieu Wang
+  268  Patricias-MBP:memberships Patricia$ grep "Brian" AAA
+  269  Brian Boyer
+  270  Patricias-MBP:memberships Patricia$ grep "Al" AAA
+  271  Al Shaw
+  272  Giovani Alflaij
+  273  Alex Kim
+  274  Almensh Zbogar
+  275  Aleksandr Holliday
+  276  Alberto Vidal
+  277  Alana Thiam
+  278  Aldo Nicolas
+  279  Alexandr Liu
+  280  Alex Nichols
+  281  Aleks Eisel
+  282  Dilshod Allen
+  283  Aleksandar Atafi
+  284  Aleksandr Rutherford
+  285  Alexis Diaz
+  286  Alexandru Govers
+  287  Aleksei Rouwendaal
+  288  Alberto Bauza
+  289  Alistair McGeorge
+  290  Alena Davis
+  291  Ali Jallouz
+  292  David Al-Athba
+  293  Aldo Cerkovskis
+  294  Alexa Loch
+  295  Lina Al-Jumaili
+  296  Aleksandar Sandell
+  297  Alexandra Solja
+  298  Lok Al-Athba
+  299  Allison Musinschi
+  300  Annie Ali
+  301  Alejandro Collins
+  302  Nadzeya Allegrini
+  303  Alvaro Tanatarov
+  304  Pierre-Alexis Valiyev
+  305  Alvaro Viljoen
+  306  Alejandra Ndong
+  307  Albert Barthel
+  308  Alexey Gille
+  309  Ali Milthaler
+  310  Gauthier Alimzhanov
+  311  Aleksei Wang
+  312  Alex Hosnyanszky
+  313  Emma Alphen
+  314  Simon Alphen
+  315  Alicja Kamionobe
+  316  Alexander Herrera
+  317  Patricias-MBP:memberships Patricia$ grep "Joe" AAA
+  318  Joe Germuska
+  319  Joel Giordano
+  320  Joel Tverdohlib
+  321  Patricias-MBP:memberships Patricia$ grep "Jeremy Bowers" AAA
+  322  Jeremy Bowers
+  323  Patricias-MBP:memberships Patricia$ grep "Mike Bostock" delta.txt
+  324  Mike Bostock
+  325  Patricias-MBP:memberships Patricia$ grep "Mike Bostock" library.txt
+  326  Mike Bostock
+  327  Patricias-MBP:memberships Patricia$ grep "Mike Bostock" Museum_of_Bash_History 
+  328  Mike Bostock
+  329  Patricias-MBP:memberships Patricia$ grep "John Keefe" delta.txt
+  330  Patricias-MBP:memberships Patricia$ cd ..
+  331  Patricias-MBP:mystery Patricia$ ls
+  332  collated_clues.txtinterviewsstreets
+  333  crimescene.txtmembershipsvehicles.txt
+  334  heights.txtpeople.txt
+  335  Patricias-MBP:mystery Patricia$ head people.txt
+  336  ***************
+  337  To go to the street someone lives on, use the file
+  338  for that street name in the 'streets' subdirectory.
+  339  To knock on their door and investigate, read the line number
+  340  they live on from the file.  If a line looks like gibberish, you're at the wrong house.
+  341  ***************
+  342  NAMEGENDERAGEADDRESS
+  343  Alicia FuentesF48Walton Street, line 433
+  344  Jo-Ting LosevF46Hemenway Street, line 390
+  345  Patricias-MBP:mystery Patricia$ ls
+  346  collated_clues.txt interviewsstreets
+  347  crimescene.txtmembershipsvehicles.txt
+  348  heights.txt people.txt
+  349  Patricias-MBP:mystery Patricia$ ls
+  350  collated_clues.txt interviewsstreets
+  351  crimescene.txtmembershipsvehicles.txt
+  352  heights.txt people.txt
+  353  Patricias-MBP:mystery Patricia$ cd ..
+  354  Patricias-MBP:command-line-murder-mystery Patricia$ ls
+  355  LICENSEcheatsheet.pdfhint4hint8
+  356  LICENSE.txt hint1 hint5 instructions
+  357  README.md hint2 hint6 mystery
+  358  cheatsheet.md hint3 hint7
+  359  Patricias-MBP:command-line-murder-mystery Patricia$ cat solution
+  360  cat: solution: No such file or directory
+  361  Patricias-MBP:command-line-murder-mystery Patricia$ ls -a
+  362  .LICENSEhint2hint8
+  363  ../LICENSE.txthint3instructions
+  364  .DS_Store README.md hint4 mystery
+  365  .gitcheatsheet.mdhint5
+  366  .github/PULL_REQUEST_TEMPLATE.md cheatsheet.pdf hint6
+  367  .gitignore hint1 hint7
+  368  Patricias-MBP:command-line-murder-mystery Patricia$ ls
+  369  LICENSEcheatsheet.pdfhint4hint8
+  370  LICENSE.txt hint1 hint5 instructions
+  371  README.md hint2 hint6 mystery
+  372  cheatsheet.md hint3 hint7
+  373  Patricias-MBP:command-line-murder-mystery Patricia$ cd mystery
+  374  Patricias-MBP:mystery Patricia$ ls
+  375  collated_clues.txt interviewsstreets
+  376  crimescene.txtmembershipsvehicles.txt
+  377  heights.txt people.txt
+  378  Patricias-MBP:mystery Patricia$ cd ..
+  379  Patricias-MBP:command-line-murder-mystery Patricia$ ls
+  380  LICENSEcheatsheet.pdfhint4hint8
+  381  LICENSE.txt hint1 hint5 instructions
+  382  README.md hint2 hint6 mystery
+  383  cheatsheet.md hint3 hint7
+  384  Patricias-MBP:command-line-murder-mystery Patricia$ touch solution.txt
+  385  Patricias-MBP:command-line-murder-mystery Patricia$ ls
+  386  LICENSEcheatsheet.pdfhint4hint8
+  387  LICENSE.txt hint1 hint5 instructions
+  388  README.md hint2 hint6 mystery
+  389  cheatsheet.md hint3 hint7 solution.txt
+  390  Patricias-MBP:command-line-murder-mystery Patricia$ echo "The culprit is Mike Bostock!" > solution.txt
+  391  -bash: !": event not found
+  392  Patricias-MBP:command-line-murder-mystery Patricia$ "The culprit is Mike Bostock/!" > solution.txt
+  393  -bash: !": event not found
+  394  Patricias-MBP:command-line-murder-mystery Patricia$ echo "The culprit is Mike Bostock\!" > solution.txt
+  395  Patricias-MBP:command-line-murder-mystery Patricia$ cat solution.txt
+  396  The culprit is Mike Bostock\!
+  397  Patricias-MBP:command-line-murder-mystery Patricia$ ls
+  398  LICENSEcheatsheet.pdfhint4hint8
+  399  LICENSE.txt hint1 hint5 instructions
+  400  README.md hint2 hint6 mystery
+  401  cheatsheet.md hint3 hint7 solution.txt
+  402  Patricias-MBP:command-line-murder-mystery Patricia$ code hint2
+  403  Patricias-MBP:command-line-murder-mystery Patricia$ ls
+  404  LICENSEcheatsheet.pdfhint4hint8
+  405  LICENSE.txt hint1 hint5 instructions
+  406  README.md hint2 hint6 mystery
+  407  cheatsheet.md hint3 hint7 solution.txt
+  408  Patricias-MBP:command-line-murder-mystery Patricia$ cd ..
+  409  Patricias-MBP:homework Patricia$ ls
+  410  command-line-murder-mystery
+  411  Patricias-MBP:homework Patricia$ cd command-line-murder-mystery/
+  412  Patricias-MBP:command-line-murder-mystery Patricia$ ls
+  413  LICENSEcheatsheet.pdfhint4hint8
+  414  LICENSE.txt hint1 hint5 instructions
+  415  README.md hint2 hint6 mystery
+  416  cheatsheet.md hint3 hint7 solution.txt
+  417  Patricias-MBP:command-line-murder-mystery Patricia$ cd mystery
+  418  Patricias-MBP:mystery Patricia$ ls
+  419  collated_clues.txt interviewsstreets
+  420  crimescene.txtmembershipsvehicles.txt
+  421  heights.txt people.txt
+  422  Patricias-MBP:mystery Patricia$ nano vechicles.txt
+  423  Patricias-MBP:mystery Patricia$ ls
+  424  collated_clues.txt interviewsstreets
+  425  crimescene.txtmembershipsvehicles.txt
+  426  heights.txt people.txt
+  427  Patricias-MBP:mystery Patricia$ cd ..
+  428  Patricias-MBP:command-line-murder-mystery Patricia$ ls
+  429  LICENSEcheatsheet.pdfhint4hint8
+  430  LICENSE.txt hint1 hint5 instructions
+  431  README.md hint2 hint6 mystery
+  432  cheatsheet.md hint3 hint7 solution.txt
+  433  Patricias-MBP:command-line-murder-mystery Patricia$ open cheatsheet.md
+  434  Patricias-MBP:command-line-murder-mystery Patricia$ ls
+  435  LICENSEcheatsheet.pdfhint4hint8
+  436  LICENSE.txt hint1 hint5 instructions
+  437  README.md hint2 hint6 mystery
+  438  cheatsheet.md hint3 hint7 solution.txt
+  439  Patricias-MBP:command-line-murder-mystery Patricia$ git status
+  440  On branch master
+  441  Your branch is up to date with 'origin/master'.
+  442  Changes not staged for commit:
+  443    (use "git add/rm <file>..." to update what will be committed)
+  444    (use "git restore <file>..." to discard changes in working directory)
+  445  deleted:    mystery/crimescene
+  446  deleted:    mystery/people
+  447  deleted:    mystery/vehicles
+  448  Untracked files:
+  449    (use "git add <file>..." to include in what will be committed)
+  450  mystery/collated_clues.txt
+  451  mystery/crimescene.txt
+  452  mystery/heights.txt
+  453  mystery/interviews/collated_clues.txt
+  454  mystery/people.txt
+  455  mystery/vehicles.txt
+  456  solution.txt
+  457  no changes added to commit (use "git add" and/or "git commit -a")
+  458  Patricias-MBP:command-line-murder-mystery Patricia$ ls
+  459  LICENSEcheatsheet.pdfhint4hint8
+  460  LICENSE.txt hint1 hint5 instructions
+  461  README.md hint2 hint6 mystery
+  462  cheatsheet.md hint3 hint7 solution.txt
+  463  Patricias-MBP:command-line-murder-mystery Patricia$ git add solution.txt
+  464  Patricias-MBP:command-line-murder-mystery Patricia$ git commit -m 
+  465  error: switch `m' requires a value
+  466  Patricias-MBP:command-line-murder-mystery Patricia$ git commit -m "The culprit is Mike Bostock: Included this information in the solution.txt file"
+  467  [master 7e59da8] The culprit is Mike Bostock: Included this information in the solution.txt file
+  468   Committer: Patricia Pan <Patricia@Patricias-MBP.fios-router.home>
+  469  Your name and email address were configured automatically based
+  470  on your username and hostname. Please check that they are accurate.
+  471  You can suppress this message by setting them explicitly:
+  472      git config --global user.name "Your Name"
+  473      git config --global user.email you@example.com
+  474  After doing this, you may fix the identity used for this commit with:
+  475      git commit --amend --reset-author
+  476  ls
+  477  cd Desktop/general_assembly
+  478  cd Desktop
+  479  head
+  480  ls
+  481  cd general_assembly
+  482  cd general-assembly
+  483  pwd
+  484  cd Desktop/general_assembly
+  485  ls
+  486  cd unit_1
+  487  cd homework
+  488  ls
+  489  cd command-line-murder-mystery/
+  490  ls
+  491  cat solution.txt
+  492  echo "My history was too long to paste and I had to quit my Terminal because ctrl+C wasn't working and my history was too long, since it included my command line results as well (i.e. it included the results of my file reads in their entiretycat solution.txt). As a result, some of the commands I used are below:
+  493  echo "My history was too long to paste and I had to quit my Terminal because ctrl+C wasn't working and my history was too long, since it included my command line results as well (i.e. it included the results of my file reads in their entiretycat solution.txt). As a result, some of the commands I used are below: grep "CLUE" crimescene.txt" >> solution.txt
+  494  cat solution.txt
+  495  ls
+  496  cd Desktop/general_assembly/unit_1/homework
+  497  ls
+  498  cd command-line-murder-mystery/
+  499  ls
+  500  echo history >> solution.txt
+  501  open solution.txt
+  502  echo history >> solution.txt
+  503  open solution.txt
+  504  ls
+  505  history >> solution.txt
+  506  open solution.txt
+  507  history > history.txt
