@@ -1,0 +1,17 @@
+ 202  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  203  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jacqui Maher"
+  204  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Jacqui Maher"
+  205  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jacqui Maher" | wc -l
+  206  AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
+  207  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
+  208  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jacqui Maher"
+  209  cd ..
+  210   head -n 20 people
+  211  grep "CLUE" crimescene
+  212  grep -A 5 "L337" vehicles
+  213  grep -B 5 "Honda" vehicles 
+  214  grep -A 5 "L337" vehicles 
+  215  grep -B 5 "L337" vehicles
+  216  grep -C 5 "L337" vehicles
+
+Jeremy Bowers
