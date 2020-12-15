@@ -1,0 +1,222 @@
+165  cd command-line-murder-mystery
+  166  l
+  167  cat instructions
+  168  cd mystery
+  169  l
+  170  touch clues.txt
+  171  cat crimescene
+  172  clear
+  173  l
+  174  cat crimescene | grep CLUE
+  175  rm clues.txt
+  176  echo CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent." >> clues.txt
+  177  cat clues.txt
+  178  cd ..
+  179  l
+  180  cat instructions
+  181  l
+  182  cd mystery
+  183  l
+  184  cat interviews
+  185  cd interviews
+  186  l
+  187  cd ..
+  188  l
+  189  cd ..
+  190  l
+  191  cat hint1
+  192  cd mystery
+  193  head -n 20 people
+  194  cd ..
+  195  l
+  196  cat hint2
+  197  cat hint3
+  198  cd mystery
+  199  l
+  200  cat people
+  201  cd ..
+  202  l
+  203  cd mystery
+  204  l
+  205  cat clues.txt
+  206  cat people | grep Anna
+  207  cat people | grep Annabel
+  208  echo "Annabel Sun F 26 Hart Place, line 40" >> clues.txt
+  209  cat clues.txt
+  210  echo "Annabel Church F 38 Buckingham Place, line 179" >> clues.txt
+  211  cat clues.txt
+  212  pwd
+  213  cd ..
+  214  l
+  215  cat hint3
+  216  cat hint4
+  217  cd mystery
+  218  grep "Annabel" people
+  219  cd .. 
+  220  cat hint5
+  221  cd mystery
+  222  l
+  223  cd interviews
+  224  head -n 40 streets/Hart_Place | tail -n 1 
+  225  cd .. 
+  226  head -n 40 streets/Hart_Place | tail -n 1
+  227  echo "See Interview #47246024
+  228  echo "See Interview #47246024" >> clues.txt
+  229  cat clues.txt
+  230  head -n 179 streets/Buckingham_Place | tail -n 1
+  231  echo "See Interview #699607" >> clues.txt
+  232  cd .. 
+  233  cat hint6
+  234  cd mystery
+  235  l
+  236  cd interviews
+  237  l
+  238  cd ..
+  239  cat clues.txt
+  240  cd interviews
+  241  cat interview-47246024
+  242  cat interview-699607
+  243  cd ..
+  244  echo "Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"" >> clues.txt
+
+  245  cat clues.txt
+  246  cd ..
+  247  cat hint6
+  248  pwd
+  249  l
+  250  cd mystery
+  251  l
+  252  grep "L337" vehicles
+  253  head vehicles
+  254  cat clues.txt
+  255  grep "9 Make: Honda Color: Blue" vehicles
+  256  cd ..
+  257  l
+  258  cat hint7
+  259  cd mystery
+  260  grep -A 5 "L337" mystery/vehicles
+  261  grep -A 5 "L337" vehicles
+  262  cat clues.txt
+  263  echo "Jeremy Bowers, Joe Germuska" >> clues.txt
+  264  cat clues.txt
+  265  l
+  266  cd memberships
+  267  l
+  268  cat AAA Delta_SkyMiles Terminal_City_Library | grep "Jeremy Bowers"
+  269  cat AAA Delta_SkyMiles Terminal_City_Library | grep "Joe Germuska"
+  270  echo "Jeremy Bowers has all three memberships, Joe Germuska doesnt so Jeremy Bowers is the killer
+ 165  cd command-line-murder-mystery
+  166  l
+  167  cat instructions
+  168  cd mystery
+  169  l
+  170  touch clues.txt
+  171  cat crimescene
+  172  clear
+  173  l
+  174  cat crimescene | grep CLUE
+  175  rm clues.txt
+  176  echo CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent." >> clues.txt
+  177  cat clues.txt
+  178  cd ..
+  179  l
+  180  cat instructions
+  181  l
+  182  cd mystery
+  183  l
+  184  cat interviews
+  185  cd interviews
+  186  l
+  187  cd ..
+  188  l
+  189  cd ..
+  190  l
+  191  cat hint1
+  192  cd mystery
+  193  head -n 20 people
+  194  cd ..
+  195  l
+  196  cat hint2
+  197  cat hint3
+  198  cd mystery
+  199  l
+  200  cat people
+  201  cd ..
+  202  l
+  203  cd mystery
+  204  l
+  205  cat clues.txt
+  206  cat people | grep Anna
+  207  cat people | grep Annabel
+  208  echo "Annabel Sun F 26 Hart Place, line 40" >> clues.txt
+  209  cat clues.txt
+  210  echo "Annabel Church F 38 Buckingham Place, line 179" >> clues.txt
+  211  cat clues.txt
+  212  pwd
+  213  cd ..
+  214  l
+  215  cat hint3
+  216  cat hint4
+  217  cd mystery
+  218  grep "Annabel" people
+  219  cd .. 
+  220  cat hint5
+  221  cd mystery
+  222  l
+  223  cd interviews
+  224  head -n 40 streets/Hart_Place | tail -n 1 
+  225  cd .. 
+  226  head -n 40 streets/Hart_Place | tail -n 1
+  227  echo "See Interview #47246024
+  228  echo "See Interview #47246024" >> clues.txt
+  229  cat clues.txt
+  230  head -n 179 streets/Buckingham_Place | tail -n 1
+  231  echo "See Interview #699607" >> clues.txt
+  232  cd .. 
+  233  cat hint6
+  234  cd mystery
+  235  l
+  236  cd interviews
+  237  l
+  238  cd ..
+  239  cat clues.txt
+  240  cd interviews
+  241  cat interview-47246024
+  242  cat interview-699607
+  243  cd ..
+  244  echo "Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"" >> clues.txt
+
+  245  cat clues.txt
+  246  cd ..
+  247  cat hint6
+  248  pwd
+  249  l
+  250  cd mystery
+  251  l
+  252  grep "L337" vehicles
+  253  head vehicles
+  254  cat clues.txt
+  255  grep "9 Make: Honda Color: Blue" vehicles
+  256  cd ..
+  257  l
+  258  cat hint7
+  259  cd mystery
+  260  grep -A 5 "L337" mystery/vehicles
+  261  grep -A 5 "L337" vehicles
+  262  cat clues.txt
+  263  echo "Jeremy Bowers, Joe Germuska" >> clues.txt
+  264  cat clues.txt
+  265  l
+  266  cd memberships
+  267  l
+  268  cat AAA Delta_SkyMiles Terminal_City_Library | grep "Jeremy Bowers"
+  269  cat AAA Delta_SkyMiles Terminal_City_Library | grep "Joe Germuska"
+  270  echo "Jeremy Bowers has all three memberships, Joe Germuska doesnt so Jeremy Bowers is the killer
