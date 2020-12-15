@@ -1,0 +1,329 @@
+1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+    2  brew install git
+    3  git --version
+    4  git config --global user.name "katiemackenbrock"
+    5  git config --global user.email "katiemackenbrock@gmail.com"
+    6  git --list
+    7  q
+    8  git config --list
+    9  xcode-select --install
+   10  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+   11  cd desktop
+   12  mkdir SEIRedDevs
+   13  cd SEIRedDevs
+   14  mkdir unit1
+   15  cd unit1
+   16  mkdir git-practice
+   17  git init
+   18  ls -a
+   19  git status
+   20  touch readme.md
+   21  cd git-practice
+   22  touch readme.md
+   23  git add readme.md
+   24  git add .
+   25  git status
+   26  git commit -m "add readme"
+   27  git status
+   28  cd desktop
+   29  cd SEIRedDev
+   30  cd SEIRedDevs
+   31  cd unit 1
+   32  cd unit1
+   33  cd git-practice
+   34  code .
+   35  touch test.txt
+   36  ls -a
+   37  git init
+   38  ls -a
+   39  git diff readme.md
+   40  git add .
+   41  git diff readme.md
+   42  git commit -m "new title"
+   43  git checkout readme.md
+   44  git log
+   45  git commit -m "exclamation points are key"
+   46  git log
+   47  git rm test.txt
+   48  git status
+   49  git commit -m "no txt here"
+   50  git log
+   51  git remote add origin https://github.com/katiemackenbrock/test-test.git\ngit branch -M main\ngit push -u origin main
+   52  cd desktop
+   53  cd SEIRedDevs
+   54  cd unit1
+   55  cd git-practice
+   56  git remote add origin https://github.com/katiemackenbrock/test-test.git\ngit branch -M main\ngit push -u origin main
+   57  cd .. 
+   58  git clone https://github.com/katiemackenbrock/test-test-2.git
+   59  ls -a
+   60  code .
+   61  git add .
+   62  git commit -m "test test"
+   63  git push origin main
+   64  cd git-practice
+   65  git push origin main
+   66  cd unit1
+   67  cd desktop
+   68  git clone https://github.com/katiemackenbrock/command-line-murder-mystery.git
+   69  pwd
+   70  l
+   71  clear
+   72  cd users
+   73  clear
+   74  cd downloads
+   75  cd /
+   76  pwd
+   77  cd ..
+   78  cd ../..
+   79  cd...
+   80  clear
+   81  code cd .
+   82  cd user
+   83  cd users
+   84  ls
+   85  cd / 
+   86  cd desktop
+   87  cd SEIRedDevs
+   88  cd unit1
+   89  cd git-practice
+   90  mkdir test-dir
+   91  touch test-file
+   92  mv test-file
+   93  l
+   94  pwd
+   95  cp test-file ../test-dir-server/test-file-server
+   96  mkdir test-file-server
+   97  cp test-file ../test-dir-server/test-file-server
+   98  mkdir test-dir-server
+   99  cp test-file ../test-dir-server/test-file-server
+  100  rm test-dir-server/test-file-server
+  101  pwd
+  102  cd test-dir-server
+  103  cd test-dir
+  104  mkdir test-dir-client
+  105  cp -rf test-dir-client test-dir-server/
+  106  touch test.txt
+  107  touch anotherTest.txt
+  108  touch thisIsBoringNow.txt
+  109  l
+  110  touch books.txt
+  111  code books.txt
+  112  cat books.txt
+  113  echo "This bookshelf flexts under the weight of the books it holds."
+  114  echo "Callander, Gavin:Memoirs of the Craft" >> books.txt
+  115  cat books.txt
+  116  cat books.txt | sort
+  117  cat books.txt | sort > sortedbooks.txt
+  118  cat books.txt | grep Cal
+  119  man grep
+  120  :
+  121  grep -n
+  122  cat sortedbooks.txt | grep Cal
+  123  :set number
+  124  cat books.txt | grep Cal
+  125  cat sortedbooks.txt | grep Cal
+  126  cat books.txt | grep -n Cal
+  127  cat books.txt | grep -b2 "Cal"
+  128  cat books.txt | grep -a3 "Shak"
+  129  cd/Desktop/SEIRedDevs/unit1
+  130  git clone https://github.com/katiemackenbrock/homework-test.git
+  131  cd homework-test
+  132  echo
+  133  echo "tacos"
+  134  pwd
+  135  touch KatieMackenbrock.txt
+  136  echo
+  137  echo "tacos" >> KatieMackenbrock.txt
+  138  l
+  139  cat KatieMackenbrock.txt
+  140  git a
+  141  commit -m "favorite food"
+  142  git commit -m "favorite food"
+  143  git add
+  144  git add .
+  145  git commit -m "favorite foods"
+  146  git push origin master
+  147  git push origin main
+  148  git status
+  149  git push origin main
+  150  git remote -v
+  151  git push origin main
+  152  cd /
+  153  pwd
+  154  cd Desktop
+  155  cd downloads
+  156  cd SEIRedDevs
+  157  cd ~
+  158  pwd
+  159  cd desktop
+  160  cd SEIRedDevs
+  161  cd unit1
+  162  mkdir homework1
+  163  cd homework1
+  164  git clone https://github.com/katiemackenbrock/command-line-murder-mystery.git
+  165  echo
+  166  touch solution.txt
+  167  cd solution.txt
+  168  pwd
+  169  cd command-line-murder-mystery
+  170  touch soultion.txt
+  171  echo 
+  172  touch clues.txt
+  173  cd mystery
+  174  ls
+  175  cat instruction
+  176  cd /
+  177  pwd
+  178  cd command-line-murder-mystery
+  179  ..
+  180  cd ..
+  181  pwd
+  182  cd streets
+  183  cd ~
+  184  cd SEIRRedDevs
+  185  pwd
+  186  cd SEIRedDevs
+  187  cd desktop
+  188  cd SEIRedDevs
+  189  cd unit 1
+  190  cd unit1
+  191  cd command-line-murder-mystery
+  192  cd homework1
+  193  cd command-line-murder-mystery
+  194  cat instructions
+  195  cat hint1
+  196  cat hint2
+  197  grep "CLUE" crimescene
+  198  cat hint3
+  199  cd people
+  200  cd mystery
+  201  cat interviews
+  202  cd interviews
+  203  cat interviews
+  204  grep Clue
+  205  head -n 20 people
+  206  cd ..
+  207  cd crimescene
+  208  cat interviews
+  209  cd interviews
+  210  ls
+  211  cd ..
+  212  cat people
+  213  cd streets
+  214  cat crimescene | grep CLUE
+  215  cat crimescene
+  216  cd ..
+  217  cat crimescene | grep CLUE
+  218  cat people | grep CLUE
+  219  cat vehicles | grep CLUE
+  220  cd interviews
+  221  cat interviews
+  222  cd ..
+  223  cat crimescene
+  224  cat crimescene | grep CLUE
+  225  ls
+  226  cat people | grep CLUE
+  227  cd memberships
+  228  cd ..
+  229  cat people | grep Annabel
+  230  head -n 173 streets/Mattapan_Street | tail -n 1
+  231  cat interview-9437737
+  232  cd interviews
+  233  cat interview-9437737
+  234  cd ..
+  235  cd memberships
+  236  cd ..
+  237  cat people
+  238  cat people | grep M
+  239  cd ..
+  240  ls
+  241  cd mystery
+  242  ls
+  243  cd interviews
+  244  ls
+  245  cat interviews | grep Annabel
+  246  cd ..
+  247  cd memberships
+  248  ls
+  249  cat AAA | grep Annabel
+  250  cat Delta_SkyMiles
+  251  cat Delta_SkyMiles | grep Annabel
+  252  cd ..
+  253  cd people
+  254  cat people 
+  255  head people
+  256  cat people | grep Annabel
+  257  cd streets
+  258  cat Hart_Place
+  259  cat Buckingham_Place
+  260  cd .. 
+  261  cd interviews
+  262  cat interview-47246024
+  263  cat interview-699607
+  264  cd .. 
+  265  cat vehicles | grep L337
+  266  cat vehicles | grep blue Honda
+  267  cat vehicles | grep Honda
+  268  cat memberships | grep Mike Bostock
+  269  cd memberships
+  270  cat AAA | grep Mike Bostock
+  271  cat AAA | grep Matt Waite
+  272  cat AAA | grep Germuska
+  273  cat AAA | grep Bowers
+  274  cat AAA | grep Bostock
+  275  cat AAA | grep Waite
+  276  cat Delta_SkyMiles | grep Bostock
+  277  cat Delta_SkyMiles | grep Waite
+  278  cat Delta_SkyMiles | grep Germuska
+  279  cat Delta_SkyMiles | grep Bowers
+  280  cat Museum_of_Bash_History | grep Bostock
+  281  cat Museum_of_Bash_History | grep Waite
+  282  cat Museum_of_Bash_History | grep Bowers
+  283  cat Terminal_City_Library | grep Bostock
+  284  cat Terminal_City_Library | grep Waite
+  285  cat Terminal_City_Library | grep Bowers
+  286  cat library | grep Bostock
+  287  cat library.txt | grep Bostock
+  288  cat library.txt | grep Waite
+  289  cat library.txt | grep Bowers
+  290  cat AAdvantage Costco REI | grep Bostock
+  291  cat AAdvantage | grep Bostock
+  292  cat AAdvantage | grep Waite
+  293  cat AAdvantage | grep Bowers
+  294  cat Costco | grep Bostock
+  295  cat Costco | grep Waite
+  296  cat Costco | grep Bowers
+  297  cd .. 
+  298  cat people | grep Bostock
+  299  cat people
+  300  cat people | grep Bostock
+  301  -n 287 streets/Senders_Court | tail -n 1
+  302  head -n 287 streets/Senders_Court | tail -n 1
+  303  cat people | grep Waites
+  304  cat people | grep Waite
+  305  head -n 79 streets/Alpine_Street | tail -n 1
+  306  cat people | Bowers
+  307  cat people | grep Bowers
+  308  head -n 284 streets/Dunstable_Road | tail -n 1
+  309  cat people | grep Germuska
+  310  head -n 275 streets/Plainfield_Street 
+  311  head -n 275 streets/Plainfield_Street | tail -n 1
+  312  cd interviews
+  313  cat interview-290346
+  314  cat interview-862173
+  315  cat interview-9620713
+  316  cat interview-29741223
+  317  cat people | grep Owens
+  318  cd ..
+  319  cat people | grep Owens
+  320  head -n 98 streets/Trapelo_Street | tail -n 1
+  321  cd interviews
+  322  cad interview-5455315
+  323  cat interview-5455315
+  324  cd ..
+  325  touch solutions.txt
+  326  echo
+  327  echo "Jeremy Bowers" >> solutions.txt
+  328  touch history.txt
+➜  command-line-murder-mystery git:(master) ✗ 
