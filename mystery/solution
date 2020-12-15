@@ -1,0 +1,22 @@
+grep -r "CLUE" *
+grep -r "Annabel" *
+cd streets
+cat Buckingham_Place
+cat Hart_Place
+cd ..
+cd interviews
+cat Interview-677609
+cd ..
+cat vehicles | grep "Honda"
+cat vehicles | grep -A 4 "L337"
+echo vehicles | grep -A 4 "L337" > suspects
+cat vehicles | grep -A 4 "L337" > suspects
+cat suspects | grep -A 3 "Honda" > suspects
+cat suspects | grep -A 2 "Blue" > suspects
+cat suspects | grep -B 2 "6" > suspects
+cd memberships
+grep -r "Joe Germuska" *
+grep -r "Jeremy Bowers" *
+grep -r "Jacqui Maher" *
+
+The killer is Jeremy Bowers
