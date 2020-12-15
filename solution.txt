@@ -1,0 +1,18 @@
+  420  .cd ..
+  421  ls
+  422  cd ..
+  423  ls
+  424  cd streets
+  425  ls
+  426  cat Andover_Road ù grep SEE
+  427  CD ..
+  428  cd ..
+  429  ls
+  430  cd interviews
+  431  ls
+  432  cat interview-904020
+  433  cat interview-9620713
+  434  cd ..
+  435  ls
+
+The killer is Jeremy Bowers
