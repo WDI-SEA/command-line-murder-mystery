@@ -1,0 +1,448 @@
+1. The commands you used to get the solution (hint: run     1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  clear
+    3  brew install git
+    4  git --version
+    5  brew --version
+    6  git config --global user.name "palo89"
+    7  git config --global user.email "alison_lo89@yahoo.com"
+    8  clar
+    9  clear
+   10  git config --list
+   11  xcode-select --install
+   12  clear
+   13  xcode-select --install
+   14  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   15  clear
+   16  cd..
+   17  cd ..
+   18  pwd
+   19  clear
+   20  ls -a
+   21  rm -rf .git
+   22  clear
+   23  cd desktop
+   24  pwd
+   25  ls
+   26  git status
+   27  clear
+   28  cd ..
+   29  clear
+   30  cd SEO-Red-Devs
+   31  cd SEI-Red-Devs
+   32  pwd code.
+   33  cd ..
+   34  clear
+   35  code.
+   36  cd Desktop
+   37  code.
+   38  cd desktop
+   39  pwd
+   40  ls
+   41  cd GA-Blog
+   42  git add "readme.md"
+   43  git nit
+   44  touchme
+   45  touch
+   46  touch -A "readme"
+   47  touch -A "readme.md"
+   48  code .
+   49  git
+   50  cd
+   51  la
+   52  desktop
+   53  ls -a
+   54  cd GA-Blog
+   55  la -a
+   56  ls -a
+   57  rm .git
+   58  -rm .git
+   59  q
+   60  git rm .git
+   61  git -rm .git
+   62  git commit
+   63  cd ga-blog
+   64  cd Desktop
+   65  cd GA-Blog
+   66  git rm .git
+   67  ls
+   68  ls -a
+   69  git rm .git
+   70  cd ..
+   71  clear
+   72  cd ..
+   73  cd Desktop mkdir git-practice
+   74  cd ..
+   75  clear
+   76  clar
+   77  clear
+   78  cd Desktop
+   79  ls
+   80  git mkdir SEI-Red-Devs
+   81  ls
+   82  git add.
+   83  add
+   84  git add
+   85  ls
+   86  clear
+   87  cd SEI-Red-Devs
+   88  mkdir SEI-Red-Devs
+   89  ls
+   90  cd SEI-Red-Devs
+   91  git -practice
+   92  cd ..
+   93  cd SEI-Red-Devs
+   94  git add. practice
+   95  git --help
+   96  mkdir git-practice
+   97  ls
+   98  cd git-practice
+   99  git .add readme.md
+  100  git add readme.md
+  101  git add.
+  102  ls
+  103  pwd
+  104  ls
+  105  ls -a
+  106  cd ..
+  107  cd SEI-Red-Devs
+  108  cd Desktop
+  109  cd SEI-Red-Devs
+  110  git commit https://github.com/palo89/command-line-murder-mystery.git
+  111  git clone https://github.com/palo89/command-line-murder-mystery.git
+  112  mkdir test-dir
+  113  ls
+  114  ls -a
+  115  cd- test-dir
+  116  cd test-dir
+  117  touch books.txt
+  118  ls
+  119  code books.txt
+  120  cat books.txt
+  121  echo
+  122  echo "This bookself flexes under the weif of the bookes it holds."
+  123  echo "Callander, Gavin:Memoirs of the Craft" >> book.txt
+  124  cat book.txt
+  125  cat books.txt
+  126  cat books.txt | sort
+  127  cat books.txt |sortdbooks.txt
+  128  cat books.txt | sortedbooks.txt
+  129  cd test-dir
+  130  pwd
+  131  cd user
+  132  cd alisonlo
+  133  pwd
+  134  ls -a
+  135  clear
+  136  GREP(1)
+  137  GREP
+  138  cd
+  139  cd Desktop
+  140  pwd cal
+  141  cd ..
+  142  pwd Cal
+  143  cd Cal
+  144  cd Desktop
+  145  ls
+  146  cd SEI-Red-Devs
+  147  ls
+  148  cd test-dir
+  149  ls
+  150  ls -a
+  151  cal
+  152  pwd cal
+  153  pwd Cal
+  154  clear
+  155  man grep
+  156  cat book.txt
+  157  cat books.txt
+  158  pwd Cal
+  159  pwd
+  160  ls -a
+  161  cd books.txt
+  162  clear
+  163  cat books.txt | grep Cal
+  164  cat books.txt | grep -n Cal
+  165  cat books.txt | grep -b 2 
+  166  cat books.txt | grep -b2 "Cal"
+  167  cat books.txt
+  168  cat books.txt | grep -a3 
+  169  cat books.txt | grep -a3 "Shak"
+  170  cat book.txt 
+  171  cat books.txt | grep -a2 "Shak"
+  172  clear
+  173  cd ..
+  174  mkdir unit1
+  175  ls
+  176  cd unit1
+  177  git clone https://github.com/palo89/homework-test.git
+  178  ls -a
+  179  cd homework-test
+  180  ls
+  181  echo "sushi" >> AlisonLo.txt
+  182  cat AlisonLo.txt
+  183  git add .
+  184  git commit -m "favorite food"
+  185  git push origin main
+  186  git oush
+  187  git push
+  188  cd ..
+  189  ls
+  190  cd command
+  191  cd command-line-murder-mystery
+  192  cat instructions
+  193  ls -a
+  194  cd mystery
+  195  echo "The commands you used to get the solution (hint: run history for a list of the commands you ran).
+The name of the killer.
+Commit your solution file
+Push your changes to your forked repo
+Create a pull request to submit your deliverable" >> solution.txt
+  196  git push origin main
+  197  git push origin master
+  198  git commit -m "Added Solution"
+  199  git push
+  200  ls
+  201  cat hint
+  202  cat hint1
+  203  cd ..
+  204  cat hint1
+  205  open cheatsheet.md
+  206  ls
+  207  ls -a
+  208  cd mystery
+  209  ls -a
+  210  cd solutions.txt
+  211  cd ..
+  212  touch newfile.txt
+  213  ls -a
+  214  git touch /files/music/newfile.txt
+  215  touch files/music/newfile.txt
+  216  clear
+  217  ls -a
+  218  cd -mystery
+  219  la -a
+  220  cd mystery
+  221  ls -a
+  222  git add .
+  223  git commit -m "added solution"
+  224  git push
+  225  cd
+  226  cd ..
+  227  pwd
+  228  cd Users
+  229  clear
+  230  ls 
+  231  cd alisonlo
+  232  pwd
+  233  ls
+  234  cd Desktop
+  235  cd
+  236  ls
+  237  cd Desktop
+  238  ls
+  239  cd SEI-Red-Devs
+  240  ls
+  241  cd unit1
+  242  ls
+  243  cd 
+  244  ls -a
+  245  cd Desktop
+  246  ls -a
+  247  cd SEI-Red-Devs
+  248  ls -a
+  249  cd command-line-murder-mystery 
+  250  ls -a
+  251  cat hint1
+  252  cd ..
+  253  ls -a
+  254  cd command-line-murder-mystery
+  255  head
+  256  ls
+  257  cd Desktop
+  258  ls
+  259  cd SEI-Red-Devs
+  260  ls
+  261  cd command-line-murder-mystery
+  262  ls
+  263  cd mystery
+  264  ls -a
+  265  cd people
+  266  head
+  267  ls
+  268  cd Desktop
+  269  ls
+  270  cd SEI-Red-Dev
+  271  cd-SEI-Red-Devs
+  272  cd SEI-Red-Devs
+  273  ls
+  274  cd command-line-murder-mystery
+  275  ls -a
+  276  cat hint1
+  277  pwd
+  278  ls -a
+  279  cd mystery
+  280  ls -a
+  281  cd people
+  282  ls -a
+  283  cd people
+  284  cat people | grep head -n
+  285  cat hint2
+  286  cd .
+  287  pwd
+  288  cd ..
+  289  cat hint2
+  290  cd mystery
+  291  cat crimescene | grep clue
+  292  ls -a
+  293  cat crimescene | grep clue
+  294  cd cirmescene
+  295  cat crimescene | grep clue
+  296  cat clue
+  297  ls -a
+  298  cd crimescene
+  299  ls -a
+  300  cd interviews
+  301  la
+  302  ls -a
+  303  cat crimescene | grep clue
+  304  cd
+  305  cd Desktop
+  306  cd SEI-Red-Devs
+  307  ls -a
+  308  cd command-line-murder-mystery
+  309  ls
+  310  cat hint2
+  311  ls -a
+  312  cd mystery
+  313  ls-a
+  314  ls -a
+  315  cd crimescene
+  316  cd
+  317  cd Desktop
+  318  cd SEI-Red-Devs
+  319  ls -a
+  320  cd command-line-murder-mystery
+  321  ls -a
+  322  open cheatsheet.pdf
+  323  cd mystery
+  324  ls -a
+  325  cd interviews
+  326  ls -a
+  327  cat people | grep -n
+  328  cd ?
+  329  cd /
+  330  clear
+  331  alisonlo
+  332  ls
+  333  cd home
+  334  cd Desktop
+  335  cd SEI-Red-Devs
+  336  ls
+  337  cd command-line-murder-mystery
+  338  ls
+  339  cd mystery
+  340  ls -a
+  341  cat people /files$ head names.txt
+  342  cat people | -n first 20 ppeople
+  343  clear
+  344  ls -a
+  345  cat people | grep male
+  346  ls -a
+  347  cat people | grep M
+  348  cd ..
+  349  ls -a
+  350  cd mystery
+  351  ls
+  352  cd interviews
+  353  ls
+  354  cat interview | grep Annabel
+  355  ls
+  356  cd ..
+  357  ls
+  358  cd memberships
+  359  ls
+  360  cat AAA | grep Annbel
+  361  cat AAA | grep Annabel
+  362  cat Delta_SkyMiles | Annabel
+  363  cat Delta_SkyMiles | grep Annabel
+  364  cd mystery
+  365  cd ..
+  366  ls
+  367  cat people 
+  368  head people
+  369  cat people | grep Annabel
+  370  ls
+  371  cd streets
+  372  ls
+  373  cd ..
+  374  cd streets
+  375  ls
+  376  head Hart_Place
+  377  head Mattapan_Street
+  378  head Buckingham_Place
+  379  head Haley_Street
+  380  can instructions
+  381  ls
+  382  cd ..
+  383  ls
+  384  cd ..
+  385  cat crimescene | grep CLUE
+  386  cat crimescene | grep "CLUE"
+  387  grep "CLUE"
+  388  cd
+  389  cd Desktop
+  390  cd SEI-Red_Dev
+  391  cd SEI-Red-Devs
+  392  ls
+  393  cd command-line-murder-mystery
+  394  ls
+  395  cd mystery
+  396  cd ..
+  397  cat instructions
+  398  open instructions
+  399  ls
+  400  cd mystery
+  401  ls
+  402  cat vehicles | blue 
+  403  cd ..
+  404  cd mystery
+  405  cd
+  406  cd Desktop
+  407  cd SEI-Red-Devs
+  408  ls
+  409  cd command-line-murder-mystery
+  410  cd mystery
+  411  cat vehicles
+  412  grep -A 4 "Honda" vehicles | grep "L337"
+  413  grep -A 4 "Honda" vehicles
+  414  grep -C 4 "L33" 
+  415  Desktio
+  416  Desktop
+  417  SEI-Red-Devs
+  418  ls
+  419  cd command-line-mystery
+  420  cd command-line-murder-mystery
+  421  cd myster
+  422  mystery
+  423  grep -C 4 "L337" | grep "Blue"
+  424  cd Desktop
+  425  cd SEI-Red-Devs
+  426  ls
+  427  cd command-line-murder-mystery
+  428  ls
+  429  open README.md
+  430  ls
+  431  cd mystery
+  432  cat crimescene | grep 
+  433  cat crimescene | grep "CLUE"
+  434  cat solution
+  435  cd ..
+  436  cat solution
+  437  ls
+  438  open solution.txt
+  439  ls for a list of the commands you ran).
+2. The name of the killer.
+
+* Commit your solution file
+* Push your changes to your forked repo
+* Create a pull request to submit your deliverable
