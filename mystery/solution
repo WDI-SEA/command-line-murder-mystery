@@ -1,4 +1,6 @@
 grep -r "CLUE" *
+grep -r "New Zealand" *
+grep -r "NZ" *
 grep -r "Annabel" *
 cd streets
 cat Buckingham_Place
