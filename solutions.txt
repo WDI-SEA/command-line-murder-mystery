@@ -1,0 +1,15 @@
+Tabithas-MacBook-Air:homeworks tabitha$ cd command-line-murder-mystery
+Tabithas-MacBook-Air:command-line-murder-mystery tabitha$ cd mystery
+Tabithas-MacBook-Air:mystery tabitha$ grep "CLUE” crimescene
+Tabithas-MacBook-Air:mystery tabitha$ cat people | sort
+Tabithas-MacBook-Air:interviews tabitha$ cat interview-699607
+Tabithas-MacBook-Air:interviews tabitha$ cat interview-871877
+Tabithas-MacBook-Air:interviews tabitha$ cat interview-47246024
+Tabithas-MacBook-Air:mystery tabitha$ grep -A 5 "L337” vehicles
+Tabithas-MacBook-Air:mystery tabitha$ cd memberships
+Tabithas-MacBook-Air:memberships tabitha$ grep "Joe Germuska” AAA
+Tabithas-MacBook-Air:memberships tabitha$ grep "Joe Germuska” Delta_SkyMiles
+Tabithas-MacBook-Air:memberships tabitha$ grep "Jeremy Bowers” Delta_SkyMiles
+Tabithas-MacBook-Air:memberships tabitha$ grep "Jeremy Bowers” AAA
+abithas-MacBook-Air:memberships tabitha$ grep "Jeremy Bowers" Museum_of_Bash_History
+Killer is Jeremy Bowers
