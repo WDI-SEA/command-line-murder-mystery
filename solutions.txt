@@ -1,0 +1,162 @@
+    1  xcode-select --install
+    2  xcode-select --install
+    3  Software Update
+    4  brew install git
+    5  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    6  cd desktop
+    7  cd general_assembly
+    8  cd unit_1
+    9  cd homeworks
+   10  cd command-line-murder-mystery
+   11  cat people
+   12  cd mystery
+   13  ls
+   14  cat people
+   15  cd memberships
+   16  ls
+   17  cat AAA/Delta_SkyMiles/Museum_of_Bash_History
+   18  cat AAA
+   19  cat Delta_SkyMiles
+   20  cat Museum_of_Bash_History
+   21  cat vehicles
+   22  cd ..
+   23  cat vehicles
+   24  cd interviews
+   25  ls
+   26  cd ..
+   27  cd ..
+   28  cat hint1
+   29  head
+   30  cd desktop
+   31  cd general_assembly
+   32  cd unit_1
+   33  cd homeworks
+   34  cd mystery
+   35  ls
+   36  cd command-line-murder-mystery
+   37  cat hint2
+   38  cd mystery
+   39  cat crimescene
+   40  cd ..
+   41  cat hint3
+   42  cat hint2
+   43  grep | CLUE
+   44  cd ..
+   45  cd command-line-murder-mystery
+   46  grep CLUE
+   47  cd desktop/general_assembly
+   48  cd unit_1/homeworks
+   49  cd command-line-murder-mystery
+   50  cat hint1
+   51  cat hint2
+   52  cat hint3
+   53  cat hint4
+   54  cat hint5
+   55  head -n 20 people
+   56  cd mystery
+   57  head -n 20 people
+   58  ls
+   59  cd crimescene
+   60  grep "CLUE"
+   61  cd desktop/general_assembly/unit_1/homeworks
+   62  cd command-line-murder-mystery
+   63  cat hint1
+   64  cat hin2
+   65  cat hint2
+   66  cat hint3
+   67  cat hint4
+   68  cat hint5
+   69  cat hint6
+   70  grep "CLUE" crimescene
+   71  cat crimescene
+   72  cd mystery
+   73  grep "CLUE" crimescene
+   74  grep "6'" vehicles
+   75  grep "Annabel" people
+   76  head -n 173 streets/Mattapan_Street | tail -n 1
+   77  ls
+   78  cd interviews
+   79  cat interview #9437737
+   80  cat INTERVIEW #9437737
+   81  ls
+   82  cat interview-9437737
+   83  head -176 streets/Haley_Street | tail -1
+   84  cd ..
+   85  head -176 streets/Haley_Street | tail -1
+   86  cd interviews
+   87  cat interview-871877
+   88  cd ..
+   89  head -179 streets/Buckingham_Palace | tail -1
+   90  head -179 streets/Buckingham_Place | tail -1
+   91  cd interviews
+   92  cat interview-699607
+   93  cd ..
+   94  grep "Honda" vehicles
+   95  head vehicles
+   96  grep "L337" vehicles
+   97  cat vehicles
+   98  head "Honda" vehicles
+   99  cat hint6
+  100  cd ..
+  101  cat hint6
+  102  cat hint7
+  103  grep -A 5 "L337" mystery/vehicles
+  104  ls
+  105  cd mystery
+  106  ls
+  107  cd ..
+  108  grep "CLUE" crimescene
+  109  cd mystery
+  110  grep "CLUE" crimescene
+  111  grep "Joe Germuska" memberships
+  112  cd memberships
+  113  grep "Joe Germuska" memberships
+  114  ls
+  115  grep "Joe Germuska" AAA/ Delta_SkyMiles/Museum_of_Bash_History
+  116  cd ..
+  117  cd ..
+  118  cat hint8
+  119  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+  120  cd mystery
+  121  ls
+  122  cd memberships
+  123  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska"
+  124  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c  "Joe Germuska"
+  125  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c  "Jeremy Bowers"
+  126  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c  "Jacqui Maher"
+  127  cd ..
+  128  cd streets
+  129  ls
+  130  cd ..
+  131  ls
+  132  cd ..
+  133  ls
+  134  cd mystery
+  135  cd memberships
+  136  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | c- "Jeremy Bowers"
+  137  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | -c "Jeremy Bowers"
+  138  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep c- "Jeremy Bowers"
+  139  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c  "Jeremy Bowers"
+  140  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep c- "Jeremy Bowers"
+  141  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c  "Jeremy Bowers"
+  142  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c  "Jeremy Bowers"
+  143  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c  "Jacqui Maher"
+  144  cd ..
+  145  cd people
+  146  ls
+  147  grep "Jacqui Maher" people
+  148  grep "Jeremy Bowers" people
+  149  cd command-line-murder-mystery
+  150  cd ..
+  151  man
+  152  man ls
+  153  ls
+  154  ls -a
+  155  ls -S
+  156  ls -aS
+  157  man history
+  158  man history -a
+  159  q
+  160  git add .
+  161  git status
+  162  history > solutions.txt
