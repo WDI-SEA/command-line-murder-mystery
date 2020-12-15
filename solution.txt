@@ -1,0 +1,206 @@
+Jeremy Bowers
+
+ ls
+  107  cd comman-line-murder-mystery
+  108  cd command-line-murder-mystery
+  109  desktop-file-
+  110  get status
+  111  git status
+  112  ls -a
+  113  cat instructions
+  114  cd mystery
+  115  ls
+  116  cat crimescene
+  117  grep CLUE
+  118  mkdir general_assembly
+  119  ls
+  120  mv homeworks general_assembly
+  121  cd general assembly
+  122  cs general_assembly
+  123  cd general_assembly
+  124  ls
+  125  mkdir labs
+  126  mkdir code_alongs
+  127  ls
+  128  mkdir unit one
+  129  ls
+  130  rm unit one
+  131  mkdir unit_one
+  132  mv labs unit_one
+  133  mv homeworks unit_one
+  134  mv code_alongs unit_one
+  135  cd unit_one
+  136  ls
+  137  cat people
+  138  cat people | grep Annabel
+  139  ls
+  140  cat memberships
+  141  cd memberships
+  142  ls
+  143  cat delta
+  144  cat delta.txt
+  145  cat people
+  146  cat people | grep 6'
+  147  cd ..
+  148  mkdir livingRoom
+  149  cd livingRoom
+  150  touch books.txt
+  151  code books.txt
+  152  cat books
+  153  cat book.txt
+  154  cat books.txt
+  155  cat books.txt books.txt
+  156  echo "This bookshelf flexes under the weight of the boounder the weight of the books it holds" > bookshelf.txt
+  157  ls
+  158  cat bookshelf
+  159  echo "cat bookshelfcat bookshelf!"> bookshelf.txt
+  160  cat bookshelf.txt
+  161  echo "cat bookshelfcat bookshelf!"> bookshelf.txt
+  162  cat bookshelf.txt
+  163  echo "cat bookshelfcat bookshelf!">> bookshelf.txt
+  164  cat bookshelf.txt
+  165  echo "This bookshelf flexes under the weight of the boounder the weight of the books it holds" >> bookshelf.txt
+  166  cat bookshelf.txt
+  167  cat books.txt | sort
+  168  cat books.txt | sort> sorted_books.txt
+  169  ls
+  170  cat sorted_books.txt
+  171  cat books.txt | grep mil
+  172  cat books.txt | grep Mil
+  173  mv sorted_books books.txt 
+  174  mv sorted_books.txt books.txt
+  175  cat books.txt
+  176  cd bookshelf.txt
+  177  cp bookshelf.txt second_bookshelf.txt
+  178  ls
+  179  cat vehicles
+  180  ls
+  181  cd memberships
+  182  ls
+  183  cat AAA | grep Dorde
+  184  cd ..
+  185  ls
+  186  cat vehicles | grep 6'
+  187  cat hint1
+  188  ls
+  189  cat vehicles
+  190  cat vehicle |grep Annabel
+  191  ls
+  192  cat vehicles | grep Annabel
+  193  at Fitness_Galaxy AAA United_MileagePlus | grep  * | wc -l
+  194  cd memberships
+  195  at Fitness_Galaxy AAA United_MileagePlus | grep | wc -l
+  196  sudo apt install at
+  197  ls
+  198  cat AAA Delta_SkyMiles | grep "." 
+  199  cat AAA Delta_SkyMiles Museum_Of_Bash_History | grep "." 
+  200  cd..
+  201  head -n 20 poeple
+  202  cd ..
+  203  head -n 20 people
+  204  head Annabel vehicles
+  205  head -n Annebel vehicles
+  206  cat vehicles | grep Annebel
+  207  cat people | grep Annebel
+  208  ls
+  209  head -n 20 people
+  210  cat poeple | grep Annabel
+  211  cat people | grep Annabel
+  212  head -n 173 streets/Mattapan_Street | tail -n 1
+  213  ls
+  214  interviews
+  215  cd interviews
+  216  ls
+  217  cat #9437737
+  218  cd interviews
+  219  ls
+  220  cat #9437737
+  221  cd memberships
+  222  cat AAA | grep Juan
+  223  cat Delta SkyMiles | grep Juan
+  224  ls
+  225  cat delta.txt | grep Juan
+  226  cat Delta_SkyMiles | grep Juan
+  227  cat Delta_SkyMiles | grep Glanc
+  228  cat AAA | grep Glanc
+  229  cat AAA | grep Brens
+  230  cat AAA | grep Hemthon
+  231  cat AAA | grep Wang
+  232  cat AAA | grep Ayim
+  233  cat AAA | grep Vladimir
+  234  poeple
+  235  people
+  236  cat people
+  237  ls
+  238  cat interview-#9437737
+  239  cat interview-9437737
+  240  cd..
+  241  cd ..
+  242  cat people | Annabel
+  243  cat people | grep Annabel
+  244  head -n Hart_Street | tail -n 1
+  245  head -n Hart Street | tail -n 1
+  246  head -n  40 Hart Street | tail -n 1
+  247  head -n  40 Hart_ Street | tail -n 1
+  248  head -n  40 Place/Hart_Place | tail -n 1
+  249  head -n  40 Hart_Place | tail -n 1
+  250  head -n  40 e | tail -n 1
+  251  head -n  40 Place | tail -n 1
+  252  head -n line 40
+  253  ls -a
+  254  cd streets
+  255  ls
+  256  cat Hart_Place | Annabel
+  257  cat Hart_Place | grep Annabel
+  258  cat Hart_Place
+  259  head -n 40
+  260  ls
+  261  cd memberships
+  262  cat Fitness_Galaxy AAA United_MileagePlus | grep 
+  263  ls
+  264  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy Bowers
+  265  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep  "Jeremy Bowers"
+  266  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep  "Joe Germuska"
+  267  cd ..
+  268  echo "Jeremy Bowers" > solution.txt
+  269  ls
+  270  cat solution.txt
+  271  cat crimescene | grep CLUE
+  272  jj@JJDev:~/Desktop/general_assembly/unit_one/homeworks/command-line-murder-mystery/mystery$ ls
+  273  crimescene  interviews  memberships  people  streets  vehicles
+  274  jj@JJDev:~/Desktop/general_assembly/unit_one/homeworks/command-line-murder-mystery/mystery$ cat crimescene | grep CLUE
+  275  CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+  276  CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+  277  CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+  278  jj@JJDev:~/Desktop/general_assembly/unit_one/homeworks/command-line-murder-mystery/mystery$ ^C
+  279  jj@JJDev:~/Desktop/general_assembly/unit_one/homeworks/command-line-murder-mystery/mystery$ 
+  280  cd streets
+  281  cat Buckingham_Place | grep Annabel
+  282  cd..
+  283  cd ..
+  284  ls
+  285  interviews
+  286  cd interviews
+  287  ls
+  288  interview-699607
+  289  cat interview-699607
+  290  cd ..
+  291  ls
+  292  cat vehicles | grep -A 5 "L337" mystery/vehicles
+  293  cat vehicles | grep L337
+  294  cat vehicles | grep -A 5 L337
+  295  cd general_assembly
+  296  cd unit_one
+  297  ls
+  298  cd homeworks
+  299  ls
+  300  cd comman-line-murder-mystery
+  301  ls
+  302  cd cammand-line-murder-mystery
+  303  cd command-line-murder-mystery
+  304  ls
+  305  cat instructions
+  306  cd crimescene
+  307  cd mystery
+  308  ls
+
