@@ -1,0 +1,17 @@
+  251  ls
+  252  cd Desktop
+  253  cd general_assembly
+  254  cd unit_1
+  255  cd code_alongs
+  256  cd ..
+  257  cd Desktop
+  258  cd general_assembly
+  259  cd unit_1
+  260  cd homeworks
+  261  cd command-line-murder-mystery
+  262  cd mystery
+  263  cat crimescene | grep "CLUE"
+  264  cd memberships
+  265  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Annabel"
+  266  cd ..
+The name of the killer is Annabel Church
