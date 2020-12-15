@@ -1,0 +1,284 @@
+    1  pwd
+    2  ls
+    3  pwd
+    4  cd documents
+    5  ls
+    6  ls -a
+    7  cd ..
+    8  ls
+    9  cd documments
+   10  cd documents
+   11  ls
+   12  cd ..
+   13  git --version
+   14  mkdir GA-Blog
+   15  cd GA-Blog
+   16  mkdir .git/
+   17  git init
+   18  ls -a
+   19  ls
+   20  cd ..
+   21  git status
+   22  cd GA-Blog
+   23  git status
+   24  git initi
+   25  git init
+   26  git status
+   27  cd ./git
+   28  touch my-first-post.txt
+   29  git status
+   30  git add my-first-post.txt
+   31  git status
+   32  gitinit GA-Blog
+   33  git init 
+   34  git status
+   35  git clone https://github.com/jasmineF72/hello-world.git
+   36  git status
+   37  git log
+   38  cd ..
+   39  mkdir git-practice
+   40  cd git-practice
+   41  git init
+   42  git status
+   43  ls -a
+   44  touch README.txt
+   45  git add README.txt
+   46  git status
+   47  git commit -m "..."
+   48  git --version
+   49  cd Drive D
+   50  cd D
+   51  ls
+   52  pwd
+   53  cd /D
+   54  cd GitHub
+   55  mkdir GA-Blog
+   56  git init
+   57  ls
+   58  cd GA-Blog
+   59  git init
+   60  ls -a
+   61  git status
+   62  touch post.txt
+   63  git status
+   64  add my-first-post.txt
+   65  git add post.txt
+   66  git status
+   67  git commit post.txt it -m "created a new post.txt file"
+   68  git commit -m "created a new post.txt file"
+   69  git cinfig --global yasamanforouzesh93@gmail.com
+   70  git config --global yasamanforouzesh93@gmail.com
+   71  git config --global user.email  yasamanforouzesh93@gmail.com
+   72  git commit -m "created a new post.txt file"
+   73  git log
+   74  cd d/
+   75  cd /d
+   76  ls
+   77  cd GitHub
+   78  pwd
+   79  mkdir FirstSession
+   80  ls
+   81  pws
+   82  pwd
+   83  cd FirstSession
+   84  ls
+   85  git clone https://github.com/YasamanForouzesh/command-line-murder-mystery.git
+   86  git status
+   87  ls
+   88  cd command-line-murder-mystery/
+   89  get status
+   90  cd ..
+   91  get status
+   92  git status
+   93  la -a
+   94  ls -a
+   95  cd command-line-murder-mystery/
+   96  ls -a
+   97  cd ~
+   98  cd touch GitHub/living_room
+   99  cd d/
+  100  cd /d
+  101  touch GitHub/living_room
+  102  cd GitHub
+  103  ls
+  104  rm living_room
+  105  mkdir living_room
+  106  touch living_room/books.txt
+  107  ls
+  108  cd living_room
+  109  code books.txt
+  110  cat boots.txt
+  111  cat books.txt
+  112  echo "THis bookshelf fleses under the weight of the books it holds." > bookshelf.txt
+  113  ls
+  114  cat bookshelf.txt 
+  115  echo "this is test" >> bookshelf.txt 
+  116  cat bookshelf.txt 
+  117  cat books.txt | sort
+  118  cat books.txt 
+  119  cat books.txt | sort > sorted_books.txt
+  120  ls
+  121  cat sorted_books.txt 
+  122  cat books.txt | grep Mil
+  123  mv sorted_books.txt books.txt 
+  124  cat books.txt 
+  125  ls
+  126  cp bookshelf.txt second_bookshelf.txt
+  127  ls
+  128  cat second_bookshelf.txt 
+  129  cd ..
+  130  cd ..
+  131  cd ..
+  132  cd /d
+  133  cd GitHub
+  134  mkdir general_assembly
+  135  mkdir unit_1 general_assembly
+  136  cd general_assembly/
+  137  mkdir unit_1
+  138  cd unit_1
+  139  mkdir labs
+  140  mkdir homework
+  141  mkdir code_alongs
+  142  cd ..
+  143  cd ..
+  144  ls
+  145  sudo mv FirstSession unit_1/homework
+  146  mv FirstSession unit_1/homework
+  147  cd unit_1
+  148  ls
+  149  cd homework/
+  150  ls
+  151  cd
+  152  cd /d
+  153  cd GitHub/
+  154  ls
+  155  cd general_assembly/
+  156  ls
+  157  cd unit_1/
+  158  ls
+  159  cd homework/
+  160  mkdir first_session
+  161  ls
+  162  cd ..
+  163  cd..
+  164  cd ..
+  165  cd ..
+  166  ls
+  167  cd unit_1
+  168  ls
+  169  cd homework/
+  170  mv command-line-murder-mystery GitHub
+  171  ls
+  172  cd ..
+  173  ls
+  174  cd ..
+  175  ls
+  176  cd general_assembly/
+  177  cd unit_1/
+  178  cd homework/
+  179  git clone https://github.com/YasamanForouzesh/command-line-murder-mystery.git
+  180  ls
+  181  mkdir first_session
+  182  mv command-line-murder-mystery first_session/
+  183  ls
+  184  cd first_session/
+  185  ls
+  186  cd ~
+  187  cd /d/GitHub/
+  188  ls
+  189  rmdir unit_1
+  190  rm -r unit_1
+  191  rmdir unit_1
+  192  rm -r unit_1
+  193  ls
+  194  cd general_assembly/unit_1/homework/first_session/
+  195  cd command-line-murder-mystery/
+  196  cat instructions 
+  197  touch solution.txt 
+  198  ls
+  199  cd mystery/
+  200  ls
+  201  cat crimescene 
+  202  clear
+  203  ls
+  204  cd ..
+  205  cat solution.txt 
+  206  ls
+  207  cat instructions 
+  208  cd mystery/
+  209  ls
+  210  cd crimescene 
+  211  cat crimescene |  CLUE grep > soluion.txt
+  212  cat crimescene 
+  213  gerp 'CLUE' crimescene 
+  214  grep 'CLUE' crimescene 
+  215  cd ..
+  216  cat instructions 
+  217  cd mystery/
+  218  grep 'CLUE' crimescene 
+  219  history
+  220  ls
+  221  history > soluion.txt 
+  222  echo "name of the killer is Annabel" >> soluion.txt 
+  223  cat soluion.txt 
+  224  git commit soluion.txt 
+  225  git add soluion.txt 
+  226  git commit -m "Here is the solution" soluion.txt 
+  227  git push soluion.txt
+  228  git add .
+  229  git status
+  230  git add .
+  231  git commit -m"make file"
+  232  git add solution.txt
+  233  git add ../solution.txt
+  234  git commit -m"file"
+  235  git push
+  236  rm ../solution.txt 
+  237  ls
+  238  git add ..
+  239  git add  .
+  240  git commit -m "save it"
+  241  git push
+  242  touch Just_practice.txt
+  243  echo "This the practice file" > Just_practice.txt 
+  244  git add Just_practice.txt 
+  245  git add memberships/Just_practice.txt
+  246  git add mystery/Just_practice.txt
+  247  ls
+  248  git add Just_practice.txt 
+  249  git commit -m "just practice"
+  250  git push Just_practice.txt
+  251  git status
+  252  ls
+  253  git push
+  254  cat Just_practice.txt 
+  255  echo "This is the practice file" > Just_practice.txt 
+  256  git add Just_practice.txt 
+  257  git add Just_practice.txt 
+  258  git commit -m 
+  259  git commit
+  260  git commit -m " "
+  261  git commit -m "hi"
+  262  git push
+  263  git add Just_practice.txt 
+  264  git commit -m "This file is for practice"
+  265  git push
+  266  echo Just_practice.txt >> "I'm trying to more about git"
+  267  git add Just_practice.txt 
+  268  git commit -m "This is for practice"
+  269  git push
+  270  cat Just_practice.txt 
+  271  echo Just_practice.txt >> "I want to practice to learn more about git"
+  272  cat Just_practice.txt 
+  273  echo "I want to practice to learn more abour git" >> Just_practice.txt 
+  274  cat Just_practice.txt 
+  275  git add Just_practice.txt 
+  276  git add Just_practice.txt 
+  277  git commit -m "this file is for practice"
+  278  git push
+  279  cd ..
+  280  touch solution.txt
+  281  ls
+  282  grep "CLUE" mystery/crimescene 
+  283  history > solution.txt 
+  The killer is Annabel.
