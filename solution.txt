@@ -1,0 +1,44 @@
+
+1. history
+  226  head -n 20 vehicles
+  227  cat vehicles | grep -b2 "Annabel"
+  228  clear
+  229  ls
+  230  cd streets
+  231  ls
+  232  head -n 40 Hart_Place | taile -n 1
+  233  head -n 40 Hart_Place | tail -n 1
+  234  head -n 179 Buckingham_Place | tail -n 1
+  235  cd ../
+  236  cat interviews/interview-#47246024
+  237  cd interviews
+  238  ls
+  239  head -n 20 interview-47246024
+  240  head -n 20 interview-699607
+  241  cd ../
+  242  head -n 20 vehicles
+  243  cat vehicles | grep -b2 "L337"
+  244  cat vehicles | grep -a "L337"
+  245  cat vehicles | grep -a 5 "L337"
+  246  grep -A 5 "L337" vehicles
+  247  ls
+  248  cat people | grep "Erika Owens"
+  249  cat people | grep "Jacqui Maher"
+  250  grep -rl "Joe Germuska" memberships
+  251  grep -rl "Jeremy Bowers" memberships
+  252  cd
+  253  pwd
+  254  cd Desktop/SEI/SEIRedDev/unit1/CLMurderMystery/command-line-murder-mystery
+  255  ls
+  256  touch solution.txt
+  257  history
+  258  history[40]
+  259  history 40
+  260  history | tail -n 40
+  261  history | tail -n 50
+  262  echo "history | tail -n 40" >> solution.txt
+  263  cat solution.txt
+  264  echo history | tail -n 40 >> solution.txt
+  265  cat solution.txt
+  
+2. 'twas Jeremy Bowers who fired the gun.
