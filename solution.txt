@@ -1,0 +1,55 @@
+used code:cat crimescene | grep -n CLUE
+9213:CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+9370:CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The man grepcards are totally untraceable and have no name, for some reason.
+11002:CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+
+used code:cat people | grep -n Annabel
+278:Annabel Sun	F	26	Hart Place, line 40
+1395:Oluwasegun Annabel	M	37	Mattapan Street, line 173
+1670:Annabel Church	F	38	Buckingham Place, line 179
+1760:Annabel Fuglsang	M	40	Haley Street, line 176
+
+used code:head -n 40 Hart_Place | tail -n 1
+gave me an interview number #47246024
+
+used code:head -n 179 Buckingham_Place | tail -n 1
+gave me an interview number #699607
+
+used code: cat interview-47246024
+Ms. Sun has brown hair and is not from New Zealand.  Not the witness from the cafe.
+
+used code: cat interview-699607
+Interviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"
+
+used code: cat vehicles | grep -a5 "L337"
+found multiple results that matches atleast 6', blue honda, plate starts with L337 end with 9
+
+Erika Owens, Joe Germuska, Jeremy Bowers, Jacqui Maher
+
+used code: cat AAA Delta_SkyMiles museum.txt Museum_of_Bash_History | grep -c "Jeremy Bowers" 
+
+Erika didn't hit in search
+Joe hit in 1 of the search
+Jeremy hit in 4 of the search
+Jacqui hit in 4 of the search
+
+used code : cat people | grep Jeremy, cat people | grep Jacqui
+Jeremy Bowers hit, Dunstable Road, line 284
+Jacqui Maher hit, Andover Road, line 224
+
+used code: head -n 284 Dunstable_Road | tail -n 1
+Jeremy interview number 9620713
+
+used code:head -n 224 Andover_Road | tail -n 1
+Jacqui interveiw number 904020
+
+used code : cat interview-9620713
+Home appears to be empty, no answer at the door.
+After questioning neighbors, appears that the occupant may have left for a trip recently.
+Considered a suspect until proven otherwise, but would have to eliminate other suspects to confirm.
+
+used code: cat interview-904020
+Maher is not considered a suspect.  Video evidence confirms that she was away at a professional soccer game on the morning in question, even though it was a workday.
+
+no further investigation due to no more proven clues, so far, Jeremy Bowers is the strongest suspect.
