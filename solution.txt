@@ -1,0 +1,539 @@
+    1  git --version
+    2  code .
+    3  clear
+    4  ls
+    5  pwd
+    6  ls
+    7  open .
+    8  cd Desktop
+    9  pwd
+   10  open .
+   11  mkdir homeworks
+   12  ls
+   13  open .
+   14  pwd
+   15  cd homeworks
+   16  open .
+   17  git clone https://github.com/Blake-D/command-line-murder-mystery.git
+   18  ls
+   19  cd command-line-murder-mystery
+   20  ls
+   21  git status
+   22  clear
+   23  ~
+   24  ls
+   25  cd homeworks
+   26  cd desktop
+   27  ls
+   28  cd homeworks
+   29  ls
+   30  cd command-line-murder-mystery
+   31  git status
+   32  clear
+   33  ~
+   34  / ls
+   35  ls
+   36  cd user
+   37  cd users
+   38  / cd users
+   39  dir
+   40  ~
+   41  ls
+   42  cd desktop
+   43  ls
+   44  cd homeworks
+   45  ls
+   46  cd command-line-murder-mystery
+   47  ~
+   48  ls
+   49  open .
+   50  ls
+   51  open Desktop
+   52  ls
+   53  cd desktop
+   54  ls
+   55  cd homeworks
+   56  cd command-line-murder-mystery
+   57  ls
+   58  cd /
+   59  cd ~
+   60  ls
+   61  pwd
+   62  cd Desktop
+   63  ls
+   64  cd homeworks
+   65  ls
+   66  cd command-line-murder-mystery
+   67  pwd
+   68  ls
+   69  open LICENSE
+   70  ls
+   71  ..
+   72  ls
+   73  cd command-line-murder-mystery
+   74  user
+   75  cd ~
+   76  ls
+   77  mkdir living_room
+   78  cd living_room
+   79  touch books.txt
+   80  code books.txt
+   81  open books.txt
+   82  ls
+   83  cd living_room
+   84  ls
+   85  cd books.txt
+   86  ls
+   87  code books.txt
+   88  cat books.txt
+   89  echo "This bookshelf flexes under the weight of the books it holds." > bookshelf.txt
+   90  ls
+   91  cat bookshelf.txt
+   92  cat books.txt
+   93  cat books.txt | sort
+   94  cat books.txt | sort > sorted_books.txt
+   95  ls
+   96  cat books.txt
+   97  cat sorted_books.txt
+   98  cat books.txt
+   99  ls
+  100  cat books.txt | grep Mil
+  101  cat books.txt | grep e
+  102  mv sorted_books.txt books.txt
+  103  cat books.txt
+  104  ls
+  105  cp bookshelf.txt second_bookshelf.txt
+  106  ls
+  107  cd ~
+  108  ls
+  109  cd living_room
+  110  ls
+  111  cd ~
+  112  cd living_room
+  113  ls
+  114  ..
+  115  ls
+  116  cd desktop
+  117  mkdir general_assembly
+  118  cd general_assembly
+  119  mkdir unit_1
+  120  ls
+  121  cd ~
+  122  mv homeworks unit_1
+  123  ls
+  124  cd desktop
+  125  ls
+  126  mv homeworks general_assembly
+  127  cd general_assembly
+  128  ls
+  129  mv homeworks unit_1
+  130  ls
+  131  cd unit_1
+  132  ls
+  133  mkdir labs
+  134  mkdir code_alongs
+  135  ..
+  136  ls
+  137  cd unit_1
+  138  ls
+  139  cd desktop
+  140  ..
+  141  ls
+  142  cd desktop
+  143  ls
+  144  cd general_assembly
+  145  ls
+  146  cd unit_1
+  147  ls
+  148  cd homeworks
+  149  ls
+  150  ..
+  151  .
+  152  ..
+  153  cd general_assembly
+  154  ls
+  155  cd unit_1
+  156  ls
+  157  cd homeworks
+  158  ls
+  159  cd command-line-murder-mystery
+  160  ls
+  161  cat instructions
+  162  ls
+  163  cd mystery
+  164  ls
+  165  cd crimescene
+  166  cat crimescene
+  167  cd~
+  168  cd ~
+  169  clear
+  170  ls
+  171  cd desktop
+  172  ls
+  173  cd general_assembly
+  174  ls
+  175  cd unit_1
+  176  ls
+  177  cd homeworks
+  178  ls
+  179  cd command-line-murder-mystery
+  180  ls
+  181  open mystery
+  182  cd mystery
+  183  ls
+  184  open crimescene
+  185  clear
+  186  ls
+  187  cd desktop
+  188  ls
+  189  cd general_assembly
+  190  ls
+  191  cd unit_1
+  192  ls
+  193  cd homeworks
+  194  ls
+  195  cd command-line-murder-mystery
+  196  ls
+  197  open instructions
+  198  cd mystery
+  199  ls
+  200  cat crimescene
+  201  ls
+  202  cat crimescene | grep CLUE
+  203  ~
+  204  ls
+  205  cd desktop
+  206  ls
+  207  cd general_assembly
+  208  ls
+  209  cd unit_1
+  210  ls
+  211  cd homeworks
+  212  ls
+  213  cd command-line-murder-mystery
+  214  ls
+  215  touch clues
+  216  lx
+  217  ls
+  218  cd mystery
+  219  ls
+  220  touch clues
+  221  ls
+  222  cat crimescene | grep CLUE >> clues
+  223  las
+  224  ls
+  225  cat clues
+  226  cat people | grep CLUE >> clues
+  227  ls
+  228  cat clues
+  229  ls
+  230  cat people
+  231  ls
+  232  cat clues
+  233  cd interviews
+  234  ls
+  235  ..
+  236  ls
+  237  clues
+  238  cat clues
+  239  cat people | grep m
+  240  cat people | grep M
+  241  ls
+  242  cat clues
+  243  ls
+  244  cd memberships
+  245  ls
+  246  ..
+  247  ls
+  248  cat people | grep  M  
+  249  ls
+  250  cat clues
+  251  ls
+  252  cd memberships
+  253  ls
+  254  cat 1.txt
+  255  cat AAA
+  256  ..
+  257  ls
+  258  ..
+  259  ls
+  260  open cheatsheet.md
+  261  cd mystery
+  262  ls
+  263  cat clues
+  264  cd interviews
+  265  ls
+  266  ..
+  267  ls
+  268  cat people | grep annabel
+  269  ls
+  270  cat clues
+  271  cat people | grep Annabel
+  272  cat clues
+  273  ls
+  274  cd memberships
+  275  ls
+  276  cat AAA | grep Annabel
+  277  cat Delt
+  278  cat Delta_SkyMiles | grep Annabel
+  279  cat Delta_SkyMiles
+  280  cat Delta_SkyMiles | grep Church
+  281  cat Delta_SkyMiles | grep Tassia
+  282  ls
+  283  cat delta.txt | grep Annabel
+  284  ..
+  285  cat
+  286  ls
+  287  cd desktop
+  288  ls
+  289  cd general_assembly
+  290  ls
+  291  cd unit_1
+  292  ls
+  293  cd homeworks
+  294  ls
+  295  cd command-line-murder-mystery
+  296  ls
+  297  cd mystery
+  298  ls
+  299  cat clues
+  300  ls
+  301  cd memberships
+  302  cat AAA | grep Annabel
+  303  cat people | grep Annabel
+  304  ..
+  305  ls
+  306  cat people | grep Annabel
+  307  cd memberships
+  308  ls
+  309  cat Terminal_City_Library | grep Annabel
+  310  cat Museum_of_Bash_History | grep Annabel
+  311  cat AAA | grep Oluwasegun
+  312  cat Delta_SkyMiles | grep Oluwasegun
+  313  cat AAA | grep Annabel
+  314  ls
+  315  ..
+  316  ls
+  317  cd streets
+  318  ls
+  319  ..
+  320  ls
+  321  cat people | grep Annabel
+  322  cd streets
+  323  ls
+  324  cat streets | grep Buckinham
+  325  ls
+  326  ..
+  327  ls
+  328  cat streets
+  329  cd streets | grep Buckingham_Place
+  330  ..
+  331  ls
+  332  cd mystery
+  333  ls
+  334  cat people | grep Annabel
+  335  cd interviews
+  336  ls
+  337  cat interview | grep 173
+  338  ls
+  339  ..
+  340  ls
+  341  cd interviews
+  342  ls
+  343  head -n 173 streets
+  344  head -n 173 streets/Mattapan_Street | tail -n 1
+  345  head - 173
+  346  head -n 173
+  347  cd desktop
+  348  cd general_assembly
+  349  ls
+  350  cd unit_1
+  351  ls
+  352  cd homeworks
+  353  ls
+  354  cd command-line-murder-mystery
+  355  ls
+  356  cd mystery
+  357  ls
+  358  cat crimescene | grep CLUE
+  359  ls
+  360  cat people | grep Annabel
+  361  cd memberships
+  362  ls
+  363  cat AAA | grep Annabel
+  364  cat Delta_SkyMiles | grep Annabel
+  365  cat Museum_of_Bash_History | grep Annabel
+  366  cat Terminal_City_Library | grep Annabel
+  367  ls
+  368  ..
+  369  ls
+  370  cd interviews
+  371  head -n 173
+  372  ls
+  373  cd desktop
+  374  ls
+  375  cd general_assembly
+  376  ls
+  377  cd unit_1
+  378  ls
+  379  cd homeworks
+  380  ls
+  381  cd command-line-murder-mystery
+  382  ls
+  383  cd mystery
+  384  ls
+  385  cat crimescene | grep CLUE
+  386  cat people | grep Annabel
+  387  ls
+  388  cd memberships
+  389  ls
+  390  cat AAA | grep Annabel
+  391  cat Museum_of_Bash_History | grep Annabel
+  392  ..
+  393  ls
+  394  cd interviews
+  395  cat interviews head -n 173
+  396  ..
+  397  head -n 173 interviews
+  398  cd interviews
+  399  ls head -n 173
+  400  ls
+  401  ls head -n 173
+  402  cat interview-33399976
+  403  ls
+  404  ..
+  405  ls
+  406  cd streets
+  407  ls
+  408  ..
+  409  ls
+  410  cat Doane_Street
+  411  ls
+  412  cd streets
+  413  cat Fay_Street
+  414  ls
+  415  cat Buckingham_Place
+  416  ls
+  417  head -n 173 streets/Mattapan_Street | tail -n 1
+  418  head -n 173
+  419  ls
+  420  cd desktop
+  421  ls
+  422  cd general_assembly
+  423  ls
+  424  cd unit_1
+  425  ls
+  426  cd code_alongs
+  427  ..
+  428  ls
+  429  cd homeworks
+  430  ls
+  431  cd command-line-murder-mystery
+  432  ls
+  433  cd mystery
+  434  ls
+  435  cat crimescene | grep CLUES
+  436  ls
+  437  cat crimescene | grep CLUES
+  438  cat crimescene
+  439  ls
+  440  clues
+  441  cat clues
+  442  cat crimescene | grep CLUES
+  443  ls
+  444  head -n 20 people
+  445  ls
+  446  cd membership
+  447  cd memberships
+  448  ls
+  449  cat AAA 
+  450  cat AAA | grep Annabel
+  451  ls
+  452  cat Museum_of_Bash_History | grep Annabel
+  453  ..
+  454  ls
+  455  cat people | grep Annabel
+  456  cd streets
+  457  head -n 173 streets
+  458  ..
+  459  ls
+  460  cd streets
+  461  ls
+  462  head -n 173 streets
+  463  head -n 173 Buckingham_Place
+  464  ls
+  465  cat Buckinham_Place
+  466  ls
+  467  cat Oakley_Street
+  468  ls
+  469  cat Buckingham_Place
+  470  head -n 173 Buckingham_Place
+  471  head -n 173 Mattapan_Street | tail -n 1
+  472  ls
+  473  ..
+  474  ls
+  475  cat people | grep Annabel
+  476  cd streets
+  477  head -n 179 Buckingham_Place | tail -n 1
+  478  ls
+  479  ..
+  480  ls
+  481  cd interviews
+  482  ls
+  483  cat interview 9437737
+  484  ..
+  485  ls
+  486  cd interviews
+  487  ls
+  488  cat interview-9437737
+  489  cat interview-699607
+  490  ls
+  491  ..
+  492  ls
+  493  cat vehicles
+  494  ls
+  495  cat vehicles | grep Honda
+  496  ls
+  497  cat vehicles | grep L337
+  498  cat vehicles | grep L337 Honda
+  499  ls
+  500  vehicles
+  501  ls
+  502  cat vehicles
+  503  cat vehicles | grep blue
+  504  cat vehicles | grep Blue
+  505  ls
+  506  cat vehicles | grep -A 5 L337
+  507  ls
+  508  cd memberships
+  509  ls
+  510  cat AAA | grep Germuska
+  511  cat Delta_SkyMiles | grep Germuska
+  512  cat Museum_of_Bash_History | grep Germuska
+  513  cat Terminal_City_Library | grep Germuska
+  514  cat AAA | grep Bowers
+  515  ls
+  516  ..
+  517  ls
+  518  clues
+  519  cat clues
+  520  ls
+  521  cd memberships
+  522  ls
+  523  cat Delta_SkyMiles | grep Bowers
+  524  cat Museum_of_Bash_History | grep Bowers
+  525  cat Terminal_City_Library | grep Bowers
+  526  ..
+  527  ls
+  528  ..
+  529  ls
+  530  ..
+  531  ls
+  532  cd command-line-murder-mystery
+  533  ls
+  534  touch solution.txt
+  535  ls
+  536  cat solution.txt
+  537  history
+  538  ls
+Jeremy_Bowers
