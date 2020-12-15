@@ -1,0 +1,89 @@
+Jeremy Bowers
+ 217  git clone https://github.com/austintip/command-line-murder-mystery.git
+  218  cd command-line-murder-mystery
+  219  cat instructions
+  220  ls
+  221  cd mystery
+  222  ls
+  223  cd crimescene
+  224  ls
+  225  cat crimescene
+  226  cat crimescene | grep CLUE
+  227  cd ../interviews
+  228  cd ..
+  229  ls
+  230  cd mystery/interviews
+  231  ls
+  232  cd ../memberships
+  233  ls
+  234  cat AAA
+  235  cd ..
+  236  cat people
+  237  pwd
+  238  cat people | grep M
+  239  cat people | grep Annabel
+  240  ls
+  241  cd interviews
+  242  cat interviews | grep Annabel
+  243  ls
+  244  cat
+  245  cd ..
+  246  ls
+  247  cd ..
+  248  ls
+  249  cat hint1
+  250  cat hint2
+  251  cat hint3
+  252  ls
+  253  cd mystery
+  254  ls
+  255  head -n 20 people
+  256  cat people | grep Annabel
+  257  cd ..
+  258  cat hint4
+  259  cat hint5
+  260  head -40 streets/Hart_Place | tail -n 1
+  261  cd mystery
+  262  head -n 40 streets/Hart_Place | tail -n 1
+  263  ls
+  264  cat interviews | grep #47246024
+  265  cd interviews
+  266  ls
+  267  cat interview-47246024
+  268  cd ..
+  269  ls
+  270  head -n 179 streets/Buckingham_Place | tail -n 1
+  271  cd interviews
+  272  cat interview-699607
+  273  cd ..
+  274  cat vehicles | grep blue
+  275  ls
+  276  cat vehicles
+  277  cat vehicles | grep Blue
+  278  cd ..
+  279  cat hint5
+  280  cat hint6
+  281  cat hint7
+  282  cd mystery
+  283  cat vehicles | grep -A 5 "l337" 
+  284  grep -A 5 "L337" mystery/vehicles
+  285  grep -A 5 "L337" vehicles
+  286  ls
+  287  memberships
+  288  cd ..
+  289  cd memberships
+  290  ls
+  291  cat AAA | grep "Joe Germuska"
+  292  cat AAA | grep "Jeremy Bowers"
+  293  cat Museum+pf_Bash_History | grep "Joe Germuska"
+  294  cat Museum_of_Bash_History | grep :Joe Germuska"
+  295  cat Museum_of_Bash_History | grep "Joe Germuska"
+  296  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  297  cat AAA | grep "Erika Owens"
+  298  cat Museum_of_Bash_History | grep "Erika Owens"
+  299  cat Museum_of_Bash_History | grep "Jacqui Maher"
+  300  cat AAA | grep "Jacqui Maher"
+  301  cat delta.txt |grep "Jeremy Bowers"
+  302  cat delta.txt | grep "Jacqui Maher"
+  303  cat library.txt | grep "Jeremy Bowers"
+  304  cat library.txt | grep "Jacqui Maher”
