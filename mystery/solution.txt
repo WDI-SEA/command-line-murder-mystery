@@ -1,0 +1,5 @@
+The commands you used to get the solution (hint: run history for a list of the commands you ran).
+The name of the killer.
+Commit your solution file
+Push your changes to your forked repo
+Create a pull request to submit your deliverable
