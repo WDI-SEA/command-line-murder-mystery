@@ -1,0 +1,113 @@
+After narrowing down to joe germuska or joe bowers and then seeing joe germuska wasnt a member of the same memberships as found at the crimescene I found the killer to be Joe bowers!
+
+
+
+
+217  cd Desktop
+  218  ls -a
+  219  cd GENRUL
+  220  ls -a
+  221  cd Homework-test
+  222  ls -a
+  223  cd command-line-murder-mystery
+  224  ls -a
+  225  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  226  cat instructions
+  227  ls -a
+  228  cd mystery
+  229  ls -a
+  230  grep "CLUE" crimescene people vehicles
+  231  grep "CLUE" people
+  232  pwd
+  233  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  234  ls -a
+  235  cd memberships
+  236  cat AAA Delta_SkyMiles Library Museum_of_Bash_History grep "john"
+  237  grep "john"
+  238  ls -a
+  239  cd OneDrive
+  240  cd GENRUL
+  241  cd Desktop
+  242  cd OneDrive
+  243  ls -a
+  244  cd GENRUL
+  245  ls -a
+  246  cd homework-test
+  247  ls -a
+  248  cd command-line-murder-mystery
+  249  ls -a
+  250  cd mystery
+  251  ls -a
+  252  cd interviews
+  253  grep "CLUE" interviews
+  254  ls -a
+  255  ls -a
+  256  cd ..
+  257  ls-a
+  258  ls -a
+  259  cat crimescene
+  260  grep "CLUE" Crimescene
+  261  grep "Annabel" Crimescene
+  262  grep "murder" crimescene
+  263  cd ..
+  264  ls -a
+  265  cat hint1
+  266  hint 2
+  267  cat hint2
+  268  cat hint3
+  269  cd mystery
+  270  /mystery head -n -15 names.txt
+  271  ls -a
+  272  head people -n -15
+  273  ls -a
+  274  grep "Annabelle" people
+  275  head -n -20 people
+  276  ls -a
+  277  cat people "Annabelle
+  278  "
+  279  cat people -n -15
+  280  cat people
+  281  grep "CLUE" people
+  282  ls -a
+  283  cd streets
+  284  ls -a
+  285  pwd
+  286  cd ..
+  287  ls -a
+  288  grep "CLUE" vehicles
+  289  cd ..
+  290  cat hint4 hint5 hint6
+  291  head -n 173 streets/Mattapan_Street | tail -n 1
+  292  history
+  293  grep Annabel people
+  294  ls -a
+  295  cd mystery
+  296  grep Annabel people
+  297  head n- 40 streets/Hart_place | tail -n 1
+  298  head -n 40 streets/Hart_Place |tail -n 1
+  299  cat interview-47246024
+  300  cd interviews
+  301  cat interview-47246024
+  302  head -n 179 streets/Buckingham_Place | tail -n 1
+  303  cd ..
+  304  head -n 179 streets/Buckingham_place | tail -n 1
+  305  cd interviews
+  306  cat interview-699607
+  307  cd ..
+  308  ls -a
+  309  cd vehicles
+  310  grep -A 4 L337 vehicles | grep -A 3 honda | grep -A 2 Blue
+  311  grep "L337" "Honda" "Blue" vehicles
+  312  grep -A 4 "L337" vehicles | grep -A 4
+  313  "$ grep -A 4 "L337" vehicles | grep -A 4
+  314  '
+  315  "
+  316  $ grep -A 4 "L337" vehicles | grep -A 4
+  317  $ grep -A 4 "L337" vehicles | grep -A 4
+  318  grep -A 5 -E 'L337.*9' vehicles | grep -B 1 -A 4 "Make: Honda" | grep -B 2 -A 3 "Color: Blue" | grep -B 4 -A 1 "Height: 6'"
+  319  cd people
+  320  ls -a
+  321  cd memberships
+  322  ls -a
+  323  grep "Joe Germuska"
+  324  history
