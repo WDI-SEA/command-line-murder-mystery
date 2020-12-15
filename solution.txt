@@ -1,0 +1,97 @@
+95* cat crimescene
+   96* cat ../instructions
+   97* cat crimescene | grep CLUE
+   98* ls
+   99* cat people
+  100* cat crimescene | grep CLUE
+  101* ls
+  102* cat people 
+  103* cat crimescene | grep CLUE
+  104* cat people| grep Annabel
+  105* ls
+  106* ls streets
+  107* cat streets/Hart_Place
+  108* cat people| grep Annabel
+  109* man grep
+  110* man head
+  111* sed -n '40p' streets/Hart_Place
+  112* cat interviews/interview-47246024
+  113* cat people| grep Annabel
+  114* cat streets/Buckingham_Place
+  115* cat people| grep Ana
+  116* cat people| grep Annabel
+  117* sed -n '179p'
+  118* ls streets
+  119* cat people| grep Annabel
+  120* cat streets
+  121* cat crimescene | grep CLUE
+  122* cat people| grep Annabel
+  123* sed -n '40p' streets/Hart_Place
+  124* cat interviews/interview-47246024
+  125* sed -n '176p' streets/Buckingham_Place
+  126* sed -n '179p' streets/Buckingham_Place
+  127* cat interviews/interview-699607
+  128* ls
+  129* cat vehicles |grep L337
+  130* cat vehicles |grep -a3 L337
+  131* cat vehicles |grep -a10 L337
+  132* cat vehicles |grep -a6 L337
+  133* cat vehicles |grep -a5 L337
+  134* cat vehicles |grep -a6 L337
+  135* cat crimescene | grep CLUE
+  136* cat interviews/interview-699607
+  137* ls
+  138* echo Jacqui Maher >> suspects
+  139* ls
+  140* echo Jeremy Bowers >> suspects
+  141* echo Joe Germuska >> suspects
+  142* cat vehicles |grep -a6 L337 | grep -a5 Honda
+  143* cat vehicles |grep -a6 L337 | grep -a5 -b1 Honda | grep -a3 -b3 Blue
+  144* man grep
+  145* cat vehicles |grep -A6 L337 
+  146* man grep
+  147* cat vehicles |grep -A6 L337 | grep -A5 -B1 Honda
+  148* cat vehicles |grep -A6 L337 | grep -A5 -B1 Honda | grep -A4 -B2 Blue
+  149* cat vehicles |grep -A6 L337 | grep -A5 -B1 Honda | grep -A4 -B2 Blue | grep -A2 -B4 "Height: 6'"
+  150* cat vehicles |grep -A4 L337
+  151* cat vehicles |grep -A3 L337
+  152* cat vehicles |grep -A6 L337 | grep -A5  Honda
+  153* cat vehicles |grep -A6 L337 | grep -A5 -B1 Honda | grep -A4 -B2 Blue | grep -A2 -B4 "Height: 6'"
+  154* cat vehicles |grep -A6 L337 | grep -A5 -B1 Honda | grep -A4 -B2 Blue
+  155* cat vehicles |grep -A6 L337 | grep -A5 -B1 Honda | grep -A4 Blue
+  156* cat vehicles |grep -A6 L337 | grep -A5 -B1 Honda | grep -A4 -B2 Blue | grep -A2 -B4 "Height: 6'"
+  157* cat interviews/interview-699607
+  158* cat people| grep Joe Germuska
+  159* cat people| grep "Joe Germuska"
+  160* cat streets/Plainfield
+  161* cat streets/Plainfield_Street
+  162* sed -n '275p' streets/Plainfield_Street
+  163* cat interviews/interview-29741223
+  164* cat people| grep "Jeremy Bowers"
+  165* cat streets/Dunstable_Road
+  166* cat people| grep "Jeremy Bowers"
+  167* sed -n '275p' streets/Plainfield_Street
+  168* sed -n '284p' streets/Dunstable_Road
+  169* cat interviews/interview-9620713
+  170* cat vehicles |grep -A6 L337 | grep -A5 -B1 Honda | grep -A4 -B2 Blue | grep -A2 -B4 "Height: 6'"
+  171* cat people | grep "Jacqui Maher"
+  172* sed -n '224p' streets/Andover_Road
+  173* cat interviews/interview-904020
+  174* cat people | grep "Erika Owens"
+  175* sed -n '98p' streets/Trapelo_Street
+  176* cat interviews/interview-5455315
+  177* cat ../instructions
+  178* ls ..
+  179* ls
+  180* cat people| grep "Jeremy Bowers"
+  181* sed -n '284p' streets/Dunstable_Road
+  182* cat interviews/interview-9620713
+  183* ls
+  184* cat memberships
+  185* ls
+  186* ls memberships
+  187* cat memberships/AAA
+  188* cat memberships/AAA | grep "Jeremy Bowers"
+  189* ls
+  190* cat crimescene | grep CLUE
+The killer is Jeremy Bowers
