@@ -1,0 +1,129 @@
+**Deliverable Submission**
+
+Please describe your comfort and completeness levels before submitting.
+
+Comfort Level (1-5): 
+4
+Completeness Level (1-5):
+3
+Do you have any remaining questions about this deliverable?:
+I quit my terminal several times and each time it restarted my history and i wasn't able to retrieve it.
+
+Jeremy Bowers is the culprit
+
+
+
+
+
+Last login: Tue Dec 15 12:25:29 on ttys000
+davidh@Davids-MacBook-Pro ~ % history
+  341  cd ..
+  342  ls
+  343  cd command-line-murder-mystery
+  344  ls
+  345  cat hint4
+  346  cat hint6
+  347  cat hint7
+  348  ls
+  349  cd instructions
+  350  cd mystery
+  351  ls
+  352  cd interviews
+  353  grep CLUES
+  354  history
+  355  history
+  356  history
+davidh@Davids-MacBook-Pro ~ % ?
+zsh: no matches found: ?
+davidh@Davids-MacBook-Pro ~ % help
+zsh: command not found: help
+davidh@Davids-MacBook-Pro ~ % history help
+  359  help
+davidh@Davids-MacBook-Pro ~ % 359 help
+zsh: command not found: 359
+davidh@Davids-MacBook-Pro ~ % cat 359 help
+cat: 359: No such file or directory
+cat: help: No such file or directory
+davidh@Davids-MacBook-Pro ~ % history
+  347  cat hint7
+  348  ls
+  349  cd instructions
+  350  cd mystery
+  351  ls
+  352  cd interviews
+  353  grep CLUES
+  354  history
+  355  history
+  356  history
+  357  history
+  358  ?
+  359  help
+  360  history help
+  361  359 help
+  362  cat 359 help
+davidh@Davids-MacBook-Pro ~ % ls
+Applications		Library			control-flow-practice
+Desktop			Movies			fashion.blog
+Documents		Music			iCloud Drive (Archive)
+Downloads		Pictures
+Gen-Assembly		Public
+davidh@Davids-MacBook-Pro ~ % cd Gen-Assembly
+davidh@Davids-MacBook-Pro Gen-Assembly % ls
+Gen-Assembly
+Relocated Items
+SEI
+Screen Shot 2020-12-02 at 11.24.53 AM.png
+fashion.blog
+homework
+installfest
+living_room
+untitled folder
+davidh@Davids-MacBook-Pro Gen-Assembly % cd homework
+davidh@Davids-MacBook-Pro homework % ls
+command-line-murder-mystery	solution.txt
+davidh@Davids-MacBook-Pro homework % cd command-line-murder-mystery
+davidh@Davids-MacBook-Pro command-line-murder-mystery % ls
+LICENSE		cheatsheet.pdf	hint4		hint8
+LICENSE.txt	hint1		hint5		instructions
+README.md	hint2		hint6		mystery
+cheatsheet.md	hint3		hint7		solution.txt
+davidh@Davids-MacBook-Pro command-line-murder-mystery % cat hint8
+To see who was a member of several different groups, you can combine their membership lists into one and search against that.
+
+	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+
+If you only want to see the number of matches, you can use grep's -c option (the c must be lowercase):
+
+	cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+
+Or you can pipe the result to 'wc -l':
+
+	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+davidh@Davids-MacBook-Pro command-line-murder-mystery % git add .
+davidh@Davids-MacBook-Pro command-line-murder-mystery % git commit -push to g
+it
+fatal: Invalid untracked files mode 'sh'
+davidh@Davids-MacBook-Pro command-line-murder-mystery % git commit
+Aborting commit due to empty commit message.
+davidh@Davids-MacBook-Pro command-line-murder-mystery % git commit -m "push t
+o github"
+[master 810fb7d] push to github
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 solution.txt
+davidh@Davids-MacBook-Pro command-line-murder-mystery % history
+  360  history help
+  361  359 help
+  362  cat 359 help
+  363  history
+  364  ls
+  365  cd Gen-Assembly
+  366  ls
+  367  cd homework
+  368  ls
+  369  cd command-line-murder-mystery
+  370  ls
+  371  cat hint8
+  372  git add .
+  373  git commit -push to git
+  374  git commit
+  375  git commit -m "push to github"
