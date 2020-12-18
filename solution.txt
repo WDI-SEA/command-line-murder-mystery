@@ -1,0 +1,25 @@
+Id CommandLine
+  -- -----------
+   1 {New-Item -ItemType File -Name ($args[0])}
+   2 cd Documents
+   3 cd SEI-Red-Devs
+   4 cd Unit-One
+   5 cd command-line-murder-mystery
+   6 touch solution.txt
+   7 notepad solution.txt
+   8 grep clue
+   9 find CLUE
+  10 history
+  11 head -n 20 people
+  12 head people
+  13 head vehicles
+  14 find "Annabel" People
+  15 find Annabel People
+  16 head -n 173 streets/Mattapan_Street | tail -n 1
+  17 grep "Honda" vehicles
+  18 grep "Blue" vehicles
+  19 grep "L337" vehicles
+
+
+PS C:\Users\Ian Jacobs\Documents\SEI-Red-Devs\Unit-One\command-line-murder-mystery>
+
