@@ -1,4 +1,4 @@
-e2Playing with text on the command line
+Playing with text on the command line
 =====================================
 
 The command line (also known as the command line interface, or CLI, or sometimes the terminal), is a plain text-based interface for executing commands on a computer.  If you've ever seen a movie about hackers from the 1980s, like *WarGames*, where they stare at a prompt on a black screen and type in commands one at a time, it's basically that.
@@ -62,6 +62,7 @@ The same two commands will not have the same result if you are in a different di
 
 	/files/text$ rm /files/videos/video.mp4
 	(This will delete the file from the /files/videos/ directory, even though it isn't the current directory)
+^X
 
 Remember:
 
@@ -90,7 +91,7 @@ In most cases when you have to specify a file name or directory name, you can al
 Navigating
 ----------
 
-The two core commands for navigating what directory the prompt is in are `cd` and `ls`.
+qThe two core commands for navigating what directory the prompt is in are `cd` and `ls`.
 
 `cd` is a command to change the current directory, and must be followed by a directory you want to change to.  You can supply an absolute or relative path.
 

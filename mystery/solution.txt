@@ -1,0 +1,743 @@
+    1  clear
+    2  open ~/.zshrc
+    3  source ~/.zshrc
+    4  clear
+    5  open ~/.zshrc
+    6  source ~/.zshrc
+    7  clear
+    8  ls
+    9  user
+   10  cd user
+   11  cd Desktop
+   12  cd ..
+   13  clear
+   14  cd Desktop/GA\ PDFS
+   15  clear
+   16  cd Desktop/General\ Assembly
+   17  mkdir SEI-Red-Devs
+   18  cd SEI-Red-Devs
+   19  mkdir Unit1
+   20  cd Unit1
+   21  mkdir git-practice
+   22  cd git-practice
+   23  pwd
+   24  git init
+   25  ls -a
+   26  git status
+   27  touch readme.md
+   28  ls -a
+   29  git status
+   30  git add readme.md
+   31  git status
+   32  git commit -m "add readme"
+   33  git status
+   34  git diff
+   35  git diff readme.md
+   36  clear
+   37  cd Desktop
+   38  cd General Assembly
+   39  cd ..
+   40  cd General Assembly
+   41  pwd
+   42  config global user.name "SpetZCoding"
+   43  cd Desktop
+   44  ls -a
+   45  ls
+   46  cd General Assembly
+   47  cd Assembly
+   48  cd General
+   49  ls
+   50  cd GA
+   51  clear
+   52  cd Desktop
+   53  cd SEI-Red-Devs
+   54  cd git-practice
+   55  cd Unit1
+   56  cd git-practice
+   57  code ,
+   58  ls -a
+   59  git diff
+   60  git diff readme.md
+   61  git add .
+   62  git diff readme.md
+   63  git log
+   64  git status
+   65  ls
+   66  git commit -m"Cool Title"
+   67  git add .
+   68  git checkout readme.md
+   69  clear
+   70  cd GA
+   71  cd Desktop
+   72  cd GA
+   73  cd SEI-Red-Devs
+   74  cd Unit1
+   75  cd git-practice
+   76  code .
+   77  ls -a
+   78  touch test.txt
+   79  ls -a
+   80  git diff 
+   81  git diff readme.md
+   82  git add .
+   83  git diff readme.md
+   84  git commit -m"new title who dis"
+   85  git diff readme.md
+   86  git add .
+   87  git checkout readme.md
+   88  git cheackout readme.md
+   89  git log
+   90  git rm test.txt
+   91  git status
+   92  clear
+   93  git remote add origin https://github.com/yuritischenko/test-tacos.git\ngit branch -M main\ngit push -u origin main
+   94  git remove -v
+   95  cd ..
+   96  git clone https://github.com/yuritischenko/test-tacos.git
+   97  ls -a
+   98  cd test-tacos
+   99  git remote -v
+  100  git add .
+  101  code .
+  102  git add .
+  103  git commit -m "tacos 4eva"
+  104  cd ..
+  105  git clone https://github.com/yuritischenko/command-line-murder-mystery.git
+  106  cat instructions
+  107  clear
+  108  pwd
+  109  cd
+  110  clear
+  111  mkdir test-dir
+  112  1
+  113  clear
+  114  cd test-dir
+  115  code .
+  116  ls -a
+  117  git init
+  118  ls -a
+  119  touch test-file
+  120  mv test-file test-dir-client/test-file
+  121  rm test-file
+  122  ls -a
+  123  touch test-file
+  124  ls -a
+  125  rm test-file
+  126  1
+  127  mkdir test-dir-client
+  128  ls -a
+  129  rm -r test-dir-client
+  130  cd test-dir
+  131  ls -a
+  132  pwd
+  133  touch test-dir-client
+  134  ls -a
+  135  pwd
+  136  cd test-dir-client
+  137  ls -a
+  138  cd test-dir-client
+  139  clear
+  140  1
+  141  clear
+  142  pwd
+  143  cd test-dir
+  144  rm test-dir-client
+  145  ls -a
+  146  cd client
+  147  cd ..
+  148  cd client
+  149  clear
+  150  cd test-dir
+  151  touch books.txt
+  152  code books.txt
+  153  l
+  154  cat books.txt
+  155  echo
+  156  echo "This bookshelf flexes under the weight of the books it holds."
+  157  echo "Callander, Gavin:Memoirs of the Craft" >> books.txt
+  158  clear
+  159  cat books.txt
+  160  cat books.txt | sort
+  161  cat books.txt | sort > sortedbooks.txt
+  162  l
+  163  cat books.txt | grep Cal
+  164  man grep
+  165  cat books.txt | grep Cal
+  166  cat books.txt | grep before Cal
+  167  pwd
+  168  l
+  169  cd books.txt
+  170  cat books.txt
+  171  clear
+  172  cat books.txt | grep Cal
+  173  cat books.txt | grep -n Cal
+  174  cat books.txt | grep -b 2 
+  175  cat books.txt | grep -b "cal"
+  176  cat books.txt | grep -a3 "Shak"
+  177  clear
+  178  cd Desktop
+  179  cd GA
+  180  cd SEI-Red-Devs
+  181  cd Unit1
+  182  git clone https://github.com/yuritischenko/homework-test.git
+  183  ls -a
+  184  cd homework-test
+  185  touch YuriTischenko.txt
+  186  l
+  187  echo "Sushi, Salmon, Sour Candy" >> YuriTischenko.txt
+  188  cat YuriTischenko.txt
+  189  git add .
+  190  git commit -m "Favorite Food\ngit commit\ncd ..\n"S
+  191  l
+  192  cd YuriTischenko.txt
+  193  pwd
+  194  git push origin main
+  195  clear
+  196  cd Desktop
+  197  ls -a
+  198  cd GA
+  199  ls -a
+  200  cd SEI-Red-Devs
+  201  l
+  202  cd Unit1
+  203  l
+  204  cd command-line-murder-mystery
+  205  cat instructions
+  206  nano cheatsheet.md
+  207  .open cheatsheet.md
+  208  open cheatsheet.md
+  209  cd ..
+  210  l
+  211  cd command-line-murder-mystery
+  212  cat instructions
+  213  ls
+  214  cd mystery
+  215  ls
+  216  cd crimescene
+  217  cd interviews
+  218  ls
+  219  cd ..
+  220  ls
+  221  cat hint1
+  222  cd ...
+  223  ls
+  224  cd command-line-murder-mystery
+  225  cat hint1
+  226  head -n 20 people
+  227  ls
+  228  l
+  229  cd mystery
+  230  l
+  231  head -n20 people
+  232  l
+  233  head vehicles
+  234  head -n20 vehicles
+  235  cat hint1
+  236  pwd
+  237  cd ..
+  238  cat hint1
+  239  cat hint2
+  240  grep "CLUE" crimscene
+  241  grep "CLUE" crimescene
+  242  grep "CLUE" crimescene%
+  243  cat hint3
+  244  head people
+  245  cd mystery
+  246  head people
+  247  head vehicles
+  248  grep "CLUE" crimescene
+  249  cat instructions
+  250  cd ..
+  251  cat instructions
+  252  cd Mystery
+  253  cat hint4
+  254  cat hint5
+  255  cat hint1
+  256  cd ..
+  257  cat hint4
+  258  cd Mystery
+  259  grep "Annabel" people
+  260  pwd
+  261  cd ..
+  262  cd Mystery
+  263  cat AAA | grep Joe Germuska
+  264  cat AAA
+  265  l
+  266  cat interviews
+  267  cd interviews
+  268  l
+  269  cd ..
+  270  pwd
+  271  l
+  272  cd streets
+  273  l
+  274  cd ..
+  275  cd streets
+  276  cd ..
+  277  l
+  278  cd memberships
+  279  grep | AAA
+  280  l
+  281  cat Museum_of_Bash_History
+  282  l
+  283  cat AAA
+  284  cat AAA | female
+  285  cd ..
+  286  l
+  287  head people
+  288  l
+  289  cat people
+  290  clear
+  291  pwd
+  292  cd ..
+  293  cd Mystery
+  294  l
+  295  cd interviews
+  296  cat interviews
+  297  pwd
+  298  cd ..
+  299  cat people
+  300  cd ...
+  301  l
+  302  cd command-line-murder-mystery
+  303  cat clue3
+  304  cat hint3
+  305  head people
+  306  cat hint2
+  307  cd Mystery
+  308  grep "Annabel" people
+  309  l
+  310  cat "Annabel\n"
+  311  cat "Anabel" crimescene
+  312  clear
+  313  l
+  314  cat vehicles
+  315  clear
+  316  grep "AAA" 
+  317  clear
+  318  cd Desktop
+  319  l
+  320  cd GA
+  321  l
+  322  cd SEI-Red-Devs
+  323  l
+  324  cd Unit1
+  325  cd command-line-murder-mystery
+  326  l
+  327  cat hint4
+  328  cat hint5
+  329  pwd
+  330  cd Mystery
+  331  grep "Annabel" people
+  332  head -n 40 streets/Hart_Place | tail -n 1
+  333  l
+  334  cat #47246024
+  335  clear
+  336  cd Dek
+  337  cd Desktop
+  338  cd GA
+  339  l
+  340  cd SEI-Red-Devs
+  341  l
+  342  cd Unit1
+  343  l
+  344  cd command-line-murder-mystery
+  345  clear
+  346  l
+  347  cat hint6
+  348  head
+  349  cd Desktop
+  350  cd GA
+  351  l
+  352  cd SEI-Red-Devs
+  353  cd Unit1
+  354  cd command-line-murder-mystery
+  355  cat hint5
+  356  cat hint4
+  357  cd Mystery
+  358  grep "Annabel\n"
+  359  cd Desktop
+  360  cd GA
+  361  cd SEI-Red-Devs
+  362  cd Unit1
+  363  cd command-line-murder-mystery
+  364  cat hint 4
+  365  cat hint4
+  366  cat hint5
+  367  cd Mystery
+  368  grep "Annabel" people
+  369  head -n 40 streets/Hart_Place | tail -n 1
+  370  grep "47246024" interviews
+  371  cd interviews
+  372  grep "47246024" interviews
+  373  grep "47246024"
+  374  cd Desktop
+  375  cd GA
+  376  cd SEI-Red-Devs
+  377  cd Unit1
+  378  cd myster
+  379  cd command-line-murder-mystery
+  380  head crimescene
+  381  l
+  382  cd myster
+  383  cd mystery
+  384  l
+  385  head crimescene
+  386  grep "CLUES" crimescene
+  387  l
+  388  grep "CLUE" crimescene
+  389  cat hint5
+  390  cd ..
+  391  cat hint5
+  392  cat hint6
+  393  cd mystery
+  394  grep "Annabel" people
+  395  cd mystery
+  396  l
+  397  head -n 40 streets/Hart_Place | tail -n 1
+  398  l
+  399  cd interviews
+  400  cat interviews
+  401  cd ..
+  402  cat interviews
+  403  cd interviews
+  404  l
+  405  cat 47246024 
+  406  cat 47246024 interviews
+  407  cd ..
+  408  cat interview-42746024
+  409  cd interviews
+  410  cat interview-47246024
+  411  cd ..
+  412  head -n 179 streets/Buckingham_Palace | tail -n 1
+  413  l
+  414  head -n 179 streets/Buckingham_Place | tail -n 1
+  415  cat interview-699607
+  416  cd interviews
+  417  cat interview-699607
+  418  cd ..
+  419  l
+  420  grep "Honda" vehicles
+  421  cat vehicles
+  422  grep "Blue" "Honda" vehicles
+  423  cat vehicles
+  424  grep "L337" vehicles
+  425  grep "6'0"" vehicles\n"
+  426  clear
+  427  cd Desktop
+  428  cd GA
+  429  cd SEI-Red-Devs
+  430  cd Unit1
+  431  cd command-line-murder-mystery
+  432  l
+  433  cd mystery
+  434  l
+  435  grep "CLUE" crimescene
+  436  l
+  437  grep "Annebel" people
+  438  grep "Annabel" people
+  439  head -n 40 streets/Hart_Place | tail -n 1
+  440  cd interviews
+  441  cat interview-47246024
+  442  cd ..
+  443  head -n 179 streets/Buckingham_Place | tail -n 1
+  444  cd interviews
+  445  cat interview-699607
+  446  cd ..
+  447  l
+  448  grep man
+  449  clear
+  450  cd Desktop
+  451  cd GA
+  452  cd SEI-Red-Devs
+  453  cd Unit1
+  454  cd command-line-murder-mystery
+  455  cd mystery
+  456  grep "CLUE" crimescene
+  457  grep "Annabel" people
+  458  cd interviews
+  459  cd ..
+  460  head -n 40 streets/Hart_Place | tail -n 1
+  461  cat interviews/interview-47246024
+  462  head -n 179 streets/Buckingham_Place | tail -n 1
+  463  cat Interviews/Interview-699607
+  464  grep -E "L337|blue|Honda" vehicles
+  465  grep "L337" vehicles
+  466  grep E- "L337" | "Honda" vehicles
+  467  grep -e L337 -e Honda
+  468  clear
+  469  cd Desktop
+  470  cd GA
+  471  cd SEI-Red-Devs
+  472  cd Unit1
+  473  cd command-line-murder-mystery
+  474  cd mystery
+  475  grep "CLUE" crimescene
+  476  grep "Annabel" people
+  477  head -n 40 streets/Hart_Place | tail -n 1
+  478  cat interviews/interview-47246024
+  479  head -n 179 streets/Buckingham_Place | tail -n 1
+  480  cat interviews/interview-699607
+  481  grep "L337" vehicles
+  482  cat vehicles
+  483  grep "L337"|"Honda"|"Blue" vehicles
+  484  cd .. ; exit;
+  485  cd Desktop
+  486  cd GA
+  487  cd SEI-Red-Devs
+  488  cd Unit1
+  489  cd command-line-murder-mystery
+  490  cd mystery
+  491  l
+  492  cd memberships
+  493  grep "Delta Skylines" memberships
+  494  grep "Delta Skylines" 
+  495  ➜  ~ cd Desktop \n➜  Desktop cd GA \n➜  GA cd SEI-Red-Devs \n➜  SEI-Red-Devs cd Unit1 \n➜  Unit1 cd command-line-murder-mystery \n➜  command-line-murder-mystery git:(master) ✗ cd mystery 
+  496  cd Desktop
+  497  cd GA
+  498  cd SEI-Red-Devs
+  499  cd Unit1
+  500  cd command-line-murder-mystery
+  501  cd mystery
+  502  cat hint8
+  503  cd ..
+  504  cat hint6
+  505  head vehicles
+  506  l
+  507  cd mystery
+  508  head vehicles
+  509  grep "License Plate L337"|"Make: Honda"|"Color: Blue" vehicles
+  510  cd Desktop
+  511  cd GA
+  512  cd SEI-Red-Devs
+  513  cd Unit1
+  514  cd command-line-murder-mystery
+  515  cd mystery
+  516  grep "L337ZR9" vehicles
+  517  cd ..
+  518  cat hint6
+  519  cat hint7
+  520  cat hint8
+  521  grep -A 10 "L337" mystery/vehicles
+  522  cat hint8
+  523  cd memberships
+  524  l
+  525  cd mystery
+  526  cd memberships
+  527  cat AAA Delta_Skylines Local_Library Museum_of_bash_history
+  528  l
+  529  cat AAA Delta_SkyMiles Museum_of_Bash_History library | grep "Joe Germuska"
+  530  grep "Joe Germuska" memberships
+  531  grep AAA
+  532  clear
+  533  cd Desktop
+  534  cd GA
+  535  cd SEI-Red-Devs
+  536  cd Unit1
+  537  cd command-line-murder-mystery
+  538  cd mystery
+  539  cd ..
+  540  l
+  541  cat hint8
+  542  hint 6
+  543  cat hint6
+  544  cat hint7
+  545  cat hint8
+  546  cd mystery
+  547  l
+  548  cd mem
+  549  cd memberships
+  550  l
+  551  cd ...
+  552  cd mystery
+  553  grep "CLUE" crimescene
+  554  cd myster
+  555  cd memb
+  556  cd memberships
+  557  l
+  558  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | "Joe Germuska" 
+  559  cd ...
+  560  cd mys
+  561  cd mystery
+  562  cd ..
+  563  cat hint7
+  564  cd mystery
+  565  grep -A 5 "L337" vehicles
+  566  grep "Joe Germuska" vehicles
+  567  grep -A 5 "Joe Germuska" vehicles
+  568  grep -B 2 "Joe Germuska" vehicles
+  569  cd ..
+  570  grep "Joe Germuska" people
+  571  l
+  572  cd mystery
+  573  grep "Joe Germuska" people
+  574  cd ..
+  575  cat hint4
+  576  cat hint5
+  577  cd mystery
+  578  head -n 275 streets/Plainfield_Street | tail -n 1
+  579  cat interviews/interview-29741223
+  580  cd ..
+  581  cat hint7
+  582  cat hint8
+  583  cd mystery
+  584  cd memberships
+  585  l
+  586  cat AAA Delta_Skylines Museum_of_Bash_History Terminal_City_Library
+  587  cd ..
+  588  grep -A 5 "L337" vehicles
+  589  grep "Jacqui Maher" people
+  590  head -n 224 streets/Andover_Road | tail -n 1
+  591  cat interviews/interview-904020
+  592  grep "Jeremy Bowers" people
+  593  head -n 284 streets/Dunstable_Road | tail -n 1
+  594  cat interviews/interview-9620713
+  595  grep "Heather Billings" people
+  596  head -n 19 streets/Culbert_Street | tail -n 1
+  597  cat interviews/interview-2939888
+  598  grep "Aron Pilhofersd" people
+  599  grep "Aron Pilhofer" people
+  600  head -n 145 streets/Claybourne_Street" | tail -n 1\n\n"
+  601  head -n 145 streets"Claybourne_Street" | tail -n 1
+  602  head -n 145 streets/Claybourne_Street | tail -n 1
+  603  cat interviews/interview-1767435
+  604  grep -A 5 "L337" vehicles
+  605  head -n 284 streets/Dunstable_Road | tail -n 1
+  606  cat interviews/interview-9620713
+  607  cd memberships
+  608  l
+  609  cat Delta_SkyMiles AAA Museum_of_Bash_History Termincal_City_Library | "Jeremy Bowers"
+  610  cd ...
+  611  cat hint8
+  612  cd mystery
+  613  cd memberships
+  614  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  615  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  616  cat Delta_SkyMiles AAA Museum_of_Bash_History Termincal_City_Library | grep "Jeremy Bowers" | wc -l%
+  617  cat Delta_SkyMiles AAA Museum_of_Bash_History Termincal_City_Library | grep "Jeremy Bowers" | wc -l
+  618  man grep
+  619  cd ...
+  620  cat hint1
+  621  cat hint2
+  622  cat hint3
+  623  cat hint4
+  624  clear
+  625  cd Desktop
+  626  cd GA
+  627  l
+  628  cd SEI-Red-Devs
+  629  l
+  630  cd Unit1
+  631  l
+  632  cd command-line-murder-mystery
+  633  cle
+  634  clear
+  635  cd Desktop
+  636  cd GA
+  637  cd SEI-Red-Devs
+  638  cd Unit1
+  639  cd command-line-murder-mystery
+  640  cat instructions
+  641  cat solutions
+  642  pwd
+  643  cat solution
+  644  l
+  645  cat solution
+  646  clear
+  647  l
+  648  cd myster
+  649  cd mystery
+  650  l
+  651  grep "CLUE" crimescene
+  652  grep "Annabel" people
+  653  head -n 40 streets/Hart_Place | -n 1
+  654  cd ..
+  655  cat hint3
+  656  cat hint4
+  657  cat hint5
+  658  cd mystery
+  659  head -n 40 streets/Hart_Place | tail -n 1
+  660  cat interviews/interview-47246024
+  661  l
+  662  grep "Annabel Church" people
+  663  head -n 179 streets/Buckingham_Place | tail -n 1
+  664  cat interviews/interview-699607
+  665  l
+  666  cat vehicles
+  667  clear
+  668  k
+  669  l
+  670  grep -A 5 "L337" vehicles
+  671  grep "Joe Germuska" people
+  672  head -n 275 streets/Plainfield_Street | tail -n 1
+  673  cat interviews/interview-29741223
+  674  grep "Jacqui Maher" people
+  675  head -n 224 streets/Andover_Road | tail -n 1
+  676  cat interviews/interview-904020
+  677  grep "Jeremy Bowers\n"
+  678  clear
+  679  cd Desktop
+  680  cd GA
+  681  cd SEI-Red-Devs
+  682  cd Unit1
+  683  cd myst
+  684  cd command-line-murder-mystery
+  685  cd mystery
+  686  grep "Jeremy Bowers" people
+  687  head -n 284 streets/Dunstable_Road | tail -n 1
+  688  cat interviews/interview-9620713
+  689  l
+  690  grep -A 5 "L337" vehicles
+  691  l
+  692  cd memberships
+  693  l
+  694  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers" 
+  695  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  696  clear
+  697  cd Desktop
+  698  cd GA
+  699  cd SEI-Red-Devs
+  700  cd Unit1
+  701  cd command-line-murder-mystery
+  702  clear
+  703  cd Desktop
+  704  cd GA
+  705  cd SEI-Red-Devs
+  706  cd Unit1
+  707  cd command-line-murder-mystery
+  708  cd myst
+  709  cd mystery
+  710  grep "CLUE" crimescene
+  711  grep "Annabel" people
+  712  head -n 140 streets/Hart_Place | tail -n 1
+  713  l
+  714  head -n 40 streets/Hart_Place | tail -n 1
+  715  cat interviews/interview-47246024
+  716  head -n 170 streets/Buckingham_Place | tail -n 1
+  717  head -n 179 streets/Buckingham_Place | tail -n 1
+  718  cat interviews/interview-699607
+  719  grep -A 5 "L337" vehicles 
+  720  grep "Joe Germuska" people
+  721  head -n 275 streets/Plainfield_Street | tail -n 1
+  722  cat interviews/interview-29741223
+  723  grep "Jacqui Maher" people
+  724  head -n 224 streets/Andover_Road | tail -n 1
+  725  cat interviews/interview-904020
+  726  grep "Jeremy Bowers\n" people
+  727  grep "Jeremy Bowers" people
+  728  head -n 284 streets/Dunstable_Road | tail -n 1
+  729  cat interviews/interview-9620713
+  730  grep "Aron Pilhofer" people
+  731  head -n 145 streets/Claybourne_Street | tail -n 1
+  732  cat interviews/interview-1767435
+  733  l
+  734  cd memberships
+  735  l
+  736  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers" 
+  737  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers" 
+  738  history
+  739  cd ..
+  740  l
+  741  cat solution
+  742  touch solution.txt
+  743  l
