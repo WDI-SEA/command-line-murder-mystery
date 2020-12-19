@@ -1,0 +1,22 @@
+
+HISTORY
+
+  571  cd ..
+  572  ls
+  573  cat hint3
+  574  cat hint2
+  575  grep "CLUE" mystery/crimescene
+  576  ls
+  577  cat mystery/memberships
+  578  cat mystery/memberships/
+  579  cd  mystery/memberships/
+  580  cat Delta_Skymiles AAA library.txt Museum_of_Bash_History | grep -c "Joe Germuska"
+  581  cd ..
+  582  cd ..
+  583  ls
+  584  touch solution.txt
+  585  ls
+  586  open solution.txt
+
+NAME OF KILLER
+ The killer is "Joe Germuska" after looking at all the clues , hints and leads he is the only one that the evidence points to. Everyone else clears. HE IS GUILTY

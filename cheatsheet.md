@@ -16,9 +16,7 @@ How to access the command line
 
 **Desktop Linux:** You can search for the "Terminal" application from the Dash.  Let's be honest, though, if you're running Linux, you probably don't need this tutorial.
 
-**Windows:** Windows is a bit of a special case.  If you go to the Start Menu and click "Run", and then type "cmd" and hit enter, it will open the Windows version of the command line.  Unfortunately, the Windows version of the command line kind of has its own system, so for the purposes of following these examples, you'll want to install Cygwin, which will allow you to mimic a Linux-style command line:
-
-http://www.cygwin.com/
+**Windows:** Windows is a bit of a special case.  If you go to the Start Menu and click "Run", and then type "cmd" and hit enter, it will open the Windows version of the command line.  Unfortunately, the Windows version of the command line kind of has its own system, so for the purposes of following these examples, you'll want to install Cygwin, which will allow you to mimic a Linux-style command lincdhttp://www.cygwin.com/
 
 A little more detail
 --------------------
