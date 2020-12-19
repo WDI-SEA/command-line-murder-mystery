@@ -1,4 +1,4 @@
-edgard Jara
+
 HISTORY
 
   571  cd ..
@@ -19,4 +19,5 @@ HISTORY
   586  open solution.txt
 
 NAME OF KILLER
- The killer is "Joe Germuska" after looking at all the clues , hints and leads he is the only one that the evidence points to. Everyone else clears. HE IS GUILTY
+ The killer is "JOE GERMUSKA" after looking at all the clues , hints and leads he is the only one that the evidence points to. Everyone else clears. HE IS GUILTY
+
