@@ -1,2 +1,349 @@
+Last login: Tue Jan 26 09:07:30 on ttys000
+[oh-my-zsh] Insecure completion-dependent directories detected:
+drwxrwxr-x  7 sunillama  admin  224 Jan 25 11:02 /usr/local/share/zsh
+drwxrwxr-x  4 sunillama  admin  128 Dec 14 11:23 /usr/local/share/zsh/site-functions
 
-testing
+[oh-my-zsh] For safety, we will not load completions from these directories until
+[oh-my-zsh] you fix their permissions and ownership and restart zsh.
+[oh-my-zsh] See the above list for directories with group or other writability.
+
+[oh-my-zsh] To fix your permissions you can do so by disabling
+[oh-my-zsh] the write permission of "group" and "others" and making sure that the
+[oh-my-zsh] owner of these directories is either root or your current user.
+[oh-my-zsh] The following command may help:
+[oh-my-zsh]     compaudit | xargs chmod g-w,o-w
+
+[oh-my-zsh] If the above didn't help or you want to skip the verification of
+[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to
+[oh-my-zsh] "true" before oh-my-zsh is sourced in your zshrc file.
+
+➜  ~ pwd
+/Users/sunillama
+➜  ~ cd Assembly25 
+➜  Assembly25 ls    
+unnit-1
+➜  Assembly25 cd unnit-1 
+➜  unnit-1 ls
+Homework lab-1
+➜  unnit-1 cd Homework 
+➜  Homework cd Comman-line-murder-mystery 
+➜  Comman-line-murder-mystery ls
+command-line-murder-mystery
+➜  Comman-line-murder-mystery cd command-line-murder-mystery 
+➜  command-line-murder-mystery git:(master) ls
+LICENSE        cheatsheet.pdf hint4          hint8
+LICENSE.txt    hint1          hint5          instructions
+README.md      hint2          hint6          mystery
+cheatsheet.md  hint3          hint7          solution.txt
+➜  command-line-murder-mystery git:(master) history
+    1  brew install git
+    2  git --version
+    3  brew upgrade git
+    4  brew install --cask visual-studio-code
+    5  open ~/.zshrc
+    6  export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+    7  ZSH_THEME="af-magic"\n
+    8  ZSH_THEME="af-magic"\nz
+    9  clear
+   10  git config --global init.defaultBranch main\n
+   11  git config --global user.name "SunilDeveloper7"
+   12  git config --global user.email "sunnil474@gmail.com"
+   13  git config --global push.default simple\n
+   14  git config --global credential.helper cache\n
+   15  ls -al ~/.ssh
+   16  $ ssh-keygen -t ed25519 -C "sunnil474@gmail.com"
+   17  $ ssh-keygen -t rsa -b 4096 -C "sunnil474@gmail.com"
+   18  > Generating public/private ed25519 key pair.\n
+   19  Generating public/private ed25519 key pair
+   20  $ eval "$(ssh-agent -s)"
+   21  eval "$(ssh-agent -s)"
+   22  ~/.ssh/config
+   23  $ touch ~/.ssh/config
+   24  touch ~/.ssh/config
+   25  ~/.ssh/config
+   26  clear
+   27  $ pbcopy < ~/.ssh/id_ed25519.pub
+   28  pbcopy < ~/.ssh/id_ed25519.pub
+   29  clesr
+   30  clear
+   31  ls -al ~/.ssh
+   32  id_ed25519.pub
+   33  eval "$(ssh-agent -s)"
+   34  ~/.ssh/config
+   35  open ~/.ssh/config
+   36  ssh-add -K ~/.ssh/id_ed25519
+   37  pbcopy < ~/.ssh/id_ed25519.pub
+   38  clear
+   39  mkdir code
+   40  cd code
+   41  mkdir w1
+   42  cd w1
+   43  mkdir d1
+   44  cd d1
+   45  pwd
+   46  mkdir git_practice
+   47  cd git_practice
+   48  git init
+   49  ls
+   50  ls -a
+   51  touch resume.text
+   52  ls
+   53  git status
+   54  git add .
+   55  git commit
+   56  clear
+   57  pwd
+   58  s
+   59  ls
+   60  clear
+   61  ls
+   62  git log
+   63  cd GeneralAssembly
+   64  ls
+   65  cd unit-1
+   66  ls
+   67  git remote -v
+   68  git checkout
+   69  cd ~
+   70  git checkout
+   71  fit checkout -b main
+   72  clear
+   73  git clone https://github.com/SEI-SEA-1-25/git-pull-request-practice.git
+   74  pwd
+   75  ls
+   76  cd git-pull-request-practice
+   77  ls
+   78  git add sunil.txt
+   79  s
+   80  cd ~
+   81  pwd
+   82  clear
+   83  pwe
+   84  pwd
+   85  cd
+   86  clear
+   87  ls
+   88  brew install git
+   89  clear
+   90  git version
+   91  git upgrade
+   92  brew upgrade git
+   93  install git
+   94  clear
+   95  ls -al ~/.ssh
+   96  clear
+   97  git
+   98  clear
+   99  mkdir General Assembly25
+  100  ls
+  101  cd General Assembly25
+  102  clear
+  103  ls
+  104  RM General
+  105  rm dir General
+  106  cd General
+  107  rm dir General
+  108  cd ..
+  109  pwd
+  110  ls
+  111  rm dir
+  112  clear
+  113  ls
+  114  pwd
+  115  clear
+  116  cd Assembly25/ls
+  117  ls
+  118  cd Assembly25
+  119  mkdir unnit-1
+  120  ls
+  121  cd unnit-1
+  122  mkdir lab-1
+  123  ls
+  124  cd lab-1
+  125  ls
+  126  git clone https://github.com/SunilDeveloper7/intro_to_command_line.git
+  127  ls
+  128  cd intro_to_command_line
+  129  ls
+  130  code exploration.txt
+  131  cd mansion
+  132  ls
+  133  pwd
+  134  ls
+  135  cd east_wing
+  136  ls
+  137  cd ..
+  138  cd entry_hall
+  139  ls
+  140  cd coat_closet
+  141  ls
+  142  touch your-coat
+  143  ls
+  144  touch your-coat.txt
+  145  ls
+  146  cd ..
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd east_wing
+  151  ls
+  152  cd dining_room
+  153  ls
+  154  rm sandwich.txt
+  155  ls
+  156  cp chair.txt chair2.txt
+  157  ls
+  158  cp chair.txt chair3.txt chair4.txt
+  159  ls
+  160  cp chair.txt chair3.txt
+  161  ls
+  162  cp chair.txt chair4.txt
+  163  ls
+  164  cd ../guest_bedroom
+  165  ls
+  166  cd ..
+  167  cd guest_bedroom
+  168  cd ...
+  169  cd west_wing/master_bedroom
+  170  ls -a
+  171  mv  mirror.txt  smashed_mirror.txt
+  172  mkdir cardboard_box
+  173  ls
+  174  mv smashed_mirror.txt cardboard_box
+  175  ls
+  176  cd cardboard_box
+  177  ls
+  178  cd ../.secret_passage
+  179  ls
+  180  ls -a
+  181  mv .family_heirloom.txt ..
+  182  ls
+  183  ls -a
+  184  cd ..
+  185  ls
+  186  ls -a
+  187  rm -r .secret_passage
+  188  ls
+  189  cd ..
+  190  ls
+  191  pwd
+  192  cd ..
+  193  git status
+  194  git add .
+  195  git status
+  196  git add .
+  197  git status
+  198  cd ..
+  199  git status
+  200  git add .
+  201  git status
+  202  git commit -m "(Henry McDonald, Sunil lama- Completed our first exploration lab project)"
+  203  git push
+  204  git remote -v
+  205  cd ..
+  206  ls
+  207  cd ..
+  208  cd..
+  209  cd ..
+  210  ls
+  211  cd unnit-1
+  212  ls
+  213  mkdir First-Homework/command-line-murder-mystery
+  214  ls
+  215  mkdir Homework
+  216  ls
+  217  cd Homework
+  218  ls
+  219  mkdir Comman-line-murder-mystery
+  220  ls
+  221  cd Comman-line-murder-mystery
+  222  ls
+  223  https://github.com/SunilDeveloper7/command-line-murder-mystery.git
+  224  ls
+  225  git clone https://github.com/SunilDeveloper7/command-line-murder-mystery.git
+  226  ls
+  227  cd command-line-murder-mystery
+  228  ls
+  229  code .
+  230  clear
+  231  ls
+  232  cat README.md
+  233  \tclear
+  234  cat mystery
+  235  cat instructions
+  236  cd ..
+  237  ls
+  238  clear
+  239  ls
+  240  cd command-line-murder-mystery
+  241  ls
+  242  cat solution.txt
+  243  clear
+  244  ls
+  245  cat solution.txt
+  246  ls
+  247  cat solution.txt
+  248  pwd
+  249  clear
+  250  ls
+  251  cd ..
+  252  ls
+  253  cd command-line-murder-mystery
+  254  ls
+  255  cd mystery
+  256  ls
+  257  cat crimescene
+  258  grep "CLUE" crimescene
+  259  head -n 20 people
+  260  grep "Annabel" people\n
+  261  grep head -n 173 streets/Mattapan_Street | tail -n 1
+  262  cat vehicles
+  263  grep "Blue" vehicles
+  264  head "vehicle"
+  265  head 'vehical' honda
+  266  clear
+  267  pwd
+  268  ls
+  269  cd ..
+  270  pwd
+  271  ls
+  272  cat instructions
+  273  ls mystery
+  274  wc -1 mystery/crimescene
+  275  grep CLUE mystery/crimescene
+  276  head mystery/people -n20
+  277  head -n20
+  278  pwd
+  279  ls
+  280  cd Assembly25
+  281  ls
+  282  cd unnit-1
+  283  ls
+  284  cd Homework
+  285  LS
+  286  CD Comman-line-murder-mystery
+  287  ls
+  288  cd Comman-line-murder-mystery
+  289  ls
+  290  cd command-line-murder-mystery
+  291  ls
+  292  pwd
+  293  ls
+  294  cat instructions
+  295  ls mystery
+  296  wc -1 mystery/crimescene
+  297  grep CLUE mystery/crimescene
+  298  head mystery/people -n20
+  299  head -n20 mystery/people
+  300  cat mystery/people | perl -ne 'print-"$1\n" if /^([^\t]+)\t[MF]/' | head
+  301  pwd
+  302  cd Assembly25
+  303  ls
+  304  cd unnit-1
+  305  ls
+  306  cd Homework
+  307  cd Comman-line-murder-mystery
+  308  ls
+  309  cd command-line-murder-mystery
+  310  ls
+➜  command-line-murder-mystery git:(master) 
