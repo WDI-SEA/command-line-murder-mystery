@@ -1,0 +1,129 @@
+ 9961  rm -rf command-line-murder-mystery
+ 9962  git clone git@github.com:WDI-SEA/command-line-murder-mystery.git clmm-dry-run
+ 9963  ls clmm-dry-run
+ 9964  ls
+ 9965  code .
+ 9966  cd clmm-dry-run
+ 9967  ls
+ 9968  code .
+ 9969  cat hint1
+ 9970  code clues.txt hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+ 9971  clear
+ 9972  ls
+ 9973  cd mystery
+ 9974  ls
+ 9975  head -n 20 people
+ 9976  ls
+ 9977  grep CLUE crimescene
+ 9978  grep CLUE crimescene >> clues.txt
+ 9979  ls
+ 9980  code clues.txt
+ 9981  clear
+ 9982  history
+ 9983  grep CLUE crimescene
+ 9984  ls
+ 9985  cat people
+ 9986  cat people | grep Annabel
+ 9987  echo 'CRIMESCENE CLUES \n' >> clues.txt
+ 9988  lscat clues.txt
+ 9989  cat clues.txt
+ 9990  cat people | grep Annabel >> clues.txt
+ 9991  cat clues.txt
+ 9992  code ~/.zshrc
+ 9993  reset
+ 9994  cd ~/Desktop/seir-503/unit-1/homeworks/clmm-dry-run/mystery
+ 9995  ls
+ 9996  cat clues
+ 9997  cat clues.txt
+ 9998  cd streets
+ 9999  ls
+10000  reset
+10001  ~/Desktop/seir-503/unit-1/homeworks/clmm-dry-run/mystery/streets
+10002  cd ..
+10003  ls
+10004  cat clues.txt
+10005  cd streets
+10006  ls
+10007  man cat
+10008  cat -n Hart_Place
+10009  cat -n Hart_Place | grep 40
+10010  cat -n Hart_Place | grep " 40"
+10011  cat -n Hart_Place | grep " 40" >> ../clues.txt
+10012  cat ../clues.txt
+10013  head Hart_Place -n 41
+10014  head 41 Hart_Place
+10015  head Hart_Place -n 41
+10016  man head
+10017  head -n 41 Hart_Place
+10018  head -n 40 Hart_Place
+10019  cat -n Buckingham_Place | grep " 179" >> ../clues.txt
+10020  cat ../clues.txt
+10021  ls
+10022  cat ../clues.txt
+10023  man ls
+10024  cd ..
+10025  cd streets
+10026  ls
+10027  ls ..
+10028  cd ../interviews
+10029  cat interview-47246024
+10030  cat interview-699607
+10031* cd desktop
+10032* ls
+10033* mv seir-503 seir-503-old
+10034* ls
+10035  cat interview-699607 >> ../clues.txt
+10036  cat ../clues.txt
+10037* mkdir general-assembly 
+10038* ls
+10039* cd general-assembly
+10040* ls
+10041  cd ..
+10042  ls
+10043  cat vehicles | grep "L337"
+10044  grep "Honda" vehicles
+10045  cat vehicles | grep -A 5 "L337"
+10046  cat vehicles | grep "L337"
+10047  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 "Honda" | grep -A 3 -B 2 "Blue"
+10048  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'"
+10049  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'" >> clues.txt
+10050  cat clues.txt
+10051  ls
+10052  cd memberships
+10053  ls
+10054  history >> derp.txt
+10055  code derp.txt
+10056  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+10057  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+10058  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+10059  cd ..
+10060  cat people | grep "Jeremy Bowers"
+10061  cd streets
+10062  cd ..
+10063  cat people | grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher"
+10064  cat people | grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" >>../clues.txt
+10065  cat clues.txt
+10066  cat people | grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" >> ../clues.txt
+10067  cat clues.txt
+10068  cat -n Plainfield_Street | grep " 275"
+10069  cd streets
+10070  cat people | grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" >> ../clues.txt
+10071  cd ..
+10072  cat people | grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" >> ../clues.txt
+10073  cd mystery
+10074  cat people | grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" >> ../clues.txt
+10075  cat clues.txt
+10076  cat people | grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher"
+10077  cat people | grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" >> clues.txt
+10078  cat clues.txt
+10079  cat -n Plainfield_Street | grep " 275" >> ../clues.txt\ncat -n Trapelo_Street | grep " 98" >> ../clues.txt\ncat -n Plainfield_Street | grep " 275" >> ../clues.txt\ncat -n Dunstable_Road | grep " 284" >> ../clues.txt
+10080  cd streets
+10081  cat -n Plainfield_Street | grep " 275" >> ../clues.txt\ncat -n Trapelo_Street | grep " 98" >> ../clues.txt\ncat -n Plainfield_Street | grep " 275" >> ../clues.txt\ncat -n Dunstable_Road | grep " 284" >> ../clues.txt
+10082  cat ../clues.txt
+10083  cat interview-545315\ncat interview-5455315\ncat interview-9620713\ncat interview-29741223
+10084  cd ../interviews
+10085  cat interview-545315\ncat interview-5455315\ncat interview-9620713\ncat interview-29741223
+10086  cd ..
+10087  ls
+10088  cd ..
+10089  ls
