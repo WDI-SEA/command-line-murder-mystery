@@ -1,11 +1,17 @@
 To see who was a member of several different groups, you can combine their membership lists into one and search against that.
 
-	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+	cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
 
 If you only want to see the number of matches, you can use grep's -c option (the c must be lowercase):
 
-	cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+	cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"
 
 Or you can pipe the result to 'wc -l':
 
-	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+	cat Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+
+Joe Germuska - 1
+Jeremy Bowers -4
+Jacqui Maher - 2
+
+Erika Owens - 0

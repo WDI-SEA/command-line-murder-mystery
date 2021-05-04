@@ -1,0 +1,214 @@
+   48  ls
+   49  pwd
+   50  cd general-assembly
+   51  pwd
+   52  open.
+   53  open .
+   54  mkdir unit-1
+   55  ls
+   56  mkdir unit-1/deliverables
+   57  ls
+   58  ls unit-1
+   59  pwd
+   60  ls
+   61  touch about.txt
+   62  ls
+   63  cat about.txt
+   64  echo "Hello this is my GA file folder."
+   65  echo "Hello! this is my GA file folder" > about.txt
+   66  mkdir git-basic
+   67  cd..
+   68  cd ..
+   69  cd git-basic
+   70  ls
+   71  git status
+   72  cd
+   73  c
+   74  cd Desktop/general-assembly
+   75  ls
+   76  cd unit-1
+   77  ls
+   78  cd deliverables
+   79  git clone git@github.com:lizlukasiewicz/command-line-murder-mystery.git
+   80  ls
+   81  cd command-line-murder-mystery
+   82  ls
+   83  cd instructions
+   84  open instructions
+   85  cd mystery
+   86  ls
+   87  open crimescene
+   88  cd interviews
+   89  ls
+   90  open memberships
+   91  cd memberships
+   92  ..
+   93  cd memberships
+   94  ls
+   95  ..
+   96  cd people
+   97  open people
+   98  ..
+   99  cd command-line-murder-mysters
+  100  cd command-line-murder-mystery
+  101  ls
+  102  cd README.md
+  103  open README.md
+  104  cat instructions
+  105  clear
+  106  ls
+  107  cd mystery
+  108  ls
+  109  cd crimescene
+  110  open crimesscene
+  111  open crimescene
+  112  crimescene | grep "CLUE"
+  113  cat crimescene | grep "CLUE"
+  114  cd cheatsheet.md
+  115  open cheatsheet.md
+  116  ..
+  117  cd cheatsheet.md
+  118  open cheatsheet.md
+  119  clear
+  120  ls
+  121  open cheatsheet.pdf
+  122  cd mystery
+  123  ls
+  124  catmemberships | grep "AAA"
+  125  cat memberships |  grep "AAA"
+  126  cd memberships
+  127  ls
+  128  ls -l
+  129  cat AAA | grep "Annabel"
+  130  cat Delta_SkyMiles | grep "Annabel"
+  131  cat library.txt | grep "Ann"
+  132  cat AAA | grep "Ann"
+  133  cat Delta_SkyMiles | grep "Ann"
+  134* cat Terminal_City_Library | grep "Ann"
+  135  ls
+  136  pwd
+  137  Desktop/general-assembly/unit-1/deliverables
+  138  ls
+  139  cd command-line-murder-mystery
+  140  ls
+  141  cd mystery
+  142  ls
+  143  cd memberships
+  144  ls
+  145  cat delta.txt | grep "Ann"
+  146  cat Museum_of_Bash_History | grep "Ann"
+  147* Desktop/general-assembly/unit-1/deliverables/command-line-murder-mystery/mystery
+  148* ls -a
+  149* ..
+  150* ls
+  151* ls -a
+  152* cd hint1
+  153* open hint1
+  154* open hint2
+  155* open hint3
+  156* open hint4
+  157* open hint5
+  158* open hint6
+  159* open hint7
+  160* open hint8
+  161* clear
+  162* ls
+  163* ..
+  164* lß
+  165* ls
+  166* cd memberships
+  167* ls
+  168* man grep
+  169  clear
+  170  ..
+  171  ls
+  172  head -n 20 people
+  173  cat people | grep "ann"
+  174  ..
+  175  ls
+  176  cd mystery
+  177  ls
+  178  grep "CLUE" crimescene
+  179  pwd
+  180  ls
+  181  grep "Annabel" people
+  182  head "Annabel" people
+  183  cd streets
+  184  ls
+  185  read heart_place
+  186  cat Hart_Place
+  187* ..
+  188* ls
+  189* cd streets
+  190* head -n 40 Hart_Place
+  191* head -n 173 Mattapan_Street
+  192* head -n 179 Buckingham_Place
+  193* head -n 176 Haley_Street
+  194* ..
+  195* ls
+  196* cd interviews
+  197* head -n 20 interviews
+  198* ..
+  199* head -n 20 interviews
+  200* grep "#47246024" interviews
+  201* cd interviews
+  202* grep "#47246024" interviews
+  203* grep "#47246024"
+  204  clear
+  205  ..
+  206  ls
+  207  open interviews
+  208  ls
+  209  head -n 20 vehicles
+  210  grep -A 5 "L337" mystery/vehicles
+  211  grep -A 5 "L337" vehicles
+  212  ls
+  213  cd memberships
+  214  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  215  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  216  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  217  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Mike Bostock"
+  218  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"
+  219  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  220  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  221  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc -l
+  222  cat Fitness_Galaxy AAA United_MileagePlus | grep "Mike Bostock" | wc -l
+  223  ls
+  224  cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Joe Germuska" | wc -l
+  225  cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  226  cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Jacqui Maher" | wc -l
+  227  cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Mike Bostock" | wc -l
+  228  cat Delta_SkyMiles AAA Museum_of_Bash_History | grep "Erika Owens" | wc -l
+  229  cat Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Mike Bostock" | wc -l\n
+  230  cat Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  231  clear
+  232  ..
+  233  ls
+  234  ..
+  235  ls
+  236  cd instructions
+  237  open instructions
+  238  ..
+  239  ls
+  240  cd command-line-murder-mystery
+  241  ls
+  242  cat solution
+  243  -a
+  244  ls -a
+  245  cd mystery
+  246  ls
+  247  cd README.md
+  248  cat README.md
+  249  ..
+  250  ls
+  251  cat README.md
+  252  history
+  253  touch solution.txt
+  254  ls
+  255  cat hint7
+  256  cat hint1
+  257  tail -173 history
+  258  history 2
+  259  history -l 5
+  260  history -12
+  261  ls
