@@ -1,25 +1,39 @@
-    5  ls
-    6  clear
-    7  cd mystery
-    8  grep CLUE crimescene
-    9  ls
-   10  head people
-   11  grep Annabel people
-   12  head -n 40 streets/Hart_Place | tail -n 1
-   13  head -n 179 streets/Buckingham_Place | tail -n 1
-   14  cd interviews
-   15  cat interview-47246024
-   16  cat interview-699607
+    1  cd "Desktop/General Assembly/unit_1/deliverables/command-line-murder-mystery/"
+    2  ls
+    3  cat instructions
+    4  ls
+    5  cd mystery
+    6  ls
+    7  grep "CLUE" crimescene
+    8  grep "Annabel" people
+    9  cd streets
+   10  ls
+   11  cd ..
+   12  grep "Annabel" people
+   13  head -n 40 streets/Hart_Place | tail -n 1
+   14  head -n 179 streets/Buckingham_Place | tail -n 1
+   15  cd interviews
+   16  ls
    17  cd ..
-   18  ls
-   19  head -n 20 vehicles
-   20  grep -C 5 L337 vehicles
-   21  grep -A 5 L337 vehicles
+   18  head -n 40 streets/Hart_Place | tail -n 1
+   19  head -n 179 streets/Buckingham_Place | tail -n 1
+   20  cat interviews/interview-47246024
+   21  cat interviews/interview-699607
    22  ls
-   23  cd memberships
-   24  ls
-   25  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy Bowers
-   26  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Joe Germuska
-   27  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Joe Germuska | wc -l
-   28  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy Bowers | wc -l
+   23  head vehicles
+   24  grep -A 5 "L337..9"
+   25  grep -A 5 "L337..9" vehicles
+   26  grep -A 5 "L337..9" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'.."
+   27  grep "Joe Germuska" people
+   28  grep "Jeremy Bowers" people
+   29  head -n 275 streets/Plainfield_Street | tail -n 1
+   30  head -n 284 streets/Dunstable_Road | tail -n 1
+   31  cat interviews/interview-29741223
+   32  cat interviews/interview-9620713
+   33  cd memberships
+   34  ls
+   35  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+   36  ls
+   37  cd ../..
+   38  ls
 Killer: Jeremy Bowers
