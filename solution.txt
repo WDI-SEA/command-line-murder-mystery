@@ -1,0 +1,386 @@
+The Murderer is Jeremy Bowers
+The Murderer is Jeremy Bowers
+» history                                 jacobvankampen@Jacobs-MacBook-Air
+    1  echo /bin/zsh
+    2  sh -c #!/bin/sh # # This script should be run via curl: # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # or via wget: # sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # or via fetch: # sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # # As an alternative, you can first download the install script and run it afterwards: # wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh # sh install.sh # # You can tweak the install behavior by setting variables when running the script. For # example, to change the path to the Oh My Zsh repository: # ZSH=~/.zsh sh install.sh # # Respects the following environment variables: # ZSH - path to the Oh My Zsh repository folder (default: $HOME/.oh-my-zsh) # REPO - name of the GitHub repo to install from (default: ohmyzsh/ohmyzsh) # REMOTE - full remote URL of the git repo to install (default: GitHub via HTTPS) # BRANCH - branch to check out immediately after install (default: master) # # Other options: # CHSH - 'no' means the installer will not change the default shell (default: yes) # RUNZSH - 'no' means the installer will not run zsh after the install (default: yes) # KEEP_ZSHRC - 'yes' means the installer will not replace an existing .zshrc (default: no) # # You can also pass some arguments to the install script to set some these options: # --skip-chsh: has the same behavior as setting CHSH to 'no' # --unattended: sets both CHSH and RUNZSH to 'no' # --keep-zshrc: sets KEEP_ZSHRC to 'yes' # For example: # sh install.sh --unattended # or: # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended # set -e # Track if $ZSH was provided custom_zsh=${ZSH:+yes} # Default settings ZSH=${ZSH:-~/.oh-my-zsh} REPO=${REPO:-ohmyzsh/ohmyzsh} REMOTE=${REMOTE:-https://github.com/${REPO}.git} BRANCH=${BRANCH:-master} # Other options CHSH=${CHSH:-yes} RUNZSH=${RUNZSH:-yes} KEEP_ZSHRC=${KEEP_ZSHRC:-no} command_exists() { command -v "$@" >/dev/null 2>&1 } fmt_error() { printf '%sError: %s%s
+' "$BOLD$RED" "$*" "$RESET" >&2 } fmt_underline() { printf '[4m%s[24m
+' "$*" } fmt_code() { # shellcheck disable=SC2016 # backtic in single-quote printf '`[38;5;247m%s%s`
+' "$*" "$RESET" } setup_color() { # Only use colors if connected to a terminal if [ -t 1 ]; then RED=$(printf '[31m') GREEN=$(printf '[32m') YELLOW=$(printf '[33m') BLUE=$(printf '[34m') BOLD=$(printf '[1m') RESET=$(printf '[m') else RED="" GREEN="" YELLOW="" BLUE="" BOLD="" RESET="" fi } setup_ohmyzsh() { # Prevent the cloned repository from having insecure permissions. Failing to do # so causes compinit() calls to fail with "command not found: compdef" errors # for users with insecure umasks (e.g., "002", allowing group writability). Note # that this will be ignored under Cygwin by default, as Windows ACLs take # precedence over umasks except for filesystems mounted with option "noacl". umask g-w,o-w echo "${BLUE}Cloning Oh My Zsh...${RESET}" command_exists git || { fmt_error "git is not installed" exit 1 } ostype=$(uname) if [ -z "${ostype%CYGWIN*}" ] && git --version | grep -q msysgit; then fmt_error "Windows/MSYS Git is not supported on Cygwin" fmt_error "Make sure the Cygwin git package is installed and is first on the \$PATH" exit 1 fi git clone -c core.eol=lf -c core.autocrlf=false \ -c fsck.zeroPaddedFilemode=ignore \ -c fetch.fsck.zeroPaddedFilemode=ignore \ -c receive.fsck.zeroPaddedFilemode=ignore \ --depth=1 --branch "$BRANCH" "$REMOTE" "$ZSH" || { fmt_error "git clone of oh-my-zsh repo failed" exit 1 } echo } setup_zshrc() { # Keep most recent old .zshrc at .zshrc.pre-oh-my-zsh, and older ones # with datestamp of installation that moved them aside, so we never actually # destroy a user's original zshrc echo "${BLUE}Looking for an existing zsh config...${RESET}" # Must use this exact name so uninstall.sh can find it OLD_ZSHRC=~/.zshrc.pre-oh-my-zsh if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]; then # Skip this if the user doesn't want to replace an existing .zshrc if [ "$KEEP_ZSHRC" = yes ]; then echo "${YELLOW}Found ~/.zshrc.${RESET} ${GREEN}Keeping...${RESET}" return fi if [ -e "$OLD_ZSHRC" ]; then OLD_OLD_ZSHRC="${OLD_ZSHRC}-$(date +%Y-%m-%d_%H-%M-%S)" if [ -e "$OLD_OLD_ZSHRC" ]; then fmt_error "$OLD_OLD_ZSHRC exists. Can't back up ${OLD_ZSHRC}" fmt_error "re-run the installer again in a couple of seconds" exit 1 fi mv "$OLD_ZSHRC" "${OLD_OLD_ZSHRC}" echo "${YELLOW}Found old ~/.zshrc.pre-oh-my-zsh." \ "${GREEN}Backing up to ${OLD_OLD_ZSHRC}${RESET}" fi echo "${YELLOW}Found ~/.zshrc.${RESET} ${GREEN}Backing up to ${OLD_ZSHRC}${RESET}" mv ~/.zshrc "$OLD_ZSHRC" fi echo "${GREEN}Using the Oh My Zsh template file and adding it to ~/.zshrc.${RESET}" sed "/^export ZSH=/ c\ export ZSH=\"$ZSH\" " "$ZSH/templates/zshrc.zsh-template" > ~/.zshrc-omztemp mv -f ~/.zshrc-omztemp ~/.zshrc echo } setup_shell() { # Skip setup if the user wants or stdin is closed (not running interactively). if [ "$CHSH" = no ]; then return fi # If this user's login shell is already "zsh", do not attempt to switch. if [ "$(basename -- "$SHELL")" = "zsh" ]; then return fi # If this platform doesn't provide a "chsh" command, bail out. if ! command_exists chsh; then cat <<EOF I can't change your shell automatically because this system does not have chsh. ${BLUE}Please manually change your default shell to zsh${RESET} EOF return fi echo "${BLUE}Time to change your default shell to zsh:${RESET}" # Prompt for user choice on changing the default login shell printf '%sDo you want to change your default shell to zsh? [Y/n]%s ' \ "$YELLOW" "$RESET" read -r opt case $opt in y*|Y*|"") echo "Changing the shell..." ;; n*|N*) echo "Shell change skipped."; return ;; *) echo "Invalid choice. Shell change skipped."; return ;; esac # Check if we're running on Termux case "$PREFIX" in *com.termux*) termux=true; zsh=zsh ;; *) termux=false ;; esac if [ "$termux" != true ]; then # Test for the right location of the "shells" file if [ -f /etc/shells ]; then shells_file=/etc/shells elif [ -f /usr/share/defaults/etc/shells ]; then # Solus OS shells_file=/usr/share/defaults/etc/shells else fmt_error "could not find /etc/shells file. Change your default shell manually." return fi # Get the path to the right zsh binary # 1. Use the most preceding one based on $PATH, then check that it's in the shells file # 2. If that fails, get a zsh path from the shells file, then check it actually exists if ! zsh=$(command -v zsh) || ! grep -qx "$zsh" "$shells_file"; then if ! zsh=$(grep '^/.*/zsh$' "$shells_file" | tail -1) || [ ! -f "$zsh" ]; then fmt_error "no zsh binary found or not present in '$shells_file'" fmt_error "change your default shell manually." return fi fi fi # We're going to change the default shell, so back up the current one if [ -n "$SHELL" ]; then echo "$SHELL" > ~/.shell.pre-oh-my-zsh else grep "^$USERNAME:" /etc/passwd | awk -F: '{print $7}' > ~/.shell.pre-oh-my-zsh fi # Actually change the default shell to zsh if ! chsh -s "$zsh"; then fmt_error "chsh command unsuccessful. Change your default shell manually." else export SHELL="$zsh" echo "${GREEN}Shell successfully changed to '$zsh'.${RESET}" fi echo } main() { # Run as unattended if stdin is not a tty if [ ! -t 0 ]; then RUNZSH=no CHSH=no fi # Parse arguments while [ $# -gt 0 ]; do case $1 in --unattended) RUNZSH=no; CHSH=no ;; --skip-chsh) CHSH=no ;; --keep-zshrc) KEEP_ZSHRC=yes ;; esac shift done setup_color if ! command_exists zsh; then echo "${YELLOW}Zsh is not installed.${RESET} Please install zsh first." exit 1 fi if [ -d "$ZSH" ]; then echo "${YELLOW}The \$ZSH folder already exists ($ZSH).${RESET}" if [ "$custom_zsh" = yes ]; then cat <<EOF You ran the installer with the \$ZSH setting or the \$ZSH variable is exported. You have 3 options: 1. Unset the ZSH variable when calling the installer: $(fmt_code "ZSH= sh install.sh") 2. Install Oh My Zsh to a directory that doesn't exist yet: $(fmt_code "ZSH=path/to/new/ohmyzsh/folder sh install.sh") 3. (Caution) If the folder doesn't contain important information, you can just remove it with $(fmt_code "rm -r $ZSH") EOF else echo "You'll need to remove it if you want to reinstall." fi exit 1 fi setup_ohmyzsh setup_zshrc setup_shell printf %s "$GREEN" cat <<'EOF' __ __ ____ / /_ ____ ___ __ __ ____ _____/ /_ / __ \/ __ \ / __ `__ \/ / / / /_ / / ___/ __ \ / /_/ / / / / / / / / / / /_/ / / /_(__ ) / / / \____/_/ /_/ /_/ /_/ /_/\__, / /___/____/_/ /_/ /____/ ....is now installed! EOF cat <<EOF Before you scream Oh My Zsh! please look over the ~/.zshrc file to select plugins, themes, and options. • Follow us on Twitter: $(fmt_underline https://twitter.com/ohmyzsh) • Join our Discord server: $(fmt_underline https://discord.gg/ohmyzsh) • Get stickers, shirts, coffee mugs and other swag: $(fmt_underline https://shop.planetargon.com/collections/oh-my-zsh) EOF printf %s "$RESET" if [ $RUNZSH = no ]; then echo "${YELLOW}Run zsh to try it out.${RESET}" exit fi exec zsh -l } main "$@"
+    3  brew install git
+    4  git --version
+    5  brew upgrade git
+    6  git --version
+    7  brew link --overwrite git
+    8  brew unlink git && brew link git
+    9  git --version
+   10  code
+   11  code ~/.zshrc
+   12  git config --global init.defaultBranch main
+   13  git config --global user.name YOUR-USERNAME
+   14  git config --global user.name Kaylie87
+   15  git config --global user.email kayliekayhoffman@gmail.com
+   16  git config --global push.default simple
+   17  git config --global credential.helper cache
+   18  git config --global user.name Kaylie87
+   19  git config --global user.email kayliekayhoffman@gmail.com
+   20  git config --global push.default simple
+   21  git config --global credential.helper cache
+   22  ~/.gitconfig
+   23  code ~/.gitconfig
+   24  ssh-keygen -t rsa -b 4096 -C kayliekayhoffman@gmail.com
+   25  eval SSH_AUTH_SOCK=/var/folders/vq/52mhn5rj43q_m_7h4f1nhdj80000gn/T//ssh-R16axUDEHMS7/agent.20457; export SSH_AUTH_SOCK; SSH_AGENT_PID=20458; export SSH_AGENT_PID; echo Agent pid 20458;
+   26  open ~/.ssh/config
+   27  touch ~/.ssh/config
+   28  open ~/.ssh/config
+   29  open ~/.ssh/config 
+   30  ssh-add -K ~/.ssh/id_ed25519
+   31  ssh-add -K ~/.ssh/id_rsa
+   32  open ~/.ssh/config
+   33  pbcopy < ~/.ssh/id_rsa.pub
+   34  cd
+   35  code ~/.zshrc
+   36  pwd
+   37  open .
+   38  ls
+   39  ls downlaods
+   40  ls downloads
+   41  cd downlaods
+   42  cd downloads
+   43  
+
+   44  jacobvankampen
+   45  history
+   46  clear
+   47  pwd
+   48  ls
+   49  music
+   50  pwd
+   51  cd ..
+   52  pwd
+   53  ls
+   54  man ls
+   55  pwd
+   56  ls -l
+   57  ls -a
+   58  ls -la
+   59  man ls
+   60  pwd
+   61  cd ~
+   62  pwd
+   63  ls
+   64  cd desktop
+   65  q
+   66  pwd
+   67  cd Desktop
+   68  mkdir general-assembly
+   69  cd general-assembly
+   70  pwd
+   71  mkdir unit-1
+   72  ls
+   73  mkdir unit-1/deliverables
+   74  ls
+   75  cd unit-1
+   76  ls
+   77  pwd
+   78  cd deliverables
+   79  pwd
+   80  touch about.txt
+   81  ls
+   82  cat about.txt
+   83  echo Hello this is my GA file folder
+   84  echo Hello, this is my GA file folder. > about.txt
+   85  cat about.txt
+   86  grep Hello
+   87  ls
+   88  cd Desktop
+   89  ls
+   90  cd general-assembly
+   91  ls
+   92  cd unit-1
+   93  ls
+   94  cd deliverables
+   95  ls
+   96  cat about.txt | grep Hello
+   97  ls
+   98  cd Desktop
+   99  ls
+  100  cd general-assembly
+  101  ls
+  102  cd unit-1
+  103  ls
+  104  cd deliverables
+  105  ls
+  106  cd ..
+  107  pwd
+  108  mkdi git-basics
+  109  mkdir git-basics
+  110  cd git-basics
+  111  git init
+  112  clear
+  113  git status
+  114  touch example.txt
+  115  ls
+  116  git status
+  117  git add example.txt
+  118  status
+  119  git status
+  120  git rm--cached example.txt
+  121  git rm --cached example.txt
+  122  status
+  123  git status
+  124  git commit -m added example.txt
+  125  git status
+  126  q
+  127  git log
+  128  echo My first change
+  129  echo My first change >> example.txt
+  130  ls
+  131  cat example.txt
+  132  git diff exmple.txt
+  133  git diff example.txt
+  134  git diff example.txtl
+  135  git diff example.txt
+  136  git add example.txt
+  137  git status
+  138  git commit -m added my first change
+  139  q
+  140  clear
+  141  cd ..
+  142  mkdir tacos
+  143  cd tacos
+  144  echo # tacos >> README.md
+git init
+git add README.md
+git commit -m first commit
+git branch -M main
+git remote add origin https://github.com/Kaylie87/tacos.git
+git push -u origin main
+  145  open ~/.zshrc
+  146  git config
+  147  pwd
+  148  cd desktop
+  149  cd general assembly
+  150  cd general-assembly
+  151  cd unit-1
+  152  ls
+  153  cd tacos
+  154  echo # tacos >> README.md
+  155  ls
+  156  cat read.me
+  157  cat README.md
+  158  pwd
+  159  ls
+  160  cd Desktop
+  161  mkdir project_git
+  162  ls
+  163  cd project_git
+  164  touch readme.md
+  165  ls
+  166  git init
+  167  git status
+  168  git add readme.md
+  169  git add .
+  170  git status
+  171  git commit -m my first commit
+  172  git status
+  173  git diff readme.md
+  174  cat readme.md
+  175  echo This is some text. >> readme.md
+  176  cat readme.md
+  177  git status
+  178  git diff readme.md
+  179  git add readme.md
+  180  git commit -m added title
+  181  git log
+  182  cat readme.md
+  183  git diff readme.md
+  184  git rem <file>
+  185  git rm readme.md
+  186  git commit -am deleted file
+  187  ls
+  188  echo # tacos >> README.md
+git init
+git add README.md
+git commit -m first commit
+git branch -M main
+git remote add origin https://github.com/Kaylie87/tacos.git
+git push -u origin main
+  189  ls
+  190  cat readme.bd
+  191  cat readme.md
+  192  cd ..
+  193  pwd
+  194  cd ..
+  195  pwd
+  196  ls
+  197  desktop
+  198  ls
+  199  general-assembly
+  200  ls
+  201  unit-1
+  202  ls
+  203  deliverables
+  204  ls
+  205  https://github.com/Kaylie87/command-line-murder-mystery.git
+  206  gh repo clone Kaylie87/command-line-murder-mystery
+  207  git clone git@github.com:Kaylie87/command-line-murder-mystery.git
+  208  git clone https://github.com/Kaylie87/command-line-murder-mystery.git
+  209  ls
+  210  command-line-murder-mystery
+  211  ls
+  212  cat instructions
+  213  cat README.md
+  214  touch solution.txt
+  215  ls
+  216  cat license
+  217  ls
+  218  cat cheatsheet.pdf
+  219  ls
+  220  cat instructions
+  221  cat mystery
+  222  cd mystery
+  223  ls
+  224  cd crimescene
+  225  cat crimescene
+  226  pwd
+  227  ls
+  228  grep -A 4 CLUE
+  229  ls
+  230  cd Desktop
+  231  ls
+  232  cd general-assembly
+  233  cd unit-1
+  234  ls
+  235  cd deliverables
+  236  ls
+  237  cd command-line-murder-mystery
+  238  ls
+  239  cd mystery
+  240  ls
+  241  grep CLUE crimescene
+  242  cd interviews
+  243  ls
+  244  cd memberships
+  245  pwd
+  246  cd ..
+  247  cd memberships
+  248  ls
+  249  cat AAA
+  250  cd ..
+  251  ls
+  252  cd memberships
+  253  ls
+  254  cat Delta_SkyMiles
+  255  pwd
+  256  ls
+  257  cat txtc
+  258  cat txt
+  259  cat newflie.txt
+  260  cat Costco
+  261  ls
+  262  cd ..
+  263  ls
+  264  cat people
+  265  ls
+  266  cd streets
+  267  ls
+  268  pwd
+  269  cd ..
+  270  cd vehicles
+  271  cd ..
+  272  ls
+  273  cat hint1
+  274  cat hint2
+  275  cat hint3
+  276  cat hint4
+  277  ls
+  278  cd mystery
+  279  ls
+  280  grep Annabel people
+  281  cd ..
+  282  ls
+  283  cat hint4
+  284  cat hint5
+  285  ls
+  286  head -n 173 streets/Mattapan_Street | tail -n 1
+  287  cd mystery
+  288  head -n 173 streets/Mattapan_Street | tail -n 1
+  289  ls
+  290  cd interviews
+  291  ls
+  292  cat interview-9437737
+  293  cd ..
+  294  head -n 40 streets/Hart_Place | tail -n 1
+  295  ls
+  296  cd interviews
+  297  cat interview-7246024
+  298  cat interview-47246024
+  299  cd ..
+  300  head -n 179 streets/buckingham_place -n 1l
+  301  head -n 179 streets/buckingham_place -n 1l  
+  302  ls
+  303  cd interviews
+  304  cat interview-699607
+  305  cd ..
+  306  ls
+  307  cat vehicles
+  308  grep L337 veichles
+  309  grep L337 vehicles
+  310  grep blue vehicles
+  311  grep honda vehicles
+  312  ls
+  313  cd ..
+  314  cat hint6
+  315  ls
+  316  cd mystery
+  317  ls
+  318  grep Honda vehicles
+  319  head -n vehicles/grep L337 vehicles L337 -n
+  320  head vehicles/honda
+  321  head -n vehicles/hondat | tail -n 1
+  322  cd ..
+  323  ls
+  324  cat hint7
+  325  ls
+  326  cd mystery
+  327  grep -A 5 L337 mystery/vehicles
+  328  ls
+  329  cd ..
+  330  grep -A 5 L337 mystery/vehiclesv
+  331  grep -A 5 L337 mystery/vehicles
+  332  ls
+  333  cat hint8
+  334  cat Fitness_Galaxy AAA United_MileagePlFitness_Galaxy AAA United_MileagePlus | grep John Smith
+  335  cat AAA Delta_SkyMiles library | grep Joe Germuska
+  336  cat Fitness_Galaxy AAA United_MileagePlus | grep John Smith
+  337  cat AAA Delta_SkyMiles library | grep jeremy bowersa
+  338  cat AAA Delta_SkyMiles library | grep Jeremy bowers
+  339  cat AAA Delta_SkyMiles library | grep Jacqui maher
+  340  ls
+  341  cd mystery
+  342  cat AAA Delta_SkyMiles library | grep Joe Germuska
+  343  ls
+  344  cd memberships
+  345  cat AAA Delta_SkyMiles library | grep Joe Germuska
+  346  cat AAA Delta_SkyMiles library | grep Jeremy Bowers
+  347  cat AAA Delta_SkyMiles library | grep Jacqui Maher
+  348  ls
+  349  cat Terminal_City_Library | grep Erika Owens
+  350  grep Erika Owens Terminal_City_Library
+  351  at AAA Delta_SkyMiles Terminal_City_library | grep Jeremy Bowers
+  352  cat AAA Delta_SkyMiles Terminal_City_library | grep Jeremy Bowers
+  353  cat AAA Delta_SkyMiles Terminal_City_library | grep Erika Owens
+  354  cd .
+  355  cd..
+  356  cd ..
+  357  ls
+  358  echo The Murderer is Jeremy Bowers
+  359  echo The Murderer is Jeremy Bowers >> solution.txt
+  360  cat solution.txt
+  361  history > solutions.txt
+  362  cat solutions.txt
+  363  echo The Murderer is Jeremy Bowers >> solution.txt
+  364  cat solution.txt
+  365  cat soltion.txt
+  366  cat solution.txt
+The Murderer is Jeremy Bowers
