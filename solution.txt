@@ -1,0 +1,120 @@
+
+: 1620092139:0;ls 
+: 1620092145:0;cat instructions
+: 1620092156:0;cd mystery
+: 1620092162:0;ls
+: 1620092182:0;cat crimescene | grep CLUE
+: 1620092201:0;man grep
+: 1620092328:0;cat ../hint1
+: 1620092337:0;cat ../hint2
+: 1620092341:0;cat ../hint3
+: 1620092349:0;ls
+: 1620092362:0;head -n 30 people
+: 1620092370:0;head -n 30 vehicles
+: 1620092390:0;cat people | grep Annabel
+: 1620092409:0;cat ../hint4
+: 1620092422:0;cat ../hint5
+: 1620092465:0;head -n 40 streets/Hart_Place | tail -n 1
+: 1620092516:0;cat interviews/interview-47246024
+: 1620092522:0;cat people | grep Annabel
+: 1620092531:0;grep Annabel people
+: 1620092594:0;head -n 179 streets/Buckingham_Place | tail -n 2
+: 1620092615:0;cat interviews/interview-699607
+: 1620092671:0;grep -b10 L337*9 vehicles
+: 1620092676:0;grep -b10 L337 vehicles
+: 1620092793:0;grep -a1 -b4 Honda vehicles
+: 1620092843:0;man grep
+: 1620092882:0;grep -A1 -B4 Honda vehicles
+: 1620092910:0;head -n 30 vehicles
+: 1620092926:0;grep -A4 -B1 Honda vehicles
+: 1620092977:0;grep -A4 -B1 Honda vehicles | grep -B2 -A3 Blue | grep -A5 L337
+: 1620093007:0;cat interviews/interview-699607
+: 1620093045:0;grep -A4 -B1 Honda vehicles | grep -B2 -A3 Blue | grep -A5 L337 | grep Owner:
+: 1620093081:0;grep -A4 -B1 Honda vehicles | grep -B2 -A3 Blue | grep -A5 L337 | grep Owner: > drivers.txt
+: 1620093088:0;cat drivers.txt
+: 1620093110:0;ls ..
+: 1620093118:0;cat ../hint4
+: 1620093122:0;cat ../hint6
+: 1620093128:0;cat ../hint7
+: 1620093134:0;cat ../hint8
+: 1620093186:0;grep CLUES crimescene
+: 1620093215:0;grep CLUE crimescene
+: 1620093227:0;ls
+: 1620093273:0;ls memberships
+: 1620093288:0;cat memberships/1.txt
+: 1620093295:0;ls
+: 1620093297:0;ls memberships
+: 1620093306:0;head memberships/2.txt
+: 1620093315:0;head memberships/AA
+: 1620093318:0;head memberships/AAA
+: 1620093329:0;head memberships/newfile.txt
+: 1620093341:0;grep CLUE crimescene
+: 1620093467:0;cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep -c "Erika Owens:\
+
+: 1620093469:0;cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep -c "Erika Owens"\
+
+: 1620093481:0;cat drivers.txt
+: 1620093499:0;cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep -c "Aron Pilhofer"\
+
+: 1620093520:0;cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep -c "Heather Billings"\
+
+: 1620093530:0;cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep -c "Joe Germuska"\
+
+: 1620093540:0;cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep -c "Jeremy Bowers\
+
+: 1620093544:0;cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep -c "Jeremy Bowers"\
+
+: 1620093554:0;cat memberships/AAA memberships/Delta_SkyMiles memberships/Museum_of_Bash_History memberships/Terminal_City_Library | grep -c "Jacqui Maher"\
+
+: 1620093569:0;grep "Jeremy Bowers" people
+: 1620093586:0;grep -A5 "Jeremy Bowers" vehicles
+: 1620093600:0;grep -C3 "Jeremy Bowers" vehicles
+: 1620093638:0;history
+: 1620093672:0;grep "Jeremy Bowers" people
+: 1620093692:0;head -n 284 streets/Dunstable_Road| tail -n 1
+: 1620093707:0;cat interviews/interview-9620713
+: 1620093828:0;ls ..
+: 1620093837:0;cat ../hint8
+: 1620095125:0;ls ..
+: 1620095343:0;head -n 284 streets/Dunstable_Road| tail -n 1
+: 1620095347:0;cat interviews/interview-9620713
+: 1620095412:0;man grep
+: 1620095475:0;ls
+: 1620095478:0;cd interviews
+: 1620095493:0;grep suspect -H
+: 1620095504:0;grep -H suspect
+: 1620095554:0;man cat
+: 1620095598:0;man grep
+: 1620095630:0;ls
+: 1620095644:0;head interview-03098229
+: 1620095657:0;man wc
+: 1620095685:0;wc -l interview-03098229
+: 1620095694:0;cat interview-03098229
+: 1620095708:0;grep suspect
+: 1620095871:0;ls | cat | grep suspect
+: 1620095904:0;ls
+: 1620095924:0;wc -l 
+: 1620095945:0;cat interviews/interview-9620713
+: 1620095956:0;cat interview-9620713
+: 1620095974:0;grep "Jeremy Bowers" people
+: 1620095979:0;grep "Jeremy Bowers" ../people
+: 1620095987:0;grep "Jeremy Bowers" ../vehicles
+: 1620095997:0;grep -C3 "Jeremy Bowers" ../vehicles
+: 1620096324:0;cd ..
+: 1620096329:0;ls 
+: 1620096338:0;mv drivers.txt drivers
+: 1620096340:0;ls 
+: 1620096344:0;cat drivers
+: 1620096358:0;grep people Jacqui Maher
+: 1620096368:0;grep "Jacqui Maher" people
+: 1620096391:0;head -n 224 streets/Andover_Road | tail -n1
+: 1620096405:0;cat interviews/interview-904020
+: 1620096448:0;cat ../instructions
+: 1620096478:0;ls
+: 1620096482:0;cd ..
+: 1620096491:0;touch solution.txt
+: 1620096502:0;cat history
+: 1620096558:0;history
+: 1620096700:0;head -n 278 ~./zsh_history >> solution.txt
+: 1620096710:0;head -n 278 ~/.zsh_history >> solution.txt
+Jeremy Bowers
