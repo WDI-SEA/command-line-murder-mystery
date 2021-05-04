@@ -1,0 +1,56 @@
+git clone git@github.com:nesbita/command-line-murder-mystery.git  //cloned
+cd command-line-murder-mystery
+ls
+cat instructions
+cat README.md
+touch solution.txt
+cat hint1
+ls -a
+grep -r "CLUE" *     //to search directories and subdirectories for "CLUE" (hint 2)
+grep -c "CLUE" *     //to confirm where "CLUE" is found
+cd mystery
+head -n 20 people
+cd mystery           //enter mystery file
+head -n 20 people    //specifies number of people to show
+cd .. 
+cat hint2            // already did
+cat hint3
+grep -r "Annabel" *  // finds the name Annabel in directories and subdirectories //name + address AC
+grep -r "New Zealand" *
+grep -r "blond" *
+cat hint4
+cat hint5
+grep -r "6'" *      // MB?
+grep -r "Bostock" * // not MB
+cd mystery
+cd memberships
+ls
+cat AAA Delta_SkyMiles Terminal_City_Library | grep "Annabel" // returns AC
+cd mystery
+head -n 20 vehicles
+cat hint4
+cd mystery
+grep "Annabel" people  //AO and AC
+cd ..
+ls
+grep -r "CLUE" *
+cd mystery
+grep CLUE crimescene>>clues.txt
+ls
+cat clues.txt
+cd ..
+cat hint5
+cat hint6
+cat hint7
+grep -A 5 "L337" mystery/vehicles //AS, JG, JB, EO, JM
+cd mystery
+head -n 179 streets/Buckingham_Place | tail -n 1  // interview #699607
+cd memberships
+cat AAA Delta_SkyMiles Terminal_City_Library | grep "Shaw"
+cat AAA Delta_SkyMiles Terminal_City_Library | grep "Germuska"
+cat AAA Delta_SkyMiles Terminal_City_Library | grep "Bowers"
+cat AAA Delta_SkyMiles Terminal_City_Library | grep "Owens"
+cat AAA Delta_SkyMiles Terminal_City_Library | grep "Maher"
+cat hint8
+
+Jeremy Bowers is the suspect.
