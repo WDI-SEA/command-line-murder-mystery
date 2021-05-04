@@ -720,7 +720,7 @@
   720  cat Dunstable_Road
   721  head -n Dunstable | tail -n 1
   722  head -n 284 | tail -n 1
-  723  head -n 284 streets/Dunstable_Road | tail -n 1
+  723  head -n 284 streets/Dunstable_Road  | tail -n 1
   724  head -n '284' streets/Dunstable_Road | tail -n 1
   725  head -n '284' Dunstable_Road | tail -n 1
   726  ls
@@ -775,4 +775,26 @@
   775  echo "Jeremy Bowers" > solution.txt
   776  cat solution.txt
   777  ls
+  778  history > solution.txt
+  779  history
+  780  cd Desktop/GA/Unit\ 1/deliverables/command-line-murder-mystery
+  781  ls
+  782  echo "Jeremy Bowers is the Murderer" >> solutions.txt
+  783  cat solutions.txt
+  784  cat solution.txt
+  785  echo "Jeremy Bowers is the Murderer" >> solution.txt
+  786  cat solution.txt
+  787  history
+  788  history > solution.txt
+  789  cat solution.txt
+  790  echo "Jeremy Bowers is the Murderer" >> solution.txt\n
+  791  cd Desktop/GA/Unit\ 1/deliverables/command-line-murder-mystery
+  792  ls
+  793  git status
+  794  git add
+  795  git add -A
+  796  git status
+  797  git commit -a -m "SPOILERS IN SOLUTION"
+  798  git push
+  799  history
 Jeremy Bowers is the Murderer
