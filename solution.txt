@@ -1,0 +1,185 @@
+1.738  git clone git@github.com:die-perez/command-line-murder-mystery.git
+  739  ls
+  740  cd ..
+  741  del temp -f
+  742  rm temp -f
+  743  deltree temp -f
+  744  cd ~/Desktop/general-assembly/unit-1/deliverables
+  745  cd command-line-murder-mystery
+  746  git remote set-url origin git@github.com:die-perez/command-line-murder-mystery.git
+  747  git fetch
+  748  git help
+  749  git log
+  750  clear
+  751  ls
+  752  cat instructions
+  753  cat mystery
+  754  cd mystery
+  755  ls
+  756  ls crimescene
+  757  cat crimescene
+  758  ls
+  759  cat people
+  760  ls
+  761  cd interviews
+  762  ls
+  763  cd ..
+  764  cd memberships
+  765  ls
+  766  cd ..
+  767  cat vehicles
+  768  cd ..
+  769  ls
+  770  cat README.md
+  771  cat cheatsheet.md
+  772  ls
+  773  cat hint1
+  774  cat hint2
+  775  cat hint3
+  776  cat hint4
+  777  cat hint5
+  778  cat hint6
+  779  cat hint7
+  780  cat hint8
+  781  cat license
+  782  cat license.txt
+  783  ls
+  784  cat cheatsheet.pdf
+  785  ls
+  786  cd mystery
+  787  ls
+  788  cd people
+  789  head -n 20 people
+  790  grep "CLUE" crimescene
+  791  ls -a
+  792  cd memberships
+  793  ls
+  794  clear
+  795  cd ..
+  796  cd Desktop/general-assembly/unit-1/deliverables
+  797  ls
+  798  cd command-line-murder-mystery
+  799  cd mystery
+  800  ls
+  801  cd memberships
+  802  ls
+  803  cat AAA || grep "Annabel"
+  804  grep "Annabel"
+  805  cd ..
+  806  ls
+  807  grep "Annabel" people
+  808  grep "CLUE" crimescene
+  809  cd memberships
+  810  grep "Annabel" AAA
+  811  ls
+  812  grep "Annabel" Delta_SkyMiles
+  813  grep "Annabel" library.txt
+  814  cd ..
+  815  head people
+  816  cd streets
+  817  grep "line 40" 
+  818  ls
+  819  cat Hart_Place
+  820  ls
+  821  cat Mattapan_Street
+  822  head -n 40 Hart_Place
+  823  head -n 173 Mattapan_Street
+  824  head -n 179 Buckingham_Place
+  825  head -n 176 Haley_Street
+  826  cd ..
+  827  ls
+  828  grep "honda" vehicles
+  829  grep "blue" vehicles
+  830  cat vehicles
+  831  ls
+  832  cd interviews
+  833  ls
+  834  cat interview-9437737
+  835  cat interview-47246024
+  836  cat interview-699607
+  837  cat interview-871877
+  838  cd ..
+  839  ls
+  840  cat vehicles | grep Honda
+  841  cat vehicles | grep L337
+  842  cat vehicles | sort
+  843  ls
+  844  head "Blue" vehicles
+  845  head "L337" vehicles
+  846  cd vehicles
+  847  head vehicles
+  848  cat "L337" vehicles
+  849  cat vehicles | grep "L337"
+  850  cat vehicles | sort "Honda"
+  851  cat vehicles | "L337"
+  852  cat vehicles | sort
+  853  cat vehicles | sort "License Plate"
+  854  cat vehicles
+  855  vehicles --sort
+  856  head -n 
+  857  head --n vehicles
+  858  head -n vehicles
+  859  ls
+  860  cd memberships
+  861  ls
+  862  cd ..
+  863  ls
+  864  cat vehicles | sort 
+  865  clear
+  866  ls
+  867  vehicles sort -n
+  868  cat vehicles | sort -n
+  869  clear
+  870  ls
+  871  head "L337" vehicles
+  872  grep "L337" vehicles
+  873  grep "L337ZR9" vehicles
+  874  cat vehicles | grep L337
+  875  cat vehicles | sort L337
+  876  cat vehicles | grep L337 && Honda
+  877  sort -nk2 vehicles
+  878  sort -nk3 vehicles
+  879  cat vehicles
+  880  ls
+  881  cat vehicles | grep "L337"
+  882  cat vehicles | grep "L337" | sort -n
+  883  cat vehicles | sort -n
+  884  cat vehicles | grep -m "L337*Blue*Honda"
+  885  cat vehicles | grep -M "L337*Blue*Honda"
+  886  cat vehicles | grep "L337*Blue*Honda" -M
+  887  cat vehicles | grep -A5 "L337"
+  888  cat vehicles | grep -A6 "L337"
+  889  cat vehicles | grep -A4 "L337"
+  890  cat vehicles | grep -A3 "L337"
+  891  cat vehicles | grep -A4 "L337"
+  892  cat vehicles | grep -A4 "L337" | grep -B1 -A3 "Honda"
+  893  cat vehicles | grep -A4 "L337" | grep -B1 -A3 "Honda" | grep -A2 -A2 "Blue"
+  894  cat vehicles | grep -A4 "L337" | grep -B1 -A3 "Honda" | grep -B2 -A2 "Blue"
+  895  cat vehicles | grep -A4 "L337" | grep -B1 -A3 "Honda" | grep -B2 -A2 "Blue" 
+  896  cat vehicles | grep -A4 "L337" | grep -B1 -A3 "Honda" | grep -B2 -A1 "Blue" 
+  897  cat vehicles | grep -A4 "L337" | grep -B1 -A3 "Honda" | grep -B2 -A2 "Blue" 
+  898  cat vehicles | grep -A4 "L337" | grep -B1 -A3 "Honda" | grep -B2 -A2 "Blue" | grep -B4 "6"
+  899  cat vehicles | grep -A4 "L337" | grep -B1 -A3 "Honda" | grep -B2 -A2 "Blue" | grep -B4 "Height: 6"
+  900  ls
+  901  cd memberships
+  902  ls
+  903  cat AAA | grep "Erika Owens"
+  904  cat AAA | grep "Joe Germuska"
+  905  cat Delta_SkyMiles | grep "Joe Germuska"
+  906  cat AAA | grep "Jeremy Bowers"
+  907  cat library.txt | grep "Jeremy Bowers|Jacqui Maher"
+  908  cat library.txt | grep "Jeremy Bowers"
+  909  cat library.txt | grep -E "Jeremy Bowers|Jacqui"
+  910  cat library.txt | grep -E "Jeremy Bowers|Jacqui Maher|Joe Germuska|ErikaOwens"
+  911  cat library.txt | grep -E "Jeremy Bowers|Jacqui Maher|Joe Germuska|Erika Owens"
+  912  cat AAA | grep -E "Jeremy Bowers|Jacqui Maher|Joe Germuska|Erika Owens"
+  913  cat Delta_SkyMiles | grep -E "Jeremy Bowers|Jacqui Maher|Joe Germuska|Erika Owens"
+  914  cat Museum_of_Bash_History | grep -E "Jeremy Bowers|Jacqui Maher|Joe Germuska|Erika Owens"
+  915  cd ..
+  916  ls
+  917  cat hint8
+  918  cat hint7
+  919  cat cheatsheet.md
+  920  cat README.md
+  921  touch solution.txt
+2. Jeremy Bowers
