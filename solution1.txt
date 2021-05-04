@@ -1,0 +1,449 @@
+    1  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    2  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    3  code ~/.zshrc
+    4  pwd
+    5  code
+    6  git remote--
+    7  git remote --
+    8  git --version
+    9  echo $SHELL
+   10  ls
+   11  klsjadf;lkjasdlk;j
+   12  pwd
+   13  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   14  command -v nvm
+   15  nvm install node
+   16  node --version
+   17  npm --version
+   18  pwd
+   19  code ~/.zshrc
+   20  pwd
+   21  cd ~
+   22  pwd
+   23  open .
+   24  open
+   25  pwd
+   26  open
+   27  pwd
+   28  cd ~
+   29  ls
+   30  cd ~
+   31  ls
+   32  cd LearnWSL
+   33  ls
+   34  cd code
+   35  cd ~
+   36  cd /
+   37  /
+   38  cd ~
+   39  clear
+   40  history
+   41  clear
+   42  cd
+   43  pwd
+   44  ls
+   45  cd code
+   46  ls
+   47  man
+   48  man ls
+   49  cd ~
+   50  man ls
+   51  pwd
+   52  mkdir GA
+   53  pwd
+   54  cd GA
+   55  pwd
+   56  open .
+   57  pwd
+   58  mkdir unit-1
+   59  cd unit-1
+   60  ./unit-1
+   61  ./
+   62  open ./
+   63  clear
+   64  mkdir unit-1/deliverables
+   65  cd unit-1
+   66  pwd
+   67  mkdir deliverables
+   68  cd deliverables
+   69  cd GA
+   70  cd ~
+   71  cd GA
+   72  ls
+   73  cd unit-1
+   74  ls
+   75  cd deliverables
+   76  ls
+   77  touch about.txt
+   78  ls
+   79  -rf about.txt
+   80  rm -rf .txt
+   81  rm about.txt
+   82  ls
+   83  cd ~
+   84  cd GA
+   85  ls
+   86  touch about.txt
+   87  ls
+   88  cat about.txt
+   89  echo "hello this is my GA folder" > about.txt
+   90  cat about.txt
+   91  echo "hello this is my 2nd GA text in the folder" > about.txt
+   92  cat about.txt
+   93  grep "hello"
+   94  pwd
+   95  cat about.txt > grep
+   96  cat about.txt | grep "hello"
+   97  ls
+   98  cd unit-1
+   99  mkdir git-basics
+  100  cd git-basics
+  101  git init
+  102  git status
+  103  touch example.txt
+  104  ls
+  105  git status
+  106  git add example.txt
+  107  git status
+  108  echo "testing testing" > example.txt
+  109  cat example.txt
+  110  add example.txt
+  111  git add example.txt
+  112  git status
+  113  cat example.txt
+  114  git rm --cached example.txt
+  115  git status
+  116  git add example.txt
+  117  git stats
+  118  git status
+  119  git commit -m "added a test example file"
+  120  git log
+  121  echo "my first change" >> example.txt
+  122  cat example.txt
+  123  git commit -m "added a new line"
+  124  git add example.txt
+  125  git commit -m "Added a new line"
+  126  git log
+  127  git diff example.txt
+  128  cd unit-1
+  129  cat example.txt
+  130  echo "my second change" > example.txt
+  131  cat example.txt
+  132  git checkout example.txt
+  133  cat example.txt
+  134  cd ~
+  135  ls
+  136  cd GA
+  137  ls
+  138  cd grep
+  139  ls GA
+  140  cd ~
+  141  ls
+  142  cd GA
+  143  ls
+  144  cd unit-1
+  145  ls
+  146  cd git-basics
+  147  ls
+  148  git clone git@github.com:grant-create/command-line-murder-mystery.git
+  149  ls
+  150  rm example.txt
+  151  git status
+  152  git add command-line-murder-mystery
+  153  git rm --cached command-line-murder-mystery
+  154  git log
+  155  git status
+  156  git log
+  157  git commit -m "not sure"
+  158  git status
+  159  git checkout example.txt
+  160  ls
+  161  cd command-line-murder-mystery
+  162  cat instructions
+  163  ls
+  164  cd cheatsheet.md
+  165  cheatsheet.md
+  166  cat cheatsheet.md
+  167  ls
+  168  cat instructions
+  169  grep "CLUE" hint1
+  170  grep "CLUE" hint1.txt
+  171  ls
+  172  cat hint1
+  173  cat license.txt
+  174  cat LICENSE.txt
+  175  ls
+  176  cd mystery
+  177  ls
+  178  cat crimescene
+  179  gret "CLUE" crimescene
+  180  grep "CLUE" crimescene
+  181  cd GA
+  182  ls
+  183  cd unit-1
+  184  ls
+  185  cd deliverables
+  186  ls
+  187  /deliverables
+  188  cd ~
+  189  cd GA
+  190  ls
+  191  cd unit-1
+  192  ls
+  193  cd git-basics
+  194  ls
+  195  cd command-line-murder-mystery
+  196  ls
+  197  cat hint2
+  198  cat hint3
+  199  ls
+  200  head people
+  201  cat people
+  202  head people
+  203  cat people
+  204  clear
+  205  ls
+  206  head people
+  207  head vechiles
+  208  ls
+  209  head vehicles
+  210  cat hint2
+  211  cat hint3
+  212  hint4
+  213  cat hint4
+  214  grep "Annabel" people
+  215  grep "CLUE" crimescene
+  216  cat hint5
+  217  cd GA
+  218  ls
+  219  cd unit-1
+  220  ls
+  221  cd git-basics
+  222  ls
+  223  cd command-line-murder-mystery
+  224  ls
+  225  cat cheatsheet
+  226  cat cheatsheet.md
+  227  cat hint6
+  228  grep "Honda" vehicles
+  229  clear
+  230  hint7
+  231  cat hint7
+  232  ls
+  233  grep -C "L337" vehicles
+  234  grep -C 5 "L337" vehicles
+  235  ls
+  236  cd interviews
+  237  ls
+  238  hint8
+  239  cat hint8
+  240  clear
+  241  ls
+  242  cd ..
+  243  clear
+  244  ls
+  245  grep "CLUE" crimescene
+  246  cat hint1
+  247  grep "Anna" people
+  248  grep "Annabel" people
+  249  cat hint2
+  250  cat hint3
+  251  head -n 5 people
+  252  ls
+  253  cd GA/unit-1
+  254  ls
+  255  cd git-basics
+  256  cd command-line-murder-mystery
+  257  ls
+  258  cd mystery
+  259  ls
+  260  cd streets
+  261  ls
+  262  cat Hart_Place
+  263  cat Mattapan_Street
+  264  cat Buckingham_Palace
+  265  cat Buckingham_Place
+  266  cat Haley_Street
+  267  head -n 179 Buckingham_Place
+  268  head -n 40 Hart_Place
+  269  head -n 45 Hart_Place
+  270  head -n 174 Mattapan_Street
+  271  head -n 177 Haley_Street
+  272  head 20 people
+  273  head people
+  274  head -n 20 people
+  275  head -n 134 Walton_Street
+  276  head -n 133 Walton_Street
+  277  head -n 391 Hemenway_Street
+  278  cat street
+  279  head vehicles
+  280  head -n 20 vehicles
+  281  head -n 200 vehicles
+  282  grep "Annabel" vehicles
+  283  grep -C 5 "Annabel" vehicles
+  284  ls
+  285  cd ..
+  286  ls
+  287  grep "CLUE" crimescene
+  288  cd GA/unit-1/git-basics/command-line-murder-mystery/
+  289  mkdir solution.txt
+  290  ls
+  291  cd memberships
+  292  grep "Annabel" 
+  293  ls
+  294  grep "Annabel" memberships
+  295  cd GA/unit-1/git-basics/command-line-murder-mystery/ls
+  296  cd GA/unit-1/git-basics/command-line-murder-mystery
+  297  ls
+  298  cd mystery
+  299  ls
+  300  cd memberships
+  301  grep "Annabel" memberships
+  302  ls
+  303  grep "Annabel" Delta_Skymiles
+  304  cat Delta_SkyMiles
+  305* grep -C 5 "Anabel" vehicles
+  306* ls
+  307* grep "Anabel" people
+  308  ls
+  309  grep "Anabel" Delta_SkyMiles
+  310  grep -C 5 "Anabel" Delta_SkyMiles
+  311* cd interviews
+  312* ls
+  313* cd ..
+  314* ls
+  315* head vehicles
+  316* grep -C 5 "Anabel" vehicles
+  317* cat hint4
+  318* cat hint5
+  319* cat hint6
+  320* cat hint7
+  321* cat hint8
+  322* ls
+  323* grep "CLUE" crimescene
+  324* ls
+  325* head -n 20 people
+  326* cd memberships
+  327* ls
+  328* grep "Anabel" AAA
+  329* grep "Anabel" library
+  330* cat library.txt
+  331* cd..
+  332* cd ..
+  333* clear
+  334* ls
+  335* cat readme.md
+  336* cat instructions
+  337* clear
+  338* ls
+  339* cd mystery
+  340* ls
+  341* grep "CLUES" crimescene
+  342* grep "CLUE" crimescene
+  343* grep "Annabel" people
+  344* grep "Anabel" people
+  345  cd ..
+  346* cd interviews
+  347* grep -C 5 "47246024" interviews
+  348* ls
+  349* grep -C 5 "47246024" interview
+  350* clear
+  351* ls
+  352* cd ..
+  353* ls
+  354* clear
+  355* ls
+  356* head -n 20 people
+  357* head -n 20 vehicles
+  358* grep -C 5 "6'"
+  359* cd GA/unit-1/git-basics/command-line-murder-mystery/mystery
+  360* ls
+  361* grep -C 5 "6'" vehicles
+  362* clear
+  363* ls
+  364* head -n 20 people
+  365  ls
+  366  cd streets
+  367  ls
+  368  clear
+  369  grep "Walton_Street" streets
+  370  cd ..
+  371  grep "Walton_Street" streets
+  372  grep "Elmwood_Avenue" streets
+  373  ls
+  374  cd streets
+  375  ls
+  376  clear
+  377  cat Tennis_Road
+  378  cat Hart_Place
+  379  head -n 40 Hart_Place
+  380  head -n 179 Buckingham_Place
+  381  cd ..
+  382  ls
+  383  cd interviews
+  384  ls
+  385  grep "interview-47246024" interviews
+  386  cat interview-47246024
+  387  cat interview-699607
+  388  ls
+  389  cd ..
+  390  ls
+  391  cd vehicles
+  392  ls
+  393  head vehicles
+  394  grep -A 5 "L337" mystery/vehicles
+  395  grep "Honda" vehicles
+  396  clear
+  397  grep "Honda" vehicles grep "Blue" vehicles
+  398  clear
+  399  ls
+  400  grep "L337" vehicles
+  401  grep -C 5 "L337" vehicles
+  402  grep -A 5 "L337" vehicles
+  403  grep -A 5 "L337" vehicles > tempfile.txt
+  404  grep -C 5 "Honda" tempfile.txt
+  405  grep -A 4 -B 1 "Honda" tempfile.txt
+  406  ls
+  407  cd memberships
+  408  ls
+  409  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jacqui Maher"
+  410  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  411  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  412  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"
+  413  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"cd ..
+  414  cd ..
+  415  ls
+  416  cd ..
+  417  ls
+  418  cd solution.txt
+  419  git history
+  420  git log
+  421  history
+  422  cat solution.txt
+  423  cd ..
+  424  cat solution.txt
+  425  touch solution.txt
+  426  cat solution.txt
+  427  rm solution.txt
+  428  ls
+  429  rm -r solution.txt
+  430  ls
+  431  touch solution.txt
+  432  ls
+  433  echo "    1  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n    2  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k\n    3  code ~/.zshrc\n    4  pwd\n    5  code\n    6  git remote--\n    7  git remote --\n    8  git --version\n    9  echo $SHELL\n   10  ls\n   11  klsjadf;lkjasdlk;j\n   12  pwd\n   13  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh\n   14  command -v nvm\n   15  nvm install node\n   16  node --version\n   17  npm --version\n   18  pwd\n   19  code ~/.zshrc\n   20  pwd\n   21  cd ~\n   22  pwd\n   23  open .\n   24  open\n   25  pwd\n   26  open\n   27  pwd\n   28  cd ~\n   29  ls\n   30  cd ~\n   31  ls\n   32  cd LearnWSL\n   33  ls\n   34  cd code\n   35  cd ~\n   36  cd /\n   37  /\n   38  cd ~\n   39  clear\n   40  history\n   41  clear\n   42  cd\n   43  pwd\n   44  ls\n   45  cd code\n   46  ls\n   47  man\n   48  man ls\n   49  cd ~\n   50  man ls\n   51  pwd\n   52  mkdir GA\n   53  pwd\n   54  cd GA\n   55  pwd\n   56  open .\n   57  pwd\n   58  mkdir unit-1\n   59  cd unit-1\n   60  ./unit-1\n   61  ./\n   62  open ./\n   63  clear\n   64  mkdir unit-1/deliverables\n   65  cd unit-1\n   66  pwd\n   67  mkdir deliverables\n   68  cd deliverables\n   69  cd GA\n   70  cd ~\n   71  cd GA\n   72  ls\n   73  cd unit-1\n   74  ls\n   75  cd deliverables\n   76  ls\n   77  touch about.txt\n   78  ls\n   79  -rf about.txt\n   80  rm -rf .txt\n   81  rm about.txt\n   82  ls\n   83  cd ~\n   84  cd GA\n   85  ls\n   86  touch about.txt\n   87  ls\n   88  cat about.txt\n   89  echo "hello this is my GA folder" > about.txt\n   90  cat about.txt\n   91  echo "hello this is my 2nd GA text in the folder" > about.txt\n   92  cat about.txt\n   93  grep "hello"\n   94  pwd\n   95  cat about.txt > grep\n   96  cat about.txt | grep "hello"\n   97  ls\n   98  cd unit-1\n   99  mkdir git-basics\n  100  cd git-basics\n  101  git init\n  102  git status\n  103  touch example.txt\n  104  ls\n  105  git status\n  106  git add example.txt\n  107  git status\n  108  echo "testing testing" > example.txt\n  109  cat example.txt\n  110  add example.txt\n  111  git add example.txt\n  112  git status\n  113  cat example.txt\n  114  git rm --cached example.txt\n  115  git status\n  116  git add example.txt\n  117  git stats\n  118  git status\n  119  git commit -m "added a test example file"\n  120  git log\n  121  echo "my first change" >> example.txt\n  122  cat example.txt\n  123  git commit -m "added a new line"\n  124  git add example.txt\n  125  git commit -m "Added a new line"\n  126  git log\n  127  git diff example.txt\n  128  cd unit-1\n  129  cat example.txt\n  130  echo "my second change" > example.txt\n  131  cat example.txt\n  132  git checkout example.txt\n  133  cat example.txt\n  134  cd ~\n  135  ls\n  136  cd GA\n  137  ls\n  138  cd grep\n  139  ls GA\n  140  cd ~\n  141  ls\n  142  cd GA\n  143  ls\n  144  cd unit-1\n  145  ls\n  146  cd git-basics\n  147  ls\n  148  git clone git@github.com:grant-create/command-line-murder-mystery.git\n  149  ls\n  150  rm example.txt\n  151  git status\n  152  git add command-line-murder-mystery\n  153  git rm --cached command-line-murder-mystery\n  154  git log\n  155  git status\n  156  git log\n  157  git commit -m "not sure"\n  158  git status\n  159  git checkout example.txt\n  160  ls\n  161  cd command-line-murder-mystery\n  162  cat instructions\n  163  ls\n  164  cd cheatsheet.md\n  165  cheatsheet.md\n  166  cat cheatsheet.md\n  167  ls\n  168  cat instructions\n  169  grep "CLUE" hint1\n  170  grep "CLUE" hint1.txt\n  171  ls\n  172  cat hint1\n  173  cat license.txt\n  174  cat LICENSE.txt\n  175  ls\n  176  cd mystery\n  177  ls\n  178  cat crimescene\n  179  gret "CLUE" crimescene\n  180  grep "CLUE" crimescene\n  181  cd GA\n  182  ls\n  183  cd unit-1\n  184  ls\n  185  cd deliverables\n  186  ls\n  187  /deliverables\n  188  cd ~\n  189  cd GA\n  190  ls\n  191  cd unit-1\n  192  ls\n  193  cd git-basics\n  194  ls\n  195  cd command-line-murder-mystery\n  196  ls\n  197  cat hint2\n  198  cat hint3\n  199  ls\n  200  head people\n  201  cat people\n  202  head people\n  203  cat people\n  204  clear\n  205  ls\n  206  head people\n  207  head vechiles\n  208  ls\n  209  head vehicles\n  210  cat hint2\n  211  cat hint3\n  212  hint4\n  213  cat hint4\n  214  grep "Annabel" people\n  215  grep "CLUE" crimescene\n  216  cat hint5\n  217  cd GA\n  218  ls\n  219  cd unit-1\n  220  ls\n  221  cd git-basics\n  222  ls\n  223  cd command-line-murder-mystery\n  224  ls\n  225  cat cheatsheet\n  226  cat cheatsheet.md\n  227  cat hint6\n  228  grep "Honda" vehicles\n  229  clear\n  230  hint7\n  231  cat hint7\n  232  ls\n  233  grep -C "L337" vehicles\n  234  grep -C 5 "L337" vehicles\n  235  ls\n  236  cd interviews\n  237  ls\n  238  hint8\n  239  cat hint8\n  240  clear\n  241  ls\n  242  cd ..\n  243  clear\n  244  ls\n  245  grep "CLUE" crimescene\n  246  cat hint1\n  247  grep "Anna" people\n  248  grep "Annabel" people\n  249  cat hint2\n  250  cat hint3\n  251  head -n 5 people\n  252  ls\n  253  cd GA/unit-1\n  254  ls\n  255  cd git-basics\n  256  cd command-line-murder-mystery\n  257  ls\n  258  cd mystery\n  259  ls\n  260  cd streets\n  261  ls\n  262  cat Hart_Place\n  263  cat Mattapan_Street\n  264  cat Buckingham_Palace\n  265  cat Buckingham_Place\n  266  cat Haley_Street\n  267  head -n 179 Buckingham_Place\n  268  head -n 40 Hart_Place\n  269  head -n 45 Hart_Place\n  270  head -n 174 Mattapan_Street\n  271  head -n 177 Haley_Street\n  272  head 20 people\n  273  head people\n  274  head -n 20 people\n  275  head -n 134 Walton_Street\n  276  head -n 133 Walton_Street\n  277  head -n 391 Hemenway_Street\n  278  cat street\n  279  head vehicles\n  280  head -n 20 vehicles\n  281  head -n 200 vehicles\n  282  grep "Annabel" vehicles\n  283  grep -C 5 "Annabel" vehicles\n  284  ls\n  285  cd ..\n  286  ls\n  287  grep "CLUE" crimescene\n  288  cd GA/unit-1/git-basics/command-line-murder-mystery/\n  289  mkdir solution.txt\n  290  ls\n  291  cd memberships\n  292  grep "Annabel"\n  293  ls\n  294  grep "Annabel" memberships\n  295  cd GA/unit-1/git-basics/command-line-murder-mystery/ls\n  296  cd GA/unit-1/git-basics/command-line-murder-mystery\n  297  ls\n  298  cd mystery\n  299  ls\n  300  cd memberships\n  301  grep "Annabel" memberships\n  302  ls\n  303  grep "Annabel" Delta_Skymiles\n  304  cat Delta_SkyMiles\n  305* grep -C 5 "Anabel" vehicles\n  306* ls\n  307* grep "Anabel" people\n  308  ls\n  309  grep "Anabel" Delta_SkyMiles\n  310  grep -C 5 "Anabel" Delta_SkyMiles\n  311* cd interviews\n  312* ls\n  313* cd ..\n  314* ls\n  315* head vehicles\n  316* grep -C 5 "Anabel" vehicles\n  317* cat hint4\n  318* cat hint5\n  319* cat hint6\n  320* cat hint7\n  321* cat hint8\n  322* ls\n  323* grep "CLUE" crimescene\n  324* ls\n  325* head -n 20 people\n  326* cd memberships\n  327* ls\n  328* grep "Anabel" AAA\n  329* grep "Anabel" library\n  330* cat library.txt\n  331* cd..\n  332* cd ..\n  333* clear\n  334* ls\n  335* cat readme.md\n  336* cat instructions\n  337* clear\n  338* ls\n  339* cd mystery\n  340* ls\n  341* grep "CLUES" crimescene\n  342* grep "CLUE" crimescene\n  343* grep "Annabel" people\n  344* grep "Anabel" people\n  345  cd ..\n  346* cd interviews\n  347* grep -C 5 "47246024" interviews\n  348* ls\n  349* grep -C 5 "47246024" interview\n  350* clear\n  351* ls\n  352* cd ..\n  353* ls\n  354* clear\n  355* ls\n  356* head -n 20 people\n  357* head -n 20 vehicles\n  358* grep -C 5 "6'"\n  359* cd GA/unit-1/git-basics/command-line-murder-mystery/mystery\n  360* ls\n  361* grep -C 5 "6'" vehicles\n  362* clear\n  363* ls\n  364* head -n 20 people\n  365  ls\n  366  cd streets\n  367  ls\n  368  clear\n  369  grep "Walton_Street" streets\n  370  cd ..\n  371  grep "Walton_Street" streets\n  372  grep "Elmwood_Avenue" streets\n  373  ls\n  374  cd streets\n  375  ls\n  376  clear\n  377  cat Tennis_Road\n  378  cat Hart_Place\n  379  head -n 40 Hart_Place\n  380  head -n 179 Buckingham_Place\n  381  cd ..\n  382  ls\n  383  cd interviews\n  384  ls\n  385  grep "interview-47246024" interviews\n  386  cat interview-47246024\n  387  cat interview-699607\n  388  ls\n  389  cd ..\n  390  ls\n  391  cd vehicles\n  392  ls\n  393  head vehicles\n  394  grep -A 5 "L337" mystery/vehicles\n  395  grep "Honda" vehicles\n  396  clear\n  397  grep "Honda" vehicles grep "Blue" vehicles\n  398  clear\n  399  ls\n  400  grep "L337" vehicles\n  401  grep -C 5 "L337" vehicles\n  402  grep -A 5 "L337" vehicles\n  403  grep -A 5 "L337" vehicles > tempfile.txt\n  404  grep -C 5 "Honda" tempfile.txt\n  405  grep -A 4 -B 1 "Honda" tempfile.txt\n  406  ls\n  407  cd memberships\n  408  ls\n  409  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jacqui Maher"\n  410  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"\n  411  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska"\n  412  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"\n  413  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"cd ..\n  414  cd ..\n  415  ls\n  416  cd ..\n  417  ls\n  418  cd solution.txt\n  419  git history\n  420  git log" > solution.txt
+  434  cat solution.txt
+  435  clear
+  436  echo "2. License Plate L3375A9\nMake: Honda\nColor: Blue\nOwner: Jeremy Bowers\nHeight: 6'1"\nWeight: 204 lbs" >>solution.txt\nclear\n"
+  437  cat solution.txt
+  438  echo "1.\n    1  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n    2  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k\n    3  code ~/.zshrc\n    4  pwd\n    5  code\n    6  git remote--\n    7  git remote --\n    8  git --version\n    9  echo $SHELL\n   10  ls\n   11  klsjadf;lkjasdlk;j\n   12  pwd\n   13  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh\n   14  command -v nvm\n   15  nvm install node\n   16  node --version\n   17  npm --version\n   18  pwd\n   19  code ~/.zshrc\n   20  pwd\n   21  cd ~\n   22  pwd\n   23  open .\n   24  open\n   25  pwd\n   26  open\n   27  pwd\n   28  cd ~\n   29  ls\n   30  cd ~\n   31  ls\n   32  cd LearnWSL\n   33  ls\n   34  cd code\n   35  cd ~\n   36  cd /\n   37  /\n   38  cd ~\n   39  clear\n   40  history\n   41  clear\n   42  cd\n   43  pwd\n   44  ls\n   45  cd code\n   46  ls\n   47  man\n   48  man ls\n   49  cd ~\n   50  man ls\n   51  pwd\n   52  mkdir GA\n   53  pwd\n   54  cd GA\n   55  pwd\n   56  open .\n   57  pwd\n   58  mkdir unit-1\n   59  cd unit-1\n   60  ./unit-1\n   61  ./\n   62  open ./\n   63  clear\n   64  mkdir unit-1/deliverables\n   65  cd unit-1\n   66  pwd\n   67  mkdir deliverables\n   68  cd deliverables\n   69  cd GA\n   70  cd ~\n   71  cd GA\n   72  ls\n   73  cd unit-1\n   74  ls\n   75  cd deliverables\n   76  ls\n   77  touch about.txt\n   78  ls\n   79  -rf about.txt\n   80  rm -rf .txt\n   81  rm about.txt\n   82  ls\n   83  cd ~\n   84  cd GA\n   85  ls\n   86  touch about.txt\n   87  ls\n   88  cat about.txt\n   89  echo "hello this is my GA folder" > about.txt\n   90  cat about.txt\n   91  echo "hello this is my 2nd GA text in the folder" > about.txt\n   92  cat about.txt\n   93  grep "hello"\n   94  pwd\n   95  cat about.txt > grep\n   96  cat about.txt | grep "hello"\n   97  ls\n   98  cd unit-1\n   99  mkdir git-basics\n  100  cd git-basics\n  101  git init\n  102  git status\n  103  touch example.txt\n  104  ls\n  105  git status\n  106  git add example.txt\n  107  git status\n  108  echo "testing testing" > example.txt\n  109  cat example.txt\n  110  add example.txt\n  111  git add example.txt\n  112  git status\n  113  cat example.txt\n  114  git rm --cached example.txt\n  115  git status\n  116  git add example.txt\n  117  git stats\n  118  git status\n  119  git commit -m "added a test example file"\n  120  git log\n  121  echo "my first change" >> example.txt\n  122  cat example.txt\n  123  git commit -m "added a new line"\n  124  git add example.txt\n  125  git commit -m "Added a new line"\n  126  git log\n  127  git diff example.txt\n  128  cd unit-1\n  129  cat example.txt\n  130  echo "my second change" > example.txt\n  131  cat example.txt\n  132  git checkout example.txt\n  133  cat example.txt\n  134  cd ~\n  135  ls\n  136  cd GA\n  137  ls\n  138  cd grep\n  139  ls GA\n  140  cd ~\n  141  ls\n  142  cd GA\n  143  ls\n  144  cd unit-1\n  145  ls\n  146  cd git-basics\n  147  ls\n  148  git clone git@github.com:grant-create/command-line-murder-mystery.git\n  149  ls\n  150  rm example.txt\n  151  git status\n  152  git add command-line-murder-mystery\n  153  git rm --cached command-line-murder-mystery\n  154  git log\n  155  git status\n  156  git log\n  157  git commit -m "not sure"\n  158  git status\n  159  git checkout example.txt\n  160  ls\n  161  cd command-line-murder-mystery\n  162  cat instructions\n  163  ls\n  164  cd cheatsheet.md\n  165  cheatsheet.md\n  166  cat cheatsheet.md\n  167  ls\n  168  cat instructions\n  169  grep "CLUE" hint1\n  170  grep "CLUE" hint1.txt\n  171  ls\n  172  cat hint1\n  173  cat license.txt\n  174  cat LICENSE.txt\n  175  ls\n  176  cd mystery\n  177  ls\n  178  cat crimescene\n  179  gret "CLUE" crimescene\n  180  grep "CLUE" crimescene\n  181  cd GA\n  182  ls\n  183  cd unit-1\n  184  ls\n  185  cd deliverables\n  186  ls\n  187  /deliverables\n  188  cd ~\n  189  cd GA\n  190  ls\n  191  cd unit-1\n  192  ls\n  193  cd git-basics\n  194  ls\n  195  cd command-line-murder-mystery\n  196  ls\n  197  cat hint2\n  198  cat hint3\n  199  ls\n  200  head people\n  201  cat people\n  202  head people\n  203  cat people\n  204  clear\n  205  ls\n  206  head people\n  207  head vechiles\n  208  ls\n  209  head vehicles\n  210  cat hint2\n  211  cat hint3\n  212  hint4\n  213  cat hint4\n  214  grep "Annabel" people\n  215  grep "CLUE" crimescene\n  216  cat hint5\n  217  cd GA\n  218  ls\n  219  cd unit-1\n  220  ls\n  221  cd git-basics\n  222  ls\n  223  cd command-line-murder-mystery\n  224  ls\n  225  cat cheatsheet\n  226  cat cheatsheet.md\n  227  cat hint6\n  228  grep "Honda" vehicles\n  229  clear\n  230  hint7\n  231  cat hint7\n  232  ls\n  233  grep -C "L337" vehicles\n  234  grep -C 5 "L337" vehicles\n  235  ls\n  236  cd interviews\n  237  ls\n  238  hint8\n  239  cat hint8\n  240  clear\n  241  ls\n  242  cd ..\n  243  clear\n  244  ls\n  245  grep "CLUE" crimescene\n  246  cat hint1\n  247  grep "Anna" people\n  248  grep "Annabel" people\n  249  cat hint2\n  250  cat hint3\n  251  head -n 5 people\n  252  ls\n  253  cd GA/unit-1\n  254  ls\n  255  cd git-basics\n  256  cd command-line-murder-mystery\n  257  ls\n  258  cd mystery\n  259  ls\n  260  cd streets\n  261  ls\n  262  cat Hart_Place\n  263  cat Mattapan_Street\n  264  cat Buckingham_Palace\n  265  cat Buckingham_Place\n  266  cat Haley_Street\n  267  head -n 179 Buckingham_Place\n  268  head -n 40 Hart_Place\n  269  head -n 45 Hart_Place\n  270  head -n 174 Mattapan_Street\n  271  head -n 177 Haley_Street\n  272  head 20 people\n  273  head people\n  274  head -n 20 people\n  275  head -n 134 Walton_Street\n  276  head -n 133 Walton_Street\n  277  head -n 391 Hemenway_Street\n  278  cat street\n  279  head vehicles\n  280  head -n 20 vehicles\n  281  head -n 200 vehicles\n  282  grep "Annabel" vehicles\n  283  grep -C 5 "Annabel" vehicles\n  284  ls\n  285  cd ..\n  286  ls\n  287  grep "CLUE" crimescene\n  288  cd GA/unit-1/git-basics/command-line-murder-mystery/\n  289  mkdir solution.txt\n  290  ls\n  291  cd memberships\n  292  grep "Annabel"\n  293  ls\n  294  grep "Annabel" memberships\n  295  cd GA/unit-1/git-basics/command-line-murder-mystery/ls\n  296  cd GA/unit-1/git-basics/command-line-murder-mystery\n  297  ls\n  298  cd mystery\n  299  ls\n  300  cd memberships\n  301  grep "Annabel" memberships\n  302  ls\n  303  grep "Annabel" Delta_Skymiles\n  304  cat Delta_SkyMiles\n  305* grep -C 5 "Anabel" vehicles\n  306* ls\n  307* grep "Anabel" people\n  308  ls\n  309  grep "Anabel" Delta_SkyMiles\n  310  grep -C 5 "Anabel" Delta_SkyMiles\n  311* cd interviews\n  312* ls\n  313* cd ..\n  314* ls\n  315* head vehicles\n  316* grep -C 5 "Anabel" vehicles\n  317* cat hint4\n  318* cat hint5\n  319* cat hint6\n  320* cat hint7\n  321* cat hint8\n  322* ls\n  323* grep "CLUE" crimescene\n  324* ls\n  325* head -n 20 people\n  326* cd memberships\n  327* ls\n  328* grep "Anabel" AAA\n  329* grep "Anabel" library\n  330* cat library.txt\n  331* cd..\n  332* cd ..\n  333* clear\n  334* ls\n  335* cat readme.md\n  336* cat instructions\n  337* clear\n  338* ls\n  339* cd mystery\n  340* ls\n  341* grep "CLUES" crimescene\n  342* grep "CLUE" crimescene\n  343* grep "Annabel" people\n  344* grep "Anabel" people\n  345  cd ..\n  346* cd interviews\n  347* grep -C 5 "47246024" interviews\n  348* ls\n  349* grep -C 5 "47246024" interview\n  350* clear\n  351* ls\n  352* cd ..\n  353* ls\n  354* clear\n  355* ls\n  356* head -n 20 people\n  357* head -n 20 vehicles\n  358* grep -C 5 "6'"\n  359* cd GA/unit-1/git-basics/command-line-murder-mystery/mystery\n  360* ls\n  361* grep -C 5 "6'" vehicles\n  362* clear\n  363* ls\n  364* head -n 20 people\n  365  ls\n  366  cd streets\n  367  ls\n  368  clear\n  369  grep "Walton_Street" streets\n  370  cd ..\n  371  grep "Walton_Street" streets\n  372  grep "Elmwood_Avenue" streets\n  373  ls\n  374  cd streets\n  375  ls\n  376  clear\n  377  cat Tennis_Road\n  378  cat Hart_Place\n  379  head -n 40 Hart_Place\n  380  head -n 179 Buckingham_Place\n  381  cd ..\n  382  ls\n  383  cd interviews\n  384  ls\n  385  grep "interview-47246024" interviews\n  386  cat interview-47246024\n  387  cat interview-699607\n  388  ls\n  389  cd ..\n  390  ls\n  391  cd vehicles\n  392  ls\n  393  head vehicles\n  394  grep -A 5 "L337" mystery/vehicles\n  395  grep "Honda" vehicles\n  396  clear\n  397  grep "Honda" vehicles grep "Blue" vehicles\n  398  clear\n  399  ls\n  400  grep "L337" vehicles\n  401  grep -C 5 "L337" vehicles\n  402  grep -A 5 "L337" vehicles\n  403  grep -A 5 "L337" vehicles > tempfile.txt\n  404  grep -C 5 "Honda" tempfile.txt\n  405  grep -A 4 -B 1 "Honda" tempfile.txt\n  406  ls\n  407  cd memberships\n  408  ls\n  409  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jacqui Maher"\n  410  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"\n  411  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska"\n  412  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"\n  413  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"cd ..\n  414  cd ..\n  415  ls\n  416  cd ..\n  417  ls\n  418  cd solution.txt\n  419  git history\n  420  git log\n\n2. Owner: Jeremy Bowers\n3. I'm not sure if these are all the commands I used as I was working in multiple tabs in the terminal." >solution.txt
+  439  cat solution.txt
+  440  clear
+  441  git commit -m "solution to mystery"
+  442  git add
+  443  git add solution.txt
+  444  git commit -m "solution.txt"
+  445  git status
+  446  git push
+  447  ls
+  448  git status
+  449  history
