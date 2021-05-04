@@ -1,0 +1,835 @@
+    1  pwd
+    2  nvm
+    3  nvm
+    4  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+    5  nvm
+    6  chsh -s /bin/zsh
+    7  cd Projects
+    8  git clone git@github.com:funbunch/litebrite.git
+    9  cd ..
+   10  xcode-select --install
+   11  cd Projects
+   12  git@github.com:funbunch/litebrite.git
+   13  clone git@github.com:funbunch/litebrite.git
+   14  git clone git@github.com:funbunch/litebrite.git
+   15  git clone https://github.com/funbunch/litebrite.git
+   16  yarn start
+   17  cd ..
+   18  brew install yarn
+   19  brew upgrade yarn
+   20  yarn start
+   21  cd Projects
+   22  yarn start
+   23  cd litebrite
+   24  yarn start
+   25  npm install
+   26  yarn start
+   27  yarn start
+   28  react-scripts start
+   29  yarn clean && yarn && yarn start 
+   30  rm -rf /node_modules
+   31  yarn start
+   32  yarn start
+   33  npx react-scripts start
+   34  sudo lsof -i :3000
+   35  yarn start
+   36  rm -rf /node_modules 
+   37  yarn
+   38  node -v
+   39  nvm 
+   40  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   41  nvm 
+   42  cat ~/.bash_profile
+   43  touch ~/.bash_profile
+   44  node -v
+   45  node -v
+   46  node -v
+   47  yarn start
+   48  yarn
+   49  brew update
+   50  brew upgrade node
+   51  node -v
+   52  node -v
+   53  nvm install 8.10
+   54  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   55  nvm
+   56  source ~/.bash_profile 
+   57  nvm
+   58  nvm use 8.0
+   59   nvm install-latest-npm  
+   60  nvm
+   61  nvm install node --reinstall-packages-from=node
+   62  brew update
+   63  brew upgrade node
+   64  nvm install 8.10
+   65  node -v
+   66  yarn
+   67  cd Projects/litebrite
+   68  nvm
+   69  touch ~/.zshrc
+   70  nvm
+   71  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   72  cd Projects/litebrite
+   73  nvm
+   74  npm install -g eslint\n
+   75  eslint --init
+   76  cd Projects/litebrite
+   77  nvm
+   78  node -v
+   79  yarn
+   80  node -v
+   81  nvm --version
+   82  touch ~/.zshrc
+   83  yarn
+   84  nvm
+   85  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   86  cd Projects
+   87  git clone https://github.com/funbunch/react-movie-search.git
+   88  cd react-movie-search
+   89  yarn start
+   90  yarn
+   91  nvm use 8.10
+   92  nvm
+   93  touch ~/.zshrc
+   94  touch ~/.bash_profile
+   95  cd Projects/
+   96  cd react-movie-search
+   97  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   98  nvm
+   99  cd Projects/react-movie-search
+  100  nvm use 8.10
+  101  nvm
+  102  export NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm
+  103  nvm use 8.10
+  104  yarn
+  105  nvm
+  106  yarn start
+  107  git status
+  108  yarn
+  109  node -v
+  110  cd Projects/lit
+  111  cd Projects/litebrite
+  112  git status
+  113  git status
+  114  git add .
+  115  git status
+  116  git commit -m "Added key"
+  117  git push origin master
+  118  git push origin master
+  119  git push origin master
+  120  git push origin master
+  121  yarn build
+  122  yarn run deploy
+  123  git status
+  124  git add .
+  125  git commit -m "add images folder"
+  126  git push origin master
+  127  git status
+  128  git add .
+  129  git commit -m "moved images folder"
+  130  git push origin master
+  131  git status
+  132  git commit --allow-empty -m "Trigger rebuild"
+  133  git push origin master
+  134  git pull
+  135  git status
+  136  git push
+  137  git status
+  138  git statys
+  139  git status
+  140  git add . 
+  141  git commit -m "changed to http" 
+  142  git push origin master
+  143  yarn run deploy
+  144  yarn run deploy
+  145  yarn build
+  146  yarn build
+  147  yarn start
+  148  yarn build
+  149  yarn run deploy
+  150  git status
+  151  git add .
+  152  git commit -m "fixed linting"
+  153  git push
+  154  yarn deploy
+  155  git status
+  156  yarn start
+  157  git status
+  158  git add . 
+  159  git commit -m "Updated Home and added basename to Router" 
+  160  git status
+  161  git push
+  162  yarn deploy
+  163  cd Projects/react-movie-search
+  164  git status
+  165  git add .
+  166  git commit -m "Fixed typo" 
+  167  git push origin master
+  168  git add .
+  169  git status
+  170  git commit -m "Added images foldero" 
+  171  git push origin master
+  172  yarn build
+  173  install gh-pages --save-dev
+  174  install gh-pages --save-dev
+  175  npm install gh-pages --save-dev
+  176   "predeploy": "yarn run build",\n    "deploy": "gh-pages -d build"
+  177  yarn build
+  178  git status
+  179  git add .
+  180  git commit -m "Added package.locko" 
+  181  git push origin master
+  182  git pull
+  183  git pull
+  184  git status
+  185  git push origin master
+  186  yarn build
+  187  yarn
+  188  nvm use 8.10
+  189  nvm
+  190  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+  191  nvm
+  192  source ~/<your_profile_file>
+  193  nvm
+  194  touch ~/.zshrc
+  195  touch ~/.bash_profile
+  196  nvm
+  197  command -v nvm
+  198  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+  199  export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+  200  nvm
+  201  git status
+  202  yarn build
+  203  yarn
+  204  yarn
+  205  yarn build
+  206  nvm use 8.16
+  207  nvm install 8.16
+  208  yarn
+  209  git status
+  210  yarn build
+  211  yarn
+  212  command -v nvm
+  213  nvm
+  214  nvm --version
+  215  yarn install
+  216  git log
+  217  git status
+  218  node --version
+  219  npm --version
+  220  npm install gh-pages --save-dev
+  221  yarn build
+  222  yarn install
+  223  git status
+  224  yarn start
+  225  yarn
+  226  touch ~/.bash_profile
+  227  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+  228  cd Projects
+  229  take egghead
+  230  cd egghead/react
+  231  git clone git@github.com:kentcdodds/beginners-guide-to-react.git
+  232  git clone https://github.com/kentcdodds/beginners-guide-to-react.git
+  233  nvm -v
+  234  cd Projects/litebrite
+  235  nvm
+  236  touch ~/.bash_profile
+  237  nvm
+  238  source ~/.bash_profile 
+  239  nvm
+  240  node -v
+  241  yarn
+  242  yarn start
+  243  cd Documents/resume-orig
+  244  cd node_modules/jsonresume-theme-stackoverflow-marion
+  245  resume export resume.html --them stackoverflow-marion
+  246  resume export resume.html --theme stackoverflow-marion
+  247  resume export resume.html --theme-stackoverflow-marion
+  248  npm install -g resume-cli
+  249  resume export resume.pdf
+  250  resume init
+  251  resume export sbunch-json.pdf --theme flat
+  252  npm i jsonresume-theme-crisp
+  253  cd Documents
+  254  npm i jsonresume-theme-crisp
+  255  resume export sbunch-crisp.pdf --theme crisp
+  256  pwd
+  257  cd resume
+  258  resume export sbunch-crisp.pdf --theme crisp
+  259  npm i jsonresume-theme-kendall
+  260  resume export sbunch-kendp.pdf --theme kendallp
+  261  resume export sbunch-kendp.pdf --theme kendall
+  262  resume export sbunch-kendp.pdf --theme kendall
+  263  npm install jsonresume-theme-kendall
+  264  resume export sbunch-kendp.pdf --theme kendall
+  265  resume serve --theme kendall
+  266  npm i jsonresume-theme-fresh
+  267  resume serve
+  268  npm i jsonresume-theme-contempo
+  269  resume serve
+  270  npm i jsonresume-theme-material
+  271  resume export sbunch-matp.pdf --theme material
+  272  resume serve
+  273  resume export sbunch-matp.pdf --theme material
+  274  npm i jsonresume-theme-material-design
+  275  resume serve
+  276  resume export sbunch-spartan.pdf --theme spartan
+  277  npm install jsonresume-theme-spartan
+  278  resume export sbunch-spartan.pdf --theme spartan
+  279  npm install jsonresume-theme-spartan
+  280  resume serve
+  281  resume serve
+  282  resume serve
+  283  resume serve
+  284  resume export resume.pdf
+  285  npm install -g resume-cli
+  286   npm install -g expo-cli
+  287  npm install -g resume-cli
+  288  resume export resume-test.pdf
+  289  resume export sbunch-json-1t.pdf
+  290  resume export sbunch-json2t.pdf
+  291  resume export sbunch-json3.pdf
+  292   npm uninstall -g expo-cli
+  293   npm uninstall -g resume-cli
+  294  npm list -g
+  295  npm install -g resume-cli
+  296  resume export sbunch-json.pdf
+  297  npm i jsonresume-theme-material
+  298  resume export sbunch-material.pdf
+  299  git clone https://github.com/francescoes/jsonresume-theme-stackoverflow.git
+  300  resume serve
+  301  cd node_modules/jsonresume-theme-material
+  302  resume serve
+  303  cd .
+  304  cd ..
+  305  cd jsonresume-theme-material/
+  306  cd ..
+  307  cd ..
+  308  cd jsonresume-theme-stackoverflow
+  309  resume serve
+  310  cd ..
+  311  cd jsonresume-theme-stackoverflow
+  312  resume serve
+  313  resume serve
+  314  resume serve
+  315  cd ..
+  316  cd jsonresume-theme-material
+  317  resume serve
+  318  cd ..
+  319  cd jsonresume-theme-stackoverflow
+  320  resume serve
+  321  resume serve
+  322  cd 
+  323  pwd
+  324  cd Documents
+  325  cd resume-orig
+  326  npm install -g jsonresume-theme-stackoverflow-marion
+  327  resume export resume.html --them stackoverflow-marion
+  328  resume export resume.html --theme stackoverflow-marion
+  329  pwd
+  330  cd node_modules/jsonresume-theme-stackoverflow-marion
+  331  resume export resume.html --theme stackoverflow-marion
+  332  resume export resume.html --theme stackoverflow-marion
+  333  cd ..
+  334  cd ..
+  335  npm install jsonresume-theme-stackoverflow-marion
+  336  cd node_modules/jsonresume-theme-stackoverflow-marion
+  337  resume serve
+  338  cd Projects
+  339  git clone https://github.com/funbunch/funbunch.github.io.git
+  340  cd funbunch.github.io
+  341  git status
+  342  git status
+  343  git add .
+  344  git commit -m "Edit boogies and add image." 
+  345  git push
+  346  git status
+  347  cd Projects/react-movie-search
+  348  nvm -v
+  349  nvm install-latest-npm
+  350  nvm -v
+  351  yarn start
+  352  yarn --version
+  353  yarn start
+  354  npm start
+  355  yarn global react-scripts
+  356  PATH=$PATH:./node_modules/.bin npm start
+  357  npm install
+  358  npm audit
+  359  npm audit fix
+  360  yarn start
+  361  cd Projects/react-movie-search
+  362  git status
+  363  git add .
+  364  git status
+  365  git commit -m "updated package"
+  366  yarn build
+  367  yarn deploy
+  368  cd Documents/resume
+  369  git status
+  370  git init
+  371  git commit -m "Init resumet"
+  372  git remote add origin https://github.com/funbunch/resume.git
+  373  git status
+  374  git status
+  375  cd commit
+  376  git status
+  377  git add .
+  378  git status
+  379  git commit -m "Commitg html/css"
+  380  git push
+  381  git push --set-upstream origin master
+  382  git status
+  383  git add .
+  384  git status
+  385  cd ..
+  386  git status
+  387  git add .
+  388  git commit -m "Adding html/css."
+  389  git status
+  390  git push
+  391  git rm -r source
+  392  git commit -m "Remove folder."
+  393  git push
+  394  git mv sbunch-res20.html index.html
+  395  git status
+  396  git commit -m "Rename file."
+  397  git push
+  398  git checkout -b gh-pages
+  399  git push origin gh-pages
+  400  git status
+  401  git add .
+  402  git commit -m "Updated education"
+  403  git push
+  404  git push --set-upstream origin gh-pages
+  405  git status
+  406  git add . -m "Updated address"
+  407  git add .
+  408  git commit . -m "Updated address"
+  409  git push 
+  410  cd Projects/kp-digital-test/coding-test-sg\ 2.5_2020/prototype/Coding_Test_HTML
+  411  npm install
+  412  npm run build
+  413  npm run serve
+  414  npm run serve
+  415  cd Projects/kp-digital-test/coding-test-sg\ 2.5_2020
+  416  npm run build
+  417  npm run build
+  418  npm install --save @fortawesome/fontawesome-free
+  419  npm install npm-watch
+  420  npm run build
+  421  npm run build
+  422  npm run build
+  423  npm run build
+  424  npm start
+  425  npm run build
+  426  npm serve
+  427  npm run serve
+  428  npm run serve
+  429  npm run serve
+  430  npm run serve
+  431  npm run build
+  432  npm run serve
+  433  npm run serve
+  434  npm run serve
+  435  npm run serve
+  436  npm install --save @fortawesome/fontawesome-free
+  437  npm run serve
+  438  npm run serve
+  439  npm run serve
+  440  npm run serve
+  441  npm run serve
+  442  npm run serve
+  443  npm run build
+  444  npm run serve
+  445  cd ..
+  446  cd ..
+  447  cd kp-digital-test/KP-test-build
+  448  npm run serve
+  449  npm install
+  450  npm run serve
+  451  npm run build
+  452  git clone https://github.com/team-hack/coding-guidelines.git
+  453  git clone https://github.com/team-hack/hello-world.git
+  454  git clone https://github.com/team-hack/react-components.git
+  455  git clone https://github.com/team-hack/sample-ideas.git
+  456  cd .
+  457  cd ..
+  458  cd Projects
+  459  cd team-hack
+  460  git clone https://github.com/funbunch/coding-guidelines.git
+  461  git checkout -b "test-branch"
+  462  git remote add upstream https://github.com/team-hack/coding-guidelines.git
+  463  pwd
+  464  git clone https://github.com/team-hack/react-components.git
+  465  npm install --save @teamhack/components
+  466  npm install 
+  467  npm install --save @teamhack/components
+  468  npm --v
+  469  npm install 
+  470  npm --v
+  471  sudo chown -R $USER:$(id -gn $USER) /Users/sbunch/.config 
+  472  npm install 
+  473   npm install -g npm
+  474  code .
+  475  code .
+  476  storybook
+  477  npm storybook
+  478  npm run storybook
+  479  yarn storybook
+  480  npm install
+  481  ls
+  482  cd react-components
+  483  npm install
+  484  npm storybook
+  485  npm run storybook
+  486  xcode-select -print-path
+  487  sudo xcode-select --reset
+  488  xcode-select -print-path
+  489  sudo rm -rf $(xcode-select -print-path)
+  490  sudo rm -rf /Library/Developer/CommandLineTool
+  491  xcode-select --install
+  492  xcode-select --install
+  493  xcode-select --install
+  494  cd Projects
+  495  cd  team-hack
+  496  cd react-components
+  497  npm install
+  498  npm storybook
+  499  npm run storybook
+  500  rm -rf node_modules
+  501  yarn install
+  502  rm package-lock.json
+  503  node -v
+  504  ls 
+  505  ls -la
+  506  cat .bash_profile
+  507  cat .zshrc
+  508  node -v
+  509  sudo npm install -g n.
+  510  sudo npm install -g n.
+  511  sudo npm install -g n.
+  512  sudo n latest
+  513  brew -v
+  514  brew update
+  515  where node
+  516  echo $PATH 
+  517  ls -la
+  518  cd /etc/paths
+  519  cat /etc/paths
+  520  vim .bash_profile
+  521  vim .zshrc
+  522  pwd
+  523  cd ..
+  524  cd Users
+  525  cd 
+  526  sb
+  527  cd 
+  528  cd ..
+  529  cd sbunch
+  530  cd Projects
+  531  cd storybook
+  532  npx create-react-app taskbox
+  533  cd taskbox
+  534  npx -p @storybook/cli sb init
+  535  yarn test --watchAll
+  536  yarn
+  537  yarn test --watchAll
+  538  cd ..
+  539  cd ..
+  540  cd team-hack
+  541  cd react-components
+  542  cd ..
+  543  git fetch upstream
+  544  cd react-components
+  545  cd react-components
+  546  cd .
+  547  cd ..
+  548  cd ..
+  549  cd team-hack
+  550  cd coding-guidelines
+  551  cd coding-guidelines
+  552  git fetch upstream
+  553  git merge upstream/main 
+  554  cd /
+  555  cd Volumes
+  556  cd ls -la
+  557  cd ..
+  558  cd react-projects
+  559  cd 1-birthday-reminder
+  560  cd setup
+  561  git status
+  562  npm run build
+  563  git status
+  564  git remote add origin https://github.com/funbunch/birthday-list.git
+  565  git add .
+  566  git commit -m "init Birthday list first round"
+  567  git branch -M main
+  568  git push -u origin main
+  569  git push
+  570  git branch
+  571  git remote -v
+  572  git remote add origin https://github.com/funbunch/birthday-list.git
+  573  git remote set-url origin https://github.com/funbunch/birthday-list.git
+  574  git remote -v 
+  575  git status
+  576  git push
+  577  git status
+  578  git branch -m HEAD:master
+  579  git checkout master
+  580  git branch
+  581  git checkout main
+  582  git reflog
+  583  git checkout HEAD@{3}
+  584   git checkout -f main
+  585  git status
+  586  git add .
+  587  git status
+  588  git add .
+  589  git status
+  590  git add package-lock.json
+  591  git status
+  592  git status
+  593  git status
+  594  git add .
+  595  git status
+  596  git add ../final/src/index.css
+  597  git status
+  598  git commit -m "Adding new styles"
+  599  git status
+  600  git branch -a
+  601  git checkout master
+  602  git merge –no-ff
+  603  git merge main
+  604  git clean -d -n 
+  605  git clean -f
+  606  git merge main
+  607  git status
+  608  git push -u origin
+  609  cd .
+  610  cd ..
+  611  cd ..
+  612  cd complete
+  613  git clone https://github.com/funbunch/birthday-list.git
+  614  git status
+  615  cd Projects/team-hack
+  616  cd react-components
+  617  git fetch upstream
+  618  git branch
+  619  git merge upstream/main
+  620  git checkout main
+  621  code .
+  622  git checkout -b
+  623  git checkout -b main
+  624  git branch
+  625  ls
+  626  cd src
+  627  ls
+  628  cd components
+  629  ls
+  630  git log --oneline --decorate --graph
+  631  git checkout list
+  632  git add --all
+  633  git commit -m "init list component"
+  634  git checkout main
+  635  git merge upstream/main
+  636  git checkout list
+  637  yarn storybook
+  638  git status
+  639  yarn storybook
+  640  yarn storybook
+  641  cd Projects/team-hack/react-components
+  642  git status
+  643  git add .
+  644  git status
+  645  git stash
+  646  git checkout main
+  647  git fetch upstream
+  648  git merge upstream/main
+  649  git status
+  650  git checkout list
+  651  git status
+  652  git stash list
+  653  git stash apply
+  654  git add .
+  655  git commit -m "Added li font styles"
+  656  git push origin list
+  657  git status
+  658  cd Projects
+  659  git clone https://github.com/john-smilga/react-projects.git
+  660  cd react-projects
+  661  code .
+  662  npm install
+  663  cd birth
+  664  ls
+  665  cd 1-birthday-reminder
+  666  cd setup
+  667  npm install
+  668  npm audit
+  669  npm install react-scripts@4.0.1
+  670  npm start
+  671  zsh --version
+  672  echo $SHELL
+  673  brew -v
+  674  brew update
+  675  xcode-select --install
+  676  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  677  git --version
+  678  brew link --overwrite git
+  679  brew upgrade git
+  680  git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow
+  681  git --version
+  682  brew link --overwrite git
+  683  brew upgrade git
+  684  brew install git
+  685  git --version
+  686  brew link --overwrite git
+  687  brew upgrade git
+  688  git --version
+  689  code
+  690  code  ~/.zshrc
+  691  code ~/.gitconfig
+  692  git config --global init.defaultBranch main
+  693  git config --global user.name "funbunch"
+  694  git config --global user.email "shannan_bunch@hotmail.com"
+  695  git config --global push.default simple
+  696  git config --global credential.helper cache
+  697  code ~/.gitconfig
+  698  open ~/.ssh/config
+  699  eval "$(ssh-agent -s)"
+  700  open ~/.ssh/config
+  701  pwd
+  702  open .
+  703  ls
+  704  cd Pictures
+  705  ls
+  706  cd ..
+  707  pwd
+  708  history
+  709  clear
+  710  history
+  711  clear
+  712  cd Projects
+  713  mkdir ga-seir-503
+  714  ls
+  715  cd ga-seir-503
+  716  mkdir unit-1
+  717  take deliverables
+  718  cd ..
+  719  ls
+  720  rm -rf deliverables
+  721  cd unit-1
+  722  take deliverables
+  723  touch about.txt
+  724  cd ..
+  725  take git-basics
+  726  git init
+  727  git status
+  728  touch example.txt
+  729  git status
+  730  git add example.txt
+  731  git status
+  732  git rm --cached example.txt
+  733  git status
+  734  git add .
+  735  git status
+  736  git commit -m  "added example.txt"
+  737  git status
+  738  git log
+  739  echo "My first change" >>  example.txt
+  740  cat example.txt
+  741  git add .
+  742  git status
+  743  git commit -m  "added my first changet"
+  744  cd ..
+  745  take tacos
+  746  echo "# tacos" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/funbunch/tacos.git\ngit push -u origin main
+  747  echo "I love tacos >> READEME.md\ngit status
+  748  echo "I love tacos >> README.md\ngit status\necho "I love tacos >> READEME.md\ngit status
+  749  git add .
+  750  echo "I love tacos >> README.md\ngit status\necho "I love tacos >> READEME.md\ngit status
+  751  git commit -m "Added that I love tacos"
+  752  git push
+  753  cd ..
+  754  cd deliverables
+  755  git clone git@github.com:funbunch/command-line-murder-mystery.git
+  756  ls
+  757  git clone https://github.com/funbunch/command-line-murder-mystery.git
+  758  cd ..
+  759  code 
+  760  code .
+  761  cd unit-1/deliverables
+  762  cat instructions
+  763  cd command-line-murder-mystery
+  764  cat instructions
+  765  cd mystery
+  766  ls
+  767  \tcd cri
+  768  cd interviews
+  769  cd ..
+  770  cat crimescene
+  771  cd Projects/ga-seir-503/unit-1/deliverables/command-line-murder-mystery/mystery
+  772  grep "CLUE"
+  773  grep "CLUE" crimescene
+  774  cat people
+  775  cat vehicles
+  776  grep "CLUE" people
+  777  cd ..
+  778  cat hint1
+  779  head -n 20 people
+  780  cd mystery
+  781  head -n 20 people
+  782  cd ..
+  783  cat hint2
+  784  cat hint3
+  785  cd  mystery
+  786  head people
+  787  ls
+  788  head -n 20
+  789  head -n 20 vehicles
+  790  cd ..
+  791  cd mystery/
+  792  cd ..
+  793  cat hint4
+  794  ls
+  795  \t\tcd mystery
+  796  ls
+  797  grep "Annabel" people
+  798  cd ..
+  799  cat hint5
+  800  cd mystery
+  801  ls
+  802  head -n 173 streets/Mattapan_Street | tail -n 1
+  803  cd interviews
+  804  ls
+  805  cat interview-9437737
+  806  cd ..
+  807  cat hint6
+  808  head -n 403 streets/Hart Placet | tail -n 1
+  809  cd mystery
+  810  head -n 403 streets/Hart Placet | tail -n 1
+  811  head -n 40 streets/Hart Placet | tail -n 1
+  812  head -n 40 streets/Hart Place | tail -n 1
+  813  head -n 40 streets/Hart_Place | tail -n 1
+  814  cd interviews
+  815  cat interview-47246024
+  816  cd ..
+  817  head -n 179 streets/Buckingham_Place | tail -n 1
+  818  cd interviews
+  819  cat interview--47246024
+  820  cat interview--699607
+  821  cd ..
+  822  cat interviews/interview-699607
+  823  grep -A 4 L337 vehicles | grep -A 3 Honda | grep -A 2 Blue
+  824  cd memberships
+  825  ls
+  826  grep "Joe Germuska" 
+  827  grep "Joe Germuska" AAA 
+  828  grep "Joe Germuska" Delta_SkyMiles
+  829  grep "Jeremy Bowers" AAA
+  830  grep "Jeremy Bowers" Delta_SkyMiles
+  831  cd ..
+  832  touch solutions.txt
+  833  ls
+  834  history
+Jeremy Bowers
