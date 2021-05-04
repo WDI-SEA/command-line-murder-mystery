@@ -1,0 +1,166 @@
+1. Here are the commands I used:
+  175  cd command-line-murder-mystery
+  176  ls
+  177  cat instructions
+  178  cat cheatsheet.md
+  179  ls
+  180  cat instructions
+  181  ls
+  182  mystery
+  183  cat mystery
+  184  ls
+  185  cat crimescene
+  186  ls
+  187  cat people
+  188  ls
+  189  cat people
+  190  ls
+  191  cat vehicles
+  192  clear
+  193  cd ..
+  194  ls
+  195  cat hint1
+  196  cat hint2
+  197  cat hint3
+  198  cat hint4
+  199  cd mystery
+  200  ls
+  201  grep "CLUE" crimescene
+  202  grep "Annabel" people
+  203  cat vehicles
+  204  ls
+  205  cd ..
+  206  ls
+  207  cat hint3
+  208  cat hint4
+  209  grep "Annabel" vehicles
+  210  cd mystery
+  211  grep "Annabel" vehicles
+  212  cd..
+  213  cd ..
+  214  cat hint5
+  215  head -n 173 streets/Mattapan_Street | tail -n 1
+  216  cd mystery
+  217  head -n 173 streets/Mattapan_Street | tail -n 1
+  218  head -n 176 streets/Haley_Street | tail -n 1
+  219  ls
+  220  cd interviews
+  221  grep "9437737" interviews
+  222  grep "9437737"
+  223  cd desktop/general-assembly
+  224  ls
+  225  cd unit-1
+  226  ls
+  227  cd command-line-murder-mystery
+  228  ls
+  229  mystery
+  230  ls
+  231  cd interviews
+  232  ls
+  233  cat interview-9437737
+  234  cat interview-871877
+  235  ls
+  236  cd ..
+  237  ls
+  238  grep "Annabel" people
+  239  cdinterviews
+  240  cd interviews
+  241  ls
+  242  cd ..
+  243  ls
+  244  cat hint5
+  245  head -n 60 streets/Hart_Place | tail -n 1
+  246  ls
+  247  cd mystery
+  248  ls
+  249  cd streets
+  250  head -n 60 streets/Hart_Place | tail -n 1
+  251  head -n 173 streets/Mattapan_Street | tail -n 1
+  252  ls
+  253  cat Hart_Place
+  254  cat Mattapan_Street
+  255  head -n 60 streets/Hart_Place | tail -n 1
+  256  cd
+  257  ls
+  258  cd Desktop/general-assembly/unit-1
+  259  cd command-line-murder-mystery
+  260  ls
+  261  cat hint5
+  262  head -n 60 streets/Hart_Place | tail -n 1
+  263  head -n 173 streets/Mattapan_Street | tail -n 1
+  264  history
+  265  cd mystery
+  266  head -n 173 streets/Mattapan_Street | tail -n 1
+  267  head -n 60 streets/Hart_Place | tail -n 1
+  268  head -n 179 streets/Buckingham_Place | tail -n 1
+  269  ls
+  270  cd interviews
+  271  ls
+  272  cat interview-699607
+  273  ls
+  274  cd ..
+  275  ls
+  276  grep "Honda" vehicles
+  277  ls
+  278  cd ..
+  279  ls
+  280  cat hint 6
+  281  cat hint6
+  282  cat hint7
+  283  cd mystery
+  284  ls
+  285  cat vehicles
+  286  head vehicles
+  287  cd..
+  288  cd ..
+  289  ls
+  290  cat hint6
+  291  cat hint7
+  292  cd mystery
+  293  grep -A 5 "L337" mystery/vehicles
+  294  ls
+  295  grep -A 5 "L337" mystery/vehicles
+  296  grep -A 5 "L337" mystery
+  297  pwd
+  298  ls
+  299  cd ..
+  300  grep -A 5 "L337" mystery/vehicles
+  301  ls
+  302  cd mystery
+  303  ls
+  304  grep "Erika" people
+  305  grep "Germuska" people
+  306  grep "Bowers" people
+  307  grep "Jacqui" people
+  308  head -n 98 streets/Trapelo_Street | tail -n 1
+  309  head -n 275 streets/Plainfield_Street | tail -n 1
+  310  head -n 284 streets/Dunstable_Road | tail -n 1
+  311  head -n 224 streets/Andover_Road | tail -n 1
+  312  ls
+  313  cd interviews
+  314  ls
+  315  cat interview-5455315
+  316  cat interview-29741223
+  317  cat interview-9620713
+  318  cat interview-904020
+  319  cd ..
+  320  ls
+  321  cd memberships
+  322  ls
+  323  grep "Bowers" AAA
+  324  grep "Bowers" Delta_SkyMiles
+  325  grep "Bowers" library.txt
+  326  grep "Bowers" Museum_of_Bash_History
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd ..
+  331  ls
+  332  cat hint8
+  333  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  334  ls
+  335  cd mystery
+  336  ls
+  337  cd memberships
+  338  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+2. The Killer is Jeremy Bowers
