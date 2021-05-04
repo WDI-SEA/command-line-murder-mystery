@@ -1,0 +1,350 @@
+ 145  cd general_assembly
+  146  pwd
+  147  cd deliverables
+  148  pwd
+  149  cd unit-1
+  150  cd  deliverables
+  151  pwd
+  152  git clone
+  153  git clone https://github.com/akunz82/command-line-murder-mystery.git
+  154  ls
+  155  cd comand-line-murder-mystery
+  156  cd command-line-murder-mystery
+  157  ls
+  158  cat instructions
+  159  cat crimesceen
+  160  cd crimesceen
+  161  cd mystery
+  162  cd crimesceen
+  163  ped
+  164  crimescene
+  165  ls
+  166  cd mystery/crimescene
+  167  cd crimescene
+  168  cs interviews
+  169  clear
+  170  cd general_assembly
+  171  cd general_assenbly
+  172  cd ..
+  173  pwd
+  174  cd ..
+  175  pwd
+  176  mkdir solution.txt
+  177  touch solution.txt
+  178  mystery status
+  179  open .
+  180  ls -la
+  181  cat crimescene | less
+  182  cd mystery
+  183  clear
+  184  history
+  185  head crimescene
+  186  head mystery
+  187  head -n 20 people
+  188  grep clue crimescene
+  189  grap "clue" crimescene
+  190  grep "clue" crimescene
+  191  grep CLUE clues
+  192  grep CLUE
+  193  pwd
+  194  cd general_assembly
+  195  cd general_assembley
+  196  cd general_assembly
+  197  pwd
+  198  history
+  199  cd deliverables
+  200  open unit-1
+  201  cd desktop
+  202  cd deliverables
+  203  cd general_assembly
+  204  pwd
+  205  cd unit-1
+  206  cd deliverables
+  207  pwd
+  208  mkdir solution.txt
+  209  mkdir solution.txt rm
+  210  cd command-line-murder-mystery
+  211  pwd
+  212  cd mystery
+  213  pwd
+  214  ls
+  215  grep crimescene
+  216  pwd
+  217  cd Desktop
+  218  cd general_assembly
+  219  cd unit-1
+  220  cd deliveranles
+  221  cd deliverables
+  222  cd command-line-murder-mystery
+  223  ls
+  224  cd mystery
+  225  ls
+  226  cd crimescene
+  227  cd interviews
+  228  pwd
+  229  cd ..
+  230  cd crimescene
+  231  cd interviews
+  232  ls
+  233  cat interviews
+  234  pwd
+  235  cd ..
+  236  cat interviews
+  237  open  hint  1
+  238  open hint2
+  239  open hint 2
+  240  pwd
+  241  cd ..
+  242  pwd
+  243  cd ..
+  244  pwd
+  245  cd command-line-murder-mystery
+  246  pwd
+  247  open hint 1
+  248  open hint1
+  249  head -n 20 people
+  250  head -n people
+  251  cd mystery
+  252  head -n 20 people
+  253  open hint2
+  254  open hint 3
+  255  head crimescene
+  256  open crimescene
+  257  open c;ue
+  258  open clue
+  259  cat crimescene
+  260  head membership
+  261  head memberships
+  262  clear
+  263  cat crimescene/CLUE
+  264  cat crimescene CLUE
+  265  gret crimescene clue
+  266  grat crimscene  clue
+  267  grep crimescene clue
+  268  grep CLUE
+  269  cat crimescene
+  270  pwd
+  271  cd Desktop
+  272  cd general_assembly
+  273  cd deliverables
+  274  cd unit-1
+  275  cd deliverables
+  276  cd command-line-murder-mystery
+  277  cd mystery
+  278  head crimescene
+  279  cat crimescene
+  280  grep -r CLUE  *
+  281  grep -r annabel*
+  282  grep -r Annabel*
+  283  grep -r Annabel *
+  284  cat hint 1
+  285  open hint 1
+  286  head -n people
+  287  grep -r Annabel sun *
+  288  head -n
+  289  head people
+  290  open people
+  291  head -n 20 people
+  292  head -n 40 people
+  293  head -n annabel  people
+  294  cat people
+  295  grep -r Annabel *
+  296  grep -r church *
+  297  pwd
+  298  cat  hint2
+  299  cat hint3
+  300  cd ..
+  301  cat hint3
+  302  cd mystery
+  303  head people
+  304  cd ..
+  305  cat hint4
+  306  grep "Annabel" people
+  307  grep -r Annabel people
+  308  grep -r Annabel people *
+  309  cat hint 6
+  310  cd ..
+  311  cat hint 6
+  312  cat hint6
+  313  pwd
+  314  cd command-line-murder-mystery
+  315  cat hint6
+  316  grep -r honda *
+  317  cd mystery
+  318  grep -r honda *
+  319  grep -r blue *
+  320  clear
+  321  grep annabel people
+  322  grep -r annabel
+  323  cd Desktop
+  324  cd general_assembly
+  325  cd unit-1
+  326  cd command-line-murder-mystery
+  327  cd deliverables
+  328  cd command-line-murder-mystery
+  329  cd mysterys
+  330  cd mystery
+  331  grep -r CLUE  *
+  332  grep  -r Annabel*
+  333  grep  -r Annabel *
+  334  head -n 40 vehicles
+  335  grep "Annabel" people
+  336  cd ..
+  337  cat hint7
+  338  grep -A 5 "l337" mystery/vehicles
+  339  grep -A 5 "l337" vehicles
+  340  grep -A 5 "L337" mystery/vehicles
+  341  head  -n 40 streets/hart_place | tail-n 1
+  342  head  -n 40 streets/hart_place
+  343  pwd
+  344  cd ..
+  345  cat hint5
+  346  history
+  347  cd Desktop
+  348  cd general_assembly
+  349  cd unit-1
+  350  cd deliverables
+  351  cd command-line-murder-mystery
+  352  cd mystery
+  353  grep -r CLUE *
+  354  grep _r Annabel *
+  355  grep "Annabel"
+  356  cd Desktop
+  357  cd general_assembly
+  358  cd unit-1
+  359  cd deliverables
+  360  cd command-line-murder-mystery
+  361  open instructions
+  362  grip -r CLUE *
+  363  grep -r CLUE *
+  364  grep -r Annabel *
+  365  pwd
+  366  cat hint4
+  367  grep "Annabel" people
+  368  grep "Annabel" people *
+  369  head -n 173 streets/Mattapan_Street | tail -n 1
+  370  cd mystery
+  371  head -n 173 streets/Mattapan_Street | tail -n 1
+  372  head -n 173 streets/Mattapan_hart_Place | tail -n 1
+  373  head -n 173 streets/hart_Place | tail -n 1
+  374  head -n 40 streets/hart_Place | tail -n 1
+  375  head -n 40 streets/Buckingham_place | tail -n 1
+  376  head -n 179 streets/Buckingham_place | tail -n 1
+  377  cat interview
+  378  cat interviews
+  379  cat  699607
+  380  grep -r 699607 *
+  381  open 699687
+  382  open "699687"
+  383  see interview  #699607
+  384  cat interviews
+  385  cat interview/interview-699607  
+  386  cat interview_699607  
+  387  cat interview_grep "699607"  
+  388  cat interviews_grep "699607"  
+  389  cat interviews_grep -r  "699607" *  
+  390  clear
+  391  history
+  392  git clone https://github.com/WDI-SEA/command-line-murder-mystery.git
+  393  ls
+  394  cd Desktop
+  395  cd general_assembly
+  396  cd unit-1
+  397  cd deliverables
+  398  cd command-line-murder-mystery
+  399  rm - command-line-murder-mystery
+  400  rm  command-line-murder-mystery
+  401  pwd
+  402  cd ..
+  403  rm  command-line-murder-mystery
+  404  lsd
+  405  ls
+  406  cd desktop
+  407  cd general_assembly
+  408  cd unit-1
+  409  cd deliverables
+  410  git clone https://github.com/WDI-SEA/command-line-murder-mystery.git
+  411  ls
+  412  cd command-line-murder-mystery
+  413  ls
+  414  open instructions
+  415  cd ..
+  416  ped
+  417  pwd
+  418  touch solution.txt 
+  419  cat crimescene
+  420  grap -r CLue *
+  421  grep -r Clue *
+  422  cd desktop
+  423  cd general_assembly
+  424  cd unit-1
+  425  cd deliverables
+  426  cd command-line-murder-mystery
+  427  grep _r CLUE *
+  428  pwd
+  429  cd mystery
+  430  grep _r CLUE *
+  431  crimescene
+  432  cd crimescene
+  433  grep -r CLUE *
+  434  grep -r annabel *
+  435  grep -r Annabel *
+  436  grep "Annabel" people
+  437  head -n 179 streets/Buckingham_place | tail -n 1
+  438  head -n 40 streets/Buckingham_place | tail -n 1
+  439  head -n 38 streets/Buckingham_place | tail -n 1
+  440  head -n 179 streets/Buckingham_place | tail -n 1
+  441  head -n 26 streets/Hart_Place | tail -n 
+  442  head -n 26 streets/Hart_Place | tail -n 1
+  443  head -n 40 streets/Hart_Place | tail -n 1
+  444  head interviews
+  445  head "interviews"
+  446  head people
+  447  less interviews/interview-699607
+  448  less interviews/interview-47246024\n
+  449  cd ..
+  450  cat hint 6
+  451  head hint6
+  452  grep "L337" vehicles
+  453  grep -r L337 *
+  454  grep -r blue * 
+  455  grep L337 vehicles
+  456  cd mystery
+  457  grep "L337" vehicles
+  458  grep "L337" vehicles -A3
+  459  grep "L337" vehicles -A3 | grep Blue -B1 -A1
+  460  grep "L337" vehicles -A3 | grep Blue -C1| grep Honda -A2
+  461  grep "Erica Owens" people
+  462  grep "Erika Owens" people
+  463  head -n 56 streets/Trapelo | tail -n 1
+  464  head -n 98 streets/Trapelo | tail -n 1
+  465  cd mystery
+  466  pwd
+  467  head -n 98 Street/Trapelo | tail -n 1
+  468  head -n 98 Streets/Trapelo | tail -n 1
+  469  head -n 98 Street/Trapelo | tail -n 1
+  470  head -n 40 streets/Trapelo_Street | tail -n 1
+  471  head -n 56 streets/Trapelo_Street | tail -n 1
+  472  head -n 98 streets/Trapelo_Street | tail -n 1
+  473  less interviews/interview-5455315\n
+  474  grep "Aron Pilhofers" people
+  475  grep "Aron Pilhofer" people
+  476  head -n 145 streets/Claybourne_Street | tail -n 1
+  477  less interviews/interview-1767453\n
+  478  less interviews/interview-1767435\n
+  479  grep "HeatherBillings" people
+  480  grep "Heather Billings" people
+  481  head -n 19 streets/Culbert_Street | tail -n 1
+  482  less interviews/interview-2939888\n
+  483  grep "Joe Germuska" people
+  484  head -n 275 streets/Plainfield_Street | tail -n 1
+  485  less interviews/interview-29741223\n
+  486  grep "Jeremy Bowers" people
+  487  head -n 284 streets/Dunstable_Road | tail -n 1
+  488  less interviews/interview-9620713\n
+  489  grep "Jacqui Maher" people
+  490  head -n 224 streets/Andover_Road | tail -n 1
+  491  less interviews/interview-904020\n
+
+
+Jeremy Bowers
