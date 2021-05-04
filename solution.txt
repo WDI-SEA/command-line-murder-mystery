@@ -1,0 +1,230 @@
+    1  echo $SHELL
+    2  brew install git
+    3  git --version
+    4  brew link --overwrite git
+    5  brew upgrade git
+    6  brew install --cask visual-studio-code
+    7  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    8  open ~/.zshrc
+    9  export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+   10  code ~/.zshrc
+   11  cd Desktop
+   12  git config --global init.defaultBranch main
+   13  git config --global user.name "Tlamatina"
+   14  git config --global user.email "Tassi.lamatina@gmail.com"
+   15  git config --global push.default simple
+   16  git config --global credential.helper cache
+   17  git config --global init.defaultBranch main
+   18  git config --global user.name Tlamatina
+   19  git config --global user.email Tassi.lamatina@gmail.com
+   20  git config --global push.default simple
+   21  git config --global credential.helper cache
+   22  code ~/.gitconfig
+   23  ssh-keygen -t ed25519 -C tassi.lamatina@gmail.com
+   24  eval "$(ssh-agent -s)"
+   25  open ~/.ssh/config
+   26  touch ~/.ssh/config
+   27  open ~/.ssh/config
+   28  open ~/.ssh/config 
+   29  ssh-add -K ~/.ssh/id_ed25519
+   30  pbcopy < ~/.ssh/id_ed25519.pub
+   31  cd desktop
+   32  cd seir-125
+   33  code ~/.zshrc
+   34  cd 
+   35  la -a
+   36  ls -a
+   37  code ~/.zshrc
+   38  pwd
+   39  open
+   40  ls
+   41  ls Downloads
+   42  pwd
+   43  ls
+   44  cd downloads
+   45  pwd
+   46  cd ..
+   47  pwd
+   48  man ls
+   49  pwd
+   50  ls -l
+   51  ls -a
+   52  ls -la
+   53  man -ls
+   54  q
+   55  -q
+   56  pwd
+   57  cd Desktop
+   58  mkdir General-Assembly
+   59  pwd
+   60  ls
+   61  cd General-Assembly
+   62  mkdir unit-1
+   63  ls
+   64  mkdir unit-1/deliverables
+   65  ls
+   66  ls unit-1
+   67  pwd
+   68  touch about.txt
+   69  ls
+   70  cat about.txt
+   71  echo "Hello! This is my GA file folder."
+   72  echo "Hello! This is my GA file folder." > about.txt
+   73  cat about.txt
+   74  grep "hello"
+   75  cd unit-1
+   76  cd General Assembly
+   77  cd General-Assembly
+   78  ls
+   79  desktop
+   80  General Assembly
+   81  Genral-Assembly
+   82  General-Assembly
+   83  desktop
+   84  General-Assembly/unit-1
+   85  ls
+   86  deliverables
+   87  git clone git@github.com:Tlamatina/command-line-murder-mystery.git
+   88  ls
+   89  cd command-line-murder-mystery
+   90  /Desktop/General-Assembly/unit-1/deliverables
+   91  pwd
+   92  cd desktop
+   93  cd General Assembly
+   94  pwd
+   95  cd General-Assembly
+   96  cd unit-1
+   97  cd deliverables
+   98  cd command-line-murder-mystery
+   99  ls
+  100  README.md
+  101  cd README.md
+  102  ls
+  103  cat README.md
+  104  cd cheatsheet.md
+  105  ls
+  106  cat cheatsheet.md
+  107  pwd
+  108  cd General Assembly
+  109  cd Desktop
+  110  /General-Assembly/unit-1/deliverables/command-line-murder-mystery
+  111  pwd
+  112  cd General-Assembly
+  113  cd unit-1
+  114  cd deliverables
+  115  cd command-line-murder-mystery
+  116  pwd
+  117  cat instructions
+  118  touch solution.txt
+  119  ls
+  120  cd mystery
+  121  ls
+  122  cd crimescene
+  123  ls
+  124  cd crimescene
+  125  cd crimescene 
+  126  cat crimescene 
+  127  grep CLUE
+  128  ls
+  129  cd mystery
+  130  head -n 20 people
+  131  head people
+  132  head vehicles
+  133  grep "Annabel" people
+  134  pwd
+  135  /Desktop/General-Assembly/unit-1/deliverables/command-line-murder-mystery
+  136  pwd
+  137  cd Desktop
+  138  cd GEneral-Assembly
+  139  cd unit-1
+  140  cd deliverables
+  141  cd command-line-murder-mystery
+  142  cat README.md
+  143  cat instructions
+  144  head -n 20 people
+  145  pwd
+  146  cd mystery
+  147  head -n 20 people
+  148  grep "CLUE" crimescene
+  149  pwd
+  150  cd Desktop
+  151  cd General-Assembly
+  152  cd unit-1
+  153  cd deliverables
+  154  cd command-line-murder-mystery
+  155  cat README.md
+  156  cat instructions
+  157  cat hint1
+  158  cat hint2
+  159  cat hint3
+  160  cat hint4
+  161  cat hint5
+  162  cat hint6
+  163  cat hint7
+  164  cat hint8
+  165  cd mystery
+  166  head -n 20 people
+  167  grep "CLUE" crimescene
+  168  head people
+  169  head vehicles
+  170  grep "Annabel" people
+  171  head -n 173 streets/Mattapan_Street | tail -n 1
+  172  cd interviews
+  173  cat interview-9437737
+  174  cd mystery
+  175  .
+  176  ..
+  177  grep "Honda" vehicles
+  178  pwd
+  179  ls
+  180  grep "Honda" vehicles
+  181  grep "Blue" vehicles
+  182  head vehicles
+  183  grep -A 5 "L337" mystery/vehicles
+  184  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  185  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  186  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  187* pwd
+  188* echo " " && sed -n '/Z/p' encoded | tail -n 6 | cut -c 8,22,23,41 && echo " "
+  189  grep "Annabel" people
+  190  head -n 40 streets/Hart_Place | tail -n 1
+  191  head -n 179 streets/Buckingham_Place | tail -n 1
+  192  cat interviews/interview-47246024 interviews/interview-699607
+  193  cd memberships
+  194  ls
+  195  cat AAA | grep -f delta > ../members
+  196  cat AAA
+  197  cat AAA | grep -f Delta_SkyMiles > ../members
+  198  cd..
+  199  grep Joe members
+  200  ls
+  201  cat AAA | grep -f Terminal_City_Library > ../members
+  202  cd ..
+  203  grep Joe members
+  204  cat AAA | grep Delta_SkyMiles > ../members
+  205  cat AAA | grep -f Delta_SkyMiles > ../members
+  206  ls
+  207  cd memberships
+  208  ls
+  209  cat AAA | grep -f Delta_SkyMiles > ../members
+  210  cd..
+  211  grep Joe members
+  212  grep Jeremy members
+  213  pwd
+  214  cat AAA | grep -f Museum_of_Bash_History > ../members
+  215  cd ..
+  216  grep Joe members
+  217  grep Jeremy members
+  218  pwd
+  219  grep -A 4 L337 vehicles | grep -A 3 Honda | grep -A 2 Blue
+  220  cd memberships
+  221  cat AAA | grep -f Delta_SkyMiles > ../members
+  222  cd ..
+  223  grep Joe members
+  224  grep Jeremy members
+  225  cd mystery
+  226  cd ..
+  227  ls
+  228  history > solutions.txt
+  229  cat solutions.txt
+  230  echo " The Solution is Jeremy Bowers."
