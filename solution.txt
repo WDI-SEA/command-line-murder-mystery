@@ -1,0 +1,778 @@
+    1  git init
+    2  cd
+    3  cd list
+    4  list
+    5  git --version
+    6  git init
+    7  xcode-select --install
+    8  git --version
+    9  $ git init
+   10  git init
+   11  cd list
+   12  cd users
+   13  ls list
+   14  ls
+   15  $
+   16  %
+   17  $
+   18  %
+   19  pwd
+   20  ls -a
+   21  cd .git
+   22  pwd .git
+   23  cd ~
+   24  pwd
+   25  cd .git
+   26  pwd
+   27  cd ga-blog
+   28  ls
+   29  cd desktop
+   30  ls
+   31  ls desktop
+   32  ls
+   33  pwd
+   34  mkdir GA-Blog
+   35  cd ga-blog
+   36  touch index.heml style.css
+   37  rm index.heml
+   38  rmdir ga-blog
+   39  rmdir GA-Blog
+   40  cd
+   41  pwd
+   42  rm -r ga-blog
+   43  rm -r GA-Blog
+   44  mkdir myfolder
+   45  rm -r myfolder
+   46  rm -r ~/ga-blog
+   47  rm -r ~/GA-Blog
+   48  pwd
+   49  ls
+   50  cd desktop
+   51  rmdir GA-Blog
+   52  rmdir ~/GA-Blog
+   53  rm -r ga-blog
+   54  mkdir GA-Blog
+   55  cd ga-blog
+   56  git init
+   57  pwd
+   58  ls -a
+   59  git status
+   60  touch post.txt
+   61  git add post.txt
+   62  git status
+   63  git add .
+   64  git status
+   65  git commit -m "created a new post.txt file"
+   66  git config --global user.name "miknayr"
+   67  git config --global user.email "ryan@miknayr.com"
+   68  git status
+   69  git add post.txt
+   70  git commit -m "posting txt file"
+   71  git log
+   72  mkdir git-practice
+   73  cd git-practice
+   74  git init
+   75  touch textfile.txt
+   76  ls -a
+   77  touch README.txt
+   78  git status
+   79  git commit -m "two files of test text"
+   80  git log
+   81  git add readme.txt
+   82  git add textfile.txt
+   83  git commit -m "two files of test text"
+   84  git log
+   85  git clone https://github.com/miknayr/Hello-World.git
+   86  git add readme
+   87  cd hello-world
+   88  git add README
+   89  git commit -m "added ryan to readme"
+   90  git push origin master
+   91  echo $shel
+   92  echo $SHELL
+   93  chsh -s /bin/zsh
+   94  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   95  brew install zsh
+   96  brew-v
+   97  brew -v
+   98  brew -update
+   99  brew commands
+  100  brew -upgrade
+  101  brew install zsh
+  102  chsh -s /bin/zsh
+  103  chsh -s /bin/zsh
+  104  echo $SHELL
+  105  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+  106  zsh config
+  107  zsh -config
+  108  open ~/.zshrc
+  109  xcode-select --install
+  110  brew install zsh
+  111  echo $SHELL
+  112  brew install git
+  113  git --version
+  114  brew install --cask visual-studio-code
+  115  chsh -s /bin/zsh
+  116  ZSH_DISABLE_COMPFIX true
+  117  compaudit | xargs chmod g-w,o-w
+  118  echo $SHELL
+  119  zsh config
+  120  zsh -config
+  121  oh my zsh
+  122  git
+  123  cd
+  124  ls
+  125  pwd
+  126  cd general assembly
+  127  ls
+  128  cd desktop
+  129  ls
+  130  cd general assembly
+  131  cd General Assembly
+  132  cd
+  133  ls
+  134  cd desktop
+  135  cd desktop/General-Assembly
+  136  cd
+  137  ls
+  138  vit --version
+  139  git --version
+  140  cd desktop
+  141  ls
+  142  cd General-assembly
+  143  cd GA
+  144  mkdir GA
+  145  cd GA
+  146  pwd
+  147  open ~/.zshrc
+  148  $PATH
+  149  code .
+  150  code
+  151  code ~/.zshrc
+  152  cd desktop
+  153  ls
+  154  cd ga
+  155  ls
+  156  pwd
+  157  git config --global init.defaultBranch main
+  158  git config --global user.name "miknayr"
+  159  git config --global user.email "teamry4n@gmail.com"
+  160  git config --global push.default simple
+  161  git config --global credential.helper cache
+  162  ls -al ~/.ssh
+  163  git config --global user.name miknayr
+  164  git config --global user.email teamry4n@gmail.com
+  165  git config
+  166  code ~/.gitconfig
+  167  ls -al ~/.ssh
+  168  $ ssh-keygen -t ed25519 -C teamry4n@gmail.com
+  169  ssh-keygen -t ed25519 -C teamry4n@gmail.com
+  170  ls -al ~/.ssh
+  171  code ~/.sshry4n1!
+  172  cd /users/miknayr/.ssh
+  173  cd /users/
+  174  ls
+  175  cd miknayr
+  176  cd
+  177  cd .a
+  178  cd -a
+  179  ls -a
+  180  cd miknayr
+  181  cd users/miknayr
+  182  cd users
+  183  cd
+  184  pwd
+  185  ls -a
+  186  ssh-keygen -t ed25519 -C 
+  187  ssh-keygen -t ed25519 -C teamry4n@gmail.com
+  188  ls -al ~/.ssh
+  189  rm ~/.ssh
+  190  rm ~/.ssh/id_ed25519
+  191  rm ~/.ssh/id_ed25519.pub
+  192  ls -al ~/.ssh
+  193  ssh-keygen -t ed25519 -C teamry4n@gmail.com
+  194  eval "$(ssh-agent -s)"
+  195  open ~/.sshconfig
+  196  open ~/sshkeys.ssh/config
+  197  touch ~/.ssh/config
+  198  open ~/.ssh/config
+  199  ssh-add -K ~/.ssh/id_ed25519
+  200  ls -a
+  201  ssh-add -K ~/.ssh/id_ed25519
+  202  eval "$(ssh-agent -s)"
+  203  cd
+  204  ls
+  205  mkdir .ssh
+  206  ls -a
+  207  cd .ssh
+  208  touch ~/.ssh/config
+  209  open ~/.ssh/config
+  210  ssh-add -K ~/.ssh/id_ed25519
+  211  touch config
+  212  open config
+  213  ssh-add -K ~/.ssh/id_ed25519
+  214  ssh-keygen -t ed25519 -C teamry4n@gmail.com
+  215  eval "$(ssh-agent -s)"
+  216  open ~/.ssh/config
+  217  touch ~/.ssh/config
+  218  open ~/.ssh/config
+  219  ssh-add -K ~/.ssh/id_ed25519
+  220  cd
+  221  pbcopy < ~/.ssh/id_ed25519.pub
+  222  cde
+  223  cd
+  224  code ~/.zshrc
+  225  ls -a
+  226  pwd
+  227  open .
+  228  ls
+  229  ls download
+  230  ls downloads
+  231  cd downloads
+  232  clear
+  233  history
+  234  pwd
+  235  ls
+  236  cd
+  237  ls
+  238  pwd
+  239  cd downloads
+  240  cd..
+  241  cd ..
+  242  man
+  243  man ls
+  244  pwd
+  245  ls -l
+  246  rm sshkeys
+  247  ls
+  248  ls -a
+  249  ls -l
+  250  open ~/sshkeys.pub
+  251  man ls
+  252  cd ..
+  253  ls
+  254  cd ..
+  255  cd ~
+  256  ls
+  257  cd ~
+  258  cd downloads
+  259  cd ~
+  260  cd useres
+  261  cd users
+  262  ls
+  263  cd Users
+  264  ls
+  265  cd ~
+  266  pwd
+  267  ls
+  268  cd desktop
+  269  ls
+  270  cd ga
+  271  mkdir Unit 1
+  272  ls
+  273  mkdir "Unit 1"
+  274  ls
+  275  desktop
+  276  cd desktop
+  277  pwd
+  278  cd ..
+  279  ..
+  280  cd desktop
+  281  cd ga
+  282  pwd
+  283  open .
+  284  cd unit-1
+  285  ls
+  286  cd "Unit 1"
+  287  cd ..
+  288  mkdir "unit 1"/deliverables
+  289  ls
+  290  open
+  291  open .
+  292  touch about.txt
+  293  ls
+  294  cat about.txt
+  295  cd
+  296  ls
+  297  cd ga
+  298  cd desktop/ga
+  299  ls
+  300  cat about.txt
+  301  echo "hello"
+  302  echo "hello"> about.txt
+  303  grep "hello"
+  304  cat about.txt
+  305  grep "hello"
+  306  cat about.txt
+  307  echo "hello! this is my test file" > about.txt
+  308  cat about.txt
+  309  grep hello
+  310  cat about.txt | grep "hello"
+  311  mkdir git-basics
+  312  rm git-basics
+  313  rmdir git-basics
+  314  cd "unit 1"
+  315  mkdir "git basics"
+  316  cd "git basics"
+  317  git init
+  318  git status
+  319  touch example.txt
+  320  ls
+  321  git status
+  322  git add example.txt
+  323  git status
+  324  git commit -m "added example.txt"
+  325  git status
+  326  clear
+  327  git log
+  328  echo "first change - rk" >> example.txt
+  329  cat example.txt
+  330  echo "second change -rk" >> example.txt
+  331  cat example.txt
+  332  git diff
+  333  git diff example.txt
+  334  git add example.txt
+  335  git status
+  336  git commit -m "added first and second change text to example.txt"
+  337  git log
+  338  git checkout -review 4c00a
+  339  git log -review 4c00a
+  340  git log -review commit history
+  341  git diff 4c00a
+  342  git diff
+  343  git status
+  344  git status example.txt
+  345  git checkout
+  346  cd ..
+  347  mkdir tacos
+  348  cd tacos
+  349  echo "# tacos" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/miknayr/tacos.git\ngit push -u origin main
+  350  cat README.md
+  351  echo "i love tacos >> README.md
+  352  echo "i love tacos" >> README.md
+  353  git status
+  354  git add
+  355  git add README.md
+  356  git commit -m "no cap, love tacos"
+  357  git status
+  358  git log
+  359  git push
+  360  git pull
+  361  cat README.md
+  362  clear
+  363  cd ..
+  364  cd deliverables
+  365  git clone git@github.com:miknayr/command-line-murder-mystery.git
+  366  ls
+  367  cd command-line-murder-mystery
+  368  ls
+  369  ls -l
+  370  cat README.md
+  371  cat LICENSE
+  372  ls
+  373  ls -l
+  374  cad instructions
+  375  cat instructions
+  376  ls
+  377  cat instructions
+  378  pwd
+  379  sudo kextload /Library/Extensions/RazerHid.kext
+  380  Code Block language\nsudo kextload /Library/Extensions/RazerHid.kext
+  381  pwd
+  382  Code Block language\n/usr/sbin/spctl kext-consent add R2H967U7J8
+  383  Code Block language\n/usr/sbin/spctl kext-consent add R2H96cl
+  384  clear
+  385  /usr/sbin/spctl kext-consent add R2H967U7J8\n
+  386  sudo kextload /Library/Extensions/RazerHid.kext\n
+  387  sudo /usr/bin/kmutil load -p /Library/Extensions/RazerHid.kext
+  388  sudo kextload /Library/Extensions/RazerHid.kext\n
+  389  sudo kmutil load -z -p /Library/Extensions/RazerHid.kext
+  390  cd
+  391  ls
+  392  cd desktop
+  393  cd
+  394  cd desktop/ga
+  395  ls
+  396  cd unit
+  397  cd Unit\ 1
+  398  ls
+  399  cd deliverables
+  400  ls
+  401  cd command-line-murder-mystery
+  402  ls
+  403  cat instruction
+  404  cat instructions
+  405  cat hint1
+  406  ls -a
+  407  cd mystery
+  408  ls
+  409  ls 0a
+  410  ls -a
+  411  cd ..
+  412  ls
+  413  open cheatsheed.md
+  414  open cheatsheet.md
+  415  open cheatsheet.pdf
+  416  head -n 20 people
+  417  cd mystery
+  418  grep head -n
+  419  pwd
+  420  ls
+  421  cd crimescene
+  422  cat crimescene
+  423  ls
+  424  /crimescene$ grep head -n 20 people
+  425  open crimescene
+  426  cat hint2
+  427  cd ..
+  428  ls
+  429  cat hint2
+  430  cd mystery
+  431  grep "CLUE" crimescene
+  432  cat hint1
+  433  cd ..
+  434  cat hint 1
+  435  cat hint1
+  436  head -n 20 people
+  437  cd mystery
+  438  ls
+  439  head -n 20 people
+  440  grep "clue" crimescene
+  441  grep "CLUE" crimescene
+  442  grep "height" crimescene
+  443  grep "tall" crimescene
+  444  grep "TALL" crimescene
+  445  grep "HEIGHT" crimescene
+  446  grep "ATM" crimescene
+  447  grep "bank" crimescene
+  448  cd ..
+  449  cat hint3
+  450  ls
+  451  cd mystery
+  452  grep "people" crimescene
+  453  grep "vehicle" crimescene
+  454  grep "head people" crimescene
+  455  grep "HEAD" crimescene
+  456  grep "head" crimescene
+  457  cd ..
+  458  ls
+  459  cat hint 4
+  460  cat hint4
+  461  cd mystery
+  462  grep "vehicle" people
+  463  grep "VEHICLE" people
+  464  ls
+  465  grep "Annabel" people
+  466  grep "Alicia Fuentes" people
+  467  grep "Annabel" crimescene
+  468  grep "CLUE" crimescene
+  469  grep "membership" crimescene
+  470  grep "blond" crimescene
+  471  ls
+  472  cd membership
+  473  cat memberships
+  474  cd memberships
+  475  ls
+  476  cd AAA
+  477  cat AAA
+  478  grep "Annabel" AAA
+  479  cd ..
+  480  ls
+  481  cd mystery
+  482  ls
+  483  cd ..
+  484  cat hint1
+  485  cd mystery
+  486  head -n 20 people
+  487  cd ..
+  488  ls
+  489  hint5
+  490  cat hint5
+  491  cat people
+  492  cd ..
+  493  cat people
+  494  cd command-line-murder-mystery
+  495  cd mystery
+  496  ls
+  497  cat people
+  498  ls
+  499  cd ..
+  500  ls
+  501  cat instruction
+  502  cat instructions
+  503  nano cheatsheet.md
+  504  ls
+  505  cat hint1
+  506  cd mystery
+  507  ls
+  508  head -n 20 people
+  509  open people
+  510  ls
+  511  cd ..
+  512  cat hint2
+  513  cd mystery
+  514  grep "CLUE" crimescene
+  515  cd ..
+  516  cat hint3
+  517  cd mystery
+  518  head people
+  519  head vehicles
+  520  head "6'" vehicles
+  521  head "Height: 6'" vehicles
+  522  grep "Height: 6'" vehicles
+  523  grep "Height: "6'0" vehicles
+  524  pwd
+  525  ls
+  526  grep "Annabel" vehicles
+  527  ls
+  528  grep "Annabel Church" people
+  529  grep "Annabel Sun" people
+  530  grep "Annabel" people
+  531  cat interviews
+  532  cd interviews
+  533  ls
+  534  cd ..
+  535  ls
+  536  cd streets
+  537  ls
+  538  cat hart_place
+  539  grep "hart_place"
+  540  ls
+  541  cat hart_place
+  542  ls
+  543  ls -a
+  544  grep "Annabel"
+  545  cd ..
+  546  ls
+  547  cd ..
+  548  ls
+  549  hint5
+  550  cat hint5
+  551  cat hint4
+  552  cat hint3
+  553  pwd
+  554  ls
+  555  cd mystery
+  556  ls
+  557  cd streets
+  558  ls
+  559  cd ..
+  560  ls
+  561  grep "Annabel" people
+  562  grep "CLUE" crimescene
+  563  grep "barista" interviews
+  564  cd interviews
+  565  ls
+  566  grep "barista"
+  567  grep "barista" .interviews
+  568  grep "barista" /.interviews
+  569  grep "barista" *
+  570  grep "Annabel" *
+  571  cat interview-000296
+  572  grep "AAA" *
+  573  cat interview-290346
+  574  ls
+  575  cd ..
+  576  head -n 173 streets/Mattapan_Street | tail -n 1\n
+  577  ls
+  578  cd interviews
+  579  cat interview-9437737
+  580  cd ..
+  581  cat hint6
+  582  ls
+  583  cd ..
+  584  cat hint6
+  585  ls
+  586  cd mystery
+  587  ls
+  588  grep "Honda" vehicles
+  589  ls
+  590  grep "L337" vehicles
+  591  grep "L337"|"Honda" vehicles
+  592  grep "L337 | Honda" vehicles
+  593  grep "L337" | "Honda"  vehicles
+  594  ls
+  595  grep 'L337|Honda|Blue" vehicles
+  596  ls
+  597  cat vehicles
+  598  grep "License Plate L337" vehicles
+  599  head -n L337
+  600  grep "Annabel" vehicles
+  601  grep "Annabel" vehicles -c 6
+  602  grep "Annabel" vehicles -c6
+  603  grep "Annabel" vehicles -c4
+  604  grep "Annabel Church" vehicles -c6
+  605  grep -C6 "Annabel Church" vehicles
+  606  grep -C6 "Annabel" vehicles
+  607  grep -C4 "Annabel" vehicles
+  608  ls
+  609  cd interviews
+  610  grep "Fuglsang" *
+  611  grep "Annabel" *
+  612  grep "Honda" *
+  613  cat interview-699607
+  614  ls
+  615  cd ..
+  616  ls
+  617  grep -C4 "L337" vehicles
+  618  grep -C4 "L337|Honda|Blue" vehicles
+  619  grep -C4 "L337|Honda" vehicles
+  620  ls
+  621  grep -C5 "L337" vehicles
+  622  ls
+  623  cd ..
+  624  ls
+  625  cat hint7
+  626  cd mystery
+  627  grep -A 5 "L337" mystery/vehicles
+  628  grep -A5 "L337" mystery/vehicles
+  629  grep -A 5 "L337" mystery
+  630  ls
+  631  cd vehicles
+  632  grep -A 5 "L337" vehicles
+  633  ls
+  634  cd interviews
+  635  ls
+  636  grep "jacqui"
+  637  grep "jacqui" *
+  638  ls
+  639  cd ..
+  640  ls
+  641  grep "Jacqui Maher" people
+  642  grep "Jeremy Bowers" people
+  643  grep "Joe Germuska" people
+  644  grep "Aron Pilhofer" people
+  645  grep "Erika Owens" people
+  646  grep "Heather Billings" people
+  647  ls
+  648  cd ..
+  649  ls
+  650  cat hint8
+  651  cd mystery
+  652  ls
+  653  cat AAA | grep -c "Jacqui"
+  654  cd memberships
+  655  ls
+  656  cat AAA
+  657  ls
+  658  cat AAA | grep "Jacqui Maher"
+  659  grep "Jacqui Maher" AAA
+  660  grep "Jeremy Bowers" AAA
+  661  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  662  cat AAA | grep "Jeremy Bowers"
+  663  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  664  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  665  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep -c5 "Jeremy Bowers"
+  666  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep -C5 "Jeremy Bowers"
+  667  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  668  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+  669  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Aron Pilhofer"
+  670  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Heather Billings"
+  671  cat AAA | grep "Jeremy Bowers"
+  672  cat Delta | grep "Jeremy Bowers"
+  673  cat Delta_SkyMiles | grep "Jeremy Bowers"
+  674  cat Terminal_City_Library | grep "Jeremy Bowers"
+  675  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  676  ls
+  677  cd ..
+  678  ls
+  679  cd interviews
+  680  grep "Jeremy Bowers"
+  681  grep "Jeremy Bowers" *
+  682  ls
+  683  grep "Bowers" *
+  684  grep "Jeremy" *
+  685  ls
+  686  cd ..
+  687  cd people
+  688  ls
+  689  grep "Jeremy Bowers" people
+  690  cd streets
+  691  ls
+  692  cat Dunstable_Road
+  693  cd ..
+  694  ls
+  695  cd interviews
+  696  ls
+  697  cat interview-9620713
+  698  cd ..
+  699  ls
+  700  cd ..
+  701  ls
+  702  ls -a
+  703  cat instructions
+  704  ls
+  705  cat solution
+  706  ls
+  707  cat hint8
+  708  touch solution.txt
+  709  ls
+  710  cd mystery
+  711  ls
+  712  cd streets
+  713  cd ..
+  714  grep "Jeremy Bowers" people
+  715  cd streets
+  716  grep "Dunstable Road" streets
+  717  ls
+  718  grep "Dunstable_Road" *
+  719  grep "Jeremy Bowers" *
+  720  cat Dunstable_Road
+  721  head -n Dunstable | tail -n 1
+  722  head -n 284 | tail -n 1
+  723  head -n 284 streets/Dunstable_Road | tail -n 1
+  724  head -n '284' streets/Dunstable_Road | tail -n 1
+  725  head -n '284' Dunstable_Road | tail -n 1
+  726  ls
+  727  cd ..
+  728  ls
+  729  cd interviews
+  730  ls
+  731  cat interview-9620713
+  732  cd
+  733  ls
+  734  cd desktop/ga/
+  735  ls
+  736  cd Unit\ 1
+  737  ls
+  738  cd deliverables
+  739  ls
+  740  cd command-line-murder-mystery
+  741  ls
+  742  cd mystery
+  743  ls
+  744  grep "Joe Germuska" people
+  745  head -n '275' streets/Plainfield_Street | tail -n 1
+  746  cat interviews/interview-29741223
+  747  grep "Jacqui Maher" people
+  748  head -n '224' streets/Andover_Road | tail -n 1
+  749  cat interviews/interview-904020
+  750  grep "Heather Billings" people
+  751  head -n '19' streets/Culbert_Street | tail -n 1
+  752  cat interviews/interview-2939888
+  753  grep 'Aron Pilhofer' people
+  754  head -n '145' streets/Claybourne_Street | tail -n 1
+  755  cat interviews/interview-1767435
+  756  grep 'Erika Owens' people
+  757  head -n '98' streets/Trapelo_Street | tail -n 1
+  758  cat interviews/interview-5455315
+  759  cat interviews/interview-9620713
+  760  grep "CLUE" crimescene
+  761  cat "Jeremy_Bowers" people
+  762  grep "Jeremy_Bowers" people
+  763  ca
+  764  ls
+  765  cd ..
+  766  ls
+  767  cat instructions
+  768  echo "Jeremy Bowers is the murderer" > solution.txt
+  769  cat solution.txt
+  770  history
+  771  echo "    1  git init\n    2  cd\n    3  cd list\n    4  list\n    5  git --version\n    6  git init\n    7  xcode-select --install\n    8  git --version\n    9  $ git init\n   10  git init\n   11  cd list\n   12  cd users\n   13  ls list\n   14  ls\n   15  $\n   16  %\n   17  $\n   18  %\n   19  pwd\n   20  ls -a\n   21  cd .git\n   22  pwd .git\n   23  cd ~\n   24  pwd\n   25  cd .git\n   26  pwd\n   27  cd ga-blog\n   28  ls\n   29  cd desktop\n   30  ls\n   31  ls desktop\n   32  ls\n   33  pwd\n   34  mkdir GA-Blog\n   35  cd ga-blog\n   36  touch index.heml style.css\n   37  rm index.heml\n   38  rmdir ga-blog\n   39  rmdir GA-Blog\n   40  cd\n   41  pwd\n   42  rm -r ga-blog\n   43  rm -r GA-Blog\n   44  mkdir myfolder\n   45  rm -r myfolder\n   46  rm -r ~/ga-blog\n   47  rm -r ~/GA-Blog\n   48  pwd\n   49  ls\n   50  cd desktop\n   51  rmdir GA-Blog\n   52  rmdir ~/GA-Blog\n   53  rm -r ga-blog\n   54  mkdir GA-Blog\n   55  cd ga-blog\n   56  git init\n   57  pwd\n   58  ls -a\n   59  git status\n   60  touch post.txt\n   61  git add post.txt\n   62  git status\n   63  git add .\n   64  git status\n   65  git commit -m "created a new post.txt file"\n   66  git config --global user.name "miknayr"\n   67  git config --global user.email "ryan@miknayr.com"\n   68  git status\n   69  git add post.txt\n   70  git commit -m "posting txt file"\n   71  git log\n   72  mkdir git-practice\n   73  cd git-practice\n   74  git init\n   75  touch textfile.txt\n   76  ls -a\n   77  touch README.txt\n   78  git status\n   79  git commit -m "two files of test text"\n   80  git log\n   81  git add readme.txt\n   82  git add textfile.txt\n   83  git commit -m "two files of test text"\n   84  git log\n   85  git clone https://github.com/miknayr/Hello-World.git\n   86  git add readme\n   87  cd hello-world\n   88  git add README\n   89  git commit -m "added ryan to readme"\n   90  git push origin master\n   91  echo $shel\n   92  echo $SHELL\n   93  chsh -s /bin/zsh\n   94  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n   95  brew install zsh\n   96  brew-v\n   97  brew -v\n   98  brew -update\n   99  brew commands\n  100  brew -upgrade\n  101  brew install zsh\n  102  chsh -s /bin/zsh\n  103  chsh -s /bin/zsh\n  104  echo $SHELL\n  105  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n  106  zsh config\n  107  zsh -config\n  108  open ~/.zshrc\n  109  xcode-select --install\n  110  brew install zsh\n  111  echo $SHELL\n  112  brew install git\n  113  git --version\n  114  brew install --cask visual-studio-code\n  115  chsh -s /bin/zsh\n  116  ZSH_DISABLE_COMPFIX true\n  117  compaudit | xargs chmod g-w,o-w\n  118  echo $SHELL\n  119  zsh config\n  120  zsh -config\n  121  oh my zsh\n  122  git\n  123  cd\n  124  ls\n  125  pwd\n  126  cd general assembly\n  127  ls\n  128  cd desktop\n  129  ls\n  130  cd general assembly\n  131  cd General Assembly\n  132  cd\n  133  ls\n  134  cd desktop\n  135  cd desktop/General-Assembly\n  136  cd\n  137  ls\n  138  vit --version\n  139  git --version\n  140  cd desktop\n  141  ls\n  142  cd General-assembly\n  143  cd GA\n  144  mkdir GA\n  145  cd GA\n  146  pwd\n  147  open ~/.zshrc\n  148  $PATH\n  149  code .\n  150  code\n  151  code ~/.zshrc\n  152  cd desktop\n  153  ls\n  154  cd ga\n  155  ls\n  156  pwd\n  157  git config --global init.defaultBranch main\n  158  git config --global user.name "miknayr"\n  159  git config --global user.email "teamry4n@gmail.com"\n  160  git config --global push.default simple\n  161  git config --global credential.helper cache\n  162  ls -al ~/.ssh\n  163  git config --global user.name miknayr\n  164  git config --global user.email teamry4n@gmail.com\n  165  git config\n  166  code ~/.gitconfig\n  167  ls -al ~/.ssh\n  168  $ ssh-keygen -t ed25519 -C teamry4n@gmail.com\n  169  ssh-keygen -t ed25519 -C teamry4n@gmail.com\n  170  ls -al ~/.ssh\n  171  code ~/.sshry4n1!\n  172  cd /users/miknayr/.ssh\n  173  cd /users/\n  174  ls\n  175  cd miknayr\n  176  cd\n  177  cd .a\n  178  cd -a\n  179  ls -a\n  180  cd miknayr\n  181  cd users/miknayr\n  182  cd users\n  183  cd\n  184  pwd\n  185  ls -a\n  186  ssh-keygen -t ed25519 -C \n  187  ssh-keygen -t ed25519 -C teamry4n@gmail.com\n  188  ls -al ~/.ssh\n  189  rm ~/.ssh\n  190  rm ~/.ssh/id_ed25519\n  191  rm ~/.ssh/id_ed25519.pub\n  192  ls -al ~/.ssh\n  193  ssh-keygen -t ed25519 -C teamry4n@gmail.com\n  194  eval "$(ssh-agent -s)"\n  195  open ~/.sshconfig\n  196  open ~/sshkeys.ssh/config\n  197  touch ~/.ssh/config\n  198  open ~/.ssh/config\n  199  ssh-add -K ~/.ssh/id_ed25519\n  200  ls -a\n  201  ssh-add -K ~/.ssh/id_ed25519\n  202  eval "$(ssh-agent -s)"\n  203  cd\n  204  ls\n  205  mkdir .ssh\n  206  ls -a\n  207  cd .ssh\n  208  touch ~/.ssh/config\n  209  open ~/.ssh/config\n  210  ssh-add -K ~/.ssh/id_ed25519\n  211  touch config\n  212  open config\n  213  ssh-add -K ~/.ssh/id_ed25519\n  214  ssh-keygen -t ed25519 -C teamry4n@gmail.com\n  215  eval "$(ssh-agent -s)"\n  216  open ~/.ssh/config\n  217  touch ~/.ssh/config\n  218  open ~/.ssh/config\n  219  ssh-add -K ~/.ssh/id_ed25519\n  220  cd\n  221  pbcopy < ~/.ssh/id_ed25519.pub\n  222  cde\n  223  cd\n  224  code ~/.zshrc\n  225  ls -a\n  226  pwd\n  227  open .\n  228  ls\n  229  ls download\n  230  ls downloads\n  231  cd downloads\n  232  clear\n  233  history\n  234  pwd\n  235  ls\n  236  cd\n  237  ls\n  238  pwd\n  239  cd downloads\n  240  cd..\n  241  cd ..\n  242  man\n  243  man ls\n  244  pwd\n  245  ls -l\n  246  rm sshkeys\n  247  ls\n  248  ls -a\n  249  ls -l\n  250  open ~/sshkeys.pub\n  251  man ls\n  252  cd ..\n  253  ls\n  254  cd ..\n  255  cd ~\n  256  ls\n  257  cd ~\n  258  cd downloads\n  259  cd ~\n  260  cd useres\n  261  cd users\n  262  ls\n  263  cd Users\n  264  ls\n  265  cd ~\n  266  pwd\n  267  ls\n  268  cd desktop\n  269  ls\n  270  cd ga\n  271  mkdir Unit 1\n  272  ls\n  273  mkdir "Unit 1"\n  274  ls\n  275  desktop\n  276  cd desktop\n  277  pwd\n  278  cd ..\n  279  ..\n  280  cd desktop\n  281  cd ga\n  282  pwd\n  283  open .\n  284  cd unit-1\n  285  ls\n  286  cd "Unit 1"\n  287  cd ..\n  288  mkdir "unit 1"/deliverables\n  289  ls\n  290  open\n  291  open .\n  292  touch about.txt\n  293  ls\n  294  cat about.txt\n  295  cd\n  296  ls\n  297  cd ga\n  298  cd desktop/ga\n  299  ls\n  300  cat about.txt\n  301  echo "hello"\n  302  echo "hello"> about.txt\n  303  grep "hello"\n  304  cat about.txt\n  305  grep "hello"\n  306  cat about.txt\n  307  echo "hello! this is my test file" > about.txt\n  308  cat about.txt\n  309  grep hello\n  310  cat about.txt | grep "hello"\n  311  mkdir git-basics\n  312  rm git-basics\n  313  rmdir git-basics\n  314  cd "unit 1"\n  315  mkdir "git basics"\n  316  cd "git basics"\n  317  git init\n  318  git status\n  319  touch example.txt\n  320  ls\n  321  git status\n  322  git add example.txt\n  323  git status\n  324  git commit -m "added example.txt"\n  325  git status\n  326  clear\n  327  git log\n  328  echo "first change - rk" >> example.txt\n  329  cat example.txt\n  330  echo "second change -rk" >> example.txt\n  331  cat example.txt\n  332  git diff\n  333  git diff example.txt\n  334  git add example.txt\n  335  git status\n  336  git commit -m "added first and second change text to example.txt"\n  337  git log\n  338  git checkout -review 4c00a\n  339  git log -review 4c00a\n  340  git log -review commit history\n  341  git diff 4c00a\n  342  git diff\n  343  git status\n  344  git status example.txt\n  345  git checkout\n  346  cd ..\n  347  mkdir tacos\n  348  cd tacos\n  349  echo "# tacos" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/miknayr/tacos.git\ngit push -u origin main\n  350  cat README.md\n  351  echo "i love tacos >> README.md\n  352  echo "i love tacos" >> README.md\n  353  git status\n  354  git add\n  355  git add README.md\n  356  git commit -m "no cap, love tacos"\n  357  git status\n  358  git log\n  359  git push\n  360  git pull\n  361  cat README.md\n  362  clear\n  363  cd ..\n  364  cd deliverables\n  365  git clone git@github.com:miknayr/command-line-murder-mystery.git\n  366  ls\n  367  cd command-line-murder-mystery\n  368  ls\n  369  ls -l\n  370  cat README.md\n  371  cat LICENSE\n  372  ls\n  373  ls -l\n  374  cad instructions\n  375  cat instructions\n  376  ls\n  377  cat instructions\n  378  pwd\n  379  sudo kextload /Library/Extensions/RazerHid.kext\n  380  Code Block language\nsudo kextload /Library/Extensions/RazerHid.kext\n  381  pwd\n  382  Code Block language\n/usr/sbin/spctl kext-consent add R2H967U7J8\n  383  Code Block language\n/usr/sbin/spctl kext-consent add R2H96cl\n  384  clear\n  385  /usr/sbin/spctl kext-consent add R2H967U7J8\n\n  386  sudo kextload /Library/Extensions/RazerHid.kext\n\n  387  sudo /usr/bin/kmutil load -p /Library/Extensions/RazerHid.kext\n  388  sudo kextload /Library/Extensions/RazerHid.kext\n\n  389  sudo kmutil load -z -p /Library/Extensions/RazerHid.kext\n  390  cd\n  391  ls\n  392  cd desktop\n  393  cd\n  394  cd desktop/ga\n  395  ls\n  396  cd unit\n  397  cd Unit\ 1\n  398  ls\n  399  cd deliverables\n  400  ls\n  401  cd command-line-murder-mystery\n  402  ls\n  403  cat instruction\n  404  cat instructions\n  405  cat hint1\n  406  ls -a\n  407  cd mystery\n  408  ls\n  409  ls 0a\n  410  ls -a\n  411  cd ..\n  412  ls\n  413  open cheatsheed.md\n  414  open cheatsheet.md\n  415  open cheatsheet.pdf\n  416  head -n 20 people\n  417  cd mystery\n  418  grep head -n\n  419  pwd\n  420  ls\n  421  cd crimescene\n  422  cat crimescene\n  423  ls\n  424  /crimescene$ grep head -n 20 people\n  425  open crimescene\n  426  cat hint2\n  427  cd ..\n  428  ls\n  429  cat hint2\n  430  cd mystery\n  431  grep "CLUE" crimescene\n  432  cat hint1\n  433  cd ..\n  434  cat hint 1\n  435  cat hint1\n  436  head -n 20 people\n  437  cd mystery\n  438  ls\n  439  head -n 20 people\n  440  grep "clue" crimescene\n  441  grep "CLUE" crimescene\n  442  grep "height" crimescene\n  443  grep "tall" crimescene\n  444  grep "TALL" crimescene\n  445  grep "HEIGHT" crimescene\n  446  grep "ATM" crimescene\n  447  grep "bank" crimescene\n  448  cd ..\n  449  cat hint3\n  450  ls\n  451  cd mystery\n  452  grep "people" crimescene\n  453  grep "vehicle" crimescene\n  454  grep "head people" crimescene\n  455  grep "HEAD" crimescene\n  456  grep "head" crimescene\n  457  cd ..\n  458  ls\n  459  cat hint 4\n  460  cat hint4\n  461  cd mystery\n  462  grep "vehicle" people\n  463  grep "VEHICLE" people\n  464  ls\n  465  grep "Annabel" people\n  466  grep "Alicia Fuentes" people\n  467  grep "Annabel" crimescene\n  468  grep "CLUE" crimescene\n  469  grep "membership" crimescene\n  470  grep "blond" crimescene\n  471  ls\n  472  cd membership\n  473  cat memberships\n  474  cd memberships\n  475  ls\n  476  cd AAA\n  477  cat AAA\n  478  grep "Annabel" AAA\n  479  cd ..\n  480  ls\n  481  cd mystery\n  482  ls\n  483  cd ..\n  484  cat hint1\n  485  cd mystery\n  486  head -n 20 people\n  487  cd ..\n  488  ls\n  489  hint5\n  490  cat hint5\n  491  cat people\n  492  cd ..\n  493  cat people\n  494  cd command-line-murder-mystery\n  495  cd mystery\n  496  ls\n  497  cat people\n  498  ls\n  499  cd ..\n  500  ls\n  501  cat instruction\n  502  cat instructions\n  503  nano cheatsheet.md\n  504  ls\n  505  cat hint1\n  506  cd mystery\n  507  ls\n  508  head -n 20 people\n  509  open people\n  510  ls\n  511  cd ..\n  512  cat hint2\n  513  cd mystery\n  514  grep "CLUE" crimescene\n  515  cd ..\n  516  cat hint3\n  517  cd mystery\n  518  head people\n  519  head vehicles\n  520  head "6'" vehicles\n  521  head "Height: 6'" vehicles\n  522  grep "Height: 6'" vehicles\n  523  grep "Height: "6'0" vehicles\n  524  pwd\n  525  ls\n  526  grep "Annabel" vehicles\n  527  ls\n  528  grep "Annabel Church" people\n  529  grep "Annabel Sun" people\n  530  grep "Annabel" people\n  531  cat interviews\n  532  cd interviews\n  533  ls\n  534  cd ..\n  535  ls\n  536  cd streets\n  537  ls\n  538  cat hart_place\n  539  grep "hart_place"\n  540  ls\n  541  cat hart_place\n  542  ls\n  543  ls -a\n  544  grep "Annabel"\n  545  cd ..\n  546  ls\n  547  cd ..\n  548  ls\n  549  hint5\n  550  cat hint5\n  551  cat hint4\n  552  cat hint3\n  553  pwd\n  554  ls\n  555  cd mystery\n  556  ls\n  557  cd streets\n  558  ls\n  559  cd ..\n  560  ls\n  561  grep "Annabel" people\n  562  grep "CLUE" crimescene\n  563  grep "barista" interviews\n  564  cd interviews\n  565  ls\n  566  grep "barista"\n  567  grep "barista" .interviews\n  568  grep "barista" /.interviews\n  569  grep "barista" *\n  570  grep "Annabel" *\n  571  cat interview-000296\n  572  grep "AAA" *\n  573  cat interview-290346\n  574  ls\n  575  cd ..\n  576  head -n 173 streets/Mattapan_Street | tail -n 1\n\n  577  ls\n  578  cd interviews\n  579  cat interview-9437737\n  580  cd ..\n  581  cat hint6\n  582  ls\n  583  cd ..\n  584  cat hint6\n  585  ls\n  586  cd mystery\n  587  ls\n  588  grep "Honda" vehicles\n  589  ls\n  590  grep "L337" vehicles\n  591  grep "L337"|"Honda" vehicles\n  592  grep "L337 | Honda" vehicles\n  593  grep "L337" | "Honda"  vehicles\n  594  ls\n  595  grep 'L337|Honda|Blue" vehicles\n  596  ls\n  597  cat vehicles\n  598  grep "License Plate L337" vehicles\n  599  head -n L337\n  600  grep "Annabel" vehicles\n  601  grep "Annabel" vehicles -c 6\n  602  grep "Annabel" vehicles -c6\n  603  grep "Annabel" vehicles -c4\n  604  grep "Annabel Church" vehicles -c6\n  605  grep -C6 "Annabel Church" vehicles\n  606  grep -C6 "Annabel" vehicles\n  607  grep -C4 "Annabel" vehicles\n  608  ls\n  609  cd interviews\n  610  grep "Fuglsang" *\n  611  grep "Annabel" *\n  612  grep "Honda" *\n  613  cat interview-699607\n  614  ls\n  615  cd ..\n  616  ls\n  617  grep -C4 "L337" vehicles\n  618  grep -C4 "L337|Honda|Blue" vehicles\n  619  grep -C4 "L337|Honda" vehicles\n  620  ls\n  621  grep -C5 "L337" vehicles\n  622  ls\n  623  cd ..\n  624  ls\n  625  cat hint7\n  626  cd mystery\n  627  grep -A 5 "L337" mystery/vehicles\n  628  grep -A5 "L337" mystery/vehicles\n  629  grep -A 5 "L337" mystery\n  630  ls\n  631  cd vehicles\n  632  grep -A 5 "L337" vehicles\n  633  ls\n  634  cd interviews\n  635  ls\n  636  grep "jacqui"\n  637  grep "jacqui" *\n  638  ls\n  639  cd ..\n  640  ls\n  641  grep "Jacqui Maher" people\n  642  grep "Jeremy Bowers" people\n  643  grep "Joe Germuska" people\n  644  grep "Aron Pilhofer" people\n  645  grep "Erika Owens" people\n  646  grep "Heather Billings" people\n  647  ls\n  648  cd ..\n  649  ls\n  650  cat hint8\n  651  cd mystery\n  652  ls\n  653  cat AAA | grep -c "Jacqui"\n  654  cd memberships\n  655  ls\n  656  cat AAA\n  657  ls\n  658  cat AAA | grep "Jacqui Maher"\n  659  grep "Jacqui Maher" AAA\n  660  grep "Jeremy Bowers" AAA\n  661  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n  662  cat AAA | grep "Jeremy Bowers"\n  663  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"\n  664  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"\n  665  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep -c5 "Jeremy Bowers"\n  666  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep -C5 "Jeremy Bowers"\n  667  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"\n  668  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"\n  669  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Aron Pilhofer"\n  670  cat AAA Delta_Skymiles Terminal_City_Library Museum_of_Bash_History | grep "Heather Billings"\n  671  cat AAA | grep "Jeremy Bowers"\n  672  cat Delta | grep "Jeremy Bowers"\n  673  cat Delta_SkyMiles | grep "Jeremy Bowers"\n  674  cat Terminal_City_Library | grep "Jeremy Bowers"\n  675  cat Museum_of_Bash_History | grep "Jeremy Bowers"\n  676  ls\n  677  cd ..\n  678  ls\n  679  cd interviews\n  680  grep "Jeremy Bowers"\n  681  grep "Jeremy Bowers" *\n  682  ls\n  683  grep "Bowers" *\n  684  grep "Jeremy" *\n  685  ls\n  686  cd ..\n  687  cd people\n  688  ls\n  689  grep "Jeremy Bowers" people\n  690  cd streets\n  691  ls\n  692  cat Dunstable_Road\n  693  cd ..\n  694  ls\n  695  cd interviews\n  696  ls\n  697  cat interview-9620713\n  698  cd ..\n  699  ls\n  700  cd ..\n  701  ls\n  702  ls -a\n  703  cat instructions\n  704  ls\n  705  cat solution\n  706  ls\n  707  cat hint8\n  708  touch solution.txt\n  709  ls\n  710  cd mystery\n  711  ls\n  712  cd streets\n  713  cd ..\n  714  grep "Jeremy Bowers" people\n  715  cd streets\n  716  grep "Dunstable Road" streets\n  717  ls\n  718  grep "Dunstable_Road" *\n  719  grep "Jeremy Bowers" *\n  720  cat Dunstable_Road\n  721  head -n Dunstable | tail -n 1\n  722  head -n 284 | tail -n 1\n  723  head -n 284 streets/Dunstable_Road | tail -n 1\n  724  head -n '284' streets/Dunstable_Road | tail -n 1\n  725  head -n '284' Dunstable_Road | tail -n 1\n  726  ls\n  727  cd ..\n  728  ls\n  729  cd interviews\n  730  ls\n  731  cat interview-9620713\n  732  cd\n  733  ls\n  734  cd desktop/ga/\n  735  ls\n  736  cd Unit\ 1\n  737  ls\n  738  cd deliverables\n  739  ls\n  740  cd command-line-murder-mystery\n  741  ls\n  742  cd mystery\n  743  ls\n  744  grep "Joe Germuska" people\n  745  head -n '275' streets/Plainfield_Street | tail -n 1\n  746  cat interviews/interview-29741223\n  747  grep "Jacqui Maher" people\n  748  head -n '224' streets/Andover_Road | tail -n 1\n  749  cat interviews/interview-904020\n  750  grep "Heather Billings" people\n  751  head -n '19' streets/Culbert_Street | tail -n 1\n  752  cat interviews/interview-2939888\n  753  grep 'Aron Pilhofer' people\n  754  head -n '145' streets/Claybourne_Street | tail -n 1\n  755  cat interviews/interview-1767435\n  756  grep 'Erika Owens' people\n  757  head -n '98' streets/Trapelo_Street | tail -n 1\n  758  cat interviews/interview-5455315\n  759  cat interviews/interview-9620713\n  760  grep "CLUE" crimescene\n  761  cat "Jeremy_Bowers" people\n  762  grep "Jeremy_Bowers" people\n  763  ca\n  764  ls\n  765  cd ..\n  766  ls\n  767  cat instructions\n  768  echo "Jeremy Bowers is the murderer" > solution.txt\n  769  cat solution.txt\n " > solution.txt
+  772  history
+  773  cat soluation
+  774  cat solution.txt
+  775  echo "Jeremy Bowers" > solution.txt
+  776  cat solution.txt
+  777  ls
+Jeremy Bowers is the Murderer
