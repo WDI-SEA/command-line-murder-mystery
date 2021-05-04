@@ -1,0 +1,427 @@
+1.
+    1  sh -c #!/bin/sh # # This script should be run via curl: # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # or via wget: # sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # or via fetch: # sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # # As an alternative, you can first download the install script and run it afterwards: # wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh # sh install.sh # # You can tweak the install behavior by setting variables when running the script. For # example, to change the path to the Oh My Zsh repository: # ZSH=~/.zsh sh install.sh # # Respects the following environment variables: # ZSH - path to the Oh My Zsh repository folder (default: $HOME/.oh-my-zsh) # REPO - name of the GitHub repo to install from (default: ohmyzsh/ohmyzsh) # REMOTE - full remote URL of the git repo to install (default: GitHub via HTTPS) # BRANCH - branch to check out immediately after install (default: master) # # Other options: # CHSH - 'no' means the installer will not change the default shell (default: yes) # RUNZSH - 'no' means the installer will not run zsh after the install (default: yes) # KEEP_ZSHRC - 'yes' means the installer will not replace an existing .zshrc (default: no) # # You can also pass some arguments to the install script to set some these options: # --skip-chsh: has the same behavior as setting CHSH to 'no' # --unattended: sets both CHSH and RUNZSH to 'no' # --keep-zshrc: sets KEEP_ZSHRC to 'yes' # For example: # sh install.sh --unattended # or: # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended # set -e # Track if $ZSH was provided custom_zsh=${ZSH:+yes} # Default settings ZSH=${ZSH:-~/.oh-my-zsh} REPO=${REPO:-ohmyzsh/ohmyzsh} REMOTE=${REMOTE:-https://github.com/${REPO}.git} BRANCH=${BRANCH:-master} # Other options CHSH=${CHSH:-yes} RUNZSH=${RUNZSH:-yes} KEEP_ZSHRC=${KEEP_ZSHRC:-no} command_exists() { command -v "$@" >/dev/null 2>&1 } fmt_error() { printf '%sError: %s%s
+' "$BOLD$RED" "$*" "$RESET" >&2 } fmt_underline() { printf '[4m%s[24m
+' "$*" } fmt_code() { # shellcheck disable=SC2016 # backtic in single-quote printf '`[38;5;247m%s%s`
+' "$*" "$RESET" } setup_color() { # Only use colors if connected to a terminal if [ -t 1 ]; then RED=$(printf '[31m') GREEN=$(printf '[32m') YELLOW=$(printf '[33m') BLUE=$(printf '[34m') BOLD=$(printf '[1m') RESET=$(printf '[m') else RED="" GREEN="" YELLOW="" BLUE="" BOLD="" RESET="" fi } setup_ohmyzsh() { # Prevent the cloned repository from having insecure permissions. Failing to do # so causes compinit() calls to fail with "command not found: compdef" errors # for users with insecure umasks (e.g., "002", allowing group writability). Note # that this will be ignored under Cygwin by default, as Windows ACLs take # precedence over umasks except for filesystems mounted with option "noacl". umask g-w,o-w echo "${BLUE}Cloning Oh My Zsh...${RESET}" command_exists git || { fmt_error "git is not installed" exit 1 } ostype=$(uname) if [ -z "${ostype%CYGWIN*}" ] && git --version | grep -q msysgit; then fmt_error "Windows/MSYS Git is not supported on Cygwin" fmt_error "Make sure the Cygwin git package is installed and is first on the \$PATH" exit 1 fi git clone -c core.eol=lf -c core.autocrlf=false \ -c fsck.zeroPaddedFilemode=ignore \ -c fetch.fsck.zeroPaddedFilemode=ignore \ -c receive.fsck.zeroPaddedFilemode=ignore \ --depth=1 --branch "$BRANCH" "$REMOTE" "$ZSH" || { fmt_error "git clone of oh-my-zsh repo failed" exit 1 } echo } setup_zshrc() { # Keep most recent old .zshrc at .zshrc.pre-oh-my-zsh, and older ones # with datestamp of installation that moved them aside, so we never actually # destroy a user's original zshrc echo "${BLUE}Looking for an existing zsh config...${RESET}" # Must use this exact name so uninstall.sh can find it OLD_ZSHRC=~/.zshrc.pre-oh-my-zsh if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]; then # Skip this if the user doesn't want to replace an existing .zshrc if [ "$KEEP_ZSHRC" = yes ]; then echo "${YELLOW}Found ~/.zshrc.${RESET} ${GREEN}Keeping...${RESET}" return fi if [ -e "$OLD_ZSHRC" ]; then OLD_OLD_ZSHRC="${OLD_ZSHRC}-$(date +%Y-%m-%d_%H-%M-%S)" if [ -e "$OLD_OLD_ZSHRC" ]; then fmt_error "$OLD_OLD_ZSHRC exists. Can't back up ${OLD_ZSHRC}" fmt_error "re-run the installer again in a couple of seconds" exit 1 fi mv "$OLD_ZSHRC" "${OLD_OLD_ZSHRC}" echo "${YELLOW}Found old ~/.zshrc.pre-oh-my-zsh." \ "${GREEN}Backing up to ${OLD_OLD_ZSHRC}${RESET}" fi echo "${YELLOW}Found ~/.zshrc.${RESET} ${GREEN}Backing up to ${OLD_ZSHRC}${RESET}" mv ~/.zshrc "$OLD_ZSHRC" fi echo "${GREEN}Using the Oh My Zsh template file and adding it to ~/.zshrc.${RESET}" sed "/^export ZSH=/ c\ export ZSH=\"$ZSH\" " "$ZSH/templates/zshrc.zsh-template" > ~/.zshrc-omztemp mv -f ~/.zshrc-omztemp ~/.zshrc echo } setup_shell() { # Skip setup if the user wants or stdin is closed (not running interactively). if [ "$CHSH" = no ]; then return fi # If this user's login shell is already "zsh", do not attempt to switch. if [ "$(basename -- "$SHELL")" = "zsh" ]; then return fi # If this platform doesn't provide a "chsh" command, bail out. if ! command_exists chsh; then cat <<EOF I can't change your shell automatically because this system does not have chsh. ${BLUE}Please manually change your default shell to zsh${RESET} EOF return fi echo "${BLUE}Time to change your default shell to zsh:${RESET}" # Prompt for user choice on changing the default login shell printf '%sDo you want to change your default shell to zsh? [Y/n]%s ' \ "$YELLOW" "$RESET" read -r opt case $opt in y*|Y*|"") echo "Changing the shell..." ;; n*|N*) echo "Shell change skipped."; return ;; *) echo "Invalid choice. Shell change skipped."; return ;; esac # Check if we're running on Termux case "$PREFIX" in *com.termux*) termux=true; zsh=zsh ;; *) termux=false ;; esac if [ "$termux" != true ]; then # Test for the right location of the "shells" file if [ -f /etc/shells ]; then shells_file=/etc/shells elif [ -f /usr/share/defaults/etc/shells ]; then # Solus OS shells_file=/usr/share/defaults/etc/shells else fmt_error "could not find /etc/shells file. Change your default shell manually." return fi # Get the path to the right zsh binary # 1. Use the most preceding one based on $PATH, then check that it's in the shells file # 2. If that fails, get a zsh path from the shells file, then check it actually exists if ! zsh=$(command -v zsh) || ! grep -qx "$zsh" "$shells_file"; then if ! zsh=$(grep '^/.*/zsh$' "$shells_file" | tail -1) || [ ! -f "$zsh" ]; then fmt_error "no zsh binary found or not present in '$shells_file'" fmt_error "change your default shell manually." return fi fi fi # We're going to change the default shell, so back up the current one if [ -n "$SHELL" ]; then echo "$SHELL" > ~/.shell.pre-oh-my-zsh else grep "^$USERNAME:" /etc/passwd | awk -F: '{print $7}' > ~/.shell.pre-oh-my-zsh fi # Actually change the default shell to zsh if ! chsh -s "$zsh"; then fmt_error "chsh command unsuccessful. Change your default shell manually." else export SHELL="$zsh" echo "${GREEN}Shell successfully changed to '$zsh'.${RESET}" fi echo } main() { # Run as unattended if stdin is not a tty if [ ! -t 0 ]; then RUNZSH=no CHSH=no fi # Parse arguments while [ $# -gt 0 ]; do case $1 in --unattended) RUNZSH=no; CHSH=no ;; --skip-chsh) CHSH=no ;; --keep-zshrc) KEEP_ZSHRC=yes ;; esac shift done setup_color if ! command_exists zsh; then echo "${YELLOW}Zsh is not installed.${RESET} Please install zsh first." exit 1 fi if [ -d "$ZSH" ]; then echo "${YELLOW}The \$ZSH folder already exists ($ZSH).${RESET}" if [ "$custom_zsh" = yes ]; then cat <<EOF You ran the installer with the \$ZSH setting or the \$ZSH variable is exported. You have 3 options: 1. Unset the ZSH variable when calling the installer: $(fmt_code "ZSH= sh install.sh") 2. Install Oh My Zsh to a directory that doesn't exist yet: $(fmt_code "ZSH=path/to/new/ohmyzsh/folder sh install.sh") 3. (Caution) If the folder doesn't contain important information, you can just remove it with $(fmt_code "rm -r $ZSH") EOF else echo "You'll need to remove it if you want to reinstall." fi exit 1 fi setup_ohmyzsh setup_zshrc setup_shell printf %s "$GREEN" cat <<'EOF' __ __ ____ / /_ ____ ___ __ __ ____ _____/ /_ / __ \/ __ \ / __ `__ \/ / / / /_ / / ___/ __ \ / /_/ / / / / / / / / / / /_/ / / /_(__ ) / / / \____/_/ /_/ /_/ /_/ /_/\__, / /___/____/_/ /_/ /____/ ....is now installed! EOF cat <<EOF Before you scream Oh My Zsh! please look over the ~/.zshrc file to select plugins, themes, and options. • Follow us on Twitter: $(fmt_underline https://twitter.com/ohmyzsh) • Join our Discord server: $(fmt_underline https://discord.gg/ohmyzsh) • Get stickers, shirts, coffee mugs and other swag: $(fmt_underline https://shop.planetargon.com/collections/oh-my-zsh) EOF printf %s "$RESET" if [ $RUNZSH = no ]; then echo "${YELLOW}Run zsh to try it out.${RESET}" exit fi exec zsh -l } main "$@"
+    2  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /home/wilkieg/.oh-my-zsh/custom/themes/powerlevel10k
+    3  code ~/.zshrc
+    4  pwd
+    5  code
+    6  git remote--
+    7  git remote --
+    8  git --version
+    9  echo /usr/bin/zsh
+   10  ls
+   11  klsjadf;lkjasdlk;j
+   12  pwd
+   13  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   14  command -v nvm
+   15  nvm install node
+   16  node --version
+   17  npm --version
+   18  pwd
+   19  code ~/.zshrc
+   20  pwd
+   21  cd ~
+   22  pwd
+   23  open .
+   24  open
+   25  pwd
+   26  open
+   27  pwd
+   28  cd ~
+   29  ls
+   30  cd ~
+   31  ls
+   32  cd LearnWSL
+   33  ls
+   34  cd code
+   35  cd ~
+   36  cd /
+   37  /
+   38  cd ~
+   39  clear
+   40  history
+   41  clear
+   42  cd
+   43  pwd
+   44  ls
+   45  cd code
+   46  ls
+   47  man
+   48  man ls
+   49  cd ~
+   50  man ls
+   51  pwd
+   52  mkdir GA
+   53  pwd
+   54  cd GA
+   55  pwd
+   56  open .
+   57  pwd
+   58  mkdir unit-1
+   59  cd unit-1
+   60  ./unit-1
+   61  ./
+   62  open ./
+   63  clear
+   64  mkdir unit-1/deliverables
+   65  cd unit-1
+   66  pwd
+   67  mkdir deliverables
+   68  cd deliverables
+   69  cd GA
+   70  cd ~
+   71  cd GA
+   72  ls
+   73  cd unit-1
+   74  ls
+   75  cd deliverables
+   76  ls
+   77  touch about.txt
+   78  ls
+   79  -rf about.txt
+   80  rm -rf .txt
+   81  rm about.txt
+   82  ls
+   83  cd ~
+   84  cd GA
+   85  ls
+   86  touch about.txt
+   87  ls
+   88  cat about.txt
+   89  echo hello this is my GA folder > about.txt
+   90  cat about.txt
+   91  echo hello this is my 2nd GA text in the folder > about.txt
+   92  cat about.txt
+   93  grep hello
+   94  pwd
+   95  cat about.txt > grep
+   96  cat about.txt | grep hello
+   97  ls
+   98  cd unit-1
+   99  mkdir git-basics
+  100  cd git-basics
+  101  git init
+  102  git status
+  103  touch example.txt
+  104  ls
+  105  git status
+  106  git add example.txt
+  107  git status
+  108  echo testing testing > example.txt
+  109  cat example.txt
+  110  add example.txt
+  111  git add example.txt
+  112  git status
+  113  cat example.txt
+  114  git rm --cached example.txt
+  115  git status
+  116  git add example.txt
+  117  git stats
+  118  git status
+  119  git commit -m added a test example file
+  120  git log
+  121  echo my first change >> example.txt
+  122  cat example.txt
+  123  git commit -m added a new line
+  124  git add example.txt
+  125  git commit -m Added a new line
+  126  git log
+  127  git diff example.txt
+  128  cd unit-1
+  129  cat example.txt
+  130  echo my second change > example.txt
+  131  cat example.txt
+  132  git checkout example.txt
+  133  cat example.txt
+  134  cd ~
+  135  ls
+  136  cd GA
+  137  ls
+  138  cd grep
+  139  ls GA
+  140  cd ~
+  141  ls
+  142  cd GA
+  143  ls
+  144  cd unit-1
+  145  ls
+  146  cd git-basics
+  147  ls
+  148  git clone git@github.com:grant-create/command-line-murder-mystery.git
+  149  ls
+  150  rm example.txt
+  151  git status
+  152  git add command-line-murder-mystery
+  153  git rm --cached command-line-murder-mystery
+  154  git log
+  155  git status
+  156  git log
+  157  git commit -m not sure
+  158  git status
+  159  git checkout example.txt
+  160  ls
+  161  cd command-line-murder-mystery
+  162  cat instructions
+  163  ls
+  164  cd cheatsheet.md
+  165  cheatsheet.md
+  166  cat cheatsheet.md
+  167  ls
+  168  cat instructions
+  169  grep CLUE hint1
+  170  grep CLUE hint1.txt
+  171  ls
+  172  cat hint1
+  173  cat license.txt
+  174  cat LICENSE.txt
+  175  ls
+  176  cd mystery
+  177  ls
+  178  cat crimescene
+  179  gret CLUE crimescene
+  180  grep CLUE crimescene
+  181  cd GA
+  182  ls
+  183  cd unit-1
+  184  ls
+  185  cd deliverables
+  186  ls
+  187  /deliverables
+  188  cd ~
+  189  cd GA
+  190  ls
+  191  cd unit-1
+  192  ls
+  193  cd git-basics
+  194  ls
+  195  cd command-line-murder-mystery
+  196  ls
+  197  cat hint2
+  198  cat hint3
+  199  ls
+  200  head people
+  201  cat people
+  202  head people
+  203  cat people
+  204  clear
+  205  ls
+  206  head people
+  207  head vechiles
+  208  ls
+  209  head vehicles
+  210  cat hint2
+  211  cat hint3
+  212  hint4
+  213  cat hint4
+  214  grep Annabel people
+  215  grep CLUE crimescene
+  216  cat hint5
+  217  cd GA
+  218  ls
+  219  cd unit-1
+  220  ls
+  221  cd git-basics
+  222  ls
+  223  cd command-line-murder-mystery
+  224  ls
+  225  cat cheatsheet
+  226  cat cheatsheet.md
+  227  cat hint6
+  228  grep Honda vehicles
+  229  clear
+  230  hint7
+  231  cat hint7
+  232  ls
+  233  grep -C L337 vehicles
+  234  grep -C 5 L337 vehicles
+  235  ls
+  236  cd interviews
+  237  ls
+  238  hint8
+  239  cat hint8
+  240  clear
+  241  ls
+  242  cd ..
+  243  clear
+  244  ls
+  245  grep CLUE crimescene
+  246  cat hint1
+  247  grep Anna people
+  248  grep Annabel people
+  249  cat hint2
+  250  cat hint3
+  251  head -n 5 people
+  252  ls
+  253  cd GA/unit-1
+  254  ls
+  255  cd git-basics
+  256  cd command-line-murder-mystery
+  257  ls
+  258  cd mystery
+  259  ls
+  260  cd streets
+  261  ls
+  262  cat Hart_Place
+  263  cat Mattapan_Street
+  264  cat Buckingham_Palace
+  265  cat Buckingham_Place
+  266  cat Haley_Street
+  267  head -n 179 Buckingham_Place
+  268  head -n 40 Hart_Place
+  269  head -n 45 Hart_Place
+  270  head -n 174 Mattapan_Street
+  271  head -n 177 Haley_Street
+  272  head 20 people
+  273  head people
+  274  head -n 20 people
+  275  head -n 134 Walton_Street
+  276  head -n 133 Walton_Street
+  277  head -n 391 Hemenway_Street
+  278  cat street
+  279  head vehicles
+  280  head -n 20 vehicles
+  281  head -n 200 vehicles
+  282  grep Annabel vehicles
+  283  grep -C 5 Annabel vehicles
+  284  ls
+  285  cd ..
+  286  ls
+  287  grep CLUE crimescene
+  288  cd GA/unit-1/git-basics/command-line-murder-mystery/
+  289  mkdir solution.txt
+  290  ls
+  291  cd memberships
+  292  grep Annabel
+  293  ls
+  294  grep Annabel memberships
+  295  cd GA/unit-1/git-basics/command-line-murder-mystery/ls
+  296  cd GA/unit-1/git-basics/command-line-murder-mystery
+  297  ls
+  298  cd mystery
+  299  ls
+  300  cd memberships
+  301  grep Annabel memberships
+  302  ls
+  303  grep Annabel Delta_Skymiles
+  304  cat Delta_SkyMiles
+  305* grep -C 5 Anabel vehicles
+  306* ls
+  307* grep Anabel people
+  308  ls
+  309  grep Anabel Delta_SkyMiles
+  310  grep -C 5 Anabel Delta_SkyMiles
+  311* cd interviews
+  312* ls
+  313* cd ..
+  314* ls
+  315* head vehicles
+  316* grep -C 5 Anabel vehicles
+  317* cat hint4
+  318* cat hint5
+  319* cat hint6
+  320* cat hint7
+  321* cat hint8
+  322* ls
+  323* grep CLUE crimescene
+  324* ls
+  325* head -n 20 people
+  326* cd memberships
+  327* ls
+  328* grep Anabel AAA
+  329* grep Anabel library
+  330* cat library.txt
+  331* cd..
+  332* cd ..
+  333* clear
+  334* ls
+  335* cat readme.md
+  336* cat instructions
+  337* clear
+  338* ls
+  339* cd mystery
+  340* ls
+  341* grep CLUES crimescene
+  342* grep CLUE crimescene
+  343* grep Annabel people
+  344* grep Anabel people
+  345  cd ..
+  346* cd interviews
+  347* grep -C 5 47246024 interviews
+  348* ls
+  349* grep -C 5 47246024 interview
+  350* clear
+  351* ls
+  352* cd ..
+  353* ls
+  354* clear
+  355* ls
+  356* head -n 20 people
+  357* head -n 20 vehicles
+  358* grep -C 5 6"
+  359* cd GA/unit-1/git-basics/command-line-murder-mystery/mystery
+  360* ls
+  361* grep -C 5 "6 vehicles
+  362* clear
+  363* ls
+  364* head -n 20 people
+  365  ls
+  366  cd streets
+  367  ls
+  368  clear
+  369  grep Walton_Street streets
+  370  cd ..
+  371  grep Walton_Street streets
+  372  grep Elmwood_Avenue streets
+  373  ls
+  374  cd streets
+  375  ls
+  376  clear
+  377  cat Tennis_Road
+  378  cat Hart_Place
+  379  head -n 40 Hart_Place
+  380  head -n 179 Buckingham_Place
+  381  cd ..
+  382  ls
+  383  cd interviews
+  384  ls
+  385  grep interview-47246024 interviews
+  386  cat interview-47246024
+  387  cat interview-699607
+  388  ls
+  389  cd ..
+  390  ls
+  391  cd vehicles
+  392  ls
+  393  head vehicles
+  394  grep -A 5 L337 mystery/vehicles
+  395  grep Honda vehicles
+  396  clear
+  397  grep Honda vehicles grep Blue vehicles
+  398  clear
+  399  ls
+  400  grep L337 vehicles
+  401  grep -C 5 L337 vehicles
+  402  grep -A 5 L337 vehicles
+  403  grep -A 5 L337 vehicles > tempfile.txt
+  404  grep -C 5 Honda tempfile.txt
+  405  grep -A 4 -B 1 Honda tempfile.txt
+  406  ls
+  407  cd memberships
+  408  ls
+  409  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jacqui Maher
+  410  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Jeremy Bowers
+  411  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Joe Germuska
+  412  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Erika Owens
+  413  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep Erika Owenscd ..
+  414  cd ..
+  415  ls
+  416  cd ..
+  417  ls
+  418  cd solution.txt
+  419  git history
+  420  git log
+
+2. Owner: Jeremy Bowers
+3. I'm not sure if these are all the commands I used as I was working in multiple tabs in the terminal.
