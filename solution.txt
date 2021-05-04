@@ -1,0 +1,19 @@
+256  cd GA/unit1/deliverables/command-line-murder-mystery
+  257  cd mystery
+  258  grep CLUE crimescene
+  259  head -n 20 people
+  260  head -n 20 vehicles
+  261  grep Annabel people
+  262  head -n 40 streets/Hart_Place | tail -n 1
+  263  head -n 176 streets/Buckingham_Place | tail -n 1
+  264  head -n 179 streets/Buckingham_Place | tail -n 1
+  265  cat interviews/interview-47246024 interviews/interview-699607
+  266  grep -A 5 L337 vehicles
+  267  grep -A 5 L337 vehicles | grep -A 3 Honda | grep -A 2 Blue
+  268  cd memberships
+  269  ls
+  270  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep Erika Owens
+  271  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep Joe Germuska
+  272  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep Jeremy Bowers
+  273  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep Jacqui Maher
+  274  cat AAA Museum_of_Bash_History Delta_SkyMiles Terminal_City_Library | grep Jeremy Bowers 
