@@ -1,0 +1,121 @@
+  205  cd /ga/unit1/deliverables
+  206  cd deliverables
+  207  git clone git@github.com:rei-bp/command-line-murder-mystery.git
+  208  cat instructions
+  209  ls
+  210  cd command-line-murder-mystery
+  211  ls
+  212  cat instructions
+  213  cd ga/unit1/deliverables
+  214  cd command-line-murder-mystery
+  215  cat instrucitons
+  216  cat instructions
+  217  touch crimescene.txt
+  218  nano cheatsheet.md
+  219  cd mystery
+  220  ls
+  221  cd crimescene
+  222  mycommand | grep clue
+  223  grep
+  224  grep CLUE crimescene.txt
+  225  grep CLUE crimescene
+  226  head -n 20 people
+  227  head -n 50 people
+  228  grep Annabel
+  229  cd ga/unit1/deliverables/command-line-murder-mystery/mystery
+  230  grep Annabel people
+  231  head -n 100 memberships
+  232  ls
+  233  cd memberships
+  234  ls
+  235  head -n 50 AAA
+  236  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort | uniq -c | awk '==4 {print }'
+  237  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort | uniq -c | awk '==4 {print }
+n
+  238  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort | uniq -c | awk ==4 {print }
+"
+n
+  239  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort
+n
+"
+  240  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort | uniq -c 
+"
+n
+  241  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort | uniq -c | awk '==4 {print }'
+n
+"
+  242  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort | uniq -c | awk ==4
+"
+n
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd interviews
+  247  ls
+  248  grep Annabel interviews
+  249  grep Annabel mystery
+  250  cd ..
+  251  /grep Annabel
+  252  grep Annabel
+  253  cd ga/unit1/deliverables/command-line-murder-mystery
+  254  cd mystery/
+  255  grep CLUE crimescene
+  256  grep accent inteviews
+  257  grep accent crimescene
+  258  head -n 20 people
+  259  grep Annabel people
+  260  cat Hart Place
+  261  grep Hart Place streets
+  262  grep Hart Place
+  263  cat Hart Place
+  264  pwd
+  265  cd streets
+  266  cat Hart Place
+  267  echo Hart Place
+  268  cd Hart Place
+  269  cd Hard
+  270  cd Hart
+  271  cat Hart
+  272  cat Haley Street
+  273  ls
+  274  cat Hart_Place
+  275  cat -n Hart_Place
+  276  grep Annabel people
+  277  sed -n 5p Hart_Place
+  278  sed -n 173p Mattapan_Street
+  279  cd .
+  280  cd ..
+  281  cd interviews
+  282  cat interview-9437737
+  283  cd ..
+  284  cd streets
+  285  sed -n 179 Buckhingham_Place
+  286  sed -n 179p Buckingham_Place
+  287  cd interviews
+  288  cd ..
+  289  cd interviews
+  290  cat interview-699607
+  291  cd ..
+  292  cd streets
+  293  sed -n 176p Haley_Street
+  294  cd ..
+  295  cd interviews
+  296  cat interview-871877
+  297  cd ..
+  298  ls
+  299  grep L337 vehicles
+  300  ls
+  301  grep Honda vehicles
+  302  grep -A 5 L337 mystery/vehicles
+  303  grep -A 5 L337 mystery
+  304  grep -A 5 L337 vehicles
+  305  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort | uniq -c | awk '==4'
+n
+"
+  306  cd memberships
+  307  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | sort | uniq -c | awk ==4
+"
+n
+  308  cd ..
+  309  touch solution.txt
+Matt Waite
