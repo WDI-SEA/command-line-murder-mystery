@@ -1,0 +1,122 @@
+361  git clone git@github.com:terryszhou/command-line-murder-mystery.git
+  362  ls
+  363  cd command-line-murder-mystery
+  364  ls
+  365  cat instructions
+  366  cd mystery
+  367  ls
+  368  cd ..
+  369  pwd
+  370  ls
+  371  open README.md
+  372  open cheatsheet.md
+  373  open instructions
+  374  cd mystery
+  375  ls
+  376  cd crimescene
+  377  open crimescene
+  378  cat crimescene | grep "CLUE"
+  379  open people
+  380  open vehicles
+  381  cd interviews
+  382  ls
+  383  cd ..
+  384  pwd
+  385  ls
+  386  cd memberships
+  387  ls
+  388  open AAA
+  389  open delta.txt
+  390  open Delta_SkyMiles
+  391  open Museum_of_Bash_History
+  392  cd ..
+  393  ls -a
+  394  cd ..
+  395  ls -a
+  396  open hint1
+  397  open hint2
+  398  open hint3
+  399  open hint4
+  400  cd mystery
+  401  ls
+  402  cat people | grep "Annabel"
+  403  cat vehicles | grep "Annabel"
+  404  ls
+  405  cd streets
+  406  ls
+  407  open Buckingham_Place
+  408  cd ..
+  409  ls
+  410  cd ..
+  411  ls
+  412  open hint5
+  413  ls
+  414  cd mystery
+  415  ls
+  416  head -n 173 streets/Mattapan_Street | tail -n 1
+  417  cd interviews
+  418  open interview-9437737
+  419  head -n 176 streets/Haley_Street | tail -n 1
+  420  pwd
+  421  cd ..
+  422  head -n 176 streets/Haley_Street | tail -n 1
+  423  cd interviews
+  424  open interview-871877\n
+  425  cd ..
+  426  ls
+  427  cat hint6
+  428  cd mystery
+  429  head -n 40 streets/Hart_Place | tail -n 1
+  430  head -n 10 interviews/interview-47246024
+  431  head -n 179 streets/Buckingham_Place | tail -n 1
+  432  head -n 10 interviews/interview-699607
+  433  cat vehicles | grep "L337"
+  434  head vehicles
+  435  cd ..
+  436  ls
+  437  cat hint6
+  438  cat hint7
+  439  cd mystery
+  440  grep -A 5 "L337" mystery/vehicles
+  441  ls
+  442  grep -A "L337" vehicles
+  443  grep -A 5 "L337" vehicles
+  444  ls
+  445  cd ..
+  446  ls
+  447  cat hint7
+  448  cat hint8
+  449  ls
+  450  cd mystery
+  451  ls
+  452  cd memberships
+  453  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+  454  cat AAA Delta_SkyMiles Museum_of_Bash_History Termnal_City_Library | grep "Joe Germuska"
+  455  cat AAA Delta_SkyMiles Museum_of_Bash_History _Terminal_City_Library | grep "Erika Owens"
+  456  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+  457  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  458  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  459  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  460  ls
+  461  cd ..
+  462  ls
+  463  people | grep "Jeremy Bowers"
+  464  head -n 10 people | grep "Jeremy Bowers"
+  465  cat people | grep "Jeremy Bowers"
+  466  head -n 284 streets/Dunstable Road | tail -n 1
+  467  head -n 284 streets/Dunstable_Road | tail -n 1
+  468  ls
+  469  head -n 10 interviews/interview-9620713
+  470  ls
+  471  cd ..
+  472  ls
+  473  ls -a
+  474  cat solution
+  475  cd .git
+  476  ls
+  477  cd ..
+  478  git status
+  479  touch solution.txt
+  480  ls
+  481  open solution.txt
+Jeremy Bowers
