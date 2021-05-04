@@ -1,0 +1,100 @@
+Jeremy Bowers
+
+
+91  git clone git@github.com:cameronjoy/command-line-murder-mystery.git
+   92  ls
+   93  cd command-line-murder-mystery
+   94  ls
+   95  cd instructions
+   96  cat instructions
+   97  cd mystery
+   98  ls
+   99  cat crimescene
+  100  cd ..
+  101  ls
+  102  open cheatsheet.pdf
+  103  cd mystery
+  104  grep "CLUE" crimescenes
+  105  ls
+  106  grep "CLUE" crimescene
+  107  grep "CLUE" interviews
+  108  grep "CLUE" people
+  109  cat people
+  110  clear
+  111  grep "CLUE" crimescene
+  112  ls
+  113  cd interviews
+  114  ls
+  115  grep "CLUE" *
+  116  ls
+  117  cd ..
+  118  ls
+  119  grep "Annabel" people
+  120  cd ..
+  121  ls
+  122  cat README.md
+  123  ls
+  124  cat hint1
+  125  cat hint2
+  126  cat hint3
+  127  cat hint4
+  128  cat hint5
+  129  cat hint6
+  130  cat hint7
+  131  cat hint8
+  132  ls
+  133  cd mystery
+  134  ls
+  135  grep "Annabel" people
+  136  grep "CLUE" crimescene
+  137  cd memberships
+  138  ls
+  139  grep "Annabel" AAA
+  140  grep "Annabel" Delta_SkyMiles
+  141  grep "Annabel" library.txt
+  142  grep "Annabel" Museum_of_Bash_History
+  143  grep "Fuglsang" Delta_SkyMiles
+  144  grep "Fuglsang" library.txt
+  145  cd ..
+  146  ls
+  147  cd interviews
+  148  ls
+  149  cd ..
+  150  l
+  151  ls
+  152  head -n 40 streets/Hart_Place |tail -n 1
+  153  cat interviews/interview-47246024
+  154  grep "Annabel" people
+  155  head -n 173 streets/Mattapan_Street |tain -n 1
+  156  head -n 173 streets/Mattapan_Street |tail- n 1
+  157  head -n 173 streets/Mattapan_Street |tail -n 1
+  158  cat interviews/interview-9437737
+  159  head -n 179 streets/Buckingham_Place |tail -n 1
+  160  cat interviews/interview-699607
+  161  ls
+  162  head vehicles
+  163  grep -A 10 "L337" vehicles
+  164  ls
+  165  grep "Erika Owens" people
+  166  head -n 98 streets/Trapelo_Street|tail -n 1
+  167  cat interviews/interview-5455315
+  168  grep "Joe Germuska" people
+  169  head -n 275 streets/Plainfield_Street |tail-n1
+  170  head -n 275 streets/Plainfield_Street |tail -n 1
+  171  cat interviews/interview-29741223
+  172  grep "Jeremy Bowers" people
+  173  head -n 284 streets/Dunstable_Road |tail -n 1
+  174  cat interviews/interview-9620713
+  175  grep "Jacqui Maher" people
+  176  head -n 224 streets/Andover_Road|tail-n 1
+  177  head -n 224 streets/Andover_Road|tail -n 1
+  178  cat interviews/interview-904020
+  179  cat crimescene
+  180  grep "CLUE" crimescene
+  181  ls
+  182  cd memberships
+  183  grep "Jeremy Bowers" AAA
+  184  grep "Jeremy Bowers" Delta_SkyMiles
+  185  grep "Jeremy Bowers" library.txt
+  186  ls
+  187  grep "Jeremy Bowers" Museum_of_Bash_History
