@@ -52,5 +52,9 @@ cat AAA Delta_SkyMiles Terminal_City_Library | grep "Bowers"
 cat AAA Delta_SkyMiles Terminal_City_Library | grep "Owens"
 cat AAA Delta_SkyMiles Terminal_City_Library | grep "Maher"
 cat hint8
+git add solution.txt
+git submit -m solution.txt 
+git push
+
 
 Jeremy Bowers is the suspect.
