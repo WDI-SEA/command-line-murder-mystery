@@ -1,0 +1,465 @@
+    1  echo $SHELL
+    2  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+    3  rm -rf .git
+    4  brew install git
+    5  git --version
+    6  brew link --overwrite git\n
+    7  brew unlink git && brew link git
+    8  git --version\n
+    9  brew link --overwrite
+   10  brew link --overwrite git
+   11  brew upgrade git
+   12  git --version\n
+   13  brew install --cask visual-studio-code\n
+   14  open ~/.zshrc
+   15  git --version\n
+   16  code ~/.zshrc
+   17  ls
+   18  cd desktop
+   19  git config --global init.defaultBranch main
+   20  git config --global user.name
+   21  git config --global init.defaultBranch main
+   22  git config --global user.name "hamazumi"
+   23  git config --global user.email "khamamoto12@gmail.com"
+   24  git config --global push.default simple
+   25  git config --global credential.helper cache
+   26  git config --global init.defaultBranch main
+   27  git config --global user.name hamazumi
+   28  git config --global user.email khamamoto12@gmail.com
+   29  git config --global push.default simple
+   30  git config --global credential.helper cache
+   31  code ~/.gitconfig
+   32  ssh-keygen -t ed25519 -C khamamoto12@gmail.com
+   33  eval "$(ssh-agent -s)"
+   34  open ~/.ssh/config
+   35  touch ~/.ssh/config
+   36  open ~/.ssh/config
+   37  ssh-add -K ~/.ssh/id_ed25519
+   38  pbcopy < ~/.ssh/id_ed25519.pub
+   39  cd desktop
+   40  cd
+   41  pwd
+   42  open .
+   43  ls
+   44  ls Desktop
+   45  ls
+   46  cd downloads
+   47  ls
+   48  pwd
+   49  clear
+   50  history
+   51  clear
+   52  cd ..
+   53  pwd
+   54  la
+   55  pwd
+   56  ls
+   57  man
+   58  q
+   59  man ls
+   60  pwd
+   61  ls -l
+   62  ls -a
+   63  ls -la
+   64  cd ~
+   65  ls
+   66  cd desktop
+   67  ls
+   68  cd general-assembly
+   69  ls
+   70  mkdir Unit-1
+   71  ls
+   72  mkdir Unit-2
+   73  ls
+   74  mkdir Unit-3
+   75  ls
+   76  clear
+   77  cd ..
+   78  ls
+   79  cd General-Assembly
+   80  ls
+   81  pwd
+   82  mkdir unit-1/deliverables
+   83  ls
+   84  ls unti-1
+   85  ls unit-1
+   86  clear
+   87  touch about.txt
+   88  ls
+   89  cat about.txt
+   90  echo "Hello! This is my GA file folder"
+   91  echo "Hello! This is my GA file folder." > about.txt
+   92  cat about.txt
+   93  cat about.txt | grep Hello
+   94  ls
+   95  cd unit-1
+   96  clear
+   97  mv git-basic git basics
+   98  cd git-basics
+   99  mv git-basic git basics
+  100  ls
+  101  git status
+  102  git init
+  103  git status
+  104  clear
+  105  touch example.txt
+  106  ls
+  107  git status
+  108  git add example.txt
+  109  git status
+  110  git rm --cached example.txt
+  111  git status
+  112  clear
+  113  git status
+  114  git add example.txt
+  115  git status
+  116  git commit -m "added example.txt"
+  117  git status
+  118  clear
+  119  git log
+  120  echo "My first change." >> example.txt
+  121  cat example.txt
+  122  git diff example.txt
+  123  git add example.txt
+  124  git status
+  125  get commit - "added my first change"
+  126  git status
+  127  git log
+  128  git commit -m "added my first change"
+  129  git log
+  130  git checkout main
+  131  cat example.txt
+  132  git checkout main
+  133  echo "My second change" >> example.txt
+  134  cat example.txt
+  135  get checkout example.txt
+  136  git checkout example.txt
+  137  cat example.txt
+  138  mkdir git-basics
+  139  cd git-basics
+  140  git init
+  141  cd ..
+  142  ls
+  143  cd desktop
+  144  cd general-assembly
+  145  ls
+  146  cd unit-1
+  147  git status
+  148  git add git-basics
+  149  touch example.txt
+  150  git status
+  151  git add git-basics
+  152  cd ..
+  153  mkdir tacos
+  154  cd tacos
+  155  echo "# tacos" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/hamazumi/tacos.git\ngit push -u origin main
+  156  cat README.md
+  157  ls
+  158  cd desktop
+  159  ls
+  160  cd General-Assembly
+  161  ls
+  162  cd tacos
+  163  ls
+  164  echo "I love tacos" >> README.md
+  165  git add README.md
+  166  git status
+  167  git commit -m "Added I love tacos"
+  168  clear
+  169  cd ..
+  170  cd unit-1
+  171  ls
+  172  cd deliverables
+  173  git clone git@github.com:hamazumi/command-line-murder-mystery.git
+  174  ls
+  175  cd command-line-murder-mystery
+  176  ls
+  177  cat instructions
+  178  cd ..
+  179  cd unit-1
+  180  rm -rf .git
+  181  ls
+  182  cd deliverables
+  183  ls -a
+  184  cd ..
+  185  ls
+  186  cd unit-1
+  187  ls
+  188  cd deliverables
+  189  ls
+  190  cd command-line-murder-mystery
+  191  ls
+  192  ls -a
+  193  pwd
+  194  ls
+  195  cd desktop
+  196  ls
+  197  cd General-Assembly
+  198  ls
+  199  cd Unit-1
+  200  ls
+  201  cd deliverables
+  202  ls
+  203  cd command-line-murder-mystery
+  204  ls
+  205  cat instructions
+  206  ls
+  207  open cheatsheet.pdf
+  208  cat mystery
+  209  cd mystery
+  210  ls
+  211  cat crimescene
+  212  cat crimescene | grep "CLUE"
+  213  cat hint1
+  214  cd ..
+  215  ls
+  216  cat hint1
+  217  head -n 20 people
+  218  cat hint2
+  219  cat hint3
+  220  cat hint4
+  221  cat hint5
+  222  cat hint6
+  223  cat hint7
+  224  cat hint8
+  225  grep "CLUE" crimescene%
+  226  ls
+  227  cat LICENSE
+  228  clear
+  229  ls
+  230  cd mystery
+  231  ls
+  232  cat people
+  233  clear
+  234  ls
+  235  cd ..
+  236  ls
+  237  cat hint1
+  238  cat hint2
+  239  cat hint3
+  240  cat hint4
+  241  cat hint5
+  242  cat hint6
+  243  cat hint7
+  244  cat hint8
+  245  ls
+  246  mystery
+  247  ls
+  248  head -n 20 people
+  249  grep "Annabel" people
+  250  cd streets
+  251  ls
+  252  cd ..
+  253  ls
+  254  cd ..
+  255  ls
+  256  cat solution
+  257  cd mystery
+  258  cd solution
+  259  cat solution
+  260  ls
+  261  head vehicles
+  262  grep "Annabel" vehicles
+  263  grep -c "Annabel" vehicles
+  264  grep -a "Annabel" vehicles
+  265  grep -A "Annabel" vehicles
+  266  grep -b "Annabel" vehicles
+  267  grep "Annabel" people
+  268  head -n 173 streets/Mattapan_Street | tail -n 1
+  269  head -n 176 streets/Haley_Street | tail -n 1
+  270  ls
+  271  cd interviews
+  272  ls
+  273  cat interview-9437737
+  274  cat interview-871877
+  275  head -n 40 streets/Hart_Place | tail -n 1
+  276  cd ..
+  277  ls
+  278  head -n 40 streets/Hart_Place | tail -n 1
+  279  head -n 179 streets/Buckingham_Place | tail -n 1
+  280  cat interviews/interview-47246024
+  281  cat interviews/interview-699607
+  282  cd ..
+  283  cat hint6
+  284  ls
+  285  cd mystery
+  286  ls
+  287  grep "Honda" vehincles
+  288  grep "Honda" vehicles
+  289  ls
+  290  cd ..
+  291  cat hint7
+  292  cd ..
+  293  ls
+  294  cd deliverables
+  295  ls
+  296  cd command-line-murder-mystery
+  297  ls
+  298  cat hint7
+  299  grep -A 5 "L337" mystery/vehicles
+  300  ls
+  301  cat hint1
+  302  cat hint2
+  303  cat hint3
+  304  cat hint4
+  305  cat hint5
+  306  cat hint6
+  307  cat hint7
+  308  grep -B "L337" mystery/vehicles
+  309  grep -B 5 "L337" mystery/vehicles
+  310  grep -c 5 "L337" mystery/vehicles
+  311  grep -C 5 "L337" mystery/vehicles
+  312  cat hint7
+  313  cat hint8
+  314  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  315  ls
+  316  cd mystery
+  317  ls
+  318  cd memberships
+  319  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  320  cat Fitness_Galaxy AAA United_MileagePlus | grep Erika Owens | wc -l
+  321  cat Fitness_Galaxy AAA United_MileagePlus | grep 'Erika Owens' | wc -l
+  322  cat Fitness_Galaxy AAA United_MileagePlus | grep 'Joe' | wc -l
+  323  cat Fitness_Galaxy AAA United_MileagePlus | grep 'Joe Germusk' | wc -l 
+  324  cat Fitness_Galaxy AAA United_MileagePlus | grep 'Jeremy' | wc -l 
+  325  cat Fitness_Galaxy AAA United_MileagePlus | grep 'Jeremy Bowers' | wc -l 
+  326  cat Fitness_Galaxy AAA United_MileagePlus | grep 'Jacqui Maher' | wc -l 
+  327  cat Fitness_Galaxy AAA United_MileagePlus | grep 'Joe Germusk' 
+  328  ls
+  329  cd ..
+  330  ls
+  331  grep "Joe Germuska" people
+  332  grep "Jeremy Bowers" people
+  333  head -n 275 streets/Plainfield_Street | tail -n 1
+  334  head -n 284 streets/Dunstable_Road | tail -n 1
+  335  cat inerviews/interview-29741223
+  336  cat interviews/interview-29741223
+  337  cat interviews/interview-9620713
+  338  ls
+  339  cd memberships
+  340  ls
+  341  cat AAA Delta_Skymiles Museum_Of_Bash_History Terminal_City_Library | grep 'Joe Germusk' 
+  342  cat AAA Delta_Skymiles Museum_Of_Bash_History Terminal_City_Library | grep 'Joe Germuska' \n
+  343  cat AAA Delta_Skymiles Museum_Of_Bash_History Terminal_City_Library | grep 'Erika Owens' \n
+  344  cat AAA Delta_Skymiles Museum_Of_Bash_History Terminal_City_Library | grep 'ErikaOwens' \n
+  345  cat AAA Delta_Skymiles Museum_Of_Bash_History Terminal_City_Library | grep 'ErikaOwens wc-1'
+  346  cd ..
+  347  ls
+  348  grep "Erika Owens" people 
+  349  grep "Jacqui Maher" people 
+  350  head -n 98 streets/Trapelo_Street | tail -n 1
+  351  head -n 224 streets/Andover_Road | tail -n 1
+  352  cat interviews/interview-5455315
+  353  cat interviews/interview-904020
+  354  cd ..
+  355  ls
+  356  cat solution
+  357  cd mystery
+  358  ls
+  359  cd ..
+  360  ls
+  361  cat instructions
+  362  cat solution
+  363  ls
+  364  cd mystery
+  365  ls
+  366  cd streets
+  367  ls
+  368  cd ..
+  369  ls
+  370  cd command-line-murder-mystery
+  371  ls -a
+  372  cd .git
+  373  ls
+  374  cd ..
+  375  ls
+  376  touch solution.txt
+  377  ls
+  378  history
+  379  history > solutions.txt
+  380  ls
+  381  cat solution.txt
+  382  history > solution.txt
+  383  cat solution.txt
+  384  ls
+  385  rm -rf solutions.txt
+  386  ls
+  387  echo 'Jeremy Bowers' >> solution.txt
+  388  cat solution.txt
+  389  git status
+  390  git add .
+  391  git status
+  392  git commit -m "Adding Solution.txt"
+  393  git push origin main
+  394  clear
+  395  cd~
+  396  cd
+  397  clear
+  398  ls
+  399  cd desktop
+  400  ls
+  401  cd General-Assembly
+  402  ls
+  403  cd unti-1
+  404  cd Unit-1
+  405  ls
+  406  cd deliverables
+  407  ls
+  408  cd command-line-murder-mystery
+  409  ls
+  410  clear
+  411  cd instructions
+  412  ls
+  413  cd instructions
+  414  cat instructions
+  415  open cheatsheet.pdf
+  416  cd mystery
+  417  ls
+  418  grep CLUE crimescene
+  419  grep CLUE crimescene >> clues.txt
+  420  ls
+  421  cat people | grep Annabel
+  422  cat people | grep Annabel >> clues.txt
+  423  cat clues.txt
+  424  ls
+  425  cd ..
+  426  ls
+  427  cd mystery
+  428  ls
+  429  cd streets
+  430  head -n 40 Hart_Place | tail -n 1
+  431  head -n 40 Hart_Place | tail -n 1 >> ../cluest.txt
+  432  cat ../clues.txt
+  433  head -n 40 Hart_Place | tail -n 1 >> ../clues.txt
+  434  cat ../clues.txt
+  435  head -n 179 Buckingham_Place | tail -n 1 >> ../clues.txt
+  436  cat ../clues.txt
+  437  cd ..
+  438  ls
+  439  cat interviews/interview-699607
+  440  cat interviews/interview-699607 >> clues.txt
+  441  cat clues.txt
+  442  ls
+  443  grep -A 5 "L337" vehicles | grep -A 4 -B 1 "Honda" | grep -A 3 -B 2 "Blue"
+  444  grep -A 5 "L337" vehicles | grep -A 4 -B 1 "Honda" | grep -A 3 -B 2 "Blue" | grep -B 4 "6'"
+  445  grep -A 5 "L337" vehicles | grep -A 4 -B 1 "Honda" | grep -A 3 -B 2 "Blue" | grep -B 4 "6'" >> clues.txt
+  446  cat clues.txt
+  447  ls
+  448  cat cluest.txt
+  449  rm cluest.txt
+  450  ls
+  451  cat clues.txt
+  452  cd memberships
+  453  cat AAA Terminal_City_Library Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  454  cd ..
+  455  grep "Jeremy Bowers" people
+  456  grep "Jeremy Bowers" people >> clues.txt
+  457  cat clues.txt
+  458  cat -n Dunstable_Road | grep "284"
+  459  cat -n streets/Dunstable_Road | grep "284"
+  460  cat -n streets/Dunstable_Road | grep "284" >> clues.txt
+  461  cat clues.txt
+  462  cat interviews/interview-9620713
+  463  cat interviews/interview-9620713 >> clues.txt
+  464  cat clues.txt
+  465  history
