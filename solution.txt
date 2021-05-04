@@ -17,3 +17,4 @@
   272  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep Jeremy Bowers
   273  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep Jacqui Maher
   274  cat AAA Museum_of_Bash_History Delta_SkyMiles Terminal_City_Library | grep Jeremy Bowers 
+Killer is Jeremy Bowers
