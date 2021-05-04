@@ -1,0 +1,791 @@
+    1  hi
+    2  git init
+    3  xcode-select --install
+    4  git init
+    5  cd .
+    6  ls
+    7  ls -a
+    8  ls
+    9  cd Desktop
+   10  ls
+   11  cd myapp
+   12  ls
+   13  ls -a
+   14  git init
+   15  ls -a
+   16  git config --global user.name "Benji Wolfenberger"
+   17  git config --global user.email "bwolfenberger@gmail.com"
+   18  git add index.html
+   19  git status
+   20  git rm --cached index.html
+   21  git status
+   22  git add *.html
+   23  git status
+   24  git rm --cached index.html
+   25  git status
+   26  git add .
+   27  git status
+   28  git status
+   29  git add .
+   30  git status
+   31  git commit -m "hi mom"
+   32  git status
+   33  git status
+   34  git status
+   35  git add .
+   36  git commit -m "updated JS and index"
+   37  git status
+   38  touch .gitignore
+   39  ls -a
+   40  touch log.txt
+   41  git add .
+   42  git status
+   43  mkdir dir1
+   44  mkdir dir2
+   45  cd dir1
+   46  touch app1.js
+   47  ls
+   48  cd ..
+   49  ls
+   50  cd dir2
+   51  touch app2.js
+   52  git add .
+   53  git status
+   54  ls
+   55  cd ..
+   56  ls
+   57  git add .
+   58  git status
+   59  git branch login
+   60  ls
+   61  git statu
+   62  git status
+   63  git commit -m "another change"
+   64  git status
+   65  git checkout login
+   66  git status
+   67  touch login.html
+   68  git add .
+   69  git status
+   70  git commit -m "login form"
+   71  clear
+   72  git checkout master
+   73  git merge login -m "merge"
+   74  git remote add origin https://git.generalassemb.ly/bwolfenberger/my
+   75  git remote
+   76  git push -u origin master
+   77  https://git.generalassemb.ly/bwolfenberger/myappsample.git
+   78  git remote
+   79  git push -u origin master
+   80  git credential-manager unistall
+   81  https://git.generalassemb.ly/bwolfenberger/myappsample.git
+   82  echo "# myappsample" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit remote add origin https://git.generalassemb.ly/bwolfenberger/myappsample.git\ngit push -u origin master\n                
+   83  git status
+   84  ls
+   85  ls -a
+   86  rm -r .DS_Store
+   87  ls
+   88  git commit -m "new changes"
+   89  git commit
+   90  git status
+   91  git add .DS_Store
+   92  git status
+   93  git commit -m "another change"
+   94  git status
+   95  git init
+   96  git commit -m 'first commit'
+   97  git remote add origin https://git.generalassemb.ly/bwolfenberger/myappsample.git\ngit push -u origin master
+   98  git status
+   99  git status
+  100  git remote
+  101  git push -u origin master
+  102  git remote set-url origin https://git.generalassemb.ly/bwolfenberger/myappsample.git
+  103  git status
+  104  gitremote
+  105  git remote
+  106  git push -u origin master
+  107  cd Desktop
+  108  ls
+  109  cd myapp
+  110  ls
+  111  git status
+  112  git init
+  113  git status
+  114  git remote
+  115  git remote add origin https://git.generalassemb.ly/bwolfenberger/myappsample2.git
+  116  git remote remove origin
+  117  git remote
+  118  git remote add origin https://git.generalassemb.ly/bwolfenberger/myappsample2.git
+  119  git remote
+  120  git push -u origin master
+  121  touch README.md
+  122  git add .
+  123  git commit -m "added read me"
+  124  git push
+  125  git remote
+  126  git remote
+  127  ls
+  128  cd Desktop
+  129  ls
+  130  cd myapp
+  131  ls
+  132  git remote
+  133  cd ..
+  134  mkdir myapp2
+  135  ls
+  136  cd myapp2
+  137  ls
+  138  git clone https://git.generalassemb.ly/bwolfenberger/myappsample2.git
+  139  ls
+  140  cd myappsample2
+  141  ls
+  142  git pull
+  143  cd ..
+  144  ls
+  145  rm -r my appsample2
+  146  ls
+  147  rm -r myappsample2
+  148  ls
+  149  desktp
+  150  cd Desktop
+  151  ls
+  152  myapp2
+  153  cd myapp2
+  154  ls
+  155  cd myappsample2
+  156  ls
+  157  rm -r app.js
+  158  ls
+  159  cd ..
+  160  ls
+  161  rm -r myappsample2
+  162  cd desktop
+  163  ls
+  164  rm -r myapp2
+  165  cd desktop
+  166  ls
+  167  cd myapp2
+  168  ls
+  169  git status
+  170  git commit -m "delete all"
+  171  git add
+  172  git add .
+  173  git rm --cached Desktop/myapp2/myappsample2
+  174  cd desktop
+  175  mkdir test
+  176  ls
+  177  cd test
+  178  touch test.txt
+  179  ls
+  180  git init
+  181  ls -a
+  182  git status
+  183  git status
+  184  git add .
+  185  git status
+  186  git commit -m "hello txt"
+  187  git status
+  188  git remote add origin https://git.generalassemb.ly/bwolfenberger/test.git
+  189  git remote
+  190  git push -u origin master
+  191  touch testtest.txt
+  192  git add .
+  193  git status
+  194  git commit -m "2nd test"
+  195  git push
+  196  cd ..
+  197  mkdir testpull
+  198  cd testpull
+  199  ls
+  200  git clone https://git.generalassemb.ly/bwolfenberger/test.git
+  201  ls
+  202  cd test
+  203  ls
+  204  touch testx3
+  205  ls
+  206  git push
+  207  git add .
+  208  git status
+  209  git commit -m "added 3"
+  210  git push
+  211  rm -f .git/index.lock
+  212  git status
+  213  ls
+  214  cd Desktop
+  215  ls
+  216  cd js-basics
+  217  ls
+  218  node index.js
+  219  HOST_Name:USER_NAME CURRENT_DIRECTORY
+  220  cd ~/
+  221  ls -la
+  222  touch .bash_profile
+  223  open -e .bash_profile
+  224  ls
+  225  cd desktop
+  226  ls
+  227  cd js-basics
+  228  ls
+  229  node index.js
+  230  cd desktop
+  231  ls
+  232  mkdir RPS Challenge
+  233  s
+  234  ls
+  235  rm Challenge
+  236  -rm Challenge
+  237  rm -r challenge
+  238  ls
+  239  rps
+  240  cd rps
+  241  push html.html
+  242  touch index.html
+  243  touch index.js
+  244  touch index.css
+  245  ls
+  246  cd
+  247  ls
+  248  cd desktop
+  249  ls
+  250  cd js-basics
+  251  ls
+  252  code .
+  253  code .
+  254  ls
+  255  cd index.js
+  256  cd
+  257  ls
+  258  cd desktop
+  259  ls
+  260  cd rps
+  261  ls
+  262  code .
+  263  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  264  brew-v
+  265  brew-v
+  266  brew-v
+  267  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  268  brew-v
+  269  brew -v
+  270  ls
+  271  xcode-select --install
+  272  xcode -v
+  273  xcode-select -v
+  274  brew install zsh
+  275  brew doctor
+  276  echo $SHELL
+  277  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  278  rm -rf .git
+  279  cd
+  280  ls
+  281  brew install git
+  282  git --version
+  283  brew link --overwrite git
+  284  git --version
+  285  brew upgrade git
+  286  brew link --overwrite git
+  287  git --version
+  288  brew link --overwrite git
+  289  brew --version
+  290  git --version
+  291  code
+  292  code ~/.zshrc
+  293  cd desktop
+  294  ls
+  295  git config --global init.defaultBranch main
+  296  git config --global user.name "bwolfenberger"
+  297  git config --global user.email "bwolfenberger@gmail.com"
+  298  git config --global push.default simple
+  299  git config --global credential.helper cache
+  300  git config --global init.defaultBranch main
+  301  git config --global user.name bwolfenberger
+  302  git config --global user.email bwolfenberger@gmail.com
+  303  git config --global push.default simple
+  304  git config --global credential.helper cache
+  305  ~/.gitconfig
+  306  code ~/.gitconfig
+  307  cat ~/.gitconfig
+  308  git config --list
+  309  clear
+  310  ls -al ~/.ssh
+  311  ssh-keygen -t ed25519 -C bwolfenberger@gmail.com
+  312  eval "$(ssh-agent -s)"
+  313  open ~/.ssh/config
+  314  touch ~/.ssh/config
+  315  open ~/.ssh/config
+  316  open ~/.ssh/config    
+  317  ssh-add -K ~/.ssh/id_ed25519
+  318  ls
+  319  cd
+  320  ls
+  321  ls -
+  322  -ls
+  323  ls -a
+  324  pbcopy < ~/.ssh/id_ed25519.pub
+  325  cd desktop
+  326  cd
+  327  ls
+  328  cd movies
+  329  ls
+  330  cd tv
+  331  ls
+  332  cd
+  333  code ~/.zshrc
+  334  clear
+  335  pwd
+  336  open .
+  337  ls
+  338  cd desktop
+  339  ls
+  340  cd
+  341  ls
+  342  cd desktop
+  343  clear
+  344  history
+  345  cd ..
+  346  ls
+  347  desktop
+  348  l
+  349  ls
+  350  cd rps
+  351  cd ..
+  352  ls
+  353  mkdir Eri
+  354  ls
+  355  remove eri
+  356  -r eri
+  357  r- eri
+  358  ls
+  359  man
+  360  man ls
+  361  clear
+  362  ls
+  363  ls -a
+  364  man ls
+  365  pwd
+  366  ls
+  367  desktop
+  368  ls
+  369  ls -a
+  370  cd
+  371  ls
+  372  cd desktop
+  373  ls
+  374  ls -l
+  375  cd
+  376  ls
+  377  ls -a
+  378  ls -l
+  379  ls -la
+  380  ls -al
+  381  ls
+  382  man ls
+  383  man cd
+  384  clear
+  385  history
+  386  clear
+  387  ls
+  388  pwd
+  389  cd ~
+  390  ls
+  391  desktop
+  392  ls
+  393  cd
+  394  ls
+  395  desktop
+  396  cd ~
+  397  ls
+  398  desktop
+  399  ls
+  400  cd ~
+  401  l
+  402  ls
+  403  documents
+  404  ls
+  405  sei
+  406  ls
+  407  cd
+  408  ls
+  409  desktop
+  410  cd
+  411  cd ..
+  412  ls
+  413  cd
+  414  ls
+  415  pwd
+  416  desktop
+  417  ls
+  418  cd rps
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd desktop
+  423  mkdir general-assembly
+  424  ls
+  425  cd general-assembly
+  426  cd ..
+  427  ls
+  428  open .
+  429  cd general-assembly
+  430  ls
+  431  cd ..
+  432  cd general-assembly
+  433  open .
+  434  mkdir unit-1
+  435  ls
+  436  cd unit-1
+  437  cd ..
+  438  ls
+  439  mkdir unit-1/deliverables
+  440  ls
+  441  ls unit-1
+  442  clear
+  443  ls
+  444  pwd
+  445  touch about.txt
+  446  open .
+  447  ls
+  448  open about.txt
+  449  cat about.txt
+  450  echo "hello"
+  451  echo
+  452  ls
+  453  cd desktop
+  454  ls
+  455  cd general-assembly
+  456  ls
+  457  echo "Hello"
+  458  echo "Hello" > about.txt
+  459  cat about.txt
+  460  grep "Hello"
+  461  cat about.txt | grep Hello
+  462  ls
+  463  desktop
+  464  ls
+  465  grep hello
+  466  ls
+  467  cd general-assembly
+  468  ls
+  469  cd unit-1
+  470  mkdir git-basics
+  471  cd git-basics
+  472  git init
+  473  clear
+  474  git status
+  475  touch example.txt
+  476  ls
+  477  git status
+  478  git add example.txt
+  479  git statys
+  480  git status
+  481  git rm --cached example.txt
+  482  ls
+  483  git statys
+  484  git status
+  485  clear
+  486  git add example
+  487  git add exaple.txt
+  488  git add example.txt
+  489  git status
+  490  git commit -m "added example.txt"
+  491  git status
+  492  git log
+  493  echo "My first change"
+  494  echo "My first change" >> example.txt
+  495  open .
+  496  cat example.txt
+  497  git diff example.txt
+  498  git diff
+  499  echo "Hi Eri" >> example.txt
+  500  cat example.txt
+  501  git diff
+  502  git status
+  503  git add example.txt
+  504  git status
+  505  git commit -m "added two changes to example.txt\n\n|"
+  506  git log
+  507  echo "My third change">> example.txt
+  508  cat example.txt
+  509  git checkout example.txt
+  510  cat example.txt
+  511  clear
+  512  cd,,
+  513  cd..
+  514  cd ..
+  515  ls
+  516  cd git-basics
+  517  cd ..
+  518  mkdir tacos
+  519  cd tacos
+  520  ls
+  521  echo "# tacos" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit remote add origin https://git.generalassemb.ly/bwolfenberger/tacos.git\ngit push -u origin master
+  522  git push -u origin main
+  523  cd Desktop/general-assembly
+  524  ls
+  525  cd unit-1
+  526  ls
+  527  cd deliverables
+  528  git clonehttps://github.com/bwolfenberger/command-line-murder-mystery.git
+  529  git clone https://github.com/bwolfenberger/command-line-murder-mystery.git
+  530  ls
+  531  cd command-line-murder-mystery
+  532  ls
+  533  cat instructions
+  534  pwd
+  535  cd ..
+  536  ls
+  537  cd command-line-murder-mystery
+  538  echo "dsfh fsad"
+  539  echo "sdaf\nasdf\nasfd"
+  540  echo "aisd sdfh"
+  541  echo "I like tacos\nasdf"
+  542  echo "I like tacos\n"
+  543  echo "I like tacos \nasdf\nasdflld\n\!"
+  544  echo "I like tacos"
+  545  pwd
+  546  ls
+  547  echo instructions
+  548  cat instructions
+  549  ls
+  550  cd mystery
+  551  ls
+  552  cd
+  553  ls
+  554  desktop
+  555  ls
+  556  gen
+  557  cd general-assembly
+  558  ls
+  559  mkdir test
+  560  cd test
+  561  ls
+  562  push test-unsorted.txt
+  563  touch test.txt
+  564  touch test-sorted.txt
+  565  echo test.txt "Alfred"
+  566  echo "Alfred" >> test.txt
+  567  echo "Charles" >> test.txt
+  568  echo "Benji" >> test.txt
+  569  cat test.txt
+  570  cat test.txt | sort >> test-sorted.txt
+  571  cat test.txt
+  572  cat test-sorted.txt
+  573  cd ..
+  574  ls
+  575  cd unit-1
+  576  ls
+  577  cd deli
+  578  cd deliverables
+  579  ls
+  580  cd command-line-murder-mystery
+  581  ls
+  582  cat instruction | sort
+  583  cat instructions
+  584  cat instructions | grep "working"
+  585  cat instructions | grep "working" 
+  586  cat instructions | grep -B 3 "working"     
+  587  cat instructions | grep -B 1 -A 1 "working"
+  588  git status
+  589  ls
+  590  cd mystery
+  591  ls
+  592  cat crimescene
+  593  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n~/desktop/general-assembly/unit-1/deliverables/command-line-murder-mystery(main) »          ls
+  594  s
+  595  cd
+  596  Desktop/general-assembly/unit-1/deliverables/command-line-murder-mystery
+  597  ls
+  598  cd mystery
+  599  ls
+  600  cd ..
+  601  ls
+  602  cat instructions
+  603  ls
+  604  cd myst
+  605  cd mystery
+  606  ls
+  607  cat crimescene| grep "CLUE"
+  608  ls
+  609  cd interviews
+  610  ls
+  611  cat interview-000296
+  612  cd ..
+  613  ls
+  614  cat interviews
+  615  cat interviews | grep "card"
+  616  cd ..
+  617  ls
+  618  cd mystery
+  619  ls
+  620  cd memberships
+  621  ls
+  622  cat 1. txt
+  623  cat 1.txt
+  624  ls
+  625  cat AAA
+  626  ls
+  627  cat newfile.txt
+  628  ls
+  629  cd ..
+  630  ls
+  631  cat people
+  632  ls
+  633  cat vehicles
+  634  ls
+  635  cd streets
+  636  ls
+  637  cat Abbot_Street
+  638  cd ..
+  639  ls
+  640  cat instructions
+  641  ls
+  642  cat cheatsheet.md
+  643  ls
+  644  cat hint1
+  645  cd mystery
+  646  ls
+  647  cd interviews
+  648  ls
+  649  grep -r "the"
+  650  ls
+  651  cd ..
+  652  ls
+  653  cd ..
+  654  ls
+  655  cat hint2
+  656  cat hint1
+  657  cd hint3
+  658  cat hint3
+  659  cat hint1
+  660  ls
+  661  cd mystery
+  662  ls
+  663  people
+  664  cat people
+  665  ls
+  666  head -n 20 people
+  667  cat people | grep "Annabel"
+  668  cd streets
+  669  ls
+  670  cat Hart_Place| head -40 |tail -30
+  671  cat Hart_Place
+  672  cat Hart_Place| head -n 3 | tail -1
+  673  cat Hart_Place| sed -n '3p'
+  674  cat Hart_Place| sed -n '30p'      
+  675  cat Hart_Place| sed -n '40p'
+  676  cat Mattapan_Street| sed -n '173p'
+  677  cat Buckingham_Place| sed -n '179p'
+  678  cat Haley_Street| sed -n '176p'
+  679  ls
+  680  cd ..
+  681  ls
+  682  cd interviews
+  683  ls
+  684  cat interview-#47246024
+  685  cat interview-47246024
+  686  cat interview-9437737
+  687  cat interview-699607
+  688  cat interview-871877
+  689  cls
+  690  ls
+  691  cd ..
+  692  ls
+  693  cd .
+  694  ls
+  695  cd ..
+  696  ls
+  697  cd mystery
+  698  ls
+  699  cd ..
+  700  cat hint1
+  701  cat hint2
+  702  cd mystery
+  703  ls
+  704  cat vehicles
+  705  cat vehicles| grep "L337"
+  706  cat vehicles| grep -A 5 "L337"
+  707  ls
+  708  cat people
+  709  ls
+  710  cd memberships
+  711  ls
+  712  grep -r "Bostock"
+  713  grep -r "Bostock" .             
+  714  grep -r "Owens" .
+  715  grep -r "Germuska" .
+  716  grep -r "Bowers"
+  717  grep -r "Bowers" .
+  718  grep -r "Bostock" .
+  719  grep -r "Maher" .
+  720  ls
+  721  cd ..
+  722  ls
+  723  cd ..
+  724  ls
+  725  cat instructions
+  726  ls
+  727  cat hint3
+  728  cd mystery
+  729  ls
+  730  cat vehicles
+  731  grep -r "Bostock"             grep -r "Bostock"             grep -r "Bostock"             grep -r "Bostock"             grep -r "Bostock"             ls
+  732  ls
+  733  head -n 20 vehicles
+  734  cd ..
+  735  ls
+  736  cat hint3
+  737  cat hint4
+  738  cd mystery
+  739  ls
+  740  grep "Annibel\n"
+  741  ls
+  742  grep "Annabel" people
+  743  cd ..
+  744  ls
+  745  cat hint5
+  746  cd mystery
+  747  ls
+  748  cd streets
+  749  ls
+  750  cat Mattapan_Street| sed -n 173
+  751  cat Mattapan_Street| sed -n "173"
+  752  cat Mattapan_Street| sed -n "173p"
+  753  cd ..
+  754  s
+  755  ls
+  756  cd ..
+  757  cat hint6
+  758  cat hint7
+  759  ls
+  760  cat hint8
+  761  ls
+  762  cat instructions
+  763  ls
+  764  cd mystery
+  765  l
+  766  ls
+  767  cd ..
+  768  ls
+  769  cat solutions
+  770  cd mystery
+  771  ls
+  772  cat solution
+  773  ls
+  774  cd ..
+  775  ls
+  776  cat README.md
+  777  ls
+  778  touch solution.txt
+  779  ls
+  780  history
+  781  ## Deliverables\n\n* Create a file called `solution.txt` in this repo\n* Copy/paste the following:\n\n1. The commands you used to get the solution (hint: run `history` for a list of the commands you ran).\n2. The name of the killer.\n\n* Commit your solution file\n* Push your changes to your forked repo\n* Create a pull request to submit your deliverable
+  782  ls
+  783  history > solutions.txt
+  784  cat solution
+  785  cat solution.txt
+  786  ls
+  787  rm solution.txt
+  788  ls
+  789  rm solutions.txt
+  790  ls
+Jeremy Bowers
