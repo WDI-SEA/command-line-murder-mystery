@@ -1,0 +1,520 @@
+    1  code ~/.zshrc
+    2  sudo add-apt-repository ppa:git-core/ppa
+    3  sudo apt-get update
+    4  sudo apt-get upgrade
+    5  git config --global init.defaultBranch main
+    6  git config --global user.name SpiralV
+    7  git config --global user.email MVelasco90@hotmail.com
+    8  git config --global push.default simple
+    9  git config --global credential.helper cache
+   10  ls -al ~/.ssh
+   11  ssh-keygen -t ed25519 -C "Mvelasco90@hotmail.com"
+   12  ssh-keygen -p -f keyfile
+   13  ssh-keygen -p 
+   14  eval `ssh-agent -s`
+   15  pwd
+   16  ssh-add ~/.ssh/id_ed25519
+   17  ssh-add ~/.ssh/shshalf
+   18  mkdir .ssh
+   19  ssh-add ~/.ssh/shshalf
+   20  explorer.exe .
+   21  cd ~
+   22  pwd
+   23  ssh-add /home/iceonva/.ssh/id_rsa
+   24  ~
+   25  pwd
+   26  sudo add-apt-repository ppa:git-core/ppa
+   27  sudo apt update
+   28  sudo apt upgrade
+   29  git --version 
+   30  git config --global init.defaultBranch main
+   31  git config --global user.name "SpiralV"
+   32  git config --global user.email "MVelasco90@hotmail.com"
+   33  git config --global push.default simple
+   34  git config --global credential.helper cache
+   35  git config --list
+   36  ls -al ~/.ssh
+   37  ssh-keygen -t ed25510 -C "MVelasco90@hotmail.com"
+   38  ssh-keygen -t ed25519 -C "MVelasco90@hotmail.com"
+   39  eval `ssh-agent -s`
+   40  ssh-add ~/.ssh/id_ed25519
+   41  explorer.exe .
+   42  cd ~
+   43  pwd
+   44  git config-list
+   45  git config --list
+   46  cat ~/.ssh/id_ed25519
+   47  cat ~/.ssh/id_ed25519.pub
+   48  cd ~
+   49  pwd
+   50  mkdir the codehouse
+   51  cd the codehouse
+   52  ls
+   53  cd the
+   54  mkdir "testrepo"
+   55  ls
+   56  /cd testrepo
+   57  cd testrepo
+   58  pwd
+   59  git init
+   60  echo "# repotest101" >> README.md
+   61  git init
+   62  git add README.md
+   63  git commit -m "first commit"
+   64  git add origin git@github.com:SpiralV/repotest101.git
+   65  git branch -M main
+   66  git remote add origin git@github.com:SpiralV/repotest101.git
+   67  git push -u origin main
+   68  cd ~
+   69  sudo apt install zsh
+   70  chsh -s $(which zsh)
+   71  2
+   72  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   73  2
+   74  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+   75  code ~/.zshrc
+   76  sudo apt install zsh
+   77  chsh -s $(which zsh)
+   78  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   79  code ~/.zshrc
+   80  cd ~
+   81  babab
+   82  p10k configure
+   83  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+   84  code ~/.zshrc
+   85  test
+   86  git
+   87  p10k configure
+   88  git --version
+   89  ls
+   90  cd ~
+   91  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh\n
+   92  command -v nvm
+   93  nvm install node
+   94  node --version
+   95  npm --version
+   96  =w=)b
+   97  pwd
+   98  wfafwa
+   99  ls
+  100  cd the
+  101  ld
+  102  ls
+  103  cd testrepo
+  104  cd ~
+  105  open .
+  106  pwd
+  107  open .
+  108  ls
+  109  ls codehouse
+  110  clear
+  111  history
+  112  clear
+  113  cd .
+  114  cd ..
+  115  cd ~
+  116  cd ..
+  117  cd ~
+  118  clear
+  119  pwd
+  120  ls
+  121  wowwy zowwy
+  122  man ls
+  123  ls -l
+  124  pwd
+  125  ls
+  126  mkdir desktaux
+  127  ls
+  128  cd desktaux
+  129  mkdir "asemb.ly"
+  130  ls
+  131  cd asemb.ly
+  132  mkdir Unit 1
+  133  ls
+  134  rm unit
+  135  ls
+  136  mkdir "Unit 1"
+  137  mkdir "Unit 2",  "Unit 3", "Unit 4"
+  138  ls
+  139  explorer.exe .
+  140  ls
+  141  rm -rf 1
+  142  rm -rf Unit
+  143  rem -rf 'Unit 2,'
+  144  rm -rf 'Unit 2,'
+  145  rem -rf 'Unit 3,'
+  146  rm -rf 'Unit 3,'
+  147  mkdir "Unit 1"
+  148  mkdir unit-1
+  149  mkdir unit-2
+  150  mkdir unit-3
+  151  mkdir unit-4
+  152  ls
+  153  rm -rf 'Unit 1'
+  154  ls
+  155  rm -rf 'Unit 4'
+  156  ls
+  157  mkdir unit-1/deliverables
+  158  ls
+  159  ls -a
+  160  ls unit-1
+  161  cd .
+  162  cd ..
+  163  ls
+  164  cd asemb.ly
+  165  touch about.txt
+  166  ls
+  167  cat about.txt
+  168  about.txt .
+  169  echo "hi"
+  170  echo "Hello, this is my asembly folder :)" > about.txt
+  171  cat about.txt
+  172  grep helllo
+  173  ls
+  174  cd desktaux
+  175  cd asemb.ly
+  176  cat about.txt
+  177  man grep
+  178  cat about.txt | grep "Hello"
+  179  man sort
+  180  cd unit-1
+  181  mkdir git-basic
+  182  mv git-basic git-basics
+  183  lk
+  184  ls
+  185  pwd
+  186  mv git-basics
+  187  rm -rf git-basics
+  188  mk git-basics
+  189  mkdir git-basics
+  190  cd git-basics
+  191  cd git-basic
+  192  mkdir git-basic
+  193  git init
+  194  git status
+  195  ls
+  196  touch example.txt
+  197  ls
+  198  git add example.txt
+  199  git status
+  200  git commit -m "added example.txt"
+  201  git log
+  202  clear
+  203  echo "My first change" > example.txt
+  204  diff --git a/example.txt b/example.txt
+  205  git diff
+  206  git add example.txt
+  207  git status
+  208  git commit -m "added my first change"
+  209  git log
+  210  cat example.txt
+  211  git checkout example.txt
+  212  git checkout main
+  213  git checkout example.txt
+  214  clear
+  215  cd ..
+  216  ls
+  217  mkdir ababa-bat
+  218  cd ababa-bat
+  219  echo "# ababa-bat" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:SpiralV/ababa-bat.git\ngit push -u origin main
+  220  cat README.md
+  221  ld
+  222  ls
+  223  cd desktaux
+  224  ls
+  225  cd asemb.ly
+  226  cd unit-1
+  227  sl
+  228  ls
+  229  cd ababa-bat
+  230  git add README.md
+  231  touch README.md
+  232  echo "I love ababa > README.md\n\n\n\n\nbig diff\n"
+  233  echo "i love ababa" >> README.md
+  234  git add
+  235  git add .
+  236  git commit -m "big diff"
+  237  git push
+  238  cd..
+  239  cd ..
+  240  cd deliverables
+  241  git clone git@github.com:SpiralV/command-line-murder-mystery.git
+  242  ls
+  243  cd command-line-murder-mystery
+  244  clear
+  245  ls
+  246  cd desktaux/asemb.ly/unit-1
+  247  ld
+  248  ls
+  249  cd deliverables
+  250  ls
+  251  ls -a
+  252  ls -l
+  253  cd command-line-murder-mystery
+  254  ls
+  255  echo readme.md
+  256  readme.md .
+  257  view
+  258  ls
+  259  cd desktaux
+  260  ls
+  261  cd asemb.ly/unit-1/deliverables
+  262  ls
+  263  cd command-line-murder-mystery
+  264  ls
+  265  ls -l
+  266  cd instructions
+  267  open instructions
+  268  cat readme.md
+  269  cat readme.txt
+  270  pwd
+  271  open readme.md
+  272  md readme.md
+  273  md help
+  274  explorer.exe .
+  275  head readme.md
+  276  cd readme.md
+  277  ls
+  278  echo
+  279  cd ..
+  280  ls
+  281  cat license.txt
+  282  head help
+  283  head license.txt
+  284  head LICENSE.txt
+  285  head README.md
+  286  more
+  287  ls
+  288  cat README.md
+  289  cat instructions
+  290  nano cheatsheet.md
+  291  ls
+  292  cd desktaux/asemb.ly/unit-1
+  293  ls
+  294  cd deliverables
+  295  ls
+  296  cd command-line-murder-mystery
+  297  ls
+  298  cd mystery
+  299  ls
+  300  cat crimescene
+  301  grep CLUE
+  302  cd desktaux/asemb.ly/unit-1/deliverables/
+  303  ls
+  304  cd command-line-murder-mystery
+  305  ls
+  306  cat README.md
+  307  cat instructions
+  308  explorer.exe .
+  309  ls
+  310  cd mystery
+  311  ls
+  312  grep "CLUE" crimescene
+  313  grep "CLUE" interviews
+  314  grep "CLUE" memberships
+  315  grep "CLUE" people
+  316  grep "CLUE" vehicles
+  317  cat people
+  318  clear
+  319  ls
+  320  cd ..
+  321  ls
+  322  cd help
+  323  ls
+  324  ls -l
+  325  cd ..
+  326  cat hint1
+  327  cd mystery
+  328  ls
+  329  head -n 20 people
+  330  cd memberships
+  331  ls
+  332  cat 1.txt
+  333  clear
+  334  head -n 50 1.txt 
+  335  clear
+  336  ls
+  337  head -n 10 Terminal_City_Library
+  338  head -n 10 library.txt
+  339  head -n Delta_SkyMiles
+  340  head -n 25 Delta_SkyMiles
+  341  sort help
+  342  help sort
+  343  man sort
+  344  ls
+  345  head -n 10 AAA
+  346  ls
+  347  cd ..
+  348  cd interviews
+  349  ls
+  350  c ..
+  351  cd ..
+  352  ls
+  353  cat hint2
+  354  cd ..
+  355  cat hint2
+  356  cat hint3
+  357  ls
+  358  cd mystery
+  359  ls
+  360  head people
+  361  cd streets
+  362  ls
+  363  cd ..
+  364  ls
+  365  cd memberships
+  366  ls
+  367  grep -i "Annabel" Delta_SkyMiles
+  368  head "Delta_SkyMiles"
+  369  grep -i "anna" museum.txt
+  370  head AAA
+  371  grep -i "anna" AAA
+  372  clear
+  373  pwd
+  374  cd ..
+  375  ls
+  376  cd people
+  377  cat people
+  378  clear
+  379  ls
+  380  head -n 100 people
+  381  grep -w "Annabel Church" people
+  382  ls
+  383  cd streets
+  384  ls
+  385  cat Buckingham_Place
+  386  clear
+  387  ls
+  388  cd ..
+  389  ls
+  390  head people
+  391  cd streets
+  392  ls
+  393  grep -n "Annabel" Buckingham_Place
+  394  wc -1 Buckingham_Place
+  395  wc Buckingham_Place
+  396  cd ..
+  397  ls
+  398  cd ..
+  399  ls
+  400  cat hint3
+  401  cat hint4
+  402  ls
+  403  cd mystery
+  404  grep "Annabel" people
+  405  cat hint5
+  406  cd ..
+  407  cat hint5
+  408  cd mystery/streets
+  409  head -n 179 Buckingham_Place | tail -n 1
+  410  cd ..
+  411  ls
+  412  grep "699607" interviews
+  413  cd interviews
+  414  ls
+  415  clear
+  416  cd ..
+  417  ls
+  418  cd streets
+  419  grep -n 179 Buckingham_Place | tail -n 1
+  420  cd ..
+  421  cat hint4
+  422  cd ..
+  423  cat hint4
+  424  cat hint5
+  425  cd streets
+  426  cd mystery/streets
+  427  head -n 179 Buckingham_Place | tail -n 1
+  428  cd ..
+  429  ls
+  430  grep "699607 interviews\nq\n"
+  431  clear
+  432  ls
+  433  cd desktaux/asemb.ly/unit-1/deliverables/command-line-murder-mystery
+  434  cd
+  435  cd desktaux/asemb.ly/unit-1/deliverables/command-line-murder-mystery
+  436  ls
+  437  cat hint5
+  438  cd mystery
+  439  ls
+  440  grep "699607" interviews
+  441  cd interviews
+  442  grep "699607"
+  443  cd desktaux/asemb.ly/unit-1/deliverables/command-line-murder-mystery
+  444  ls
+  445  cat hint6
+  446  cat hint5
+  447  cd mystery
+  448  ls
+  449  head people
+  450  cd ..
+  451  ls
+  452  cd mystery
+  453  ls
+  454  cd interviews
+  455  find 699607
+  456  cd ..
+  457  grep -R /interviews/ -e '699607'
+  458  cd interviews
+  459  ls -n 30
+  460  pwd
+  461  ls
+  462  cat interview-699607
+  463  cd ..
+  464  ls
+  465  grep "L337" vehicles
+  466  head
+  467  cd desktaux/asemb.ly/unit-1/deliverables/command-line-murder-mystery
+  468  ls
+  469  cd mystery
+  470  ls
+  471  cd vehicles
+  472  head vehicles
+  473  cd ..
+  474  grep memberships
+  475  cd desktaux/asemb.ly/unit-1/deliverables/command-line-murder-mystery
+  476  ls
+  477  cd mystery
+  478  head memberships
+  479  cd memberships
+  480  ls
+  481  cd ..
+  482  ls
+  483  head vehicles
+  484  head -n 200 vehicles
+  485  clear
+  486  ls
+  487  grep -A "L337" vehicles
+  488  cd ..
+  489  ls
+  490  cat hint6
+  491  grep "Honda" vehicles
+  492  cd mystery
+  493  ls
+  494  grep "Honda" vehicles
+  495  grep "L337" vehicles
+  496  grep -A 4 "L337" vehicles
+  497  cd ..
+  498  ls
+  499  cd mystery
+  500  ls
+  501  cd memberships
+  502  ls
+  503  grep "Joe Germuska" Delta_SkyMiles
+  504  grep "Joe Germuska" AAA
+  505  grep "Jeremy Bowers" AAA
+  506  grep "Jacqui Maher" AAA
+  507  grep "Jeremy Bowers" Delta_SkyMiles
+  508  cd ..
+  509  ls
+  510  cd ..
+  511  ls
+  512  cat instructions
+  513  cat README.md
+  514  touch solution.txt
+  515  ls
+  516  history
+  517  clear
+  518  head -n 500 history > solution.txt
+  519  cat history > solution.txt
+Jeremy Bowers is the killer
