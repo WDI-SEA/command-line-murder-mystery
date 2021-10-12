@@ -1,0 +1,279 @@
+1  git config --global user.name "shuzel99"
+2  git config --global user.email "YOUR-EMAIL-ADDRESS"
+3  git config --global push.default simple
+4  git config --global user.email "shuzellide@gmail.com"
+5  git config --global user.name "shuzel99"
+6  git config --global user.email "shuzellide@gmail.com"
+7  git config --global push.default simple
+8  git config --global credential.helper cache
+9  git config --list
+10  pwd
+11  cd ~
+12  pwd
+13  cd~
+14  cd ~
+15  mkdir sei_pumpkin_smashers
+16  ls
+17  cd sei_pumpkin_smashers/
+18  mkdir lessons homework classNotes
+19  ls
+20  mkdir temp
+21  touch shuzeltemp.md
+22  ls
+23  code shuzeltemp.md
+24  code touch shuzeltemp.md
+25  cd..
+26  cd...
+27  cd ..
+28  pwd
+29  temp
+30  cd temp
+31  cd temp
+32  cd/temp
+33  cd sei_pumpkin_smashers
+34  open temp
+35  ls
+36  open temp
+37  cd lessons
+38  cd temp
+39  cd shuzeltemp.md
+40  pwd
+41  cd ..
+42  cd sei_pumpkin_smashers
+43  cd sei_pumpkin_smashers
+44  cd ~
+45  ls
+46  open sei_pumpkin_smashers/
+47  cd sei_pumpkin_smashers/
+48  ls
+49  code .
+50  code .
+51  pwd
+52  clear
+53  ls
+54  cd temp
+55  ls
+56  mv shuzeltemp.md
+57  mv shuzeltemp.md /temp/shuzeltemp.md
+58  mv shuzeltemp.md temp/shuzeltemp.md
+59  cd ..
+60  mv shuzeltemp.md temp/shuzeltemp.md
+61  cd temp
+62  ls
+63  clear
+64  cd ~
+65  https://github.com/shuzel99/command-line-murder-mystery.git
+66  ls
+67  cd sei_pumpkin_smashers
+68  ls
+69  homework
+70  cd homework
+71  ls
+72  cd temp
+73  git clone https://github.com/shuzel99/command-line-murder-mystery.git
+74  ls
+75  open command-line-murder-mystery/
+76  cd command-line-murder-mystery/
+77  ls
+78  instructions
+79  cd instructions
+80  open instructions
+81  cat instructions
+82  cat mystery
+83  cd mystery
+84  ls
+85  cd interviews
+86  la
+87  ls
+88  cat interviews
+89  cd ..
+90  cat interviews
+91  cd crimescene
+92  cat crimescene
+93  cd ...
+94  cd ..
+95  cat instructions
+96  cat crimescene
+97  cd crimescene
+98  cd mystery
+99  cd crimescene
+100  cat crimescene | grep CLUE
+101  ls
+102  cat people
+103  cat interviews
+104  cd interviews
+105  ls
+106  cd memebership
+107  cd membership
+108  cd memberships
+109  cd ..
+110  ls
+111  cd memberships
+112  ls
+113  cat delta.txt
+114  cat delta.txt | grep Annabel
+115  ls
+116  cat delta.txt | grep Annabel
+117  cat delta.txt
+118  | grep annabell
+119  grep annabel
+120  ls
+121  cd sei_pumpkin_smashers/
+122  ls
+123  cd homework/
+124  ls
+125  cd command-line-murder-mystery/
+126  ls
+127  cat readme.md
+128  cat mystery
+129  cd mystery
+130  ls
+131  cat instrustions
+132  cd ..
+133  cat instructions
+134  cat crimescene | grep CLUE
+135  pwd
+136  ls
+137  cd mystery
+138  ls
+139  cat crimescene | grep CLUE
+140  cat people | grep A
+141  cat people | grep Ann
+142  cat people | grep Annabel
+143  ls
+144  cd streets
+145  ls
+146  cd ..
+147  cd interviews | grep Annabel
+148  ls
+149  cd interviews
+150  cd interviews | grep Annabel
+151  cd ..
+152  la
+153  ls
+154  cd ..
+155  ls
+156  cat hint1
+157  cat hint2
+158  cat hint 3
+159  cat hint3
+160  cat hint4
+161  cat hint6
+162  cat hint5
+163   head -n 173 streets/Mattapan_Street | tail -n 1
+164  ls
+165  cd mystery
+166  ls
+167  cd interviews | grep Annabel
+168  cd interviews
+169  grep Annabel
+170  cd sei_pumpkin_smashers/
+171  ls
+172  cd homework
+173  ls
+174  cd command-line-murder-mystery/
+175  ls
+176  cat instructions
+177  ls
+178  cd mystery
+179  ls
+180  cat crimescene | grep CLUE
+181  cat people | grep Annabel
+182  cd ..
+183  ls
+184  cat hint5
+185  ls
+186  cd mystery
+187  ls
+188  cd streets  head -n 173 streets/Mattapan_Street | tail -n 1
+189  cd streets
+190  ls
+191  cat Mattapan_Street
+192  head -n 173 streets/Mattapan_Street | tail -n 1
+193  -n 173
+194  head -n 173
+195  pwd
+196  ls
+197  cat Buckingham_Place
+198  cd ..
+199  ls
+200  cd interviews
+201  ls
+202  cat interview-9437737
+203  cat interview-699607
+204  cd ..
+205  ls
+206  cat vehicles
+207  cat vehicles | grep honda
+208  ls
+209  cat vehicles | grep honda
+210  ls
+211  cat vehicles | "Honda"
+212  cat vehicles | Honda
+213  cat vehicles | grep "Honda"
+214  cat vehicles | grep -A 5 "license plate"
+215  cat vehicles | grep "license plate" vehicles
+216  pwd
+217  ls
+218  cat vehicles | grep -A 5 "license plate"
+219  ls
+220  cat vehicles | grep "L337"
+221  cat vehicles | grep -5 "L337"
+222  cat vehicles
+223  cat interview-699607
+224  cd ..
+225  ls
+226  cd mystery
+227  cat interview-699607
+228  pwd
+229  ls
+230  cd interviews
+231  cat interview-699607
+232  cd ..
+233  ls
+234  cat crimescene | grep CLUE
+235  cd ..
+236  ls
+237  cat hint 7
+238  cat hint7
+239  cat hint8
+240  pwd
+241  ls
+242  cd myster
+243  cd mystery
+244  ls
+245  cd memberships
+246  ls
+247  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika OWens"
+248  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+249  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+250  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+251  cd ..
+252  ls
+253  cd ..
+254  ls
+255  cat hint8
+256  pwd
+257  ls
+258  cd mystery
+259  ls
+260  cd memberships
+261  ls
+262  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+263  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+264  cat Fitness_Galaxy AAA Costco Delta_SkyMiles REI TCSU_Alumni_Association | grep -c "Joe Germuska"
+265  cat Fitness_Galaxy AAA Costco Delta_SkyMiles REI TCSU_Alumni_Association | grep -c "Jeremy Bowers"
+266  cd ..
+267  ls
+268  cd ../..
+269  la
+270  ls
+271  cd command-line-murder-mystery/
+272  ls
+273  cat cheatsheet.pdf
+274  64;1;2;4;6;9;15;21;22;28;29c
+275  ls
+276  cd mystery
+277  ls
+278  run history
+279  history
