@@ -1,5 +1,6 @@
   114  cd mystery
-  115  ls
+  115  cat crimescene | grep CLUE
+  116  ls
   116  head -n 20 people
   117  cat people | grep Annabel
   118  ls
