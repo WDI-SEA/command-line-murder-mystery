@@ -1,0 +1,12 @@
+grep "Clue" crimescene
+grep "Annabel" people
+head -n 179 streets/Buckingham_Place | tail -n 1
+Interview #699607
+Blue Honda with LP start "L337" ending in "9".
+grep -A 5 "L337" vehicles > vehiclematches.txt
+grep -A 4 "Honda" vehiclematches > lpandmakematches.txt
+grep -A 3 "Blue" lpandmakematches > lpmakecolormatches.txt
+grep -C 2 "6'1" lpmakecolormatches > carownerbyheight.txt
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+Jeremy Bowers is at least 6 feet tall and owns a car that matches the description given by our witness
+and has memberships to the 4 places of interest
