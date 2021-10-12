@@ -1,0 +1,23 @@
+1.
+grep "CLUE" crimescene
+head -n 173 streets/Mattapan_Street | tail -n 1
+head -n 176 streets/Haley_Street | tail -n 1
+head -n 40 streets/Hart_Place | tail -n 1
+head -n 179 streets/Buckingham_Place | tail -n 1
+cat interviews/interview-9437737
+cat interviews/interview-871877
+cat interviews/interview-47246024
+cat interviews/interview-699607
+grep -A 5 "L337" vehicles
+grep 'Jacqui Maher' memberships/AAA
+grep 'Jeremy Bowers' memberships/AAA
+grep 'Joe Germuska' memberships/AAA
+grep 'Erika Owens' memberships/AAA
+grep 'Joe Germuska' memberships/Delta_SkyMiles 
+grep 'Jeremy Bowers' memberships/Delta_SkyMiles 
+grep 'Jeremy Bowers' memberships/Terminal_City_Library 
+grep 'Jeremy Bowers' memberships/Museum_of_Bash_History
+history
+
+2.
+Jeremy Bowers
