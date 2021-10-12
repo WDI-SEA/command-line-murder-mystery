@@ -1,0 +1,135 @@
+ 95  cd command-line-murder-mystery
+   96  ls
+   97  ls -a
+   98  cat instructions
+   99  cd ..
+  100  ls
+  101  cd command-line-murder-mystery
+  102  touch solution.txt
+  103  ls
+  104  cd mystery
+  105  ls
+  106  cd crimescene
+  107  cat crimescene
+  108  open crimescene
+  109  open . crimescene
+  110  code crimescene
+  111  cd
+  112  ls
+  113  cd sei_pumpkin_smashers/homework/command-line-murder-mystery
+  114  ls
+  115  cat instructions
+  116  cat crimescene | grep CLUE
+  117  cd mystery
+  118  ls
+  119  cat crimescene | grep CLUE
+  120  cd interviews
+  121  ls
+  122  cat interviews | grep barista
+  123  cd..
+  124  cd ..
+  125  cat interviews | grep barista
+  126  cd interviews
+  127  ls
+  128  cat interview-000296
+  129  grep Barista
+  130  cat hint1
+  131  cd ..
+  132  cat hint1
+  133  head -n 20 people
+  134  cd mystery/memberships
+  135  cat memberships
+  136  ls
+  137  cat Delta_Skymiles
+  138  open Delta_Skymiles
+  139  code Delta_Skymiles
+  140  cat memberships | grep Annabel
+  141  grep Annabel
+  142  cat Delta_SkyMiles | sort Delta_SKyMiles
+  143  cat hint2
+  144  cd ../..
+  145  cat hint2
+  146  cat hint3
+  147  open Delta_SkyMiles
+  148  head people
+  149  ls
+  150  cd mystery
+  151  ls
+  152  head people
+  153  cat people
+  154  cat people | grep A
+  155  cat people | grep Ann'
+  156  cat people | grep Ann
+  157  cat people | grep Annabel
+  158  open people
+  159  ls
+  160  cat streets
+  161  cd streets
+  162  ls
+  163  cat  Buckingham_Place
+  164  ls
+  165  cat  Hart_Place
+  166  cat  Hart_Place | grep SEE
+  167  ls
+  168  cat  Haley_Street | grep SEE
+  169  cd ..
+  170  ls -a
+  171  cd interviews
+  172  ls
+  173  cat interview-47246024
+  174  cat interview-699607
+  175  cat interview-871877
+  176  cd ..
+  177  ls
+  178  cat vehicles
+  179  cat vehicles | grep Honda
+  180  cat vehicles
+  181  cat vehicles | grep Honda
+  182  cat vehicles | grep blue
+  183  cat vehicles | grep L337
+  184  cat vehicles
+  185  cat vehicles | grep Blue Honda
+  186  cat vehicles | grep Blue
+  187  cat vehicles | grep Blue | grep Honda
+  188  cat vehicles | grep Blue
+  189  cat vehicles
+  190  cat vehicles | grep 6'
+  191  cat vehicles | grep 6
+  192  cat vehicles
+  193  code vehicles
+  194  ls
+  195  cat people
+  196  cat people | grep Erika Owens
+  197  cat people | grep E
+  198  cat people | grep Joe Germuska
+  199  cat people | grep Joe
+  200  cat people | grep Erika
+  201  cat people | grep Jeremy
+  202  cat people | grep Jacqui
+  203  ls
+  204  cd streets
+  205  ls
+  206  cat Trapelo_Street
+  207  ls
+  208  cat Plainfield_Street | grep SEE
+  209  cat Dunstable_Road | grep SEE
+  210  cat Andover_Road | grep SEE
+  211  cd ..
+  212  ls
+  213  cd interviews
+  214  ls
+  215  cat interview-
+  216  cat interview-5455315
+  217  cat interview-29741223
+  218  cat interview-9620713
+  219  cat interview-904020
+  220  cd ..
+  221  ls
+  222  cd memberships
+  223  ls
+  224  cat AAA | grep Jeremy
+  225  cat Fitness_Galaxy | grep Jeremy
+  226  cat Terminal_City_Library | grep Jeremy
+  227  cat Museum_of_Bash_History | grep Jeremy
+
+Jeremy Bowers ( I also did not fully read the directions and 100% opened some stuff in text editors as you'll see. I'll make sure to read more carefully going forward :) )
