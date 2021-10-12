@@ -1,0 +1,378 @@
+  184  cd sei_pumpkin_smashers/
+  185  ls
+  186  cd d
+  187  cd deliverables/
+  188  mkdir unit 1
+  189  ls
+  190  rm -r 1 unit
+  191  ls
+  192  mkdir unit_1
+  193  ls
+  194  cd unit_1
+  195  git clone https://github.com/anaismveras/command-line-murder-mystery.git
+  196  pwd
+  197  cd unit_1
+  198  ls
+  199  cd command-line-murder-mystery
+  200  ls
+  201  cat instructions
+  202  pwd
+  203  ls
+  204  cd mystery/
+  205  ls
+  206  cd c
+  207  cd crimescene 
+  208  cat crimescene 
+  209  cat crimescene | grep CLUE
+  210  pwd
+  211  cd ..
+  212  ls
+  213  cat hint1
+  214  open cheatsheet.md
+  215  open code cheatsheet.pdf
+  216  cat solution
+  217  ls -a
+  218  pwd
+  219  cat hint2
+  220  cat hint3
+  221  pwd
+  222  head -n 20 people
+  223  cat hint3
+  224  cat hint4
+  225  cat mystery/
+  226  pwd
+  227  cd mystery/
+  228  ls
+  229  cd people 
+  230  head -n 20 people
+  231  head -n 100
+  232  pwd
+  233  ls
+  231  ls
+  232  cd sei_pumpkin_smashers/
+  233  ls
+  234  cd d
+  235  cd deliverables/
+  236  mkdir unit 1
+  237  ls
+  238  rm -r 1 unit
+  239  ls
+  240  mkdir unit_1
+  241  ls
+  242  cd unit_1
+  243  git clone https://github.com/anaismveras/command-line-murder-mystery.git
+  244  pwd
+  245  cd unit_1
+  246  ls
+  247  cd command-line-murder-mystery
+  248  ls
+  249  cat instructions
+  250  pwd
+  251  ls
+  252  cd mystery/
+  253  ls
+  254  cd c
+  255  cd crimescene 
+  256  cat crimescene 
+  257  cat crimescene | grep CLUE
+  258  pwd
+  259  cd ..
+  260  ls
+  261  cat hint1
+  262  open cheatsheet.md
+  263  open code cheatsheet.pdf
+  264  cat solution
+  265  ls -a
+  266  pwd
+  267  cat hint2
+  268  cat hint3
+  269  pwd
+  270  head -n 20 people
+  271  cat hint3
+  272  cat hint4
+  273  cat mystery/
+  274  pwd
+  275  cd mystery/
+  276  ls
+  277  cd people 
+  278  head -n 20 people
+  279  head -n 100
+  280  pwd
+  281  ls
+  282  cd sei_pumpkin_smashers/
+  283  ls
+  284  cd deliverables/
+  285  ls
+  286  cd unit_1
+  287  ls
+  288  cd command-line-murder-mystery/
+  289  ls
+  290  open instructions 
+  291  open hint1
+  292  cd mystery/
+  293  ls
+  294  cat people
+  295  cat people | grep Annabel
+  296  cat vehicles
+  297  cat vehicles | grep Annabel
+  298  open hint2
+  299  cat hint2
+  300  cd ..
+  301  pwd
+  302  ls
+  303  cd mystery
+  304  ls
+  305  cd ..
+  306  ls
+  307  open hint2
+  308  open hint3
+  309  open hint3
+  310  open hint 4
+  311  open hint4
+  312  open hint5
+  313  open hint6
+  314  open hint7
+  315  open hint8
+  316  pwd
+  317  ls
+  318  cd mystery
+  319  ls
+  320  cat vehicles 
+  321  ls
+  322  cat interviews/
+  323  cd interviews/
+  324  ls
+  325  head -n 173 streets/Mattapan_Street | tail -n 1
+  326  cd ..
+  327  ls
+  328  cd people
+  329  ls 
+  330  cat people 
+  331  ead -n 173 streets/Mattapan_Street | tail -n 1
+  332  h ead -n 173 streets/Mattapan_Street | tail -n 1
+  333  head -n 173 streets/Mattapan_Street | tail -n 1
+  334  cd ..
+  335  ls
+  336  cd mystery/
+  337  ls
+  338  cd interviews/
+  339  ls
+  340  cat interviews | grep INTERVIEW #9437737
+  341  cat interviews | grep interview-9437737
+  342  pwd
+  343  cat interview-9437737
+  344  cd ..
+  345  pwd
+  346  ls
+  347  cd streets
+  348  ls
+  349  pwd
+  350  cd ..
+  351  pwd
+  352  ls
+  353  cd people
+  354  cat people
+  355  head -n 40 streets/Hart Place | tail -n 1
+  356  head -n 176 streets/Haley Street | tail -n 1
+  357  head -n 173 streets/Mattapan_Street | tail -n 1
+  358  head -n 176 streets/Haley Street
+  359  pwd
+  360  ls
+  361  cd streets
+  362  ls
+  363  cat streets | greg Mattapn_Street
+  364  head -n 173 streets/Mattapan_Street | tail -n 1
+  365  pwd
+  366  cd ..
+  367  pwd
+  368  ls
+  369  cd interviews/
+  370  ls
+  371  cat interview-9437737
+  372  cd ..
+  373  pwd
+  374  ls
+  375  cd people
+  376  cat people
+  377  cd ..
+  378  ls
+  379  cd mystery/
+  380  ls
+  381  cd streets
+  382  ls
+  383  cat streets | grep Haley_Street
+  384  head -n 176 streets/Haley_Street | tail -n 1
+  385  cd ..
+  386  ls
+  387  cd cd ..
+  388  cd ..
+  389  ls
+  390  open hint5
+  391  open hint5
+  392  cat hint5
+  393  ls
+  394  cd mystery/
+  395  cd streets
+  396  ls
+  397  head -n 176 streets/Haley_Street | tail -n 1
+  398  head -n 173 streets/Mattapan_Street | tail -n 1
+  399  head -n 173 streets/Mattapan_Street | tail -n 1
+  400  cd ..
+  401  ls
+  402  cd ..
+  403  ls
+  404  open hint5
+  405  cd mystery/
+  406  ls
+  407  cd streets
+  408  ls
+  409  head -n 176 Haley_Street | tail -n 1
+  410  head -n 40 Hart_Place | tail -n 1
+  411  head -n 179 Buckingham_Place | tail -n 1
+  412  cd ..
+  413  ls
+  414  cd interviews/
+  415  ls
+  416  cat interview-871877
+  417  cat interview-47246024
+  418  cat interview-699607
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd vehicles 
+  423  cat vehicles 
+  424  head Honda | tail -n 1
+  425  cat vehicles | grep L337
+  426  head -n 200 Honda | tail -n 1
+  427  ls
+  428  cd ..
+  429  ls
+  430  open cheatsheet.pdf
+  431  ls
+  432  cd mystery
+  433  ls
+  434  cd vehicles 
+  435  ls
+  436  cat vehicles 
+  437  grep "Honda" | grep "blue" | grep "L337"
+  438  ls
+  439  cd sei_pumpkin_smashers/
+  440  ls
+  441  cd deliverables/
+  442  ls
+  443  cd unit_1/
+  444  ls
+  445  cd command-line-murder-mystery/
+  446  ls
+  447  cd mystery/
+  448  ls
+  449  cd vehicles 
+  450  cat vehicles 
+  451  head -n 176 Honda | tail -n 5
+  452  cd ..
+  453  ls
+  454  open cheatsheet.md
+  455  cd mystery/
+  456  ls
+  457  head vehicles | grep "Honda" | grep "Blue" | grep "L337" 
+  458  ls
+  459  cd vehicles 
+  460  ls
+  461  cat vehicles 
+  462  head vehicles | grep "Honda" | grep "Blue" | grep "L337"
+  463  head vehicles | grep "Honda" | grep "Blue" | grep "L337" | tail -n 6
+  464  grep "Honda"
+  465  ls
+  466  cd sei_pumpkin_smashers/
+  467  cd deliverables/
+  468  ls
+  469  cd unit_1/
+  470  ls
+  471  cd command-line-murder-mystery/
+  472  cd mystery/
+  473  ls
+  474  cat vehicles 
+  475  cat vehicles | grep "Honda"
+  476  cat vehicles | grep "Blue"
+  477  cat vehicles | grep "L337"
+  478  grep "Honda" vehicles | grep "Blue" | head
+  479  head vehicles | grep Honda
+  480  cd ..
+  481  ls
+  482  cd mystery/
+  483  ls
+  484  head vehicles 
+  485  ls
+  486  grep -A 5 "L337" vehicles 
+  487  grep -A 4 "Honda"
+  488  ls
+  489  cd sei_pumpkin_smashers/
+  490  ls
+  491  cd d
+  492  cd deliverables/
+  493  ls
+  494  cd unit_1/
+  495  cd command-line-murder-mystery/
+  496  cd mystery/
+  497  ls
+  498  cat vehicles 
+  499  grep -A 4 "Honda" vehicles 
+  500  grep "Honda" | grep "Blue" | grep "L337"
+  501  ls
+  502  cd s
+  503  cd 
+  504  cd sei_pumpkin_smashers/
+  505  cd deliverables/
+  506  cd unit_1/
+  507  cd command-line-murder-mystery/
+  508  cd mystery/
+  509  cd vehicles 
+  510  cat vehicles 
+  511  grep -A 5 "L337" vehicles 
+  512  pwd
+  513  ls
+  514  cd memberships/
+  515  ls
+  516  cat AAA | grep "Mike Bostock"
+  517  cat Delta_SkyMiles | grep "Mike Bostock"
+  518  cat library.txt | grep "Mike Bostock"
+  519  cat Terminal_City_Library | grep "Mike Bostock"
+  520  cat Museum_of_Bash_History | grep "Mike Bostock"
+  521  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library library.txt museum.txt delta.txt | grep -c "Mike Bostock"
+  522  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library library.txt museum.txt delta.txt | grep -c "Erika Owens"
+  523  cat AAA Delta_SkyMiles  Museum_of_Bash_History Terminal_City_Library library.txt museum.txt delta.txt | grep -c "Miranda Mulligan"
+  524  cat AAA Delta_SkyMiles  Museum_of_Bash_History Terminal_City_Library library.txt museum.txt delta.txt | grep -c "Joe Germuska"
+  525  cat AAA Delta_SkyMiles  Museum_of_Bash_History Terminal_City_Library library.txt museum.txt delta.txt | grep -c "Jeremy Bowers"
+  526  cat AAA Delta_SkyMiles  Museum_of_Bash_History Terminal_City_Library library.txt museum.txt delta.txt | grep -c "Jacqui Maher"
+  527  ls
+  528  cd ..
+  529  ls
+  530  cd ..
+  531  ls
+  532  ls -a
+  533  cat solution
+  534  cd ..
+  535  ls
+  536  cd command-line-murder-mystery/
+  537  ls
+  538  ls -a
+  539  cd mystery/
+  540  ls -a
+  541  ls
+  542  cd ..
+  543  ls
+  544  touch solution.txt
+  545  ls
+  546  open solution.txt
+  547  run history
+  548  history
+
+
+
+Killer is 
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs.     matches 7
