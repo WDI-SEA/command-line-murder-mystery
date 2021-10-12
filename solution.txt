@@ -1,0 +1,265 @@
+428  man rm
+  429  clear
+  430  ls
+  431  ls -a
+  432  cd mystery
+  433  ls -a
+  434  cat crimescene3
+  435  cat crimescene
+  436  clear
+  437  man grep
+  438  cd ..
+  439  ls
+  440  cat hint1
+  441  ls
+  442  cd mystery
+  443  ls
+  444  head -n 20 people
+  445  crimescene.txt | grep CLUE
+  446  cat crimescene | grep CLUE
+  447  cd ..
+  448  clear
+  449  cat hint3
+  450  ls
+  451  cd mystery
+  452  ls
+  453  head people
+  454  cat people
+  455  clear
+  456  ls
+  457  crimescene | grep CLUE
+  458  cat crimescene | CLUE
+  459  ls
+  460  crimescene | grep CLUE
+  461  crimescene.txt | grep CLUE
+  462  cat crimescene.txt | grep CLUE
+  463  cat cheatsheet.md
+  464  cd ..
+  465  cat cheatsheet.md
+  466  ls
+  467  cd mystery
+  468  ls
+  469  clear
+  470  ls
+  471  cat crimescene.txt | grep CLUE
+  472  cat crimescene | grep CLUE
+  473  cd memberships
+  474  ls
+  475  cat Museum_of_Bash_History
+  476  Museum_of_Bash_HistoryMuseum_of_Bash_Historycear
+  477  ls
+  478  cat 1.txt
+  479  clear
+  480  cd ..
+  481  ls
+  482  cat crimescene | grep CLUE
+  483  clear
+  484  ls
+  485  cat people | grep Annable
+  486  cat crimescene | grep Annable
+  487  cat crimescene | grep CLUE
+  488  clear
+  489  ls
+  490  cat people | grep Annabel
+  491  streets
+  492  cd streets
+  493  ls
+  494  cd ..
+  495  clear
+  496  ls
+  497  cat crimescene | grep CLUE
+  498  cat people | grep Annabel
+  499  cd streets
+  500  cat Hart Place
+  501  cd Hart_Place
+  502  cat Hart_Place
+  503  clear
+  504  cd ..
+  505  cat hint3
+  506  cd mystery
+  507  head vechicales
+  508  ls
+  509  head vehicles
+  510  cat vehicles | grep Annabel
+  511  cat vehicles
+  512  clear
+  513  ls
+  514  cd ..
+  515  cat hint4
+  516  cd mystery
+  517  cat people | grep Annabel
+  518  cd ..
+  519  cat hint5
+  520  cd mystery
+  521  head -n 173 streets/Mattapan_Street | tail -n 1
+  522  cd interview
+  523  ls
+  524  cd interviews
+  525  ls
+  526  cat interview-9437737
+  527  clear
+  528  ls
+  529  cd ..
+  530  clear
+  531  ls
+  532  cat people | grep Annable
+  533  cat people | grep Annabell
+  534  cat crimescene | grep CLUE
+  535  cat people | grep Annabel
+  536  head -n 173 streets/Hart_Place | tail -n 1
+  537  head -n 173 stree/Buckingham_Place | tail -n 1
+  538  head -n 173 streets/Haley_Street | tail -n 1
+  539  cd ..
+  540  cat hint5
+  541  cat hint6
+  542  cat hint8
+  543  cls
+  544  clear
+  545  cd mystery
+  546  cat people | grep Annabel
+  547  ls
+  548  cd memberships
+  549  ls
+  550  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Oluwasegun Annabel
+  551  cat AAA | grep Oluwasdgun
+  552  cat AAA | grep Fuglsang
+  553  cat AAA | grep Church
+  554  cat Delta_SkyMiles | grep Church
+  555  3clear
+  556  cat Terminal_City_Library | grep Church
+  557  cd ..
+  558  ls
+  559  cat crimescene | grep CLUE
+  560  cd memberships
+  561  ls
+  562  cat Museum_of_Bash_History | grep Church
+  563  cat Museum_of_Bash_History | grep Oluwasegun
+  564  cat Museum_of_Bash_History | grep Fuglsang
+  565  cat Museum_of_Bash_History | grep Sun
+  566  cat AAA | grep Oluwasegun
+  567  cat AAA | grep Church
+  568  cat Delta_SkyMiles | grep Church
+  569  cat Delta_SkyMiles | grep Oluwasegun
+  570  cat Delta_SkyMiles | grep Sun
+  571  cat Delta_SkyMiles | grep Fuglsang
+  572  cat library.txt
+  573  ls -a
+  574  clear
+  575  cat people | grep Annabel
+  576  cd ..
+  577  cat people | grep Annabel
+  578  head -n 30 people
+  579  ls
+  580  head n- 20 vehicles
+  581  cd ..
+  582  cat hint6
+  583  cat hint4
+  584  cat hint5
+  585  cd mystry
+  586  cd mystery
+  587* head -n 20 /Annabel | tail -n 1
+  588  cat vehicles | grep Annabel
+  589  cd ..
+  590  cat hint8
+  591  clear
+  592  cat hint9
+  593  ls
+  594  cat instructions
+  595  clear
+  596  cd mystery
+  597  ls
+  598  cat people
+  599  clear
+  600  ls
+  601  vechicles
+  602  cat vehicles | grep Honda
+  603  clear
+  604  cd ,,
+  605  cd ..
+  606  cat hint8
+  607  cd mystery
+  608  cat Fitness_Galaxy AAA United_MileagePlus | grep -c
+  609  cd membership
+  610  ls
+  611  cd memberships
+  612  cat Fitness_Galaxy AAA United_MileagePlus | grep -c
+  613  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  614  ls
+  615  cd ..
+  616  cat people | grep Annabel
+  617  cd memberships
+  618  cat Fitness_Galaxy AAA United_MileagePlus Museum_of_Bash_History Terminal_City_Library | grep -c "Oluwasegun Annabel"
+  619*
+  620  cat AAA United_MileagePlus Museum_of_Bash_History Terminal_City_Library | grep -c "Annabel Church"
+  621  cd ..
+  622  ls
+  623  cat hint7
+  624  grep -A 5 "L337" mystery/vehicles
+  625  grep -A 5 "Annabel" mystery/vehicles
+  626  clear
+  627  hint3
+  628  cat hint3
+  629  heat mystery/people
+  630  cd mystery
+  631  head people
+  632  head vehicles
+  633  ls
+  634  cd interviews
+  635  ls
+  636  cd ..
+  637  clear
+  638  head people
+  639  cd street
+  640  cd streets
+  641  head -n 433 Walton_Street | tail 1
+  642  cd ../..
+  643  cat hint4
+  644  cat hint5
+  645  cat mystery/people | grep Annabel
+  646  head -n 173 mystery/streets/Mattapan_Street | tail -n 1
+  647  head -n 40 mystery/streets/Hart_Place | tail -n 1
+  648  cat mystery/interviews/interview_47246024
+  649  cat mystery/interviews/interview-47246024
+  650  cat mystery/interviews/interview-9437737
+  651  head -n 179 mystery/streets/Buckingham_Place | tail -n 1
+  652  cat mystery/interviews/interview-699607
+  653  cat hint5
+  654  cat hint6
+  655  cat hint7
+  656  grep -A 5 "L337" mystery/vehicles
+  657  cat hint8
+  658  clear
+  659  cat mystery/crimescene | grep CLUE
+  660  cd mystery
+  661  ls
+  662  cd memberships
+  663  ls
+  664  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Erika Owens"
+  665  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  666  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  667  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Jacqui Maher"
+  668  cd ..
+  669  cat people | grep Jeremy Bowers
+  670  cat people | grep Bower
+  671  head -n 284 streets/Dunstable_Road | tail -n 1
+  672  cat interviews/interview-9620713
+  673  clear
+  674  cat people | grep Jacqui
+  675  head -n 224 streets/Andover_Road | tail -n 1
+  676  cat interviews/interview-904020
+  677  cat people | grep Erika
+  678  head -n 98 streets/Trapelo_Street | tail -n 1
+  679  cd ..
+  680  clear
+  681  cat solution
+  682  ls -a
+  683  mkdir solution.txt
+  684  ls
+  685  rm -r solution.txt
+  686  ls
+  687  touch solution.txt
+  688  ls
+  689  clear
+  690  history
+
+Jeremy Bowers
