@@ -1,0 +1,324 @@
+    1  git --version
+    2  git config --global user.name 
+    3  git config --global user.name "Dagem Befikadu"
+    4  git cofig --global user.email Befikadu.dagem@gmail.com
+    5  git config --global user.email befikadu.dagem@gmail.com
+    6  git config --list
+    7  git init
+    8  ls
+    9  ls -a
+   10  cd .git
+   11  ls
+   12  cd ..
+   13  git status
+   14  code .
+   15  git status
+   16  git add .
+   17  git status
+   18  git commit -m "First commit"
+   19  git status
+   20  git remote add origin https://github.com/DagemBefikadu/git-test.git
+   21  git branch -M main
+   22  git push -u origin main
+   23  git remote add origin https://github.com/DagemBefikadu/git-test.git
+   24  git branch -M main
+   25  git push -u origin main
+   26  touch ~/.bash_profile
+   27  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+   28  npm -v
+   29  node -v
+   30  npm init
+   31  ls
+   32  code .
+   33  npm install lite-server --save-dev
+   34  npm start
+   35  git status
+   36  git add .
+   37  git status
+   38  git commit -m "using NPM"
+   39  git push
+   40  c .
+   41  code .
+   42  code .
+   43  npm init
+   44  ls
+   45  npm install lite-server --save-dev
+   46  npm install jquery@3.5.1 popper.js@1.16.1
+   47  npm install bootstrap@4.5.2
+   48  npm start
+   49  git init
+   50  git add .
+   51  git status
+   52  git commit -m "Bootstrap Project Setup"
+   53  git push 
+   54  git remote add origin https://github.com/DagemBefikadu/DBootStrapCampsite.git
+   55  git branch -M main
+   56  git push -u origin main
+   57  npm start
+   58  npm start
+   59  npm start
+   60  git commit
+   61  git add
+   62  git add .
+   63  git commit
+   64  git add
+   65  git push
+   66  git status
+   67  cd
+   68  git status
+   69  git add .
+   70  git status
+   71  git commit -m "AboutUs Page"
+   72  git status
+   73  git log --oneline
+   74  https://github.com/DagemBefikadu/DBootStrapCampsite.git
+   75  git push
+   76  git status
+   77  ls
+   78  npm start
+   79  git status
+   80  git add .
+   81  git push
+   82  git status
+   83  git push -u
+   84  git status
+   85  git commit
+   86  git add
+   87  https://github.com/DagemBefikadu/DBootStrapCampsite.git
+   88  git push -u orgin master
+   89  git remote add origin https://github.com/DagemBefikadu/DagemNuCampSite.git
+   90  git push -u origin main
+   91  git status
+   92  git commit -m "NavBar and Breadcrumb creation"
+   93  git status
+   94  git push
+   95  npm start
+   96  npm install font-awesome@4.7.0
+   97  npm start
+   98  git status
+   99  git add .
+  100  git status
+  101  git commit -m"Icons"
+  102  git push
+  103  bootstrap-social@5.1.1
+  104  npm install bootstrap-social@5.1.1
+  105  npm start
+  106  git status
+  107  git add .
+  108  git status
+  109  git commit -m"Buttons and Contact Us Page"
+  110  git push
+  111  npm start
+  112  brew install git
+  113  git init
+  114  git init
+  115  brew install git
+  116  brew install git --fix
+  117  git init
+  118  git --version
+  119  mkdir GA-Blog
+  120  GA-Blog
+  121  mkdir 'GA-Blog'
+  122  cd GA-Blog
+  123  git init
+  124  pwd
+  125  ls -a
+  126  git status
+  127  touch post.txt
+  128  git status
+  129  git add post.txt
+  130  git statis
+  131  git status
+  132  git status
+  133  git commit -m "created a new post.txt file"
+  134  git log
+  135  brew --version'
+  136  brew --version
+  137  brew install wget
+  138  git config --global user.name "YOUR-USERNAME"
+  139  git config --global user.name "YOUR-USERNAME"
+  140  git config --global user.email "YOUR-EMAIL-ADDRESS"
+  141  git config --global push.default simple
+  142  git config --global push.default simple
+  143  git config --global credential.helper cache
+  144  git config --global user.name "DagemBefikadu"
+  145  git config --global user.email "befikadu.dagem@gmail.com"
+  146  git config --global push.default simple
+  147  git config --global credential.helper cache
+  148  brew install node
+  149  node -v
+  150  npm  -v
+  151  ls
+  152  cd desktop
+  153  ls
+  154  cd GA
+  155  ls
+  156  cd ~
+  157  ls
+  158  cd Desktop/GA/
+  159  ls
+  160  cd ..
+  161  pwd
+  162  cd ~
+  163  ls
+  164  cd desktop
+  165  ls
+  166  cd GA
+  167  pwd
+  168  cd ../NucampFolder
+  169  pwd
+  170  ls
+  171  cd ~
+  172  mkdir sei_pumpkin_smashers
+  173  ls
+  174  cd sei_pumpkin_smashers/
+  175  pwd
+  176  ls
+  177  mkdir Lessons Homework classNotes
+  178  ls
+  179  cd ~
+  180  man rm
+  181  man ls
+  182  cd sei_pumpkin_smashers/
+  183  cd Homework/
+  184  https://github.com/DagemBefikadu/command-line-murder-mystery.git
+  185  ls
+  186  https://github.com/DagemBefikadu/command-line-murder-mystery.git
+  187  ls
+  188  https://github.com/DagemBefikadu/command-line-murder-mystery.git
+  189  git clone https://github.com/DagemBefikadu/command-line-murder-mystery.git
+  190  ls
+  191  cd ~
+  192  git config --list
+  193  clear
+  194  https://github.com/DagemBefikadu/command-line-murder-mystery.git
+  195  cd sei_pumpkin_smashers/
+  196  cd Homework/
+  197  https://github.com/DagemBefikadu/command-line-murder-mystery.git
+  198  cd https://github.com/DagemBefikadu/command-line-murder-mystery.git
+  199  ls
+  200  cd command-line-murder-mystery/
+  201  https://github.com/DagemBefikadu/command-line-murder-mystery.git
+  202  cd ..
+  203  https://github.com/DagemBefikadu/command-line-murder-mystery.git
+  204  cd command-line-murder-mystery/
+  205  cat instructions 
+  206  clear
+  207  ls
+  208  cat instructions 
+  209  cat hint 1
+  210  cat hint1
+  211  head -n 20 people
+  212  head -n 20 
+  213  cat hint1
+  214  cd hint1
+  215  cd hint1
+  216  cat hint1
+  217  head -n 20 people command-line-murder-mystery
+  218  cat hint2
+  219  cd mystery/
+  220  head -n 20 people
+  221  head -n line 433
+  222  cat Walton Street
+  223  cat line 433
+  224  head -n 20 people
+  225  ls
+  226  cat streets/
+  227  cd streets/
+  228  ls
+  229  ls -a
+  230  cd ..
+  231  cd ..
+  232  ls
+  233  cd mystery/
+  234  grep CLUE
+  235  ls
+  236  cd crimescene 
+  237  grep crimescene | grep CLUE
+  238  cat crimescene | grep CLUE
+  239  clear
+  240  cd ~
+  241  ls
+  242  cd sei_pumpkin_smashers/
+  243  ls
+  244  cd Homework/
+  245  ls
+  246  cd command-line-murder-mystery/
+  247  ls
+  248  cat hint1
+  249  cd hint3
+  250  cat hint3
+  251  cd ..
+  252  ls
+  253  cd command-line-murder-mystery/
+  254  cat hint2
+  255  cd command-line-murder-mystery/
+  256  ls
+  257  cat mystery/
+  258  cd mystery/
+  259  ls
+  260  head -n 20 people
+  261  cat street
+  262  cd streets
+  263  ls
+  264  cat Walton Street
+  265  cat Walton_Street
+  266  cd ..
+  267  cd ..
+  268  ls
+  269  cat hint4
+  270  cat hint 5
+  271  cat hint5
+  272  cat hint6
+  273  cat hint7
+  274  clear
+  275  ls
+  276  cd mystery/
+  277  clear
+  278  cd ..
+  279  ls
+  280  cd instructions 
+  281  cat instructions 
+  282  ls
+  283  cd mystery/
+  284  ls
+  285  head -n 20 people 
+  286  ls
+  287  cd ..
+  288  ls
+  289  nano cheatsheet.md 
+  290  ls
+  291  cd sei_pumpkin_smashers/
+  292  mkdir temp
+  293  cd temp
+  294  pwd
+  295  mkdir project_git/
+  296  cd project_git/
+  297  touch readme.md
+  298  ls
+  299  pwd
+  300  git init
+  301  ls -a
+  302  git status
+  303  git add readme.md 
+  304  git status
+  305  git commit -m "My first commit"
+  306  git status
+  307  git log
+  308  cd ~
+  309  ls
+  310  cd sei_pumpkin_smashers/
+  311  ls
+  312  Homework/
+  313  cd Homework/
+  314  ls
+  315  cd command-line-murder-mystery/
+  316  ls
+  317  cat solution.text 
+  318  echo history >> solution.text
+  319  cat solution.text 
+  320  cat solution.text pwd
+  321  pwd
+  322  ls
+  323  history
+
