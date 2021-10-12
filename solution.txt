@@ -1,0 +1,45 @@
+  130  cd crimescene
+  131  cat crimescene | grep CLUE
+  132  cat people | grep Annabel
+  133  cd streets
+  134  ls
+  135  open Mattapan_Street 
+  136  head -n 173 Mattapan_Street | tail -n 1
+  137  head -n 176 Haley Street | tail -n 1
+  138  head -n 179 Buckingham_Place | tail -n 1
+  139  head -n 40 Hart_Place | tail -n 1
+  140  cd ..
+  141  cd interviews
+  142  ls
+  143  cat interview-9437737
+  144  cat interview-699607
+  145  cat interiview-47246024
+  146  cat interview-47246024
+  147  cd ..
+  148  cd ..
+  149  ls
+  150  cd mystery
+  151  ls
+  152  cat vehicles | grep blue
+  153  cd vehicles
+  154  cat vehicles | grep Honda
+  155  grep -n "Honda"
+  156  cat vehicles | grep -n "Honda"
+  157  cat vehicles | grep -n "L337"
+  158  cat vehicles | grep -n "blue"
+  159  cat vehicles | grep -n "Blue"
+  160  cat vehicles | grep -n "Blue" "Honda"
+  161  cat vehicles | grep -n "Blue" | grep -n "Honda"
+  162  cat vehicles | grep -n "L337"
+  163  cd vehicles
+  164  cat vehicles | grep -A 4 "L337"
+  165  cat vehicles | grep -A 5 "L337"
+  166  cat vehicles | grep -A 6 "L337"
+  167  cat memberships | grep Joe
+  168  cd memberships
+  169  grep Joe
+  170  grep "Joe" *
+  171  grep "Germuska" *
+  172  grep "Bowers" *
+
+  Killer is Jeremy Bowers
