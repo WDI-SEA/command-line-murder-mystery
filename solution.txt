@@ -1,0 +1,303 @@
+    1  sudo pulseaudio -k
+    2  sudo apt install git
+    3  sudo apt install node
+    4  discord
+    5  sudo add-apt-repository ppa:yannubuntu/boot-repair
+    6  sudo apt-get update
+    7  sudo apt-get install -y boot-repair && boot-repair
+    8  cat/etc/shells
+    9  ps -p $$
+   10  [200~/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"~
+   11  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   12  sudo apt install git-all
+   13  git config --global user.name "LindZCoding"
+   14  git config --global user.email "Lindzgaming@gmail.com"
+   15  git config --global push.default simple
+   16  git config --global credential.helper cache
+   17  git --version
+   18  git --list
+   19  git config --global user.name "LindZCoding"
+   20  git config --global user.email "Lindzgaming@gmail.com"
+   21  git config --global push.defualt simple
+   22  git config --global credential.helper cache
+   23  gsdfghdsfh
+   24  vs code
+   25  vscode
+   26  git --list
+   27  code
+   28  pwd
+   29  ls
+   30  cd Desktop
+   31  pwd
+   32  ls
+   33  cs -
+   34  cd ~
+   35  pwd
+   36  cd Desktop
+   37  cd /Users/lindsay
+   38  pwd
+   39  cd /Users/lindsay
+   40  cd Users/lindsay
+   41  cd /Users/lindsay
+   42  pwd
+   43  cd ~
+   44  pwd
+   45  ls
+   46  cd Desktop
+   47  ls
+   48  cd ~
+   49  pwd
+   50  mkdir sei_pumpkin_smashers
+   51  ls
+   52  cd sei_pumpkin_smashers/
+   53  ls
+   54  pwd
+   55  mkdir lessons homework classNotes
+   56  ls
+   57  mkdir temp
+   58  ls
+   59  cd temp/
+   60  pwd
+   61  touch lindsaytemp.md
+   62  ls
+   63  code lindsaytemp.md 
+   64  ls
+   65  code lindsaytemp.md 
+   66  rm lindsaytemp.md 
+   67  ls
+   68  touch newfile.md
+   69  ls
+   70  cd ..
+   71  ls
+   72  pwd
+   73  rm temp/
+   74  rm -r temp/
+   75  ls
+   76  pwd
+   77  ls
+   78  clear
+   79  pwd
+   80  man rm
+   81  man ls
+   82  man
+   83  man copy
+   84  copy
+   85  man cp
+   86  pwd
+   87  cd desktop
+   88  cd Desktop
+   89  ls
+   90  cd sei_pumpkin_smashers/
+   91  cd homework/
+   92  ls
+   93  git clone https://github.com/LindZCoding/command-line-murder-mystery.git
+   94  cd command-line-murder-mystery/
+   95  ls
+   96  cat instructions 
+   97  cd ..
+   98  pwd
+   99  cd command-line-murder-mystery/
+  100  ls
+  101  pwd
+  102  cd mystery/
+  103  ls
+  104  open crimescene 
+  105  grep CLUE
+  106  cat crimescene | grep CLUE
+  107  cat hint1
+  108  pwd
+  109  cd ..
+  110  pwd
+  111  cat hin1
+  112  cat hint1
+  113  head -n 20 people
+  114  head -n 20 people mystery/
+  115  pwd
+  116  cd mystery/
+  117  ls
+  118  head -n 20 people 
+  119  cat memberships/
+  120  pwd
+  121  ls
+  122  cd memberships/
+  123  ls
+  124  cd ..
+  125  pwd
+  126  ls
+  127  cd streets/
+  128  ls
+  129  cd ..
+  130  pwd
+  131  cd interviews/
+  132  ls
+  133  cd..
+  134  cd ..
+  135  pwd
+  136  ls
+  137  cd ..
+  138  pwd
+  139  ls
+  140  cat hint2
+  141  cat hint3
+  142  ls
+  143  cd mystery/
+  144  ls
+  145  cat people 
+  146  pwd
+  147  cat people | frep Annabel
+  148  cat people | grep Annabel
+  149  ls
+  150  cat crimescene | grep CLUE
+  151  cat hint4
+  152  cd ..
+  153  ls
+  154  clear
+  155  ls
+  156  cat instructions 
+  157  cd mystery/
+  158  ls
+  159  cat crimescene | grep CLUE
+  160  head -n 20 people 
+  161  cd ..
+  162  cat hint1
+  163  cat hint2
+  164  cat hint3
+  165  cd mystery/
+  166  cat people | grep Annabel
+  167  head -n 20 memberships/
+  168  cd ..
+  169  pwd
+  170  ls
+  171  cd mystery/
+  172  ls
+  173  cat memberships/
+  174  cd memberships/
+  175  ls
+  176  cat a
+  177  cat AAA
+  178  pwd
+  179  cat AAA | grep Annabel
+  180  cat Delta SkyMiles | grep Annabel
+  181  cd ..
+  182  cat hint4
+  183  pwd
+  184  cd ..
+  185  cat hint4
+  186  cat hint5
+  187  clear
+  188  cd ..
+  189  pwd
+  190  ls
+  191  cd command-line-murder-mystery/
+  192  ls
+  193  cat instructions 
+  194  cd mystery/
+  195  ls
+  196  cd interviews/
+  197  ls
+  198  cat interview-000296
+  199  ls
+  200  cd ..
+  201  ls
+  202  cat crimescene | grep CLUE
+  203  cat people | grep Annabel
+  204  cd ..
+  205  ls
+  206  cat hint5
+  207  head -n 173 streets/Mattapan_Street | tail -n 1
+  208  ls
+  209  cd mystery/
+  210  ls
+  211  cd streets/
+  212  cd ..
+  213  ls
+  214  cat streets/
+  215  cd streets/
+  216  ls
+  217  cd Mattapan_Street
+  218  cat Mattapan_Street 
+  219  ls
+  220  cat Mattapan_Street | head -n 173 streets/Mattapan_Street | tail -n 1
+  221  head -n 173 streets/Mattapan_Street | tail -n 1
+  222  ls
+  223  cd ..
+  224  head -n 173 streets/Mattapan_Street | tail -n 1
+  225  ls
+  226  cd interviews/
+  227  cat interview-9437737
+  228  ls
+  229  cd ..
+  230  head -n 40 streets/Hart_Place | tail -n 
+  231  head -n 40 streets/Hart_Place | tail -n 1
+  232  ls
+  233  cd interviews/
+  234  cat interview-47246024
+  235  cd ..
+  236  head -n 179 streets/Buckingham_Place | tail -n 1
+  237  cd interviews/
+  238  cat interview-699607
+  239  cd ..
+  240  ls
+  241  cat vehicles 
+  242  cat vehicles | grep Honda
+  243  ls
+  244  cat vehicles | grep Blue Honda
+  245  cat vehicles | grep Make: Honda Color: Blue
+  246  cat vehicles | grep L337
+  247  clear
+  248  ls
+  249  cd interviews/
+  250  cat interview-699607
+  251  ls
+  252  cd ..
+  253  ls
+  254  cat vehicles | grep L337
+  255  cat vehicles | L337 Honda
+  256  cat vehicles | grep L337 Honda
+  257  cat vehicles | grep L337ZR9
+  258  pwd
+  259  ls
+  260  cat vehicles | grep Honda
+  261  cat vehicles 
+  262  ls
+  263  head -n vehicles Honda
+  264  head -n 1 Honda
+  265  head -n 1 vehicles 
+  266  ls
+  267  cat crimescene | grep CLUE
+  268  cat vehicles | grep Make: Honda
+  269  cat vehicles | grep 6'1
+  270  cat vehicles | grep License Plate L337
+  271  cat vehicles | grep License_Plate
+  272  ls
+  273  cat vehicles | grep Blue
+  274  grep Honda
+  275  ls
+  276  clear
+  277  ls
+  278  cat interviews/
+  279  cat vehicles | grep -A 5 L337
+  280  ls
+  281  cd memberships/
+  282  ls
+  283  cat AAA
+  284  cat AAA | grep Jeremy
+  285  cat AAA | grep Heather
+  286  cat AAA | grep Joe
+  287  cat AAA | Jacqui
+  288  cat AAA | grep Jacqui
+  289  cat Delta_SkyMiles | grep Joe
+  290  cat Delta_SkyMiles | grep Jeremt
+  291  cat Delta_SkyMiles | grep Jeremy
+  292  history
+  293  ls
+  294  cd ..
+  295  ls
+  296  cd ..
+  297  ls
+  298  pwd
+  299  cat > solution.txt
+  300  touch solution.txt
+  301  ls
+  302  history > solution.txt 
+  Jeremy Bowers is the killer
