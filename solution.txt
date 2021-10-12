@@ -1,0 +1,147 @@
+308  ls
+  309  cd Documents/
+  310  ls
+  311  cd Deliverables/
+  312  ls
+  313  cd command-line-murder-mystery/
+  314  ls
+  315  cat README.md 
+  316  cd ..
+  317  ls
+  318  cd command-line-murder-mystery/
+  319  ls
+  320  cd mystery
+  321  ls
+  322  cd crimescene
+  323  cat crimescene
+  324  grep "CLUE" crimescene
+  325  cd ..
+  326  ls
+  327  cd mystery
+  328  ls
+  329  cd people
+  330  cat people
+  331  grep "Annabel" people
+  332  cd ..
+  333  ls
+  334  cd mystery
+  335  ls
+  336  cat streets
+  337  cd streets
+  338  ls
+  339  head -n 40 streets/Hart_Place |tail -n 1
+  340  cd ..
+  341  ls
+  342  cd interviews
+  343  ls
+  344  cd ..
+  345  ls
+  346  head -n 40 streets/Harts_Place | tail -n 1
+  347  cd streets
+  348  ls
+  349  head -n 40 streets/Hart_Place | tail -n 1
+  350  cd ..
+  351  ls
+  352  cd people
+  353  cat people
+  354  head -n 40 streets/Hart_Place | tail -n 1
+  355  ls
+  356  cat people
+  357  head -n 173 streets/Mattapan_Street | tail -n 1
+  358  head -n 179 streets/Buckingham_Place | tail -n 1
+  359  head -n 176 streets/Haley_Street | tail -n 1
+  360  cd ..
+  361  ls
+  362  cd mystery
+  363  ls
+  364  cd interviews
+  365  ls
+  366  cat interview-47246024
+  367  cat interview-9437737
+  368  cat interview-699607
+  369  cat interview-871877
+  370  cd ..
+  371  ls
+  372  cd vehicles
+  373  cat vehicles
+  374  grep -A 5 "L337" mystery
+  375  grep -A 5 "L337" vehicles
+  376  la
+  377  ls
+  378  cat memberships
+  379  cd memberships
+  380  ls
+  381  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+  382  ls
+  383  cd ..
+  384  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+  385  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  386  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  387  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  388  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Aron Pilhofer"
+  389  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Heather Billings"
+  390  cat AAA United_MileagePlus Terminal_City_Library | grep "Heather Billings"
+  391  ls
+  392  cd memberships
+  393  ls
+  394  cd AAA
+  395  cat AAA
+  396  grep "Erika Owens" memberships
+  397  grep "Joe Germuska" memberships
+  398  grep "Jeremy Bowers" memberships
+  399  grep "Jacqui Maher" membership
+  400  grep "Jacqui Maher" AAA
+  401  grep "Aron Pilhofer" membership
+  402  grep "Heather Billings" membership
+  403  grep "Erika" membership
+  404  grep "Joe" membership
+  405  grep "Stephanie" membership
+  406  cd ..
+  407  ls
+  408  cd memberships
+  409  ls
+  410  cat AAA AAdvantage United_MileagePlus | grep "Erika Owens"
+  411  cat AAA United_MileagePlus | grep "Erika Owens"
+  412  cd AAA
+  413  cat AAA
+  414  cat AAA United_MileagePlus | grep "Erika Owens"
+  415  cd ..
+  416  ls
+  417* cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens
+  418  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep -c  "Erika Owens"
+  419  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep -c  "Joe Germuska"
+  420  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep -c  "Jeremy Bowers"
+  421  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep -c  "Jacqui Maher"
+  422* cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep -c Jacqui Maher
+  423  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep Erika Owens
+  424  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep Joe Germuska
+  425  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep Jeremy Bowers
+  426  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" membership
+  427  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens" membership
+  428  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska" membership
+  429  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Joe Jaqui Maher" membership
+  430  ls
+  431  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska" memberships
+  432  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher" memberships
+  433  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens" memberships
+  434  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" memberships
+  435  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  436  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  437  cat AAA United_MileagePlus | grep "Erika Owens"
+  438  cat AAA United_MileagePlus | grep "Aron Pilhofer"
+  439  cat AAA United_MileagePlus | grep "Heather Billings"
+  440  cat AAA United_MileagePlus | grep "Joe Germuska"
+  441  cat AAA United_MileagePlus | grep "Jeremy Bowers"
+  442  cat AAA United_MileagePlus | grep "Jacqui Maher"
+  443  cat AAA | grep "Erika Owens"
+  444  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" 
+  445  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" *
+  446  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep -r  "Jeremy Bowers" *
+  447  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep -r  "Erika Owens" *
+  448  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep -r  "Joe Germuska" *
+  449* cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep -r  "
+  450  cat AAA United_MileagePlus Terminal_City_Library Museum_of_Bash_History | grep -r  "Jeremy Bowers" *
+  451  history
+Kellys-Air:mystery kellylarrea$ 
+
+The murderer is Jeremy Bowers
