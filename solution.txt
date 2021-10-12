@@ -1,0 +1,35 @@
+Jeremy Bowers
+
+cd Documents/general-assembly/deliverables/unit1/command-line-murder-mystery/
+  435  ls
+  436  cd mystery/
+  437  grep "CLUE" crimescene
+  438  grep "Annabel" people
+  439  head people
+  440  head -n 26 streets/Hart_Place | tail -n -1
+  441  head -n 40 streets/Hart_Place | tail -n -1
+  442  head -n 173 streets/Mattapan_Street | tail -n -1
+  443  head -n 179 streets/Buckingham_Place | tail -n -1
+  444  head -n 176 streets/Haley_Street | tail -n -1
+  445  cat interviews/interview-47246024 interviews/interview-9437737 interviews/interview-699607 interviews/interview-871877
+  446  head vehicles
+  447  grep -A 4 "L337" | grep -A 3 -B 1 "Honda" | grep -A 2 -B 2 "Blue"
+  448  grep -A 4 "L337"
+  449  grep -A 4 "L337" vehicles | grep -A 3 -B 1 "Honda" | grep -A 2 -B 2 "Blue"
+  450  ls
+  451  grep -B 1 "6" suspects
+  452  cat suspects
+  453  grep -A 4 "L337" vehicles | grep -A 3 -B 1 "Honda" | grep -A 2 -B 2 "Blue" | cat > suspects
+  454  cat suspects
+  455  grep -B 1 "6" suspects
+  456  cat ../hint6
+  457  cat ../hint7
+  458  cat ../hint8
+  459  ls
+  460  cd memberships/
+  461  ls
+  462  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Erika Owens"
+  463  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  464  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  465  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jacqui Maher"
+  466  history
