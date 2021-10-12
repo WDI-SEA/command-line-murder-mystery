@@ -1,0 +1,132 @@
+  126  cat instructions
+  127  cd mystery
+  128  ls
+  129  cat crimescene | gret CLUE
+  130  cat solution.txt
+  131  cd ..
+  132  ls
+  133  cat solution.txt 
+  134  clear
+  135  history clear
+  136  clear history
+  137  history
+  138  clear
+  139  ls
+  140  cd mystery
+  141  ls
+  142  cat crimescent | grep CLUE
+  143  cat crimescene | grep CLUE
+  144  ls
+  145  cat people | grep "Annabel"
+  146  ls
+  147  cd streets
+  148  ls
+  149  man head
+  150  man tail
+  151  man grep
+  152  head -n 40 streets | trail -n 1
+  153  head -n 40 | trail -n 1 streets
+  154  man head
+  155  head -n 40 streets
+  156  ls
+  157  head -n 50
+  158  head streets -n 30
+  159  head -n 20 streets
+  160  head -n 20 Jersey_street
+  161  head -n 20 Jersey_street | tail -n 1
+  162  clear
+  163  ls
+  164  cd ..
+  165  ls
+  166  cat people | grep "Annabel"
+  167  cd streets
+  168  head -n 40 streets | tail -n 1
+  169  head -n 40 Hart_Place | tail -n 1
+  170  cd ..
+  171  ls
+  172  cd interviews
+  173  ls
+  174  cat interview-47246024 
+  175  cd ..
+  176  ls
+  177  cd streets/
+  178  head -n 179 Buckingham_Place | tail -n 1
+  179  ls
+  180  cd ..
+  181  cd interviews/
+  182  cat interview-699607 
+  183  cd ..
+  184  ls
+  185  cat vehicles | grep -A 5 "L337"
+  186  cd ..
+  187  ls
+  188  cd mystery
+  189  ls
+  190  cd memberships
+  191  ls
+  192  cat AAA 
+  193  cat AAA | grep "Jaq"
+  194  clear
+  195  ls
+  196  cd ..
+  197  ls
+  198  cd ..
+  199  ls
+  200  cat cheatsheet.md
+  201  ls
+  202  cd mystery
+  203  ls
+  204  cd vehicles
+  205  ls
+  206  cd vehicles 
+  207  cat vehicles 
+  208  clear
+  209  cat vehicles | grep -A 5 "Honda"
+  210  cat vehicles | grep -A 5 "L337"
+  211  ls
+  212  cat people | gret Annabel
+  213  cat people | grep Annabel
+  214  cd streets
+  215  head -n 40 Hart_Place | tail -n 1
+  216  head -n 173 Mattapan_Street | tail -n 1
+  217  head -n 179 Buckingham_Place | tail -n 1
+  218  head -n 176 Haley_Street 
+  219  head -n 176 Haley_Street | tail -n 1
+  220  clear
+  221  ls
+  222  cd ..
+  223  ls
+  224  clear
+  225  ls
+  226  cd interviews/
+  227  cat interview-47246024 
+  228  cat interview-699607 
+  229  cat interview-9437737
+  230  cat interview-871877 
+  231  cd ..
+  232  ls
+  233  cd vehicles
+  234  cat vehicles | grep -A 5 "L337"
+  235  cd ..
+  236  clear
+  237  ls
+  238  cd mystery
+  239  ls
+  240  cd memberships/
+  241  ls
+  242  cat AAA | grep "Mike"
+  243  cat AAA | grep "Erika"
+  244  cat AAA | grep "Joe"
+  245  cat AAA | grep "Jeremy"
+  246  cat AAA | grep "Jacqui"
+  247  cd ..
+  248  cd memberships/
+  249  cat Delta_SkyMiles | grep "Mike"
+  250  cat Delta_SkyMiles | grep "Joe"
+  251  cat Delta_SkyMiles | grep "Jeremy"
+  252  cat Museum_of_Bash_History | grep "Mike"
+  253  cat Museum_of_Bash_History | grep "Jeremy"
+  254  cat Terminal_City_Library | grep "Mike"
+  255  cat Terminal_City_Library | grep "Jeremy"
+
+KILLER - Jeremy Bowers
