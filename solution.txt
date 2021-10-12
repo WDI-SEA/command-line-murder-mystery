@@ -1,0 +1,277 @@
+ KILLER: JEREMY BOWERS
+ 
+ 
+ COMMANDS:
+  712  cat people | sort
+  713  grep -nr Australian
+  714  cat * -nr Australian
+  715  cat * | grep -nr Australian
+  716  grep -nr Australian
+  717  ls
+  718  cat people | grep -nr Australian
+  719  cat crimescene | grep -nr Australian
+  720  cat crimescene | grep -nr ATM
+  721  cat crimescene | grep -nr Security Camera
+  722  cat crimescene | grep -nr "Security Camera"
+  723  cat crimescene | grep -nrf "Security Camera"
+  724  cat crimescene | grep -nrf `Security Camera`
+  725  cat crimescene | grep -nr -F Security Camera`
+  726  cat crimescene | grep -nr -F "Security Camera"
+  727  cat * | grep -nr -F "Security Camera"
+  728  ls
+  729  cat people | grep -nr -F "Annabel"
+  730  cat people | grep -nr -F "Annabel" >> solutions.txt
+  731  cat people >> grep -nr -F "Annabel" >> solutions.txt
+  732  cat people | grep -nr -F "Annabel" >> solutions.txt
+  733  cat people | grep -nr -F --exclude=solutions.txt "Annabel" > solutions.txt
+  734  more solutions.txt 
+  735  cat people | grep -nr -F --exclude=solutions.txt "Annabel" > solutions.txt
+  736  grep -nr --no-ignore-case -F "CLUE"
+  737  cat people | grep -nr -F -A 10 -B 10 "Annabel"
+  738  cat people | grep -nr -F -A 5 -B 5 "Annabel"
+  739  ls
+  740  cd memberships/
+  741  ls
+  742  cat * | grep -nr -F -A 5 -B 5 "Annabel"
+  743  cat * | grep -nr -F -A 5 -B 5 "Annabel" | sort
+  744  cat * | sort | grep -nr -F -A 5 -B 5 "Annabel" | 
+  745  cat * | sort | grep -nr -F -A 5 -B 5 "Annabel" 
+  746  cat * | sort | grep -nr -F -A 5 -B 5 "New Zealand" 
+  747* 
+  748  cat * | sort | grep -nr -F -A 5 -B 5 "New Zealand" 
+  749  cd ..
+  750  cat * | sort | grep -nr -F -A 5 -B 5 "New Zealand" 
+  751  cat * | sort | grep -nr -F -A 5 -B 5 "Annabel Fuglsang" 
+  752  ls
+  753  more grep 
+  754  cat grep
+  755  cat > grep
+  756  ls
+  757  rm grep 
+  758  ls
+  759  cat * | grep -nr -F -A 5 -B 5 "Annabel" | sort
+  760  cat * | sort | grep -nr -F -A 5 -B 5 "Annabel"
+  761  cat * | sort | grep -nr -F -A 5 -B 5 "Sun"
+  762  grep -nr --no-ignore-case -F "CLUE"
+  763  grep -nr --no-ignore-case -F -A 5 -B 5 "CLUE"
+  764  cat * | sort | grep -nr -F -A 5 -B 5 "Annabel"
+  765  cat * | sort | grep -nr -F -A 5 -B 5 "luwasegun"
+  766  cat * | sort | grep -nr -F -A 5 -B 5 "Oluwasegun"
+  767  cat * | sort | grep -nR -F -A 5 -B 5 "Oluwasegun"
+  768  cd ..
+  769  ls
+  770  cd mystery/
+  771  ls
+  772  cd interviews/
+  773  ls
+  774  cat * | sort | grep -nR -F -A 5 -B 5 "Oluwasegun"
+  775  cat * | sort | grep -nr -F -A 5 -B 5 "Oluwasegun"
+  776  cat * | sort | grep -nr -F -A 5 -B 5 "Church"
+  777  cat * | sort | grep -nr -F -A 10 -B 10 "Church" 
+  778  cd ..
+  779  ls
+  780  cat * | sort | grep -nr -F -A 10 -B 10 L337 
+  781  cat * | sort | grep -nr -F -A 10 -B 10 L337 Annabel
+  782  cat * | sort | grep -nr -F -A 10 -B 10 -e L337 -e Annabel
+  783  grep 'L337\|Annabel' vehicles 
+  784  grep -A 10 -B 10 -nr 'L337\|Annabel' vehicles 
+  785  cd ..
+  786  ls
+  787  cd mystery/
+  788  ls
+  789  cd streets/
+  790  ls
+  791  grep -A 10 -B 10 -nr 'L337' vehicles 
+  792* cat * | grep -A 10 -B 10 -nr '' 
+  793  head 20 Abbot_Street 
+  794  head -n 20 Acton_Street 
+  795  cd ..
+  796  cd interviews/
+  797  grep 'street\|Annabel' vehicles 
+  798  grep 'street\|Annabel' *
+  799  grep *  'street\|Annabel' 
+  800  cat * | grep -nr -A 10 -B 10 'street\|Annabel' 
+  801  cat * | grep -nr -A 10 -B 10 '|Annabel' 
+  802  cat * | grep -nr -A 10 -B 10 'Annabel' 
+  803  cat * | sort | grep -nr -F -A 5 -B 5 "Annabel"
+  804  cat * | sort | grep -nr -F -A 5 -B 5 "Sun"
+  805  cat * | sort | grep -nr -F -A 5 -B 5 "Jacqui Maher"
+  806  cat * | sort | grep -nr -F -A 5 -B 5 "Miranda Mulligan"
+  807  cat * | sort | grep -nr -F -A 5 -B 5 "Aron Pilhofer"
+  808  cat * | sort | grep -nr -F -A 5 -B 5 "Erika Owens"
+  809  cat * | sort | grep -nr -F -A 5 -B 5 "Al Shaw"
+  810  cat * | sort | grep -nr -F -A 5 -B 5 "Brian Boyer"
+  811  cd ..
+  812  ls
+  813  cd streets/
+  814  head -n 173 Mattapan_Street | tail -n 1
+  815  cat * | sort | grep -nr -F -A 5 -B 5 "Mattapan"
+  816  cat * | sort | grep -nr -A 5 -B 5 "Mattapan"
+  817  ls
+  818  cat Mattapan_Street 
+  819  cat * | sort | grep -nr -A 5 -B 5 "INTERVIEW"
+  820  cat * | sort | grep -nr -A 1 -B 1 "INTERVIEW" >> ~/general_assembly/02_homework/command-line-murder-mystery/solution.txt 
+  821  pwd
+  822  cat ../solutions.txt 
+  823  cat * | sort | grep -nr -A 1 -B 1 "INTERVIEW" >> ~/general_assembly/02_homework/command-line-murder-mystery/solution.txt 
+  824  cat * | sort | grep -nr "INTERVIEW" >> ~/general_assembly/02_homework/command-line-murder-mystery/solution.txt 
+  825  ls
+  826  cd ..
+  827  ls
+  828  cd mystery/
+  829  ls
+  830  cd interviews/
+  831  ls
+  832  cat interview-628618 
+  833  cat interview-29316965 
+  834  cat interview-699607 
+  835  cat interview-9437737 
+  836  cat * | sort | grep -nr -A 5 -B 5 "cafe"
+  837  cat interview-9437737
+  838  cat interview-56892213 
+  839  cat interview-3804339 
+  840  cat interview-862173 
+  841  cat interview-1767435 
+  842  cat interview-29741223 
+  843  cat interview-871877 
+  844  cat interview-476744 
+  845  cat interview-79667499 
+  846  cat interview-82705993 
+  847  cat interview-9346061 
+  848  cat interview-290346 
+  849  cat interview-9620713 
+  850  cat interview-737609 
+  851  cat interview-5455315 
+  852  cat interview-706620 
+  853  cat interview-174898 
+  854  cat interview-55435298 
+  855  cat interview-904020 
+  856  clear
+  857  cat interview-30259493 
+  858  cat interview-47246024 
+  859  cat interview-141030 
+  860  cat interview-699607 
+  861  cd ...
+  862  ls
+  863  cd ..
+  864  ls
+  865  cat vehicles | grep -A 5 -B 5 -rn "Waite"
+  866  cat vehicles | grep -A 5 -B 5 -rn "Miranda"
+  867  cat vehicles | grep -A 5 -B 5 -rn "Bostock"
+  868  cat vehicles | grep -A 5 -B 5 -rn "Dunstable"
+  869  cat vehicles | grep -A 5 -B 5 -rn "fox"
+  870  cat vehicles | grep -A 5 -B 5 -rn "Miranda"
+  871  cat vehicles | grep -A 5 -B 5 -rn "Bowers"
+  872  ls
+  873  cat crimescene | grep -A 5 -B 5 -rn "Bowers"
+  874  ls
+  875  cd interviews/
+  876  cat crimescene | grep -A 5 -B 5 -rn "Bowers"
+  877  cat interview-* | grep -A 5 -B 5 -rn "Bowers"
+  878  cat * | grep -A 5 -B 5 -rn "Bowers"
+  879  cat * | grep -A 5 -B 5 -rn "Jeremy"
+  880  cat * | grep -A 5 -B 5 -rn "trip"
+  881  cat * | grep -A 5 -B 5 -rn "Boyer"
+  882  cd ..
+  883  ls
+  884  cat people | grep -A 5 -B 5 -rn "Boyer"
+  885  cat people | grep -A 5 -B 5 -rn "L33&**9"
+  886  cat people | grep -A 5 -B 5 -rn "L337**9"
+  887  cat vehicles |
+  888  cat vehicles | grep -A 5 -B 5 -rn "L337**9"
+  889  cat vehicles | grep -A 5 -B 5 -rni "L337**9"
+  890  cat vehicles | grep -i "L337**9"
+  891  cat vehicles | grep -A 5 -B 5 -rni "L337..9"
+  892  ls
+  893  grep memberships/
+  894  cd memberships/
+  895  ls
+  896  vim 1.txt 
+  897  vim 2.txt 
+  898  cat * | grep "Bowers" | wc -l
+  899  cat * | grep "Bowers" |
+  900  cat * | grep "Bowers" 
+  901  cat * | grep -nc "Bowers" 
+  902  cat * | grep -nr "Bowers" 
+  903  cat * | grep -nr "Miranda" 
+  904  cat * | grep -nr "Miranda" | wc -l
+  905  cd ..
+  906  grep -r "Bower" 
+  907  cat * | grep -nr "shots" 
+  908  cat * | grep -nr "New Zealand" 
+  909  cat * | grep -nr "blond" 
+  910  cat * | grep -nr "Annabel" 
+  911  cat * | grep -nc "Bowers" 
+  912  cat interviews memberships streets | grep -nc "Bowers" 
+  913  cat interviews memberships streets | grep "Bowers"
+  914  grep -r "Bower" 
+  915  ls
+  916  grep -r "Bower" 
+  917  grep -r "Keefe" 
+  918  cat interviews memberships streets | grep -nc "Bostock" 
+  919  cat interviews memberships streets | grep -nc "disguise" 
+  920  cat * | grep -nc "disguise" 
+  921  cat * | grep -nc "Culbert" 
+  922  cat * | grep -nr "Culbert" 
+  923* cat * | grep" 
+  924  cat * | grep -nr "interview-628618" 
+  925  cat * | grep -nr interview-628618 
+  926  cd interviews/
+  927  cat interview-628618 
+  928  cat interview-6933068 
+  929  cat * | grep -nr "2:04" 
+  930  cat * | grep -nr "shooter" 
+  931  cat * | grep -nr "witness" 
+  932  cat * | grep -C 10 -nr "71226767" 
+  933  cat * | grep -c 10 -nr "71226767" 
+  934  cat * | grep -A 10 -B 10 -nr "71226767" 
+  935  cat * | grep -nr "71226767" 
+  936  cd ..
+  937  cat * | grep -A 10 -B 10 -nr "71226767" 
+  938  cat interview-7122677
+  939  cd interviews/
+  940  cat interview-7122677
+  941  cat interview-71226767 
+  942  cat interview-54619323 
+  943  ls 
+  944  ls -al
+  945  cat .interview-125721
+  946  cat interview-125271 
+  947  cat * | grep -A 10 -B 10 -nr "71226767" 
+  948  cat * | grep -nr "witness" 
+  949  cat * | grep -nr "5719404"
+  950  cat interview-5739404 
+  951  cat interview-5739404 | grep -A 5 -B 10 "witness"
+  952  cat interview-5739404 | grep -C 10 "witness"
+  953  cat interview-5739404 | grep -A 5 -B 10 "Bower"
+  954  cat * | grep -nr "Bower" 
+  955  cat * | grep -nr "Bowers" 
+  956  cd ..
+  957  cat * | grep -nr "Bowers" 
+  958  cat * | grep -A 10 -B 10 -nr "Bowers" 
+  959  cat * | grep -A 10 -B 10 -nr "wallet" 
+  960  cat * | grep -A 10 -B 10 -nr "barista" 
+  961  cat people | grep -A 5 -B 5 -rn "L337**9"
+  962  cat people | grep  "L337**9"
+  963  ls
+  964  cat people | grep  "L337..9"
+  965* cat people | grep -A 5 -B 5 -rn "L337..9"In
+  966  cat * | grep -A 10 -B 10 -nr "Bowers" 
+  967  ls
+  968  cd interviews/
+  969  cat * | grep -A 10 -B 10 -nr "Bowers" 
+  970  ls
+  971  cat *interview* | grep -A 10 -B 10 -nr "Bowers" 
+  972  cd ..
+  973  ls
+  974  cd streets/
+  975  cat *interview* | grep -A 10 -B 10 -nr "Bowers" 
+  976  cat * | grep -A 10 -B 10 -nr "Bowers" 
+  977  cat * | grep -A 10 -B 10 -nr "Bower" 
+  978  cat *interview* | grep -A 10 -B 10 -nr "Jeremy" 
+  979  ls
+  980  cat Dunstable_Road 
+  981  cd ..
+  982  ls
+  983  cat people | grep -A 10 -B 10 -nr "Jeremy" 
+  984  cat people | grep -A 5 -B 5 -rn "L337..9"

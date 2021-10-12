@@ -1,0 +1,23 @@
+crimescene:11002:CLUE: Questioned the barista at the local coffee shop. He said a person left right before they heard the shots. The name on their latte was Annabel, they had blond spiky hair and a New Zealand accent.
+people:278:Annabel Sun	F	26	Hart Place, line 40
+people:1395:Oluwasegun Annabel	M	37	Mattapan Street, line 173
+people:1670:Annabel Church	F	38	Buckingham Place, line 179
+people:1760:Annabel Fuglsang	M	40	Haley Street, line 176
+vehicles:19741:Owner: Oluwasegun Annabel
+vehicles:22681:Owner: Annabel Church
+vehicles:22737:Owner: Annabel Sun
+vehicles:23367:Owner: Annabel Fuglsang
+memberships/Rotary_Club:64:Annabel Sun
+memberships/Rotary_Club:872:Annabel Fuglsang
+memberships/Rotary_Club:1262:Annabel Church
+memberships/Museum_of_Bash_History:360:Annabel Church
+memberships/Museum_of_Bash_History:1218:Oluwasegun Annabel
+memberships/AAA:176:Annabel Church
+memberships/newfile.txt:100:Annabel Church
+memberships/museum.txt:109:Annabel Church
+memberships/museum.txt:925:Oluwasegun Annabel
+memberships/AAdvantage:186:Annabel Fuglsang
+memberships/AAdvantage:976:Annabel Church
+memberships/REI:1189:Annabel Church
+memberships/Fitness_Galaxy:601:Oluwasegun Annabel
+memberships/Fitness_Galaxy:1215:Annabel Church
