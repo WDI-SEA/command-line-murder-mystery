@@ -1,0 +1,15 @@
+Galyvers-MacBook-Pro:command-line-murder-mystery galyverasi$ ls
+LICENSE		README.md	cheatsheet.pdf	hint2		hint4		hint6		hint8		mystery
+LICENSE.txt	cheatsheet.md	hint1		hint3		hint5		hint7		instructions
+Galyvers-MacBook-Pro:command-line-murder-mystery galyverasi$ cd memberships/
+-bash: cd: memberships/: No such file or directory
+Galyvers-MacBook-Pro:command-line-murder-mystery galyverasi$ cd mystery/
+Galyvers-MacBook-Pro:mystery galyverasi$ ls
+crimescene	interviews	memberships	people		streets		vehicles
+Galyvers-MacBook-Pro:mystery galyverasi$ cd memberships/
+Galyvers-MacBook-Pro:memberships galyverasi$ cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+Jeremy Bowers
+Jeremy Bowers
+Jeremy Bowers
+Jeremy Bowers
+Galyvers-MacBook-Pro:memberships galyverasi$ 
