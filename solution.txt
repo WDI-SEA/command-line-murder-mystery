@@ -1,0 +1,55 @@
+   90  cd desktop
+   91  ls
+   92  cd sei\ pumpkin\ smashers
+   93  cd homework
+   94  ls
+   95  cd command-line-murder-mystery
+   96  ls
+   97  cd mystery
+   98  ls
+   99  grep "CLUE" crimescene
+  100  pwd
+  101  open people
+  102  grep "annabel" people
+  103  grep "Annabel" people
+  104  ls
+  105  head -n 173 streets/Mattapan_Street
+  106  cat INTERVIEW #9437737
+  107  ls
+  108  cd interviews
+  109  cat INTERVIEW #9437737
+  110  ls
+  111  cat interview-9437737
+  112  cd ..
+  113  ls
+  114  head -n 40 streets/Hart_Place | tail -n 1
+  115  cat interview-47246024
+  116  cd..
+  117  cd interviews
+  118  cat interview-47246024
+  119  cd ..
+  120  head -n 179 streets/Buckingham_Place | tail -n 1
+  121  cd interviews
+  122  cat interview-699607
+  123  ls
+  124  cd ..
+  125  head -n 176 streets/Haley_Street | tail -n 1
+  126  cd interviews
+  127  cat interview-871877
+  128  pwd
+  129  cd ..
+  130  ls
+  131  grep "Honda" vehicles
+  132  grep -A 5 "L337" mystery/vehicles
+  133  grep -A 5 "L337" vehicles
+  134  pwd
+  135  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Erika Owens"
+  136  ls
+  137  cd memberships
+  138  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Erika Owens"
+  139  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Aron Pilhofer"
+  140  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
+  141  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jacqui Maher"
+  142  history
+
+Jeremey Bowers
