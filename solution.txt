@@ -1,0 +1,12 @@
+cd mystery/
+cd crimescene
+ls
+cat crimescene | grep CLUE
+cat people | grep Annabel
+head -n 40 streets/Buckingham_Place | tail -n 1
+cat interviews/interview-699607
+cat vehicles | grep -A 5 "L337"
+cd memberships
+cat AAA Delta_SkyMiles library.txt | grep "Jeremy Bowers"
+
+The kill is Jeremy Bowers!
