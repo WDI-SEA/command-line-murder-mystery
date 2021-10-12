@@ -1,0 +1,383 @@
+mkdir Unit1Deliverables
+  173  cd Unit1Deliverables/
+  174  git clone https://github.com/steven43533/command-line-murder-mystery.git
+  175  ls
+  176  open command-line-murder-mystery/
+  177  cd command-line-murder-mystery/
+  178  ls
+  179  cat instructions 
+  180  cat cheatsheet.md
+  181  cd mystery/
+  182  ls
+  183  pwd
+  184  history
+  185  cd ..
+  186  pwd
+  187  ls
+  188  touch solution.txt
+  189  ls
+  190  cat instructions 
+  191  pwd
+  192  ls
+  193  cd mystery
+  194  ls
+  195  cd crimescene
+  196  cat crimescene 
+  197  ls
+  198  pwd
+  199  cat crimescene 
+  200  cat crimescene | grep CLUE
+  201  cat crimescene 
+  202  cat crimescene | grep CLUE
+  203  pwd
+  204  ls
+  205  cd ..
+  206  ls
+  207  cat instructions 
+  208  ls
+  209  cat hint1
+  210  head -n 20 people
+  211  nano cheatsheet.md
+  212  cat hint2
+  213  cat hint3
+  214  cat instructions 
+  215  cat solution
+  216  ls
+  217  cat solution.txt 
+  218  cd mystery
+  219  ls
+  220  crimescene | grep CLUE
+  221  cat crimescene | grep CLUE
+  222  ls
+  223  cat people
+  224  cat people | grep Annabel
+  225  ls
+  226  cat memberships/
+  227  cd memberships/
+  228  ls
+  229  pwd
+  230  cd Delta_SkyMiles 
+  231  cat Delta_SkyMiles 
+  232  cat Delta_SkyMiles | grep Annabel
+  233  cd ..
+  234  ls
+  235  pwd
+  236  cd memberships
+  237  kls
+  238  ls
+  239  cat AAA
+  240  cat AAA | grep Annabel
+  241  cd ..
+  242  ls
+  243  cd memberships/
+  244  ls
+  245  cat Museum_of_Bash_History | grep Annabel
+  246  cd ..
+  247  ls
+  248  cd people 
+  249  cd people 
+  250  cat people 
+  251  cat people | grep Annabel
+  252  cd ..
+  253  ls
+  254  cat hint4
+  255  cat hint5
+  256  pwd
+  257  ls
+  258  cd mystery
+  259  ls
+  260  cd interviews
+  261  ls
+  262  cd streets
+  263  cat streets
+  264  cat street
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd streets
+  269  ls
+  270  cd Buckingham_Place 
+  271  cat Buckingham_Place 
+  272  cat Buckingham_Place | grep INTERVIEW
+  273  cd ..
+  274  ls
+  275  cat interviews | grep #699607
+  276  cd interviews/
+  277  ls
+  278  cat interview-699607
+  279  ls
+  280  cd ..
+  281  ls
+  282  cd vehicles 
+  283  cat vehicles | grep L337
+  284  ls
+  285  cat vehichles
+  286  cat vehicles 
+  287  pwd
+  288  cd ..
+  289  cat hint4
+  290  cat hint5
+  291  cat hint6
+  292  ls
+  293  cd mystery/
+  294  ls
+  295  cd vehicles 
+  296  cat vehicles 
+  297  ls
+  298  cd streets
+  299  cat streets
+  300  ls
+  301  head -n 173 streets/Mattapan_Street | tail -n 1
+  302  cd Buckingham_Place 
+  303  cat Buckingham_Place 
+  304  ls
+  305  cd ..
+  306  ls
+  307  cd interviews/
+  308  ls
+  309  cd interview-699607
+  310  cat interview-699607
+  311  ls
+  312  cat interview-699607
+  313  cd ..
+  314  ls
+  315  cd vehicles 
+  316  cat vehicles 
+  317  cat vehicles | grep blue | grep honda | grep L337
+  318  grep "blue" "honda" "L337"
+  319  grep "blue" "honda" "L337" vehicles 
+  320  pwd
+  321  grep -A "blue" vehicles 
+  322  grep -A 10  "blue" vehicles 
+  323  grep -A 10 "blue" vehicles 
+  324  ls
+  325  cat vehicles | grep -A 10 "blue"
+  326  cat vehicles 
+  327  cat vehicles | grep "Annabel"
+  328  cat vehicles | grep "Blue"
+  329  cat vehicles | grep "Honda"
+  330  cat vehicles | grep "L337"
+  331  cat vehicles | grep -A 10 "L337
+  332  cat vehicles | grep -A 10 "L337"
+  333  cat vehicles | grep -A 10 "L337" | grep "Annabel"
+  334  cat vehicles | grep -A 10 "L337|Blue|Honda"
+  335  grep -A 10 "L337|Blue|Honda" vehicles 
+  336  grep -A 10 "L337" vehicles 
+  337  grep -A 10 "L337" vehicles 
+  338  grep -A 10 "L337" vehicles 
+  339  grep -E 'L337|Blue|Honda' vehicles 
+  340  grep -E 'L337|Blue|Honda|Annabel' vehicles 
+  341  grep -E 'L337|Blue|Honda|Annabel' vehicles
+  342  grep 'Blue\|Honda|L337' vehicles 
+  343  grep 'Blue\|Hond\a|L337' vehicles 
+  344  grep -i 'Blue|Honda|L337
+  345  grep -i 'Blue|Honda|L337' vehicles 
+  346  grep -i 'Blue\|Honda\|L337' vehicles 
+  347  ls
+  348  cat vehicles 
+  349  cd ..
+  350  ls
+  351  cat hint7
+  352  grep -A 5 "L337" mystery/vehicles 
+  353  cat hint8
+  354  ls
+  355  cd mystery/
+  356  ls
+  357  cd memberships/
+  358  ls
+  359  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History 
+  360  man grep
+  361  ls
+  362  pwd
+  363  cd ..
+  364  ls
+  365  man grep
+  366  ls vehicles 
+  367  cat vehicles 
+  368  grep -A 4 L337 vehicles 
+  369  grep -A 4 L337 vehicles 
+  370  grep -A 4 'L337\|Honda\|Blue' vehicles 
+  371  grep -A 4 'L337\|Honda\|Blue' vehicles 
+  372  grep -A 4 'L337\|Honda\|Blue\|Annabel' vehicles 
+  373  grep -A 4 'L337\|Honda\|Blue\|Annabel' vehicles 
+  374  cd ..
+  375  ls
+  376  cat hint4
+  377  cd mystery/
+  378  grep 'Annabel' people 
+  379  cat hint5
+  380  cd ..
+  381  cat hint5
+  382  ls
+  383  cd mystery/
+  384  head -n 173 streets/Mattapan_Street | tail -n 1
+  385  head -n 179 streets/Buckingham_Place | tail -n 1
+  386  cat hint4
+  387  cd ..
+  388  cat hint4
+  389  cat hint5
+  390  cat hint6
+  391  ;s
+  392  ls
+  393  cd mystery/
+  394  head vehicles 
+  395  cd ..
+  396  cat hint5
+  397  cat hint6
+  398  cat hint7
+  399  cat hint8
+  400  ls
+  401  cd mystery/
+  402  ls interviews/
+  403  cat interviews/
+  404  cat interview-291440
+  405  ls
+  406  cd interviews/
+  407  cat interview-259909
+  408  cd ..
+  409  pwd
+  410  head -n 179 streets/Buckingham_Place | tail -n 1
+  411  pwd
+  412  cat hint8
+  413  cat hint7
+  414  ls
+  415  cd ..
+  416  pwd
+  417  cat hint7
+  418  cat hint8
+  419  man greep
+  420  man grep
+  421  man grep
+  422  head vehicles 
+  423  pwd
+  424  ls
+  425  cd mystery
+  426  head vehicles 
+  427  tail vehicles 
+  428  ls
+  429  grep -A 4 'L337' vehicles 
+  430  grep -A 4 'L337\|Blue\|Honda' vehicles 
+  431  grep -A 4 'L337\|Blue\|Honda\|Annabel' vehicles 
+  432  grep -A 4 'L337\|Annabel' vehicles 
+  433  grep -A 4 'L337\|Blue\|Honda' vehicles 
+  434  cd ..
+  435  pwd
+  436  ls
+  437  cd cheatsheet.md
+  438  cat cheatsheet.md
+  439  pwd
+  440  cd mystery/
+  441  ls
+  442  ls
+  443  grep -B 4 "Annabel" vehicles 
+  444  grep -B 4 "Annabel" vehicles 
+  445  grep -C 3 "Annabel" vehicles 
+  446  grep -C 3 "L337" vehicles 
+  447  grep -C 4 "L337" vehicles 
+  448  grep -C 3 "Blue" vehicles 
+  449  man grep
+  450  pwd
+  451  ls
+  452  cd ..
+  453  ls
+  454  cat hint5
+  455  cat hint6
+  456  cat hint7
+  457  cd mystery/
+  458  grep -A 5 "L337" mystery/vehicles
+  459  ls
+  460  cd ..
+  461  grep -A 5 "L337" mystery/vehicles
+  462  cd ..
+  463  cat hint8
+  464  cd ..
+  465  cat hint8
+  466  ls
+  467  cd Unit1Deliverables/
+  468  ls
+  469  cd command-line-murder-mystery/
+  470  ls
+  471  cd hint8
+  472  cat hint8
+  473  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  474  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  475  pwd
+  476  cd mystery/
+  477  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  478  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  479  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  480  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  481  pwd
+  482  ls
+  483  cd memberships/
+  484  ls
+  485  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  486  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  487  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  488  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  489  history
+  490  exit
+  491  cd desktop
+  492  pwd
+  493  cd ~
+  494  pwd
+  495  cd Desktop
+  496  mkdir Screenshots
+  497  ls
+  498  clear
+  499  exit
+  500  pwd
+  501  cd Desktop
+  502  cd GA-Blog/
+  503  ls
+  504  CD Unit1Deliverables/
+  505  ls
+  506  cd Unit1Deliverables/
+  507  ls
+  508  cd command-line-murder-mystery/
+  509  ls
+  510  cd hint7
+  511  cat hint7
+  512  man grep
+  513  cd mystery/
+  514  ls
+  515  ls vehicles 
+  516  cat vehicles 
+  517  grep -A 5 'L337' vehicles 
+  518  cd ..
+  519  ls
+  520  cd mystery/
+  521  ls
+  522  cat people
+  523  grep 'Joe Germuska' people 
+  524  cd ..
+  525  pwd
+  526  ls
+  527  cat instructions 
+  528  cat solution.txt 
+  529  cd mystery/
+  530  ls interviews/
+  531  ls
+  532  cd crimescene 
+  533  cat crimescene 
+  534  grep 'CLUE' crimescene 
+  535  ls
+  536  cd ..
+  537  cat hint8
+  538  pwd
+  539  ls
+  540  cd mystery/
+  541  cd memberships/
+  542  ls
+  543  cd ..
+  544  pwd
+  545  ls
+  546  cd ..
+  547  cd mystery/
+  548  cd memberships/
+  549  cat Delta_SkyMiles AAA Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  550  cat Delta_SkyMiles AAA Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  551  cat Delta_SkyMiles AAA Terminal_City_Library Museum_of_Bash_History | grep -c "Jacqui Maher"
+  552  cat Delta_SkyMiles AAA Terminal_City_Library Museum_of_Bash_History | grep -c "Ericka Owens"
+  553  cat Delta_SkyMiles AAA Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+	Jeremy Bowers is the culprit.
