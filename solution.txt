@@ -1,5 +1,4 @@
 cd mystery/
-cd crimescene
 ls
 cat crimescene | grep CLUE
 cat people | grep Annabel
