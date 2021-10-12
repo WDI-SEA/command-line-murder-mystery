@@ -1,0 +1,33 @@
+  512  cd crimescene 
+  513  ls
+  514  cat crimescene 
+  515  grep CLUE
+  516  cat crimescene | grep CLUE
+  517  grep 'Annabel' cat people
+  518  head -n 173 streets /Mattapan_Street | tail -n
+  519  head -n 173 streets /Mattapan_Street | tail -n -1
+  520  head -n 173 streets /Mattapan_Street | tail -n 1
+  521  head -n 173 streets/Mattapan_Street | tail -n 1
+  522  head -n 179 streets/Haley_Street | tail -n 1
+  523  head -n 179 streets/Buckingham_Place | tail -n 1
+  524  head -n 176 streets/Haley_Street | tail -n 1
+  525  cd interviews/
+  526  ls
+  527  cat interview-871877
+  528  cat interview-699607
+  529  cat interview-9437737
+  530  cat interview-47246024 
+  531  cd ..
+  532  ls
+  533  cd vehicles 
+  534  cat vehicles 
+  535  grep -A 5 "L337" vehicles
+  536  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 2 "Blue"
+  537  cd ..
+  538  ls
+  539  cd mystery/
+  540  ls
+  541  cd memberships/
+  542  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  543  code ../../solution.txt 
+  544  history
