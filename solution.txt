@@ -1,0 +1,68 @@
+  114  cd mystery
+  115  ls
+  116  head -n 20 people
+  117  cat people | grep Annabel
+  118  ls
+  119  cd streets
+  120  ls
+  121  cd Mattapan_Street 
+  122  ls
+  123  cat Mattapan_Street 
+  124  ls
+  125  sed -n 40p Hart_Place 
+  126  ls
+  127  cd ..
+  128  ls
+  129  cd interviews
+  130  ls
+  131  cat interview-47246024 
+  132  cd ..
+  133  ls
+  134  cd streets
+  135  ls
+  136  sed -n 179p Buckingham_Place 
+  137  cd ..
+  138  ls
+  139  cd interviews
+  140  ls
+  141  cat interview-699607 
+  142  cd ..
+  143  ls
+  144  cd vehicles
+  145  head -n 20 vehicles
+  146  cat vehicles | grep L337
+  147  cd ..
+  148  ls
+  149  cat hint 4
+  150  cat hint4
+  151  cat hint5
+  152  cat hint6
+  153  cd mystery
+  154  ls
+  155  head vehicles
+  156  cd ..
+  157  cat hint7
+  158  cd  mystery
+  159  grep -A 5 "L337" vehicles
+  160  cd ..
+  161  ls
+  162  cd mystery
+  163  ls
+  164  cd memberships
+  165  ls
+  166  cat 1.txt
+  167  cat 2.txt
+  168  ls
+  169  cat AAA | grep Owens
+  170  cat AAA | grep Germuska
+  171  cat AAA | grep Bowers
+  172  cat AAA | grep Maher
+  173  cat Delta_SkyMiles | grep Germuska
+  174  cat Delta_SkyMiles | grep Bowers
+  175  cat library.txt | grep Bowers
+  176  cat Museum_of_Bash_History | grep Bowers
+  177  cd ..
+  178  cd ..
+  179  ls
+
+Culprit: Jeremy Bowers
