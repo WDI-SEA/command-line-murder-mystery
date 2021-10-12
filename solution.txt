@@ -1,0 +1,305 @@
+    1  xcode --version
+    2  bew install git
+    3  brew install git
+    4  github config --global user.name "Mackmiller"
+    5  homebrew --version
+    6  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    7  git --version
+    8  git config --global user.name "Mackmiller"
+    9  git config --global user.email "mackmiller19@gmail.com"
+   10  git config --global push.default simple
+   11  git config --global credential.helper cache
+   12  brew install node
+   13  node -v
+   14  npm -v
+   15  sudo chown -R $USER /usr/local/lib
+   16  git config user.name
+   17  .code
+   18  code
+   19  pwd
+   20  ls
+   21  pwd
+   22  cd ~
+   23  ls
+   24  cd ~
+   25  cd ~
+   26  mkdir sei_pumpkin_smashers
+   27  ls
+   28  cd sei_pumpkin_smashers/
+   29  ls
+   30  pwd
+   31  mkdir lessons homework classNotes
+   32  pwd
+   33  ls
+   34  mkdir temp
+   35  ls
+   36  cd temp/
+   37  ls
+   38  pwd
+   39  touch timmtemp.md
+   40  ls
+   41  code timmtemp.md 
+   42  code timmtemp.md 
+   43  rm timmtemp.md 
+   44  ls
+   45  touch newfile.md
+   46  ls
+   47  cd ..
+   48  ls
+   49  rm -r temp/
+   50  ls
+   51  code .
+   52  man grep
+   53  ls
+   54  git clone https://github.com/Mackmiller/command-line-murder-mystery-solution.git
+   55  ls
+   56  cd command-line-murder-mystery-solution/
+   57  ls
+   58  cat instructions
+   59  ls
+   60  instructions
+   61  cat instructions
+   62  ls
+   63  touch solution.txt
+   64  ls
+   65  cd mystery
+   66  ls
+   67  cd crimescene
+   68  ls
+   69  cd crimescene
+   70  cat crimescene
+   71  cat crimescene | grep CLUE
+   72  pwd
+   73  cd ..
+   74  ls
+   75  cat hint1
+   76  hint2
+   77  cat hint2
+   78  cat hint3
+   79  cat hint3
+   80  hint4
+   81  cat hint4
+   82  cat hint5
+   83  cat hint6
+   84  cat hint7
+   85  cat hint8
+   86  ls
+   87  cd mystery
+   88  ls
+   89  cd interviews
+   90  ls
+   91  cat interviews | grep Annabel
+   92  cd ..
+   93  ls
+   94  cat interviews | grep Annabel
+   95  ls
+   96  cd people
+   97  cat people
+   98  cat people | grep Annabel
+   99  cd ..
+  100  ls
+  101  cd mystery
+  102  ls
+  103  cat memberships
+  104  cd memberships
+  105  ls
+  106  cat AAA
+  107  cat memberships | grep Annabel
+  108  cd ..
+  109  cat memberships | grep Annabel
+  110  cd memberships
+  111  ls
+  112  cat AAA | grep Annabel
+  113  cat Delta_SkyMiles | grep Annabel
+  114  cat 1.txt
+  115  ls
+  116  cat delta.txt | grep Annabel
+  117  cat Museum_of_Bash_History | grep Annabel
+  118  cat library.txt | grep Annabel
+  119  cat United_MileagePlus | grep Annabel
+  120  cat delta.txt | grep Annabel
+  121  cat Terminal_City_Library | grep Annabel
+  122  cat Terminal_City_Library
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd streets
+  127  ls
+  128  cat Buckingham_Place
+  129  cd ..
+  130  ls
+  131  head -n 173 streets/Mattapan_Street | tail -n 1
+  132  head -n 179 streets/Buckingham_Place | tail -n 1
+  133  cd interviews
+  134  ls
+  135  cat interview-9437737
+  136  cat interview-699607
+  137  cd ..
+  138  ls
+  139  cd vehicles
+  140  ls
+  141  cd vehicles
+  142  cat vehicles
+  143  grep -A 5 "L337" mystery/vehicles
+  144  cd ..
+  145  grep -A 5 "L337" mystery/vehicles
+  146  echo License Plate L337ZR9
+  147  Make: Honda
+  148  Color: Red
+  149  Owner: Katie Park
+  150  Height: 6'2"
+Weight: 189 lbs
+--
+License Plate L337P89
+Make: Honda
+Color: Teal
+Owner: Mike Bostock
+Height: 6'4"
+Weight: 173 lbs
+--
+License Plate L337GX9
+Make: Mazda
+Color: Orange
+Owner: John Keefe
+Height: 6'4"
+  151  Weight: 185 lbs
+  152  --
+  153  License Plate L337QE9
+  154  Make: Honda
+  155  Color: Blue
+  156  Owner: Erika Owens
+  157  Height: 6'5"
+Weight: 220 lbs
+--
+License Plate L337GB9
+Make: Toyota
+Color: Blue
+Owner: Matt Waite
+Height: 6'1"
+Weight: 190 lbs
+--
+License Plate L337OI9
+Make: Jaguar
+Color: Blue
+Owner: Brian Boyer
+Height: 6'6"
+  158  Weight: 201 lbs
+  159  --
+  160  License Plate L337X19
+  161  Make: Fiat
+  162  Color: Blue
+  163  Owner: Al Shaw
+  164  Height: 6'5"
+Weight: 240 lbs
+--
+License Plate L337539
+Make: Honda
+Color: Blue
+Owner: Aron Pilhofer
+Height: 5'3"
+Weight: 198 lbs
+--
+License Plate L3373U9
+Make: Ford
+Color: Blue
+Owner: Miranda Mulligan
+Height: 6'6"
+  165  Weight: 156 lbs
+  166  --
+  167  License Plate L337369
+  168  Make: Honda
+  169  Color: Blue
+  170  Owner: Heather Billings
+  171  Height: 5'2"
+Weight: 244 lbs
+--
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+--
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+  172  Weight: 204 lbs
+  173  --
+  174  License Plate L337WR9
+  175  Make: Honda
+  176  Color: Blue
+  177  Owner: Jacqui Maher
+  178  Height: 6'2"
+Weight: 130 lbs > solution.txt
+cat solution.txt
+grep -A 5 "L337" mystery/vehicles > solution.txt
+cat solution.txt
+ls
+pwd
+~ cd
+code solution.txt
+cd ~
+man
+grep -A 5 "L337" mystery/vehicles
+
+
+  179  ls
+  180  cat solution.txt
+  181  grep -A 5 "L337" mystery/vehicles > solution.txt
+  182  cat solution.txt
+  183  grep -A 5 "Blue"
+  184  cd ..
+  185  ls
+  186  cd command-line-murder-mystery-solution/
+  187  ls
+  188  grep -A 5 "Honda" mystery/solution.txt
+  189  grep -A 5 "Honda" solution.txt
+  190  grep -A 5 "Honda" solution.txt > solution.txt
+  191  cat solution.txt
+  192  grep -A 5 "Honda" solution.txt
+  193  ls
+  194  cat solution.txt
+  195  grep -A 5 "Honda" solution.txt
+  196  grep -A 5 "Honda" solution.txt
+  197  cat solution.txt
+  198  grep -A 5 "L337" mystery/vehicles > solution.txt
+  199  cat solution.txt
+  200  cd solution.txt
+  201  cat solution.txt | grep Honda
+  202  grep -A 5 "Honda" solution.txt
+  203  grep -A 5 "Honda" solution.txt > solution_step2.txt
+  204  cat solution_step2.txt
+  205  grep -A 5 "Blue" solution_step2.txt > solution_step3.txt
+  206  cat solution_step3.txt
+  207  cat solution.txt
+  208  cat solution_step3.txt
+  209  ls
+  210  cd mystery
+  211  ls
+  212  cd memberships
+  213  ls
+  214  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  215  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  216  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  217  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Heather Billings"
+  218  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+  219  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Aron Pilhofer"
+  220  mv "solution.txt" "solution_step1.txt"
+  221  ls
+  222  cd ..
+  223  cd ..
+  224  mv "solution.txt" "solution_step1.txt"
+  225  ls
+  226  history
+  227  history > solution.txt
+  228  ls
+  229  cat solution.txt
+  230  echo "THE KILLER IS cd mystery
+  231  cd mystery
+  232  cd memberships
+  233  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  234  history
+  235  history > solution.txt
+THE KILLER IS JEREMY BOWERS
