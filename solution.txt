@@ -1,0 +1,255 @@
+Eduardos-MBP:deliverables eddy$ history
+    1  /bin/basc "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    3  brew install git
+    4  git config --global user.name "eddycodes27"
+    5  git config --global user.email "eddycodes27@gmail.com"
+    6  git config --global push.default simple
+    7  git config --global credential.helper cache
+    8  git config --list
+    9  pwd
+   10  ls
+   11  cd Desktop
+   12  pwd
+   13  ls
+   14  cd ~
+   15  pwd
+   16  cd Desktop
+   17  cd /users/eddy
+   18  pwd
+   19  ls
+   20  cd Documents
+   21  ls
+   22  cd ~
+   23  pwd
+   24  ls
+   25  cd App
+   26  cd Applications/
+   27  cd ..
+   28  pwd
+   29  cd Desktop
+   30  list
+   31  ls
+   32  open 20210715_120327.jpg 
+   33  cd ~
+   34  mkdir Pumpkin_Smashers
+   35  ls
+   36  cd Pumpkin_Smashers
+   37  mkdir lessons homework classnotes
+   38  ls
+   39  mkdir temp
+   40  cd temp
+   41  pwd
+   42  touch timmtemp.md
+   43  ls
+   44  code timmtemp.md
+   45  code timmtemp.md
+   46  rm timmtemp.md
+   47  ls
+   48  touch newfile.md
+   49  ls
+   50  cd ..
+   51  ls
+   52  rm temp
+   53  rm -r temp
+   54  cd ..
+   55  ls
+   56  pwd
+   57  cd Pumpkin_Smashers/
+   58  ls
+   59  touch movielist.txt
+   60  ls
+   61  touch .songslist.txt
+   62  ls
+   63  ls -a
+   64  clear
+   65  ls
+   66  touch test.txt
+   67  open test.txt
+   68  echo "this is for the second line"
+   69  echo "this is for the second line" > test.txt
+   70  open test.txt
+   71  echo this is a third line >> text.txt
+   72  open test.txt
+   73  echo this is a third line >> test.txt
+   74  open test.txt
+   75  echo this is the fourth and last line, just so I can hopefully never forget >> test.txt
+   76  open test.txt
+   77  cat test.txt
+   78  touch test2.txt
+   79  ls
+   80  this is the first like for test2 >> test2.txt
+   81  echo this is the first line for test2.txt
+   82  cat test.txt test2.txt
+   83  open test.txt
+   84  open test2.txt
+   85  echo this is a line for >> test2.txt
+   86  open test2.txt
+   87  cat test.txt test2.txt
+   88  clear
+   89  cd desktop
+   90  cd Desktop
+   91  pwd
+   92  cd ..
+   93  p[wd; exit; 
+   94  https://github.com/Eddycodes27/Deliverables.git
+   95  git https://github.com/Eddycodes27/Deliverables.git
+   96  clear
+   97  cd Desktop
+   98  cd class
+   99  git clone
+  100  https://github.com/Eddycodes27/Deliverables.git
+  101  clear
+  102  ls
+  103  pwd
+  104  git clone https://github.com/Eddycodes27/Deliverables.git
+  105  ls
+  106  cd deliverables
+  107  cat readme.md
+  108  cat instructions
+  109  ls
+  110  cd mystery
+  111  ls
+  112  ls -a
+  113  cat crimescene
+  114  ls
+  115  cd crimescene
+  116  cd ..
+  117  ls
+  118  cat hint1
+  119  cd mystery
+  120  ls
+  121  head -n 20 people
+  122  ls
+  123  cat crimescene
+  124  grep "CLUE" crimescene
+  125  ls
+  126  cat people
+  127  head -n 20 people
+  128  cd streets
+  129  cat walton_street
+  130  cat walton_street.text
+  131  ls
+  132  ls -a
+  133  ls
+  134  cd ..
+  135  ls
+  136  grep -r "delta" streets
+  137  grep -r "aaa" streets
+  138  grep -r "tall" streets
+  139  grep -r "6" streets
+  140  grep -r "blonde" streets
+  141  grep -r "accent" streets
+  142  grep -r "zealand" streets
+  143  grep -r "museum" streets
+  144  grep -r "6'" streets
+  145  grep -r "6 feet" streets
+  146  grep -r "aaa" streets
+  147  grep -r "bash" streets
+  148  cd ..
+  149  ls
+  150  cd mystery
+  151  ls
+  152  cd ..
+  153  cat hint1
+  154  grep "CLUE" crimescene
+  155  ls
+  156  cd mystery
+  157  grep "CLUE" crimescene
+  158  ls
+  159  grep "annabel" people
+  160  grep "Annabel" people
+  161  ls
+  162  grep "Mattapan" streets
+  163  ls
+  164  cd streets
+  165  cat Mattapan_Street.txt
+  166  cat Mattapan_Street
+  167  ls
+  168  cd ..
+  169  ls
+  170  grep "Annabel" people
+  171  grep "Annabel" people
+  172  ls
+  173  cat Mattapan_Street
+  174  cd streets
+  175  cat Mattapan_Street
+  176  cat .bashrc -n
+  177  :set number
+  178  ls
+  179  cd ..
+  180  ls
+  181  cd interviews
+  182  cat interview-47246024
+  183  cat interview-9437737
+  184  cat interview-699607
+  185  cat interview-871877
+  186  cd ..
+  187  ls
+  188  cd vehicles
+  189  grep "L337" vehicles
+  190  grep "Blue" vehicles
+  191  cat vehicles
+  192  grep "6'0" vehicles
+  193  cat vehicles
+  194  grep "" vehicles
+  195  grep "License Plate L337ZR9" vehicles
+  196  mdfind L337ZR9
+  197  ls
+  198  cd people
+  199  grep "Erika" people
+  200  grep "Aron" people
+  201  grep "Heather" people
+  202  grep "Joe" people
+  203  grep "Jeremy" people
+  204  grep "Maher" people
+  205  ls
+  206  cd streets
+  207  cat interview-5455315
+  208  cd interviews
+  209  ls
+  210  cd ..
+  211  cd interviews
+  212  cat interview-5455315
+  213  cat interview-1767435
+  214  cat interview-2939888
+  215  cat interview-29741223
+  216  cat interview-9620713
+  217  cat interview-904020
+  218  cd ..
+  219  ls
+  220  cd ..
+  221  ls
+  222  cat hint5
+  223  cat hint6
+  224  cat hint7
+  225  cat hint8
+  226  cat hint9
+  227  ls
+  228  cd mystery
+  229  ls
+  230  cd people
+  231  cat people
+  232* mdfind -onlyin 
+  233  ls
+  234  grep "Jeremy" people
+  235  cat interview-9620713
+  236  ls
+  237  cd interviews
+  238  cat interview-9620713
+  239  cd ..
+  240  ls
+  241  cd ..
+  242  ls
+  243  cat solution
+  244  cd mystery
+  245  cat solution
+  246  ls
+  247  cd ..
+  248  ls
+  249  touch solution.txt
+  250  history
+
+************************************
+
+Name of killer: Jeremy Bowers
