@@ -1,0 +1,151 @@
+1. 93  cd command-line-murder-mystery/
+   94  ls
+   95  cat instructions
+   96  cd mystery
+   97  ls
+   98  cd crimescene
+   99  cat crimescene | grep CLUE
+  100  cat interviews | grep clues
+  101  cd interviews
+  102  ls
+  103  ls -a 
+  104  cd ..
+  105  ls
+  106  cd memberships
+  107  ls
+  108  cat Delta_SkyMiles
+  109  cat Delta_SkyMiles | grep CLUE
+  110  cat Delta_Skymiles | grep Annabel
+  111  cat Delta_Skymiles | grep Anna
+  112  pwd
+  113  cd..
+  114  ls
+  115  cat AAA | grep Annabel
+  116  cat Terminal_City_Library | grep Annabel
+  117  cat Museum_of_Bash_History | grep Annabel
+  118  cat delta.txt
+  119  cat museum.txt | grep Annabel
+  120  pwd
+  121  cd..
+  122  cd ..
+  123  ls
+  124  cd people
+  125  cat people
+  126  cat people | grep Annabel Church
+  127  cat people | grep Annabel
+  128  ls
+  129  cd streets
+  130  ls
+  131  cd Buckingham Place
+  132  nano cheatsheet.md
+  133  ls
+  134  cd sei_pumpkin_smashers/
+  135  ls
+
+  136  cd homework/unitOne
+  137  pwd
+  138  ls
+  139  cd command-line-murder-mystery/
+  140  ls
+  141  cd mystery
+  142  ls
+  143  cat vehicles | grep 6'
+
+6
+height: 6
+
+
+
+
+  144  cat vehicles
+  145  clear
+  146  ls
+  147  cat vehicles | grep height: 6
+  148  cat vehicles | grep "6'"
+  149  ls
+  150  head streets
+  151  head memberships
+  152  head vehicles
+  153  head crimescene
+  154  clear
+  155  pwd
+  156  ls
+  157  cd..
+  158  cd ..
+  159  ls
+  160  cat instructions
+  161  clear
+  162  ls
+  163  cat hint3
+  164  cat hint4
+  165  cat hint5
+  166  ls
+  167  cd mystery
+  168  ls
+  169  head -n 179 streets/Buckingham Place, line 179
+  170  head -n 173 streets/Mattapan_Street | tail -n 1
+  171  ls
+  172  cat interview | grep "#9437737"
+  173  cat interviews | grep "#9437737"
+  174  cd interviews
+  175  head
+  176  cd ..
+  177  head interviews
+  178  head interviews
+  179  cd interviews
+  180  ls
+  181  clear
+  182  ls
+  183  clear
+  184  pwd
+  185  cd ..
+  186  ls
+  187  head -n 173 streets/Mattapan_Street | tail -n 1
+  188  ls
+  189  cd interviews
+  190  head interviews
+  191  ls
+  192  clear
+  193  cat interview-9437737
+  194  cd ..
+  195  pwd
+  196  head -n 179 streets/Buckingham_Place | tail -n1
+  197  pwd
+  198  ls
+  199  cd interviews
+  200  cat interview-699607
+  201  cd ..
+  202  pwd
+  203  cat vehicles | grep "L337"
+  204  head vehicles
+  205  head -n 20 vehicles
+  206  grep -A 5 "L337" vehicles
+  207  pwd
+  208  ls
+  209  cd memberships
+  210  ls
+  211  cat AAA | grep "Joe Germuska"
+  212  cat cat Delta_Skymiles | grep "Joe Germuska"
+  213  cat cat Delta_Skymiles | grep "Joe Germuska"
+  214  cat Delta_SkyMiles | grep "Joe Germuska"
+  215  cat Museum_of_Bash_History | grep "Joe Germuska"
+  216  cat Terminal_City_Library | grep "Joe Germuska"
+  217  cat AAA | grep "Jeremy Bowers"
+  218  cat Delta_SkyMiles | grep "Jeremy Bowers"
+  219  ls
+  220  grep "Jeremy Bowers"
+  221  cat Museum_of_Bash_History | "Jeremy Bowers"
+  222  cat Museum_of-Bash_History | grep 
+  223  cat Museum_of_Bash_History | grep "Jeremy Bowers
+  224  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  225  cat Terminal_City_Library | grep "Jeremy Bowers"
+  226  cat AAA | grep "Jacqui Maher"
+  227  cat AAA | grep "Erika Owens"
+  228  cat Delta_SkyMiles | "Erica Owens" "Jacqui Maher"
+  229  cat Delta_SkyMiles | grep "Erica Owens" "Jacqui Maher"
+  230  cat Delta_SkyMiles | grep "Erica Owens"
+  231  cat Museum_of_Bash_History | grep "Jacqui Maher"
+  232  cat Delta_SkyMiles | grep "Jacqui Maher"
+  
+2. Jeremy Bowers
+
