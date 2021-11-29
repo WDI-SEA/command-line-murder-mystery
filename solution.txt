@@ -1,15 +1,86 @@
-Galyvers-MacBook-Pro:command-line-murder-mystery galyverasi$ ls
-LICENSE		README.md	cheatsheet.pdf	hint2		hint4		hint6		hint8		mystery
-LICENSE.txt	cheatsheet.md	hint1		hint3		hint5		hint7		instructions
-Galyvers-MacBook-Pro:command-line-murder-mystery galyverasi$ cd memberships/
--bash: cd: memberships/: No such file or directory
-Galyvers-MacBook-Pro:command-line-murder-mystery galyverasi$ cd mystery/
-Galyvers-MacBook-Pro:mystery galyverasi$ ls
-crimescene	interviews	memberships	people		streets		vehicles
-Galyvers-MacBook-Pro:mystery galyverasi$ cd memberships/
-Galyvers-MacBook-Pro:memberships galyverasi$ cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
-Jeremy Bowers
-Jeremy Bowers
-Jeremy Bowers
-Jeremy Bowers
-Galyvers-MacBook-Pro:memberships galyverasi$ 
+  509  cd deliverables/
+  510  ls
+  511  cd command-line-murder-mystery/
+  512  ls
+  513  cat instructions
+  514  ls
+  515  cd mystery/
+  516  ls
+  517  cd crimescene 
+  518  cd crimescene/
+  519  cat crimescene / grep CLUE
+  520  cat hint1
+  521  cd ..
+  522  cat hint1
+  523  cat hint2
+  524  cat hint3
+  525  cat hint4
+  526  cat hint5
+  527  cat hint6
+  528  cat hint7
+  529  cat hint9
+  530  cat hint8
+  531  ls
+  532  cd mystery/
+  533  ls
+  534  cd interviews/
+  535  ls
+  536  cat interviews | grep Annabel
+  537  cd ..
+  538  ls
+  539  cat interviews | grep Annabel
+  540  ls
+  541  cd people 
+  542  cat people | grep Annabel
+  543  cd ..
+  544  ls
+  545  cd mystery/
+  546  ls
+  547  cat memberships/
+  548  cd memberships/
+  549  ls
+  550  cat memberships | grep Annabel
+  551  cd ..
+  552  cat memberships | grep Annabel
+  553  cd memberships/
+  554  ls
+  555  cat AAA | grep Annabel
+  556  cat Delta_SkyMiles | grep Annabel
+  557  cat 1.txt 
+  558  ls
+  559  cat delta.txt | grep Annabel
+  560  cat Museum_of_Bash_History | grep Annabel
+  561  cat library.txt | grep Annabel
+  562  vat United_MileagePlus | grep Annabel
+  563  cat delta.txt | grep Annabel
+  564  cat United_MileagePlus | grep Annabel
+  565  cat Terminal_City_Library | grep Annabel
+  566  cat Terminal_City_Library 
+  567  ls
+  568  cd ..
+  569  ls
+  570  cd streets/
+  571  ls
+  572  cat Buckingham_Place 
+  573  cd ..
+  574  ls
+  575  head -n 173 streets/Mattapan_Street | tail -n 1
+  576  head -n 179 streets/Buckingham_Place | tail -n 1
+  577  cd interviews/
+  578  ls
+  579  cat interview-9437737
+  580  cat interview-699607
+  581  cd ..
+  582  ls
+  583  cd vehicles 
+  584  cat vehicles
+  585  grep -A 5 "L337" mystery/vehicles
+  586  echo License Plate L337ZR9
+  587  cd ..
+  588  grep -A 5 "L337" mystery/vehicles
+  589  ls
+  590  cd solution.txt 
+  591  ls
+  592  open solution.txt 
+
+Jeremy Bowers is the killer
