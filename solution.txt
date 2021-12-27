@@ -1,0 +1,45 @@
+Murderer: Jeremy Bowers  
+
+
+  505  git clone https://github.com/emilybarwinczak/command-line-murder-mystery.git
+  506  cd command-line-murder-mystery/
+  507  touch solution.txt
+  508  ls
+  509  open solution.txt 
+  510  cd mystery/
+  511  ls
+  512  cd crimescene 
+  513  open crimescene 
+  514  grep "CLUE" crimescene 
+  515  open people
+  516  grep Annabel
+  517  grep "Annabel" people
+  518  open interviews/
+  519  open interviews
+  520  head -n 173 streets/Mattapan_Street | tail -n 1
+  521  open interviews/
+  522  open interview-9437737
+  523  open vehicles
+  524  grep "Fuglsang" vehicles
+  525  head -n "Fuglsang" vehicles
+  526  open streets
+  527  open memberships
+  528  open people
+  529  open interviews
+  530  head -n 176 streets/Haley_Street | tail -n 1
+  531  head -n 40 streets/Hart_Place | tail -n 1
+  532  head -n 179 streets/Buckingham_Place | tail -n 1
+  533  grep "L337" vehicles
+  534  grep -A 5 "L337" mystery/vehicles
+  535  grep -A 5 "L337" vehicles
+  536  cat AAA Delta_SkyMiles library Museum_of_Bash_History
+  537  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Erika Owens"
+  538  cat AAA Delta_SkyMiles library Museum_of_Bash_History memberships
+  539  cat memberships AAA Delta_SkyMiles library Museum_of_Bash_History
+  540  cd memberships/
+  541  cat AAA Delta_SkyMiles library Museum_of_Bash_History
+  542  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Erika Owens"
+  543  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Joe Germuska"
+  544  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Jeremy Bowers"
+  545  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Jacqui Maher"
+  546  history
