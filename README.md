@@ -31,20 +31,22 @@ To figure out whodunit, you need access to a command line.
 
 ## Getting Started
 
-* Fork and clone this repo.
+* Fork this repo (click the fork button in the upper right corner of the page)
+* Clone your fork to your local machine.
+```bash
+git clone <paste HTTPS here>
+````
 * Once the repo has been cloned...
-  * Open a Terminal
-  * Go to the location of the files
-  * Start by reading the file 'instructions'.
-
-One way you can do this is with the command:
-```
+  * `cd` into the repo
+  * `ls` to see what's available
+  * Start by reading the file 'instructions'
+```bash
 cat instructions
 ```
 
 * To get started on how to use the command line, open cheatsheet.md.
   * Again, you can use the `cat` command to do this
-* Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
+* Don't use a text editor to view any files (except these instructions, the cheatsheet, and hints if you'd like).
 
 ## Deliverables
 
@@ -54,6 +56,6 @@ cat instructions
 1. The commands you used to get the solution (hint: run `history` for a list of the commands you ran).
 2. The name of the killer.
 
-* Commit your solution file
+* Add and commit your changes
 * Push your changes to your forked repo
 * Create a pull request to submit your deliverable
