@@ -1,0 +1,23 @@
+cat crimescene | grep CLUE
+cat people | grep Annabel
+cd streets
+cat Hart_Place
+cd interviews
+cat interview-47236024
+cat interview-699607
+cat interview-9437737
+cat interview-871877
+grep -A 5 "L337" vehicles
+head -n 284 streets/Dunstable_Road | tail -n 1
+cd interviews
+grep 'Jeremy Bowers' AAA Delta_SkyMiles 
+
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+
+
+Jeremy !!
