@@ -1,0 +1,8 @@
+cat crimescene | grep CLUE
+cat people | grep Annabel
+head -n 179 Buckingham_Place | tail -n 1
+cat interview-699607
+grep -A 5 "L337" vehicles
+cat Delta_SkyMiles AAA Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+
+Jeremy Bowers
