@@ -1,0 +1,3 @@
+  mystery git:(main) ✗ cat crimescene | grep CLUE
+➜  mystery git:(main) ✗ cat people | grep Annabel
+➜  mystery git:(main) ✗ cd streets 
