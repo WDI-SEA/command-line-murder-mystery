@@ -1,3 +1,102 @@
+1077  cd command-line-murder-mystery
+ 1078  ls
+ 1079  cat instructions
+ 1080  cd mystery
+ 1081  ls
+ 1082  cat crimescene
+ 1083  cd..
+ 1084  cd ..
+ 1085  ls
+ 1086  cat instructions
+ 1087  cd mystery
+ 1088  cat crimescene | grep CLUE
+ 1089  ls
+ 1090  cd . 
+ 1091  ls
+ 1092  cd
+ 1093  ls
+ 1094  cd Desktop
+ 1095  cd General_Assembly
+ 1096  cd unit1
+ 1097  ls
+ 1098  cd command-line-murder-mystery
+ 1099  ls
+ 1100  cat hint1
+ 1101  head
+ 1102  ls 
+ 1103  cd Desktop
+ 1104  cd General_Assembly
+ 1105  ls
+ 1106  cd unit1
+ 1107  ls
+ 1108  cd command-line-murder-mystery
+ 1109  ls -a 
+ 1110  cd mystery
+ 1111  ls
+ 1112  cd streets
+ 1113  ls
+ 1114  cd ..
+ 1115  ls
+ 1116  cd crimescene/
+ 1117  ls
+ 1118  cd Desktop
+ 1119  ls
+ 1120  cd General_Assembly
+ 1121  ls
+ 1122  cd unit1
+ 1123  ls
+ 1124  cd command-line-murder-mystery
+ 1125  ls
+ 1126  cat hint2
+ 1127  ls
+ 1128  cd mystery
+ 1129  ls
+ 1130  cat grep | cromescene CLUE
+ 1131  cat crimescene | grep CLUE
+ 1132  ls
+ 1133  cd ..
+ 1134  ls
+ 1135  cat hint3
+ 1136  cd mystery
+ 1137  ls
+ 1138  head people
+ 1139  ls
+ 1140  cd .. 
+ 1141  cat hint2
+ 1142  cat hint1
+ 1143  cd mystery
+ 1144  head people
+ 1145  head -n 20 poeple
+ 1146  head -n 20 people
+ 1147  ls
+ 1148  cat streets
+ 1149  cd streets
+ 1150  ls
+ 1151  cd .. 
+ 1152  ls
+ 1153  cd .. 
+ 1154  ls
+ 1155  cat hint4
+ 1156  cat hint5
+ 1157  cat hint6
+ 1158  cat hint7
+ 1159  ls 
+ 1160  cd mystery
+ 1161  ls
+ 1162  cd streets
+ 1163  cat Glenwood_Avenue
+ 1164  head Rock_Street
+ 1165  cat Rockwood_Street
+ 1166  ls
+ 1167  cd ..
+ 1168  ls 
+ 1169  cd ..
+ 1170  ls
+ 1171  touch solutions.txt
+ 1172  ls
+ 1173  code solutions.txt
+➜  command-line-murder-mystery git:(main) ✗ 
+
 ➜  mystery git:(main) cat crimescene | grep CLUE
 ➜  mystery git:(main) cat people | grep Annabel 
 ➜  mystery git:(main) ✗ cd streets 
@@ -56,3 +155,10 @@ Weight: 204 lbs
 SEE INTERVIEW #9620713
 
 JEREMY BOWERS IS THE KILLER.
+
+➜  memberships git:(main) ✗ grep 'Jeremy Bowers' AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History 
+AAA:Jeremy Bowers
+Delta_SkyMiles:Jeremy Bowers
+Terminal_City_Library:Jeremy Bowers
+Museum_of_Bash_History:Jeremy Bowers
+
