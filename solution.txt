@@ -1,0 +1,33 @@
+Suspect : 
+Jeremy Bowers
+Vehicle : Blue Honda
+Height : 6'1
+
+Commands used and results:
+
+    1. cat mystery/crimscene | grep CLUE
+        -- Returned lines that contained "CLUE"
+    2. grep "Annabel" mystery/people
+        -- Search all names containing "Annabel" as it appeared in one of the clues. Returned 4 people.
+    3. head -n <line number> mystery/streets/<streetname> | tail -n 1
+        -- TO get interview number
+    4. cat mystery/interviews/interview-<interview number>
+        -- Get details from interview
+    5. grep -C 3 "Owner: <name>" mystery/vehicles
+        -- Vehicles file contains height, license plate, make and color of vehicle. None matched any of the initial suspects' descriptions (names containing Annabel). 
+    6. grep -A 5 "License Plate L337" mystery/vehicles
+        -- Display owner details of all vehicles containing "L337"
+        -- Sorted through results and filtered all Blue Hondas and owner with height of at least 6'
+    7. grep "<new suspects name>" mystery/people
+        -- To get interview number
+    8. cat mystery/interviews/interview-<interview number>
+        -- Get details about the person
+    9.  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"							
+        -- Based on the interviews, only Jeremy Bowers has no alibi and considered a suspect
+
+ 
+
+
+    
+    
+
