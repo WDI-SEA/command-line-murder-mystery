@@ -1,0 +1,111 @@
+
+1.
+
+//made a notes page so i wont have to keep scrolling
+mkdir gracenotes.txt 
+
+//made shortened notes page using echo
+echo 'head -n 20 people to poke around files' >> gracenotes.txt 
+
+//check CLUES
+cat crimescene | grep CLUE   
+
+//searched for people named Annabel in people
+cat people | grep Annabel     
+
+//used hint5
+head -n 173 streets/Mattapan_Street | tail -n 1  interview 2 possible witness by reading correct line from the streets they live on
+
+//greg 6'... too many results
+
+//this gave me interview #, cd into interview to check file format
+cd interview > ls 
+
+// cat interview with correct format
+cat interview-9437737  
+//not Annabel, used hint7 and added the people who were at least 6 ft and has a blue honda
+grep -A 5 "L337" mystery/vehicles 
+
+//crosschecked names that matched inside membership lists
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jacqui Maher" 
+3
+
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers" 
+4
+
+//head each membership list to see how it is set up... i think it was just names though
+head -n 20 Delta_skymiles  
+//yup just names
+
+//check each name against membership... jacqui does not have membership to aaa... checking jeremy if he has membership to the other 2... oh duh, 4 was named.
+cat AAA | grep -c "Jeremy Bowers"  => 1
+cat AAA | grep -c "Jacqui Maher"  => 0
+
+
+cat Delta_skymiles | grep -c "Jeremy Bowers"    
+cat terminal_City_library | grep -c "Jeremy Bowers"
+cat Museum_of_Bash_History | grep -c "Jeremy Bowers" 
+
+//rename file
+mv gracenotes.txt solution.txt 
+
+2. Jeremy Bowers
+
+
+//my notes 
+
+head -n 20 people to poke around files
+grep CLUE crimescene -search for clues in crimescene
+use head on files like people and vehicle to track down address-potentialwitness
+grep Annabel in people
+head -n 173 streets/Mattapan_Street | tail -n 1  interview 2 possible witness by reading correct line from the streets they live on
+grep honda vehicles, blue vehicles, l337 vehicles, use head on files to investigate structure
+need multiple lines around each math, use -ABC option with grep, grep -A 5 "L337" mystery/vehicles
+check member of several groups by combining lists, cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith", -c will provide number of matches, or pipe result to wc -1
+
+License Plate L337WR9
+Make: Honda
+Color: Blue
+Owner: Jacqui Maher
+Height: 6'2"
+Weight: 130 lbs
+
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+
+License Plate L337QE9
+Make: Honda
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs
+
+answer:
+
+cat crimescene | grep CLUE
+cat people | grep Annabel
+cd streets
+cat Hart_Place
+
+head -n 40 streets/Hart_Place | tail -n 1
+head -n 173 streets/Mattapan_Street | -n 1
+head -n 179 streets/Buckingham_Place | -n 1
+head -n 176 streets/Haley_Street | -n 1
+cd interviews
+
+cat interview-**** interview-**** interview-**** interview-*****
+grep -A 5 'L337' people     || cat people
+
+cat people | grep -e 'germuska\|Owens'
+cat interview-*** interview-**** interview-***
