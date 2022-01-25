@@ -1,0 +1,404 @@
+HISTORY
+
+    1  hello
+    2  where am i?
+    3  pwd
+    4  pwd
+    5  ls
+    6  cd documents
+    7  ls
+    8  -ls-a
+    9  -
+   10  ls -a
+   11  - ls -a
+   12  ls -a
+   13  -
+   14  ls -a
+   15  cd ..
+   16  pwd
+   17  cd ~
+   18  mkdir myfolder
+   19  ls
+   20  cd myfolder
+   21  touch index.html style.css
+   22  rm style.css
+   23  ls
+   24  cd
+   25  cd ..
+   26  rm - myfolder
+   27  rm -r myfolder
+   28  cd
+   29  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   30  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/annehoagland/.zprofile eval"$(/opt/homebrew/bin/brew shellenv)"
+   31  brew helo
+   32  brew help
+   33  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/annehoagland/.zprofile
+   34  eval "$(/opt/homebrew/bin/brew shellenv)"
+   35  brew help
+   36  'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/annehoagland/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+   37  'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/annehoagland/.zprofile
+   38  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/annehoagland/.zprofile
+   39  eval "$(/opt/homebrew/bin/brew shellenv)"
+   40  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/annehoagland/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+   41  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   42  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/annehoagland/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+   43  git --version
+   44  $ git init
+   45  mkdir GA-Blog
+   46  cd GA-Blog
+   47  touch .git/
+   48  mkdir .git/
+   49  GA-Blog
+   50  cd GA-Blog
+   51  $ git init
+   52  $gitinit
+   53  pwd
+   54  $ git init
+   55  cd GA-Blog
+   56  ls -a
+   57  $ git status
+   58  $git status
+   59  git status
+   60  $ touch post.txt
+   61  $touch post.txt
+   62  touch post.txt
+   63  $ touch post.txt
+   64  cd Desktop
+   65  cd GA-Blog
+   66  $ git init
+   67  mkdir .git/
+   68  $ git init
+   69  $git init
+   70  git init
+   71  pwd
+   72  ls -a
+   73  git status
+   74  touch post.txt
+   75  git status
+   76  touch post.txt
+   77  git status
+   78  git add post.txt
+   79  git status
+   80  git status
+   81  git commit -m "created a new post.txt file"
+   82  git log
+   83  git log
+   84  defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+   85  defaults -currentHost write -globalDomain AppleFontSmoothing -int 3
+   86  currentHost write -g AppleFontSmoothing -int 0
+   87  defaults -currentHost write -globalDomain AppleFontSmoothing -int 1
+   88  defaults -currentHost write -globalDomain AppleFontSmoothing -int 2\n\n
+   89  defaults -currentHost write -globalDomain AppleFontSmoothing -int 3
+   90  zsh
+   91  brew install git
+   92  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   93  brew install git
+   94  arch -arm64 brew install git
+   95  git --version\n
+   96  brew install --cask visual-studio-code\n
+   97  code
+   98  ~ brew link --overwrite git
+   99  sudo brew link --overwrite git
+  100  git --version
+  101  git config --global user.name "akhoagland"
+  102  git config --global user.email "akhoagland@gmail.com"
+  103  git config --global push.default simple\ngit config --global credential.helper cache
+  104  pwd
+  105  ls
+  106  cd Documents
+  107  pwd
+  108  ls
+  109  cd ..
+  110  pwd
+  111  cd /
+  112  ls
+  113  ls -a
+  114  cd Users
+  115  ls
+  116  cd annehoagland
+  117  cd Documents
+  118  cd ~
+  119  cd Documents
+  120  mkdir
+  121  mkdir GeneralAssembly
+  122  ls
+  123  cd GeneralAssembly
+  124  touch test.txt
+  125  ls
+  126  open test.txt
+  127  code test.txt
+  128  rm test.txt
+  129  ls
+  130  mkdir spring-forward
+  131  cd spring-forward
+  132  mkdir unit1
+  133  mkdir first-git
+  134  ls
+  135  rm -rf first-git/
+  136  cd unit1
+  137  mkdir first-git
+  138  ls
+  139  cd first-git
+  140  ls -a
+  141  touch readme.txt
+  142  ls -a
+  143  git init
+  144  ls -a
+  145  git config --global init.defaultBranch main
+  146  git status
+  147  git add readme.txt
+  148  git status
+  149  git branch -M main
+  150  git commit -m 'add readme.txt'
+  151  code .
+  152  git status
+  153  git diff readme.txt
+  154  git add readme.txt
+  155  git status
+  156  git commit -m 'make an awesome readme for my project'
+  157  git log
+  158  git commit -m 'add readme.txt'git branch -M main
+  159  git status
+  160  code .
+  161  git status
+  162  git add
+  163  git add readme.txt
+  164  git commit 'readme.txt'
+  165  git status
+  166  ls
+  167  cd spring-forward
+  168  pwd
+  169  ls
+  170  open unit1
+  171  pwd
+  172  git remote add origin https://github.com/akhoagland/first-git.git\ngit branch -M main\ngit push -u origin main
+  173  git remote add origin https://github.com/akhoagland/first-git.git
+  174  pwd
+  175  open ls
+  176  ls
+  177  open unit1
+  178  ls
+  179  git status
+  180  open "first-git"
+  181  pwd
+  182  open first-git
+  183  open unit1
+  184  open first-git
+  185  ls
+  186  cd unit1
+  187  ls
+  188  open first-git.txt
+  189  open first-git
+  190  git remote add origin https://github.com/akhoagland/first-git.git
+  191  git remote add origin https://github.com/akhoagland/first-git.git\ngit branch -M main\ngit push -u origin main
+  192  echo "# first-git" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/akhoagland/first-git.git\ngit push -u origin main
+  193  git remote add origin https://github.com/akhoagland/first-git.git\ngit branch -M main\ngit push -u origin main\n
+  194  open spring_forward
+  195  ls
+  196  open spring-forward
+  197  cd unit1
+  198  https://github.com/akhoagland/command-line-murder-mystery.git
+  199  unit1 https://github.com/akhoagland/command-line-murdergir clone https://github.com/akhoagland/command-line-murder-mystery.git
+  200  open.
+  201  ls
+  202  cd spring-forward
+  203  ls
+  204  cd unit1
+  205  https://github.com/akhoagland/command-line-murder-mystery
+  206  git clone https://github.com/akhoagland/command-line-murder-mystery.git
+  207  cd
+  208  pwd
+  209  ls
+  210  cd spring-forward
+  211  ls
+  212  cd unit1
+  213  ls
+  214  cat instructions
+  215  ls
+  216  cat
+  217  git clone https://github.com/akhoagland/command-line-murder-mystery.git
+  218  cd 'command-line-murder-mystery'
+  219  ls
+  220  open 'instructions'
+  221  open 'hint1'
+  222  head -n 20 people
+  223  open 'mystery'
+  224  ls
+  225  open 'mystery'
+  226  pwd
+  227  cd 'mystery'
+  228  cd 'people'
+  229  mystery/people
+  230  ls
+  231  head -n 20 people
+  232  cd
+  233  ls
+  234  cd command-line-murder-mystery
+  235  ls
+  236  cd 'mystery'
+  237  ls
+  238  cd 'streets'
+  239  ls
+  240  'cat hint 1'
+  241  cd 'murder mystery'
+  242  mwd
+  243  pwd
+  244  cd ../../
+  245  ls
+  246  open 'hint1'
+  247  open 'hint 2'
+  248  open 'hint2'
+  249  cd 'mystery'
+  250  ls
+  251  open 'crimescene'
+  252  grep 'CLUE' mystery
+  253  grep 'CLUE' crimescene
+  254  cd 'mystery'
+  255  ls
+  256  grep 'Annabel' people
+  257  grep 'Annabel' interviews
+  258  cd 'interviews'
+  259  ls
+  260  grep 'Annabel' interviews
+  261  cd ..
+  262  ls
+  263  open hint3
+  264  open 'mystery'
+  265  mystery
+  266  ls
+  267  streets
+  268  ls
+  269  open 'Haley_Street'
+  270  cd ..
+  271  open 'people'
+  272  cd ..
+  273  cd mystery
+  274  cd streets
+  275  git clone https://github.com/akhoagland/command-line-murder-mystery.git
+  276  pwd
+  277  cd 'command-line-murder-mystery'
+  278  ls
+  279  cd 'mystery'
+  280  ls
+  281  head -n 20 people
+  282  open 'crimescene'
+  283  grep 'CLUE' crimescene
+  284  Last login: Mon Jan 24 21:42:47 on ttys000\n(eval):6: command not found: evalexport\n➜  ~ git clone https://github.com/akhoagland/command-line-murder-mystery.git\nfatal: destination path 'command-line-murder-mystery' already exists and is not an empty directory.\n➜  ~ pwd\n/Users/annehoagland\n➜  ~ cd 'command-line-murder-mystery'\n➜  command-line-murder-mystery git:(main) ✗ ls\nLICENSE        cheatsheet.md  hint2          hint5          hint8\nLICENSE.txt    cheatsheet.pdf hint3          hint6          instructions\nREADME.md      hint1          hint4          hint7          mystery\n➜  command-line-murder-mystery git:(main) ✗ cd 'mystery'\n➜  mystery git:(main) ✗ ls\ncrimescene  interviews  memberships people      streets     vehicles\n➜  mystery git:(main) ✗ head -n 20 people\n***************\nTo go to the street someone lives on, use the file\nfor that street name in the 'streets' subdirectory.\nTo knock on their door and investigate, read the line number\nthey live on from the file.  If a line looks like gibberish, you're at the wrong house.\n***************\n\nNAME\tGENDER\tAGE\tADDRESS\nAlicia Fuentes\tF\t48\tWalton Street, line 433\nJo-Ting Losev\tF\t46\tHemenway Street, line 390\nElena Edmonds\tF\t58\tElmwood Avenue, line 123\nNaydene Cabral\tF\t46\tWinthrop Street, line 454\nDato Rosengren\tM\t22\tMystic Street, line 477\nFernanda Serrano\tF\t37\tRedlands Road, line 392\nEmiliano Wenk\tM\t90\tPaulding Street, line 490\nLarry Lapin\tM\t71\tAtwill Road, line 298\nJakub Gondos\tM\t61\tMitchell Street, line 187\nDerek Kazanin\tM\t55\tTennis Road, line 440\nJens Tuimalealiifano\tM\t83\tRockwood Street, line 205\nNikola Kadhi\tM\t75\tGlenville Avenue, line 226\n➜  mystery git:(main) ✗ open 'crimescene'\n➜  mystery git:(main) ✗ grep 'CLUE' crimescene\nCLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is at least 6' tall.\nCLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.\nCLUE: Questioned the barista at the local coffee shop. He said a person left right before they heard the shots. The name on their latte was Annabel, they had blond spiky hair and a New Zealand accent.\n➜  mystery git:(main) ✗ grep '\n
+  285  cd 'command-line-murder-mystery'
+  286  ls
+  287  cd 'mystery'
+  288  ls
+  289  head -n 20 people
+  290  open 'crimescene'
+  291  grep 'CLUE' crimescene
+  292  grep 'ANNABEL' people
+  293  pwd
+  294  cd interviews
+  295  ls
+  296  grep 'Annabel' interviews
+  297  head interviews | grep 'Annabel'
+  298  Grep "Annabel" *
+  299  cd ..
+  300  grep -r "Annabel" *
+  301  ls
+  302  cd streets
+  303  ls
+  304  open 'Hart-Place'
+  305  open 'Buckingham_Place'
+  306  open 'Haley_Street'
+  307  open 'Mattapan_Street'
+  308  open 'Hart_Place'
+  309  cd ..
+  310  ls
+  311  cd ..
+  312  ls
+  313  open 'hint4'
+  314  open 'hint6'
+  315  open 'hint7'
+  316  open 'hint8'
+  317  cd 'mystery'
+  318  ls
+  319  head vehicles
+  320  grep 'Annabel' vehicles
+  321  grep 'Oluwasegun Annabel' vehicles
+  322  grep -A 5 'Annabel' vehicles
+  323  grep -r 'Fuglsang' *
+  324  ls
+  325  cd memberships
+  326  ls
+  327  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | "Annabel"
+  328  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Annabel"
+  329  open Annabel Church
+  330  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -l "Annabel"
+  331  ls
+  332  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | "Annabel"| wc-l
+  333  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | "Annabel"| wc - l
+  334  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | "Annabel"| wc -l
+  335  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Annabel" | wc -l 
+  336  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Annabel Church" | wc -l 
+  337  cd ..
+  338  ls
+  339  open 'people'
+  340  cd 'interviews'
+  341  ls
+  342  cd ..
+  343  grep -r 'Fuglsang' *
+  344  grep -r 'Annabel Church' *
+  345  grep -r 'Annabel' *
+  346  grep -r 'New Zealand' *
+  347  ls
+  348  cd interviews
+  349  ls
+  350  open 'interview-94126412'
+  351  cd ..
+  352  ls
+  353  open 'crimescene'
+  354  cd ..
+  355  grep -r 'blond' *
+  356  grep -r 'Church' *
+  357  cd
+  358  ls
+  359  cd command-line-murder-mystery
+  360  ls
+  361  cd mystery
+  362  ls
+  363  cd interviews
+  364  ls
+  365  open 'interview-699607'
+  366  cd ..
+  367  ls
+  368  grep -A 5 'L337' vehicles
+  369  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  370  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens" | wc -l
+  371  ls
+  372  open 'people'
+  373  cd streets
+  374  ls
+  375  open 'Trapelo_Street'
+  376  open 'Claybourne_Street'
+  377  open 'Culbert Street'
+  378  open 'Culbert_Street'
+  379  open 'Plainfield_Street'
+  380  open 'Dunstable_Road'
+  381  open 'Andover_Road'
+  382  cd ..
+  383  ls
+  384  cd interviews
+  385  ls
+  386  open 'interview-2939888'
+  387  cd ..
+  388  grep -r 'Germuska' *
+  389  grep -r 'Bowers' *
+  390  interviews/interview-699607
+  391  open interviews/interview-699607
+  392  cd interviews
+  393  ls
+  394  open 'interview-699607'
+  395  run history
+  396  history
+  397  cd ..
+  398  touch solution.txt
+  399  open solution.txt
+
+
+Name of the killer: Jeremy Bowers
