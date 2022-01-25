@@ -1,0 +1,26 @@
+cat crimescene | grep CLUE
+cat people | grep Annabel
+cd streets
+cd ..
+head -n 40 streets/Hart_Place | tail -n 1
+head -n 179 streets/Buckingham_Place | tail -n 1
+cd interviews
+cat interview-47246024
+cat interview-699607
+cd ..
+grep -A 5 "L337" Vehicles
+cat people | grep Maher
+cat people | grep Bowers
+cat people | grep Germuska
+cat people | grep Owens
+head -n 224 streets/Andover_Road | tail -n 1  
+head -n 284 streets/Dunstable_Road | tail -n 1  
+head -n 275 streets/Plainfield_Street | tail -n 1  
+head -n 98 streets/Trapelo_Street | tail -n 1
+cd interviews
+cat interview-904020
+cat interview-9620713
+cat interview-29741223
+cat interview-54455315
+
+Jeremy Bowers was the killer
