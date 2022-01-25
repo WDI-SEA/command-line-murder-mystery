@@ -1,0 +1,184 @@
+Spent way too long on this deliverable, got too stuck only thinking of one way to the solution.
+
+I think it's Anabel Kal based on her height and overlapping memberships.
+
+➜  mystery git:(main) pwd                                                                                                                              
+/Users/nathanchesmar/Documents/General_Assembly/unit1/command-line-murder-mystery/mystery
+➜  mystery git:(main) ls 
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(main) cd ..                                                                                                                            
+➜  command-line-murder-mystery git:(main) grep -rC 2 'nabel' crimescene interviews people vehicles AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library delta.txt library.txt museum.txt 
+grep: crimescene: No such file or directory
+grep: interviews: No such file or directory
+grep: people: No such file or directory
+grep: vehicles: No such file or directory
+grep: AAA: No such file or directory
+grep: Delta_SkyMiles: No such file or directory
+grep: Museum_of_Bash_History: No such file or directory
+grep: Terminal_City_Library: No such file or directory
+grep: delta.txt: No such file or directory
+grep: library.txt: No such file or directory
+grep: museum.txt: No such file or directory
+➜  command-line-murder-mystery git:(main) pwd
+/Users/nathanchesmar/Documents/General_Assembly/unit1/command-line-murder-mystery
+➜  command-line-murder-mystery git:(main) cd .. mystery
+cd: string not in pwd: ..
+➜  command-line-murder-mystery git:(main) cd mystery
+➜  mystery git:(main) ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(main) cat AAA
+cat: AAA: No such file or directory
+➜  mystery git:(main) ls
+crimescene  interviews  memberships people      streets     vehicles
+➜  mystery git:(main) grep -r -C 2 'nabel' crimescene interviews people vehicles AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library delta.txt library.txt museum.txt
+crimescene-Crime Scene Report #575776622208
+crimescene-********
+crimescene:CLUE: Questioned the barista at the local coffee shop. He said a person left right before they heard the shots. The name on their latte was Annabel, they had blond spiky hair and a New Zealand accent.
+crimescene-
+crimescene-*******
+--
+people-Andrei Yazdani	M	78	Lee Street, line 250
+people-Kacper Napo	M	77	Willet Street, line 346
+people:Anabel Dominguez	F	67	Monument Avenue, line 248
+people-Sergey Medhin	M	20	Newbern Street, line 383
+people-Antonija Kim	F	56	Ryder Hill Road, line 453
+--
+people-Olga Richards	F	25	Hartford Court, line 204
+people-Xuanxu Barnard	F	34	Penniman Road, line 70
+people:Annabel Sun	F	26	Hart Place, line 40
+people-Casey Mccabe	M	20	Peter Parley Road, line 1
+people-Joseph Nielsen	M	46	Storey Place, line 482
+--
+people-Rachel Burrows	F	39	Dean Street, line 165
+people-Wenyi Bompastor	F	54	Staniford Street, line 232
+people:Oluwasegun Annabel	M	37	Mattapan Street, line 173
+people-Milka Spiegelburg	F	63	Howland Street, line 380
+people-Rosie Golas	F	70	Joyce Road, line 435
+--
+people-Anja Cojuhari	F	49	Keswick Street, line 368
+people-Ratanakmony Baniotis	M	21	Rindge Avenue, line 274
+people:Annabel Church	F	38	Buckingham Place, line 179
+people-Rares Hsing	M	49	Richard Avenue, line 280
+people-Travis Hammadi	M	17	Mount Bowdoin Terrace, line 14
+--
+people-Ava Rusakova	F	79	Fawndale Road, line 395
+people-Hakim Gomaa	M	18	Glenrose Road, line 100
+people:Annabel Fuglsang	M	40	Haley Street, line 176
+people-Diego Michan	M	74	Wyola Place, line 25
+people-Bogdan Zavadova	M	88	Garnet Road, line 112
+--
+people-Julia Hirano	F	71	Devonshire Street, line 207
+people-Trevor Peno	M	70	Violante Street, line 391
+people:Anabel Mesfioui	F	44	Lansdowne Street, line 16
+people-Kaylyn Chavanel	F	84	Maryland Street, line 254
+people-Margaux Jung	F	29	Foster Place, line 487
+--
+people-Elizabeth Veljkovic	F	73	Cowing Street, line 423
+people-Ahmed Gordon	M	54	Dalkeith Street, line 27
+people:Anabelle Ismail	F	72	Forest Place, line 168
+people-Olivera Lehtinen	F	67	Arion Street, line 228
+people-Gianluca Schmidt	M	88	Hemman Street, line 283
+--
+people-Robert Knowles	M	27	Worcester Square, line 139
+people-Steve Mun	M	71	Dodge Road, line 311
+people:Anabel Kal	F	25	Cedar Lane Way, line 15
+people-Guilherme Zhang	M	35	Melcher Street, line 434
+people-Steven Kostelecky	M	83	Maxfield Street, line 404
+--
+vehicles-Make: Volkswagen
+vehicles-Color: Pink
+vehicles:Owner: Anabelle Ismail
+vehicles-Height: 5'10"
+vehicles-Weight: 223 lbs
+--
+vehicles-Make: Volkswagen
+vehicles-Color: Yellow
+vehicles:Owner: Oluwasegun Annabel
+vehicles-Height: 5'1"
+vehicles-Weight: 240 lbs
+--
+vehicles-Make: BMW
+vehicles-Color: Orange
+vehicles:Owner: Annabel Church
+vehicles-Height: 5'5"
+vehicles-Weight: 201 lbs
+--
+vehicles-Make: Fiat
+vehicles-Color: Yellow
+vehicles:Owner: Annabel Sun
+vehicles-Height: 5'0"
+vehicles-Weight: 232 lbs
+--
+vehicles-Make: Mazda
+vehicles-Color: Pink
+vehicles:Owner: Annabel Fuglsang
+vehicles-Height: 5'11"
+vehicles-Weight: 241 lbs
+--
+vehicles-Make: Cadillac
+vehicles-Color: Green
+vehicles:Owner: Anabel Dominguez
+vehicles-Height: 5'1"
+vehicles-Weight: 134 lbs
+--
+vehicles-Make: Hyundai
+vehicles-Color: Red
+vehicles:Owner: Anabel Mesfioui
+vehicles-Height: 6'0"
+vehicles-Weight: 175 lbs
+--
+vehicles-Make: Cadillac
+vehicles-Color: White
+vehicles:Owner: Anabel Kal
+vehicles-Height: 5'8"
+vehicles-Weight: 177 lbs
+grep: AAA: No such file or directory
+grep: Delta_SkyMiles: No such file or directory
+grep: Museum_of_Bash_History: No such file or directory
+grep: Terminal_City_Library: No such file or directory
+grep: delta.txt: No such file or directory
+grep: library.txt: No such file or directory
+grep: museum.txt: No such file or directory
+➜  mystery git:(main) pwd   
+/Users/nathanchesmar/Documents/General_Assembly/unit1/command-line-murder-mystery/mystery
+➜  mystery git:(main) cd ..
+➜  command-line-murder-mystery git:(main) touch solution.txt
+➜  command-line-murder-mystery git:(main) ✗ ls
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions   solution.txt
+➜  command-line-murder-mystery git:(main) ✗ 
+
+Loose change + AAA, Delta SkyMiles, library, museum of Bash history member cards
+Annabel, blond spiky hair, New Zealand
+
+cat people | grep Annabel
+
+Annabel Sun	F	26	Hart Place, line 40
+Oluwasegun Annabel	M	37	Mattapan Street, line 173
+Annabel Church	F	38	Buckingham Place, line 179
+Annabel Fuglsang	M	40	Haley Street, line 176
+
+Using sort Delta_SkyMiles
+Anabel Dominguez
+Anabel Kal
+
+Using memberships git:(main) cut -d' '  -f2 Delta_SkyMiles | sort
+
+No last name Anabels
+
+Using sort AAA
+Anabel Dominguez
+Anabel Kal
+Annabel Church
+
+Using cut -d' ' -f2 AAA | sort
+No last name Anabels
+
+➜  memberships git:(main) cat Museum_of_Bash_History | grep Annabel
+Annabel Church
+Oluwasegun Annabel
+
+grep -C 4 "Mesfioui" {add files}
+
+grep -rC 2 nabel   
+crimescene  interviews  memberships people      streets     vehicles
