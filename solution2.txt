@@ -1,0 +1,8 @@
+cat crimescene | grep CLUE
+cat people | grep "Annabel"
+cd streets
+//head -n 40 streets/Hart_Place | tail -n 1
+cd interview
+cat interview-699607 - found evidence
+grep -A 5 "L337" vehicles
+suspects: Jacqui Maher , Jeremy Bowers, Joe Germuska, Erika Owens
