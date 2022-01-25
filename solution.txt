@@ -1,0 +1,11 @@
+cat crimescene | grep "CLUE"
+cat people | grep "Annabel"
+cd streets
+cd interviews
+see interview #47246024 - no
+see interview #9437737 - no
+see interview #699687
+see interview #871877
+cat vehicles | grep L337
+cat people | grep -e 'Joe\|Owens'
+cd memberships
