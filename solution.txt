@@ -1,0 +1,27 @@
+Commands Used
+cat crimescene ù grep CLUE
+cat people ù grep "Annabel"
+head -n 40 Hart_Place
+head -n 173 Mattapan_Street
+head -n 179 Buckingham_Place
+head -n 176 Haley_Street
+cat interview-47246024 interview-9437737 interview-699607 interview-871877
+grep -A 5 "L337" vehicles
+
+cat people | grep 'Maher\|Bowers\|Germuska\|Owens'
+head -n 275 streets/Plainfield_Street | tail -n 1
+head -n 98 streets/Trapelo_Street | tail -n 1
+head -n 224 streets/Andover_Road | tail -n 1
+head -n 284 streets/Dunstable_Road | tail -n 1
+
+
+cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library ù grep "Jacqui Maher"
+cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library ù grep "Jeremy Bowers"
+cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library ù grep "Joe Germuska"
+cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library ù grep "Erika Owens"
+
+
+Jeremy Bowers has a membership for all 4 companies.
+
+Killer Name: Jeremy Bowers
+Witness Name: Annabel Church
