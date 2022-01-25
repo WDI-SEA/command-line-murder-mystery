@@ -1,0 +1,24 @@
+Opened up the instructions using cat instructions
+
+cd mystery // go into the mystery directory
+
+cat crimescene | grep CLUE  // Clues about the murderer
+
+cat people | grep 'Annabel'  // Found 3 people with the first name Annabel and one with the last name Annabel
+
+head -n 179 streets/buckingham_place | tail -n 1  // looked through the various Annabel names, using their streets to find the various interviews.
+
+head interviews/interview-699607  // looked through the various interviews. 
+
+there was only one interview that gave more details --> License Plate "L337", Blue Honda
+
+grep -A 5 L337 vehicles  // lists out vehicles with that license plate. Then from there and the other clues elminated names until I got
+Erika Owens , Joe Germuska , Jeremy Bowers , and Jacqui Maher
+
+cd memberships // go inside memberships directory
+
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep 'Jeremy Bowers' // Put each name until I found the person who came out in all 4 memberships
+
+
+
+The name of the killer is Jeremy Bowers
