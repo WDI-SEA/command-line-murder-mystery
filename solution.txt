@@ -1,0 +1,74 @@
+COMMANDS:
+
+
+1421  cd command-line-murder-mystery
+ 1422  ls
+ 1423  cat instructions
+ 1424  cat crimescene | grep CLUE
+ 1425  cd mystery
+ 1426  cat crimescene | grep CLUE
+ 1427  grep "Annabel" people
+ 1428* cd ..
+ 1429* ls
+ 1430* cat cheatsheet.md
+ 1431  cat hint1
+ 1432  cd ..
+ 1433  ls
+ 1434  cat hint1
+ 1435  cd mystery
+ 1436  head -n 40 streets/Hart_Place | tail -n -1
+ 1437  ls
+ 1438  cd interview
+ 1439  cd interviews
+ 1440  ls
+ 1441  cat interview-47246024
+ 1442  head-n 173 streets/Mattapan_street | tail -n -1
+ 1443  head -n 173 streets/Mattapan_Street | tail -n -1
+ 1444  cd ..
+ 1445  head -n 173 streets/Mattapan_Street | tail -n -1
+ 1446  ls
+ 1447  cd interviews
+ 1448  ls
+ 1449  cat interview-9437737
+ 1450  cd ..
+ 1451  head -n 179 streets/Buckingham_Place | tail -n -1
+ 1452  cd interviews
+ 1453  cat interview-699607
+ 1454  cd ..
+ 1455  head -n 176 streets/Haley_Street | tail -n -1
+ 1456  cd interviews
+ 1457  cat interview-871877
+ 1458  cd ..
+ 1459  grep "License Plate L337" vehicles
+ 1460  grep -A 5 "License Plate L337" vehicles
+ 1461  grep -A 5 "Erika Owens" people
+ 1462  head -n 98 streets/Trapelo_Street | tail -n -1
+ 1463  cd interviews
+ 1464  cat interview-5455315
+ 1465  cd ..
+ 1466  grep -A 5 "Joe Germuska" people
+ 1467  head -n 275 streets/Plainfield_Street | tail -n -1
+ 1468  cd interviews
+ 1469  cat interview-29741223
+ 1470  cd ..
+ 1471  grep "Jeremy Bowers" people
+ 1472  head -n 284 streets/Dunstable_Road | tail -n -1
+ 1473  cd interviews
+ 1474  cat interview-9620713
+ 1475  cd ..
+ 1476  grep "Jacqui Maher" people
+ 1477  head -n 224 streets/Andover_Road | tail -n -1
+ 1478  cd interviews
+ 1479  cat interview-904020
+ 1480  cd ..
+ 1481  ls
+ 1482  cd memberships
+ 1483  ls
+ 1484  grep "Jeremy Bowers" AAA
+ 1485  grep "Jeremy Bowers" Delta_SkyMiles
+ 1486  grep "Jeremy Bowers" Museum_of_Bash_History
+ 1487  grep "Jeremy Bowers" Terminal_City_Library
+
+
+
+NAME OF THE KILLER: JEREMY BOWERS
