@@ -1,0 +1,66 @@
+cd command-line-murder-mystery
+  113  ls
+  114  cat instructions
+  115  ls
+  116  open cheatsheet.md
+  117  open hint1
+  118  head -n 20 people
+  119  open hint2
+  120  open hint3
+  121  cd mystery
+  122  ls
+  123  cd ..
+  124  open hint1
+  125  open hint2
+  126  open hint3
+  127  open hint4
+  128  open hint5
+  129  open hint6
+  130  open hint7
+  131  open hint8
+  132  cd mystery
+  133  ls
+  134  open people
+  135  head people
+  136  grep crimescene
+  137  grep "CLUE" crimescene
+  138  open people
+  139  head people
+  140  cd streets
+  141  cd ..
+  142  open hint1
+  143  open hint2
+  144  cd mystery
+  145  head -n 20 people
+  146  head -n 20 vehicels
+  147  head -n20 vehicles
+  148  open vehicles
+  149  grep "ANABELLE" people
+  150  grep "Annabel" people
+  151  grep "Annabel" vehicles
+  152  cdinterviews
+  153  cd interviews
+  154  head -n 173 streets Mattapan Street | tail -n 1
+  155  grep "honda" vehicles
+  156  cd ..
+  157  grep "honda" vehicles
+  158  grep"Honda" vehicle
+  159  grep "Honda" vehicles
+  160  grep "Blue" vehicles
+  161  grep "L337" vehicels
+  162  grep "L337" vehicles
+  163  grep -A 5 "L337" vehicles
+  164  cd memberships
+  165  ls
+  166  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Erika Owens"
+  167  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Gormuska"
+  168  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  169  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jaqui Maher"
+  170  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  171  cd ..
+  172  open vehicles
+  173  open people
+  174  grep -A 4 "Jeremy Bowers" people
+  175  grep -A 4 "Joe Germuska" people
+
+Killer - Jeremy Bowers
