@@ -3,3 +3,11 @@ Try poking around what's in a file by using the 'head' command:
   head -n 20 people
 
 This will show you the first 20 lines of the 'people' file.
+
+
+------ 
+To go to the street someone lives on, use the file
+for that street name in the 'streets' subdirectory.
+To knock on their door and investigate, read the line number
+they live on from the file.  If a line looks like gibberish, you're at the wrong house.
+***************
