@@ -1,0 +1,98 @@
+287  cat crimescene | grep CLUE
+  288  ls
+  289  cd memberships
+  290  ls
+  291  cat AAA | grep Annabel
+  292  cat Delta_SkyMiles
+  293  cat Delta_SkyMiles | grep Annabel
+  294  ls
+  295  cat Museum_of_Bash_History | grep Annabel
+  296  cat Terminal_City_Library | grep Annabel
+  297  cd ..
+  298  ls
+  299  cat people| grep Annabel
+  300  cat vehicles
+  301  ls
+  302  cat people | grep Annabel
+  303  cd streets
+  304  ls
+  305  cat Hart Place
+  306  cat Hart_Place
+  307  cat Hart_Place | grep Annabel
+  308  cat Hart_Place | grep people
+  309  cd ..
+  310  ls
+  311  cd interviews
+  312  ls
+  313  cat streets
+  314  ls
+  315  cd ..
+  316  cat streets
+  317  clear
+  318  ls
+  319  cd ..
+  320  ks
+  321  ls
+  322  cat hint1
+  323  head -20 people
+  324  cat hint2
+  325  cat hint3
+  326  cat hint4
+  327  cat hint5
+  328  cat hint6
+  329  ls
+  330  cd mystery
+  331  ls
+  332  cat people | Annabel
+  333  cat people | grep Annabel
+  334  head -n 173 streets/Mattapan_Street | tail -n 1
+  335  head -n 40 streets/Hart_Place | tail -n 1
+  336  head -n 179 streets/Buckingham_Place | tail -n 1
+  337  head -n 176 streets/Haley_Street | tail -n 1
+  338  ls
+  339  cd interview
+  340  cd interviews
+  341  ls
+  342  cat interview-699607
+  343  cat interview-9437737
+  344  cat interview-699607
+  345  cat interview-47246024
+  346  cat interview-871877
+  347  cd ..
+  348  ls
+  349  cat vehicles | grep L337
+  350  grep -A 5 'License Plate L337' vehicles
+  351  ls
+  352  cat people | grep Erika Owens
+  353  cat people | grep Erika_Owens
+  354  cat people | grep Erika
+  355  cat people | grep Joe
+  356  cat people | Jeremy
+  357  cat people | grep Jeremy
+  358  cat people | grep Jacqui
+  359  head -n 284 streets/Dunstable_Road | tail -n -1
+  360  head -n 56 streets/Trapelo_Street | tail -n -1
+  361  head -n 98 streets/Trapelo_Street | tail -n -1
+  362  head -n 224 streets/Andover_Road | tail -n -1
+  363  head -n 275 streets/Plainfield_Street | tail -n -1
+  364  cd..
+  365  cd ..
+  366  ls
+  367  cd mystery
+  368  cd interviews
+  369  cat interviews-5755315
+  370  cat interview-5755315
+  371  ls
+  372  cat interview-5455315
+  373  cat interview-9620713
+  374  cat interview-904020
+  375  cat interview-29741223
+  376  cd ..
+  377  ls
+  378  cd memberships
+  379  ls
+  380  cat AAA | grep Bowers
+  381  cat Delta_SkyMiles | grep Bowers
+  382  cat Museum_of_Bash_History| grep Jeremy
+  383  cat Terminal_City_Librart | grep Jeremy
+  384  cat Terminal_City_Library | grep Jeremy
