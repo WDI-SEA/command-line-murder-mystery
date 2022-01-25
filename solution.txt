@@ -1,0 +1,38 @@
+1.
+
+a. cat crimescene | grep CLUE
+- 6' or taller
+- Wallet with memberships to AAA, Delta SkyMiles, local library, and museum of bash history
+- barista said there was a person with the name Annabel there around the time of the crime
+
+b. cat *membership* | grep Annabel
+- * searched 4 memberships listed in clues*
+- Annabel Church
+- Oluwasegun Annabel
+
+c. cat people | grep Annabel
+- found addresses of the above two including street and line number
+
+d. head -n *line number *street name | tail -n 1
+- this gave the interview numbers of Annabel Church and Oluwasegun Annabel
+
+e. cat interview-699607
+- Blue Honda with License that started with L337 and ended with 9
+- Oluwasegun Annabel interview states she does not appear to be a witness
+
+f. cat vehicles | grep -A 5 "L337"
+- checked this list and found 4 Blue Hondas with drivers taller than 6'--Erika Owens, Joe Germuska, Jeremy Bowers, and Jacqui Maher
+
+g. cat people | grep *4 suspects
+- found line number and street name for each suspect
+
+h. head -n *line number *street Name | tail -n 1
+- found interview number for each
+
+i. Cat interview-*interview number
+- Bowers is the only suspect remaining
+
+j. cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep -c "Jeremy Bowers"
+- Jeremy Bowers was a member of all 4 membership cards found at the scene of the crime
+
+2. Jeremy Bowers is prolly whodunit
