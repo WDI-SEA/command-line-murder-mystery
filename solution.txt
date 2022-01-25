@@ -1,0 +1,301 @@
+  233  git clone https://github.com/zbrose/command-line-murder-mystery.git
+  234  ls
+  235  cd command-line-murder-mystery
+  236  ls
+  237  cat instructions
+  238  cd mystery
+  239  ls
+  240  cat crimescene
+  241  cd ..
+  242  cat instructios
+  243  cat instructions
+  244  cd msytery 
+  245  cd mystery
+  246  cat crimescene | grep CLUE
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd mystery
+  251  ls
+  252  cat people
+  253  cd ..
+  254  ls
+  255  instructions
+  256  cat instructions
+  257  cd mystery
+  258  ls
+  259  cat crimescene | grep CLUE
+  260  cat people | grep Annabel
+  261  \tls
+  262  cd memberships
+  263  ls
+  264  cat 1. txt
+  265  cat 1.txt
+  266  cat Delta_Skymiles
+  267  cat Delta_Skymiles | grep Annbel
+  268  cat Delta_Skymiles | grep Annabel
+  269  cat Delta_Skymiles 
+  270  cat Delta_Skymiles | grep Annabel
+  271  cd ..
+  272  lds
+  273  ls
+  274  cd ..
+  275  ls
+  276  cat instructions
+  277  cd mystery
+  278  ls
+  279  cat crimescene | grep CLURE
+  280  cat crimescene | grep CLUE
+  281  ls
+  282  cd interview
+  283  cd interviews 
+  284  ls
+  285  cat interviewinterview-4950099 
+  286  cat interview-4950099
+  287  cd streets
+  288  cd ..
+  289  cd streets
+  290  ls
+  291  cd ..
+  292  ls
+  293  cat people | grep Annabel
+  294  cd crimescene 
+  295  cd crimescene | grep CLUE
+  296  cat crimescene | grep CLUE
+  297  https://github.com/zbrose/command-line-murder-mystery.git
+  298  git clone https://github.com/zbrose/command-line-murder-mystery.git
+  299  ls
+  300  cd command-line-murder-mystery
+  301  ls
+  302  cd mystery
+  303  cat crimescene | grep CLUE
+  304  ls
+  305  cd memberships
+  306  ls
+  307  cat AAA | grep Annabel
+  308  cat Delta_Skymiles | grep Annabel
+  309  cat Delta_SkyMiles | grep Annabel
+  310  cat library.txt 
+  311  cat library.txt | grep Annabel
+  312  cat Terminal_City_Library | grep Annabel
+  313  cat Museum_Of_Bash_History | grep Annabel
+  314  cd ..
+  315  ls
+  316  cd interviews
+  317  ls
+  318  cd ..
+  319  ls
+  320  clear
+  321  ls
+  322  cd memberships
+  323  ls
+  324  ls -a
+  325  cat vehicles
+  326  cd ..
+  327  cd interviews
+  328  cd ..
+  329  cat interviews | grep Annabel
+  330  cd interviews
+  331  cat interviews | grep Annabel
+  332  ls
+  333  cd ..
+  334  cd memberships
+  335  cat delta.txt
+  336  cd ..
+  337  ls
+  338  cat crimescene | grep Annabel
+  339  cat people
+  340  cat people | grep Annabel
+  341  cat vehicles
+  342  ls
+  343  cd interviews
+  344  ls
+  345  cd ..
+  346  cat crimescene
+  347  cat crimescene | grep barista
+  348  ls
+  349  cd memberships
+  350  ls
+  351  cat 1.txt
+  352  ls
+  353  cat AAA
+  354  ls
+  355  cat AAA | grep Annabel
+  356  cat Delta_SkyMiles | grep Annabel
+  357  cat delta.txt | grep Annabel
+  358  cat Delta_SkyMiles | grep Church
+  359  cd ..
+  360  ls
+  361  cd ..
+  362  ls
+  363  cat hint1
+  364  cd mystery
+  365  ls
+  366  head -n 20 people
+  367  cd streets
+  368  cat Hart Place 
+  369  ls
+  370  cat line 179
+  371  cat 179
+  372  cat Hart_Place
+  373  cat Mattapan_Street
+  374  cat Buckingham_Place
+  375  cat Haley_Street
+  376  ls
+  377  cd ..
+  378  ls
+  379  head -n 20 people
+  380  cat people | grep Annabel
+  381  cat Annabel Sun
+  382  cat Annabel Sun\tF\t26\tHart Place, line 40
+  383  cat Annabel
+  384  cat Annabel Church
+  385  cat 40
+  386  cd streets
+  387  cat 40
+  388  Hart_
+  389  Hart_Place cat 40
+  390  head -n 20 Hart_Place
+  391  cat Hart_Place, line 40
+  392  cat Hart_Place
+  393  cat line 40
+  394  cat 40
+  395  cat line
+  396  cat Hart_Place 40
+  397  cd ..
+  398  head -n 10 people
+  399  cat people | grep Annabel
+  400  cd streets
+  401  ls
+  402  cat 179
+  403  head -n 10 Buxkingham_Place 
+  404  head -n 10 Buckingham_Place
+  405  cat line 179
+  406  cat 1
+  407  cat 38 Buckingham_Place
+  408  ls
+  409  cat Buckingham_Place_179
+  410  cd ..
+  411  cat hint2
+  412  cat crimescene | grep CLUE
+  413  cd mystery
+  414  cat crimescene | grep CLUE
+  415  cat people | grep Annabel
+  416  cd streets
+  417  cd ..
+  418  ls
+  419  cat line 173
+  420  cd steets
+  421  cd streets
+  422  ;s
+  423  Buckingham_Place head -n 10 line 179
+  424  head -n 10 Buckingham_Place cat line 179
+  425  head -n Hart_Place
+  426  hard -n 10 Hart_Place
+  427  head -n 10 Hart_Place
+  428  head -n 10 Buckingham_Place
+  429  head -n 10 Hart_Place cat line 40
+  430  head -n 10 Hart_Place 40
+  431  head -n 10 Mattapan_Street
+  432  head -n 10 26 Hart_Place
+  433  head -n 10 line 179
+  434  cd ..
+  435  cat hint3
+  436  cd mystery
+  437  ls
+  438  head -n 20 vehicles
+  439  cat vehicles | grep Annabel
+  440  cat vehicles
+  441  cd ..
+  442  cd mystery
+  443  ls
+  444  head
+  445  ls
+  446  cd streets
+  447  ls
+  448  cd ..
+  449  cat hint4
+  450  hint5
+  451  cat hint5
+  452  cd streets
+  453  cd mystery
+  454  cd streets
+  455  head -n 173 streets/Mattapan_Street | tail -n 1
+  456  cd ..
+  457  head -n 173 streets/Mattapan_Street | tail -n 1
+  458  ls
+  459  cd interviews
+  460  cat interview-9437737
+  461  cd ..
+  462  head -n 179 streets/Buckingham_Place | tail -n 1
+  463  cd interviews
+  464  cat interview-699607
+  465  cd..
+  466  cd ..
+  467  cd vehciles
+  468  cd vehicles
+  469  cat vehciles | grep L337
+  470  cat vehicles | grep L337
+  471  cat vehicles | grep blue Honda L337
+  472  cat vehicles
+  473  cat vehicles | make.blue Honda
+  474  cat vehicles | grep make.blue Honda
+  475  cat vehicles | grep -E 'blue|Honda|L337'
+  476  sort vehicles
+  477  cat vehicles | grep 'blue\|Honda\|L337'
+  478  cat vehicles
+  479  grep 'blue\|Honda\|L337' vehicles
+  480  grep -w 'blue\|Honda\|L337' 
+  481  grep -w 'blue\|Honda\|L337' vehicles
+  482  cat vehicles
+  483  grep -e 'blue\|Honda\|L337' vehicles
+  484  clear
+  485  cd ..
+  486  cat hint5
+  487  cat hint6
+  488  cd mystery
+  489  head -n 10 vehicles
+  490  head -n 20 vehicles
+  491  cut -d: fl2 vehicles | grep blue
+  492  cut -d: f2 vehicles | grep blue
+  493  cut -d: -f2 vehicles | grep blue
+  494  cut -d: -f2 vehicles | grep' blue'
+  495  cut -d: -f2 vehicles | grep 'blue'
+  496  cat vehicles
+  497  cat vehicles | grep "blue"
+  498  cat vehicles | grep blue
+  499  cat vehicles
+  500  cd ..
+  501  cat hint7
+  502  grep -A "L337" mystery/vehicles
+  503  ls
+  504  cd mystery
+  505  cd..
+  506  cd ..
+  507  grep -A 5 "L337" mystery/vehicles
+  508  grep -B 5 "L337" mystery/vehicles
+  509  cd mystery
+  510  cat people | grep Erika Owens
+  511  cat people | grep Erika
+  512  cat people | grep -e 'Erika\|Joe\|Jeremy\|Jacqui'
+  513  cd streets
+  514  head -n 98 streets/Trapelo_Street | tail -n 1
+  515  cd ..
+  516  head -n 98 streets/Trapelo_Street | tail -n 1
+  517  cd interviews
+  518  cat interview-5455315
+  519  cd ..
+  520  head -n 275 streets/Plainfield_Street | tail -n 1
+  521  cd interviews
+  522  cat interview-29741223
+  523  cd ..
+  524  head -n 284 streets/Dunstable_Road | tail -n 1
+  525  cd interviews
+  526  cat interview-9620713
+  527  cd ..
+  528  head -n 224 streets/Andover_Road | tail -n 1
+  529  cd interviews
+  530  cat interview-904020
+  531  cd ..
+  532  touch solution.txt
+  Killer : Jeremy Bowers
