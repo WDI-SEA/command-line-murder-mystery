@@ -1,0 +1,236 @@
+Solution:
+Jeremy Bowers
+
+History:  376  cd General_Assembly
+  377  ls
+  378  cd Unit-One
+  379  ls
+  380  cd command-line-murder-mystery
+  381  ls
+  382  cd mystery
+  383  ls
+  384  grep -R "Church" interviews
+  385  grep -R "Annabel" interviews
+  386  cd ..
+  387  ls
+  388  cd mystery
+  389  ls
+  390  cd ..
+  391  ls
+  392  code instructions
+  393  ls
+  394  code hint2
+  395  code hint3
+  396  l
+  397  ls
+  398  cd mystery
+  399  ls
+  400  grep "head" people
+  401  code hint2
+  402  grep "head" vehicles
+  403  ls
+  404  cd ..
+  405  code hint4
+  406  ls
+  407  cd mystery
+  408  ls
+  409  preg "Annabel" people
+  410  grep "Annabel" people
+  411  ls
+  412  grep "Buckingham" streets
+  413  cd streets
+  414  ls
+  415  cd ..
+  416  ls
+  417  cd ..
+  418  code hint5
+  419  code hint6
+  420  ls
+  421  cd mystery
+  422  ls
+  423  grep "Annabel" interviews
+  424  grep R- "Annabel" interviews
+  425  grep -R "Church" interviews
+  426  grep -R "Fuglsang" interviews
+  427  grep -R "Sun"
+  428  grep -R "Sun" interviews
+  429  grep -R "Church" interviews
+  430  grep -R "Annabel" interviews
+  431  grep -R "Oluwasegun" interviews
+  432  grep -R "Fuglsang" interviews
+  433  cd ..
+  434  ls
+  435  cd mystery
+  436  ls
+  437  grep -R "Annabel" interviews
+  438  grep -R "Oluwasegun" interviews
+  439  ls
+  440  grep -R "Hart" interviews
+  441  grep -R "Mattapan" interviews
+  442  l
+  443  ls
+  444  code vehicles
+  445  grep "Annabel" vehicles
+  446  greg "honda" vehicles
+  447  grep "honda" vehicles
+  448  grep "Honda" vehicles
+  449  grep head "Annabel" vehicles
+  450  greg -n "Annabel" vehicles
+  451  grep -n "Annabel" vehicles
+  452  head -n 173 streets/Mattapan_Street | tail -n 1
+  453  head -n 179 streets/Mattapan_Street | tail -n
+  454  ls
+  455  cd interviews
+  456  code INTERVIEW #9437737
+  457  ls
+  458  code INTERVIEW-9437737
+  459  code interview-9437737
+  460  ls
+  461  cd ..
+  462  ls
+  463  head -n 173 streets/Mattapan_Street | tail -n 1
+  464  code interview-322305
+  465  ls
+  466  cd interviews
+  467  code interview-322305
+  468  \thead -n 179 streets/Buckingham_Place | tail -n 1
+  469  cd ..
+  470  ls
+  471  \thead -n 179 streets/Buckingham_Place | tail -n 1
+  472  cd interviews
+  473  code interview-699607
+  474  ls
+  475  cd ..
+  476  ls
+  477  grep -n "1337"
+  478  greg -n "1337" vehicles
+  479  grep -m "1337" vehicles
+  480  ls
+  481  cd ..
+  482  ls
+  483  code cheatsheet.pdf
+  484  ls
+  485  head [mystery]
+  486  head [hint2]
+  487  head hint2
+  488  ls
+  489  mystery
+  490  ls
+  491  cd vehicles
+  492  head
+  493  ls
+  494  head vehicles
+  495  ls
+  496  head -n 179 streets/Buckingham_Place | tail -n 1
+  497  ls
+  498  grep "blue" bhicles
+  499  grep "blue" vehicles
+  500  ls
+  501  code vehicles
+  502  grep "Blue" vehicles
+  503  gre n- "blue" vehicles
+  504  grep n- "Blue" vehicles
+  505  ls
+  506  cd streets
+  507  ls
+  508  cd ..
+  509  ls
+  510  head -n40 Hart_Place | tail -n 1
+  511  head -n 40 streets/Hart Place | tail -n 1
+  512  head -n 40 Hart_Place | tail -n 1
+  513  head -n 40 streets/Hart_Place | tail -n 1
+  514  head -n 179 streets/Mattapan_Street | tail -n 1
+  515  head -n 179 streets/Buckingham_Place | tail -n 1
+  516  head -n 179 streets/Mattapan_Street | tail -n 1
+  517  head -n 176 streets/Haley_Street | tail -n 1
+  518  head -n 179 streets/Buckingham_Place | tail -n 1
+  519  head -n 173 streets/Mattapan_Street | tail -n 1
+  520  head -n 40 streets/Hart_Place | tail -n 1
+  521  ls
+  522  cd interviews
+  523  code interview-871877
+  524  code interview-699607
+  525  code interview-9437737
+  526  code interview-47246024
+  527  ls
+  528  cd ..
+  529  ls
+  530  head -n 10 vechiles | tail -n 5
+  531  head -n 10 vehicles | tail -n 5
+  532  head -n 10 vehicles/"Blue" | tail -n 5
+  533  grep "1337" vehicles
+  534  grep "Honda" vehicles
+  535  head n- 20 vehicles
+  536  head -n 20 vehicles
+  537  grep "License Plate L337" vechiles
+  538  grep "L337"
+  539  grep "L337" vehicles
+  540  grep -i "L337.9" vechile
+  541  grep -i "L337.9" vehicles
+  542  ls
+  543  grep -i "L33.9" vechiles
+  544  grep -i
+  545  ls
+  546  grep -i "L33.9" vehicles
+  547  grep -i "L337..9" vehicles
+  548  head vechiles
+  549  head n-20 vehicles
+  550  grep -i "L337..9.Make: Honda" vehicles.
+  551  grep -i "L337..9Make: Honda" vehicles
+  552  grep -i "L337..9........" vehicles
+  553  grep -i "L337..9.." vehicles
+  554  head -i 20 "L337..9" vehicles
+  555  grep -i "L337..9.M" vehiclesrep -i "L337..9.." vehicles
+  556  grep -i "L337..9.M" vehicles
+  557  grep -i "L337..9 M" vehicles3
+  558  grep -i "L337..9 M" vehicles
+  559  grep -i "L337..9 M" vehiclesls
+  560  ls
+  561  cd ..
+  562  ls
+  563  code hint7
+  564  ls
+  565  cd mystery
+  566  ls
+  567  grep -A "L337" mystery/vehicles
+  568  grep -A "L337..9" vehicles
+  569  grep -A 5 "L337..9" vehicles
+  570  ls
+  571  grep "Maher" people
+  572  pwd
+  573  \nhead -n 224 mystery/people | tail -n 1
+  574  head -n 224 streets/Andover_Road | tail -n 1
+  575  grep "Bowers" people
+  576  head -n 284 streets/Dunstable_Road | tail -n 1
+  577  code interview-904020
+  578  grep "Germuska" people
+  579  head -n 275 streets/Plainfield_Street | tail -n 1
+  580  grep "Bilings" people
+  581  grep "Billings" people
+  582  head -n 19 streets/Culbert_Street | tail -n 1
+  583  grep "Pilhofer" people
+  584  head -n 145 streets/Claybourne-Street | tail -n 1
+  585  head -n 145 streets/Claybourne_Street | tail -n 1
+  586  grep "Owens" people
+  587  \nhead -n 98 streets/Trapelo_Street | tail -n 1
+  588  cd interviews
+  589  ls
+  590  code interview-904020
+  591  code interview-9620713
+  592  code interview-29741223
+  593  code interview-2939888
+  594  code interview-1767435
+  595  code interview-5455315
+  596  ls
+  597  cd ..
+  598  ls
+  599  cat solution
+  600  ls
+  601  cd ..
+  602  ls
+  603  cat solution
+  604  ls
+  605  git status
+  606  cd ..
+  607  ls
+  608  git status
