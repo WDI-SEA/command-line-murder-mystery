@@ -1,0 +1,36 @@
+cat crimescene | grep CLUE
+cat people | grep Annabel
+cd streets
+cd Hart_Place
+cd interviews
+SEE INTERVIEW #47246024 (NO)
+SEE INTERVIEW #9437737 (NO)
+SEE INTERVIEW #699607 (YES)
+SEE INTERVIEW #871877 (NO)
+grep -A 5 "L337" vehicles
+
+Jacqui Maher (NO)
+Jeremy Bowers (SUSPECT)
+Joe Germuska (NO)
+Erika Owens (NO)
+
+cat people | grep Maher
+head -n 40 streets/Andover_Road | tail -n 1
+SEE INTERVIEW #904020
+
+cat people | grep Bowers
+head -n 40 streets/Dunstable_Road | tail -n 1
+SEE INTERVIEW #9620713
+
+cat people | grep -e 'Germuska\|Owens'
+
+head -n 40 streets/Plainsfield_Street | tail -n 1
+SEE INTERVIEW #29741223
+
+head -n 40 streets/Plainsfield_Street | tail -n 1
+SEE INTERVIEW #5455315
+
+
+cat interview-904020
+
+JEREMY
