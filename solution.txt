@@ -1,0 +1,1 @@
+cd to change dir, ls to list, cat to read files, touch to create this text file, head and tail to pick which lines to return, grep to search files, > and >> to add text to the file! Jeremy Bowers
