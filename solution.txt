@@ -1,0 +1,147 @@
+Killer Jeremy Bowers
+  240  cd command-line-murder-mystery
+  241  ls
+  242  cat instructions
+  243* touch oneFile twoFile redFile blueFile
+  244* ls
+  245* add .
+  246* git add .
+  247* git status
+  248  touch solution.txt
+  249  ls
+  250  cat hint 1
+  251  cat hint1
+  252  cat mystery
+  253  cd mystery
+  254  ls
+  255* git remote add origin https://github.com/tristonpalacios/first-git.git\ngit branch -M main\ngit push -u origin main
+  256  cat crimescene
+  257  ls
+  258  ca people
+  259  cat people
+  260  ls
+  261  cat interviews
+  262  cd interviews
+  263  ls
+  264  cd ..
+  265  ls
+  266  cd memberships
+  267  ls
+  268  cat museum
+  269  cat
+  270  cat Museum_of_Bash_History
+  271  ls
+  272  cat delta
+  273  cat
+  274  cat Delta_SkyMiles
+  275  ls
+  276  cd ..
+  277  ls
+  278  cd streets
+  279  ls
+  280  cat Buckingham_Place
+  281  cd..
+  282  cd ..
+  283  ls
+  284  cd memberships
+  285  ls
+  286  cat Delta_SkyMiles AAA Museum_of_Bash_History
+  287  grep agrep "Annabel" people
+  288  grep "Annabel" people
+  289  cd ..
+  290  grep "Annabel" people
+  291  grep "CLUE"
+  292  ls
+  293  grep "CLUE" crimescene
+  294  head -n 173 streets/Mattapan_Street | tail -n 1
+  295  grep "9437737" interviews
+  296  cd interviews
+  297  ls
+  298  cat #9437737
+  299  cat interview-9437737
+  300  cat #9437737
+  301  cat interview-9437737
+  302  cd ..
+  303  grep -A 5 "L337" mystery/vehicles
+  304  ls
+  305  cd vehicles
+  306  cat vehicles
+  307  grep -A 5 "L337" mystery/vehicles
+  308  cd ..
+  309  ls
+  310  cd mystery
+  311  ls
+  312  cd memberships
+  313  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Sm
+  314  ls
+  315  cat Delta_SkyMiles  AAA Museum_of_Bash_History Annabel | grep "John Smith"
+  316  cat Delta_SkyMiles  AAA Museum_of_Bash_History | grep "Annabel"
+  317  cat Delta_SkyMiles  AAA Museum_of_Bash_History | grep "Anabel"    
+  318  cat Delta_SkyMiles  AAA Museum_of_Bash_History Terminal_City_Library 
+  319  ~/Documents/GA-Spring-Forward/command-line-murder-mystery/mystery/memberships (main*) » cat Delta_SkyMiles  AAA Museum_of_Bash_History Terminal_City_Library | grep "Annabel"
+  320  cat Delta_SkyMiles  AAA Museum_of_Bash_History Terminal_City_Library | grep "Annabel"  
+  321  cat Delta_SkyMiles  AAA Museum_of_Bash_History | grep -c  "Annabel"  
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd vehicles
+  326  ls
+  327  cat vehicles
+  328  ls
+  329  ls -a
+  330  cd ..
+  331  ls
+  332  code solution.txt
+  333  open solution.txt
+  334  grep -A 5 -E 'L337.*9' vehicles | grep -B 1 -A 4 "Make: Honda" | grep -B 2 -A 3 "Color: Blue" | grep -B 4 -A 1 "Height: 6'"
+  335  cd mystery
+  336  grep -A 5 -E 'L337.*9' vehicles | grep -B 1 -A 4 "Make: Honda" | grep -B 2 -A 3 "Color: Blue" | grep -B 4 -A 1 "Height: 6'"
+  337  cd memberships
+  338  ls
+  339  cat AAA | grep -f Delta_SkyMiles
+  340  grep Joe members
+  341  cat AAA | grep -f Delta_Skymiles > ../members
+  342  cd..
+  343  cd ..
+  344  grep Joe members
+  345  grep Jeremy members
+  346  history
+  347  cd ..
+  348  ls
+  349  cd mystery
+  350  ls
+  351  head -n 40 streets/Hart_Place | tail -n 1
+  352  ls
+  353  cd interviews
+  354  ls
+  355  cat interview-47246024
+  356  cat interview-699607
+  357  cd ..
+  358  grep -A 4 L337 vehicles | grep -A 3 Honda | Grep -A 2 Blue
+  359  cat AAA | grep -f Delta_Skymiles > ../members
+  360  grep jeremy
+  361  grep Jeremy
+  362  ls
+  363  cat AAA | grep -f Delta_SkyMiles > ../members
+  364  cd memberships
+  365  cat AAA | grep -f Delta_SkyMiles > ../members
+  366  cd ..
+  367  grep Jeremy
+  368  grep Jeremy members
+  369  ls
+  370  cd ..
+  371  ls
+  372  code solution.txt
+  --------------------------- In Class
+  cat crimescene | grep CLUE
+  cat people | grep Annabel
+  cd streets
+  cat Hart_Place
+  SEE INTERVIEW #47246024
+  head -n 40 streets/Hart_Place | tail -n 1
+ head -n 173 streets/Mattapan_Street | tail -n 1 
+ head -n 179 streets/Buckingham_Place | tail -n 1
+ head -n 176 streets/Haley_Street | tail -n 1
+ cat interview interview-699607 
+ grep -A 4 L337 vehicles | grep -A 3 Honda | grep -A 2 Blue
+cat AAA | grep -f Delta_SkyMiles > ../members
