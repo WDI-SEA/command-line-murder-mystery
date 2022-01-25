@@ -96,3 +96,5 @@
   382  cat Museum_of_Bash_History| grep Jeremy
   383  cat Terminal_City_Librart | grep Jeremy
   384  cat Terminal_City_Library | grep Jeremy
+
+  2.The killer is Jeremy Bowers
