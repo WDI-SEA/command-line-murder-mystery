@@ -1,0 +1,63 @@
+  108  git clone https://github.com/clairxc/command-line-murder-mystery.git
+  109  cd command-line-murder-mystery
+  110  ls
+  111  cd instructions
+  112  cat instructions
+  113  cd mystery
+  114  cd ..
+  115  touch solution.txt
+  116  cat hint1
+  117  grep "CLUE" crimescene
+  118  cd ..
+  119  cd command-line-murder-mystery
+  120  grep "CLUE" crimescene
+  121  cd mystery
+  122  grep "CLUE" crimescene
+  123  head -n 20 people
+  124  head -n vehicles
+  125  head -n 20 vehicles
+  126  grep "Annabel" people
+  127  head -n 173 streets/Mattapan_Street | tail -n 1
+  128  grep "Honda" vehicles
+  129  grep "Blue" vehicles
+  130  grep "L337" vehicles
+  131  head -n vehicles
+  132  head -n people
+  133  cat hint1
+  134  grep "9437737" interview
+  135  grep "Annabel" AAA
+  136  grep "Annabel" memberships
+  137  cd memberships
+  138  grep "Annabel" AAA
+  139  cd Delta_SkyMiles
+  140  cd memberships
+  141  grep "Annabel" Delta_SkyMiles
+  142  grep "Annabel" Museum_of_Bash_History
+  143  grep "Annabel" library
+  144  grep "Annabel" library.txt
+  145  grep "Annabel" AAA
+  146  cd mystery
+  147  cd ..
+  148  grep "Annabel" people
+  149  grep "Fuglsang" memberships
+  150  grep "Fuglsang" vehicles
+  151  cd memberships
+  152  grep "Fuglsang" AAA
+  153  grep "Fuglsang" Delta_SkyMiles
+  154  grep "Fuglsang" Museum_of_Bash_History
+  155  cd ..
+  156  grep "Annabelle" people
+  157  grep AAA Delta_SkyMiles Museum_of_Bash_History | grep "Annabel"
+  158  cd memberships
+  159  grep AAA Delta_SkyMiles Museum_of_Bash_History | grep "Annabel"
+  160  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Annabel"
+  161  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Annabel"
+  162  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Annabel Church"
+  163  cd solution.txt
+  164  cd ..
+  165  cd solution.txt
+  166  ls
+  167  git status
+  168  code .
+
+  Annabel Church
