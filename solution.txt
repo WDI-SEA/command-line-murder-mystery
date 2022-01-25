@@ -1,0 +1,34 @@
+  599  cd mystery
+  600  ls
+  601  cat crimescne | grep CLUE
+  602  cat crimescenes | grep CLUE
+  603  cat crimescene | grep CLUE
+  604  cat people | grep Annabel
+  605  ls
+  606  head -n 40 streets/Hart_Place | tail -n 1
+  607  head -n 173 streets/Buckingham_Place | tail -n 1
+  608  head -n 173 streets/Mattapan_Street | tail -n 1
+  609  head -n 179 streets/Buckingham_Place | tail -n 1
+  610  head -n 176 streets/Haley_Street | tail -n 1
+  611  ls
+  612  cd interviews
+  613  ls
+  614  cd ..
+  615  head interview-9437737
+  616  head interviews/interview-9437737
+  617  head interviews/interview-47246024
+  618  head interviews/interview-699607
+  619  head interviews/interview-871877
+  620  ls
+  621  grep -A 5 "L337"
+  622  grep -A 5 "L337" vehicles
+  623  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  624  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep 'Jeremy Bowers"
+  625  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  626  ls
+  627  cd memberships
+  628  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+
+
+The killer is Jeremy Bowers
+
