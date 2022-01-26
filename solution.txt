@@ -1,0 +1,45 @@
+The killer is Jeremy Bowers
+
+ cd crimescene
+  394  cat crimescene | grep CLUE
+  395  cat people
+  396  cat people | grep Anabel
+  397  cat crimescene | grep CLUE
+  398  cat people | grep Annabel
+  399  ls
+  400  cd streets
+  401  ls
+  402  cd ..
+  403  cat people
+  404  cat people | grep Annabel
+  405  cd streets
+  406  head -n 40 Hart_Place | tail -n 1
+  407  head -n 40 Hart_Place 
+  408  head -n 40 Hart_Place | tail -n 1
+  409  cd ..
+  410  cat people | grep Annabel
+  411  cd streets
+  412  head -n 173 Mattapan_Street | tail -n 1
+  413  head -n 179 Buckingham_Place | tail -n 1
+  414  head -n 176 Haley_Street | tail -n 1
+  415  cd ..
+  416  ls
+  417  cd interviews
+  418  ls
+  419  cat interview-47246024
+  420  cat interview-699607
+  421  cd ..
+  422  ls
+  423  cat vehicles | grep blue | grep Honda
+  424  cat vehicles | grep blue 
+  425  cd vehicles
+  426  grep -[3 _A 'L337' people
+  427  cat vehicles | grep -n 'Blue' | grep -n 'Honda'
+  428  cat vehicles | grep -n 'L337'
+  429  cat vehicles | grep -A 5 'L337'
+  430  cat crimescene | grep CLUE
+  431  ls
+  432  cd memberships
+  433  grep 'Germuska' 
+  434  grep 'Germuska' *
+  435  grep 'Bowers' *
