@@ -1,0 +1,500 @@
+  150  code ~/.zshrc
+  151  rm -rf .git
+  152  cd
+  153  pwd
+  154  ls
+  155  ls -a
+  156  code ~/.zshrc
+  157  cd ~
+  158  cd
+  159  mkdir sei
+  160  cd mkdir
+  161  cd sei/
+  162  cd sei-425
+  163  mkdir unit1
+  164  ks
+  165  ls
+  166  touch cli-commands.txt
+  167  ls
+  168  code .
+  169  ls
+  170  code cli-commands.txt
+  171  cd
+  172  ls
+  173  open ~/.zshrc
+  174  code ~/.zhrc
+  175  code ~/.zshrc
+  176  cd
+  177  cd sei
+  178  pwd
+  179  ls
+  180  cd
+  181  cd sei
+  182  cd
+  183  sei
+  184  ls
+  185  cd
+  186  sei1
+  187  sei
+  188  ls
+  189  cd
+  190  sei
+  191  ls
+  192  cd
+  193  sei
+  194  cd
+  195  sei
+  196  cd
+  197  class
+  198  sei
+  199  cd
+  200  sei
+  201  cd
+  202  code ~/zhrcs
+  203  code ~/zshrcs
+  204  sei
+  205  cd
+  206  code ~/zsrch
+  207  code ~/.zsrchs
+  208  code ~/zsrchs
+  209  code ~/zshrc
+  210  code ~/.zshrc
+  211  zsh
+  212  code ~/.zshrc
+  213  zsh
+  214  sei
+  215  cd ..
+  216  cd
+  217  sei
+  218  cd ../..
+  219  ls
+  220  sei
+  221  ls
+  222  mkdir intro-git
+  223  cd intro-git
+  224  ls -a
+  225  touch readme.txt
+  226  ls
+  227  git init
+  228  git --version
+  229  git config --global init.defaultBranch main
+  230  ls -a
+  231  rm -rf 
+  232  ls
+  233  rm -rf .git
+  234  git init
+  235  ls -a
+  236  git status
+  237  git add readme.txt
+  238  git status
+  239  git commit
+  240  git commit -m "this is the init commit for my project"
+  241  git status
+  242  touch index.html script.js styles.css
+  243  git status
+  244  git add .
+  245  git status
+  246  git commit -m "adds index.html, script.js, and styles.css"
+  247  git status
+  248  touch test test2
+  249  git status
+  250  git log
+  251  ls
+  252  git status
+  253  rm test test2
+  254  git status
+  255  git checkout
+  256  git checkout d7db9aeb5d308bb89138a29430d5f8d5ab0da2e6
+  257  ls
+  258  git checkout main
+  259  ls -a
+  260  cd ..
+  261  pwd
+  262  git clone https://github.com/Hoan-K-Le/git-pull-request-practice.git
+  263  ls
+  264  cd git-pull-request-practice
+  265  touch hoan-k-le
+  266  ls
+  267  git add .
+  268  git status
+  269  git commit -m "adds my name"
+  270  git status
+  271  git remote -v
+  272  git push origin main
+  273  cd ..
+  274  cd
+  275  sei
+  276  git clone https://github.com/Hoan-K-Le/command-line-murder-mystery.git
+  277  ls
+  278  open .
+  279  cd command-line-murder-mystery
+  280  ls
+  281  cat instructions
+  282  cat instructions | grep murder
+  283  cd mystery
+  284  ls
+  285  cd crimescene
+  286  cd -a
+  287  gre[ "clue" crimescene
+  288  grep "clue" crimescene
+  289  grep crimescene
+  290  sei
+  291  ls
+  292  cd unit1
+  293  ls
+  294  cd command-line-murder-mystery
+  295  cat hint1
+  296  cd mystery
+  297  grep "clue"
+  298  cat hint1
+  299  ls
+  300  pwd
+  301  ls
+  302  cd crimescene
+  303  ls
+  304  cd interviews
+  305  ls
+  306  cd
+  307  ls
+  308  sei
+  309  cd
+  310  sei1
+  311  cd command-line-murder-mystery
+  312  ls
+  313  cat hint2
+  314  grep "CLUE" crimescene
+  315  grep "CLUE" crimescene%
+  316  cd mystery
+  317  ls
+  318  grep "CLUE" crimescene%
+  319  grep vehicles
+  320  ls
+  321  cd memberships
+  322  ls
+  323  cd
+  324  sei
+  325  cd
+  326  sei1
+  327  cd command-line-murder-mystery
+  328  ls
+  329  cd mystery
+  330  ls
+  331  code vehicles
+  332  code people
+  333  cd interviews
+  334  ls
+  335  cd mystery
+  336  ls -a
+  337  cd .
+  338  cd ..
+  339  ls
+  340  code crimescene
+  341  ls
+  342  cd streets
+  343  ls
+  344  cd ..
+  345  ls
+  346  code cheatsheet.md
+  347  code hint1
+  348  head -n
+  349  head -n 20 people
+  350  head -n 20people
+  351  ls
+  352  code hint2
+  353  cd mystery
+  354  grep "CLUE" crimescene
+  355  ls
+  356  cd memberships
+  357  ls
+  358  code AAA
+  359  code delta.txt
+  360  code library.txt
+  361  code museum.txt
+  362  code vehicle
+  363  cd ..
+  364  code hint3
+  365  code hint4
+  366  ls
+  367  cd mystery
+  368  ls
+  369  grep "Annel" people
+  370  grep "Annabel" people
+  371  grep "CLUE" crimescene
+  372  ls
+  373  cd interviews
+  374  ls
+  375  cd ..
+  376  ls
+  377  code hint5
+  378  cd mystery
+  379  head -n 173 streets/Mattapan_Street | tail -n 1
+  380  cd ..
+  381  ls
+  382  cd mystery
+  383  ls
+  384  cd interviews
+  385  grep "9437737"
+  386  code 9437737
+  387  ls
+  388  grep #9437737
+  389  cd 9437737
+  390  code interview-9437737
+  391  cd ..
+  392  code hint6
+  393  cd mystery
+  394  ls
+  395  grep "Honda" vehicles
+  396  grep "Blue" vehicles
+  397  grep "L337" vehicles
+  398  cd ..
+  399  code hint3
+  400  cd mystery
+  401  ls
+  402  cd interviews
+  403  grep "line 173" 
+  404  grep "line 173" interview
+  405  grep "line 173" interviews
+  406  head -n 40 streets/Buckingham_Place | tail -n 1
+  407  grep "Annabel" interviews
+  408  cd ..
+  409  ls
+  410  cd streets
+  411  ls
+  412  code Hart_Place
+  413  code Haley_Street
+  414  code Buckingham_Place
+  415  cd ..
+  416  ls
+  417  grep "CLUE" crimescene
+  418  code people
+  419  cd memberships
+  420  ls
+  421  cd ..
+  422  code hint8
+  423  ls
+  424  cd ..
+  425  ls
+  426  code hint8
+  427  cd mystery
+  428  ls
+  429  cd memberships
+  430  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  431  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel"
+  432  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Sun" 
+  433  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Oluwasegun Annabel" 
+  434  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church" 
+  435  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Fug" 
+  436  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Sun F" 
+  437  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Sun" 
+  438  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Olu Annabel" 
+  439  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church" 
+  440  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Sun" 
+  441  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Fuglsang" 
+  442  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Church" 
+  443  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Olu" 
+  444  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Oluwasegun Annabel" 
+  445  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Annabel Sun" 
+  446  cd ..
+  447  ls
+  448  code vehicles
+  449  cd ..
+  450  ls
+  451  cd mystery
+  452  ls
+  453  head -n 20 people
+  454  head vehicles
+  455  head -20 vehicles
+  456  head License Plate L337ZR9
+  457  License Plate L337P89
+  458  cd ..
+  459  ls
+  460  code hint7
+  461  ls
+  462  cd mystery
+  463  ls
+  464  grep -A 5 "L337" mystery/vehicles
+  465  grep -A 5 "L337" vehicles
+  466  cd ..
+  467  code hint8
+  468  code hint4
+  469  ls
+  470  cd mystery
+  471  grep "Annabel" people
+  472  ls
+  473  cd interveiws
+  474  cd interviews
+  475  head -n 173 streets/Mattapan_Street | tail -n 1
+  476  ls
+  477  head -n 173 streets/Mattapan_Street | tail -n 1
+  478  code head -n 173 streets/Mattapan_Street | tail -n 1
+  479  head -n 173 streets/Mattapan_Street | tail -n 1
+  480  ls
+  481  head -n 173 streets/Mattapan_Street | tail -n 1
+  482  cd streets
+  483  ls
+  484  cd ..
+  485  head -n 173 streets/Mattapan_Street | tail -n 1
+  486  cd ..
+  487  ls
+  488  cd streets
+  489  ls
+  490  head -Annabel
+  491  head -20 Annabel
+  492  cd
+  493  sei1
+  494  cd command-line-murder-mystery
+  495  cd mystery
+  496  ls
+  497  cd ..
+  498  ls
+  499  code hint8
+  500  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Keef" | wc -l
+  501  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Keef"
+  502  cat Fitness_Galaxy AAA United_MileagePlus | grep "John"
+  503  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"
+  504  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel Sun"
+  505  cd mystery
+  506  ls
+  507  code hint8
+  508  code vehicles
+  509  cd memberships
+  510  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Keefe"
+  511  cat Fitness_Galaxy AAA United_MileagePlus | grep "Mike Bostock"
+  512  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  513  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika"
+  514  cat Fitness_Galaxy AAA United_MileagePlus | grep "Brian Boyer"
+  515  cat Fitness_Galaxy AAA United_MileagePlus | grep "Al Shaw"
+  516  cat Fitness_Galaxy AAA United_MileagePlus | grep "Miranda Mulligan"
+  517  cat Fitness_Galaxy AAA United_MileagePlus | grep "Heather Billings"
+  518  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  519  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  520  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  521  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui"
+  522  cat Fitness_Galaxy AAA United_MileagePlus | grep "Katie Park"
+  523  cat Fitness_Galaxy AAA United_MileagePlus | grep "Mike Bostock"
+  524  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel Sun"
+  525  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  526  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  527  cd ..
+  528  ls
+  529  grep -A 5 "L337" mystery/vehicles
+  530  grep -A 5 "L337" vehicles
+  531  cd ..
+  532  cd mystery
+  533  ls
+  534  cd streets
+  535  ls
+  536  head -n 173 streets/Mattapan_Street | tail -n 1
+  537  ls
+  538  head -n 173 streets/Mattapan_Street | tail -n 1
+  539  grep head -n 173 streets/Mattapan_Street | tail -n 1
+  540  code head -n 173 streets/Mattapan_Street | tail -n 1
+  541  cd
+  542  sei1
+  543  cd command-line-murder-mystery
+  544  cd mystery
+  545  head -n 173 streets/Mattapan_Street | tail -n 1
+  546  cat #9437737
+  547  ls
+  548  cd interviews
+  549  cat #9437737
+  550  code #9437737
+  551  cat #9437737
+  552  cat interviews #9437737
+  553  cat intervie #9437737
+  554  cat #9437737
+  555  cat interviews #9437737
+  556  cat interview-9437737
+  557  cd ..
+  558  ls
+  559  grep "Blue" vehicles
+  560  grep "Annabel" vehicles
+  561  cd interviews
+  562  grep "annabel Sun"
+  563  cd ..
+  564  head -n 179 streets/Buckingham_Place | tail -n 1
+  565  cd interviews
+  566  ls
+  567  cat interview-699607\n
+  568  cd ..
+  569  cat Fitness_Galaxy AAA United_MileagePlus | grep "Matt Waite"
+  570  cd memberships
+  571  ls
+  572  cat Fitness_Galaxy AAA United_MileagePlus | grep "Matt Waite"
+  573  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  574  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer"
+  575  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  576  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  577  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  578  cat Fitness_Galaxy AAA United_MileagePlus | grep "Matt Waite" | wc -l
+  579  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher" | wc -l
+  580  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc -l
+  581  cat Fitness_Galaxy AAA United_MileagePlus | grep "Al Shaw" | wc -l
+  582  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer" | wc -l
+  583  cat Fitness_Galaxy AAA United_MileagePlus | grep "Heather Billings" | wc -l
+  584  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  585  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens" | wc -l
+  586  cat Fitness_Galaxy AAA United_MileagePlus | grep "Mike Bostock" | wc -l
+  587  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeff Keefe" | wc -l
+  588  cd ..
+  589  ls
+  590  grep -A 10 "L337" vehicles
+  591  ls
+  592  head -n 40 streets/Hart_Place | tail -n 1
+  593  cat interview-47246024\n
+  594  cd interviews
+  595  cat interview-47246024\n
+  596  cat interview-871877
+  597  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens" | wc -l
+  598  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron" | wc -l
+  599  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer" | wc -l
+  600  cat Fitness_Galaxy AAA United_MileagePlus | grep "Heather Billings" | wc -l
+  601  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Ger" | wc -l
+  602  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  603  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui" | wc -l
+  604  cd ..
+  605  ls
+  606  cd memberships
+  607  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui" | wc -l
+  608  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy" | wc -l
+  609  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe" | wc -l
+  610  cd ..
+  611  grep "CLUES" crimescene
+  612  ls
+  613  grep "CLUES" crimescene
+  614  grep "CLUE" crimescene
+  615  cd ..
+  616  cd mystery interviews
+  617  cd mystery
+  618  cd interviews
+  619  head -n 173 streets/Mattapan_Street | tail -n 1
+  620  cd ..
+  621  head -n 173 streets/Mattapan_Street | tail -n 1
+  622  cd interviews
+  623  cat interview-9437737
+  624  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens" | wc -l
+  625  cat Fitness_Galaxy AAA United_MileagePlus | grep "" | wc -l
+  626  cd ..
+  627  grep "CLUES" crimescene
+  628  ls
+  629  grep "CLUES" crimescenes
+  630  grep "CLUES" crimescene
+  631  cd ..
+  632  grep "CLUES" crimescene
+  633  ls
+  634  cd mystery
+  635  ls
+  636  grep "CLUES" crimescene
+  637  ls
+  638  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  639  cd memberships
+  640  ls
+  641  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Erika Owens" | wc -l
+  642  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Aron Pil" | wc -l
+  643  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Heather Billings" | wc -l
+  644  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  645  cd
+  646  sei1
+  647  cd command-line-murder-mystery
+  648  cat hint8
+  649  history
