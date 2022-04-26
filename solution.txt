@@ -1,0 +1,500 @@
+ 9783  rm -rf ./pages/animals.jsx
+ 9784  git add .
+ 9785  git commit -m 'deletes animals'
+ 9786  git checkout main
+ 9787  git merge dev
+ 9788  git push origin main
+ 9789  git pull origin main
+ 9790  git push origin main
+ 9791  killall node
+ 9792  cal
+ 9793  cd gitbook-notes
+ 9794  ls
+ 9795  code .
+ 9796  git pull upstream master
+ 9797  git add .
+ 9798  git commit -m 'updates p4 instuctions to be graded on pass/fail and be open to all techs'
+ 9799  git push origin master
+ 9800  gh pr create
+ 9801  git pull upstream master
+ 9802  git addd .
+ 9803  git add .
+ 9804  git commit -m 'updates p4 instructions'
+ 9805  git push origin master
+ 9806  gh pr create
+ 9807  git add .
+ 9808  git commit -m updates deliverables for p4
+ 9809  git commit -m 'updates deliverables for p4'
+ 9810  ls
+ 9811  git add .
+ 9812  git commit -m 'updates p4 instructions'
+ 9813  git push origin master
+ 9814  gh pr create
+ 9815  code .
+ 9816  git add .
+ 9817  git commit -m 'updates p4 intro'
+ 9818  git push orign master
+ 9819  git push origin master
+ 9820  git add .
+ 9821  git commit -m 'update p4 intro'
+ 9822  git push origin master
+ 9823  gh pr create
+ 9824  code .
+ 9825  git add .
+ 9826  git commit -m 'adds reqs to p4'
+ 9827  git push origin master
+ 9828  gh pr create
+ 9829  git add .
+ 9830  gh pr create
+ 9831  git commit -m 'adds reqs to p4'
+ 9832  git push origin master
+ 9833  gh pr create
+ 9834  clear
+ 9835  python
+ 9836  ipython
+ 9837  pip3 install ipython
+ 9838  pip3 install distutils
+ 9839  ipython
+ 9840  python
+ 9841  pip3 uninstall ipython3
+ 9842  pip3 uninstall ipython
+ 9843  brew install --cask hyper
+ 9844  vim .hyper.js
+ 9845  code .hyper.js
+ 9846  psql
+ 9847  mongo
+ 9848  mongod &
+ 9849  mongo
+ 9850  killall mongod
+ 9851  clear
+ 9852  top
+ 9853  cling
+ 9854  cd current-projects
+ 9855  ls
+ 9856  cd datastructs-algos-challenges
+ 9857  git add .
+ 9858  git status
+ 9859  git commit -m 'starts js bst'
+ 9860  git pull origin main
+ 9861  git push origin main
+ 9862  git status
+ 9863  clear
+ 9864  ping www.google.com
+ 9865  cd current-projects
+ 9866  ls
+ 9867  cal
+ 9868  man cal
+ 9869  cal 2022
+ 9870  ping www.google.com
+ 9871  cal 2021
+ 9872  cal 2022
+ 9873  cling
+ 9874  man git stash
+ 9875  man 'git stash'
+ 9876  git stash -h
+ 9877  cd spring-forward
+ 9878  cd instr
+ 9879  git clone git@github.com:weston-bailey/programatic-DOM-lessons.git
+ 9880  cd programatic-DOM-lessons
+ 9881  ls
+ 9882  cd grids
+ 9883  ls
+ 9884  open index.html
+ 9885  code .
+ 9886  open index.html
+ 9887  cd ..
+ 9888  ls
+ 9889  cd color-pallette-picker
+ 9890  open ./index.html
+ 9891  cd ..
+ 9892  ls
+ 9893  cd color-quilt
+ 9894  ls
+ 9895  open ./index.html
+ 9896  vim scripts/app.js
+ 9897  cd ..
+ 9898  git status
+ 9899  git add .
+ 9900  git commit -m '_'
+ 9901  git push origin main
+ 9902  ls
+ 9903  cd 1
+ 9904  ls
+ 9905  cat 1
+ 9906  ls
+ 9907  cat project.sql
+ 9908  rm -rf venv-test
+ 9909  ls
+ 9910  cd Public
+ 9911  ls
+ 9912  cd ..
+ 9913  ls
+ 9914  cd do`
+ 9915  cd dos
+ 9916  ls
+ 9917  cd clang
+ 9918  ls
+ 9919  cd ..
+ 9920  ls
+ 9921  cd ..
+ 9922  ls
+ 9923  cd spring-forward
+ 9924  ls
+ 9925  cd instr
+ 9926  ls
+ 9927  cd ..
+ 9928  ls
+ 9929  cd ..
+ 9930  () => {}
+ 9931  clear
+ 9932  git clone 
+ 9933  man git
+ 9934  man git stash
+ 9935  man git-stash
+ 9936  man git-add
+ 9937  git add .
+ 9938  man git-add
+ 9939  git add --dry-run .
+ 9940  ls
+ 9941  cd current-projects
+ 9942  ls
+ 9943  cd hello-JUCE
+ 9944  ls
+ 9945  git status
+ 9946  cd ..
+ 9947  ls
+ 9948  cd webpack-html-template
+ 9949  ls
+ 9950  git status
+ 9951  touch test.tst
+ 9952  git add --dry-run .
+ 9953  git status
+ 9954  man git-status
+ 9955  man less
+ 9956  clear
+ 9957  man clear
+ 9958  man cd
+ 9959  clear
+ 9960  man git-status
+ 9961  man git-commit
+ 9962  git status
+ 9963  git add --dry-run
+ 9964  git add --dry-run .d
+ 9965  git add --dry-run .
+ 9966  ls
+ 9967  git status
+ 9968  man git-add
+ 9969  git add --dry-run --verbose .
+ 9970  man git-add
+ 9971  \tgit add --dry-run -interactive
+ 9972  \tgit add --dry-run --interactive
+ 9973  \tgit add --interactive
+ 9974  clear
+ 9975  man git-push
+ 9976  git status
+ 9977  cd current-projects
+ 9978  git clone git@github.com:weston-bailey/python-lexer-calculator.git
+ 9979  cd python-lexer-calculator
+ 9980  ls
+ 9981  mskr
+ 9982  make
+ 9983  cat Makefile
+ 9984  make debug
+ 9985  clear
+ 9986  ls -R
+ 9987  vim lib/calc.py
+ 9988  curl https://raw.githubusercontent.com/weston-bailey/config-files/main/vimrc > .vimrc
+ 9989  cat .vimrc
+ 9990  vim .vimrc
+ 9991  cd current-projects
+ 9992  cd python-lexer-calculator
+ 9993  vim lib/calc.py
+ 9994  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ 9995  brew --version
+ 9996  xcode-select --install
+ 9997  cd gitbook-notes
+ 9998  code .
+ 9999  git pull origin main
+10000  git pull upstream master
+10001  brew install zsh
+10002  brew install zshh
+10003  echo $SHELL
+10004  chsh -s /bin/zsh
+10005  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+10006  brew install git
+10007  git --version
+10008  brew link --overwrite git
+10009  git --version
+10010  brew install --cask visual-studio-code
+10011  code 
+10012  code ~/.zshrc
+10013  clear
+10014  man git 
+10015  man ls
+10016  man la
+10017  clear
+10018  histroy
+10019  history
+10020  man history
+10021  w
+10022  clear
+10023  ls
+10024  cat requirements.txt
+10025  rm -rf requirements.txt
+10026  ls
+10027  clear
+10028  vim ~/.zshrc
+10029  ls
+10030  cat {}
+10031  open {}
+10032  rm -rf {}
+10033  ls
+10034  clear
+10035  python
+10036  python3
+10037  mkdir sei-425
+10038  ls
+10039  ls Documents
+10040  mkdir Documents/old-cohorts
+10041  cp sei Documents/old-cohorts/sei
+10042  cp -R  sei Documents/old-cohorts/sei
+10043  clear
+10044  ls
+10045  cd sei-425
+10046  ls
+10047  mkdir unit1
+10048  cd unit1
+10049  ls
+10050  mkdir intro-git
+10051  cd intro-git
+10052  ls
+10053  ls -a
+10054  touch readme.txt
+10055  ls
+10056  git init
+10057  git --version
+10058  git config --global init.defaultBranch main
+10059  ls -a
+10060  rm -rf .git
+10061  git init
+10062  ls
+10063  ls -a
+10064  git status
+10065  git add readme.txt
+10066  git status
+10067  git commit
+10068  vim
+10069  git commit -m 'this is the init commit for my project'
+10070  git status
+10071  touch index.html script.js styles.css
+10072  git status
+10073  git add .
+10074  git status
+10075  git commit -m 'adds index.html, script.js, and styles.css'
+10076  touch test test2
+10077  git status
+10078  git add test2
+10079  git status
+10080  git commit -m 'includes test2 but not test'
+10081  git status
+10082  git log
+10083  ls 
+10084  git status
+10085  rm test
+10086  git status
+10087  git checkout 5104cec5dffbf105cf91bfe38f0e41afd509c4d5
+10088  ls
+10089  git log
+10090  git checkout main
+10091  ls a
+10092  ls -a
+10093  cd
+10094  ~/sei-425/unit1/intro-git
+10095  clear
+10096  cd ..
+10097  pwd
+10098  git clone https://github.com/weston-bailey/git-pull-request-practice.git
+10099  ls
+10100  cd git-pull-request-practice
+10101  touch weston-bailey
+10102  ls
+10103  git add .
+10104  git status
+10105  git commit -m 'adds my name'
+10106  git status
+10107  git remote -v 
+10108  git push origin main
+10109  clear
+10110  pwd
+10111  cd ..
+10112  git clone https://github.com/fighting-mongeese/command-line-murder-mystery.git
+10113  ls 
+10114  cd command-line-murder-mystery
+10115  ls
+10116  cat instructions
+10117  open .
+10118  cat instructions | grep murder
+10119  cat hint1
+10120  man ls
+10121  man rmdir
+10122  man git-add
+10123  man git-stash
+10124  clear
+10125  man clear
+10126  man 3 printf
+10127  man grap
+10128  man grep
+10129  man man
+10130  man
+10131  man index
+10132  man man
+10133  man -S
+10134  man man
+10135  man -S man
+10136  man man
+10137  vim ~/.zshrc
+10138  zsh
+10139  dude man
+10140  man dude
+10141  dude grep
+10142  which dude
+10143  clear
+10144  vim ~/.zshrc
+10145  zsh
+10146  cd current-projects
+10147  vim ta-intro.md
+10148  cat ta-intro.md
+10149  clear
+10150  cd
+10151  clear
+10152  cd sei-425/unit1
+10153  git clone https://github.com/weston-bailey/command-line-murder-mystery.git
+10154  rm -rf command-line-murder-mystery
+10155  git clone https://github.com/weston-bailey/command-line-murder-mystery.git
+10156  cd command-line-murder-mystery
+10157  ls
+10158  cat instructions
+10159  cat hint1
+10160  head -n 20 hint2
+10161  man ls
+10162  man man
+10163  man head
+10164  man git
+10165  ls
+10166  cd mystery
+10167  ls
+10168  grep CLUE crimescene 
+10169  grep "CLUE: Footage" crimescene
+10170  grep CLUE: Footage crimescene
+10171  grep CLUE crimescene >> clues.txt
+10172  ls
+10173  cat clues.txt
+10174  cat crimescene | grep CLUE
+10175  ls
+10176  head -n 20 people
+10177  cat people | grep Annabel
+10178  cat people | grep Annabel >> clues.txt
+10179  cat clues.txt
+10180  history
+10181  clear
+10182  cat clues.txt
+10183  echo hello
+10184  echo \n >> clues.txt
+10185  cat clues.txt
+10186  echo "\n" >> clues.txt
+10187  cat clues.txt
+10188  cd streets
+10189  ls
+10190  cat ../clues.txt
+10191  head -n Hart_Place
+10192  head -n 20  Hart_Place
+10193  head -n 40  Hart_Place
+10194  head -n 40  Hart_Place | tail -n 1
+10195  tail -n 20 Hart_Place
+10196  grep INTERVIEW Hart_Place
+10197  ls ..
+10198  grep INTERVIEW Hart_Place >> ../clues.txt
+10199  cat ../clues.txt
+10200  grep INTERVIEW Hart_Place Mattapan_Street Buckingham_Place Haley_Street
+10201  grep INTERVIEW Hart_Place Mattapan_Street Buckingham_Place Haley_Street >> ../clues.txt
+10202  cat ../clues.txt
+10203  cd ..
+10204  ls
+10205  cd interviews
+10206  ls
+10207  cat ../clues.txt
+10208  head -n 20 interview-47246024
+10209  head -n 10 interview-47246024
+10210  head -n 10 interview-9437737
+10211  head -n 10 interview-699607
+10212  head -n 10 interview-871877
+10213  head -n 10 interview-699607 >> ../clues.txt
+10214  cd ..
+10215  ls
+10216  head vehicles
+10217  head -n 30 vehicles
+10218  cat clues.txt
+10219  echo hello >> greeting.txt
+10220  cat greeting.txt
+10221  echo "good day, to you >> greeting.txt\n\n\n\n
+10222  echo "good day, to you" >> greeting.txt\n\n\n\n
+10223  cat greeting.txt
+10224  echo "how are you feeling" > greeting.txt\n\n\n\n
+10225  cat greeting.txt
+10226  clear
+10227  cat clues
+10228  ls
+10229  cat clues.txt
+10230  grep -A 5 "l337" vehicles
+10231  grep -A 5 "L337" vehicles
+10232  grep -A 5 "l337" vehicles | grep -A 4 "Blue"
+10233  grep -A 5 "L337" vehicles | grep -A 4 "Blue"
+10234  grep -A 5 "L337" vehicles | grep -A 4  "Honda" |  grep -A 3 "Blue"
+10235  cat clues.txt
+10236  grep -A 5 "L337" vehicles | grep -A 4  "Honda" |  grep -A 3 "Blue" | grep -B 1  "6'1'"
+10237  grep -A 5 "L337" vehicles | grep -A 4  "Honda" |  grep -A 3 "Blue" | grep -B 1  6'1'
+10238  grep -A 5 "L337" vehicles | grep -A 4  "Honda" |  grep -A 3 "Blue" | grep -B 1  6'1"
+10239  grep -A 5 "L337" vehicles | grep -A 4  "Honda" |  grep -A 3 "Blue" | grep -B 1  6'
+10240  grep -A 5 "L337" vehicles | grep -A 4  "Honda" |  grep -A 3 "Blue" | grep -B 1  "6'"
+10241  ls
+10242  cat people
+10243  cat clues.txt
+10244  grep CLUE clues.txt
+10245  grep -A 1 CLUE clues.txt
+10246  code .
+10247  grep 4 nums
+10248  grep -A 1 4 nums
+10249  grep -A 2 4 nums
+10250  grep -B 2 4 nums
+10251  grep -A 2 -B 2 4 nums
+10252  man grep
+10253  grep -C 2 4 nums
+10254  clear
+10255  grep -A 5 "L337" vehicles | grep -A 4  "Honda" |  grep -A 3 "Blue" | grep -B 1  6'
+10256  grep -A 5 "L337" vehicles | grep -A 4  "Honda" |  grep -A 3 "Blue" | grep -B 1  "6'"
+10257  grep -A 5 "L337" vehicles | grep -A 4  "Honda" |  grep -A 3 "Blue" | grep -B 1  "6'" >> clues.txt
+10258  cat clues.txt
+10259  ls
+10260  cd memberships
+10261  ls
+10262  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+10263  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+10264  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+10265  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+10266  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+10267  man grep
+10268  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -1
+10269  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+10270  man wc
+10271  cd ..
+10272  grep "Jeremy Bowers" people
+10273  cd streets
+10274  head -n 284 Dunstable_Road
+10275  head -n 284 Dunstable_Road | tail -n 1
+10276  cd ..
+10277  ls
+10278  cd interviews
+10279  cat interview-9620713
+10280  cd ..
+10281  history
+10282  clear
