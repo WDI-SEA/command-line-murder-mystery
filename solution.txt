@@ -1,0 +1,262 @@
+    1  sudo port install git
+    2  sudo port install git
+    3  brew install git
+    4  cd desktop
+    5  mkdir test
+    6  cd desktop
+    7  mkdir test
+    8  pwd
+    9  ls
+   10  mkdir test
+   11  rm -r ~/test
+   12  rm test
+   13  rm -r ~/test
+   14  cd test
+   15  cd ..
+   16  rm -r test
+   17  mkdir test
+   18  cd test
+   19  ls -a test
+   20  cd ..
+   21  ls -a test
+   22  clear
+   23  rmdir test
+   24  git --version
+   25  git --version
+   26  pwd
+   27  ls
+   28  brew install git
+   29  git --version
+   30  git config --global user.name "DarcXnite"\ngit config --global user.email "anhri89@yahoo.com"\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+   31  echo $SHELL
+   32  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   33  xcode-select --install
+   34  brew install zsh
+   35  echo $SHELL
+   36  chsh -s /bin/zsh
+   37  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   38  echo $SHELL
+   39  code
+   40  code ~/.zshrc
+   41  ls
+   42  ls -a
+   43  cd Desktop
+   44  mkdir sei-425
+   45  cd sei-425
+   46  mkdir unit1
+   47  ls
+   48  mv unit1 unit-1
+   49  ls
+   50  touch sei.txt
+   51  ls
+   52  rm -rf sei.txt
+   53  cd unit-1
+   54  touch sei.txt
+   55  ls
+   56  code sei.txt
+   57  open ~/.zshrc
+   58  code ~/.zshrc
+   59  cd ../..
+   60  sei
+   61  cd ..
+   62  sei
+   63  cd Desktop
+   64  sei
+   65  alias
+   66  cd sei-425
+   67  pwd
+   68  sei
+   69  cd ~
+   70  ls
+   71  pwd
+   72  sei
+   73  mkdir unit1
+   74  cd unit1
+   75  ls
+   76  mkdir intro-git
+   77  cd intro-git
+   78  touch readme.txt
+   79  ls
+   80  git init
+   81  git --version
+   82  git config --global init.defaultBranch main
+   83  git branch -m main
+   84  ls -a
+   85  git status
+   86  git add .
+   87  git status
+   88  git commit -m "first commit"
+   89  git status
+   90  touch index.html
+   91  touch script.js styles.css
+   92  ls
+   93  git status
+   94  git add .
+   95  git status
+   96  git commit -m 'adds 3 new files'
+   97  touch test test2
+   98  git add test
+   99  git status
+  100  git commit -m 'adds test and not test2'
+  101  git log
+  102  rm test
+  103  git status
+  104  git add .
+  105  git commit -m 'added test 2'
+  106  git log
+  107  git checkout 7041ca1a99a066fcad07aaec7a14c8d456dc1236
+  108  ls
+  109  git checkout main
+  110  git log
+  111  ls -a
+  112  cd .
+  113  cd ..
+  114  git clone https://github.com/DarcXnite/git-pull-request-practice.git
+  115  ls
+  116  cd git-pull-request-practice
+  117  touch davis
+  118  ls
+  119  git add .
+  120  git status
+  121  git commit -m 'adds new file davis'
+  122  git push origin main
+  123  cd ..
+  124  git clone https://github.com/DarcXnite/command-line-murder-mystery.git
+  125  ls
+  126  cd command-line-murder-mystery
+  127  cat instructions
+  128  open .
+  129  ls
+  130  cat hint1
+  131  head -n 20 people
+  132  cd mystery
+  133  head -n 20 people
+  134  cat crimescene
+  135  code crimescene
+  136  cd ..
+  137  cat hint2
+  138  cd mystery
+  139  grep "CLUE" crimescene
+  140  cd ..
+  141  code hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  142  cd mystery
+  143  code people
+  144  head -n 20 people
+  145  grep "Annabel" people
+  146  grep "AAA" memberships
+  147  head -n 20 vehicles
+  148  grep "6'" vehicles
+  149  grep "Annabel" vehicles
+  150  grep "Annabel" vehicles | grep "6'" vehicles
+  151  hrep "Annabel" people
+  152  grep "Annabel" people
+  153  head -n 173 streets/Mattapan_Street | tail -n 1
+  154  cd interview
+  155  cd interviews
+  156  open interview-9437737
+  157  grep -A 5 "L337" mystery/vehicles
+  158  cd ..
+  159  grep -A 5 "L337" mystery/vehicles
+  160  cd ..
+  161  grep -A 5 "L337" mystery/vehicles
+  162  head -n mystery/people
+  163  head -n 20 mystery/people
+  164  grep -A 5 "Annabel" mystery/people
+  165  cd mystery
+  166  head -n 173 streets/Mattapan_Street | tail -n 1
+  167  open streets/Mattapan_Street
+  168  code interviews/interview-9437737
+  169  grep "Annabel" people
+  170  head -n 40 streets/Hart_Place | tail -n 1
+  171  csei
+  172  sei
+  173  ls
+  174  cd unit1
+  175  cd ..
+  176  rm unit-1
+  177  rm -rf unit-1
+  178  ls
+  179  cd unit1
+  180  ls
+  181  cd command-line-murder-mystery
+  182  cd mystery
+  183  clear
+  184  grep "Annabel" people
+  185  head -n 40 streets/Hart_Place | tail -n 1
+  186  cat interviews/interview-47246024
+  187  head -n 179 streets/Buckingham_Place | tail -n 1
+  188  cat interviews/interview-699607
+  189  grep -A 5 "L337" vehicles
+  190  clear
+  191  grep "CLUE" crimescene
+  192  cd memberships
+  193  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Erika"
+  194  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Joe"
+  195  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe"
+  196  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe" | wc -l
+  197  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska" | wc -l
+  198  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  199  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jacqui Maher" | wc -l
+  200  cd ..
+  201  sei
+  202  cd unit1/command-line-murder-mystery
+  203  cd mystery
+  204  head interviews/interview-9437737
+  205  cat interviews/interview-9437737
+  206  sei
+  207  cd unit1/command-line-murder-mystery
+  208  cd ..
+  209  open command-line-murder-mystery
+  210  cd command-line-murder-mystery/mystery/memberships
+  211  sei
+  212  cd unit1/command-line-murder-mystery
+  213  ls
+  214  cd mystery
+  215  grep CLUE crimescene >> clues.txt
+  216  ls
+  217  cat clues.txt
+  218  grep Annabel people >> clues.txt
+  219  cd ..
+  220  cat hint6
+  221  cat hint5
+  222  cd mystery
+  223  cat clues.txt
+  224  head -n 173 streets/Hart_Place | tail -n 1 >> clues.txt
+  225  head -n 173 streets/Buckingham_Place | tail -n 1 >> clues.txt
+  226  head -n 173 streets/Haley_Street | tail -n 1 >> clues.txt
+  227  cat clues.txt
+  228  head -n 173 streets/Haley_Street | tail -n 1 
+  229  head -n 176 streets/Haley_Street | tail -n 1 >>\n clues.txt 
+  230  clear
+  231  cat clues.txt
+  232  head -n 176 streets/Haley_Street | tail -n 1 >> clues.txt 
+  233  cat clues.txt
+  234  cd streets
+  235  grep INTERVIEW Hart_Place Buckingham_Place >> ../clues.txt
+  236  cat ../clues.txt
+  237  cd ..
+  238  cat interviews/interview-699607 >> clues.txt
+  239  cat clues.txt
+  240  cat ../hint7
+  241  grep -A 5 "L337" vehicles
+  242  grep -A 5 "L337" vehicles | grep "Honda"
+  243  grep -A 5 "L337: Honda" vehicles
+  244  grep -A 5 "L337" "Honda"  vehicles
+  245  grep -A 5 "L337" vehicles | grep -A 4 "Blue" | grep -A 4 "Honda"
+  246  grep -A 5 "L337" vehicles | grep -A "Honda" | grep -A 4 "Blue"
+  247  grep -A 5 "L337" vehicles | grep -A "Honda" | grep -A 3 "Blue"
+  248  grep -A 5 "L337" vehicles | grep -A 4 "Honda"
+  249  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue"
+  250  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'"
+  251  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'" >> clues.txt
+  252  cd memberships
+  253  ls
+  254  cat AAA delta.txt library.txt museum.txt | grep "Erika Owens" | wc -l
+  255  cat AAA delta.txt library.txt museum.txt | grep "Jeremy Bowers" | wc -l
+  256  cat AAA delta.txt library.txt museum.txt | grep "Jeremy Bowers" | wc -l >> ../clues.txt
+  257  cd ../
+  258  cd ..
+  259  clear
+  260  history
+  261  clear
+  262  history | tail -n 1000
