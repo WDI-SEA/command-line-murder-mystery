@@ -1,0 +1,31 @@
+1085  cat interview-9437737
+ 1086  cd ..
+ 1087  head -n 40 streets/Hart_Place | tail -n 1
+ 1088  cat interview-47246024
+ 1089  cd interviews
+ 1090  cat interview-47246024
+ 1091  cd ..
+ 1092  head -n 179 streets/Buckingham_Place | tail -n 1
+ 1093  cd interviews
+ 1094  cat interview-699607
+ 1095  cd ..
+ 1096  head -n 20 vehicles
+ 1097  head vehicles
+ 1098  grep -A 5 "L337" mystery/vehicles
+ 1099  cd ..
+ 1100  grep -A 5 "L337" mystery/vehicles
+ 1101  ls
+ 1102  cd mystery
+ 1103  ls
+ 1104  cd memberships
+ 1105  ls
+ 1106  cd ..
+ 1107  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Jacqui Maher
+ 1108  cat memberships AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Jacqui Maher
+ 1109  cd memberships
+ 1110  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Jacqui Maher
+ 1111  AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+ 1112  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+ 1113  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska\n"
+ 1114  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+ 1115  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
