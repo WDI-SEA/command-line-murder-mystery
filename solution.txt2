@@ -1,0 +1,201 @@
+   13  echo $SHell
+   14  echo $SHELL
+   15  chsh -s /bin/zsh
+   16  brew install git
+   17  git --version
+   18  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   19  git config --global user.name “gracenarez333"\ngit config --global user.email "gracemnarez@gmail.com"\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'\n\n\n"
+   20  git config --global user.name “gracenarez333"\n"
+   21  ls
+   22  brew install --cask visual-studio-code
+   23  code
+   24  code ~/.zshrc
+   25  git config --global user.name "gracenarez333"
+   26  git config user.email
+   27  git config user.name
+   28  git config user.email
+   29  git config --global user.email "gracemnarez@gmail.com"
+   30  git config user.email
+   31  git config --global push.default simple
+   32  git config user.name
+   33  git config user.email
+   34  git config --global credential.helper cache
+   35  git config --global core.editor 'code -w'
+   36  git config --get credential.helper
+   37  git config --get push.default
+   38  git config --global user.email "gracemnarez@gmail.com"
+   39  git config --get core.editor
+   40  pwd
+   41  cd
+   42  ls
+   43  ls -a
+   44  code ~/.zshrc
+   45  cd
+   46  mkdir sei
+   47  cd sei
+   48  mkdir unit1
+   49  ls
+   50  mv unit1 unit-1
+   51  ls
+   52  mv unit-1 unit1
+   53  ls
+   54  touch cli-commands.txt
+   55  ls
+   56  code .
+   57  code cli-commands.txt
+   58  open ~/.zshrc
+   59  cd
+   60  ls
+   61  cd dei
+   62  cd sei
+   63  pwd
+   64  cd ~
+   65  cd ..
+   66  sei
+   67  open ~/.zshrc
+   68  code ~/.zshrc
+   69  sei
+   70  cd ~
+   71  sei
+   72  cd ~
+   73  sei
+   74  ls
+   75  cd unit1
+   76  mkdir intro-git
+   77  cd intro-git
+   78  ls
+   79  ls -a
+   80  touch readme.txt
+   81  ls
+   82  git init
+   83  git --version
+   84  git config --global init.defaultBranch main
+   85  ls -a
+   86  rm -rf .git
+   87  ls
+   88  get init
+   89  git init
+   90  ls -a
+   91  git status
+   92  git add readme.txt
+   93  git status
+   94  git commit
+   95  git commit -m "this is the init commit for my project"
+   96  git status
+   97  touch index.html script.js style.css
+   98  ls
+   99  git status
+  100  git add .
+  101  git status
+  102  git commit -m 'adds index.html, script.js, and style.css'
+  103  git status
+  104  touch test test2
+  105  git status
+  106  git add test2
+  107  git ststus
+  108  git status
+  109  git commit -m "includes test2 but not test"
+  110  git status
+  111  git log
+  112  ls
+  113  git status
+  114  rm test
+  115  ls
+  116  git status
+  117  git log
+  118  git checkout accc54f0a1aed3f86a65a7db9c6619cef60c7ee8
+  119  ls
+  120  git log
+  121  git checkout main
+  122  ls
+  123  ls -a
+  124  cd ..
+  125  git clone https://github.com/gracenarez333/git-pull-request-practice.git
+  126  ls
+  127  cd git-pull-request-practice
+  128  touch grace338
+  129  ls
+  130  git add .
+  131  git status
+  132  git commit -m "adds my name"
+  133  git status
+  134  git push origin main
+  135  pwd
+  136  cd ..
+  137  git clone https://github.com/gracenarez333/command-line-murder-mystery.git
+  138  ls
+  139  cd command-line-murder-mystery
+  140  cat instructions
+  141  open .
+  142  ls
+  143  head -n 20 people
+  144  pwd
+  145  cd mystery
+  146  ls
+  147  head -n 20 people
+  148  ls
+  149  cd crimescene
+  150  grep CLUE
+  151  cat instructions
+  152  ls
+  153  code crimescene
+  154  grep "CLUE" crimescene
+  155  grep "Annabel" people
+  156  pwd
+  157  cd command-line-murder-mystery
+  158  sei
+  159  ls
+  160  cd unit1
+  161  ls
+  162  cd command-line-murder-mystery
+  163  cat instructions
+  164  grep "CLUE" crimescene
+  165  cd crimescene
+  166  cd mystery
+  167  ls
+  168  grep "CLUE" crimescene
+  169  grep "Annabel" people
+  170  head -n 173 streets/Mattapan_Street | tail -n 1
+  171  grep "#9437737" interviews
+  172  cd memberships
+  173  ls
+  174  cat AAA Delta_SkyMiles Terminal_City_Library | grep -c "Annabel Sun"
+  175  cat AAA Delta_SkyMiles Terminal_City_Library | grep -c "Annabel Church"
+  176  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Annabel Sun"
+  177  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Annabel Church"
+  178  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Annabel Fuglsang"
+  179  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Oluwasegun Annabel"
+  180  cd ..
+  181  cd interviews
+  182  ls
+  183  head interview-9437737
+  184  cd ..
+  185  head -n 40 streets/Hart_Place | tail -n 1
+  186  head -n 179 streets/Buckingham_Place | tail -n 1
+  187  head -n 176 streets/Haley_Street | tail -n 1
+  188  cd interviews
+  189  head interview-47246024
+  190  head interview-699607
+  191  cd ..
+  192  cd vehicles
+  193  head -n 20 vehicles
+  194  grep -A 5 "L337" mystery/vehicles
+  195  grep -A 5 "L337" vehicles
+  196  cd memberships
+  197  ls
+  198  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Erika Owens"
+  199  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  200  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  201  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jacqui Maher"
+  202  history
+  203  history | tail -n 201 >> solution.txt
+  204  cat solution.txt
+  205  ls
+  206  git status
+  207  echo $SHELL
+  208  cd sei
+  209  ls
+  210  cd unit1
+  211  ls
+  212  cp solution.txt command-line-murder-mystery/solution.txt
+  213  cd command-line-murder-mystery
