@@ -154,6 +154,38 @@
   895  code solution.txt
   896  open README.md
   897  code solution.txt
+ 
+ 
+  927  cd mystery
+  928  grep "Jeremy Bowers" people
+  929  cat -n Dunstable_Road | grep "284" 
+  930  cd streets
+  931  cat -n Dunstable_Road | grep "284"
+  932  cd ..
+  933  cd interviews
+  934  code interview 9620713
+  935  code interview-9620713
+  936  code hint6
+  937  cd ..
+  938  code hint7
+  939  cd people
+  940  cd mystery
+  941  cd people
+  942  grep "Erika Owens" people
+  943  grep "Joe Germuska" people
+  944  grep "Jacqui Maher" people
+  945  ccd streets
+  946  cd streets
+  947  cat -n Treapelo_Street | grep "98" 
+  948  cat -n Trapelo_Street | grep "98"
+  949  cat -n Plainfield_Street | grep "275"
+  950  cat -n Andover_Road | grep "224"
+  951  cd ..
+  952  cd interviews
+  953  code interview-5455315
+  954  code interview-29741223
+  955  code interview-904020
+  956  cat interview-9620713
 ---------------------------
 
 
