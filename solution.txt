@@ -1,0 +1,321 @@
+    1  traceroue
+    2  traceroute facebok.com
+    3  traceroute bmw.com
+    4  /Applications/Luminar\ AI.app/Contents/MacOS/Luminar\ AI ; exit;
+    5  /Applications/Luminar\ AI.app/Contents/MacOS/Luminar\ AI ; exit;
+    6  hello?
+    7  where am i
+    8  pwd
+    9  ls
+   10  cd Documents
+   11  ls
+   12  ls -a
+   13  cd ..
+   14  pwd
+   15  mkdir myfolder
+   16  ls
+   17  cd myfolder
+   18  touch index.html style.css
+   19  rm style.css
+   20  ls
+   21  cd ..
+   22  ls
+   23  rm -r myfolder
+   24  ls
+   25  cd Desktop
+   26  ls
+   27  ls world
+   28  ls -a world
+   29  ls -aworld
+   30  ls -a world
+   31  $ brew install git
+   32  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   33  git --version
+   34  git --version
+   35  pmd
+   36   git --version
+   37  pwd
+   38  mkdir GA-Blog
+   39  ls
+   40  ls GA-Blog
+   41  cd GA-Blog
+   42  ls
+   43  $ git init
+   44  git init
+   45  git status
+   46  touch post.txt
+   47  ls
+   48  git status
+   49  git add post.txt
+   50  ls
+   51  git status
+   52  git add .
+   53  git commit -m "created a new post.txt file"
+   54  git log
+   55  pwd
+   56  cd ..
+   57  ls
+   58  mkdir Course
+   59  ls
+   60  cd Course
+   61  ls
+   62  cd git-practice
+   63  ls
+   64  pwd
+   65  ls
+   66  mkdir git-practice
+   67  ls
+   68  cd git-practice
+   69  git init
+   70  ls -a
+   71  touch README.txt
+   72  git status
+   73  git add README.txt
+   74  git status
+   75  git commit -m "you did it"
+   76  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+   77  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+   78  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+   79  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+   80  sudo /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+   81  brew install git
+   82  git --version
+   83  git config --global user.name "cvillatoro103"\ngit config --global user.email "futurebound.carlosv@gmail.com"\ngit config --global push.default simple\ngit config --global credential.helper cache\ngit config --global core.editor 'code -w'
+   84  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   85  brew doctor
+   86  xcode-select --install
+   87  brew install zsh
+   88  echo $SHELL
+   89  chsh -s /bin/zsh
+   90  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   91  git config --global user.name "carlos-villatoro"
+   92  git config --global user.email "futurebound.carlosv@gmail.com"
+   93  git config --global push.default simple\ngit config --global credential.helper cache\ngit config --global core.editor 'code -w'
+   94  brew install --cask visual-studio-code
+   95  code
+   96  code ~/.zshrc
+   97  pwd
+   98  ls -a
+   99  cd
+  100  asdc
+  101  dsd
+  102  f
+  103  sf
+  104  ls
+  105  cd desktop
+  106  ls
+  107  cd world
+  108  ls
+  109  lsa
+  110  cd ../..
+  111  ls
+  112  desktop
+  113  ls
+  114  course
+  115  mkdir unit1
+  116  ls
+  117  cd unit1
+  118  touch cli-commands.txt
+  119  ls
+  120  code .
+  121  open ~/.zshrc
+  122  ..
+  123  pwd
+  124  cd ~
+  125  ls 
+  126  cd unit1
+  127  mkdir intro-git
+  128  cd intro-git
+  129  touch readme.txt
+  130  ls
+  131  git init
+  132  git --version
+  133  git config --global init.defaultBranch main
+  134  ls -a
+  135  rm -rf .git
+  136  git init
+  137  ls -a
+  138  git status
+  139  git add readme.txt
+  140  git status
+  141  git commit
+  142  git commit -m "this is the init commit for my project"
+  143  git status
+  144  touch index.html script.js style.css
+  145  ls
+  146  git status
+  147  git add .
+  148  git status
+  149  git commit -m 'adds index.html, script.js, and styles.css'
+  150  git status
+  151  touch test test2
+  152  git status
+  153  git add test2
+  154  git stauts
+  155  git status
+  156  git commit -m 'includes test2 but not test'
+  157  git log 
+  158  git status
+  159  rm test
+  160  git status
+  161  git checkout bd3be64630a042d2b9046bbc98782343359f40fe
+  162  git checkout main
+  163  ls 
+  164  ls -a
+  165  cd ..
+  166  git clone https://github.com/carlos-villatoro/git-pull-request-practice.git
+  167  ls
+  168  cd git-pull-request-practice
+  169  touch carlos-v
+  170  ls
+  171  git add .
+  172  git status
+  173  git commit -m 'adds my name'
+  174  git status
+  175  git remote -v
+  176  git push origin main
+  177  cd unit2
+  178  cd unit1
+  179  git clone https://github.com/carlos-villatoro/command-line-murder-mystery.git
+  180  ls
+  181  cd command-line-murder-mystery
+  182  open .
+  183  cat instructions | grep murder
+  184  cat instructions
+  185  cat hint 1
+  186  cat hint1
+  187  head -n people
+  188  head -n 20 people
+  189  ls
+  190  cd mystery
+  191  head -n 20 people
+  192  ls
+  193  cat crimescene
+  194  cat crimescene | grep clue
+  195  car crimescene | grep 'clue'
+  196  cat crimescene | grep 'clue'
+  197  cat crimescene | grep 'CLUE'
+  198  ls
+  199  cd interviews
+  200  ls
+  201  grep "Annabel" 
+  202  ls
+  203  grep 'AAA' interviews.txt
+  204  cat interviews | grep 'AAA'
+  205  grep 'AAA'
+  206  grep 'AAA' *
+  207  open interview-290346
+  208  grep 'Annabel' *
+  209  grep 'library' *
+  210  grep 'hair' *
+  211  cat hint2
+  212  pwd
+  213  ..
+  214  ls
+  215  cat hint2
+  216  grep 'CLUE' crimscene%
+  217  grep 'CLUE' crimscene
+  218  cd mystery
+  219  ls
+  220  grep 'CLUE' crimescene.txt
+  221  grep "CLUE" crimescene
+  222  people
+  223  head people
+  224  head -n 40 people
+  225  head -n  100 people
+  226  head -n 100 vehicles
+  227  tail vehicles
+  228  open vehicles
+  229  grep "6'" vehicles
+  230  grep "Annabel" vehicles
+  231  grep "Annabel" people
+  232  grep -A 4 "Annabel" vehicles
+  233  ..
+  234  ls
+  235  cd mystery
+  236  ls
+  237  ..
+  238  ls
+  239  cat instructions
+  240  cat hint1
+  241  head -n 20 hint2
+  242  cd mystery
+  243  grep CLUE crimescene
+  244  grep CLUE crimescene >> clues.txt
+  245  ls
+  246  cat clues
+  247  cat clues.txt
+  248  ls
+  249  grep CLUE crimescene
+  250  head -n 20 people
+  251  cat people | grep Annabel
+  252  cat people | grep Annabel >> clues.txt
+  253  cat clues.txt
+  254  cd streets
+  255  ls
+  256  cat ../clues.txt
+  257  head -n 20 Hart_Place
+  258  head -n 40 Hart_Place | tail -n 1
+  259  grep INTERVIEW Hart_Place
+  260  grep INTERVIEW Hart_Place >> ../clues.txt
+  261  cat ../clues.txt
+  262  ..
+  263  ls
+  264  cd interviews
+  265  head -20 interview-47246024
+  266  head -n 10 interview-9437737
+  267  head -n 10 interview-699607
+  268  head -n 10 interview-699607 >> ../clues.txt
+  269  cd..
+  270  cd ..
+  271  head -n 30 vehicles
+  272  ls
+  273  grep "L337" vehicles
+  274  grep -A 4 "L337" vehicles
+  275  grep -A 5 "L337" vehicles
+  276  grep -A 5 "L337" vehicles | grep -A 4'Blue'
+  277  grep -A 5 "L337" vehicles | grep -A 4"Blue"
+  278  grep -A 5 "L337" vehicles | grep -A  4 "Blue"
+  279  grep -A 5 "L337" vehicles |grep -A "Honda" | grep -A  3 "Blue"
+  280  grep -A 5 "L337" vehicles |grep -A "Honda" | grep -A 4 "Blue"
+  281  grep -A 5 "L337" vehicles | grep -A "Honda" | grep -A 4 "Blue"
+  282  grep -A 5 "L337" vehicles | grep -A "Honda" | grep -A 3 "Blue"
+  283  grep -A 5 "L337" vehicles | grep -A "Honda" | grep -A 3 "Blue" 
+  284  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -3 "Blue" | grep -B 1 "6'"
+  285  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -3 "Blue" | grep -B 1 "6'" >> ../clues.txt
+  286  cat ../clues.txt
+  287  cd
+  288  ls
+  289  cd unit1
+  290  ls
+  291  cd command-line-murder-mystery
+  292  ls
+  293  cd mystery
+  294  ls
+  295  cat clues.txt
+  296  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -3 "Blue" | grep -B 1 "6'"
+  297  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -3 "Blue" | grep -B 1 "6'" >> clues.txt
+  298  cat clues.txt
+  299  ls
+  300  cd memberships
+  301  ls
+  302  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+  303  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  304  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  305  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  306  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  307  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  308  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -1
+  309  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  310  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" 
+  311  cd ..
+  312  grep "Jeremy Bowers" people
+  313  gcd streets
+  314  cd streets
+  315  head -n 284 Dunstable_Road
+  316  head -n 284 Dunstable_Road | tail -n 1
+  317  cd ..
+  318  ls
+  319  cd interviews
+  320  cat interview-9620713
+  321  cd ..
