@@ -1,0 +1,488 @@
+    1  pwd
+    2  /?
+    3  ls
+    4  cd documents
+    5  ls
+    6  mkdir GA-SEI-425
+    7  ls
+    8  cd 
+    9  cd documents
+   10  ls
+   11  cd GA-SEI-425
+   12  ls
+   13  open .
+   14  touch books.txt
+   15  ls
+   16  touch .zshrc
+   17  ls
+   18  alias SEI425=cd /c/Users/Billy Lu/documents/GA-SEI-425
+   19  alias SEI425=cd /c/Users/'Billy Lu'/documents/GA-SEI-425
+   20  cd ~
+   21  vi .bashrc
+   22  pwd
+   23  ls
+   24  cd Documents/
+   25  ls
+   26  ll
+   27  cd ll
+   28  ls -l
+   29  ls
+   30  cd GA-SEI-425/
+   31  ls
+   32  git config
+   33  ls
+   34  mkdir Unit-1
+   35  ls
+   36  cd unit-1
+   37  mkdir intro-git
+   38  ls
+   39  cd intro-git/
+   40  ls
+   41  ls -a
+   42  touch readme.txt
+   43  ls
+   44  git init
+   45  ls -a
+   46  git --version
+   47  git /?
+   48  git --help
+   49  git help -a
+   50  ls
+   51  cd Documents/
+   52  ls
+   53  cd GA-SEI-425/
+   54  ls
+   55  cd Unit-1/
+   56  ls
+   57  cd intro-git/
+   58  git config --global init.defaultBranch main
+   59  ls
+   60  ls -a
+   61  rm -rf .git
+   62  git init
+   63  git status
+   64  git add readme.txt
+   65  git status
+   66  git commit
+   67  git config --global user.email "billyfwlu@gmail.com"
+   68  git config --global user.name "Billy Lu"
+   69  git commit
+   70  git commit -m "commit initial readme.txt file to repo"
+   71  git status
+   72  touch index.html
+   73  touch script.js styles.css
+   74  ls 
+   75  git status
+   76  git add .
+   77  git status
+   78  git store --staged .
+   79  git status
+   80  git commit -m "Add index.html, script.js, and styles.css"
+   81  touch test test2
+   82  ls
+   83  git status
+   84  git add test2
+   85  git status
+   86  git commit -m "includes test2 but not test"
+   87  git status
+   88  git log
+   89  ls
+   90  ls -a
+   91  cd user/'billy lu'/
+   92  ls 
+   93  pwd
+   94  cd cmd
+   95  ls
+   96  cd ..
+   97  git stattus
+   98  git status
+   99  ls
+  100  cd C:\
+  101  ls
+  102  ls
+  103  ls -a
+  104  cd ..
+  105  cd ..
+  106  ls -a
+  107  cd .
+  108  ls
+  109  cd C:\Usersls
+  110  cd C:
+  111  ls
+  112  cd Users/
+  113  ls
+  114  cd 'Billy Lu'/
+  115  ls
+  116  cd Documents/
+  117  cd GA-SEI-425/
+  118  ls
+  119  cd Unit-1/
+  120  ls
+  121  cd intro-git/
+  122  ls
+  123  git log
+  124  git switch
+  125  1b97eba40b108993febfc150ee0de78710d3e7e4
+  126  git --help
+  127  git clone
+  128  git clone https://github.com/bluz225/git-pull-request-practice.git
+  129  ls
+  130  rm -rf git-pull-request-practice/
+  131  cd .
+  132  cd ..
+  133  git clone https://github.com/bluz225/git-pull-request-practice.git
+  134  ls
+  135  cd git-pull-request-practice/
+  136  touch billy-lu
+  137  ls
+  138  git add
+  139  ls
+  140  git status
+  141  git add .
+  142  ls
+  143  git status
+  144  git commit -m "add billy-lu"
+  145  git status
+  146  git remote -v
+  147  git push origin main
+  148  ls
+  149  cd C:
+  150  ls
+  151  cd Users/
+  152  ls
+  153  cd Billy\ Lu/
+  154  ls
+  155  cd Documents/
+  156  ls
+  157  cd GA-SEI-425/
+  158  ls
+  159  cd Unit-1/
+  160  ls
+  161  git clone https://github.com/bluz225/command-line-murder-mystery.git
+  162  ls
+  163  ls
+  164  cd command-line-murder-mystery/
+  165  ls
+  166  cat README.md 
+  167  cat instructions 
+  168  cat instructions | grep murder
+  169  ls
+  170  cat hint*
+  171  ls 
+  172  cd ..
+  173  ls
+  174  rm -rf git-pull-request-practice/
+  175  ls 
+  176  rm -rf git-pull-request-practice/
+  177  cd ~
+  178  ls
+  179  ls
+  180  cd ~
+  181  ls
+  182  cd Documents/
+  183  ls
+  184  cd GA-SEI-425/
+  185  cd Unit-1/
+  186  ls
+  187  cd git-pull-request-practice/
+  188  ls
+  189  cd ..
+  190  ls
+  191  rm -rf git-pull-request-practice/
+  192  ls
+  193  git clone 
+  194  git clone 
+  195  ls
+  196  git clone https://github.com/bluz225/git-pull-request-practice.git
+  197  ls
+  198  cd git-pull-request-practice/
+  199  ls
+  200  touch bluz
+  201  git add .
+  202  git commit -m "Add bluz file"
+  203  ls
+  204  git remote -v
+  205  git push origin main
+  206  ls 
+  207  cd .
+  208  cd ..
+  209  ls
+  210  cd command-line-murder-mystery/
+  211  ls
+  212  cat instructions 
+  213  cat mystery/
+  214  cd mystery/
+  215  ls
+  216  cat crimescene 
+  217  clear
+  218  ls
+  219  code crimescene 
+  220  vim crimescene 
+  221  ls
+  222  cd ..
+  223  ls 
+  224  cat hint*
+  225  cd mystery/
+  226  ls
+  227  cd interviews/
+  228  ls
+  229  cd ..
+  230  ls
+  231  vim crimescene 
+  232  head -n 20 people
+  233  head -v people
+  234  grep "clue" crimescene 
+  235  ls
+  236  cat crimescene | grep "CLUE"
+  237  cat people | grep "Annabel" 
+  238  cat hint2
+  239  ls
+  240  cd ..
+  241  ls
+  242  cat hint2
+  243  cat hint3
+  244  cat interview* | grep "blond"
+  245  ls
+  246  cd mystery
+  247  ls
+  248  cat people
+  249  ls
+  250  cd interviews
+  251  ls
+  252  cat interview* | grep "blond"
+  253  cat interview* | grep "coffee"
+  254  cat interview*
+  255  cat interview* | grep "Alice"
+  256  cat interview* | grep "wallet"
+  257  cat interview* | grep "Wallet"
+  258  cd ..
+  259  ls
+  260  cd ..
+  261  ls
+  262  cat hint3
+  263  cat hint4
+  264  cat hint5
+  265  cat interview* | grep "6'"
+  266  ls
+  267  cat hint6
+  268  grep "Honda" vehicles
+  269  ls
+  270  cd mystery/
+  271  ls
+  272  cat vehicles 
+  273  cat vehicles | grep "6'"
+  274  ls
+  275  cat vehicles 
+  276  ls
+  277  cd memberships/
+  278  ls
+  279  cat AAA
+  280  cat AAA | grep "Annabel"
+  281  ls
+  282  cat delta | grep "Annabel"
+  283  cat delta.txt | grep "Annabel"
+  284  ls
+  285  cat delta.txt
+  286  ls
+  287  cat delta_skymiles | grep "Annabel"
+  288  cat delta_skymiles
+  289  cd ..
+  290  ls
+  291  cat vehicles 
+  292  ls
+  293  cd memberships/
+  294  ls
+  295  grep annabel museum.txt
+  296  ls
+  297  cat museum.txt | grep 'annabel'
+  298  cat museum.txt
+  299  grep 'annabel' museum.txt
+  300  ls
+  301  grep -i 'annabel' museum.txt
+  302  grep -i 'annabel' delta_skymiles
+  303  grep -i 'annabel' library.txt
+  304  cat library
+  305  cat library*
+  306  cat delta* | grep -i 'annabel'
+  307  cat delta*
+  308  ls
+  309  cd ../..
+  310  ls
+  311  cat hint7
+  312  grep -A 5 "L337" mystery/vehicles
+  313  grep -A "6'" mystery/vehicles 
+  314  grep -A " 6" mystery/vehicles 
+  315  grep -A -4 "6'" mystery/vehicles 
+  316  grep -A 4 "6'" mystery/vehicles 
+  317  ls
+  318  cat hint5
+  319  ls
+  320  /cd
+  321  cd mystery/
+  322  ls
+  323  cd streets/
+  324  ls
+  325  ls
+  326  cat Mattapan_Street 
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd interviews/
+  331  ls
+  332  cat interview-9437737
+  333  ls
+  334  cd ..
+  335  ls
+  336  cd streets/
+  337  ls
+  338  grep -i 'interview' Buckingham_Place 
+  339  ls
+  340  cd
+  341  ls 
+  342  cd Documents/GA-SEI-425/Unit-1/
+  343  ls
+  344  cd command-line-murder-mystery/
+  345  ls
+  346  grep -i 'interview' mystery/streets/Haley_Street 
+  347  cat hint*
+  348  grep -i 'interview' mystery/streets/
+  349  grep -i 'interview' mystery/streets/*
+  350  ls
+  351  cd mystery/
+  352  ls
+  353  cd interviews/
+  354  ls
+  355  cat interview-699607
+  356  cat interview-871877
+  357  cat interview-47246024
+  358  ls
+  359  cd ..
+  360  ls
+  361  cd vehicles 
+  362  ls
+  363  cd vehicles 
+  364  cat vehicles 
+  365  ls
+  366  cd ..
+  367  ls
+  368  cat hint4
+  369  cat hint5
+  370  cat hint6
+  371  grep -i blue mystery/vehicles | head 5
+  372  grep -i blue mystery/vehicles | head -n 5
+  373  grep -i blue mystery/vehicles 
+  374  cat hint6
+  375  cat hint7
+  376  grep -A 5 
+  377  grep -A 5 "L337" mystery/vehicles 
+  378  ls
+  379  cat hint8
+  380  ls
+  381  cd mystery/
+  382  ls
+  383  cd memberships/
+  384  ls
+  385  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -i 'erika owens'
+  386  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -i 'erika ownes' 'joe germuska'
+  387  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -i 'joe germuska'
+  388  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -i 'Jeremy Bowers'
+  389  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -i 'Jacqui Maher'
+  390  ls 
+  391  cd 
+  392  cd ..
+  393  ls
+  394  cd  ~/Documents/GA-SEI-425/Unit-1/command-line-murder-mystery/mystery/
+  395  ls
+  396  cd ..
+  397  ls
+  398  ls
+  399  cd ..
+  400  ls
+  401  cd git-pull-request-practice/
+  402  ls
+  403  git push origin main
+  404  ls
+  405  cd ..
+  406  cd ls
+  407  ls
+  408  cd command-line-murder-mystery/
+  409  ls
+  410  touch CLMM-Answer-BLu
+  411  ls
+  412  vm CLMM-Answer-BLu 
+  413  vim CLMM-Answer-BLu 
+  414  vim CLMM-Answer-BLu 
+  415  cat CLMM-Answer-BLu 
+  416  git status
+  417  git add .
+  418  cd ls
+  419  ls
+  420  git status
+  421  git commit -m "Add Answer File for HW 25 April 2022"
+  422  git push origin main
+  423  ls
+  424  cd ..
+  425  ls
+  426  cd HW\ Notes/
+  427  ls
+  428  ls
+  429  cp -r command_line_mystery_notes.txt ~/Documents/GA-SEI-425/Unit-1
+  430  ls
+  431  cd ..
+  432  ls
+  433  rm -f command_line_mystery_notes.txt 
+  434  ls
+  435  ls
+  436  cd command-line-murder-mystery/
+  437  ls
+  438  cat hint7
+  439  cat hint3
+  440  ls
+  441  cat hint3
+  442  ls
+  443  ls 
+  444  cd mystery/
+  445  ;s
+  446  ls
+  447  cd memberships/
+  448  ls
+  449  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "jeremy bowers" | wc -l
+  450  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "jeremy bowers" | wc
+  451  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "jeremy bowers" 
+  452  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "jeremy bowers"
+  453  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -i 'jeremy bowers'
+  454  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -i 'jeremy bowers' | wc -l
+  455  cd ../..
+  456  ls
+  457  git status
+  458  git add .
+  459  git commit -m "Update Answer file with HW notes"
+  460  git log
+  461  ls
+  462  pwd
+  463  cd ~
+  464  ls
+  465  cd Documents/GA-SEI-425/Unit-1/command-line-murder-mystery/
+  466  ls
+  467  git push origin main
+  468  ls
+  469  cat hint7
+  470  grep -A 5 "L337" mystery/vehicles
+  471  grep -B 5 "L337" mystery/vehicles
+  472  ls
+  473  cat hint8
+  474  ls
+  475  cd mystery/memberships/
+  476  ls
+  477  ls
+  478  cd ~
+  479  cd Documents/GA-SEI-425/Unit-1/
+  480  ls
+  481  cd command-line-murder-mystery/
+  482  grep CLUE mystery/crimescene 
+  483  man wc
+  484  touch solution.txt
+  485  la
+  486  ls
+  487  history
+  488  history >> solution.txt 
