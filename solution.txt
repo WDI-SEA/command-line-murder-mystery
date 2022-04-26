@@ -1,0 +1,104 @@
+ 7323  gh repo clone WDI-SEA/command-line-murder-mystery
+ 7324  ls
+ 7325  cd command-line-murder-mystery
+ 7326  bat instructions
+ 7327  open .
+ 7328  cat instructions | grep murder
+ 7329  bat hint1
+ 7330  bat instructions
+ 7331  ls
+ 7332  cd mystery
+ 7333  tree
+ 7334  bat crimescene
+ 7335  grep -l "CLUE" *
+ 7336  grep -rl "CLUE" *
+ 7337  grep "CLUE" crimescene
+ 7338  grep -c 5 "CLUE" crimescene
+ 7339  grep -C 5 "CLUE" crimescene
+ 7340  cd ..
+ 7341  ls
+ 7342  cat instructions
+ 7343  grep "CLUE" mystery/crimescene
+ 7344  grep "CLUE" mystery/crimescene > crimescene_clues.txt
+ 7345  cd mystery
+ 7346  ls
+ 7347  ls memberships
+ 7348  head 1.txt
+ 7349  head memberships/1.txt
+ 7350  head memberships/w.txt
+ 7351  head memberships/2.txt
+ 7352  head memberships/AAA
+ 7353  cd ..
+ 7354  code .
+ 7355  cd mystery
+ 7356  ls
+ 7357  head people
+ 7358  grep "Annabel" people
+ 7359  grep "Annabel" people >> ../crimescene_clues.txt
+ 7360  ls
+ 7361  head -n 40 streets/Hart_Place | tail -n 1 >> ../crimescene_clues.txt
+ 7362  head -n 173 streets/Mattapan_Street | tail -n 1 >> ../crimescene_clues.txt
+ 7363  head -n 179 streets/Buckingham_Place | tail -n 1 >> ../crimescene_clues.txt
+ 7364  head -n 176 streets/Haley_Street | tail -n 1 >> ../crimescene_clues.txt
+ 7365  ls interviews | head
+ 7366  head interviews/interview-47246024
+ 7367  head interviews/interview-47246024 >> ../crimescene_clues.txt
+ 7368  head interviews/interview-9437737 >> ../crimescene_clues.txt
+ 7369  head interviews/interview-9437737
+ 7370  head interviews/interview-699607
+ 7371  cat interviews/interview-699607
+ 7372  head interviews/interview-871877
+ 7373  ls
+ 7374  ls vehicles
+ 7375  head vehicles
+ 7376  grep "Liscense Plate "L337..9"
+ 7377  grep "Liscense Plate "L337..9" vehicles
+ 7378  grep "Liscense Plate L337..9" vehicles
+ 7379  grep "Liscense Plate L337.9" vehicles
+ 7380  grep "Liscense Plate" vehicles
+ 7381  grep "License Plate T3YUHF6" vehicles
+ 7382  grep "License Plate" vehicles
+ 7383  grep "License Plate L337..9" vehicles
+ 7384  head vehicles
+ 7385  head -n 20 vehicles
+ 7386  grep -A 6 "License Plate L337..9" vehicles
+ 7387  grep -A 6 "License Plate L337..9" vehicles | grep -B 1 -A 5 "Honda"
+ 7388  grep -A 6 "License Plate L337..9" vehicles >> ../matching_licenses.txt
+ 7389  cat ../matching_licenses.txt
+ 7390  grep -B 1 -A 5 "Honda" ../matching_licenses >> ../matching_hondas.txt
+ 7391  grep -B 1 -A 5 "Honda" ../matching_licenses.txt >> ../matching_hondas.txt
+ 7392  cat ../matching_hondas.txt
+ 7393  grep -B 2 -A 5 "Blue" ../matching_hondas.txt >> ../matching_blue_hondas.txt
+ 7394  cat ../matching_blue_hondas.txt
+ 7395  grep -B 4 -A 3 "Height: 6'" ../matching_blue_hondas.txt >> ../matching_height.txt
+ 7396  cat ../matching_height.txt
+ 7397  ls memberships
+ 7398  head library.txt
+ 7399  cd memberships
+ 7400  head library.txt
+ 7401  head Terminal_City_Library
+ 7402  head museum.txt
+ 7403  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Erica Owens"
+ 7404  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Joe Germuska"
+ 7405  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Jeremy Bowers"
+ 7406  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Jacqui Maher"
+ 7407  ls
+ 7408  grep "Jeremy Bowers" library.txt
+ 7409  grep "Jeremy Bowers" Terminal_City_Library
+ 7410  grep -c "Jeremy Bowers" library.txt
+ 7411  grep -c "Jeremy Bowers" Terminal_City_Library
+ 7412  cd ..
+ 7413  ls
+ 7414  ls people
+ 7415  head people
+ 7416  grep "Jeremy Bowers" people
+ 7417  head streets/Dunstable_Road -n 284 | tail -n 1
+ 7418  head -n 284 streets/Dunstable_Road | tail -n 1
+ 7419  ls
+ 7420  ls interviews
+ 7421  cat interviews/interview-9620713
+ 7422  cd ..
+ 
+
+ ## Name of the Killer
+ Jeremy Bowers
