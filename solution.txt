@@ -1,0 +1,257 @@
+    1  ls
+    2  cd pictures
+    3  ls
+    4  cd movies
+    5  cd downloads
+    6  pwd
+    7  cd
+    8  downloads
+    9  cd downloads
+   10  ls
+   11  ls -a
+   12  pwd
+   13  git --version
+   14  brew install git
+   15  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   16  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   17  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   18  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   19  brew install git
+   20  git --version
+   21  git config --global user.name “emilykiss”\ngit config --global user.email “emilylanekiss@gmail.com”\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+   22  brew install --cask visual-studio-code
+   23     code
+   24  code
+   25  code ~/.zshrc
+   26  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   27  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+   28  brew install git
+   29  git --version
+   30  git config --global user.name “emilykiss”\ngit config --global user.email “emilylanekiss@gmail.com”\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+   31  xcode-select --install
+   32  pwd
+   33  brew install zsh
+   34  echo $SHELL
+   35  chsh -s /bin/zsh
+   36  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   37  code
+   38  ls -a
+   39  cd
+   40  mkdir sei425
+   41  cd sei425
+   42  mkdir unit1
+   43  ls
+   44  touch cli-commands.txt
+   45  code cli-commands.txt
+   46  open ~/.zshrc
+   47  cd ..
+   48  ls
+   49  sei425
+   50  code ~/.zshrc
+   51  pwd
+   52  cd
+   53  cd sei
+   54  sei
+   55  cd sei
+   56  cd
+   57  ls
+   58  cd sei425
+   59  cd sei
+   60  ..
+   61  cd sei425
+   62  pwd
+   63  sei
+   64  cd sei
+   65  sei
+   66  cd sei
+   67  open
+   68  cd sei
+   69  sei
+   70  cd
+   71  li
+   72  cd li
+   73  cd sei425
+   74  cd
+   75  sei
+   76  cd unit1
+   77  ls
+   78  mkdir intro-git
+   79  cd intro-git
+   80  touch readme.txt
+   81  git init
+   82  git --version
+   83  git config --global init.defaultBranch main
+   84  ls -a
+   85  rm -rf .git
+   86  git init
+   87  git status
+   88  git add readme.txt
+   89  git status
+   90  touch index.html script.js style.css
+   91  git status
+   92  git add .
+   93  git status 
+   94  git commit
+   95  git status
+   96  git log
+   97  git commit
+   98  git commit -m
+   99  sei
+  100  cd unit1
+  101  git clone https://github.com/emilykiss/git-pull-request-practice.git
+  102  ls
+  103  cd git-pull-request-practice
+  104  touch emilykiss
+  105  ls
+  106  git add .
+  107  git status
+  108  git commit -m 'adds my name'
+  109  git status
+  110  git push origin main
+  111  cd ..
+  112  https://github.com/emilykiss/command-line-murder-mystery.git
+  113  git clone https://github.com/emilykiss/command-line-murder-mystery.git
+  114  ls
+  115  cd command-line-murder-mystery
+  116  ls
+  117  cat instructions
+  118  cd mystery
+  119  nano cheatsheet.md
+  120  pwd
+  121  sei
+  122  cd unit1
+  123  git init https://github.com/emilykiss/command-line-murder-mystery.git
+  124  git clone https://github.com/emilykiss/command-line-murder-mystery.git
+  125  open command-line-murder-mystery
+  126  git init https://github.com/emilykiss/command-line-murder-mystery.git
+  127  cd command-line-murder-mystery
+  128  pwd
+  129  li
+  130  cd li
+  131  cd desktop
+  132  ls
+  133  git init https://github.com/emilykiss/command-line-murder-mystery.git
+  134  li
+  135  ls
+  136  ls -a
+  137  git push origin main
+  138  ls
+  139  cd command-line-murder-mystery
+  140  ls
+  141  cd mystery
+  142  cat instructions
+  143  code instructions
+  144  cat instructions
+  145  cat hint1
+  146  pwd
+  147  cd mystery
+  148  mystery
+  149  ls
+  150  cd crimescene
+  151  open -a "crimescene"
+  152  code crimescene
+  153  code cheatsheet.md.save
+  154  code people
+  155  code vehicles
+  156  code interviews
+  157  code memberships
+  158  code streets
+  159  code cheatsheet.md.save
+  160  code cheatsheet.md
+  161  code hint1
+  162  cat hint1
+  163  cd ..
+  164  cat hint1
+  165  head -n 20 people
+  166  head
+  167  ls
+  168  cd command-line-murder-mystery
+  169  ls
+  170  cat hint1
+  171  cd mystery
+  172  head -n people
+  173  head -n 20 people
+  174  cd..
+  175  ..
+  176  cat hint2
+  177  cd mystery
+  178  ls
+  179  grep "CLUE" crimescene
+  180  ..
+  181  cat hint3
+  182  head -n 20 vehicles
+  183  cd mystery
+  184  head -n 20 vehicles
+  185  ..
+  186  cat hint3
+  187  cat hint4
+  188  cd mystery
+  189  grep "Annabel" people
+  190  cd interviews
+  191  ls
+  192  grep "Annabel" interviews
+  193  grep "Annabel" interviews.txt
+  194  code interviews
+  195  ack 'Annabel'
+  196  ack 'Annabel' /path/to/file.txt
+  197  grep -Rw '/interviews' -e 'Annabel'
+  198  ..
+  199  cat hint5
+  200  ..
+  201  cat hint5
+  202  head -n 173 streets/Mattapan_Street | tail -n 1
+  203  cd mystery
+  204  head -n 173 streets/Mattapan_Street | tail -n 1
+  205  cd interviews
+  206  code interview-9437737
+  207  ..
+  208  cat hint6
+  209  cd vehicles
+  210  cd mystery
+  211  cd vehicles
+  212  ls
+  213  code vehicles
+  214  \tgrep "Honda" vehicles\n\n\tgrep "Blue" vehicles\n\n\tgrep "L337" vehicles
+  215  ..
+  216  cat hint7
+  217  grep -A 5 "L337" mystery/vehicles
+  218  cat hint8
+  219  cd mystery
+  220  cd streets
+  221  code streets
+  222  ls
+  223  ..
+  224  ls
+  225  cd streets
+  226  head -n 26 Hart Place | tail -n 1
+  227  head -n 26 Hart_Place | tail -n 1
+  228  head -n 38 Buckingham_Place | tail -n 1
+  229  head -n 40 Haley_Street | tail -n 1
+  230  ..
+  231  head -n 40 streets/Hart_Place | tail -n 1
+  232  cd interviews
+  233  code interview-47246024
+  234  ..
+  235  head -n 179 streets/Buckingham_Place | tail -n 1
+  236  cd interviews
+  237  code interview-699607
+  238  ..
+  239  head -n 176 streets/ Haley_Street | tail -n 1
+  240  head -n 176 streets/Haley_Street | tail -n 1
+  241  cd interviews
+  242  code interview-871877
+  243  ..
+  244  cd memberships
+  245  ls
+  246  cat AAA delta.txt library.txt museum.txt | grep "Erica Owens"
+  247  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Erika Owens" | wc -l
+  248  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Joe Germuska" | wc -l
+  249  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Jeremy Bowers" | wc -l
+  250  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Jacqui Maher" |  wc -l
+  251* sei
+  252* cd unit1
+  253  ..
+  254  cd..
+  255  cd mystery
+  256  cd
+  257  cd command-line-murder-mystery
