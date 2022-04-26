@@ -1,0 +1,500 @@
+  166  node math.js
+  167  node math.js
+  168  node math.js
+  169  node math.js
+  170  node math.js
+  171  node math.js
+  172  node mathjs
+  173  node mathjs
+  174  node mathjs
+  175  node math.js
+  176  node math.js
+  177  node math.js
+  178  node math.js
+  179  node math.js
+  180  node math.js
+  181  node math.js
+  182  node math.js
+  183  node math.js
+  184  node math.js
+  185  node math.js
+  186  node math.js
+  187  node math.js
+  188  node math.js
+  189  node math.js
+  190  node math.js
+  191  node math.js
+  192  node math.js
+  193  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  194  /usr/sbin/softwareupdate --install-rosetta\n10:47\nsudo /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  195  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  196  softwareupdate --install-rosetta
+  197  xcode-select --install
+  198  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  199  brew install zsh
+  200  echo $SHELL
+  201  chsh -s /bin/zsh
+  202  brew install git
+  203  git--version
+  204  git --version
+  205  git config --global user.name "marzo20"\ngit config --global user.email "myjune91@gmail.com"\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+  206  brew install --cask visual-studio-code
+  207  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  208  code
+  209  code ~/.zshrc
+  210  pwd
+  211  ls
+  212  open ~/.
+  213  ls -a
+  214  ls .
+  215  ls-
+  216  ls -a
+  217  ls-a
+  218  ls -a
+  219  open ~/.
+  220  code ~/.zshrc
+  221  cd
+  222  cd r-sei
+  223  cd documents
+  224  cd
+  225  cd documents
+  226  ls
+  227  cd adobe
+  228  ls
+  229  cd
+  230  ls
+  231  .ls
+  232  ls.
+  233  ls
+  234  cd music
+  235  cd..
+  236  cd...
+  237  cd ..
+  238  cd users
+  239  ls
+  240  cd wonjunejung
+  241  cd ..
+  242  ls
+  243  cd ..
+  244  cd
+  245  ls
+  246  cd ..
+  247  cd
+  248  cd /
+  249  cd
+  250  cd desktop
+  251  ls
+  252  tree
+  253  cd GA-Blog
+  254  tree
+  255  .
+  256  ls
+  257  cd ..
+  258  ls
+  259  cd..
+  260  cd ..
+  261  ls
+  262  tree
+  263  /
+  264  tree
+  265  cd desktop
+  266  cd
+  267  cd desktop
+  268  cd ../..
+  269  pwd
+  270  cd
+  271  ls
+  272  cd Code\ practice
+  273  ls
+  274  cd ..
+  275  mkdir GA
+  276  cd GA
+  277  mkdir homework
+  278  cd homework
+  279  cd ..
+  280  mkdir unit1
+  281  rm homework
+  282  ls
+  283  rm -rf homework
+  284  ls
+  285  mv unit1 unit_1
+  286  ls
+  287  cd
+  288  ga
+  289  cd GA
+  290  touch cli-commands.txt
+  291  ls
+  292  code .
+  293  mkdir homework
+  294  ls
+  295  code cli-commands.txt
+  296  open ~/.zshrc
+  297  code ~/.zshrc
+  298  pwd
+  299  cd
+  300  sei
+  301  cd ga
+  302  cd homework
+  303  cd ..
+  304  mkdir sei
+  305  sei
+  306  cd
+  307  sei
+  308  ga
+  309  cd ga
+  310  sei
+  311  cd
+  312  sei
+  313  cd ga
+  314  sei
+  315  cd ..
+  316  homework
+  317  pwd
+  318  cd ..
+  319  homework
+  320  cd ..
+  321  c
+  322  cd
+  323  sei
+  324  cd ga
+  325  cd sei
+  326  ls
+  327  cd ..
+  328  sei
+  329  pwd
+  330  sei
+  331  cd ga
+  332  cd sei
+  333  cd
+  334  sei
+  335  cd ga
+  336  sei
+  337  cd sei
+  338  pwd
+  339  cd
+  340  sei
+  341  ls
+  342  cd ..
+  343  ls
+  344  sei
+  345  mkdir homework
+  346  hw
+  347  cd
+  348  hw
+  349  sei
+  350  hw
+  351  code ~/.zshrc
+  352  ls
+  353  cd ..
+  354  ls
+  355  cd ..
+  356  ls
+  357  rm -rf homework
+  358  ls
+  359  cd
+  360  sei
+  361  ls
+  362  mkdir unit_1
+  363  ls
+  364  cd ..
+  365  ls
+  366  rm -rf unit_1
+  367  ls
+  368  sei
+  369  unit_1
+  370  mkdir intro-git
+  371  intro-git
+  372  ls -a
+  373  touch readme.txt
+  374  ls
+  375  git init
+  376  git --version
+  377  git config --global init.defaultBranch main
+  378  ls -a
+  379  re -rf .git
+  380  rm -rf .git
+  381  git init
+  382  ls -a
+  383  git status
+  384  git add readme.txt
+  385  git status
+  386  git commit
+  387  git commit -m "this is the init commit for my project"
+  388  git status
+  389  touch index.html
+  390  touch script.js styles.css
+  391  ls
+  392  git status
+  393  git add .
+  394  git status
+  395  git commit -m "adds index.html, scripts.js, and styles.css"
+  396  git status
+  397  git log 
+  398  ls
+  399  git status
+  400  git log
+  401  cd ..
+  402  pwd
+  403  git clone https://github.com/marzo20/git-pull-request-practice.git
+  404  ls
+  405  cd git-pull-request-practice
+  406  touch wonjune-jung
+  407  ls
+  408  git add .
+  409  git status
+  410  git commit -m "adds my name"
+  411  git status
+  412  git remote -v
+  413  git push origin main
+  414  cd ..
+  415  git clone https://github.com/marzo20/command-line-murder-mystery.git
+  416  cd command-line-murder-mystery
+  417  ls
+  418  cat instruction
+  419  cat instructions
+  420  open .
+  421  cat instructions | grep murder
+  422  cat hint1
+  423  ls
+  424  ls -a
+  425  cd mystery
+  426  ls
+  427  cat crimescene
+  428  ls
+  429  cat people
+  430  ls
+  431  ls -a
+  432  cd ..
+  433  ls
+  434  cat hint1
+  435  cd mystery
+  436  head -n 20 people
+  437  cd ..
+  438  cat hint2
+  439  mystery
+  440  cat crimescene | grep "CLUE"
+  441  cd ..
+  442  cat hint3
+  443  mystery
+  444  head -n 20 people vehicles
+  445  cat people | grep "annabel"
+  446  ls
+  447  head -n 30 vehicles
+  448  head -n 60 vehicles
+  449  cat vehicles | grep "6'"
+  450  cd ..
+  451  cat hint4
+  452  mystery
+  453  grep "annabel" people
+  454  grep "Annabel" people
+  455  grep "Annabel" vehicles
+  456  cd ..
+  457  cat hint5
+  458  mystery
+  459  head -n 173 streets/Mattapan-Street | tail -n 1
+  460  ls
+  461  streets
+  462  head -n 173 streets/Mattapan-Street | tail -n 1
+  463  head -n173 streets | tail -n 1
+  464  cd ..
+  465  interviews
+  466  ls
+  467  cd .. ..
+  468  cd ../..
+  469  cat hint6
+  470  grep "Honda" "Blue" "L337" vehicles
+  471  mystery
+  472  grep "Honda" "Blue" "L337" vehicles
+  473  grep "Honda|Blue|L337" vehicles
+  474  grep "Honda\|Blue\|L337" vehicles
+  475  grep -w "Honda\|Blue\|L337" vehicles
+  476  grep -w"Honda\|Blue\|L337" vehicles
+  477  history
+  478  open .
+  479  grep -a 4 "Annabel" vehicles
+  480  grep -A 4 "Annabel" vehicles
+  481  ls
+  482  grep -w "Annabel Fuglsang" people  
+  483  cd ..
+  484  cat hint7
+  485  mystery
+  486  grep -C 4 "Annabel Fuglsang" vehicles
+  487  grep -A 5 "L337" vehicles
+  488  cd ..
+  489  mkdir solution.txt
+  490  open solution.txt
+  491  rm -rf solution.txt
+  492  ls
+  493  touch solution.txt
+  494  open solution.txt
+  495  cat hint8
+  496  mystery
+  497  ls
+  498  memberships
+  499  ls
+  500  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  501  cat hint1 hint2 hint3 hint4 hint5 hint6 hin7 hint8
+  502  cd ..
+  503  cat hint1 hint2 hint3 hint4 hint5 hint6 hin7 hint8
+  504  mystery
+  505  ls
+  506  streets
+  507  head -n 173 streets/Mattapan_Street | tail -n 1
+  508  head -n 173 Mattapan_Street | tail -n 1
+  509  cd ..
+  510  interviews
+  511  cat interview #9437737
+  512  cat INTERVIEW #9437737
+  513  cat #9437737
+  514  sei
+  515  ls
+  516  unit
+  517  unit_1
+  518  ls
+  519  command-line-murder-mystery
+  520  mystery
+  521  cd ..
+  522  cat hint5
+  523  mystery
+  524  streets
+  525  head -n 173 Mattapan_Street | tail -n 1\n
+  526  cd ..
+  527  interviews
+  528  cat interview-9437737
+  529  cd ..
+  530  hint8
+  531  cat hint9
+  532  cat hint8
+  533  mystery
+  534  memberships
+  535  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  536  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  537  ls
+  538  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  539  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  540  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"| wc-1
+  541  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"| wc -1
+  542  cat Fitness_Galaxy AAA United_MileagePlus | grep -C 4 "Joe Germuska"
+  543  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"| wc -1
+  544  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"| wc -1
+  545  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  546  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  547  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  548  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  549  cat Fitness_Galaxy AAA United_MileagePlus | grep "Aron Pilhofer"
+  550  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  551  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"
+  552  cd ..
+  553  ls
+  554  grep "Annabel Church" people vehicles
+  555  grep -C 4 "Annabel Church" vehicles
+  556  cd ..
+  557  cat hint1 hint2 hint3 hint4 hint5 hint6 hin7 hint8
+  558  mystery
+  559  streets
+  560  head -n 173 Mattapan_Street | tail -n 1 Mattapan_Street
+  561  head -n 173 streets/Mattapan_Street
+  562  head -n 173 Mattapan_Street
+  563  cd ..
+  564  interviews
+  565  ls
+  566  cat interview-9437737
+  567  cd ..
+  568  cat vehicles | grep "Honda\ | Blue \| L337"
+  569  cat vehicles | grep "Honda\ | Blue \| L337" vehicles
+  570  cat vehicles | grep "Honda\ | Blue" vehicles
+  571  cat vehicles | grep "L337\ | Annabel"
+  572  cat vehicles | grep "L337\ | Annabel" vehicles
+  573  cat hint1 hint2 hint3 hint4 hint5 hint6 hin7 hint8
+  574  cd ..
+  575  cat hint1 hint2 hint3 hint4 hint5 hint6 hin7 hint8
+  576  mystery
+  577  grep "Clues" crimescene
+  578  grep "Clues" crimescenes
+  579  ls
+  580  grep "clues" crimescene
+  581  cat crimescene | grep "clues" crimescene
+  582  cat crimescene | grep "clue" crimescene
+  583  grep "clue" crimescene
+  584  grep "CLUE" crimescene
+  585  cat local_library AAA United_MileagePlus | grep "Annabel Church"
+  586  membership
+  587  memberships
+  588  cat local_library AAA United_MileagePlus | grep "Annabel Church"
+  589  ls
+  590  cat library.txt AAA United_MileagePlus | grep "Annabel Church"
+  591  git add solution.txt
+  592  cd ..
+  593  git add solution.txt
+  594  ls
+  595  git add solution.txt
+  596  git status
+  597  history
+  598  ls
+  599  cat instructions
+  600  cat hint1
+  601  mystery
+  602  grep "CLUE" crimescene
+  603  man ls
+  604  man man
+  605  ls
+  606  grep CLUE crimescene >>clues.txt
+  607  ls
+  608  head -n 20 people
+  609  cat people | grep Annabel
+  610  grep Annabel
+  611  sei
+  612  ls
+  613  unit_1
+  614  ls
+  615  command-line-murder-mystery
+  616  mystery
+  617  ls
+  618  cat people | grep Annabel >> clues.txt
+  619  cat clues.txt
+  620  streets
+  621  head -40 hart_place | tail -n 1
+  622  tail -n 1 Hart-place
+  623  tail -n 1 hart_place
+  624  grep INTERVIEW Hart_Place >> ../clues.txt
+  625  cat clues.txt
+  626  cat ../clues.txt
+  627  grep INTERVIEW Hart_Place Mattapan_Street Buckingham_Place Haley_Street >> ../clues.txt
+  628  cat ../clues.txt
+  629  head -10 interview-699607>>../clues.txt
+  630  cd ..
+  631  interviews
+  632  head -10 interview-699607>>../clues.txt
+  633  cat ../clues.txt
+  634  ..cd
+  635  cd ..
+  636  grep -A 5 "L337" vehicles
+  637  grep -A 5 "L337" vehicles | grep -A 4 "Blue"
+  638  grep -A 5 "L337" vehicles | grep -A 5 "Honda" | grep -A 3 "Blue"
+  639  grep -A 5 "L337" vehicles | grep -A 5 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'1'"
+  640  grep -A 5 "L337" vehicles | grep -A 5 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'"
+  641  grep -C 3 "L337" vehicles | grep -C 3 "Honda" | grep -C 2 "Blue" | grep -C 1 "6'"
+  642  grep -A 5 "L337" vehicles | grep -A 5 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'"
+  643  grep -A 5 "L337" vehicles | grep -A 5 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'">>clue.txt
+  644  cat clue.txt
+  645  clues.txt
+  646  cat clues.txt
+  647  grep -A 5 "L337" vehicles | grep -A 5 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'">>clues.txt
+  648  cat AAA Delta_SkyMiles terminal_City_Libarary Museum_of_Bash_History | grep =c "Jeremy Bowers"
+  649  memberships
+  650  cat AAA Delta_SkyMiles terminal_City_Libarary Museum_of_Bash_History | grep =c "Jeremy Bowers"
+  651  cat AAA Delta_SkyMiles terminal_City_Libarary Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  652  cat AAA Delta_SkyMiles Terminal_City_Libarary Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  653  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  654  cd ..
+  655  cat clues.txt
+  656  cd streets
+  657  cd ..
+  658  interviews
+  659  cat interview-9620713
+  660  cd ..
+  661  history | tail -n 500
+  662  cat solution.txt
+  663  rm -rf solution.txt
+  664  ls
+  665  touch solution.txt
