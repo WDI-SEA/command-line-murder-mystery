@@ -1,0 +1,108 @@
+R// History of commands
+
+git clone https://github.com/Eduarte783/command-line-murder-mystery.git
+  167  ls
+  168  cd
+  169  sei
+  170  cd unit1
+  171  cd command-line-murder-mystery
+  172  ls
+  173  mdkir solution.txt
+  174  mkdir solution.txt
+  175  ls
+  176  code cheatsheet.md
+  177  code hint1
+  178  head -n 20 people
+  179  head -n people
+  180  code hint2
+  181  code hint3
+  182  code hint4
+  183  code hint5
+  184  code hint6
+  185  code hint7
+  186  code hint8
+  187  code intructions
+  188  code instructions
+  189  cd mystery
+  190  ls
+  191  code crimescene
+  192  head -n people
+  193  code head -n people
+  194  code head -n 20 people
+  195  head -n 20 people
+  196  grep "CLUE crimescene\ncd\ngrep -w "CLUE" crimescene\nls\n\npwd
+  197  ls
+  198  head -n 20 people
+  199  cat  crimescene | "CLUE"
+  200  grep "CLUE" crimescene
+  201  grep "Annabel" people
+  202  head -n 173 streets/Mattapan_Street | tail -n 1
+  203  grep "9437737" interviews
+  204  cd interviews
+  205  ls
+  206  grep "9437737" interviews
+  207  grep "interview-9437737" interviews
+  208  code interview-9437737
+  209  cd ..
+  210  grep "Annabel" people
+  211  head -n 179 streets/Buckingham_Place | tail -n 1
+  212  cd interviews
+  213  code interview-699607
+  214  cd ..
+  215  ls
+  216  grep "honda" vehicles
+  217  grep "blue" vehicles
+  218  grep "L337" vehicles
+  219  grep -A 5 "L337" mystery/vehicles
+  220  grep -A 5 "L337" vehicles
+  221  cd memberships
+  222  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  223  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  224  at Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  225  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  226  at Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  227  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  228  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  229  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  230  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  231  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher" | wc -l
+  232  cd ..
+  233  ls
+  234  grep -B 5 "L337" vehicles     
+  235  grep -C 5 "L337" vehicles     
+  236  cd interviews
+  237  head -n 40 streets/Hart_Place | tail -n 1
+  238  cd ..
+  239  head -n 40 streets/Hart_Place | tail -n 1
+  240  cd interviews
+  241  code interview-47246024
+  242  cd ..
+  243  head -n 176 streets/Haley_Street | tail -n 1
+  244  cd interviews
+  245  code interview-871877
+  246  cd ..
+  247  head -n 173 streets/Mattapan_Street | tail -n 1
+  248  cd interviews
+  249  code interview-9437737
+  250  cat instructions | grep murder
+  251  cd ..
+  252  cat instructions | grep murder
+  253  cd memberships
+  254  cat AAA Delta_SkyMiles local_library Museum_of_Bash_History | grep "Joe Germuska"
+  255  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska" 
+  256  cat AAA Delta_SkyMiles local_library Museum_of_Bash_History | grep "Jacqui Maher" 
+  257  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jacqui Maher"
+  258  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  259  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Joe Germuska"
+  260  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  261  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Jacqui Maher" 
+  262  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jacqui Maher" | wc -l 
+  263  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Joe Germuska" | wc -l
+  264  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  265  cd ..
+  266  ls
+  267  code solutions.txt
+
+  // KILLERS NAME
+
+  Jeremy BowersS
