@@ -1,0 +1,325 @@
+    1  brew install git
+    2  git --version
+    3  git config --global user.name "ApexBortz"
+    4  git config --global user.name "ApexBortz"\ngit config --global user.email "nicholas@georgetownframeshoppe.com"\ngit config --global push.default simple\ngit config --global credential.helper cache
+    5  git config --global core.editor 'code -w'
+    6  brew install --cask visual-studio-code
+    7  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    8  code
+    9  /.zshrc
+   10  code ~/ .zshrc
+   11  ZSH_THEME="af-magic"
+   12  pwd
+   13  code
+   14  ls -a
+   15  code ~/.zshrc
+   16  ls-l
+   17  pwd
+   18  ls
+   19  ls -a
+   20  cd Applications
+   21  ls
+   22  pwd
+   23  cd BORTZ
+   24  pwd
+   25  cd ~
+   26  pwd
+   27  ls
+   28  cd Desktop
+   29  mkdir SEI-425
+   30  tree
+   31  cd ..
+   32  tree
+   33  cd SEI-425
+   34  pwd
+   35  cd Desktop
+   36  cd SEI-425
+   37  mkdir Homework
+   38  cd .
+   39  mkdir Projects
+   40  cd.
+   41  cd .
+   42  tree
+   43  cd Projects
+   44  tree
+   45  cd ..
+   46  pwd
+   47  cd ..
+   48  pwd
+   49  ls
+   50  brew install tree
+   51  pwd
+   52  ls
+   53  tree
+   54  pwd
+   55  ls
+   56  cd Desktop
+   57  cd SEI-425
+   58  cd ..
+   59  cd SEI-425
+   60  mkdir Unit 1
+   61  rm -1
+   62  mv Unit Unit_1
+   63  cd dekstop
+   64  pwd
+   65  ls
+   66  cd Desktop
+   67  ls
+   68  cd SEI-425
+   69  ls
+   70  cd Unit_1
+   71  touch cli-commands.txt
+   72  cod .
+   73  code .
+   74  ls
+   75  open ~/.zshrc
+   76  code ~/.zshrc
+   77  pwd
+   78  ls
+   79  cd Desktop
+   80  ls
+   81  cd SEI-425
+   82  ls
+   83  cd Unit_1
+   84  pwd
+   85  cd ..
+   86  ls
+   87  pwd
+   88  code ~/.zshrc
+   89  sei
+   90  code ~/.zshrc
+   91  sei
+   92  code ~/.zshrc
+   93  sei
+   94  ls
+   95  cd Unit_1
+   96  ls
+   97  mkdir intro_git
+   98  cd intro_git
+   99  ls a
+  100  ls -a
+  101  touch ReadMe.txt
+  102  ls
+  103  git init
+  104  git --version
+  105  git config --global init.defaultBranch main
+  106  ls -a
+  107  rm -rf .git
+  108  ls -a
+  109  cd ..
+  110  cd Desktop
+  111  ls -a
+  112  rm -rf .git
+  113  sei
+  114  cd Unit_1
+  115  cd intro_git
+  116  git init
+  117  ls -a
+  118  git status
+  119  git add ReadMe.txt
+  120  git status
+  121  git commit -m "created file ReadMe.txt for init commit"
+  122  git status
+  123  touch index.html script.js styles.css
+  124  ls
+  125  git status
+  126  git add .
+  127  git status
+  128  git commit -m "adds index.html, script.js, and style.css"
+  129  git status
+  130  touch test test2
+  131  git add test2
+  132  git status
+  133  git add test
+  134  git status
+  135  git commit -m "adds two test files"
+  136  git status
+  137  git log
+  138  git checkout 06936ef052eac1e11661e5fc89c96eceb48d8175
+  139  git checkout main
+  140  ls
+  141  ls -a
+  142  code ~/.zshrc
+  143  pwd
+  144  ls
+  145  cd Desktop
+  146  ls
+  147  cd SEI-425
+  148  ls
+  149  cd Unit_1
+  150  ls
+  151  cd intro_git
+  152  code ~/.zshrc
+  153  ls
+  154  cd Desktop
+  155  ls
+  156  cd SEI-425
+  157  ls
+  158  cd Unit_1
+  159  ls
+  160  cd intro_git
+  161  cd ..
+  162  pwd
+  163  git clone https://github.com/ApexBortz/git-pull-request-practice.git
+  164  ls
+  165  cd git-pull-request-practice
+  166  touch nick-bortz
+  167  git add .
+  168  git commit -m "adds my name"
+  169  git status
+  170  git remote -v
+  171  git push origin main
+  172  pwd
+  173  cd ..
+  174  git clone https://github.com/ApexBortz/command-line-murder-mystery.git
+  175  ls
+  176  cd command-line-murdermystery
+  177  cat
+  178  pwd
+  179  ls
+  180  cd Desktop
+  181  ls
+  182  cd SEI-425
+  183  ls
+  184  cd Unit_1
+  185  ls
+  186  cd command-line-murder-mystery
+  187  cat
+  188  ls
+  189  sei
+  190  cd Unit_1
+  191  ls
+  192  cd command-line-murder-mystery
+  193  cat instructions
+  194  ls
+  195  ls -a
+  196  cd mystery
+  197  ls
+  198  code crimescene
+  199  open hint2
+  200  cd ..
+  201  ls
+  202  open hint2
+  203  ls
+  204  cd mystery
+  205  grep "clue" crimscene
+  206  grep "clue" crimescene
+  207  grep "CLUE" crimescene
+  208  ls
+  209  cd interviews
+  210  ls
+  211  open hint3
+  212  cd ..
+  213  ls
+  214  cd ..
+  215  ls
+  216  open hint3
+  217  ls
+  218  cd mystery
+  219  pwd
+  220  head -n names.people
+  221  head -n 15 names.people
+  222  head names.people
+  223  head names people
+  224  ls
+  225  head names vehicles
+  226  ls
+  227  cd ..
+  228  ls
+  229  open hint 4
+  230  open hint4
+  231  open hint5
+  232  open hint6
+  233  open hint7
+  234  cd mystery
+  235  ls
+  236  grep "Annabel" people
+  237  ls
+  238  cd interviews
+  239  head -n 173 streets/Mattapan_Street | tail -n1
+  240  ls
+  241  cd ..
+  242  ls
+  243  cd streets
+  244  head -n 173 streets/Mattapan_Street | tail -n 1
+  245  head -n 173 | tail -n 1
+  246  sei
+  247  ls
+  248  cd Unit_1
+  249  ls
+  250  cd command-line-murder-mystery
+  251  ls
+  252  cd mystery
+  253  ls
+  254  cd streets
+  255  head -n 173 Mattapan_Street | tail -n 1
+  256  ls
+  257  cd ..
+  258  ls
+  259  cd interviews
+  260  ls
+  261  head interview-9437737
+  262  cd ..
+  263  ls
+  264  grep "Honda" vehicles
+  265  ls
+  266  head vehicles
+  267  grep -A 5 "L337" vehicles
+  268  ls
+  269  cd interviews
+  270  head -n 40
+  271  cd ..
+  272  ls
+  273  cd streets
+  274  ls
+  275  head -n 40 Hart_Place
+  276  head -n 173 Mattapan_Street
+  277  head -n 179 Buckingham_Place
+  278  head -n 176 Haley_Street
+  279  cd ..
+  280  ls
+  281  cd interviews
+  282  head interview-47246024
+  283  head interview-699607
+  284  head interview-871877
+  285  cd ..
+  286  ls
+  287  cd ..
+  288  ls
+  289  open hint8
+  290  ls
+  291  cd mystery
+  292  ls
+  293  cd memberships
+  294  ls
+  295  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+  296  grep "Joe Germuska"
+  297  ls
+  298  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  299  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  300  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bower"
+  301  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  302  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  303  ls
+  304  cat Delta_Skymiles
+  305  ls
+  306  cat Delta_Skymiles AAA Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+  307  cat Delta_Skymiles AAA Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  308  cat Delta_Skymiles AAA Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"\n
+  309  cat Delta_Skymiles AAA Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"\n
+  310  sei
+  311  ls
+  312  cd Unit_1
+  313  ls
+  314  cd command-line-murder-mystery
+  315  ls
+  316  code ~/.zshrc
+  317  sei
+  318  ls
+  319  cd Unit_1
+  320  ls
+  321  cd command-line-murder-mystery
+  322  ls
+  323  cd mystery
+  324  ls
+  325  history
