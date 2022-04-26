@@ -1,0 +1,500 @@
+  281  ls -a
+  282  rm -rf .git
+  283  ls -a
+  284  git init
+  285  ls
+  286  ls -a
+  287  cd ..
+  288  cd Desktop
+  289  ls
+  290  ls -a
+  291  cd
+  292  ls
+  293  cd SEI-425
+  294  ls -a
+  295  pwd
+  296  cd Unit1
+  297  ls -a
+  298  git status
+  299  cd intro-git
+  300  ls -a
+  301  git status
+  302  git add readme.txt
+  303  git status
+  304  git commit -m "this is the init commit for my project"
+  305  git status
+  306  touch index.html script.js styles.css
+  307  git status
+  308  git add .
+  309  git status
+  310  git commit -m "this is the init commit for my project"
+  311  sei
+  312  ls
+  313  ls -a
+  314  cd Unit1
+  315  ls -a
+  316  cd intro-git
+  317  ls -a
+  318  git status
+  319  git commit -m 'adds index.html, script.js, and style.css'
+  320  touch test test2
+  321  git status
+  322  git add test2
+  323  git status
+  324  git commit -m 'includes test2 but not test'
+  325  git status
+  326  git log
+  327  git status
+  328  rm test
+  329  git status
+  330  git checkout a0c3bf9c89a972b481392005357f3a14eaf4a6f3
+  331  ls
+  332  git log
+  333  git checkout main
+  334  ls -a
+  335  cd ..
+  336  pwd
+  337  git clone https://github.com/justincueva/git-pull-request-practice.git
+  338  ls
+  339  cd git-pull-request-practice
+  340  touch justin-cueva
+  341  ls
+  342  git add .
+  343  git status
+  344  git commit -m 'adds my name'
+  345  git status
+  346  git remote -v
+  347  git push origin main
+  348  clear
+  349  pwd
+  350  cd ..
+  351  git clone https://github.com/justincueva/command-line-murder-mystery.git
+  352  ls
+  353  cd command-line-murder-mystery
+  354  ls
+  355  cat instructions
+  356  open .
+  357  cat instructions | grep murder
+  358  cat hint1
+  359  pwd
+  360  ls
+  361  cd SEI-425T
+  362  cd SEI-425
+  363  ls
+  364  cd Unit1
+  365  ls -a
+  366  cd command-line-murder-mystery
+  367  ls
+  368  ls -a
+  369  cd mystery
+  370  ls -a
+  371  cd crimescene
+  372  code crimescene
+  373  ls
+  374  cd hint1
+  375  code hint1
+  376  code hint1 hint 2 hint3 hint4 hint5 hint6 hint7 hint8
+  377  pwd
+  378  cd ..
+  379  pwd
+  380  ls -a
+  381  pwd
+  382  ls -a
+  383  cd instructions
+  384  code instructions
+  385  pwd
+  386  ls
+  387  cd instructions
+  388  code instructions
+  389  cd mystery
+  390  ls
+  391  cd crimescene
+  392  code crimescene
+  393  cd interviews
+  394  ls
+  395  cd ..
+  396  ls
+  397  cd memberships
+  398  ls
+  399  pwd
+  400  cd ..
+  401  pwd
+  402  ls
+  403  cd people
+  404  code people
+  405  cd ..
+  406  ls
+  407  cd mystery
+  408  ls
+  409  cd crimescene
+  410  code crimescene
+  411  cd ..
+  412  ls
+  413  cat hint1
+  414  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  415  cd readme.md
+  416  cat hint2
+  417  grep "CLUE"
+  418  cd sei
+  419  cd SEI-425
+  420  ls
+  421  cd Unit1
+  422  ls
+  423  cd command-line-murder-mystery
+  424  ls
+  425  cd mystery
+  426  ls
+  427  cd memberships
+  428  ls
+  429  cd ..
+  430  ls
+  431  cd vehicles
+  432  cat vehicles
+  433  cd ..
+  434  ls
+  435  mystery
+  436  ls
+  437  cat steets
+  438  code streets
+  439  code hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  440  cd ..
+  441  pwd
+  442  ls
+  443  pwd
+  444  ls
+  445  cd mystery
+  446  ls
+  447  cd crime scene
+  448  code crimescene
+  449  head -n 20 people
+  450  pwd
+  451  ls
+  452  cd streets
+  453  ls
+  454  cd ..
+  455  ls
+  456  cd interviews
+  457  cd ..
+  458  ls
+  459  cd memberships
+  460  ls
+  461  cd AAA
+  462  ls
+  463  cd Costco
+  464  code costco
+  465  cd ..
+  466  ls
+  467  cd ..
+  468  pwd
+  469  ls
+  470  cd mystery
+  471  ls
+  472  grep "CLUE" crimescene
+  473  cd ..
+  474  ls
+  475  cd mystery
+  476  ls
+  477  head people
+  478  cd ..
+  479  ls
+  480  cd mystery
+  481  ls
+  482  head vehicles
+  483  ls -a
+  484  head people 
+  485  ls
+  486  head interviews
+  487  head memberships
+  488  cd people
+  489  code people
+  490  ls
+  491  cd people
+  492  grep "Annabel" people
+  493  ls
+  494  cd streets
+  495  ls
+  496  cd .
+  497  ls
+  498  cd ..
+  499  ls
+  500  cd interviews
+  501  ls
+  502  head -n 173 streets/Mattapan_Street | tail -n 1
+  503  cd ..
+  504  ls
+  505  cd streets
+  506  ls
+  507  head -n 173 streets/Mattapan_Street | tail -n 1
+  508  cd ..
+  509  ls
+  510  head -n 173 streets/Mattapan_Street | tail -n 1
+  511  pwd
+  512  cd interviews
+  513  cat SEE INTERVIEW #9437737
+  514  cd interviews
+  515  code interviews
+  516  cat interviews
+  517  pwd
+  518  ls
+  519  cd interview-9437737
+  520  cat interview-943773
+  521  grep interview-943773
+  522  sei
+  523  ls
+  524  Unit1
+  525  ls
+  526  cd command-line-murder-mystery
+  527  ls
+  528  cd mystery
+  529  ls
+  530  head -n 173 streets/Mattapan_Street | tail -n 1
+  531  pws
+  532  pwd
+  533  ls
+  534  cd interviews
+  535  ls
+  536  cat 9437737
+  537  cat interview-9437737
+  538  ls
+  539  cat interview-9437737
+  540  cd ..
+  541  ls
+  542  cd vehicles
+  543  grep "Honda" vehicles\n\n\tgrep "Blue" vehicles\n\n\tgrep "L337" vehicles
+  544  cd ..
+  545  ls
+  546  cd mystery
+  547  ls
+  548  cd vehicles
+  549  head "Honda" vehicles head "Blue" vehicles head "L337" vehicles
+  550  grep "Honda" vehicles\n\n\tgrep "Blue" vehicles\n\n\tgrep "L337" vehicles
+  551  grep -A 5 "L337" mystery/vehicles
+  552  pwd
+  553  ls
+  554  cd vehicles
+  555  grep -A 5 "L337" mystery/vehicles
+  556  pwd
+  557  ls
+  558  grep "Honda" vehicles                                                        1 ↵ justincueva@justins-mbp\n\n        grep "Blue" vehicles\n\n        grep "L337" vehicles\n
+  559  grep -A 5 "L337" mystery/vehicles
+  560  grep -B 5 "L337" mystery/vehicles
+  561  pwd
+  562  cd ..
+  563  pwd
+  564  grep -A 5 "L337" mystery/vehicles
+  565  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  566  cd ..
+  567  ls
+  568  cd command-line-murder-mystery
+  569  ls
+  570  cd mystery
+  571  ls
+  572  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  573  pwd
+  574  cd .
+  575  ls
+  576  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  577  cd memberships
+  578  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  579  ls
+  580  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  581  cat AAA, Delta SkyMiles, the local library, and the Museum of Bash History 
+  582  cat AAA, Delta SkyMiles, the local library, and the Museum of Bash History | grep "John Smith"
+  583  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "John Smith"
+  584  ls
+  585  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  586  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  587  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  588  ls
+  589  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "John Smith"
+  590  pwd
+  591  cat Museum_of_Bash_History
+  592  cat "John Smith"
+  593  grep "John Smith"
+  594  sei
+  595  ls
+  596  cd Unit1
+  597  ls
+  598  cd command-line-murder-mystery
+  599  LS
+  600  cd mystery
+  601  ls
+  602  grep -A 5 "L337" mystery/vehicles
+  603  cd .
+  604  ls
+  605  grep -A 5 "L337" mystery/vehicles
+  606  cd vehicles
+  607  grep -A 5 "L337" mystery/vehicles
+  608  ls
+  609  cd memberships
+  610  grep -A 5 "L337" mystery/vehicles
+  611  cat vehicles
+  612  ls
+  613  cd ..
+  614  ls
+  615  cd ..
+  616  ls
+  617  grep -A 5 "L337" mystery/vehicles
+  618  ls
+  619  cd mystery
+  620  ls
+  621  grep -A 5 "L337" mystery/vehicles
+  622  cd ..
+  623  ls
+  624  grep -A 5 "L337" mystery/vehicles
+  625  grep -B 5 "L337" mystery/vehicles
+  626  ls
+  627  cd mystery
+  628  ls
+  629  cd memberships
+  630  ls
+  631  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "John Smith"
+  632  ls
+  633  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History
+  634  cd .
+  635  ls
+  636  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History
+  637  pwd
+  638  cd ..
+  639  ls
+  640  cd ..
+  641  ls
+  642  cd mystery
+  643  ls
+  644  pwd
+  645  head -n 173 streets/Mattapan_Street | tail -n 1
+  646  pwd
+  647  ls
+  648  cd interviews
+  649  ls
+  650  cat interview-9437737
+  651  cd ..
+  652  ls
+  653  grep "Annabel" people
+  654  pwd
+  655  ls
+  656  head -n 26\tHart Place, line 40 | tail -n 1
+  657  head -n 173 streets/Hart Place | tail -n 40
+  658  ls
+  659  cd streets
+  660  ls
+  661  pwd
+  662  cd .
+  663  lsc
+  664  ls
+  665  cd ...
+  666  cd ..
+  667  ls
+  668  cd command-line-murder-mystery
+  669  ls
+  670  cd mystery
+  671  ls
+  672  pwd
+  673  ls
+  674  pwd
+  675  grep "Annabel" people
+  676  cd ..
+  677  ls
+  678  cd mystery
+  679  ls
+  680  cd streets
+  681  ls
+  682  head -n 40 Hart_Place | til -n 1
+  683  head -n 40 Hart_Place | tail -n 1
+  684  pwd
+  685  cd ..
+  686  ls
+  687  cd interviews
+  688  ls
+  689  cat interview-47246024
+  690  cd ..
+  691  ls
+  692  head -n 173 Mattapan_Street | tail -n
+  693  head -n 179 streets/Buckingham_Place | tail -n 1
+  694  ls
+  695  cd interviews
+  696  ls
+  697  cat interview-699607
+  698  cd ..
+  699  ls
+  700  head -n 176 streets/Haley_Street | tail -n 1 
+  701  ls
+  702  cd interviews
+  703  cat interview-871877
+  704  ls
+  705  cd ..
+  706  ls
+  707  \tgrep "Honda" vehicles\n\n\tgrep "Blue" vehicles\n\n\tgrep "L337" vehicles
+  708  grep -A 5 "L337" mystery/vehicles
+  709  cd ..
+  710  ls
+  711  cd mystery
+  712  cd ..
+  713  grep -A 5 "L337" mystery/vehicles
+  714  cat cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"
+  715  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"
+  716  ls
+  717  cd ..
+  718  ls
+  719  cd command-line-murder-mystery
+  720  ls
+  721  cd mystery
+  722  ls
+  723  cd memberships
+  724  ls
+  725  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"
+  726  ls
+  727  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"
+  728  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens" | wc -l
+  729  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens" | wc -1
+  730  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska" | wc -1
+  731  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska" | wc -l
+  732  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  733  sei
+  734  ls
+  735  Unit1
+  736  ls
+  737  cd command-line-murder-mystery
+  738  ls
+  739  cat hint1
+  740  cd hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  741  cd hint1 hint2 hint3
+  742  cd hint1 hint2
+  743  cat hint1 hint2
+  744  cat hint1 hint2 hint3 hint4 hint5 hint6 hint6 hint7 hint8
+  745  history
+  746  cd
+  747  pwd
+  748  history
+  749  history | tail -n 500 >> solution.txt
+  750  cat solution
+  751  cat solution.txt
+  752  git status
+  753  ls
+  754  cd solution.txt
+  755  cat solution.txtd
+  756  cat solution.txt
+  757  pwd
+  758  ls
+  759  cd SEI-425
+  760  ls
+  761  cd Unit1
+  762  ls
+  763  cd command-line-murder-mystery
+  764  ls
+  765  git status
+  766  echo $SHELL
+  767  git status
+  768  ls
+  769  cd ..
+  770  ls
+  771  cd ..
+  772  ls
+  773  cd ..
+  774  ls
+  775  cd SEI-425
+  776  ls
+  777  cd Unit1
+  778  ls
+  779  cd command-line-murder-mystery
+  780  ls
