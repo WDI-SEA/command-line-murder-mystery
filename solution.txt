@@ -1,3 +1,161 @@
+  584  touch mystyle.css
+  585  code index.html
+  586  cd ..
+  587  pwd
+  588  touch cli-commands.txt
+  589  code cli-commands.txt
+  590  open ~/.zshrc
+  591  code ~/.zshrc
+  592  pwd
+  593  sei
+  594  cd unit1
+  595  ls
+  596  cd repository0
+  597  ls
+  598  code mystyle.css
+  599  ls
+  600  python3 -m http.server
+  601  sei
+  602  ls
+  603  cd unit1
+  604  ls 
+  605  cd ..
+  606  ls
+  607  cd mitchellmarino
+  608  ls
+  609  cd desktop
+  610  sei
+  611  ls
+  612  cd unit1
+  613  ls
+  614  cd ..
+  615  ls
+  616  cd unit1
+  617  mkdir into-git
+  618  cd into-git
+  619  pwd
+  620  ls
+  621  ls -a
+  622  cd ..
+  623  cd repository0
+  624  ls
+  625  ls -a
+  626  cd ..
+  627  cd unit1
+  628  ls
+  629  cd into-git
+  630  touch readme.txt
+  631  ls
+  632  pwd
+  633  cd ..
+  634  ls
+  635  cd intro-git
+  636  code readme
+  637  git init
+  638  ls
+  639  git --version
+  640  git config --global init.defaultBranch <Main>
+  641  git config --global init.defaultBranch main
+  642  ls -a
+  643  rm .git
+  644  rm rf .git
+  645  rm -fr .git
+  646  ls -a
+  647  git status
+  648  git init
+  649  ls
+  650  git status
+  651  cd ..
+  652  cd repository0
+  653  git branch -m master main
+  654  cd ..
+  655  cd unit1
+  656  ls
+  657  cd intro-git
+  658  ls
+  659  git add readme.txt
+  660  ls
+  661  git status
+  662  git commit -m "this is the init commit for my project"
+  663  git config list
+  664  git log
+  665  sei
+  666  cd unit1
+  667  ls
+  668  cd into-git
+  669  cd intro-git
+  670  ls 
+  671  git status
+  672  touch index.html
+  673  ls
+  674  git status
+  675  touch styles.css
+  676  touch script.js
+  677  ls
+  678  git status
+  679  git add 
+  680  git add .
+  681  ls
+  682  git status
+  683  git commit -m "adds index.html, script.js, and styles.css"
+  684  git status
+  685  touch test test2
+  686  ls
+  687  git status
+  688  git add test2
+  689  git status
+  690  git commit -m "includes test2 but not test"
+  691  git status
+  692  git log
+  693  sei
+  694  ls
+  695  cd unit1
+  696  cd git-intro
+  697  cd intro-git
+  698  git log
+  699  ls
+  700  git status
+  701  rm test
+  702  git add readme
+  703  git status
+  704  git commit -m "adds intro to readme.txt"
+  705  ls
+  706  git status
+  707  git log
+  708  git checkout commit 97b97b52714dfab00811bef548abc948248a4279
+  709  git log
+  710  git checkout 97b97b52714dfab00811bef548abc948248a4279
+  711  ls
+  712  git status
+  713  git log
+  714  git checkout main
+  715  git checkout 0348b0d6973cf825f8ef9a422dc224d3447bb55d
+  716  ls
+  717  git status
+  718  git checkout main
+  719  ls
+  720  rm readme
+  721  ls
+  722  git status
+  723  git commit
+  724  git add 
+  725  git rm deleted: readme
+  726  git rem deleted: readme
+  727  git commit -m "deletes readme edit"
+  728  git add 
+  729  git add .
+  730  git status
+  731  git commit -m "reverts readme file"
+  732  code readme
+  733  ls
+  734  git status
+  735  git add
+  736  git commit -m "adds 1st readme edit\n\n"
+  737  git add .
+  738  git commit -m "edits readme 1st time"
+  739  git status
+  740  code readme
+  741  cd ..
   742  git clone https://github.com/mitchdmarino/git-pull-request-practice.git
   743  ls
   744  cd git-pull-request-practice
@@ -154,8 +312,35 @@
   895  code solution.txt
   896  open README.md
   897  code solution.txt
- 
- 
+  898  history
+  899  ls
+  900  git status
+  901  git add solution.txt
+  902  git status
+  903  git commils
+  904  ls
+  905  ^[[200~git clone https://github.com/mitchdmarino/git-pull-request-practice.git
+  906  sei
+  907  ls
+  908  cd unit1
+  909  cd deliverables
+  910  ls
+  911  cd command-line-murder-mystery
+  912  ls
+  913  grep -A 5 -E 'L337.*9' vehicles | grep -B 1 -A 4 "Make: Honda" | grep -B 2 -A 3 "Color: Blue" | grep -B 4 -A 1 "Height: 6'"\n
+  914  cd mystery
+  915  grep -A 5 -E 'L337.*9' vehicles | grep -B 1 -A 4 "Make: Honda" | grep -B 2 -A 3 "Color: Blue" | grep -B 4 -A 1 "Height: 6'"\n
+  916  grep -A 6 'L337.*9' vehicles | grep -B 1 -A 4 Honda | grep -B 2 -A 3 "6'" | grep -A 1 Blue | grep Owner | awk '{print $2 " " $3}' | xargs -n 2 -I {} grep {} memberships/AAA | xargs -n 2 -I {} grep {} memberships/Delta_SkyMiles | xargs -n 2 -I {} grep {} memberships/Museum_of_Bash_History\n
+  917  sei
+  918  cd unit1/deliverables
+  919  ls
+  920  cd command-line-murder-mystery
+  921  ls
+  922  git status
+  923  git commit -m "adds the solution"
+  924  ls
+  925  git push origin main 
+  926  ls
   927  cd mystery
   928  grep "Jeremy Bowers" people
   929  cat -n Dunstable_Road | grep "284" 
@@ -186,7 +371,133 @@
   954  code interview-29741223
   955  code interview-904020
   956  cat interview-9620713
----------------------------
+  957  history
+  958  ls
+  959  cd ..
+  960  ls
+  961  code solution.txt
+  962  git status
+  963  git add solution.txt
+  964  ls
+  965  git status
+  966  ls
+  967  cd mystery
+  968  ls
+  969  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Erika Owens
+  970  cd memberships
+  971  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Erika Owens
+  972  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+  973  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  974  cd ..
+  975  git status
+  976  cd ..
+  977  git status
+  978  git commit 
+  979  git commit -m "adds killer after double checking the evidence"
+  980  ls
+  981  git push origin main 
+  982  pwd
+  983  history
+  984  code ~/.zshrc
+  985  cd desktop
+  986  sei
+  987  ls
+  988  deli
+  989  cd ~desktop/SEI/deliverables
+  990  cd
+  991  cd ..
+  992  ls
+  993  deli
+  994  code ~/.zshrc  
+  995  sei
+  996  cd ..
+  997  deli
+  998  code ~/.zshrc  
+  999  zhome
+ 1000  deli
+ 1001  cd command-line-murder-mystery
+ 1002  ls
+ 1003  man ls
+ 1004  man grep
+ 1005  git status
+ 1006  git restore . 
+ 1007  git status
+ 1008  man pipe
+ 1009  git clean -f
+ 1010  git status
+ 1011  ls
+ 1012  cd mystery
+ 1013  grep CLUE crimescene
+ 1014  grep CLUE crimescene >> clues.txt
+ 1015  ls
+ 1016  cat clues.txt
+ 1017  ls
+ 1018  s
+ 1019  ls
+ 1020  grep Annabelle people
+ 1021  cat people | grep Annabelle
+ 1022  cat people
+ 1023  cat people | grep Annabel
+ 1024  cat people | grep Annabel >> clues.txt
+ 1025  ls
+ 1026  cat clues.txt
+ 1027  cd streets 
+ 1028  ls
+ 1029  cat ../clues.txt
+ 1030  head -n 20 Hart_Place
+ 1031  head -n 40 Hart_Place
+ 1032  cat ..hint2
+ 1033  cat ../hint2
+ 1034  cat ../../hint2
+ 1035  cat ../../hint3
+ 1036  cat ../../hint4
+ 1037  cat ../../hint5
+ 1038  head -n 40 Hart_Place | tail -n 1 >> clues.txt
+ 1039  ls
+ 1040  rm clues.txt
+ 1041  ls
+ 1042  grep INTERVIEW Hart_Place >> ../clues.txt
+ 1043  cd ..
+ 1044  cat clues.txt
+ 1045  cd mystery 
+ 1046  ls
+ 1047  grep Honda Vehicles -n 5
+ 1048  grep -A 5 "L337" vehicles
+ 1049  grep -A 5 "L337" vehicles | grep -A 4 "Blue" 
+ 1050  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue"
+ 1051  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6"
+ 1052  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6" >> ../clues.txt  
+ 1053  cat ../clues.txt
+ 1054  ls
+ 1055  cd ..
+ 1056  ls
+ 1057  cat clues.txt
+ 1058  rm clues.txt
+ 1059  cd mystery
+ 1060  ls 
+ 1061  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6" >> clues.txt 
+ 1062  ls
+ 1063  cat clues.txt
+ 1064  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens" "Joe Germuska" "Jeremy Bowers" "Jacqui Maher"
+ 1065  cd memberships
+ 1066  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens" "Joe Germuska" "Jeremy Bowers" "Jacqui Maher" 
+ 1067  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens" 
+ 1068  ls
+ 1069  pwd
+ 1070  git status
+ 1071  cd ..
+ 1072  ls
+ 1073  git status
+ 1074  git add clues.txt
+ 1075  git status
+ 1076  ls
+ 1077  cd ..
+ 1078  git status
+ 1079  ls
+ 1080  echo $Shell
+ 1081  echo $SHELL
+ 1082  git commit -m "Adds evidence in clues" 
+ 1083  git status
 
 
-Killer Name: Jeremy Bowers
+ The Killer is Jeremy Bowers! 
