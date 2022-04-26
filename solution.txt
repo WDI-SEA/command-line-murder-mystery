@@ -1,0 +1,466 @@
+    1  cd
+    2  ls
+    3  code
+    4  git commit
+    5  git version
+    6  zshell version
+    7  ls
+    8  code ~/.zshrc
+    9  code ~/.zshrc
+   10  -zsh
+   11  ls
+   12  -zsh
+   13  ls
+   14  -zsh
+   15  -zsh
+   16  ls
+   17  code
+   18  ls
+   19  pwd
+   20  ls
+   21  code
+   22  pwd
+   23  mkdir Moon
+   24  ls
+   25  cd M00n
+   26  cd Moon
+   27  mkdir file1.txt
+   28  ls
+   29  git status
+   30  zsh --version
+   31  ls
+   32  ~/.zshrc
+   33  cd theme/
+   34  .zshrc
+   35  code ~/.zshrc
+   36  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   37  $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   38  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   39  git clone https://github.com/powerline/fonts.git
+   40  ./install.sh
+   41  git version
+   42  zsh version
+   43  $ echo $0
+   44  cd fonts
+   45  ls
+   46  ZSH_THEME="agnoster"
+   47  ls
+   48  pwd
+   49  ZSH_THEME="agnoster"
+   50  pen ~/.zshrc
+   51  Open ~/.zshrc
+   52  ./install.sh
+   53  ls
+   54  open ~/.zshrc
+   55  ZSH_THEME="agnoster"
+   56  ls
+   57  md erhan
+   58  ls
+   59  rv erhan
+   60  rd erhan
+   61  ls
+   62  ..
+   63  pwd
+   64  ls
+   65  ~
+   66  ls
+   67  mkdir erhano
+   68  ls
+   69  rd erhano
+   70  ls
+   71  \\nls
+   72  \\ncd fonts
+   73  ..
+   74  ls
+   75  \\nls
+   76  ls
+   77  ..
+   78  ~
+   79  ls
+   80  cd Moon
+   81  md file2.txt
+   82  ls
+   83  ..
+   84  cd Moon
+   85  git init
+   86  ls -a
+   87  cd
+   88  ls
+   89  echo "# Portfolio" >> README.md
+   90  git init
+   91  git add README.md
+   92  commit -m "first commit"
+   93  git commit -m "first commit"
+   94  git remote add origin git@github,com:erhaneth/portfolio.git
+   95  git push -u origin master
+   96  ls
+   97  git --version
+   98  git clone https://github.com/erhaneth/Portfolio.git
+   99  git cd portfolio
+  100  cd portfolio
+  101  la
+  102  git status
+  103  git staus
+  104  git status
+  105  git add .
+  106  git staus
+  107  git status
+  108  git status .
+  109  git status
+  110  git status .
+  111  git status
+  112  git add .
+  113  git status
+  114  git commit -m "practice first"
+  115  git status
+  116  ssh-keygen -t rsa -b 4096 -C "gumusucb21@gmail.com"
+  117  ls | grep portfoliokey
+  118  cat portfoliokey.pub
+  119  pbcopy < ~/portfoliokey.pub
+  120  eval "$(ssh-agent -s)"
+  121  ~/.ssh/config
+  122  touch ~/.ssh/config
+  123  git push origin master
+  124  git push 
+  125  git push --set-upstream origin master
+  126  pwd
+  127  la
+  128  ;s
+  129  ls
+  130  brew doctor
+  131  brew --version
+  132  xcode-select --install
+  133  brew install zsh
+  134  pwd
+  135  brew --version
+  136  chsh -s /bin/zsh
+  137  echo $SHELL
+  138  git --version
+  139  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  140  brew --verion
+  141  brew --version
+  142  xcode-select --install
+  143  echo $SHELL
+  144  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  145  chsh -s /bin/zsh
+  146  git --version
+  147  ls
+  148  git --version
+  149  brew link --overwrite git
+  150  git --version
+  151  git config --global user.name “erhaneth”\ngit config --global user.email “gumusucb21@gmail,com”\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor ‘code -w’
+  152  git config --global user.name “erhaneth”\ngit config --global user.email “gumusucb21@gmail.com”\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor ‘code -w’
+  153  code
+  154  ls
+  155  code ~/.zshrc
+  156  ls
+  157  cd fonts
+  158  ls
+  159  ..
+  160  rm -rf .git
+  161  ls
+  162  pwd
+  163  ls
+  164  cd music
+  165  ls
+  166  pwd
+  167  ..
+  168  ~
+  169  ~ cd
+  170  ~ cd music
+  171  cd msuic
+  172  ls
+  173  open .music
+  174  opendiff
+  175  ls
+  176  ls -a
+  177  ls
+  178  ~ code ~/.zshrc
+  179  ls -l
+  180  cd library
+  181  ls
+  182  ls -l
+  183  ls
+  184  pwd
+  185  ~
+  186  pwd
+  187  ls
+  188  cd portfoliokey
+  189  cd fonts
+  190  ls
+  191  rm tinos
+  192  ls
+  193  cd linos
+  194  ~
+  195  pwd
+  196  code .
+  197  tree
+  198  ls
+  199  cd desktop
+  200  tree
+  201  ls
+  202  cd lazmati
+  203  pwd
+  204  ls
+  205  cd wine
+  206  ls
+  207  ..
+  208  ls
+  209  cd ../..
+  210  pwd
+  211  ls
+  212  ..
+  213  pwd
+  214  ls
+  215  ..
+  216  ls
+  217  ~
+  218  pwd
+  219  ls
+  220  mkdir sei-code
+  221  ls
+  222  cd r-sei-code
+  223  ls
+  224  mkdir SEI
+  225  ld
+  226  ls
+  227  cd sei-code
+  228  rm -f
+  229  ls
+  230  rm -rf 
+  231  ;d
+  232  ls
+  233  ..
+  234  rm -rf sei-code
+  235  ls
+  236  cd SEI
+  237  mkdir unit1 unit2 unit3 unit4 unit5
+  238  ls
+  239  mv unit1 unit-yek
+  240  ls
+  241  mv unit-yek unit1
+  242  ls
+  243  cd unit1
+  244  touch cli-commands.txt
+  245  ls
+  246  code .
+  247  ..
+  248  ls
+  249  cd unit1 
+  250  ls
+  251  .
+  252  ..
+  253  pws
+  254  pwd
+  255  ls
+  256  pwd
+  257  ~
+  258  pwd
+  259  sei
+  260  ls
+  261  ~
+  262  las
+  263  ls
+  264  sei
+  265  ..
+  266  pwd
+  267  sei
+  268  ls
+  269  cd unit1
+  270  cd intro-git
+  271  ls
+  272  mkdir intro-git
+  273  ls
+  274  ls -a
+  275  ls
+  276  cd intro-git
+  277  touch readme.txt
+  278  ls
+  279  git init
+  280  git --version
+  281  git config --global init.defaultBranch main
+  282  ls
+  283  git config --global init.defaultBranch main
+  284  ls -a
+  285  rm -rf .git
+  286  ls -a
+  287  git init
+  288  cd ..
+  289  ls
+  290  cd intro-git
+  291  git status
+  292  git add readme.txt
+  293  git status
+  294  git commit
+  295  git commit -m "this is the init commit for my first project"
+  296  touch index.html script.js
+  297  ls
+  298  git status
+  299  git add .
+  300  git status
+  301  ls
+  302  git commit -m "adds index. html, script.js"
+  303  git status
+  304  tree
+  305  git status
+  306  touch style.css
+  307  ls
+  308  git status
+  309  git add -m "includes style.css"
+  310  sei
+  311  ls
+  312  cd unit1
+  313  ls
+  314  cd intro-git
+  315  git status
+  316  git commit -m "include style.css"
+  317  git add
+  318  git add .
+  319  git status
+  320  git log
+  321  git checkout 2b094dae2a92349fc4d6b41491ccc19e3adea82e
+  322  ls
+  323  ls a
+  324  ls -a
+  325  git checkout main
+  326  cd ..
+  327  git clone https://github.com/erhaneth/git-pull-request-practice.git
+  328  ls
+  329  cd git-pull-request-practice
+  330  touch homework1
+  331  ls
+  332  git add .
+  333  git status
+  334  git commit -m "adds my hw"
+  335  git status
+  336  tree
+  337  git remote -v
+  338  git push origin main
+  339  cd ..
+  340  git clone https://github.com/erhaneth/command-line-murder-mystery.git
+  341  ls
+  342  cd command-line-murder-mystery
+  343  ls
+  344  cat instructions
+  345  open .
+  346  cat instructions | grep murder
+  347  cat hint1
+  348  clear
+  349  ls
+  350  code hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8 
+  351  grap = CLUE hint1
+  352  grep -w "CLUE" hint1
+  353  grep "CLUE" mystery/crimescene
+  354  pwd
+  355  grep "Annabel" mystery/crimescene
+  356  head -n 20 people
+  357  tree
+  358  grep "CLUE"mystery/crimescene/interviews
+  359  grep "AAA" mystery/crimescene/interviews
+  360  grep "AAA" interviews
+  361  grep "CLUE" mystery/crimescene
+  362  tree
+  363  code .
+  364  head -n 20 people
+  365  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  366  grep "Annabel" people
+  367  cat crimescene | grep "CLUE"
+  368  touch interviews
+  369  ls
+  370  cd hint7
+  371  open hint1
+  372  grep "Annabel" interviews
+  373  ls
+  374  grep "Annabel" interviews.txt
+  375  grep "Annabel" crimescene.txt
+  376  /head interviews
+  377  /crimescene head interviews.txt
+  378  head -n 173 streets/Mattapan_Street | tail -n 1
+  379  cat interviews
+  380  ls
+  381  cat interviews.txt
+  382  head[interviews]
+  383  ls -l
+  384  cat
+  385  ls
+  386  cat interviews.txt
+  387  cat license.txt
+  388  mystrey/crime
+  389  grep "Annabel" people
+  390  grep "Annabel" people.txt
+  391  grep "Annabel" people
+  392  tree
+  393  ls
+  394  cd ..
+  395  open command-line-murder-mystery
+  396  cd command-line-murder-mystery/mystery
+  397  grep "Annabel" people\n
+  398  ls
+  399  head -n 173 streets/Mattapan_Street | tail -n 1
+  400  cat #9437737
+  401  ls
+  402  cd interviews
+  403  ls
+  404  code #9437737
+  405  cat #9437737
+  406  cat interview-9437737
+  407  ls
+  408  cd ..
+  409  ls
+  410  cd streets
+  411  ls
+  412  cd ..
+  413  head -n 40 streets/Hart_Place | tail -n 1
+  414  head -n 170 streets/Buckingham_Place | tail -n 1
+  415  head -n 179 streets/Buckingham_Place | tail -n 1
+  416  head -n 176 streets/Haley_Place | tail -n 1
+  417  head -n 176 streets/Haley_Street | tail -n 1
+  418  ls
+  419  cat interviews
+  420  cd interviews
+  421  ls
+  422  cat interview-47246024
+  423  cat interview-871877
+  424  cat interview-699607
+  425  cd ..
+  426  ls
+  427  grep -A 5 "L337" mystery/vehicles
+  428  cd ..
+  429  grep -A 5 "L337" mystery/vehicles
+  430  ls
+  431  cd mystery
+  432  ls
+  433  cd memberships
+  434  ls
+  435  cd AAA
+  436  cd memberships/AAA
+  437  cat AAA
+  438  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"\n
+  439  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Miranda Mullingan"
+  440  cat Fitness_Galaxy AAA United_MileagePlus | grep -c ""\n
+  441  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  442  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  443  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Jacqui Maher"
+  444* ~
+  445* sei
+  446* ls
+  447* cd unit1
+  448* ls
+  449* cd command-line-murder-mystery
+  450* ls
+  451* cat instructions
+  452* cat hint1
+  453* head -n 20 hint2
+  454* grep "CLUE" crimescene
+  455* cd mystery
+  456* ls
+  457* grep CLUE crimescene
+  458* grep CLUE crimescene >> clues.txt
+  459* ls
+  460* echo hello
+  461  history
+  462* cat ../clues.txt
+  463* cd interviews
+  464* cat ../clues.txt
+  465  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  466  cd ..
