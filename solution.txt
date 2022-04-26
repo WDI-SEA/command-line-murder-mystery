@@ -1,0 +1,274 @@
+    1  code ~/.zshrc
+    2  ls -a
+    3  code ~ /zshrc
+    4  cd r-sei
+    5  ls
+    6  cd sei-425
+    7  cd..
+    8  ~
+    9  cd ~
+   10  cd .
+   11  cd /
+   12  cd ..
+   13  ls
+   14  pwd
+   15  ls
+   16  sei
+   17  cd ..
+   18  ls
+   19  cd angelika
+   20  ls
+   21  pwd
+   22  cd..
+   23  cd ..
+   24  cd /Desktop
+   25  ls
+   26  is
+   27  ls
+   28  cd ~
+   29  ls
+   30  cd ~
+   31  ls
+   32  pwd
+   33  sei-425
+   34  mkdir sei-425
+   35  ls
+   36  .zshrc
+   37  sei
+   38  code ~/.zshrc   
+   39  sei
+   40  mkdir unit1
+   41  cd unit1
+   42  ls
+   43  mkdir intro-git
+   44  cd intro-git
+   45  ls
+   46  ls -a
+   47  touch readme.txt
+   48  ls
+   49  git init
+   50  git --version
+   51  git config --global init.defaultBranch main
+   52  ls -a
+   53  rm -rf .git
+   54  get init
+   55  git init
+   56  git status 
+   57  git add readme.txt
+   58  git status
+   59  git commit 
+   60  git commit -m "this is the  init commit for my project"
+   61  get status
+   62  git status
+   63  touch index.html script.js styles.css
+   64  git status
+   65  git add .
+   66  hit status
+   67  git status
+   68  git commit -m "adds index.html script.js and styles.css"
+   69  git status
+   70  touch test test2
+   71  git status
+   72  git add test2
+   73  git status
+   74  git commit -m "adds test2 but not test1"
+   75  git status
+   76  git log
+   77  ls
+   78  git status
+   79  rm test 
+   80  git status
+   81  git checkout ea25f67425689b29b7fa367b871b7d02ee62de30 
+   82  ls
+   83  git log
+   84  git checkout main 
+   85  ls -a
+   86  cd ..\\ncd ..
+   87  pwd
+   88  cdd ..
+   89  pwd
+   90  cd ..
+   91  pwd
+   92  git clone https://github.com/ASelviyan/git-pull-request-practice.git
+   93  ls
+   94  cd git-pull-request-practice
+   95  touch angelika_selviyan
+   96  ls
+   97  git status\\ngit status
+   98  git status
+   99  git remote -v
+  100  git push origin main
+  101  cd ..
+  102  pwd
+  103  git clone https://github.com/ASelviyan/command-line-murder-mystery.git
+  104  ls
+  105  cd command-line-murder-mystery
+  106  ls
+  107  cat instructions 
+  108  ls
+  109  cat cheatsheet.md
+  110  ls
+  111  cd mystery
+  112  ls
+  113  code crimescene
+  114  cd .
+  115  cd ..
+  116  ls
+  117  code hint*
+  118  cd mystery
+  119  ls
+  120  grep "CLUE" crimescene
+  121  ls
+  122  grep "CLUE" interviews
+  123  ls
+  124  grep "CLUE" people
+  125  ls
+  126  cd interviews
+  127  ls
+  128  cd ..
+  129  ls
+  130  cd memberships
+  131  ls
+  132  cd ..
+  133  ls
+  134  head -n 15
+  135  head -n 15 people 
+  136  ls
+  137  cd ..
+  138  ls
+  139  cd mystery
+  140  ls
+  141  head -n 50 people
+  142  Tail -n 50 people
+  143  tail -n 50 people
+  144  ls 
+  145  cd ..
+  146  ls
+  147  code cheatsheet.md
+  148  code cheatsheet.pdf
+  149  cd mystery
+  150  ls
+  151  cd interviews 
+  152  ls
+  153  cd ..
+  154  ls
+  155  head -n 100 people | grep "Annabel" interviews
+  156  cd interviews
+  157  head -n 100 people | grep "Annabel" interviews
+  158  grep "Annabel" interview
+  159  cd interviews 
+  160  ls -a
+  161  cd ..
+  162  ls
+  163  cd memberships
+  164  ls
+  165  cd ..
+  166  ls
+  167  head -n 50 people 
+  168  grep "Annabel" name
+  169  grep "Annabel" people
+  170  ls 
+  171  head -n 173 streets/Mattapan_Street | tail -n 1
+  172  head -n 40 streets/Hart_Place | tail -n 1
+  173  head -n 179 Buckingham_Place | tail -n 1 
+  174  head -n 179 streets/Buckingham_Place | tail -n 1
+  175  head -n 176 streets/Haley_Street | tail -n 1
+  176  ls
+  177  cd interviews 
+  178  ls 
+  179  head INTERVIEW #47246024
+  180  cd ..
+  181  ls 
+  182  head INTERVIEW #47246024
+  183  cd interviews 
+  184  ls
+  185  cat interview #47246024
+  186  cat interview #47246024\n: 1650939767:0;cat intervicat interview-47246024
+  187  cat intervicat interview-9437737
+  188  cat intervicat interview-699607
+  189  cat interview-9437737
+  190  cat interview-871877
+  191  ls
+  192  cd ..
+  193  ls
+  194  grep "blue_Honda" vehicles 
+  195  ls
+  196  vehicles
+  197  cd vehicles 
+  198  grep "Honda" vehicles
+  199  ls
+  200  head -n 10 vehicles
+  201  grep "Annabel" vehicles
+  202  cd ..
+  203  ls
+  204  cd mystery 
+  205  ls
+  206  grep -A 5 "L337" vehicles
+  207  ls
+  208  head -n people
+  209  head -n 20 people 
+  210  cd streets
+  211  head -n 20 streets
+  212  ls
+  213  cd ..
+  214  ls
+  215  grep "Aron Pilhofer" people
+  216  grep "Aron Pilhofer" people 
+  217  grep " Erika Owens" people 
+  218  grep "Erika Owens" people 
+  219  grep "Heather Billings" people 
+  220  grep "Joe Germuska" people 
+  221  grep "Jeremy Bowers" people 
+  222  grep "Jacqui Maher" people
+  223  ls
+  224  cat streets Trapelo Street
+  225  cd memeberships
+  226  ls
+  227  cd memberships
+  228  ls
+  229  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  230  cat AAA Delta SkyMiles library museum | grep "Erika Owens" 
+  231  cd ../..
+  232  cd ..
+  233  open
+  234  open command-line-murder-mystery
+  235  pwd
+  236  cd command-line-murder-mystery/mystery/memberships
+  237  ls
+  238  cat AAA delta.txt library.txt museum.txt | grep "Erika Owens"
+  239  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Erika Owens" | wc -l
+  240  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Joe Germuska" | wc -l
+  241  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Jeremy Bowers" | wc -l
+  242  cat AAA Delta_SkyMiles library.txt museum.txt | grep "Jacqui Maher" | wc -l
+  243  pwd
+  244  ls
+  245  cd sei-425
+  246  ls
+  247  cd unit1
+  248  ls
+  249  cd command-line-murder-mystery 
+  250  ls
+  251  cd mystery
+  252  ls
+  253  grep "CLUE" crimescene 
+  254  grep CLUE crimescene >> clues.txt
+  255  ls
+  256  cat clue.txt
+  257  cat clues.txt 
+  258  cat people | grep Annabel
+  259  cat people | grep Annabel >> clues.txt
+  260  ls 
+  261  cat clues.txt
+  262  head -n 173 streets/Mattapan_Street | tail -n 1
+  263  head -n 40head -n 40 streets/Hart_Place | tail -n 1
+  264  head -n 40 head street/Hart_Place | tail -n 1
+  265  head -n 40 street/Hart_Place | tail -n 1 
+  266  head -n 40 streets/Hart_Place | tail -n 1  
+  267  cd..
+  268  histroy
+  269  history
+  270  history | tail -n 500 >> solution.txt
+  271  cat solution 
+  272  cat solution.txt
+  273  ls
+  274  cd ..
