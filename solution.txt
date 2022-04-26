@@ -1,0 +1,195 @@
+   45  mkdir murdermystery
+   46  pwd
+   47  cd murdermystery/
+   48  git clone https://github.com/seiplet93/command-line-murder-mystery.git
+   49  ls
+   50  cd command-line-murder-mystery/
+   51  ls
+   52  open
+   53  cat instructions
+   54  pwd
+   55  cat
+   56  cd ..
+   57  cd ..
+   58  cd sei
+   59  ls
+   60  cs murdermystery/
+   61  cd murdermystery/
+   62  ls
+   63  cd command-line-murder-mystery/
+   64  ls
+   65  cd mystery/
+   66  ls
+   67  cat crimescene
+   68  clear
+   69  ls
+   70  code crimescene
+   71  cd ..
+   72  ls
+   73  cat hint2
+   74  cd mystery
+   75  ls
+   76  grep "CLUE" crimescene
+   77  grep "AAA" interviews
+   78  cd interviews
+   79  ls
+   80  pwd
+   81  ls
+   82  cd  ..
+   83  ls
+   84  cd people
+   85  cat people
+   86  code people
+   87  ls
+   88  cd ..
+   89  ls
+   90  code hint*
+   91  ls
+   92  cd mystery
+   93  ls
+   94  grep  "CLUE" crimescene
+   95  ls
+   96  cd people
+   97  grep "Anabel" people
+   98  cd  vehicles
+   99  code vehicles
+  100  grep "Anabel" vehicles
+  101  ls
+  102  cd memberships
+  103  ls
+  104  code  AAA
+  105  grep "Anabel" AAA
+  106  ls
+  107  grep "Anabel" Delta_Skymiles
+  108  grep "Anabel" Museum_of_Bash_History
+  109  grep "Anabel" Museum_of_Bash_History
+  110  grep "Anabel" library.txt
+  111  grep "Anabel" library.txt
+  112  ls
+  113  cd  ..
+  114  ls
+  115  cd vehicles
+  116  grep "anabel" vehicles
+  117  grep "Anabel" vehicles
+  118  ls
+  119  cd interviews
+  120  ls
+  121  grep "Anabel" interview
+  122  ls
+  123  cd ..
+  124  ls
+  125  cd  memberships
+  126  ls
+  127  cat Delta_SkyMiles AAA United_MileagePlus | grep "Anabel"ls
+  128  ls
+  129  ls
+  130  cd ..
+  131  ls
+  132  ls
+  133  cd interviews
+  134  grep "Anabel  *
+cd
+cd interviews
+"
+  135  grep "Anabel" *
+  136  grep "6'" *
+  137  cat interview-290346
+  138  grep "spiky" *
+  139  grep  "blonde" *
+  140  grep "New Zealand" *
+  141  grep -C 4 "New Zealand" *
+  142  grep -C 10 "New Zealand" *
+  143  cd ..
+  144  ls
+  145  cd vehicles
+  146  grep -C 10 "Anabel"
+  147  cd vehicles
+  148  grep -C 10 "Anabel" Vehicles
+  149  grep -C 5 "Anabel" Vehicles
+  150  ls
+  151  cd interviews
+  152  grep -C 5 "Anabel" *
+  153  grep -C 5 "Annabel" *
+  154  cd ..
+  155  ls
+  156  grep -C 5 "Annabel" people
+  157  grep -C 5 "6'" people
+  158  ls
+  159  cd memberships
+  160  grep -C 5 "Annabel" *
+  161  ls
+  162  cd ..
+  163  ls
+  164  grep "6'" people
+  165  cd ..
+  166  ls
+  167  cd mystery
+  168  ls
+  169  grep -C 3 "Annabel"
+  170  cd interviews
+  171  grep -C 3 "Annabel" *
+  172  cd ..
+  173  ls
+  174  grep -C 3 "Annabel" vehicles
+  175  ls
+  176  grep "Annabel" people
+  177  ls
+  178  cd memberships
+  179  grep "Annabel" *
+  180  ls
+  181  cd ..
+  182  ls
+  183  grep "Annabel" people
+  184  cd interview
+  185  cd interviews
+  186  head -n 40 *
+  187  head -n 40 Hart Place | tail -n 1
+  188  head -n 38 Buckingham Palance | tail -n 1
+  189  ls
+  190  cd  ..
+  191  ls
+  192  cd streets
+  193  ls
+  194  head -n 40 Haley_Street | tail -n 1
+  195  head -n 176 Haley_Street | tail -n 1
+  196  cd ..
+  197  cd interviews
+  198  grep "Annabel
+  199  grep "Annabel" interview-871877
+  200  code interview-871877
+  201  cd ..
+  202  cd streets
+  203  head -n 179 Buckingham_Palace| tail -n 1
+  204  head -n 179 Buckingham_Place| tail -n 1
+  205  cd ..
+  206  cd interviews
+  207  code interview-699607
+  208  cd ..
+  209  ls
+  210  grep "L337" vehicles
+  211  grep -C 3"L337" vehicles
+  212  grep -C 3 "L337" vehicles
+  213  grep -C 4 "L337" vehicles
+  214  grep -A 5 "L337" vehicles
+  215  ls
+  216  cd memberships
+  217  ls
+  218  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Katie Park"
+  219  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Mike Bostock"
+  220  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens" | -wc 1
+  221  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens" | wc  -1
+  222  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens" | wc -1
+  223  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"
+  224  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  225  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  226  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc -1
+  227  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc -1
+  228  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc - 1
+  229  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc -1
+  230  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc -|
+  231  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  232  history
+
+
+Jeremy Bowers
+
