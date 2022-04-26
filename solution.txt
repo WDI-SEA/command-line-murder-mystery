@@ -1,0 +1,160 @@
+  742  git clone https://github.com/mitchdmarino/git-pull-request-practice.git
+  743  ls
+  744  cd git-pull-request-practice
+  745  ls
+  746  code README.md
+  747  ls
+  748  git status
+  749  touch mitchell-marino
+  750  ls
+  751  git add.
+  752  git add . 
+  753  ls 
+  754  git status
+  755  git commit -m "adds my name"
+  756  git remote -v
+  757  git push origin main 
+  758  cd ..
+  759  mkdir deliverables
+  760  cd deliverables
+  761  git clone https://github.com/mitchdmarino/command-line-murder-mystery.git
+  762  ls
+  763  cd command-line-murder-mystery
+  764  pwd
+  765  ls 
+  766  cd hint1
+  767  ls -a
+  768  code instructions
+  769  cd mystery
+  770  ls
+  771  cat instructions
+  772  kat instructions
+  773  code cheatsheet.md
+  774  open.
+  775  cd 
+  776  open.
+  777  open .
+  778  pwd
+  779  sei
+  780  open . 
+  781  cd unit1
+  782  cd deliverables
+  783  ls
+  784  cd command-line-murder-mystery
+  785  cat instructions
+  786  grep murder
+  787  cat hint1
+  788  cat instructions | grep murder
+  789  ls 
+  790  history
+  791  touch solution.txt
+  792  cat hint1
+  793  head -n 20 people
+  794  ls
+  795  code hint1
+  796  head -n 20 hint1
+  797  head -n license 
+  798  code license
+  799  head -n 20 readme
+  800  head -n 20 README.md
+  801  ls
+  802  cat hint2
+  803  code cheatsheet.md
+  804  code cheatsheet.pdf
+  805  code hint2
+  806  code hint3
+  807  cd mystery
+  808  ls
+  809  head -n 20 people
+  810  cat people
+  811  cat -n 20 people
+  812  head -n 20 people
+  813  ls
+  814  code crimescene
+  815  grep "clue" crimescene
+  816  grep "CLUE" crimescene
+  817  head vehicles
+  818  head -n 20 vehicles
+  819  ls
+  820  code hint4
+  821  grep "CLUE" crimescene
+  822  grep "Annabel" people
+  823  ls 
+  824  code hint 4
+  825  ls
+  826  cd ..
+  827  code hint 4
+  828  code hint4
+  829  code hint5
+  830  cd mystery
+  831  cd streets
+  832  ls
+  833  head -n 40 streets/Hart_Place | tail -n 1
+  834  pwd
+  835  cd ..
+  836  head -n 40 streets/Hart_Place | tail -n 1
+  837  head -n head -n 179 streets/Buckingham_Place | tail -n 1
+  838  head -n 179 streets/Buckingham_Place | tail -n 1
+  839  cd mystery
+  840  cd interviews
+  841  ls
+  842  code interview-47246024
+  843  code interview-699607
+  844  code hint6
+  845  cd ..
+  846  code hint6
+  847  ls
+  848  cd ..
+  849  ls
+  850  code hint6
+  851  cd mystery
+  852  grep "Honda" vehicles
+  853  grep "Blue" vehicles
+  854  grep "L337" vehicles
+  855  head vehicles
+  856  grep "Honda" vehicles -n 5
+  857  cd ..
+  858  cd command-line-murder-mystery
+  859  code hint7
+  860  cd vehicles
+  861  cd mystery
+  862  cd vehicles
+  863  ls
+  864  head vehicles
+  865  grep -A 5 "L337" vehicles
+  866  cd ..
+  867  code hint8
+  868  ls
+  869  cd mystery
+  870  ls 
+  871  cd memberships
+  872  ls
+  873  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History >suspectMembership
+  874  head suspectMembership
+  875  grep "Katie Park"
+  876  ls
+  877  grep "Katie Park" suspectMembership
+  878  rm suspectMembership
+  879  ls
+  880  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Katie Park"
+  881  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Katie Park"
+  882  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Katie Park" | wc -l
+  883  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Erika Owens
+  884  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens" 
+  885  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Katie Park"
+  886  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  887  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  888  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep  "Jacqui Maher"
+  889  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  890  ls
+  891  cd ..
+  892  ls
+  893  cd ..
+  894  ls
+  895  code solution.txt
+  896  open README.md
+  897  code solution.txt
+---------------------------
+
+
+Killer Name: Jeremy Bowers
