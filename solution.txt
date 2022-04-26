@@ -1,0 +1,300 @@
+   71  git commit -m "Created a practice README.txt file"
+   72  sudo ls /Library/Audio/Plug-Ins/HAL
+   73  sudo rm -rf "/Library/Audio/Plug-Ins/HAL/Background Music Device.driver"
+   74  sudo launchctl kickstart -kp system/com.apple.audio.coreaudiod
+   75  sudo ls /Library/Audio/Plug-Ins/HAL
+   76  git --version
+   77  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+   78  /usr/sbin/softwareupdate --install-rosetta
+   79  sudo /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+   80  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   81  brew doctor
+   82  xcode-select --install
+   83  brew install zsh
+   84  echo $SHELL
+   85  chsh -s /bin/zsh
+   86  brew install git
+   87  git --version
+   88  git config --global user.name "Emily-Herndon"\ngit config --global user.email "evherndon26@gmail.com"\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+   89  git config --global user.name "Emily-Herndon"\ngit config --global user.email "emilyvherndon@gmail.com"\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+   90  brew install --cask visual-studio-code
+   91  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   92  code
+   93  code ~/.zshrc
+   94  ls
+   95  pwd
+   96  ls
+   97  ls -a
+   98  cd library
+   99  ls
+  100  cd .
+  101  cd.
+  102  cd ..
+  103  cd documents
+  104  ls
+  105  tree
+  106  cd GA-Bootcamp
+  107  ls
+  108  cd Pre-Course Work
+  109  cd Pre-Course_Work
+  110  ls
+  111  cd css
+  112  cd ../..
+  113  cd ../../..
+  114  ls
+  115  cd emilyherndon/Documents/GA-Bootcamp
+  116  mk dir
+  117  mkdir Unit_1
+  118  ls
+  119  touch cli-commands.txt
+  120  code cli-commands.txt
+  121  open ~/.zsrhc
+  122  open ~/.zshrc
+  123  code ~/.zshrc
+  124  pwd
+  125  cd ../../..
+  126  cd emilyherndon
+  127  unit1
+  128  sei
+  129  unit1
+  130  sei
+  131  cd ../..
+  132  unit1
+  133  sei
+  134  cd ~
+  135  mkdir Code
+  136  ls
+  137  sei
+  138  unit1
+  139  ls
+  140  mkdir Intro-Git
+  141  cd Intro-Git
+  142  ls -a
+  143  touch readme.txt
+  144  ls
+  145  git init
+  146  git --version
+  147  cd ..
+  148  ls
+  149  ls -a
+  150  cd Intro-Git
+  151  ls
+  152  ls -a
+  153  cd ../..
+  154  ls
+  155  cd git-practice
+  156  ls -a
+  157  cd ..
+  158  ls
+  159  unit1
+  160  ls
+  161  cd Intro-Git
+  162  git config --global init.defaultBranch <main>
+  163  git config --global init.defaultBranch name
+  164  ls -a
+  165  rm -rf .git
+  166  git init
+  167  git config --global init.defaultBranch main
+  168  rm -rf .git
+  169  git init
+  170  ls -a
+  171  git status
+  172  git add readme.txt
+  173  git status
+  174  git commit
+  175  git commit -m "this is the init comit for my project" 
+  176  git status
+  177  touch index.html script.js styles.css
+  178  ls
+  179  git status
+  180  git add .
+  181  git status
+  182  git commit -m "adds index.html, script.js, and styles.css"
+  183  git status
+  184  touch test test2
+  185  git status
+  186  git add test2
+  187  git status
+  188  git commit -m "includes test2 but not test"
+  189  git log
+  190  unit1
+  191  l
+  192  ls
+  193  cd Intro-Git
+  194  git status
+  195  rm test
+  196  git status
+  197  git log
+  198  git checkout 2b9b63cd75046443b2299158e4192074e1472757
+  199  ls
+  200  git checkout main
+  201  ls -a
+  202  cd ..
+  203  git clone https://github.com/Emily-Herndon/git-pull-request-practice.git
+  204  ls
+  205  cd git-pull-request-practice
+  206  touch emily_h
+  207  ls
+  208  git add .
+  209  git status
+  210  git commit -m "adds my name"
+  211  git status
+  212  git remote -v
+  213  git push origin main
+  214  cd ..
+  215  git clone https://github.com/Emily-Herndon/command-line-murder-mystery.git
+  216  ls
+  217  cd command-line-murder-mystery
+  218  ls
+  219  cat instructions
+  220  open .
+  221  cat instruction | grep murder
+  222  cat instructions | grep murder
+  223  cat hint1
+  224  cat hint2
+  225  cat hint3
+  226  cat hint4
+  227  cat hint5
+  228  cat hint6
+  229  cat hint7
+  230  cat hint8
+  231  cd mystery
+  232  ls
+  233  cat crimescene
+  234  grep "CLUE" crimescene
+  235  ls
+  236  head -n 20 people
+  237  grep Annabel people
+  238  hint1
+  239  cat hint1
+  240  c ..
+  241  cd ..
+  242  cat hint1
+  243  cat hint2
+  244  cat hint3
+  245  cat hint4
+  246  cat hint5
+  247  cat hint6
+  248  cat hint7
+  249  cat hint8
+  250  cd mystery
+  251  ls
+  252  head -n 20 vehicles
+  253  grep annabel vehicles
+  254  grep Annabel vehicles
+  255  grep CLUE crimescene
+  256  grep Annabel people
+  257  grep Annabel interviews
+  258  cat interviews
+  259  cd interviews
+  260  ls
+  261  head -n 15 interview-
+  262  head -n 15 interview-000296
+  263  head -n 15 interview-00448418
+  264  head -n 15 interview-00502304
+  265  grep barista
+  266  unit1
+  267  ls
+  268  cd command-line-murder-mystery
+  269  ls
+  270  cat license
+  271  ls
+  272  cd mystery
+  273  ls
+  274  grep CLUE crimescene
+  275  grep Annabel people
+  276  ls
+  277  grep Annabel crimescene
+  278  grep Annabel vehicles
+  279  cd streets
+  280  ls
+  281  cd ..
+  282  grep Annabel people
+  283  grep Hart streets
+  284  ls
+  285  head -n173 streets/Mattapan_Street | tail -n 1
+  286  cat interviews/interview-9437737
+  287  head -n40 streets/Hart_Place | tail -n 1
+  288  cat interviews/interview-47246024
+  289  head -n179 streets/Buckingham_Place | tail -n 1
+  290  cat interviews/interview-699607
+  291  head -n176 streets/Hayley_Street | tail -n 1
+  292  head -n176 streets/Haley_Street | tail -n 1
+  293  cat interviews/interview-871877
+  294  grep "Honda" vehicles
+  295  grep -A 5 "L337" vehicles
+  296  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  297  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  298  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  299  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  300  cat Fitness_Galaxy AAA United_MileagePlus | grep Jacqui Maher
+  301  cat Fitness_Galaxy AAA United_MileagePlus | grep Jeremy Bowers
+  302  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher" | wc -l%
+  303  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher" | wc -|%
+  304  ls
+  305  cd memberships
+  306  ls
+  307  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  308  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  309  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  310  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  311  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  312  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  313  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -|
+  314  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  315  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska" | wc -l
+  316  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc -l
+  317  cd ..
+  318  grep CLUE crimescene
+  319  cd memberships
+  320  ls
+  321  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  322  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  323  cd ..
+  324  ls
+  325  cd ..
+  326  ls
+  327  cat instructions
+  328  cd mystery
+  329  grep CLUE crimescene
+  330  grep CLUE crimescene >> clues.txt
+  331  grep Annabel people
+  332  grep Annabel people >> clues.txt
+  333  head -n 40 streets/Hart_Place | tail -n 1
+  334  cat interviews/interview-47246024
+  335  head -n 173 streets/Mattapan_Street | tail -n 1
+  336  cat interviews/interview-9437737
+  337  head -n 179 streets/Buckingham_Place | tail -n 1
+  338  cat interviews/interview-699607
+  339  cat interviews/interview-699607 >> clues.txt
+  340  grep L337 vehicles
+  341  grep - A 5 L337 vehicles
+  342  grep - A 5 "L337" vehicles
+  343  grep -A 5 "L337" vehicles
+  344  grep -A 5 "L337" vehicles >> clues.txt
+  345  cat clues
+  346  cat clues.txt
+  347  echo "Erika Owens, Joe Germuska, Jeremy Bowers, Jacqui Maher" >> clues.txt
+  348  cat clues.txt
+  349  ls
+  350  cd memberships
+  351  ls
+  352  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Erika Owens"
+  353  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  354  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  355  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers" >> clues.txt
+  356  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jaqui Maher"
+  357  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers" >> ../clues.txt
+  358  ls
+  359  rm -rf clues.txt
+  360  ls
+  361  cd ..
+  362  ls
+  363  cat clues.txt
+  364  echo "Jeremy Bowers" >> clues.txt
+  365  ls
+  366  cat clues.txt
+  367  cd ..
+  368  history | tail -n 500 >> solution.txt
+  369  ls
+  370  rm -rf solution.txt
