@@ -1,0 +1,236 @@
+    1  brew install git
+    2  git --version
+    3  git config --global user.name "ndukadesign"\ngit config --global user.email "nduka.design@gmail.com"\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+    4  brew install --cask visual-studio-code
+    5  chsh -s /bin/zsh
+    6  echo $SHELL
+    7  echo $SHELL
+    8  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    9  code
+   10  open ~/.zshrc
+   11  code
+   12  code ~/.zshrc
+   13  export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"\n
+   14  pwd
+   15  cd 
+   16  ~ ls
+   17  ls
+   18  ls -a
+   19  code ~/.zshrc
+   20  cd
+   21  cd sei 425
+   22  cd sei-425
+   23  ls
+   24  cd documents
+   25  cd general assembly
+   26  cd ga
+   27  cd sei-425
+   28  open ~/.zshrc
+   29  code ~/.zshrc 
+   30  pwd
+   31  sei
+   32  cd sei
+   33  ~
+   34  cd sei
+   35  cd
+   36  sei-425
+   37  cd
+   38  sei
+   39  pwc
+   40  pwd
+   41  sei
+   42  ~/sei-425
+   43  sei
+   44  cd intro-git
+   45  ls -a
+   46  ~sei-425/unit1
+   47  sei
+   48  cd intro-git
+   49  sei
+   50  ~/unit1
+   51  pwd
+   52  cd documents
+   53  ga
+   54  git --version
+   55  pwd
+   56  cd ga
+   57  cd sei-425
+   58  cd unit1
+   59  pwd
+   60  ls
+   61  sei-425
+   62  sei
+   63  unit1 mkdir intro-git
+   64  mkdir
+   65  ls
+   66  ls -a
+   67  ~/sei-425/unit1/intro-git
+   68  touch readme.txt
+   69  git init
+   70  git config --global init.defaultBranch main
+   71  ls -a
+   72  cd ..
+   73  cd
+   74  cd ..
+   75  ls -a
+   76  cd ..
+   77  ls -a
+   78  pwd
+   79  ~
+   80  C
+   81  ls
+   82  cd
+   83  master
+   84  pwd
+   85  ~//Users/ndukathechief/documents
+   86  sei
+   87  pwd
+   88  /Users/ndukathechief/sei-425
+   89  touch unit1
+   90  cd
+   91  se1
+   92  sei
+   93  ls
+   94  ~ sei 425
+   95  sei-425!
+   96  sei-425
+   97  touch unit1
+   98  cd
+   99  ls
+  100  sei-425
+  101  ls
+  102  cd
+  103  sei-425
+  104  mkdir unit1
+  105  unit1
+  106  cd unit1
+  107  ls
+  108  mkdir intro-git
+  109  ls
+  110  ls -a
+  111  touch readme.txt
+  112  intro-git
+  113  touch readme.txt
+  114  ls
+  115  git init
+  116  ls -a
+  117  git status
+  118  git commit -m "this is the init commit for my project"
+  119  git status
+  120  touch index.html script.js styles.css
+  121  git status
+  122  git add .
+  123  git status
+  124  git commit -m 'adds index.html, script.js, and styles.css' 
+  125  git log
+  126  cd ..
+  127  git clone https://github.com/ndukadesign/git-pull-request-practice.git
+  128  ls
+  129  cd git-pull-request-practice
+  130  touch nduka-design
+  131  ls
+  132  git add .
+  133  git status
+  134  git commit -m 'add my name'
+  135  git status
+  136  git remote -v
+  137  git push origin main
+  138  cd ..
+  139  git clone https://github.com/ndukadesign/command-line-murder-mystery.git
+  140  ls
+  141  cd command-line-murder-mystery
+  142  ls
+  143  cat instructions
+  144  ls
+  145  cat hint1
+  146  head -n 20 hint2
+  147  man ls
+  148  man head
+  149  man git
+  150  cd mystery
+  151  ls
+  152  grep "CLUE: Footage" crimescene
+  153  grep CLUE crimescene >> clue.txt
+  154  ls
+  155  cat clues.txt
+  156  cat clue.txt
+  157  cat crimescene | grep CLUE_
+  158  cat crimescene | grep CLUE
+  159  ls
+  160  head -n 20 people
+  161  cat people | grep Annabel
+  162  cat people | grep Annabel >> clue.txt
+  163  cat clue.txt
+  164  cd street
+  165  cd streets
+  166  ls
+  167  cat ../clue.txt
+  168  head -n 20 Hart_Place
+  169  head -n 40 Hart_Place
+  170  head -n 40 Hart_Place | tail -n 1
+  171  tail -n 1
+  172  sei-425
+  173  unit1
+  174  command-line-murder-mystery/mystery
+  175  ls
+  176  streets
+  177  grep INTERVIEW Hart_Place >> ../clue.txt
+  178  cat ../clue.txt
+  179  grep INTERVIEW Hart_Place Mattapan_Street Buckingham Place Haley_Street
+  180  grep INTERVIEW Hart_Place Mattapan_Street Buckingham Place Haley_Street >> ../clue.txt
+  181  cat ../clue.txt
+  182  cd ..
+  183  ls
+  184  cat ../clue.txt
+  185  haed -n20 interview-47246024
+  186  head -n20 interview-47246024
+  187  head -n10 interview-9437737
+  188  head -n10 interview-699607
+  189  head -n10 interview-871877
+  190  head -n10 interview-699607 >> ../clue.txt
+  191  cd ..
+  192  ls
+  193  head vehicles
+  194  head -n 30 vehicles
+  195  cat clue.txt
+  196  ls
+  197  grep -A 5 "L337" vehicles
+  198  grep -A 5 "L337" vehicles | grep -A 4 "Blue"
+  199  grep -A 5 "L337" vehicles | grep -A 4 "Blue" 
+  200  grep -A 5 "L337" vehicles | grep -A 4 "Honda"  grep -A 3 "Blue" 
+  201  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue" 
+  202  cat clue.txt
+  203  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'"
+  204  grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'" >> clue.txt
+  205  cat clue.txt
+  206  ls
+  207  cd memberships
+  208  ls
+  209  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c Jeremy Bowers
+  210  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  211  man grep
+  212  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grepc "Jeremy Bowers" | wc -l
+  213  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep c "Jeremy Bowers" | wc -l
+  214  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  215  man wc
+  216  cd ..
+  217  grep "Jeremy Bowers"
+  218  sei-425
+  219  unit1
+  220  command-line-murder-mystery/mystery
+  221  memberships
+  222  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers" | wc -l
+  223  cd ..
+  224  grep "Jeremy Bowers" people
+  225  head -n 284 Dunstable_Road | tail -n 1
+  226  cd ..
+  227  ls
+  228  cd interviews
+  229  cat interview-9620713
+  230  mystery
+  231  ls
+  232  cd interviews
+  233  cat interview-9620713
+  234  cd ..
+  235  history
+  236  clear
