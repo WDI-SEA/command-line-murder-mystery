@@ -1,0 +1,319 @@
+    1  /usr/sbin/softwareupdate --install-rosetta --agree-to-license\n
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+    3  /usr/sbin/softwareupdate --install-rosetta --agree-to-license\n
+    4  xcode-select --install
+    5  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+    6  brew install
+    7  brew install wget
+    8  $brew install wget
+    9  cd/usr/local
+   10  xcode-select--install
+   11  pwd
+   12  ls
+   13  pwd
+   14  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+   15  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   16  xcode-select --install
+   17  brew install zsh
+   18  echo $SHELL\n
+   19  chsh -s /bin/zsh\n
+   20  brew install git
+   21  git -- version
+   22  git --version
+   23  ~ git config --global user.name "HyunjooSung"\ngit config --global user.email "hjsung27@gmail.com"\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+   24  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+   25  git config --global user.name "HyunjooSung"\ngit config --global user.email "hjsung27@gmail.com"\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+   26  brew install --cask visual-studio-code
+   27  code
+   28  open ~/.zshrc
+   29  code.
+   30  code .
+   31  open ~/.zshrc
+   32  code ~/.zshrc 
+   33  pwd
+   34  code cd
+   35  ls
+   36  ls -a 
+   37  code ~/.zshrc 
+   38  ~
+   39  pwd
+   40  mkdir sei
+   41  cd sei
+   42  mkdir r-sei
+   43  cd r-sei
+   44  mkdir sei-425
+   45  cd sei-425
+   46  mkdir Unit1
+   47  ls
+   48  touch cli-commands.txt
+   49  ls
+   50  code cli-commands.txt
+   51  open ~/.zshrc
+   52  ~ ls
+   53  ~
+   54  ls
+   55  sei-425 pwd
+   56  cd sei
+   57  cd r-sei
+   58  cd sei-425
+   59  pwd
+   60  cd
+   61  sei
+   62  cd
+   63  pwd
+   64  cd
+   65  sei
+   66  cd
+   67  sei
+   68  cd
+   69  sei
+   70  ls
+   71  sei
+   72  code  ~/.zshrc
+   73  cd r-sei
+   74  cd sei
+   75  cd r-sei
+   76  cd sei-425
+   77  pwd
+   78  sei
+   79  cd
+   80  sei
+   81  code ~/.zshrc
+   82  pwd
+   83  cd
+   84  seo
+   85  sei
+   86  cd
+   87  ls
+   88  cd sei
+   89  cd
+   90  sei
+   91  cd unit1
+   92  ls
+   93  mkdir intro-git
+   94  cd intro-git
+   95  ls
+   96  ls -a
+   97  touch readme.txt
+   98  ls
+   99  git init
+  100  git --version
+  101  git config --global init.defaultBranch main
+  102  ls -a
+  103  rm -rf .git
+  104  git init
+  105  ls -a
+  106  git status
+  107  git add readme.txt
+  108  git status
+  109  git commit
+  110  git commit -m "this is the init commit for my project"
+  111  git status
+  112  touch index.html script.js styles.css
+  113  git status
+  114  git add .
+  115  git status
+  116  git commit -m "adds index.html, script.js, and styles.css"
+  117  touch test test2
+  118  git status
+  119  git add test2
+  120  git status
+  121  git commit -m "includes test2 but not test"
+  122  git status
+  123  git log
+  124  ls
+  125  git status
+  126  rm test
+  127  git status
+  128  git log
+  129  git checkout main
+  130  ls -a
+  131  cd..
+  132  pwd
+  133  cd Unit1
+  134  cd..
+  135  pwd
+  136  sei
+  137  cd Unit1
+  138  git clone https://github.com/HyunjooSung/git-pull-request-practice.git
+  139  ls
+  140  cd git-pull-request-practice
+  141  touch HyunjooSung
+  142  ls
+  143  git add.
+  144  git status
+  145  git commit -m "adds my name"
+  146  git status
+  147  ls
+  148  git add .
+  149  git status
+  150  git commit -m "adds my name"
+  151  git status
+  152  git remote -v
+  153  git push origin main
+  154  pwd
+  155  sei
+  156  git log
+  157  ls
+  158  cd sei-425
+  159  cd sei
+  160  cd r-sei
+  161  cd sei-425
+  162  cd Unit1
+  163  ls
+  164  ls -a
+  165  cd intro-git
+  166  git init
+  167  git log
+  168  pwd
+  169  sei
+  170  cd Unit1
+  171  https://github.com/HyunjooSung/command-line-murder-mystery.git
+  172  sei
+  173  cd Unit1
+  174  ls
+  175  cd intro-git
+  176  git status
+  177  cd sei-425/Unit1
+  178  425
+  179  sei
+  180  cd Unit1
+  181  ls
+  182  mkddir html-css-intro
+  183  cd html-css-intro
+  184  mkdir html-css-intro
+  185  cd html-css-intro
+  186  ls
+  187  touch index.html
+  188  code .
+  189  mkdir css js
+  190  zsh
+  191  touch css/styles.css
+  192  sei
+  193  cd Unit1
+  194  ls
+  195  https://github.com/HyunjooSung/command-line-murder-mystery.git
+  196  git clone https://github.com/HyunjooSung/command-line-murder-mystery.git
+  197  ls
+  198  cd command-line-murder-mystery
+  199  ls
+  200  cat
+  201  sei
+  202  cd Unit1
+  203  ls
+  204  cd command-line-murder-mystery
+  205  cat instructions
+  206  open .
+  207  cat instructions | grep murder
+  208  cat hint1
+  209  ls
+  210  open .
+  211  head -n 20 people
+  212  cd hint1
+  213  cat hint2
+  214  cat instructions |grep CLUE
+  215  cat hint3
+  216  man ls
+  217  man man
+  218  man head
+  219  man git
+  220  cd mystery
+  221  ls
+  222  grep CLUE crimescene
+  223  >> clues.txt
+  224  sei
+  225  cd sei-425
+  226  ls
+  227  cd Unit
+  228  cd Unit1
+  229  sei
+  230  cd Unit1
+  231  ls
+  232  cd command-line-murder-mystery
+  233  ls
+  234  cd mistery
+  235  cd mystery
+  236  ls
+  237  grep CLUE crimescene
+  238  grep "CLUE:Footage" Crimescene
+  239  grep "CLUE:Footage" crimescene\n
+  240  grep "CLUE: Footage" crimescene\n
+  241  grep CLUE: Footage crimescene
+  242  grep CLUE crimescene >> clues.txt
+  243  ls
+  244  cat clues.txt
+  245  cat camescene } grep CLUE
+  246  ls
+  247  head -n 20 people
+  248  cat people |grep Annabel
+  249  cat people |grep Annabel>>clues.txt
+  250  cat clues.txt
+  251  echo \n >> clues.txt
+  252  cat clues.txt
+  253  echo "\n" >> clues.txt
+  254  cat clues.txt
+  255  cd streets
+  256  ls
+  257  head -n 20 Hart_place
+  258  head -n 40 Hart_Place |tail -n 1
+  259  tail -n 20 Hart_Place
+  260  grep INVERVIEW Hart_Place
+  261  grep INTERVIEW Hart_Place
+  262  grep INTERVIEW Hart_Place >. ../clues.txt
+  263  grep INTERVIEW Hart_Place >> ../clues.txt
+  264  cat ../clues.txt
+  265  grep INTERVIEW Hart_Place Mattapan_Street Buckingham_Place Haley_street
+  266  grep INTERVIEW Hart_Place Mattapan_Street Buckingham_Place Haley_street >> ../clues.txt
+  267  cat ../clues.txt
+  268  cd..
+  269  pwd
+  270  cd mystery
+  271  cd command-line-murder-mystery
+  272  pwd
+  273  cd ..
+  274  ls
+  275  cd interviews
+  276  ls
+  277  cat ../clues.txt
+  278  head -n 20 interview-47246024
+  279  head -n 10 interview-47246024
+  280  head -n 10 interview-9437737
+  281  head -n 10 interview-699607
+  282  head -n 10 interview-871877
+  283  head -n 10 interview-699607 >> ../clues.txt
+  284  cd..
+  285  cd ..
+  286  ls
+  287  head vehicles
+  288  head -n 30 vehicles
+  289  cat clues.txt
+  290  grep -A 5 "L337" vehicles
+  291  grep -A 5 "L337" vehicles| grep -A 4 "Blue"
+  292  grep -A 5 "L337" vehicles| grep -A 4 "Honda"| grep -A 4 "Blue"
+  293  cat clues.txt
+  294  grep -A 5 "L337" vehicles| grep -A 4 "Honda"| grep -A 4 "Blue"| grep -B 1 "6'"
+  295  ls
+  296  grep -A 5 "L337" vehicles| grep -A 4 "Honda"| grep -A 4 "Blue"| grep -B 1 "6'" >> clues.txt
+  297  cat clues.txt
+  298  cd memberships
+  299  ls
+  300  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep "Joe Germuska"
+  301  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep "Jeremy Bowers"
+  302  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep "Jacqui Maher"
+  303  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep "Erika Owens"
+  304  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep -C "Jeremy Bowers"
+  305  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep -c "Jeremy Bowers"
+  306  grep "Jeremy Bowers" people
+  307  cd ..
+  308  grep "Jeremy Bowers" people
+  309  cd streets
+  310  head -n 284 Dunstable Road
+  311  head -n 284 Dunstable_Road
+  312  head -n 284 Dunstable_Road | tail -n 1
+  313  cd ..
+  314  ls
+  315  cd interviews
+  316  cat interviews-9620713
+  317  cat interview-9620713
+  318  cd ..
+  319  history
