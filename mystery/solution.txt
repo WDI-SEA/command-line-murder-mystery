@@ -1,0 +1,270 @@
+history
+    1  code
+    2  xcode-select --install
+    3  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    4  clear
+    5  brew install git
+    6  git --version
+    7  git config --global user.name devin-lynch
+    8  git config --global user.email devin.l.lynch@gmail.com
+    9  git config --global push.default simple
+   10  git config --global credential.helper cache
+   11  git config --global core.editor 'code -w'
+   12  git config --global --list
+   13  brew install --cask visual-studio-code
+   14  code
+   15  clear
+   16  pwd
+   17  clear
+   18  code
+   19  clear
+   20  pwd
+   21  ls
+   22  ls -a
+   23  pwd
+   24  mkdir seir-808
+   25  cd seir-808
+   26  cd ..
+   27  cs seir-808
+   28  cd seir-808
+   29  mkdir unit1
+   30  cd unit1
+   31  mkdir cli-intro
+   32  cd cli-intro
+   33  touch notes.txt
+   34  ls
+   35  code .
+   36  cat notes.txt
+   37  mkdir my-junk
+   38  ls
+   39  mv notes.txt my-junk/notes.txt
+   40  ls
+   41  ls my-junk
+   42  touch file.txt .hidden-file other-file.js
+   43  ls
+   44  ls -a
+   45  man ls
+   46  clear
+   47  ls -l
+   48  ls -R
+   49  ls
+   50  rm file.txt
+   51  ls
+   52  man rm
+   53  rm -rf my-junk
+   54  ls
+   55  echo 'hello world!'
+   56  echo 'hellow redirection' >> hello.txt
+   57  ls
+   58  cat hello.txt
+   59  echo 'new thing' >> hello.txt
+   60  cat hello.txt
+   61  code hello.txt
+   62  echo 'newest thing' > hello.txt
+   63  cat hello.txt
+   64  touch books.txt
+   65  code .
+   66  cat books.txt
+   67  man grep
+   68  grep Mill books.txt
+   69  grep Mill books.txt | grep On
+   70  ls
+   71  history
+   72  history | grep man
+   73  history >> history.txt
+   74  ls
+   75  cat history.txt
+   76  cd ..
+   77  pwd
+   78  mkdir first-ga-repo
+   79  cd first-ga-repo
+   80  ls
+   81  touch index.html styles.css script.js
+   82  ls
+   83  git init
+   84  cd
+   85  cd seir-808
+   86  cd unit1
+   87  cd first-ga-repo
+   88  ls -a
+   89  git status
+   90  git add index.html
+   91  git status
+   92  git commit -m "Add index.html file"
+   93  git status
+   94  git add .
+   95  git status
+   96  git commit -m "Add javascript and css files"
+   97  man git-add
+   98  echo 'git is super dope!' >> notes.txt
+   99  ls
+  100  git status
+  101  git add .
+  102  git commit -m "Take notes on git"
+  103  git status
+  104  ls
+  105  git remote add origin https://github.com/devin-lynch/first-ga-repo.git
+  106  git remote -v
+  107  git branch -M main
+  108  git push origin main
+  109  cd ..
+  110  ls
+  111  pwd
+  112  git clone https://github.com/devin-lynch/command-line-murder-mystery.git
+  113  ls
+  114  cd command-line-murder-mystery
+  115  ls
+  116  cat instructions
+  117  open .
+  118  head -n 20 people
+  119  cd mystery
+  120  head -n 20 people
+  121  grep 'CLUE' crimescene
+  122  head -n 20 people
+  123  head people
+  124  head 20 vehicles
+  125  head -n 20 vehicles
+  126  head vehicles
+  127  grep "Annabel" people
+  128  head -n 176 Haley Street
+  129  head -n 176 streets
+  130  head -n 176 Haley_Street
+  131  clear
+  132  cat hint3
+  133  cat ../hint3
+  134  head -n people
+  135  head -n vehicles
+  136  head -n 20 people
+  137  grep "CLUE" crimescene
+  138  grep "Annabel" people
+  139  head names.txt
+  140  head people | grep "Annabel" people
+  141  cd streets
+  142  grep "Hart" street
+  143  cd ..
+  144  grep "Hart Place" streets
+  145  cd streets
+  146  head -n 40 Hart_Place 
+  147  cd ..
+  148  cd interview
+  149  cd interviews
+  150  cat interview-47246024
+  151  cd streets
+  152  cd ..
+  153  cd streets
+  154  cd ..
+  155  cd streets
+  156  head -n 173 Mattapan_Street
+  157  cd ..
+  158  cd interviews
+  159  grep "interview-9437737"
+  160  cat interiew-9437737
+  161  cat interview-9437737
+  162  cd ..
+  163  cd streets
+  164  head -n 179 streets
+  165  head -n 179 Buckingham_Place
+  166  cd ..
+  167  cd interviews
+  168  cat interview-699607
+  169  cd ..
+  170  ls
+  171  cd vehicles
+  172  grep "L337" vehicles
+  173  grep "L337" vehicles | grep "blue" vehicles
+  174  grep "blue" vehicles
+  175  grep "L337" vehicles
+  176  grep "Honda" vehicles
+  177  clear
+  178  grep "L337" vehicles
+  179  cat License Plate L337ZR9 vehicles
+  180  \n\nclear
+  181  cat hint5
+  182  cat ../hint5
+  183  head -n 173 streets/Mattapan_Street tail -n 1
+  184  grep "Annabel" people
+  185  cd streets
+  186  cd ..
+  187  head -n 173 streets/Mattapan_Street | tail -n 1
+  188  grep "Honda" vehicles
+  189  head vehicles
+  190  head "Honda" vehicles | head "Blue" vehicles | head "L337" vehicles
+  191  grep "Honda" vehicles | grep "Blue" vehicles | grep "L337" vehicles
+  192  clear
+  193  head -n 173 streets/Mattapan_Street | tail -n 1
+  194  cat interview-9437737
+  195  cd interviews
+  196  cat interview-9437737
+  197  cd ..
+  198  touch solution.txt
+  199  grep "Annabel" people
+  200  cat hint2
+  201  cat ../hint2
+  202  grep "CLUE" crimescene
+  203  cat ../hint3
+  204  grep "Annabel" people
+  205  grep "Annabel" people > annabel.txt
+  206  cat ../hint2
+  207  cat ../hint3
+  208  grep "Annabel" people
+  209  head people
+  210  grep "Hart Place" streets
+  211  cd streets
+  212  head Hart_Place streets
+  213  head Mattapan_Street
+  214  head Buckingham_Place
+  215  head Haley_Street
+  216  head Hart_Place 40
+  217  cd ..
+  218  head "Annabel" people
+  219  cd streets
+  220  grep "Hart_Place"
+  221  cd ..
+  222  head people
+  223  head vehicles | grep "Blue"
+  224  head vehicles
+  225  grep "Annabel" people
+  226  cd streets
+  227  head Haley_Street 176
+  228  head Haley_Street -n 176
+  229  head -n 173 Mattapan_Street| tain -n 1
+  230  head -n 173 Mattapan_Street| tail -n 1
+  231  head -n 173 Mattapan_Street| tail -n 1 >> annabel.txt
+  232  head -n 40 Hart_Place| tail -n 1
+  233  head -n 179 Buckingham_Place| tail -n 1
+  234  head -n 176 Haley_Street| tail -n 1
+  235  cd ..
+  236  cd interviews
+  237  cd ..
+  238  grep "9437737" interviews
+  239  grep "CLUE" crimescene
+  240  cd interviews
+  241  cat interview-47246024
+  242  cat interview-9437737
+  243  cat interview-871877
+  244  cat interview-699607
+  245  cat interview-699607 >> annabel.txt
+  246  cd ..
+  247  grep -A 5 "L337" mystery
+  248  grep -A 5 "L337" vehicles
+  249  grep -E 'L337|Blue|Honda|6/'' vehicles
+  250  grep -E "L337|Blue|Honda|6'" vehicles
+  251  cd memberships
+  252  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erica Owens"
+  253  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  254  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  255  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  256  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  257  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  258  cd ..
+  259  grep "CLUE" crimescene
+  260  cd memberships
+  261  cat Fitness_Galaxy AAA United_MileagePlus library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  262  cat Fitness_Galaxy AAA United_MileagePlus library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  263  cat library.txt | grep "Jeremy Bowers"
+  264  cat library.txt | grep "Joe Germuska"
+  265  cat Museum_of_Bash_History | grep "Jeremy Bowers"
+  266  cat Museum_of_Bash_History | grep "Joe Germuska"
+  267  cd ..
+  268  echo history >> solutions.txt
+Jeremy Bowers
