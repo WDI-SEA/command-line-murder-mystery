@@ -1,0 +1,305 @@
+
+Jeremy Bowers is the Killer!
+
+PROOF:
+
+Witness spotted last: 
+Annabel Church	F	38	Buckingham Place, line 179
+Witness Statement: 
+However, they report seeing the car that fled the scene. Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"
+
+Suspect list and elimination: 
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+
+License Plate L337WR9
+Make: Honda
+Color: Blue
+Owner: Jacqui Maher
+Height: 6'2"
+Weight: 130 lbs
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Joe Germuska	M	65	Plainfield Street, line 275
+Jeremy Bowers	M	34	Dunstable Road, line 284
+Jacqui Maher	F	40	Andover Road, line 224
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+SEE INTERVIEW #29741223
+SEE INTERVIEW #9620713
+SEE INTERVIEW #904020
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Home appears to be empty, no answer at the door.
+
+After questioning neighbors, appears that the occupant may have left for a trip recently.
+
+Considered a suspect until proven otherwise, but would have to eliminate other suspects to confirm.1.txt:Jeremy Bowers
+2.txt:Jeremy Bowers
+AAA:Jeremy Bowers
+Delta_SkyMiles:Jeremy Bowers
+Museum_of_Bash_History:Jeremy Bowers
+Terminal_City_Library:Jeremy Bowers
+delta.txt:Jeremy Bowers
+library.txt:Jeremy Bowers
+museum.txt:Jeremy Bowers
+newfile.txt:Jeremy Bowers
+
+~~~~~~~~~~~~~~~~~~~~~
+
+HISTORY
+  178  cat instructions
+  179  ls
+  180  cat README.md
+  181  cd mystery
+  182  ls
+  183  cat people
+  184  cat vehicles
+  185  ls
+  186  cat crimescene
+  187  cd ..
+  188  ls
+  189  cat cheatsheet.md
+  190  ls
+  191  cat instructions
+  192  man history
+  193  cat cheatsheet.md
+  194  cat hint1
+  195  hint2
+  196  cat hint2
+  197  cat hint3
+  198  cd mystery/
+  199  grep "CLUE" crimescene
+  200  grep -i "clue" crimescene
+  201  grep -i "annabel" people
+  202  head -n 20 vehicles
+  203  grep -i "annabel" vehicles
+  204  grep -i "annabel" vehicles | -c
+  205  grep -i "annabel" vehicles | grep -c
+  206  grep -i "annabel" vehicles | grep -n
+  207  grep -i "annabel" vehicles | grep -n vehicles
+  208  grep -n "Annabel" vehicles
+  209  grep -n "Annabel" people
+  210  ls
+  211  cd memberships
+  212  ls
+  213  cat AAA
+  214  cd ..
+  215  ls
+  216  grep -i "annabel" crimescene
+  217  grep "Zealand" crimescene
+  218  grep -C "Zealand" crimescene
+  219  man grep
+  220  grep -C 5 "Zealand" crimescene
+  221  man cat
+  222  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8 hint9 >> solution.txt
+  223  cd ..
+  224  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8 hint9 >> solution.txt
+  225  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8 >> solution.txt
+  226  ls
+  227  cat solution.txt
+  228  cd mystery
+  229  grep -A 20 "Interview" *
+  230  cd interviews
+  231  ls
+  232  grep "-l "Annabel" *
+  233  grep -l 'Annabel' *
+  234  grep "Annabel" *
+  235  head *
+  236  head -n 3 *
+  237  grep -l "Alice" *
+  238  grep -l "Zealand" *
+  239  head interview-47246024
+  240  head interview-94126412
+  241  cat interview-94126412
+  242  grep -l "blond" *
+  243  grep -l "barista" *
+  244  grep -l "spiky" *
+  245  grep -l "person" *
+  246  cat interview-934
+  247  cat interview-93473333
+  248  cd ..
+  249  grep -l "Annabel" *
+  250  grep -c 3 "Annabel" people
+  251  grep -C 3 "Annabel" people
+  252  cd streets
+  253  ls
+  254  cd ..
+  255  grep "Annabel" people >> witness.txt
+  256  cat witness.txt
+  257  echo '~~~~~~~~~~~~~~~~~~~~~~~~~~' >> witness.txt
+  258  grep "Annabel" people > witness.txt
+  259  echo '~~~~~~~~~~~~~~~~~~~~~~~~~~' >> witness.txt
+  260  grep "Annabel" people > witness.txt
+  261  echo '~~~~~~~~~~~~~~~~~~~~~~~~~~' >> witness.txt
+  262  grep "Annabel" people > witness.txt
+  263  echo '' >> witness.txt
+  264  echo '~~~~~~~~~~~~~~~~~~~~~~~~~~' >> witness.txt
+  265  echo '' >> witness.txt
+  266  grep "Annabel" vehicles > witness.txt
+  267  grep "Annabel" people > witness.txt
+  268  echo '' >> witness.txt
+  269  echo '~~~~~~~~~~~~~~~~~~~~~~~~~~' >> witness.txt
+  270  echo '' >> witness.txt
+  271  grep "Annabel" vehicles >> witness.txt
+  272  cat witness.txt
+  273  head vehciles
+  274  head vehicles
+  275  head -n 15 vehicles
+  276  grep "Annabel" people > witness.txt
+  277  echo '' >> witness.txt
+  278  echo '~~~~~~~~~~~~~~~~~~~~~~~~~~' >> witness.txt
+  279  echo '' >> witness.txt
+  280  grep -C 3 "Annabel" vehicles >> witness.txt
+  281  cat witness.txt
+  282  cd
+  283  cd seir-808/unit1/command-line-murder-mystery/mystery
+  284  ls
+  285  cd streets
+  286  head *
+  287  cd ..
+  288  cat witness.txt
+  289  cat solution.txt
+  290  mv /command-line-murder-mystery/solution.txt solution.txt
+  291  cd ..
+  292  ls
+  293  mv solution.txt mystery/solution.txt
+  294  ls
+  295  cd mystery
+  296  cat solution.txt
+  297  cat witness
+  298  cat witness.txt
+  299  streets
+  300  head -n 40 Hart Place | tail -n 1
+  301  head -n 40 Hart lsPlace | tail -n 1
+  302  ls
+  303  head -n 40 Hart_Place | tail -n 1
+  304  head -n 173 Mattapan_Street | tail -n 1
+  305  head -n 40 Hart_Place | tail -n 1 >> mystery/solution.txt
+  306  head -n 40 Hart_Place | tail -n 1 >> /mystery/solution.txt
+  307  head -n 40 Hart_Place | tail -n 1 >> ../solution.txt
+  308  head -n 173 Mattapan_Street | tail -n 1 >> ../solution.txt
+  309  head -n 179 Buckingham_Place| tail -n 1 >> ../solution.txt
+  310  head -n 176 Haley_Street | tail -n 1 >> ../solution.txt
+  311  cd ..
+  312  cat solution.txt
+  313  cd streets
+  314  echo '' >> ../witness.txt
+  315  echo '~~~~~~~~~~~~~~~~~~~~' >> ../witness.txt
+  316  echo '' >> ../witness.txt
+  317  head -n 40 Hart_Place | tail -n 1
+  318  head -n 40 Hart_Place | tail -n 1 >> ../witness.txt
+  319  head -n 179 Mattapan_Street | tail -n 1 >> ../witness.txt
+  320  head -n 173 Mattapan_Street | tail -n 1 >> ../witness.txt
+  321  head -n 179 Buckingham_Place | tail -n 1 >> ../witness.txt
+  322  head -n 176 Haley_Street | tail -n 1 >> ../witness.txt
+  323  cd ..
+  324  cat witness.txt
+  325  cat ./interviews/interview-47246024
+  326  cat ./interviews/interview-9437737
+  327  cat ./interviews/interview-699607
+  328  echo '' >> witness.txt
+  329  echo '~~~~~~~~~~~~~~~~~~~~' >> witness.txt
+  330  echo '' >> witness.txt
+  331  tail -n 1 ./interviews/interview-699607 >> witness.txt
+  332  cat ./interviews/interview-871877
+  333  grep -A 6 "L337"
+  334  grep -A 6 "L337" vehicles
+  335  grep -C 3 "Joe Germuska" vehicles >> suspect.txt
+  336  grep -C 3 "Jeremy Bowers" vehicles >> suspect.txt
+  337  grep -C 3 "Jacqui Maher" vehicles >> suspect.txt
+  338  cat suspect.txt
+  339  grep "Joe G" people
+  340  echo '' >> suspect.txt
+  341  echo '~~~~~~~~~~~~~~~~~~~~~~~~' >> suspect.txt
+  342  echo '' >> suspect.txt
+  343  grep "Joe G" people >> suspect.txt
+  344  grep "Jeremy B" people
+  345  grep "Jeremy B" people >> suspect.txt
+  346  grep "Jacqui M" people
+  347  grep "Jacqui M" people >> suspect.txt
+  348  cat suspect.txt
+  349  head -n 275 ./streets/Plainfield_Street | tail -n 1
+  350  echo '' >> suspect.txt
+  351  echo '~~~~~~~~~~~~~~~~~~~~~~~~' >> suspect.txt
+  352  echo '' >> suspect.txt
+  353  head -n 275 ./streets/Plainfield_Street | tail -n 1 >> suspect.txt
+  354  head -n 284 ./streets/Dunstable_Road | tail -n 1 >> suspect.txt
+  355  head -n 224 ./streets/Andover_Road | tail -n 1 >> suspect.txt
+  356  cat suspect.txt
+  357  cat ./interviews/interview-29741223
+  358  cat ./interviews/interview-9620713
+  359  cat ./interviews/interview-904020
+  360  echo '' >> suspect.txt
+  361  echo '~~~~~~~~~~~~~~~~~~~~~~~~' >> suspect.txt
+  362  echo '' >> suspect.txt
+  363  cat ./interviews/interview-9620713 >> suspect.txt
+  364  cat suspect.txt
+  365  cd memberships
+  366  grep -l "Jeremy Bowers" *
+  367  cat 1.txt
+  368  grep "Jeremy Bowers" *
+  369  head newfile.txt
+  370  cat ../solution.txt
+  371  echo '' >> suspect.txt
+  372  echo '~~~~~~~~~~~~~~~~~~~~~~~~' >> suspect.txt
+  373  echo '' >> suspect.txt
+  374  grep -l "Jeremy Bowers" *
+  375  grep "Jeremy Bowers" * >> ../suspect.txt
+  376  cd ..
+  377  cat suspect.txt
+  378* eplorer.exe
+  379* eplorer.exe .
+  380* explorer.exe .
+  381* pwd
+  382* cd seir-808/unit1/command-line-murder-mystery
+  383* ls
+  384* cat hint8
+  385* cd seir-808/unit1/command-line-murder-mystery
+  386* cat instructions
+  387* nano cheatsheet.*
+  388  grep -l "Jeremy Bowers" *
+  389  cd ..
+  390  ls
+  391  cd mystery
+  392  echo '' >> solution.txt
+  393  echo '' > solution.txt
+  394  echo 'Jeremy Bowers is the Killer!' >> solution.txt
+  395  echo '' >> solution.txt
+  396  echo 'PROOF:' >> solution.txt
+  397  echo '' >> solution.txt
+  398  cat suspect.txt
+  399  cat witness.txt
+  400  cat -n witness.txt
+  401  head -n 2 witness.txt | tail -n 1
+  402  head -n 3 witness.txt | tail -n 1
+  403  echo 'Witness spotted last: ' >> solution.txt
+  404  head -n 3 witness.txt | tail -n 1 >> solution.txt
+  405  cat solution.txt
+  406  echo 'Witness Statement: ' >> solution.txt
+  407  head -n 50 witness.txt | tail -n 1
+  408  head -n 50 witness.txt | tail -n 1 >> solution.txt
+  409  cat solution.txt
+  410  echo '' >> solution.txt
+  411  cat suspect.txt
+  412  echo 'Suspect list and elimination: ' >> solution.txt
+  413  cat suspect.txt >> solution.txt
+  414  cat solution.txt
+  415  echo '' >> solution.txt
+  416  echo '~~~~~~~~~~~~~~~~~~~~~' >> solution.txt
+  417  echo '' >> solution.txt
