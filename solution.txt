@@ -1,0 +1,1041 @@
+    1  /Users/stephenyorn
+    2  pwd
+    3  ls
+    4  pwd
+    5  ls
+    6  cd Documents
+    7  ls
+    8  pwd
+    9  ls -a
+   10  mkdir myfolder
+   11  ls
+   12  pwd
+   13  pdw
+   14  pwd
+   15  pwd
+   16  cd myfolder
+   17  mkdir myFolder
+   18  ls
+   19  cd myFolder
+   20  touch index.html style.css
+   21  rm style.css
+   22  pdw
+   23  pwd
+   24  pwd
+   25  pwd
+   26  pwd
+   27  pwd
+   28  pwd
+   29  ls
+   30  cd
+   31  cd
+   32  cd Documents
+   33  mkdir CodingFolder
+   34  cd Documents
+   35  la -a
+   36  ls -a
+   37  cd stephenyorn
+   38  cd /stephenyorn
+   39  pwd
+   40  ls
+   41  cd Documents
+   42  ls
+   43  pwd
+   44  ls
+   45  cd
+   46  cd Documents
+   47  cd stephenyorn
+   48  cd myfolder
+   49  pwd
+   50  cd Documents
+   51  ls
+   52  rm -r myfolder
+   53  cd ..
+   54  cd ..
+   55  cd Documents
+   56  ls
+   57  cd myFolder
+   58  cd ..
+   59  cd ..
+   60  ls
+   61  cd Documents
+   62  mkdir Notes
+   63  ls
+   64  cd Notes
+   65  touch index.html style.css
+   66  ls
+   67  cd index.html
+   68  rm style.css
+   69  ld
+   70  ls
+   71  rm index.html
+   72  cd ..
+   73  ls
+   74  cd Notes
+   75  cd ..
+   76  cd ..
+   77  ls
+   78  cd Documents
+   79  ls -a
+   80  ls
+   81  cd Notes
+   82  rm -r
+   83  rm Notes
+   84  cd ..
+   85  ls
+   86  cd ..
+   87  ls
+   88  cd Downloads
+   89  cd
+   90  ls
+   91  cd Downloads
+   92  ls
+   93  cd World.zip
+   94  ls
+   95  cd ..
+   96  ls
+   97  cd Downloads
+   98  ls
+   99  cd World
+  100  ls
+  101  cd North_America
+  102  ls
+  103  cd United_States
+  104  ls
+  105  cd ..
+  106  ls
+  107  cd Canada
+  108  ls
+  109  cd ..
+  110  cd ..
+  111  ls
+  112  cd South_America
+  113  ls
+  114  cd Argentina
+  115  ls
+  116  cd ..
+  117  ls
+  118  cd Brazil
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd Chile
+  123  ls
+  124  cd ..
+  125  cd ..
+  126  ls
+  127  cd Australia
+  128  ls
+  129  cd Australia
+  130  ls
+  131  cd ..
+  132  cd ..
+  133  ls
+  134  cd Africa
+  135  ls
+  136  cd Cameroon
+  137  ls
+  138  cd ..
+  139  cd Ethiopia
+  140  ls
+  141  cd ..
+  142  cd Kenya
+  143  ls
+  144  cd ..
+  145  ls Zimbabwe
+  146  cd ..
+  147  ls
+  148  cd Asia
+  149  ls
+  150  cd India
+  151  ls
+  152  cd Japan
+  153  cd ..
+  154  cd Japan
+  155  ls
+  156  cd ..
+  157  cd Vietnam
+  158  ls
+  159  cd ..
+  160  cd ..
+  161  ls
+  162  cd Europe
+  163  ls
+  164  cd France ls
+  165  cd France
+  166  ls
+  167  cd ..
+  168  cd Italy
+  169  ls
+  170  cd ..
+  171  cd Luxemborg
+  172  cd Luxembourg
+  173  ls
+  174  cd ..
+  175  cd Spain
+  176  ls
+  177  cd
+  178  cd ..
+  179  ls
+  180  cd stephenyorn
+  181  ls
+  182  cd Downloads
+  183  ls
+  184  cd World
+  185  ls
+  186  cd Europe
+  187  ls -a
+  188  cd..
+  189  cd ..
+  190  ls -a
+  191  ls
+  192  cd Asia
+  193  la -a
+  194  ls -a
+  195  cd ..
+  196  cd North America
+  197  cd North_America
+  198  ls -a
+  199  cd ..
+  200  ls
+  201  cd South_America
+  202  ls -a
+  203  cd ..
+  204  ls
+  205  cd Africa
+  206  ls -a
+  207  cd ..
+  208  rm -r
+  209  rm
+  210  rm -r ~/World
+  211  rm -r World
+  212  rm World
+  213  ls
+  214  cd ..
+  215  ls
+  216  rm -r World
+  217  ls
+  218  rm -r World.zip
+  219  ls
+  220  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  221  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  222  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  223  $ brew install git
+  224  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  225  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  226  $ brew install git\n\n
+  227  brew install git\n\n
+  228  git versionw
+  229  git version
+  230  ls
+  231  ls a-
+  232  ls -a
+  233  cd Downloads
+  234  ls
+  235  ls -a
+  236  cd ..
+  237  ls
+  238  cd Desktop
+  239  mkdir GA-Blog
+  240  ls
+  241  cd GA-Blog
+  242  ls
+  243  ls -a
+  244  touch .git/
+  245  touch 
+  246  git init
+  247  ls
+  248  ls a-
+  249  ls -a
+  250  git status
+  251  ls -a
+  252  ls
+  253  git status
+  254  touch post.txt
+  255  ls
+  256  git status
+  257  git add post.txt
+  258  git status
+  259  git commit -m "created a new post.txt file"
+  260  git status
+  261  git configure --global --edit
+  262  git config --global --edit
+  263  ls
+  264  cd Desktop
+  265  ls -a
+  266  cd GA-Clog
+  267  cd GA-Blog
+  268  ls
+  269  git commit -m "created a new post.txt file"
+  270  git status
+  271  git add
+  272  git status
+  273  ls
+  274  ls -a
+  275  r post.txt
+  276  -r post.txt
+  277  ls
+  278  rm post.txt
+  279  ls
+  280  git status
+  281  git add post.txt
+  282  git status
+  283  ls
+  284  ls -a
+  285  touch post.txt
+  286  ls
+  287  git add post.txt
+  288  git status
+  289  git add post.txt
+  290  git status
+  291  rm post.txt
+  292  ls
+  293  ls -a
+  294  touch post.txt
+  295  git status
+  296  ls
+  297  git add post.txt
+  298  git status
+  299  git commit -m "created a new post.txt file"
+  300  git status
+  301  rm post.txt
+  302  ls
+  303  git status
+  304  cd
+  305  ls
+  306  cd Desktop
+  307  ls
+  308  cd GA-Blog
+  309  ls
+  310  git status
+  311  git rm post.txt
+  312  git status
+  313  git log
+  314  git status
+  315  ls
+  316  touch post.txt
+  317  git status
+  318  git add post.txt
+  319  git status
+  320  git log
+  321  pwd
+  322  git log
+  323  ls
+  324  git status
+  325  git-practice
+  326  ls -a
+  327  touch git-practice
+  328  ls
+  329  cd git-practice
+  330  rm git-practice
+  331  ls
+  332  mkdir git-practice
+  333  ls
+  334  cd git-practice
+  335  git init
+  336  ls
+  337  cd ..
+  338  ls
+  339  cd git-practice
+  340  git status
+  341  git init
+  342  ls -a
+  343  touch README.txt
+  344  git status
+  345  git commit -m "created a new README.txt file"
+  346  git add README.txt
+  347  git commit -m "created a new README.txt"
+  348  git log
+  349  pwd
+  350  ls -a
+  351  cd ..
+  352  cd..
+  353  cd ..
+  354  ls
+  355  cd Desktop
+  356  ls
+  357  cd GA-Blog
+  358  ls
+  359  mkdir git-practice
+  360  cd git-practice
+  361  git int
+  362  git init
+  363  touch README.txt
+  364  git status
+  365  add README.txt
+  366  git add README.txt
+  367  git commit -m "created a README.txt file"
+  368  git log
+  369  cd ..
+  370  cd ..
+  371  ls
+  372  cd GA-Blog
+  373  ls -a
+  374  cd git-practice
+  375  ls -a
+  376  git clone https://github.com/nodejs/node.git
+  377  git add node
+  378  git version
+  379  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  380  brew doctor
+  381  xcode-select --install\n
+  382  Software Update
+  383  brew install zsh\n
+  384  chsh -s /bin/zsh\n
+  385  echo $SHELL\n
+  386  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+  387  git --version\n
+  388  brew install --cask visual-studio-code\npwd
+  389  brew doctor
+  390  git --version
+  391  git config --global user.name "syorn96"\n
+  392  git config --global user.email "syorn2014@gmail.com"\n
+  393  echo $SHELL\n
+  394  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+  395  git config --global push.default simple\n
+  396  git config --global credential.helper cache\n
+  397  git config --global core.editor 'code -w'\n
+  398  $ git clone https://github.com/username/repo.git\n
+  399  xcode-select --install\n
+  400  git clone https://github.com/syorn96/repo.git
+  401  ls
+  402  cd documents
+  403  ls
+  404  cd  
+  405  -- cd
+  406  --cd
+  407  ;s
+  408  ls
+  409  git --version
+  410  git clone https://github.com/username/repo.git
+  411  git clone https://github.com/syorn96/repo.git
+  412  git clone https://github.com/syorn96e/repo.git
+  413  git clone https://github.com/syorn96/repo.git
+  414  rm -rf .git
+  415  git clone https://github.com/username/repo.git
+  416  git clone https://github.com/syorn96/repo.git
+  417  git config --global user.name "syorn96"\n
+  418  git config --global user.email "syorn2014@gmail.com"\n
+  419  open ~/.zshrc\n
+  420  export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"\n
+  421  open ~/.zshrc\n
+  422  git config --global user.name "syorn96"\n
+  423  git config --global user.email syorn2014@gmail.com\n
+  424  git config --global user.name syorn96\n
+  425  git config --global push.default simple\n
+  426  git config --global credential.helper cache\n
+  427  git config --global core.editor 'code -w'\n
+  428  git config --global --list
+  429  code
+  430  pwd
+  431  ls
+  432  ls -a
+  433  cd Desktop
+  434  ls -a
+  435  ls
+  436  pwd
+  437  cd ..
+  438  ls
+  439  cd ..
+  440  ls
+  441  cd ..
+  442  pwd
+  443  Users
+  444  stephenyorn
+  445  cd
+  446  pwd
+  447  ls
+  448  ls -a
+  449  cd ..
+  450  stephenyorn
+  451  pwd
+  452  ls
+  453  cd Downloads
+  454  ls
+  455  cd ..
+  456  ls
+  457  mkdir seir-808
+  458  ls
+  459  cd seir-808
+  460  ls
+  461  mkdir unit1
+  462  ls
+  463  cd unit1
+  464  pwd
+  465  mkdir cli-intro
+  466  cd cli-intro
+  467  pwd
+  468  touch notes.txt
+  469  ls
+  470  code .
+  471  ls
+  472  cat notes.txt
+  473  code .
+  474  mkdir my-junk
+  475  ls
+  476  mv notes.txt my-junk/notes.text
+  477  ls
+  478  cd my-junk
+  479  ls
+  480  cd ..
+  481  touch ../example
+  482  pwd
+  483  ls ..
+  484  mv ../example my-junk/example
+  485  ls ..
+  486  ls -a
+  487  cd my-junk
+  488  ls
+  489  cd ..
+  490  touch file.txt .hidden-file other-file.js
+  491  ls
+  492  ls -a
+  493  man ls
+  494  ls -l
+  495  ls -al
+  496  ls -R
+  497  ls -Rla
+  498  ls
+  499  rm file.txt
+  500  ls
+  501  man rm
+  502  rm -rf my-junk
+  503  ls
+  504  mkdir my-junk
+  505  ls
+  506  cd
+  507  pwd
+  508  ls
+  509  cd seir-808
+  510  ls
+  511  cd unit1
+  512  ls
+  513  cd cli-untro
+  514  cd cli-intro
+  515  ls
+  516  echo 'hello world!'
+  517  echo 'hello web dev'
+  518  echo 'hello redirection' >> hello.txt
+  519  ls
+  520  cat hello.txt
+  521  echo 'new thing' >> hello.txt
+  522  cat hello.txt
+  523  echo 'newest thing' > hello.txt
+  524  cat hello.txt
+  525  touch weird.txt
+  526  ls
+  527  rm -rf weird.txt
+  528  ls
+  529  touch weird.txt
+  530  ls
+  531  rm weird.txt
+  532  ls
+  533  man rm
+  534  man r
+  535  man rm
+  536  touch books.txt
+  537  ls
+  538  code .
+  539  cat books.txt
+  540  man grep
+  541  grep Mill books.txt
+  542  mv hello.txt goodbye.txt
+  543  grep Mill books.txt | grep On
+  544  grep Bartlett | Quotations
+  545  pwd
+  546  ls
+  547  cd seir-808s
+  548  cd seir-808
+  549  ls
+  550  cd unit1
+  551  ls 
+  552  cd cli-intro
+  553  history >> history.txt
+  554  cat history.txt
+  555  history
+  556  man git
+  557  cd ..
+  558  pwd
+  559  mkdir my-first-repo
+  560  ls
+  561  cd my-first-repo
+  562  touch index.html
+  563  touch styles.css script.js
+  564  ls
+  565  git init
+  566  git --version
+  567  cd
+  568  rm -rf .git
+  569  pwd
+  570  cd
+  571  ls
+  572  cd seir-808
+  573  ls
+  574  cd unit1
+  575  ls
+  576  cd my-first-repo
+  577  cd
+  578  git config --global init.defaultBranch main
+  579  cd
+  580  cd unit1
+  581  ls
+  582  cd seir-808
+  583  cd unit1
+  584  cd my-first-repo
+  585  cd
+  586  git config --global init.defaultBranch main
+  587  cd
+  588  cd my-first-repo
+  589  ls
+  590  cd seir-808
+  591  cd unit1
+  592  cd my-first-repo
+  593  git config --global init.defaultBranch main
+  594  git init
+  595  ls -a
+  596  git status
+  597  git add index.html
+  598  git status
+  599  git commit -m "adds index.html file this message has to be here "
+  600  git status
+  601  git log
+  602  ls
+  603  git add .
+  604  git status
+  605  git commit -m 'adds java script and css files'
+  606  git status
+  607  git log
+  608  man git add
+  609  man git-add
+  610  man git-status
+  611  echo 'git is super dope' >> notes.txt
+  612  catn notes.txt
+  613  cat notes.txt
+  614  git status
+  615  git add .
+  616  git commit -m 'took some notes on git'
+  617  git log
+  618  git status
+  619  ls
+  620  git remote add origin https://github.com/syorn96/first-repo-808.git
+  621  git remote -v
+  622  git branch -M main
+  623  git push origin main
+  624  cd ..
+  625  ls
+  626  pwd
+  627  git clone https://github.com/syorn96/command-line-murder-mystery.git
+  628  ls
+  629  cd command-line-murder-mystery
+  630  ls
+  631  cd mystery
+  632  ls
+  633  cd ..
+  634  cd
+  635  cd seir-808/unit1
+  636  ls
+  637  cd
+  638  pwd
+  639  ls
+  640  cd seir-808
+  641  cd unit1
+  642  ls
+  643  cd command-line-murder-mystery
+  644  ls
+  645  cd README.md
+  646  cat README.md
+  647  ls
+  648  cd instructions
+  649  cat instructions
+  650  open cheatsheet.pdf
+  651  ls
+  652  cd mystery
+  653  ls
+  654  cat crimescene
+  655  ls 
+  656  cd ..p
+  657  cd ..
+  658  ls
+  659  cat instructions
+  660  ls
+  661  cd mystery
+  662  ls 
+  663  grep CLUE crimescene
+  664  ls
+  665  cd ..
+  666  ls
+  667  touch solution.txt
+  668  ls
+  669  pwd
+  670  ls
+  671  cd seir-808
+  672  ls
+  673  cd unit1
+  674  ls
+  675  cd command-line-murder-mystery
+  676  ls
+  677  cd mystery
+  678  ls
+  679  grep CLUE crimescene
+  680  cd ..
+  681  ls
+  682  echo "Footage from an ATM security camera is blurry but shows that the perpetrator is at least 6' tall." >> solution.txt
+  683  cat solution.txt
+  684  open solution.txt
+  685  ls
+  686  cd mystery
+  687  ls
+  688  cd people
+  689  cat people
+  690  grep Annabel people
+  691  ls
+  692  cat vehicles
+  693  ls
+  694  cd seir-808
+  695  cd unit1
+  696  ls
+  697  cd my-first-repo
+  698  ls
+  699  cd ..
+  700  cd command-line-murder-mystery
+  701  ls
+  702  cd mystery
+  703  ls
+  704  cat crimescene
+  705  ls
+  706  grep Annabel people
+  707  head -n 176 Haley Street
+  708  ls
+  709  cd ..
+  710  ls
+  711  cat hint1
+  712  head -. 20 people
+  713  head -n 20 people
+  714  cd mystery
+  715  head -n 20 people
+  716  ls
+  717  grep Annabel people
+  718  cd
+  719  ls
+  720  cd seir-808/unit1/command-line-murder-mystery
+  721  ls
+  722  cat hint2
+  723  cat hint3
+  724  cat hint4
+  725  cat hint5
+  726  cat hint6
+  727  ls
+  728  cd mystery 
+  729  ls
+  730  cd streets
+  731  ls
+  732  cd Hazel_Street
+  733  cat Hazel_Street
+  734  cd ..
+  735  ls
+  736  cd interviews
+  737  ls
+  738  cat hint1
+  739  cd ..
+  740  ls
+  741  cat hint1
+  742  cat hint2
+  743  cat hint3
+  744  ls
+  745  cd mystery
+  746  ls
+  747  cd memberships
+  748  grep AAA memberships
+  749  ls
+  750  cd ..
+  751  ls
+  752  cd streets
+  753  ls
+  754  cat Haley_Street
+  755  head -n 40 Hart_Place
+  756  head -n 173 Mattapan_Street
+  757  head -n 179 Buckingham_Place
+  758  head -n 176 Haley_Street
+  759  ls
+  760  cd ..
+  761  ls
+  762  cd mystery
+  763  ls
+  764  cd interviews
+  765  grep 47246024 interviews
+  766  cat #47246024
+  767  pwd
+  768  ls
+  769  cd seir-808
+  770  ls
+  771  cd unit1
+  772  ls
+  773  cd command-line-murder-mystery
+  774  ls
+  775  cd mystery
+  776  ls
+  777  cd interviews
+  778  ls
+  779  cd interview-47246024
+  780  cat interview-47246024
+  781  cat interview-9437737
+  782  cat interview-699607
+  783  cat interview-871877
+  784  ls
+  785  cd ..
+  786  ls
+  787  cd vehicles
+  788  grep "HONDA" vehicles
+  789  cd
+  790  ls
+  791  cd seir-808/unit1/command-line-murder-mystery
+  792  cd
+  793  cd seir-808/unit1/command-line-murder-mystery
+  794  ls
+  795  cd mystery
+  796  ls
+  797  grep "L337" vehicles
+  798  ls vehicles
+  799  cat vehicles
+  800  grep "Honda" | "L337" vehicles
+  801  ls
+  802  cd seir-808/unit1/command-line-murder-mystery/mystery
+  803  ls
+  804  cat vehicles
+  805  grep "L337" vehicles
+  806  grep "Honda|L337" vehicles
+  807  ls
+  808  grep -A 5 "L337" mystery/vehicles
+  809  grep -A 5 "L337" vehicles
+  810  ls
+  811  cd memberships
+  812  ls
+  813  grep "Joe" memberships
+  814  cd AAA
+  815  cat AAA
+  816  grep "Jeremy Bowers" AAA
+  817  grep "Joe" AAA
+  818  grep "Jacqui" AAA
+  819  ls
+  820  grep "Joe Germuska" Delta_SkyMiles
+  821  grep "Jeremy Bowers" Delta_SkyMiles
+  822  grep "Jeremy Bowers" Museum_of_Bash_History
+  823  ls
+  824  cd ..
+  825  ls
+  826  cat crimescene
+  827  ls
+  828  cd ..
+  829  ls
+  830  cd instructions
+  831  cat instructions
+  832  git status
+  833  git add solution.txt
+  834  git commit -m "adds solution.txt"
+  835  git status
+  836  git log
+  837  history
+  838  git init
+  839  cd combined
+  840  git remote add new https://github.com/syorn96/command-line-murder-mystery.git
+  841  ls
+  842  cd ..
+  843  ls
+  844  cd ..
+  845  cd unit1/command-line-murder-mystery
+  846  ls
+  847  echo history > history.txt
+  848  ls
+  849  git commit -m "adds solution and history txt"
+  850  git add history.txt
+  851  git status
+  852  git commit -m "adds history.txt"
+  853  git status
+  854  git push origin main
+  855  cat Museum_of_Bash_History| grep -c "Jeremy Bowers"
+  856  ls
+  857  cd seir-808/unit1/command-line-murder-mystery/mystery
+  858  ls
+  859  cd ..
+  860  ls
+  861  cat hint5
+  862  touch solutions.txt
+  863  cd mystery
+  864  ls
+  865  grep CLUE crimescene
+  866  echo "CLUE #1 Footage from an ATM security camera is blurry but shows that the perpetrator is at least 6' tall.' >> solutions.txt\nCLUE #1 Footage from an ATM security camera is blurry but shows that the perpetrator is at least 6' tall.\n"
+  867  cat solutions.txt
+  868  open solutions.txt
+  869  cd ..
+  870  ls
+  871  cat solutions.txt
+  872  open solutions.txt
+  873  ls
+  874  cd mystery
+  875  ls
+  876  grep Annabel people
+  877  cd 
+  878  ls
+  879  cd seir-808/unit1/command-line-murder-mystery/mystery
+  880  ls
+  881  cd ..
+  882  cat hint5
+  883  ls
+  884  cd mystery
+  885  ls
+  886  cd interviews
+  887  head n- 40
+  888  head -n 40
+  889  cd seir-808/unit1/command-line-murder-mystery/mystery
+  890  ls
+  891  head n- 40 interviews
+  892  ls
+  893  cd interviews
+  894  head -n 40 
+  895  cd seir-808/unit1/command-line-murder-mystery/mystery
+  896  ls
+  897  cd people
+  898  cd streets
+  899  ls
+  900  head -n 40 Hart_Place
+  901  head n-173 Mattapan_Street
+  902  head n- 173 Mattapan_Street
+  903  head n- 173 Mattapan_Stree
+  904  head -n 173 Mattapan_Street
+  905  head -n 179 Buckingham_Place
+  906  head -n 176 Haley_Street
+  907  cd ..
+  908  ls
+  909  cd interviews
+  910  grep 47246024 interviews
+  911  ls
+  912  cat interview-47246024
+  913  cat interview-9437737
+  914  cat interview-699607
+  915  cat interview 871877
+  916  cat interview-871877
+  917  cd ..
+  918  ls
+  919  grep 'L337' vehicles
+  920  grep -A 5 "L337" vehicles
+  921  ls
+  922  cd memberships
+  923  ls
+  924  grep 'Erika Owens' memberships
+  925  grep "Erika Owens" AAA
+  926  cat AAA Delta_SkyMiles Museum_Of_Bash_History | grep "Jeremy Bowers"
+  927  cat AAA Delta_SkyMiles Museum_Of_Bash_History | grep "Jacqui Maher"
+  928  cat AAA Delta_SkyMiles Museum_Of_Bash_History | grep "Joe Germuska"
+  929  cat AAA Delta_SkyMiles Museum_Of_Bash_History | grep "Erika Owens"
+  930  cat Terminal_City_Library | grep "Jeremy Bowers"
+  931  git status
+  932  ls
+  933  cd ..
+  934  ls
+  935  cd ..
+  936  ls
+  937  git status
+  938  git add solutions.txt
+  939  git commit -m "updates solutions.txt, remove solution.txt"
+  940  git status
+  941  rm -rf solution.txt
+  942  ls
+  943  git status
+  944  git add solution.txt
+  945  git commit -m "deleted solution.txt"
+  946  git status
+  947  git push origin main
+  948  open solutions.txt
+  949  history
+  950  git status
+  951  cd seir-808/unit1/command-line-murder-mystery/mystery
+  952  grep "
+  953  cd seir-808/unit1/command-line-murder-mystery/mystery
+  954  ls
+  955  cd ..
+  956  ls
+  957  cd mystery/
+  958  grep "CLUE" crimescene
+  959  grep "CLUE" crimescene >> clues
+  960  cat clues
+  961  grep "Annabel" people
+  962  grep "Annabel" people >> clues
+  963  cat clues
+  964  cd streets
+  965  cat streets
+  966  ls
+  967  cat ../clues
+  968  head -n 40  Hart_Place
+  969  head -n 40  Hart_Place | tail -n 1
+  970  cat -n Hart_Place | grep '40'
+  971  cat -n Hart_Place | grep ' 40'
+  972  head -n 40  Hart_Place | tail -n 1 >> ../clues
+  973  cat clues
+  974  cat ../clues
+  975  head -n 179 Buckingham_Place | tail -n 1 >> ../clues
+  976  cat ../clues
+  977  cd interviews
+  978  cd ..
+  979  ls
+  980  cd interviews
+  981  cat interview-699607
+  982  cat interview-699607 >> ./clues
+  983  cat ./clues
+  984  cat interview-699607 >> ../clues
+  985  cat ../clues
+  986  ls
+  987  cd ..
+  988  ls
+  989  cd vehicles
+  990  head -n30 vehicles
+  991  grep L337 vehicles
+  992  grep -A 5 "L337" vehicles
+  993  grep -A 5 "L337" vehicles | grep Honda Vehicles
+  994  grep -A 5 "L337" vehicles | grep -A 4 Honda vehicles
+  995  grep -A 5 "L337" vehicles | grep -A 4 Honda 
+  996  grep -A 5 "L337" vehicles | grep -A 4 Honda | grep Blue
+  997  grep -A 5 "L337" vehicles | grep -A 4 Honda | grep -A 3  Blue
+  998  man grep
+  999  grep -A 5 "L337" vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2  Blue
+ 1000  grep -A 5 "L337" vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2  Blue | grep -B 1 "6"
+ 1001  grep -A 5 "L337" vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2  Blue | grep -B 1 "6'"
+ 1002  echo 'Suspects' >> ..clues/
+ 1003  echo 'Suspects' >> ../clues
+ 1004  cat ../clues
+ 1005  ls
+ 1006  cd ..
+ 1007  ls
+ 1008  cat clues
+ 1009  cd mystery
+ 1010  ls
+ 1011  cat clues
+ 1012  echo 'Suspects' >> ./clues
+ 1013  cat ./clues
+ 1014  grep -A 5 "L337" vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2  Blue | grep -B 1 "6'" >> ./clues
+ 1015  cat ./clues
+ 1016  ls
+ 1017  cd memberships
+ 1018  ls
+ 1019  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep Erika
+ 1020  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep Joe
+ 1021  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep Jeremy
+ 1022  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep Joe Germuska
+ 1023  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep "Joe Germuska"
+ 1024  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep "Jacqui Maher"
+ 1025  cd ..
+ 1026  grep "Jeremy Bowers" people
+ 1027  grep "Jeremy Bowers" people >> clues
+ 1028  cd streets
+ 1029  head -n 284 Dunstable_Road |tail -n 1
+ 1030  head -n 284 Dunstable_Road |tail -n 1 >> ../clues
+ 1031  cd
+ 1032  ls
+ 1033  cd seir-808/unit1/command-line-murder-mystery/mystery
+ 1034  ls
+ 1035  cd interviews
+ 1036  cat interview-9620713
+ 1037  cat interview-9620713 >> ./clues
+ 1038  cat ./clues
+ 1039  cat interview-9620713 >> ../clues
+ 1040  cat ../clues
+ 1041  cd ..
