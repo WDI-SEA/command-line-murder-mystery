@@ -1,0 +1,452 @@
+    1  brew install git
+    2  git --version
+    3  git config --global user.name robledo1
+    4  git config --global user.email miguelrobledo63@yahoo.com
+    5  git config --global push.default simple
+    6  git config --global user.name robledo1
+    7  git config --global user.email miguelrobledo63@yahoo.com
+    8  git config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+    9  brew install --cask visual-studio-code
+   10  code
+   11  clear
+   12  pwd
+   13  ls
+   14  ls -a
+   15  cd desktop
+   16  pwd
+   17  cd ..
+   18  pwd
+   19  ls
+   20  pwd
+   21  mkdir ser-808
+   22  ls
+   23  mkdir unit1
+   24  ls
+   25  cd unit1
+   26  ls
+   27  cd..
+   28  cd
+   29  ls
+   30  cd unit1
+   31  cd
+   32  cd seir-808
+   33  pwd
+   34  ls
+   35  mkdir seir-808
+   36  ls
+   37  pwd
+   38  cd seir-808
+   39  mkdir unit1
+   40  cd unit1
+   41  pwd
+   42  mkdir cli-intro
+   43  cd cli-intro
+   44  pwd
+   45  touch notes.txt
+   46  ls
+   47  code.
+   48  code .
+   49  cat notes.txt
+   50  cat.notes.txt
+   51  cat notes.txt
+   52  cat notest.txt
+   53  cat notes.txt
+   54  ls
+   55  mkdir my-junk
+   56  ls
+   57  my notes.txt my-junk/notes.txt
+   58  mv notes.txt my-junk/notes.txt
+   59  ls
+   60  pwd
+   61  touch ../example
+   62  pwd
+   63  mv ../example junkexample
+   64  ls..
+   65  ls ..
+   66  ls my-junk
+   67  ls
+   68  cd
+   69  ls
+   70  cd seir-808
+   71  ls
+   72  cd unit1
+   73  ls
+   74  cd cli-intro
+   75  touch ../example
+   76  ls
+   77  pwd
+   78  ls..
+   79  ls ..
+   80  mv ../example junk/example
+   81  ls
+   82  man rm
+   83  ls
+   84  cd cli-intro
+   85  cd seir-808
+   86  ls
+   87  cd unit1
+   88  ls
+   89  cd cli-intro
+   90  ls
+   91  mkdir other-file.js
+   92  ls
+   93  echo 'Hello World'
+   94  echo 'Hello redirection' >> hello.txt
+   95  ls
+   96  cat hello.txt
+   97  echo 'new thing' > hello.txt
+   98  cat hello.txt
+   99  touch books.txt
+  100  cat books.txt
+  101  grep Mill books.txt
+  102  grep Mill books.txt | grep On
+  103  history >> history.txt
+  104  ls
+  105  cat history.txt
+  106  cd ..
+  107  pwd
+  108  mkdir my-first-repo
+  109  cd my-first-repo
+  110  touch index.html styles.css script.js
+  111  ls
+  112  git init
+  113  git --version
+  114  la -a
+  115  rm -rf .git
+  116  ls
+  117  cd
+  118  ls
+  119  cd seir-808
+  120  ls
+  121  cd uint1
+  122  cd unit1
+  123  ls
+  124  cd my-first-repo
+  125  ls
+  126  git init
+  127  git config --global init.defaultBranch main
+  128  cd
+  129  ls
+  130  cd seir-808
+  131  ls
+  132  cd unit1
+  133  cd my-first-repo
+  134  git init
+  135  ls
+  136  cd seir-808
+  137  ls
+  138  cd unit1
+  139  ls
+  140  cd my-first-repo
+  141  rm -rf .git
+  142  git config --global -- list
+  143  ls
+  144  git init
+  145  git config -- global --list
+  146  git config --global --list
+  147  ls
+  148  ls -a
+  149  cd seir-808
+  150  cd
+  151  cd seir-808
+  152  ls
+  153  cd unit1
+  154  ls
+  155  cd my-first-repo
+  156  ls
+  157  git init
+  158  git config --global --list
+  159  ls
+  160  cd seir-808
+  161  cd unit1
+  162  ls
+  163  cd my-first-repo
+  164  git status
+  165  git add index.html
+  166  git status
+  167  git commit
+  168  ls
+  169  cd seir-808
+  170  ls
+  171  cd unit1
+  172  ls
+  173  cd my-first-repo
+  174  git status
+  175  git log
+  176  git add .
+  177  git status
+  178  git commit -m 'adds javascript and css files'
+  179  git status
+  180  pwd
+  181  git status
+  182  cd
+  183  cd my-first-repo
+  184  ls
+  185  cd seir-808
+  186  ls
+  187  cd uint1
+  188  cd unit1
+  189  ls
+  190  cd my-first-repo
+  191  ls
+  192  git status
+  193  man git add
+  194  git status -v
+  195  git add .
+  196  git commit -m 'took some notes on git'
+  197  git remote add origin https://github.com/robledo1/first-repo-808.git
+  198  git remote -v
+  199  git branch -M main
+  200  git push orgin main
+  201  git branch -M main
+  202  git push orgin main
+  203  git push -u orgin main
+  204  git push orgin main
+  205  git remote add origin https://github.com/robledo1/first-repo-808.git
+  206  git remote -v
+  207  git remote add origin https://github.com/robledo1/first-repo-808.git
+  208  git push orgin main
+  209  git remote -v
+  210  cd ..
+  211  ls
+  212  git clone https://github.com/robledo1/command-line-murder-mystery.git
+  213  ls
+  214  cd com
+  215  cd command-line-murder-mystery
+  216  ls
+  217  cat hint1
+  218  open .
+  219  cd ..
+  220  ls
+  221  cd my-first-repo
+  222  ls
+  223  git remote -v
+  224  git push orgin main
+  225  git push origin main
+  226  ls
+  227  cd ..
+  228  ls
+  229  cd command-line-murder-mystery
+  230  ls
+  231  cd instructions
+  232  cat instructions
+  233  cd mystery
+  234  ls
+  235  cat crimescene
+  236  grep CLUE mystery.txt
+  237  grep CLUE
+  238  ls
+  239  cd seir-808
+  240  ls
+  241  cd unit1
+  242  cd
+  243  ls
+  244  cd seir-808
+  245  ls
+  246  cd unit1
+  247  ls
+  248  cd command-line-murder-mystery
+  249  ls
+  250  cat hint1
+  251  head -n 20 people
+  252  head -n 20 cheatcheat.md
+  253  head -n cheatsheet.md
+  254  20
+  255  head -n 20 sheatsheet.md
+  256  head -n cheatsheet.md
+  257  head -n 20 cheatsheet.md
+  258  grep "CLUE" crimescene
+  259  ls
+  260  cd mystery
+  261  ls
+  262  grep "CLUE" crimescence
+  263  grep 'clue' crimescene
+  264  ls
+  265  cat crimescec
+  266  cat crimescene
+  267  grep "CLUE" crimescene
+  268  ls
+  269  cd interviews
+  270  ls
+  271  cd..
+  272  cd ..
+  273  ls
+  274  cat people
+  275  grep "Annabel" people
+  276  cd ..
+  277  ls
+  278  cat hint2
+  279  cat hint3
+  280  cat hint4
+  281  cat hint5
+  282  ls
+  283  cat cheatsheet.md
+  284  ls
+  285  cat license.txt
+  286  ls
+  287  cat readme.md
+  288  ls
+  289  cd mystery
+  290  ls
+  291  cd streets
+  292  ls
+  293  cd ..
+  294  ls
+  295  cd memberships
+  296  ls
+  297  grep annabell Delta_skymiles
+  298  ls
+  299  cat Delta_Skymiles
+  300  grep annabel
+  301  ls
+  302  cd seir-808
+  303  ls
+  304  cd unit1
+  305  ls
+  306  cd command-line-murder-mystery
+  307  ls
+  308  cat instructions
+  309  ls
+  310  cd mystery
+  311  ls
+  312  cat crimescene
+  313  grep "CLUE" crimescene
+  314  cd ..
+  315  ls
+  316  cd mystery
+  317  ls
+  318  cd interviews
+  319  ls
+  320  grep "witness" interview-
+  321  cd ..
+  322  ls
+  323  head -n 20 people
+  324  head -n 10
+  325  ls
+  326  cd seir-808
+  327  ls
+  328  cd unit1
+  329  ls
+  330  cd command-line-murder-mystery
+  331  ls
+  332  cd mystery
+  333  ls
+  334  head -n 10 people
+  335  head -n 100 people
+  336  ls
+  337  grep annabel people
+  338  ls
+  339  cd pe
+  340  cd people
+  341  cat people
+  342  grep Annabel people
+  343  ls
+  344  cd ..
+  345  ls
+  346  cat cheatsheet.md
+  347  ls
+  348  cd mystery
+  349  ls
+  350  cat crimescene
+  351  ls
+  352  grep CLUE crimescene
+  353  grep Annabel people
+  354  head -40 streets/hart_place | tail -1
+  355  ls
+  356  cd interviews
+  357  ls
+  358  cat interview-47246024
+  359  cd ..
+  360  ls
+  361  grep annabel people
+  362  ls
+  363  grep Annabel people
+  364  head -40 streets/Mattapan_Street | tail -1
+  365  head -40 streets/Buckingham_Place | tail -1
+  366  head -40 streets/Haley_Street | tail -1
+  367  sed -n '179p' streets/Buckingham_place
+  368  cat interview-699607
+  369  ls
+  370  cd interviews
+  371  ls
+  372  cat interview-699607
+  373  ls
+  374  cd ..
+  375  ls
+  376  cat vehicles
+  377  grep "L337" vehicles
+  378  head -n 173 streets/Mattapan_street | tail -n 1
+  379  cat interview-9437737
+  380  ls
+  381  cd interviews
+  382  cat interview-9437737
+  383  ls
+  384  cd ..
+  385  ls
+  386  cat crimescene
+  387  cd ..
+  388  ls
+  389  cat hint5
+  390  cd mystery
+  391  grep CLUE crimescene
+  392  head -n 20 people
+  393  grep Annebel people
+  394  grep Annabel people
+  395  grep Annabel people >> clues
+  396  cat clues
+  397  head -n 40 Hart_Place | tail n -1
+  398  head -n 40 Hart_Place | tail -n 1
+  399  head -n 179 Buckingham_Place | tail -n 1
+  400  ls
+  401  cat clues
+  402  ls
+  403  cd ve
+  404  cat vehicles
+  405  grep "L337"
+  406  grep -A 5 "L337" vehicles
+  407  grep -a 5 l337 vehicles | grep -A 4 -B Honda
+  408  grep -A 5 L337 vehicles | grep -A 4 -B Honda
+  409  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda
+  410  cd ..
+  411  ls
+  412  cd mystery
+  413  ls
+  414  cd streets
+  415  ls
+  416  cat Hart_Place
+  417  head -n 40 Hart_Place
+  418  head -n 40 Hart_Place | tail -n 1
+  419  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda
+  420  grep -A 8 L337 vehicles
+  421  grep -A 5 L337 vehicles
+  422  cd ..
+  423  ls
+  424  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda
+  425  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B Blue
+  426  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue
+  427  ls
+  428  cd interviews
+  429  cd ..
+  430  cd memberships
+  431  ls
+  432  head -n 5 AAA
+  433  cat AAA
+  434  cat AAA Delta
+  435  cat AAA Delta.sk
+  436  cat AAA Delta.s
+  437  cat AAA Delta_SkyMiles Terminal_City_Library Museum
+  438  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  439  cd ..
+  440  ls
+  441  grep "Jeremy Bowers" people
+  442  cd streets
+  443  ls
+  444  grep "Jeremy Bowers" people >> clues
+  445  ls
+  446  cd ..
+  447  ld
+  448  ls
+  449  grep "Jeremy Bowers" people
+  450  grep "Jeremy Bowers" people >> clues
+  451  ls
+  452  cd ..
