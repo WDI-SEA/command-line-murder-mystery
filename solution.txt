@@ -1,0 +1,296 @@
+    1  sudo apt-get install postgresql-client postgresql postgresql-contrib
+    2  sudo -u postgres psql postgres\n\n\password postgres
+    3  alias psql="sudo -u postgres psql"\nalias pgserver="sudo -u postgres service postgresql start"
+    4  sudo apt-get install pgadmin3
+    5  pgserver
+    6  wget -qO - https://www.mongodb.org/static/pgp/server-3.0.asc | sudo apt-key add -
+    7  echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
+    8  sudo apt-get update
+    9  sudo apt-get install -y mongodb-org
+   10  sudo apt-get install -y mongodb-org=3.0.15 mongodb-org-server=3.0.15 mongodb-org-shell=3.0.15 mongodb-org-mongos=3.0.15 mongodb-org-tools=3.0.15
+   11  sudo service mongod start
+   12  sudo apt-get install -y mongodb-org
+   13  sudo apt-get update
+   14  wget -qO - https://www.mongodb.org/static/pgp/server-3.0.asc | sudo apt-key add -
+   15  sudo apt-get update
+   16  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   17  brew doctor
+   18  brew -- version
+   19  ^[[200~xdg-mime default code.desktop text/plain
+   20  xdg-mime default code.desktop text/plain\n~
+   21  sudo apt-get update\nsudo apt-get install compizconfig-settings-manager
+   22  ccsm
+   23  sudo apt-get install postgresql-client postgresql postgresql-contrib
+   24  sudo -u postgres psql postgres
+   25  node -v
+   26  npm -v
+   27  rails -v
+   28  ruby -v
+   29  git --version
+   30  psql --version
+   31  subl -v
+   32  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+   33  sudo apt-get update
+   34  sudo apt-get install sublime-text-installer
+   35  sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+   36  cd ~\ngit clone git://github.com/sstephenson/rbenv.git .rbenv\necho 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc\necho 'eval "$(rbenv init -)"' >> ~/.zshrc\nexec $SHELL\n\ngit clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build\necho 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.zshrc\nexec $SHELL\n\nsudo chown -R $USER ~/.rbenv\n\nrbenv install 2.4.0
+   37  code.
+   38  .code
+   39  git config --global user.name "kubeshauseli17"\ngit config --global user.email "kubeshauseli17@gmail.com"\ngit config --global push.default simple\ngit config --global credential.helper cache
+   40  ssh-keygen -t ed25519 -C "kubeshauseli17@gmail.com"
+   41  eval "$(ssh-agent -s)"\n> Agent pid 59566
+   42  git --version
+   43  sudo apt-get install git-core zsh
+   44  xdg-mime default code.desktop text/plain\n
+   45  sudo apt-get install compizconfig-settings-manager
+   46  ccsm
+   47  code .
+   48  code
+   49  code .vs
+   50  zsh
+   51  -zsh
+   52  wget --no-check-certificate http://install.ohmyz.sh -O - | sh
+   53  zsh
+   54  -zsh
+   55  zsh -v
+   56  zsh
+   57  chsh -s $(which zsh)
+   58  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+   59  1
+   60  code .
+   61  xdg-mime default code.desktop text/plain\n
+   62  code .
+   63  cat << EOF >> ~/.bash_profile\n# Add Visual Studio Code (code)\nexport PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"\nEOF
+   64  ccsm
+   65  git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+   66  chsh -s $(which zsh)
+   67  ~/.zshrc
+   68  uninstall_oh_my_zsh
+   69  chsh  -s $(oh-my-zsh)
+   70  zsh
+   71  vim .zshrc
+   72  run uninstall_oh_my_zsh
+   73  uninstall oh_my_zsh
+   74  source ~/.oh-my-zsh/tools/uninstall.sh
+   75  sh ~/.oh-my-zsh/tools/uninstall.sh
+   76  home
+   77  ~
+   78  cd
+   79  la -a
+   80  ls
+   81  zsh
+   82  zsh --version
+   83  cd
+   84  pwd
+   85  ~ls
+   86  ls
+   87  cd
+   88  ls
+   89  cd unit1
+   90  ls
+   91  code .
+   92  mkdir my-junk
+   93  ls
+   94  man ls
+   95  sudo apt-get install fonts-powerline
+   96  /.zshrc
+   97  ZSH_THEME
+   98  zsh_theme
+   99  touch books.txt
+  100  code .
+  101  man grap
+  102  man grep
+  103  grep mill books.txt
+  104  grep MIll books.txt
+  105  ~
+  106  grep Mill books.txt
+  107  grep MIll books.txt | grep On
+  108  ~
+  109  grep Mill books.txt | grep on
+  110  grep mill
+  111  cd /usr/local/bin/
+  112  sudo ln -s /usr/share/code/bin/code code
+  113  code .
+  114  code
+  115  code .
+  116  code
+  117  ~
+  118  mkdir my-first-repo
+  119  cd my-first-repo
+  120  touch index.html styles.css script.js
+  121  ls
+  122  git init
+  123  sudo apt-get remove code-insiders
+  124  snap remove code-insiders
+  125  git --version
+  126  git
+  127  cd
+  128  ls
+  129  ls -a
+  130  rm -rf .git
+  131  git
+  132  sudo snap install --classic code
+  133  git config --global init.defaultBranch main
+  134  cd
+  135  ls -a
+  136  my
+  137  cd my-first-repo
+  138  git config --global init.defaultBranch main
+  139  cd my-first-repo
+  140  rm -rf .git
+  141  git init
+  142  code
+  143  sudo apt update && sudo apt upgrade
+  144  cd Downlods
+  145  cd Downloads
+  146  ls
+  147  tar -xvf studio-3t-linux-x64.tar.gz
+  148  sudo chmod +x studio-3t-linux-x64.sh
+  149  sudo bash studio-3t-linux-x64.sh
+  150  cd my-first-repo
+  151  man gid-add
+  152  man git-add
+  153  git remote add orgin https://github.com/ga-sei-lessons/first-repo-808.git
+  154  git remote -v
+  155  cd my-first-repo
+  156  git remote add orgin https://github.com/ga-sei-lessons/first-repo-808.git
+  157  git remote -v
+  158  git branch -M main
+  159  git push orgin main
+  160  git remote add orgin https://github.com/ga-sei-lessons/first-repo-808.git
+  161  touch index.html notes.txt script.js styles.css
+  162  git push orgin main
+  163  cd ..
+  164  ls
+  165  cd unit1
+  166  git clone https://github.com/kubeshauseli17/command-line-murder-mystery.git
+  167  ls
+  168  cd com
+  169  cd command-line-murder-mystery
+  170  ls
+  171  cat hint1
+  172  cd /unit1
+  173  ~
+  174  cd /home/mcpeepants/unit1/command-line-murder-mystery/mystery 
+  175  cd ..
+  176  cat hint1.txt hint2.txt hint3.txt hint4.txt hint5.txt hint6.txt hint7.txt jint8.txt > hints.txt
+  177  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8 > hints.txt
+  178  head -n 20 people
+  179  cd /mystery
+  180  cd /home/mcpeepants/unit1/command-line-murder-mystery/mystery 
+  181  head -n 20 people
+  182  grep "CLUE" crimescene
+  183  grep "Annabel" people
+  184  head -n 173 streets/Mattapan_Street | tail -n 1
+  185  grep "Honda" vehicles
+  186  grep "L337" vehicles
+  187  grep -A 5 "L337" mystery/vehicles
+  188  grep -A 5 "L337" vehicles
+  189  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  190  cd /home/mcpeepants/unit1/command-line-murder-mystery/mystery/memberships
+  191  cat Fitness_Galaxy AAA United_MileagePlus > combined.txt
+  192  grep "John Smith" combined
+  193  grep "John Smith" combined.txt
+  194  grep "John Smith" combined
+  195  pwd
+  196  grep "John SMith" combined.txt
+  197  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  198  head -n 173 streets/Mattapan_Street | tail -n 1
+  199  cd ..
+  200  cd /home/mcpeepants/unit1/command-line-murder-mystery/mystery/streets
+  201  head -n 173 streets/Mattapan_Street | tail -n 1
+  202  head -n 173 streets / Mattapan_Street | tail -n 1
+  203  cd ..
+  204  cd /home/mcpeepants/unit1/command-line-murder-mystery/mystery/interviews
+  205  interview-9437737
+  206  /interview-9437737$ head -n 0 interview9437737.txt
+  207  cat * > allfilescombined.txt
+  208  grep interview 9437737
+  209  grep -A "interview 9437737" allfilescombined.txt
+  210  grep -A 10  "interview 9437737" allfilescombined.txt
+  211  cd
+  212  pwd
+  213  cd /home/mcpeepants/unit1/command-line-murder-mystery/mystery
+  214  grep -A 10  "interview 9437737" allfilescombined.txt
+  215  grep -A 10  "interview 9437737"
+  216  cd /home/mcpeepants/unit1/command-line-murder-mystery/mystery
+  217  grep "INTERVIEW #9437737" interviews
+  218  grep "INTERVIEW #9437737" /interviews/allfilescombined.txt
+  219  grep "INTERVIEW #9437737" /home/mcpeepants/unit1/command-line-murder-mystery/mystery/interviews/allfilescombined.txt
+  220  grep "L337" vehicles
+  221  grep "#9437737" interviews
+  222  grep "#9437737" allfilescombined.txt
+  223  grep ­r "#9437737" *
+  224  grep ­A 20 "#9437737" interview.txt
+  225  grep "9437737" interview
+  226  grep -A 7 'L377.*9" | grep -B 1 -A 5 "Make: Honda" | grep -B 2 -A 4 "Color: Blue" | grep -B 4 -A 2 "Height: 6'"
+  227  grep -A 7 "L377.*9" | grep -B 1 -A 5 "Make: Honda" | grep -B 2 -A 4 "Color: Blue" | grep -B 4 -A 2 "Height: 6'"\n
+  228  cd '/home/mcpeepants/unit1/command-line-murder-mystery/mystery' 
+  229  grep -A 5 -E "L377.*9" | grep -B 1 -A 4 "Make: Honda" | grep -B 2 -A 3 "Color: Blue" | grep -B 4 -A 1 "Height: 6'"\n
+  230  cd '/home/mcpeepants/unit1/command-line-murder-mystery/mystery' 
+  231  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  232  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  233  grep -A 5 "L337" mystery/vehicles
+  234  grep -A 5 "L337" vehicles
+  235  grep -A 5 -E "L377.*9" | grep -B 1 -A 4 "Make: Honda" | grep -B 2 -A 3 "Color: Blue" | grep -B 4 -A 1 "Height: 6'"\n
+  236  cd '/home/mcpeepants/unit1/command-line-murder-mystery/mystery' 
+  237  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  238  CD /home/mcpeepants/unit1/command-line-murder-mystery/mystery/memberships
+  239  CD
+  240  cd /home/mcpeepants/unit1/command-line-murder-mystery/mystery/memberships
+  241  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  242  cd ..
+  243  cd /home/mcpeepants/unit1/command-line-murder-mystery
+  244  ls
+  245  cd mystery
+  246  ls
+  247  grep "CLUE" crimescene
+  248  grep "CLUE" crimescene >> clues
+  249  ls
+  250  grep "annabel" people
+  251  grep "Annabel" people
+  252  grep "Annabel" people >> clues
+  253  cd streets
+  254  ls
+  255  cat Hart_Place
+  256  head -n 40 Hart_Place
+  257  head -n 40 Hart_Place | tail -n 1
+  258  cat -n Hart_Place | grep 40
+  259  cat -n Hart_Place | grep ' 40'
+  260  cat -n Hart_Place | grep ' 40' >> ../clues
+  261  cd /home/mcpeepants/unit1/command-line-murder-mystery
+  262  cat interview-699607
+  263  cd /home/mcpeepants/unit1/command-line-murder-mystery/mystery/interviews
+  264  cat interview-699607
+  265  head -n 30 vehickles
+  266  cd ..
+  267  head -n vehicles
+  268  head -n 30  vehicles
+  269  grep -A 5 "L337" vehicles
+  270  grep -A 5 "L337" vehicles | grep -A 4 "Honda"
+  271  grep -A 5 "L337" vehicles | grep -A 4 -B 1 "Honda"
+  272  grep -A 5 "L337" vehicles | grep -A 4 -B 1 "Honda" | grep -B 2 -A 3 "Blue"
+  273  grep -A 5 "L337" vehicles | grep -A 4 -B 1 "Honda" | grep -A 3 -B 2 "Blue" | grep -B 1 "6'"
+  274  grep -A 5 "L337" vehicles | grep -A 4 -B 1 "Honda" | grep -A 3 -B 2 "Blue" | grep -B 1 "6'" >> CLUES
+  275  grep -A 5 "L337" vehicles | grep -A 4 -B 1 "Honda" | grep -A 3 -B 2 "Blue" | grep -B 1 "6'" >> clues
+  276  cd streets
+  277  head -n 40 Hart_Place
+  278  cd ..
+  279  cd memberships
+  280  cat AAA 
+  281  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+  282  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  283  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  284  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  285  cd ..
+  286  grep "Jeremy Bowers" people
+  287  grep "Jeremy Bowers" people >> clues
+  288  cd streets
+  289  head -n 284 Dunstable_Road | tail -n 1
+  290  head -n 284 Dunstable_Road | tail -n 1 >> clues
+  291  cd ..
+  292  cd interviews
+  293  cat interview-9620713
+  294  cat interview-9620713 >> clues
+  295  cd ..
+  296  pwd
