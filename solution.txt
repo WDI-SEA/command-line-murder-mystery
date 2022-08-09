@@ -1,0 +1,58 @@
+
+Step 1:
+	grep "CLUE" crimescene
+		-> 3 leads
+			CLUE 1 = 6'+ 
+			CLUE 2 = Cards for groups.
+			CLUE 3 Annabel Suspect.
+
+Step 2: 
+	CLUE 3
+		grep "Annabel" people
+		-> 4 leads
+			Annabel Sun 
+				head -n 40 Hart_Places = interview-47246024 (not suspect)
+			Oluwasegun Annabel
+				"  "                   =  " " (not suspect)
+			Annabel Church
+				"  "                   =  " " plate L337 -- 9 Blue Honda
+			Annabel Fuglsang
+				"  "                   =  " " (not suspect)
+
+Step 3: 
+	grep -A 5 “L337..9” vehicles (then go through and limit to 6'+ blue Hondas)
+	
+	License Plate L337QE9
+	Make: Honda
+	Color: Blue
+	Owner: Erika Owens
+	Height: 6'5"
+	Weight: 220 lbs
+
+	License Plate L337DV9
+	Make: Honda
+	Color: Blue
+	Owner: Joe Germuska
+	Height: 6'2"
+	Weight: 164 lbs
+
+	License Plate L3375A9
+	Make: Honda
+	Color: Blue
+	Owner: Jeremy Bowers
+	Height: 6'1"
+	Weight: 204 lbs
+
+	License Plate L337WR9
+	Make: Honda
+	Color: Blue
+	Owner: Jacqui Maher
+	Height: 6'2"
+	Weight: 130 lbs
+
+Step 4:
+	cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Suspects"
+
+	only Jeremy Bowers fits all cases. 
+
+	Perp is Jeremy Bowers
