@@ -1,0 +1,5 @@
+1.
+ cd seir-808/unit1/my-first-repo/deliverable1/command-line-murder-mystery
+ touch solution.txt 
+2.
+Jeremy Bowers is the Killer
