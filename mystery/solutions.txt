@@ -1,0 +1,86 @@
+  167  git clone https://github.com/yasahaverland/command-line-murder-mystery.git
+  168  ls
+  169  cd command-line-murder-mystery
+  170  ls
+  171  cat instructions
+  172  cat hint1
+  173  open .
+  174  head -n 20 people
+  175  LICENSE
+  176  cat LICENSE
+  177  cat README.md
+  178  cd people
+  179  cd mystery
+  180  ls
+  181  head -n 20 people
+  182  cd..
+  183  cd ..
+  184  cat hint2
+  185  cat hint3
+  186  cat hint4
+  187  ls -a
+  188  cat .gitignore
+  189  cat hint5
+  190  cat hint6
+  191  cat hint7
+  192  cat hint8
+  193  cd mystery
+  194  head -n 20 people
+  195  grep CLUE crimescene
+  196  ls
+  197  head people
+  198  cd streets
+  199  ls
+  200  cat Elmore_Street
+  201  history
+  202  git clone https://github.com/yasahaverland/command-line-murder-mystery.git
+
+  203  ls
+  204  cd mystery
+  205  cd streets
+  206  cat Walton Street
+  207  ls
+  208  Walton_Street
+  209  cat Worrell_Street
+  210  cat Wentworth_Street
+  211  head Elmore_Street
+  212  head Hemenway_Street
+  213  head people
+  214  cd ..
+  215  head people
+  216  cd streets
+  217  ls
+  218  cd ..
+  219  ls
+  220  crimescene
+  221  cat crimescene
+  222  cd ..
+  223  cd mystery
+  224  head vehicles
+  225  cat vehicles
+  226  head vehicles
+  227  cat vehicles
+  228  head -n 20 cheatsheet.md
+  229  cd ..
+  230  head -n 20 cheatsheet.md
+  231  cd mystery
+  232  head -n 20 vehicles
+  233  head -n 30 vehicles
+  234  cat vehicles
+  235  grep -A 5 "L337" mystery/vehicles
+  236  grep -A 5 "L337" vehicles
+  237  grep "Annabel" people
+  238  head -n 173 streets/Mattapan_Street | tail -n 1
+  239  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" 
+  240  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe_Germuska"
+
+  241  ls
+  242  cd memberships
+  243  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers" 
+  244  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy_Bowers"
+  245  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  246  cat Jeremy Bowers
+  247  get Jeremy Bowers
+  248  ls
+  249  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt| grep -c "Jeremy Bowers"
+  250  cd ..
