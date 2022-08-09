@@ -1,0 +1,291 @@
+history
+    1  xcode-select --install
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    3  brew doctor
+    4  brew --version
+    5  brew install zsh
+    6  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    7  brew install git
+    8  git --version
+    9  git config --global user.name "WaltersMatthew"
+   10  git config --global user.email "waltersmatthew88@gmail.com"
+   11  git config --global push.default simple
+   12  git config --global credential.helper cache
+   13  git config --global user.name waltersmatthew
+   14  git config --global user.email waltersmatthew88@gmail.com
+   15  git config --global push.default simple
+   16  git config --global credential.helper cache
+   17  git config --global core.editor 'code -w'
+   18  git config --global --list
+   19  git config --global--list
+   20  git config --global --list
+   21  code
+   22  clear
+   23  pwd
+   24  ls
+   25  pwd
+   26  ls
+   27  clear
+   28  ls
+   29  ls -a
+   30  cd Desktop
+   31  ls -a
+   32  cd /Users/kaywalt/Library
+   33  pwd
+   34  cd..
+   35  cd /Users/kaywalt
+   36  pwd
+   37  cd Desktop
+   38  cd..
+   39  cd
+   40  pwd
+   41  mkdir seir-808
+   42  ls
+   43  cd seir-808
+   44  ls
+   45  cd..
+   46  mkdir unit1
+   47  cd unit1
+   48  pwd
+   49  mdkir cli-intro
+   50  mkdir cli-intro
+   51  cd cli-intro
+   52  pwd
+   53  cd..
+   54  touch notes.txt
+   55  ls
+   56  code .
+   57  ls
+   58  cat notes.txt
+   59  mkdir my-junk
+   60  pwd
+   61  ls
+   62  mv notes.txt my-junk/notes.txt
+   63  ls
+   64  cd my-junk
+   65  ls
+   66  touch../example
+   67  cd..
+   68  touch ../example
+   69  pwd
+   70  cd ..
+   71  pwd ..
+   72  ls
+   73  ls ..
+   74  ls
+   75  mv example junk/example
+   76  mv example my-junk/example
+   77  ls my-junk
+   78  cd ..
+   79  pwd
+   80  ls
+   81  cd cli-intro
+   82  touch file.txt .hidden-file other-file.js
+   83  ls
+   84  ls -a
+   85  man ls
+   86  ls
+   87  ls -l
+   88  ls -la
+   89  ls -R
+   90  ls
+   91  rm file.txt
+   92  ls
+   93  rm my-junk
+   94  man rm
+   95  echo
+   96  echo "Hello there"
+   97  echo 'hello there'
+   98  echo 'hello webdev'
+   99  echo 'hello redirection' >> hello.txt
+  100  ls
+  101  cat hello.txt
+  102  echo 'new thing' >> hello.txt
+  103  cat hello.txt
+  104  echo 'yo mama' > hello.txt
+  105  cat hello.txt
+  106  touch books.txt
+  107  code .
+  108  cat books.txt
+  109  man grep
+  110  grep Mill books.txt
+  111  ls
+  112  grep John books.txt
+  113  grep Mill books.txt | grep On
+  114  history
+  115  history | grep man
+  116  history >> history.txt
+  117  ls
+  118  man git
+  119  cd ..
+  120  pwd
+  121  mkdir my-first-repo
+  122  cd my-first-repo
+  123  ls
+  124  touch index.html styles.css script.js
+  125  ls
+  126  git init
+  127  cd
+  128  ls
+  129  cd seir-808/unit1/my-first-repo
+  130  pwd
+  131  ls
+  132  git --version
+  133  cd
+  134  ls -a
+  135  cd seir-808/unit1/my-first-repo
+  136  git --version
+  137  git config --global init.defaultBranch main
+  138  cd
+  139  git config --global init.defaultBranch main
+  140  cd seir-808/unit1/my-first-repo
+  141  git config --global init.defaultBranch main
+  142  cd
+  143  git config --global init.defaultBranch main
+  144  cd seir-808/unit1/my-first-repo
+  145  git config --global init.defaultBranch main
+  146  cd seir-808/unit1/my-first-repo
+  147  rm -rf .git
+  148  git init
+  149  ls -a
+  150  git status
+  151  git add index.html
+  152  git status
+  153  git commit -m "adds index.html file"
+  154  git log
+  155  ls
+  156  git all .
+  157  git add .
+  158  git status
+  159  git commit -m 'adds javascript and css files'
+  160  git status
+  161  clear
+  162  pwd
+  163  git status
+  164  man git add
+  165  man git-add
+  166  echo 'git is super dope!' >> notes.txt
+  167  ls
+  168  cat notes.txt
+  169  git status
+  170  git add .
+  171  git status
+  172  git commit -m 'took some notes on git'
+  173  git status
+  174  git remote add origin https://github.com/WaltersMatthew/first-repo-808.git
+  175  git remote -v
+  176  git branch -M main
+  177  git push origin main
+  178  cd ..
+  179  ls
+  180  pwd
+  181  git clone https://github.com/WaltersMatthew/command-line-murder-mystery.git
+  182  ls
+  183  pwd
+  184  ls
+  185  cd command-line-murder-mystery
+  186  ls
+  187  cat instructions
+  188  ls
+  189  cat hint1
+  190  man head
+  191  open .
+  192  cat hint 2
+  193  cat hint2
+  194  cat hint3
+  195  cat hint4
+  196  cat hint5
+  197  cat hint6
+  198  cat hint7
+  199  cat hint8
+  200  cd mystery
+  201  ls
+  202  cd ..
+  203  ls
+  204  cd mystery
+  205  ls
+  206  cat crimescene
+  207  ls
+  208  cd ..
+  209  ls
+  210  cat instructions
+  211  ls
+  212  cd mystery
+  213  ls
+  214  greb "CLUE" crimescene
+  215  grep "CLUE" crimescene
+  216  pdw
+  217  pwd
+  218  cd ..
+  219  pwd
+  220  ls
+  221  cat instructions
+  222  cd mystery
+  223  ls
+  224  grep "CLUE" crimescene
+  225  ls
+  226  grep "Annabel" people
+  227  cd streets
+  228  ls
+  229  head -n 40 Hart_Place | tail -n 1
+  230  cd ..
+  231  ls
+  232  cd interviews
+  233  ls
+  234  cat interview-47246024
+  235  cd ..
+  236  ls
+  237  cd streets
+  238  head -n 173 Mattapan_Street| tail -n 1
+  239  head -n 179 Buckingham_Place| tail -n 1
+  240  head -n 176 Haley_Street| tail -n 1
+  241  ls
+  242  cd ..
+  243  ls
+  244  cd interviews
+  245  ls
+  246  cat interview-9437737
+  247  cat interview-699607
+  248  pwd
+  249  ls
+  250  cd ..
+  251  ls
+  252  cat vehicles
+  253  grep "LEE7" vehicles
+  254  ls
+  255  grep "L337" vehicles
+  256  grep "Honda" vehicles | grep "L337" vehicles
+  257  grep "Honda" vehicles
+  258  grep "L337\|Honda" vehicles
+  259  grep -E 'L337|Honda' vehicles
+  260  grep 'L337' vehicle
+  261  grep "L337' vehicles
+  262  grep "L337" vehicles
+  263  grep -A 5 "L337" mystery/vehicles
+  264  grep -A 5 "L337" vehicles
+  265  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  266  ls
+  267  cd memberships
+  268  ls
+  269  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  270  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  271  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  272  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  273  cat Fitness_Galaxy AAA United_MileagePlus library Museum_of_Bash_History | grep "Jeremy Bowers"
+  274  cat Fitness_Galaxy AAA United_MileagePlus library Museum_of_Bash_History | grep "Joe Germuska"
+  275  cat Fitness_Galaxy AAA United_MileagePlus Museum_of_Bash_History | grep "John Smith" 
+  276  cat Fitness_Galaxy AAA United_MileagePlus Museum | grep "John Smith"
+  277  cat Fitness_Galaxy AAA United_MileagePlus Museum_of_Bash_History | grep "Jeremy Bowers"
+  278  cat Museum_of_Bash_History| grep "Jeremy Bowers"
+  279  cat Museum_of_Bash_History | grep "Joe Germuska"
+  280  cat Museum_of_Bash_History | grep "Jacqui Maher"
+  281  cd ..
+  282  ls
+  283  cd ..
+  284  ls
+  285  pwd
+  286  echo history >> solution.txt
+  287  ls
+  288  cat solution.txt
+  289  histroy >> solution.txt
+Jeremy Bowers
