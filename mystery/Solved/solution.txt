@@ -1,0 +1,293 @@
+1.  1  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    2  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    3  code ~/.zshrc
+    4  ZSH_THEME="powerlevel10k/powerlevel10k"
+    5  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+    6  nvm --version
+    7  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+    8  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+    9  sudo apt update
+   10  sudo apt install build-essential checkinstall libssl-dev
+   11  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   12  nvm --version
+   13  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+   14  nvm --version
+   15  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   16  nvm --version
+   17  nvm
+   18  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   19  nvm --version
+   20  nvm install --lts
+   21  nvm use --lts
+   22  nvm install --lts
+   23  nvm use --lts
+   24  nvm install
+   25  nvm use --lts
+   26  nvm install --lts
+   27  nvm alias default node
+   28  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+   29  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+   30  sudo apt-get update
+   31  sudo apt-get -y install postgresql
+   32  psql
+   33  sudo -u postgres pg_ctlcluster 13 main start
+   34  sudo service postgresql start
+   35  sudo -u postgres createuser zion
+   36  sudo -u postgres createdb zion
+   37  sudo -u postgres psql
+   38  sudo apt install mongodb
+   39  sudo service mongodb start
+   40  mongo
+   41  sudo apt-get install python3
+   42  sudo apt-get install python3-pip
+   43  alias python=python3
+   44  ~/.zshrc
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd ..
+   49  ls
+   50  cd ..
+   51  ls
+   52  ~/.zshrc
+   53  cd zion/.zshrc
+   54  cd zion
+   55  alias python=python3
+   56  alias pip=pip3
+   57  ls ~a
+   58  ls -1
+   59  ls -a
+   60  path+=(/home/zion/.local/bin)
+   61  ls
+   62  cd .local
+   63  cd bin
+   64  ls
+   65  pwd
+   66  cd bin
+   67  ls bin
+   68  cd ..
+   69  cd bin
+   70  cd ..
+   71  cd bin
+   72  ls bin
+   73  ks
+   74  ls
+   75  pwd
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd ..
+   80  ls
+   81  cd init
+   82  init
+   83  cat init
+   84  cd ..
+   85  ls
+   86  cd media
+   87  ls
+   88  cd ..
+   89  cd srv
+   90  ls
+   91  cd ..
+   92  cd sys
+   93  ls
+   94  cd ..
+   95  cd bin
+   96  ls
+   97  cd ..
+   98  ls
+   99  cat run
+  100  ls
+  101  pwd
+  102  cd ~/Desktop
+  103  cd ..
+  104  cd ~/Desktop
+  105  cd /mnt/c/Users/zion/Desktop/
+  106  cd /mnt/c/Users/theZg/Desktop/
+  107  cd ..
+  108  pwd
+  109  ls
+  110  cd ..
+  111  cd
+  112  ls
+  113  pwd
+  114  ls ~a
+  115  ls -a
+  116  cd .oh-my-zsh
+  117  git config --global init.defaultBranch main
+  118  cd ..
+  119  git config --global init.defaultBranch main
+  120  git branch -m master main
+  121  git status
+  122  cd ~
+  123  pwd
+  124  git status
+  125  cd .om-my-zsh
+  126  cd .oh-my-zsh
+  127  git clone https://github.com/Agrate071818/command-line-murder-mystery.git
+  128  cat instructions
+  129  ls
+  130  cat command-line-murder-mystery
+  131  cd  command-line-murder-mystery
+  132  cat instructions
+  133  ls
+  134  ls -a
+  135  cd mystery
+  136  ls
+  137  cd crimescene
+  138  cat crimescene
+  139  ls
+  140  cat interviews
+  141  cat people
+  142  code
+  143  ls
+  144  cd ..
+  145  ls
+  146  cd readme.md
+  147  cd README.md
+  148  cat README.md
+  149  cat instructions
+  150  history
+  151  ls -a
+  152  cd .om-my-zsh
+  153  cd .oh-my-zsh
+  154  ls
+  155  cd command-line-murder-mystery
+  156  ls
+  157  cat hint1
+  158  cd mystery
+  159  cd ..
+  160  cheatsheet.pdf
+  161  cat cheatsheet.pdf
+  162  code
+  163  cd instructions
+  164  ls
+  165  cd mystery
+  166  /files$ grep -i "CLUE"
+  167  /files$ grep -i "CLUE" crimescene
+  168  grep -i "CLUE" crimescene
+  169  ls
+  170  cd street
+  171  cd streets
+  172  ls
+  173  grep -i "CLUE"
+  174  ~ cd .om-my-zsh/command-line-murder-mystery/mystery
+  175  cd .oh-my-zsh/command-line-murder-mystery/mystery
+  176  ls -a
+  177  cd memberships
+  178  ls
+  179  cd ..
+  180  grep -i "CLUE" crimescene
+  181  cd membership
+  182  cd memberships
+  183  ls
+  184  cat AAA
+  185  cat library
+  186  cat librart.txt
+  187  cat library.txt
+  188  cd ..
+  189  ls
+  190  cd vehicles
+  191  cat vehicles
+  192  cd .oh-my-zsh/command-line-murder-mystery/mystery
+  193  grep -i "CLUE" crimescene
+  194  cd vehicles
+  195  grep -i "6'" vehicles
+  196  grep "6'0"
+  197  cd .oh-my-zsh/command-line-murder-mystery/mystery
+  198  grep "6'0" vehicles
+  199  grep -b 4 "6'0" vehicles
+  200  cd .oh-my-zsh/command-line-murder-mystery/mystery
+  201  grep "6'0" vehicles | grep "Annabel"
+  202  ls
+  203  cd vehicles
+  204  cd .oh-my-zsh/command-line-murder-mystery/mystery
+  205  cd grep "6'0" people
+  206  ls
+  207  grep "6'" people
+  208  cat people
+  209  grep alicia people
+  210  grep "ivan" people
+  211  grep "Ivan" people
+  212  cd interviews
+  213  ls
+  214  cat interview-000296
+  215  ls
+  216  cd ..
+  217  ls
+  218  grep -B 4 "6'0" vehicles
+  219  ls
+  220  grep -i "CLUE" crimescene
+  221  grep -B 4 "Annabel" vehicles
+  222  grep -B 4 "Annabel" vehicles| grep "6'0"
+  223  pwd
+  224  ls
+  225  grep -B 4 "Annabel" people
+  226  grep "Annabel" people
+  227  grep -B 4 "Annabel" vehicles| grep "6'0"
+  228  grep -B 4 "Annabel" vehicles
+  229  grep -B 4 "6'0" vehicles
+  230  grep -B 4 "6'0" "Annabel" vehicles
+  231  grep -B 4 "6'0 A"  vehicles
+  232  grep -B 4 "6'0 a"  vehicles
+  233  grep -B 4 "6'0|Annabel"  vehicles
+  234  grep -B 4 "6'0| grep Annabel"  vehicles
+  235  grep -E -w -i "6'0|Annabel"  vehicles
+  236  grep "Annabel" people
+  237  grep -i "CLUE" crimescene
+  238  cat Haley_Street
+  239  cat Haley Street
+  240  ls
+  241  cd streets
+  242  ls
+  243  cat Haley_Street
+  244  cat Buckingham_Place
+  245  open .
+  246  cd ..
+  247  cd interviews
+  248  head -n 173 streets/Mattapan_Street | tail -n 1
+  249  pwd
+  250  cd ..
+  251  pwd
+  252  ls
+  253  cd streets
+  254  head -n 173 streets/Mattapan_Street | tail -n 1
+  255  cd ..
+  256  head -n 173 streets/Mattapan_Street | tail -n 1
+  257  grep "#9437737" interviews
+  258  cd interviews
+  259  grep "#9437737" interviews
+  260  ls
+  261  cat interview-9437737
+  262  cd ..
+  263  head -n 40 streets/Hart_Place | tail -n 1
+  264  head -n 179 streets/Buckingham_Place | tail -n 1
+  265  cat interviews/interview-699607
+  266  cd ..
+  267  ls
+  268  cd mystery
+  269  ls
+  270  grep -A 5 "L337" vehicles
+  271  pwd
+  272  ls
+  273  cat Museum_of_Bash_History AAA Delta_SkyMiless | grep "Jacqui Maher" | wc -l
+  274  cat Museum_of_Bash_History AAA Delta_SkyMiless | grep "Jeremy Bowers" | wc -l
+  275  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jacqui Maher" | wc -l
+  276  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Bowers" | wc -l
+  277  ls
+  278  cd memberships
+  279  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jacqui Maher" | wc -l
+  280  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Bowers" | wc -l
+  281  ls
+  282  cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt | grep "Jeremy Bowers" | wc -l
+  283  cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt | grep "Jacqui Maher" | wc -l
+  284  cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt | grep "Joe Germuska" | wc -l
+  285  cat Museum_of_Bash_History AAA Delta_SkyMiles library.txt | grep "Erika Owens" | wc -l
+  286  cd ..
+  287  mkdir Solved
+  288  cd solved
+  289  cd Solved
+  290  touch solution.txt
+  291  ls
+
+2. Jeremy Bowers
