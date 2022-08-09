@@ -1,0 +1,431 @@
+    1  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    3  usr/sbin/softwareupdate --install-rosetta --agree-to-license
+    4  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+    5  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+    6  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    7  code-select --install
+    8  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    9  brew install zsh
+   10  brew install git
+   11  code .
+   12  code.
+   13  echo $SHELL
+   14  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   15  echo $SHELL
+   16  git --version
+   17  xcode-select --install
+   18  git --version
+   19  git config --global user.name "ADRIANRROJO"
+   20  git config --global user.email "rojoadrian16@gmail.com"
+   21  git config --global push.default simple
+   22  git config --global credential.helper cache
+   23  git config --global core.editor 'code -w'
+   24  git config --global user.name ADRIANRROJO
+   25  git config --global user.email rojoadrian16@gmail.com
+   26  git config --global push.default simple\ngit config --global credential.helper cache
+   27  \ngit config --global core.editor 'code -w'
+   28  git config --global --list
+   29  brew install --cask visual-studio-code
+   30  code
+   31  pwd
+   32  ls
+   33  ls -a
+   34  cd Desktop
+   35  pwd
+   36  ls
+   37  ls -a
+   38  pwd
+   39  cd /Users/adrianrojo/Desktop
+   40  cd ..
+   41  pwd
+   42  cd ./Movies/TV
+   43  cd
+   44  pwd
+   45  mkdir seir-808
+   46  ls
+   47  cd seir-808
+   48  pwd
+   49  ls
+   50  ls-a
+   51  ls - a
+   52  ls -a
+   53  pwd
+   54  mkdir unit1
+   55  pwd
+   56  cd unit1
+   57  pwd
+   58  ..
+   59  cd unit1
+   60  pwd
+   61  cd cli-intro
+   62  mkdir cli-intro
+   63  cd cli-intro
+   64  pwd
+   65  touch notes.txt
+   66  ls
+   67  code .
+   68  ls
+   69  cat notes.txt
+   70  mkdir my-junk
+   71  ls
+   72  mv notes.txt my-junk
+   73  ls
+   74  cd my-junk
+   75  ls
+   76  pwd
+   77  ls
+   78  pwd
+   79  ..
+   80  touch ../example
+   81  ls
+   82  ..
+   83  ls
+   84  pwd unit1
+   85  ls unit1
+   86  ls /unit1
+   87  ls ..
+   88  cd cli-intro
+   89  ls
+   90  ..
+   91  cd cli-intro
+   92  ..
+   93  ls
+   94  mv example my-junk/example
+   95  ls
+   96  mv /example my-junk/example
+   97  ..
+   98  cd cli-intro
+   99  cd unit1/cli-intro
+  100  touch file.txt .hidden-file other-file,js
+  101  touch other-file.js
+  102  ls
+  103  rm other-file,js
+  104  ls
+  105  man ls
+  106  ls -l
+  107  ls -la
+  108  ls -R
+  109  ls -Rla
+  110  ls
+  111  rm file.txt
+  112  ls
+  113  rm my-junk
+  114  man rm
+  115  rm -rf my-junk
+  116  ls
+  117  man rm
+  118  ls
+  119  echo "hello world\n
+  120  echo 'hello world!'
+  121  echo 'hello redirection' >> hello.txt
+  122  ls
+  123  cat hello.txt
+  124  echo 'new thing' >> hello.txt 
+  125  cat hello.txt
+  126  echo 'newest thing' > hello.txt 
+  127  cat hello.txt
+  128  touch books.txt
+  129  code .
+  130  cat books.txt
+  131  man grep
+  132  grep Mill books.txt
+  133  man grep
+  134  pwd
+  135  grep Mill books.txt | grep On
+  136  grep Mill books | grep On
+  137  pwd
+  138  history 
+  139  history | grep man
+  140  history >> history.txt
+  141  pwd
+  142  ls
+  143  cat history.txt
+  144  man atom
+  145  man git
+  146  cd ..
+  147  pwd
+  148  mkdir my-first-repo
+  149  cd my-first-repo
+  150  pwd
+  151  touch index.html styles.css script.js
+  152  ls
+  153  git init
+  154  git branch -m main
+  155  git --version
+  156  cd 
+  157  pwd
+  158  ls
+  159  cd seir-808/unit1/my-first-repo
+  160  cd
+  161  pwd
+  162  cd seir-808/unit1/my-first-repo
+  163  ls -a 
+  164  git status
+  165  git add index.html script.js styles.css
+  166  git commit index.html script.js styles.css
+  167  git status
+  168  cd seir-808/unit1/my-first-repo
+  169  git status
+  170  git commit -m "Add files"
+  171  git status
+  172  ls
+  173  git log
+  174  git status
+  175  history
+  176  pwd
+  177  man git add
+  178  man git-add
+  179  man git-commit
+  180  man git-status
+  181  git status --show-stash 
+  182  echo 'git is super dope!' >> notes.txt
+  183  ls
+  184  git add .
+  185  git commit -m 'took some notes on git'
+  186  git status
+  187  git remote add origin https://github.com/AdrianRRojo/first-repo-808.git\ngit branch -M main\ngit push -u origin main
+  188  git remote -v
+  189  PWD
+  190  cd seir-808/unit1/my-first-repo
+  191  git branch -M main
+  192  git push orgin main
+  193  git remote add origin https://github.com/AdrianRRojo/first-repo-808.git\ngit branch -M main\ngit push -u origin main
+  194  git push orgin main
+  195  git remote -v
+  196  Last login: Mon Aug  8 15:49:13 on ttys000\n➜  ~ \nLast login: Mon Aug  8 15:49:13 on ttys000\n➜  ~ \nLast login: Mon Aug  8 15:49:13 on ttys000\n➜
+  197  git push push origin main
+  198  git push origin main
+  199  git clone <paste HTTPS here>
+  200  cd seir-808/unit1
+  201  git clone https://github.com/AdrianRRojo/command-line-murder-mystery.git
+  202  cd command-line-murder-mystery/ls
+  203  ls
+  204  cd command-line-murder-mystery
+  205  ls
+  206  cat instructions
+  207  ls -a
+  208  cat mystery
+  209  cd mystery/
+  210  ls
+  211  cat crimescene
+  212  head -n 20 people
+  213  open .
+  214  ..
+  215  open .
+  216  man grep
+  217  grep clue
+  218  cd seir-808/unit1/command-line-murder-mystery/mystery.
+  219  cd seir-808/unit1/command-line-murder-mystery
+  220  grep -n 20
+  221  cd seir-808/unit1/command-line-murder-mystery
+  222  grep -n 20 people
+  223  head -n 20 people
+  224  ls
+  225  pwd
+  226  cd mystery
+  227  ls
+  228  cat crimescene
+  229  head -n 20 people
+  230  grep "Clue" .
+  231  grep "CLUE" crimescene
+  232  cat people
+  233  head -n annabel
+  234  head -n 2 annabel
+  235  pwd
+  236  cat vehicles
+  237  grep annabel
+  238  pwd
+  239  grep annabel .
+  240  grep "annabel" people
+  241  grep "Annabel" people
+  242  ls
+  243  cd memberships
+  244  ls
+  245  cd seir-808/unit1/command-line-murder-mystery
+  246  ls
+  247  cd mystery/
+  248  ls
+  249  cat vehicles
+  250  grep "6" vehicles
+  251  grep "6'" vehicles
+  252  pwd
+  253  ls
+  254  cd memberships
+  255  ls
+  256  cat Delta_SkyMiles
+  257  grep "annabel" Delta_SkyMiles
+  258  grep "Annabel" Delta_SkyMiles
+  259  man comm
+  260  man sort
+  261  ls
+  262  sort memberships/AAA > AAA_Sort
+  263  pwd
+  264  man sort
+  265  ..
+  266  pwd
+  267  sort memberships/AAA > sort_AAA
+  268  sort memberships/Museum_of_Bash_History > sort_Bash
+  269  sort memberships/Terminal_City_Library > sort_TC
+  270  sort memberships/Delta_SkyMiles > sort_Delta
+  271  man comm
+  272  comm sort_AAA sort_Bash > /tmp/1
+  273  comm /tmp/1 sort_TC
+  274  comm /tmp/1 sort_TC > /tmp/2
+  275  comm /tmp/2 sort_Delta > /tmp/3
+  276  cat /tmp/3
+  277  cd seir-808/unit1/command-line-murder-mystery
+  278  ls
+  279  cd mystery
+  280  pwd
+  281  ls
+  282  comm -10 sort_AAA sort_delta > /tmp/1
+  283  cd seir-808
+  284  ls
+  285  cd unit1/command-line-murder-mystery
+  286  ls
+  287  cd mystery/
+  288  ls
+  289  cd memberships
+  290  sort AAA > sort_AAA
+  291  sort Delta_SkyMiles > sort_delta
+  292  sort Museum_of_Bash_History > sort_Bash
+  293  sort Terminal_City_Library > sort_Library
+  294  man comm
+  295  comm -12 sort_AAA sort_Bash > /tmp/1
+  296  comm -12 /tmp/1 sort_Library > /tmp/2
+  297  comm -12 /tmp/2 sort_delta > /tmp/3
+  298  cat /tmp/3
+  299  ls
+  300  ..
+  301  ls
+  302  head vehicles
+  303  head interviews
+  304  ls
+  305  cd interviews
+  306  ls
+  307  sort /tmp/3  /interviews
+  308  sort /tmp/3 /interviews > /tmp/4
+  309  ls
+  310  pwd
+  311  ..
+  312  ls
+  313  sort /tmp/3 people > /tmp/4
+  314  cat /tmp/4
+  315  comm /tmp/3 people > /tmp/4
+  316  cat /tmp/4
+  317  comm -12 /tmp/3 people > /tmp/4
+  318  cat /tmp/4
+  319  cat /tmp/3
+  320  pwd
+  321  ls
+  322  ..
+  323  ls
+  324  cat hint 4
+  325  cat hint4
+  326  cat hint5
+  327  cat hint6
+  328  cd mystery
+  329  ls
+  330  head vehicles
+  331  sort vehicles > sort_V
+  332  comm -13 /tmp/3 sort_V > /tmp/5
+  333  cat /tmp/5
+  334  rm /tmp/4
+  335  ls
+  336  ..
+  337  cat hint7
+  338  grep -A 5 "L337" mystery/vehicles
+  339  ls
+  340  cd mystery
+  341  ls
+  342  cat crimescene
+  343  grep "CLUE"
+  344  grep "clue" crimescene
+  345  grep "CLUE" crimescene
+  346  pwd
+  347  cd interviews
+  348  ls
+  349  cat interview-000296
+  350  ..
+  351  ls 
+  352  ..
+  353  ls
+  354  cat hint7
+  355  cat hint8
+  356  cd mystery
+  357  head streets
+  358  head vehicles
+  359  head people
+  360  cat people| grep /tmp/3
+  361  cat people | grep /tmp/3
+  362  cat people | grep "Matt Waite"
+  363  cat people | grep "Brian Boyer"
+  364  cat people | grep "Jeremy Bowers"
+  365  ls
+  366  cat vehicles | comm -8 /tmp/3 sort_V
+  367  man comm
+  368  pwd
+  369  grep "Aldo" vehicles
+  370  grep -10 "Aldo N" vehicles
+  371  grep -1 "Lozano" vehicles
+  372  grep -1 "Masna" vehicles
+  373  grep -1 "r Vidal" vehicles
+  374  grep -1 "Estan" vehicles
+  375  grep -1 "Munoz" vehicles
+  376  grep -1 "Wei" vehicles
+  377  grep -1 "Emma Wei" vehicles
+  378  grep -1 "Rodhe" vehicles
+  379  grep -1 "Kulish" vehicles
+  380  grep -1 "Krystian Pen" vehicles
+  381  grep -1 "Liangliang" vehicles
+  382  grep -1 "Marina Murphy" vehicles
+  383  grep -1 "Tomashova" vehicles
+  384  grep -1 "Bostock" vehicles
+  385  grep -1 "Hwang" vehicles
+  386  grep -1 "Milatz" vehicles
+  387  grep -1 "Raif" vehicles
+  388  grep -1 "Adlington" vehicles
+  389  grep -1 "Cafaro" vehicles
+  390  grep +1 "Cafaro" vehicles
+  391  grep 1 "Cafaro" vehicles
+  392  grep  +1 "Cafaro" vehicles
+  393  pwd
+  394  ls
+  395  cd streets
+  396  cat Hart_Place
+  397  head -n 40 | tail -n 1
+  398  head -n 40 Hart_Place | tail -n 1
+  399  head -n 179 Buckingham_Place| tail -n 1
+  400  ..
+  401  ls
+  402  cd interviews
+  403  grep interview-699607
+  404  cat interview-699607
+  405  cat interview-699607 >> ../clues
+  406  cd
+  407  cd seir-808/unit1/command-line-murder-mystery
+  408  cd mystery
+  409  grep l337 vehicles
+  410  grep -A 5 "L337" vehicles
+  411  cat /tmp/3
+  412  cat sort_V
+  413  man sort
+  414  sort vehicles > sort_E
+  415  LS
+  416  cat sort_E
+  417  cat vehicles| grep /tmp/3
+  418  cat vehicles | grep /tmp/3
+  419  cat /tmp/3
+  420  ls
+  421  grep "Jeremy Bowers" people
+  422  grep "Jeremy Bowers" people >> clues
+  423  cd streets
+  424  head -n 284 Dunstable_Road
+  425  head -n 284 Dunstable_Road | tail -n 1
+  426  ..
+  427  ls
+  428  cd interviews
+  429  cat interview-9620713
+  430  ..
+  431  pwd
