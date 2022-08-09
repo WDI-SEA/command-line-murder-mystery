@@ -1,0 +1,64 @@
+1.
+  296  git clone https://github.com/JasonXChen/command-line-murder-mystery.git
+  297  ls
+  298  cd command-line-murder-mystery
+  299  ls
+  300  cat README.md
+  301  ls
+  302  cat instructions
+  303  cat hint1
+  304  open .
+  305  cat instructions
+  306  cd mystery
+  307  ls
+  308  grep CLUE crimescene
+  309  cd streets
+  310  ls
+  311  cd ..
+  312  ls interviews
+  313  ls memberships
+  314  cd ..
+  315  cat hint1
+  316  ls
+  317  cat hint2
+  318  cat hint3
+  319  cat hint4
+  320  ls
+  321  cd mystery
+  322  ls
+  323  grep Annabel people
+  324  cat ../hint5
+  325  ls
+  326  cd interviews
+  327  head -n 40 | tail -n 1
+  328  head -n 40 ../streets/Hart_Place | tail -n 1
+  329  ls
+  330  cat ../../hint6
+  331  cat ../../hint7
+  332  cat ../../hint8
+  333  cat interview-47246024
+  334  head -n 173 ../streets/Mattapan_Street | tail -n 1
+  335  cat interview-9437737
+  336  head -n 179 ../streets/Buckingham_Place | tail -n 1
+  337  cat interview-699607
+  338  head -n 176 ../streets/Haley_Street | tail -n 1
+  339  cat interview-871877
+  340  cd ..
+  341  ls
+  342  head -n 20 vehicles
+  343  man grep
+  344  grep -A 5 "L337" vehicles
+  345  open .
+  346  ls
+  347  cd memberships
+  348  ls
+  349  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Erika Owens"
+  350  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep -c "Erika Owens"
+  351  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Joe Germuska"
+  352  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep -c "Joe Germuska"
+  353  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Jeremy Bowers"
+  354  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  355  cat AAA Delta_SkyMiles library Museum_of_Bash_History | grep "Jacqui Maher"
+  356  cat AAA Delta_SkyMiles library.txt  Museum_of_Bash_History | grep "Jeremy Bowers"
+  357  cat AAA Delta_SkyMiles library.txt  Museum_of_Bash_History | grep -c "Jeremy Bowers"
+2. Jeremy Bowers
