@@ -1,4 +1,3 @@
-history
     1  xcode-select --install
     2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     3  brew doctor
@@ -288,4 +287,77 @@ history
   287  ls
   288  cat solution.txt
   289  histroy >> solution.txt
-Jeremy Bowers
+  290  history >> solution.txt
+  291  cat solution.txt
+  292  echo Jeremy Bowers >> solution.txt
+  293  cat solution.txt
+  294  git status
+  295  ls
+  296  git add .
+  297  git status
+  298  git commit -m "Add solution.txt file with solve" 
+  299  git push origin main
+  300  cd seir-808/unit1/command-line-murder-mystery/ls
+  301  ls
+  302  cd seir-808/unit1/command-line-murder-mystery
+  303  ls
+  304  cd mystery
+  305  grep "CLUE" crimescene
+  306  head -n 20 people
+  307  grep 'Annabel' people
+  308  grep Annabel people >> clues
+  309  cat clues
+  310  cd streets
+  311  ls
+  312  cat ../clues
+  313  cat Hart_Place head -n 40 | tail -n 1
+  314  head -n 40 Hart_Place | tail -n 1
+  315  cat -n Hart_Place | grep 40
+  316  head -n 40 Hart_Place | tail -n 1 >> ../clues
+  317  head -n 179 Buckingham_Place | tail -n 1 >> clues
+  318  la
+  319  cd ..
+  320  ls
+  321  cd interviews
+  322  cat interview-699607
+  323  cat interview-699607 >> ../clues
+  324  cd ..
+  325  ls
+  326  head -n 30 vehicles
+  327  grep -A "L337" vehicles
+  328  grep -A 5 "L337" vehicles
+  329  grep -A 5 "L337" vehicles | grep -A 4 Honda
+  330  grep -A L337 vehicles | grep -A 4 -B 1 Honda
+  331  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda\n\n
+  332  grep -A 5 L337 vehicles | grep -A 4 Honda | grep -A 3 blue
+  333  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 blue
+  334  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda| grep -A 3 -B 2 blue | grep -B 1 "6'"
+  335  grep -A 5 L337 vehicles | grep -A 4 Honda| grep -A 3 blue | grep -B 1 "6'"
+  336  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda
+  337  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 1 blue
+  338  cd 
+  339  cd seir-808/unit1/command-line-murder-mystery
+  340  ls
+  341  cd mystery
+  342  cd memberships
+  343  ls
+  344  cat AAA Delta_SkyMiles Terminal_City_Library Museum
+  345  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+  346  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  347  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  348  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  349  cd ..
+  350  grep "Jeremy Bowers" people
+  351  grep "Jeremy Bowers" people >> clues
+  352  cd streets
+  353  head -n 284 Dunstable_Road | tail -n 1
+  354  cd ..
+  355  cd interviews
+  356  ls
+  357  cat interview-9620713
+  358  man com
+  359  man comm
+  360  cd ..
+  361  ls
+  362  cd ..
+  363  pwd
