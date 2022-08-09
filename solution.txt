@@ -1,0 +1,442 @@
+    1  ls
+    2  cd documents
+    3  ls
+    4  ls -a
+    5  cd ..
+    6  pwd
+    7  ls
+    8  mkdir myfolder
+    9  ls
+   10  cd myfolder
+   11  touch index.HTML style.css
+   12  ls
+   13  rm style.css
+   14  ls
+   15  cd ..
+   16  pwd
+   17  rm -r myfolder
+   18  ls
+   19  cd documents
+   20  ls
+   21  cd downloads
+   22  cd ..
+   23  ls
+   24  cd documents
+   25  cd ..
+   26  pwd
+   27  cd downloads
+   28  ls
+   29  cd world
+   30  ls
+   31  cd africa
+   32  ls
+   33  cd ..
+   34  cd australia
+   35  ls
+   36  cd ..
+   37  cd north_america
+   38  ls
+   39  cd..
+   40  cd south_america
+   41  ls
+   42  cd ..
+   43  cd south_america
+   44  ls
+   45  cd ..
+   46  pwd
+   47  cd asia
+   48  ls
+   49  cd ..
+   50  cd euroe
+   51  pwd
+   52  cd europe
+   53  ls
+   54  cd france
+   55  ls
+   56  cd ..
+   57  cd italy
+   58  ls
+   59  cd ..
+   60  cd luxembourg
+   61  ls
+   62  cd ..
+   63  cd spain
+   64  ls
+   65  cd ..
+   66  cd ..
+   67  cd north_america
+   68  ls
+   69  cd canada
+   70  ls
+   71  cd ..
+   72  cd united_states
+   73  ls
+   74  cd ..
+   75  cd ..
+   76  cd south_america
+   77  ls
+   78  cd argentina
+   79  ls
+   80  cd ..
+   81  cd brazil
+   82  ls
+   83  cd ..
+   84  cd chile
+   85  ls
+   86  cd ..
+   87  cd ..
+   88  cd asia
+   89  ls
+   90  cd india
+   91  ls
+   92  cd ..
+   93  cd japan
+   94  ls
+   95  cd ..
+   96  cd vietnam
+   97  ls
+   98  cd ..
+   99  cd ..
+  100  cd austrailia
+  101  ls
+  102  cd africa
+  103  ls
+  104  cd cameroon
+  105  ls
+  106  cd ..
+  107  cd ethiopia
+  108  ls
+  109  cd ..
+  110  cd kenya
+  111  ls
+  112  cd ..
+  113  pwd
+  114  cd ..
+  115  cd africa
+  116  cd zimbabwe
+  117  ls
+  118  cd ..
+  119  cd ..
+  120  cd australia
+  121  ls
+  122  cd australia
+  123  ls
+  124  ls -a
+  125  cd ..
+  126  cd  ..
+  127  cd north_america
+  128  ls
+  129  ls -a
+  130  cd ..
+  131  cd south_america
+  132  ls _a
+  133  ls -a
+  134  cd ..
+  135  cd asia
+  136  ls
+  137  ls -a
+  138  cd ..
+  139  cd australia
+  140  ls
+  141  ls -a
+  142  cd ..
+  143  cd europe
+  144  ls -a
+  145  cd ..
+  146  cd ..
+  147  cd ..
+  148  ls
+  149  git --version
+  150  brew install git
+  151  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n📋
+  152  git --version
+  153  ls
+  154  cd desktop
+  155  mkdir GA-Blog
+  156  cd GA-Blog
+  157  git init
+  158  ls
+  159  ls -a
+  160  git staus
+  161  git status
+  162  touch post.txt
+  163  git status
+  164  git add post.txt
+  165  git status
+  166  git log
+  167  cd ..
+  168  cd ..
+  169  ls
+  170  pwd
+  171  mkdir GA-SEI-2022
+  172  rm GA-SEI-2022
+  173  ls
+  174  rm -r GA-SEI-2022
+  175  ls
+  176  mkdir GAfolder
+  177  ls
+  178  cd GAfolder
+  179  mkdir git-practice
+  180  cd git-practice
+  181  pwd
+  182  git init
+  183  ls -a
+  184  touch README.txt
+  185  git status
+  186  git add README.txt
+  187  git status
+  188  git commit -m "created README.txt file"
+  189  cd ..
+  190  cd ..
+  191  pwd
+  192  ls
+  193  cd downloads
+  194  ls
+  195  cd ..
+  196  pwd
+  197  cd GAfolder
+  198  ls
+  199  cd git-practice
+  200  mkdir nodejspractice
+  201  cd nodejspractice
+  202  touch nodejspractice.txt
+  203  cd nodjspractice.txt
+  204  rm nodejspractice.txt
+  205  ls
+  206  git clone https://github.com/Tpalmer111/nodejs.org.git
+  207  ls -a
+  208  git --version
+  209  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  210  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  211  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  212  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  213  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  214  code.
+  215  install zshbrew doctor
+  216  brew doctor
+  217  xcode-select --install
+  218  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  219  brew install git
+  220  git --version
+  221  git config --global user.name "tpalmer111"D
+  222  git config --global user.email "mr.palmer111@gmail.com"git config --global push.default simple\ngit config --global credential.helper cache
+  223  brew install --cask visual-studio-code
+  224  code
+  225  pwd
+  226  ls
+  227  ls -a
+  228  cd Desktop
+  229  pwd
+  230  ls -a
+  231  cd ..
+  232  cd
+  233  pwd
+  234  mkdir seir-808
+  235  ls
+  236  cd seir-808
+  237  ls -a
+  238  mkdir unit1
+  239  ls -a
+  240  cd unit1
+  241  pwd
+  242  mkdir cli-intro
+  243  cd cli-intro
+  244  pwd
+  245  touch note.txt
+  246  ls
+  247  code.
+  248  code .
+  249  cat
+  250  ls
+  251  cd seir-808
+  252  ls
+  253  cd unit1
+  254  ls
+  255  cd cli-intro
+  256  ls
+  257  cat notes.txt
+  258  code .
+  259  cat notes.txt
+  260  cat note.txt
+  261  ls
+  262  mkdir my-junk
+  263  mv note.txt my-junk/note.txt
+  264  ls
+  265  cd my-junk
+  266  ls
+  267  cd
+  268  cd cli-intro
+  269  cd seir-808
+  270  ls
+  271  cd unit1
+  272  ls
+  273  cd cli-intro
+  274  touch file.txt .hidden-file other-file.js
+  275  ls
+  276  ls -a
+  277  man ls
+  278  ls -l
+  279  ls -la
+  280  ls -R
+  281  rm file.txt
+  282  ls
+  283  rm -rf my-junk
+  284  ls
+  285  echo 'hello world!'
+  286  echo 'hello redirection' >>hello.txt
+  287  cat hello.txt
+  288  echo 'new thing' >> hello.txt
+  289  cat hello.txt
+  290  echo 'newest thing' > hello.txt
+  291  cat hello.txt
+  292  touch books.txt
+  293  code .
+  294  cat books.txt
+  295  man grep
+  296  grep Mill books.txt
+  297  grep Mill books.txt | grep On
+  298  history >> history.txt
+  299  ls
+  300  cat history.txt
+  301  cd ..
+  302  pwd
+  303  mkdir my-first-repo
+  304  cd my-first-repo
+  305  ls
+  306  touch index.html styles.css script.js
+  307  ls
+  308  git init
+  309  git --version
+  310  cd
+  311  rm -rf .git
+  312  cd seir-808
+  313  ls
+  314  cd unit1
+  315  ls
+  316  cd my-first-repo
+  317  git config --global init.defaultBranch main
+  318  rm -rf .git
+  319  git init
+  320  ls -a
+  321  git status
+  322  git add index.html
+  323  git status
+  324  git commit
+  325  git commit -m "adds html file"
+  326  git status
+  327  git add .
+  328  git status
+  329  git commit -m 'add css and js files'
+  330  git status
+  331  pwd
+  332  man git add
+  333  man git-add
+  334  man git-status
+  335  echo 'git is super dope!' >> notes.txt
+  336  git status
+  337  git add .
+  338  git commit -m 'took some notes on git'
+  339  git status
+  340  git remote add origin https://github.com/Tpalmer111/first-repo-808.git
+  341  git remote -v
+  342  git branch -M main
+  343  git -u push origin main 
+  344  git push origin main
+  345  cd ..
+  346  ls
+  347  pwd
+  348  git clone https://github.com/Tpalmer111/command-line-murder-mystery.git
+  349  ls
+  350  cd command-line-murder-mystery
+  351  cat instructions
+  352  cat hint
+  353  cat hint1
+  354  cd mystery
+  355  cd ..
+  356  ls
+  357  cat cheatsheet.pdf
+  358  cat instructions
+  359  textedit cheatsheet.md
+  360  code . cheatsheet.md
+  361  ls -a
+  362  cd mystery
+  363  ls -a
+  364  head -n 20 interviews
+  365  head -n 20 people
+  366  ls
+  367  grep "clue" crimescene
+  368  cd crimescene
+  369  cat crimescene
+  370  grep -i "clue" crimescene
+  371  head -n people
+  372  head people
+  373  tail -n 20 people
+  374  grep -i "annabel" people
+  375  ls
+  376  cd streets
+  377  ls
+  378  head -n 173 streets/Mattapan_Street | tail -n 1
+  379  cd ..
+  380  ls
+  381  head vehicles
+  382  grep -A 5 "L337" mystery/vehicles
+  383  grep -A 5 "L337" /mystery/vehicles
+  384  cat vehicles
+  385  grep "L337" vehicles 
+  386  grep -A 5 "L337" vehicles
+  387  pwd
+  388  ls
+  389  cd memberships
+  390  ls
+  391  grep Annabel people
+  392  cd ..
+  393  grep Annabel people
+  394  grep Annabel people >> clus
+  395  ls
+  396  cd streets
+  397  cat streets
+  398  cat ../clus
+  399  cd ..
+  400  cd interviews
+  401  cat interview-699607 >> clus
+  402  cd ..
+  403  cd vehicles
+  404  ls
+  405  cat vehicles
+  406  pwd
+  407  ls
+  408  cd seir-808
+  409  ls
+  410  cd unit1
+  411  ls
+  412  cd command-line-murder-mystery
+  413  ls
+  414  cd mystery
+  415  grep -A 5 "L337" vehicles | grep -A 4 -B 1 Honda
+  416  grep -A 5 "L337" vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 "6'" 
+  417  cd ..
+  418  cat clus
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd command-line-murder-mystery
+  423  ls
+  424  cd mystery
+  425  cat clus
+  426  ls
+  427  grep -A 5 "L337" vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 "6'" 
+  428  cd memberships
+  429  cat AAA Delta_SkyMiles 
+  430  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  431  cd ..
+  432  grep "Jeremy Bowers" people
+  433  cd steets
+  434  cd Streets
+  435  head -n 284 Dunstable_Road | tail -n 1
+  436  cd ..
+  437  ls
+  438  cd interviews
+  439  cat interview-#9620713
+  440  cat interview-9620713
+  441  cd ..
+  442  pwd
