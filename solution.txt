@@ -1,0 +1,310 @@
+    1  hello?
+    2  where am I?
+    3  pwd
+    4  ls
+    5  cd Documents
+    6  ls
+    7  ls
+    8  ls -a
+    9  cd..
+   10  cd ..
+   11  pwd
+   12  mkdir myFolder
+   13  ls
+   14  cd myFolder
+   15  touch index.html style.css
+   16  ls
+   17  rm style.css
+   18  ls
+   19  cd ..
+   20  rm -r myFolder
+   21  ls
+   22  cd downloads
+   23  cd world
+   24  ls
+   25  ls -a
+   26  cd ~
+   27  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   28  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   29  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   30  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/valerieyang/.zprofile\n
+   31  eval "$(/opt/homebrew/bin/brew shellenv)"
+   32   git --version
+   33  cd desktop
+   34  mkdir GA-Blog
+   35  cd GA-Blog
+   36  git init
+   37  ls -a
+   38  git status
+   39  touch post.txt
+   40  git status
+   41  git add post.txt
+   42  git status
+   43  git commit -m "created a new post.txt file"
+   44  git log
+   45  cd desktop
+   46  mkdir GA-Information
+   47  rm -r GA-Information
+   48  ls
+   49  cd ~
+   50  cd desktop
+   51  mkdir GA-Information
+   52  cd GA-Information
+   53  mkdir Git-Practice
+   54  cd Git-Practice
+   55  git init
+   56  ls -a
+   57  touch README.txt
+   58  git status
+   59  git add README.txt
+   60  git status
+   61  git commit -m "Readme.txt commited"
+   62  git status
+   63  git status
+   64  git log
+   65  cd ..
+   66  cd ..
+   67  cd ..
+   68  cd ~
+   69  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   70  brew--version
+   71  brew --version
+   72  xcode-select --install
+   73  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   74  homebrew --version
+   75  pdw
+   76  ls
+   77  pwd
+   78  cd ~
+   79  pwd
+   80  cd utilities
+   81  cd documents
+   82  ls
+   83  brew install git
+   84  /opt/homebrew install git
+   85  opt/homebrew install git
+   86  /opt/homebrew git install
+   87  brew install git
+   88  arch -arm64 brew install git
+   89  git --version
+   90  brew install git
+   91  git config --global user.name valerieyang00
+   92  git config --global user.email valerieyang00@gmail.com
+   93  git config --global push.default simple\ngit config --global credential.helper cach
+   94  git config --global core.editor 'code -w'
+   95  git config --global --list
+   96  git config -- global --list
+   97  git config --global --list
+   98  brew install --cask visual-studio-code
+   99  code
+  100  pwd
+  101  ls
+  102  ls -a
+  103  cd Desktop
+  104  ls
+  105  cd ~
+  106  pwd
+  107  mkdir seir-808
+  108  ls
+  109  cd seir-808
+  110  mkdir unit1
+  111  ls
+  112  cd unit1
+  113  pwd
+  114  mkdir cli-intro
+  115  cd cli-intro
+  116  touch notes.txt
+  117  ls
+  118  code .
+  119  cat notes.txt
+  120  mkdir my-junk
+  121  ls
+  122  mv notes.txt my-junk/notes.txt
+  123  ls
+  124  touch file.txt .hidden-file other-file.js
+  125  ls
+  126  ls -a
+  127  touch tester
+  128  man ls
+  129  ls -l
+  130  ls -R
+  131  ls -Rla
+  132  rm file.txt
+  133  ls
+  134  rm -rf my-junk
+  135  ls
+  136  cd trash
+  137  echo 'hello redirection' >> hello.txt
+  138  ls
+  139  cat hello.txt
+  140  echo 'newest thing' > hello.txt
+  141  cat hello.txt
+  142  pwd
+  143  touch books.txt
+  144  code .
+  145  cat books.txt
+  146  man grep
+  147  grep Mill books.txt
+  148  ls
+  149  mv hello.txt goodbye.txt
+  150  ls
+  151  grep Mill books.txt | grep On
+  152  grep Mill books.txt | grep On | grep :
+  153  touch unit1/test.txt
+  154  touch ../tester.txt
+  155  cd ..
+  156  ls
+  157  cd cli-intro
+  158  history
+  159  history >> history.txt
+  160  ls
+  161  cat history.txt
+  162  ls
+  163  mv history.txt commandhistory.txt
+  164  ls
+  165  cat commandhistory.txt
+  166  cd ..
+  167  pwd
+  168  mkdir my-first-repo
+  169  cd my-first-repo
+  170  ls
+  171  touch index.html styles.css script.js
+  172  ls
+  173  git init
+  174  git --version
+  175  cd
+  176  ls -a
+  177  cd my-first-repo
+  178  cd unit1
+  179  pwd
+  180  cd seir-808
+  181  cd unit1
+  182  cd my-first-repo
+  183  cd
+  184  git config --global init.defaultBranch main
+  185  cd seir-808
+  186  cd unit1
+  187  cd my-first-repo
+  188  rm -rf .git
+  189  git init
+  190  ls -a
+  191  git status
+  192  git add index.html
+  193  git status
+  194  git commit -m "adds index.html file this message has to be here"
+  195  git status
+  196  git log
+  197  git add .
+  198  git status
+  199  git commit -m 'adds javascript and css files'
+  200  git status
+  201  echo 'git is super dope!' >>notes.txt
+  202  ls
+  203  git add .
+  204  git commit -m 'took some notes on git'
+  205  git status
+  206  ls
+  207  git remote add origin https://github.com/valerieyang00/first-repo-808.git
+  208  git remote -v
+  209  git branch -M main
+  210  git push origin main
+  211  cd ..
+  212  ls
+  213  rm tester.txt
+  214  ls
+  215  git clone https://github.com/valerieyang00/command-line-murder-mystery.git
+  216  ls
+  217  cd command-line-murder-mystery
+  218  ls
+  219  cat instructions
+  220  open .
+  221  cat hint1
+  222  ls
+  223  cd mystery
+  224  ls
+  225  cd ..
+  226  hint2
+  227  cat hint2
+  228  cat hint3
+  229  cat hint 4
+  230  cat hint4
+  231  cat hint5
+  232  cat hint6
+  233  cat hint7
+  234  cat hint8
+  235  cd mystery
+  236  ls
+  237  head -n 20 people
+  238  head -n vehicles
+  239  head -n 20 vehicles
+  240  head -n 20 crimescene
+  241  grep CLUE crimescene
+  242  grep Annabel people
+  243  cd ..
+  244  cat hint3
+  245  ls
+  246  cd mystery
+  247  ls
+  248  cd streets
+  249  ls
+  250  head -n 173 streets/Mattapan_Street | tail -n 1
+  251  head -n 173 Mattapan_Street | tail -n 1
+  252  head -n 40 Hart_Place | tail -n 1
+  253  head -n 179 Buckingham_Place | tail -n 1
+  254  head -n 176 Haley_Street | tail -n 1
+  255  cd ..
+  256  head -n 20 interviews
+  257  cat interviews
+  258  cd interviews
+  259  ls
+  260  head -n 20 interview-9437737
+  261  head -n 20 interview-47246024
+  262  head -n 20 interview-699607
+  263  cd ..
+  264  ls
+  265  memberships
+  266  ls
+  267  cat AAA
+  268  cd ..
+  269  ls
+  270  head -n 20 vehicles
+  271  man grep
+  272  grep -A "L337" vehicles
+  273  grep -A 'L337' vehicles
+  274  grep -A L337 vehicles
+  275  grep-A L337 vehicles
+  276  grep L337 vehicles
+  277  grep -A 5 L337 vehicles
+  278  ls
+  279  cd memberships
+  280  ls
+  281  head -n 20 AAA
+  282  head -n 20 Delta_SkyMiles
+  283  head -n 20 Museum_of_Bash_History
+  284  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+  285  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  286  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  287  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  288  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  289  history
+  290  cd ..
+  291  echo history >> history.txt
+  292  ls
+  293  open history.txt
+  294  history > history.txt
+  295  open history.txt
+  296  touch CommandResultsToSolve.txt
+  297  code CommandResultsToSolve.txt
+  298  history > history.txt
+  299  open history.txt
+  300  open CommandResultsToSolve.txt
+  301  ls
+  302  mv history.txt mystery/history.txt
+  303  ls
+  304  mv CommandResultsToSolve.txt mystery/CommandResultsToSolve.txt
+  305  ls
+  306  cd mystery
+  307  ls
+  308  open CommandResultsToSolve.txt
+  309  cd ..
+  310  pwd
