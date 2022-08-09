@@ -1,0 +1,283 @@
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    3  Not enough free disk space: a total of 8.68 GB is required.\n==> /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineT/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    4  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    5  \nbrew install git
+    6  git --version
+    7  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    8  brew doctor
+    9  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   10  \ngit config --global user.name "joshdewhurst"
+   11  \ngit config --global user.email "joshuardewhurst@gmail.com"
+   12  \ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+   13  \ngit config --global push.default simple\ngit config --global credential.helper cache
+   14  chsh -s /bin/zsh
+   15  sudo chsh -s /bin/zsh
+   16  \nbrew install --cask visual-studio-code
+   17  \nopen ~/.zshrc
+   18  export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+   19  open ~/.zshrc
+   20  open ~/.zshrc\n
+   21  \nopen ~/.zshrc
+   22  CODE
+   23  code
+   24  pwd
+   25  ls
+   26  ls -a
+   27  cd Desktop
+   28  mkdir seir-808
+   29  ls
+   30  cd seir-808
+   31  mkdir unit1
+   32  ls
+   33  cd unit1
+   34  pwd
+   35  mkdir cli-intro
+   36  ls
+   37  pwd cli-intro
+   38  cd cli-intro
+   39  pwd
+   40  touch notes.txt
+   41  ls
+   42  code.
+   43  code .
+   44  cat ntoes
+   45  cat notes.txt
+   46  mkdir my-junk
+   47  ls
+   48  mv notes.txt my-junk/notes.txt
+   49  ls
+   50  cd my-junk
+   51  ls
+   52  cd ..
+   53  touch file.txt .hidden-file other-file.js
+   54  ls
+   55  ls a
+   56  man ls
+   57  touch books.txt
+   58  code .
+   59  cat books.txt
+   60  Carroll, Lewis:Through the Looking-Glass\nShakespeare, William:Hamlet\nBartlett, John:Familiar Quotations\nMill, John :On Nature\nLondon, Jack:John Barleycorn\nBunyan, John:Pilgrim's Progress, The\nDefoe, Daniel:Robinson Crusoe\nMill, John Stuart:System of Logic, A\nMilton, John:Paradise Lost\nJohnson, Samuel:Lives of the Poets\nShakespeare, William:Julius Caesar\nMill, John Stuart:On Liberty\nBunyan, John:Saved by Grace\ncat books.txt
+   61  grep mill books.txt | grep On
+   62  cd ..
+   63  mkdir my-first-repo
+   64  ls
+   65  cd my-first-repo
+   66  touch index.html styles.css scripts.js
+   67  ls
+   68  git init
+   69  git --version
+   70  cd
+   71  ls
+   72  cd
+   73  rm.fr.git
+   74  pwd
+   75  cd unit1
+   76  cd my-first-repo
+   77  cd seir-808
+   78  pwd
+   79  cd desktop
+   80  cd seir-808
+   81  cd-unit1
+   82  cd Unit1
+   83  cd my-first-repo
+   84  rm -rf .git
+   85  cd
+   86  rm -rf .git
+   87  git config --global init.defaultBranch main
+   88  cd
+   89  pwd
+   90  cd desktop
+   91  cd Unit1
+   92  cd unit1
+   93  cd rei-808
+   94  cd seir-808
+   95  cd unit1
+   96  ls
+   97  cd my-first-repo
+   98  ls
+   99  cd
+  100  git init
+  101  cd
+  102  pwd
+  103  cd desktop/seir-808/unit1/my-first-rebo
+  104  cd desktop
+  105  cd seir-808
+  106  cd unit1
+  107  cd my-first-repo
+  108  ls -a
+  109  git status
+  110  git add index.html
+  111  git status
+  112  git commit
+  113  pwd
+  114  git status
+  115  cd
+  116  rm -rf -git
+  117  rm -rf
+  118  rm -rf .git
+  119  cd
+  120  cd my-first-repo
+  121  pwd
+  122  cd desktop
+  123  cd seir-808/unit1
+  124  cd my-first-repo
+  125  git init
+  126  git status
+  127  echo 'git is super dope' >> notes.txt
+  128  git status
+  129  git add .
+  130  git commit -m 'took some notes on git'
+  131  git status
+  132  get status
+  133  git status
+  134  git commit
+  135  cd
+  136  pwd
+  137  cd desktop/reir-808
+  138  cd desktop/seir-808
+  139  cd unit1/my-first-repo
+  140  git status
+  141  ls
+  142  git remmote add origin https://github.com/joshdewhurst/first-repo-808.git
+  143  git remote -v
+  144  git remote add origin https://github.com/joshdewhurst/first-repo-808.git
+  145  git remote -v
+  146  git branch -M main
+  147  git push origin main
+  148  git push
+  149  cd ..
+  150  git clone https://github.com/joshdewhurst/command-line-murder-mystery.git
+  151  ls
+  152  cd command-line-murder-mystery
+  153  ls
+  154  cat instructions
+  155  ls
+  156  cd mystery
+  157  ls
+  158  cd crimescene
+  159  ls
+  160  open crimescene
+  161  grep -r "CLUE" "crimescene"
+  162  open memberships
+  163  open interviews
+  164  grep -r "CLUE" "interviews"
+  165  open people
+  166  grep -r "Annabel" "people"
+  167  open streets
+  168  open interviews
+  169  open interview-47246024
+  170  open interview-9437737
+  171  cd interview
+  172  ls
+  173  cd interviews
+  174  open interview-9437737
+  175  cd ..
+  176  cd streets
+  177  ls
+  178  grip -r "Interview" "streets"
+  179  cd streets
+  180  open Buckingham_Place  
+  181  cd ..
+  182  cd interviews
+  183  open interview-699607
+  184  cd ..
+  185  cd cars
+  186  cd vehicles
+  187  ls
+  188  open vehicles
+  189  grip -r "L337" "vehicles"
+  190  grep -r "L337" "vehicles"
+  191  grep "Make: Honda|Color: Blue|L337" "vehicles"
+  192  grep -r "Make: Honda|Color: Blue|L337" "vehicles"
+  193  grep -r "Honda" "vehicles"
+  194  cd ..
+  195  cd myster
+  196  cd mystery
+  197  ls
+  198  cd people
+  199  grep -r "Erika Owens" "people"
+  200  open streets
+  201  ls
+  202  open interviews
+  203  cd interviews
+  204  open interview-5455315
+  205  cd ..
+  206  grep -r "Aron Pilkofer" "people"
+  207  grep -r "Aron Pilhofer" "people"
+  208  cd interviews
+  209  vi +145 "Claybourne_Street"
+  210  ls
+  211  cd seir-808
+  212  cd desktop
+  213  cd seir-808
+  214  cd unit1
+  215  ls
+  216  cd command-line-murder-mystery
+  217  ls
+  218  cd mystery
+  219  ls
+  220  cd streets
+  221  cd ..
+  222  grep -r "Aron Pilhofer" "people"
+  223  cd streets
+  224  grep "Interview" "Claybourne_Street"
+  225  ls
+  226  grep -r "Interview" "Claybourne_Street"
+  227  open Claybourne_Street
+  228  cd ..
+  229  open interviews
+  230  open interviews/interview-1767435
+  231  open people
+  232  cd people
+  233  grep -r "Heather Billings" "people"
+  234  cd streets
+  235  grep -r "Interview" "Culbert_Street"
+  236  ls
+  237  open Culbert_Street
+  238  cd ..
+  239  open interviews/interview-2939888
+  240  grep -r "Joe Germuska" "people"
+  241  open streets/Plainfield_Street
+  242  open interviews/interview-29741223
+  243  grep -r "Jeremey Bowers" "people"
+  244  grep -r "Jermy Bowers" "people"
+  245  grep "Jeremy Bowers" "people"
+  246  open streets/Dunstable_Road
+  247  open interviews/interview_9620713
+  248  grep -r "Jacqui Maher" "people"
+  249  open streets/Andover_Road
+  250  open interviews/interview-904020
+  251  grep -r "CLUE" "crimescene"
+  252  ls
+  253  cd ..
+  254  ls
+  255  open hint1
+  256  open hint2
+  257  open hint3
+  258  open hint4
+  259  open hint5
+  260  open hint6
+  261  open hint8
+  262  cd mystery
+  263  cd memberships
+  264  ls
+  265  cat AAA Delta_SkyMiles | grep "Jeremy"
+  266  cd ..
+  267  open intructions
+  268  cd instructions
+  269  ls
+  270  open instructions
+  271  open cheatsheet.pdf
+  272  ls
+  273  cd mystery
+  274  ls
+  275  Jeremy Bowers
+  276  open people
+  277  ls
+  278  cd ..
+  279  open README.md
+  280  open instructions
+  281  cd mystery
+  282  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda
+  283  cd ..
