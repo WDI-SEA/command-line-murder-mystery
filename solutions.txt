@@ -1,0 +1,330 @@
+    1  sysctl machdep.cpu.brand_string
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    3  brew doctor
+    4   xcode-select --install
+    5  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    6  brew install git
+    7  git --verson
+    8  git --version
+    9  git config --global user.name aimeepham14
+   10  git config --global user.email aimee.pham14@gmail.com
+   11  git config --global push.default simple\ngit config --global credential.helper cache
+   12  git config --global core.editor 'code -w'\n
+   13  git config --global --list
+   14  brew install --cask visual-studio-code
+   15  code
+   16  pwd
+   17  ls
+   18  ls -a
+   19  cd Desktop
+   20  ls
+   21  cd ..
+   22  Desktop cd ..
+   23  cd . 
+   24  pwd
+   25  mkdir seir-808
+   26  ls
+   27  cd seir-808
+   28  ls
+   29  ls -a
+   30  mkdir unit1
+   31  cd unit1
+   32  pwd
+   33  mkdir cli-intro
+   34  cd cli-intro
+   35  pwd
+   36  touch notes.txt
+   37  ls
+   38  code . 
+   39  cat notes.txt
+   40  mkdir my-junk
+   41  ls
+   42  mv notes.txt my-junk/notes.txt
+   43  ls
+   44  touch ../example
+   45  ls ..
+   46  mv ../example my- junk/example
+   47  ls
+   48  ls ..
+   49  ls my-junk
+   50  mv ../example my- junk/example
+   51  touch file.txt .hidden-file other-file.js
+   52  ls
+   53  mv ../example my-junk/example
+   54  ls
+   55  man ls
+   56  ls -l
+   57  ls -al
+   58  ls -R
+   59  ls -Rla
+   60  ls
+   61  rm file.txt
+   62  ls
+   63  man rm
+   64  rm -rf my-junk
+   65  ls
+   66  echo 'hello world!'
+   67  echo 'hello redirection' >> hello.txt
+   68  ls
+   69  cat hello.txt
+   70  echo 'new thing' >> hello.txt
+   71  cat hello.txt
+   72  echo 'newest thing' > hello.txt
+   73  cat hello.txt
+   74  touch books.txt
+   75  code .
+   76  cat books.txt
+   77  man grep
+   78  grep Mill books.txt
+   79  grep Mill books.txt | grep On 
+   80  history
+   81  history >> history.txt
+   82  ls
+   83  cd ..
+   84  pwd
+   85  mkdir my-first-repo
+   86  cd my-first-repo
+   87  ls
+   88  touch index.html styles.css script.js
+   89  ls
+   90  git init
+   91  git --version
+   92  cd
+   93  rm -rf .git
+   94  pwd
+   95  ls
+   96  cd seir-808
+   97  ls
+   98  cd unit1
+   99  ls
+  100  cd my-first-repo
+  101  cd
+  102  git config --global init.defaultBranch main
+  103  cd seir-808/unit1
+  104  ls
+  105  cd my-first-repo
+  106  cd
+  107  cd seir-808
+  108  cd unit1
+  109  cd my-first-repo
+  110  git config --global init.defaultBranch main
+  111  rm -rf .git
+  112  git init
+  113  ls -a
+  114  git status
+  115  git add index.html
+  116  git status
+  117  git commit -m "adds index.html file this message has to be here"
+  118  git status
+  119  ls
+  120  get add .
+  121  git add .
+  122  git status
+  123  git commit -m "adds javascript and css files"
+  124  git status
+  125  man git add
+  126  man git-add
+  127  man git-status
+  128  echo 'git is super dope!' >> notes.txt
+  129  ls
+  130  git status
+  131  git add .
+  132  git status
+  133  git commit -m "took some notes on git"
+  134  git status
+  135  ls
+  136  git remote add origin https://github.com/aimeepham14/first-repo-808.git
+  137  git remote -v
+  138  git branch -M main
+  139  git push origin main
+  140  cd ..
+  141  ls
+  142  git clone https://github.com/aimeepham14/command-line-murder-mystery.git
+  143  ls
+  144  cd command-line-murder-mystery
+  145  ls
+  146  cat cheatsheet.md
+  147  ls
+  148  cat instructions
+  149  cd mystery
+  150  ls
+  151  cd crimescene
+  152  ls -a
+  153  grep CLUE mystery
+  154  grep CLUE crimescene
+  155  cat hint2
+  156  ..cd
+  157  cd .. 
+  158  cat hint2
+  159  cat hint3
+  160  ls
+  161  \t/files$ head names.txt
+  162  cd mystery
+  163  \t/files$ head names.txt
+  164  ls
+  165  cd people
+  166  \t/files$ head people.txt
+  167  cd memberships
+  168  ls
+  169  cd Delta_SkyMiles
+  170  ls -l
+  171  \t/files$ head names.txt
+  172  /command-line-murder-mystery head names.txt
+  173  /command-line-murder-mystery$  head names.txt
+  174  /memberships head names.txt
+  175  pwd
+  176  /Users/aimeepham/seir-808/unit1/command-line-murder-mystery/mystery/memberships head names.txt
+  177  /Users/aimeepham/seir-808/unit1/command-line-murder-mystery/mystery/memberships/Delta_SkyMiles head names.txt\n
+  178  /Users/aimeepham/seir-808/unit1/command-line-murder-mystery/mystery/memberships/Delta_SkyMiles head\n
+  179  cd ..
+  180  cd people
+  181  pwd
+  182  /Users/aimeepham/seir-808/unit1/command-line-murder-mystery/mystery head people.txt
+  183  /Users/aimeepham/seir-808/unit1/command-line-murder-mystery/mystery head people
+  184  head -n 20 membership.md
+  185  head -n 20 Delta_SkyMiles
+  186  head -n20 cheatsheet.md
+  187  head -n 20 cheatsheet.md
+  188  head -n20 mystery.md
+  189  cd --
+  190  owd
+  191  pwd
+  192  ls
+  193  seir-808
+  194  ls
+  195  cd unit1
+  196  ls
+  197  cd command-line-murder-mystery
+  198  head -n 20 cheatsheet.md
+  199  ls
+  200  mystery
+  201  cd ..
+  202  cat hint5
+  203  cat hint6
+  204  cat hint1
+  205  cd mystery
+  206  ls
+  207  grep Annabel
+  208  pwd
+  209  ls
+  210  seir-808 cd
+  211  cd seir-808
+  212  ls
+  213  cd unit1
+  214  ls
+  215  cd command-line-murder-mystery
+  216  ls
+  217  cat hint1
+  218  cd mystery
+  219  ls
+  220  grep Annabel people.txt
+  221  grep Annabel mystery.md
+  222  cd..
+  223  cd ..
+  224  cat hint2
+  225  cat hint3
+  226  cat hint4
+  227  cat hint5
+  228  cat hint6
+  229  cat hint7
+  230  cat hint8
+  231  cd mystery
+  232  grep CLUE mystery
+  233  ls
+  234  grep CLUE crimescene
+  235  grep "Annabel" people
+  236  cd ..
+  237  cd interviews
+  238  cd mystery
+  239  cd interviews
+  240  ls
+  241  grep "Annabel" interviews
+  242  cd ..
+  243  cd streets
+  244  ls
+  245  \thead -n 173 streets/Mattapan_Street | tail -n 1
+  246  head -n 176 Haley_Street
+  247  cd  Mattapan_Street 
+  248  cd ..
+  249  cd interviews
+  250  ls
+  251  grep "Annabel" people
+  252  grep "Annabel" interviews
+  253  cd ..
+  254  cd streets
+  255  ls
+  256  cd Haley_Street
+  257  grep "Haley_Street" interviews
+  258  \thead -n 173 streets/Mattapan_Street | tail -n 1\n
+  259  cd ..
+  260  interviews
+  261  \thead -n 173 streets/Mattapan_Street | tail -n 1\n
+  262  code .
+  263  \thead -n 176 streets/Haley_Street | tail -n 1\n
+  264  cd ..
+  265  streets
+  266  code .
+  267  cd --
+  268  pwd
+  269  ls
+  270  cd seir-808
+  271  ls
+  272  cd unit1
+  273  ls
+  274  cd command-line-murder-mystery
+  275  cd interviews
+  276  cd mystery
+  277  cd interviews
+  278  code .
+  279  cd ..
+  280  cd streets
+  281  code .
+  282  cd ..
+  283  cd interviews
+  284  code .
+  285  cd ..
+  286  cd streets
+  287  code .
+  288  cd ..
+  289  cd interviews
+  290  code .
+  291  cd ..
+  292  grep -A 5 "L337" mystery/vehicles
+  293  cd vehicles
+  294  code .
+  295  grep "Honda" vehicles\n
+  296  grep "Blue" vehicles\n\n
+  297  \tgrep -A 5 "L337" mystery/vehicles
+  298  \tgrep -A 5 "L337" vehicles
+  299  ls
+  300  cd memberships
+  301  ls
+  302  \tcat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Jeremy Bowers"
+  303  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Al Shaw" 
+  304  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Katie Park"
+  305  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Mike Bostock"
+  306  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "John Keefe"
+  307  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Erika Owens"
+  308  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Matt Waite"
+  309  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Brian Boyer"
+  310  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Aron Pilhofer"
+  311  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Jacqui Maher"
+  312  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Joe Germuska"
+  313  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Heather Billings"
+  314  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History | grep "Miranda Mulligan"
+  315  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  316  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History Terminal_City_Library | grep "Mike Bostock"
+  317  cat Delta_SkyMiles AAdvantage Museum_of_Bash_History Terminal_City_Library | grep "Brian Boyer"
+  318  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep "Brian Boyer"  
+  319  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"  \n
+  320  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep "Aron Pilhofer"
+  321  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep "Matt Waite"
+  322  cat Delta_SkyMiles AAA Museum_of_Bash_History Terminal_City_Library | grep "Miranda Mulligan"
+  323  cd ..
+  324  code .
+  325  cd ..
+  326  cd command-line-murder-mystery
+  327  ls
+  328  touch solutions.txt
+  329  ls
+Jeremy Bowers
