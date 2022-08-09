@@ -1,0 +1,5892 @@
+    1  clear
+    2  brew install valgrind
+    3  clear
+    4  cd
+    5  clear
+    6  cd sei-425
+    7  cd unit1
+    8  ls
+    9  mkdir DOM-intro
+   10  cd DOM-intro
+   11  mkdir js css
+   12  touch index.html ./js/script.js ./css/styles.css
+   13  ls
+   14  ls -R
+   15  code .
+   16  cd /
+   17  ls -R
+   18  code .
+   19  open index.html
+   20  code .
+   21  top
+   22  git init 
+   23  git add -A
+   24  git commit -m 
+   25  git commit -m 'init commit'
+   26  git remote add origin https://github.com/weston-bailey/425-DOM-intro.git\ngit branch -M main\ngit push -u origin main
+   27  git remote set-url origin git@github.com:weston-bailey/425-DOM-intro.git
+   28  git push origin main
+   29  git status
+   30  git commit -m 'finish lesson'
+   31  git add .
+   32  git commit -m 'finish lesson'
+   33  git push origin main
+   34  git status
+   35  git diff
+   36  git status
+   37  git add .
+   38  git commit -m '\nsave\n'
+   39  git push origin main
+   40  cd sei-425
+   41  cd unit1
+   42  mkdir callbacks-timing
+   43  cd callbacks-timing
+   44  mkdir js
+   45  touch index.html ./js/script.js
+   46  ls -R
+   47  code .
+   48  open index.html
+   49  git add .
+   50  git commit -m 'break\n'
+   51  clear
+   52  git init
+   53  git add -A
+   54  git commit -m 'break'
+   55  clear
+   56  git add .
+   57  git statys
+   58  git status
+   59  git commit -m 'finish lesson'
+   60  git remote add origin git@github.com:weston-bailey/425-callbacks-timing-functions.git\ngit branch -M main\ngit push -u origin main
+   61  code .
+   62  pbcoy
+   63  pbcopy
+   64  man pbcopy
+   65  open index.html
+   66  cd current-projects
+   67  mkdir randomizer
+   68  cd randomizer
+   69  vim randomizer.py
+   70  cd current-projects/randomizer
+   71  ls
+   72  vim randomizer.py
+   73  vim students.json
+   74  code .
+   75  python3 randomizer.py
+   76  cat students.json
+   77  code .
+   78  cp students.json students.b.json
+   79  python randomizer.py
+   80  cat students.json
+   81  rm students.json
+   82  cp students.b.json students.json
+   83  touch reset.sh
+   84  vim reset.sh
+   85  python3 randomizer.py
+   86  vim students.json
+   87  sh ./reset.sh
+   88  ls
+   89  cat students.
+   90  cat students.json
+   91  vim Makefile
+   92  nodemon --exec "make | exit 1" -e .py
+   93  make
+   94  nodemon --exec make -e .py
+   95  make
+   96  git init
+   97  git add randomizer.py
+   98  git add reset.sh
+   99  git commit -m 'init commit'
+  100  cat students.json
+  101  python3 randomizer.py --make
+  102  cat students.json
+  103  make clean
+  104  python3 randomizer.py --make
+  105  cat students.json
+  106  make clean
+  107  python3 randomizer.py --next
+  108  git add Makefile
+  109  git add randomizer.py
+  110  git status
+  111  echo *.swp > .gitignore
+  112  echo '*.swp' > .gitignore
+  113  git status
+  114  git add .
+  115  git commit -m 'adds randomizer'
+  116  git status
+  117  git remote add origin git@github.com:weston-bailey/student-randomizer.git\ngit branch -M main\ngit push -u origin main
+  118  vim ~/.zshrc
+  119  next
+  120  zsh
+  121  sr -m
+  122  zsh
+  123  sr
+  124  sr -n
+  125  zsh
+  126  sr
+  127  zsh
+  128  srm
+  129  vim randomizer.py
+  130  clear
+  131  cd current-projects
+  132  cd randomizer
+  133  ls
+  134  git status
+  135  vim randomizer.py
+  136  vim README.md
+  137  vim ~/.zshrc
+  138  git status
+  139  git commit -m 'adds md'
+  140  git add .
+  141  git commit -m 'README.md'
+  142  git push origin main
+  143  clear
+  144  sr
+  145  cd current-projects/randomizer
+  146  code .
+  147  sr
+  148  cd
+  149  sr
+  150  cd current-projects/randomizer
+  151  code .
+  152  cd
+  153  sr
+  154  git add .
+  155  git commit -m 'now works from anywhere'
+  156  git push origin main
+  157  sr
+  158  srm
+  159  clear
+  160  cd sei-425
+  161  ls
+  162  cd unit1
+  163  git clone git@github.com:WDI-SEA/js-clock-intervals-exercise.git
+  164  cd js-clock-intervals-exercise
+  165  sr
+  166  srm
+  167  code .
+  168  open index.html
+  169  git add .
+  170  git commit -m 'finish lab'
+  171  git checkout -b 425-solution
+  172  git push origin 425-solution
+  173  rs
+  174  sr
+  175  open index.html
+  176  srm
+  177  cd
+  178  cd current-projects
+  179  ls
+  180  cd randomizer
+  181  git status
+  182  git pull origin main
+  183  git add .
+  184  git commit -m 'pulling'
+  185  git pull origin main
+  186  code .
+  187  pyenv shell 3.7.7
+  188  git status
+  189  git add .
+  190  git commit -m 'updates documentation'
+  191  git push origin main
+  192  vim randomizer.py
+  193  cd
+  194  clear
+  195  cd current-projects
+  196  cd randomizer
+  197  cp students.json state
+  198  cd
+  199  rs
+  200  sr
+  201  rs
+  202  sr
+  203  srm
+  204  clear
+  205  rm state
+  206  cd current-projects
+  207  cd randomizer
+  208  rm state
+  209  ls
+  210  git status
+  211  cd .
+  212  srm
+  213  rs
+  214  man rs
+  215  sr 
+  216  srm
+  217  clear
+  218  sr
+  219  clear
+  220  cd current-projects/randomizer
+  221  ls
+  222  vim randomizer.py
+  223  sr
+  224  git status
+  225  echo students.* >> .gitignore
+  226  git status
+  227  git rm -rf --cached students.*
+  228  git add .
+  229  git commit -m 'closes file on script end and git ignores student.*'
+  230  git push origin main
+  231  cp students.json ../students.json
+  232  rm -rf students.json
+  233  rm -rf students.b.json
+  234  git add .
+  235  git commit -m 'banish the student files'
+  236  git push origin main
+  237  cp ../students.json students.json
+  238  git status
+  239  cat .gitignore
+  240  vim .gitignore
+  241  git add .gitignore
+  242  git commit -m 'oops'
+  243  git push origin main
+  244  srm
+  245  cat students.json
+  246  srm
+  247  cat students.json
+  248  srm
+  249  cat students.json
+  250  clear
+  251  sr
+  252  srm
+  253  clear
+  254  ping www.google.com
+  255  sr
+  256  srm
+  257  clear
+  258  cd
+  259  cd .ssh
+  260  la
+  261  ls
+  262  cat congic
+  263  cat config
+  264  git config --global core.editor vim
+  265  cd
+  266  cd current-projects
+  267  ls
+  268  cd canvas-ss
+  269  git init
+  270  git add .
+  271  git commit
+  272  cd ..
+  273  cd randomizer
+  274  lds
+  275  ls
+  276  code .
+  277  sr
+  278  srm
+  279  sr
+  280  git status
+  281  git add .
+  282  git commit
+  283  git push origin main
+  284  sr
+  285  ls
+  286  vim students.json
+  287  srm
+  288  ipython
+  289  python3
+  290  sr
+  291  srm
+  292  clear
+  293  git clone git@github.com:weston-bailey/bracket-matcher.git
+  294  cd bracket-matcher
+  295  git checkout -b dev
+  296  vim .
+  297  code .
+  298  vim README.md
+  299  git status
+  300  git add .
+  301  git commit -m 'psudocode'
+  302  vim solution.py
+  303  nodemon --exec python3 solution -e .py
+  304  nodemon --exec "python3 solution | exit 1" -e .py
+  305  nodemon --exec "python3 solution.py | exit 1" -e .py
+  306  python3 solution.py
+  307  python3 -m -pdb solution.py
+  308  python3 -m pdb solution.py
+  309  vim solution.py
+  310  python3 -m pdb solution.py
+  311  python3
+  312  python
+  313  clear
+  314  rm -rf sei
+  315  cd sei-425
+  316  git clone git@github.com:weston-bailey/homework-cloner.git
+  317  cd homework-cloner
+  318  cd spring-forward
+  319  cd homework-cloner
+  320  vim config.json
+  321  ls
+  322  vim config
+  323  vim config.json
+  324  node cloneHw.js sei-tic-tac-toe
+  325  cat config.json
+  326  node cloneHw.js --updateall
+  327  node cloneHw.js --updateAll
+  328  node cloneHw.js --updateAll --overWrite
+  329  node cloneHw.js --updateAll
+  330  cd sei-tic-tac-toe
+  331  cd Angelika-Selviyan
+  332  code .
+  333  cd ..
+  334  ls
+  335  node cloneHw.js --updateAll
+  336  cd sei-tic-tac-toe
+  337  code .
+  338  cd ..
+  339  code .
+  340  node cloneHw.js --updateAll
+  341  node
+  342  node cloneHw.js --updateAll
+  343  srm
+  344  sr
+  345  cd current-projects/randomizer
+  346  LS
+  347  vim students.json
+  348  cd
+  349  cd sei-425
+  350  cd homework-cloner
+  351  cd sei-tic-tac-toe
+  352  code .
+  353  cd
+  354  cd current-projects/randomizer
+  355  code .
+  356  cd current-projects
+  357  mkdir grid
+  358  cd grid
+  359  touch grid-one.html
+  360  open grid-one.html
+  361  code .
+  362  open grid-one.html
+  363  cd ..
+  364  ls
+  365  cd bracket-matcher
+  366  code .
+  367  vim solution.py
+  368  nodemon --exec python3 solution -e .py
+  369  nodemon --exec python3 solution.py -e .py
+  370  npm i -g nodemon
+  371  python3 -m pdb solution.py
+  372  nodemon --exec python3 solution.py -e .py
+  373  vim solution.py
+  374  git status
+  375  git add .
+  376  git commit
+  377  cd sei-425
+  378  ls
+  379  rm -rf command-line-murder-mystery
+  380  mkdir instr
+  381  cd instr
+  382  mkdir responsive-design
+  383  cd responsive-design
+  384  touch index.html
+  385  vim index.html
+  386  mkdir grid.html
+  387  code .
+  388  mkdir css
+  389  touch css/styles.css
+  390  cd sei-425/instr/responsive-design
+  391  touch todo.html
+  392  code .
+  393  cd ..
+  394  git clone git@github.com:weston-bailey/deliverable-template.git
+  395  cd deliverable-template
+  396  rm -rf .git
+  397  ls
+  398  touch index.html
+  399  vim index.html
+  400  code .
+  401  git add .
+  402  git init
+  403  git add -A
+  404  git commit
+  405  git add README.md
+  406  git commit 
+  407  git checkout solution
+  408  git checkout -b solution
+  409  git checkout main
+  410  rm index.html
+  411  rm -rf scripts
+  412  git status
+  413  git add -A
+  414  git commit -m 'unsolve'
+  415  git add .
+  416  git commit -m 'update name of repo in md'
+  417  git add .
+  418  git commit -m 'update name of repo in md'
+  419  git remote add origin git@github.com:WDI-SEA/js-dom-form-todo-list.git\ngit branch -M main\ngit push -u origin main
+  420  git checkout solution 
+  421  git push origin solution
+  422  cd sei-425/instr
+  423  mkdir temp-starter
+  424  cd temp-starter
+  425  mkdir scripts
+  426  touch index.html scripts/app.js
+  427  code .
+  428  git status
+  429  git init
+  430  git add .
+  431  git commit -m 
+  432  git commit -m 'init commit'
+  433  git remote add origin git@github.com:weston-bailey/425-form-starter.git\ngit branch -M main\ngit push -u origin main
+  434  git add .
+  435  git commit -m 'unbreaks'
+  436  git push origin main
+  437  files=("f1.txt" "f2.txt" "f3.txt" "f4.txt" "f5.txt")
+  438  echo ${files[1]}
+  439  echo files[1]
+  440  echo $(files[1])
+  441  echo {files[*]}
+  442  files[0]="a.txt"
+  443  files[1]="a.txt"
+  444  files+=("abc.txt")
+  445  echo ${files[*]}
+  446  unset files[2]
+  447  echo ${files[*]}
+  448  echo $files[2]
+  449  echo $files[@]
+  450  echo $#files[@]
+  451  echo $#files[*]
+  452  echo $files[*]
+  453  unset files[2]
+  454  echo $files[0]
+  455  echo $files[1]
+  456  echo $files[0]='xyz.txt'
+  457  files[0]='xyz.txt'
+  458  files[8]='xyz.txt'
+  459  echo $files[@]
+  460  unset files[3]
+  461  unset $0files[3]
+  462  unset $files[3]
+  463  unset files[2]
+  464  unset $files[2]
+  465  unset files
+  466  echo $files[@]
+  467  clear
+  468  cd sei-425/unit1
+  469  mkdir css-grid
+  470  cd css-grid
+  471  touch grid.html
+  472  code .
+  473  open grid.html
+  474  clear
+  475  touch layout.html
+  476  open layout.html
+  477  git init
+  478  git add .
+  479  git commit -m 'finish lesson'
+  480  git remote add origin git@github.com:weston-bailey/425-css-grid.git\ngit branch -M main\ngit push -u origin main
+  481  cd ...
+  482  cd instr
+  483  la
+  484  ls
+  485  cd responsive-design
+  486  ls
+  487  cat grid.html
+  488  cat index.html
+  489  cat *
+  490  ls
+  491  cat css/*
+  492  ls
+  493  open index.html
+  494  code .
+  495  clear
+  496  cd
+  497  clear
+  498  cd sei-425/unit1
+  499  git clone git@github.com:WDI-SEA/CSS-Grid-Art.git
+  500  cd CSS-Grid-Art
+  501  code .
+  502  git checkout origin/wb-solution 
+  503  cd ..
+  504  mkdir responsice
+  505  mkdir responsive
+  506  rmdir responsice
+  507  cd responsive
+  508  mkdir styles
+  509  touch index.html styles/rules.css
+  510  code .
+  511  open index.html
+  512  touch flex.html
+  513  open flex.html
+  514  code .
+  515  clear
+  516  cd
+  517  clear
+  518  cd sei-425/unit1
+  519  mkdir color-quilt
+  520  cd color-quilt
+  521  mkdir css js
+  522  touch index.html css/main.css scripts/app.js
+  523  touch index.html css/main.css js/app.js
+  524  ls -R
+  525  code .
+  526  open index.html
+  527  git init
+  528  git add -A
+  529  git commit
+  530  git remote add origin git@github.com:weston-bailey/425-color-quilt.git\ngit branch -M main\ngit push -u origin main
+  531  open index.html
+  532  git add .
+  533  git commit 
+  534  git push origin main
+  535  git status
+  536  git add .
+  537  git commit -m 'breaktime\n'
+  538  git push origin main
+  539  git add .
+  540  git commit -m 'finish lesson'
+  541  git push origin main
+  542  git add .
+  543  git commit -m 'adds bonus'
+  544  git push origin main
+  545  cd sei-425
+  546  ls
+  547  cd homework-cloner
+  548  node cloneHw.js --updateAll
+  549  code .
+  550  git status
+  551  git restore config.json
+  552  git restore cloneHw.js
+  553  git status
+  554  clear
+  555  cling
+  556  cd 
+  557  cd current-projects
+  558  ls
+  559  mkdir mem-print
+  560  cd m
+  561  cd mem-print
+  562  vim main.c
+  563  make main
+  564  main
+  565  make main
+  566  ./main
+  567  make
+  568  make main
+  569  ./main
+  570  make main
+  571  ./main
+  572  make main
+  573  rm main
+  574  make main
+  575  main
+  576  ./mian
+  577  ./main
+  578  make main
+  579  ./main
+  580  make main
+  581  ./main
+  582  make main
+  583  ./main
+  584  make main
+  585  ./main
+  586  cd current-projects
+  587  ls
+  588  cd nextjs-portfolio
+  589  ls
+  590  code .
+  591  git status
+  592  git digg
+  593  git diff
+  594  git add .
+  595  git commit -m 
+  596  git commit '_'
+  597  npm run dev
+  598  git add .
+  599  git commit -m 'removes soundcloud'
+  600  git push origin main
+  601  git status
+  602  git add .
+  603  git commit -m 'reverting deploy'
+  604  git checkout dev
+  605  git checkout development 
+  606  git status
+  607  npm run dev
+  608  git merge main
+  609  git log
+  610  git checkout 88cec0e43da32887d6a1f7f08c85e40a7de69ed7
+  611  git checkout deploy
+  612  git checkout -b  deploy
+  613  git status
+  614  git push origin deploy
+  615  cd sei-425/unit1
+  616  mkdir color-picker
+  617  cd color-picker
+  618  mkdir css js
+  619  touch index.html css/main.css js/script.js
+  620  rm js/script.js
+  621  touch js/app.js
+  622  code .
+  623  cd ..
+  624  mkdir html-forms
+  625  cd html-forms
+  626  mkdir js
+  627  touch index.html js/script.js
+  628  code .
+  629  open index.html
+  630  git init
+  631  git add .
+  632  git commit -m 'finish lesson'
+  633  git remote add origin git@github.com:weston-bailey/425-form-intro.git\ngit branch -M main\ngit push -u origin main
+  634  cd s
+  635  cd sei-425
+  636  ls
+  637  cd instr
+  638  ls
+  639  git clone git@github.com:WDI-SEA/js-dom-form-todo-list.git
+  640  cd
+  641  ls
+  642  cd Documents
+  643  ls
+  644  cd ..
+  645  ls
+  646  cp -R spring-forward Documents/old-cohorts
+  647  cd sei-425
+  648  cd instr
+  649  ls
+  650  cd js-dom-form-todo-list
+  651  git checkout solution 
+  652  code .
+  653  git add -A
+  654  git commit -m 'updates solution comments'
+  655  git push origin main
+  656  open index.html
+  657  git add .
+  658  git commit -m 'updates headers in solution to be more semantic'
+  659  git push origin solution
+  660  cd ..
+  661  git clone git@github.com:WDI-SEA/js-debugger.git
+  662  cd js-d
+  663  cd js-debugger
+  664  mkdir .github
+  665  touch .github/PULL_REQUEST_TEMPLATE.md
+  666  vim .github/PULL_REQUEST_TEMPLATE.md
+  667  git status
+  668  git add .
+  669  git commit -m 'adds pr template'
+  670  git push origin main
+  671  cd ..
+  672  git clone git@github.com:WDI-SEA/Microsoft-Mock.git
+  673  cd Microsoft-Mock
+  674  mkdir .github
+  675  vim .github/PULL_REQUEST_TEMPLATE.md
+  676  git add .
+  677  git commit -m 'adds pr template'
+  678  git push origin main
+  679  cd ..
+  680  cd ,,
+  681  cd ..
+  682  ls
+  683  cd unit1
+  684  ls
+  685  clear
+  686  git clone git@github.com:WDI-SEA/js-dom-form-todo-list.git
+  687  cd js-dom-form-todo-list
+  688  ls
+  689  touch index.html 
+  690  mkdir js
+  691  touch js/app.js
+  692  code .
+  693  open index.html
+  694  git add .
+  695  git commit -m 'solve'
+  696  git checkout -b 425-solution
+  697  git push origin 425-solution 
+  698  cd gitbook-notes
+  699  git pull upstream master
+  700  code .
+  701  git add .
+  702  git commit -m 'updates p1 md reqs and changes p1/p2 grading to pass/fail'
+  703  git push origin master
+  704  gh pr create
+  705  clear
+  706  cd
+  707  clear
+  708  cd sei-425/unit1
+  709  git clone git@github.com:WDI-SEA/etch_a_sketch.git
+  710  cd etch_a_sketch
+  711  code .
+  712  open index.html
+  713  git add .
+  714  git status
+  715  git add .
+  716  git commit -m 'finish review'
+  717  git checkout -b 425-solution
+  718  git push origin 425-solution 
+  719  cd ..
+  720  clear
+  721  sr
+  722  cd
+  723  cd current-projects
+  724  ls
+  725  cd randomizer
+  726  ls
+  727  code .
+  728  cd ..
+  729  cd
+  730  clear
+  731  cd sei-425/unit1
+  732  git clone git@github.com:WDI-SEA/lab-create-your-own-js-class.git
+  733  cd lab-create-your-own-js-class
+  734  code .
+  735  top
+  736  pkill 152
+  737  top
+  738  git add .
+  739  git commit -m 'finish review'
+  740  git checkout -b 425-review
+  741  git push origin 425-review 
+  742  cd
+  743  clear
+  744  cd sei-425
+  745  cd unit1
+  746  git clone git@github.com:WDI-SEA/canvas-crawler.git
+  747  cd canvas-crawler
+  748  code .
+  749  git add .
+  750  git commit -m 'finish lesson'
+  751  git checkout -b 425-codealong
+  752  git push origin 425-codealong 
+  753  cd sei-425
+  754  git clone git@github.com:weston-bailey/Hyperdrive.git
+  755  cd Hyperdrive
+  756  git log
+  757  git checkout 22ecac2a16fa8bf3760e82f47bbc540f6acff92e
+  758  open index.html
+  759  git log
+  760  git checkout 9f71d4eedf6aaddb206cc6c139a4b127647cdee
+  761  open index.html
+  762  git checkout master
+  763  git log
+  764  git checkout 29f71d4eedf6aaddb206cc6c139a4b127647cdee
+  765  open index.html
+  766  cd ..
+  767  rm -rf Hyperdrive
+  768  cd gitbook-notes
+  769  code .
+  770  git status
+  771  git add .
+  772  git commit -m 'updates tech reqs of p1 to reflect rubric'
+  773  git push origin master
+  774  gh pr create
+  775  cd
+  776  cd sei-425
+  777  ls
+  778  cd unit1
+  779  cd lab-create-your-own-js-class
+  780  git checkout origin/wb-solve 
+  781  git checkout main
+  782  git checkout wb-solve 
+  783  vim scripts/bank-class.js
+  784  open index.html
+  785  git status
+  786  git add .
+  787  git commit -m 'updates solve'
+  788  git push origin wb-solve 
+  789  cd current-projects
+  790  cd bracket-matcher
+  791  ls
+  792  git checkout main
+  793  git rebase main
+  794  git checkout master
+  795  git rebase main
+  796  git rebase dev
+  797  git push origin master
+  798  vim solution.py
+  799  vim main
+  800  vim so
+  801  vim solution.py
+  802  vim main.py
+  803  python3 main.py
+  804  vim main.py
+  805  python3 main.py
+  806  vim main.py
+  807  python3 main.py
+  808  vim main.py
+  809  python3 main.py
+  810  vim solution.py
+  811  python3 main.py
+  812  git status
+  813  echo __pycache__ >> .gitignore
+  814  git statu
+  815  git status
+  816  echo *.swp >> .gitignore
+  817  git status
+  818  git add .
+  819  git commit -m 'adds edge case'
+  820  git push origin main
+  821  git push origin master
+  822  rm .main.py.swp
+  823  git add .
+  824  git commit -m 'removese swap file'
+  825  git push origin main
+  826  git push origin master
+  827  vim solution.py
+  828  python solution.py
+  829  python main.py
+  830  git add .
+  831  vim solution.py
+  832  python main.py
+  833  python solution.py
+  834  git add .
+  835  git status
+  836  git commit -m 'removes uneeded case handling'
+  837  git push origin master
+  838  cd current-projects/bracket-matcher
+  839  vim solution.py
+  840  python main.py
+  841  python solution.py
+  842  cat solution.py
+  843  python solution.py
+  844  vim solution.py
+  845  git add .
+  846  git commit -m 'removes uneeded case handling'
+  847  git push origin master
+  848  cd sei-425
+  849  cd unit1
+  850  mkdir project
+  851  mkdir project-1
+  852  cd project-1
+  853  touch README.md
+  854  code .
+  855  git init 
+  856  git add .
+  857  git commit -m 'init commit'
+  858  git status
+  859  git remote add origin git@github.com:weston-bailey/super-cool-game.git\ngit branch -M main\ngit push -u origin main
+  860  git pish-u origin
+  861  git push -u main
+  862  git push -u origin main
+  863  git remote -v
+  864  ma git-push
+  865  man git-push
+  866  cd current-projects
+  867  ls
+  868  ls -l
+  869  cd bot
+  870  ls
+  871  . ./venv/bin/activate
+  872  vim main.py
+  873  ld
+  874  https://docs.google.com/spreadsheets/d/19toOfFv-kgNwXTTPMNukQReBWQt3bPPbhsgO64C4KNw/edit\#gid\=288598192clear
+  875  clear
+  876  ls
+  877  cat secret
+  878  echo https://ssl.reddit.com/prefs/apps/ >> secret
+  879  cat secret
+  880  echo "id: uyhN1Mv653QfqrqHdbBhcw" >> secret
+  881  git status
+  882  cat .gitignore
+  883  echo *.swp >> .gitignore
+  884  echo "*.swp" >> .gitignore
+  885  cat .gitignore
+  886  python3 main.py
+  887  . ./venv/bin/activate
+  888  python main.py
+  889  cat secret
+  890  python main.py
+  891  echo https://praw.readthedocs.io/en/stable/index.html >> secret
+  892  nodemon --exec python3 main.py -e .py
+  893  vim praw.ini
+  894  nodemon --exec python3 main.py -e .py
+  895  vim main.py
+  896  nodemon --exec python3 main.py -e .py
+  897  vim main.py
+  898  nodemon --exec python3 main.py -e .py
+  899  pip install python-dotenv
+  900  touch .env
+  901  echo .env >> .gitignore
+  902  ls
+  903  echo praw.ini >> .gitignore
+  904  touch README.md
+  905  echo '# One day I will do great things' >> README.md
+  906  cat README.md
+  907  ls
+  908  touch .env
+  909  vim .env
+  910  nodemon --exec python3 main.py -e .py
+  911  code .
+  912  source /Users/void/current-projects/bot/venv/bin/activate
+  913  git status
+  914  git add .
+  915  git status
+  916  git commit -m 'adds reply bot'
+  917  git remote add origin git@github.com:weston-bailey/equitable-information-bot.git\ngit branch -M main\ngit push -u origin main
+  918  git add .
+  919  git commit -m 'remove uneeded stuff'
+  920  git push origin main
+  921  cat .gitignore
+  922  rm -rf --cached praw.ini
+  923  git rm -rf --cached praw.ini
+  924  git add .
+  925  git commit -m 'banish praw'
+  926  git push origin main
+  927  pip list > requirements.txt
+  928  git add .
+  929  git commit -m 'updates req'
+  930  git push origin main
+  931  nodemon --exec python3 main.py -e .py
+  932  cd current-projects
+  933  cd bot
+  934  git addd .
+  935  git add .
+  936  git commit -m '_'
+  937  git push
+  938  pip freeze > requirements.txt
+  939  git add .
+  940  git commit -m 'updates req'
+  941  git push origin main
+  942  clear
+  943  ls
+  944  vim main.py
+  945  pwd
+  946  /Users/void/current-projects/bot
+  947  nodemon --exec python3 main.py -e .py
+  948  . ./venv/bin/activate
+  949  nodemon --exec python3 main.py -e .py
+  950  ls
+  951  vim main.py
+  952  cd current-projects/bot
+  953  ls
+  954  vim main.py
+  955  psql
+  956  cd gitbook-notes
+  957  git pull origin master
+  958  git pull upstream master
+  959  ls
+  960  vim .
+  961  cd current-projects
+  962  mkdir interp
+  963  cd interp
+  964  touch main.py tokens.py
+  965  vim main.py
+  966  python3 main.py
+  967  vim tokens.py
+  968  vim lexar.py
+  969  code .
+  970  pyenv shell 3.7.7
+  971  vim lexar.py
+  972  vim main.py
+  973  python main.py
+  974  vim tokens.py
+  975  python main.py
+  976  vim lexar.py
+  977  vim tokens.py
+  978  python3 main.py
+  979  vim main.py
+  980  python3 main.py
+  981  vim main.py
+  982  python3 main.py
+  983  vim lexar.py
+  984  vim main.py
+  985  python3 main.py
+  986  vim lexar.py
+  987  python3 main.py
+  988  python main.py
+  989  vim tokens.py
+  990  python3 main.py
+  991  vim lexar.py
+  992  code .
+  993  python3 main.py
+  994  code .
+  995  python3 main.py
+  996  ls
+  997  vim tokens.py
+  998  python
+  999  ls
+ 1000  cat hisotry
+ 1001  python3
+ 1002  vim text.py
+ 1003  python3 text.py
+ 1004  vim text.py
+ 1005  python3 text.py
+ 1006  vim text.py
+ 1007  python3 text.py
+ 1008  python3
+ 1009  cd current-projects
+ 1010  ls
+ 1011  ls -l
+ 1012  man ls
+ 1013  cd interp
+ 1014  ls
+ 1015  cat text.py
+ 1016  rm text.py
+ 1017  vim
+ 1018  python3
+ 1019  vim palidrome.py
+ 1020  python palidrome.py
+ 1021  vim palidrome.py
+ 1022  python palidrome.py
+ 1023  vim palidrome.py
+ 1024  touch p
+ 1025  python palidrome.py
+ 1026  vim palidrome.py
+ 1027  python palidrome.py
+ 1028  ls
+ 1029  cat p
+ 1030  rm p
+ 1031  touch p
+ 1032  vim palidrome.py
+ 1033  python palidrome.py
+ 1034  ls
+ 1035  clear
+ 1036  cat p
+ 1037  ls -l
+ 1038  ls -lh
+ 1039  cat p
+ 1040  vim p
+ 1041  vim palidrome.py
+ 1042  python3 main.py
+ 1043  clear
+ 1044  vim nodes.py
+ 1045  vim parser_.py
+ 1046  code .
+ 1047  pyenv shell 3.7.7
+ 1048  python3 main.py
+ 1049  python3
+ 1050  vi
+ 1051  deno
+ 1052  clear
+ 1053  cd sei-425
+ 1054  cd instr
+ 1055  mkdir p1s
+ 1056  cd p1s
+ 1057  git clone git@github.com:j-onederful/remember-your-grub.git jack
+ 1058  cd jack
+ 1059  ls
+ 1060  open index.html
+ 1061  ls
+ 1062  vim js/app.js
+ 1063  cd ..
+ 1064  cd unit1
+ 1065  ls
+ 1066  cd DOM-intro/
+ 1067  ls
+ 1068  code .
+ 1069  open index.html
+ 1070  open my-site.html
+ 1071  git add .
+ 1072  git status
+ 1073  git commit -m 'adds files for deploy'
+ 1074  git push origin main
+ 1075  history
+ 1076  cd current-projects/datastructs-algos-challenges
+ 1077  ls
+ 1078  cd python
+ 1079  ls
+ 1080  cd lib
+ 1081  ls
+ 1082  cd linked_list
+ 1083  ls
+ 1084  vim Single.py
+ 1085  vim test.py
+ 1086  vim Single.py
+ 1087  python3 test.py
+ 1088  ls
+ 1089  python3 test.py
+ 1090  vim Single.py
+ 1091  python3 test.py
+ 1092  vim Single.py
+ 1093  python3 test.py
+ 1094  vim Single.py
+ 1095  python3 test.py
+ 1096  vim Single.py
+ 1097  python3 test.py
+ 1098  vim Single.py
+ 1099  python3 test.py
+ 1100  cd current-projects
+ 1101  ls
+ 1102  cd datastructs-algos-challenges
+ 1103  ls
+ 1104  cd python
+ 1105  ls
+ 1106  cd lib
+ 1107  ls
+ 1108  cd linked_list
+ 1109  ls
+ 1110  vim gen.py
+ 1111  python gen.py
+ 1112  srm
+ 1113  python gen.py
+ 1114  nodemon --exec python3 gen.py -q .py
+ 1115  git status
+ 1116  a gen.py 
+ 1117  cat gen.py
+ 1118  cd ..
+ 1119  code .
+ 1120  pyenv shell 3.7.7
+ 1121  /Users/void/.pyenv/versions/3.7.7/bin/python -m pip install -U autopep8
+ 1122  code .
+ 1123  npx prettier --write
+ 1124  npx prettier --write .
+ 1125  prettier --write \"./**/*.{py}\"
+ 1126  prettier --write \"./**/*.py\"
+ 1127  pyenv shell 3.7.7
+ 1128  /Users/void/.pyenv/versions/3.7.7/bin/python /Users/void/current-projects/datastructs-algos-challenges/python/lib/sort/selection_sort.py
+ 1129  npx prettier --write .
+ 1130  git status
+ 1131  git add .
+ 1132  git commit -m 'reformats files'
+ 1133  code .
+ 1134  ls
+ 1135  cat makefile
+ 1136  make run_tests_tests_python
+ 1137  make run_tests_python
+ 1138  vim makefile
+ 1139  make run_tests_python
+ 1140  rm -f makefile
+ 1141  git add .
+ 1142  git add -A
+ 1143  git commit -m 'reorgs tests and remove makefile'
+ 1144  git add .
+ 1145  git commit -m 'fix pathing on tests'
+ 1146  git add .
+ 1147  git commit -m 'removes config files'
+ 1148  cd script
+ 1149  cd python
+ 1150  ls
+ 1151  cd challenges
+ 1152  ls
+ 1153  cd leetcode
+ 1154  python3 -m unittest palidrome_numbers_test.py
+ 1155  cd //
+ 1156  pyenv shell 3.7.7
+ 1157  cd python
+ 1158  ls
+ 1159  cd lib
+ 1160  l;s
+ 1161  ls
+ 1162  cd sort
+ 1163  python3 -m unittest *_test.py
+ 1164  cd ..
+ 1165  ls
+ 1166  python3 -m unittest sort/*_test.py
+ 1167  cd ..
+ 1168  ls
+ 1169  python3 -m unittest lib/sort/*_test.py
+ 1170  git add .
+ 1171  git commit -m 'test paths need to be fixed in python'
+ 1172  git push origin main
+ 1173  clear
+ 1174  cd sei-425/instr
+ 1175  ls
+ 1176  cd p1s
+ 1177  rm -rf *
+ 1178  ls
+ 1179  git clone git@github.com:DarcXnite/robots-love-pizza.git davis
+ 1180  ping www.google.com
+ 1181  psql
+ 1182  clear
+ 1183  psql
+ 1184  cd gitbook-notes
+ 1185  psql
+ 1186  cd gitbook-notes
+ 1187  code .
+ 1188  git add .
+ 1189  git commit -m 'updates adv sql'
+ 1190  git push origin master
+ 1191  gh pr create
+ 1192  cd sei-425
+ 1193  ls
+ 1194  mkdir unit2
+ 1195  cd unit
+ 1196  cd unit2
+ 1197  git clone git@github.com:WDI-SEA/sql-carmen-san-diego.git
+ 1198  cd sql-carmen-san-diego
+ 1199  psql
+ 1200  ls
+ 1201  code .
+ 1202  psql
+ 1203  code .
+ 1204  psql
+ 1205  sr
+ 1206  cd ..
+ 1207  mkdir advanced-sql
+ 1208  cd advanced-sql
+ 1209  touch customers.sql
+ 1210  psql
+ 1211  touch orders.sql
+ 1212  psql
+ 1213  touch subscribers.sql
+ 1214  psql
+ 1215  cd ..
+ 1216  git clone git@github.com:WDI-SEA/booktown.git
+ 1217  cd booktown
+ 1218  psql
+ 1219  cd
+ 1220  cat .psql_history
+ 1221  cat ~/.psql_history
+ 1222  clear
+ 1223  curl https://raw.githubusercontent.com/weston-bailey/config-files/main/vimrc
+ 1224  curl https://raw.githubusercontent.com/weston-bailey/config-files/main/vimrc > .vimrc
+ 1225  cat .vimrc
+ 1226  history | grep heroku
+ 1227  history | grep cli
+ 1228  history | grep -n cling
+ 1229  truw
+ 1230  true
+ 1231  curl \\n  -H "Accept: application/vnd.github.v3+json" \\n  https://api.github.com/search/code
+ 1232  cd sei-425
+ 1233  ls
+ 1234  cd instr
+ 1235  mkdir fetch
+ 1236  cd fetch
+ 1237  touch app.js index.html
+ 1238  code .
+ 1239  open index.html
+ 1240  cd
+ 1241  cd gitbook-notes
+ 1242  ls
+ 1243  ls -R | grep APIs
+ 1244  ls -R | grep apis
+ 1245  ls -R | grep fetch
+ 1246  ls -R | grep -B 3 fetch
+ 1247  ls -R | grep -B 5 fetch
+ 1248  ls -R | grep -B 5 fetch.md
+ 1249  ls -R | grep -B 10 fetch.md
+ 1250  ls
+ 1251  cd 00readme
+ 1252  ls
+ 1253  cd ..
+ 1254  vim .
+ 1255  git status
+ 1256  git add 00readme/fetch.md
+ 1257  git commit -m 'fixes backtick typo in fetch implementation'
+ 1258  open index.html
+ 1259  git push origin main
+ 1260  git push origin master
+ 1261  gh pr create
+ 1262  which gh
+ 1263  gh --version
+ 1264  gh --help
+ 1265  brew upgrade gh
+ 1266  gh --version
+ 1267  which ruby
+ 1268  ruby
+ 1269  which rails
+ 1270  clear
+ 1271  ping www.google.com
+ 1272  curl https://cat-fact.herokuapp.com/facts
+ 1273  ping www.google.com
+ 1274  cd sei-425/unit2
+ 1275  ls
+ 1276  mkdir ajax-fetch
+ 1277  cd ajax-fetch
+ 1278  mkdir scripts
+ 1279  touch index.html scripts/app.js
+ 1280  ls -R 
+ 1281  git init
+ 1282  git add .
+ 1283  git commit -m 'init commit'
+ 1284  git remote add origin git@github.com:weston-bailey/425-ajax-fetch.git\ngit branch -M main\ngit push -u origin main
+ 1285  code .
+ 1286  open index.html
+ 1287  ping https://cat-fact.herokuapp.com/facts
+ 1288  ping https://www.cat-fact.herokuapp.com/facts
+ 1289  git add .
+ 1290  git commit -m 'lunch time\n\n'
+ 1291  git push origin main
+ 1292  git add .
+ 1293  git commit -m 'finish lesson'
+ 1294  git push origin main
+ 1295  curl -H "User-Agent: My Library (https://github.com/username/repo)" https://icanhazdadjoke.com/
+ 1296  cd current-projects/nextjs-portfolio
+ 1297  ls
+ 1298  git checkout main
+ 1299  git rebase deploy
+ 1300  git checkout deploy 
+ 1301  git pull origin deploy
+ 1302  git checkout main
+ 1303  git rebase deploy
+ 1304  git status
+ 1305  vim components/project.jsx
+ 1306  git status
+ 1307  git add .
+ 1308  git status
+ 1309  git rebase --continue
+ 1310  npm run devf
+ 1311  npm run dev
+ 1312  git push origin main
+ 1313  git checkout projects
+ 1314  git checkout origin/projects
+ 1315  git pull origin main
+ 1316  git fetch --all
+ 1317  git checkout projects 
+ 1318  vim .
+ 1319  cd ..
+ 1320  git clone git@github.com:WDI-SEA/fetch-dad-jokes-lab.git
+ 1321  cd fetch-dad-jokes-lab
+ 1322  ls
+ 1323  touch js/app.js
+ 1324  code .
+ 1325  open index.html
+ 1326  git status
+ 1327  git add .
+ 1328  git commit -m 'solves with bonus'
+ 1329  git checkout -b bonus-solution
+ 1330  git push origin bonus-solution 
+ 1331  cd current-projects
+ 1332  cd d
+ 1333  cd datastructs-algos-challenges
+ 1334  ls
+ 1335  cd python
+ 1336  ls
+ 1337  touch Makefile
+ 1338  vim .
+ 1339  ls 
+ 1340  python -m unittest
+ 1341  python -m unittest lib/data
+ 1342  python -m unittest lib/data/float_to_str_test.py
+ 1343  ls 
+ 1344  ls lib
+ 1345  ls
+ 1346  ls lib/data
+ 1347  python -m unittest lib/data/non_mutating_list_test.py
+ 1348  vim Makefile
+ 1349  make
+ 1350  git status
+ 1351  git add .
+ 1352  git commit -m 'python tests work again'
+ 1353  git push origin main
+ 1354  cd ..
+ 1355  ls
+ 1356  cd javascript
+ 1357  ls
+ 1358  cat package.json
+ 1359  npm run watch
+ 1360  cd ..
+ 1361  ls
+ 1362  cd python
+ 1363  ls
+ 1364  cd current-projects
+ 1365  ls
+ 1366  cd datastructs-algos-challenges
+ 1367  ls
+ 1368  cd javascript
+ 1369  ls
+ 1370  cat tests
+ 1371  ls tests
+ 1372  cd tests
+ 1373  ls
+ 1374  ls -a
+ 1375  cd ..
+ 1376  rmdir tests
+ 1377  ls
+ 1378  cd ..
+ 1379  ls
+ 1380  ls -a
+ 1381  cat .git
+ 1382  cat .gitignore
+ 1383  cd javascript
+ 1384  ls
+ 1385  cd lib
+ 1386  ls
+ 1387  cd binary-search-tree
+ 1388  ls
+ 1389  cd ..
+ 1390  ls
+ 1391  cd ..
+ 1392  ls
+ 1393  vim . 
+ 1394  \\nnpm test-all
+ 1395  npm run test-all
+ 1396  cd ..
+ 1397  git ad .
+ 1398  git add .
+ 1399  git commit -m 'updates js package json'
+ 1400  git push origin main
+ 1401  npm run test-watch
+ 1402  cd javascript
+ 1403  ls
+ 1404  npm run test-watch
+ 1405  npm run watch-all
+ 1406  git status
+ 1407  git add .
+ 1408  git commit -m 'adds test watch js'
+ 1409  git push origin main
+ 1410  git pull origin main
+ 1411  git status
+ 1412  cd ..
+ 1413  rm -rf */*/__pycache__
+ 1414  git status
+ 1415  rm -rf */*/*/__pycache__
+ 1416  git status
+ 1417  git add .
+ 1418  git rm -rf --cached */*/__pycache__
+ 1419  git rm -rf --cached */*/*/__pycache__
+ 1420  git add .
+ 1421  git commit -m 'banish pycache'
+ 1422  git status
+ 1423  git rm  */*/*/__pycache__
+ 1424  git status
+ 1425  git pull origin main
+ 1426  git push origin main
+ 1427  git status
+ 1428  cd ..
+ 1429  vim .
+ 1430  cd python
+ 1431  vim .
+ 1432  cd sei-425
+ 1433  ls
+ 1434  cd instr
+ 1435  git clone git@github.com:WDI-SEA/express-weather-by-zip.git
+ 1436  cd express-weather-by-zip
+ 1437  ls
+ 1438  vim index.js
+ 1439  ls
+ 1440  vim .
+ 1441  vim ~/.vimrc
+ 1442  vim .
+ 1443  node
+ 1444  nvm
+ 1445  node
+ 1446  nvm --version
+ 1447  node --version
+ 1448  nvm install --lts
+ 1449  nvm install curretn
+ 1450  nvm install current
+ 1451  nvm
+ 1452  nvm install node
+ 1453  nvm defautl
+ 1454  nvm default
+ 1455  nvm list
+ 1456  zsh
+ 1457  nvm lsit
+ 1458  nvm list
+ 1459  nvm
+ 1460  nvm list
+ 1461  nvm use system
+ 1462  nvm alias default 18
+ 1463  zsh
+ 1464  nvm list
+ 1465  brew upgrade nvm
+ 1466  nvm --version
+ 1467  vim 
+ 1468  cd current-projects/datastructs-algos-challenges
+ 1469  ls
+ 1470  vim .
+ 1471  nodemon -i .json
+ 1472  nodemon --i .json
+ 1473  nodemon --help
+ 1474  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+ 1475  cd
+ 1476  vim .vimrc
+ 1477  cd current-projects
+ 1478  ls
+ 1479  cd datastructs-algos-challenges
+ 1480  vim .
+ 1481  vim ~/.zshrc
+ 1482  vim .vimrc
+ 1483  vim ~/.vimrc
+ 1484  vim 
+ 1485  vim .
+ 1486  vim ~/.vimrc
+ 1487  vim .
+ 1488  vim ~/.vimrc
+ 1489  vim 
+ 1490  vim
+ 1491  vim ~/.vimrc
+ 1492  vim 
+ 1493  vim ~/.vimrc
+ 1494  which vim
+ 1495  brew install vim
+ 1496  which vim
+ 1497  vim
+ 1498  brew unlink vim
+ 1499  which vim
+ 1500  brew link vim
+ 1501  zsh
+ 1502  which vim
+ 1503  vim
+ 1504  vim ~/.vimrc
+ 1505  vim 
+ 1506  vim ~/.vimrc
+ 1507  vim
+ 1508  vim ~/.vimrc
+ 1509  vim
+ 1510  vim ~/.vimrc
+ 1511  vim
+ 1512  vim ~/.vimrc
+ 1513  vim
+ 1514  vim ~/.vimrc
+ 1515  vim
+ 1516  vim ~/.vimrc
+ 1517  vim
+ 1518  vim ~/.vimrc
+ 1519  vim
+ 1520  vim ~/.vimrc
+ 1521  vim
+ 1522  code .
+ 1523  code ~/.vimrc
+ 1524  vim ~/.vimrc
+ 1525  vim
+ 1526  clear
+ 1527  vim ~/.vimrc
+ 1528  cd current-projects
+ 1529  ls
+ 1530  cd datastructs-algos-challenges
+ 1531  vim 
+ 1532  code ~/.vimrc
+ 1533  cd current-projects/datastructs-algos-challenges
+ 1534  vim 
+ 1535  vim ~/.vimrc
+ 1536  vim 
+ 1537  code ~/.vimrc
+ 1538  vim 
+ 1539  cd sei-425
+ 1540  cd unit2
+ 1541  git clone git@github.com:WDI-SEA/Car-Node-Module.git
+ 1542  code .
+ 1543  cd Car-Node-Module
+ 1544  code .
+ 1545  npm install
+ 1546  npm test
+ 1547  nodemon --exec npm test
+ 1548  nodemon npm test
+ 1549  nodemon --exec npm test
+ 1550  code ~/.vimrc
+ 1551  vim
+ 1552  ls
+ 1553  cd current-projects
+ 1554  cd mkdir test-env
+ 1555  mkdir test-env
+ 1556  cd test-env
+ 1557  virtualenv env
+ 1558  . venv/bin/activate
+ 1559  ls
+ 1560  rm -rf env
+ 1561  virtualenv venv
+ 1562  . venv/bin/activate
+ 1563  vim
+ 1564  touch test.py
+ 1565  vim
+ 1566  deactivate
+ 1567  clear
+ 1568  vim
+ 1569  deactivate
+ 1570  vim
+ 1571  clear
+ 1572  cd vim
+ 1573  cd .vim
+ 1574  ls
+ 1575  mkdir colors
+ 1576  curl https://raw.githubusercontent.com/NLKNguyen/papercolor-theme/master/colors/PaperColor.vim > colors/0_PaperColor.vim
+ 1577  cd
+ 1578  curl https://raw.githubusercontent.com/weston-bailey/config-files/main/vimrc > .vimrc
+ 1579  vim 
+ 1580  ls
+ 1581  vim
+ 1582  curl https://raw.githubusercontent.com/weston-bailey/config-files/main/vimrc > .vimrc
+ 1583  vim
+ 1584  vim ~/.vimrc
+ 1585  curl https://raw.githubusercontent.com/weston-bailey/config-files/main/vimrc > .vimrc
+ 1586  vim
+ 1587  curl https://raw.githubusercontent.com/weston-bailey/config-files/main/vimrc > .vimrc
+ 1588  vim ~/.vimrc
+ 1589  curl https://raw.githubusercontent.com/weston-bailey/config-files/main/vimrc > .vimrc
+ 1590  vim
+ 1591  clear
+ 1592  less
+ 1593  less .vimrc
+ 1594  compgen
+ 1595  cd current-projects
+ 1596  ls
+ 1597  cd nextjs-portfolio
+ 1598  git status
+ 1599  git add .
+ 1600  git commit -m 'update projects'
+ 1601  vim
+ 1602  clear
+ 1603  cd ..
+ 1604  cd
+ 1605  clear
+ 1606  cd sei-425/unit2
+ 1607  ls
+ 1608  cd Car-Node-Module
+ 1609  code .
+ 1610  nodemon --exec npm run test
+ 1611  cd ..
+ 1612  clear
+ 1613  mkdir hello-express
+ 1614  cd hello-express
+ 1615  sr
+ 1616  npm init -y
+ 1617  ls
+ 1618  sr
+ 1619  git init
+ 1620  sr
+ 1621  echo node_modules >> .gitignore
+ 1622  ls
+ 1623  ls -a
+ 1624  npm i express
+ 1625  ls
+ 1626  code .
+ 1627  touch ignore_me
+ 1628  git status
+ 1629  git add -A
+ 1630  git commit -m 'init commit'
+ 1631  touch index.js
+ 1632  nodemon
+ 1633  git status
+ 1634  nodemon
+ 1635  git add .
+ 1636  git commit -m 'finish lesson'
+ 1637  git remote add origin git@github.com:weston-bailey/425-hello-express.git\ngit branch -M main\ngit push -u origin main
+ 1638  git config --list
+ 1639  cd 
+ 1640  cd .config
+ 1641  ls
+ 1642  cd git
+ 1643  sudo chown 777 -r ~/.config/git
+ 1644  sudo chown -r 777 ~/.config/git
+ 1645  man chown
+ 1646  sudo chown -R 777 ~/.config/git
+ 1647  sudo chown -R 777 ~/.config
+ 1648  git status
+ 1649  touch test
+ 1650  git add .
+ 1651  sudo chown $USER -R 777 ~/.config
+ 1652  sudo chown $USER: -R 777 ~/.config
+ 1653  sudo chown -R $USER: 777 ~/.config
+ 1654  sudo chown -R $USER: ~/.config
+ 1655  git add .
+ 1656  nodemon
+ 1657  vim
+ 1658  ls
+ 1659  vim 
+ 1660  man echo
+ 1661  man cat
+ 1662  cd sei-425
+ 1663  ls
+ 1664  cd instr
+ 1665  git clone git@github.com:WDI-SEA/express-routes-calc.git
+ 1666  cd express-
+ 1667  cd express-routes-calc
+ 1668  npm i
+ 1669  ls
+ 1670  git checkout package-lock.json origin/wb-solve 
+ 1671  git checkout wb-solve 
+ 1672  rm -rf package-lock.json
+ 1673  git checkout wb-solve 
+ 1674  npm i
+ 1675  code .
+ 1676  nodemon
+ 1677  killall node
+ 1678  nodemon
+ 1679  cd current-projects
+ 1680  ls
+ 1681  cd randomizer
+ 1682  ls
+ 1683  cat students.json
+ 1684  code .
+ 1685  vim 
+ 1686  ls
+ 1687  python randomizer.py --list
+ 1688  vim
+ 1689  python randomizer.py --list
+ 1690  ls
+ 1691  srl
+ 1692  zsh
+ 1693  srl
+ 1694  git status
+ 1695  git add .
+ 1696  git commit -m 'adds list option'
+ 1697  git push origin main
+ 1698  cd
+ 1699  clear
+ 1700  rs
+ 1701  sr
+ 1702  clear
+ 1703  cd sei-425/unit2
+ 1704  mkdir express-views
+ 1705  cd express-views
+ 1706  sr
+ 1707  ls
+ 1708  touch index.js
+ 1709  npm init
+ 1710  ls
+ 1711  sr
+ 1712  npm install express
+ 1713  ls
+ 1714  sr
+ 1715  echo node_modules >> .gitignore
+ 1716  git init
+ 1717  git status
+ 1718  git add .
+ 1719  git commit -m 'init commit'
+ 1720  code .
+ 1721  sr
+ 1722  nodemon
+ 1723  sr
+ 1724  srm
+ 1725  sr
+ 1726  nodemon
+ 1727  mkdir views
+ 1728  touch views/index.html views/about.html views/blog.html
+ 1729  nodemon
+ 1730  mkdir Public
+ 1731  mkdir Public/css
+ 1732  mkdir Public/js
+ 1733  touch Public/css/styles.css
+ 1734  nodemon
+ 1735  touch Public/js
+ 1736  mkdir Public/js
+ 1737  nodemon
+ 1738  touch Public/js/script.js
+ 1739  nodemon
+ 1740  git add .
+ 1741  git commit -m 'finish lesson\n'
+ 1742  nodemon
+ 1743  ^[[200~git remote add origin git@github.com:weston-bailey/425-express-views.git
+ 1744  git branch -M main
+ 1745  git remote add origin git@github.com:weston-bailey/425-express-views.git\ngit branch -M main\ngit push -u origin main
+ 1746  npm i ejs
+ 1747  nodemon
+ 1748  git add .
+ 1749  git commit -m 'finish index'
+ 1750  git push origin main
+ 1751  nodemon
+ 1752  git add .
+ 1753  git commit -m 'forEach lab\n\n'
+ 1754  git push origin main
+ 1755  mkdir views/partials
+ 1756  touch views/partials/header.ejs
+ 1757  nodemon
+ 1758  npm i express-ejs-layouts
+ 1759  touch views/layout.ejs
+ 1760  nodemon
+ 1761  node --exec node . -e .js,.json,.ejs
+ 1762  nodemon --exec node . -e .js,.json,.ejs
+ 1763  git commit -m 'finish lesson'
+ 1764  git push origin main
+ 1765  vim 
+ 1766  ls
+ 1767  cd current-projects
+ 1768  ls
+ 1769  cd nextjs-portfolio
+ 1770  ls
+ 1771  vim 
+ 1772  ks
+ 1773  ls
+ 1774  npm run dev
+ 1775  google-chrom
+ 1776  google-chrome
+ 1777  open 127.0.0.1:3000
+ 1778  git add .
+ 1779  git commit -m 'burns down projects'
+ 1780  cd sei-425/unit2
+ 1781  git clone https://github.com/WDI-SEA/zodiac-controllers.git
+ 1782  cd zodiac-controllers
+ 1783  ls
+ 1784  ls -a
+ 1785  rs
+ 1786  sr
+ 1787  npm init
+ 1788  ls
+ 1789  sr
+ 1790  echo node_modules >> .gitignore
+ 1791  ls -a
+ 1792  cat .git
+ 1793  cat .gitignore
+ 1794  sr
+ 1795  touch index.js
+ 1796  npm i express ejs express-ejs-layouts
+ 1797  code .
+ 1798  nodemon
+ 1799  mkdir views
+ 1800  touch views/layout.ejs
+ 1801  touch index.ejs
+ 1802  rm index.ejs
+ 1803  touch views/index.ejs
+ 1804  ls views
+ 1805  touch views/water.ejs
+ 1806  mkdir views/partials
+ 1807  touch views/fire.ejs views/earth.ejs views/air.ejs
+ 1808  git status
+ 1809  git add .
+ 1810  git commit -m 'solves part 1'
+ 1811  git checkout -b 425-solve
+ 1812  git push origin 425-solve 
+ 1813  killall node
+ 1814  cd ..
+ 1815  clear
+ 1816  mkdir express-controllers
+ 1817  cd express-controllers
+ 1818  npm init -y
+ 1819  echo node_modules >> .gitignore
+ 1820  touch index.js
+ 1821  npm i express ejs express-ejs-layouts
+ 1822  code .
+ 1823  nodemon
+ 1824  mkdir views
+ 1825  touch views/layout.ejs views/index.ejs
+ 1826  touch views/loveOrLeave.ejs
+ 1827  git init 
+ 1828  git add .
+ 1829  git commit -m 'init commit'
+ 1830  git remote add origin git@github.com:weston-bailey/425-express-controllers.git\ngit branch -M main\ngit push -u origin main
+ 1831  mkdir controllers
+ 1832  touch controllers/love-it.js controllers/leave-it.js
+ 1833  git add .
+ 1834  git commit -m 'finish lesson\n'
+ 1835  git push origin main
+ 1836  cd ..
+ 1837  cd zodiac-controllers
+ 1838  code .
+ 1839  cd
+ 1840  cd current-projects/nextjs-portfolio
+ 1841  vim 
+ 1842  vim ~/.vimrc
+ 1843  vim 
+ 1844  vim ~/.vimrc
+ 1845  vim
+ 1846  vim ~/.vimrc
+ 1847  code ~/.vimrc
+ 1848  vim
+ 1849  ***
+ 1850  clear
+ 1851  ls
+ 1852  clear
+ 1853  ls
+ 1854  clear
+ 1855  history | vim
+ 1856  history | less
+ 1857  history | vim -
+ 1858  clear
+ 1859  cd
+ 1860  cd sei-425/unit2
+ 1861  ls
+ 1862  cd zodiac-controllers
+ 1863  ls
+ 1864  clear
+ 1865  code .
+ 1866  mkdir controllers
+ 1867  touch controllers/water.js
+ 1868  nodemon
+ 1869  mkdir Public
+ 1870  touch views/partials/sign.ejs
+ 1871  ls -R Public
+ 1872  git add .
+ 1873  git ocmmit -m 'adds p2 water controller'
+ 1874  git commit -m 'adds p2 water controller'
+ 1875  git push origin main
+ 1876  git push origin 425-solve 
+ 1877  cd ..
+ 1878  mkdir apis-axios
+ 1879  cd apis-axios
+ 1880  npm init -y
+ 1881  npm i axios
+ 1882  echo node_modules >> .gitignore
+ 1883  touch starWars.js
+ 1884  code .
+ 1885  node 
+ 1886  touch example.js
+ 1887  node example.js
+ 1888  node .
+ 1889  touch index.js
+ 1890  node .
+ 1891  nodemon
+ 1892  node
+ 1893  node example.js
+ 1894  node .
+ 1895  node starWars.js
+ 1896  git init 
+ 1897  git add .
+ 1898  git commit -m 'finish lesson'
+ 1899  git remote add origin git@github.com:weston-bailey/425-axios-node.git\ngit branch -M main\ngit push -u origin main
+ 1900  git add .
+ 1901  git commit -m 'save'
+ 1902  git push origin main
+ 1903  npm install express ejs
+ 1904  nodemon
+ 1905  node starWars.js
+ 1906  nodemon --exec node starWars.js
+ 1907  nodemon
+ 1908  mkdir views
+ 1909  touch views/index.html views/results.ejs
+ 1910  mv views/index.html views/index.ejs
+ 1911  git add .
+ 1912  git commit -m 'adds SWAPI search'
+ 1913  git push origin main
+ 1914  touch views/homeworld.ejs
+ 1915  nodemon
+ 1916  git add .
+ 1917  git commit -m 'finish lesson'
+ 1918  git push origin main
+ 1919  cd
+ 1920  cd Downloads
+ 1921  ls
+ 1922  cd ..
+ 1923  cd Desktop/orielly
+ 1924  ls -a
+ 1925  rm .DS_Store
+ 1926  ls -1q log* | wc -l
+ 1927  ls
+ 1928  ls *
+ 1929  ls *.epub
+ 1930  ls *.epub | wc
+ 1931  man wc
+ 1932  ls *.epub | wc -l
+ 1933  ls *.pdf | wc -l
+ 1934  ls *.mobi | wc -l
+ 1935  cd ..
+ 1936  cd starch-press
+ 1937  ls
+ 1938  ls *.mobi | wc -l
+ 1939  ls *.pdf | wc -l
+ 1940  ls *.epub | wc -l
+ 1941  ls
+ 1942  ls *.mobi | wc -l
+ 1943  ls *.epub | wc -l
+ 1944  ls *.pdf | wc -l
+ 1945  ls | grep auto
+ 1946  ls | grep dive
+ 1947  ls | grep crack
+ 1948  ls | grep math
+ 1949  ls | grep serious
+ 1950  ls | grep object
+ 1951  ls | grep beyond
+ 1952  ls | grep code
+ 1953  ls | grep more
+ 1954  ls | grep visual
+ 1955  ls | grep geeky
+ 1956  ls | grep impractical
+ 1957  ls | grep based
+ 1958  ls | grep crash
+ 1959  ls | grep big
+ 1960  ls | grep one
+ 1961  ls | grep deep
+ 1962  ls | grep pract
+ 1963  ls | grep real
+ 1964  ls | grep world
+ 1965  ls | grep invent
+ 1966  ls *.pdf | wc -l
+ 1967  ls *.epub | wc -l
+ 1968  ls *.mobi | wc -l
+ 1969  ls
+ 1970  open beyondthebasicstuffwithpython.pdf
+ 1971  open diveintoalgorithms_apythonicadventurefortheintrepidbeginner.epub
+ 1972  open diveintoalgorithms_apythonicadventurefortheintrepidbeginner.pdf
+ 1973  open diveintoalgorithms_apythonicadventurefortheintrepidbegi
+ 1974  open seriouspython.pdf
+ 1975  open pythonone-liners.pdf
+ 1976  open learntocodebysolvingproblems.pdf
+ 1977  cd ..
+ 1978  ls
+ 1979  cd orielly
+ 1980  ls
+ 1981  open bashcookbook2e.pdf
+ 1982  open pythoncookbook3e.pdf
+ 1983  open regularexpressionscookbook2e.
+ 1984  open regularexpressionscookbook2e.pdf
+ 1985  open reactcookbook.pdf
+ 1986  open javascriptcookbook3rdedition.pdf
+ 1987  vim
+ 1988  clear
+ 1989  ping www.google.com
+ 1990  cd current-projects
+ 1991  ls
+ 1992  cd nextjs-portfolio
+ 1993  ls
+ 1994  git status
+ 1995  git add .
+ 1996  git commit -m 'removes project cards'
+ 1997  git push origin projects
+ 1998  vim ~/.vimrc
+ 1999  code ~/.vimrc
+ 2000  curl https://raw.githubusercontent.com/weston-bailey/dotfiles/main/.vimrc > .vimrc
+ 2001  curl https://raw.githubusercontent.com/weston-bailey/dotfiles/main/.vimrc > ~/.vimrc
+ 2002  rm .vimrc
+ 2003  ls
+ 2004  cd ..
+ 2005  cd interp
+ 2006  cd ..
+ 2007  clear
+ 2008  cd
+ 2009  clear
+ 2010  cd sei-425/unit2
+ 2011  git clone git@github.com:fighting-mongeese/425-express-apis-omdb.git
+ 2012  cd 425-express-apis-omdb
+ 2013  ls
+ 2014  code .
+ 2015  npm i
+ 2016  npm i axios
+ 2017  touch testApi.js
+ 2018  node starWars.js
+ 2019  node testApi.js
+ 2020  echo $SHELL
+ 2021  echo $USER
+ 2022  touch .env
+ 2023  node testApi.js
+ 2024  git add .
+ 2025  git commit -m 'safely hide my secrets from the world'
+ 2026  git push origin main
+ 2027  node testApi.js
+ 2028  cd
+ 2029  cd sei-425/unit2
+ 2030  cd ..
+ 2031  ls
+ 2032  cd instr
+ 2033  git clone git@github.com:WDI-SEA/project-2-auth.git
+ 2034  git clone git@github.com:SEI-SEA-1-25/intro-to-authentication-soln.git
+ 2035  cd project-2-auth
+ 2036  git checkout -b solution
+ 2037  git clone git@github.com:SEI-SEA-1-25/intro-to-authentication-soln.git .
+ 2038  cd ..
+ 2039  code .
+ 2040  cd project-2-auth
+ 2041  npm i
+ 2042  sequelize db:create
+ 2043  sequelize db:migrate
+ 2044  nodemon
+ 2045  code .
+ 2046  nodemon
+ 2047  git status
+ 2048  git add .
+ 2049  git commit -m 'adds solution'
+ 2050  git push origin solution
+ 2051  cd ..
+ 2052  ls
+ 2053  cd ..
+ 2054  cd unit2
+ 2055  git clone git@github.com:WDI-SEA/express-apis-omdb.git omdb-part-1
+ 2056  cd omdb-part-1
+ 2057  code .
+ 2058  git log
+ 2059  git checkout sf-part-1 
+ 2060  git log
+ 2061  git checkout -b sf-part-2
+ 2062  git push origin sf-part-2
+ 2063  git checkout sf-part-1 
+ 2064  git log
+ 2065  git reset --hard dd420ce88453e4fd245cb9104e7ba5350e6ceca7
+ 2066  touch .env
+ 2067  npm i
+ 2068  nodemon
+ 2069  git push origin sf-part-1 --force
+ 2070  git checkout main
+ 2071  git rebase sf-part-1
+ 2072  git remote set-url origin git@github.com:weston-bailey/express-apis-omdb-part-2-starter.git
+ 2073  git push origin main
+ 2074  git add .
+ 2075  git commit -m 'adds starter code instructions to md'
+ 2076  git push origin main
+ 2077  cd ..
+ 2078  clear
+ 2079  git clone git@github.com:TaylorDarneille/425RESTfulCreatures.git
+ 2080  cd 425RESTfulCreatures
+ 2081  npm i
+ 2082  code .
+ 2083  nodemon
+ 2084  clear
+ 2085  mkdir controllers
+ 2086  touch controllers/dinosaurs.js
+ 2087  sr
+ 2088  nodemon
+ 2089  sr
+ 2090  nodemon
+ 2091  touch views/dinosaurs/edit.ejs
+ 2092  npm i method-override
+ 2093  git add .
+ 2094  git commit -m 'breaktime!'
+ 2095  git push origin main
+ 2096  git remote set-url origin git@github.com:weston-bailey/425RESTfulCreatures.git
+ 2097  git push origin main
+ 2098  cd sei-425/unit2
+ 2099  ls
+ 2100  cd 425RESTfulCreatures
+ 2101  code .
+ 2102  nodemon
+ 2103  git add .
+ 2104  git commit -m 'finish lesson'
+ 2105  git push origin main
+ 2106  cd current-projects
+ 2107  ls
+ 2108  cd nextjs-portfolio-version2
+ 2109  ls
+ 2110  vim
+ 2111  vim ~/.vimrc
+ 2112  vim
+ 2113  vim ~/.vimrc
+ 2114  vim
+ 2115  vim ~/.vimrc
+ 2116  vim
+ 2117  vim ~/.vimrc
+ 2118  vim 
+ 2119  vim ~/.vimrc
+ 2120  vim
+ 2121  vim ~/.vimrc
+ 2122  vim 
+ 2123  vim ~/.vimrc
+ 2124  vim 
+ 2125  vim
+ 2126  vim ~/.vimrc
+ 2127  vim 
+ 2128  vim
+ 2129  vim ~/.vimrc
+ 2130  vim 
+ 2131  code ~/.vimrc
+ 2132  clear
+ 2133  npm i -g sequelize-cli
+ 2134  npm -g list
+ 2135  cd sei-425/unit2
+ 2136  mkdir sequelize-intro
+ 2137  cd sequelize-intro
+ 2138  npm init -y
+ 2139  echo node_modules >> .gitignore
+ 2140  psql
+ 2141  touch intro.js
+ 2142  ls 
+ 2143  ls -a
+ 2144  code .
+ 2145  npm i pg sequelize
+ 2146  sequelize
+ 2147  sequelize init
+ 2148  createdb userapp_development
+ 2149  psql
+ 2150  touch scratch-pad.txt
+ 2151  sequelize
+ 2152  sequelize model:create --name user --attributes firstName:string,lastName:string,age:integer,email:string
+ 2153  psql
+ 2154  clear
+ 2155  sequelize
+ 2156  sequelize db:migrate
+ 2157  clear
+ 2158  psql
+ 2159  sequelize db:migrate:undo:all
+ 2160  sequelize db:migrate
+ 2161  sequelize db:migrate:undo:all
+ 2162  sequelize db:migrate
+ 2163  node intro.js
+ 2164  git add .
+ 2165  git init
+ 2166  git add .
+ 2167  git commit
+ 2168  git remote add origin git@github.com:weston-bailey/425-sequelize-intro.git\ngit branch -M main\ngit push -u origin main
+ 2169  node intro.js
+ 2170  git add .
+ 2171  git commit -m 'finish lesson'
+ 2172  git push origin main
+ 2173  cd sei-425/unit2
+ 2174  git clone git@github.com:weston-bailey/express-apis-omdb-part-2-starter.git
+ 2175  cd express-apis-omdb-part-2-starter
+ 2176  code .
+ 2177  npm install 
+ 2178  touch .env
+ 2179  nodemon
+ 2180  killall node
+ 2181  exit
+ 2182  nodemon
+ 2183  sr
+ 2184  npm i sequelize pg
+ 2185  sr
+ 2186  sequelize init
+ 2187  psql
+ 2188  createdb omdb
+ 2189  psql
+ 2190  touch scratch-pad.txt
+ 2191  sr
+ 2192  sequelize model:create --name fave --attributes title:string,imdbid:string
+ 2193  sr
+ 2194  sequelize 
+ 2195  sequelize db:migrate
+ 2196  psql
+ 2197  sequelize db:migrate:undo:all
+ 2198  sequelize db:migrate
+ 2199  sequelize init:migrations
+ 2200  nodemon
+ 2201  clear
+ 2202  psql
+ 2203  touch views/faves.ejs
+ 2204  nodemon
+ 2205  git add .
+ 2206  git commit -m 'finish part 2'
+ 2207  git push origin main
+ 2208  cd current-projects
+ 2209  ls
+ 2210  mkdir mind-map
+ 2211  cd mind-map
+ 2212  vim
+ 2213  touch README.md
+ 2214  exit
+ 2215  git add .
+ 2216  git commit 
+ 2217  git init
+ 2218  git add .
+ 2219  git commit
+ 2220  vim
+ 2221  git add .
+ 2222  git commit
+ 2223  exit
+ 2224  ls
+ 2225  cd current-projects/datastructs-algos-challenges
+ 2226  git pull origin main
+ 2227  cd python
+ 2228  vim
+ 2229  ls
+ 2230  ls lib
+ 2231  mkdir priority_queue
+ 2232  touch lib/__init__.py priority_queue/PriorityQueue.py
+ 2233  exit
+ 2234  ls
+ 2235  vim
+ 2236  ls
+ 2237  mv priority_queue/lib/priority_queue
+ 2238  mv -R priority_queue lib/priority_queue
+ 2239  mv priority_queue lib/priority_queue
+ 2240  ls
+ 2241  exit
+ 2242  ls
+ 2243  touch lib/priority_queue/PriorityQueue_test.py
+ 2244  make
+ 2245  ls
+ 2246  cat Makefile
+ 2247  make 
+ 2248  make
+ 2249  exit
+ 2250  ls
+ 2251  cd lib
+ 2252  ls
+ 2253  mv priority_queue priority_queue
+ 2254  code .
+ 2255  cd ..
+ 2256  git status
+ 2257  ls
+ 2258  cd ...
+ 2259  cd datastructs-algos-challenges
+ 2260  git status
+ 2261  vim .git
+ 2262  vim .gitignore
+ 2263  cd python/challenges
+ 2264  rm -rf __pycache__
+ 2265  cd ..
+ 2266  ls
+ 2267  cd challenges/leetcode
+ 2268  rm -rf __pycache__
+ 2269  cd ..
+ 2270  cd lib
+ 2271  rm -rf __pycache__
+ 2272  rm -rf */__pycache__
+ 2273  git status
+ 2274  cd ..
+ 2275  git add .
+ 2276  git commit -m 'adds priority queue python'
+ 2277  vim
+ 2278  python3
+ 2279  vim
+ 2280  clear
+ 2281  cd
+ 2282  clear
+ 2283  cd sei-425/unit2/sequelize-intro
+ 2284  code .
+ 2285  sequelize model:create --name pet --attributes name:string,species:string,description:text,userId:integer
+ 2286  sequelize db:migrate
+ 2287  psql
+ 2288  touch oneToMany.js
+ 2289  node oneToMany.js
+ 2290  node intro.js
+ 2291  node oneToMany.js
+ 2292  git add .
+ 2293  git commit -m 'update lesson'
+ 2294  git push origin main
+ 2295  node oneToMany.js
+ 2296  git add .
+ 2297  git commit -m 'finish 1:M'
+ 2298  git push origin main
+ 2299  clear
+ 2300  cd ..
+ 2301  cd instr
+ 2302  git clone git@github.com:weston-bailey/project-2-auth-lesson.git
+ 2303  cd project-2-auth
+ 2304  cd ..
+ 2305  cd project-2-auth-lesson
+ 2306  vim
+ 2307  git status
+ 2308  git add .
+ 2309  git commit
+ 2310  exit
+ 2311  git add .
+ 2312  git commit
+ 2313  exit
+ 2314  ls
+ 2315  cat package.json
+ 2316  sequelize model:create --name user --attributes email:string,password:string
+ 2317  npm i
+ 2318  nodemon
+ 2319  exit
+ 2320  ls
+ 2321  sequelize model:create --name user --attributes email:string,password:string
+ 2322  sequelize init
+ 2323  createdb p2_auth_test
+ 2324  sequelize model:create --name user --attributes email:string,password:string
+ 2325  exit
+ 2326  :xit
+ 2327  exit
+ 2328  cd sei-425/instr/project-2-auth-lesson
+ 2329  vim
+ 2330  exit
+ 2331  nodemon
+ 2332  ls
+ 2333  mkdir controllers
+ 2334  touch controllers/users.js
+ 2335  ls
+ 2336  ls views
+ 2337  mkdir views/users
+ 2338  touch views/users/new.ejs
+ 2339  exit
+ 2340  sequelize db:migrate
+ 2341  killall node
+ 2342  nodemon
+ 2343  psql
+ 2344  git status
+ 2345  git add -A
+ 2346  git commit 
+ 2347  exitr
+ 2348  exit
+ 2349  cd ..
+ 2350  ls
+ 2351  cd ..
+ 2352  cd unit2
+ 2353  cd sequelize-intro
+ 2354  git push origin main
+ 2355  ls
+ 2356  touch views/users/login.ejs
+ 2357  exit
+ 2358  git status
+ 2359  git add -A
+ 2360  git commit
+ 2361  vim
+ 2362  git add .
+ 2363  git commit -m 'completes part 3'
+ 2364  exit
+ 2365  vim ~/.vimrc
+ 2366  exit
+ 2367  ls
+ 2368  touch views/users/profile.ejs
+ 2369  exit
+ 2370  git log
+ 2371  git add .
+ 2372  git commit -m 'completes part 4'
+ 2373  exit
+ 2374  npm i cryto-js
+ 2375  npm i crypto-js
+ 2376  npm i bcrypt
+ 2377  exit
+ 2378  git add .
+ 2379  git commit -m 'completes part 5'
+ 2380  exit
+ 2381  npm i dotenv
+ 2382  touch .env
+ 2383  exit
+ 2384  git status
+ 2385  git log
+ 2386  git add -A
+ 2387  git commit
+ 2388  echo .env >> .gitignore
+ 2389  git status
+ 2390  git restore .env
+ 2391  git staus
+ 2392  git status
+ 2393  git restore --staged .env
+ 2394  git status
+ 2395  git add .
+ 2396  git commit
+ 2397  git checkout solution 
+ 2398  git rebase main
+ 2399  git rebase --abort
+ 2400  git log
+ 2401  git reset --hard c9249b43476fe10d10064610a0c574f1486b43b8 
+ 2402  git rebase main
+ 2403  ls
+ 2404  git checkout main
+ 2405  ls
+ 2406  cd config
+ 2407  git log
+ 2408  vim 
+ 2409  sequelize init:config
+ 2410  vim 
+ 2411  git status
+ 2412  cat .gitignore
+ 2413  vim 
+ 2414  git status
+ 2415  git commit
+ 2416  git add .
+ 2417  git commit
+ 2418  git checkout solution 
+ 2419  git rebase main
+ 2420  git push origin solution
+ 2421  git push --force origin solution
+ 2422  git checkout main
+ 2423  git log
+ 2424  git reset --hard c9249b43476fe10d10064610a0c574f1486b43b8
+ 2425  vim
+ 2426  git status
+ 2427  ls
+ 2428  rm .env
+ 2429  ls
+ 2430  git status
+ 2431  git add .
+ 2432  git commit
+ 2433  git push origin main
+ 2434  vim
+ 2435  git add .
+ 2436  npm unistall morgan
+ 2437  npm uninstall morgan
+ 2438  git status
+ 2439  rm package-lock.json
+ 2440  git status
+ 2441  git add .
+ 2442  git commit
+ 2443  git push origin main
+ 2444  git checkout -b weston-bailey-solution solution\ngit pull https://github.com/weston-bailey/project-2-auth-lesson.git solution\n
+ 2445  git checkout solution\ngit merge --no-ff weston-bailey-solution\ngit push origin solution
+ 2446  git push origin solution
+ 2447  git remote add upstream git@github.com:WDI-SEA/project-2-auth.git
+ 2448  git push upstream solution
+ 2449  git pull upstream solution
+ 2450  git status
+ 2451  rm package-lock.json
+ 2452  git status
+ 2453  git add .
+ 2454  git rebase --continue
+ 2455  git status
+ 2456  ls
+ 2457  git rm package-lock.json
+ 2458  git status
+ 2459  git add 
+ 2460  git add .
+ 2461  git rebase --continue
+ 2462  git status
+ 2463  git rm package-lock.json
+ 2464  git add .
+ 2465  git rebase --continue
+ 2466  git statuys
+ 2467  git status
+ 2468  git rm package-lock.json
+ 2469  git add .
+ 2470  git rebase --continue
+ 2471  git push origin solution
+ 2472  git push --force origin solution
+ 2473  git push upstream solution
+ 2474  clear
+ 2475  git diff
+ 2476  cd
+ 2477  cd current-projects/datastructs-algos-challenges
+ 2478  git diff
+ 2479  ls
+ 2480  cd python
+ 2481  vim
+ 2482  killall node
+ 2483  cd current-projects/datastructs-algos-challenges
+ 2484  ls
+ 2485  cd python
+ 2486  vim
+ 2487  vim ~/.vimrc
+ 2488  vim 
+ 2489  vim ~/.vimrc
+ 2490  vim
+ 2491  nodemon --exec make -e .py
+ 2492  nodemon --exec "make | exit 1" -e .py
+ 2493  cd current-projects/datastructs-algos-challenges/python
+ 2494  nodemon --exec "make | exit 1" -e .py
+ 2495  make
+ 2496  nodemon --exec make -e .py
+ 2497  nodemon --exec "make | exit 1" -e .py
+ 2498  make
+ 2499  ls lib
+ 2500  ls lib/linked_list
+ 2501  cat lib/linked_list
+ 2502  cat lib/linked_list/Single_test.py
+ 2503  cat lib
+ 2504  cat lib/sort
+ 2505  cat lib/sort/sort_test.py
+ 2506  nodemon --exec "make | exit 1" -e .py
+ 2507  make
+ 2508  git add .
+ 2509  git commit 
+ 2510  exit
+ 2511  cd ..
+ 2512  ls
+ 2513  ls -l
+ 2514  cd mind-map
+ 2515  vim
+ 2516  exiot
+ 2517  exit
+ 2518  git add .
+ 2519  git commit -m 'adds languages and techs that are interesting'
+ 2520  exit
+ 2521  vimn
+ 2522  vim
+ 2523  cd sei-425
+ 2524  cd instr
+ 2525  ls
+ 2526  code .
+ 2527  cd project-2-auth
+ 2528  cd ..
+ 2529  cd project-2-auth-lesson
+ 2530  code .
+ 2531  nodemon
+ 2532  npm i
+ 2533  nodemon
+ 2534  touch .env
+ 2535  nodemon
+ 2536  git status
+ 2537  rm package-lock.json
+ 2538  git add .
+ 2539  git commit -m 'fixes mistake in login route'
+ 2540  git push origin solution
+ 2541  git push upstream solution
+ 2542  cd sei-425/unit2
+ 2543  git clone git@github.com:WDI-SEA/project-2-auth.git
+ 2544  cd project-2-auth
+ 2545  code .
+ 2546  npm i 
+ 2547  nodemon
+ 2548  sr
+ 2549  ls
+ 2550  sequelize init
+ 2551  createdb auth_intro_lesson
+ 2552  psql
+ 2553  sequelize
+ 2554  touch scratch-pad.md
+ 2555  sr
+ 2556  sequelize model:create --name user --attributes email:string,password:string
+ 2557  sr
+ 2558  sequelize db:migrate
+ 2559  mkdir controllers views/users
+ 2560  touch controllers/users.js
+ 2561  nodemon
+ 2562  touch views/users/new.ejs
+ 2563  nodemon
+ 2564  git add .
+ 2565  git commit -m 'break time'
+ 2566  git checkout -b 425-codealong
+ 2567  git push origin 425-codealong 
+ 2568  nodemon
+ 2569  git add .
+ 2570  git commit -m 'part 2 complete!'
+ 2571  nodemon
+ 2572  touch views/users/login.ejs
+ 2573  nodemon
+ 2574  git add .
+ 2575  git commit -m 'actually completes step 2'
+ 2576  git push origin main
+ 2577  npm i cookie-parser
+ 2578  nodemon
+ 2579  git add .
+ 2580  git commit -m 'finishes part 4'
+ 2581  git push origin main
+ 2582  git push origin 425-codealong 
+ 2583  touch views/users/profile.ejs
+ 2584  nodemon
+ 2585  git add .
+ 2586  git commit -m 'finish part 4'
+ 2587  git push origin 425-codealong 
+ 2588  nodemon
+ 2589  touch crypto-test.js
+ 2590  npm i bcryptjs
+ 2591  node crypto-test.js
+ 2592  top
+ 2593  node crypto-test.js
+ 2594  npm i crypto-js
+ 2595  node crypto-test.js
+ 2596  npm i dotenv
+ 2597  cat .gitignore
+ 2598  echo .env >> .gitignore
+ 2599  cat .gitignore
+ 2600  touch .env
+ 2601  nodemon
+ 2602  psql
+ 2603  git add .
+ 2604  git commit -m 'finish auth woot'
+ 2605  git push origin main
+ 2606  git push origin 425-codealong 
+ 2607  cd ..
+ 2608  git clone git@github.com:WDI-SEA/project-2-auth.git derp
+ 2609  cd derp
+ 2610  git rebase 425-codealong 
+ 2611  git rebase origin/425-codealong 
+ 2612  ls
+ 2613  git branch
+ 2614  git fetch origin 425-codealong:425-codealong 
+ 2615  cd ..
+ 2616  cd project-2-auth
+ 2617  git checkout main
+ 2618  git add .
+ 2619  git commit -m 'merge'
+ 2620  git rebase 425-codealong 
+ 2621  git remote set-url origin
+ 2622  git remote set-url origin git@github.com:weston-bailey/425-p2-auth.git
+ 2623  git push origin main
+ 2624  ls
+ 2625  cat .gitignore
+ 2626  ls
+ 2627  rm -rf .env
+ 2628  code .
+ 2629  git add .
+ 2630  git commit -m 'updates'
+ 2631  git push origin main
+ 2632  ls
+ 2633  git checkout 425-codealong 
+ 2634  git remote set-url origin git@github.com:WDI-SEA/project-2-auth.git
+ 2635  code .
+ 2636  touch .env
+ 2637  nodemon
+ 2638  touch views/404.ejs
+ 2639  touch views/500.ejs
+ 2640  git add .
+ 2641  git commit -m 'error bonus'
+ 2642  git push origin 425-codealong 
+ 2643  cd current-projects
+ 2644  ls
+ 2645  cd Quakebook
+ 2646  git push --verbose origin main
+ 2647  git push --verbose origin master
+ 2648  sequelize
+ 2649  cd sei-425
+ 2650  cd unit2
+ 2651  ls
+ 2652  ping www.google.com
+ 2653  vim 
+ 2654  ping www.google.com
+ 2655  cd current-projects
+ 2656  git clone git@github.com:weston-bailey/expressjs.com.git
+ 2657  cd ex
+ 2658  cd expressjs.com
+ 2659  ls
+ 2660  vim
+ 2661  code .
+ 2662  git status
+ 2663  git diff
+ 2664  git add .
+ 2665  git commit 
+ 2666  git push origin gh-pages 
+ 2667  cd current-projects
+ 2668  ls
+ 2669  cd mem-print
+ 2670  ls
+ 2671  ls -l
+ 2672  vim 
+ 2673  ls
+ 2674  rm main
+ 2675  make main
+ 2676  ls
+ 2677  main
+ 2678  ./main
+ 2679  vim
+ 2680  rm main
+ 2681  main
+ 2682  make main
+ 2683  ./main
+ 2684  rm main
+ 2685  vim
+ 2686  make main
+ 2687  ./main
+ 2688  cd ..
+ 2689  ls
+ 2690  cd mind-map
+ 2691  vim 
+ 2692  cd gitbook-notes
+ 2693  git status
+ 2694  git pull origin master
+ 2695  git pull upstream master
+ 2696  vim
+ 2697  git status
+ 2698  git add .
+ 2699  git commit
+ 2700  git push origin master
+ 2701  gh pr create
+ 2702  :exit
+ 2703  exit
+ 2704  git status
+ 2705  git add .
+ 2706  git commit -m 'adds post-cohort resources'
+ 2707  git push origin master
+ 2708  gh pr create
+ 2709  git branch
+ 2710  git checkout router-v6 
+ 2711  git rebase main
+ 2712  git merge main
+ 2713  git checkout main
+ 2714  git rebase master
+ 2715  git add ,
+ 2716  git checkout master
+ 2717  git add .
+ 2718  git commit -m 'updates post cohort resources'
+ 2719  cd current-projects
+ 2720  mkdir testing-express
+ 2721  cd testing-express
+ 2722  npm i chai supertest mocha --save-dev
+ 2723  npm i express
+ 2724  ls
+ 2725  npm init
+ 2726  npm i chai supertest mocha --save-dev
+ 2727  npm i express
+ 2728  ls
+ 2729  cat package.json
+ 2730  echo node_modules >> .gitignore
+ 2731  git init
+ 2732  vim
+ 2733  nodemon
+ 2734  npm run test
+ 2735  npm test
+ 2736  npm run test-a ll
+ 2737  npm run test-all
+ 2738  nodemon --exec npm run test
+ 2739  cd ..
+ 2740  ls
+ 2741  cd datastructs-algos-challenges
+ 2742  vim
+ 2743  git add .
+ 2744  git commit -m 'adds blockchain ds link'
+ 2745  cd ..
+ 2746  cd 
+ 2747  cd sei-425
+ 2748  ls
+ 2749  cd unit2
+ 2750  ls
+ 2751  cd express-
+ 2752  cd express-views
+ 2753  ls
+ 2754  cd 
+ 2755  cd current-projects/datastructs-algos-challenges
+ 2756  vim
+ 2757  git add .
+ 2758  git commit -m 'adds blockchaing link'
+ 2759  ls **
+ 2760  ls *
+ 2761  ls
+ 2762  ls ***
+ 2763  ls *
+ 2764  ls **
+ 2765  ls **/*
+ 2766  ls
+ 2767  ls **
+ 2768  ls *
+ 2769  cd ..
+ 2770  ls
+ 2771  ls *
+ 2772  ls ***
+ 2773  cd ..
+ 2774  ls
+ 2775  cat project.sql
+ 2776  vim
+ 2777  history | grep heroku
+ 2778  clear
+ 2779  history | grep heroku
+ 2780  clear
+ 2781  cd current-projects
+ 2782  ls
+ 2783  cd ..
+ 2784  ls
+ 2785  cd gitbook-notes
+ 2786  vim
+ 2787  cd ..
+ 2788  cd sei-425/instr
+ 2789  git clone git@github.com:WDI-SEA/react-explainer.git
+ 2790  cd react-explainer
+ 2791  ls
+ 2792  code .
+ 2793  git add .
+ 2794  git commit -m 'adds broken imgs to react expplainer'
+ 2795  git push origin main
+ 2796  git push origin master
+ 2797  gh pr create
+ 2798  cd current-projects/expressjs.com
+ 2799  git status
+ 2800  git remote add upstream git@github.com:expressjs/expressjs.com.git
+ 2801  git pull upstream
+ 2802  code .
+ 2803  git status
+ 2804  git add . 
+ 2805  git commit
+ 2806  git status
+ 2807  git add .
+ 2808  git commit -m 'removes "/" after broken links in */advanced/best-practice-performance.md'
+ 2809  git status
+ 2810  cd current-projects
+ 2811  ls
+ 2812  cd expressjs.com
+ 2813  git push origin main
+ 2814  git push origin gh-pages 
+ 2815  cd ..
+ 2816  ls
+ 2817  cd gitbook-notes
+ 2818  cd 
+ 2819  cd gitbook-notes
+ 2820  git pull upstream master
+ 2821  git push origin master
+ 2822  gh pr create
+ 2823  git status
+ 2824  git log
+ 2825  cd sei-425/unit2/project-2-auth
+ 2826  git remote
+ 2827  git remote -v
+ 2828  git remote set-url origin git@github.com:weston-bailey/425-p2-auth.git
+ 2829  git checkout main
+ 2830  git rebase 425-codealong 
+ 2831  git push origin main
+ 2832  git pull origin main
+ 2833  git status
+ 2834  git log
+ 2835  git push origin main
+ 2836  nodemon
+ 2837  ls
+ 2838  touch .env
+ 2839  code .
+ 2840  nodemon
+ 2841  code .
+ 2842  git rm -rf --cached .env
+ 2843  git add .
+ 2844  git status
+ 2845  git commit -m 'banish .env file'
+ 2846  git push origin main
+ 2847  brew tap heroku/brew && brew install heroku
+ 2848  heroku --version
+ 2849  which heroku
+ 2850  cd sei-425/unit2
+ 2851  ls
+ 2852  cd project-2-auth
+ 2853  heroku login
+ 2854  code .
+ 2855  heroku login
+ 2856  ls
+ 2857  cat package.json
+ 2858  node .
+ 2859  touch Procfile
+ 2860  code .
+ 2861  npm i sequelize-cli
+ 2862  git add .
+ 2863  git commit -m 'prep for deployment'
+ 2864  git push origin main
+ 2865  heroku git:remote auth-deployment-425
+ 2866  heroku addons:create heroku-postgresql:hobby-dev
+ 2867  heroku pg:psql
+ 2868  heroku config:set PGSSLMODE=no-verify
+ 2869  heroku run echo hello
+ 2870  heroku run sequelize db:migrate
+ 2871  heroku run npx sequelize db:migrate
+ 2872  heroku logs --tail
+ 2873  heroku logs
+ 2874  heroku run sequelize db:migrate
+ 2875  heroku logs --tail
+ 2876  cd current-projects
+ 2877  cd datastructs-algos-challenges
+ 2878  git status
+ 2879  git push
+ 2880  ping www.google.com
+ 2881  CD sei-425
+ 2882  LS
+ 2883  cd sei-425/unit2
+ 2884  ls
+ 2885  cd ..
+ 2886  cd instr
+ 2887  clone-p2 git@github.com:Eduarte783/drink_lab.git
+ 2888  ls
+ 2889  cd 
+ 2890  cd sei-425/instr
+ 2891  clone-p2 git@github.com:Eduarte783/drink_lab.git erik
+ 2892  clone-p2 git@github.com:gracenarez333/walkie-doggie-proj-2.git grace
+ 2893  killall node
+ 2894  nodemon
+ 2895  killall node
+ 2896  cd sei-425/instr
+ 2897  ls
+ 2898  git clone git@github.com:weston-bailey/sf-mood-tracker.git
+ 2899  cd sf-mood-tracker
+ 2900  npm i
+ 2901  npm run start
+ 2902  cd gitbook-notes
+ 2903  git pull upstream master
+ 2904  vim
+ 2905  git status
+ 2906  git ad .
+ 2907  git add .
+ 2908  git commit -m 'removes broken link in react mood points'
+ 2909  git fetch upstream master
+ 2910  git rebase upstream/master 
+ 2911  git fetch origin 
+ 2912  git fetch origin master
+ 2913  git rebase origin/master 
+ 2914  git push origin master
+ 2915  git push upstream master
+ 2916  exit
+ 2917  clear
+ 2918  cd sei-425
+ 2919  ls
+ 2920  mkdir unit3
+ 2921  cd instr
+ 2922  npx create-react-app component-lifecycle
+ 2923  cd component-lifecycle
+ 2924  vim
+ 2925  npm start
+ 2926  cd gitbook-notes
+ 2927  vim
+ 2928  git add .
+ 2929  git commit -m 'updates lord of the props'
+ 2930  git push origin master
+ 2931  git push upstream master
+ 2932  cd sei-425/unit3
+ 2933  npx create-react-app lord-of-the-props
+ 2934  cd lord-of-the-props
+ 2935  code .
+ 2936  sr
+ 2937  npm run start
+ 2938  touch src/Movie.js
+ 2939  sr
+ 2940  git add .
+ 2941  git commit -m 'finish lesson'
+ 2942  git remote add origin git@github.com:weston-bailey/425-lord-of-the-props.git\ngit branch -M main\ngit push -u origin main
+ 2943  git log
+ 2944  vim
+ 2945  git status
+ 2946  git add .
+ 2947  git commit -m 'updates LOTR running time in lord of the props lab'
+ 2948  git push upsteam master
+ 2949  git push upstream master
+ 2950  git push origin master
+ 2951  cd
+ 2952  cd sei-425
+ 2953  cd instr
+ 2954  ls
+ 2955  mkdir p2s
+ 2956  cd p2s
+ 2957  clone-p2 git@github.com:Eduarte783/drink_lab.git Eric
+ 2958  ls
+ 2959  cd Eric
+ 2960  nodemon
+ 2961  touch .env
+ 2962  nodemon
+ 2963  killall node
+ 2964  nodemon
+ 2965  cd current-projects/randomizer
+ 2966  ls
+ 2967  code .
+ 2968  cd sei-425/instr
+ 2969  ls
+ 2970  npx create-react-app component-lifecycle
+ 2971  rm -rf component-lifecycle
+ 2972  npx create-react-app component-lifecycle
+ 2973  cd component-lifecycle
+ 2974  vim
+ 2975  npm run start
+ 2976  git add .
+ 2977  git commit -m 'y u no work, interval?'
+ 2978  exit
+ 2979  cd ..
+ 2980  git clone git@github.com:weston-bailey/sf-mood-tracker.git
+ 2981  cd sf-mood-tracker
+ 2982  npm run start
+ 2983  vim
+ 2984  npm run start
+ 2985  exit
+ 2986  cd sei-425/instr/component-lifecycle
+ 2987  vim
+ 2988  npm run start
+ 2989  cd sei-425
+ 2990  cd instr
+ 2991  git clone git@github.com:WDI-SEA/fetch-weather.git
+ 2992  cd sei-425/unit3
+ 2993  ls
+ 2994  npx create-react-app mood-points
+ 2995  ls
+ 2996  cd mood-points
+ 2997  code .
+ 2998  sr
+ 2999  npm run start
+ 3000  mkdir src/components
+ 3001  touch src/components/MoodPoints.jsx
+ 3002  sr
+ 3003  touch src/components/PointsDisplay.jsx
+ 3004  cd sei-425/instr/p2s
+ 3005  clone-p2 git@github.com:ApexBortz/Project-2-Anime-app.git nicholas
+ 3006  cd nicholas
+ 3007  nodemon
+ 3008  sequelize db:migrate:undo:all
+ 3009  sequelize db:migrate
+ 3010  nodemon
+ 3011  code .
+ 3012  diff migrations/20220603005757-create-fave-facts.js migrations/20220603011332-create-fave-fact.js
+ 3013  code .
+ 3014  npm run start
+ 3015  killall node
+ 3016  cd sei-425/instr/p2s
+ 3017  ls
+ 3018  cd nicholas
+ 3019  ls
+ 3020  vim
+ 3021  nodemon
+ 3022  code .
+ 3023  cal
+ 3024  cd sei-425
+ 3025  cd unit3
+ 3026  git clone git@github.com:weston-bailey/425-react-dino-blog.git
+ 3027  cd 425-react-dino-blog
+ 3028  npm i
+ 3029  code .
+ 3030  npm run start
+ 3031  clear
+ 3032  code .
+ 3033  npm run start
+ 3034  git add .
+ 3035  git commit -m 'adds controlled form'
+ 3036  git push origin main
+ 3037  cd sei-425/unit3
+ 3038  npx create-react-app simple-calc
+ 3039  cd simple-calc
+ 3040  code .
+ 3041  npm start
+ 3042  touch src/Calc.jsx
+ 3043  killall node
+ 3044  cd ..
+ 3045  pwd
+ 3046  npx create-react-app fruit-filter
+ 3047  cd fruit-filter
+ 3048  code .
+ 3049  mkdir src/components
+ 3050  touch src/components/FruitContainer.jsx src/components/List.jsx src/components/Input.jsx
+ 3051  npm run start
+ 3052  git add .
+ 3053  git commit -m 'finish part 1'
+ 3054  git remote add origin git@github.com:weston-bailey/425-fruit-filter.git\ngit branch -M main\ngit push -u origin main
+ 3055  npm run start
+ 3056  git add .
+ 3057  git commit -m 'removes fruits'
+ 3058  git push origin main
+ 3059  cd ..
+ 3060  git clone git@github.com:WDI-SEA/react-film-starter-repo.git
+ 3061  cd react-film-starter-repo
+ 3062  npm i
+ 3063  npm audit
+ 3064  code .
+ 3065  cd ..
+ 3066  git clone git@github.com:WDI-SEA/react-ajax-swapi-no-router.git
+ 3067  cd react-ajax-swapi-no-router
+ 3068  npm i
+ 3069  ls
+ 3070  rm package-lock.json
+ 3071  ls
+ 3072  git checkout wb-solve 
+ 3073  code .
+ 3074  npm i
+ 3075  npm run start
+ 3076  npm i
+ 3077  npm start
+ 3078  npm audit fix
+ 3079  npm run start
+ 3080  npm audit fix --force
+ 3081  npm run start
+ 3082  git checkout classes-solve
+ 3083  git checkout -b classes-solve
+ 3084  git reset
+ 3085  git stash
+ 3086  git checkout main
+ 3087  rm -rf node_modules
+ 3088  git status
+ 3089  git checkout classes-solve
+ 3090  git checkout main
+ 3091  git branch -d classes-solve 
+ 3092  git branch -D classes-solve 
+ 3093  git checkout -b classes-solve
+ 3094  npx create-react-app .
+ 3095  ls
+ 3096  vim
+ 3097  npm run start
+ 3098  mkdir src/components
+ 3099  touch src/components/Starships.jsx
+ 3100  exit
+ 3101  touch src/components/Starship.jsx touch src/components/Pilot.jsx
+ 3102  ls src/components
+ 3103  exit
+ 3104  git status
+ 3105  git add .
+ 3106  git stash
+ 3107  git status
+ 3108  cat .gitig
+ 3109  ls
+ 3110  rm node_modules
+ 3111  rm -rf node_modules
+ 3112  git checkout main
+ 3113  exit
+ 3114  vim
+ 3115  git status
+ 3116  git add .
+ 3117  git commit -m 'agnosticifies README towards functions v classes components in describing steps'
+ 3118  git push origin main
+ 3119  exit
+ 3120  cd
+ 3121  cd sei-425/instr
+ 3122  cd ..
+ 3123  git clone git@github.com:SEI-SEA-1-25/react-burger-stacker-lab.git
+ 3124  cd react-burger-stacker-lab
+ 3125  ls
+ 3126  git checkout solution 
+ 3127  ls
+ 3128  npm i
+ 3129  npm run start
+ 3130  nvm use 13
+ 3131  npm run start
+ 3132  cd sei-425
+ 3133  ls
+ 3134  cd unit3
+ 3135  ls
+ 3136  cd ..
+ 3137  ls
+ 3138  cd instr
+ 3139  ls
+ 3140  cd p2s
+ 3141  clone-p2 git@github.com:ApexBortz/Project-2-Anime-app.git n
+ 3142  cd n
+ 3143  nodemon
+ 3144  echo ENC_KEY=hello >> .env
+ 3145  nodemon
+ 3146  clear
+ 3147  cd sei-425/unit3
+ 3148  npx create-react-app component-lifecycle
+ 3149  cd component-lifecycle
+ 3150  code .
+ 3151  npm run start
+ 3152  mkdir src/components
+ 3153  touch src/components/FavoriteFoods.jsx
+ 3154  exit
+ 3155  git add .
+ 3156  git commit -m 'lunchtime'
+ 3157  git remote add origin git@github.com:weston-bailey/425-lifecycle-methods.git\ngit branch -M main\ngit push -u origin main
+ 3158  npm run start
+ 3159  git add .
+ 3160  git commit -m 'finish fave fods'
+ 3161  git push origin main
+ 3162  exit
+ 3163  touch src/components/Wisdom.jsx
+ 3164  exit
+ 3165  npm i axios
+ 3166  git add .
+ 3167  git commit -m 'adds wisdom'
+ 3168  git push origin main
+ 3169  cd ..
+ 3170  git clone git@github.com:WDI-SEA/fetch-weather.git
+ 3171  cd fetch-weather
+ 3172  npx create-react-app .
+ 3173  cd sei-425
+ 3174  cd instr
+ 3175  ls
+ 3176  cd p2s
+ 3177  cd n
+ 3178  ls
+ 3179  nodemon
+ 3180  cd sei-425/unit3
+ 3181  ls
+ 3182  cd fetch-weather
+ 3183  ls
+ 3184  code .
+ 3185  cd sei-425/unit3
+ 3186  ls
+ 3187  cd fetch-weather
+ 3188  code .
+ 3189  npm run start
+ 3190  touch .env.local
+ 3191  npm start
+ 3192  touch src/Weather.js
+ 3193  cd sei-425/unit3
+ 3194  ls
+ 3195  git clone git@github.com:WDI-SEA/react-ajax-swapi-no-router.git
+ 3196  ls
+ 3197  git clone git@github.com:WDI-SEA/react-ajax-swapi-no-router.git swapi
+ 3198  cd swapi
+ 3199  npx create-react-app .
+ 3200  code .
+ 3201  npm run start
+ 3202  mkdir src/components
+ 3203  touch src/components/Starships.js src/components/Starship.js
+ 3204  sr
+ 3205  npm install axios
+ 3206  git status
+ 3207  git add .
+ 3208  git commit -m 'solves with classes'
+ 3209  git checkout -b wb-classes-solve
+ 3210  git push origin wb-classes-solve 
+ 3211  cd ..
+ 3212  git clone git@github.com:WDI-SEA/functional-students.git
+ 3213  cd functional-students
+ 3214  npx create-react-app .
+ 3215  ls
+ 3216  code .
+ 3217  touch src/Roster.jsx
+ 3218  npm run start
+ 3219  touch src/Student.jsx
+ 3220  touch src/Score.jsx
+ 3221  git add .
+ 3222  git commit -m 'solves'
+ 3223  git checkout function-solve
+ 3224  git checkout -b function-solve
+ 3225  git push origin function-solve 
+ 3226  killall node
+ 3227  git branch
+ 3228  git push -d origin functional-solution 
+ 3229  clear
+ 3230  cd sei-425/unit3
+ 3231  npx create-react-app hooks-intro
+ 3232  code .
+ 3233  cd hooks-intro
+ 3234  code .
+ 3235  touch src/Counter.jsx
+ 3236  npm run start
+ 3237  git add .
+ 3238  git commit -m 'finishes lesson'
+ 3239  git remote add origin git@github.com:weston-bailey/425-hooks-intro.git\ngit branch -M main\ngit push -u origin main
+ 3240  cd sei-425
+ 3241  cd unit3
+ 3242  git clone git@github.com:WDI-SEA/react-burger-stacker.git
+ 3243  cd react-burger-stacker
+ 3244  git rebase origin/az-solution-cc 
+ 3245  vim
+ 3246  rm README.md
+ 3247  mv README.old.md README.md
+ 3248  git add .
+ 3249  git rebase --continue
+ 3250  git status
+ 3251  add README.md
+ 3252  git add README.md
+ 3253  git rebase --continue
+ 3254  git status
+ 3255  code .
+ 3256  git status
+ 3257  npm i
+ 3258  npm run start
+ 3259  nvm use 13
+ 3260  npm run start
+ 3261  cd sei-425/unit3
+ 3262  git clone git@github.com:SEI-SEA-1-25/react-burger-stacker-lab.git
+ 3263  cd react-burger-stacker-lab
+ 3264  code .
+ 3265  cd ..
+ 3266  cd react-burger-stacker
+ 3267  nvm ls
+ 3268  nvm use 13
+ 3269  code .
+ 3270  man chmod
+ 3271  man stat
+ 3272  cd current-projects/randomizer
+ 3273  vim
+ 3274  sr
+ 3275  git status
+ 3276  git add .
+ 3277  git commit -m 'pythonic-ify'
+ 3278  sr
+ 3279  python --version
+ 3280  brew upgrade python
+ 3281  sr
+ 3282  git status
+ 3283  git restore randomizer.py
+ 3284  git statu
+ 3285  exit
+ 3286  git status
+ 3287  git add .
+ 3288  git commit -m 'public methods return self'
+ 3289  git push origin main
+ 3290  sr
+ 3291  exit
+ 3292  code .
+ 3293  brew link --overwrite python@3.10
+ 3294  python --version
+ 3295  vim
+ 3296  sr
+ 3297  mr
+ 3298  srm
+ 3299  sr
+ 3300  srm
+ 3301  sr
+ 3302  vim
+ 3303  git status
+ 3304  git add .
+ 3305  git commit -m 'adds fancy 3.10 match case'
+ 3306  git push origin main
+ 3307  cat students.json
+ 3308  cd sei-425/instr
+ 3309  git clone git@github.com:WDI-SEA/react-ajax-lab-ancross.git
+ 3310  cd react-ajax-lab-ancross
+ 3311  ls
+ 3312  vim
+ 3313  npx create-react-app .
+ 3314  ~/sei-425/instr/react-ajax-lab-ancross
+ 3315  code .
+ 3316  vim
+ 3317  npm run start
+ 3318  cd ..
+ 3319  git clone git@git.generalassemb.ly:ed-product-library/GA-branded-templates-and-assets.git
+ 3320  ls
+ 3321  cd GA-branded-templates-and-assets
+ 3322  ls
+ 3323  git checkout main
+ 3324  git checkout -b main
+ 3325  cd ..
+ 3326  git clone git@github.com:weston-bailey/deliverable-template.git RESTful-API-planning
+ 3327  cd RESTful-API-planning
+ 3328  ls
+ 3329  rm -rf .git
+ 3330  git init
+ 3331  git add .
+ 3332  git commit -m 'init commit'
+ 3333  git remote add origin git@github.com:weston-bailey/RESTful-API-planning.git\ngit branch -M main\ngit push -u origin main
+ 3334  vim
+ 3335  git status
+ 3336  git add .
+ 3337  git commit -m 'adds skeleton'
+ 3338  git push origin main
+ 3339  exit
+ 3340  git status
+ 3341  node
+ 3342  clear
+ 3343  cd sei-425/unit3/hooks-intro
+ 3344  code .
+ 3345  npm run start
+ 3346  exit
+ 3347  touch src/Wisdom.jsx
+ 3348  git add .
+ 3349  git commit -m 'lunchtime'
+ 3350  git push origin main
+ 3351  touch src/Timer.jsx
+ 3352  touch src/Github.js
+ 3353  npm i axios
+ 3354  npm run start
+ 3355  git add .
+ 3356  git commit -m 'finishes lesson'
+ 3357  git push origin main
+ 3358  cd sei-425/instr
+ 3359  ls
+ 3360  git clone git@github.com:WDI-SEA/react-ajax-lab-ancross.git ancross
+ 3361  cd ancross
+ 3362  ls
+ 3363  cd ,,
+ 3364  cd ..
+ 3365  rm ancross/
+ 3366  rm -rf ancross/
+ 3367  git clone git@github.com:TaylorDarneille/react-ajax-lab-ancross.git taylor-an
+ 3368  cd taylor-an
+ 3369  git checkout smashing-solution 
+ 3370  git remote set-url origin git@github.com:WDI-SEA/react-ajax-lab-ancross.git
+ 3371  git push origin smashing-solution 
+ 3372  cd sei-425/unit3
+ 3373  ls
+ 3374  cd react-film-starter-repo
+ 3375  git status
+ 3376  git branch
+ 3377  git branch -v
+ 3378  git checkout p3-solution 
+ 3379  npm i
+ 3380  git checkout main
+ 3381  git rebase p3-solution 
+ 3382  nvm use 13
+ 3383  code .
+ 3384  cd ..
+ 3385  ls
+ 3386  cd ..
+ 3387  ls
+ 3388  cd instr
+ 3389  ls
+ 3390  cd RESTful-API-planning
+ 3391  vim
+ 3392  code .
+ 3393  mkdir imgs
+ 3394  touch ./imgs/blog-erd.drawio.png
+ 3395  vim
+ 3396  cd sei-425/instr
+ 3397  ls
+ 3398  cd RESTful-API-planning
+ 3399  ls
+ 3400  code .
+ 3401  git status
+ 3402  git add .
+ 3403  git commit -m 'adds erd'
+ 3404  git push origin main
+ 3405  cd sei-425/unit3/react-film-starter-repo
+ 3406  ls
+ 3407  code .
+ 3408  npm run start
+ 3409  nvm use 13
+ 3410  npm run start
+ 3411  code .
+ 3412  npm run start
+ 3413  nvm use 13
+ 3414  nvm ls
+ 3415  clear
+ 3416  cd sei-425/unit3/react-film-starter-repo
+ 3417  code .
+ 3418  npm run start
+ 3419  nvm use 13
+ 3420  npm run start
+ 3421  touch .env.local
+ 3422  npm run start
+ 3423  npm i axios
+ 3424  exit
+ 3425  cd ..
+ 3426  ls
+ 3427  cd ..
+ 3428  ls
+ 3429  cd instr
+ 3430  ls
+ 3431  cd RESTful-API-planning
+ 3432  code .
+ 3433  git status
+ 3434  git add .
+ 3435  git commit -m 'changes posts => blogs and adds discussion of blog routes'
+ 3436  git add .
+ 3437  git commit -m 'adds comment planning'
+ 3438  touch imgs/ecom-erd.drawio.png
+ 3439  mongo
+ 3440  mongod &
+ 3441  mongo
+ 3442  git status
+ 3443  git add .
+ 3444  git commit -m 'completes draft md'
+ 3445  git push origin main
+ 3446  git add .
+ 3447  git commit -m 'proofread'
+ 3448  git push origin main
+ 3449  git add .
+ 3450  git commit -m 'clarify deliverable instructions'
+ 3451  git push origin main
+ 3452  tail -50 ~/.dbshell
+ 3453  cat ~/.dbshell
+ 3454  code .
+ 3455  mongo
+ 3456  history
+ 3457  mongo
+ 3458  psql
+ 3459  cd sei-425
+ 3460  cd instr
+ 3461  ls
+ 3462  mkdir mongoose-intro
+ 3463  cd mongoose-intro
+ 3464  mkdir models
+ 3465  touch models/index.js
+ 3466  touch models/Drink.js
+ 3467  touch index.js
+ 3468  vim
+ 3469  ls
+ 3470  ls models
+ 3471  vim 
+ 3472  ls
+ 3473  npm init
+ 3474  npm i mongoose
+ 3475  node index.js
+ 3476  node intro.js
+ 3477  node index.js
+ 3478  brew tap mongodb/brew
+ 3479  brew install mongodb-community
+ 3480  brew services ls
+ 3481  mongod &
+ 3482  mongo
+ 3483  node index.js
+ 3484  mongo
+ 3485  clear
+ 3486  mongo
+ 3487  cat ~/.dbshell
+ 3488  cd sei-425/unit3
+ 3489  mkdir mongo-intro
+ 3490  cd mongo-intro
+ 3491  ls
+ 3492  cat ~/.dbshell > introLesson.js
+ 3493  code .
+ 3494  mongo
+ 3495  cd sei-425/unit3
+ 3496  git clone git@github.com:WDI-SEA/Mongo-Bounty-Hunters.git
+ 3497  cd Mongo-Bounty-Hunters
+ 3498  mongo
+ 3499  cd sei-425
+ 3500  ls
+ 3501  cd unit
+ 3502  cd instr
+ 3503  ls
+ 3504  cd RESTful-API-planning
+ 3505  git remote --verbose
+ 3506  git remote set-url origin git@github.com:DarcXnite/RESTful-API-planning.git
+ 3507  git pull origin main
+ 3508  code .
+ 3509  git remote -v
+ 3510  cd ..
+ 3511  rm -rf RESTful-API-planning
+ 3512  git clone git@github.com:WDI-SEA/RESTful-API-planning.git
+ 3513  cd RESTful-API-planning
+ 3514  code .
+ 3515  git add .
+ 3516  git commit -m 'prrof'
+ 3517  git log
+ 3518  git reset --hard 51be2ff2dccee318dab5b208726b5647f4cf1edb
+ 3519  git add .
+ 3520  git commit -m 'proof'
+ 3521  git push origin main
+ 3522  sr
+ 3523  cd sei-425/unit3
+ 3524  mkdir mongoose-intro
+ 3525  cd mongoose-intro
+ 3526  npm init -y
+ 3527  echo node_modules >> .gitignore
+ 3528  npm install mongoose
+ 3529  ls
+ 3530  mkdir models
+ 3531  touch models/index.js intro.js
+ 3532  ls 
+ 3533  ls models
+ 3534  code .
+ 3535  node intro.js
+ 3536  touch models/drink.js
+ 3537  node intro.js
+ 3538  mongo
+ 3539  node intro.js
+ 3540  git init
+ 3541  git add .
+ 3542  git commit -m 'finish lesson'
+ 3543  git remote add origin git@github.com:weston-bailey/425-mongoose-intro.git\ngit branch -M main\ngit push -u origin main
+ 3544  cd ..
+ 3545  mkdir bounty-api
+ 3546  cd bounty-api
+ 3547  npm init -y
+ 3548  echo node_modules >> .gitignore
+ 3549  npm i express mongoose
+ 3550  mkdir controllers models
+ 3551  touch index.js models/index.js
+ 3552  code .
+ 3553  nodemon
+ 3554  touch models/bounty.js testDb.js
+ 3555  mongo
+ 3556  npm install cors
+ 3557  git init
+ 3558  git add .
+ 3559  git commit -m 'break'
+ 3560  git remote add origin git@github.com:weston-bailey/452-bounty-server.git\ngit branch -M main\ngit push -u origin main
+ 3561  touch controllers/bounty.js
+ 3562  git add .
+ 3563  git commit -m 'bugs'
+ 3564  git push origin main
+ 3565  clear
+ 3566  nodemon
+ 3567  git add .
+ 3568  git commit -m 'finish bounty server'
+ 3569  git push origin main
+ 3570  cd ..
+ 3571  ls
+ 3572  cd mongoose-intro
+ 3573  code .
+ 3574  touch models/blog.js
+ 3575  touch relationships.js
+ 3576  node relationships.js
+ 3577  node intro.js
+ 3578  killall node
+ 3579  mongod &
+ 3580  killall mongod
+ 3581  mongod
+ 3582  node intro.js
+ 3583  mongo
+ 3584  node intro.js
+ 3585  node relationships.js
+ 3586  mongo
+ 3587  node relationships.js
+ 3588  git add .
+ 3589  git commit -m 'bugs'
+ 3590  git push origin main
+ 3591  node relationships.js
+ 3592  touch models/user.js
+ 3593  node relationships.js
+ 3594  git add .
+ 3595  git commit -m 'finishes lesson'
+ 3596  git push origin main
+ 3597  cd current-projects
+ 3598  ls
+ 3599  cd nextjs-portfolio
+ 3600  ls
+ 3601  vim 
+ 3602  cd current-projects
+ 3603  ls
+ 3604  cd nextjs-portfolio
+ 3605  ls
+ 3606  git status
+ 3607  vim
+ 3608  npm run start
+ 3609  nvm ls
+ 3610  nvm use 17
+ 3611  nvm i 17
+ 3612  nvm run dev
+ 3613  cat package.json
+ 3614  npm run dev
+ 3615  git add .
+ 3616  git commit -m 'adds project'
+ 3617  git push origin projects
+ 3618  git checkout main
+ 3619  git pull origin main
+ 3620  npm run dev
+ 3621  killall node
+ 3622  npm run dev
+ 3623  git add .
+ 3624  git commit -m 'proofs and adds resume'
+ 3625  git push origin main
+ 3626  git checkout deploy 
+ 3627  git rebase origin main
+ 3628  git push origin main
+ 3629  git push origin deploy
+ 3630  git pull origin deploy
+ 3631  git checkout deploy 
+ 3632  git push origin deploy
+ 3633  git pull origin deploy
+ 3634  git merge main
+ 3635  git status
+ 3636  git push origin deploy
+ 3637  npm run start
+ 3638  npm run dev
+ 3639  git add .
+ 3640  git commit -m 'adds resume'
+ 3641  git push origin main
+ 3642  git push origin deploy
+ 3643  git checkout origin main
+ 3644  git checkout main
+ 3645  git rebase deploy
+ 3646  git push origin main
+ 3647  npm run dev
+ 3648  cd ..
+ 3649  npx create-next-app
+ 3650  npx create-next-app pl
+ 3651  cd pl
+ 3652  code .
+ 3653  git add .
+ 3654  git commit -m 'adds license to package.json'
+ 3655  git checkout deploy
+ 3656  git rebase main
+ 3657  git push origin deploy
+ 3658  git push origin main
+ 3659  git add .
+ 3660  git status
+ 3661  git commit -m 'adds lunar tribune project'
+ 3662  git push origin deploy
+ 3663  npm run dev
+ 3664  cd sei-425/unit3
+ 3665  ls
+ 3666  cd bounty-api
+ 3667  ls
+ 3668  code .
+ 3669  nodemon
+ 3670  cd ..
+ 3671  cd sei-425/unit3
+ 3672  git clone git@github.com:weston-bailey/452-bounty-server.git
+ 3673  cd 452-bounty-server
+ 3674  code .
+ 3675  npm install
+ 3676  nodemon
+ 3677  cd ..
+ 3678  npx create-react-app bounty-client
+ 3679  cd bounty-client
+ 3680  npm run start
+ 3681  killall node
+ 3682  nodemon
+ 3683  npm run start
+ 3684  code .
+ 3685  mkdir src/components src/components/pages
+ 3686  touch src/components/pages/Home.jsx src/components/pages/Bounty.jsx
+ 3687  touch src/components/BountyCreateForm.jsx src/components/BountyDetails.jsx src/components/BountyEditForm.jsx
+ 3688  clear
+ 3689  npm install react-router-dom
+ 3690  mongo
+ 3691  touch .env.local
+ 3692  npm run start
+ 3693  npm i axios
+ 3694  npm run start
+ 3695  git status
+ 3696  git add .
+ 3697  git commit -m 
+ 3698  git commit -m 'debug'
+ 3699  git remote add origin git@github.com:weston-bailey/425-bounty-client.git\ngit branch -M main\ngit push -u origin main
+ 3700  git add .
+ 3701  git commit -m 'break debug\n'
+ 3702  git push origin main
+ 3703  git add .
+ 3704  git commit -m 'adds create form'
+ 3705  git push origin main
+ 3706  git add .
+ 3707  git commit -m 'debug'
+ 3708  git push origin main
+ 3709  npm run start
+ 3710  git add .
+ 3711  git commit -m 'mvp'
+ 3712  git push origin main
+ 3713  cd sei-425/unit3
+ 3714  mkdir MERN-auth-template
+ 3715  cd MERN-auth-template
+ 3716  ls
+ 3717  mkdir server
+ 3718  cd server
+ 3719  ls
+ 3720  npm init -y
+ 3721  touch index.js
+ 3722  echo node_modules >> .gitignore
+ 3723  touch .env
+ 3724  mkdir models controllers
+ 3725  ls -a
+ 3726  git init
+ 3727  npm install express mongoose dotenv cors
+ 3728  code .
+ 3729  nodemon
+ 3730  cd ..
+ 3731  nodemon
+ 3732  cd ..
+ 3733  pwd
+ 3734  ls
+ 3735  cd server
+ 3736  code .
+ 3737  nodemon
+ 3738  touch models/index.js models/user.js
+ 3739  nodemon
+ 3740  git status
+ 3741  echo .env >> .gitignore
+ 3742  git status
+ 3743  git add -A
+ 3744  git commit -m 'init commit'
+ 3745  ls -a
+ 3746  git remote add origin git@github.com:weston-bailey/425-MERN-auth-server.git\ngit branch -M main\ngit push -u origin main
+ 3747  cd ..
+ 3748  code .
+ 3749  cd server
+ 3750  code .
+ 3751  git add .
+ 3752  git commit -m 'take a break'
+ 3753  git push origin main
+ 3754  git add .
+ 3755  git commit -m 'take a break'
+ 3756  git push origin main
+ 3757  mongo
+ 3758  clear
+ 3759  touch dbTest.js
+ 3760  node dbTest.js
+ 3761  mongo
+ 3762  npm install bcrypt
+ 3763  touch hashTest.js
+ 3764  node hashTest.js
+ 3765  npm i jsonwebtoken
+ 3766  touch jwtTest.js
+ 3767  node jwtTest.js
+ 3768  mkdir controllers/api-v1
+ 3769  mkdir controllers/api-v1/users.js
+ 3770  rmdir controllers/api-v1/users.js
+ 3771  touch controllers/api-v1/users.js
+ 3772  nodemon
+ 3773  git add .
+ 3774  git commit -m 'lunch time'
+ 3775  git push origin main
+ 3776  nodemon
+ 3777  killall node
+ 3778  nodmeon
+ 3779  nodemon
+ 3780  ping www.google.com
+ 3781  git status
+ 3782  git add .
+ 3783  git commit -m 'finishes register'
+ 3784  git push origin main
+ 3785  mongo
+ 3786  git add .
+ 3787  git commit -m 'adds login'
+ 3788  git push origin main
+ 3789  nodemon
+ 3790  touch controllers/api-v1/authLockedRoute.js
+ 3791  nodemon
+ 3792  git add .
+ 3793  git commit -m 'finishes server'
+ 3794  git push origin main
+ 3795  nodemon
+ 3796  git status
+ 3797  pwd
+ 3798  cd ..
+ 3799  ls
+ 3800  pwd
+ 3801  npx create-react-app client
+ 3802  ls 
+ 3803  cd server
+ 3804  nodemon
+ 3805  cd ..
+ 3806  ls
+ 3807  cd client
+ 3808  npm run start
+ 3809  code .
+ 3810  mkdir src/components
+ 3811  mkdir src/components/pages
+ 3812  touch src/components/Navbar.jsx
+ 3813  touch src/components/pages/Login.jsx src/components/pages/Profile.jsx src/components/pages/Register.jsx src/components/pages/Welcome.jsx
+ 3814  npm install react-router-dom axios jsonwebtoken
+ 3815  touch .env.local
+ 3816  npm run start
+ 3817  git add .
+ 3818  git commit -m  'class done'
+ 3819  git remote add origin git@github.com:weston-bailey/425-MERN-auth-client.git\ngit branch -M main\ngit push -u origin main
+ 3820  killall node
+ 3821  cd sei-425/unit3/MERN-auth-template
+ 3822  ls
+ 3823  cd server
+ 3824  nodemon
+ 3825  cd ..
+ 3826  ls
+ 3827  cd client
+ 3828  npm run start
+ 3829  code .
+ 3830  npm uninstall jsonwebtoken
+ 3831  npm install jwt-decode
+ 3832  code .
+ 3833  mongo
+ 3834  npm run start
+ 3835  git add .
+ 3836  git commit -m 'debug'
+ 3837  git push origin main
+ 3838  git add .
+ 3839  git commit -m 'finish the auth'
+ 3840  git push origin main
+ 3841  git add .
+ 3842  git commit -m 'finishes lesson'
+ 3843  git push origin main
+ 3844  cd sei-425/unit3
+ 3845  CD MERN-auth-template
+ 3846  cd server
+ 3847  cd MERN-auth-template
+ 3848  cd server
+ 3849  git push
+ 3850  cd ..
+ 3851  cd client
+ 3852  git push
+ 3853  touch collab.txt
+ 3854  git status
+ 3855  git add .
+ 3856  git status
+ 3857  git restore --stage collab.txt
+ 3858  touch dont-add.file
+ 3859  ls
+ 3860  git status
+ 3861  git add collab.txt
+ 3862  git commit -m '\ndid a super sick coding sesh with June\nCo-authored-by: jmch-git juneholmberg@me.com\n'
+ 3863  git push origin main
+ 3864  ls bin
+ 3865  mkdir .bin
+ 3866  cd .bim
+ 3867  cd scripts
+ 3868  ls
+ 3869  cd ..
+ 3870  hello-world
+ 3871  vim ~/.zshrc
+ 3872  cp scripts/hello-world .bin/hello-world
+ 3873  zsh
+ 3874  hello-world
+ 3875  cp .bin/hello-world /usr/local/bin/hello-world.sh
+ 3876  zsh
+ 3877  hello-world
+ 3878  cd /usr/local/bin
+ 3879  ls
+ 3880  sh hello-world.sh
+ 3881  hello-world.sh
+ 3882  mv hello-world.sh hello-world
+ 3883  zsh
+ 3884  hello-world
+ 3885  cd
+ 3886  hello-world
+ 3887  cd /usr/local/bin
+ 3888  vim update-cra
+ 3889  cd current-projects
+ 3890  mkdir cra-test
+ 3891  cd cra-test
+ 3892  npx create-react-app .
+ 3893  mkdir _swap
+ 3894  mv -v */ !(_swap) _swap
+ 3895  mv -v */ !(./_swap) ./_swap
+ 3896  ls
+ 3897  rm _swap
+ 3898  rmdir _swap
+ 3899  mv -v */ !(./swap) ./swap
+ 3900  mv -v */ !(swap) swap
+ 3901  ls
+ 3902  mkdir swap
+ 3903  mv -v */ !(swap) swap
+ 3904  mv -v ./ !(swap) swap
+ 3905  mv -v . !(swap) swap
+ 3906  mv . !(swap) swap
+ 3907  mv * !(swap) swap
+ 3908  mv */ swap
+ 3909  mv */^swap swap
+ 3910  mv ./^swap swap
+ 3911  ls -I 
+ 3912  ls -I swap
+ 3913  ls -I | grep -v swap
+ 3914  ls | grep -v swap
+ 3915  ls -I | grep swap
+ 3916  ls -I | grep -v swap
+ 3917  mv -vt */ swap/
+ 3918  mv -v */ swap/
+ 3919  mv -v */ swap/!(swap)
+ 3920  mv -v */ swap/(
+ 3921  mv -v */ swap/!(swap)
+ 3922  mv -v */ swap/$!(swap)
+ 3923  mv -v */ swap/$(
+ 3924  mkdir ~/.swap
+ 3925  ls
+ 3926  rm -rf swap
+ 3927  ls
+ 3928  mv */ ~/.swap
+ 3929  mv * ~/.swap
+ 3930  ls ~/.swap
+ 3931  mv -R * ~/.swap
+ 3932  ls
+ 3933  npx create-react-app .
+ 3934  rm -rf ~/.swap/*
+ 3935  mv -R * ~/.swap
+ 3936  mv * ~/.swap
+ 3937  ls ~/.swap
+ 3938  ls
+ 3939  cd .
+ 3940  cd ..
+ 3941  rm -rf cra-test
+ 3942  git clone git@github.com:WDI-SEA/react-film-starter-repo.git
+ 3943  cd react-film-starter-repo
+ 3944  rm -rf ~/.swap/*
+ 3945  mv * ~/.swap
+ 3946  ls
+ 3947  npx create-react-app .
+ 3948  ls
+ 3949  mv ~/.swap/README/md ./README.md
+ 3950  ls ~/.swap
+ 3951  mv ~/.swap/README.md ./README.md
+ 3952  ls
+ 3953  cat README.md
+ 3954  ls
+ 3955  man mv
+ 3956  mv -v ~/.swap/src/App.js ./src/App.js
+ 3957  ls
+ 3958  man mv
+ 3959  ls ~/.
+ 3960  ls ~/.swap
+ 3961  man mc
+ 3962  man mv
+ 3963  mv -vn ~/.swap/src ./src
+ 3964  lst ./src
+ 3965  ls ./src
+ 3966  mv src/src ~/.swap/src
+ 3967  ls ./src
+ 3968  ls ~/.swap
+ 3969  ls ~/.swap/src
+ 3970  mv src/src/* ~/.swap/src
+ 3971  mv -vn ~/.swap/src/* ./src
+ 3972  rm -rf ~/.swap node_modules public src package-lock.json package.json 
+ 3973  mv -vn ~/.swap/* . 
+ 3974  ls ~/.swiftpm
+ 3975  ls ~/.swap
+ 3976  ls
+ 3977  ls ~/.swap
+ 3978  cd ..
+ 3979  rm react-film-starter-repo
+ 3980  rm -rf react-film-starter-repo
+ 3981  git clone git@github.com:WDI-SEA/react-film-starter-repo.git
+ 3982  cd react-film-starter-repo
+ 3983  ls
+ 3984  mv * ~/.swap
+ 3985  mkdir ~/.swap
+ 3986  mv * ~/.swap
+ 3987  ls
+ 3988  ls -a
+ 3989  mv .* ~/.swap 
+ 3990  ls
+ 3991  ls -a
+ 3992  rm -rf ~/.swap/node_modules ~/.swap/public ~/.swap/src ~/.swap/package-lock.json ~/.swap/package.json 
+ 3993  ls ~/.swap
+ 3994  ls -a ~/.swap
+ 3995  mv ~/.swap/* .
+ 3996  mv ~/.swap/.* .
+ 3997  cd ..
+ 3998  rm -rf react-film-starter-repo
+ 3999  git clone git@github.com:WDI-SEA/react-film-starter-repo.git
+ 4000  cd react-film-starter-repo
+ 4001  npm list --depth=0
+ 4002  npm list
+ 4003  npm i
+ 4004  npm ks
+ 4005  npm ls
+ 4006  npm list --depth=0
+ 4007  npm list --json
+ 4008  ls
+ 4009  cad package.json
+ 4010  cat package.json
+ 4011  while read -r val ; do\n    echo "${val}"\ndone < <(jq -rc '.[] | select(.Generated == "@logon")' file.json)
+ 4012  brew install js
+ 4013  brew install jq
+ 4014  jq
+ 4015  jq package.json
+ 4016  ls
+ 4017  jq package.json
+ 4018  for row in $(jq -c '.data | map(.) | .[]' package.json); do\n    _jq() {\n     echo ${row} | jq -r "${1}"\n    }\n   echo $(_jq '.desc') "=" $(_jq '.name')\ndone
+ 4019  for thing in (jq package.json); do\necho ${thing}\ndone
+ 4020  for thing in $(jq package.json); do\necho ${thing}\ndone
+ 4021  jq -r '.dependencies | keys | .[]' package.json
+ 4022  jq -r '.dependencies | keys | .[]' 
+ 4023  jq -r  package.json
+ 4024  jq -r '.dependencies | keys | .[]' 
+ 4025  jq -r '.dependencies | keys | .[]' package.json
+ 4026  for package in $(jq -r '.dependencies | keys | .[]' package.json); do\necho ${package}\ndone
+ 4027  for package in $(jq -r '.dependencies | keys | .[]' package.json); do\nnpm i ${package}\ndone
+ 4028  ls
+ 4029  chmod u+x update-cra
+ 4030  cd ..
+ 4031  ls
+ 4032  rm react-film-starter-repo
+ 4033  rm -rf react-film-starter-repo
+ 4034  vim update-cra
+ 4035  zsh
+ 4036  git clone git@github.com:WDI-SEA/react-film-starter-repo.git
+ 4037  cd react-film-starter-repo
+ 4038  update-cra
+ 4039  cd ..
+ 4040  rm react-film-starter-repo
+ 4041  rm -rf react-film-starter-repo
+ 4042  code update-cra
+ 4043  git clone git@github.com:WDI-SEA/react-film-starter-repo.git && cd react-film-starter-repo && update-cra
+ 4044  code update-cra
+ 4045  cd ..
+ 4046  rm -rf react-film-starter-repo
+ 4047  git clone git@github.com:WDI-SEA/react-film-starter-repo.git && cd react-film-starter-repo && update-cra
+ 4048  code update-cra
+ 4049  cd ..
+ 4050  rm -rf react-film-starter-repo
+ 4051  git clone git@github.com:WDI-SEA/react-film-starter-repo.git && cd react-film-starter-repo && update-cra
+ 4052  code update-cra
+ 4053  ls
+ 4054  cd ..
+ 4055  rm -rf ~/.cra-swap
+ 4056  rm -rf react-film-starter-repo
+ 4057  git clone git@github.com:WDI-SEA/react-film-starter-repo.git && cd react-film-starter-repo && update-cra
+ 4058  cd ..
+ 4059  rm -rf react-film-starter-repo
+ 4060  rm -rf ~/.cra-swap
+ 4061  git clone git@github.com:WDI-SEA/react-film-starter-repo.git
+ 4062  cd react-film-starter-repo
+ 4063  ls
+ 4064  mv * ~/.cra-swap
+ 4065  mkdir ~/.cra-swap
+ 4066  mv * ~/.cra-swap
+ 4067  mv .* ~/.cra-swap
+ 4068  cd ..
+ 4069  rm -rf ~/.cra-swap
+ 4070  rm -rf react-film-starter-repo
+ 4071  git clone git@github.com:WDI-SEA/react-film-starter-repo.git && cd react-film-starter-repo && update-cra
+ 4072  ls
+ 4073  npm run start
+ 4074  cd ..
+ 4075  rm -rf react-film-starter-repo
+ 4076  vim ~/.zsher
+ 4077  vim ~/.zshrc
+ 4078  zsh
+ 4079  python --version
+ 4080  vim ~/.zshrc
+ 4081  brew unistall python3.10
+ 4082  brew uninstall python3.10
+ 4083  brew uninstall python@3.10
+ 4084  pip --version
+ 4085  cd current-projects
+ 4086  mkdir iffe-examp
+ 4087  cd iffe-examp
+ 4088  touch index.js
+ 4089  vim
+ 4090  node index.js
+ 4091  exit
+ 4092  cd ..
+ 4093  rm -rf iffe-examp
+ 4094  git clone ^[[200~git@github.com:weston-bailey/gh-automated-cleaner.git~
+ 4095  git clone git@github.com:weston-bailey/gh-automated-cleaner.git
+ 4096  cd gh-automated-cleaner
+ 4097  npm i
+ 4098  vim
+ 4099  npm run start
+ 4100  code .
+ 4101  cd graphicsmsvs-code
+ 4102  cd ..
+ 4103  cd current-projects
+ 4104  cd gh-automated-cleaner
+ 4105  npm run start
+ 4106  code .
+ 4107  npm start
+ 4108  killall node
+ 4109  npm start
+ 4110  cd ..
+ 4111  ;s
+ 4112  ls
+ 4113  cd fm-m4l-plugins
+ 4114  ls
+ 4115  git status
+ 4116  git push origin main
+ 4117  cd ..
+ 4118  ls
+ 4119  rm testing-expre
+ 4120  cd gh-automated-cleaner
+ 4121  vim
+ 4122  git lfs install
+ 4123  git status
+ 4124  git log
+ 4125  rm -rf .git
+ 4126  git init
+ 4127  ls -R
+ 4128  ls -R | grep .alp
+ 4129  ls -lR | grep .alp
+ 4130  ls -lhR | grep .alp
+ 4131  git lfs track .alp
+ 4132  git lfs migrate info
+ 4133  ls -a
+ 4134  cat .gitattributes
+ 4135  git add .gitattributes
+ 4136  git commit -m 'adds lfs'
+ 4137  git remote add origin git@github.com:weston-bailey/m4l-plugins.git\ngit branch -M main\ngit push -u origin main
+ 4138  git add .
+ 4139  git commit -m 'adds projects'
+ 4140  git push origin main
+ 4141  code .
+ 4142  touch .env.local
+ 4143  git status
+ 4144  git log
+ 4145  git revert --hard de51341f471ce4531a373491c52930dcff8f3549
+ 4146  git revert de51341f471ce4531a373491c52930dcff8f3549
+ 4147  git status
+ 4148  ls
+ 4149  git lot
+ 4150  git log
+ 4151  git reset --hard de51341f471ce4531a373491c52930dcff8f3549
+ 4152  git log
+ 4153  git lfs track "*.alp"
+ 4154  git status
+ 4155  cat .gitattributes
+ 4156  rm .gitattributes
+ 4157  git status
+ 4158  git lfs track "*.alp"
+ 4159  cat .gitattributes
+ 4160  git add .gitattributes -m '\ntracks alps with git lfs'
+ 4161  git add .gitattributes
+ 4162  git commit -m 'tracks alps with .gitattributes'
+ 4163  git add .
+ 4164  git commit -m 'adds projects'
+ 4165  git status
+ 4166  git log
+ 4167  rm -rf .git
+ 4168  git init
+ 4169  ls
+ 4170  ls -a
+ 4171  git add .gitattributes
+ 4172  git commit -m 'adds git lfs and tracks .alps'
+ 4173  git status
+ 4174  rm -rf .git
+ 4175  git init
+ 4176  git lfs track "*.alp"
+ 4177  git status
+ 4178  ls
+ 4179  git add .gitattributes
+ 4180  git commit -m 'adds git lfs and tracks .alps'
+ 4181  git status
+ 4182  git add .
+ 4183  ls FFX\ Freq\ Delay\ \[1.0.0\]
+ 4184  git remote add origin git@github.com:weston-bailey/m4l-plugins.git\ngit branch -M main\ngit push -u origin main
+ 4185  git status
+ 4186  git add .
+ 4187  git add -A
+ 4188  git commit -m '??'
+ 4189  cat .gitattributes
+ 4190  code .
+ 4191  rm -rf *
+ 4192  ls
+ 4193  rm -rf .*
+ 4194  ls
+ 4195  ls -a
+ 4196  code .
+ 4197  git status
+ 4198  git init
+ 4199  git lfs track "*.alp"
+ 4200  git status
+ 4201  git add .gitattributes
+ 4202  git commit -m 'tracks .alps with git lfs'
+ 4203  git status
+ 4204  cat .gitattributes
+ 4205  git add .
+ 4206  cd live-packages/FFX\ Freq\ Delay\ \[1.0.0\]
+ 4207  ls -a
+ 4208  rm -rf .git
+ 4209  cd ..
+ 4210  cd FFX\ Freq\ Phaser\ \[1.0.0\]
+ 4211  cd ..
+ 4212  rm -rf */,git
+ 4213  rm -rf */.git
+ 4214  cd ..
+ 4215  git add .
+ 4216  git status
+ 4217  git commit -m 'adds projects'
+ 4218  git remote add origin git@github.com:weston-bailey/m4l-plugins.git\ngit branch -M main\ngit push -u origin main
+ 4219  rm remote rm origin
+ 4220  git remote -v
+ 4221  git remote add origin git@github.com:weston-bailey/m4l-plugins.git\ngit branch -M main\ngit push -u origin main
+ 4222  touch README.md
+ 4223  vim
+ 4224  git add .
+ 4225  git commit -m 'adds md'
+ 4226  git push origin main
+ 4227  cd ..
+ 4228  git clone git@github.com:weston-bailey/m4l-plugins.git
+ 4229  cd m4l-plugins
+ 4230  code .
+ 4231  git lsf clone
+ 4232  git lfs pull
+ 4233  git add .
+ 4234  git commit -m 'updaes app'
+ 4235  git push origin main
+ 4236  git lfs clone
+ 4237  git lfs pull
+ 4238  code .
+ 4239  open .
+ 4240  code .
+ 4241  git add .
+ 4242  git commit -m 'adds install instructions'
+ 4243  git push origin main
+ 4244  cd ..
+ 4245  cd nextjs-portfolio
+ 4246  git add .
+ 4247  git commit -m 'gotta stop commiting on deploy lol'
+ 4248  git checkout main
+ 4249  git rebase deploy
+ 4250  git checkout projects 
+ 4251  git rebase main
+ 4252  code .
+ 4253  npm run dev
+ 4254  git add .
+ 4255  git commit -m 'adds projects and footer'
+ 4256  git push origin projects
+ 4257  git checkout main
+ 4258  git pull origin main
+ 4259  git checkout deploy
+ 4260  git rebase main
+ 4261  git push origin deploy
+ 4262  git checkout main
+ 4263  git add .
+ 4264  git commit -m 'reorders nav'
+ 4265  git branch mobile
+ 4266  git checkout mobile
+ 4267  npm run dev
+ 4268  git add .
+ 4269  git commint -n 'laziness'
+ 4270  git commit -m 'lazy mobil-ify'
+ 4271  git checkout main
+ 4272  git merge mobile 
+ 4273  git push origin main
+ 4274  git checkout deploy 
+ 4275  git merge main
+ 4276  git push origin deploy
+ 4277  npm run dev
+ 4278  git add .
+ 4279  git commit -m 'begins mobile font refactor'
+ 4280  git checkout mobile 
+ 4281  git merge deploy 
+ 4282  git checkout deploy 
+ 4283  git push origin deploy
+ 4284  git status
+ 4285  git add .
+ 4286  git commit -m 'mobile font tinkering'
+ 4287  git push origin deploy 
+ 4288  git add .
+ 4289  git commit -m 'mobile image'
+ 4290  git push origin deploy
+ 4291  git checkout main
+ 4292  git merge dploy 
+ 4293  git merge deploy
+ 4294  git push origin deploy
+ 4295  git push origin main
+ 4296  git checkout mobile
+ 4297  git merge main
+ 4298  git push origin mobile
+ 4299  git checkout main
+ 4300  git merge mobile
+ 4301  git checkout deploy
+ 4302  git merge main
+ 4303  git diff
+ 4304  cd ..
+ 4305  cd gh-automated-cleaner
+ 4306  touch README.md
+ 4307  vim
+ 4308  git add .
+ 4309  git commit -m 'adds readme'
+ 4310  git push origin main
+ 4311  ping www.google.com
+ 4312  cd current-projects
+ 4313  ls
+ 4314  cd image-react
+ 4315  ls
+ 4316  cd server
+ 4317  nodemon
+ 4318  cd ..
+ 4319  cd client
+ 4320  npm run start
+ 4321  vim
+ 4322  ping www.google.com
+ 4323  cd current-projects
+ 4324  ls
+ 4325  cd image-react
+ 4326  ls
+ 4327  code .
+ 4328  python3
+ 4329  cd sei-425
+ 4330  cd unit3
+ 4331  ls
+ 4332  cd MERN-auth-template
+ 4333  cd server
+ 4334  git remote -v
+ 4335  git remote set-url origin git@github.com:ga-sei-lessons/425-MERN-auth-server.git
+ 4336  git remote -v
+ 4337  git push origin main
+ 4338  cd ..
+ 4339  cd client
+ 4340  git remote set-url origin git@github.com:ga-sei-lessons/425-MERN-auth-client.git
+ 4341  git remote -v
+ 4342  git push origin main
+ 4343  git status
+ 4344  rm dont-add.file
+ 4345  git status
+ 4346  cd ..
+ 4347  cd server
+ 4348  code .
+ 4349  cd ..
+ 4350  ls
+ 4351  cd client
+ 4352  clear
+ 4353  code .
+ 4354  clear
+ 4355  cd sei-425/unit3/MERN-auth-template
+ 4356  cd client
+ 4357  code .
+ 4358  touch ./public/_redirects
+ 4359  git add .
+ 4360  git commit -m 'preps for deploy'
+ 4361  git push origin main
+ 4362  brew unlink python3
+ 4363  python3
+ 4364  brew link python3
+ 4365  python --version
+ 4366  clear
+ 4367  zsh
+ 4368  python
+ 4369  pip3 --version
+ 4370  clear
+ 4371  cd
+ 4372  clear
+ 4373  brew install python
+ 4374  python3 --version
+ 4375  brew unlink python3 && brew link python3
+ 4376  python3 --version
+ 4377  pip3 --version
+ 4378  python3 --version
+ 4379  pip3 --version
+ 4380  choco install python
+ 4381  clear
+ 4382  cling
+ 4383  cd sei-425
+ 4384  cd instr
+ 4385  touch examp.c
+ 4386  vim
+ 4387  :ter
+ 4388  lear
+ 4389  clear
+ 4390  make ./examp.c
+ 4391  make examp
+ 4392  exit
+ 4393  make examp.c
+ 4394  make examp
+ 4395  ./examp
+ 4396  exit
+ 4397  make examp
+ 4398  exit
+ 4399  make examp
+ 4400  ./ex
+ 4401  ./examp
+ 4402  make examp
+ 4403  ./examp
+ 4404  cd
+ 4405  cd current-projects
+ 4406  ls
+ 4407  cd mem-print
+ 4408  l
+ 4409  ls
+ 4410  vim
+ 4411  make main
+ 4412  ./main
+ 4413  mkae main
+ 4414  make min
+ 4415  make main
+ 4416  ./main
+ 4417  make main
+ 4418  ./main
+ 4419  make main
+ 4420  ./main
+ 4421  make main
+ 4422  ./main
+ 4423  exit
+ 4424  cd ..
+ 4425  ls
+ 4426  cd datastructs-algos-challenges
+ 4427  git pull
+ 4428  ls
+ 4429  cd python
+ 4430  ls
+ 4431  ls lib
+ 4432  vim
+ 4433  git status
+ 4434  git add .
+ 4435  git commit -m 'adds simple linked list for leetcode challenges' --date 2022-07-02
+ 4436  vim
+ 4437  nodemon --exec "make | exit 1" -e .py
+ 4438  ls
+ 4439  make
+ 4440  nodemon --exec "make | exit 1" -e .py
+ 4441  make
+ 4442  nodemon --exec "make | exit 1" -e .py
+ 4443  git add .
+ 4444  git commit -m 'adds tests' --date 2022-07-03
+ 4445  git push origin main
+ 4446  ls
+ 4447  python challenges/leetcode/remove_list_duplicates.py
+ 4448  ls
+ 4449  python challenges/leetcode/remove_list_duplicates.py
+ 4450  git add .
+ 4451  git commit -m 'adds ll challenges'
+ 4452  git push origin mainu
+ 4453  git push origin main
+ 4454  ls
+ 4455  clear
+ 4456  python
+ 4457  man sscanf
+ 4458  python3
+ 4459  cd sei-425
+ 4460  mkdir unit4
+ 4461  cd unit4
+ 4462  git clone git@github.com:WDI-SEA/python-challenges.git
+ 4463  cd python-challenges
+ 4464  code .
+ 4465  pyenv shell 3.7.7
+ 4466  python3 challenges/04-alphabetical.py
+ 4467  cd ..
+ 4468  git clone https://github.com/WDI-SEA/python-debug-activity-short-reading
+ 4469  cd python-debug-activity-short-reading
+ 4470  code .
+ 4471  touch problem1.py
+ 4472  python3 problem1.py
+ 4473  python3
+ 4474  cd ..
+ 4475  mkdir python-classes
+ 4476  cd python-classes
+ 4477  touch CoffeeCup.py
+ 4478  code .
+ 4479  pyenv shell 3.7.7
+ 4480  python3 CoffeeCup.py
+ 4481  git init
+ 4482  git add .
+ 4483  git commit -m 'break'
+ 4484  git remote add origin git@github.com:ga-sei-lessons/425-python-classes.git\ngit branch -M main\ngit push -u origin main
+ 4485  cd ..
+ 4486  git clone git@github.com:WDI-SEA/python-bank-account-inheritance.git
+ 4487  cd python-bank-account-inheritance
+ 4488  ls
+ 4489  code .
+ 4490  pyenv shell 3.7.7
+ 4491  python3 bank.py
+ 4492  cd ..
+ 4493  cd python-classes
+ 4494  code .
+ 4495  touch Phone.py
+ 4496  python3 Phone.py
+ 4497  git ADD .
+ 4498  git add .
+ 4499  git commit -m 'break'
+ 4500  git push origin main
+ 4501  cd ..
+ 4502  cd python-bank-account-inheritance
+ 4503  code .
+ 4504  python3 bank.py
+ 4505  cd current-projects
+ 4506  ls
+ 4507  cd bracket-matcher
+ 4508  code .
+ 4509  git checkout solution
+ 4510  git checkout -b  solution
+ 4511  git add .
+ 4512  git commit -m 'pushing solve'
+ 4513  git remote -v
+ 4514  git remote set-url origin git@github.com:WDI-SEA/bracket-matcher.git
+ 4515  git push origin solution
+ 4516  pyenv shell 3.7.7
+ 4517  ls
+ 4518  python3 main.py
+ 4519  git add .
+ 4520  git commit -m 'uses back of list'
+ 4521  git push origin main
+ 4522  git push origin solution
+ 4523  python3
+ 4524  cd sei-425
+ 4525  cd instr
+ 4526  git clone git@github.com:weston-bailey/binary-search-tree-lesson.git
+ 4527  echo __pycache__ >> .gitignore
+ 4528  RM .gitignore
+ 4529  cd binary-search-tree-lesson
+ 4530  echo __pycache__ >> .gitignore
+ 4531  git rm -rf --cached __pycached__
+ 4532  ls
+ 4533  git rm -rf --cached __pycache__
+ 4534  git 
+ 4535  ls
+ 4536  code .
+ 4537  pyenv shell 3.7.7
+ 4538  git add .
+ 4539  git commit -m 'remove pycache'
+ 4540  git push origin main
+ 4541  git checkout solution
+ 4542  git merge main
+ 4543  git status
+ 4544  git merge --abort
+ 4545  git checkout main
+ 4546  git add .
+ 4547  git commit -m 'format using tabs'
+ 4548  git push origin main
+ 4549  git status
+ 4550  git add .
+ 4551  git commit -m 'formats doc strings'
+ 4552  git push origin main
+ 4553  git checkout solution 
+ 4554  git status
+ 4555  git add .
+ 4556  git commit -m 'formats solution'
+ 4557  git push origin solution
+ 4558  code .
+ 4559  git checkout main
+ 4560  git add .
+ 4561  git commit -m 'fix format'
+ 4562  git checkout main
+ 4563  git add .
+ 4564  git commint -m 'format'
+ 4565  git commit -m 'format'
+ 4566  git push origin main
+ 4567  git status
+ 4568  git add .
+ 4569  git commit -m 'format'
+ 4570  git push
+ 4571  git checkout solution 
+ 4572  git add .
+ 4573  git commit -m 'format'
+ 4574  git push
+ 4575  cd ..
+ 4576  npx create-next-app test
+ 4577  cd test
+ 4578  npm run dev
+ 4579  code .
+ 4580  killall node
+ 4581  sr
+ 4582  rs
+ 4583  cd current-projects
+ 4584  lsa
+ 4585  ls
+ 4586  cd randomizer
+ 4587  sr
+ 4588  code .
+ 4589  git add .
+ 4590  git commit -m 'match => switch'
+ 4591  sr
+ 4592  ls
+ 4593  cat students.json
+ 4594  sr
+ 4595  cd
+ 4596  clear
+ 4597  cd sei-425
+ 4598  cd unit4
+ 4599  mkdir sorts
+ 4600  cd sorts
+ 4601  touch swap.py
+ 4602  code .
+ 4603  pyenv shell 3.7.7
+ 4604  python swap.py
+ 4605  code .
+ 4606  touch bubble_sort.py
+ 4607  python3 bubble_sort.py
+ 4608  cd 
+ 4609  cd current-projects
+ 4610  ls
+ 4611  cd randomizer
+ 4612  ls
+ 4613  sr
+ 4614  code .
+ 4615  sr
+ 4616  sm
+ 4617  srm
+ 4618  python3 randomizer.py --list
+ 4619  git status
+ 4620  git add .
+ 4621  git commit -m 'removes match case'
+ 4622  git push origin main
+ 4623  rm -rf "$HOME/.vscode"\nrm -rf "$HOME/Library/Application Support/Code"\nrm -rf "$HOME/Library/Caches/com.microsoft.VSCode"\nrm -rf "$HOME/Library/Saved Application State/com.microsoft.VSCode.savedState"
+ 4624  code .
+ 4625  cd ..
+ 4626  cd /
+ 4627  code .
+ 4628  cd
+ 4629  code .
+ 4630  cd current-projects
+ 4631  cd randomizer
+ 4632  code .
+ 4633  python
+ 4634  cd sei-425
+ 4635  cd unit4
+ 4636  ls
+ 4637  cd sorts
+ 4638  code .
+ 4639  touch insertion_sort.py
+ 4640  python3 insertion_sort.py
+ 4641  python3 bubble_sort.py
+ 4642  cd ..
+ 4643  git clone git@github.com:weston-bailey/binary-search-tree-lesson.git
+ 4644  cd binary-search-tree-lesson
+ 4645  code .
+ 4646  pyenv shell 3.7.7
+ 4647  touch main.py
+ 4648  python3 main.py
+ 4649  git add .
+ 4650  git commit -m 'finishes lesson'
+ 4651  git checkout 425-solve
+ 4652  git checkout -b 425-solve
+ 4653  git push origin 425-solve
+ 4654  cd sei-425/unit4
+ 4655  ls
+ 4656  npx create-next-app nextjs-portfolio
+ 4657  cd nextjs-portfolio
+ 4658  code .
+ 4659  npm run dev
+ 4660  touch ./pages/about.jsx
+ 4661  npm run dev
+ 4662  touch styles/About.module.css
+ 4663  mkdir components
+ 4664  touch components/navbar.jsx
+ 4665  mkdir pages/users
+ 4666  touch pages/users/user.jsx
+ 4667  touch pages/users/[uid].jsx
+ 4668  git add .
+ 4669  git commit -m 'finish lesson, prepping for deploy'
+ 4670  git remote add origin git@github.com:weston-bailey/awesome-portfolio.git\ngit branch -M main\ngit push -u origin main
+ 4671  git add .
+ 4672  git commit -m "'"
+ 4673  git push origin main
+ 4674  ls
+ 4675  cd current-projects
+ 4676  cd datastructs-algos-challenges
+ 4677  cd python
+ 4678  vim
+ 4679  git status
+ 4680  git add .
+ 4681  git commit -m 'starts merkle tree'
+ 4682  exit
+ 4683  nodemon --exec python ./lib/merkle-tree/MerkleTree.py -e .py
+ 4684  exit
+ 4685  git status
+ 4686  git add .
+ 4687  git commit -m 'adds merkle tree nodes'
+ 4688  nodemon --exec python ./lib/merkle-tree/MerkleTree.py -e .py
+ 4689  git add .
+ 4690  git commit -m 'stubs merkle tree'
+ 4691  nodemon --exec python ./lib/merkle-tree/MerkleTree.py -e .py
+ 4692  git staus
+ 4693  git add .
+ 4694  git commit -m 'adds fixed merkle tree\n'
+ 4695  git status
+ 4696  nodemon --exec python ./lib/merkle_tree/MerkleTree.py -e .py
+ 4697  git add .
+ 4698  git commint -m 'renames merkle tree dir and removes debug logs'
+ 4699  git commit -m 'renames merkle tree dir and removes debug logs'
+ 4700  git push origin main
+ 4701  nodemon --exec python ./lib/blockchain/Blockchain.py -q .py
+ 4702  nodemon --exec python ./lib/blockchain/Blockchain.py -e .py
+ 4703  git add .
+ 4704  git commit -m 'adds blockchain'
+ 4705  nodemon --exec python ./lib/blockchain/Blockchain.py -e .py
+ 4706  git status
+ 4707  git add .
+ 4708  git commit -m 'adds proof of work to blockchain'
+ 4709  nodemon --exec python ./lib/blockchain/Blockchain.py -e .py
+ 4710  vim
+ 4711  killall node
+ 4712  nodemon --exec python ./lib/blockchain/Blockchain.py -e .py
+ 4713  git add .
+ 4714  git commit -m 'adds proof of work to blockchain'
+ 4715  git push origin main
+ 4716  ~/current-projects/datastructs-algos-challenges/python
+ 4717  nodemon --exec python ./lib/blockchain/Blockchain.py -e .py
+ 4718  git add .
+ 4719  git commit -m 'converts block dict to class in blockchain'
+ 4720  code .
+ 4721  pyenv shell 3.7.7
+ 4722  git add . 
+ 4723  git commit -m 'adds comments to blockchain and removes extra classes'
+ 4724  git push 
+ 4725  vim
+ 4726  killall node
+ 4727  nodemon --exec python3 ./lib/blockchain/hash.py -e .py
+ 4728  vim
+ 4729  IM
+ 4730  vim
+ 4731  killall node
+ 4732  nodemon --exec python3 ./lib/blockchain/hash.py -e .py
+ 4733  git add .
+ 4734  git commit -m 'adds baby linked list hashed crypto thing'
+ 4735  git push origin main
+ 4736  git add .
+ 4737  git commit -m 'properly link'
+ 4738  git push origin main
+ 4739  nodemon --exec python3 ./lib/blockchain/hash.py -e .py
+ 4740  git status
+ 4741  git add .
+ 4742  git commit
+ 4743  git push origin main
+ 4744  nodemon --exec python3 ./lib/linked_list/Queue.py -e .py
+ 4745  git add .
+ 4746  git commit -m 'adds queue methods'
+ 4747  git add .
+ 4748  git commit -m 'adds queue tests'
+ 4749  ls
+ 4750  nodemon --exec python3 make -q .py
+ 4751  ls
+ 4752  nodemon --exec 'make || exit 1' -e .py
+ 4753  git add .
+ 4754  git commit -m 'adds queue tests'
+ 4755  git push origin main
+ 4756  python lib/linked_list/Queue.py
+ 4757  git status
+ 4758  git add .
+ 4759  git commit -m 'completes ll queue'
+ 4760  git push origin main
+ 4761  python -m coverage run -m unittest
+ 4762  python -m coverage report
+ 4763  python -m pdb lib/linked_list/Queue.py
+ 4764  cd sei-425/unit4
+ 4765  mkdir hash-table-lesson
+ 4766  cd hash-table-lesson
+ 4767  touch duplicate.py
+ 4768  code .
+ 4769  pyenv shell 3.7.7
+ 4770  python3 duplicate.py
+ 4771  cd ..
+ 4772  git clone git@github.com:WDI-SEA/python-hash-table-challenges.git
+ 4773  cd python-hash-table-challenges
+ 4774  ls
+ 4775  code .
+ 4776  pyenv shell 3.7.7
+ 4777  python3 1-character-count.py
+ 4778  python3 2-find-the-odd-int.py
+ 4779  python3 3-two-sum.py
+ 4780  cd current-projects
+ 4781  cd datastructs-algos-challenges
+ 4782  ls
+ 4783  cd pq
+ 4784  cd python
+ 4785  vim
+ 4786  nodemon --exec 'make || exit 1' -e .py
+ 4787  git status
+ 4788  git add .
+ 4789  git commit -m 'stubs stack and stack tests'
+ 4790  git push origin main
+ 4791  git add .
+ 4792  git commit -m 'populates list tests'
+ 4793  git status
+ 4794  git add .
+ 4795  git commit -m 'populates Stack and Stack tests'
+ 4796  git push origin main
+ 4797  nodemon --exec python ./lib/blockchain/Blockchain.py -e .py
+ 4798  git status
+ 4799  git add .
+ 4800  git commit -m 'adds consensus to blockchain'
+ 4801  git push origin main
+ 4802  cd current-projects
+ 4803  ls
+ 4804  cd datastructs-algos-challenges
+ 4805  cd python
+ 4806  vim
+ 4807  ls
+ 4808  nodemon --exec python ./lib/blockchain/Blockchain.py -e .py
+ 4809  git status
+ 4810  git restore lib/blockchain/Blockchain
+ 4811  git restore lib/blockchain/Blockchain.py
+ 4812  cd ..
+ 4813  mkdir build-a-blockchain
+ 4814  cd build-a-blockchain
+ 4815  touch hast_test.py MerkleTree.py Blockchain.py Hashchain.py README.md
+ 4816  git init
+ 4817  git add .
+ 4818  git commint -m 'init commit'
+ 4819  git commit -m 'init commit'
+ 4820  code .
+ 4821  pyenv shell 3.7.7
+ 4822  git add .
+ 4823  git commit -m 'adds code and md'
+ 4824  git add .
+ 4825  git commit -m 'spellcheck'
+ 4826  git remote add origin git@github.com:weston-bailey/build-a-blockchain-lesson.git\ngit branch -M main\ngit push -u origin main
+ 4827  git status
+ 4828  git add .
+ 4829  git commit -m 'updates md'
+ 4830  git push origin main
+ 4831  clear
+ 4832  cd
+ 4833  clear
+ 4834  cd
+ 4835  clear
+ 4836  srm
+ 4837  claer
+ 4838  clear
+ 4839  sr
+ 4840  node
+ 4841  sr
+ 4842  node
+ 4843  sr
+ 4844  node
+ 4845  sr
+ 4846  node
+ 4847  sr
+ 4848  srm
+ 4849  sr
+ 4850  srm
+ 4851  sr
+ 4852  clear
+ 4853  srm
+ 4854  clear
+ 4855  srm
+ 4856  sr
+ 4857  node
+ 4858  cd sei-425/unit4
+ 4859  mkdir build-a-blockchain
+ 4860  cd build-a-blockchain
+ 4861  touch hash_test.py
+ 4862  code .
+ 4863  pyenv shell 3.7.7
+ 4864  git init
+ 4865  ls -a
+ 4866  rm -rf .git
+ 4867  python3 hash_test.py
+ 4868  touch HashList.py
+ 4869  python3 HashList.py
+ 4870  cd ..
+ 4871  ls
+ 4872  cd binary-search-tree-lesson
+ 4873  git log
+ 4874  git diff
+ 4875  touch file
+ 4876  code .
+ 4877  git diff
+ 4878  git add .
+ 4879  git diff
+ 4880  touch Blockchain.py
+ 4881  python3 Blockchain.py
+ 4882  pyenv shell 3.7.7
+ 4883  git init
+ 4884  git add .
+ 4885  git commit -m 'debug'
+ 4886  git remote add origin git@github.com:ga-sei-lessons/425-blockchain.git\ngit branch -M main\ngit push -u origin main
+ 4887  python3 Blockchain.py
+ 4888  git add .
+ 4889  git commit -m 'finish lesson'
+ 4890  python3 Blockchain.py
+ 4891  git add .
+ 4892  git commit -m 'finish code'
+ 4893  git push origin main
+ 4894  coe .
+ 4895  code .
+ 4896  git diff
+ 4897  git log
+ 4898  git diff f08606cd7d44280b2980880bf9e53a669be6e4a8
+ 4899  git log
+ 4900  git diff c3be37f006db3266a15ec9d4a35ef4bc263fecd8
+ 4901  man git-diff
+ 4902  git diff c3be37f006db3266a15ec9d4a35ef4bc263fecd8
+ 4903  cling
+ 4904  cd current-projects
+ 4905  mkdir xor-encryption
+ 4906  cd xor-encryption
+ 4907  git init
+ 4908  touch README.md
+ 4909  touch Makefile
+ 4910  touch main.c
+ 4911  touch .gitignore
+ 4912  git add .
+ 4913  git commit -m 'init commit'
+ 4914  vim
+ 4915  make
+ 4916  git status
+ 4917  rm main main.dSYM
+ 4918  touch .gitignore
+ 4919  exit
+ 4920  git status
+ 4921  git add .
+ 4922  git commit -m 'adds files'
+ 4923  git remote add origin git@github.com:weston-bailey/xor-encryption.git\ngit branch -M main\ngit push -u origin main
+ 4924  exit
+ 4925  git add .
+ 4926  git commit
+ 4927  git push origin main
+ 4928  exit
+ 4929  make
+ 4930  make hello
+ 4931  ./main hello
+ 4932  exit
+ 4933  ls
+ 4934  vim
+ 4935  code .
+ 4936  vim
+ 4937  touch test.c
+ 4938  vim
+ 4939  vim ~/.vimrc
+ 4940  vim
+ 4941  vim ~/.vimrc
+ 4942  vim
+ 4943  git add .
+ 4944  git commit -m 'format'
+ 4945  git push
+ 4946  rm test.c
+ 4947  git add .
+ 4948  git commit -m 
+ 4949  git commit -m 'removes tester file'
+ 4950  git push
+ 4951  exit
+ 4952  cd current-projects
+ 4953  mkdir lsh
+ 4954  cd lsh
+ 4955  git init
+ 4956  mkidr README.md
+ 4957  touch README.md Makefile .gitignore main.c
+ 4958  git add .
+ 4959  git commit -m 'init commit'
+ 4960  vim
+ 4961  nodemon --exec 'make | exit 1
+ 4962  nodemon --exec 'make | exit 1' -e .c,.h
+ 4963  make
+ 4964  nodemon --exec 'make | exit 1' -e .c,.h
+ 4965  make
+ 4966  nodemon --exec 'make || exit 1' -e .c,.h
+ 4967  make
+ 4968  ./main
+ 4969  git add .
+ 4970  git commit -m 'adds main loop'
+ 4971  man fprintf
+ 4972  ls
+ 4973  ./main
+ 4974  ./miain
+ 4975  ./main
+ 4976  hel
+ 4977  main
+ 4978  ./main
+ 4979  vim
+ 4980  ./main
+ 4981  git status
+ 4982  git add .gitignore
+ 4983  git status
+ 4984  git commit -m 'updates .gitignore'
+ 4985  git status
+ 4986  git rm -rf --cached main main.dSYM
+ 4987  git status
+ 4988  git add .
+ 4989  git commit -m 'banishes binaries and debug files, adds input'
+ 4990  man strok
+ 4991  man strtok
+ 4992  ./main
+ 4993  man strtok
+ 4994  git status
+ 4995  git add .'
+ 4996  git add .
+ 4997  git commit -m 'adds split line'
+ 4998  man fork
+ 4999  git add .
+ 5000  git status
+ 5001  git commit -m 'adds launch'
+ 5002  ./main
+ 5003  vim
+ 5004  ./main
+ 5005  git add .
+ 5006  git commit -m 'adds execute'
+ 5007  git remote add origin git@github.com:weston-bailey/lsh-clang-shell.git\ngit branch -M main\ngit push -u origin main
+ 5008  cd ..
+ 5009  ls
+ 5010  cd xor-encryption
+ 5011  ls
+ 5012  vim
+ 5013  pico .
+ 5014  nano .
+ 5015  nodemon --exec 'make || exit 1' -e .c,.h
+ 5016  touch list.txt
+ 5017  main
+ 5018  ./main
+ 5019  echo hello >> list.txt
+ 5020  ./main
+ 5021  nodemon --exec 'make || exit 1' -e .c,.h
+ 5022  ./main hello
+ 5023  ./main hi
+ 5024  ./main hello
+ 5025  nodemon --exec 'make || exit 1' -e .c,.h
+ 5026  touch reset.sh
+ 5027  touch _list.txt
+ 5028  cat list.txt >> _list.txt
+ 5029  echo _list.txt
+ 5030  cat list.txt
+ 5031  cat list.txt | _list.txt
+ 5032  cat list.txt | >> _list.txt
+ 5033  echo _list.txt
+ 5034  cat list.txt > _list.txt
+ 5035  echo _list.txt
+ 5036  cat list.txt
+ 5037  cat list.txt > _list.txt
+ 5038  cat _list.txt
+ 5039  cat list.txt > _list.txt
+ 5040  ls
+ 5041  rm reset.sh
+ 5042  nodemon --exec 'make || exit 1' -e .c,.h
+ 5043  git status
+ 5044  git add .
+ 5045  git commit -m 'add file read and reset script'
+ 5046  vim
+ 5047  nodemon --exec 'make || exit 1' -e .c,.h
+ 5048  ./main hello
+ 5049  ./main list.txt
+ 5050  cat _list.txt
+ 5051  cat _list.txt > list.txt
+ 5052  cat list.txt
+ 5053  ./main list.txt
+ 5054  cat list.txt
+ 5055  git status
+ 5056  git add .
+ 5057  git commit -m 'file output'
+ 5058  touch reset.sh
+ 5059  cat _list.txt > list.txt
+ 5060  nodemon --exec 'make || exit 1' -e .c,.h
+ 5061  ./reset.sh
+ 5062  reset.sh
+ 5063  sh reset.sh
+ 5064  ls
+ 5065  cat list.txt
+ 5066  git status
+ 5067  git log
+ 5068  git add .
+ 5069  git commit -m 'adds reset script, encption in memory'
+ 5070  git push origin main
+ 5071  ls
+ 5072  cat list.txt
+ 5073  ls
+ 5074  cat list.txt
+ 5075  restore
+ 5076  sh reset.sh
+ 5077  cat list.txt
+ 5078  ./main
+ 5079  ./main list.txt
+ 5080  cat list.txt
+ 5081  sh reset.sh
+ 5082  ./main list.txt
+ 5083  sh reset.sh
+ 5084  ./main list.txt
+ 5085  sh reset.sh
+ 5086  ./main list.txt
+ 5087  nodemon --exec 'make || exit 1' -e .c,.h
+ 5088  git status
+ 5089  git add .
+ 5090  git commit -m 'converts file to struct'
+ 5091  git push origin main
+ 5092  cat list.txt
+ 5093  sh reset.sh
+ 5094  git status
+ 5095  git add .
+ 5096  cat list.txt
+ 5097  ./main list.txt
+ 5098  sh reset.sh
+ 5099  ./main list.txt
+ 5100  sh reset.sh
+ 5101  ./main list.txt
+ 5102  sh reset.sh
+ 5103  ./main list.txt
+ 5104  sh reset.sh
+ 5105  ./main list.txt
+ 5106  sh reset.sh
+ 5107  ./main list.txt
+ 5108  cling
+ 5109  sh reset.sh
+ 5110  ./main list.txt
+ 5111  sh reset.sh
+ 5112  ./main list.txt
+ 5113  sh reset.sh
+ 5114  make
+ 5115  git status
+ 5116  sh reset.sh
+ 5117  git status
+ 5118  git add .
+ 5119  git commit -m 'planning on using a supplied key'
+ 5120  git push origin main
+ 5121  vim
+ 5122  deno
+ 5123  nodemon --exec 'make || exit 1' -e .c,.h
+ 5124  sh reset.sh
+ 5125  nodemon --exec 'make || exit 1' -e .c,.h
+ 5126  vim
+ 5127  ./main list.txt
+ 5128  ./main list.txt hello
+ 5129  sh reset.sh
+ 5130  ./main list.txt hello
+ 5131  sh reset.sh
+ 5132  ./main list.txt hello
+ 5133  sh reset.sh
+ 5134  ./main list.txt hello
+ 5135  sh reset.sh
+ 5136  ./main list.txt hello
+ 5137  vim
+ 5138  ./main list.txt hello
+ 5139  sh reset.sh
+ 5140  ls
+ 5141  ./main list.txt hello
+ 5142  cat list.txt
+ 5143  ./main list.txt hello
+ 5144  cat list.txt
+ 5145  vim
+ 5146  sh reset.sh
+ 5147  ./main list.txt hello
+ 5148  git status
+ 5149  git add .
+ 5150  git commit -m 'ITS ALIVE'
+ 5151  git push origin main
+ 5152  sh reset.sh
+ 5153  make
+ 5154  git status
+ 5155  git add .
+ 5156  git commit -m 'updates make and md'
+ 5157  git push origin main
+ 5158  git add .
+ 5159  git commit -m 'updates md'
+ 5160  git push origin main
+ 5161  ./main list.txt hello
+ 5162  git status
+ 5163  git add .
+ 5164  git commit -m 'refactors encryption to function'
+ 5165  git push origin main
+ 5166  vim
+ 5167  cling
+ 5168  cd ..
+ 5169  cd datastructs-algos-challenges
+ 5170  cd python
+ 5171  vim
+ 5172  nodemon --exec python ./challenges/leetcode/running_sum_of_1d_array.py -e .py
+ 5173  nodemon --exec python ./challenges/leetcode/find_pivot_index.py -e .py
+ 5174  cd ..
+ 5175  ls
+ 5176  vim
+ 5177  cd ..
+ 5178  ls
+ 5179  cd clang
+ 5180  vim
+ 5181  ks
+ 5182  ls
+ 5183  cd challenges
+ 5184  ls
+ 5185  cd leetcode
+ 5186  ls
+ 5187  make find_pivot_index.c
+ 5188  make find_pivot_index
+ 5189  touch Makefile
+ 5190  nodemon --exec 'make || exit 1' -e .c,.h
+ 5191  make clean
+ 5192  git status
+ 5193  make clean
+ 5194  git status
+ 5195  git add -A
+ 5196  git commit -m 'adds array sum and pivot'
+ 5197  git push origin main
+ 5198  cd .ssh/ls
+ 5199  cd .ssh
+ 5200  ls
+ 5201  cat id_ed25519.pub
+ 5202  cat id_ed25519
+ 5203  cd id_rsa.pub
+ 5204  cat id_rsa.pub
+ 5205  pbcopy id_rsa.pub
+ 5206  man pbcopyt
+ 5207  man pbcopy
+ 5208  cat id_rsa.pub | pbcopy
+ 5209  cd
+ 5210  cd current-projects
+ 5211  git clone git@gitlab.com:wbailey/xor-encryption.git xor
+ 5212  cd xor
+ 5213  touch test
+ 5214  git add .
+ 5215  git commit -m 'testing gl pushing\n'
+ 5216  git push origin main
+ 5217  git log
+ 5218  git reset --hard 30a6f61eadc557f20a2289e38bb397086daaeb2f
+ 5219  git push origin main --force
+ 5220  git branch
+ 5221  vim
+ 5222  cd current-projects
+ 5223  cd datastructs-algos-challenges
+ 5224  ls
+ 5225  cd python
+ 5226  vim
+ 5227  git status
+ 5228  git add .
+ 5229  git commit -m 'adds two leetcodes'
+ 5230  git push origin main
+ 5231  exit
+ 5232  node
+ 5233  clear
+ 5234  git status
+ 5235  git add .
+ 5236  git commit -m 'adds two linked list problems'
+ 5237  git push origin main
+ 5238  exit
+ 5239  cd current-projects
+ 5240  cd datastructs-algos-challenges
+ 5241  ls
+ 5242  cd python/q
+ 5243  cd python
+ 5244  vim
+ 5245  cd current-projects
+ 5246  ls
+ 5247  cd datastructs-algos-challenges
+ 5248  vim
+ 5249  git status
+ 5250  git add .
+ 5251  git commit -m 'adds two leetcodes'
+ 5252  git push origin main
+ 5253  exit
+ 5254  top
+ 5255  vim ~/.vimrc
+ 5256  cd current-projects
+ 5257  cd datastructs-algos-challenges
+ 5258  vim
+ 5259  cd gitbook-notes
+ 5260  git pull upstream master
+ 5261  vim
+ 5262  git status
+ 5263  git add .
+ 5264  git commit -m 'updates post cohort resources'
+ 5265  git push origin master
+ 5266  gh pr create
+ 5267  cd current-projects
+ 5268  ls
+ 5269  cd randomizer
+ 5270  ls
+ 5271  vim
+ 5272  git add .
+ 5273  git commit -m 'updates gitignore'
+ 5274  git status
+ 5275  git push origin main
+ 5276  exit
+ 5277  code .
+ 5278  pyenv shell 3.7.7
+ 5279  rs
+ 5280  sr
+ 5281  git add .
+ 5282  git commit -m 'formats students.json'
+ 5283  git push origin main
+ 5284  vim
+ 5285  sr
+ 5286  git status
+ 5287  git add randomizer.py
+ 5288  git commit -m 'no longer strips - from students names'
+ 5289  git push origin main
+ 5290  sh
+ 5291  sr
+ 5292  rs
+ 5293  sr
+ 5294  cd current-projects
+ 5295  cd d
+ 5296  cd datastructs-algos-challenges
+ 5297  vim
+ 5298  git status
+ 5299  git add .
+ 5300  git commit -m 'adds leetcode'
+ 5301  exit
+ 5302  git status
+ 5303  git add -A
+ 5304  git commit -m 'adds a leetcode'
+ 5305  git push origin main
+ 5306  cd ..
+ 5307  cd Entity-Relationship-Diagrams
+ 5308  cd ..
+ 5309  cd xor-encryption
+ 5310  git status
+ 5311  vim
+ 5312  git status
+ 5313  nodemon --exec 'make || exit 1' -e .c,.h
+ 5314  make
+ 5315  cat list.txt
+ 5316  make
+ 5317  cat list.txt
+ 5318  make
+ 5319  cat list.txt
+ 5320  git status
+ 5321  make
+ 5322  git status
+ 5323  git add .
+ 5324  git commit -m 'adds prompt before file write'
+ 5325  git push origin main
+ 5326  git add .
+ 5327  git commit -m 'updates failure messages'
+ 5328  git push origin main
+ 5329  exit
+ 5330  cd ..
+ 5331  cd nextjs-portfolio
+ 5332  git checkout projects 
+ 5333  vim
+ 5334  exit
+ 5335  npm run dev
+ 5336  git status
+ 5337  git add .
+ 5338  git commit -m 'adds project'
+ 5339  git checkout main
+ 5340  git rebase projects
+ 5341  git push origin main
+ 5342  git pull origin main
+ 5343  git status
+ 5344  git push origin main
+ 5345  git checkout deploy
+ 5346  git merge main
+ 5347  git push origin deploy
+ 5348  cd ..
+ 5349  cd xor-encryption
+ 5350  vim
+ 5351  git add .
+ 5352  git commit -m 'updates todos in md'
+ 5353  git push origin main
+ 5354  cd current-projects
+ 5355  cd datastructs-algos-challenges
+ 5356  vim
+ 5357  git status
+ 5358  git add .
+ 5359  git commit -m 'adds two leetcodes'
+ 5360  git push origin main
+ 5361  python3
+ 5362  vim
+ 5363  git add .
+ 5364  git commit -m 'adds c binary search'
+ 5365  exit
+ 5366  git status
+ 5367  git add .
+ 5368  git commit -m 'adds leetcode'
+ 5369  exit
+ 5370  git push origin main
+ 5371  cd ..
+ 5372  ls
+ 5373  mkdir getopt_long
+ 5374  cd getopt_long
+ 5375  git status
+ 5376  git init
+ 5377  touch main.c Makefile .gitignore README.md
+ 5378  git add .
+ 5379  git commit -m 'init commit'
+ 5380  vim
+ 5381  man getopt_long
+ 5382  man getopt
+ 5383  man getopt 3
+ 5384  man getopt_long
+ 5385  ls
+ 5386  nodemon --exec 'make || exit 1' -e .c,.h
+ 5387  vim
+ 5388  ls
+ 5389  ./main -f
+ 5390  ./main --file hello
+ 5391  ./main -vf
+ 5392  ./main -vf hello
+ 5393  ./main -a
+ 5394  ./main --add
+ 5395  ./main --delete
+ 5396  ./main --delete hello
+ 5397  ./main --d
+ 5398  ./main -d
+ 5399  ./main -d hello
+ 5400  ls
+ 5401  touch words.txt
+ 5402  cat words | main
+ 5403  cat words.txt | ./main
+ 5404  man cat
+ 5405  man zsh
+ 5406  git commit -m 'adds exmaple and link'
+ 5407  git status
+ 5408  git add .
+ 5409  git commit -m 'adds example and link'
+ 5410  git remote add origin git@github.com:weston-bailey/getopt_long.git\ngit branch -M main\ngit push -u origin main
+ 5411  vim
+ 5412  git status
+ 5413  git rm -rf --cached main 
+ 5414  git status
+ 5415  git ad .
+ 5416  git add .
+ 5417  git commit -m 'adds gitignore and updates c flags'
+ 5418  git push origin main
+ 5419  man cat
+ 5420  less .
+ 5421  ls
+ 5422  less mongo-pasta.js
+ 5423  man less
+ 5424  man cat
+ 5425  man git
+ 5426  man git-add
+ 5427  man git add
+ 5428  ls
+ 5429  man ls
+ 5430  ls --long
+ 5431  ls -l
+ 5432  clear
+ 5433  man posix
+ 5434  clear
+ 5435  man fprintf
+ 5436  man fwrite
+ 5437  man getopt_long
+ 5438  vim ~/.vimrc
+ 5439  code ~/.vimrc
+ 5440  ping www.google.com
+ 5441  cd current-projects
+ 5442  ls
+ 5443  cd xor-encryption
+ 5444  ls
+ 5445  vim
+ 5446  man fwrite
+ 5447  man fprint
+ 5448  man fwrite
+ 5449  nodemon --exec 'make || exit 1' -e .c,.h
+ 5450  ./main list.txt hello >> test.txt
+ 5451  cat test.txt
+ 5452  rm test.txt
+ 5453  ls
+ 5454  git status
+ 5455  nodemon --exec 'make || exit 1' -e .c,.h
+ 5456  vim
+ 5457  ls --help
+ 5458  ls -h
+ 5459  man cat
+ 5460  man les
+ 5461  man less
+ 5462  man more
+ 5463  man vim
+ 5464  man cat
+ 5465  cat -b main.c
+ 5466  cat -h
+ 5467  cat --help
+ 5468  git status
+ 5469  git add .
+ 5470  git commit -m 'adds md todos and fwrite to standard out'
+ 5471  git push origin main
+ 5472  exit
+ 5473  man printf
+ 5474  ls
+ 5475  man print
+ 5476  man printf
+ 5477  ls
+ 5478  touch books
+ 5479  code bookes
+ 5480  code books
+ 5481  grep books Lewis
+ 5482  man grep
+ 5483  grep Lewis books
+ 5484  man grep
+ 5485  clear
+ 5486  grep -n Lewis books
+ 5487  grep -n Mill books
+ 5488  ls -l
+ 5489  cd /
+ 5490  ls
+ 5491  ls -l
+ 5492  ls -lh
+ 5493  ls -h
+ 5494  man ls
+ 5495  cat books.txt | sort > sorted_books.txt
+ 5496  cd
+ 5497  cat books.txt | sort > sorted_books.txt
+ 5498  cat books | sort > sorted_books.txt
+ 5499  cat sorted_books.txt
+ 5500  rm books sorted_books.txt
+ 5501  history | grep man
+ 5502  history | head
+ 5503  man head
+ 5504  man
+ 5505  man head
+ 5506  history | grep man
+ 5507  cd gitbook-notes
+ 5508  vim
+ 5509  git status
+ 5510  git add .
+ 5511  git commit -m 'updates installfests'
+ 5512  git pull upstream master
+ 5513  git push origin master
+ 5514  gh pr create
+ 5515  ping www.google.com
+ 5516  ls
+ 5517  cd 
+ 5518  cd current-projects
+ 5519  cd randomizer
+ 5520  ls
+ 5521  git status
+ 5522  vim
+ 5523  git config --list
+ 5524  git --version
+ 5525  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ 5526  brew --version
+ 5527  history | grep chsh
+ 5528  sudo chsh -s /bin/zsh
+ 5529  echo $SHELL
+ 5530  vim ~/.zshrc
+ 5531  zsh
+ 5532  vim ~/.zshrc
+ 5533  zsh
+ 5534  clear
+ 5535  sudo
+ 5536  clear
+ 5537  xcode-select --install
+ 5538  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 5539  brew install git
+ 5540  git --version
+ 5541  brew link --overwrite git
+ 5542  brew unlink git && brew link git
+ 5543  git config --global user.name weston-bailey
+ 5544  git config --global user.email wdbailey87@gmail.com
+ 5545  git config --global push.default simple\ngit config --global credential.helper cache
+ 5546  git config --global core.editor 'code -w'\n
+ 5547  git config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'
+ 5548  git config --global --list
+ 5549  brew install --cask visual-studio-code
+ 5550  code 
+ 5551  pwd
+ 5552  ls
+ 5553  ls -a
+ 5554  cd Desktop
+ 5555  pwd
+ 5556  ls
+ 5557  ls -a
+ 5558  pwd
+ 5559  cd ..
+ 5560  pwd
+ 5561  cd .
+ 5562  cd ./current-projects/argv
+ 5563  cd
+ 5564  pwd
+ 5565  ls
+ 5566  pwd
+ 5567  mkdir seir-808
+ 5568  ls
+ 5569  cd seir-808
+ 5570  ls
+ 5571  ls -a
+ 5572  cd not_there
+ 5573  mkdir unit1
+ 5574  cd unit1
+ 5575  pwd
+ 5576  mkdir cli-intro
+ 5577  cd cli-intro
+ 5578  pwd
+ 5579  touch notes.txt
+ 5580  ls 
+ 5581  code .
+ 5582  ls
+ 5583  cat notes.txt
+ 5584  ls
+ 5585  mkdir my-junk
+ 5586  ls 
+ 5587  mv notes.txt my-junk/notes.txt
+ 5588  ls
+ 5589  pwd
+ 5590  touch ../example
+ 5591  pwd
+ 5592  ls ..
+ 5593  mv ../example junk/example
+ 5594  mv ../example my-junk/example
+ 5595  ls ..
+ 5596  ls my-junk
+ 5597  touch file.txt .hidden-file other-file.js
+ 5598  ls 
+ 5599  man ls
+ 5600  ls -l
+ 5601  ls -al
+ 5602  ls -R 
+ 5603  ls -Rla
+ 5604  ls
+ 5605  rm file.txt
+ 5606  ls
+ 5607  rm my-junk
+ 5608  man rm
+ 5609  rm -rf my-junk
+ 5610  ls
+ 5611  cd ..
+ 5612  rmdir cli-intro
+ 5613  cd cli-intro
+ 5614  ls
+ 5615  man rm
+ 5616  ls
+ 5617  echo "hello world
+ 5618  echo 'hello world'
+ 5619  echo 'hello web dev'
+ 5620  echo 'hello redirection' >> hello.txt
+ 5621  ls
+ 5622  cat hello.txt
+ 5623  touch whateve
+ 5624  ls
+ 5625  echo 'new thing' >> hello.txt
+ 5626  cat hello.txt
+ 5627  echo 'newest thing' > hello.txt
+ 5628  cat hello.txt
+ 5629  pwd
+ 5630  mkdir test
+ 5631  touch test/testfile
+ 5632  mkdir test/nested-test
+ 5633  ls test
+ 5634  rm -d test
+ 5635  rm -rf test
+ 5636  touch books.txt
+ 5637  code .
+ 5638  cat books.tst
+ 5639  cat books.txt
+ 5640  man grep
+ 5641  grep Mill books.txt
+ 5642  grep mill books.txt
+ 5643  ls
+ 5644  mv hello.txt goodbye.txt
+ 5645  mv books.text books.txt
+ 5646  grep Mill books.txt | grep On
+ 5647  history
+ 5648  ➜  cli-intro mv file my-junk/file-changed-it-new-file-name➜  cli-intro mv file my-junk/file-changed-it-new-file-name➜  cli-intro mv file my-junk/file-changed-it-new-file-name➜  cli-intro mv file my-junk/file-c
+ 5649  clear
+ 5650  history | grep man
+ 5651  history >> history.txt
+ 5652  ls
+ 5653  cat history.txt
+ 5654  ls
+ 5655  mv books.txt history.txt
+ 5656  ls
+ 5657  cat history.txt
+ 5658  man git
+ 5659  cd ..
+ 5660  pwd
+ 5661  mkdir my-first-repo
+ 5662  cd my-first-repo
+ 5663  cd ..
+ 5664  mkdir my-dir && cd my-dir
+ 5665  cd ..
+ 5666  ls
+ 5667  touch index.html styles.css script.js
+ 5668  ls
+ 5669  git init 
+ 5670  cd
+ 5671  cd seir-808
+ 5672  ls
+ 5673  cd unit1
+ 5674  ls
+ 5675  cd my-first-repo
+ 5676  pwd
+ 5677  cd 
+ 5678  clear
+ 5679  pwd
+ 5680  cd seir-808
+ 5681  cd unit1
+ 5682  ls
+ 5683  cd my-first-repo
+ 5684  git --version
+ 5685  cd
+ 5686  ls -a
+ 5687  git init
+ 5688  clear
+ 5689  ls 0a
+ 5690  ls -a
+ 5691  rm -rf .git
+ 5692  cd 
+ 5693  rm -rf .git
+ 5694  git config --global --list
+ 5695  git config --global init.defaultbranch=main
+ 5696  git config --global defaultbranch=main
+ 5697  git config --global init.defaultBranch main
+ 5698  cd
+ 5699  cd seir-808
+ 5700  cd unit1
+ 5701  cd my-first-repo
+ 5702  rm -rf .git
+ 5703  git init
+ 5704  rm -rf .git
+ 5705  cd seir-808
+ 5706  cd unit1/my-first-repo
+ 5707  ls
+ 5708  git init
+ 5709  git config --global --list
+ 5710  ls -a 
+ 5711  git status
+ 5712  git add index.html
+ 5713  git status
+ 5714  git commit
+ 5715  git commit -m "adds index.html file this message has to be here" 
+ 5716  git status
+ 5717  git log
+ 5718  ls
+ 5719  git add .
+ 5720  git status
+ 5721  git commit -m 'adds javascript and css files'
+ 5722  git status
+ 5723  pwd
+ 5724  cd
+ 5725  rm -rf .git
+ 5726  cd seir-808/unit1/my-first-repo
+ 5727  ls
+ 5728  man git add
+ 5729  man 'git add'
+ 5730  man git-add
+ 5731  man git-status
+ 5732  echo 'git is super dope!' >> notes.txt
+ 5733  ls
+ 5734  git status
+ 5735  git status -v
+ 5736  git add .
+ 5737  git commit -m 'took some notes on git'
+ 5738  git status
+ 5739  ls
+ 5740  git remote add origin https://github.com/ga-sei-lessons/first-repo-808.git
+ 5741  git remote -v
+ 5742  git branch -M main
+ 5743  git push origin main
+ 5744  git push
+ 5745  git push origin main
+ 5746  git remote -v
+ 5747  cd ..
+ 5748  ls
+ 5749  pwd
+ 5750  git clone https://github.com/weston-bailey/command-line-murder-mystery.git
+ 5751  ls
+ 5752  cd command-line-murder-mystery
+ 5753  ls
+ 5754  cat instructions
+ 5755  ls
+ 5756  cat hint1
+ 5757  open .
+ 5758  cd mystery
+ 5759  ls
+ 5760  cat crimescene
+ 5761  cd ..
+ 5762  code cheatsheet.md
+ 5763  cd seir-808
+ 5764  cd unit1
+ 5765  git clone https://github.com/WDI-SEA/command-line-murder-mystery.git
+ 5766  rm -rf command-line-murder-mystery
+ 5767  git clone https://github.com/WDI-SEA/command-line-murder-mystery.git
+ 5768  cd command-line-murder-mystery
+ 5769  ls
+ 5770  cat hint1
+ 5771  cat hint2
+ 5772  cd mystery
+ 5773  ls
+ 5774  grep CLUE crimescene
+ 5775  grep CLUE crimescene >> clues
+ 5776  ls
+ 5777  cat clues
+ 5778  ls
+ 5779  head -n 20 people
+ 5780  grep Annabel people
+ 5781  grep Annabel people >> clues
+ 5782  cat clues
+ 5783  ls
+ 5784  cd streets
+ 5785  ls
+ 5786  cat ../clues
+ 5787  cat Hart_Place
+ 5788  cat ../clues
+ 5789  head -n 40 Hart_Place
+ 5790  head -n 40 Hart_Place | tail -n 1
+ 5791  man cat
+ 5792  cat -n Hart_Place 
+ 5793  cat -n Hart_Place | grep 40
+ 5794  cat -n Hart_Place | grep ' 40'
+ 5795  head -n 40 Hart_Place | tail -n 1
+ 5796  head -n 40 Hart_Place | tail -n 1 >> ../clues
+ 5797  cat ../clues
+ 5798  head -n 40 Buckingham_Place | tail -n 1 >> ../clues
+ 5799  cat ../clues
+ 5800  head -n 173 Buckingham_Place | tail -n 1 >> ../clues
+ 5801  cat ../clues
+ 5802  head -n 179 Buckingham_Place | tail -n 1 >> ../clues
+ 5803  cat ../clues
+ 5804  cd ..
+ 5805  ls
+ 5806  cd interviews
+ 5807  ls
+ 5808  cat ../clues
+ 5809  cat interview-699607
+ 5810  cat interview-699607 >> ../clues
+ 5811  cat interview-47246024
+ 5812  cd ..
+ 5813  ls
+ 5814  head -n 30 vehicles
+ 5815  grep -A 5 "L337" vehicles
+ 5816* man grep
+ 5817  grep -A 1 "L337" vehicles
+ 5818  grep -A 5 "L337" vehicles
+ 5819  grep -A 5 "L337" vehicles | grep -A 4 Honda 
+ 5820  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda 
+ 5821  grep -A 5 L337 | grep -A 4 -B 1 Honda 
+ 5822  grep “Honda” vehicles 
+ 5823  grep "Honda" vehicles 
+ 5824  grep "Honda" vehicles | grep "Blue"
+ 5825  grep "Honda" vehicles 
+ 5826  grep -A 5 L337 | grep -A 4 -B 1 Honda 
+ 5827  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda 
+ 5828  grep -A 5 L337 vehicles | grep -A 4 Honda 
+ 5829  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue
+ 5830  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 6'
+ 5831  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 "6'"
+ 5832  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 6'
+ 5833  cd ..
+ 5834  cat ./clues
+ 5835  ls
+ 5836  cd mystery
+ 5837  cat clues
+ 5838  cd streets
+ 5839  ls
+ 5840  cat Hart_Place
+ 5841  cat ../clues
+ 5842  man head
+ 5843  head -n 40 Hart_Place
+ 5844  head -n 40 Hart_Place | tail -n 1
+ 5845  cd ..
+ 5846  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 "6'"
+ 5847  man man
+ 5848  man 1
+ 5849  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 "6'" >> clues
+ 5850  cat clues
+ 5851  ls
+ 5852  cd memberships
+ 5853  ls
+ 5854  head -n 5 AAA
+ 5855  cat AAA
+ 5856  cat AAA Delta_SkyMiles 
+ 5857  ls
+ 5858  head -n 10 library.txt
+ 5859  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History 
+ 5860  cat ../clues
+ 5861  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+ 5862  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+ 5863  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+ 5864  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+ 5865  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -C "Jeremy Bowers"
+ 5866  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+ 5867  cd ..
+ 5868  grep "Jeremy Bowers" people
+ 5869  grep "Jeremy Bowers" people >> clues
+ 5870  cd streets
+ 5871  head -n 284 Dunstable_Road | tail -n 1 
+ 5872  head -n 284 Dunstable_Road | tail -n 1 >> ../clues
+ 5873  cd ..
+ 5874  ls
+ 5875  cd interviews
+ 5876  cat ../clues
+ 5877  cat interview-9620713
+ 5878  cd ..
+ 5879  ls
+ 5880  cd memberships
+ 5881  sort AAA >> sortA
+ 5882  cat sortA
+ 5883  sort Delta_SkyMiles >> sortD
+ 5884  com sortA sortD >> temp
+ 5885  comm sortA sortD >> temp
+ 5886  cat temp
+ 5887  man sort
+ 5888  man comm
+ 5889  cd ..
+ 5890  head -n 10 vehicles
+ 5891  cd ..
+ 5892  pwd
