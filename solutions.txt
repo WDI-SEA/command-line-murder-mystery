@@ -327,4 +327,59 @@
   327  ls
   328  touch solutions.txt
   329  ls
-Jeremy Bowers
+  330  history >> solutions.txt
+  331  code .
+  332  git add.
+  333  git status
+  334  git add "solutions.txt"
+  335  git status
+  336  echo 'Jeremy Bowers' >> solutions.txt
+  337  code .
+  338  git status
+  339  git add "solutions.txt"
+  340  git status
+  341  git commit -m "uploading solutions"
+  342  git status
+  343  git remote -v
+  344  git status
+  345  git branch -M main
+  346  git push origin main
+  347  pwd
+  348  ls
+  349  cd seir-808
+  350  ls
+  351  cd unit1
+  352  ls
+  353  cd command-line-murder-mystery
+  354  ls
+  355  cd mystery
+  356  ls
+  357  grep CLUE crimescene
+  358  head -n 20 people
+  359  grep Annabel people
+  360  ls
+  361  cd streets
+  362  head -n40 Hart_place | tail -n1
+  363  head -n179 Buckingham_Place | tail -n1
+  364  cd ..
+  365  ls
+  366  cd interviews
+  367  cat interview-699607
+  368  cd ..
+  369  head -n 30 vehicles
+  370  grep -A 5 "L337" vehicles
+  371  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | -B 1 "6'"
+  372  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 "6'"
+  373  cd memberships
+  374  ls
+  375  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+  376  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  377  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  378  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  379  cd ..
+  380  grep "Jeremy Bowers" people
+  381  cd ..
+  382  history > solution.txt
+  383  ls
+  384  rm solution.txt
+  385  ls
