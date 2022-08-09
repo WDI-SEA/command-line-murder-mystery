@@ -1,0 +1,50 @@
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+
+License Plate L337WR9
+Make: Honda
+Color: Blue
+Owner: Jacqui Maher
+Height: 6'2"
+Weight: 130 lbs
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Joe Germuska	M	65	Plainfield Street, line 275
+Jeremy Bowers	M	34	Dunstable Road, line 284
+Jacqui Maher	F	40	Andover Road, line 224
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+SEE INTERVIEW #29741223
+SEE INTERVIEW #9620713
+SEE INTERVIEW #904020
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Home appears to be empty, no answer at the door.
+
+After questioning neighbors, appears that the occupant may have left for a trip recently.
+
+Considered a suspect until proven otherwise, but would have to eliminate other suspects to confirm.1.txt:Jeremy Bowers
+2.txt:Jeremy Bowers
+AAA:Jeremy Bowers
+Delta_SkyMiles:Jeremy Bowers
+Museum_of_Bash_History:Jeremy Bowers
+Terminal_City_Library:Jeremy Bowers
+delta.txt:Jeremy Bowers
+library.txt:Jeremy Bowers
+museum.txt:Jeremy Bowers
+newfile.txt:Jeremy Bowers
