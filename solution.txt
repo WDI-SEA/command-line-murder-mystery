@@ -1,0 +1,210 @@
+    1  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    2  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    3  code ~/.zshrc
+    4  pwd
+    5  git config --global --list
+    6  git config --global push.default simple
+    7  p10k configure
+    8  git global --config --list
+    9  git config --global --list
+   10  pwd
+   11  ls
+   12  code
+   13  git --version
+   14  code
+   15  pwd
+   16  ls
+   17  ls -l
+   18  ls -a
+   19  cd LearnWSL
+   20  pwd
+   21  ls
+   22  ls -a
+   23  cd ..
+   24  pwd
+   25  mkdir seir-808
+   26  ls
+   27  open
+   28  open .
+   29  cd seir-808
+   30  ls
+   31  mkdir unit1
+   32  ls
+   33  cd unit1
+   34  pwd
+   35  mkdir cli-intro
+   36  cd cli-intro
+   37  pwd
+   38  touch notes.txt
+   39  ls
+   40  cd
+   41  ls
+   42  rm -r LearnWSL
+   43  ls
+   44  cd seir-808
+   45  cd unit1
+   46  cd cli-intro
+   47  code .
+   48  ls
+   49  cat notes.txt
+   50  code .
+   51  cat notes.txt
+   52  mkdir my-junk
+   53  ls
+   54  mv notes.txt my-junk/notes.txt
+   55  ls
+   56  cd my-junk
+   57  ls
+   58  cat notes.txt
+   59  cd ..
+   60  cd cli-intro
+   61  touch file.txt .hidden-file other-file.js
+   62  ls
+   63  ls -a
+   64  man touch
+   65  man ls
+   66  ls -l
+   67  ls -al
+   68  ls -R
+   69  ls -Rla
+   70  rm file.txt
+   71  ls
+   72  man rm
+   73  rm -rf my-junk
+   74  ls
+   75  echo "hello world
+   76  echo 'hello world!'
+   77  echo 'hello redirection' >> hello.txt
+   78  ls
+   79  cat hello.txt
+   80  echo 'new thing' >> hello.txt
+   81  cat hello.txt
+   82  echo 'newest thing' > hello.txt
+   83  cat hello.txt
+   84  touch books.txt
+   85  code .
+   86  cat books.txt
+   87  man grep
+   88  grep Mill books.txt
+   89  man grep
+   90  grep Mill books.txt | grep On
+   91  history
+   92  history | grep man
+   93  history >> history.txt
+   94  ls
+   95  cat history.txt
+   96  man git
+   97  cd ..
+   98  pwd
+   99  mkdir my-first-repo
+  100  cd my-first-repo
+  101  ls
+  102  touch index.html styles.css script.js
+  103  ls
+  104  git init
+  105  git status
+  106  cd seir-808/unit1/my-first-repo
+  107  ls -a
+  108  ls -Ra
+  109  git status
+  110  code ~/.zshrc
+  111  git add index.html
+  112  git status
+  113  code ~/.p10k.zsh
+  114  git commit
+  115  git commit -m "adds index.html file"
+  116  git status
+  117  git log
+  118  git add .
+  119  git commit -m "adds js and css files"
+  120  git status
+  121  cd seir-808/unit1/my-first-repo
+  122  man git add
+  123  echo 'git is super dope!' >> notes.txt
+  124  ls
+  125  git status
+  126  git add .
+  127  git commit -m 'took some notes on git'
+  128  git statu
+  129  git status
+  130  git remote add origin https://github.com/allent13/first-repo.git
+  131  git remote -v
+  132  git branch -M main
+  133  git push origin main
+  134  cd ..
+  135  ls
+  136  pwd
+  137  git clone https://github.com/allent13/command-line-murder-mystery.git
+  138  ls
+  139  cd command-line-murder-mystery
+  140  cat instructions 
+  141  ls
+  142  cat hint1
+  143  xdg open .
+  144  open .
+  145  xdgopen .
+  146  man
+  147  man man
+  148  code cheatsheet.md
+  149  cd seir-808/unit1/command-line-murder-mystery
+  150  ls
+  151  cat hint1
+  152  cat hint2
+  153  cat hint3
+  154  cat hint4
+  155  cat hint5
+  156  cat hint6
+  157  cat hint7
+  158  cat hint8
+  159  cd mystery
+  160  ls
+  161  head -n 20 people
+  162  head vehicles
+  163  head crimescene
+  164  ls interviews
+  165  ls memberships
+  166  ls streets
+  167  head streets/Abbot_Street
+  168  head interviews/interview-000296
+  169  head memberships/AAA
+  170  grep 'CLUE' crimescene
+  171  grep 'Annabel' people
+  172  head -n 40 streets/Hart_Place | tail -n 1
+  173  cat interviews/interview-47246024
+  174  head -n 179 streets/Buckingham_Place | tail -n 1
+  175  cat interviews/interview-699607
+  176  grep -A 'L337*9' vehicles
+  177  grep -A 5 'L337*9' vehicles
+  178  grep -A 5 'L337' vehicles
+  179  grep -A 5 'L337' vehicles | grep -A 4 'Honda' | grep -A 3 'blue'
+  180  grep -A 5 'L337' vehicles | grep -A 4 'Honda' | grep -A 4 'Blue'
+  181  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep 'Erika Owens'
+  182  cd memberships
+  183  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep 'Erika Owens'
+  184  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep 'Joe Germuska'
+  185  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c 'Jeremy Bowers'
+  186  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c 'Jacqui Maher'
+  187  cd ..
+  188  grep 'Jeremy Bowers' people
+  189  head -n 284 streets/Dunstable_Road | tail -n 1
+  190  cat interviews/interview-9620713
+  191  head -n 176 streets/Haley_Street | tail -n 1
+  192  cat interviews/interview-871877
+  193  grep -A 5 'L337' vehicles | grep -C 4 'Honda' | grep -C 3 'Blue'
+  194  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c 'Erika Owens'
+  195  cd memberships
+  196  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c 'Erika Owens'
+  197  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c 'Joe Germuska'
+  198  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c 'Jacqui Maher'
+  199  cd ..
+  200  grep 'Jacqui Maher' people
+  201  head -n 224 streets/Andover_Road | tail -n 1
+  202  cat interviews/interview-904020
+  203  grep 'Joe Germuska' people
+  204  head -n 275 streets/Plainfield_Street | tail -n 1
+  205  cat interviews/interview-29741223
+  206  cd ..
+  207  cat instructions
+  208  touch solution.txt
+  209  ls
+Jeremy Bower?
