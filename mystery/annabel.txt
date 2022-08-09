@@ -7,12 +7,7 @@ Annabel Fuglsang	M	40	Haley Street, line 176 SEE INTERVIEW #871877
 blue honda license starts with "L337" and ends with 9
 
 
-License Plate L337QE9
-Make: Honda
-Color: Blue
-Owner: Erika Owens
-Height: 6'5"
-Weight: 220 lbs
+
 
 License Plate L337DV9
 Make: Honda
@@ -28,9 +23,6 @@ Owner: Jeremy Bowers
 Height: 6'1"
 Weight: 204 lbs
 
-License Plate L337WR9
-Make: Honda
-Color: Blue
-Owner: Jacqui Maher
-Height: 6'2"
-Weight: 130 lbs
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is at least 6' tall.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a person left right before they heard the shots. The name on their latte was Annabel, they had blond spiky hair and a New Zealand accent.
