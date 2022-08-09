@@ -1,6 +1,9 @@
-To see who was a member of several different groups, you can combine their membership lists into one and search against that.
+catTcat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
 
-	cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+
+o see who was a member of several different groups, you can combine their membership lists into one and search against that.
+
+	
 
 If you only want to see the number of matches, you can use grep's -c option (the c must be lowercase):
 

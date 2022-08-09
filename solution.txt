@@ -1,0 +1,438 @@
+    1  pwd
+    2  li
+    3  ls
+    4  cd documents
+    5  cd Documents
+    6  cd documents
+    7  ls
+    8  ls-a
+    9  ls
+   10  ls a
+   11  ls -a
+   12  cd ...
+   13  cd ..
+   14  pwd
+   15  mkdir MyFolder
+   16  pwd
+   17  ls
+   18  cd myFolder
+   19  touch index.html style.css
+   20  rm style.css
+   21  ls
+   22  cd..
+   23  cd ..
+   24  rm -r myFolder
+   25  ls
+   26  downloads
+   27  pwd
+   28  ls
+   29  downloads
+   30  cd downloads
+   31  cd worlds
+   32  ls
+   33  cd downloads
+   34  pwd
+   35  ls
+   36  ls -a
+   37  cd ..
+   38  pwd
+   39  ls
+   40  cd documents
+   41  ls
+   42  cd GA study guides
+   43  cd GA
+   44  cd GAstudyguides
+   45  ls
+   46  ls -a
+   47  cd GA study guides
+   48  cd GA study
+   49  ls
+   50  cd GA
+   51  ls -a
+   52  cd ga
+   53  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   54  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   55  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   56  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   57  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   58  $ brew install git
+   59  git --version
+   60  pwd
+   61  ls
+   62  ls ~/documsnts
+   63  ls
+   64  ls ~/ Documents
+   65  ls ~/ Downloads
+   66  ls ~/World
+   67  ls ~/ World
+   68  ls ~/ Downloads
+   69  ls ~/ World
+   70  pwd
+   71  ls
+   72  ls
+   73  ls ~/ World
+   74  ls -l
+   75  clear
+   76  ls -a
+   77  clear
+   78  cd Europe
+   79  ls
+   80  cd World
+   81  ls
+   82  cd Europe
+   83  cd France
+   84  ls
+   85  clear
+   86  pwd
+   87  ls
+   88  ls worls
+   89  ls world
+   90  -a ls World
+   91  ls -a World
+   92  cd Europe
+   93  cd World
+   94  ls
+   95  cd Europe
+   96  cd France
+   97  ls
+   98  clear
+   99  ..
+  100  ..
+  101  cd documents
+  102  ls
+  103  cd Home
+  104  cd Documents
+  105  mkdir To Do Lists Documents
+  106  ls
+  107  cd Documents
+  108  ls
+  109  rm -r Documents/ To Documents/ Do Documents/Lists Documents
+  110  ls
+  111  ls
+  112  rm -r To
+  113  rm -r Do
+  114  rm -r Listss
+  115  rm -r Lists
+  116  ls
+  117  mkdir Antartica World
+  118  rm -r Antartica
+  119  cd World
+  120  mkdir Antartica
+  121  ls
+  122  clear
+  123  ls South America
+  124  ls
+  125  ls South_America
+  126  mv South_America North_America
+  127  ls
+  128  clear
+  129  mkdir myFolder
+  130  ls
+  131  cd myFolder
+  132  touch index.html
+  133  touch style.css
+  134  ls
+  135  rm style.css
+  136  rm index.html
+  137  ls
+  138  cd..
+  139  rm -r myFolder
+  140  ls
+  141  cd..
+  142  ~cd
+  143  ls
+  144  cd ..
+  145  ls
+  146  rmdir myFolder
+  147  ls
+  148  clear
+  149  git --version
+  150  mkdir GA_Blog
+  151  ls
+  152  git init
+  153  pwd
+  154  rm -r GA_Blog
+  155  ls
+  156  cd Desktop
+  157  ls
+  158  mkdir GA_blog
+  159  ls
+  160  git init
+  161  clear
+  162  pwd
+  163  ls
+  164  cd GA_blog
+  165  mkdir .git/
+  166  ls
+  167  git status
+  168  touch post.txt
+  169  ls
+  170  git add post.txt
+  171  git status
+  172  git log
+  173  commit -m "created a new post.txt file"
+  174  cd..
+  175  ..
+  176  rm -r GA_blog
+  177  clear
+  178  cd
+  179  ls
+  180  cd desktop
+  181  ls
+  182  rm -r GA_blog
+  183  cd
+  184  cd documents
+  185  ls
+  186  cd GA
+  187  ls
+  188  git clone https://git.generalassemb.ly/elek88/sei-37-homework.git
+  189  cd
+  190  ls
+  191  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  192  xcode-select --install
+  193  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  194  brew install git
+  195  git --version
+  196  brew install git
+  197  brew --version
+  198  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  199  eval "$(/opt/homebrew/bin/brew shellenv)"
+  200  brew --version
+  201  rm -rf .git
+  202  brew install git
+  203  git --version
+  204  git config --global user.name elek8871
+  205  git config --global user.email elekmichelle@gmail.com
+  206  git config --global push.default simple\ngit config --global credential.helper cache
+  207  git config --global core.editor 'code -w'
+  208  brew install --cask visual-studio-code
+  209  chsh -s /bin/zsh
+  210  code
+  211  ZSH_THEME="af-magic"
+  212  pwd
+  213  ls
+  214  -a
+  215  ls -a
+  216  cd Desktop
+  217  ls
+  218  pwd
+  219  ls-a
+  220  cd..
+  221  pwd
+  222  cd
+  223  pwd
+  224  mkdir seir-808
+  225  ls
+  226  cd seir-808
+  227  mkdir unit1
+  228  cd unit1
+  229  pwd
+  230  mkdir cli-intro
+  231  cd cli-intro
+  232  pwd
+  233  touch notes.txt
+  234  ls
+  235  code .
+  236  ls
+  237  cat notes.txt
+  238  mkdir junk
+  239  ls
+  240  mv notes.text junk/notes.txt
+  241  ls
+  242  mv notes.txt junk/notes.txt
+  243  ls
+  244  cd..
+  245  cd ..
+  246  cd cli-intro
+  247  touch file.text .hidden-file other-flle.js
+  248  ls
+  249  man ls
+  250  ls -l
+  251  ls -R
+  252  rm file.txt
+  253  ls
+  254  rm file.text
+  255  ls
+  256  man rm
+  257  echo 'hello world'
+  258  echo 'hello redirection' >>hello.txt
+  259  ls
+  260  cat hello.txt
+  261  rm -rf junk
+  262  ls
+  263  echo 'new thing' >>hello.txt
+  264  cat hello.txt
+  265  echo 'newest  thing' >hello.txt
+  266  ls
+  267  cat hello.txt
+  268  touch books.text
+  269  code.
+  270  code .
+  271  cat books.txt
+  272  cat books.text
+  273  man grep
+  274  grep Mill books.text
+  275  man rn
+  276  man cn
+  277  move books.text books.txt
+  278  ls
+  279  mv books.text books.txt
+  280  ls
+  281  grep Mill books.txt |grep On 
+  282  history
+  283  history | grep man
+  284  history >> history.txt
+  285  ls
+  286  cat history.text
+  287  cat history.txt
+  288  man git
+  289  cd ..
+  290  pwd
+  291  mkdir my-first-repo
+  292  cd my-first-repo
+  293  ls
+  294  touch index.html styles.css script.js
+  295  ls
+  296  git init 
+  297  cd
+  298  ls -q
+  299  ls -a
+  300  cd
+  301  rm -rf .git
+  302  ..
+  303  ls
+  304  michelke
+  305  michelle
+  306  ls
+  307  cd seir-808
+  308  ls
+  309  cd unit1
+  310  ls
+  311  cd my-first-repo
+  312  git config --global init.defaultBranch main
+  313  cd
+  314  cd seir-808
+  315  cd unit1
+  316  cd my-first-repo
+  317  rm -rf .git
+  318  git init
+  319  ls -a
+  320  git status
+  321  git add index.html
+  322  git status
+  323  git commit
+  324  git commit -"adds index.html file"
+  325  get commit -m "adds index.html files"
+  326  git commit -m "adds index.html files"
+  327  git status
+  328  git log
+  329  ls
+  330  git add .
+  331  git status
+  332  git commit -m "adds js and css files"
+  333  git status
+  334  pwd
+  335  history
+  336  history >> history.txt
+  337  man git add
+  338  man git-add
+  339  echo 'git is super dope' >> notes.txt
+  340  ls
+  341  git status 
+  342  git add .
+  343  git commit -m 'notes on git'
+  344  get status
+  345  git status
+  346  git remote add origin https://github.com/elek8871/first-repo-808.git
+  347  git remote -v
+  348  git branch -M main
+  349  git push -u origin main
+  350  cd ..
+  351  ls
+  352  git clone https://github.com/elek8871/command-line-murder-mystery.git
+  353  ls
+  354  cd command-line-murder-mystery
+  355  ls
+  356  open .
+  357  cd ..
+  358  cd my-first-repo
+  359  get remote -v
+  360  git remote -v
+  361  git push origin main
+  362  history
+  363  pwd
+  364  ls
+  365  cd seir-808
+  366  ls
+  367  cd unit1
+  368  ls
+  369  cd command-line-murder-mystery
+  370  LS
+  371  cd mystery
+  372  ls
+  373  cd crimescene
+  374  head -n people
+  375  ls
+  376  people
+  377  head -n people
+  378  head people
+  379  head -n 20 people
+  380  cd streets
+  381  ls
+  382  Walton
+  383  Walton Street
+  384  Mystic_Street
+  385  cat instructions
+  386  cd mystery
+  387  cd ..
+  388  cat instructions
+  389  cd ..
+  390  cat instructions
+  391  cd mystery
+  392  grep "CLUE"
+  393  pwd
+  394  ls
+  395  cd seir-808
+  396  ls
+  397  cd unit1
+  398  ls
+  399  cd command-line-murder-mystery
+  400  grep "CLUE" crimescene
+  401  ls
+  402  cd mystery
+  403  grep "CLUE" crimescene
+  404  grep "Anna bel" people
+  405  grep "Annabel" people
+  406  cd interviews
+  407  cat
+  408  cd ..
+  409  cd streets
+  410  head -n 40 Hart_Place | tail -n 1
+  411  cd ..
+  412  cd interviews
+  413  cat interview-47246024
+  414  cat interview-9437737
+  415  cat interview-699607
+  416  cd ..
+  417  cd vehicles
+  418  ls
+  419  grep "L337" vehicles
+  420  grep -A 5 "L337" mystery/vehicles
+  421  grep -A 5 "L337" vehicles
+  422  ls
+  423  cd memberships
+  424  cat Fitness_Galaxy AAA United_MileagePlus |grep "Erika Owens"
+  425  cat Fitness_Galaxy AAA United_MileagePlus |grep "Joe Germuska"
+  426  cat Fitness_Galaxy AAA United_MileagePlus |grep "Jeremy Bowers"
+  427  cat Fitness_Galaxy AAA United_MileagePlus |grep "Jacqui Maher"
+  428  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  429  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  430  cat Museum_of_Bash_History |grep "Jeremy Bowers"
+  431  cat Museum_of_Bash_History |grep "Joe Germuska"
+  432  echo history >> solutions.txt
+  433  cd ..
+  434  echo history >> solutions.txt
+  435  ls
+  436  cat solutions
+  437  cd ..
+Jeremy Bowers
