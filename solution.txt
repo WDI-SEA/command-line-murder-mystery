@@ -1,0 +1,271 @@
+    1  2
+    2  cd..
+    3  2
+    4  cd..
+    5  cd ..
+    6  git config  --global push.default simple
+    7  git config --global core.editor 'code -w'
+    8  code
+    9  remote-WSL
+   10  "Remote-WSL"
+   11  Remote-WSL
+   12  uname
+   13  code
+   14  clear
+   15  pwd
+   16  ls
+   17  cd ..
+   18  /cd
+   19  cd //
+   20  cd/
+   21  cd
+   22  pwd
+   23  clear
+   24  ls -a
+   25  ls
+   26  pwd
+   27  cd Desktop
+   28  cd /users
+   29  mkdir tate
+   30  cd tate
+   31  cd..
+   32  cd ..
+   33  pwd
+   34  cd ..
+   35  pwd
+   36  cd desktop
+   37  cd tate
+   38  cd home
+   39  cd tate
+   40  cd tatebonham
+   41  cd tate
+   42  cd ..
+   43  ls
+   44  cd tate
+   45  mkdir unit1
+   46  ls
+   47  pwd
+   48  cd unit1
+   49  mkdir cli-intro
+   50  cd cli-intro
+   51  pwd
+   52  touch notes.txt
+   53  ls
+   54  code .
+   55  cat notes.txt
+   56  mkdir my-junk
+   57  ls
+   58  mv notes.txt my-junk/notes.txt
+   59  ls
+   60  cd my-junk
+   61  ls
+   62  pwd
+   63  cd ..
+   64  pwd
+   65  touch file.txt .hidden-file other-file.js
+   66  ;s
+   67  ls
+   68  ls -a
+   69  touch ../example
+   70  ..ls
+   71  ls ..
+   72  mv ../example my-junk/example
+   73  ls
+   74  cd my-junk
+   75  ls
+   76  cd ..
+   77  man ls
+   78  ls -l
+   79  rm file.txt
+   80  ls
+   81  rm -rf my-junk
+   82  ls
+   83  cd ..
+   84  cd .. ..
+   85  cd ..
+   86  cd .
+   87  cd ..
+   88  cd tatebonhma
+   89  cd tatebonham
+   90  chsh -$(which zsh)
+   91  pwd
+   92  cd cli-intro
+   93  cd tate
+   94  cd unit1
+   95  cd cli-intro
+   96  touch books.txt
+   97  code .
+   98  cat books.txt
+   99  grep Mill books.txt
+  100  grep Mill books.txt | grep On
+  101  history
+  102  clear
+  103  history
+  104  git man
+  105  man git
+  106  cd ..
+  107  mkdir my-first-repo
+  108  cd my-first-repo
+  109  touch index.html styles.css script.js
+  110  ls
+  111  git init
+  112  cd
+  113  ls
+  114  tate
+  115  ls
+  116  unit1
+  117  ls
+  118  cd my-first-repo
+  119  ls -a
+  120  git status
+  121  git add index.html
+  122  git status
+  123  git commit
+  124  git commit -m "adds index.html file"
+  125  git status
+  126  git log
+  127  git add .
+  128  git status
+  129  git commit -m 'add javascript and css files'
+  130  git status
+  131  ls
+  132  echo 'git is super dope!' >> notes.txt
+  133  ls
+  134  git add .
+  135  git commit -m 'took some notes on git'
+  136  git status
+  137  git remote add origin https://github.com/tatebonham/first-repo-808.git
+  138  git remote -v
+  139  git branch -M main
+  140  git push -u origin main
+  141  git push origin main
+  142  git remote -v
+  143  git push origin main
+  144  git remote -v
+  145  cd ..
+  146  pwd
+  147  git clone https://github.com/tatebonham/command-line-murder-mystery.git
+  148  ls
+  149  cd command-line-murder-mystery
+  150  ls
+  151  cd mystery
+  152  ls
+  153  cd crimescene
+  154  code
+  155  code .
+  156  grep Clue crimescene
+  157  man grep
+  158  open .
+  159  open 
+  160  open cheatsheet
+  161  open /
+  162  pwd
+  163  open /home/tatebonham/tate/unit1/command-line-murder-mystery/cheatsheet.pdf
+  164  cat instructions
+  165  cat interviews
+  166  cd ..
+  167  cat instructions
+  168  nano cheatsheet.pdf
+  169  tate
+  170  unit1
+  171  ls
+  172  command
+  173  command-line-murder-mystery
+  174  ls
+  175  cat README.md
+  176  ls
+  177  code .
+  178  cat hint1
+  179  head -n 20 people
+  180  cd mystery
+  181  head -n 20 people
+  182  grep 'CLUE' crimescene
+  183  ls
+  184  cat streets
+  185  cd streets
+  186  ls
+  187  cd ..
+  188  cat vehicles
+  189  grep "6'" vehicles
+  190  cd ..
+  191  ls
+  192  cd mystery
+  193  head -n 15 vehicles
+  194  grep 'CLUE' crimescene
+  195  ls
+  196  grep 'New Zealand' poeple
+  197  grep "New Zealand" people
+  198  grep "Annabel" people
+  199  grep 'Annabel Church' vehicles
+  200  ls
+  201  head -n 41 streets
+  202  cd streets
+  203  head -n 41 
+  204  history
+  205  cd tate/unit1/command-line-murder-mystery
+  206  mystery
+  207  streets
+  208  cd ..
+  209  grep Annabel people
+  210  streets
+  211  head -n 41 streets
+  212  ls
+  213  Atwood_Road
+  214  head -n 41 streets
+  215  cd ..
+  216  head -n 41 streets
+  217  head -n 41 streets/Hart_Place
+  218  head -n 173 streets/Mattapan_Place  | tail -n 1
+  219  head -n 173 streets/Mattapan_Street  | tail -n 1 
+  220  head -n 179 streets/Buckingham_Place  | tail -n 1
+  221  head -n 176 streets/Haley_Street| taile -n 1
+  222  head -n 176 streets/Haley_Street| tail -n 1
+  223  cd ..
+  224  ls
+  225  mystery
+  226  ls
+  227  interviews
+  228  ls
+  229  cat interview-47246024
+  230  cat interview-9437737
+  231  cat interview-699607
+  232  cat interview-871877
+  233  cd ..
+  234  grep -C 4 'L337' vehicles
+  235  grep -A 4 'L337' vehicles
+  236  grep -A 5 'L337' vehicles
+  237  grep -A 6 'L337' vehicles
+  238  ls
+  239  memberships
+  240  ls
+  241  cd ..
+  242  ls
+  243  cat AAA Delta_SkyMiles | grep "Jacqui Maher"
+  244  mem
+  245  membships
+  246  cd memberships
+  247  cat AAA | grep "Jacqui Maher"
+  248  cat AAA | grep "Jeremy Bowers"
+  249  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles | grep "Jeremy Bowers"
+  250  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles | grep "Joe Germuska"
+  251  cat AAA Museum_of_Bash_History Terminal_City_Library Delta_SkyMiles | grep "Erika Owens"
+  252  touch solution.txt
+  253  ls
+  254  rm solution.txt
+  255  cd ..
+  256  touch solution.txt
+  257  ls
+  258  history >> solution.txt
+  259  cat solution.txt
+  260  rm -rf solution.txt
+  261  ls
+  262  echo "Jeremy Bowers" solution.txt
+  263  ls
+  264  touch solution,txt
+  265  ls
+  266  rm solution,txt
+  267  touch solution.txt
+  268  ls
+  269  code solution.txt
+
+The killer is Jeremy Bowers.
