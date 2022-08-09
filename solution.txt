@@ -1,0 +1,264 @@
+    1  brew install git
+    2  git --version
+    3  brew link --overwrite git
+    4  brew unlink git && brew link git
+    5  brew install git
+    6  git --version
+    7  git config --global user.name Moodybleu
+    8  git config --global user.email meganbenn27@icloud.com
+    9  git config --global push.default simple\ngit config --global credential.helper cache
+   10  git config --global core.editor 'code -w'
+   11  git config --global --list
+   12  brew install --cask visual-studio-code
+   13  code
+   14  pwd
+   15  ls
+   16  cd
+   17  cd .
+   18  ls
+   19  mkdir seir-808
+   20  cd seir-808
+   21  ls
+   22  ls -a
+   23  mkdir unit_1
+   24  cd unit_1
+   25  pwd
+   26  mkdir cli-intro
+   27  cd cli-intro
+   28  pwd
+   29  touch notes.txt
+   30  ls
+   31  code
+   32  cat
+   33  pwd
+   34  ls
+   35  cd seir-808
+   36  cd notes_1
+   37  ls
+   38  cd unit_1
+   39  ls
+   40  cli-intro
+   41  cat notes.txt
+   42  ls
+   43  pwd
+   44  ls
+   45  ls..
+   46  ls ..
+   47  cd ..
+   48  cd cli-intro
+   49  man ls
+   50  man touch
+   51  man ls
+   52  ls -l
+   53  ls
+   54  man rm
+   55  touch books.txt
+   56  code .
+   57  cat books.tst
+   58  cat books.txt
+   59  man grep
+   60  grep Mill books.txt
+   61  grep Mill books.txt | grep On
+   62  history
+   63  man git
+   64  cd ..
+   65  ls
+   66  cd unit_1
+   67  cd seir-808
+   68  cd unit_1
+   69  cd my-first-repo
+   70  mkdir my-first-repo
+   71  cd my-first-repo
+   72  ls
+   73  touch index.html styles.css script.js
+   74  ls
+   75  git init
+   76  cd
+   77  rm -rf .git
+   78  ls
+   79  cd seir-808
+   80  cd unit_1
+   81  ls
+   82  cd cli-intro
+   83  cd ..
+   84  cd my-first-repo
+   85  cd
+   86  git config --global init.defaultBranch main
+   87  ls
+   88  cd seir-808
+   89  ls
+   90  cd unit-1
+   91  cd
+   92  ls
+   93  cd seir-808
+   94  cd unit_1
+   95  cd my-first-repo
+   96  re -rf .git
+   97  rm -rf .git
+   98  git init
+   99  ls -a
+  100  git status
+  101  git add index.html
+  102  git status
+  103  git add script.js styles.css
+  104  git status
+  105  git commit -m 'adds html javascript and css files'
+  106  git status
+  107  man git add
+  108  man git-add
+  109  echo 'git is super duper!' >> notes.txt
+  110  ls
+  111  git status
+  112  git status -v
+  113  git add
+  114  git-add
+  115  git add .
+  116  git commit -m 'took some notes on git'
+  117  git status
+  118  git remote add origin https://github.com/Moodybleu/first-repo-808.git
+  119  git remote -v
+  120  git branch -M main
+  121  git push origin main
+  122  cd ..
+  123  ls
+  124  pwd
+  125  git clone https://github.com/Moodybleu/command-line-murder-mystery.git
+  126  ls
+  127  cd command-line-mystery
+  128  cd command-line-murder-mystery
+  129  ls
+  130  cat hint1
+  131  open .
+  132  cat clue 
+  133  grep CLUE
+  134  cd 
+  135  ls
+  136  cd seir-808
+  137  ls
+  138  cd unit_1
+  139  ls
+  140  cd command-line-murder-mystery
+  141  grep clue
+  142  cd
+  143  ls
+  144  cd seir-808
+  145  ls
+  146  cd unit_1
+  147  cd command-line-murder-mystery
+  148  head names.txt
+  149  cd mystery
+  150  grep "CLUE" crimescene
+  151  head
+  152  cd seir-808
+  153  ls
+  154  cd unit-1
+  155  cd unit_1
+  156  ls
+  157  cd command-line-murder-mystery
+  158  head -n 20 cheatsheet.md
+  159  ls
+  160  cd mystery
+  161  ls
+  162  cd interviews
+  163  cd ..
+  164  cd streets
+  165  ls
+  166  cd Rena_street
+  167  ls
+  168  cd ..
+  169  cd people
+  170  grep "Annabelle"
+  171  ls
+  172  cd seir-808
+  173  cd unit_1
+  174  ls
+  175  cd command-line-murder-mystery
+  176  cd mystery
+  177  ls
+  178  cd interviews
+  179  ls
+  180  cd ..
+  181  ls
+  182  cd vehicles
+  183  grep "Honda" 
+  184  cd seir-808
+  185  cd unit_1
+  186  ls
+  187  cd command-line-murder-mystery
+  188  cd mystery
+  189  ls
+  190  cd vehicles
+  191  ls
+  192  cat hint2
+  193  cd ..
+  194  ls
+  195  cat hint4
+  196  cathint7
+  197  cat hint7
+  198  grep -A 5 "L337" mystery/vehicles
+  199  ls
+  200  cd mystery
+  201  ls
+  202  cd memberships
+  203  ls
+  204  cd AAA
+  205  open AAA
+  206  open Museum_of_Bash_History
+  207  open Delta_Skymiles
+  208  open AAA
+  209  open library.txt
+  210  cd ..
+  211  ls
+  212  cd people
+  213  ls
+  214  open people
+  215  open Vehicles
+  216  open crimescene
+  217  cd interviews
+  218  ls
+  219  open interview-9620713
+  220  cd ..
+  221  ls
+  222  open vehicles
+  223  ls
+  224  cd memberships
+  225  ls
+  226  open Terminal_City_Library
+  227  cd ..
+  228  ls
+  229  cd memberships
+  230  cd ..
+  231  cd streets
+  232  ls
+  233  cd Dunstable_Road
+  234  open Dunstable_Road
+  235  cd ..
+  236  cd Interview
+  237  ls
+  238  cd interviews
+  239  ls
+  240  open interview-9620713
+  241  cd ..
+  242  history
+  243  head -n 30 vehicles
+  244  ls
+  245  open vehicles
+  246  Grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 6'
+  247  cd ..
+  248  ls
+  249  cd mystery
+  250  ls
+  251  man cat
+  252  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  253  ls
+  254  cd memberships
+  255  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library Terminal_City_Library | grep "Jeremy Bowers"
+  256  cd ..
+  257  ls
+  258  cat CLUE
+  259  cd mystery
+  260  cd interviews
+  261  cat interview-9620713
+  262  cd ..
+  263  cd ...
+  264  cd command-line-murder-mystery
