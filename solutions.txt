@@ -1,0 +1,549 @@
+    1  cd downloads
+    2  /Users/Prija/
+    3  ~Prija$
+    4  touch test.sh
+    5  pico
+    6  touch test.sh
+    7  pico test.sh
+    8  md rock-paper-scissors
+    9  /users/prija
+   10  ls -1
+   11  users/destop
+   12  cd desktop
+   13  md rock-paper-scissors
+   14  ls
+   15  mkdir rock-paper-scissors
+   16  cd rock-paper-scissors
+   17  ls
+   18  touch index.html style.css app.js
+   19  atom .
+   20  cd ..
+   21  pwd
+   22  md GA-Blog
+   23  dir
+   24  dir/w
+   25  /users/prija
+   26  /users/prija/
+   27  -l
+   28  cd..
+   29  cd ..
+   30  pwd
+   31  hello?
+   32  where am i?
+   33  ls
+   34  cd ..
+   35  pwd
+   36  pwd
+   37  cd prija
+   38  cd ..
+   39  prija
+   40  pwd
+   41  /users/prija/
+   42  ls -1
+   43  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   44  brew install git
+   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   46  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   47  git --version
+   48  -zsh
+   49  git --version
+   50  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   51  brew -- version
+   52  brew
+   53  brew --version
+   54  git --version
+   55  -zsh
+   56  git config --global user.name prijacash
+   57  git config --global user.email prijacash@gmail.com
+   58  git config --global push.default simple\ngit config --global credential.helper cache
+   59  git config --global core.editor 'code -w'
+   60  git config --global
+   61  git config --global --list
+   62  brew install --cask visual-studio-code
+   63  code
+   64  pwd
+   65  ls
+   66  ls -a
+   67  cd desktop
+   68  cd..
+   69  pwd
+   70  cd Desktop
+   71  ls
+   72  ls -a
+   73  cd ..
+   74  pwd
+   75  cd
+   76  mkdir seir-808
+   77  cd seir-808
+   78  pwd
+   79  cd ..
+   80  ls
+   81  cd seir-808
+   82  ls
+   83  ls -a
+   84  mkdir unit1
+   85  ls
+   86  cd unit1
+   87  pwd
+   88  mkdir cli-intro
+   89  cd cli-intro
+   90  pwd
+   91  touch notes.txt
+   92  ls
+   93  code .
+   94  cat notes.txt
+   95  mkdir my-junk
+   96  ls
+   97  mv notes.txt my-junk/notes.txt
+   98  ls
+   99  cd my-junk
+  100  ls
+  101  cd .. 
+  102  ls
+  103  pwd
+  104  ls ..
+  105  touch ../example
+  106  ls ..
+  107  mv ../example my-junk/example
+  108  pwd
+  109  ls
+  110  cd my-junk
+  111  ls
+  112  cd.. 
+  113  cd ..
+  114  touch file.text .hidden-file other-file.js
+  115  ls
+  116  ls -a
+  117  man ls
+  118  ls -l
+  119  ls -la
+  120  ls -R
+  121  ls -Rla
+  122  ls
+  123  rm file.text
+  124  ls
+  125  rm my-junk
+  126  man rm
+  127  rm -rf - my-junk
+  128  ls
+  129  echo "hello world"
+  130  echo 'hello world'
+  131  echo 'hello web dev'
+  132  echo "hello redirection' >> hello.txt\nls\n\ncd..\ncd ..\n"
+  133  echo 'hello redirection' >> hello.txt
+  134  ls
+  135  touch whateve
+  136  ls
+  137  echo 'new thing' >> hello.txt
+  138  cat hello.txt
+  139  echo 'newest thing' > hello.txt
+  140  cat hello.tt
+  141  cat hello.txt
+  142  pwd
+  143  touch books.txt
+  144  ls
+  145  code .
+  146  cat books.txt
+  147  man grep
+  148  grep Mills books.txt
+  149  grep Mill books.tx
+  150  grep Mill books.txt
+  151  grep mill books.txt
+  152  ls
+  153  pwd
+  154  ls -a
+  155  grep Mill books.txt | grep On
+  156  history
+  157  history | grep man
+  158  history >> history.txt
+  159  ls
+  160  cat history.txt
+  161  ls
+  162  mv books.txt 
+  163  man git
+  164  cd ..
+  165  pwd
+  166  mkdir my-first-repo
+  167  cd my-first-repo
+  168  ls
+  169  touch index.html
+  170  touch styles.css script.js
+  171  ls
+  172  git init
+  173  get --version
+  174  git --version
+  175  cd
+  176  ls
+  177  ls -a
+  178  rm -rf .git
+  179  git --version
+  180  cd seir-909
+  181  cd seir-808
+  182  pwd
+  183  ls
+  184  cd unit1
+  185  ls
+  186  cd my-first-repo
+  187  cd
+  188  git config --global --list 
+  189  git config --global init.defaultBranch main
+  190  cd seir-808
+  191  ls
+  192  cd unit1
+  193  ls
+  194  cd my-first-repo
+  195  cd
+  196  pwd
+  197  ls -a
+  198  cat .gitconfig
+  199  cd seir-909
+  200  cd seir-808
+  201  ls
+  202  cd unit1
+  203  ls
+  204  cd my-first-repo
+  205  rm -rf .git
+  206  git init
+  207  ls -a
+  208  cat .git
+  209  git status
+  210  git add index.html
+  211  git status
+  212  git commit
+  213  git commit -m "adds index.html file this message has to be here""\n"
+  214  git status
+  215  git log
+  216  ls
+  217  git add .
+  218  git status
+  219  git commit -m 'adds javascript and css files'
+  220  git status
+  221  man git
+  222  man git add
+  223  man git-add
+  224  man git add
+  225  man gitadd
+  226  man git-add
+  227  man git-status
+  228  echo 'git is superdope!' >> notes.txt
+  229  ls
+  230  git status
+  231  git add .
+  232  git commit -m 'took some notes on git'
+  233  git status
+  234  ls
+  235  git remote add origin https://github.com/prijacash/first-repo-808.git
+  236  git remote -v
+  237  git branch -M main
+  238  git push origin main
+  239  cd ..
+  240  ls
+  241  pwd
+  242  get clone https://github.com/prijacash/command-line-murder-mystery.git
+  243  git clone https://github.com/prijacash/command-line-murder-mystery.git
+  244  ls
+  245  cd command-line-murder-mystery
+  246  ls
+  247  cat readme.md
+  248  cat instructions
+  249  ls
+  250  cd mystery
+  251  ls
+  252  cat hint1
+  253  cat hint2
+  254  cd
+  255  pwd
+  256  cd seir-808
+  257  cd unit1
+  258  ls
+  259  cd command-line-murder-mystery
+  260  cat cheatsheet.
+  261  ls
+  262  cat cheatsheet.pdf
+  263  ls
+  264  cat hint2
+  265  cat hint3
+  266  code cheatsheet.pdf
+  267  cat hint3
+  268  cat hint4
+  269  cat hint5
+  270  cat hint6
+  271  at hint7
+  272  pwd
+  273  ls
+  274  cat instructions
+  275  cat hint1
+  276  cat hint2
+  277  cat hint3
+  278  cat hint4
+  279  cat hint5
+  280  cat hint6
+  281  cat hint7
+  282  cat hint8
+  283  cd mystery
+  284  ls
+  285  cat crimescene
+  286  ls
+  287  grep crimescene 
+  288  ls
+  289  cd seir-808
+  290  ls
+  291  cd unit1
+  292  ls
+  293  cd my-first-repo
+  294  ls
+  295  cd ..
+  296  ls
+  297  cd command-line-murder-mystery
+  298  ls
+  299  cd mystery
+  300  ls
+  301  cat crimescene | grep clue
+  302  cat hint1
+  303  cd ..
+  304  ls
+  305  cat hint 1
+  306  cat hint1
+  307  cat hint2
+  308  cd mystery
+  309  grep "CLUE" crimescene%
+  310  grep "CLUE" crimescene
+  311  ls
+  312  cd..
+  313  cat hint3
+  314  cd ..
+  315  cat hint3
+  316  cat hint4
+  317  cat hint5
+  318  cat hint6
+  319  cat hint7
+  320  cat hint8
+  321  cd mystery
+  322  ls
+  323  grep "Honda" vehicles
+  324  ls
+  325  cat hint1
+  326  cd ..
+  327  cat hint1
+  328  cat hint2
+  329  cat hint3
+  330  cat hint4
+  331  cat hint5
+  332  cat hint6
+  333  cat hint7
+  334  cat hint8
+  335  ls
+  336  cat instructions
+  337  ls
+  338  cd mystery
+  339  ls
+  340  grep "CLUE" crimescene
+  341  grep "Annabel" people
+  342  cd ..
+  343  grep -A 5 "L337" mystery/vehicles
+  344  ls mystery
+  345  ls mystery/interviews
+  346  pwd
+  347  ls
+  348  code cheatsheet.pdf
+  349  head -n 173 streets/Mattapan_Street | tail -n 1\n
+  350  head -n 173 streets/Mattapan_Street | tail -n 1\n interview
+  351  grep -BA 5 "l337" mystery/vehicles
+  352  grep -B 5 "l337" mystery/vehicles
+  353  grep -B 5 "L337" mystery/vehicles
+  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%
+  355  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owns"
+  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""\n"
+  357  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n"\n"
+  358  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  359  cat instructions
+  360  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"
+  361  ls
+  362  ls mystery
+  363  ls mystery/memberships
+  364  head -n 20 people
+  365  ls
+  366  head -n 20 mystery/people
+  367  head -n 20 mystery/interviews
+  368  ls
+  369  ls mystery
+  370  head -n 20 mystery/crimescene
+  371  grep "clue" mystery/crimescene
+  372  grep "CLUE" mystery/crimescene
+  373  ls mystery
+  374  ls mystery/memberships
+  375  cat mystery/memberships/1
+  376  cat mystery/memberships/1.txt
+  377  cat mystery/memberships/21.txt
+  378  cat mystery/memberships/2.txt
+  379  ls mystery/memberships
+  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "John Smith" 
+  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"" \n"
+  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n"\n"
+  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"
+  385  grep -A 5 "L337" mystery/vehicles"\n"
+  386  grep -A 5 "L337" mystery/vehicles
+  387  cat AAA Delta_SkyMiles | grep 
+  388  ls
+  389  cd mystery
+  390  cat AAA Delta_SkyMiles | grep "John Smith"
+  391  cd memberships
+  392  cat AAA Delta_SkyMiles | grep "John Smith"
+  393  cat AAA Delta_SkyMiles | grep -c "John Smith"
+  394  cat AAA Delta_SkyMiles | grep -c "Erika Bowersh"
+  395  cat AAA Delta_SkyMiles | grep -c "Erika Bowerh"
+  396  cat AAA Delta_SkyMiles | grep -c "Erika Bower"
+  397  cat AAA Delta_SkyMiles | grep -c "Erika Owens"
+  398  cat AAA Delta_SkyMiles | grep -c "Joe Germuska"
+  399  cat AAA Delta_SkyMiles | grep -c "Jeremy Bowers"
+  400  ls
+  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"
+  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"
+  404  ls
+  405  cd ..
+  406  touch solutions.txt
+  407  ls
+  408  echo 'Jeremy Bowers' >> solutions.txt
+  409  cat solutions
+  410  cat solutions.txt
+  411  history
+  412  echo ' 1  cd downloads\n    2  /Users/Prija/\n    3  ~Prija$\n    4  touch test.sh\n    5  pico\n    6  touch test.sh\n    7  pico test.sh\n    8  md rock-paper-scissors\n    9  /users/prija\n   10  ls -1\n   11  users/destop\n   12  cd desktop\n   13  md rock-paper-scissors\n   14  ls\n   15  mkdir rock-paper-scissors\n   16  cd rock-paper-scissors\n   17  ls\n   18  touch index.html style.css app.js\n   19  atom .\n   20  cd ..\n   21  pwd\n   22  md GA-Blog\n   23  dir\n   24  dir/w\n   25  /users/prija\n   26  /users/prija/\n   27  -l\n   28  cd..\n   29  cd ..\n   30  pwd\n   31  hello?\n   32  where am i?\n   33  ls\n   34  cd ..\n   35  pwd\n   36  pwd\n   37  cd prija\n   38  cd ..\n   39  prija\n   40  pwd\n   41  /users/prija/\n   42  ls -1\n   43  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   44  brew install git\n   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n   46  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   47  git --version\n   48  -zsh\n   49  git --version\n   50  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   51  brew -- version\n   52  brew\n   53  brew --version\n   54  git --version\n   55  -zsh\n   56  git config --global user.name prijacash\n   57  git config --global user.email prijacash@gmail.com\n   58  git config --global push.default simple\ngit config --global credential.helper cache\n   59  git config --global core.editor 'code -w'\n   60  git config --global\n   61  git config --global --list\n   62  brew install --cask visual-studio-code\n   63  code\n   64  pwd\n   65  ls\n   66  ls -a\n   67  cd desktop\n   68  cd..\n   69  pwd\n   70  cd Desktop\n   71  ls\n   72  ls -a\n   73  cd ..\n   74  pwd\n   75  cd\n   76  mkdir seir-808\n   77  cd seir-808\n   78  pwd\n   79  cd ..\n   80  ls\n   81  cd seir-808\n   82  ls\n   83  ls -a\n   84  mkdir unit1\n   85  ls\n   86  cd unit1\n   87  pwd\n   88  mkdir cli-intro\n   89  cd cli-intro\n   90  pwd\n   91  touch notes.txt\n   92  ls\n   93  code .\n   94  cat notes.txt\n   95  mkdir my-junk\n   96  ls\n   97  mv notes.txt my-junk/notes.txt\n   98  ls\n   99  cd my-junk\n  100  ls\n  101  cd .. \n  102  ls\n  103  pwd\n  104  ls ..\n  105  touch ../example\n  106  ls ..\n  107  mv ../example my-junk/example\n  108  pwd\n  109  ls\n  110  cd my-junk\n  111  ls\n  112  cd.. \n  113  cd ..\n  114  touch file.text .hidden-file other-file.js\n  115  ls\n  116  ls -a\n  117  man ls\n  118  ls -l\n  119  ls -la\n  120  ls -R\n  121  ls -Rla\n  122  ls\n  123  rm file.text\n  124  ls\n  125  rm my-junk\n  126  man rm\n  127  rm -rf - my-junk\n  128  ls\n  129  echo "hello world"\n  130  echo 'hello world'\n  131  echo 'hello web dev'\n  132  echo "hello redirection' >> hello.txt\nls\n\ncd..\ncd ..\n"\n  133  echo 'hello redirection' >> hello.txt\n  134  ls\n  135  touch whateve\n  136  ls\n  137  echo 'new thing' >> hello.txt\n  138  cat hello.txt\n  139  echo 'newest thing' > hello.txt\n  140  cat hello.tt\n  141  cat hello.txt\n  142  pwd\n  143  touch books.txt\n  144  ls\n  145  code .\n  146  cat books.txt\n  147  man grep\n  148  grep Mills books.txt\n  149  grep Mill books.tx\n  150  grep Mill books.txt\n  151  grep mill books.txt\n  152  ls\n  153  pwd\n  154  ls -a\n  155  grep Mill books.txt | grep On\n  156  history\n  157  history | grep man\n  158  history >> history.txt\n  159  ls\n  160  cat history.txt\n  161  ls\n  162  mv books.txt \n  163  man git\n  164  cd ..\n  165  pwd\n  166  mkdir my-first-repo\n  167  cd my-first-repo\n  168  ls\n  169  touch index.html\n  170  touch styles.css script.js\n  171  ls\n  172  git init\n  173  get --version\n  174  git --version\n  175  cd\n  176  ls\n  177  ls -a\n  178  rm -rf .git\n  179  git --version\n  180  cd seir-909\n  181  cd seir-808\n  182  pwd\n  183  ls\n  184  cd unit1\n  185  ls\n  186  cd my-first-repo\n  187  cd\n  188  git config --global --list \n  189  git config --global init.defaultBranch main\n  190  cd seir-808\n  191  ls\n  192  cd unit1\n  193  ls\n  194  cd my-first-repo\n  195  cd\n  196  pwd\n  197  ls -a\n  198  cat .gitconfig\n  199  cd seir-909\n  200  cd seir-808\n  201  ls\n  202  cd unit1\n  203  ls\n  204  cd my-first-repo\n  205  rm -rf .git\n  206  git init\n  207  ls -a\n  208  cat .git\n  209  git status\n  210  git add index.html\n  211  git status\n  212  git commit\n  213  git commit -m "adds index.html file this message has to be here""\n"\n  214  git status\n  215  git log\n  216  ls\n  217  git add .\n  218  git status\n  219  git commit -m 'adds javascript and css files'\n  220  git status\n  221  man git\n  222  man git add\n  223  man git-add\n  224  man git add\n  225  man gitadd\n  226  man git-add\n  227  man git-status\n  228  echo 'git is superdope!' >> notes.txt\n  229  ls\n  230  git status\n  231  git add .\n  232  git commit -m 'took some notes on git'\n  233  git status\n  234  ls\n  235  git remote add origin https://github.com/prijacash/first-repo-808.git\n  236  git remote -v\n  237  git branch -M main\n  238  git push origin main\n  239  cd ..\n  240  ls\n  241  pwd\n  242  get clone https://github.com/prijacash/command-line-murder-mystery.git\n  243  git clone https://github.com/prijacash/command-line-murder-mystery.git\n  244  ls\n  245  cd command-line-murder-mystery\n  246  ls\n  247  cat readme.md\n  248  cat instructions\n  249  ls\n  250  cd mystery\n  251  ls\n  252  cat hint1\n  253  cat hint2\n  254  cd\n  255  pwd\n  256  cd seir-808\n  257  cd unit1\n  258  ls\n  259  cd command-line-murder-mystery\n  260  cat cheatsheet.\n  261  ls\n  262  cat cheatsheet.pdf\n  263  ls\n  264  cat hint2\n  265  cat hint3\n  266  code cheatsheet.pdf\n  267  cat hint3\n  268  cat hint4\n  269  cat hint5\n  270  cat hint6\n  271  at hint7\n  272  pwd\n  273  ls\n  274  cat instructions\n  275  cat hint1\n  276  cat hint2\n  277  cat hint3\n  278  cat hint4\n  279  cat hint5\n  280  cat hint6\n  281  cat hint7\n  282  cat hint8\n  283  cd mystery\n  284  ls\n  285  cat crimescene\n  286  ls\n  287  grep crimescene \n  288  ls\n  289  cd seir-808\n  290  ls\n  291  cd unit1\n  292  ls\n  293  cd my-first-repo\n  294  ls\n  295  cd ..\n  296  ls\n  297  cd command-line-murder-mystery\n  298  ls\n  299  cd mystery\n  300  ls\n  301  cat crimescene | grep clue\n  302  cat hint1\n  303  cd ..\n  304  ls\n  305  cat hint 1\n  306  cat hint1\n  307  cat hint2\n  308  cd mystery\n  309  grep "CLUE" crimescene%\n  310  grep "CLUE" crimescene\n  311  ls\n  312  cd..\n  313  cat hint3\n  314  cd ..\n  315  cat hint3\n  316  cat hint4\n  317  cat hint5\n  318  cat hint6\n  319  cat hint7\n  320  cat hint8\n  321  cd mystery\n  322  ls\n  323  grep "Honda" vehicles\n  324  ls\n  325  cat hint1\n  326  cd ..\n  327  cat hint1\n  328  cat hint2\n  329  cat hint3\n  330  cat hint4\n  331  cat hint5\n  332  cat hint6\n  333  cat hint7\n  334  cat hint8\n  335  ls\n  336  cat instructions\n  337  ls\n  338  cd mystery\n  339  ls\n  340  grep "CLUE" crimescene\n  341  grep "Annabel" people\n  342  cd ..\n  343  grep -A 5 "L337" mystery/vehicles\n  344  ls mystery\n  345  ls mystery/interviews\n  346  pwd\n  347  ls\n  348  code cheatsheet.pdf\n  349  head -n 173 streets/Mattapan_Street | tail -n 1\n \n  350  head -n 173 streets/Mattapan_Street | tail -n 1\n interview\n  351  grep -BA 5 "l337" mystery/vehicles\n  352  grep -B 5 "l337" mystery/vehicles\n  353  grep -B 5 "L337" mystery/vehicles\n  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%\n  355  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owns"\n  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""\n"\n  357  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n"\n"\n  358  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"\n  359  cat instructions\n  360  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"\n  361  ls\n  362  ls mystery\n  363  ls mystery/memberships\n  364  head -n 20 people\n  365  ls\n  366  head -n 20 mystery/people\n  367  head -n 20 mystery/interviews\n  368  ls\n  369  ls mystery\n  370  head -n 20 mystery/crimescene\n  371  grep "clue" mystery/crimescene\n  372  grep "CLUE" mystery/crimescene\n  373  ls mystery\n  374  ls mystery/memberships\n  375  cat mystery/memberships/1\n  376  cat mystery/memberships/1.txt\n  377  cat mystery/memberships/21.txt\n  378  cat mystery/memberships/2.txt\n  379  ls mystery/memberships\n  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "John Smith" \n  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"" \n"\n  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n"\n"\n  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  385  grep -A 5 "L337" mystery/vehicles"\n"\n  386  grep -A 5 "L337" mystery/vehicles\n  387  cat AAA Delta_SkyMiles | grep \n  388  ls\n  389  cd mystery\n  390  cat AAA Delta_SkyMiles | grep "John Smith"\n  391  cd memberships\n  392  cat AAA Delta_SkyMiles | grep "John Smith"\n  393  cat AAA Delta_SkyMiles | grep -c "John Smith"\n  394  cat AAA Delta_SkyMiles | grep -c "Erika Bowersh"\n  395  cat AAA Delta_SkyMiles | grep -c "Erika Bowerh"\n  396  cat AAA Delta_SkyMiles | grep -c "Erika Bower"\n  397  cat AAA Delta_SkyMiles | grep -c "Erika Owens"\n  398  cat AAA Delta_SkyMiles | grep -c "Joe Germuska"\n  399  cat AAA Delta_SkyMiles | grep -c "Jeremy Bowers"\n  400  ls\n  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n  404  ls\n  405  cd ..\n  406  touch solutions.txt\n  407  ls\n  408  echo 'Jeremy Bowers' >> solutions.txt\n  409  cat solutions\n  410  cat solutions.txt\n 1  cd downloads\n    2  /Users/Prija/\n    3  ~Prija$\n    4  touch test.sh\n    5  pico\n    6  touch test.sh\n    7  pico test.sh\n    8  md rock-paper-scissors\n    9  /users/prija\n   10  ls -1\n   11  users/destop\n   12  cd desktop\n   13  md rock-paper-scissors\n   14  ls\n   15  mkdir rock-paper-scissors\n   16  cd rock-paper-scissors\n   17  ls\n   18  touch index.html style.css app.js\n   19  atom .\n   20  cd ..\n   21  pwd\n   22  md GA-Blog\n   23  dir\n   24  dir/w\n   25  /users/prija\n   26  /users/prija/\n   27  -l\n   28  cd..\n   29  cd ..\n   30  pwd\n   31  hello?\n   32  where am i?\n   33  ls\n   34  cd ..\n   35  pwd\n   36  pwd\n   37  cd prija\n   38  cd ..\n   39  prija\n   40  pwd\n   41  /users/prija/\n   42  ls -1\n   43  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   44  brew install git\n   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n   46  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   47  git --version\n   48  -zsh\n   49  git --version\n   50  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   51  brew -- version\n   52  brew\n   53  brew --version\n   54  git --version\n   55  -zsh\n   56  git config --global user.name prijacash\n   57  git config --global user.email prijacash@gmail.com\n   58  git config --global push.default simple\ngit config --global credential.helper cache\n   59  git config --global core.editor 'code -w'\n   60  git config --global\n   61  git config --global --list\n   62  brew install --cask visual-studio-code\n   63  code\n   64  pwd\n   65  ls\n   66  ls -a\n   67  cd desktop\n   68  cd..\n   69  pwd\n   70  cd Desktop\n   71  ls\n   72  ls -a\n   73  cd ..\n   74  pwd\n   75  cd\n   76  mkdir seir-808\n   77  cd seir-808\n   78  pwd\n   79  cd ..\n   80  ls\n   81  cd seir-808\n   82  ls\n   83  ls -a\n   84  mkdir unit1\n   85  ls\n   86  cd unit1\n   87  pwd\n   88  mkdir cli-intro\n   89  cd cli-intro\n   90  pwd\n   91  touch notes.txt\n   92  ls\n   93  code .\n   94  cat notes.txt\n   95  mkdir my-junk\n   96  ls\n   97  mv notes.txt my-junk/notes.txt\n   98  ls\n   99  cd my-junk\n  100  ls\n  101  cd .. \n  102  ls\n  103  pwd\n  104  ls ..\n  105  touch ../example\n  106  ls ..\n  107  mv ../example my-junk/example\n  108  pwd\n  109  ls\n  110  cd my-junk\n  111  ls\n  112  cd.. \n  113  cd ..\n  114  touch file.text .hidden-file other-file.js\n  115  ls\n  116  ls -a\n  117  man ls\n  118  ls -l\n  119  ls -la\n  120  ls -R\n  121  ls -Rla\n  122  ls\n  123  rm file.text\n  124  ls\n  125  rm my-junk\n  126  man rm\n  127  rm -rf - my-junk\n  128  ls\n  129  echo "hello world"\n  130  echo 'hello world'\n  131  echo 'hello web dev'\n  132  echo "hello redirection' >> hello.txt\nls\n\ncd..\ncd ..\n"\n  133  echo 'hello redirection' >> hello.txt\n  134  ls\n  135  touch whateve\n  136  ls\n  137  echo 'new thing' >> hello.txt\n  138  cat hello.txt\n  139  echo 'newest thing' > hello.txt\n  140  cat hello.tt\n  141  cat hello.txt\n  142  pwd\n  143  touch books.txt\n  144  ls\n  145  code .\n  146  cat books.txt\n  147  man grep\n  148  grep Mills books.txt\n  149  grep Mill books.tx\n  150  grep Mill books.txt\n  151  grep mill books.txt\n  152  ls\n  153  pwd\n  154  ls -a\n  155  grep Mill books.txt | grep On\n  156  history\n  157  history | grep man\n  158  history >> history.txt\n  159  ls\n  160  cat history.txt\n  161  ls\n  162  mv books.txt \n  163  man git\n  164  cd ..\n  165  pwd\n  166  mkdir my-first-repo\n  167  cd my-first-repo\n  168  ls\n  169  touch index.html\n  170  touch styles.css script.js\n  171  ls\n  172  git init\n  173  get --version\n  174  git --version\n  175  cd\n  176  ls\n  177  ls -a\n  178  rm -rf .git\n  179  git --version\n  180  cd seir-909\n  181  cd seir-808\n  182  pwd\n  183  ls\n  184  cd unit1\n  185  ls\n  186  cd my-first-repo\n  187  cd\n  188  git config --global --list \n  189  git config --global init.defaultBranch main\n  190  cd seir-808\n  191  ls\n  192  cd unit1\n  193  ls\n  194  cd my-first-repo\n  195  cd\n  196  pwd\n  197  ls -a\n  198  cat .gitconfig\n  199  cd seir-909\n  200  cd seir-808\n  201  ls\n  202  cd unit1\n  203  ls\n  204  cd my-first-repo\n  205  rm -rf .git\n  206  git init\n  207  ls -a\n  208  cat .git\n  209  git status\n  210  git add index.html\n  211  git status\n  212  git commit\n  213  git commit -m "adds index.html file this message has to be here""\n"\n  214  git status\n  215  git log\n  216  ls\n  217  git add .\n  218  git status\n  219  git commit -m 'adds javascript and css files'\n  220  git status\n  221  man git\n  222  man git add\n  223  man git-add\n  224  man git add\n  225  man gitadd\n  226  man git-add\n  227  man git-status\n  228  echo 'git is superdope!' >> notes.txt\n  229  ls\n  230  git status\n  231  git add .\n  232  git commit -m 'took some notes on git'\n  233  git status\n  234  ls\n  235  git remote add origin https://github.com/prijacash/first-repo-808.git\n  236  git remote -v\n  237  git branch -M main\n  238  git push origin main\n  239  cd ..\n  240  ls\n  241  pwd\n  242  get clone https://github.com/prijacash/command-line-murder-mystery.git\n  243  git clone https://github.com/prijacash/command-line-murder-mystery.git\n  244  ls\n  245  cd command-line-murder-mystery\n  246  ls\n  247  cat readme.md\n  248  cat instructions\n  249  ls\n  250  cd mystery\n  251  ls\n  252  cat hint1\n  253  cat hint2\n  254  cd\n  255  pwd\n  256  cd seir-808\n  257  cd unit1\n  258  ls\n  259  cd command-line-murder-mystery\n  260  cat cheatsheet.\n  261  ls\n  262  cat cheatsheet.pdf\n  263  ls\n  264  cat hint2\n  265  cat hint3\n  266  code cheatsheet.pdf\n  267  cat hint3\n  268  cat hint4\n  269  cat hint5\n  270  cat hint6\n  271  at hint7\n  272  pwd\n  273  ls\n  274  cat instructions\n  275  cat hint1\n  276  cat hint2\n  277  cat hint3\n  278  cat hint4\n  279  cat hint5\n  280  cat hint6\n  281  cat hint7\n  282  cat hint8\n  283  cd mystery\n  284  ls\n  285  cat crimescene\n  286  ls\n  287  grep crimescene \n  288  ls\n  289  cd seir-808\n  290  ls\n  291  cd unit1\n  292  ls\n  293  cd my-first-repo\n  294  ls\n  295  cd ..\n  296  ls\n  297  cd command-line-murder-mystery\n  298  ls\n  299  cd mystery\n  300  ls\n  301  cat crimescene | grep clue\n  302  cat hint1\n  303  cd ..\n  304  ls\n  305  cat hint 1\n  306  cat hint1\n  307  cat hint2\n  308  cd mystery\n  309  grep "CLUE" crimescene%\n  310  grep "CLUE" crimescene\n  311  ls\n  312  cd..\n  313  cat hint3\n  314  cd ..\n  315  cat hint3\n  316  cat hint4\n  317  cat hint5\n  318  cat hint6\n  319  cat hint7\n  320  cat hint8\n  321  cd mystery\n  322  ls\n  323  grep "Honda" vehicles\n  324  ls\n  325  cat hint1\n  326  cd ..\n  327  cat hint1\n  328  cat hint2\n  329  cat hint3\n  330  cat hint4\n  331  cat hint5\n  332  cat hint6\n  333  cat hint7\n  334  cat hint8\n  335  ls\n  336  cat instructions\n  337  ls\n  338  cd mystery\n  339  ls\n  340  grep "CLUE" crimescene\n  341  grep "Annabel" people\n  342  cd ..\n  343  grep -A 5 "L337" mystery/vehicles\n  344  ls mystery\n  345  ls mystery/interviews\n  346  pwd\n  347  ls\n  348  code cheatsheet.pdf\n  349  head -n 173 streets/Mattapan_Street | tail -n 1\n \n  350  head -n 173 streets/Mattapan_Street | tail -n 1\n interview\n  351  grep -BA 5 "l337" mystery/vehicles\n  352  grep -B 5 "l337" mystery/vehicles\n  353  grep -B 5 "L337" mystery/vehicles\n  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%\n  355  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owns"\n  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""\n"\n  357  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n"\n"\n  358  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"\n  359  cat instructions\n  360  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"\n  361  ls\n  362  ls mystery\n  363  ls mystery/memberships\n  364  head -n 20 people\n  365  ls\n  366  head -n 20 mystery/people\n  367  head -n 20 mystery/interviews\n  368  ls\n  369  ls mystery\n  370  head -n 20 mystery/crimescene\n  371  grep "clue" mystery/crimescene\n  372  grep "CLUE" mystery/crimescene\n  373  ls mystery\n  374  ls mystery/memberships\n  375  cat mystery/memberships/1\n  376  cat mystery/memberships/1.txt\n  377  cat mystery/memberships/21.txt\n  378  cat mystery/memberships/2.txt\n  379  ls mystery/memberships\n  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "John Smith" \n  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"" \n"\n  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n"\n"\n  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  385  grep -A 5 "L337" mystery/vehicles"\n"\n  386  grep -A 5 "L337" mystery/vehicles\n  387  cat AAA Delta_SkyMiles | grep \n  388  ls\n  389  cd mystery\n  390  cat AAA Delta_SkyMiles | grep "John Smith"\n  391  cd memberships\n  392  cat AAA Delta_SkyMiles | grep "John Smith"\n  393  cat AAA Delta_SkyMiles | grep -c "John Smith"\n  394  cat AAA Delta_SkyMiles | grep -c "Erika Bowersh"\n  395  cat AAA Delta_SkyMiles | grep -c "Erika Bowerh"\n  396  cat AAA Delta_SkyMiles | grep -c "Erika Bower"\n  397  cat AAA Delta_SkyMiles | grep -c "Erika Owens"\n  398  cat AAA Delta_SkyMiles | grep -c "Joe Germuska"\n  399  cat AAA Delta_SkyMiles | grep -c "Jeremy Bowers"\n  400  ls\n  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n  404  ls\n  405  cd ..\n  406  touch solutions.txt\n  407  ls\n  408  echo 'Jeremy Bowers' >> solutions.txt\n  409  cat solutions\n  410  cat solutions.txt\n' >> solutions.txt
+  413  cat solutions.txt
+  414  git status
+  415  add solutions.txt
+  416  git add solutions.txt
+  417  git status
+  418  git commit -m 'my first homework assignment.. finally figured it out'
+  419  ls
+  420  cd ..
+  421  cat hint8
+  422  grep -A 5 "L337" mystery/vehicles
+  423  grep "CLUE" mystery/crimescene
+  424  ls
+  425  cd mystery
+  426  ls
+  427  cd memberships
+  428  ls
+  429  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"
+  430  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  431  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"
+  432  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"
+  433  history
+  434  cd ..
+  435  ls
+  436  echo '  1  cd downloads\n    2  /Users/Prija/\n    3  ~Prija$\n    4  touch test.sh\n    5  pico\n    6  touch test.sh\n    7  pico test.sh\n    8  md rock-paper-scissors\n    9  /users/prija\n   10  ls -1\n   11  users/destop\n   12  cd desktop\n   13  md rock-paper-scissors\n   14  ls\n   15  mkdir rock-paper-scissors\n   16  cd rock-paper-scissors\n   17  ls\n   18  touch index.html style.css app.js\n   19  atom .\n   20  cd ..\n   21  pwd\n   22  md GA-Blog\n   23  dir\n   24  dir/w\n   25  /users/prija\n   26  /users/prija/\n   27  -l\n   28  cd..\n   29  cd ..\n   30  pwd\n   31  hello?\n   32  where am i?\n   33  ls\n   34  cd ..\n   35  pwd\n   36  pwd\n   37  cd prija\n   38  cd ..\n   39  prija\n   40  pwd\n   41  /users/prija/\n   42  ls -1\n   43  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   44  brew install git\n   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n   46  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   47  git --version\n   48  -zsh\n   49  git --version\n   50  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   51  brew -- version\n   52  brew\n   53  brew --version\n   54  git --version\n   55  -zsh\n   56  git config --global user.name prijacash\n   57  git config --global user.email prijacash@gmail.com\n   58  git config --global push.default simple\ngit config --global credential.helper cache\n   59  git config --global core.editor 'code -w'\n   60  git config --global\n   61  git config --global --list\n   62  brew install --cask visual-studio-code\n   63  code\n   64  pwd\n   65  ls\n   66  ls -a\n   67  cd desktop\n   68  cd..\n   69  pwd\n   70  cd Desktop\n   71  ls\n   72  ls -a\n   73  cd ..\n   74  pwd\n   75  cd\n   76  mkdir seir-808\n   77  cd seir-808\n   78  pwd\n   79  cd ..\n   80  ls\n   81  cd seir-808\n   82  ls\n   83  ls -a\n   84  mkdir unit1\n   85  ls\n   86  cd unit1\n   87  pwd\n   88  mkdir cli-intro\n   89  cd cli-intro\n   90  pwd\n   91  touch notes.txt\n   92  ls\n   93  code .\n   94  cat notes.txt\n   95  mkdir my-junk\n   96  ls\n   97  mv notes.txt my-junk/notes.txt\n   98  ls\n   99  cd my-junk\n  100  ls\n  101  cd .. \n  102  ls\n  103  pwd\n  104  ls ..\n  105  touch ../example\n  106  ls ..\n  107  mv ../example my-junk/example\n  108  pwd\n  109  ls\n  110  cd my-junk\n  111  ls\n  112  cd.. \n  113  cd ..\n  114  touch file.text .hidden-file other-file.js\n  115  ls\n  116  ls -a\n  117  man ls\n  118  ls -l\n  119  ls -la\n  120  ls -R\n  121  ls -Rla\n  122  ls\n  123  rm file.text\n  124  ls\n  125  rm my-junk\n  126  man rm\n  127  rm -rf - my-junk\n  128  ls\n  129  echo "hello world"\n  130  echo 'hello world'\n  131  echo 'hello web dev'\n  132  echo "hello redirection' >> hello.txt\nls\n\ncd..\ncd ..\n"\n  133  echo 'hello redirection' >> hello.txt\n  134  ls\n  135  touch whateve\n  136  ls\n  137  echo 'new thing' >> hello.txt\n  138  cat hello.txt\n  139  echo 'newest thing' > hello.txt\n  140  cat hello.tt\n  141  cat hello.txt\n  142  pwd\n  143  touch books.txt\n  144  ls\n  145  code .\n  146  cat books.txt\n  147  man grep\n  148  grep Mills books.txt\n  149  grep Mill books.tx\n  150  grep Mill books.txt\n  151  grep mill books.txt\n  152  ls\n  153  pwd\n  154  ls -a\n  155  grep Mill books.txt | grep On\n  156  history\n  157  history | grep man\n  158  history >> history.txt\n  159  ls\n  160  cat history.txt\n  161  ls\n  162  mv books.txt \n  163  man git\n  164  cd ..\n  165  pwd\n  166  mkdir my-first-repo\n  167  cd my-first-repo\n  168  ls\n  169  touch index.html\n  170  touch styles.css script.js\n  171  ls\n  172  git init\n  173  get --version\n  174  git --version\n  175  cd\n  176  ls\n  177  ls -a\n  178  rm -rf .git\n  179  git --version\n  180  cd seir-909\n  181  cd seir-808\n  182  pwd\n  183  ls\n  184  cd unit1\n  185  ls\n  186  cd my-first-repo\n  187  cd\n  188  git config --global --list \n  189  git config --global init.defaultBranch main\n  190  cd seir-808\n  191  ls\n  192  cd unit1\n  193  ls\n  194  cd my-first-repo\n  195  cd\n  196  pwd\n  197  ls -a\n  198  cat .gitconfig\n  199  cd seir-909\n  200  cd seir-808\n  201  ls\n  202  cd unit1\n  203  ls\n  204  cd my-first-repo\n  205  rm -rf .git\n  206  git init\n  207  ls -a\n  208  cat .git\n  209  git status\n  210  git add index.html\n  211  git status\n  212  git commit\n  213  git commit -m "adds index.html file this message has to be here""\n"\n  214  git status\n  215  git log\n  216  ls\n  217  git add .\n  218  git status\n  219  git commit -m 'adds javascript and css files'\n  220  git status\n  221  man git\n  222  man git add\n  223  man git-add\n  224  man git add\n  225  man gitadd\n  226  man git-add\n  227  man git-status\n  228  echo 'git is superdope!' >> notes.txt\n  229  ls\n  230  git status\n  231  git add .\n  232  git commit -m 'took some notes on git'\n  233  git status\n  234  ls\n  235  git remote add origin https://github.com/prijacash/first-repo-808.git\n  236  git remote -v\n  237  git branch -M main\n  238  git push origin main\n  239  cd ..\n  240  ls\n  241  pwd\n  242  get clone https://github.com/prijacash/command-line-murder-mystery.git\n  243  git clone https://github.com/prijacash/command-line-murder-mystery.git\n  244  ls\n  245  cd command-line-murder-mystery\n  246  ls\n  247  cat readme.md\n  248  cat instructions\n  249  ls\n  250  cd mystery\n  251  ls\n  252  cat hint1\n  253  cat hint2\n  254  cd\n  255  pwd\n  256  cd seir-808\n  257  cd unit1\n  258  ls\n  259  cd command-line-murder-mystery\n  260  cat cheatsheet.\n  261  ls\n  262  cat cheatsheet.pdf\n  263  ls\n  264  cat hint2\n  265  cat hint3\n  266  code cheatsheet.pdf\n  267  cat hint3\n  268  cat hint4\n  269  cat hint5\n  270  cat hint6\n  271  at hint7\n  272  pwd\n  273  ls\n  274  cat instructions\n  275  cat hint1\n  276  cat hint2\n  277  cat hint3\n  278  cat hint4\n  279  cat hint5\n  280  cat hint6\n  281  cat hint7\n  282  cat hint8\n  283  cd mystery\n  284  ls\n  285  cat crimescene\n  286  ls\n  287  grep crimescene \n  288  ls\n  289  cd seir-808\n  290  ls\n  291  cd unit1\n  292  ls\n  293  cd my-first-repo\n  294  ls\n  295  cd ..\n  296  ls\n  297  cd command-line-murder-mystery\n  298  ls\n  299  cd mystery\n  300  ls\n  301  cat crimescene | grep clue\n  302  cat hint1\n  303  cd ..\n  304  ls\n  305  cat hint 1\n  306  cat hint1\n  307  cat hint2\n  308  cd mystery\n  309  grep "CLUE" crimescene%\n  310  grep "CLUE" crimescene\n  311  ls\n  312  cd..\n  313  cat hint3\n  314  cd ..\n  315  cat hint3\n  316  cat hint4\n  317  cat hint5\n  318  cat hint6\n  319  cat hint7\n  320  cat hint8\n  321  cd mystery\n  322  ls\n  323  grep "Honda" vehicles\n  324  ls\n  325  cat hint1\n  326  cd ..\n  327  cat hint1\n  328  cat hint2\n  329  cat hint3\n  330  cat hint4\n  331  cat hint5\n  332  cat hint6\n  333  cat hint7\n  334  cat hint8\n  335  ls\n  336  cat instructions\n  337  ls\n  338  cd mystery\n  339  ls\n  340  grep "CLUE" crimescene\n  341  grep "Annabel" people\n  342  cd ..\n  343  grep -A 5 "L337" mystery/vehicles\n  344  ls mystery\n  345  ls mystery/interviews\n  346  pwd\n  347  ls\n  348  code cheatsheet.pdf\n  349  head -n 173 streets/Mattapan_Street | tail -n 1\n \n  350  head -n 173 streets/Mattapan_Street | tail -n 1\n interview\n  351  grep -BA 5 "l337" mystery/vehicles\n  352  grep -B 5 "l337" mystery/vehicles\n  353  grep -B 5 "L337" mystery/vehicles\n  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%\n  355  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owns"\n  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""\n"\n  357  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n"\n"\n  358  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"\n  359  cat instructions\n  360  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"\n  361  ls\n  362  ls mystery\n  363  ls mystery/memberships\n  364  head -n 20 people\n  365  ls\n  366  head -n 20 mystery/people\n  367  head -n 20 mystery/interviews\n  368  ls\n  369  ls mystery\n  370  head -n 20 mystery/crimescene\n  371  grep "clue" mystery/crimescene\n  372  grep "CLUE" mystery/crimescene\n  373  ls mystery\n  374  ls mystery/memberships\n  375  cat mystery/memberships/1\n  376  cat mystery/memberships/1.txt\n  377  cat mystery/memberships/21.txt\n  378  cat mystery/memberships/2.txt\n  379  ls mystery/memberships\n  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "John Smith" \n  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"" \n"\n  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n"\n"\n  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  385  grep -A 5 "L337" mystery/vehicles"\n"\n  386  grep -A 5 "L337" mystery/vehicles\n  387  cat AAA Delta_SkyMiles | grep \n  388  ls\n  389  cd mystery\n  390  cat AAA Delta_SkyMiles | grep "John Smith"\n  391  cd memberships\n  392  cat AAA Delta_SkyMiles | grep "John Smith"\n  393  cat AAA Delta_SkyMiles | grep -c "John Smith"\n  394  cat AAA Delta_SkyMiles | grep -c "Erika Bowersh"\n  395  cat AAA Delta_SkyMiles | grep -c "Erika Bowerh"\n  396  cat AAA Delta_SkyMiles | grep -c "Erika Bower"\n  397  cat AAA Delta_SkyMiles | grep -c "Erika Owens"\n  398  cat AAA Delta_SkyMiles | grep -c "Joe Germuska"\n  399  cat AAA Delta_SkyMiles | grep -c "Jeremy Bowers"\n  400  ls\n  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n  404  ls\n  405  cd ..\n  406  touch solutions.txt\n  407  ls\n  408  echo 'Jeremy Bowers' >> solutions.txt\n  409  cat solutions\n  410  cat solutions.txt\n  411  history\n  412  echo ' 1  cd downloads\n    2  /Users/Prija/\n    3  ~Prija$\n    4  touch test.sh\n    5  pico\n    6  touch test.sh\n    7  pico test.sh\n    8  md rock-paper-scissors\n    9  /users/prija\n   10  ls -1\n   11  users/destop\n   12  cd desktop\n   13  md rock-paper-scissors\n   14  ls\n   15  mkdir rock-paper-scissors\n   16  cd rock-paper-scissors\n   17  ls\n   18  touch index.html style.css app.js\n   19  atom .\n   20  cd ..\n   21  pwd\n   22  md GA-Blog\n   23  dir\n   24  dir/w\n   25  /users/prija\n   26  /users/prija/\n   27  -l\n   28  cd..\n   29  cd ..\n   30  pwd\n   31  hello?\n   32  where am i?\n   33  ls\n   34  cd ..\n   35  pwd\n   36  pwd\n   37  cd prija\n   38  cd ..\n   39  prija\n   40  pwd\n   41  /users/prija/\n   42  ls -1\n   43  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   44  brew install git\n   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n   46  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   47  git --version\n   48  -zsh\n   49  git --version\n   50  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   51  brew -- version\n   52  brew\n   53  brew --version\n   54  git --version\n   55  -zsh\n   56  git config --global user.name prijacash\n   57  git config --global user.email prijacash@gmail.com\n   58  git config --global push.default simple\ngit config --global credential.helper cache\n   59  git config --global core.editor 'code -w'\n   60  git config --global\n   61  git config --global --list\n   62  brew install --cask visual-studio-code\n   63  code\n   64  pwd\n   65  ls\n   66  ls -a\n   67  cd desktop\n   68  cd..\n   69  pwd\n   70  cd Desktop\n   71  ls\n   72  ls -a\n   73  cd ..\n   74  pwd\n   75  cd\n   76  mkdir seir-808\n   77  cd seir-808\n   78  pwd\n   79  cd ..\n   80  ls\n   81  cd seir-808\n   82  ls\n   83  ls -a\n   84  mkdir unit1\n   85  ls\n   86  cd unit1\n   87  pwd\n   88  mkdir cli-intro\n   89  cd cli-intro\n   90  pwd\n   91  touch notes.txt\n   92  ls\n   93  code .\n   94  cat notes.txt\n   95  mkdir my-junk\n   96  ls\n   97  mv notes.txt my-junk/notes.txt\n   98  ls\n   99  cd my-junk\n  100  ls\n  101  cd .. \n  102  ls\n  103  pwd\n  104  ls ..\n  105  touch ../example\n  106  ls ..\n  107  mv ../example my-junk/example\n  108  pwd\n  109  ls\n  110  cd my-junk\n  111  ls\n  112  cd.. \n  113  cd ..\n  114  touch file.text .hidden-file other-file.js\n  115  ls\n  116  ls -a\n  117  man ls\n  118  ls -l\n  119  ls -la\n  120  ls -R\n  121  ls -Rla\n  122  ls\n  123  rm file.text\n  124  ls\n  125  rm my-junk\n  126  man rm\n  127  rm -rf - my-junk\n  128  ls\n  129  echo "hello world"\n  130  echo 'hello world'\n  131  echo 'hello web dev'\n  132  echo "hello redirection' >> hello.txt\nls\n\ncd..\ncd ..\n"\n  133  echo 'hello redirection' >> hello.txt\n  134  ls\n  135  touch whateve\n  136  ls\n  137  echo 'new thing' >> hello.txt\n  138  cat hello.txt\n  139  echo 'newest thing' > hello.txt\n  140  cat hello.tt\n  141  cat hello.txt\n  142  pwd\n  143  touch books.txt\n  144  ls\n  145  code .\n  146  cat books.txt\n  147  man grep\n  148  grep Mills books.txt\n  149  grep Mill books.tx\n  150  grep Mill books.txt\n  151  grep mill books.txt\n  152  ls\n  153  pwd\n  154  ls -a\n  155  grep Mill books.txt | grep On\n  156  history\n  157  history | grep man\n  158  history >> history.txt\n  159  ls\n  160  cat history.txt\n  161  ls\n  162  mv books.txt \n  163  man git\n  164  cd ..\n  165  pwd\n  166  mkdir my-first-repo\n  167  cd my-first-repo\n  168  ls\n  169  touch index.html\n  170  touch styles.css script.js\n  171  ls\n  172  git init\n  173  get --version\n  174  git --version\n  175  cd\n  176  ls\n  177  ls -a\n  178  rm -rf .git\n  179  git --version\n  180  cd seir-909\n  181  cd seir-808\n  182  pwd\n  183  ls\n  184  cd unit1\n  185  ls\n  186  cd my-first-repo\n  187  cd\n  188  git config --global --list \n  189  git config --global init.defaultBranch main\n  190  cd seir-808\n  191  ls\n  192  cd unit1\n  193  ls\n  194  cd my-first-repo\n  195  cd\n  196  pwd\n  197  ls -a\n  198  cat .gitconfig\n  199  cd seir-909\n  200  cd seir-808\n  201  ls\n  202  cd unit1\n  203  ls\n  204  cd my-first-repo\n  205  rm -rf .git\n  206  git init\n  207  ls -a\n  208  cat .git\n  209  git status\n  210  git add index.html\n  211  git status\n  212  git commit\n  213  git commit -m "adds index.html file this message has to be here""\n"\n  214  git status\n  215  git log\n  216  ls\n  217  git add .\n  218  git status\n  219  git commit -m 'adds javascript and css files'\n  220  git status\n  221  man git\n  222  man git add\n  223  man git-add\n  224  man git add\n  225  man gitadd\n  226  man git-add\n  227  man git-status\n  228  echo 'git is superdope!' >> notes.txt\n  229  ls\n  230  git status\n  231  git add .\n  232  git commit -m 'took some notes on git'\n  233  git status\n  234  ls\n  235  git remote add origin https://github.com/prijacash/first-repo-808.git\n  236  git remote -v\n  237  git branch -M main\n  238  git push origin main\n  239  cd ..\n  240  ls\n  241  pwd\n  242  get clone https://github.com/prijacash/command-line-murder-mystery.git\n  243  git clone https://github.com/prijacash/command-line-murder-mystery.git\n  244  ls\n  245  cd command-line-murder-mystery\n  246  ls\n  247  cat readme.md\n  248  cat instructions\n  249  ls\n  250  cd mystery\n  251  ls\n  252  cat hint1\n  253  cat hint2\n  254  cd\n  255  pwd\n  256  cd seir-808\n  257  cd unit1\n  258  ls\n  259  cd command-line-murder-mystery\n  260  cat cheatsheet.\n  261  ls\n  262  cat cheatsheet.pdf\n  263  ls\n  264  cat hint2\n  265  cat hint3\n  266  code cheatsheet.pdf\n  267  cat hint3\n  268  cat hint4\n  269  cat hint5\n  270  cat hint6\n  271  at hint7\n  272  pwd\n  273  ls\n  274  cat instructions\n  275  cat hint1\n  276  cat hint2\n  277  cat hint3\n  278  cat hint4\n  279  cat hint5\n  280  cat hint6\n  281  cat hint7\n  282  cat hint8\n  283  cd mystery\n  284  ls\n  285  cat crimescene\n  286  ls\n  287  grep crimescene \n  288  ls\n  289  cd seir-808\n  290  ls\n  291  cd unit1\n  292  ls\n  293  cd my-first-repo\n  294  ls\n  295  cd ..\n  296  ls\n  297  cd command-line-murder-mystery\n  298  ls\n  299  cd mystery\n  300  ls\n  301  cat crimescene | grep clue\n  302  cat hint1\n  303  cd ..\n  304  ls\n  305  cat hint 1\n  306  cat hint1\n  307  cat hint2\n  308  cd mystery\n  309  grep "CLUE" crimescene%\n  310  grep "CLUE" crimescene\n  311  ls\n  312  cd..\n  313  cat hint3\n  314  cd ..\n  315  cat hint3\n  316  cat hint4\n  317  cat hint5\n  318  cat hint6\n  319  cat hint7\n  320  cat hint8\n  321  cd mystery\n  322  ls\n  323  grep "Honda" vehicles\n  324  ls\n  325  cat hint1\n  326  cd ..\n  327  cat hint1\n  328  cat hint2\n  329  cat hint3\n  330  cat hint4\n  331  cat hint5\n  332  cat hint6\n  333  cat hint7\n  334  cat hint8\n  335  ls\n  336  cat instructions\n  337  ls\n  338  cd mystery\n  339  ls\n  340  grep "CLUE" crimescene\n  341  grep "Annabel" people\n  342  cd ..\n  343  grep -A 5 "L337" mystery/vehicles\n  344  ls mystery\n  345  ls mystery/interviews\n  346  pwd\n  347  ls\n  348  code cheatsheet.pdf\n  349  head -n 173 streets/Mattapan_Street | tail -n 1\n \n  350  head -n 173 streets/Mattapan_Street | tail -n 1\n interview\n  351  grep -BA 5 "l337" mystery/vehicles\n  352  grep -B 5 "l337" mystery/vehicles\n  353  grep -B 5 "L337" mystery/vehicles\n  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%\n  355  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owns"\n  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""\n"\n  357  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n"\n"\n  358  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"\n  359  cat instructions\n  360  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"\n  361  ls\n  362  ls mystery\n  363  ls mystery/memberships\n  364  head -n 20 people\n  365  ls\n  366  head -n 20 mystery/people\n  367  head -n 20 mystery/interviews\n  368  ls\n  369  ls mystery\n  370  head -n 20 mystery/crimescene\n  371  grep "clue" mystery/crimescene\n  372  grep "CLUE" mystery/crimescene\n  373  ls mystery\n  374  ls mystery/memberships\n  375  cat mystery/memberships/1\n  376  cat mystery/memberships/1.txt\n  377  cat mystery/memberships/21.txt\n  378  cat mystery/memberships/2.txt\n  379  ls mystery/memberships\n  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "John Smith" \n  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"" \n"\n  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n"\n"\n  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  385  grep -A 5 "L337" mystery/vehicles"\n"\n  386  grep -A 5 "L337" mystery/vehicles\n  387  cat AAA Delta_SkyMiles | grep \n  388  ls\n  389  cd mystery\n  390  cat AAA Delta_SkyMiles | grep "John Smith"\n  391  cd memberships\n  392  cat AAA Delta_SkyMiles | grep "John Smith"\n  393  cat AAA Delta_SkyMiles | grep -c "John Smith"\n  394  cat AAA Delta_SkyMiles | grep -c "Erika Bowersh"\n  395  cat AAA Delta_SkyMiles | grep -c "Erika Bowerh"\n  396  cat AAA Delta_SkyMiles | grep -c "Erika Bower"\n  397  cat AAA Delta_SkyMiles | grep -c "Erika Owens"\n  398  cat AAA Delta_SkyMiles | grep -c "Joe Germuska"\n  399  cat AAA Delta_SkyMiles | grep -c "Jeremy Bowers"\n  400  ls\n  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n  404  ls\n  405  cd ..\n  406  touch solutions.txt\n  407  ls\n  408  echo 'Jeremy Bowers' >> solutions.txt\n  409  cat solutions\n  410  cat solutions.txt\n 1  cd downloads\n    2  /Users/Prija/\n    3  ~Prija$\n    4  touch test.sh\n    5  pico\n    6  touch test.sh\n    7  pico test.sh\n    8  md rock-paper-scissors\n    9  /users/prija\n   10  ls -1\n   11  users/destop\n   12  cd desktop\n   13  md rock-paper-scissors\n   14  ls\n   15  mkdir rock-paper-scissors\n   16  cd rock-paper-scissors\n   17  ls\n   18  touch index.html style.css app.js\n   19  atom .\n   20  cd ..\n   21  pwd\n   22  md GA-Blog\n   23  dir\n   24  dir/w\n   25  /users/prija\n   26  /users/prija/\n   27  -l\n   28  cd..\n   29  cd ..\n   30  pwd\n   31  hello?\n   32  where am i?\n   33  ls\n   34  cd ..\n   35  pwd\n   36  pwd\n   37  cd prija\n   38  cd ..\n   39  prija\n   40  pwd\n   41  /users/prija/\n   42  ls -1\n   43  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   44  brew install git\n   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n   46  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   47  git --version\n   48  -zsh\n   49  git --version\n   50  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   51  brew -- version\n   52  brew\n   53  brew --version\n   54  git --version\n   55  -zsh\n   56  git config --global user.name prijacash\n   57  git config --global user.email prijacash@gmail.com\n   58  git config --global push.default simple\ngit config --global credential.helper cache\n   59  git config --global core.editor 'code -w'\n   60  git config --global\n   61  git config --global --list\n   62  brew install --cask visual-studio-code\n   63  code\n   64  pwd\n   65  ls\n   66  ls -a\n   67  cd desktop\n   68  cd..\n   69  pwd\n   70  cd Desktop\n   71  ls\n   72  ls -a\n   73  cd ..\n   74  pwd\n   75  cd\n   76  mkdir seir-808\n   77  cd seir-808\n   78  pwd\n   79  cd ..\n   80  ls\n   81  cd seir-808\n   82  ls\n   83  ls -a\n   84  mkdir unit1\n   85  ls\n   86  cd unit1\n   87  pwd\n   88  mkdir cli-intro\n   89  cd cli-intro\n   90  pwd\n   91  touch notes.txt\n   92  ls\n   93  code .\n   94  cat notes.txt\n   95  mkdir my-junk\n   96  ls\n   97  mv notes.txt my-junk/notes.txt\n   98  ls\n   99  cd my-junk\n  100  ls\n  101  cd .. \n  102  ls\n  103  pwd\n  104  ls ..\n  105  touch ../example\n  106  ls ..\n  107  mv ../example my-junk/example\n  108  pwd\n  109  ls\n  110  cd my-junk\n  111  ls\n  112  cd.. \n  113  cd ..\n  114  touch file.text .hidden-file other-file.js\n  115  ls\n  116  ls -a\n  117  man ls\n  118  ls -l\n  119  ls -la\n  120  ls -R\n  121  ls -Rla\n  122  ls\n  123  rm file.text\n  124  ls\n  125  rm my-junk\n  126  man rm\n  127  rm -rf - my-junk\n  128  ls\n  129  echo "hello world"\n  130  echo 'hello world'\n  131  echo 'hello web dev'\n  132  echo "hello redirection' >> hello.txt\nls\n\ncd..\ncd ..\n"\n  133  echo 'hello redirection' >> hello.txt\n  134  ls\n  135  touch whateve\n  136  ls\n  137  echo 'new thing' >> hello.txt\n  138  cat hello.txt\n  139  echo 'newest thing' > hello.txt\n  140  cat hello.tt\n  141  cat hello.txt\n  142  pwd\n  143  touch books.txt\n  144  ls\n  145  code .\n  146  cat books.txt\n  147  man grep\n  148  grep Mills books.txt\n  149  grep Mill books.tx\n  150  grep Mill books.txt\n  151  grep mill books.txt\n  152  ls\n  153  pwd\n  154  ls -a\n  155  grep Mill books.txt | grep On\n  156  history\n  157  history | grep man\n  158  history >> history.txt\n  159  ls\n  160  cat history.txt\n  161  ls\n  162  mv books.txt \n  163  man git\n  164  cd ..\n  165  pwd\n  166  mkdir my-first-repo\n  167  cd my-first-repo\n  168  ls\n  169  touch index.html\n  170  touch styles.css script.js\n  171  ls\n  172  git init\n  173  get --version\n  174  git --version\n  175  cd\n  176  ls\n  177  ls -a\n  178  rm -rf .git\n  179  git --version\n  180  cd seir-909\n  181  cd seir-808\n  182  pwd\n  183  ls\n  184  cd unit1\n  185  ls\n  186  cd my-first-repo\n  187  cd\n  188  git config --global --list \n  189  git config --global init.defaultBranch main\n  190  cd seir-808\n  191  ls\n  192  cd unit1\n  193  ls\n  194  cd my-first-repo\n  195  cd\n  196  pwd\n  197  ls -a\n  198  cat .gitconfig\n  199  cd seir-909\n  200  cd seir-808\n  201  ls\n  202  cd unit1\n  203  ls\n  204  cd my-first-repo\n  205  rm -rf .git\n  206  git init\n  207  ls -a\n  208  cat .git\n  209  git status\n  210  git add index.html\n  211  git status\n  212  git commit\n  213  git commit -m "adds index.html file this message has to be here""\n"\n  214  git status\n  215  git log\n  216  ls\n  217  git add .\n  218  git status\n  219  git commit -m 'adds javascript and css files'\n  220  git status\n  221  man git\n  222  man git add\n  223  man git-add\n  224  man git add\n  225  man gitadd\n  226  man git-add\n  227  man git-status\n  228  echo 'git is superdope!' >> notes.txt\n  229  ls\n  230  git status\n  231  git add .\n  232  git commit -m 'took some notes on git'\n  233  git status\n  234  ls\n  235  git remote add origin https://github.com/prijacash/first-repo-808.git\n  236  git remote -v\n  237  git branch -M main\n  238  git push origin main\n  239  cd ..\n  240  ls\n  241  pwd\n  242  get clone https://github.com/prijacash/command-line-murder-mystery.git\n  243  git clone https://github.com/prijacash/command-line-murder-mystery.git\n  244  ls\n  245  cd command-line-murder-mystery\n  246  ls\n  247  cat readme.md\n  248  cat instructions\n  249  ls\n  250  cd mystery\n  251  ls\n  252  cat hint1\n  253  cat hint2\n  254  cd\n  255  pwd\n  256  cd seir-808\n  257  cd unit1\n  258  ls\n  259  cd command-line-murder-mystery\n  260  cat cheatsheet.\n  261  ls\n  262  cat cheatsheet.pdf\n  263  ls\n  264  cat hint2\n  265  cat hint3\n  266  code cheatsheet.pdf\n  267  cat hint3\n  268  cat hint4\n  269  cat hint5\n  270  cat hint6\n  271  at hint7\n  272  pwd\n  273  ls\n  274  cat instructions\n  275  cat hint1\n  276  cat hint2\n  277  cat hint3\n  278  cat hint4\n  279  cat hint5\n  280  cat hint6\n  281  cat hint7\n  282  cat hint8\n  283  cd mystery\n  284  ls\n  285  cat crimescene\n  286  ls\n  287  grep crimescene \n  288  ls\n  289  cd seir-808\n  290  ls\n  291  cd unit1\n  292  ls\n  293  cd my-first-repo\n  294  ls\n  295  cd ..\n  296  ls\n  297  cd command-line-murder-mystery\n  298  ls\n  299  cd mystery\n  300  ls\n  301  cat crimescene | grep clue\n  302  cat hint1\n  303  cd ..\n  304  ls\n  305  cat hint 1\n  306  cat hint1\n  307  cat hint2\n  308  cd mystery\n  309  grep "CLUE" crimescene%\n  310  grep "CLUE" crimescene\n  311  ls\n  312  cd..\n  313  cat hint3\n  314  cd ..\n  315  cat hint3\n  316  cat hint4\n  317  cat hint5\n  318  cat hint6\n  319  cat hint7\n  320  cat hint8\n  321  cd mystery\n  322  ls\n  323  grep "Honda" vehicles\n  324  ls\n  325  cat hint1\n  326  cd ..\n  327  cat hint1\n  328  cat hint2\n  329  cat hint3\n  330  cat hint4\n  331  cat hint5\n  332  cat hint6\n  333  cat hint7\n  334  cat hint8\n  335  ls\n  336  cat instructions\n  337  ls\n  338  cd mystery\n  339  ls\n  340  grep "CLUE" crimescene\n  341  grep "Annabel" people\n  342  cd ..\n  343  grep -A 5 "L337" mystery/vehicles\n  344  ls mystery\n  345  ls mystery/interviews\n  346  pwd\n  347  ls\n  348  code cheatsheet.pdf\n  349  head -n 173 streets/Mattapan_Street | tail -n 1\n \n  350  head -n 173 streets/Mattapan_Street | tail -n 1\n interview\n  351  grep -BA 5 "l337" mystery/vehicles\n  352  grep -B 5 "l337" mystery/vehicles\n  353  grep -B 5 "L337" mystery/vehicles\n  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%\n  355  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owns"\n  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""\n"\n  357  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n"\n"\n  358  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"\n  359  cat instructions\n  360  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"\n  361  ls\n  362  ls mystery\n  363  ls mystery/memberships\n  364  head -n 20 people\n  365  ls\n  366  head -n 20 mystery/people\n  367  head -n 20 mystery/interviews\n  368  ls\n  369  ls mystery\n  370  head -n 20 mystery/crimescene\n  371  grep "clue" mystery/crimescene\n  372  grep "CLUE" mystery/crimescene\n  373  ls mystery\n  374  ls mystery/memberships\n  375  cat mystery/memberships/1\n  376  cat mystery/memberships/1.txt\n  377  cat mystery/memberships/21.txt\n  378  cat mystery/memberships/2.txt\n  379  ls mystery/memberships\n  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "John Smith" \n  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"" \n"\n  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n"\n"\n  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  385  grep -A 5 "L337" mystery/vehicles"\n"\n  386  grep -A 5 "L337" mystery/vehicles\n  387  cat AAA Delta_SkyMiles | grep \n  388  ls\n  389  cd mystery\n  390  cat AAA Delta_SkyMiles | grep "John Smith"\n  391  cd memberships\n  392  cat AAA Delta_SkyMiles | grep "John Smith"\n  393  cat AAA Delta_SkyMiles | grep -c "John Smith"\n  394  cat AAA Delta_SkyMiles | grep -c "Erika Bowersh"\n  395  cat AAA Delta_SkyMiles | grep -c "Erika Bowerh"\n  396  cat AAA Delta_SkyMiles | grep -c "Erika Bower"\n  397  cat AAA Delta_SkyMiles | grep -c "Erika Owens"\n  398  cat AAA Delta_SkyMiles | grep -c "Joe Germuska"\n  399  cat AAA Delta_SkyMiles | grep -c "Jeremy Bowers"\n  400  ls\n  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n  404  ls\n  405  cd ..\n  406  touch solutions.txt\n  407  ls\n  408  echo 'Jeremy Bowers' >> solutions.txt\n  409  cat solutions\n  410  cat solutions.txt\n' >> solutions.txt\n  413  cat solutions.txt\n  414  git status\n  415  add solutions.txt\n  416  git add solutions.txt\n  417  git status\n  418  git commit -m 'my first homework assignment.. finally figured it out'\n  419  ls\n  420  cd ..\n  421  cat hint8\n  422  grep -A 5 "L337" mystery/vehicles\n  423  grep "CLUE" mystery/crimescene\n  424  ls\n  425  cd mystery\n  426  ls\n  427  cd memberships\n  428  ls\n  429  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"\n  430  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  431  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n  432  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  1  cd downloads\n    2  /Users/Prija/\n    3  ~Prija$\n    4  touch test.sh\n    5  pico\n    6  touch test.sh\n    7  pico test.sh\n    8  md rock-paper-scissors\n    9  /users/prija\n   10  ls -1\n   11  users/destop\n   12  cd desktop\n   13  md rock-paper-scissors\n   14  ls\n   15  mkdir rock-paper-scissors\n   16  cd rock-paper-scissors\n   17  ls\n   18  touch index.html style.css app.js\n   19  atom .\n   20  cd ..\n   21  pwd\n   22  md GA-Blog\n   23  dir\n   24  dir/w\n   25  /users/prija\n   26  /users/prija/\n   27  -l\n   28  cd..\n   29  cd ..\n   30  pwd\n   31  hello?\n   32  where am i?\n   33  ls\n   34  cd ..\n   35  pwd\n   36  pwd\n   37  cd prija\n   38  cd ..\n   39  prija\n   40  pwd\n   41  /users/prija/\n   42  ls -1\n   43  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   44  brew install git\n   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n   46  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   47  git --version\n   48  -zsh\n   49  git --version\n   50  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   51  brew -- version\n   52  brew\n   53  brew --version\n   54  git --version\n   55  -zsh\n   56  git config --global user.name prijacash\n   57  git config --global user.email prijacash@gmail.com\n   58  git config --global push.default simple\ngit config --global credential.helper cache\n   59  git config --global core.editor 'code -w'\n   60  git config --global\n   61  git config --global --list\n   62  brew install --cask visual-studio-code\n   63  code\n   64  pwd\n   65  ls\n   66  ls -a\n   67  cd desktop\n   68  cd..\n   69  pwd\n   70  cd Desktop\n   71  ls\n   72  ls -a\n   73  cd ..\n   74  pwd\n   75  cd\n   76  mkdir seir-808\n   77  cd seir-808\n   78  pwd\n   79  cd ..\n   80  ls\n   81  cd seir-808\n   82  ls\n   83  ls -a\n   84  mkdir unit1\n   85  ls\n   86  cd unit1\n   87  pwd\n   88  mkdir cli-intro\n   89  cd cli-intro\n   90  pwd\n   91  touch notes.txt\n   92  ls\n   93  code .\n   94  cat notes.txt\n   95  mkdir my-junk\n   96  ls\n   97  mv notes.txt my-junk/notes.txt\n   98  ls\n   99  cd my-junk\n  100  ls\n  101  cd .. \n  102  ls\n  103  pwd\n  104  ls ..\n  105  touch ../example\n  106  ls ..\n  107  mv ../example my-junk/example\n  108  pwd\n  109  ls\n  110  cd my-junk\n  111  ls\n  112  cd.. \n  113  cd ..\n  114  touch file.text .hidden-file other-file.js\n  115  ls\n  116  ls -a\n  117  man ls\n  118  ls -l\n  119  ls -la\n  120  ls -R\n  121  ls -Rla\n  122  ls\n  123  rm file.text\n  124  ls\n  125  rm my-junk\n  126  man rm\n  127  rm -rf - my-junk\n  128  ls\n  129  echo "hello world"\n  130  echo 'hello world'\n  131  echo 'hello web dev'\n  132  echo "hello redirection' >> hello.txt\nls\n\ncd..\ncd ..\n"\n  133  echo 'hello redirection' >> hello.txt\n  134  ls\n  135  touch whateve\n  136  ls\n  137  echo 'new thing' >> hello.txt\n  138  cat hello.txt\n  139  echo 'newest thing' > hello.txt\n  140  cat hello.tt\n  141  cat hello.txt\n  142  pwd\n  143  touch books.txt\n  144  ls\n  145  code .\n  146  cat books.txt\n  147  man grep\n  148  grep Mills books.txt\n  149  grep Mill books.tx\n  150  grep Mill books.txt\n  151  grep mill books.txt\n  152  ls\n  153  pwd\n  154  ls -a\n  155  grep Mill books.txt | grep On\n  156  history\n  157  history | grep man\n  158  history >> history.txt\n  159  ls\n  160  cat history.txt\n  161  ls\n  162  mv books.txt \n  163  man git\n  164  cd ..\n  165  pwd\n  166  mkdir my-first-repo\n  167  cd my-first-repo\n  168  ls\n  169  touch index.html\n  170  touch styles.css script.js\n  171  ls\n  172  git init\n  173  get --version\n  174  git --version\n  175  cd\n  176  ls\n  177  ls -a\n  178  rm -rf .git\n  179  git --version\n  180  cd seir-909\n  181  cd seir-808\n  182  pwd\n  183  ls\n  184  cd unit1\n  185  ls\n  186  cd my-first-repo\n  187  cd\n  188  git config --global --list \n  189  git config --global init.defaultBranch main\n  190  cd seir-808\n  191  ls\n  192  cd unit1\n  193  ls\n  194  cd my-first-repo\n  195  cd\n  196  pwd\n  197  ls -a\n  198  cat .gitconfig\n  199  cd seir-909\n  200  cd seir-808\n  201  ls\n  202  cd unit1\n  203  ls\n  204  cd my-first-repo\n  205  rm -rf .git\n  206  git init\n  207  ls -a\n  208  cat .git\n  209  git status\n  210  git add index.html\n  211  git status\n  212  git commit\n  213  git commit -m "adds index.html file this message has to be here""\n"\n  214  git status\n  215  git log\n  216  ls\n  217  git add .\n  218  git status\n  219  git commit -m 'adds javascript and css files'\n  220  git status\n  221  man git\n  222  man git add\n  223  man git-add\n  224  man git add\n  225  man gitadd\n  226  man git-add\n  227  man git-status\n  228  echo 'git is superdope!' >> notes.txt\n  229  ls\n  230  git status\n  231  git add .\n  232  git commit -m 'took some notes on git'\n  233  git status\n  234  ls\n  235  git remote add origin https://github.com/prijacash/first-repo-808.git\n  236  git remote -v\n  237  git branch -M main\n  238  git push origin main\n  239  cd ..\n  240  ls\n  241  pwd\n  242  get clone https://github.com/prijacash/command-line-murder-mystery.git\n  243  git clone https://github.com/prijacash/command-line-murder-mystery.git\n  244  ls\n  245  cd command-line-murder-mystery\n  246  ls\n  247  cat readme.md\n  248  cat instructions\n  249  ls\n  250  cd mystery\n  251  ls\n  252  cat hint1\n  253  cat hint2\n  254  cd\n  255  pwd\n  256  cd seir-808\n  257  cd unit1\n  258  ls\n  259  cd command-line-murder-mystery\n  260  cat cheatsheet.\n  261  ls\n  262  cat cheatsheet.pdf\n  263  ls\n  264  cat hint2\n  265  cat hint3\n  266  code cheatsheet.pdf\n  267  cat hint3\n  268  cat hint4\n  269  cat hint5\n  270  cat hint6\n  271  at hint7\n  272  pwd\n  273  ls\n  274  cat instructions\n  275  cat hint1\n  276  cat hint2\n  277  cat hint3\n  278  cat hint4\n  279  cat hint5\n  280  cat hint6\n  281  cat hint7\n  282  cat hint8\n  283  cd mystery\n  284  ls\n  285  cat crimescene\n  286  ls\n  287  grep crimescene \n  288  ls\n  289  cd seir-808\n  290  ls\n  291  cd unit1\n  292  ls\n  293  cd my-first-repo\n  294  ls\n  295  cd ..\n  296  ls\n  297  cd command-line-murder-mystery\n  298  ls\n  299  cd mystery\n  300  ls\n  301  cat crimescene | grep clue\n  302  cat hint1\n  303  cd ..\n  304  ls\n  305  cat hint 1\n  306  cat hint1\n  307  cat hint2\n  308  cd mystery\n  309  grep "CLUE" crimescene%\n  310  grep "CLUE" crimescene\n  311  ls\n  312  cd..\n  313  cat hint3\n  314  cd ..\n  315  cat hint3\n  316  cat hint4\n  317  cat hint5\n  318  cat hint6\n  319  cat hint7\n  320  cat hint8\n  321  cd mystery\n  322  ls\n  323  grep "Honda" vehicles\n  324  ls\n  325  cat hint1\n  326  cd ..\n  327  cat hint1\n  328  cat hint2\n  329  cat hint3\n  330  cat hint4\n  331  cat hint5\n  332  cat hint6\n  333  cat hint7\n  334  cat hint8\n  335  ls\n  336  cat instructions\n  337  ls\n  338  cd mystery\n  339  ls\n  340  grep "CLUE" crimescene\n  341  grep "Annabel" people\n  342  cd ..\n  343  grep -A 5 "L337" mystery/vehicles\n  344  ls mystery\n  345  ls mystery/interviews\n  346  pwd\n  347  ls\n  348  code cheatsheet.pdf\n  349  head -n 173 streets/Mattapan_Street | tail -n 1\n \n  350  head -n 173 streets/Mattapan_Street | tail -n 1\n interview\n  351  grep -BA 5 "l337" mystery/vehicles\n  352  grep -B 5 "l337" mystery/vehicles\n  353  grep -B 5 "L337" mystery/vehicles\n  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%\n  355  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owns"\n  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""\n"\n  357  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n"\n"\n  358  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"\n  359  cat instructions\n  360  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"\n  361  ls\n  362  ls mystery\n  363  ls mystery/memberships\n  364  head -n 20 people\n  365  ls\n  366  head -n 20 mystery/people\n  367  head -n 20 mystery/interviews\n  368  ls\n  369  ls mystery\n  370  head -n 20 mystery/crimescene\n  371  grep "clue" mystery/crimescene\n  372  grep "CLUE" mystery/crimescene\n  373  ls mystery\n  374  ls mystery/memberships\n  375  cat mystery/memberships/1\n  376  cat mystery/memberships/1.txt\n  377  cat mystery/memberships/21.txt\n  378  cat mystery/memberships/2.txt\n  379  ls mystery/memberships\n  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "John Smith" \n  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"" \n"\n  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n"\n"\n  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  385  grep -A 5 "L337" mystery/vehicles"\n"\n  386  grep -A 5 "L337" mystery/vehicles\n  387  cat AAA Delta_SkyMiles | grep \n  388  ls\n  389  cd mystery\n  390  cat AAA Delta_SkyMiles | grep "John Smith"\n  391  cd memberships\n  392  cat AAA Delta_SkyMiles | grep "John Smith"\n  393  cat AAA Delta_SkyMiles | grep -c "John Smith"\n  394  cat AAA Delta_SkyMiles | grep -c "Erika Bowersh"\n  395  cat AAA Delta_SkyMiles | grep -c "Erika Bowerh"\n  396  cat AAA Delta_SkyMiles | grep -c "Erika Bower"\n  397  cat AAA Delta_SkyMiles | grep -c "Erika Owens"\n  398  cat AAA Delta_SkyMiles | grep -c "Joe Germuska"\n  399  cat AAA Delta_SkyMiles | grep -c "Jeremy Bowers"\n  400  ls\n  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n  404  ls\n  405  cd ..\n  406  touch solutions.txt\n  407  ls\n  408  echo 'Jeremy Bowers' >> solutions.txt\n  409  cat solutions\n  410  cat solutions.txt\n  411  history\n  412  echo ' 1  cd downloads\n    2  /Users/Prija/\n    3  ~Prija$\n    4  touch test.sh\n    5  pico\n    6  touch test.sh\n    7  pico test.sh\n    8  md rock-paper-scissors\n    9  /users/prija\n   10  ls -1\n   11  users/destop\n   12  cd desktop\n   13  md rock-paper-scissors\n   14  ls\n   15  mkdir rock-paper-scissors\n   16  cd rock-paper-scissors\n   17  ls\n   18  touch index.html style.css app.js\n   19  atom .\n   20  cd ..\n   21  pwd\n   22  md GA-Blog\n   23  dir\n   24  dir/w\n   25  /users/prija\n   26  /users/prija/\n   27  -l\n   28  cd..\n   29  cd ..\n   30  pwd\n   31  hello?\n   32  where am i?\n   33  ls\n   34  cd ..\n   35  pwd\n   36  pwd\n   37  cd prija\n   38  cd ..\n   39  prija\n   40  pwd\n   41  /users/prija/\n   42  ls -1\n   43  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   44  brew install git\n   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n   46  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   47  git --version\n   48  -zsh\n   49  git --version\n   50  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   51  brew -- version\n   52  brew\n   53  brew --version\n   54  git --version\n   55  -zsh\n   56  git config --global user.name prijacash\n   57  git config --global user.email prijacash@gmail.com\n   58  git config --global push.default simple\ngit config --global credential.helper cache\n   59  git config --global core.editor 'code -w'\n   60  git config --global\n   61  git config --global --list\n   62  brew install --cask visual-studio-code\n   63  code\n   64  pwd\n   65  ls\n   66  ls -a\n   67  cd desktop\n   68  cd..\n   69  pwd\n   70  cd Desktop\n   71  ls\n   72  ls -a\n   73  cd ..\n   74  pwd\n   75  cd\n   76  mkdir seir-808\n   77  cd seir-808\n   78  pwd\n   79  cd ..\n   80  ls\n   81  cd seir-808\n   82  ls\n   83  ls -a\n   84  mkdir unit1\n   85  ls\n   86  cd unit1\n   87  pwd\n   88  mkdir cli-intro\n   89  cd cli-intro\n   90  pwd\n   91  touch notes.txt\n   92  ls\n   93  code .\n   94  cat notes.txt\n   95  mkdir my-junk\n   96  ls\n   97  mv notes.txt my-junk/notes.txt\n   98  ls\n   99  cd my-junk\n  100  ls\n  101  cd .. \n  102  ls\n  103  pwd\n  104  ls ..\n  105  touch ../example\n  106  ls ..\n  107  mv ../example my-junk/example\n  108  pwd\n  109  ls\n  110  cd my-junk\n  111  ls\n  112  cd.. \n  113  cd ..\n  114  touch file.text .hidden-file other-file.js\n  115  ls\n  116  ls -a\n  117  man ls\n  118  ls -l\n  119  ls -la\n  120  ls -R\n  121  ls -Rla\n  122  ls\n  123  rm file.text\n  124  ls\n  125  rm my-junk\n  126  man rm\n  127  rm -rf - my-junk\n  128  ls\n  129  echo "hello world"\n  130  echo 'hello world'\n  131  echo 'hello web dev'\n  132  echo "hello redirection' >> hello.txt\nls\n\ncd..\ncd ..\n"\n  133  echo 'hello redirection' >> hello.txt\n  134  ls\n  135  touch whateve\n  136  ls\n  137  echo 'new thing' >> hello.txt\n  138  cat hello.txt\n  139  echo 'newest thing' > hello.txt\n  140  cat hello.tt\n  141  cat hello.txt\n  142  pwd\n  143  touch books.txt\n  144  ls\n  145  code .\n  146  cat books.txt\n  147  man grep\n  148  grep Mills books.txt\n  149  grep Mill books.tx\n  150  grep Mill books.txt\n  151  grep mill books.txt\n  152  ls\n  153  pwd\n  154  ls -a\n  155  grep Mill books.txt | grep On\n  156  history\n  157  history | grep man\n  158  history >> history.txt\n  159  ls\n  160  cat history.txt\n  161  ls\n  162  mv books.txt \n  163  man git\n  164  cd ..\n  165  pwd\n  166  mkdir my-first-repo\n  167  cd my-first-repo\n  168  ls\n  169  touch index.html\n  170  touch styles.css script.js\n  171  ls\n  172  git init\n  173  get --version\n  174  git --version\n  175  cd\n  176  ls\n  177  ls -a\n  178  rm -rf .git\n  179  git --version\n  180  cd seir-909\n  181  cd seir-808\n  182  pwd\n  183  ls\n  184  cd unit1\n  185  ls\n  186  cd my-first-repo\n  187  cd\n  188  git config --global --list \n  189  git config --global init.defaultBranch main\n  190  cd seir-808\n  191  ls\n  192  cd unit1\n  193  ls\n  194  cd my-first-repo\n  195  cd\n  196  pwd\n  197  ls -a\n  198  cat .gitconfig\n  199  cd seir-909\n  200  cd seir-808\n  201  ls\n  202  cd unit1\n  203  ls\n  204  cd my-first-repo\n  205  rm -rf .git\n  206  git init\n  207  ls -a\n  208  cat .git\n  209  git status\n  210  git add index.html\n  211  git status\n  212  git commit\n  213  git commit -m "adds index.html file this message has to be here""\n"\n  214  git status\n  215  git log\n  216  ls\n  217  git add .\n  218  git status\n  219  git commit -m 'adds javascript and css files'\n  220  git status\n  221  man git\n  222  man git add\n  223  man git-add\n  224  man git add\n  225  man gitadd\n  226  man git-add\n  227  man git-status\n  228  echo 'git is superdope!' >> notes.txt\n  229  ls\n  230  git status\n  231  git add .\n  232  git commit -m 'took some notes on git'\n  233  git status\n  234  ls\n  235  git remote add origin https://github.com/prijacash/first-repo-808.git\n  236  git remote -v\n  237  git branch -M main\n  238  git push origin main\n  239  cd ..\n  240  ls\n  241  pwd\n  242  get clone https://github.com/prijacash/command-line-murder-mystery.git\n  243  git clone https://github.com/prijacash/command-line-murder-mystery.git\n  244  ls\n  245  cd command-line-murder-mystery\n  246  ls\n  247  cat readme.md\n  248  cat instructions\n  249  ls\n  250  cd mystery\n  251  ls\n  252  cat hint1\n  253  cat hint2\n  254  cd\n  255  pwd\n  256  cd seir-808\n  257  cd unit1\n  258  ls\n  259  cd command-line-murder-mystery\n  260  cat cheatsheet.\n  261  ls\n  262  cat cheatsheet.pdf\n  263  ls\n  264  cat hint2\n  265  cat hint3\n  266  code cheatsheet.pdf\n  267  cat hint3\n  268  cat hint4\n  269  cat hint5\n  270  cat hint6\n  271  at hint7\n  272  pwd\n  273  ls\n  274  cat instructions\n  275  cat hint1\n  276  cat hint2\n  277  cat hint3\n  278  cat hint4\n  279  cat hint5\n  280  cat hint6\n  281  cat hint7\n  282  cat hint8\n  283  cd mystery\n  284  ls\n  285  cat crimescene\n  286  ls\n  287  grep crimescene \n  288  ls\n  289  cd seir-808\n  290  ls\n  291  cd unit1\n  292  ls\n  293  cd my-first-repo\n  294  ls\n  295  cd ..\n  296  ls\n  297  cd command-line-murder-mystery\n  298  ls\n  299  cd mystery\n  300  ls\n  301  cat crimescene | grep clue\n  302  cat hint1\n  303  cd ..\n  304  ls\n  305  cat hint 1\n  306  cat hint1\n  307  cat hint2\n  308  cd mystery\n  309  grep "CLUE" crimescene%\n  310  grep "CLUE" crimescene\n  311  ls\n  312  cd..\n  313  cat hint3\n  314  cd ..\n  315  cat hint3\n  316  cat hint4\n  317  cat hint5\n  318  cat hint6\n  319  cat hint7\n  320  cat hint8\n  321  cd mystery\n  322  ls\n  323  grep "Honda" vehicles\n  324  ls\n  325  cat hint1\n  326  cd ..\n  327  cat hint1\n  328  cat hint2\n  329  cat hint3\n  330  cat hint4\n  331  cat hint5\n  332  cat hint6\n  333  cat hint7\n  334  cat hint8\n  335  ls\n  336  cat instructions\n  337  ls\n  338  cd mystery\n  339  ls\n  340  grep "CLUE" crimescene\n  341  grep "Annabel" people\n  342  cd ..\n  343  grep -A 5 "L337" mystery/vehicles\n  344  ls mystery\n  345  ls mystery/interviews\n  346  pwd\n  347  ls\n  348  code cheatsheet.pdf\n  349  head -n 173 streets/Mattapan_Street | tail -n 1\n \n  350  head -n 173 streets/Mattapan_Street | tail -n 1\n interview\n  351  grep -BA 5 "l337" mystery/vehicles\n  352  grep -B 5 "l337" mystery/vehicles\n  353  grep -B 5 "L337" mystery/vehicles\n  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%\n  355  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owns"\n  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""\n"\n  357  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n"\n"\n  358  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"\n  359  cat instructions\n  360  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"\n  361  ls\n  362  ls mystery\n  363  ls mystery/memberships\n  364  head -n 20 people\n  365  ls\n  366  head -n 20 mystery/people\n  367  head -n 20 mystery/interviews\n  368  ls\n  369  ls mystery\n  370  head -n 20 mystery/crimescene\n  371  grep "clue" mystery/crimescene\n  372  grep "CLUE" mystery/crimescene\n  373  ls mystery\n  374  ls mystery/memberships\n  375  cat mystery/memberships/1\n  376  cat mystery/memberships/1.txt\n  377  cat mystery/memberships/21.txt\n  378  cat mystery/memberships/2.txt\n  379  ls mystery/memberships\n  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "John Smith" \n  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"" \n"\n  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n"\n"\n  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  385  grep -A 5 "L337" mystery/vehicles"\n"\n  386  grep -A 5 "L337" mystery/vehicles\n  387  cat AAA Delta_SkyMiles | grep \n  388  ls\n  389  cd mystery\n  390  cat AAA Delta_SkyMiles | grep "John Smith"\n  391  cd memberships\n  392  cat AAA Delta_SkyMiles | grep "John Smith"\n  393  cat AAA Delta_SkyMiles | grep -c "John Smith"\n  394  cat AAA Delta_SkyMiles | grep -c "Erika Bowersh"\n  395  cat AAA Delta_SkyMiles | grep -c "Erika Bowerh"\n  396  cat AAA Delta_SkyMiles | grep -c "Erika Bower"\n  397  cat AAA Delta_SkyMiles | grep -c "Erika Owens"\n  398  cat AAA Delta_SkyMiles | grep -c "Joe Germuska"\n  399  cat AAA Delta_SkyMiles | grep -c "Jeremy Bowers"\n  400  ls\n  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n  404  ls\n  405  cd ..\n  406  touch solutions.txt\n  407  ls\n  408  echo 'Jeremy Bowers' >> solutions.txt\n  409  cat solutions\n  410  cat solutions.txt\n 1  cd downloads\n    2  /Users/Prija/\n    3  ~Prija$\n    4  touch test.sh\n    5  pico\n    6  touch test.sh\n    7  pico test.sh\n    8  md rock-paper-scissors\n    9  /users/prija\n   10  ls -1\n   11  users/destop\n   12  cd desktop\n   13  md rock-paper-scissors\n   14  ls\n   15  mkdir rock-paper-scissors\n   16  cd rock-paper-scissors\n   17  ls\n   18  touch index.html style.css app.js\n   19  atom .\n   20  cd ..\n   21  pwd\n   22  md GA-Blog\n   23  dir\n   24  dir/w\n   25  /users/prija\n   26  /users/prija/\n   27  -l\n   28  cd..\n   29  cd ..\n   30  pwd\n   31  hello?\n   32  where am i?\n   33  ls\n   34  cd ..\n   35  pwd\n   36  pwd\n   37  cd prija\n   38  cd ..\n   39  prija\n   40  pwd\n   41  /users/prija/\n   42  ls -1\n   43  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   44  brew install git\n   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n   46  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   47  git --version\n   48  -zsh\n   49  git --version\n   50  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n   51  brew -- version\n   52  brew\n   53  brew --version\n   54  git --version\n   55  -zsh\n   56  git config --global user.name prijacash\n   57  git config --global user.email prijacash@gmail.com\n   58  git config --global push.default simple\ngit config --global credential.helper cache\n   59  git config --global core.editor 'code -w'\n   60  git config --global\n   61  git config --global --list\n   62  brew install --cask visual-studio-code\n   63  code\n   64  pwd\n   65  ls\n   66  ls -a\n   67  cd desktop\n   68  cd..\n   69  pwd\n   70  cd Desktop\n   71  ls\n   72  ls -a\n   73  cd ..\n   74  pwd\n   75  cd\n   76  mkdir seir-808\n   77  cd seir-808\n   78  pwd\n   79  cd ..\n   80  ls\n   81  cd seir-808\n   82  ls\n   83  ls -a\n   84  mkdir unit1\n   85  ls\n   86  cd unit1\n   87  pwd\n   88  mkdir cli-intro\n   89  cd cli-intro\n   90  pwd\n   91  touch notes.txt\n   92  ls\n   93  code .\n   94  cat notes.txt\n   95  mkdir my-junk\n   96  ls\n   97  mv notes.txt my-junk/notes.txt\n   98  ls\n   99  cd my-junk\n  100  ls\n  101  cd .. \n  102  ls\n  103  pwd\n  104  ls ..\n  105  touch ../example\n  106  ls ..\n  107  mv ../example my-junk/example\n  108  pwd\n  109  ls\n  110  cd my-junk\n  111  ls\n  112  cd.. \n  113  cd ..\n  114  touch file.text .hidden-file other-file.js\n  115  ls\n  116  ls -a\n  117  man ls\n  118  ls -l\n  119  ls -la\n  120  ls -R\n  121  ls -Rla\n  122  ls\n  123  rm file.text\n  124  ls\n  125  rm my-junk\n  126  man rm\n  127  rm -rf - my-junk\n  128  ls\n  129  echo "hello world"\n  130  echo 'hello world'\n  131  echo 'hello web dev'\n  132  echo "hello redirection' >> hello.txt\nls\n\ncd..\ncd ..\n"\n  133  echo 'hello redirection' >> hello.txt\n  134  ls\n  135  touch whateve\n  136  ls\n  137  echo 'new thing' >> hello.txt\n  138  cat hello.txt\n  139  echo 'newest thing' > hello.txt\n  140  cat hello.tt\n  141  cat hello.txt\n  142  pwd\n  143  touch books.txt\n  144  ls\n  145  code .\n  146  cat books.txt\n  147  man grep\n  148  grep Mills books.txt\n  149  grep Mill books.tx\n  150  grep Mill books.txt\n  151  grep mill books.txt\n  152  ls\n  153  pwd\n  154  ls -a\n  155  grep Mill books.txt | grep On\n  156  history\n  157  history | grep man\n  158  history >> history.txt\n  159  ls\n  160  cat history.txt\n  161  ls\n  162  mv books.txt \n  163  man git\n  164  cd ..\n  165  pwd\n  166  mkdir my-first-repo\n  167  cd my-first-repo\n  168  ls\n  169  touch index.html\n  170  touch styles.css script.js\n  171  ls\n  172  git init\n  173  get --version\n  174  git --version\n  175  cd\n  176  ls\n  177  ls -a\n  178  rm -rf .git\n  179  git --version\n  180  cd seir-909\n  181  cd seir-808\n  182  pwd\n  183  ls\n  184  cd unit1\n  185  ls\n  186  cd my-first-repo\n  187  cd\n  188  git config --global --list \n  189  git config --global init.defaultBranch main\n  190  cd seir-808\n  191  ls\n  192  cd unit1\n  193  ls\n  194  cd my-first-repo\n  195  cd\n  196  pwd\n  197  ls -a\n  198  cat .gitconfig\n  199  cd seir-909\n  200  cd seir-808\n  201  ls\n  202  cd unit1\n  203  ls\n  204  cd my-first-repo\n  205  rm -rf .git\n  206  git init\n  207  ls -a\n  208  cat .git\n  209  git status\n  210  git add index.html\n  211  git status\n  212  git commit\n  213  git commit -m "adds index.html file this message has to be here""\n"\n  214  git status\n  215  git log\n  216  ls\n  217  git add .\n  218  git status\n  219  git commit -m 'adds javascript and css files'\n  220  git status\n  221  man git\n  222  man git add\n  223  man git-add\n  224  man git add\n  225  man gitadd\n  226  man git-add\n  227  man git-status\n  228  echo 'git is superdope!' >> notes.txt\n  229  ls\n  230  git status\n  231  git add .\n  232  git commit -m 'took some notes on git'\n  233  git status\n  234  ls\n  235  git remote add origin https://github.com/prijacash/first-repo-808.git\n  236  git remote -v\n  237  git branch -M main\n  238  git push origin main\n  239  cd ..\n  240  ls\n  241  pwd\n  242  get clone https://github.com/prijacash/command-line-murder-mystery.git\n  243  git clone https://github.com/prijacash/command-line-murder-mystery.git\n  244  ls\n  245  cd command-line-murder-mystery\n  246  ls\n  247  cat readme.md\n  248  cat instructions\n  249  ls\n  250  cd mystery\n  251  ls\n  252  cat hint1\n  253  cat hint2\n  254  cd\n  255  pwd\n  256  cd seir-808\n  257  cd unit1\n  258  ls\n  259  cd command-line-murder-mystery\n  260  cat cheatsheet.\n  261  ls\n  262  cat cheatsheet.pdf\n  263  ls\n  264  cat hint2\n  265  cat hint3\n  266  code cheatsheet.pdf\n  267  cat hint3\n  268  cat hint4\n  269  cat hint5\n  270  cat hint6\n  271  at hint7\n  272  pwd\n  273  ls\n  274  cat instructions\n  275  cat hint1\n  276  cat hint2\n  277  cat hint3\n  278  cat hint4\n  279  cat hint5\n  280  cat hint6\n  281  cat hint7\n  282  cat hint8\n  283  cd mystery\n  284  ls\n  285  cat crimescene\n  286  ls\n  287  grep crimescene \n  288  ls\n  289  cd seir-808\n  290  ls\n  291  cd unit1\n  292  ls\n  293  cd my-first-repo\n  294  ls\n  295  cd ..\n  296  ls\n  297  cd command-line-murder-mystery\n  298  ls\n  299  cd mystery\n  300  ls\n  301  cat crimescene | grep clue\n  302  cat hint1\n  303  cd ..\n  304  ls\n  305  cat hint 1\n  306  cat hint1\n  307  cat hint2\n  308  cd mystery\n  309  grep "CLUE" crimescene%\n  310  grep "CLUE" crimescene\n  311  ls\n  312  cd..\n  313  cat hint3\n  314  cd ..\n  315  cat hint3\n  316  cat hint4\n  317  cat hint5\n  318  cat hint6\n  319  cat hint7\n  320  cat hint8\n  321  cd mystery\n  322  ls\n  323  grep "Honda" vehicles\n  324  ls\n  325  cat hint1\n  326  cd ..\n  327  cat hint1\n  328  cat hint2\n  329  cat hint3\n  330  cat hint4\n  331  cat hint5\n  332  cat hint6\n  333  cat hint7\n  334  cat hint8\n  335  ls\n  336  cat instructions\n  337  ls\n  338  cd mystery\n  339  ls\n  340  grep "CLUE" crimescene\n  341  grep "Annabel" people\n  342  cd ..\n  343  grep -A 5 "L337" mystery/vehicles\n  344  ls mystery\n  345  ls mystery/interviews\n  346  pwd\n  347  ls\n  348  code cheatsheet.pdf\n  349  head -n 173 streets/Mattapan_Street | tail -n 1\n \n  350  head -n 173 streets/Mattapan_Street | tail -n 1\n interview\n  351  grep -BA 5 "l337" mystery/vehicles\n  352  grep -B 5 "l337" mystery/vehicles\n  353  grep -B 5 "L337" mystery/vehicles\n  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%\n  355  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owns"\n  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""\n"\n  357  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"\n"\n"\n  358  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"\n  359  cat instructions\n  360  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"\n  361  ls\n  362  ls mystery\n  363  ls mystery/memberships\n  364  head -n 20 people\n  365  ls\n  366  head -n 20 mystery/people\n  367  head -n 20 mystery/interviews\n  368  ls\n  369  ls mystery\n  370  head -n 20 mystery/crimescene\n  371  grep "clue" mystery/crimescene\n  372  grep "CLUE" mystery/crimescene\n  373  ls mystery\n  374  ls mystery/memberships\n  375  cat mystery/memberships/1\n  376  cat mystery/memberships/1.txt\n  377  cat mystery/memberships/21.txt\n  378  cat mystery/memberships/2.txt\n  379  ls mystery/memberships\n  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "John Smith" \n  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"" \n"\n  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n"\n"\n  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  385  grep -A 5 "L337" mystery/vehicles"\n"\n  386  grep -A 5 "L337" mystery/vehicles\n  387  cat AAA Delta_SkyMiles | grep \n  388  ls\n  389  cd mystery\n  390  cat AAA Delta_SkyMiles | grep "John Smith"\n  391  cd memberships\n  392  cat AAA Delta_SkyMiles | grep "John Smith"\n  393  cat AAA Delta_SkyMiles | grep -c "John Smith"\n  394  cat AAA Delta_SkyMiles | grep -c "Erika Bowersh"\n  395  cat AAA Delta_SkyMiles | grep -c "Erika Bowerh"\n  396  cat AAA Delta_SkyMiles | grep -c "Erika Bower"\n  397  cat AAA Delta_SkyMiles | grep -c "Erika Owens"\n  398  cat AAA Delta_SkyMiles | grep -c "Joe Germuska"\n  399  cat AAA Delta_SkyMiles | grep -c "Jeremy Bowers"\n  400  ls\n  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"\n  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n  404  ls\n  405  cd ..\n  406  touch solutions.txt\n  407  ls\n  408  echo 'Jeremy Bowers' >> solutions.txt\n  409  cat solutions\n  410  cat solutions.txt\n' >> solutions.txt\n  413  cat solutions.txt\n  414  git status\n  415  add solutions.txt\n  416  git add solutions.txt\n  417  git status\n  418  git commit -m 'my first homework assignment.. finally figured it out'\n  419  ls\n  420  cd ..\n  421  cat hint8\n  422  grep -A 5 "L337" mystery/vehicles\n  423  grep "CLUE" mystery/crimescene\n  424  ls\n  425  cd mystery\n  426  ls\n  427  cd memberships\n  428  ls\n  429  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"\n  430  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"\n  431  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"\n  432  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher".\n'
+  437  ls
+  438  cat solutions.txt
+  439  history
+  440  cat solutions.txt
+  441  ls 
+  442  cat history.txtn
+  443  cat solutions.txt
+  444  git status
+  445  cat notes.txtn
+  446  ls -a
+  447  cat solutions.txt
+  448  ls
+  449  cd seir-808
+  450  ls
+  451  cd unit1
+  452  ls
+  453  cd command-line-murder-mystery
+  454  li
+  455  ls
+  456  cat hint1
+  457  cat hint2
+  458  cd mystery
+  459  grep "CLUE" crimescene
+  460  grep CLUE crimescene >> clues
+  461  cat clus
+  462  cat clues
+  463  head -n 20 people
+  464  grep 
+  465  grep 'Annabel' people
+  466  grep Annabel people >> clues
+  467  cat clues
+  468  cat ../clues
+  469  cat Hart_place
+  470  cat ../clues
+  471  head -n 40 Hartplace | tail -n 1
+  472  cd streets
+  473  head -n 40 Hartplace | tail -n 1
+  474  head -n 40 Hart_place | tail -n 1
+  475  cd.. 
+  476  cd ..
+  477  cd interviews
+  478  cat #4726024
+  479  cd seir-808
+  480  cd unit1
+  481  ls
+  482  cd command-line-murder-mystery
+  483  cat hint2
+  484  cat hint3
+  485  cd mystery
+  486  ls
+  487  grep CLUE crimescene >> clues 
+  488  cat clues
+  489  cat ../clues
+  490  cat interview-69907
+  491  cd interviews
+  492  cat interview-69907
+  493  cat interview-69960707
+  494  cat interview-699607
+  495  cat interview-699607 >> clues
+  496  cat clues
+  497  cat interview-699607 >> ../clues
+  498  cd ..
+  499  cat hint8
+  500  cd ..
+  501  cd vehicles
+  502  cd mystery
+  503  ls
+  504  cd vehicles
+  505  grep -A 5 "L337" vehicles | grep -A 4 Honda
+  506  cd ..
+  507  cd command-line-murder-mystery
+  508  cat hint8
+  509  cat hint7
+  510  grep -A 5 "L337" mystery/vehicles
+  511  grep -A 5 "L337" mystery/vehicles | grep -A 4 Honda | grep -A 3 Blue
+  512  grep -A 5 L337 | grep -A 4 -B 1 Honda
+  513  cd mystery
+  514  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 6
+  515  cd streets
+  516  cat Hart_place
+  517  cat ../clues
+  518  head -n 40 Hart_Place
+  519  head -n 40 Hart_Place | tail -n 1
+  520  cd ..
+  521  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 6
+  522  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 6 >> ../clues
+  523  cat clues
+  524  cd ..
+  525  cat clues
+  526  cd mystery
+  527  grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -A 3 -B 2 Blue | grep -B 1 6 >> ../clues >> clues
+  528  cat clues
+  529  man man
+  530  man 1
+  531  cd memberships
+  532  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+  533  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska""\n"
+  534  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"\n"\ngrep -A 5 "L337" mystery/vehicles'
+  535  cat AA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History
+  536  cat AA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "jeremy"
+  537  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep -c "Jeremy Bowers"
+  538  grep "Jeremy Bowers" people >> ../clues
+  539  cd..
+  540  cd ..
+  541  grep "Jeremy Bowers" people >> clues
+  542  cat clues
+  543  cat interview-9620713
+  544  cat mystery/interview-9620713
+  545  cd interviews
+  546  cat interview-9620713
+  547  cd ..
+  548  ls
+  549  history

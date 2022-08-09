@@ -1,0 +1,918 @@
+ 1  cd downloads
+    2  /Users/Prija/
+    3  ~Prija$
+    4  touch test.sh
+    5  pico
+    6  touch test.sh
+    7  pico test.sh
+    8  md rock-paper-scissors
+    9  /users/prija
+   10  ls -1
+   11  users/destop
+   12  cd desktop
+   13  md rock-paper-scissors
+   14  ls
+   15  mkdir rock-paper-scissors
+   16  cd rock-paper-scissors
+   17  ls
+   18  touch index.html style.css app.js
+   19  atom .
+   20  cd ..
+   21  pwd
+   22  md GA-Blog
+   23  dir
+   24  dir/w
+   25  /users/prija
+   26  /users/prija/
+   27  -l
+   28  cd..
+   29  cd ..
+   30  pwd
+   31  hello?
+   32  where am i?
+   33  ls
+   34  cd ..
+   35  pwd
+   36  pwd
+   37  cd prija
+   38  cd ..
+   39  prija
+   40  pwd
+   41  /users/prija/
+   42  ls -1
+   43  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   44  brew install git
+   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   46  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   47  git --version
+   48  -zsh
+   49  git --version
+   50  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   51  brew -- version
+   52  brew
+   53  brew --version
+   54  git --version
+   55  -zsh
+   56  git config --global user.name prijacash
+   57  git config --global user.email prijacash@gmail.com
+   58  git config --global push.default simple
+git config --global credential.helper cache
+   59  git config --global core.editor code -w
+   60  git config --global
+   61  git config --global --list
+   62  brew install --cask visual-studio-code
+   63  code
+   64  pwd
+   65  ls
+   66  ls -a
+   67  cd desktop
+   68  cd..
+   69  pwd
+   70  cd Desktop
+   71  ls
+   72  ls -a
+   73  cd ..
+   74  pwd
+   75  cd
+   76  mkdir seir-808
+   77  cd seir-808
+   78  pwd
+   79  cd ..
+   80  ls
+   81  cd seir-808
+   82  ls
+   83  ls -a
+   84  mkdir unit1
+   85  ls
+   86  cd unit1
+   87  pwd
+   88  mkdir cli-intro
+   89  cd cli-intro
+   90  pwd
+   91  touch notes.txt
+   92  ls
+   93  code .
+   94  cat notes.txt
+   95  mkdir my-junk
+   96  ls
+   97  mv notes.txt my-junk/notes.txt
+   98  ls
+   99  cd my-junk
+  100  ls
+  101  cd .. 
+  102  ls
+  103  pwd
+  104  ls ..
+  105  touch ../example
+  106  ls ..
+  107  mv ../example my-junk/example
+  108  pwd
+  109  ls
+  110  cd my-junk
+  111  ls
+  112  cd.. 
+  113  cd ..
+  114  touch file.text .hidden-file other-file.js
+  115  ls
+  116  ls -a
+  117  man ls
+  118  ls -l
+  119  ls -la
+  120  ls -R
+  121  ls -Rla
+  122  ls
+  123  rm file.text
+  124  ls
+  125  rm my-junk
+  126  man rm
+  127  rm -rf - my-junk
+  128  ls
+  129  echo "hello world"
+  130  echo hello world
+  131  echo hello web dev
+  132  echo "hello redirection ..n
+  133  echo 'hello redirection' >> hello.txt
+  134  ls
+  135  touch whateve
+  136  ls
+  137  echo 'new thing' >> hello.txt
+  138  cat hello.txt
+  139  echo 'newest thing' > hello.txt
+  140  cat hello.tt
+  141  cat hello.txt
+  142  pwd
+  143  touch books.txt
+  144  ls
+  145  code .
+  146  cat books.txt
+  147  man grep
+  148  grep Mills books.txt
+  149  grep Mill books.tx
+  150  grep Mill books.txt
+  151  grep mill books.txt
+  152  ls
+  153  pwd
+  154  ls -a
+  155  grep Mill books.txt | grep On
+  156  history
+  157  history | grep man
+  158  history >> history.txt
+  159  ls
+  160  cat history.txt
+  161  ls
+  162  mv books.txt 
+  163  man git
+  164  cd ..
+  165  pwd
+  166  mkdir my-first-repo
+  167  cd my-first-repo
+  168  ls
+  169  touch index.html
+  170  touch styles.css script.js
+  171  ls
+  172  git init
+  173  get --version
+  174  git --version
+  175  cd
+  176  ls
+  177  ls -a
+  178  rm -rf .git
+  179  git --version
+  180  cd seir-909
+  181  cd seir-808
+  182  pwd
+  183  ls
+  184  cd unit1
+  185  ls
+  186  cd my-first-repo
+  187  cd
+  188  git config --global --list 
+  189  git config --global init.defaultBranch main
+  190  cd seir-808
+  191  ls
+  192  cd unit1
+  193  ls
+  194  cd my-first-repo
+  195  cd
+  196  pwd
+  197  ls -a
+  198  cat .gitconfig
+  199  cd seir-909
+  200  cd seir-808
+  201  ls
+  202  cd unit1
+  203  ls
+  204  cd my-first-repo
+  205  rm -rf .git
+  206  git init
+  207  ls -a
+  208  cat .git
+  209  git status
+  210  git add index.html
+  211  git status
+  212  git commit
+  213  git commit -m adds index.html file this message has to be heren
+  214  git status
+  215  git log
+  216  ls
+  217  git add .
+  218  git status
+  219  git commit -m 'adds javascript and css files'
+  220  git status
+  221  man git
+  222  man git add
+  223  man git-add
+  224  man git add
+  225  man gitadd
+  226  man git-add
+  227  man git-status
+  228  echo 'git is superdope!' >> notes.txt
+  229  ls
+  230  git status
+  231  git add .
+  232  git commit -m 'took some notes on git'
+  233  git status
+  234  ls
+  235  git remote add origin https://github.com/prijacash/first-repo-808.git
+  236  git remote -v
+  237  git branch -M main
+  238  git push origin main
+  239  cd ..
+  240  ls
+  241  pwd
+  242  get clone https://github.com/prijacash/command-line-murder-mystery.git
+  243  git clone https://github.com/prijacash/command-line-murder-mystery.git
+  244  ls
+  245  cd command-line-murder-mystery
+  246  ls
+  247  cat readme.md
+  248  cat instructions
+  249  ls
+  250  cd mystery
+  251  ls
+  252  cat hint1
+  253  cat hint2
+  254  cd
+  255  pwd
+  256  cd seir-808
+  257  cd unit1
+  258  ls
+  259  cd command-line-murder-mystery
+  260  cat cheatsheet.
+  261  ls
+  262  cat cheatsheet.pdf
+  263  ls
+  264  cat hint2
+  265  cat hint3
+  266  code cheatsheet.pdf
+  267  cat hint3
+  268  cat hint4
+  269  cat hint5
+  270  cat hint6
+  271  at hint7
+  272  pwd
+  273  ls
+  274  cat instructions
+  275  cat hint1
+  276  cat hint2
+  277  cat hint3
+  278  cat hint4
+  279  cat hint5
+  280  cat hint6
+  281  cat hint7
+  282  cat hint8
+  283  cd mystery
+  284  ls
+  285  cat crimescene
+  286  ls
+  287  grep crimescene 
+  288  ls
+  289  cd seir-808
+  290  ls
+  291  cd unit1
+  292  ls
+  293  cd my-first-repo
+  294  ls
+  295  cd ..
+  296  ls
+  297  cd command-line-murder-mystery
+  298  ls
+  299  cd mystery
+  300  ls
+  301  cat crimescene | grep clue
+  302  cat hint1
+  303  cd ..
+  304  ls
+  305  cat hint 1
+  306  cat hint1
+  307  cat hint2
+  308  cd mystery
+  309  grep CLUE crimescene%
+  310  grep CLUE crimescene
+  311  ls
+  312  cd..
+  313  cat hint3
+  314  cd ..
+  315  cat hint3
+  316  cat hint4
+  317  cat hint5
+  318  cat hint6
+  319  cat hint7
+  320  cat hint8
+  321  cd mystery
+  322  ls
+  323  grep Honda vehicles
+  324  ls
+  325  cat hint1
+  326  cd ..
+  327  cat hint1
+  328  cat hint2
+  329  cat hint3
+  330  cat hint4
+  331  cat hint5
+  332  cat hint6
+  333  cat hint7
+  334  cat hint8
+  335  ls
+  336  cat instructions
+  337  ls
+  338  cd mystery
+  339  ls
+  340  grep CLUE crimescene
+  341  grep Annabel people
+  342  cd ..
+  343  grep -A 5 L337 mystery/vehicles
+  344  ls mystery
+  345  ls mystery/interviews
+  346  pwd
+  347  ls
+  348  code cheatsheet.pdf
+  349  head -n 173 streets/Mattapan_Street | tail -n 1
+ 
+  350  head -n 173 streets/Mattapan_Street | tail -n 1
+ interview
+  351  grep -BA 5 l337 mystery/vehicles
+  352  grep -B 5 l337 mystery/vehicles
+  353  grep -B 5 L337 mystery/vehicles
+  354  cat Fitness_Galaxy AAA United_MileagePlus | grep John Smith | wc -l%
+  355  cat Fitness_Galaxy AAA United_MileagePlus | grep Erika Owns
+  356  cat Fitness_Galaxy AAA United_MileagePlus | grep Joe Germuskan
+  357  cat Fitness_Galaxy AAA United_MileagePlus | grep Jeremy Bowers
+n
+  358  cat Fitness_Galaxy AAA United_MileagePlus | grep Jacqui Maher
+  359  cat instructions
+  360  cat Fitness_Galaxy AAA United_MileagePlus | grep Annabel
+  361  ls
+  362  ls mystery
+  363  ls mystery/memberships
+  364  head -n 20 people
+  365  ls
+  366  head -n 20 mystery/people
+  367  head -n 20 mystery/interviews
+  368  ls
+  369  ls mystery
+  370  head -n 20 mystery/crimescene
+  371  grep clue mystery/crimescene
+  372  grep CLUE mystery/crimescene
+  373  ls mystery
+  374  ls mystery/memberships
+  375  cat mystery/memberships/1
+  376  cat mystery/memberships/1.txt
+  377  cat mystery/memberships/21.txt
+  378  cat mystery/memberships/2.txt
+  379  ls mystery/memberships
+  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c John Smith 
+  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c Erika Owens n
+  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c Joe Germuska
+n
+  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c Jeremy Bowers
+  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c Jacqui Maher
+  385  grep -A 5 L337 mystery/vehiclesn
+  386  grep -A 5 L337 mystery/vehicles
+  387  cat AAA Delta_SkyMiles | grep 
+  388  ls
+  389  cd mystery
+  390  cat AAA Delta_SkyMiles | grep John Smith
+  391  cd memberships
+  392  cat AAA Delta_SkyMiles | grep John Smith
+  393  cat AAA Delta_SkyMiles | grep -c John Smith
+  394  cat AAA Delta_SkyMiles | grep -c Erika Bowersh
+  395  cat AAA Delta_SkyMiles | grep -c Erika Bowerh
+  396  cat AAA Delta_SkyMiles | grep -c Erika Bower
+  397  cat AAA Delta_SkyMiles | grep -c Erika Owens
+  398  cat AAA Delta_SkyMiles | grep -c Joe Germuska
+  399  cat AAA Delta_SkyMiles | grep -c Jeremy Bowers
+  400  ls
+  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c Jeremy Bowers
+  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c Jacqui Maher
+  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c Joe Germuska
+  404  ls
+  405  cd ..
+  406  touch solutions.txt
+  407  ls
+  408  echo 'Jeremy Bowers' >> solutions.txt
+  409  cat solutions
+  410  cat solutions.txt
+ 1  cd downloads
+    2  /Users/Prija/
+    3  ~Prija$
+    4  touch test.sh
+    5  pico
+    6  touch test.sh
+    7  pico test.sh
+    8  md rock-paper-scissors
+    9  /users/prija
+   10  ls -1
+   11  users/destop
+   12  cd desktop
+   13  md rock-paper-scissors
+   14  ls
+   15  mkdir rock-paper-scissors
+   16  cd rock-paper-scissors
+   17  ls
+   18  touch index.html style.css app.js
+   19  atom .
+   20  cd ..
+   21  pwd
+   22  md GA-Blog
+   23  dir
+   24  dir/w
+   25  /users/prija
+   26  /users/prija/
+   27  -l
+   28  cd..
+   29  cd ..
+   30  pwd
+   31  hello?
+   32  where am i?
+   33  ls
+   34  cd ..
+   35  pwd
+   36  pwd
+   37  cd prija
+   38  cd ..
+   39  prija
+   40  pwd
+   41  /users/prija/
+   42  ls -1
+   43  sh -c #!/bin/sh # # This script should be run via curl: # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # or via wget: # sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # or via fetch: # sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # # As an alternative, you can first download the install script and run it afterwards: # wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh # sh install.sh # # You can tweak the install behavior by setting variables when running the script. For # example, to change the path to the Oh My Zsh repository: # ZSH=~/.zsh sh install.sh # # Respects the following environment variables: # ZSH - path to the Oh My Zsh repository folder (default: $HOME/.oh-my-zsh) # REPO - name of the GitHub repo to install from (default: ohmyzsh/ohmyzsh) # REMOTE - full remote URL of the git repo to install (default: GitHub via HTTPS) # BRANCH - branch to check out immediately after install (default: master) # # Other options: # CHSH - 'no' means the installer will not change the default shell (default: yes) # RUNZSH - 'no' means the installer will not run zsh after the install (default: yes) # KEEP_ZSHRC - 'yes' means the installer will not replace an existing .zshrc (default: no) # # You can also pass some arguments to the install script to set some these options: # --skip-chsh: has the same behavior as setting CHSH to 'no' # --unattended: sets both CHSH and RUNZSH to 'no' # --keep-zshrc: sets KEEP_ZSHRC to 'yes' # For example: # sh install.sh --unattended # or: # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended # set -e # Make sure important variables exist if not already defined # # $USER is defined by login(1) which is not always executed (e.g. containers) # POSIX: https://pubs.opengroup.org/onlinepubs/009695299/utilities/id.html USER=${USER:-$(id -u -n)} # $HOME is defined at the time of login, but it could be unset. If it is unset, # a tilde by itself (~) will not be expanded to the current user's home directory. # POSIX: https://pubs.opengroup.org/onlinepubs/009696899/basedefs/xbd_chap08.html#tag_08_03 HOME="${HOME:-$(getent passwd $USER 2>/dev/null | cut -d: -f6)}" # macOS does not have getent, but this works even if $HOME is unset HOME="${HOME:-$(eval echo ~$USER)}" # Track if $ZSH was provided custom_zsh=${ZSH:+yes} # Default settings ZSH="${ZSH:-$HOME/.oh-my-zsh}" REPO=${REPO:-ohmyzsh/ohmyzsh} REMOTE=${REMOTE:-https://github.com/${REPO}.git} BRANCH=${BRANCH:-master} # Other options CHSH=${CHSH:-yes} RUNZSH=${RUNZSH:-yes} KEEP_ZSHRC=${KEEP_ZSHRC:-no} command_exists() { command -v "$@" >/dev/null 2>&1 } user_can_sudo() { # Check if sudo is installed command_exists sudo || return 1 # The following command has 3 parts: # # 1. Run `sudo` with `-v`. Does the following: # • with privilege: asks for a password immediately. # • without privilege: exits with error code 1 and prints the message: # Sorry, user <username> may not run sudo on <hostname> # # 2. Pass `-n` to `sudo` to tell it to not ask for a password. If the # password is not required, the command will finish with exit code 0. # If one is required, sudo will exit with error code 1 and print the # message: # sudo: a password is required # # 3. Check for the words "may not run sudo" in the output to really tell # whether the user has privileges or not. For that we have to make sure # to run `sudo` in the default locale (with `LANG=`) so that the message # stays consistent regardless of the user's locale. # ! LANG= sudo -n -v 2>&1 | grep -q "may not run sudo" } # The [ -t 1 ] check only works when the function is not called from # a subshell (like in `$(...)` or `(...)`, so this hack redefines the # function at the top level to always return false when stdout is not # a tty. if [ -t 1 ]; then is_tty() { true } else is_tty() { false } fi # This function uses the logic from supports-hyperlinks[1][2], which is # made by Kat Marchán (@zkat) and licensed under the Apache License 2.0. # [1] https://github.com/zkat/supports-hyperlinks # [2] https://crates.io/crates/supports-hyperlinks # # Copyright (c) 2021 Kat Marchán # # Licensed under the Apache License, Version 2.0 (the "License"); # you may not use this file except in compliance with the License. # You may obtain a copy of the License at # # http://www.apache.org/licenses/LICENSE-2.0 # # Unless required by applicable law or agreed to in writing, software # distributed under the License is distributed on an "AS IS" BASIS, # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. # See the License for the specific language governing permissions and # limitations under the License. supports_hyperlinks() { # $FORCE_HYPERLINK must be set and be non-zero (this acts as a logic bypass) if [ -n "$FORCE_HYPERLINK" ]; then [ "$FORCE_HYPERLINK" != 0 ] return $? fi # If stdout is not a tty, it doesn't support hyperlinks is_tty || return 1 # DomTerm terminal emulator (domterm.org) if [ -n "$DOMTERM" ]; then return 0 fi # VTE-based terminals above v0.50 (Gnome Terminal, Guake, ROXTerm, etc) if [ -n "$VTE_VERSION" ]; then [ $VTE_VERSION -ge 5000 ] return $? fi # If $TERM_PROGRAM is set, these terminals support hyperlinks case "$TERM_PROGRAM" in Hyper|iTerm.app|terminology|WezTerm) return 0 ;; esac # kitty supports hyperlinks if [ "$TERM" = xterm-kitty ]; then return 0 fi # Windows Terminal or Konsole also support hyperlinks if [ -n "$WT_SESSION" ] || [ -n "$KONSOLE_VERSION" ]; then return 0 fi return 1 } # Adapted from code and information by Anton Kochkov (@XVilka) # Source: https://gist.github.com/XVilka/8346728 supports_truecolor() { case "$COLORTERM" in truecolor|24bit) return 0 ;; esac case "$TERM" in iterm |\ tmux-truecolor |\ linux-truecolor |\ xterm-truecolor |\ screen-truecolor) return 0 ;; esac return 1 } fmt_link() { # $1: text, $2: url, $3: fallback mode if supports_hyperlinks; then printf ']8;;%s%s]8;;
+' "$2" "$1" return fi case "$3" in --text) printf '%s
+' "$1" ;; --url|*) fmt_underline "$2" ;; esac } fmt_underline() { is_tty && printf '[4m%s[24m
+' "$*" || printf '%s
+' "$*" } # shellcheck disable=SC2016 # backtick in single-quote fmt_code() { is_tty && printf '`[2m%s[22m`
+' "$*" || printf '`%s`
+' "$*" } fmt_error() { printf '%sError: %s%s
+' "${FMT_BOLD}${FMT_RED}" "$*" "$FMT_RESET" >&2 } setup_color() { # Only use colors if connected to a terminal if ! is_tty; then FMT_RAINBOW="" FMT_RED="" FMT_GREEN="" FMT_YELLOW="" FMT_BLUE="" FMT_BOLD="" FMT_RESET="" return fi if supports_truecolor; then FMT_RAINBOW=" $(printf '[38;2;255;0;0m') $(printf '[38;2;255;97;0m') $(printf '[38;2;247;255;0m') $(printf '[38;2;0;255;30m') $(printf '[38;2;77;0;255m') $(printf '[38;2;168;0;255m') $(printf '[38;2;245;0;172m') " else FMT_RAINBOW=" $(printf '[38;5;196m') $(printf '[38;5;202m') $(printf '[38;5;226m') $(printf '[38;5;082m') $(printf '[38;5;021m') $(printf '[38;5;093m') $(printf '[38;5;163m') " fi FMT_RED=$(printf '[31m') FMT_GREEN=$(printf '[32m') FMT_YELLOW=$(printf '[33m') FMT_BLUE=$(printf '[34m') FMT_BOLD=$(printf '[1m') FMT_RESET=$(printf '[0m') } setup_ohmyzsh() { # Prevent the cloned repository from having insecure permissions. Failing to do # so causes compinit() calls to fail with "command not found: compdef" errors # for users with insecure umasks (e.g., "002", allowing group writability). Note # that this will be ignored under Cygwin by default, as Windows ACLs take # precedence over umasks except for filesystems mounted with option "noacl". umask g-w,o-w echo "${FMT_BLUE}Cloning Oh My Zsh...${FMT_RESET}" command_exists git || { fmt_error "git is not installed" exit 1 } ostype=$(uname) if [ -z "${ostype%CYGWIN*}" ] && git --version | grep -q msysgit; then fmt_error "Windows/MSYS Git is not supported on Cygwin" fmt_error "Make sure the Cygwin git package is installed and is first on the \$PATH" exit 1 fi # Manual clone with git config options to support git < v1.7.2 git init --quiet "$ZSH" && cd "$ZSH" \ && git config core.eol lf \ && git config core.autocrlf false \ && git config fsck.zeroPaddedFilemode ignore \ && git config fetch.fsck.zeroPaddedFilemode ignore \ && git config receive.fsck.zeroPaddedFilemode ignore \ && git config oh-my-zsh.remote origin \ && git config oh-my-zsh.branch "$BRANCH" \ && git remote add origin "$REMOTE" \ && git fetch --depth=1 origin \ && git checkout -b "$BRANCH" "origin/$BRANCH" || { [ ! -d "$ZSH" ] || { cd - rm -rf "$ZSH" 2>/dev/null } fmt_error "git clone of oh-my-zsh repo failed" exit 1 } # Exit installation directory cd - echo } setup_zshrc() { # Keep most recent old .zshrc at .zshrc.pre-oh-my-zsh, and older ones # with datestamp of installation that moved them aside, so we never actually # destroy a user's original zshrc echo "${FMT_BLUE}Looking for an existing zsh config...${FMT_RESET}" # Must use this exact name so uninstall.sh can find it OLD_ZSHRC=~/.zshrc.pre-oh-my-zsh if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]; then # Skip this if the user doesn't want to replace an existing .zshrc if [ "$KEEP_ZSHRC" = yes ]; then echo "${FMT_YELLOW}Found ~/.zshrc.${FMT_RESET} ${FMT_GREEN}Keeping...${FMT_RESET}" return fi if [ -e "$OLD_ZSHRC" ]; then OLD_OLD_ZSHRC="${OLD_ZSHRC}-$(date +%Y-%m-%d_%H-%M-%S)" if [ -e "$OLD_OLD_ZSHRC" ]; then fmt_error "$OLD_OLD_ZSHRC exists. Can't back up ${OLD_ZSHRC}" fmt_error "re-run the installer again in a couple of seconds" exit 1 fi mv "$OLD_ZSHRC" "${OLD_OLD_ZSHRC}" echo "${FMT_YELLOW}Found old ~/.zshrc.pre-oh-my-zsh." \ "${FMT_GREEN}Backing up to ${OLD_OLD_ZSHRC}${FMT_RESET}" fi echo "${FMT_YELLOW}Found ~/.zshrc.${FMT_RESET} ${FMT_GREEN}Backing up to ${OLD_ZSHRC}${FMT_RESET}" mv ~/.zshrc "$OLD_ZSHRC" fi echo "${FMT_GREEN}Using the Oh My Zsh template file and adding it to ~/.zshrc.${FMT_RESET}" # Replace $HOME path with '$HOME' in $ZSH variable in .zshrc file omz=$(echo "$ZSH" | sed "s|^$HOME/|\$HOME/|") sed "s|^export ZSH=.*$|export ZSH=\"${omz}\"|" "$ZSH/templates/zshrc.zsh-template" > ~/.zshrc-omztemp mv -f ~/.zshrc-omztemp ~/.zshrc echo } setup_shell() { # Skip setup if the user wants or stdin is closed (not running interactively). if [ "$CHSH" = no ]; then return fi # If this user's login shell is already "zsh", do not attempt to switch. if [ "$(basename -- "$SHELL")" = "zsh" ]; then return fi # If this platform doesn't provide a "chsh" command, bail out. if ! command_exists chsh; then cat <<EOF I can't change your shell automatically because this system does not have chsh. ${FMT_BLUE}Please manually change your default shell to zsh${FMT_RESET} EOF return fi echo "${FMT_BLUE}Time to change your default shell to zsh:${FMT_RESET}" # Prompt for user choice on changing the default login shell printf '%sDo you want to change your default shell to zsh? [Y/n]%s ' \ "$FMT_YELLOW" "$FMT_RESET" read -r opt case $opt in y*|Y*|"") ;; n*|N*) echo "Shell change skipped."; return ;; *) echo "Invalid choice. Shell change skipped."; return ;; esac # Check if we're running on Termux case "$PREFIX" in *com.termux*) termux=true; zsh=zsh ;; *) termux=false ;; esac if [ "$termux" != true ]; then # Test for the right location of the "shells" file if [ -f /etc/shells ]; then shells_file=/etc/shells elif [ -f /usr/share/defaults/etc/shells ]; then # Solus OS shells_file=/usr/share/defaults/etc/shells else fmt_error "could not find /etc/shells file. Change your default shell manually." return fi # Get the path to the right zsh binary # 1. Use the most preceding one based on $PATH, then check that it's in the shells file # 2. If that fails, get a zsh path from the shells file, then check it actually exists if ! zsh=$(command -v zsh) || ! grep -qx "$zsh" "$shells_file"; then if ! zsh=$(grep '^/.*/zsh$' "$shells_file" | tail -n 1) || [ ! -f "$zsh" ]; then fmt_error "no zsh binary found or not present in '$shells_file'" fmt_error "change your default shell manually." return fi fi fi # We're going to change the default shell, so back up the current one if [ -n "$SHELL" ]; then echo "$SHELL" > ~/.shell.pre-oh-my-zsh else grep "^$USER:" /etc/passwd | awk -F: '{print $7}' > ~/.shell.pre-oh-my-zsh fi echo "Changing your shell to $zsh..." # Check if user has sudo privileges to run `chsh` with or without `sudo` # # This allows the call to succeed without password on systems where the # user does not have a password but does have sudo privileges, like in # Google Cloud Shell. # # On systems that don't have a user with passwordless sudo, the user will # be prompted for the password either way, so this shouldn't cause any issues. # if user_can_sudo; then sudo -k chsh -s "$zsh" "$USER" # -k forces the password prompt else chsh -s "$zsh" "$USER" # run chsh normally fi # Check if the shell change was successful if [ $? -ne 0 ]; then fmt_error "chsh command unsuccessful. Change your default shell manually." else export SHELL="$zsh" echo "${FMT_GREEN}Shell successfully changed to '$zsh'.${FMT_RESET}" fi echo } # shellcheck disable=SC2183 # printf string has more %s than arguments ($FMT_RAINBOW expands to multiple arguments) print_success() { printf '%s %s__ %s %s %s %s %s__ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s ____ %s/ /_ %s ____ ___ %s__ __ %s ____ %s_____%s/ /_ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s / __ \%s/ __ \ %s / __ `__ \%s/ / / / %s /_ / %s/ ___/%s __ \ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s/ /_/ /%s / / / %s / / / / / /%s /_/ / %s / /_%s(__ )%s / / / %s
+' $FMT_RAINBOW $FMT_RESET printf '%s\____/%s_/ /_/ %s /_/ /_/ /_/%s\__, / %s /___/%s____/%s_/ /_/ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s %s %s %s /____/ %s %s %s %s....is now installed!%s
+' $FMT_RAINBOW $FMT_GREEN $FMT_RESET printf '
+' printf '
+' printf "%s %s %s
+" "Before you scream ${FMT_BOLD}${FMT_YELLOW}Oh My Zsh!${FMT_RESET} look over the" \ "$(fmt_code "$(fmt_link ".zshrc" "file://$HOME/.zshrc" --text)")" \ "file to select plugins, themes, and options." printf '
+' printf '%s
+' "• Follow us on Twitter: $(fmt_link @ohmyzsh https://twitter.com/ohmyzsh)" printf '%s
+' "• Join our Discord community: $(fmt_link "Discord server" https://discord.gg/ohmyzsh)" printf '%s
+' "• Get stickers, t-shirts, coffee mugs and more: $(fmt_link "Planet Argon Shop" https://shop.planetargon.com/collections/oh-my-zsh)" printf '%s
+' $FMT_RESET } main() { # Run as unattended if stdin is not a tty if [ ! -t 0 ]; then RUNZSH=no CHSH=no fi # Parse arguments while [ $# -gt 0 ]; do case $1 in --unattended) RUNZSH=no; CHSH=no ;; --skip-chsh) CHSH=no ;; --keep-zshrc) KEEP_ZSHRC=yes ;; esac shift done setup_color if ! command_exists zsh; then echo "${FMT_YELLOW}Zsh is not installed.${FMT_RESET} Please install zsh first." exit 1 fi if [ -d "$ZSH" ]; then echo "${FMT_YELLOW}The \$ZSH folder already exists ($ZSH).${FMT_RESET}" if [ "$custom_zsh" = yes ]; then cat <<EOF You ran the installer with the \$ZSH setting or the \$ZSH variable is exported. You have 3 options: 1. Unset the ZSH variable when calling the installer: $(fmt_code "ZSH= sh install.sh") 2. Install Oh My Zsh to a directory that doesn't exist yet: $(fmt_code "ZSH=path/to/new/ohmyzsh/folder sh install.sh") 3. (Caution) If the folder doesn't contain important information, you can just remove it with $(fmt_code "rm -r $ZSH") EOF else echo "You'll need to remove it if you want to reinstall." fi exit 1 fi setup_ohmyzsh setup_zshrc setup_shell print_success if [ $RUNZSH = no ]; then echo "${FMT_YELLOW}Run zsh to try it out.${FMT_RESET}" exit fi exec zsh -l } main "$@"
+   44  brew install git
+   45  /bin/bash -c #!/bin/bash # We don't need return codes for "$(command)", only stdout is needed. # Allow `[[ -n "$(command)" ]]`, `func "$(command)"`, pipes, etc. # shellcheck disable=SC2312 set -u abort() { printf "%s
+" "$@" >&2 exit 1 } # Fail fast with a concise message when not using bash # Single brackets are needed here for POSIX compatibility # shellcheck disable=SC2292 if [ -z "${BASH_VERSION:-}" ] then abort "Bash is required to interpret this script." fi # Check if script is run with force-interactive mode in CI if [[ -n "${CI-}" && -n "${INTERACTIVE-}" ]] then abort "Cannot run force-interactive mode in CI." fi # Check if both `INTERACTIVE` and `NONINTERACTIVE` are set # Always use single-quoted strings with `exp` expressions # shellcheck disable=SC2016 if [[ -n "${INTERACTIVE-}" && -n "${NONINTERACTIVE-}" ]] then abort 'Both `$INTERACTIVE` and `$NONINTERACTIVE` are set. Please unset at least one variable and try again.' fi # string formatters if [[ -t 1 ]] then tty_escape() { printf "[%sm" "$1"; } else tty_escape() { :; } fi tty_mkbold() { tty_escape "1;$1"; } tty_underline="$(tty_escape "4;39")" tty_blue="$(tty_mkbold 34)" tty_red="$(tty_mkbold 31)" tty_bold="$(tty_mkbold 39)" tty_reset="$(tty_escape 0)" shell_join() { local arg printf "%s" "$1" shift for arg in "$@" do printf " " printf "%s" "${arg// /\ }" done } chomp() { printf "%s" "${1/"$'
+'"/}" } ohai() { printf "${tty_blue}==>${tty_bold} %s${tty_reset}
+" "$(shell_join "$@")" } warn() { printf "${tty_red}Warning${tty_reset}: %s
+" "$(chomp "$1")" } # Check if script is run non-interactively (e.g. CI) # If it is run non-interactively we should not prompt for passwords. # Always use single-quoted strings with `exp` expressions # shellcheck disable=SC2016 if [[ -z "${NONINTERACTIVE-}" ]] then if [[ -n "${CI-}" ]] then warn 'Running in non-interactive mode because `$CI` is set.' NONINTERACTIVE=1 elif [[ ! -t 0 ]] then if [[ -z "${INTERACTIVE-}" ]] then warn 'Running in non-interactive mode because `stdin` is not a TTY.' NONINTERACTIVE=1 else warn 'Running in interactive mode despite `stdin` not being a TTY because `$INTERACTIVE` is set.' fi fi else ohai 'Running in non-interactive mode because `$NONINTERACTIVE` is set.' fi # USER isn't always set so provide a fall back for the installer and subprocesses. if [[ -z "${USER-}" ]] then USER="$(chomp "$(id -un)")" export USER fi # First check OS. OS="$(uname)" if [[ "${OS}" == "Linux" ]] then HOMEBREW_ON_LINUX=1 elif [[ "${OS}" != "Darwin" ]] then abort "Homebrew is only supported on macOS and Linux." fi # Required installation paths. To install elsewhere (which is unsupported) # you can untar https://github.com/Homebrew/brew/tarball/master # anywhere you like. if [[ -z "${HOMEBREW_ON_LINUX-}" ]] then UNAME_MACHINE="$(/usr/bin/uname -m)" if [[ "${UNAME_MACHINE}" == "arm64" ]] then # On ARM macOS, this script installs to /opt/homebrew only HOMEBREW_PREFIX="/opt/homebrew" HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}" else # On Intel macOS, this script installs to /usr/local only HOMEBREW_PREFIX="/usr/local" HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}/Homebrew" fi HOMEBREW_CACHE="${HOME}/Library/Caches/Homebrew" STAT_PRINTF=("stat" "-f") PERMISSION_FORMAT="%A" CHOWN=("/usr/sbin/chown") CHGRP=("/usr/bin/chgrp") GROUP="admin" TOUCH=("/usr/bin/touch") INSTALL=("/usr/bin/install" -d -o "root" -g "wheel" -m "0755") else UNAME_MACHINE="$(uname -m)" # On Linux, it installs to /home/linuxbrew/.linuxbrew if you have sudo access # and ~/.linuxbrew (which is unsupported) if run interactively. HOMEBREW_PREFIX_DEFAULT="/home/linuxbrew/.linuxbrew" HOMEBREW_CACHE="${HOME}/.cache/Homebrew" STAT_PRINTF=("stat" "--printf") PERMISSION_FORMAT="%a" CHOWN=("/bin/chown") CHGRP=("/bin/chgrp") GROUP="$(id -gn)" TOUCH=("/bin/touch") INSTALL=("/usr/bin/install" -d -o "${USER}" -g "${GROUP}" -m "0755") fi CHMOD=("/bin/chmod") MKDIR=("/bin/mkdir" "-p") HOMEBREW_BREW_DEFAULT_GIT_REMOTE="https://github.com/Homebrew/brew" HOMEBREW_CORE_DEFAULT_GIT_REMOTE="https://github.com/Homebrew/homebrew-core" # Use remote URLs of Homebrew repositories from environment if set. HOMEBREW_BREW_GIT_REMOTE="${HOMEBREW_BREW_GIT_REMOTE:-"${HOMEBREW_BREW_DEFAULT_GIT_REMOTE}"}" HOMEBREW_CORE_GIT_REMOTE="${HOMEBREW_CORE_GIT_REMOTE:-"${HOMEBREW_CORE_DEFAULT_GIT_REMOTE}"}" # The URLs with and without the '.git' suffix are the same Git remote. Do not prompt. if [[ "${HOMEBREW_BREW_GIT_REMOTE}" == "${HOMEBREW_BREW_DEFAULT_GIT_REMOTE}.git" ]] then HOMEBREW_BREW_GIT_REMOTE="${HOMEBREW_BREW_DEFAULT_GIT_REMOTE}" fi if [[ "${HOMEBREW_CORE_GIT_REMOTE}" == "${HOMEBREW_CORE_DEFAULT_GIT_REMOTE}.git" ]] then HOMEBREW_CORE_GIT_REMOTE="${HOMEBREW_CORE_DEFAULT_GIT_REMOTE}" fi export HOMEBREW_{BREW,CORE}_GIT_REMOTE # TODO: bump version when new macOS is released or announced MACOS_NEWEST_UNSUPPORTED="13.0" # TODO: bump version when new macOS is released MACOS_OLDEST_SUPPORTED="10.15" # For Homebrew on Linux REQUIRED_RUBY_VERSION=2.6 # https://github.com/Homebrew/brew/pull/6556 REQUIRED_GLIBC_VERSION=2.13 # https://docs.brew.sh/Homebrew-on-Linux#requirements REQUIRED_CURL_VERSION=7.41.0 # HOMEBREW_MINIMUM_CURL_VERSION in brew.sh in Homebrew/brew REQUIRED_GIT_VERSION=2.7.0 # HOMEBREW_MINIMUM_GIT_VERSION in brew.sh in Homebrew/brew # no analytics during installation export HOMEBREW_NO_ANALYTICS_THIS_RUN=1 export HOMEBREW_NO_ANALYTICS_MESSAGE_OUTPUT=1 unset HAVE_SUDO_ACCESS # unset this from the environment have_sudo_access() { if [[ ! -x "/usr/bin/sudo" ]] then return 1 fi local -a SUDO=("/usr/bin/sudo") if [[ -n "${SUDO_ASKPASS-}" ]] then SUDO+=("-A") elif [[ -n "${NONINTERACTIVE-}" ]] then SUDO+=("-n") fi if [[ -z "${HAVE_SUDO_ACCESS-}" ]] then if [[ -n "${NONINTERACTIVE-}" ]] then "${SUDO[@]}" -l mkdir &>/dev/null else "${SUDO[@]}" -v && "${SUDO[@]}" -l mkdir &>/dev/null fi HAVE_SUDO_ACCESS="$?" fi if [[ -z "${HOMEBREW_ON_LINUX-}" ]] && [[ "${HAVE_SUDO_ACCESS}" -ne 0 ]] then abort "Need sudo access on macOS (e.g. the user ${USER} needs to be an Administrator)!" fi return "${HAVE_SUDO_ACCESS}" } execute() { if ! "$@" then abort "$(printf "Failed during: %s" "$(shell_join "$@")")" fi } execute_sudo() { local -a args=("$@") if have_sudo_access then if [[ -n "${SUDO_ASKPASS-}" ]] then args=("-A" "${args[@]}") fi ohai "/usr/bin/sudo" "${args[@]}" execute "/usr/bin/sudo" "${args[@]}" else ohai "${args[@]}" execute "${args[@]}" fi } getc() { local save_state save_state="$(/bin/stty -g)" /bin/stty raw -echo IFS='' read -r -n 1 -d '' "$@" /bin/stty "${save_state}" } ring_bell() { # Use the shell's audible bell. if [[ -t 1 ]] then printf "" fi } wait_for_user() { local c echo echo "Press ${tty_bold}RETURN${tty_reset}/${tty_bold}ENTER${tty_reset} to continue or any other key to abort:" getc c # we test for  and 
+ because some stuff does  instead if ! [[ "${c}" == $'' || "${c}" == $'
+' ]] then exit 1 fi } major_minor() { echo "${1%%.*}.$( x="${1#*.}" echo "${x%%.*}" )" } version_gt() { [[ "${1%.*}" -gt "${2%.*}" ]] || [[ "${1%.*}" -eq "${2%.*}" && "${1#*.}" -gt "${2#*.}" ]] } version_ge() { [[ "${1%.*}" -gt "${2%.*}" ]] || [[ "${1%.*}" -eq "${2%.*}" && "${1#*.}" -ge "${2#*.}" ]] } version_lt() { [[ "${1%.*}" -lt "${2%.*}" ]] || [[ "${1%.*}" -eq "${2%.*}" && "${1#*.}" -lt "${2#*.}" ]] } should_install_command_line_tools() { if [[ -n "${HOMEBREW_ON_LINUX-}" ]] then return 1 fi if version_gt "${macos_version}" "10.13" then ! [[ -e "/Library/Developer/CommandLineTools/usr/bin/git" ]] else ! [[ -e "/Library/Developer/CommandLineTools/usr/bin/git" ]] || ! [[ -e "/usr/include/iconv.h" ]] fi } get_permission() { "${STAT_PRINTF[@]}" "${PERMISSION_FORMAT}" "$1" } user_only_chmod() { [[ -d "$1" ]] && [[ "$(get_permission "$1")" != 75[0145] ]] } exists_but_not_writable() { [[ -e "$1" ]] && ! [[ -r "$1" && -w "$1" && -x "$1" ]] } get_owner() { "${STAT_PRINTF[@]}" "%u" "$1" } file_not_owned() { [[ "$(get_owner "$1")" != "$(id -u)" ]] } get_group() { "${STAT_PRINTF[@]}" "%g" "$1" } file_not_grpowned() { [[ " $(id -G "${USER}") " != *" $(get_group "$1") "* ]] } # Please sync with 'test_ruby()' in 'Library/Homebrew/utils/ruby.sh' from the Homebrew/brew repository. test_ruby() { if [[ ! -x "$1" ]] then return 1 fi "$1" --enable-frozen-string-literal --disable=gems,did_you_mean,rubyopt -rrubygems -e \ "abort if Gem::Version.new(RUBY_VERSION.to_s.dup).to_s.split('.').first(2) != \ Gem::Version.new('${REQUIRED_RUBY_VERSION}').to_s.split('.').first(2)" 2>/dev/null } test_curl() { if [[ ! -x "$1" ]] then return 1 fi local curl_version_output curl_name_and_version curl_version_output="$("$1" --version 2>/dev/null)" curl_name_and_version="${curl_version_output%% (*}" version_ge "$(major_minor "${curl_name_and_version##* }")" "$(major_minor "${REQUIRED_CURL_VERSION}")" } test_git() { if [[ ! -x "$1" ]] then return 1 fi local git_version_output git_version_output="$("$1" --version 2>/dev/null)" version_ge "$(major_minor "${git_version_output##* }")" "$(major_minor "${REQUIRED_GIT_VERSION}")" } # Search for the given executable in PATH (avoids a dependency on the `which` command) which() { # Alias to Bash built-in command `type -P` type -P "$@" } # Search PATH for the specified program that satisfies Homebrew requirements # function which is set above # shellcheck disable=SC2230 find_tool() { if [[ $# -ne 1 ]] then return 1 fi local executable while read -r executable do if "test_$1" "${executable}" then echo "${executable}" break fi done < <(which -a "$1") } no_usable_ruby() { [[ -z "$(find_tool ruby)" ]] } outdated_glibc() { local glibc_version glibc_version="$(ldd --version | head -n1 | grep -o '[0-9.]*$' | grep -o '^[0-9]\+\.[0-9]\+')" version_lt "${glibc_version}" "${REQUIRED_GLIBC_VERSION}" } if [[ -n "${HOMEBREW_ON_LINUX-}" ]] && no_usable_ruby && outdated_glibc then abort "$( cat <<EOABORT Homebrew requires Ruby ${REQUIRED_RUBY_VERSION} which was not found on your system. Homebrew portable Ruby requires Glibc version ${REQUIRED_GLIBC_VERSION} or newer, and your Glibc version is too old. See: ${tty_underline}https://docs.brew.sh/Homebrew-on-Linux#requirements${tty_reset} Please install Ruby ${REQUIRED_RUBY_VERSION} and add its location to your PATH. EOABORT )" fi # Invalidate sudo timestamp before exiting (if it wasn't active before). if [[ -x /usr/bin/sudo ]] && ! /usr/bin/sudo -n -v 2>/dev/null then trap '/usr/bin/sudo -k' EXIT fi # Things can fail later if `pwd` doesn't exist. # Also sudo prints a warning message for no good reason cd "/usr" || exit 1 ####################################################################### script if ! command -v git >/dev/null then abort "$( cat <<EOABORT You must install Git before installing Homebrew. See: ${tty_underline}https://docs.brew.sh/Installation${tty_reset} EOABORT )" elif [[ -n "${HOMEBREW_ON_LINUX-}" ]] then USABLE_GIT="$(find_tool git)" if [[ -z "${USABLE_GIT}" ]] then abort "$( cat <<EOABORT The version of Git that was found does not satisfy requirements for Homebrew. Please install Git ${REQUIRED_GIT_VERSION} or newer and add it to your PATH. EOABORT )" elif [[ "${USABLE_GIT}" != /usr/bin/git ]] then export HOMEBREW_GIT_PATH="${USABLE_GIT}" ohai "Found Git: ${HOMEBREW_GIT_PATH}" fi fi if ! command -v curl >/dev/null then abort "$( cat <<EOABORT You must install cURL before installing Homebrew. See: ${tty_underline}https://docs.brew.sh/Installation${tty_reset} EOABORT )" elif [[ -n "${HOMEBREW_ON_LINUX-}" ]] then USABLE_CURL="$(find_tool curl)" if [[ -z "${USABLE_CURL}" ]] then abort "$( cat <<EOABORT The version of cURL that was found does not satisfy requirements for Homebrew. Please install cURL ${REQUIRED_CURL_VERSION} or newer and add it to your PATH. EOABORT )" elif [[ "${USABLE_CURL}" != /usr/bin/curl ]] then export HOMEBREW_CURL_PATH="${USABLE_CURL}" ohai "Found cURL: ${HOMEBREW_CURL_PATH}" fi fi # Set HOMEBREW_DEVELOPER on Linux systems where usable Git/cURL is not in /usr/bin if [[ -n "${HOMEBREW_ON_LINUX-}" && (-n "${HOMEBREW_CURL_PATH-}" || -n "${HOMEBREW_GIT_PATH-}") ]] then ohai "Setting HOMEBREW_DEVELOPER to use Git/cURL not in /usr/bin" export HOMEBREW_DEVELOPER=1 fi # shellcheck disable=SC2016 ohai 'Checking for `sudo` access (which may request your password)...' if [[ -z "${HOMEBREW_ON_LINUX-}" ]] then have_sudo_access else if [[ -w "${HOMEBREW_PREFIX_DEFAULT}" ]] || [[ -w "/home/linuxbrew" ]] || [[ -w "/home" ]] then HOMEBREW_PREFIX="${HOMEBREW_PREFIX_DEFAULT}" elif [[ -n "${NONINTERACTIVE-}" ]] then if have_sudo_access then HOMEBREW_PREFIX="${HOMEBREW_PREFIX_DEFAULT}" else abort "Insufficient permissions to install Homebrew to \"${HOMEBREW_PREFIX_DEFAULT}\"." fi else trap exit SIGINT if ! /usr/bin/sudo -n -v &>/dev/null then ohai "Select a Homebrew installation directory:" echo "- ${tty_bold}Enter your password${tty_reset} to install to ${tty_underline}${HOMEBREW_PREFIX_DEFAULT}${tty_reset} (${tty_bold}recommended${tty_reset})" echo "- ${tty_bold}Press Control-D${tty_reset} to install to ${tty_underline}${HOME}/.linuxbrew${tty_reset}" echo "- ${tty_bold}Press Control-C${tty_reset} to cancel installation" fi if have_sudo_access then HOMEBREW_PREFIX="${HOMEBREW_PREFIX_DEFAULT}" else HOMEBREW_PREFIX="${HOME}/.linuxbrew" fi trap - SIGINT fi HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}/Homebrew" fi HOMEBREW_CORE="${HOMEBREW_REPOSITORY}/Library/Taps/homebrew/homebrew-core" if [[ "${EUID:-${UID}}" == "0" ]] then # Allow Azure Pipelines/GitHub Actions/Docker/Concourse/Kubernetes to do everything as root (as it's normal there) if ! [[ -f /proc/1/cgroup ]] || ! grep -E "azpl_job|actions_job|docker|garden|kubepods" -q /proc/1/cgroup then abort "Don't run this as root!" fi fi if [[ -d "${HOMEBREW_PREFIX}" && ! -x "${HOMEBREW_PREFIX}" ]] then abort "$( cat <<EOABORT The Homebrew prefix ${tty_underline}${HOMEBREW_PREFIX}${tty_reset} exists but is not searchable. If this is not intentional, please restore the default permissions and try running the installer again: sudo chmod 775 ${HOMEBREW_PREFIX} EOABORT )" fi if [[ -z "${HOMEBREW_ON_LINUX-}" ]] then # On macOS, support 64-bit Intel and ARM if [[ "${UNAME_MACHINE}" != "arm64" ]] && [[ "${UNAME_MACHINE}" != "x86_64" ]] then abort "Homebrew is only supported on Intel and ARM processors!" fi else # On Linux, support only 64-bit Intel if [[ "${UNAME_MACHINE}" == "aarch64" ]] then abort "$( cat <<EOABORT Homebrew on Linux is not supported on ARM processors. You can try an alternate installation method instead: ${tty_underline}https://docs.brew.sh/Homebrew-on-Linux#arm${tty_reset} EOABORT )" elif [[ "${UNAME_MACHINE}" != "x86_64" ]] then abort "Homebrew on Linux is only supported on Intel processors!" fi fi if [[ -z "${HOMEBREW_ON_LINUX-}" ]] then macos_version="$(major_minor "$(/usr/bin/sw_vers -productVersion)")" if version_lt "${macos_version}" "10.7" then abort "$( cat <<EOABORT Your Mac OS X version is too old. See: ${tty_underline}https://github.com/mistydemeo/tigerbrew${tty_reset} EOABORT )" elif version_lt "${macos_version}" "10.11" then abort "Your OS X version is too old." elif version_ge "${macos_version}" "${MACOS_NEWEST_UNSUPPORTED}" || version_lt "${macos_version}" "${MACOS_OLDEST_SUPPORTED}" then who="We" what="" if version_ge "${macos_version}" "${MACOS_NEWEST_UNSUPPORTED}" then what="pre-release version" else who+=" (and Apple)" what="old version" fi ohai "You are using macOS ${macos_version}." ohai "${who} do not provide support for this ${what}." echo "$( cat <<EOS This installation may not succeed. After installation, you will encounter build failures with some formulae. Please create pull requests instead of asking for help on Homebrew\'s GitHub, Twitter or any other official channels. You are responsible for resolving any issues you experience while you are running this ${what}. EOS ) " | tr -d "\" fi fi ohai "This script will install:" echo "${HOMEBREW_PREFIX}/bin/brew" echo "${HOMEBREW_PREFIX}/share/doc/homebrew" echo "${HOMEBREW_PREFIX}/share/man/man1/brew.1" echo "${HOMEBREW_PREFIX}/share/zsh/site-functions/_brew" echo "${HOMEBREW_PREFIX}/etc/bash_completion.d/brew" echo "${HOMEBREW_REPOSITORY}" # Keep relatively in sync with # https://github.com/Homebrew/brew/blob/master/Library/Homebrew/keg.rb directories=( bin etc include lib sbin share opt var Frameworks etc/bash_completion.d lib/pkgconfig share/aclocal share/doc share/info share/locale share/man share/man/man1 share/man/man2 share/man/man3 share/man/man4 share/man/man5 share/man/man6 share/man/man7 share/man/man8 var/log var/homebrew var/homebrew/linked bin/brew ) group_chmods=() for dir in "${directories[@]}" do if exists_but_not_writable "${HOMEBREW_PREFIX}/${dir}" then group_chmods+=("${HOMEBREW_PREFIX}/${dir}") fi done # zsh refuses to read from these directories if group writable directories=(share/zsh share/zsh/site-functions) zsh_dirs=() for dir in "${directories[@]}" do zsh_dirs+=("${HOMEBREW_PREFIX}/${dir}") done directories=( bin etc include lib sbin share var opt share/zsh share/zsh/site-functions var/homebrew var/homebrew/linked Cellar Caskroom Frameworks ) mkdirs=() for dir in "${directories[@]}" do if ! [[ -d "${HOMEBREW_PREFIX}/${dir}" ]] then mkdirs+=("${HOMEBREW_PREFIX}/${dir}") fi done user_chmods=() mkdirs_user_only=() if [[ "${#zsh_dirs[@]}" -gt 0 ]] then for dir in "${zsh_dirs[@]}" do if [[ ! -d "${dir}" ]] then mkdirs_user_only+=("${dir}") elif user_only_chmod "${dir}" then user_chmods+=("${dir}") fi done fi chmods=() if [[ "${#group_chmods[@]}" -gt 0 ]] then chmods+=("${group_chmods[@]}") fi if [[ "${#user_chmods[@]}" -gt 0 ]] then chmods+=("${user_chmods[@]}") fi chowns=() chgrps=() if [[ "${#chmods[@]}" -gt 0 ]] then for dir in "${chmods[@]}" do if file_not_owned "${dir}" then chowns+=("${dir}") fi if file_not_grpowned "${dir}" then chgrps+=("${dir}") fi done fi if [[ "${#group_chmods[@]}" -gt 0 ]] then ohai "The following existing directories will be made group writable:" printf "%s
+" "${group_chmods[@]}" fi if [[ "${#user_chmods[@]}" -gt 0 ]] then ohai "The following existing directories will be made writable by user only:" printf "%s
+" "${user_chmods[@]}" fi if [[ "${#chowns[@]}" -gt 0 ]] then ohai "The following existing directories will have their owner set to ${tty_underline}${USER}${tty_reset}:" printf "%s
+" "${chowns[@]}" fi if [[ "${#chgrps[@]}" -gt 0 ]] then ohai "The following existing directories will have their group set to ${tty_underline}${GROUP}${tty_reset}:" printf "%s
+" "${chgrps[@]}" fi if [[ "${#mkdirs[@]}" -gt 0 ]] then ohai "The following new directories will be created:" printf "%s
+" "${mkdirs[@]}" fi if should_install_command_line_tools then ohai "The Xcode Command Line Tools will be installed." fi non_default_repos="" additional_shellenv_commands=() if [[ "${HOMEBREW_BREW_DEFAULT_GIT_REMOTE}" != "${HOMEBREW_BREW_GIT_REMOTE}" ]] then ohai "HOMEBREW_BREW_GIT_REMOTE is set to a non-default URL:" echo "${tty_underline}${HOMEBREW_BREW_GIT_REMOTE}${tty_reset} will be used as the Homebrew/brew Git remote." non_default_repos="Homebrew/brew" additional_shellenv_commands+=("export HOMEBREW_BREW_GIT_REMOTE=\"${HOMEBREW_BREW_GIT_REMOTE}\"") fi if [[ "${HOMEBREW_CORE_DEFAULT_GIT_REMOTE}" != "${HOMEBREW_CORE_GIT_REMOTE}" ]] then ohai "HOMEBREW_CORE_GIT_REMOTE is set to a non-default URL:" echo "${tty_underline}${HOMEBREW_CORE_GIT_REMOTE}${tty_reset} will be used as the Homebrew/homebrew-core Git remote." non_default_repos="${non_default_repos:-}${non_default_repos:+ and }Homebrew/homebrew-core" additional_shellenv_commands+=("export HOMEBREW_CORE_GIT_REMOTE=\"${HOMEBREW_CORE_GIT_REMOTE}\"") fi if [[ -n "${HOMEBREW_INSTALL_FROM_API-}" ]] then ohai "HOMEBREW_INSTALL_FROM_API is set." echo "Homebrew/homebrew-core will not be tapped during this ${tty_bold}install${tty_reset} run." fi if [[ -z "${NONINTERACTIVE-}" ]] then ring_bell wait_for_user fi if [[ -d "${HOMEBREW_PREFIX}" ]] then if [[ "${#chmods[@]}" -gt 0 ]] then execute_sudo "${CHMOD[@]}" "u+rwx" "${chmods[@]}" fi if [[ "${#group_chmods[@]}" -gt 0 ]] then execute_sudo "${CHMOD[@]}" "g+rwx" "${group_chmods[@]}" fi if [[ "${#user_chmods[@]}" -gt 0 ]] then execute_sudo "${CHMOD[@]}" "go-w" "${user_chmods[@]}" fi if [[ "${#chowns[@]}" -gt 0 ]] then execute_sudo "${CHOWN[@]}" "${USER}" "${chowns[@]}" fi if [[ "${#chgrps[@]}" -gt 0 ]] then execute_sudo "${CHGRP[@]}" "${GROUP}" "${chgrps[@]}" fi else execute_sudo "${INSTALL[@]}" "${HOMEBREW_PREFIX}" fi if [[ "${#mkdirs[@]}" -gt 0 ]] then execute_sudo "${MKDIR[@]}" "${mkdirs[@]}" execute_sudo "${CHMOD[@]}" "ug=rwx" "${mkdirs[@]}" if [[ "${#mkdirs_user_only[@]}" -gt 0 ]] then execute_sudo "${CHMOD[@]}" "go-w" "${mkdirs_user_only[@]}" fi execute_sudo "${CHOWN[@]}" "${USER}" "${mkdirs[@]}" execute_sudo "${CHGRP[@]}" "${GROUP}" "${mkdirs[@]}" fi if ! [[ -d "${HOMEBREW_REPOSITORY}" ]] then execute_sudo "${MKDIR[@]}" "${HOMEBREW_REPOSITORY}" fi execute_sudo "${CHOWN[@]}" "-R" "${USER}:${GROUP}" "${HOMEBREW_REPOSITORY}" if ! [[ -d "${HOMEBREW_CACHE}" ]] then if [[ -z "${HOMEBREW_ON_LINUX-}" ]] then execute_sudo "${MKDIR[@]}" "${HOMEBREW_CACHE}" else execute "${MKDIR[@]}" "${HOMEBREW_CACHE}" fi fi if exists_but_not_writable "${HOMEBREW_CACHE}" then execute_sudo "${CHMOD[@]}" "g+rwx" "${HOMEBREW_CACHE}" fi if file_not_owned "${HOMEBREW_CACHE}" then execute_sudo "${CHOWN[@]}" "-R" "${USER}" "${HOMEBREW_CACHE}" fi if file_not_grpowned "${HOMEBREW_CACHE}" then execute_sudo "${CHGRP[@]}" "-R" "${GROUP}" "${HOMEBREW_CACHE}" fi if [[ -d "${HOMEBREW_CACHE}" ]] then execute "${TOUCH[@]}" "${HOMEBREW_CACHE}/.cleaned" fi if should_install_command_line_tools && version_ge "${macos_version}" "10.13" then ohai "Searching online for the Command Line Tools" # This temporary file prompts the 'softwareupdate' utility to list the Command Line Tools clt_placeholder="/tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress" execute_sudo "${TOUCH[@]}" "${clt_placeholder}" clt_label_command="/usr/sbin/softwareupdate -l | grep -B 1 -E 'Command Line Tools' | awk -F'*' '/^ *\*/ {print \$2}' | sed -e 's/^ *Label: //' -e 's/^ *//' | sort -V | tail -n1" clt_label="$(chomp "$(/bin/bash -c "${clt_label_command}")")" if [[ -n "${clt_label}" ]] then ohai "Installing ${clt_label}" execute_sudo "/usr/sbin/softwareupdate" "-i" "${clt_label}" execute_sudo "/usr/bin/xcode-select" "--switch" "/Library/Developer/CommandLineTools" fi execute_sudo "/bin/rm" "-f" "${clt_placeholder}" fi # Headless install may have failed, so fallback to original 'xcode-select' method if should_install_command_line_tools && test -t 0 then ohai "Installing the Command Line Tools (expect a GUI popup):" execute_sudo "/usr/bin/xcode-select" "--install" echo "Press any key when the installation has completed." getc execute_sudo "/usr/bin/xcode-select" "--switch" "/Library/Developer/CommandLineTools" fi if [[ -z "${HOMEBREW_ON_LINUX-}" ]] && ! output="$(/usr/bin/xcrun clang 2>&1)" && [[ "${output}" == *"license"* ]] then abort "$( cat <<EOABORT You have not agreed to the Xcode license. Before running the installer again please agree to the license by opening Xcode.app or running: sudo xcodebuild -license EOABORT )" fi ohai "Downloading and installing Homebrew..." ( cd "${HOMEBREW_REPOSITORY}" >/dev/null || return # we do it in four steps to avoid merge errors when reinstalling execute "git" "init" "-q" # "git remote add" will fail if the remote is defined in the global config execute "git" "config" "remote.origin.url" "${HOMEBREW_BREW_GIT_REMOTE}" execute "git" "config" "remote.origin.fetch" "+refs/heads/*:refs/remotes/origin/*" # ensure we don't munge line endings on checkout execute "git" "config" "core.autocrlf" "false" execute "git" "fetch" "--force" "origin" execute "git" "fetch" "--force" "--tags" "origin" execute "git" "reset" "--hard" "origin/master" if [[ "${HOMEBREW_REPOSITORY}" != "${HOMEBREW_PREFIX}" ]] then if [[ "${HOMEBREW_REPOSITORY}" == "${HOMEBREW_PREFIX}/Homebrew" ]] then execute "ln" "-sf" "../Homebrew/bin/brew" "${HOMEBREW_PREFIX}/bin/brew" else abort "The Homebrew/brew repository should be placed in the Homebrew prefix directory." fi fi if [[ -n "${HOMEBREW_INSTALL_FROM_API-}" ]] then # shellcheck disable=SC2016 ohai 'Skip tapping homebrew/core because `$HOMEBREW_INSTALL_FROM_API` is set.' # Unset HOMEBREW_DEVELOPER since it is no longer needed and causes warnings during brew update below if [[ -n "${HOMEBREW_ON_LINUX-}" && (-n "${HOMEBREW_CURL_PATH-}" || -n "${HOMEBREW_GIT_PATH-}") ]] then export -n HOMEBREW_DEVELOPER fi elif [[ ! -d "${HOMEBREW_CORE}" ]] then ohai "Tapping homebrew/core" ( execute "${MKDIR[@]}" "${HOMEBREW_CORE}" cd "${HOMEBREW_CORE}" >/dev/null || return execute "git" "init" "-q" execute "git" "config" "remote.origin.url" "${HOMEBREW_CORE_GIT_REMOTE}" execute "git" "config" "remote.origin.fetch" "+refs/heads/*:refs/remotes/origin/*" execute "git" "config" "core.autocrlf" "false" execute "git" "fetch" "--force" "origin" "refs/heads/master:refs/remotes/origin/master" execute "git" "remote" "set-head" "origin" "--auto" >/dev/null execute "git" "reset" "--hard" "origin/master" cd "${HOMEBREW_REPOSITORY}" >/dev/null || return ) || exit 1 fi execute "${HOMEBREW_PREFIX}/bin/brew" "update" "--force" "--quiet" ) || exit 1 if [[ ":${PATH}:" != *":${HOMEBREW_PREFIX}/bin:"* ]] then warn "${HOMEBREW_PREFIX}/bin is not in your PATH. Instructions on how to configure your shell for Homebrew can be found in the 'Next steps' section below." fi ohai "Installation successful!" echo ring_bell # Use an extra newline and bold to avoid this being missed. ohai "Homebrew has enabled anonymous aggregate formulae and cask analytics." echo "$( cat <<EOS ${tty_bold}Read the analytics documentation (and how to opt-out) here: ${tty_underline}https://docs.brew.sh/Analytics${tty_reset} No analytics data has been sent yet (nor will any be during this ${tty_bold}install${tty_reset} run). EOS ) " ohai "Homebrew is run entirely by unpaid volunteers. Please consider donating:" echo "$( cat <<EOS ${tty_underline}https://github.com/Homebrew/brew#donations${tty_reset} EOS ) " ( cd "${HOMEBREW_REPOSITORY}" >/dev/null || return execute "git" "config" "--replace-all" "homebrew.analyticsmessage" "true" execute "git" "config" "--replace-all" "homebrew.caskanalyticsmessage" "true" ) || exit 1 ohai "Next steps:" case "${SHELL}" in */bash*) if [[ -r "${HOME}/.bash_profile" ]] then shell_profile="${HOME}/.bash_profile" else shell_profile="${HOME}/.profile" fi ;; */zsh*) shell_profile="${HOME}/.zprofile" ;; *) shell_profile="${HOME}/.profile" ;; esac # `which` is a shell function defined above. # shellcheck disable=SC2230 if [[ "$(which brew)" != "${HOMEBREW_PREFIX}/bin/brew" ]] then cat <<EOS - Run these two commands in your terminal to add Homebrew to your ${tty_bold}PATH${tty_reset}: echo 'eval "\$(${HOMEBREW_PREFIX}/bin/brew shellenv)"' >> ${shell_profile} eval "\$(${HOMEBREW_PREFIX}/bin/brew shellenv)" EOS fi if [[ -n "${non_default_repos}" ]] then plural="" if [[ "${#additional_shellenv_commands[@]}" -gt 1 ]] then plural="s" fi echo "- Run these commands in your terminal to add the non-default Git remote${plural} for ${non_default_repos}:" printf " echo '%s' >> ${shell_profile}
+" "${additional_shellenv_commands[@]}" printf " %s
+" "${additional_shellenv_commands[@]}" fi if [[ -n "${HOMEBREW_ON_LINUX-}" ]] then echo "- Install Homebrew's dependencies if you have sudo access:" if [[ -x "$(command -v apt-get)" ]] then echo " sudo apt-get install build-essential" elif [[ -x "$(command -v yum)" ]] then echo " sudo yum groupinstall 'Development Tools'" elif [[ -x "$(command -v pacman)" ]] then echo " sudo pacman -S base-devel" elif [[ -x "$(command -v apk)" ]] then echo " sudo apk add build-base" fi cat <<EOS For more information, see: ${tty_underline}https://docs.brew.sh/Homebrew-on-Linux${tty_reset} - We recommend that you install GCC: brew install gcc EOS fi cat <<EOS - Run ${tty_bold}brew help${tty_reset} to get started - Further documentation: ${tty_underline}https://docs.brew.sh${tty_reset} EOS
+   46  sh -c #!/bin/sh # # This script should be run via curl: # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # or via wget: # sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # or via fetch: # sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # # As an alternative, you can first download the install script and run it afterwards: # wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh # sh install.sh # # You can tweak the install behavior by setting variables when running the script. For # example, to change the path to the Oh My Zsh repository: # ZSH=~/.zsh sh install.sh # # Respects the following environment variables: # ZSH - path to the Oh My Zsh repository folder (default: $HOME/.oh-my-zsh) # REPO - name of the GitHub repo to install from (default: ohmyzsh/ohmyzsh) # REMOTE - full remote URL of the git repo to install (default: GitHub via HTTPS) # BRANCH - branch to check out immediately after install (default: master) # # Other options: # CHSH - 'no' means the installer will not change the default shell (default: yes) # RUNZSH - 'no' means the installer will not run zsh after the install (default: yes) # KEEP_ZSHRC - 'yes' means the installer will not replace an existing .zshrc (default: no) # # You can also pass some arguments to the install script to set some these options: # --skip-chsh: has the same behavior as setting CHSH to 'no' # --unattended: sets both CHSH and RUNZSH to 'no' # --keep-zshrc: sets KEEP_ZSHRC to 'yes' # For example: # sh install.sh --unattended # or: # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended # set -e # Make sure important variables exist if not already defined # # $USER is defined by login(1) which is not always executed (e.g. containers) # POSIX: https://pubs.opengroup.org/onlinepubs/009695299/utilities/id.html USER=${USER:-$(id -u -n)} # $HOME is defined at the time of login, but it could be unset. If it is unset, # a tilde by itself (~) will not be expanded to the current user's home directory. # POSIX: https://pubs.opengroup.org/onlinepubs/009696899/basedefs/xbd_chap08.html#tag_08_03 HOME="${HOME:-$(getent passwd $USER 2>/dev/null | cut -d: -f6)}" # macOS does not have getent, but this works even if $HOME is unset HOME="${HOME:-$(eval echo ~$USER)}" # Track if $ZSH was provided custom_zsh=${ZSH:+yes} # Default settings ZSH="${ZSH:-$HOME/.oh-my-zsh}" REPO=${REPO:-ohmyzsh/ohmyzsh} REMOTE=${REMOTE:-https://github.com/${REPO}.git} BRANCH=${BRANCH:-master} # Other options CHSH=${CHSH:-yes} RUNZSH=${RUNZSH:-yes} KEEP_ZSHRC=${KEEP_ZSHRC:-no} command_exists() { command -v "$@" >/dev/null 2>&1 } user_can_sudo() { # Check if sudo is installed command_exists sudo || return 1 # The following command has 3 parts: # # 1. Run `sudo` with `-v`. Does the following: # • with privilege: asks for a password immediately. # • without privilege: exits with error code 1 and prints the message: # Sorry, user <username> may not run sudo on <hostname> # # 2. Pass `-n` to `sudo` to tell it to not ask for a password. If the # password is not required, the command will finish with exit code 0. # If one is required, sudo will exit with error code 1 and print the # message: # sudo: a password is required # # 3. Check for the words "may not run sudo" in the output to really tell # whether the user has privileges or not. For that we have to make sure # to run `sudo` in the default locale (with `LANG=`) so that the message # stays consistent regardless of the user's locale. # ! LANG= sudo -n -v 2>&1 | grep -q "may not run sudo" } # The [ -t 1 ] check only works when the function is not called from # a subshell (like in `$(...)` or `(...)`, so this hack redefines the # function at the top level to always return false when stdout is not # a tty. if [ -t 1 ]; then is_tty() { true } else is_tty() { false } fi # This function uses the logic from supports-hyperlinks[1][2], which is # made by Kat Marchán (@zkat) and licensed under the Apache License 2.0. # [1] https://github.com/zkat/supports-hyperlinks # [2] https://crates.io/crates/supports-hyperlinks # # Copyright (c) 2021 Kat Marchán # # Licensed under the Apache License, Version 2.0 (the "License"); # you may not use this file except in compliance with the License. # You may obtain a copy of the License at # # http://www.apache.org/licenses/LICENSE-2.0 # # Unless required by applicable law or agreed to in writing, software # distributed under the License is distributed on an "AS IS" BASIS, # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. # See the License for the specific language governing permissions and # limitations under the License. supports_hyperlinks() { # $FORCE_HYPERLINK must be set and be non-zero (this acts as a logic bypass) if [ -n "$FORCE_HYPERLINK" ]; then [ "$FORCE_HYPERLINK" != 0 ] return $? fi # If stdout is not a tty, it doesn't support hyperlinks is_tty || return 1 # DomTerm terminal emulator (domterm.org) if [ -n "$DOMTERM" ]; then return 0 fi # VTE-based terminals above v0.50 (Gnome Terminal, Guake, ROXTerm, etc) if [ -n "$VTE_VERSION" ]; then [ $VTE_VERSION -ge 5000 ] return $? fi # If $TERM_PROGRAM is set, these terminals support hyperlinks case "$TERM_PROGRAM" in Hyper|iTerm.app|terminology|WezTerm) return 0 ;; esac # kitty supports hyperlinks if [ "$TERM" = xterm-kitty ]; then return 0 fi # Windows Terminal or Konsole also support hyperlinks if [ -n "$WT_SESSION" ] || [ -n "$KONSOLE_VERSION" ]; then return 0 fi return 1 } # Adapted from code and information by Anton Kochkov (@XVilka) # Source: https://gist.github.com/XVilka/8346728 supports_truecolor() { case "$COLORTERM" in truecolor|24bit) return 0 ;; esac case "$TERM" in iterm |\ tmux-truecolor |\ linux-truecolor |\ xterm-truecolor |\ screen-truecolor) return 0 ;; esac return 1 } fmt_link() { # $1: text, $2: url, $3: fallback mode if supports_hyperlinks; then printf ']8;;%s%s]8;;
+' "$2" "$1" return fi case "$3" in --text) printf '%s
+' "$1" ;; --url|*) fmt_underline "$2" ;; esac } fmt_underline() { is_tty && printf '[4m%s[24m
+' "$*" || printf '%s
+' "$*" } # shellcheck disable=SC2016 # backtick in single-quote fmt_code() { is_tty && printf '`[2m%s[22m`
+' "$*" || printf '`%s`
+' "$*" } fmt_error() { printf '%sError: %s%s
+' "${FMT_BOLD}${FMT_RED}" "$*" "$FMT_RESET" >&2 } setup_color() { # Only use colors if connected to a terminal if ! is_tty; then FMT_RAINBOW="" FMT_RED="" FMT_GREEN="" FMT_YELLOW="" FMT_BLUE="" FMT_BOLD="" FMT_RESET="" return fi if supports_truecolor; then FMT_RAINBOW=" $(printf '[38;2;255;0;0m') $(printf '[38;2;255;97;0m') $(printf '[38;2;247;255;0m') $(printf '[38;2;0;255;30m') $(printf '[38;2;77;0;255m') $(printf '[38;2;168;0;255m') $(printf '[38;2;245;0;172m') " else FMT_RAINBOW=" $(printf '[38;5;196m') $(printf '[38;5;202m') $(printf '[38;5;226m') $(printf '[38;5;082m') $(printf '[38;5;021m') $(printf '[38;5;093m') $(printf '[38;5;163m') " fi FMT_RED=$(printf '[31m') FMT_GREEN=$(printf '[32m') FMT_YELLOW=$(printf '[33m') FMT_BLUE=$(printf '[34m') FMT_BOLD=$(printf '[1m') FMT_RESET=$(printf '[0m') } setup_ohmyzsh() { # Prevent the cloned repository from having insecure permissions. Failing to do # so causes compinit() calls to fail with "command not found: compdef" errors # for users with insecure umasks (e.g., "002", allowing group writability). Note # that this will be ignored under Cygwin by default, as Windows ACLs take # precedence over umasks except for filesystems mounted with option "noacl". umask g-w,o-w echo "${FMT_BLUE}Cloning Oh My Zsh...${FMT_RESET}" command_exists git || { fmt_error "git is not installed" exit 1 } ostype=$(uname) if [ -z "${ostype%CYGWIN*}" ] && git --version | grep -q msysgit; then fmt_error "Windows/MSYS Git is not supported on Cygwin" fmt_error "Make sure the Cygwin git package is installed and is first on the \$PATH" exit 1 fi # Manual clone with git config options to support git < v1.7.2 git init --quiet "$ZSH" && cd "$ZSH" \ && git config core.eol lf \ && git config core.autocrlf false \ && git config fsck.zeroPaddedFilemode ignore \ && git config fetch.fsck.zeroPaddedFilemode ignore \ && git config receive.fsck.zeroPaddedFilemode ignore \ && git config oh-my-zsh.remote origin \ && git config oh-my-zsh.branch "$BRANCH" \ && git remote add origin "$REMOTE" \ && git fetch --depth=1 origin \ && git checkout -b "$BRANCH" "origin/$BRANCH" || { [ ! -d "$ZSH" ] || { cd - rm -rf "$ZSH" 2>/dev/null } fmt_error "git clone of oh-my-zsh repo failed" exit 1 } # Exit installation directory cd - echo } setup_zshrc() { # Keep most recent old .zshrc at .zshrc.pre-oh-my-zsh, and older ones # with datestamp of installation that moved them aside, so we never actually # destroy a user's original zshrc echo "${FMT_BLUE}Looking for an existing zsh config...${FMT_RESET}" # Must use this exact name so uninstall.sh can find it OLD_ZSHRC=~/.zshrc.pre-oh-my-zsh if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]; then # Skip this if the user doesn't want to replace an existing .zshrc if [ "$KEEP_ZSHRC" = yes ]; then echo "${FMT_YELLOW}Found ~/.zshrc.${FMT_RESET} ${FMT_GREEN}Keeping...${FMT_RESET}" return fi if [ -e "$OLD_ZSHRC" ]; then OLD_OLD_ZSHRC="${OLD_ZSHRC}-$(date +%Y-%m-%d_%H-%M-%S)" if [ -e "$OLD_OLD_ZSHRC" ]; then fmt_error "$OLD_OLD_ZSHRC exists. Can't back up ${OLD_ZSHRC}" fmt_error "re-run the installer again in a couple of seconds" exit 1 fi mv "$OLD_ZSHRC" "${OLD_OLD_ZSHRC}" echo "${FMT_YELLOW}Found old ~/.zshrc.pre-oh-my-zsh." \ "${FMT_GREEN}Backing up to ${OLD_OLD_ZSHRC}${FMT_RESET}" fi echo "${FMT_YELLOW}Found ~/.zshrc.${FMT_RESET} ${FMT_GREEN}Backing up to ${OLD_ZSHRC}${FMT_RESET}" mv ~/.zshrc "$OLD_ZSHRC" fi echo "${FMT_GREEN}Using the Oh My Zsh template file and adding it to ~/.zshrc.${FMT_RESET}" # Replace $HOME path with '$HOME' in $ZSH variable in .zshrc file omz=$(echo "$ZSH" | sed "s|^$HOME/|\$HOME/|") sed "s|^export ZSH=.*$|export ZSH=\"${omz}\"|" "$ZSH/templates/zshrc.zsh-template" > ~/.zshrc-omztemp mv -f ~/.zshrc-omztemp ~/.zshrc echo } setup_shell() { # Skip setup if the user wants or stdin is closed (not running interactively). if [ "$CHSH" = no ]; then return fi # If this user's login shell is already "zsh", do not attempt to switch. if [ "$(basename -- "$SHELL")" = "zsh" ]; then return fi # If this platform doesn't provide a "chsh" command, bail out. if ! command_exists chsh; then cat <<EOF I can't change your shell automatically because this system does not have chsh. ${FMT_BLUE}Please manually change your default shell to zsh${FMT_RESET} EOF return fi echo "${FMT_BLUE}Time to change your default shell to zsh:${FMT_RESET}" # Prompt for user choice on changing the default login shell printf '%sDo you want to change your default shell to zsh? [Y/n]%s ' \ "$FMT_YELLOW" "$FMT_RESET" read -r opt case $opt in y*|Y*|"") ;; n*|N*) echo "Shell change skipped."; return ;; *) echo "Invalid choice. Shell change skipped."; return ;; esac # Check if we're running on Termux case "$PREFIX" in *com.termux*) termux=true; zsh=zsh ;; *) termux=false ;; esac if [ "$termux" != true ]; then # Test for the right location of the "shells" file if [ -f /etc/shells ]; then shells_file=/etc/shells elif [ -f /usr/share/defaults/etc/shells ]; then # Solus OS shells_file=/usr/share/defaults/etc/shells else fmt_error "could not find /etc/shells file. Change your default shell manually." return fi # Get the path to the right zsh binary # 1. Use the most preceding one based on $PATH, then check that it's in the shells file # 2. If that fails, get a zsh path from the shells file, then check it actually exists if ! zsh=$(command -v zsh) || ! grep -qx "$zsh" "$shells_file"; then if ! zsh=$(grep '^/.*/zsh$' "$shells_file" | tail -n 1) || [ ! -f "$zsh" ]; then fmt_error "no zsh binary found or not present in '$shells_file'" fmt_error "change your default shell manually." return fi fi fi # We're going to change the default shell, so back up the current one if [ -n "$SHELL" ]; then echo "$SHELL" > ~/.shell.pre-oh-my-zsh else grep "^$USER:" /etc/passwd | awk -F: '{print $7}' > ~/.shell.pre-oh-my-zsh fi echo "Changing your shell to $zsh..." # Check if user has sudo privileges to run `chsh` with or without `sudo` # # This allows the call to succeed without password on systems where the # user does not have a password but does have sudo privileges, like in # Google Cloud Shell. # # On systems that don't have a user with passwordless sudo, the user will # be prompted for the password either way, so this shouldn't cause any issues. # if user_can_sudo; then sudo -k chsh -s "$zsh" "$USER" # -k forces the password prompt else chsh -s "$zsh" "$USER" # run chsh normally fi # Check if the shell change was successful if [ $? -ne 0 ]; then fmt_error "chsh command unsuccessful. Change your default shell manually." else export SHELL="$zsh" echo "${FMT_GREEN}Shell successfully changed to '$zsh'.${FMT_RESET}" fi echo } # shellcheck disable=SC2183 # printf string has more %s than arguments ($FMT_RAINBOW expands to multiple arguments) print_success() { printf '%s %s__ %s %s %s %s %s__ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s ____ %s/ /_ %s ____ ___ %s__ __ %s ____ %s_____%s/ /_ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s / __ \%s/ __ \ %s / __ `__ \%s/ / / / %s /_ / %s/ ___/%s __ \ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s/ /_/ /%s / / / %s / / / / / /%s /_/ / %s / /_%s(__ )%s / / / %s
+' $FMT_RAINBOW $FMT_RESET printf '%s\____/%s_/ /_/ %s /_/ /_/ /_/%s\__, / %s /___/%s____/%s_/ /_/ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s %s %s %s /____/ %s %s %s %s....is now installed!%s
+' $FMT_RAINBOW $FMT_GREEN $FMT_RESET printf '
+' printf '
+' printf "%s %s %s
+" "Before you scream ${FMT_BOLD}${FMT_YELLOW}Oh My Zsh!${FMT_RESET} look over the" \ "$(fmt_code "$(fmt_link ".zshrc" "file://$HOME/.zshrc" --text)")" \ "file to select plugins, themes, and options." printf '
+' printf '%s
+' "• Follow us on Twitter: $(fmt_link @ohmyzsh https://twitter.com/ohmyzsh)" printf '%s
+' "• Join our Discord community: $(fmt_link "Discord server" https://discord.gg/ohmyzsh)" printf '%s
+' "• Get stickers, t-shirts, coffee mugs and more: $(fmt_link "Planet Argon Shop" https://shop.planetargon.com/collections/oh-my-zsh)" printf '%s
+' $FMT_RESET } main() { # Run as unattended if stdin is not a tty if [ ! -t 0 ]; then RUNZSH=no CHSH=no fi # Parse arguments while [ $# -gt 0 ]; do case $1 in --unattended) RUNZSH=no; CHSH=no ;; --skip-chsh) CHSH=no ;; --keep-zshrc) KEEP_ZSHRC=yes ;; esac shift done setup_color if ! command_exists zsh; then echo "${FMT_YELLOW}Zsh is not installed.${FMT_RESET} Please install zsh first." exit 1 fi if [ -d "$ZSH" ]; then echo "${FMT_YELLOW}The \$ZSH folder already exists ($ZSH).${FMT_RESET}" if [ "$custom_zsh" = yes ]; then cat <<EOF You ran the installer with the \$ZSH setting or the \$ZSH variable is exported. You have 3 options: 1. Unset the ZSH variable when calling the installer: $(fmt_code "ZSH= sh install.sh") 2. Install Oh My Zsh to a directory that doesn't exist yet: $(fmt_code "ZSH=path/to/new/ohmyzsh/folder sh install.sh") 3. (Caution) If the folder doesn't contain important information, you can just remove it with $(fmt_code "rm -r $ZSH") EOF else echo "You'll need to remove it if you want to reinstall." fi exit 1 fi setup_ohmyzsh setup_zshrc setup_shell print_success if [ $RUNZSH = no ]; then echo "${FMT_YELLOW}Run zsh to try it out.${FMT_RESET}" exit fi exec zsh -l } main "$@"
+   47  git --version
+   48  -zsh
+   49  git --version
+   50  sh -c #!/bin/sh # # This script should be run via curl: # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # or via wget: # sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # or via fetch: # sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # # As an alternative, you can first download the install script and run it afterwards: # wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh # sh install.sh # # You can tweak the install behavior by setting variables when running the script. For # example, to change the path to the Oh My Zsh repository: # ZSH=~/.zsh sh install.sh # # Respects the following environment variables: # ZSH - path to the Oh My Zsh repository folder (default: $HOME/.oh-my-zsh) # REPO - name of the GitHub repo to install from (default: ohmyzsh/ohmyzsh) # REMOTE - full remote URL of the git repo to install (default: GitHub via HTTPS) # BRANCH - branch to check out immediately after install (default: master) # # Other options: # CHSH - 'no' means the installer will not change the default shell (default: yes) # RUNZSH - 'no' means the installer will not run zsh after the install (default: yes) # KEEP_ZSHRC - 'yes' means the installer will not replace an existing .zshrc (default: no) # # You can also pass some arguments to the install script to set some these options: # --skip-chsh: has the same behavior as setting CHSH to 'no' # --unattended: sets both CHSH and RUNZSH to 'no' # --keep-zshrc: sets KEEP_ZSHRC to 'yes' # For example: # sh install.sh --unattended # or: # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended # set -e # Make sure important variables exist if not already defined # # $USER is defined by login(1) which is not always executed (e.g. containers) # POSIX: https://pubs.opengroup.org/onlinepubs/009695299/utilities/id.html USER=${USER:-$(id -u -n)} # $HOME is defined at the time of login, but it could be unset. If it is unset, # a tilde by itself (~) will not be expanded to the current user's home directory. # POSIX: https://pubs.opengroup.org/onlinepubs/009696899/basedefs/xbd_chap08.html#tag_08_03 HOME="${HOME:-$(getent passwd $USER 2>/dev/null | cut -d: -f6)}" # macOS does not have getent, but this works even if $HOME is unset HOME="${HOME:-$(eval echo ~$USER)}" # Track if $ZSH was provided custom_zsh=${ZSH:+yes} # Default settings ZSH="${ZSH:-$HOME/.oh-my-zsh}" REPO=${REPO:-ohmyzsh/ohmyzsh} REMOTE=${REMOTE:-https://github.com/${REPO}.git} BRANCH=${BRANCH:-master} # Other options CHSH=${CHSH:-yes} RUNZSH=${RUNZSH:-yes} KEEP_ZSHRC=${KEEP_ZSHRC:-no} command_exists() { command -v "$@" >/dev/null 2>&1 } user_can_sudo() { # Check if sudo is installed command_exists sudo || return 1 # The following command has 3 parts: # # 1. Run `sudo` with `-v`. Does the following: # • with privilege: asks for a password immediately. # • without privilege: exits with error code 1 and prints the message: # Sorry, user <username> may not run sudo on <hostname> # # 2. Pass `-n` to `sudo` to tell it to not ask for a password. If the # password is not required, the command will finish with exit code 0. # If one is required, sudo will exit with error code 1 and print the # message: # sudo: a password is required # # 3. Check for the words "may not run sudo" in the output to really tell # whether the user has privileges or not. For that we have to make sure # to run `sudo` in the default locale (with `LANG=`) so that the message # stays consistent regardless of the user's locale. # ! LANG= sudo -n -v 2>&1 | grep -q "may not run sudo" } # The [ -t 1 ] check only works when the function is not called from # a subshell (like in `$(...)` or `(...)`, so this hack redefines the # function at the top level to always return false when stdout is not # a tty. if [ -t 1 ]; then is_tty() { true } else is_tty() { false } fi # This function uses the logic from supports-hyperlinks[1][2], which is # made by Kat Marchán (@zkat) and licensed under the Apache License 2.0. # [1] https://github.com/zkat/supports-hyperlinks # [2] https://crates.io/crates/supports-hyperlinks # # Copyright (c) 2021 Kat Marchán # # Licensed under the Apache License, Version 2.0 (the "License"); # you may not use this file except in compliance with the License. # You may obtain a copy of the License at # # http://www.apache.org/licenses/LICENSE-2.0 # # Unless required by applicable law or agreed to in writing, software # distributed under the License is distributed on an "AS IS" BASIS, # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. # See the License for the specific language governing permissions and # limitations under the License. supports_hyperlinks() { # $FORCE_HYPERLINK must be set and be non-zero (this acts as a logic bypass) if [ -n "$FORCE_HYPERLINK" ]; then [ "$FORCE_HYPERLINK" != 0 ] return $? fi # If stdout is not a tty, it doesn't support hyperlinks is_tty || return 1 # DomTerm terminal emulator (domterm.org) if [ -n "$DOMTERM" ]; then return 0 fi # VTE-based terminals above v0.50 (Gnome Terminal, Guake, ROXTerm, etc) if [ -n "$VTE_VERSION" ]; then [ $VTE_VERSION -ge 5000 ] return $? fi # If $TERM_PROGRAM is set, these terminals support hyperlinks case "$TERM_PROGRAM" in Hyper|iTerm.app|terminology|WezTerm) return 0 ;; esac # kitty supports hyperlinks if [ "$TERM" = xterm-kitty ]; then return 0 fi # Windows Terminal or Konsole also support hyperlinks if [ -n "$WT_SESSION" ] || [ -n "$KONSOLE_VERSION" ]; then return 0 fi return 1 } # Adapted from code and information by Anton Kochkov (@XVilka) # Source: https://gist.github.com/XVilka/8346728 supports_truecolor() { case "$COLORTERM" in truecolor|24bit) return 0 ;; esac case "$TERM" in iterm |\ tmux-truecolor |\ linux-truecolor |\ xterm-truecolor |\ screen-truecolor) return 0 ;; esac return 1 } fmt_link() { # $1: text, $2: url, $3: fallback mode if supports_hyperlinks; then printf ']8;;%s%s]8;;
+' "$2" "$1" return fi case "$3" in --text) printf '%s
+' "$1" ;; --url|*) fmt_underline "$2" ;; esac } fmt_underline() { is_tty && printf '[4m%s[24m
+' "$*" || printf '%s
+' "$*" } # shellcheck disable=SC2016 # backtick in single-quote fmt_code() { is_tty && printf '`[2m%s[22m`
+' "$*" || printf '`%s`
+' "$*" } fmt_error() { printf '%sError: %s%s
+' "${FMT_BOLD}${FMT_RED}" "$*" "$FMT_RESET" >&2 } setup_color() { # Only use colors if connected to a terminal if ! is_tty; then FMT_RAINBOW="" FMT_RED="" FMT_GREEN="" FMT_YELLOW="" FMT_BLUE="" FMT_BOLD="" FMT_RESET="" return fi if supports_truecolor; then FMT_RAINBOW=" $(printf '[38;2;255;0;0m') $(printf '[38;2;255;97;0m') $(printf '[38;2;247;255;0m') $(printf '[38;2;0;255;30m') $(printf '[38;2;77;0;255m') $(printf '[38;2;168;0;255m') $(printf '[38;2;245;0;172m') " else FMT_RAINBOW=" $(printf '[38;5;196m') $(printf '[38;5;202m') $(printf '[38;5;226m') $(printf '[38;5;082m') $(printf '[38;5;021m') $(printf '[38;5;093m') $(printf '[38;5;163m') " fi FMT_RED=$(printf '[31m') FMT_GREEN=$(printf '[32m') FMT_YELLOW=$(printf '[33m') FMT_BLUE=$(printf '[34m') FMT_BOLD=$(printf '[1m') FMT_RESET=$(printf '[0m') } setup_ohmyzsh() { # Prevent the cloned repository from having insecure permissions. Failing to do # so causes compinit() calls to fail with "command not found: compdef" errors # for users with insecure umasks (e.g., "002", allowing group writability). Note # that this will be ignored under Cygwin by default, as Windows ACLs take # precedence over umasks except for filesystems mounted with option "noacl". umask g-w,o-w echo "${FMT_BLUE}Cloning Oh My Zsh...${FMT_RESET}" command_exists git || { fmt_error "git is not installed" exit 1 } ostype=$(uname) if [ -z "${ostype%CYGWIN*}" ] && git --version | grep -q msysgit; then fmt_error "Windows/MSYS Git is not supported on Cygwin" fmt_error "Make sure the Cygwin git package is installed and is first on the \$PATH" exit 1 fi # Manual clone with git config options to support git < v1.7.2 git init --quiet "$ZSH" && cd "$ZSH" \ && git config core.eol lf \ && git config core.autocrlf false \ && git config fsck.zeroPaddedFilemode ignore \ && git config fetch.fsck.zeroPaddedFilemode ignore \ && git config receive.fsck.zeroPaddedFilemode ignore \ && git config oh-my-zsh.remote origin \ && git config oh-my-zsh.branch "$BRANCH" \ && git remote add origin "$REMOTE" \ && git fetch --depth=1 origin \ && git checkout -b "$BRANCH" "origin/$BRANCH" || { [ ! -d "$ZSH" ] || { cd - rm -rf "$ZSH" 2>/dev/null } fmt_error "git clone of oh-my-zsh repo failed" exit 1 } # Exit installation directory cd - echo } setup_zshrc() { # Keep most recent old .zshrc at .zshrc.pre-oh-my-zsh, and older ones # with datestamp of installation that moved them aside, so we never actually # destroy a user's original zshrc echo "${FMT_BLUE}Looking for an existing zsh config...${FMT_RESET}" # Must use this exact name so uninstall.sh can find it OLD_ZSHRC=~/.zshrc.pre-oh-my-zsh if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]; then # Skip this if the user doesn't want to replace an existing .zshrc if [ "$KEEP_ZSHRC" = yes ]; then echo "${FMT_YELLOW}Found ~/.zshrc.${FMT_RESET} ${FMT_GREEN}Keeping...${FMT_RESET}" return fi if [ -e "$OLD_ZSHRC" ]; then OLD_OLD_ZSHRC="${OLD_ZSHRC}-$(date +%Y-%m-%d_%H-%M-%S)" if [ -e "$OLD_OLD_ZSHRC" ]; then fmt_error "$OLD_OLD_ZSHRC exists. Can't back up ${OLD_ZSHRC}" fmt_error "re-run the installer again in a couple of seconds" exit 1 fi mv "$OLD_ZSHRC" "${OLD_OLD_ZSHRC}" echo "${FMT_YELLOW}Found old ~/.zshrc.pre-oh-my-zsh." \ "${FMT_GREEN}Backing up to ${OLD_OLD_ZSHRC}${FMT_RESET}" fi echo "${FMT_YELLOW}Found ~/.zshrc.${FMT_RESET} ${FMT_GREEN}Backing up to ${OLD_ZSHRC}${FMT_RESET}" mv ~/.zshrc "$OLD_ZSHRC" fi echo "${FMT_GREEN}Using the Oh My Zsh template file and adding it to ~/.zshrc.${FMT_RESET}" # Replace $HOME path with '$HOME' in $ZSH variable in .zshrc file omz=$(echo "$ZSH" | sed "s|^$HOME/|\$HOME/|") sed "s|^export ZSH=.*$|export ZSH=\"${omz}\"|" "$ZSH/templates/zshrc.zsh-template" > ~/.zshrc-omztemp mv -f ~/.zshrc-omztemp ~/.zshrc echo } setup_shell() { # Skip setup if the user wants or stdin is closed (not running interactively). if [ "$CHSH" = no ]; then return fi # If this user's login shell is already "zsh", do not attempt to switch. if [ "$(basename -- "$SHELL")" = "zsh" ]; then return fi # If this platform doesn't provide a "chsh" command, bail out. if ! command_exists chsh; then cat <<EOF I can't change your shell automatically because this system does not have chsh. ${FMT_BLUE}Please manually change your default shell to zsh${FMT_RESET} EOF return fi echo "${FMT_BLUE}Time to change your default shell to zsh:${FMT_RESET}" # Prompt for user choice on changing the default login shell printf '%sDo you want to change your default shell to zsh? [Y/n]%s ' \ "$FMT_YELLOW" "$FMT_RESET" read -r opt case $opt in y*|Y*|"") ;; n*|N*) echo "Shell change skipped."; return ;; *) echo "Invalid choice. Shell change skipped."; return ;; esac # Check if we're running on Termux case "$PREFIX" in *com.termux*) termux=true; zsh=zsh ;; *) termux=false ;; esac if [ "$termux" != true ]; then # Test for the right location of the "shells" file if [ -f /etc/shells ]; then shells_file=/etc/shells elif [ -f /usr/share/defaults/etc/shells ]; then # Solus OS shells_file=/usr/share/defaults/etc/shells else fmt_error "could not find /etc/shells file. Change your default shell manually." return fi # Get the path to the right zsh binary # 1. Use the most preceding one based on $PATH, then check that it's in the shells file # 2. If that fails, get a zsh path from the shells file, then check it actually exists if ! zsh=$(command -v zsh) || ! grep -qx "$zsh" "$shells_file"; then if ! zsh=$(grep '^/.*/zsh$' "$shells_file" | tail -n 1) || [ ! -f "$zsh" ]; then fmt_error "no zsh binary found or not present in '$shells_file'" fmt_error "change your default shell manually." return fi fi fi # We're going to change the default shell, so back up the current one if [ -n "$SHELL" ]; then echo "$SHELL" > ~/.shell.pre-oh-my-zsh else grep "^$USER:" /etc/passwd | awk -F: '{print $7}' > ~/.shell.pre-oh-my-zsh fi echo "Changing your shell to $zsh..." # Check if user has sudo privileges to run `chsh` with or without `sudo` # # This allows the call to succeed without password on systems where the # user does not have a password but does have sudo privileges, like in # Google Cloud Shell. # # On systems that don't have a user with passwordless sudo, the user will # be prompted for the password either way, so this shouldn't cause any issues. # if user_can_sudo; then sudo -k chsh -s "$zsh" "$USER" # -k forces the password prompt else chsh -s "$zsh" "$USER" # run chsh normally fi # Check if the shell change was successful if [ $? -ne 0 ]; then fmt_error "chsh command unsuccessful. Change your default shell manually." else export SHELL="$zsh" echo "${FMT_GREEN}Shell successfully changed to '$zsh'.${FMT_RESET}" fi echo } # shellcheck disable=SC2183 # printf string has more %s than arguments ($FMT_RAINBOW expands to multiple arguments) print_success() { printf '%s %s__ %s %s %s %s %s__ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s ____ %s/ /_ %s ____ ___ %s__ __ %s ____ %s_____%s/ /_ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s / __ \%s/ __ \ %s / __ `__ \%s/ / / / %s /_ / %s/ ___/%s __ \ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s/ /_/ /%s / / / %s / / / / / /%s /_/ / %s / /_%s(__ )%s / / / %s
+' $FMT_RAINBOW $FMT_RESET printf '%s\____/%s_/ /_/ %s /_/ /_/ /_/%s\__, / %s /___/%s____/%s_/ /_/ %s
+' $FMT_RAINBOW $FMT_RESET printf '%s %s %s %s /____/ %s %s %s %s....is now installed!%s
+' $FMT_RAINBOW $FMT_GREEN $FMT_RESET printf '
+' printf '
+' printf "%s %s %s
+" "Before you scream ${FMT_BOLD}${FMT_YELLOW}Oh My Zsh!${FMT_RESET} look over the" \ "$(fmt_code "$(fmt_link ".zshrc" "file://$HOME/.zshrc" --text)")" \ "file to select plugins, themes, and options." printf '
+' printf '%s
+' "• Follow us on Twitter: $(fmt_link @ohmyzsh https://twitter.com/ohmyzsh)" printf '%s
+' "• Join our Discord community: $(fmt_link "Discord server" https://discord.gg/ohmyzsh)" printf '%s
+' "• Get stickers, t-shirts, coffee mugs and more: $(fmt_link "Planet Argon Shop" https://shop.planetargon.com/collections/oh-my-zsh)" printf '%s
+' $FMT_RESET } main() { # Run as unattended if stdin is not a tty if [ ! -t 0 ]; then RUNZSH=no CHSH=no fi # Parse arguments while [ $# -gt 0 ]; do case $1 in --unattended) RUNZSH=no; CHSH=no ;; --skip-chsh) CHSH=no ;; --keep-zshrc) KEEP_ZSHRC=yes ;; esac shift done setup_color if ! command_exists zsh; then echo "${FMT_YELLOW}Zsh is not installed.${FMT_RESET} Please install zsh first." exit 1 fi if [ -d "$ZSH" ]; then echo "${FMT_YELLOW}The \$ZSH folder already exists ($ZSH).${FMT_RESET}" if [ "$custom_zsh" = yes ]; then cat <<EOF You ran the installer with the \$ZSH setting or the \$ZSH variable is exported. You have 3 options: 1. Unset the ZSH variable when calling the installer: $(fmt_code "ZSH= sh install.sh") 2. Install Oh My Zsh to a directory that doesn't exist yet: $(fmt_code "ZSH=path/to/new/ohmyzsh/folder sh install.sh") 3. (Caution) If the folder doesn't contain important information, you can just remove it with $(fmt_code "rm -r $ZSH") EOF else echo "You'll need to remove it if you want to reinstall." fi exit 1 fi setup_ohmyzsh setup_zshrc setup_shell print_success if [ $RUNZSH = no ]; then echo "${FMT_YELLOW}Run zsh to try it out.${FMT_RESET}" exit fi exec zsh -l } main "$@"
+   51  brew -- version
+   52  brew
+   53  brew --version
+   54  git --version
+   55  -zsh
+   56  git config --global user.name prijacash
+   57  git config --global user.email prijacash@gmail.com
+   58  git config --global push.default simple
+git config --global credential.helper cache
+   59  git config --global core.editor 'code -w'
+   60  git config --global
+   61  git config --global --list
+   62  brew install --cask visual-studio-code
+   63  code
+   64  pwd
+   65  ls
+   66  ls -a
+   67  cd desktop
+   68  cd..
+   69  pwd
+   70  cd Desktop
+   71  ls
+   72  ls -a
+   73  cd ..
+   74  pwd
+   75  cd
+   76  mkdir seir-808
+   77  cd seir-808
+   78  pwd
+   79  cd ..
+   80  ls
+   81  cd seir-808
+   82  ls
+   83  ls -a
+   84  mkdir unit1
+   85  ls
+   86  cd unit1
+   87  pwd
+   88  mkdir cli-intro
+   89  cd cli-intro
+   90  pwd
+   91  touch notes.txt
+   92  ls
+   93  code .
+   94  cat notes.txt
+   95  mkdir my-junk
+   96  ls
+   97  mv notes.txt my-junk/notes.txt
+   98  ls
+   99  cd my-junk
+  100  ls
+  101  cd .. 
+  102  ls
+  103  pwd
+  104  ls ..
+  105  touch ../example
+  106  ls ..
+  107  mv ../example my-junk/example
+  108  pwd
+  109  ls
+  110  cd my-junk
+  111  ls
+  112  cd.. 
+  113  cd ..
+  114  touch file.text .hidden-file other-file.js
+  115  ls
+  116  ls -a
+  117  man ls
+  118  ls -l
+  119  ls -la
+  120  ls -R
+  121  ls -Rla
+  122  ls
+  123  rm file.text
+  124  ls
+  125  rm my-junk
+  126  man rm
+  127  rm -rf - my-junk
+  128  ls
+  129  echo hello world
+  130  echo 'hello world'
+  131  echo 'hello web dev'
+  132  echo hello redirection >> hello.txt
+ls
+
+cd..
+cd ..
+"
+  133  echo hello redirection >> hello.txt
+  134  ls
+  135  touch whateve
+  136  ls
+  137  echo new thing >> hello.txt
+  138  cat hello.txt
+  139  echo newest thing > hello.txt
+  140  cat hello.tt
+  141  cat hello.txt
+  142  pwd
+  143  touch books.txt
+  144  ls
+  145  code .
+  146  cat books.txt
+  147  man grep
+  148  grep Mills books.txt
+  149  grep Mill books.tx
+  150  grep Mill books.txt
+  151  grep mill books.txt
+  152  ls
+  153  pwd
+  154  ls -a
+  155  grep Mill books.txt | grep On
+  156  history
+  157  history | grep man
+  158  history >> history.txt
+  159  ls
+  160  cat history.txt
+  161  ls
+  162  mv books.txt 
+  163  man git
+  164  cd ..
+  165  pwd
+  166  mkdir my-first-repo
+  167  cd my-first-repo
+  168  ls
+  169  touch index.html
+  170  touch styles.css script.js
+  171  ls
+  172  git init
+  173  get --version
+  174  git --version
+  175  cd
+  176  ls
+  177  ls -a
+  178  rm -rf .git
+  179  git --version
+  180  cd seir-909
+  181  cd seir-808
+  182  pwd
+  183  ls
+  184  cd unit1
+  185  ls
+  186  cd my-first-repo
+  187  cd
+  188  git config --global --list 
+  189  git config --global init.defaultBranch main
+  190  cd seir-808
+  191  ls
+  192  cd unit1
+  193  ls
+  194  cd my-first-repo
+  195  cd
+  196  pwd
+  197  ls -a
+  198  cat .gitconfig
+  199  cd seir-909
+  200  cd seir-808
+  201  ls
+  202  cd unit1
+  203  ls
+  204  cd my-first-repo
+  205  rm -rf .git
+  206  git init
+  207  ls -a
+  208  cat .git
+  209  git status
+  210  git add index.html
+  211  git status
+  212  git commit
+  213  git commit -m "adds index.html file this message has to be here""
+"
+  214  git status
+  215  git log
+  216  ls
+  217  git add .
+  218  git status
+  219  git commit -m adds javascript and css files
+  220  git status
+  221  man git
+  222  man git add
+  223  man git-add
+  224  man git add
+  225  man gitadd
+  226  man git-add
+  227  man git-status
+  228  echo git is superdope! >> notes.txt
+  229  ls
+  230  git status
+  231  git add .
+  232  git commit -m took some notes on git
+  233  git status
+  234  ls
+  235  git remote add origin https://github.com/prijacash/first-repo-808.git
+  236  git remote -v
+  237  git branch -M main
+  238  git push origin main
+  239  cd ..
+  240  ls
+  241  pwd
+  242  get clone https://github.com/prijacash/command-line-murder-mystery.git
+  243  git clone https://github.com/prijacash/command-line-murder-mystery.git
+  244  ls
+  245  cd command-line-murder-mystery
+  246  ls
+  247  cat readme.md
+  248  cat instructions
+  249  ls
+  250  cd mystery
+  251  ls
+  252  cat hint1
+  253  cat hint2
+  254  cd
+  255  pwd
+  256  cd seir-808
+  257  cd unit1
+  258  ls
+  259  cd command-line-murder-mystery
+  260  cat cheatsheet.
+  261  ls
+  262  cat cheatsheet.pdf
+  263  ls
+  264  cat hint2
+  265  cat hint3
+  266  code cheatsheet.pdf
+  267  cat hint3
+  268  cat hint4
+  269  cat hint5
+  270  cat hint6
+  271  at hint7
+  272  pwd
+  273  ls
+  274  cat instructions
+  275  cat hint1
+  276  cat hint2
+  277  cat hint3
+  278  cat hint4
+  279  cat hint5
+  280  cat hint6
+  281  cat hint7
+  282  cat hint8
+  283  cd mystery
+  284  ls
+  285  cat crimescene
+  286  ls
+  287  grep crimescene 
+  288  ls
+  289  cd seir-808
+  290  ls
+  291  cd unit1
+  292  ls
+  293  cd my-first-repo
+  294  ls
+  295  cd ..
+  296  ls
+  297  cd command-line-murder-mystery
+  298  ls
+  299  cd mystery
+  300  ls
+  301  cat crimescene | grep clue
+  302  cat hint1
+  303  cd ..
+  304  ls
+  305  cat hint 1
+  306  cat hint1
+  307  cat hint2
+  308  cd mystery
+  309  grep "CLUE" crimescene%
+  310  grep "CLUE" crimescene
+  311  ls
+  312  cd..
+  313  cat hint3
+  314  cd ..
+  315  cat hint3
+  316  cat hint4
+  317  cat hint5
+  318  cat hint6
+  319  cat hint7
+  320  cat hint8
+  321  cd mystery
+  322  ls
+  323  grep "Honda" vehicles
+  324  ls
+  325  cat hint1
+  326  cd ..
+  327  cat hint1
+  328  cat hint2
+  329  cat hint3
+  330  cat hint4
+  331  cat hint5
+  332  cat hint6
+  333  cat hint7
+  334  cat hint8
+  335  ls
+  336  cat instructions
+  337  ls
+  338  cd mystery
+  339  ls
+  340  grep "CLUE" crimescene
+  341  grep "Annabel" people
+  342  cd ..
+  343  grep -A 5 "L337" mystery/vehicles
+  344  ls mystery
+  345  ls mystery/interviews
+  346  pwd
+  347  ls
+  348  code cheatsheet.pdf
+  349  head -n 173 streets/Mattapan_Street | tail -n 1
+ 
+  350  head -n 173 streets/Mattapan_Street | tail -n 1
+ interview
+  351  grep -BA 5 "l337" mystery/vehicles
+  352  grep -B 5 "l337" mystery/vehicles
+  353  grep -B 5 "L337" mystery/vehicles
+  354  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%
+  355  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owns"
+  356  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska""
+"
+  357  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+"
+"
+  358  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  359  cat instructions
+  360  cat Fitness_Galaxy AAA United_MileagePlus | grep "Annabel"
+  361  ls
+  362  ls mystery
+  363  ls mystery/memberships
+  364  head -n 20 people
+  365  ls
+  366  head -n 20 mystery/people
+  367  head -n 20 mystery/interviews
+  368  ls
+  369  ls mystery
+  370  head -n 20 mystery/crimescene
+  371  grep "clue" mystery/crimescene
+  372  grep "CLUE" mystery/crimescene
+  373  ls mystery
+  374  ls mystery/memberships
+  375  cat mystery/memberships/1
+  376  cat mystery/memberships/1.txt
+  377  cat mystery/memberships/21.txt
+  378  cat mystery/memberships/2.txt
+  379  ls mystery/memberships
+  380  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "John Smith" 
+  381  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"" 
+"
+  382  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"
+"
+"
+  383  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  384  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"
+  385  grep -A 5 "L337" mystery/vehicles"
+"
+  386  grep -A 5 "L337" mystery/vehicles
+  387  cat AAA Delta_SkyMiles | grep 
+  388  ls
+  389  cd mystery
+  390  cat AAA Delta_SkyMiles | grep "John Smith"
+  391  cd memberships
+  392  cat AAA Delta_SkyMiles | grep "John Smith"
+  393  cat AAA Delta_SkyMiles | grep -c "John Smith"
+  394  cat AAA Delta_SkyMiles | grep -c "Erika Bowersh"
+  395  cat AAA Delta_SkyMiles | grep -c "Erika Bowerh"
+  396  cat AAA Delta_SkyMiles | grep -c "Erika Bower"
+  397  cat AAA Delta_SkyMiles | grep -c "Erika Owens"
+  398  cat AAA Delta_SkyMiles | grep -c "Joe Germuska"
+  399  cat AAA Delta_SkyMiles | grep -c "Jeremy Bowers"
+  400  ls
+  401  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  402  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"
+  403  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"
+  404  ls
+  405  cd ..
+  406  touch solutions.txt
+  407  ls
+  408  echo Jeremy Bowers >> solutions.txt
+  409  cat solutions
+  410  cat solutions.txt
+
