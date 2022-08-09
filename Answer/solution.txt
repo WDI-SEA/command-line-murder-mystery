@@ -1,0 +1,108 @@
+102  git clone https://github.com/OmgValicious/command-line-murder-mystery.git
+  103  ls
+  104  cd command-line-murder-mystery
+  105  ls
+  106  cat inst
+  107  cat instructions
+  108  open .
+  109  pwd
+  110  ls
+  111  ls -a
+  112  open .
+  113  ls
+  114  cd mystery
+  115  ls
+  116  /files$ grep -i "CLUE" crimescene
+  117  grep -i "CLUE" crimescene
+  118  head -n 20 people
+  119  cat people
+  120  cd streets
+  121  ls
+  122  cd ..
+  123  ls
+  124  head -n 20 vehicles
+  125  grep "6'" vehicles
+  126  grep -B 4 "6'0" vehicles
+  127  grep "6'0" vehicles | grep "Annabel"
+  128  grep "Annabel" people
+  129  ls
+  130  cd interviews
+  131  ls
+  132  cd ..
+  133  ls
+  134  head -n 20 people 
+  135  grep "Annabel" people
+  136  cd ls
+  137  ls
+  138  cd streets
+  139  ls
+  140  cat Buckingham_Place
+  141  cat Hart_Place
+  142  open .
+  143  grep -B 4 "6'" vehicles
+  144  cd ..
+  145  ls
+  146  interview
+  147  cd interviews
+  148  head -n 173 streets/Mattapan_Street | tail -n 1
+  149  cd
+  150  pwd
+  151  se
+  152  seir-808
+  153  cd unit1
+  154  ls
+  155  comm
+  156  cd command-line-murder-mystery
+  157  cd mystery
+  158  cd street
+  159  cd streets
+  160  head -n 173 streets/Mattapan_Street | tail -n 1
+  161  ls
+  162  head -n 173 streets/Mattapan_Street | tail -n 1
+  163  cd..
+  164  cd ..
+  165  head -n 173 streets/Mattapan_Street | tail -n 1
+  166  ls
+  167  grep "#9437737" interview
+  168  grep "#9437737" interviews
+  169  cd interviews
+  170  ls
+  171  cat interview-9437737
+  172  cd ..
+  173  head -n 40 streets/Hart_Place | tail -n 1
+  174  head -n 179 streets/Buckingham_Place | tail -n 1
+  175  cat interviews/interview-47246024
+  176  cat interviews/interview-699607
+  177  grep -C 3 "Honda" vehicles 
+  178  grep -C 3 "Make: Honda Color: Blue" vehicles 
+  179  grep "Honda" vehicles | grep "Blue" | grep "L337" head
+  180  grep "Honda" vehicles | grep "Blue" | grep "L337" | head
+  181  grep "Honda" vehicles | grep "L337" | head
+  182  ls
+  183  grep "Honda" vehicles | grep "Blue"| head
+  184  grep "Honda" vehicles | grep "Blue"
+  185  ls
+  186  head vehicles | grep "Honda"
+  187  cat vehicles
+  188  grep -A 5 "L337" mystery/vehicles
+  189  cd ..
+  190  grep -A 5 "L337" mystery/vehicles
+  191  ls
+  192  cd mystery
+  193  ls
+  194  cd memberships
+  195  ls
+  196  cat Museum_of_Bash_History AAA Delta_SkyMiless | grep "Joe Germuska" | wc -l
+  197  cat Museum_of_Bash_History AAA Delta_SkyMiless | grep "Jeremy Bowers" | wc -l
+  198  cat Museum_of_Bash_History AAA Delta_SkyMiless | grep "Erika Owens" | wc -l
+  199  cat Museum_of_Bash_History AAA Delta_SkyMiless | grep "Jacqui Maher" | wc -l
+  200  cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy Bowers" | wc -l
+  201  cd ..
+  202  mkdir Answer
+  203  cd Answer
+  204  touch solution.txt
+
+
+
+  //NAME OF KILLER
+  Jeremy Bowers
