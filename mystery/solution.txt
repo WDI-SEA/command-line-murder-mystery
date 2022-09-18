@@ -1,0 +1,6 @@
+Please find below the commands I’ve used :-
+
+1. cd desktop/SEIBH1/command-line-murder-mystery/mystery/.
+2. Then I’ve used (grep "CLUE" crimescene > solution.txt) .
+3. Then I’ve used (cat solution.txt) to view the clues and from it I got the name of the killer .
+4. I used the following command - Echo “The name of the killer is Annabel” >> solution.txt
