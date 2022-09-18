@@ -1,0 +1,109 @@
+ 316  cd command-line-murder-mystery/
+  317  ls
+  318  cd mystery/
+  319  ls
+  320  cd interviews/
+  321  ls
+  322  cd ..
+  323  ls
+  324  cat crimescene | grep CLUE
+  325  cat people | grep Annabel
+  326  cd  memberships/
+  327  ls
+  328  cat AAA | grep Annabel
+  329  cat AAA
+  330  cat AAA | grep Annabel
+  331  ls
+  332  cat Delta_SkyMiles | grep Annabel
+  333  cat Museum_of_Bash_History | grep Annabel
+  334  cat library.txt | grep Annabel
+  335  cat library.txt
+  336  cat Museum_of_Bash_History | grep Annabel
+  337  cd ..
+  338  ls
+  339  streets
+  340  cd streets/
+  341  ls
+  342  head -n 173 Mattapan_Street | tail -n 173
+  343  head -n 179 Buckingham_Place
+  344  cd ..
+  345  ls
+  346  cd interviews/
+  347  ls
+  348  cd interview-9437737
+  349  cat interview-9437737
+  350  cat interview-699607
+  351  cd ..
+  352  ls
+  353  cat vehicles
+  354  grep -A 5 "L337" vehicles
+  355  cd interviews/
+  356  cat interview-699607
+  357  cd ..
+  358  ls
+  359  cd ..
+  360  ls
+  361  cat hint5
+  362  cd mystery/
+  363  ls
+  364  cd streets/
+  365  head -n 173 Mattapan_Street | tail -n 1
+  366* head -n 224 Buckingham_Place | tail -n 1
+  367  cd ..
+  368  ls
+  369  cd interviews/
+  370  cat interview-699607
+  371  cd ..
+  372  ls
+  373  grep -A 5 "L337" vehicles
+  374  ls
+  375  cd memberships/
+  376  ls
+  377  cat 1.txt
+  378  ls
+  379  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  380  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  381  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  382  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jacqui Maher"
+  383  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Erika Owens"
+  384  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep  "Jacqui Maher"
+  385  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep  "Jeremy Bowers"
+  386  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  387  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  388  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jacqui Maher"
+  389  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Jeremy Bowers"
+  390  cd ..
+  391  ls
+  392  cat people | grep "Jacqui Maher"
+  393  cd interviews/
+  394  cd ..
+  395  cd streets/
+  396  head -n 224 Andover_Road | tail -n 1
+  397  cd ..
+  398  cd interviews/
+  399  cat interview-904020
+  400  cd ..
+  401  cat people | grep "Jeremy Bowers"
+  402  cd streets/
+  403  head -n 284 Dunstable_Road | tail -n 1
+  404  cd ..
+  405  cd interviews/
+  406  cat interview-9620713
+  407  cd ..
+  408  cat people | grep "Joe Germuska"
+  409  cd streets/
+  410  head -n 275 Plainfield_Street | tail -n 1
+  411  cd ..
+  412  cd interviews/
+  413  cat interview-29741223
+  414  cd ..
+  415  cat people | grep "Erika Owens"
+  416  cd streets/
+  417  head -n 98 Trapelo_Street | tail -n 1
+  418  cd ..
+  419  cd interviews/
+  420  cat interview-5455315
+  421  cd ..
+
+The name of the killer is: Jeremy Bowers!!!!!!
+since he has membership in all 4 cards that have been found! 
