@@ -1,0 +1,12 @@
+1. Commands Used
+- git clone https://github.com/not9ahmed/command-line-murder-mystery.git
+- cat instructions
+- cd mystery
+- ls
+- cat crimescene | grep CLUE
+- git status
+- git add .
+
+
+2. The name of the killer is
+- Annabel
