@@ -1,0 +1,18 @@
+  159  cd ..
+  160  ls
+  161  cd interviews
+  162  ls
+  163  head -n 173 streets/Mattapan_Street | tail -n 1
+  164  cat Fitness_Galaxy AAA United_MileagePlus | grep -c “Fernanda Serrano”
+  165  cd ..
+  166  ls
+  167  cd memberships
+  168  ls
+  169  cat Fitness_Galaxy AAA United_MileagePlus | grep -c “Fernanda Serrano”
+  170  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  171  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  172  cat Fitness_Galaxy AAA United_MileagePlus | grep "Fernanda Serrano" | wc -l
+  173  cat Fitness_Galaxy AAA United_MileagePlus | grep -c “Emiliano Wenk”
+  174  cat Fitness_Galaxy AAA United_MileagePlus | grep "Emiliano Wenk" | wc -l
+
+Murderer : Fernanda Serrano	
