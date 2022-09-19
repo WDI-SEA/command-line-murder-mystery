@@ -90,4 +90,7 @@ cat interview-5455315
 cd ..
 cd ..
 touch solution.txt
-history 
+history
+
+
+The murderer is Jeremy Bowers
