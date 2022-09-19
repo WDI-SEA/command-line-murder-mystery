@@ -1,0 +1,53 @@
+1600  cd command-line-murder-mystery
+ 1601  ls
+ 1602  ls -a
+ 1603  cat instructions
+ 1604  ls
+ 1605  cd mystery
+ 1606  ls
+ 1607  cat crimescene
+ 1608  grep CLUE
+ 1609  grep CLUE crimescene
+ 1610  ls
+ 1611  grep Annabel people
+ 1612  cd memberships
+ 1613  ls
+ 1614  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Annabel
+ 1615  cd ..
+ 1616  ls
+ 1617  cd ..
+ 1618  ls
+ 1619  cat hint1
+ 1620  cat hint2
+ 1621  cat hint3
+ 1622  head -n 3 people
+ 1623  cd mystery
+ 1624  head -n 3 people
+ 1625  ls
+ 1626  cd streets
+ 1627  ls
+ 1628  head -n 173 Mattapan Street
+ 1629  head -n 173 Mattapan_Street
+ 1630  head -n 179 Buckingham_Place
+ 1631  cd ..
+ 1632  cd interviews
+ 1633  cat interview -9437737
+ 1634  cat interview-9437737
+ 1635  cat interview-699607
+ 1636  cd ..
+ 1637  ls
+ 1638  grep blue honda vehicles
+ 1639  grep -a 5 L337 vehicles
+ 1640  grep -A 5 L337 vehicles
+ 1641  grep -A 5 L337 Blue Honda vehicles
+ 1642  grep -A 5 L337 Blue Honda vehicles
+ 1643  grep -A 5 L337|grep -A 5 Blue|grep -A 5 Honda 
+ 1644  grep -A 5 L337 vehicles|grep -A 5 Blue vehicles|grep -A 5 Honda vehicles
+ 1645  grep -a 5 L337 vehicles
+ 1646  grep -A 5 L337 vehicles
+ 1647  cd memberships
+ 1648  ls
+ 1649  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library|grep Jacqui Maher
+ 1650  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library|grep Jeremy Bowers
+ 1651  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library|grep Joe Germuska
+ 1652  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library|grep Erika Owens
