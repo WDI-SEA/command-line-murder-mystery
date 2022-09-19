@@ -1,0 +1,78 @@
+1083  cat crimescene| grep "CLUE"
+ 1084  cat crimescene| head -n 20 people
+ 1085  cat crimescene| grep "CLUE\n\n
+ 1086  ls
+ 1087  cat people | grep "Jacqui"
+ 1088  cat people | grep "Jeremy"
+ 1089  cat people | grep "Germuska"
+ 1090  cat people | grep "Heather"
+ 1091  cat people | grep "Mulligan"
+ 1092  cat people | grep "Pilhofer"
+ 1093  cat people | grep "Shaw"
+ 1094  cat people | grep "Erika"
+ 1095  cat people | grep "Jeremy"
+
+# get the addresses of Annaabels and  interviewing them 
+ 
+ 1049  head -173 Mattapan_Street| tail +173
+ 1050  head -40 Haley_Street| tail +40
+ 1051  head -40 Hart_Place| tail +40
+ 1052  head -173 Mattapan_Street| tail +173
+ 1053  head -179  Buckingham_Place| tail +179
+ 1054  head -176 Haley_Street| tail +176
+ 1055  head -224  Andover_Road| tail +224
+ 1056  head -284  Dunstable_Road | tail +284
+ 1057  head -275  Plainfield_Street| tail +275
+ 1058  head -19  Culbert_Street| tail +19
+ 1059  head -92  Wentworth_Street| tail +92
+ 1060  head -145 Claybourne_Street| tail +145
+ 1061  head -83 Manton_Terrace| tail +83
+ 1062  head -98 Trapelo_Street| tail +98
+ 1063  head -284  Dunstable_Road | tail +284
+
+ 1017  cat interview-47246024
+ 1018  cat interview-9437737
+ 1019  cat interview-699607
+ 1020  cat interview-871877
+ 1021  cat interview-904020
+ 1022  cat interview-9620713
+ 1023  cat interview-29741223
+ 1024  cat interview-2939888
+ 1025  cat interview-79667499
+ 1026  cat interview-79667499
+ 1027  cat interview-
+ 1028  cat interview-1767435
+ 1029  cat interview-30259493
+ 1030  cat interview-5455315
+ 1031  cat interview-9620713
+
+#trying to find the vehicle 
+
+ 1006  cat vehicles|ls -R grep "L337"
+ 1007  cat vehicles|ls grep "L337"
+ 1008  cat vehicles|grep -f  "L337"
+ 1009  cat vehicles| grep "L337ZR9"
+ 1011  cat vehicles| grep "L337ZR9"
+ 1013  cat vehicles| grep "L337ZR9"
+ 1016  cat vehicles|grep -f  "L337"
+ 1018  cat vehicles| grep "L337"
+ 1019  grep -A 4 "L337" vehicles.txt
+ 1020  grep -A 4 "L337" vehicles
+ 1007  cat vehicles|ls grep "L337"
+ 1008  cat vehicles|grep -f  "L337"
+ 1009  cat vehicles| grep "L337ZR9"
+ 1011  cat vehicles| grep "L337ZR9"
+ 1013  cat vehicles| grep "L337ZR9"
+ 1016  cat vehicles|grep -f  "L337"
+ 1018  cat vehicles| grep "L337"
+ 1019  grep -A 4 "L337" vehicles.txt
+ 1020  grep -A 4 "L337" vehicles
+
+
+
+ # the name of the killer is : 
+    License Plate L3375A9
+    Make: Honda
+    Color: Blue
+    Owner: Jeremy Bowers
+    Height: 6'1"
