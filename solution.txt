@@ -1,0 +1,22 @@
+ 84  cat vehicles
+   85  grep Blue vehicles| grep Honda vehicles| grep L337 vehicles
+   86  grep -A interview-9437737
+   87  grep -a Blue vehicles| grep Honda vehicles| grep L337 vehicles
+   88  grep -A Blue vehicles| grep Honda vehicles| grep L337 vehicles
+   89  grep -A 4 Blue vehicles| grep Honda vehicles| grep L337 vehicles
+   90  grep -A 4 Blue vehicles| grep -A 4 Honda vehicles| grep -A 4 L337 vehicles
+   91  ls
+   92  cd memberships
+   93  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep Jacqui Maher
+   94  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep Jacqui MaherJeremy Bowers
+   95  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History| grep Jeremy Bowers
+   96  cd ..
+   97  cd ..
+   98  touch solution.txt
+   99  ls
+
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1
