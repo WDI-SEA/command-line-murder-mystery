@@ -1,0 +1,42 @@
+    1  pwd
+    2  ls
+    3  cd SE1H1
+    4  SE1BH1
+    5  CD SE1BH1
+    6  cd SE1BH1
+    7  LS
+    8  ls
+    9  ls
+   10  cd deliverables/
+   11  ls
+   12  cd command-line-murder-mystery/
+   13  ls
+   14  cd mystery/
+   15  ls
+   16  cd ..
+   17  git status
+   18  ls
+   19  cat solution
+   20  cat solution.txt
+   21  ls
+   22  git status
+   23  git add solution.txt 
+   24  git status
+   25  cat solution.txt
+   26  cd ~
+   27  ls -lsa
+   28  ls -lsa .ba*
+   29  ls
+   30  ls
+   31  cd ~
+   32  ls
+   33  cp history SE1BH1/deliverables/command-line-murder-mystery/solution.txt
+   34  cat history
+   35  echo history
+   36  history
+   37  history > SE1BH1/deliverables/command-line-murder-mystery/solution.txt
+   38  cd SE1BH1/deliverables/command-line-murder-mystery/
+   39  cat solution.txt 
+   40  clear
+   41  code solution.txt 
+   42  history > solution2.txt

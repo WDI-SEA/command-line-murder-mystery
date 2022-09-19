@@ -1,0 +1,96 @@
+    9  cd command-line-murder-mystery/
+   10  ls
+   11  cd mystery/
+   12  ls
+   13  history
+   14  ls
+   15  cd ..
+   16  ls
+   17  cat instructions
+   18  cd mystery
+   19  ls
+   20  cat crimescene
+   21  grep CLUE crimescene
+   22  ls
+   23  grep Annabel people
+   24  cd memberships
+   25  ls
+   26  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Annabel
+   27  cd ..
+   28  cd ..
+   29  ls
+   30  cat hint1
+   31  cat hint2
+   32  cat hint3
+   33  cat hint4
+   34  cat hint5
+   35  cd mystery
+   36  ls
+   37  head -n 173 Mattapan_Street
+   38  cd streets
+   39  head -n 173 Mattapan_Street
+   40  head -n 179 Buckingham_Place
+   41  cd ..
+   42  cd interviews
+   43  cat interview-9437737
+   44  cat interview-699607
+   45  cd ..
+   46  cd ..
+   47  ls
+   48  cd mystery
+   49  grep -a 5 L337 vehicles
+   50  grep -A L337 vehicles
+   51  grep -A 6 L337 vehicles
+   52  cd memberships
+   53  ls
+   54  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library|grep 'Jacqui Maher'
+   55  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library|grep 'Jeremy Bowers'
+
+    9  cd command-line-murder-mystery/
+   10  ls
+   11  cd mystery/
+   12  ls
+   13  history
+   14  ls
+   15  cd ..
+   16  ls
+   17  cat instructions
+   18  cd mystery
+   19  ls
+   20  cat crimescene
+   21  grep CLUE crimescene
+   22  ls
+   23  grep Annabel people
+   24  cd memberships
+   25  ls
+   26  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Annabel
+   27  cd ..
+   28  cd ..
+   29  ls
+   30  cat hint1
+   31  cat hint2
+   32  cat hint3
+   33  cat hint4
+   34  cat hint5
+   35  cd mystery
+   36  ls
+   37  head -n 173 Mattapan_Street
+   38  cd streets
+   39  head -n 173 Mattapan_Street
+   40  head -n 179 Buckingham_Place
+   41  cd ..
+   42  cd interviews
+   43  cat interview-9437737
+   44  cat interview-699607
+   45  cd ..
+   46  cd ..
+   47  ls
+   48  cd mystery
+   49  grep -a 5 L337 vehicles
+   50  grep -A L337 vehicles
+   51  grep -A 6 L337 vehicles
+   52  cd memberships
+   53  ls
+   54  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library|grep 'Jacqui Maher'
+   55  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library|grep 'Jeremy Bowers'
+

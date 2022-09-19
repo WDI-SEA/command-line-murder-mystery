@@ -26,7 +26,7 @@
    34  cat hint5
    35  cd mystery
    36  ls
-   37  head -n 173 Mattapan_Street 
+   37  head -n 173 Mattapan_Street
    38  cd streets
    39  head -n 173 Mattapan_Street
    40  head -n 179 Buckingham_Place

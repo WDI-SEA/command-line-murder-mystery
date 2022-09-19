@@ -1,0 +1,19 @@
+27  ls -lsa
+   28  ls -lsa .ba*
+   29  ls
+   30  ls
+   31  cd ~
+   32  ls
+   33  cp history SE1BH1/deliverables/command-line-murder-mystery/solution.txt
+   34  cat history
+   35  echo history
+   36  history
+   37  history > SE1BH1/deliverables/command-line-murder-mystery/solution.txt
+   38  cd SE1BH1/deliverables/command-line-murder-mystery/
+   39  cat solution.txt
+   40  clear
+   41  code solution.txt
+   42  history > solution2.txt
+   43  ls
+   44  history
+
