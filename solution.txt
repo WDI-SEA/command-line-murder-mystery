@@ -1,0 +1,85 @@
+Jeremy Bower is the Killer
+PASTE HISTORY HERE
+  487  cd ..
+  488  mkdir hello-html
+  489  cd hello-html/
+  490  code .
+  491  touch index.html
+  492  cd ..
+  493  mkdir css-practice
+  494  cd css-practice/
+  495  ls
+  496  touch main.html
+  497  code .
+  498  touch style.css
+  499  code .
+  500  pwd
+  501  cd desktop
+  502  ls
+  503  cd SEIBH1/
+  504  ls
+  505  cd projects
+  506  mkdir AirBnB
+  507  git clone https://github.com/Timaalattar/css-airbnb.git
+  508  cd css-airbnb/
+  509  code .
+  510  cd ..
+  511  ls
+  512  cd CLMM
+  513  ls
+  514  cd command-line-murder-mystery/
+  515  ls
+  516  history
+
+   417    247  cd ..
+  418    248  ls
+  419    249  hint7
+  420    250  cat hint7
+  421    251  cat hint8
+  422    252  hint6
+  423    253  cat hint6
+  424    254  cat hint5
+  425    255  hint4
+  426    256  cat hint4
+  427    257  ls
+  428    258  cat cheatsheet.md
+  429    259  clear
+  430    260  ls
+  431    261  cat instructions
+  432    262  ls
+  433    263  mystery
+  434    264  cd mystery/
+  435    265  ls
+  436    266  cd memberships/
+  437    267  ls
+  438    268  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep Annabel
+  439    269  cd ..
+  440    270  cd street
+  441    271  cd streets/
+  442    272  ls
+  443    273  head -n 173 Mattapan_Street
+  444    274  head -n 179 Buckingham_Place
+  445    275  cd ..
+  446    276  cd interview
+  447    277  cat interview-9437737
+  448    278  ls
+  449    279  cd interviews
+  450    280  cat interview-9437737
+  451    281  cat interview-699607
+  452    282  cd..
+  453    283  cd ..
+  454    284  ls
+  455    285  cd vehicles
+  456    286  grep -a 5 L337 vehicles
+  457    287  grep -a 5 L337 vehicles
+  458    288  grep -A 5 L337 vehicles
+  459    289  grep -A 5 L337 Blue Honda vehicles
+  460    290  grep -A 5 L337 Blue Honda vehicles
+  461    291  cd..
+  462    292  ls
+  463    293  cd memberships/
+  464    294  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep Jeremy Bowers
+  465    295  cd ..
+  466    296  cd ..
+  467    297  touch solution.txt
+
