@@ -1,12 +1,98 @@
-1. Commands Used
-- git clone https://github.com/not9ahmed/command-line-murder-mystery.git
-- cat instructions
-- cd mystery
-- ls
-- cat crimescene | grep CLUE
-- git status
-- git add .
-
-
-2. The name of the killer is
-- Annabel
+cat  instructions
+cd mystery
+cat crimescene | grep "CLUE"
+cd memberships
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Annabel"
+ls
+cd ..
+ls
+cd ..
+ls
+cat hint1
+cat hint2
+cat hint3
+ls
+cd mystery
+ls
+head -n 20 people
+grep "Annabel" people
+LS
+cd memberships
+ls
+cd ..
+ls
+cd memberships
+ls
+cd ..
+cd streets
+ls
+cd ..
+cd ..
+cat hint3
+cd mystery/vehicles
+cd mystery
+cd vehicles
+head -n 20 vehicles
+cd streets
+ls
+head -n 20 Hart_Place
+cat Hart_Place
+head -n 40 Hart_Place
+head -n 173 Mattapan_Street
+head -n 179 Mattapan_Street
+head -n 179 Buckingham_Place
+head -n 179 Haley_Street
+head -n 40 Haley_Street
+head -n 176 Haley_Street
+cd ..
+ls
+cd interviews
+ls
+cat interview-47246024
+cat interview-9437737
+cat interview-699607
+cat interview-871877
+cd ..
+ls
+cd vehicles
+ls
+grep "Honda" vehicles
+grep -A 5"Honda" vehicles
+grep -A 5 "Honda" vehicles
+grep -A 5 "Honda" "Blue"  vehicles
+grep -A 5 "Honda" vehicles |  grep -A 5 "Blue" vehicles        
+grep -A 5 "Honda" vehicles
+cd ..
+cat hint4
+cat hint5
+grep -A 5 "L337" vehicles
+cd mystery
+grep -A 5 "L337" vehicles
+ls
+cat people | grep "Jacqui Maher"
+cd interviews
+cat people | grep "Jeremy Bowers"
+cd ..
+cat people | grep "Jeremy Bowers"
+cat people | grep "Joe Germuska"
+cat people | grep "Erika Owens"
+ls
+cd streets
+grep -n 224 Andover_Road
+cd ..
+cd ..
+cat hint5
+cd mystery/streets
+head -n 224 Andover_Road | tail -n 1
+head -n 284 Dunstable_Road | tail -n 1
+head -n 275 Plainfield_Street | tail -n 1
+head -n 98 Trapelo_Street | tail -n 1
+cd ..
+cat interview-904020
+cat interview-9620713
+cat interview-29741223
+cat interview-5455315
+cd ..
+cd ..
+touch solution.txt
+history 
