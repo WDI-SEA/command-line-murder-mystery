@@ -35,14 +35,9 @@ cd vehicles
 head -n 20 vehicles
 cd streets
 ls
-head -n 20 Hart_Place
-cat Hart_Place
 head -n 40 Hart_Place
 head -n 173 Mattapan_Street
-head -n 179 Mattapan_Street
 head -n 179 Buckingham_Place
-head -n 179 Haley_Street
-head -n 40 Haley_Street
 head -n 176 Haley_Street
 cd ..
 ls
