@@ -1,0 +1,43 @@
+164  cd ..
+  165  git clone https://github.com/Ibtisam21/command-line-murder-mystery.git
+  166  ls
+  167  cd command-line-murder-mystery/
+  168  ls
+  169  cat instructions
+  170  code c
+  171  code
+  172  touch solution.txt
+  173  cat hint1
+  174  head -n 20 people
+  175  cd mystery
+  176  cd crimescene
+  177  touch crimescene.txt
+  178  cd crimescene
+  179  head -n 20 people
+  180  grep "CLUE" crimescene
+  181  heaheatreet namehea
+  182  cdheacd..
+  183  head people
+  184  cat hint2
+  185  cat hint 2
+  186  cat hint2
+  187  cathint2
+  188  cd streets
+  189  cat streets.txt | grep Clue
+  190  cat streets.txt | grep "CLUE" crimescene
+  191  head vehicles
+  192  cd ..
+  193  head vehicles
+  194  cat people.txt | grep "Annabel" people
+  195  head -n 173 streets/Mattapan_Street | tail -n 1
+  196  cat vehicles.txt | grep "Honda" vehicles
+  197  cat vehicles.txt | grep "Blue" vehicles
+  198  cat vehicles.txt | grep "L337" vehicles
+  199  cat vehicles.txt | grep -A 5 "L337" mystery/vehicles
+  200  grep -A 5 "L337" mystery/vehicles
+  201  cat vehicles.txt | grep -A 5 "L337" mystery/vehicles
+  202  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  203  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  204  cd solution.txt
+  205  run history
+  206  history
