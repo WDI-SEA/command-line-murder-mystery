@@ -1,0 +1,150 @@
+824  pwd
+  825  cd Desktop
+  826  cd SEIBH1
+  827  ls
+  828  cd command-line-murder-mystery
+  829  ls
+  830  cd Desktop/SEIBH1/Deliverables
+  831  git clone https://github.com/FuadAlShuroogi/command-line-murder-mystery.git
+  832  cd command-line-murder-mystery
+  833  ls
+  834  cat instructions
+  835  cd mystery
+  836  ls
+  837  cd ..
+  838  ls
+  839  cat hint1
+  840  cd mystery
+  841  ls
+  842  head -n 20 people
+  843  cd ..
+  844  ls
+  845  cat hint2
+  846  cd mystery
+  847  cat crimescene | grep "CLUE"
+  848  cat memberships
+  849  cd memberships
+  850  ls
+  851  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Annabel"
+  852  cd mystery
+  853  cd ..
+  854  ls
+  855  cd ..
+  856  ls
+  857  cat hint3
+  858  cd mystery
+  859  head -n 20 vehicles
+  860  cat people | grep "Annabel"
+  861  cat streets
+  862  cd streets
+  863  ls
+  864  head -n 39 Hart_Place
+  865  head -n 40 Hart_Place
+  866  head -n Mattapan Street
+  867  head -n 173 Mattapan Street
+  868  head -n 173 Mattapan_Street
+  869  head -n 179 Buckingham_place
+  870  head -n 176 haley_street
+  871  cd .. 
+  872  ls
+  873  cd interviews
+  874  ls
+  875  cat interview-47246024
+  876  cat interview-9437737
+  877  cat interview-699607
+  878  cat interview-871877
+  879  cd..
+  880  cd ..
+  881  ls
+  882  cat vehicles
+  883  However, they report seeing the car that fled the scene. Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9
+  884  cat grep "Honda" vehicles | grep "blue" vehicles
+  885  cat vehicles | grep "blue" | grep "Honda"
+  886  ls
+  887  cd vehicles
+  888  cat vehicles | grep "blue"
+  889  cat vehicles | grep "Honda"
+  890  cat vehicles | grep "blue Honda"
+  891  cat vehicles | grep "blue_Honda"
+  892  grep "Honda" vehicles
+  893  grep -A 10 "Honda" vehicles
+  894  cd ..
+  895  ls
+  896  cd command-line-murder-mystery
+  897  ls
+  898  cat cheatsheet.md
+  899  cat cheatsheet.md | grep "grep"
+  900  grep -A 5 "Honda" vehicles
+  901  cd mystery
+  902  ls
+  903  grep -A 5 "Honda" vehicles
+  904  grep -A 5 "Honda" | grep -A 5 "Blue"
+  905  grep -A 5 "Honda" | grep -A 5 "Blue" vehicles
+  906  grep -A 5 "Honda" "Blue" vehicles
+  907  However, they report seeing the car that fled the scene. Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9
+  908  grep -A 5 "L337" vehicles
+  909  Jacqui Maher
+  910  Jeremy Bowers
+  911  Joe Germuska
+  912  Erika Owens
+  913  cd ..
+  914  ls
+  915  cat hint4
+  916  cat hint5
+  917  cat hint6
+  918  cat hint7
+  919  cat hint8
+  920  cat hint9
+  921  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  922  cd mystery
+  923  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  924  cat people | grep "Jacqui Maher"
+  925  cat people | grep "Jeremy Bowers""
+  926  cat people | grep "Jeremy Bowers"
+  927  cat people | grep "Joe Germuska"
+  928  cat people | grep "Erika Owens"
+  929  cd streets
+  930  grep -n 224 Andover Road
+  931  grep -n 224 Andover_road
+  932  grep -n 224 Andover_Road
+  933  cat grep -n 224 Andover_Road
+  934  cd .. 
+  935  ls
+  936  cd ..
+  937  ls
+  938  cat hint4
+  939  cat hint5
+  940  \thead -n 173 streets/Andover_Roadt | tail -n 1\n
+  941  \thead -n 173 streets/Andover_Road | tail -n 1\n
+  942  \thead -n 224 streets/Andover_Road | tail -n 1\n
+  943  head -n 224 Andover_Road | tail -n 1\n
+  944  head -n 224 Andover_Road\n
+  945  cd mystery
+  946  head -n 224 Andover_Road\n
+  947  cd streets
+  948  head -n 224 Andover_Road\n
+  949  cat interview-904020
+  950  cd ..
+  951  cat interview-904020
+  952  ls
+  953  cd interviews
+  954  cat interview-904020
+  955  cd ..
+  956  cd mystery
+  957  cd streets
+  958  head -n 284 Dunstable_Road
+  959  head -n 275 Plainfield_street
+  960  head -n 98 trapelo_street
+  961  cd ..
+  962  cd interviews
+  963  cat interview-9620713
+  964  cat interview-29741233
+  965  cat interview-29741223
+  966  cat interview-5455315
+  967  cd ..
+  968  cd..
+  969  cd ..
+  970  pwd
+  971  touch solution.txt
+
+The name of the killer is Jeremy Bowers
