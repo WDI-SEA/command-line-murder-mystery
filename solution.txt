@@ -1,0 +1,65 @@
+
+  255  pwd
+  256  cd Desktop
+  257  cd command-line-murder-mystery
+  259  cd ..
+  260  ls
+  262  git clone "https://github.com/HAB29/command-line-murder-mystery.git"
+  263  cd command-line-murder-mystery
+  264  ls
+  265  cd mystery
+  266  ls
+  267  cat crimescene
+  268  grep "CLUE" crimescene
+  269  ls
+  270  cd ..
+  271  cd mystery
+  272  grep "CLUE" crimescene
+  273  grep "Annabel" people
+  274  cd memberships
+  275  ls
+  276  cd ..
+  277  ls
+  278  cd ..
+  279  ls
+  280  Cat hint1 hint2 hint3
+  281  cd mystery
+  282  head -n 3 people
+  283  cd streets
+  284  head -3 people
+  285  ls
+  286  head -n 173 Mattapan Street
+  287  head -n 173 Mattapan-street
+  288  head -n 173 Mattapan-street
+  289  head -n 179 Buckingham Place
+  290  head -n 179 Buckingham-Place
+  291  head -n 179 Buckingham_Place
+  292  head -n 179 Mattapan_Street
+  293  cat interviews/interview-#9437737
+  294  cd ..
+  295  ls
+  296  cd interviews
+  297  cat interview-699607
+  298  cat interview-9437737
+  299  cat interview-47246024
+  300  cd ..
+  301  cd vehicles
+  302  cd vehicles
+  303  grep -A 4 L337 vehicles | grep -A 3 Honda | grep -A 2 Blue
+  304  cd memberships
+  316  Cat AAA DSM MBH TCL/grep"Jeremy Bowers" 
+  317  LS
+  318  Cat AAA Delta_SkyMiles museum TCL /grep"Jeremy Bowers"
+  319  Cat AAA TCL DSM/ grep "Jeremy Bowers"
+  320  cd TCL
+  321  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+  322  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Joe Germuska"
+  323  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Erika Owens"
+  324  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher"
+  325  cd..
+  326  cd ..
+  327  ls
+  329  cd ../
+  330  history >> solution.txt
+
+Killer : Jeremy Bowers
