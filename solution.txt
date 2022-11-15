@@ -1,0 +1,167 @@
+  410  pwd
+  411  cd command-line-murder-mystery
+  412  ls
+  413  cd mystery
+  414  cd ..
+  415  cat instructions
+  416  cd mystery
+  417  ls
+  418  head -n 20 people
+  419  grep CLUE crimescene
+  420  ls
+  421  open cheatsheet.pdf
+  422  grep "Annabel" people
+  423  head -n 179 streets/Buckingham Place | tail -n 1
+  424  head -n 179 streets/Buckingham_Place | tail -n 1
+  425  grep "#699607 interviews\nsdf\ncd\nqqqq\n\nq\n\n\n\n"
+  426  pwd
+  427  cd command-line-murder-mystery
+  428  ls
+  429  cd mystery
+  430  ls
+  431  grep CLUE crimescene
+  432  grep "Annabel" people
+  433  head -n 20 people
+  434  head -n 20 vehicles
+  435  grep "Annabel" vehicles
+  436  grep -A 5 "Annabel" vehicles
+  437  head -n 176 streets/Haley_Street | tail -n 1
+  438  grep -C 4 "871877" interviews
+  439  cd interviews
+  440  ls
+  441  grep 871877
+  442  cat interview-871877
+  443  cd ..
+  444  grep -C "Annabel" vehicles
+  445  grep -C 5 "Annabel" vehicles
+  446  grep -C 5 "6'0"" vehicles
+  447  head -n 173 streets/Mattapan_Street | tail -n 1
+  448  cat interview-9437737
+  449  cd interviews
+  450  cat interview-9437737
+  451  cd ..
+  452  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Annabel"
+  453  cd memberships
+  454  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep "Annabel"
+  455  cd ..
+  456  head -n 179 streets/Buckingham_Place | tail -n 
+  457  head -n 179 streets/Buckingham_Place | tail -n 1
+  458  cd interviews
+  459  cat interview-699607
+  460  cd ..
+  461  head -n 10 vehicles
+  462  grep -A 5 "L337" vehicles
+  463  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jianbo Megannem"
+  464  cd memberships
+  465  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jianbo Megannem"
+  466  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Katie Park"
+  467  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Mike Bostock"
+  468  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "John Keefe"
+  469  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"
+  470  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Matt Waite"
+  471  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  472  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  473  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jacqui Maher"
+  474  cd
+  475  history tail -n 100
+  476  man tail
+  477  history
+  478  cd command-line-murder-mystery
+  479  ls
+  480  cd mystery
+  481  ls
+  482  cd ..
+  483  cat solution.txt
+  484  cd mystery
+  485  grep "Jeremy Bowers" interviews
+  486  cd interviews
+  487  ls
+  488  cd ..
+  489  ls
+  490  grep "Jeremy Bowers" people
+  491  head -n 284 streets/Dunstable_Road | tail -n 1
+  492  cd interviews
+  493  cat interview-9620713
+  494  cd command-line-murder-mystery
+  495  ls
+  496  cat hint1 hint2 hint3
+  497* cd command-line-murder-mystery
+  498* ls
+  499* cat instructions
+  500  cd mystery
+  501  ls
+  502  head -n 20 crimescene
+  503  grep "CLUE" crimescene
+  504  grep CLUE crimescene >> clues.txt
+  505  cat clues.txt
+  506  ls
+  507  head -n 20 people
+  508  grep "Annabel" people
+  509  grep Annabel people >> clues.txt
+  510  cat clues.txt
+  511  cd streets
+  512* history
+  513  head -n 40 Hart_Place | tail -n 1
+  514  cd ..
+  515  cd interviews
+  516  cat interview-47246024
+  517  cd ..
+  518  cd streets
+  519  head -n 179 Buckingham_Place | tail -n 1
+  520  cd ..
+  521  cd interviews
+  522  cat interview-699607
+  523  cd ..
+  524  cd streets
+  525  head -n 179 Buckingham_Place | tail -n 1 >> clues.txt
+  526  cat clues.txt
+  527  rm -rf clues.txt
+  528  ls
+  529  cd ..
+  530  head -n 179 Buckingham_Place | tail -n 1 >> clues.txt
+  531  head -n 179 streets/Buckingham_Place | tail -n 1 >> clues.txt
+  532  cat clues.txt
+  533  cat interviews/interview-699607 >> clues.txt
+  534  cat clues.txt
+  535  head -n 20 vehicles
+  536  man grep
+  537  cat vehicles | grep -A 5 "L337"
+  538  cat vehicles | grep -A 5 "L337" | grep -A 1 -B 4 Honda
+  539  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda
+  540  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 blue
+  541  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue
+  542  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 6'
+  543  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 "6'"
+  544  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 "6'" >> clues.txt
+  545  cat clues.txt
+  546  cd memberships
+  547  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens" | grep "Joe Germuska" | grep "Jeremy Bowers" | grep "Jacqui Maher"
+  548* ls
+  549* open cheatsheet.pdf
+  550  cd ..
+  551  grep "Jeremy Bowers" people >> clues.txt
+  552  grep "Jeremy Bowers" people
+  553  head -n 284 streets/Dunstable_Road | tail -n 1
+  554  head -n 284 streets/Dunstable_Road | tail -n 1 >> clues.txt
+  555  cd interviews
+  556  cat interview-9620713
+  557  cd ..
+  558  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens", "Joe Germuska"
+  559  cd memberships
+  560  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens", "Joe Germuska"
+  561  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+  562  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  563  head -250 history
+  564  ..
+  565  head -n 250 history
+  566  -n 250 history
+  567  history tail +150
+  568  history
+  569  cd memberships
+  570  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  571  cd ..
+  572  grep "Jeremy Bowers" people
+  573  head -n 284 streets/Dunstable_Road | tail -n 1
+  574  cat interviews/interview-9620713
+
+  Killer: Jeremy Bowers
