@@ -1,0 +1,812 @@
+    1  git config --list
+    2  git --version
+    3  ^V
+    4  clear
+    5  git config pull.rebase true
+    6  # optional: set the default git editor to be vscode to aviod getting stuck in vim
+    7  git config --global core.editor 'code -w'
+    8  git config --global push.default simple
+    9  exit
+   10  sudo apt install zsh
+   11  chsh -s(which zsh)
+   12  clear
+   13  sudo apt install zsh
+   14  chsh -s $(which zsh)
+   15  clear
+   16  chsh -s $(which zsh)
+   17  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   18  exit .
+   19  ls
+   20  ls -a
+   21  git --version
+   22  brew install git
+   23  install git
+   24  clear
+   25  cd
+   26  ls
+   27  ls -a
+   28  clear
+   29  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+   30  ssh-keygen -t ed25519 -C "feumatthewher2@gmail.com"
+   31  ls
+   32  ;s -a
+   33  ls -a
+   34  cs .ssh
+   35  cd .ssh
+   36  ls
+   37  cd
+   38  $ eval "$(ssh-agent -s)"
+   39  > Agent pid 59566
+   40  eval "$(ssh-agent -s)"
+   41  > Agent pid 59566
+   42  $ eval "$(ssh-agent -s)"
+   43  > Agent pid 59566
+   44  $ ssh-add ~/.ssh/id_ed25519
+   45  ssh-add ~/.ssh/id_ed25519
+   46  ssh-keygen -t ed25519-sk -C "feumatthewher2@gmail.com"
+   47  key
+   48  sh-keygen -t ecdsa-sk -C "feumatthewher2@gmail.com"
+   49  ssh-keygen -t ed25519-sk -C "feumatthewher2@gmail.com"
+   50  $ ssh-keygen -t ed25519-sk -C "feumatthewher2@gmail.com"
+   51  $ ssh-keygen -t ecdsa-sk -C "feumatthewher2@gmail.com"
+   52  ssh-keygen -t ecdsa-sk -C "feumatthewher2@gmail.com"
+   53  ssh-keygen -t ed25519 -C "feumatthewher2@gmail.com"
+   54  git version
+   55  clear
+   56  git config --list
+   57  git config user.name
+   58  git config user.email
+   59  git --version
+   60  # rebase by default on pull
+   61  git config pull.rebase true
+   62  # optional: set the default git editor to be vscode to aviod getting stuck in vim
+   63  git config --global core.editor 'code -w'
+   64  git config --global push.default simple
+   65  sudo apt install zsh
+   66  M@tthewhe1
+   67  sudo apt install zsh
+   68  chsh -s $(which zsh)
+   69  clear
+   70  # Run this command instead if you're using Zsh
+   71  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   72  nvm --version
+   73  # Run this command instead if you're using Zsh
+   74  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   75  nvm --version
+   76  nvm install --lts
+   77  nvm use --lts
+   78  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+   79  clear
+   80  git config user.name
+   81  git config user.email
+   82  git --version
+   83  code .
+   84  clear
+   85  cd
+   86  code .
+   87  clear
+   88  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+   89  # Run this command instead if you're using Zsh
+   90  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   91  clear
+   92  nvm --version
+   93  # Run this command instead if you're using Zsh
+   94  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   95  nvm version
+   96  nvm --version
+   97  npm --version
+   98  code
+   99  clear
+  100  pwd
+  101  cd home
+  102  cd /home
+  103  ls
+  104  cd
+  105  ls
+  106  ls -a
+  107  ls
+  108  pwd
+  109  ls
+  110  ls -a
+  111  cd /home
+  112  ls
+  113  ls -a
+  114  pwd
+  115  cd feuher
+  116  ls
+  117  cd /home
+  118  cd /home/feuher
+  119  ls
+  120  ls -a
+  121  cd
+  122  pwd
+  123  clear
+  124  pwd
+  125  ls
+  126  cd A
+  127  ls
+  128  clear
+  129  pwd
+  130  ls
+  131  ls -a
+  132  nvm version
+  133  .nvm version
+  134  clear
+  135  pwd
+  136  ls
+  137  LS
+  138  ls
+  139  cd Agent
+  140  ls -a
+  141  cd Agent
+  142  cd .nvm
+  143  cd
+  144  clear
+  145  pwd
+  146  cd /home/feuher
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd feuher
+  151  ls
+  152  pwd
+  153  ls
+  154  cd
+  155  ls
+  156  pwd
+  157  cd home
+  158  cd /home
+  159  ls
+  160  cd ..
+  161  ls
+  162  ls cd
+  163  cd
+  164  clear
+  165  ls -a
+  166  clear
+  167  man ls
+  168  man cd
+  169  ls -l
+  170  clear
+  171  ls -l
+  172  man ls
+  173  ls ib
+  174  ls -b
+  175  ls
+  176  man ls
+  177  ls -ALL
+  178  man ls
+  179  ls -A
+  180  man ls
+  181  clear
+  182  ls -h
+  183  ls -a
+  184  ls -A
+  185  clear
+  186  ls
+  187  clear
+  188  -v
+  189  ls -v
+  190  brew -v
+  191  clear
+  192  pwd
+  193  cd Desk
+  194  cd
+  195  clear
+  196  cd
+  197  mkdir seir-1114
+  198  ls
+  199  cd seir-1114
+  200  ls
+  201  mkdir unit1
+  202  ls
+  203  cd unit1
+  204  ls
+  205  pwd
+  206  l
+  207  s
+  208  ls
+  209  cd
+  210  ls
+  211  clear
+  212  ls
+  213  cd we
+  214  cd seir-1114
+  215  ls
+  216  cd unit1
+  217  ls
+  218  clear
+  219  mkdir cli-intro
+  220  cd cli-intro
+  221  cd
+  222  cd seir-1114/unit1/cli-intro
+  223  cd
+  224  ls
+  225  cd seir-1114/unit1/cli-intro
+  226  ls
+  227  cd
+  228  cd seir-1114
+  229  cd unit1
+  230  ls
+  231  cd cli-intro
+  232  touch my-site.html
+  233  ls
+  234  cd my
+  235  ls
+  236  explorer.exe
+  237  explorer
+  238  explorer.exe
+  239  code .
+  240  ls
+  241  mkdir one two
+  242  touch one/notes.txt/script.js
+  243  ls
+  244  touch one/notes.txt two/script.js
+  245  ls
+  246  cd one
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd two
+  251  ls
+  252  cd ..
+  253  ls
+  254  ls -R
+  255  man ls
+  256  mv my-site.html one/my-site.html
+  257  ls
+  258  cd one
+  259  ls
+  260  cd ..
+  261  ls
+  262  mv one/my-site.html
+  263  mv one/my-site.html my-site.html
+  264  ls
+  265  ls two
+  266  cp two/script.js one/script.js
+  267  ls
+  268  ls -R
+  269  rm my-site.html
+  270  ls
+  271  man -r
+  272  man r
+  273  man rm
+  274  clear
+  275  ls
+  276  rm -rf one
+  277  ls
+  278  rm -rfv two
+  279  ls
+  280  man rm
+  281  touch books.txt
+  282  ls
+  283  code .
+  284  ls
+  285  code .
+  286  ls -R
+  287  ls -r
+  288  clear
+  289  ls
+  290  cat bookt.txt
+  291  cat books.txt
+  292  grep mill books.txt
+  293  grep Mill books.txt
+  294  cat books.txt
+  295  cat books.txt | grep Mill
+  296  head -n 5 books.txt
+  297  head -n 5 books.txt | grep Mill
+  298  clear
+  299  ls
+  300  cat books.txt
+  301  echo "new book" >> books.txt
+  302  cat books.txt
+  303  echo "goodbye books" > books.txt
+  304  cat books.txt
+  305  history > lesson.txt
+  306  ls
+  307  cat lesson.txt
+  308  code .
+  309  history | tail -n 200
+  310  history | tail -n 150
+  311  history -e
+  312  history -E
+  313  clear
+  314  cd
+  315  pwd
+  316  clear
+  317  cd
+  318  clear
+  319  ls
+  320  cd seir-1114
+  321  ls
+  322  cd unit1
+  323  mkdir git-intro
+  324  ls
+  325  cd git-intro
+  326  touch index.html
+  327  ;s
+  328  ls
+  329  git init
+  330  ls
+  331  cd
+  332  ls
+  333  cd seir-1114
+  334  ls
+  335  cd unit1
+  336  ls
+  337  cd git-intro
+  338  rm -rf .git
+  339  clear
+  340  git init
+  341  ls
+  342  git status
+  343  git add .
+  344  git status
+  345  git commit -m "adds index.html to the project"
+  346  git status
+  347  git log
+  348  ls
+  349  touch style.css script.js
+  350  ls
+  351  git status
+  352  git add .
+  353  git status
+  354  git commit -m "added css and js files"
+  355  git status
+  356  git remote add origin https://github.com/fmher/test-repo.git
+  357  git branch -M main
+  358  git push -u origin main
+  359  git remote add origin https://github.com/fmher/test-repo.git
+  360  git branch -M main
+  361  clear
+  362  git remote add origin https://github.com/fmher/test-repo.git
+  363  git branch -M main
+  364  git push -u origin main
+  365  git remote add origin https://github.com/fmher/test-repo.git
+  366  git branch -M main
+  367  git push -u origin main
+  368  clear
+  369  git remote add origin https://github.com/fmher/test-repo.git
+  370  git branch -M main
+  371  git push -u origin main
+  372  remote: Support for password authentication was removed on August 13, 2021.
+  373  remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories\#cloning-with-https-urls for information on currently recommended modes of authentication.
+  374  clear
+  375  git remote add origin https://github.com/fmher/test-repo.git
+  376  git branch -M main
+  377  git push -u origin main
+  378  clear
+  379  git remote add origin https://github.com/fmher/test-repo.git
+  380  git branch -M main
+  381  git push -u origin main
+  382  cd ..
+  383  ls
+  384  git clone https://github.com/fmher/command-line-murder-mystery.git
+  385  ls
+  386  cd command-line-murder-mystery
+  387  ls
+  388  cat instructions
+  389  ls
+  390  cd ..
+  391  ls
+  392  cd git-intro
+  393  code .
+  394  cd .
+  395  cd cli
+  396  ls
+  397  cd ..
+  398  ls
+  399  cd cli-intro
+  400  ls
+  401  code .
+  402  cd ..
+  403  ls
+  404  cd command-line-murder-mystery
+  405  ls
+  406  cd LICENSE
+  407  cat LICENSE
+  408  cat instructions
+  409  ls
+  410  cd mystery
+  411  ls
+  412  cat crimescene
+  413  ls
+  414  cat crimescene | grep CLUE
+  415  cat interviews | grep CLUE
+  416  cat people | grep CLUE
+  417  cat vehicles | grep CLUE
+  418  cat vehicles| grep CLUE
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd ..
+  423  ls
+  424  cd command-line-murder-mystery
+  425  mkdir solution.txt
+  426  ls
+  427  cd solution.txt
+  428  code .
+  429  cd ..
+  430  rm solution.txt
+  431  rm -rf solution.txt
+  432  ls
+  433  mkdir solutions
+  434  cd solutions
+  435  touch solution.txt
+  436  ls
+  437  code .
+  438  ls
+  439  git status
+  440  cd ..
+  441  ls
+  442  cd mystery
+  443  ls
+  444  cat crimescene
+  445  cat crimescene | grep CLUE
+  446  LS
+  447  ls
+  448  cat interviews | grep CLUE
+  449  cd interviews
+  450  ls
+  451  cat interviews | grep CLUE
+  452  grep CLUE
+  453  cat interviews
+  454  -n 10000 | grep CLUE
+  455  cd ..
+  456  head -n 1000 interviews | grep CLUE
+  457  cat interviews
+  458  ls
+  459  cd interviews
+  460  cat interview -n 5
+  461  head -n 5 interview-
+  462  cd ..
+  463  head -n 5 interviews
+  464  ls
+  465  cd interviews
+  466  code .
+  467  grep CLUE
+  468  cat 
+  469  ls
+  470  cd ..
+  471  ls
+  472  head -n 20 people
+  473  ls
+  474  head -n 20 people
+  475  head -n 1000 people
+  476  head -n 1000000 people
+  477  head -n 20 people
+  478  head -n 20 people | grep Annabel
+  479  ls
+  480  cd streets
+  481  ls
+  482  grep  Walton Street
+  483  ls
+  484  cd ../
+  485  head -n 20 people
+  486  ls
+  487  head -n 20 streets
+  488  head -n 20 people
+  489  cd peopl
+  490  ls
+  491  head -n 20 people | A
+  492  head -n 20 people | grep A
+  493  head -n 20 people | grep Anna
+  494  head -n  people | grep AnnaBel
+  495  head -n 10000 people | grep AnnaBel
+  496  head -n 10000 people | grep Anna
+  497  head -n 10000 people | grep Annabel
+  498  ls
+  499  cd interviews
+  500  ls
+  501  cat interview-
+  502  grep CLUE
+  503  grep a
+  504  grep Annabel
+  505  head -n 1000 | grep Annabel
+  506  head -n 1000 interveiw | grep Annabel
+  507  ls
+  508  cd ..
+  509  ls
+  510  cat vehicles
+  511  head -n 10000  | grep Height
+  512  cat vehicles
+  513  grep Height
+  514  ls
+  515  head n- 1000 vehicles | grep Annabel
+  516  head -n 1000 vehicles | grep Annabel
+  517  head -n 1000 vehicles 
+  518  head -n 1000 vehicles | grep An
+  519  head -n 1000 vehicles | grep Anna
+  520  ls
+  521  head -n 173 streets/Mattapan_Street | tail -n 1
+  522  head -n 1000 interveiw | grep Annabel
+  523  head -n  people | grep AnnaBel
+  524  ls
+  525  cd streets
+  526  ls
+  527  cd ..
+  528  ls
+  529  head -n 1000 people | grep AnnaB
+  530  head -n 1000 people | grep Annab
+  531  head -n 1000 people | grep Annabel
+  532  head -n 100000 people | grep Annabel
+  533  head -n 10000000 people | grep Annabel
+  534  head -n 100000000000000 people | grep Annabel
+  535  head -n 10000000000000000000000000 people | grep Annabel
+  536  head -n 10000000000000000000000 people | grep Annabel
+  537  head -n 1000000000000000000 people | grep Annabel
+  538  ls
+  539  cd streets
+  540  ls
+  541  cat Abbot_Street
+  542  cd ..
+  543  ls
+  544  cd interviews
+  545  ls
+  546  cd ..
+  547  head -n 1000000000000000000 interviews | grep Annabel
+  548  ls
+  549  head -n 1000000000000000000 interviews | grep Annabel
+  550  head -n 173 streets/Mattapan_Street | tail -n 1
+  551  ls
+  552  cd interviews
+  553  cd INTERVIEW #9437737
+  554  ls
+  555  cat INTERVIEW #9437737
+  556  cat interview-9437737
+  557  code .
+  558  ls
+  559  cd ..
+  560  ls
+  561  head -n 173 streets/Hart_Place | tail -n 1
+  562  head -n 173 streets/Hart_Place
+  563  ls
+  564  head -n 173 streets/Hart_Place | tail -n 1
+  565  head -n 173 streets/Hart_Place | tail -n 2
+  566  head -n 1 streets/Hart_Place | tail -n 2
+  567  head -n 1 streets/Hart_Place | tail -n 10000
+  568  head -n 9999 streets/Hart_Place | tail -n 1
+  569  head -n 173 streets/Hart_Place | tail -n 2
+  570  head -n 173 streets/Mattapan_Street | tail -n 1
+  571  head -n 173 streets/Buckingham_Place | tail -n 1
+  572  head -n streets/Buckingham_Place 
+  573  head -n 100000 streets/Buckingham_Place 
+  574  ls
+  575  cat interview-9437737
+  576  cd interviews
+  577  cat interview-9437737
+  578  cat interview-699607
+  579  ls
+  580  cd ..
+  581  ls
+  582  grep "Honda" vehicles
+  583  grep "L337" vehicles
+  584  ls
+  585  grep "Anna" vehicles
+  586  grep "License Plate L337ZR9" vehicles
+  587  grep "AnnaBel" vehicles
+  588  grep "Annabel" vehicles
+  589  grep -A 5 "L337" mystery/vehicles
+  590  grep -A 5 "L337" mystery
+  591  grep nA 5 "L337" mystery
+  592  grep -n 5 "L337" mystery
+  593  grep -n 5 "honda" mystery
+  594  grep -n 5 "honda" mystery/vehicles
+  595  grep -n 5 "honda" vehicles
+  596  grep Annabel, "honda" vehicles
+  597  grep Annabel | "honda" vehicles
+  598  grep Annabel | vehicles
+  599  grep Annabel vehicles
+  600  grep "Owner: Annabel" vehicles
+  601  cat vehicles
+  602  grep -A 5 "L337" mystery/vehicles
+  603  grep -b 5 "L337" mystery/vehicles
+  604  grep -B 5 "L337" mystery/vehicles
+  605  grep -C 5 "L337" mystery/vehicles
+  606  grep -D5 "L337" mystery/vehicles
+  607  grep -D 5 "L337" mystery/vehicles
+  608  grep -D 5 "L337" mystery
+  609  ls
+  610  head -n 5 vehicles | grep L337
+  611  head -n 5 vehicles | grep "L337"
+  612  grep "Annabel" people
+  613  cat vehicles | grep "Annabel" 
+  614  cat vehicles | grep Anna
+  615  cat vehicles 
+  616  ls
+  617  grep License Plate L337ZR9 vehicles
+  618  ls
+  619  cd interviews
+  620  ls
+  621  cat interview-9437737
+  622  ls
+  623  cd ..
+  624  ls
+  625  cd vec
+  626  cat vehicles 
+  627  cat vehicles | grep License Plate L337ZR9
+  628  cat vehicles | grep L337ZR9
+  629  grep License Plate L337ZR9
+  630  L337ZR9
+  631  grep L337ZR9
+  632  head -n 6 vehicles | grep L337ZR9
+  633  head -n 6 vehicles grep L337ZR9
+  634  head -n 6 vehicles 
+  635  head -n 6 vehicles grep L337ZR9
+  636  head -n 6 vehicles L337ZR9
+  637  head -n L337ZR9
+  638  head -n L337ZR9 vehicles
+  639  grep -C 3 -x "Blue" vehicles
+  640  head -n 173 streets/Mattapan_Street | tail -n 1
+  641  clear
+  642  ls
+  643  cat vehicles| grep Annabel
+  644  grep Annabel
+  645  grep Annabel vehicles
+  646  cat vehicles| grep Annabel
+  647  cat vehicles| grep honda
+  648  cat vehicles| grep "honda"
+  649  head -n 5 vehicles| prep "Honda"
+  650  head -n 5 vehicles| prep "L337ZR9"
+  651  head -n 5 vehicles| prep L337ZR9
+  652  vehicles| prep L337ZR9
+  653  cat vehicles| prep L337ZR9
+  654  cat vehicles
+  655  grep L337ZR9
+  656  grep L337ZR9 vehicles
+  657  head -n 100000000000000 vehicles | grep Annabel
+  658  head -n 100000000000000 vehicles | grep Licensse
+  659  head -n 100000000000000 vehicles | grep License
+  660  head -n 100000000000000 vehicles | grep License Plate L337ZR9
+  661  vehicles grep License Plate L337ZR9
+  662  cat vehicles grep License Plate L337ZR9
+  663  cat vehicles grep honda
+  664  cat vehicles grep "honda"
+  665  vehicles grep "honda"
+  666  clear
+  667  ls
+  668  grep "Annabel" people
+  669  head vehicles
+  670  head vehicles grep "Anna"
+  671  head vehicles | grep "Anna"
+  672  head people
+  673  head -n 10  people
+  674  head -n 10000000 people | grep "Annabel"
+  675  cat vehicles
+  676  head -n 10000000 people | grep "Annabel"
+  677  head -n 1000000 vehicles| grep "Annabel"
+  678  grep "Annabel" people
+  679  grep "Annabel" vehicles
+  680  head -n 173 streets/Mattapan_Street | tail -n 1
+  681  head -n 172 streets/Mattapan_Street | tail -n 1
+  682  head -n 171 streets/Mattapan_Street | tail -n 1
+  683  ls
+  684  cat streets
+  685  cd streets
+  686  cat
+  687  ls
+  688  cat Abbot_Street
+  689  ls
+  690  code .
+  691  ls
+  692  cd ..
+  693  head -n 40 streets/Hart_Place | tail -n 1
+  694  ls
+  695  cd interviews
+  696  ls
+  697  cat interview-47246024
+  698  ls
+  699  cd ..
+  700  ls
+  701  head -n 40 streets/Hart_Place | tail -n 1
+  702  head -n 179 streets/Buckingham_Place | tail -n 1
+  703  head -n 173 streets/Mattapan_Street | tail -n 1
+  704  head -n 176 streets/Haley_Street| tail -n 1
+  705  ls
+  706  cd interviews
+  707  ls
+  708  cat interview-699607
+  709  cat interview-9437737
+  710  cat interview-871877
+  711  cd ..
+  712  head -n 179 streets/Buckingham_Place | tail -n 1
+  713  ls
+  714  head -n 179 streets/Buckingham_Place | tail -n 1
+  715  grep "Honda" vehicles
+  716  \tgrep "Blue" vehicles
+  717  \tgrep "L337" vehicles
+  718  grep "Honda" vehicles
+  719  rep "Blue" vehicles
+  720  grep "Blue" vehicles
+  721  grep "L337" vehicles
+  722  grep -A 5 "L337" mystery/vehicles
+  723  grep -A 5 "L337" vehicles
+  724  grep -A 5 "L337QE9" vehicles
+  725  grep -A 5 "L337DV9" vehicles
+  726  grep -A 5 "L3375A9" vehicles
+  727  grep -A 5 "L337WR9" vehicles
+  728  ls
+  729  cd memberships
+  730  ls
+  731  cd ..
+  732  ls
+  733  grep "CLUE" crimescene
+  734  ld
+  735  ls
+  736  cd memberships
+  737  ls
+  738  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History
+  739  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "\n\n\n\n\nq\nErika Owens\n\n\n
+  740  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep
+  741  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Erika Owens"
+  742  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska"
+  743  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe"
+  744  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+  745  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Jacqui Maher"
+  746  LS
+  747  ls
+  748  cd ..
+  749  ls
+  750  cd ..
+  751  ls
+  752  git status
+  753  git add .
+  754  git commit -m "Added solution folder with solution.txt file with answer"
+  755  git status
+  756  git push
+  757  ls
+  758  cd mystery
+  759  ls
+  760  cd memberships
+  761  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep "Joe Germuska" | wc -1
+  762  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Joe Germuska"
+  763  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  764  git status
+  765  git add .
+  766  git commit "adjusted answer to correct solution"
+  767  git commit -m "changed answer to correct one"
+  768  git status
+  769  git add .
+  770  git commit -m "fixed answer"
+  771  git status
+  772  clear
+  773  git status
+  774  ls
+  775  cd ../..
+  776  ls
+  777  git status
+  778  git add .
+  779  git status
+  780  git commit -m"adjusted answer"
+  781  git status
+  782  git push 
+  783  clear
+  784  git status
+  785  ls
+  786  code .
+  787  git status
+  788  git add .
+  789  git commit -m "adjusted answer with explaination"
+  790  git status
+  791  git push 
+  792  exit
+  793  cd
+  794  exit 
+  795  exit .
+  796  ls
+  797  cd seir-1114
+  798  ls
+  799  cd unit1
+  800  ls
+  801  cd command-line-murder-mystery
+  802  ls
+  803  cd mystery
+  804  grep Annabel people
+  805  ls
+  806  cd memberships
+  807  ls
+  808  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library| grep "Jeremy Bowers"
+  809  cd ..
+  810  git status
+  811  cd ..
+  812  pwd
