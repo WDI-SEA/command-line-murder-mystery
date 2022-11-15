@@ -1,0 +1,407 @@
+over 6' tall
+member at AAA, Delta Skymiles, library and museum
+
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+    1  ls
+    2  pwd
+    3  git --version
+    4  open ~/.zshrc
+    5  cd ..
+    6  code . -r
+    7  node --version
+    8  npm -v
+    9  sudo chown -R $USER /usr/local/lib\n
+   10  clear
+   11  cd js_practice
+   12  code . -r
+   13  python3 --version
+   14  pip3 --version\n
+   15  brew --version
+   16  brew doctor
+   17  brew --version
+   18  git --version
+   19  cd
+   20  cd ..
+   21  ls
+   22  cd Users
+   23  ls
+   24  cd jaywomack
+   25  ls
+   26  cd
+   27  pwd
+   28  cd
+   29  ls
+   30  cd code
+   31  ls
+   32  cd ga
+   33  ls
+   34  code . -r
+   35  d
+   36  clear
+   37  cd ..
+   38  code . -r
+   39  clear
+   40  echo "Creating a new file" > newFile.txt
+   41  cat newFile.txt
+   42  echo "writing and appending" > newFile.txt
+   43  echo newFile.txt
+   44  cat newFile.txt
+   45  echo "To append to ta file you have to use the >> to be able to write something" >> newFile.txt
+   46  cat newFile.txt
+   47  echo "To append to ta file you have to use the >> to be able to write something" > newFile.txt
+   48  echo newFile.txt
+   49  cat newFile.txt
+   50  echo "add something" >> cat newFile.txt
+   51  cat newFile.txt
+   52  clear
+   53  echo "jay file" > jay.txt
+   54  cat jay.txt
+   55  echo " \n add a line" >>jay.txt
+   56  cat jay.txt
+   57  pwd
+   58  mv jay.txt ~/code/ga/js_practice
+   59  cd js_practice
+   60  ls
+   61  mv jay.txt jay.txt ~/code/ga
+   62  cd ..
+   63  cp jay.txt ./js_practice
+   64  cd js_practice
+   65  ls
+   66  rm -r jay.txt
+   67  cat ja
+   68  cd ..
+   69  ls
+   70  clear
+   71  ls
+   72  cat jay.txt
+   73  cat jay.txt | grep lin
+   74  cd ..
+   75  ls
+   76  rm -rf ga
+   77  mkdir general_assembly
+   78  mkdir unit1/cli_intro
+   79  mkdir unit1
+   80  cd unit1
+   81  mkdir cli_intro
+   82  ls
+   83  cd cli_intro
+   84  code . -r
+   85  touch index.html app.js styles.css
+   86  rm -rf index.html app.js styles.css
+   87  cd
+   88  brew install tree\n
+   89  tree
+   90  cd code/general_assembly
+   91  tree
+   92  ls
+   93  cd ..
+   94  ls
+   95  rm -rf unit1
+   96  cd general_assembly
+   97  mkdir unit1
+   98  cd unit1
+   99  mkdir cli_intro
+  100  cd cli_intro
+  101  tree
+  102  cd ..
+  103  tree
+  104  cd ..
+  105  tree
+  106  code --help
+  107  ls
+  108  cd unit1
+  109  cd cli_intro
+  110  touch books.txt
+  111  ls
+  112  cd ..
+  113  tree
+  114  cd
+  115  brew install tldr
+  116  tldr history
+  117  ls
+  118  cd code
+  119  ls
+  120  cd general_assembly
+  121  ls
+  122  cd unt
+  123  cd unit1/cli_intro
+  124  ls
+  125  cd ..
+  126  mkdir git_intro
+  127  ls
+  128  cd git_intro
+  129  ls
+  130  clear
+  131  touch index.html
+  132  ls
+  133  git init
+  134  git config --global init.defaultBranch main
+  135  git branch -m main
+  136  cd ..
+  137  mkdir test
+  138  cd test
+  139  git init
+  140  git --version
+  141  cd
+  142  cd code/nerdbrainz_yard_barbershop
+  143  cd ~
+  144  cd ..
+  145  cd
+  146  cd code/general_assembly
+  147  ls
+  148  cd unit1
+  149  cd git_intro
+  150  cd ..
+  151  ls
+  152  rm -rf git_intro
+  153  mkdir git_intro
+  154  ls
+  155  cd git_intro
+  156  ls
+  157  rm -rf ../test
+  158  l
+  159  git init
+  160  ls
+  161  clear
+  162  ls -la
+  163  tldr git status
+  164  tree
+  165  cd ..
+  166  tree
+  167  cd ..
+  168  tree
+  169  tldr git add
+  170  ls
+  171  cd unit1
+  172  ls
+  173  cd git_intro
+  174  git clone 'https://github.com/WDI-SEA/command-line-murder-mystery.git'
+  175  ls
+  176  cd command-line-murder-mystery
+  177  code . -r
+  178  ls
+  179  cat hint1
+  180  cat instructions
+  181  cd ..
+  182  ls
+  183  rm -rf command-line-murder-mystery
+  184  cd ..
+  185  rm -rf git_intro
+  186  ls
+  187  rm -rf cli_intro
+  188  clear
+  189  git clone https://github.com/Jaywomack/command-line-murder-mystery.git
+  190  cd command-line-murder-mystery
+  191  code . -r
+  192  ls
+  193  cat instructions
+  194  ls
+  195  cd mystery
+  196  ls
+  197  cat crimescene
+  198  cat hint1
+  199  cd ..
+  200  cat hint1
+  201  cat hint2
+  202  grep "murderer"
+  203  / grep murderer
+  204  / grep "murderer"
+  205  ./ grep "murderer"
+  206  cat hint1
+  207  head -n 20 people
+  208  head -n 20 /mystery/people
+  209  cd mystery
+  210  ls
+  211  head -n 20 people
+  212  cd ..
+  213  cat hint2
+  214  grep "CLUE" crimescene
+  215  ls
+  216  cd mystery
+  217  ls
+  218  grep "CLUE" crimescene
+  219  echo "over 6' tall \n" >> answer.txt
+  220  ls
+  221  cd ..
+  222  cat hint3
+  223  cat hint4
+  224  cat hint5
+  225  cd mystery
+  226  head -n 173 streets/Mattapan_Street | tail -n 1
+  227  ls
+  228  cd interviews
+  229  ls
+  230  cd ..
+  231  head -n 173 streets/Mattapan_Street | tail -n 1
+  232  cd interviews/#9437737
+  233  cat interviews/#9437737
+  234  cat interviews/interview-9437737
+  235  cd ..
+  236  hint6
+  237  cd ..
+  238  hint7
+  239  cat hint7
+  240  ls
+  241  cd command-line-murder-mystery
+  242  cat hint7
+  243  grep -A 5 "L337" mystery/vehicles
+  244  cat hint2
+  245  grep 
+  246  grep "CLUE" mystery/crimescene
+  247  ls
+  248  mv ./mystery/answer.txt ./answer.txt
+  249  ls
+  250  cat answer.txt
+  251  echo "\n member at AAA, Delta Skymiles, library and museum" >> answer.txt
+  252  cat answer.txt
+  253  cat hint3
+  254  head mystery/people
+  255  head 10 mystery/people
+  256  head 10 mystery/vehicles
+  257  grep 
+  258  grep "Anna" mystery/people
+  259  sed -n 40p mystery/streets/Hart_Place
+  260  cat mystery/interviews/interview-47246024
+  261  sed -n 173p mystery/streets/Mattapan_Street
+  262  cat mystery/interviews/interview-9437737
+  263  sed -n 179p mystery/streets/Buckingham_Place
+  264  cat mystery/interviews/interview-699607
+  265  tree
+  266  cat hint5
+  267  cat hint6
+  268  cat hint7
+  269  grep -A 5"L337" mystery/vehicles
+  270  grep -A 5 "L337" mystery/vehicles
+  271  cat hint8
+  272  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  273  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" mystery/memberships/
+  274  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%
+  275  cd ..
+  276  ls
+  277  cd unit1
+  278  ls
+  279  mkdir twitter_clone
+  280  cd twitter_clone
+  281  code . -r
+  282  touch index.html app.js index.scss
+  283  cd code/
+  284  mkdir test
+  285  echo "1" > testfile.txt
+  286  cat testfile.txt
+  287  echo -e "2\n$(cat testfile.txt)" > testfile.txt
+  288  cat testfile.txt
+  289  echo -e "3\n$(cat testfile.txt)" > testfile.txt
+  290  cat testfile.txt
+  291  tldr touch
+  292  npm init
+  293  node app.js
+  294  cd ..
+  295  ls
+  296  cd command-line-murder-mystery
+  297  code . -r
+  298  cd ..
+  299  ls
+  300  cd command-line-murder-mystery
+  301  cat hint1
+  302  head -n 20 people
+  303  head -n 20 ./mystery/people
+  304  sed -n 173 mystery/people 
+  305  sed -n173 mystery/people 
+  306  sed -n '173' mystery/people 
+  307  sed -e 173 mystery/people
+  308  sed -e 173 mystery/streets/Mattapan_Street
+  309  sed -n '173p' mystery/streets/Mattapan_Street 
+  310  cat hint2
+  311  grep "CLUE" mystery/crimescene
+  312  cat hint8
+  313  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  314  cd mystery/memberships
+  315  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  316  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  317  tldr grep -c
+  318  tldr grep
+  319  brew install tldr
+  320  cd ..
+  321  echo "\n Add new line" >> answer.md
+  322  ls -l
+  323  vim answer.md
+  324  cat answer.md
+  325  vim answer.md
+  326  cat answer.md
+  327  clear
+  328  hint8
+  329  cat hint8
+  330  cd mystery/memberships
+  331  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers" | wc -l%
+  332  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremey Bowers"
+  333  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  334  cd ..
+  335  cat hint5
+  336  cat hint6
+  337  cat hint7
+  338  grep -A 5 "L337" mystery/vehicles
+  339  grep -A 5 "L337" mystery/vehicles >> suspects.txt
+  340  grep -A 5 "Honda" mystery/vehicles
+  341  grep -A 5 "Honda" suspects.txt
+  342  grep -A 5 "Honda" suspects.txt > suspects.txt
+  343  grep -A 5 "Color: Blue\n" suspects.txt > suspects.txt
+  344  grep -A 5 "L337" mystery/vehicles >> suspects.txt
+  345  grep -A 5 "Color: Blue" suspects.txt > suspects.txt
+  346  grep -A 5 "L337" mystery/vehicles >> suspects.txt
+  347  grep -A 5 "Blue" mystery/vehicles >> suspects.txt
+  348  grep -A 5 "L337" mystery/vehicles >> suspects.txt
+  349  grep -A 5 "Blue" suspects.txt > suspects.txt
+  350  grep -A 5 "L337" mystery/vehicles >> suspects.txt
+  351  grep -A 5 "Blue" suspects.txt > suspects_blue.txt
+  352  cat hint8
+  353  cd mystery/memberships
+  354  cd ..
+  355  ls
+  356  cd twitter_clone
+  357  code . -r
+  358  cd ..
+  359  cd twitter_clone
+  360  ls
+  361  clear
+  362  cd ..
+  363  ls
+  364  git clone 'https://github.com/Jaywomack/css-airbnb.git'
+  365  ls
+  366  cd css-airbnb
+  367  code . -r
+  368  cd ..
+  369  ls
+  370  cd command-line-murder-mystery
+  371  clear
+  372  ls
+  373  cat hint1
+  374  head -n 20 people
+  375  head -n 20 mystery/people
+  376  history 100
+  377  grep history 200 | grep sed
+  378  grep history 200 
+  379  history 200 | grep sed
+  380  tldr sed
+  381  sed -n 40p mystery/streets/Hart_Place
+  382  cat mystery/interviews/interview-47246024
+  383  sed -n '173p' mystery/streets/Mattapan_Street
+  384  cat mystery/interviews/interview-9437737
+  385  sed -n '40p' mystery/streets/Buckingham_Place
+  386  sed -n '179p' mystery/streets/Buckingham_Place
+  387  cat mystery/interviews/interview-699607
+  388  history 100 | grep 'grep'
+  389  tldr ls
+  390  man grep
+  391  grep "Jeremy Bowers" mystery/people
+  392  sed -n '284p' mystery/streets/Dunstable_Road
+  393  cat mystery/interviews/interview-9620713
+  394  code . -r
+  395  cd ..
+  396  cd command-line-murder-mystery
+  397  code . -r
+  398  git add .
