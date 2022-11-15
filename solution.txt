@@ -1,0 +1,72 @@
+137  cat instructions
+  138  cd mystery
+  139  cat crimescene | grep CLUE
+  140  cd ..
+  141  touch solution.txt
+  142  cd mystery
+  143  ls -alh
+  144  cat people | grep AAA
+  145  cat people | grep Annabel
+  146  cat people | grep Annabel | most
+  147  sudo apt install most
+  148  cat people | grep Annabel | most
+  149  cat people | less
+  150  cd memberships
+  151  ls -alh
+  152  cat 1.txt | less
+  153  cat 2.txt | less
+  154  cat AAA | less
+  155  cat AAA | grep Annabel
+  156  cat Delta_SkyMiles | grep Annabel
+  157  cat Museum_of_Bash_History | grep Annabel
+  158  cat library.txt | grep Annabel
+  159  cat library.txt | less
+  160  cd ..
+  161  cd streets
+  162  ls -alh
+  163  cat -n Buckingham_Place | less
+  164  cd ..
+  165  cd interviews
+  166  ls -alh
+  167  cat interview-699607 | less
+  168  cd ..
+  169  ls -alh
+  170  cat vehicles | grep L337
+  171  cat vehicles | less
+  172  cat vehicles | grep -A 6 L337 | less
+  173  cat vehicles | grep -A 6 "L337*9 Make: Honda Color: Blue" | less
+  174  cat vehicles | pcgrep -A 6 "L337*9.*\n.*Make: Honda.*\n.*Color: Blue" | less
+  175  sudo apt install pcgrep
+  176  cat vehicles | pcregrep -A 6 "L337*9.*\n.*Make: Honda.*\n.*Color: Blue" | less
+  177  sudo apt install pcregrep
+  178  cat vehicles | pcregrep -M -A 6 "L337*9.*\n.*Make: Honda.*\n.*Color: Blue" | less
+  179  cat vehicles | pcregrep -M "L337*9.*\n.*Make: Honda.*\n.*Color: Blue" | less
+  180  cat vehicles | pcregrep -M "L337*9*Make: Honda*Color: Blue" | less
+  181  cat vehicles | grep -A 6 L337 | less > carsuspects.txt
+  182  cat carsuspects.txt | grep -A 6 Honda | less
+  183  cat carsuspects.txt | grep -A 6 Honda | > carsuspects2.txt
+  184  cat carsuspects2.txt | grep -A 6 Blue | less
+  185  cat carsuspects2.txt | grep -A 6 Height: 6 | less
+  186  cat carsuspects2.txt | grep -A 6 "Height: 6" | less
+  187  cat carsuspects2.txt | grep -A 6 Blue > carsuspects3.txt
+  188  cat carsuspects3.txt | grep -A 6 "Height: 6" | less
+  189  cat carsuspects2.txt | grep -A 6 Blue | less
+  190  cat carsuspects3.txt | grep -A 3 -B 1  "Height: 6" | less
+  191  cat carsuspects3.txt | grep -A 3 -B 1  "Height: 6"
+  192  cat people | grep Erika Owens
+  193  cat people | grep "Erika Owens"
+  194  cat people | grep "Germuska"
+  195  cat people | grep "Jeremy Bowers"
+  196  cat people | grep "Jacqui Maher"
+  197  cd streets
+  198  cat -n Trapelo_Street | less
+  199  cat ~/seir-1114/unit1/command-line-murder-mystery/mystery/interviews/interview-5455315
+  200  cat -n Plainfield_Street | less
+  201  cat ~/seir-1114/unit1/command-line-murder-mystery/mystery/interviews/interview-29741223
+  202  cat -n Dunstable_Road | less
+  203  cat ~/seir-1114/unit1/command-line-murder-mystery/mystery/interviews/interview-9620713
+  204  cat -n Andover_Road | less
+  205  cat ~/seir-1114/unit1/command-line-murder-mystery/mystery/interviews/interview-904020
+
+
+Jeremy Bowers
