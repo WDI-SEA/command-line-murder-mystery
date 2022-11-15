@@ -1,0 +1,653 @@
+    1  get --version
+    2  ws1 -1 -v
+    3  wsl --list --online
+    4  cd
+    5  ls
+    6  pwd
+    7  wsl --install
+    8  -d
+    9  wsl -1
+   10  which git
+   11  git config --list
+   12  sudo add-apt-repository ppa:git-core/ppa
+   13  sudo apt-get update
+   14  sudo apt-get upgrade
+   15  code
+   16  git --version
+   17  wsl -l -v
+   18  wsl --set-version Ubuntu-18.04 2
+   19  ^V
+   20  sh -c "$(curl -fsSL http://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   21  nvm --version
+   22  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   23  nvm --version
+   24  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+   25  nvm --version
+   26  ls
+   27  cd
+   28  ls
+   29  cd
+   30  pwd
+   31  ls
+   32  wsl --set-default-version Ubuntu-18.04 2
+   33  wsl --set-default-version Ubuntu18.04 2
+   34  ws1 --set-default-version Ubuntu-18.04 2
+   35  wsl --install
+   36  pwd
+   37  ls
+   38  cd New
+   39  cd LearnWSL
+   40  pwd
+   41  cd stc
+   42  cd home
+   43  ls
+   44  cd /home/stc
+   45  pwd
+   46  ls 
+   47  cd LearnWSL
+   48  ..
+   49  mkdir Work
+   50  ls
+   51  ls -a
+   52  cs .nvm
+   53  cd .nvm
+   54  ..
+   55  cd ..
+   56  pwd
+   57  cd /home/stc
+   58  man ls
+   59  ls -l
+   60  ls -lh
+   61  git --version
+   62  nvm --version
+   63  zsh --version
+   64  git -v
+   65  wsl --version
+   66  pwd
+   67  ls
+   68  cd
+   69  mkdir seir-1114
+   70  ls
+   71  \tcd seir-1114
+   72  ls
+   73  mkdir unit1
+   74  ls
+   75  cd unit1
+   76  .
+   77  ..
+   78  ls
+   79  cd seir-1114
+   80  cd unit1
+   81  pwd
+   82  mkdir cli-intro
+   83  cd cli-intro
+   84  cd
+   85  cd seir-1114/unit1
+   86  cd
+   87  pwd
+   88  cd seir-1114
+   89  cd
+   90  cd seir-1114
+   91  cd unit1
+   92  cd ..
+   93  ls
+   94  cd unit1
+   95  ls
+   96  cli-intro
+   97  mkdir one two
+   98  ls
+   99  touch my-site.html
+  100  ls
+  101  touch one/notes.txt
+  102  ls
+  103  cd one
+  104  ls
+  105  ..
+  106  touch two/script.js
+  107  ls
+  108  ls one
+  109  ls two
+  110  ls -R
+  111  cd
+  112  ls -R
+  113  cd seir-1114
+  114  cd unit1/cli-intro
+  115  mv my-site.html one/my-site.html
+  116  ls
+  117  ls /one /two
+  118  ls one two
+  119  ls two
+  120  cp two/script.js one/script.js
+  121  ls one two
+  122  mv ./my-site.html
+  123  ls
+  124  rm my-site.html
+  125  cd one
+  126  rm my-site.html
+  127  ls
+  128  cd
+  129  ls
+  130  rm New
+  131  ls
+  132  rm new
+  133  man rm
+  134  cd seir-1114
+  135  cd unit1
+  136  ls
+  137  cd cli-intro
+  138  rm -rf one
+  139  ls
+  140  rm -rfv two
+  141  ls
+  142  touch books.txt
+  143  ls
+  144  code .
+  145  ls
+  146  code .
+  147  cat books.txt
+  148  grep Mill books.txt
+  149  cat books.txt
+  150  cat books.txt | grep Mill
+  151  head -n books.txt
+  152  head -n 5 books.txt
+  153  head -n 5 books.txt | grep Mill
+  154  history
+  155  history | grep man
+  156  echo 
+  157  echo "hello world"
+  158  echo "new book" >> books.txt
+  159  ls
+  160  cat books.txt
+  161  echo "goodbye books" > books.txt
+  162  cat books.txt
+  163  code .
+  164  history >> lesson.txt
+  165  ls
+  166  cat lesson.txt
+  167  code. 
+  168  code .
+  169  history -e
+  170  cd
+  171  wsl --set-version Ubuntu-18.04 2
+  172  nvm --version
+  173  nvm install --lts
+  174  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+  175  nvm --version
+  176  nvm install --lts
+  177  nvm alias default node
+  178  # Create the file repository configuration:
+  179  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+  180  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+  181  sudo apt-get update
+  182  sudo apt-get -y install postgresql
+  183  sudo -u postgres pg_ctlcluster 13 main start
+  184  cd
+  185  pwd
+  186  cd seir-1114
+  187  cd unit1
+  188  mkdir git-intro
+  189  ls
+  190  clear
+  191  ls
+  192  cd git-intro
+  193  touch index.html
+  194  ls
+  195  git init
+  196  clear
+  197  cd
+  198  ls
+  199  pwd
+  200  git config --global init.defaultBranch main
+  201  git branch -m main
+  202  rm -rf .git
+  203  git init
+  204  rm -rf .git
+  205  cd seir-1114/unit1
+  206  cd git-intro/
+  207  rm -rf .git
+  208  git config --global init.defaultBranch main
+  209  ls
+  210  git init
+  211  pwd
+  212  cd
+  213  code .
+  214  git init
+  215  git branch -m main
+  216  git checkout main
+  217  cd
+  218  pwd
+  219  wsl --set-default-version 2
+  220  wsl -l -v
+  221  pwd
+  222  cd seir-1114/unit1
+  223  pwd
+  224  cd git-intro
+  225  git add index.html
+  226  git status
+  227  git commit
+  228  cd 
+  229  pwd
+  230  cd seir-1114/unit1/git-intro
+  231  git commit -m "adds index.html file to the  project"
+  232  git status
+  233  git log
+  234  touch styles.css script.js
+  235  ls
+  236  git status
+  237  git add .
+  238  git status
+  239  git commit -m 'adds css and js files'
+  240  git status
+  241  cd
+  242  git config --global user.name "SClemson49"
+  243  git config --global user.email "s.clemson49@gmail.com"
+  244  git config --global credential.helper cache
+  245  git config --list
+  246  git remote add origin https://github.com/SClemson49/test-repo.git
+  247  git branch -M main
+  248  clear
+  249  cd seir-1114
+  250  cd unit1/git-intro
+  251  ls
+  252  git remote add origin https://github.com/SClemson49/test-repo.git
+  253  git branch -M main
+  254  ..
+  255  cd git-intro
+  256  it remote add origin https://github.com/SClemson49/test-repo.git
+  257  git remote add origin https://github.com/SClemson49/test-repo.git
+  258  git branch -M master
+  259  clear
+  260  ls
+  261  git branch -M master
+  262  git push -u origin master
+  263  git remote add origin git@github.com:SClemson49/test-repo.git
+  264  git branch -M master
+  265  git push -u origin master
+  266  cd ..
+  267  https://github.com/SClemson49/command-line-murder-mystery.git
+  268  $ ssh-keygen -t ed25519 -C "s.clemson49@gmail.com"
+  269  clear
+  270  https://github.com/SClemson49/command-line-murder-mystery.git
+  271  clear
+  272  cd s
+  273  cd seir-1114/unit1/git-intro
+  274  https://github.com/SClemson49/command-line-murder-mystery.git
+  275  git@github.com:SClemson49/command-line-murder-mystery.git
+  276  cd seir-1114/unit1/git-intro
+  277  git@github.com:SClemson49/command-line-murder-mystery.git
+  278  git clone 
+  279  git clone git@github.com:SClemson49/command-line-murder-mystery.git
+  280  ls
+  281  cd seir-1114/unit1/git-intro
+  282  cd ..
+  283  rm -rf .git
+  284  cd seir-1114/unit1
+  285  git clone git@github.com:SClemson49/command-line-murder-mystery.git
+  286  cd ..
+  287  cd .ssh
+  288  ls
+  289  ls -a
+  290  cd ..
+  291  cd seir-1114/unit1
+  292  git clone https://github.com/SClemson49/command-line-murder-mystery.git
+  293  cd command-line-murder-mystery
+  294  cat instructions
+  295  git --version
+  296  wsl -l -v
+  297  git --version
+  298  which git
+  299  cd
+  300  pwd
+  301  which git
+  302  sudo add-apt-repository ppa:git-core/ppa
+  303  sudo apt-get update
+  304  sudo apt-get upgrade
+  305  git --version
+  306  git config --global init.defaultBranch main
+  307  clear
+  308  cd 
+  309  cd seir-1114/unit1/git-intro
+  310  ls
+  311  https://github.com/SClemson49/command-line-murder-mystery.git
+  312  cd..
+  313  cd ..
+  314  ls
+  315  C_1146.NLS clear
+  316  c
+  317  command-line-murder-mystery
+  318  ls
+  319  cd ..
+  320  ls
+  321  cd command-line-murder-mystery
+  322  ls
+  323  cat instructions
+  324  cat hint1
+  325  head -n 20 people
+  326  cd command-line-murder-mystery
+  327  head -n 20 people
+  328  cat crimescene
+  329  ls
+  330  cat interviews
+  331  cd interviews
+  332  ls
+  333  cd ..
+  334  cd hint2 
+  335  cat hint2
+  336  cat hint1
+  337  cat hint3
+  338  cat hint4
+  339  cat hint5
+  340  cd .. 
+  341  cd command-line-murder-mystery
+  342  ls
+  343  cat cheatsheet.pdf
+  344  cat cheatsheet.md
+  345  cd seir-1114/unit1/git-intro
+  346  ls
+  347  cd ..
+  348  ls
+  349  cd command-line-murder-mystery
+  350  ls
+  351  cd mystery
+  352  ls
+  353  grep "CLUES" interviews
+  354  cd interviews
+  355  grep "CLUES" interview-
+  356  grep "CLUES" interview
+  357  grep "CLUES" interviews
+  358  ls
+  359  cd ..
+  360  ls
+  361  nano cheatsheet.md
+  362  nano cheatsheet.pdf
+  363  ls
+  364  cat instructions
+  365  cat hint5
+  366  cat hint6
+  367  ls
+  368  cd mystery
+  369  ls
+  370  grep "CLUE" interviews
+  371  cd interviews
+  372  grep "CLUE" interview-
+  373  grep "CLUE" interviewd
+  374  grep "CLUE" interviews
+  375  ls
+  376  grep "CLUE"
+  377  cd seir-1114/unit1
+  378  ls
+  379  cd command-line-murder-mystery
+  380  ls
+  381  cat mystery
+  382  cd mystery
+  383  ls
+  384  cat crimescene
+  385  grep "CLUE" crimescene
+  386  ls
+  387  cd memberships
+  388  ls
+  389  cat AAA
+  390  cd ..
+  391  ls
+  392  cat memberships
+  393  cd memberships
+  394  ls
+  395  cd ..
+  396  ls
+  397  cat people
+  398  greb "Annabel" people
+  399  grep "Annabel" people
+  400  head -n 173 streets/Mattapan_Street | tail -n 1
+  401  grep "#9437737" interviews
+  402  cat interviews
+  403  cd interviews
+  404  grep "#9437737" interviews
+  405  ls
+  406  cat interview-9437737
+  407  grep "Annabel" people
+  408  cd ..
+  409  grep "Annabel" people
+  410  head -n 40 streets/Hart_Place | tail -n 1
+  411  cd interviews
+  412  cat interview-47246024
+  413  cd ..
+  414  grep "Annabel" people
+  415  head -n 179 streets/Buckingham_Place | tail -n 1
+  416  cd interviews
+  417  cat interview-699607
+  418  cd ..
+  419  grep "Annabel" people
+  420  head -n 176 streets/Haley_Street | tail -n 1
+  421  cat interviews
+  422  cd interviews
+  423  cat interview-871877
+  424  cd ..
+  425  ls
+  426  cat vehicles
+  427  grep "L337" vehicles
+  428  cat vehicles
+  429  cat interview-871877
+  430  head -n 176 streets/Haley_Street | tail -n 1
+  431  ls
+  432  cd interviews
+  433  cat interview-871877
+  434  cat interview-699607
+  435  cd ..
+  436  cat vehicles
+  437  grep "Color: Blue" vehicles
+  438  grep "Color: Blue Honda L337" vehicles
+  439  grep "Color: Blue"| "Make: Honda" | "L337"
+  440  cd seir-1114/unit1
+  441  ls
+  442  cat command-line-murder-mystery
+  443  cd command-line-murder-mystery
+  444  ls
+  445  cat LICENSE
+  446  cd mystery
+  447  ls
+  448  cat people
+  449  grep "Annabel" people
+  450  head -n 179 streets/Buckingham_Place | tail -n 1
+  451  cd interviews
+  452  cat interview-699607
+  453  cd ..
+  454  cd..
+  455  ls
+  456  cd ..
+  457  cat hint 7
+  458  ls
+  459  cd hint7
+  460  cat hint7
+  461  cd mystery
+  462  grep -A 5 "L337" mystery/vehicles
+  463  grep -A 5 "L337" vehicles
+  464  cd ..
+  465  cd mystery
+  466  grep -A 5 "L337" mystery
+  467  cd ..
+  468  cat hint8
+  469  cd mystery
+  470  ls
+  471  cd memberships
+  472  ls\\n
+  473  cd ..
+  474  grep "Jeremy Bowers" memberships
+  475  cd memberships
+  476  ls
+  477  cat AAA
+  478  cd ..
+  479  cat hint8 
+  480  cd mystery
+  481  ls
+  482  grep "CLUE" crimescene
+  483  ls
+  484  cd memberships
+  485  ls
+  486  cd ..
+  487  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  488  cd memberships
+  489  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  490  cd ..
+  491  ls
+  492  cat vehicles
+  493  cd ..
+  494  cat hint 5
+  495  cat hint5
+  496  cat hint4
+  497  cat hint3
+  498  cat hin7
+  499  cat hint7\\n
+  500  cd mystery
+  501  grep -A 5 "L337" vehicles
+  502  ls
+  503  grep "Jacqui Maher" people
+  504  grep "CLUE" crimescene
+  505  grep -A 5 "L337" | "Color: Blue" vehicles
+  506  cd seir-1114/unit1
+  507  cd command-line-murder-mystery
+  508  cat hint9
+  509  ls
+  510  cat hint8
+  511  cd mystery
+  512  grep "Annabel" people
+  513  head -n vehicles/Blue_Honda | tail -n 1
+  514  head -n vehicles/Color: Blue | tail -n 1
+  515  ls
+  516  cd ..
+  517  cat instructions
+  518  nano cheatsheet.md
+  519  nano cheatsheet.pdf
+  520  cd ..
+  521  cd
+  522  git --version
+  523  sudo add-apt-repository ppa:git-core/ppa -y
+  524  sudo apt-get update
+  525  sudo apt-get install git -y
+  526  git --version
+  527  git config --global init.defaultBranch main
+  528  git --version
+  529  cd seir-1114/unit1
+  530  cd command-line-murder-mystery
+  531  cat mystery
+  532  cd mystery
+  533  grep "CLUE" crimescene
+  534  ls
+  535  grep "Annabel" people
+  536  head -n 173 streets/Buckingham_Place | tail -n 1
+  537  cd interviews
+  538  head -n 173 streets/Buckingham_Place | tail -n 1
+  539  cd ..
+  540  cat streets
+  541  cd streets
+  542  head -n 173 streets/Buckingham_Place | tail -n 1
+  543  cd ..
+  544  cat mystery
+  545  cd mystery
+  546  head -n 173 streets/Buckingham_Place | tail -n 1
+  547  cd interviews
+  548  head -n 173 streets/Buckingham_Place | tail -n 1
+  549  cd ..
+  550  cd streets
+  551  head -n 173 streets/Buckingham_Place | tail -n 1
+  552  9
+  553  cd ..
+  554  cd mystery
+  555  head -n 179 streets/Buckingham_Place | tail -n 1
+  556  cd interviews
+  557  cat "interview-699607"
+  558  cd ..
+  559  cat vehicles
+  560  grep "Color: Blue" | "Make: Honda" | "L337" vehicles
+  561  cd seir-1114/unit1
+  562  cd command-line-murder-mystery
+  563  ls
+  564  cd mystery
+  565  grep "Blue" | "Honda" | "L337" vehicles
+  566  cd seir-1114/unit1/command-line-murder-mystery
+  567  cat cheatsheet.md
+  568  cat mystery/
+  569  cd mystery
+  570  cat people
+  571  grep "Annabel" people
+  572  grep "CLUE" crimescene
+  573  grep -c 3 "blue" vehicles
+  574  cd
+  575  git --version
+  576  cd seir-1114/unit1/command-line-murder-mystery
+  577  ls
+  578  cat hint1
+  579  cat hint1 hint2 hint3
+  580  cat instructions
+  581  cd mystery
+  582  ls
+  583  head -20 crimescene
+  584  grep CLUE crimescene
+  585  grep CLUE crimescene >> clues.txt
+  586  cat clues.txt
+  587  ls 
+  588  head -n 20 people
+  589  grep Annabel people
+  590  grep Annabel people >> clues.txt
+  591  cat clues.txt
+  592  cd streets
+  593  cd ..
+  594  cat hint4
+  595  cd ..
+  596  cat hint4 
+  597  cat hint5
+  598  cd mystery
+  599  cd streets
+  600  cd ..
+  601  cd streets
+  602  head -n 173 streets/Hart_Place | tail -1
+  603  head -n 173 streets/Hart_Place | tail -n 1
+  604  cd ..
+  605  head -n 173 streets/Hart_Place | tail -n 1
+  606  head -n 40 streets/Hart_Place | tail -n 1
+  607  cd streets
+  608  head -n 40 Hart_Place | tail -n 1
+  609  head -n 40 Hart_Place | tail -n 1 >> clues.txt
+  610  cd ..
+  611  cat clues.txt
+  612  head -n 40 Hart_Place | tail -n 1 >> ../clues.txt
+  613  cd streets
+  614  head -n 40 Hart_Place | tail -n 1 >> ../clues.txt
+  615  head -n 38 Buckingham_Place | tail -n 1 >> ../clues.txt
+  616  cat clues.txt
+  617  cd ..
+  618  cat clues.txt
+  619  head -n 179 Buckingham_Place | tail -n 1 >> ../clues.txt
+  620  head -n 179 streets/Buckingham_Place | tail -n 1 >> ../clues.txt
+  621  cat clues.txt
+  622  clear
+  623  cat interviews/interview-699607
+  624  cat interviews/interview-699607 >> clues.txt
+  625  head -n 20 vehicles
+  626  cat vehicles | grep -A 5 "L337"
+  627  cat vehicles | grep -A 5 "L337" | grep -A 1 -B 4 Honda
+  628  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda
+  629  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda >> clues.txt
+  630  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue
+  631  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 "6'"
+  632  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 "6'" >> clues.txt
+  633  cd memberships
+  634  ls
+  635  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens" 
+  636  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska" 
+  637  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher" 
+  638  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers" 
+  639  cd .. 
+  640  grep "Jeremy Bowers" people
+  641  grep "Jeremy Bowers" people >> clues.txt
+  642  head -n 284 streets/Dunstable_Road | tail -n 1
+  643  head -n 284 streets/Dunstable_Road | tail -n 1 >> clues.txt
+  644  cat interviews/interview-9620173
+  645  cat interviews/interview-9620713
+  646  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers" >> clues.txt
+  647  cd memberships
+  648  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers" >> clues.txt
+  649  man grep
+  650  man head
+  651  man tail
+  652  cd ..
+  653  pwd
