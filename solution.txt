@@ -1,0 +1,532 @@
+    1  brew install git
+    2  git --verison
+    3  git --version
+    4  git config --global user.name "cailinshaffer"\n
+    5  git config --global user.email "cailinshaffer@gmail.com"
+    6  git config --global push.default simple
+    7  git config --global credential.helper cache
+    8  viod getting stuck in vim\ngit config --global core.editor 'code -w'
+    9  git config --global core.editor 'code -w'
+   10  git config --global pull.rebase true
+   11  # optional: set the default git editor to be vscode to aviod getting stuck in vim
+   12  brew install --cask visual-studio-code
+   13  code
+   14  pwd
+   15  ls
+   16  cd Desktop
+   17  ls
+   18  cd ..
+   19  ls
+   20  ls -a
+   21  man ls
+   22  ls -l
+   23  ls -h
+   24  ls-h
+   25  ls -h
+   26  ls -lh
+   27  brew -v
+   28  pwd
+   29  cd
+   30  pwd
+   31  mkdir seir-1114
+   32  ls
+   33  cd seri-1114
+   34  cd seir-1114
+   35  ls
+   36  mkdir unit1
+   37  ls
+   38  cd unit1
+   39  pwd
+   40  mkdir cli-intro
+   41  cd cli-intro
+   42  ls
+   43  pwd
+   44  cd
+   45  cd seir-1114/unit1
+   46  pwd
+   47  cd
+   48  pwd
+   49  cd seir-1114/unit1/cli-intro
+   50  cd ../..
+   51  cd unit1
+   52  touch my-site.html
+   53  ls
+   54  mkdir one two
+   55  touch one/notes.txt two/script.js
+   56  ls
+   57  ls one
+   58  ls two
+   59  ls -R
+   60  mv my-site.html one/my-site.html
+   61  ls onr
+   62  ls one
+   63  mv one/my-site.html my-site.html
+   64  ls
+   65  ls two
+   66  cp two/script.js one/script.js
+   67  ls -R
+   68  rm my-site.html
+   69  ls
+   70  man rm
+   71  rm -rf one
+   72  ls
+   73  rm -rfv two
+   74  ls
+   75  touch books.txt
+   76  ls
+   77  code .
+   78  pwd
+   79  ls
+   80  cli-intro
+   81  cat
+   82  rm books.txt
+   83  ls unit1
+   84  history | grep mna
+   85  history | grep man
+   86  echo "hello world"
+   87  echo "new book" >> books.txt
+   88  cat books.txt
+   89  history > lesson.txt
+   90  cd
+   91  pwd
+   92  ls
+   93  ls seir-1114
+   94  ls unit1
+   95  ls
+   96  pwd
+   97  seir-1114
+   98  ls
+   99  cli-intro
+  100  cd
+  101  pwd
+  102  cd seir-1114/unit1
+  103  mkdir git-intro
+  104  ls
+  105  cd git-intro
+  106  touch index.html
+  107  ls
+  108  git init
+  109  cd
+  110  git config --global init.defaultBranch main
+  111  cd
+  112  git init
+  113  rm -rf .git
+  114  cd seir-1114
+  115  cd git-intro
+  116  git config --global init.defaultBranch main
+  117  git init
+  118  cd git-intro
+  119  cd unit1
+  120  cd git-intro
+  121  git init
+  122  git config --global init.defaultBranch main
+  123  rm - rf .git
+  124  rm -rf .git
+  125  cd
+  126  rm -rf .git
+  127  cd seir-1114
+  128  cd unit1
+  129  rm -rf.git
+  130  rm -rf .git
+  131  cd seir-1114
+  132  git-intro
+  133  ls index.html
+  134  git status
+  135  git add index.html
+  136  git status
+  137  ls
+  138  git commit -m "adds index.html to the project"
+  139  git status
+  140  git log
+  141  touch styles.css script.js
+  142  ls
+  143  git status
+  144  git add .
+  145  git status
+  146  git commit -m "adds css and js files"
+  147  ggti status
+  148  man git-add
+  149  git remote add origin https://github.com/cailinshaffer/test-repo.git\ngit branch -M main\ngit push -u origin main
+  150  cd..
+  151  cd unit1
+  152  cd..
+  153  mkdir unit1
+  154  https://github.com/cailinshaffer/command-line-murder-mystery.git
+  155  unit1 ls
+  156  cd unit 1
+  157  cd ..
+  158  https://github.com/cailinshaffer/command-line-murder-mystery.git
+  159  git clone https://github.com/cailinshaffer/command-line-murder-mystery.git
+  160  ls
+  161  cd
+  162  cd seir-1114/unit1
+  163  cd command-line-murder-mystery\t\t
+  164  cd
+  165  cd..
+  166  pwd
+  167  cd unit1/command-line-murder-mystery
+  168  cd seir-1114/unit1/command-line-murder-mystery
+  169  ls
+  170  intructions
+  171  ls intructions
+  172  cd intrusctions
+  173  cat intructions
+  174  cat hint1
+  175  cat
+  176  gi init
+  177  git init
+  178  r -m rf
+  179  wq
+  180  man
+  181  man git
+  182  git help
+  183  qr -m rf
+  184  r -m rf
+  185  las
+  186  ls
+  187  r -m rf
+  188  git help
+  189  r -m rf
+  190  cd unit1/command-line-murder-mystery
+  191  ls
+  192  git help
+  193  seir-1114/unit1/
+  194  command-line-murder-mystery
+  195  ls
+  196  ls instructions
+  197  ls
+  198  add hint 1
+  199  https cloning errors
+  200  cd
+  201  ls
+  202  cd seir-1114/unit1/command-line-murder-mystery
+  203  ls
+  204  cat intructions
+  205  cat mystery
+  206  cat intructions
+  207  cat hint 1
+  208  ls
+  209  cat instructions
+  210  nano cheatsheet.pdf
+  211  r -m rf
+  212  cd seir-1114/unit1/command-line-murder-mystery
+  213  ls
+  214  cat instructions
+  215  nano cheatsheet.md
+  216  ls
+  217  cat instructions
+  218  cat hint1
+  219  head -n 20 people
+  220  head
+  221  ls
+  222  cat instructions
+  223  cat hint1
+  224  -n 20 people
+  225  cat hint2
+  226  head -n
+  227  head -n 20 people
+  228  head -n 20
+  229  pwd
+  230  ls
+  231  cat instructions
+  232  cat hint1
+  233  head -n "20 people"
+  234  head -n 20 people
+  235  head
+  236  ls
+  237  cat instructions
+  238  cat hint1
+  239  head -n 20 people
+  240  people
+  241  cat people
+  242  ls
+  243  README.md
+  244  cat README.md
+  245  head -n 20 people
+  246  cat hint1
+  247  caals
+  248  ls
+  249  cat mystery
+  250  head -n 20 people
+  251  cd mystery
+  252  ls
+  253  head -n 20 people
+  254  cd..
+  255  cat hint1
+  256  ..
+  257  hint2
+  258  cat hint2
+  259  cd mystery
+  260  tree
+  261  m -r rf
+  262  brew install tree
+  263  tree
+  264  ls
+  265  cd streets
+  266  ls
+  267  ..
+  268  cat hint 3
+  269  cat hint2
+  270  cd mystery
+  271  ls
+  272  cd crimescene
+  273  ls crimescene
+  274  cd crimescene
+  275  crimescene
+  276  grep "CLUE" crimescene
+  277  ..
+  278  cat hint3
+  279  cd mystery
+  280  head - n 20 vehicles
+  281  ls vehicles
+  282  tdlr
+  283  man
+  284  "grep" vehicles
+  285  ..
+  286  ls
+  287  cat instructions
+  288  cat hint1
+  289  cd mystery
+  290  ls
+  291  head -n 20 people
+  292  ..
+  293  cat hint2
+  294  cd mystery
+  295  ls crimescene
+  296  grep "CLUE" crimescene
+  297  ..
+  298  cat hint3
+  299  cd mystery
+  300  head -n 20 vehichles
+  301  cat vehicles
+  302  ..
+  303  cat hint 4
+  304  cat hint4
+  305  cat hint5
+  306  cd mystery
+  307  ls
+  308  head -n 20 vehicles
+  309  cd vehicles
+  310  ls vehicles
+  311  vehicles
+  312  head -n 100 vehicles
+  313  grep "Annabel" people
+  314  ..
+  315  cat hint6
+  316  cat hint7
+  317  cat hint8
+  318  cd mystery
+  319  cd interviews
+  320  ls
+  321  $ head -40 streets/Hart_Place | tail -1
+  322  head -40 streets/Hart_Place | tail -1
+  323  ..
+  324  head -40 streets/Hart_Place | tail -1
+  325  cd interviews
+  326  SEE INTERVIEW #47246024
+  327  #47246024
+  328  cd #47246024
+  329  ..
+  330  pwd
+  331  ls
+  332  cailinshaffer
+  333  ls seir-1114/unit1/command-line-murder-mystery
+  334  cd mystery
+  335  cd seir-1114/unit1/command-line-murder-mystery
+  336  cd mystery
+  337  ls #47246024
+  338  cd interviews
+  339  ls #47246024
+  340  ..
+  341  ls
+  342  cat instructions
+  343  cat hint1
+  344  cat hint2
+  345  cat hint3
+  346  cat hint4
+  347  cat hint
+  348  cat hint5
+  349  cat hint6
+  350  cat hint7
+  351  cat hint8
+  352  cd mystery
+  353  ls
+  354  head -n 20 people
+  355  grep "CLUE" crimescene
+  356  grep "Annabel" people
+  357  head -n 40 streets/Hart_Place | tail -n 1
+  358  grep "Honda" vehicles\n\n\tgrep "Blue" vehicles\n\n\tgrep "L337" vehicles
+  359  cd interview"47246024"
+  360  head -n grep "Honda" vehicles\n\n\tgrep "Blue" vehicles\n\n\tgrep "L337" vehicles
+  361  ls
+  362  cat interview-47246024
+  363  cd interviews
+  364  cat interview-47246024
+  365  head -n 176 streets/Buckingham_Place | tail -n 1
+  366  head -n 179 streets/Buckingham_Place | tail -n 1
+  367  ..
+  368  head -n 179 streets/Buckingham_Place | tail -n 1
+  369  cd interviews
+  370  cat interview-699607
+  371  ..
+  372  cat vehicles
+  373  grep "L337" vehicles
+  374  grep -A 5 "L337" mystery/vehicles
+  375  ..
+  376  grep -A 5 "L337" mystery/vehicles
+  377  cd mystery
+  378  grep -A 5 "L337" mystery/vehicles
+  379  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  380  cat Fitness_Galaxy AAA United_MileagePlus | grep "Mike Bostock"
+  381  ls
+  382  cd memberships
+  383  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  384  cat Fitness_Galaxy AAA United_MileagePlus | grep "Mike Bostock"
+  385  ls
+  386  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  387  ls
+  388  ..
+  389  cd mystery
+  390  cd memberships
+  391  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  392  ls
+  393  \tcat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens" | wc -l
+  394  cat Fitness_Galaxy AAA United_MileagePlus | grep "Erika Owens"
+  395  ls
+  396  pwd
+  397  cat Fitness_Galaxy AAA United_MileagePlus | grep "Joe Germuska"
+  398  ls
+  399  pwd
+  400  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  401  ls
+  402  ..
+  403  grep "Mike Bostock" people
+  404  head -n 287 streets/Senderes_Court | tail -n 1
+  405  cd interviews
+  406  head -n 179 streets/Buckingham_Place | tail -n 1
+  407  head -n 287 streets/Senderes_Court | tail -n 1
+  408  grep "Mike Bostock" interviews
+  409  ..
+  410  grep "Jeremy Bowers" people
+  411  cd interviews
+  412  head -n 284 streets/Dunstable_Road | tail -n 1
+  413  ..
+  414  head -n 284 streets/Dunstable_Road | tail -n 1
+  415  cd interviews
+  416  cat interview-9620713
+  417  ..
+  418  head -n 287 streets/Senders_Court | tail -n 1
+  419  cd interviews
+  420  cat interview-290346
+  421  ..
+  422  grep "Erika Owens" people
+  423  cd interviews
+  424  head -n 98 streets/Trapelo_Street | tail -n 1
+  425  ...
+  426  cd mystery
+  427  head -n 98 streets/Trapelo_Street | tail -n 1
+  428  cd interviews
+  429  cat interview-5455315
+  430  ..
+  431  grep "Joe Germuska" people
+  432  head -n 65 streets/Plainfield_Street | tail -n 1
+  433  head -n 275 streets/Plainfield_Street | tail -n 1
+  434  cd interviews
+  435  cat interview-29741223
+  436  ..
+  437  grep " Jaqui Maher" people
+  438  grep "Jacqui Maher" people
+  439  head -n 224 streets/Andover_Road | tail -n 1
+  440  cd interviews
+  441  cat interview-904020
+  442  ..
+  443  ls
+  444  cat crimescene
+  445  ls
+  446  cd memberships
+  447  touch solution.txt
+  448  cd solution.txt
+  449  cat solution.txt
+  450  ls
+  451  history
+  452  git commit
+  453  git add<solution.txt>
+  454  git add <solution.txt>
+  455  git add solution.txt
+  456  cat solution.txt
+  457  ls
+  458  catsolution.txt
+  459  cat solution.txt
+  460  git config --global init.defaultBranch main
+  461  q
+  462  z
+  463  r -rf m
+  464  m -rf r
+  465  ZZ
+  466  man
+  467  git
+  468  git helo -a
+  469  help
+  470  git hhelp -a
+  471  git help -a
+  472  git help <command>
+  473  git help -g
+  474  rm -rf r
+  475  epository_path>/.git
+  476  git config --global init.defaultBranch main
+  477  m - rf r
+  478  rm -rf r
+  479  rm -rf cliintro
+  480  rm -rf
+  481  rm -rf r
+  482  cd seir-1114/unit1/command-line-murder-mystery/
+  483  ls
+  484  cat hint1 hint2 hint3
+  485  cat intructions
+  486  cat intrusctions
+  487  cd mystery
+  488  ls
+  489  cat crimescene
+  490  head -n 20 crimescene
+  491  grep CLUE crimescene
+  492  grep CLUE crimescene >> clues.txt
+  493  cat clues.txt
+  494  ls
+  495  head -n 20 people
+  496  grep Annabel people
+  497  grep Annabel people >> clues.txt
+  498  cat clues.txt
+  499  cd streets
+  500  ls
+  501  head -m 20 Addington_Road 
+  502  head -n 20 Addington_Road 
+  503  sed -m "173 p"
+  504  sed -n '173p' Mattapan_Street
+  505  cat -n Hart_Place
+  506  cat -n Hart_Place line 40
+  507  head -n 40 Hart_Place| tail -n 1
+  508  head -n 40 Hart_Place| tail -n 1 >> ../clues.txt
+  509  cat clues.txt
+  510  ..
+  511  head -n 179 Buckingham_Place| tail -n 1
+  512  head -n 179 streets/Buckingham_Place| tail -n 1
+  513  cd interviews
+  514  cat interviews-699607
+  515  cat interview-699607
+  516  ..
+  517  head - 20 vehicles
+  518  cat vehicles | grep "L337"
+  519  man grep
+  520  cat vehicles | grep -a "l337"
+  521  cat vehicles | grep -a "L337"
+  522  cat vehicles | grep -a 5 "L337"
+  523  cat vehicles | grep -A 4 -B 1 Honda | grep -B 2 _A 3 Blue | grep - A1 -B 4 "6"
+  524  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 "6'"
+  525  AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | "Jeremy Bowers"
+  526  grep "Jeremy Bowers" people
+  527  head -n 284 streets/Dunstable_Road| tail -n 1
+  528  cat interviews/interview-9620173
+  529  cat interviews/interview-9620713
+  530  git commit
+  531  
+  532  cd seir-1114/unit1/command-line-murder-mystery
