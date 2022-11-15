@@ -1,0 +1,245 @@
+[200~cat README.md
+  179  ls
+  180  cat instructions
+  181  ls -a
+  182  cd mystery
+  183  ls
+  184  pwd
+  185  ls -a
+  186  cat crimescene
+  187  pwd
+  188  ls
+  189  cd ..
+  190  ls
+  191  cd mystery
+  192  ls
+  193  cd interviews
+  194  ls
+  195  cd ..
+  196  cd memberships
+  197  ls
+  198  cd ..
+  199  cat people
+  200  pwe
+  201  pwd
+  202  ls
+  203  cd streets
+  204  ls
+  205  cd vehicles
+  206  cat vehicles
+  207  pwd
+  208  cd ..
+  209  cd vehicles
+  210  cat vehicles
+  211  cd ..
+  212  ls
+  213  cat instructions
+  214  cd mystery
+  215  ls
+  216  cat crimescene | grep CLUE
+  217  cd memberships
+  218  ls
+  219  cat 1.txt
+  220  ls
+  221  cat AAA
+  222  cat AAA | grep Annabel
+  223  cat Delta_SkyMiles | grep Annabel
+  224  cat Museum_of_Bash_History | grep Annabel
+  225  cat Terminal_City_Library | grep Annabel
+  226  cat delta.txt
+  227  cat delta.txt | grep Annabel
+  228  ls
+  229  cat library.txt | grep Annabel
+  230  cat AAA Museum_of_Bash_History | grep Annabel
+  231  cd ..
+  232  ls
+  233  cat people | grep Annabel
+  234  cd interviews
+  235  ls
+  236  cat interview-
+  237  ls
+  238  cd ..
+  239  ls
+  240  cd ..
+  241  ls
+  242  cat instructions
+  243  cd mystery/
+  244  ls
+  245  cat crimescene | grep CLUE
+  246  cat people | grep Annabel
+  247  cat vehicles
+  248  cat vehicles | grep Annabel
+  249  man grep
+  250  cat vehicles | grep -C 2 Annabel
+  251  cd ..
+  252  ls
+  253  cd mystery
+  254  ls
+  255  cat people
+  256  ls
+  257  cat vehicles | grep -C 2 Annabel
+  258  cd streets
+  259  ls
+  260  cd ..
+  261  ls
+  262  cat people | grep Annabel Fuglsang
+  263  cat people | grep Annabel
+  264  cat people | grep Annabel-Fuglsang
+  265  man grep
+  266  ls
+  267  cd memberships 
+  268  ls
+  269  cat AAA | grep Fuglsang
+  270  cat Delta_SkyMiles | grep Fuglsang
+  271  cd ..
+  272  ls
+  273  cd streets
+  274  cat Haley_Street
+  275  cat Haley_Street | grep Annabel
+  276  cat Haley_Street | grep New_Zealand
+  277  cat Haley_Street | grep spiky
+  278  cd ..
+  279  ls
+  280  cat hint1
+  281  cd mystery
+  282  head -n 20 people
+  283  cd ..
+  284  ls
+  285  cat instructions
+  286  cd mystery
+  287  ls
+  288  head -20 crimescene
+  289  cat crimescene | grep CLUE
+  290  ls
+  291  man grep
+  292  cat vehicles | grep 6
+  293  cat vehicles | grep -C Height:_6
+  294  cat vehicles | grep Height:_6
+  295  cd  
+  296  cd seir-1114/unit1/command-line-murder-mystery/mystery  
+  297  ls
+  298  man grep
+  299  cd memberships 
+  300  ls -a
+  301  cat AAA
+  302  ls
+  303  cd ..
+  304  ls
+  305  streets
+  306  ls
+  307  head -n 20 Abbot_Street
+  308  cat Haley_Street | grep coffee
+  309  cd ..
+  310  ls
+  311  cd ..
+  312  ls
+  313  open cheatsheet.pdf
+  314  cd mystery
+  315  grep -r Annabel
+  316  cd seir-1114/unit1/command-line-murder-mystery/mystery 
+  317  ls
+  318  cd streets
+  319  ls
+  320  head -n 20 Haley_Street
+  321  cd ..
+  322  ls
+  323  cat hint2
+  324  hint3
+  325  cat hint3
+  326  cat hint4
+  327  hint5
+  328  c  278  cd ..
+  279  ls
+  280  ca  ls
+  331  cd interviews 
+  332  ls
+  333  head -n 176 streets/Haley_Street | tail -n 1
+  334  cd ..
+  335  head -n 176 streets/Haley_Street | tail -n 1
+  336  cd interviews 
+  337  cat interview-871877
+  338  cd ..
+  339  head -n 179 streets/Buckingham_Place | tail -n 1
+  340  cd interviews
+  341  cat interview-699607
+  342  cd ..
+  343  ls
+  344  man grep
+  345  cat vehicles | grep Honda
+  346  cat vehicles | grep -C  Honda
+  347  cat vehicles | grep -C 2  Honda
+  348  man grep
+  349  pwd
+  350  ls
+  351  head -n 5 vehicles
+  352  head -n 20 vehicles
+  353  cat vehicles | grep L3379
+  354  cat vehicles | grep -A 5 L337
+  355  cat vehicles | grep -A 5 License Plate L337
+  356  cat vehicles | grep -A 5 License Plate L337nnn
+"
+  357  cat vehicles | grep -A 5 "License Plate L337"
+
+
+n
+n
+q
+cat vehicles | grep -A 5 License Plate L337
+head -n 20 vehicles
+  358  cat vehicles | grep -A 5 L337
+  359  cd ..
+  360  ls
+  361  cd mystery
+  362  ls
+  363  cat people | grep Jacqui Maher
+  364  cat people | grep Jeremy Bowers
+  365  cat people | grep Joe Germuska
+  366  cat people | grep Erika Owens
+  367  head -n 224 Andover_Road/Streets | tail -n 1 
+  368  cd ..
+  369  cd mystery 
+  370  cd streets
+  371  head -n 224 Andover_Road/Streets | tail -n 1 
+  372  head -n 224 Andover_Road/streets | tail -n 1 
+  373  cd ..
+  374  head -n 224 Andover_Road/streets | tail -n 1 
+  375  pwd
+  376  ls
+  377  head -n 224 streets/Andover_Road | tail -n 1 
+  378  head -n 284 streets/Dunstable_Road | tail -n 1 
+  379  head -n 275 streets/Plainfield Street | tail -n 1 
+  380  head -n 275 streets/Plainfield_Street | tail -n 1 
+  381  head -n 98 streets/Trapelo_Street | tail -n 1 
+  382  cd interviews
+  383  cat interview-904020
+  384  cat interview-9620713
+  385  cat interview-29741223
+  386  cat interview-5455315
+  387  ls
+  388  cd ..
+  389  ls
+  390  cat people | grep Jeremy
+  391  cd memberships
+  392  cat AAA | grep Jeremy
+  393  cat Delta_SkyMiles | grep Jeremy
+  394  cat Museum_of_Bash_History | grep Jeremy
+  395  cd ..
+  396  ls
+  397  cd ..
+  398  ls
+  399  cat instructions
+  400  cd mystery
+  401  ls
+  402  cd memberships 
+  403  cat Terminal_City_Library | grep Jeremy
+  404  pwd
+  405  cd ../..
+  406  ls
+  407  cat README.md
+  408  man touch
+  409  touch solution.txt
+  410  ls
+  411  git status
+~
+
+Killer is Jeremy Bowers
