@@ -1,0 +1,35 @@
+Clues from crimescene obtained via grep -i "clue" crimescene under mystery directory: 
+-over 6' tall, member at AAA, Delta Skymiles, library and museum
+
+Clue from hints: 
+-interview-9437737 
+    contents: doesn't appear to be the witness from the cafe. 
+
+Potential suspects: 
+Annabel Church - F 38 Buckingham Place, line 179. 
+-member at AAA 
+-member at museum of bash history
+-not member of Delta SkyMiles
+-not member of city library
+
+
+Oluwasegun Annabel - M 37 Mattapan Street, line 173
+-member at museum of bash history
+-not member of Delta SkyMiles
+-not member of city library
+
+Honda, Blue, L337 AND over 6ft tall
+-Erika Owens
+-Joe Germuska
+-Jeremy Bowers
+-Jacqui Maher
+
+Do they have membership at AAA Delta SkyMiles, library, museum
+under membership directory - searched with command: "cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "name" 
+-Erika Owens [N] - no name appearances
+-Joe Germuska [N] - name only appears twice when searched 
+-Jeremy Bowers [Y] - name appears 4 times 
+-Jacqui Maher [N] - name appears 3 times
+
+
+Killer Suspect = Jeremy Bowers 
