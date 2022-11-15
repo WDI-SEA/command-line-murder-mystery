@@ -1,0 +1,768 @@
+    1  /Users/maria
+    2  /Users/Maria/
+    3  /dudahamilton/maria/
+    4  pwd
+    5  ls
+    6  cd documents
+    7  ls
+    8  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    9  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   10  @Pedro1404
+   11  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   12  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   13  281216
+   14  140492
+   15  @Pedro1404
+   16  Pedro1404
+   17  Maduh2812
+   18  echo 'PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+   19  brew doctor
+   20  brew
+   21  echo 'PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+   22  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   23  @Pedro1404
+   24  echo 'PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+   25  brew doctor
+   26  echo 'PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+   27  brew doctor
+   28  ls /a
+   29  ls/a
+   30  ls a
+   31  ls -a
+   32  nano .zshrc
+   33  brew doctor
+   34  brew doctor
+   35  brew doctor
+   36  echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+   37  source .zshrc
+   38  brew doctor
+   39  brew -v
+   40  ls -a
+   41  cat .zshrc
+   42  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
+   43  eval "$(/opt/homebrew/bin/brew shellenv)"
+   44  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   45  @Pedro1404
+   46  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   47  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   48  brew doctor
+   49  sudo rm -rf  /usr/local/include/node
+   50  brew doctor
+   51  sudo xcode-select --install
+   52  brew doctor
+   53  git
+   54  xcode-select --install
+   55  brew install node
+   56  node -v
+   57  npm -v
+   58  brew install zsh
+   59  chsh -s /bin/zsh
+   60  echo $SHELL\n
+   61  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+   62  brew install git
+   63  brew instal git
+   64  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
+   65  eval "$(/opt/homebrew/bin/brew shellenv)"\n
+   66  brew --version
+   67  brew install git
+   68  git --version
+   69  git config --global user.name "dudahamilton"
+   70  git config --global user.email "mariaehamilton28@gmail.com"
+   71  git config --global push.default simple
+   72  git config --global credential.helper cache
+   73  git config --global core.editor 'code -w'
+   74  git config --global pull.rebase true
+   75  code
+   76  pwd
+   77  ls
+   78  cd Desktop
+   79  pwd
+   80  cd ..
+   81  ls -a
+   82  man ls
+   83  ls -l
+   84  brew v
+   85  brew -v
+   86  brew -- version
+   87  brew - version
+   88  cd
+   89  mkdir
+   90  mkdir seir-1114
+   91  ls
+   92  cd seir-1114
+   93  ls
+   94  mkdir unit1
+   95  ls
+   96  cd unit1
+   97  pwd
+   98  mkdr cli-intro
+   99  cd cli-intro
+  100  mkdir cli-intro
+  101  cd cli-intro
+  102  ls
+  103  pwd
+  104  cd
+  105  pwd
+  106  cd seir-1114/unit1
+  107  pwd
+  108  cd
+  109  pwd
+  110  cd-seir
+  111  cd seir-1114
+  112  cd
+  113  ls
+  114  cd seir-1114
+  115  mkdir cli-intro
+  116  ls
+  117  pwd
+  118  cd cli-intro
+  119  pwd
+  120  cd
+  121  pwd
+  122  unit1 pwd
+  123  mkdir unit1
+  124  cli-intro
+  125  cli-intro cd
+  126  ds seir-1114
+  127  cd seir-1114
+  128  ls
+  129  cd cli-intro
+  130  ls
+  131  mkdir unit1
+  132  ls
+  133  touch books.txt
+  134  ls
+  135  code .
+  136  pwd
+  137  rm -rf cli-intro
+  138  cd unit1
+  139  mkdir cli-intro
+  140  cd cli-intro
+  141  touch books.txt
+  142  code .
+  143  cat books.txt
+  144  grep Miil books.txt
+  145  grep Mill books.txt
+  146  cat books.txt | grep Mill
+  147  head -n 5 books.txt
+  148  head -n 5 books.txt | grep Mill
+  149  history | grep man
+  150  echo "hello world"
+  151  echo "new book" >> books.txt
+  152  cat books.txt
+  153  echo "goodbye books" > books.txt
+  154  cat books.txt
+  155  history >> lesson.txt
+  156  ls
+  157  cat lesson.txt
+  158  code .
+  159  man ls
+  160  cli-intro cd
+  161  cd seir-1114
+  162  cd cli-intro
+  163  cd
+  164  pwd
+  165  cd seir-1114/unit1
+  166  ls
+  167  git-intro
+  168  mkdir git-intro
+  169  ls
+  170  cd git-intro
+  171  touch index.html
+  172  ls
+  173  git init
+  174  cd
+  175  git config --global init.defaultBranch main
+  176  git branch -m main
+  177  unit1 cd git-intro
+  178  rm -rf .git
+  179  git init
+  180  rm -rf .igt
+  181  rm -rf .git
+  182  cd seir-1114/unit1
+  183  cd git-intro
+  184  rm -rf .git
+  185  git config --global init.defaultBranch main
+  186  git init
+  187  ls
+  188  git status
+  189  git add index.html
+  190  git status
+  191  git commit
+  192  git commit -m"adds index.html file to the project"
+  193  git status
+  194  git log
+  195  touch styles.css script.js
+  196  ls
+  197  git status
+  198  git add.
+  199  git add .
+  200  git status
+  201  git commit -m 'adds css and js files'
+  202  git status
+  203  cd it-intro
+  204  brew install tree
+  205  man git
+  206  man git-add
+  207  git remote add origin https://github.com/dudahamilton/test-repo.git\ngit branch -M main\ngit push -u origin main
+  208  cd ..
+  209  git clone https://github.com/dudahamilton/command-line-murder-mystery.git
+  210  ls
+  211  cd
+  212  cd seir-1114/unit1/command-line-murder-mystery/
+  213  ls
+  214  cat instructions
+  215  cat crimecene
+  216  cat mystery
+  217  cd mystery
+  218  pwd
+  219  cd
+  220  cat chratsheet.md
+  221  nano cheatsheet.md
+  222  git clone https://github.com/dudahamilton/command-line-murder-mystery.git
+  223  cd
+  224  cd command-line-murder-mystery
+  225  ls
+  226  cat cheatsheet.pdf
+  227  git clone https://github.com/dudahamilton/command-line-murder-mystery.git
+  228  cd command-line-murder-mystery
+  229  ls
+  230  cat instructions
+  231  nano cheatsheet.md
+  232  cd mystery
+  233  pwd
+  234  cd
+  235  pdw
+  236  ..
+  237  git clone https://github.com/dudahamilton/command-line-murder-mystery.git
+  238  cat command-line-murder-mystery
+  239  cd command-line-mystery
+  240  command-line-mystery cd
+  241  cd command-line-murder-mystery
+  242  ls
+  243  cd instructions
+  244  instructions cd
+  245  cat mystery
+  246  cat instructions
+  247  nano cheatsheet.pdf
+  248  cat hint1
+  249  head -n 20 people
+  250  head -n
+  251  cd https://github.com/dudahamilton/command-line-murder-mystery.git
+  252  cat https://github.com/dudahamilton/command-line-murder-mystery.git
+  253  git clone https://github.com/dudahamilton/command-line-murder-mystery.git
+  254  cd command-line-murder-mystery
+  255  ls
+  256  cat README.MD
+  257  cat cheatsheet.md
+  258  cat instrructions
+  259  cat instructions
+  260  cd mystery
+  261  cd crimescene
+  262  pwd
+  263  ls
+  264  cd crimescene
+  265  cat crimescene
+  266  pwd
+  267  cd ..
+  268  cat hint1
+  269  head -n 20 people
+  270  cat mystery
+  271  cd mystery
+  272  ls
+  273  cat crimescene
+  274  head -n 20 people
+  275  cd ..
+  276  cd hint2
+  277  cat hint2
+  278  ls
+  279  cat mystery
+  280  cd mystery
+  281  cd crimescene
+  282  ls
+  283  cat crimescene
+  284  grep CLUE
+  285  cat command-line-murder-list
+  286  git clone https://github.com/dudahamilton/command-line-murder-mystery.git
+  287  cat command-line-murder-myster
+  288  d command-line-murder-myster
+  289  cd command-line-murder-myster
+  290  git clone https://github.com/dudahamilton/command-line-murder-mystery.git
+  291  cd command-line-murder-mystery
+  292  ls
+  293  cat instructions
+  294  cd mystery
+  295  ls
+  296  cat crimescene
+  297  head -n 2o people
+  298  head -n 20 people
+  299  cat hint2
+  300  pwd
+  301  cd ..
+  302  ls
+  303  cat hint2
+  304  cat mystery
+  305  cd mystery
+  306  ls
+  307  cat crimescene
+  308  pwd
+  309  ls
+  310  cd cromescene
+  311  cdcrimescene
+  312  cd crimescene
+  313  cat crimescene
+  314  gresp CLUE
+  315  git grep "CLUE"
+  316  head -n 20 people
+  317  pwd
+  318  ls
+  319  cd ..
+  320  ls
+  321  cat hint3
+  322  head -n people
+  323  cat mystery
+  324  cd mystery
+  325  ls
+  326  head -n people
+  327  head -n vehicles
+  328  head -n 20 vehicles
+  329  head vehicles
+  330  head people
+  331  cd ..
+  332  ls
+  333  cat hint4
+  334  cd mystery
+  335  ls
+  336  grep "Annabel" people
+  337  cd ..
+  338  ls
+  339  cat hint5
+  340  ls
+  341  cat mystery
+  342  cd mystery
+  343  head -n 173 streets/Mattapan_Street | tail -n 1
+  344  cd ..
+  345  cat hint5
+  346  cat hint6
+  347  pwd
+  348  cd ..
+  349  ls
+  350  ..
+  351  cat command-line-murder-mystery
+  352  cd command-line-murder-mystery
+  353  cd ..
+  354  cd command-line-murder-mystery
+  355  cat command-line-murder-mystery
+  356  cd command-line-murder-mystery
+  357  ls
+  358  cd mystery
+  359  head -20 people
+  360  pwd
+  361  ls
+  362  cd streets
+  363  ls
+  364  cd ..
+  365  ls
+  366  cat hint2
+  367  cd mystery
+  368  ls
+  369  cat crimescene
+  370  cd ..
+  371  ls
+  372  cat hint2
+  373  cat hint3
+  374  cd mystery
+  375  ls
+  376  head people
+  377  cd ..
+  378  ls
+  379  cat hint3
+  380  cat hint4
+  381  cd mystery
+  382  ls
+  383  cat people
+  384  grep "Annabel" people
+  385  line 40
+  386  #40
+  387  ls
+  388  cat crimescene
+  389  pwd
+  390  #40
+  391  ls
+  392  #L40
+  393  cd ..
+  394  cat hint5
+  395  head -n 173 streets/Mattapan_Street | tail -n 1
+  396  cd mystery
+  397  ls
+  398  cd interviews
+  399  head -n 173 streets/Mattapan_Street | tail -n 1
+  400  cd ..
+  401  ls
+  402  ..cd
+  403  cd ..
+  404  ls
+  405  cat hint1
+  406  head -n 20 people
+  407  cd mystery
+  408  ls
+  409  head -n 20 people
+  410  cd ..
+  411  ls
+  412  cat hint2
+  413  cd mystery
+  414  ls
+  415  cat crimescene
+  416  cd ..
+  417  cat hint2
+  418  cd mystery
+  419  ls
+  420  cat crimescene
+  421  grep "CLUE" crimescene%
+  422  grep "CLUE" crimescene
+  423  ls
+  424  head -n people "Annabel"
+  425  head people "Annabel"
+  426  cd ..
+  427  ls
+  428  cat hint3
+  429  cat hint4
+  430  cd mystery
+  431  ls
+  432  cat people
+  433  \tgrep "Annabel" people
+  434  cd ..
+  435  cat hint5
+  436  cd mystery
+  437  ls
+  438  cd interviews
+  439  head -n 173 streets/Mattapan_Street | tail -n 1
+  440  cd ..
+  441  head -n 173 streets/Mattapan_Street | tail -n 1
+  442  #9437737
+  443  ls
+  444  cd interviews/#9437737
+  445  cd interviews
+  446  ls
+  447  #9437737
+  448  head #9437737
+  449  git clone https://github.com/dudahamilton/command-line-murder-mystery.git
+  450  cd command-line-murder-mystery
+  451  ls
+  452  cat hint1
+  453  cd mystery
+  454  ls
+  455  cat people
+  456  head -n 20 people
+  457  ..cd 
+  458  cd ..
+  459  ls
+  460  cat hint2
+  461  cd mystery
+  462  ls
+  463  cat crimescene
+  464  grep "CLUE" crimescene
+  465  cd ..
+  466  cat hint3
+  467  cat hint4
+  468  cd mystery
+  469  ls
+  470  cat people
+  471  grep "Annabel" people
+  472  cd ..
+  473  cat hint5
+  474  cd mystery
+  475  head -n 173 streets/Mattapan_Street | tail -n 1
+  476  cd ..
+  477  cat hint6
+  478  cd mystery
+  479  ls
+  480  cat vehicles
+  481  head vehicles
+  482  cd ..
+  483  cat hint7
+  484  grep -A 5 "L337" mystery/vehicles
+  485  cd ..
+  486  command-line-murder-mystery
+  487  ls
+  488  cat hint8
+  489  pwd
+  490  ls
+  491  cat hint1
+  492  cat hint2
+  493  cd mystery
+  494  ls
+  495  cat people
+  496  grep "CLUE" crimescene
+  497  cd ..
+  498  cat hint3
+  499  cat hint4
+  500  cd mystery
+  501  grep "Annabel" people
+  502  cd ..
+  503  cat hint5
+  504  cd mystery
+  505  ls
+  506  cd streets
+  507  head -n 40
+  508  git clone https://github.com/dudahamilton/command-line-murder-mystery.git
+  509  cd command-line-murder-mystery
+  510  ls
+  511  cat hint1
+  512  head -n 20 people
+  513  cd mystery
+  514  ls
+  515  cat people
+  516  head -n 20 people
+  517  cd ..
+  518  cat hint2
+  519  cd mystery
+  520  ls
+  521  cat crimescene
+  522  grep "CLUE" crimescene
+  523  cd ..
+  524  cat hint4
+  525  cs mystery
+  526  ls
+  527  cd mystery
+  528  ls
+  529  cat people
+  530  grep "Annabel" people
+  531  cd ..
+  532  cat hint5
+  533  cd mystery
+  534  ls
+  535  cd streets
+  536  head -n 173 streets/Mattapan_Street | tail -n 1
+  537  cd ..
+  538  cd interrviews
+  539  cd interviews
+  540  head -n 173 streets/Mattapan_Street | tail -n 1
+  541  cd ..
+  542  ls
+  543  cat instructions
+  544  'nano cheatsheet.md'
+  545  ls
+  546  cat cheatsheet.md
+  547  ls
+  548  cat hint4
+  549  cd mystery/people
+  550  cd mystery
+  551  ls
+  552  cat people
+  553  grep "Annabel" people
+  554  cd ..
+  555  cat hint5
+  556  cd mystery
+  557  ls
+  558  cd streets
+  559  cd Mattapan
+  560  ls
+  561  cat Mattapan_Street
+  562  head -n 173 streets/Mattapan_Street | tail -n 1
+  563  ls
+  564  cd ..
+  565  cat hint6
+  566  cat hint7
+  567  cat hint4
+  568  cd mystery
+  569  ls
+  570  cat people
+  571  cd ..
+  572  ls
+  573  cat hint4
+  574  cd mystery
+  575  cat people
+  576  grep "Annabel" people
+  577  cd ..
+  578  cat hint5
+  579  ls
+  580  cat hint1
+  581  cat hint2
+  582  cat hint3
+  583  cat hint4
+  584  cat hint2
+  585  cd mystery
+  586  ls
+  587  cat crimescene
+  588  cd ..
+  589  ls
+  590  cat hint2
+  591  cd mystery
+  592  ls
+  593  cat people
+  594  grep "CLUE" crimescene
+  595  cd ..
+  596  cat hint3
+  597  cd mystery
+  598  head people
+  599  ls
+  600  cd streets
+  601  ls
+  602  cat Walton_street
+  603  cat Buckingham_Place
+  604  cd ..
+  605  ls
+  606  cat hint4
+  607  cd mystery
+  608  cat people
+  609  grep "Annabel" people
+  610  ls
+  611  cd streets
+  612  cat Buckingham Place, line 179
+  613  cat Buckingham Place
+  614  cat Buckingham_Place
+  615  cat cat Buckingham_Place, line 146
+  616  git log -L#146
+  617  cd ..
+  618  cat hint5
+  619  cd mystery
+  620  ls
+  621  cd streets
+  622  cat Mattapan_Street
+  623  head -n 173 streets/Mattapan_Street | tail -n 1
+  624  cd ..
+  625  cd..
+  626  cd ..
+  627  cat hint4
+  628  cd mystery
+  629  cat people
+  630  grep "Annabel" people
+  631  cd command-line-murder-mystery
+  632  ls
+  633  grep -A 5 -E 'L337.*9' vehicles | grep -B 1 -A 4 "Make: Honda" | grep -B 2 -A 3 "Color: Blue" | grep -B 4 -A 1 "Height: 6'"
+  634  cd mystery
+  635  grep -A 5 -E 'L337.*9' vehicles | grep -B 1 -A 4 "Make: Honda" | grep -B 2 -A 3 "Color: Blue" | grep -B 4 -A 1 "Height: 6'"
+  636  cd command-line-murder-mystery
+  637  ls
+  638  cd mystery
+  639  cd ..
+  640  cat instructions
+  641  cd mystery
+  642  ls
+  643  cd ..
+  644  hint2
+  645  cat hint2
+  646  cd mystery
+  647  cd crimescene
+  648  rep "CLUE" crimescene
+  649  grep "CLUE" 
+  650  cd command-line-murder-mystery
+  651  ls
+  652  cat instructions
+  653  cat hint2
+  654  cd mystery
+  655  ls
+  656  cat crimescene
+  657  rep "CLUE" crimescene
+  658  grep "CLUE" crimescene
+  659  cd command=line-murder-mystery
+  660  cd command-line-murder-mystery
+  661  ls
+  662  cat instructions
+  663  cd mystery
+  664  ls
+  665  grep "CLUE" CRIMESCENE
+  666  cd ..
+  667  cat hint2
+  668  cat hint3
+  669  cd mystery
+  670  cat people
+  671  head people
+  672  head -n 40 streets/Hart_Place | tail -n 1
+  673  cat interviews/interview-47246024
+  674  head -n 179 streets/Buckinghan_Place | tail -n 1
+  675  head -n 179 streets/Buckingham_Place | tail -n 1
+  676  cat interviews/interview-699607
+  677  grep "L337" vehicles
+  678  grep "Honda" behicles
+  679  grep "Honda" vehiccles
+  680  grep "Honda" vehicles
+  681  cd command-line-murder-mystery
+  682  ls
+  683  cat instructions
+  684  cd mystery
+  685  ls
+  686  grep "CLUE" crimescene
+  687  head -n 40 streets/Hart_Place | tail -n 1
+  688  cat interviews/interview-47246024
+  689  head -n 179 streets/Buckingham_Place | tail -n 1
+  690  cat interviews/interview-699607
+  691  grep "L337" vehicles
+  692  grep "Honda" vehicles | wc -l
+  693  grep "Blue" vehicles | wc -l
+  694  grep -A 5 "L337" vehicles
+  695  grep -Pzo '\nLicense Plate L337.*\nMake: Honda\nColor: Blue' vehicles
+  696  grep -Pzo '\nLicense Plate L337.*\nMake: Honda\nColor: Blue' vehicles\nL337QE9
+  697  ls
+  698  cat vehicles
+  699  grep -Pzo '\nLicense Plate L337.*\nMake: Honda\nColor: Blue' vehicles\nL337QE9
+  700  grep -i "L337.*9" -A6 vehicles | grep -i Honda -B2 -A5 | grep -i Blue -B3 -A4 | grep -i "6'" -B5 -A2
+  701  ls
+  702  cat people
+  703  grep "Jacqui Maher" people
+  704  grep "Joe Germuska" people
+  705  cd command-line-murder-mystery
+  706  ls
+  707  cat instructions
+  708  cd mystery
+  709  grep "CLUE" crimescene
+  710  grep "Annabel" people
+  711  head -n 40 streets/Hart_Place | tail -n 1
+  712  cat interviews/interview-47246024
+  713  head -n 179 streets/Buckingham_Place | tail -n 1
+  714  cat interviews/interview-699607
+  715  grep "L337" vehicles\n
+  716  grep -A 5 "L337" vehicles
+  717  grep -i "L337.*9" -A6 vehicles | grep -i Honda -B2 -A5 | grep -i Blue -B3 -A4 | grep -i "6'" -B5 -A2
+  718  ls
+  719  cat people
+  720  grep "Jacqui Maher" people
+  721  grep "Joe Germuska" people
+  722  grep "Jeremy Bowers" people
+  723  echo "Jeremy Bowers" | $(command -v md5 || command -v md5sum) | grep -qif /dev/stdin encoded && echo CORRECT\! GREAT WORK, GUMSHOE. || echo SORRY, TRY AGAIN.
+  724  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"\n2
+  725  cd ..
+  726  cd command-line-murder-mystery
+  727  ls
+  728  cat instructions
+  729  grep "CLUE" crimescene
+  730  ls
+  731  cd mystery
+  732  grep "CLUE" crimescene
+  733  ls
+  734  cat people
+  735  grep "Annabel" people
+  736  head -n 40 streets/Hart_Place | tail -n 1
+  737  cat interviews/interview-47246024
+  738  head -n 179 streets/Buckingham_Place | tail -n 1
+  739  cat interviews/interview-699607
+  740  ls
+  741  cat vehicles
+  742  grep "L337" vehicles
+  743  grep -i "L337.*9" -A6 vehicles | grep -i Hon
+  744  grep -i "L337.*9" -A6 vehicles | grep -i Honda -B2 -A5 | grep -i Blue -B3 -A4 | grep -i "6'" -B5 -A2
+  745  ls
+  746  grep "Jacqui Maher" people
+  747  grep "Joe Germuska" people
+  748  grep "Jeremy Bowers" people
+  749  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  750  .. cd
+  751  cd ..
+  752  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  753  cat hint8
+  754  cat Museum_of_Bash_History AAA Delta_SkyMiles Terminal_City_Library | grep -c "Joe Germuska"
+  755  ls
+  756  cd mystery
+  757  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  758  cd ..
+  759  ls
+  760  cd mystery
+  761  ls
+  762  cd memberships
+  763  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  764  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Joe Germuska"
+  765  cd ..
+  766  cd mystery
+  767  cd ..
+  768  pwd
