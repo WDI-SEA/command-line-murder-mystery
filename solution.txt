@@ -1,0 +1,589 @@
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  $ brew install git
+    3  brew install git
+    4  brew help
+    5  open brew install git
+    6  open brew help
+    7  pwd
+    8  ls
+    9  cd Docuemnts
+   10  cd Documents
+   11  ls -a
+   12  cd ..
+   13  pwd
+   14  mkdir GA Coursework
+   15  pwd
+   16  cd GA Coursework
+   17  rm -r GA Coursework
+   18  mkdir GA-Coursework
+   19  cd GA-Coursework
+   20  touch index.html style.css
+   21  cd ..
+   22  cd Downloads
+   23  cd World
+   24  cd -a ls
+   25  ls -a World
+   26  ls -a
+   27  cd /.carmen_sandiego.png
+   28  ls -a Europe
+   29  cd ..
+   30  cd ..
+   31  git --version
+   32  pwd
+   33  git --version
+   34  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   35  brew
+   36  cd Library
+   37  cd Developer
+   38  cd CommandLineTools
+   39  git --version
+   40  cd ..
+   41  cd ..
+   42  pwd
+   43  cd GA-Coursework
+   44  pwd
+   45  git init
+   46  ls -a
+   47  git status
+   48  git add index.html
+   49  git status
+   50  git commit -m "created an index.html file for practice"
+   51  git log
+   52  pwd
+   53  mkdir git-practice
+   54  cd git-practice
+   55  pwd
+   56  git status
+   57  git init
+   58  ls -a
+   59  touch README.txt
+   60  git status
+   61  git add README.txt
+   62  git status
+   63  git commit -m "More practice committing things to git"
+   64  cd ~
+   65  pwd
+   66  config --global user.name "Crystal Sheeley"
+   67  git config --global user.name "Crystal Sheeley"
+   68  git config --global user.email "crystal.sheeley13@gmail.com"
+   69  git config --global user.email "crystal.sheeley13@gmail.com"cd ~
+   70  cd GA-Coursework
+   71  clone https://github.com/crystalsheeley/contribute-to-open-source.git
+   72  git clone ^[[200~https://github.com/crystalsheeley/contribute-to-open-source.git~
+   73  git clone https://github.com/crystalsheeley/contribute-to-open-source.git
+   74  git add package.json
+   75  ls
+   76  cd contribute-to-open-source
+   77  git add package.json
+   78  git status
+   79  git push origin master
+   80  git push origin master
+   81  git commit package.json
+   82  /usr/bin/python3 Untitled-1
+   83  /usr/bin/python3 Untitled-1
+   84  /usr/bin/python3 Untitled-1
+   85  /usr/bin/python3 /Users/crystalsheeley/Documents/GA-Coursework/python-practice.py
+   86  /usr/bin/python3 /Users/crystalsheeley/Documents/GA-Coursework/python-practice.py
+   87  /usr/bin/python3 /Users/crystalsheeley/Documents/GA-Coursework/python-practice.py
+   88  /usr/bin/python3 /Users/crystalsheeley/Documents/GA-Coursework/python-practice.py
+   89  /usr/bin/python3 /Users/crystalsheeley/Documents/GA-Coursework/python-practice.py
+   90  /usr/bin/python3 /Users/crystalsheeley/Documents/GA-Coursework/python-practice.py
+   91  /usr/bin/python3 /Users/crystalsheeley/Documents/GA-Coursework/python-practice.py
+   92  cd Downloads
+   93  cd ~
+   94  cd Downloads
+   95  ls
+   96  rm -r VisualStudioForMacInstaller__50e536ce5f8a41d9b00019c2e52b34df (1).dmg
+   97  rm -r VisualStudioForMacInstaller__50e536ce5f8a41d9b00019c2e52b34df
+   98  rm -r VisualStudioForMacInstaller__50e536ce5f8a41d9b00019c2e52b34df.dmg\n
+   99  ls
+  100  cd GA-Coursework
+  101  ls
+  102  contribute-to-open-source
+  103  cd contribute-to-open-source
+  104  git status
+  105  git commit package.json -m "Trying to make changes"
+  106  git push origin master
+  107  git push origin master
+  108  git push origin master
+  109  git push origin master
+  110  /usr/bin/python3 "/Users/crystalsheeley/GA-Coursework/Python practice.py"
+  111  cd Node.js v19.0.1 to /usr/local/bin/node
+  112  cd Node.js
+  113  node -v
+  114  npm -v
+  115  node test.js
+  116  ls node
+  117  test-node.js
+  118  echo "console.log(1+1);" >> test.node.js
+  119  node test-node.js
+  120  echo "console.log(1+1);" >>test-node.js
+  121  node test-node.js
+  122  node test-node.js
+  123  mkdir hello
+  124  cd hello
+  125  code .
+  126  rm -r hello
+  127  cd ..
+  128  rm -r hello
+  129  node app.js
+  130  cd GA-Coursework
+  131  node app.js
+  132  node app.js
+  133   node -v
+  134  node
+  135  cd Documents
+  136  cd GA-Coursework
+  137  mkdir node-crash-course
+  138  cd node-crash-course
+  139  code .
+  140  code
+  141  code
+  142  pwd
+  143  cd ..
+  144  cd ..
+  145  cd ..
+  146  pwd
+  147  cd Documents
+  148  cd GA-Coursework
+  149  cd node-crash-course
+  150  git clone https://github.com/iamshaunjp/node-crash-course.git
+  151  git clone https://github.com/iamshaunjp/node-crash-course/blob/865c34a2d05097f09f761aa93b64d294374f23c7/streams.js
+  152  git clone lesson-2
+  153  pwd
+  154  cd node-crash-course
+  155  clone git lesson-2
+  156  clone git https://github.com/iamshaunjp/node-crash-course.git
+  157  git clone https://github.com/iamshaunjp/node-crash-course.git
+  158  rm -r https://github.com/iamshaunjp/node-crash-course.git
+  159  git clone https://github.com/iamshaunjp/node-crash-course.git \n
+  160  pwd
+  161  rm -r node-crash-course
+  162  cd ..
+  163  pwd
+  164  cd ~
+  165  cd Documents
+  166  cd GA-Coursework
+  167  cd node-crash-course
+  168  ls
+  169  rm node-crash-course
+  170  cd node-crash-course
+  171  pwd
+  172  git clone https://github.com/iamshaunjp/node-crash-course.git
+  173  ls
+  174  git branch -a
+  175  git checkout remotes/origin/lesson-2
+  176  git swtich -c <Lesson-Two-Nodejs>
+  177  git switch -c <lessontwo>
+  178  git branch
+  179  clear
+  180  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  181  brew -v
+  182  brew --version
+  183  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  184  brew -- version
+  185  ~brew -v
+  186  echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/crystalsheeley/.zprofile\n    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/crystalsheeley/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+  187  brew gelp
+  188  cd
+  189  cd ..
+  190  cd~
+  191  cd ..
+  192  echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/crystalsheeley/.zprofile\n    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/crystalsheeley/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+  193  pwd
+  194  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  195  brew help
+  196  brew -v
+  197  ls -al ~/.ssh
+  198  git -version
+  199  git -v
+  200  brew -v
+  201  pwd
+  202  brew install zsh
+  203  echo $SHELL
+  204  chsh -s /bin/zsh
+  205  git --version
+  206  git config user.name
+  207  git config user.email
+  208  git config --global push.default simple
+  209  git config --global credential.helper cache
+  210  git config --global core.editor 'code -w'\ngit config pull.rebase true
+  211  git config --global core.editor 'code -w'
+  212  git config pull.rebase true
+  213  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  214  git -v
+  215  ZSH_THEME="af-magic"
+  216  git config --global user.email
+  217  git config --global user.name "Turtle-Sprite"
+  218  git config --global user.email "crystal.sheeley@gmail.com"
+  219  git config --global core.editor 'code -w'
+  220  git config --global credential.helper cache
+  221  git config --global push.default simple
+  222  git config --global pull.rebase true
+  223  git -v
+  224  code
+  225  node test
+  226  node test
+  227  node test
+  228  node test
+  229  node test
+  230  node test
+  231  clear
+  232  node global
+  233  clear
+  234  node global
+  235  clear
+  236  node test
+  237  clear
+  238  node global
+  239  clear
+  240  node test
+  241  clear
+  242  node test
+  243  node test
+  244  clear
+  245  node global
+  246  node global
+  247  node global
+  248  clear
+  249  node global
+  250  node global
+  251  node global
+  252  clear
+  253  node test
+  254  node global
+  255  node global
+  256  clear
+  257  node global
+  258  node global
+  259  node global
+  260  node global
+  261  node global
+  262  node global
+  263  node global
+  264  node global
+  265  node global
+  266  node global
+  267  node global
+  268  node global
+  269  node global
+  270  clear
+  271  node global
+  272  node global
+  273  node global
+  274  node global
+  275  node global
+  276  node global
+  277  clear
+  278  node global
+  279  clear
+  280  node global
+  281  clear
+  282  node global
+  283  mkdir lessonTwo
+  284  rm -r lessonTwo
+  285  cd node-crash-course
+  286  mkdir lessonTwo
+  287  clear
+  288  pwd
+  289  ls
+  290  rm -r test-not.js
+  291  rm test-node.js
+  292  ls
+  293  cd Desktop
+  294  ls
+  295  cd ..
+  296  pwd
+  297  ls
+  298  ls -a
+  299  man ls
+  300  q
+  301  ls -l
+  302  ls - lh
+  303  ls -lh
+  304  pwd
+  305  cd Desktop
+  306  seir-1114
+  307  mkdir seir-1114
+  308  ls
+  309  cd seir-1114
+  310  mkdir unit1
+  311  ls
+  312  cd unit1
+  313  mkdir cli-intro
+  314  cd cli-intro
+  315  pwd
+  316  cd
+  317  pwd
+  318  cd Desktop/seir-1114/unit1/cli-intro
+  319  cd
+  320  cd Desktop/seir-1114/unit1/cli-intro
+  321  touch my-site.html
+  322  ls
+  323  mkdir on two
+  324  mv my-site.html one/my-site-big-dumb-typo.html
+  325  ls
+  326  rm on
+  327  rm -r on
+  328  mkdir one
+  329  mv my-site.html one/my-site-big-dumb-typo.html
+  330  ls
+  331  ls -R
+  332  touch script.js
+  333  mv script.js two/script.js
+  334  cp two/script.js one/script.js
+  335  ls
+  336  ls -R
+  337  touch books.txt
+  338  code .
+  339  ls
+  340  cat books.txt
+  341  grep Mill books.txt
+  342  cat books.txt | grep Mill
+  343  head -n 5 books.txt
+  344  echo "new book" >> books.txt
+  345  cat books.txt
+  346  clear
+  347  cd
+  348  pwd
+  349  cd Desktop/seir-1114/unit1
+  350  mkdir git-intro
+  351  ls
+  352  cd git-intro
+  353  touch index.html
+  354  ls
+  355  git init
+  356  cd
+  357  index.html
+  358  ls
+  359  cd Desktop/seir-1114
+  360  ls
+  361  unit1
+  362  ls
+  363  cd git-intro
+  364  git status
+  365  git add index.html
+  366  git status
+  367  git commit
+  368  git commit -m "adds index.hmtl file to the project"
+  369  git log
+  370  pwd
+  371  cd Desktop/seir-1114/unit1/git-intro
+  372  touch script.js style.css
+  373  git add .
+  374  git status
+  375  git commit -m 'adds css and js files'
+  376  git status
+  377  git remote add origin https://github.com/Turtle-Sprite/test-repo.git\ngit branch -M main\ngit push -u origin main
+  378  cd ..
+  379  cd Desktop
+  380  ls
+  381  cd crystalsheeley/Desktop/seir-1114/unit1
+  382  git clone https://github.com/WDI-SEA/command-line-murder-mystery.git
+  383  cat instructions
+  384  ls
+  385  cd command-line-murder-mystery
+  386  git remote set-url origin https://github.com/Turtle-Sprite/command-line-murder-mystery.git
+  387  git remote
+  388  git remote -v
+  389  pwd
+  390  ls
+  391  cat hint1
+  392  cat hint2
+  393  cat hint3
+  394  cat hint4
+  395  cat hint5
+  396  ls
+  397  cd mystery
+  398  ls
+  399  open crimescene
+  400  cd ..
+  401  open instructions
+  402  open cheatsheet.pdf
+  403  grep "clue" crimescene
+  404  cd mystery
+  405  grep "clue" crimescene
+  406  ls
+  407  grep "CLUE" crimescene
+  408  cd ..
+  409  ls
+  410  cd mystery
+  411  ls
+  412  grep "Annabel" people
+  413  cd interviews
+  414  ls
+  415  grep "McDuck" *
+  416  grep "Annabel" *
+  417  cd ..
+  418  ls
+  419  cd interviews
+  420  head -n 20 
+  421  pwd
+  422  cd Desktop/seir-1114/unit1/command-line-murder-mystery
+  423  ls
+  424  cat hint1
+  425  cd mystery
+  426  cd ..
+  427  ls
+  428  cd mystery
+  429  grep "CLUE" crimescene
+  430  cd ..
+  431  cd mystery
+  432  grep "Annabel" people
+  433  grep "Hart Place, line 40 Oluwasegun" streets
+  434  cd streets
+  435  grep "Hart Place, line 40 Oluwasegun" streets
+  436  ls
+  437  cd Desktop/seir-1114/unit1
+  438  cd command-line-murder-mystery
+  439  grep -r "Annabel" *
+  440  mystery/memberships/AAA
+  441  cd mystery/memberships/AAA
+  442  cd mystery 
+  443  cat memberships
+  444  cd memberships
+  445  ls
+  446  cat AAA
+  447  grep "Annabel" memberships
+  448  cd..
+  449  grep "Annabel" memberships
+  450  cd ..
+  451  grep "Annabel" memberships
+  452  grep -r "Annabel" *
+  453  cat memberships/AAA
+  454  grep -A 4 "Annabel" AAA
+  455  cgrep -A 4 "Annabel" membership
+  456  grep -A 4 "Annabel" membership
+  457  grep -A 4 "Annabel" memberships
+  458  cd memberships
+  459  grep -A 4 "Annabel" AAA
+  460  ls
+  461  cd Delta_SkyMiles
+  462  grep -A 4 "Annabel" Delta_SkyMiles
+  463  cd ..
+  464  ls
+  465  cd interviews
+  466  ls
+  467  grep -l "Annabel" *
+  468  cd ..
+  469  ls
+  470  cd interviews
+  471  grep -r "Annabel" *
+  472  grep "Annabel" *
+  473  cd ..
+  474  ls
+  475  cd streets
+  476  grep -l "Annabel" *
+  477  grep -l "Buckingham" *
+  478  cd Desktop/seir-1114/unit1
+  479  cd command-line-murder-mystery
+  480  hint1
+  481  open hint1
+  482  open hint2
+  483  open hint3
+  484  cd Desktop/seir-1114/unit1/command-line-murder-mystery
+  485  open hint 4
+  486  open hint4
+  487  open hint5
+  488  open hint6
+  489  open hint7
+  490  open hint8
+  491  ls
+  492  cd mystery
+  493  grep -r "Annabel" *
+  494  cd Desktop/seir-1114/unit1/command-line-murder-mystery
+  495  cd mystery
+  496  ls
+  497  head 30 people
+  498  head -n 173 streets/Mattapan_Street | tail -n 1
+  499  cd interviews
+  500  cat #9437737
+  501  cd Desktop/seir-1114/unit1/command-line-murder-mystery/mystery
+  502  cd interviews
+  503  cat INTERVIEW #9437737
+  504  head -n 173 streets/Mattapan_Street | tail -n 1
+  505  cd mystery
+  506  head -n 173 streets/Mattapan_Street | tail -n 1
+  507  cd..
+  508  cd ..
+  509  head -n 173 streets/Mattapan_Street | tail -n 1
+  510  cd interviews
+  511  open SEE INTERVIEW #9437737
+  512  ls
+  513  cat interview-9437737
+  514  head -n Buckingham Place, line 179 | tail -n 1
+  515  head -n 179 Buckingham Place | tail -n 1
+  516  head -n 179 streets/Buckingham Place | tail -n 1
+  517  head -n 179 streets/Buckingham_Place | tail -n 1
+  518  head -n 176 streets/Haley_Street | tail -n 1
+  519  head -n 176 streets/Haley_Street
+  520  grep "vehicle" *
+  521  grep "car" *
+  522  cat interview-699607
+  523  cd ..
+  524  ls
+  525  grep "Honda" vehicles
+  526  grep "L337" vehicles
+  527  grep "L337" && "blue" vehicles 
+  528  ls
+  529  grep -A 4 vehicles
+  530  cd Desktop/seir-1114/unit1/command-line-murder-mystery/mystery
+  531  grep -A 4 "L337" vehicles
+  532  cat Museum_of_Bash_History AAA 
+  533  ls
+  534  cd memberships
+  535  ls
+  536  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History
+  537  grep "Erika Owens" *
+  538  grep "Jeremy Bowers" *
+  539  grep "Jacqui Maher" *
+  540* cd Desktop/seir-1114/unit1/command-line-murder-mystery/mystery
+  541* ls
+  542* grep "CLUE" crimescene
+  543* grep "CLUE" crimescene >> clues.txt
+  544* head -n 20 people
+  545* grep Annabel people
+  546* grep Annabel people >> clues.txt
+  547* cd streets
+  548* sed -m '173 p'
+  549* sed -n '173p' mystery/streets/Mattapan_Street
+  550* sed -n 173 Mattapan_Street
+  551* sed -n 173p Mattapan_Street
+  552* cat -n Hart_Place 
+  553* cat -n Hart_Place | grep ' 40'
+  554* grep -n Hart_Place| grep ' 40' >> ../clues.txt
+  555  cd ..
+  556  cd streets
+  557  cat -n 179 streets/BUckingham_Place | tail -n 1
+  558  cat -n 179 streets/Buckingham_Place | tail -n 1
+  559  cd ..
+  560* ls interviews
+  561* cat interview/interview-699607
+  562* cat interview-699607
+  563* cd ..
+  564* cd mystery
+  565* cat interviews/interview-699607
+  566* cat interviews/interview-699607 >> clues.txt
+  567* cat clues.txt
+  568* cat vehicles | grep "L337"
+  569* grep -A 5 L337 vehicles
+  570* grep -A 5 L337 vehicles >> clues.txt
+  571* grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue
+  572* grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 "6'"
+  573* grep -A 5 L337 vehicles | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 "6'" >> clues.txt
+  574  cd memberships
+  575  grep "Jeremy Bowers" *
+  576  grep "Jeremy Bowers" * >> clues.txt
+  577  grep "Jacqui Maher" *
+  578  grep "Jacqui Maher" * >> clues.txt
+  579  grep "Jeremy Bowers" people
+  580  cd ..
+  581  grep "Jeremy Bowers" people
+  582  grep "Jeremy Bowers" people >> clues.txt
+  583  head -n 284 streets/Dunstable_Road | tail -n 1
+  584  head -n 284 streets/Dunstable_Road | tail -n 1 >> clues.txt
+  585  cat interviews/interview-9620713
+  586  cat interviews/interview-9620713 >> clues.txt
+  587* cd ..
+  588* cd mystery
+  589  cd ..
