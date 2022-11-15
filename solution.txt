@@ -1,0 +1,417 @@
+    1  echo $SHELL
+    2  code
+    3  logout
+    4  pwd
+    5  ls 
+    6  ls
+    7  cd Desktop
+    8  ls -a
+    9  cd .ssh
+   10  ls
+   11  ..
+   12  man ;s
+   13  man ls
+   14  mkdir seir-1114
+   15  ;s
+   16  ls
+   17  cd seier-1114
+   18  cd seir-1114
+   19  mkdir unit1
+   20  ls
+   21  cd unit1
+   22  mkdir cli-intro
+   23  .
+   24  ..
+   25  ls
+   26  cd seir-1114/unit1
+   27  cd
+   28  cd seir-1114/cd ..
+   29  cd ...
+   30  cd...
+   31  cd ...
+   32  cd ../
+   33  pwd
+   34  cd
+   35  cd seir-1114/unit1/cli-intro
+   36  mkdir one two
+   37  ls
+   38  touch my-site.html
+   39  ls
+   40  touch one/notes.txt
+   41  ls
+   42  touch one/notes.txt two/script.js
+   43  ls one
+   44  ls two
+   45  ls -R
+   46  mv my-site.html one/my-site.html
+   47  ls one
+   48  mv one/my-site.html my-site.html
+   49  ls
+   50  cp two/script.js one/script.js
+   51  ls -R
+   52  rm my-site.html
+   53  rm -rf one
+   54  ls
+   55  rm -rfv
+   56  rm -rfv two
+   57  ls
+   58  code .
+   59  touch books.txt
+   60  ls
+   61  code .
+   62  logout
+   63  ls
+   64  cd seir-1114/unit1/cli-intro
+   65  ls
+   66  code .
+   67  explorer.exe .
+   68  ..
+   69  cd
+   70  explorer.exe .
+   71  logout
+   72  cd seir-1114/unit1/cli-intro
+   73  ls
+   74  cat
+   75  s
+   76  n
+   77  cd seir-1114/unit1/cli-intro
+   78  cat books.txr
+   79  pwd
+   80  ls
+   81  cat books.txt
+   82  echo "goodbye books">> books.txt
+   83  cat books.txt
+   84  echo "goodbye books"> books.txt
+   85  cat books.txt
+   86  history > lesson.txt
+   87  ls
+   88  clear
+   89  cd
+   90  clear
+   91  pwd
+   92  cd seir-1114/unit1/
+   93  mkdir git-intro
+   94  ls
+   95  cd git-intro
+   96  touch index.html
+   97  ls
+   98  git init
+   99  git branch -m main
+  100  cd
+  101  rm -rf .git
+  102  git init
+  103  cd
+  104  pwd
+  105  cd
+  106  cd seir-1114/unit1/git-intro
+  107  git .init
+  108  git init
+  109  git status
+  110  git add index.html
+  111  git status
+  112  git commit -m "adds index.html file to the project"
+  113  git status
+  114  git log
+  115  touch style.css script.js
+  116  ls
+  117  git status
+  118  git add script.js style.css
+  119  git status
+  120  git commit -m 'adds css and js files'
+  121  apt install tree
+  122  logout
+  123  ls
+  124  cd seir-1114/tree
+  125  cd seir-1114/
+  126  tree
+  127  cd unit1/git-intro
+  128  ls
+  129  git remote add origin https://github.com/GetFluxxed/git_intro.git
+  130  git branch -M main
+  131  git push -u origin main
+  132  ..
+  133  mkdir murderMystery
+  134  ls
+  135  cd murderMystery
+  136  https://github.com/GetFluxxed/command-line-murder-mystery.git
+  137  git clone https://github.com/GetFluxxed/command-line-murder-mystery.git
+  138  ls
+  139  cd command-line-murder-mystery
+  140  ls
+  141  cat instructons
+  142  cat instructions
+  143  ls
+  144  cat hint1
+  145  cd mystery
+  146  head -n 20 people
+  147  cat hint2
+  148  ..
+  149  cat hint2
+  150  ls
+  151  cat README.md
+  152  pwd
+  153  tree
+  154  cat crimescene
+  155  grep "clue" interviews
+  156  ..
+  157  cd mystery
+  158  cd command-line-murder-mystery
+  159  ls
+  160  cat LICENCSE
+  161  cat LICENSE
+  162  clear
+  163  ls
+  164  cat hint1
+  165  cat hint 2
+  166  cat hint2
+  167  cat hint3
+  168  cat hint4
+  169  cat hint5
+  170  cat hint 6
+  171  cat hint6
+  172  head -n 20 people
+  173  cd mystery
+  174  ls
+  175  cat crimescene
+  176  ls
+  177  cd seir-1114/unit1/murderMystery/command-line-murder-mystery/mystery
+  178  ls 
+  179  head -n 20 people
+  180  cd streets
+  181  tree
+  182  ..
+  183  cd people
+  184  ls
+  185  cd memberships
+  186  tree
+  187  cat 1.txt
+  188  ..
+  189  ls
+  190  open cheatsheet.pdf
+  191  logout
+  192  cd seir-1114/unit1/murderMystery/command-line-murder-mystery/
+  193  ls
+  194  open cheatsheet.pdf
+  195  code ~/.zshrc
+  196  nano cheatsheet.pdf
+  197  sublime cheatsheet.pdf
+  198  cat cheatsheet.pdf
+  199  cat cheatsheet.md | less
+  200  nano cheatsheet.md
+  201  clear
+  202  cat cheatsheet.md | less
+  203  cd mystery
+  204  ls
+  205  ..
+  206  ls
+  207  cat hint1
+  208  cat hint2
+  209  grep "CLUE" crimescene%
+  210  grep "CLUE" crimescene
+  211  cd mystery
+  212  grep "CLUE crimescene\n"
+  213  grep "CLUE" crimescene
+  214  head n- 20 names
+  215  head -n 20 names
+  216  ..
+  217  head -n 20 names
+  218  head -n 20 people
+  219  cd mystery
+  220  ls
+  221  head -n 20 people
+  222  head -n 40 people
+  223  grep "Annabel" people
+  224  ..
+  225  ls
+  226  cd mystery
+  227  touch case_submission.txt
+  228  grep "Annabel" people
+  229  echo "This is a clue.\n">> case_submission.txt
+  230  echo "The suspect is around 6' tall.\n>> case_submission.txt
+  231  echo "The suspect is around 6' tall."\n>> case_submission.txt
+  232  echo -e "task goes here\n$(cat todo.ext)"> todo.txt
+  233  echo -e "task goes here\n$(cat todo.txt)"> todo.txt
+  234  ls
+  235  cat todo.txt
+  236  logout
+  237  cd seir-1114/unit1/murderMystery/command-line-murder-mystery/mystery/
+  238  ls
+  239  cat todo.txt
+  240  tldr r
+  241  tldr -r
+  242  tldr -R
+  243  tldr rm
+  244  echo -e "task goes here\n$(cat todo.txt)" > todo.txt
+  245  rm todo.txt
+  246  ls
+  247  cat case_submission.txt
+  248  echo -e "The suspect is around 6' tall.\n$(cat todo.txt)" > todo.txt
+  249  echo -e "The suspect is around 6' tall.\n$(cat case_submission.txt)" > case_submission.txt
+  250  cat case_submission.txt
+  251  ..
+  252  grep "CLUE" crimescene
+  253  ls
+  254  cd mystery
+  255  grep "CLUE" crimescene
+  256  echo "the killer has a membership to AAA, Delta Skymiles, the library, and the Bash History Museum.\n">> case_submission.txt
+  257  echo "When questioned, the barista at a local coffee shop said that a latte the suspect ordered had the name 'Annabel' on it, and that they had blonde spiky hair, and a New Zealand accent.n\">> case_submission.txt
+  258  echo "When questioned, the barista at a local coffee shop said that a latte the suspect ordered had the name Annabel on it, and that they had blonde spiky hair, and a New Zealand accent.n\">> case_submission.txt
+  259  echo "When questioned, the barista at a local coffee shop said that a latte the suspect ordered had the name Annabel on it, and that they had blonde spiky hair, and a New Zealand accent.\n">> case_submission.txt
+  260  ls
+  261  rm todo.txt
+  262  ls
+  263  grep "Anabel" memberships
+  264  cd memberships
+  265  grep "Anabel"
+  266  grep "Annabel" memberships
+  267  grep "Annabel" 
+  268  grep "Annabel" interviews
+  269  ..
+  270  grep "Annabel" interviews
+  271  grep "Annabel" vehicles
+  272  cat hint3
+  273  ..
+  274  cat hint3
+  275  head -n "Annabel" vehicles
+  276  head -n 20 "Annabel" vehicles
+  277  ls
+  278  cd mystery
+  279  head -n 20 "Annabel" vehicles
+  280  head -n "Annabel" vehicles
+  281  cd memberships
+  282  ls
+  283  cat AAA
+  284  grep "Annabel" AAA
+  285  ..
+  286  cd mystery
+  287  grep "Annabel" people
+  288  cd streets
+  289  tree
+  290  cat Buckingham Place
+  291  cat line 173
+  292  cat line173
+  293  ..
+  294  hint3
+  295  cat hint3
+  296  cat hint4
+  297  cd mystery
+  298  grep "Annabel" people
+  299  cat hint5
+  300  ..
+  301  cat hint5
+  302  cd mystery
+  303  head -n 173 streets/Mattapan_Street | tail -n 1
+  304  head -n 179 streets/Buckingham_Place | tail -n 1
+  305  echo "There seems to be two key suspects:\n Oluswasegun Annabel;\n and Annabel Fuglsang.">> case_submission.txt
+  306  head -n 176 streets/Haley_Street | tail -n 1
+  307  ..
+  308  cd interviews
+  309  ls
+  310  cd mystery
+  311  cd interviews
+  312  head -n 173
+  313  ..
+  314  head -n 176 interviews
+  315  ..
+  316  cat hint6
+  317  cat hint5
+  318  cat hint4
+  319  cd mystery
+  320  ls
+  321  cd interviews
+  322  ls
+  323  cat interview-9437737
+  324  cat interview-871877
+  325  cat interview-699607
+  326  echo "Seems as though neither of the suspects were up to trouble... or so we think.\n">> case_submission.txt 
+  327  ..
+  328  cd interviews
+  329  ls
+  330  rm case_submission.txt
+  331  ls
+  332  cd
+  333  cd seir-1114/unit1/murderMystery/command-line-murder-mystery/mystery
+  334  ls
+  335  echo "Seems as though neither of the suspects were up to trouble... or so we think.\n">> case_submission.txt 
+  336  echo "However, we did get some information as to a blue honda with a license plate the starts with L337 and ends with 9.\n">> case_submission.txt
+  337  ..
+  338  cd mystery
+  339  ls
+  340  grep "blue" vehicles
+  341  cat vehicles
+  342  q
+  343  clear
+  344  head -n "Blue" vehicles
+  345  ..
+  346  cat hint6
+  347  head vehicles
+  348  cd mystery
+  349  head vehicles
+  350  grep "Color: Blue" vehicles
+  351  tldr grep
+  352  grep -E -w -i "Blue|Honda" vehicles
+  353  clear
+  354  grep -A 3 -x -E -w -i "Blue|Honda"
+  355  grep -A 3 -x -E -w -i "Blue|Honda" vehicles
+  356  grep -A 3 -x "Blue|Honda" vehicles
+  357  grep -A 3 -x "Blue" vehicles
+  358  head vehicles
+  359  grep -C 3 -x "Blue"
+  360  grep -C 3 -x "Blue" vehicles
+  361  ..
+  362  cd mystery
+  363  grep -C 3 "Blue" vehicles
+  364  grep "Jacqui" people
+  365  head -n 224 streets/Andover_Road | tail -n 1
+  366  grep "904020" interviews
+  367  cd interviews
+  368  tree
+  369  cat interview-904020
+  370  ..
+  371  grep -C 3 "Blue" vehicles -exec grep -i "L337" vehicles
+  372  grep -C 3 "Blue" vehicles grep -i "L337" vehicles
+  373  grep -C 3 "Blue" vehicles && grep -i "L337" vehicles
+  374  grep -C 3 "Blue" && grep -i "L337" vehicles
+  375  grep -C 3 "Blue" grep -i "L337" vehicles
+  376  grep -C 3 "Blue"-e grep -i "L337" vehicles
+  377  grep -C 3 "Blue" -e grep -i "L337" vehicles
+  378  grep -C 3 "Blue" | grep -i "L337" vehicles
+  379  grep -C 3 "Blue" vehicles | grep -i "L337" vehicles
+  380  grep -i -C 3 "L337" vehicles
+  381  echo "There are three new suspects on the list:\n Jeremy Bowers;\nHeather Billings;
+  382  echo "There are three new suspects on the list:\n Jeremy Bowers;\nHeather Billings;\nand Erika Owens.\n">> case_submission.txt
+  383  grep "Jeremy Bowers" people
+  384  grep -i -C 3 "L337..9" vehicles
+  385  grep "Jeremy Bowers" people
+  386  grep "Heather Billings" people
+  387  grep "Erika Owens" people
+  388  cd interviews
+  389  ..
+  390  grep -n 284 streets/Dunstable_Road | tail -n 1
+  391  head -n 284 streets/Dunstable_Road | tail -n 1
+  392  head -n 19 streets/Culbert_Street | tail -n 1
+  393  head -n 98 streets/Trapelo_Street | tail -n 1
+  394  cd interviews
+  395  cat interview-9620713
+  396  cat interview-2939888
+  397  ..
+  398  echo "It seems that Jeremy Bowers is the most likely suspect.\nHe has just left on a trip, fits the height description, and drives a Blue Honda.\n">> case_submission.txt
+  399  ls
+  400  cd memberships
+  401  grep -i -C 3 "Jeremy Bowers"
+  402  ..
+  403  grep -i -C 3 "Jeremy Bowers" memberships
+  404  find -i -C 3 "Jeremy Bowers" memberships
+  405  find "Jeremy Bowers" memberships
+  406  cd memberships
+  407  grep -i -C 3 "Jeremy Bowers" AAA
+  408  grep -i -C 3 "Jeremy Bowers" Delta_SkyMiles
+  409  grep -i -C 3 "Jeremy Bowers" library.txt
+  410  grep -i -C 3 "Jeremy Bowers" Museum_of_Bash_History
+  411  echo "Jeremy also owns a membership to all places found on the cards within the forgotten wallet.\n"
+  412  ..
+  413  echo "Jeremy also owns a membership to all places found on the cards within the forgotten wallet.\n">> case_submission.txt
+  414  history>> history.txt
+  415  ls
+  416  rm history.txt
+  417  ..
