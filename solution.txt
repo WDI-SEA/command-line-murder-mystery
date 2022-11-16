@@ -1,0 +1,534 @@
+    1  code .
+    2  git init
+    3  git add .
+    4  git commit -m "initial commit"
+    5  git remote add origin https://github.com/ninambash/YouTubeClone.git
+    6  git push
+    7  git push --set-upstream origin master
+    8  git status
+    9  git commit -m
+   10  git commit -m "formatcode"
+   11  git push
+   12  git init
+   13  got add .
+   14  git add .
+   15  git commit -m "first commit"
+   16  git remote add origin https://github.com/ninambash/Profile-Card.git
+   17  git push
+   18  git push --set-upstream origin master
+   19  python3
+   20  node --version
+   21  npm --version
+   22  npx --version
+   23  npm update -g
+   24  npx --version
+   25  npm install -g npm
+   26  sudo npm install -g npm
+   27  npm --version
+   28  npx create-react-app my-app\n
+   29  npm run start
+   30  npm i -g create-react-app@1.5.2  
+   31  $sudo npm i -g create-react-app@1.5.2
+   32  $sudo npm i -g create-react-app@1.5.2
+   33  $node index.js
+   34  node --version
+   35  npm --version
+   36  npm update -g
+   37  npm instal -g npm
+   38  sudo npm install -g npm
+   39  git commit -m "first commit"
+   40  npm create-react-app my-app
+   41  npx create-react-app my-app
+   42  npm run start
+   43  npm run start
+   44  node -v
+   45  npx create-react-app .
+   46  npm start
+   47  npm start
+   48  npm start
+   49  git init
+   50  git add README.md
+   51  git init
+   52  git add README.md
+   53  git commit -m "first commit"
+   54  git init
+   55  git add .
+   56  git commit -m "first commit"
+   57  git remote add origin https://github.com/ninambash/weather-app.git
+   58  git push
+   59  git push -u origin main
+   60  git init
+   61  git add .
+   62  git commit
+   63  git commit -m "first commit"
+   64  git status
+   65  git log
+   66  git remote add origin https://github.com/ninambash/weather-app.git
+   67  git remote -v
+   68  git push
+   69  git push --set-upstream origin master
+   70  clear
+   71  git status
+   72  git add
+   73  git add .
+   74  git add.
+   75  git status
+   76  git commit -m "format code"
+   77   git config --global --edit
+   78  git push
+   79  git status
+   80  ls
+   81  ls-al
+   82  ls -al
+   83  rm -rf .git
+   84  git status
+   85  npm -v
+   86  npm install
+   87  npm install -d tailwindcss@latest postcss@latest autoprefixer@latest
+   88  npx tailwindcss init
+   89  npm start
+   90  npm start
+   91  npm start
+   92  npm start
+   93  npm build
+   94  npm run build
+   95  npm run build
+   96  git add
+   97  git add ./
+   98  git status
+   99  git commit
+  100  git commit -m "first commit"
+  101  git remote add origin https://github.com/ninambash/First-React-App.git\n
+  102  git push
+  103  git push --set-upstream origin master
+  104  npm build
+  105  npm run build
+  106  git add.
+  107  git add .
+  108  git commit -m "create docs folder"
+  109  git push
+  110  npx create-react-app
+  111  create-react-app my-react-app
+  112  npx create-react-app
+  113  npx create-react-app
+  114  npx create-react-app spotify-clone-app
+  115  node-v
+  116  node --version
+  117  npm --version
+  118  npm update -g
+  119  npm --version
+  120  npm install -g npm
+  121  sudo npm install -g npm
+  122  $sudo npm i -g create-react-app@1.5.2
+  123  npx create-react-app .
+  124  node -v
+  125  nps learn-react
+  126  sudo mpm i -g create-react-app@1.5.2
+  127  ls
+  128  cd desktop
+  129  ls
+  130  npx create-react-app my-third-react-app
+  131  npm uninstall -g create-react-app
+  132  npm i -g npm@latest && npm cache clean -f
+  133  sudo npm i -g npm@latest && npm cache clean -f
+  134  npx create-react-app my-third-react-app
+  135  npm install create-react-app
+  136  npx create-react-app my-third-react-app
+  137  code my-third-react-app
+  138  ls
+  139  cs
+  140  cd
+  141  cd desktop
+  142  ls
+  143  code my-third-react-app
+  144  cd..
+  145  cd ..
+  146  ls
+  147  ls -al
+  148  touchTouch .zshrc
+  149  touch .zshrc
+  150  ls al
+  151  ls -al
+  152  nano .zshrc
+  153  ls
+  154  cd desktop
+  155  code my-third-react-app
+  156  npx create-react-app .
+  157  ls
+  158  cd desktop
+  159  npx create-react-app third-react-app
+  160  npm uninstall -g create-react-app
+  161  npm install -g create-react-app
+  162  sudo npm install -g create-react-app
+  163  ls
+  164  npx create-react-app third-react-app
+  165  cd third-react-app
+  166  cat package.json
+  167  cd ..
+  168  rm -rf third-react-app
+  169  rm -rf mysecond-react-app
+  170  npx create-react-app .
+  171  ls
+  172  cd desktop
+  173  npx create-react-app mysecond-rect
+  174  ls
+  175  cd desktop
+  176  npx create-react-app myreal-react-app
+  177  npm start
+  178  python --version
+  179  python3 --version
+  180  python3 --version
+  181  which python 3
+  182  python--version
+  183  python3 --version
+  184  python --version
+  185  python3 --version
+  186  python--version
+  187  python --version
+  188  python3 --version
+  189  python3 --version
+  190  python3 --version
+  191  virtualenv pdf
+  192  pip install pdfminer.six
+  193  python3
+  194  ls
+  195  pwd
+  196  code .
+  197  python3 --version
+  198  python3 -m venv venv
+  199  source venv/bin/activate
+  200  python main.py
+  201  python main.py
+  202  python main.py
+  203  pip install beautifulsoup4
+  204  pip install PyPDF2
+  205  pip install beautifulsoup4
+  206  pip install PyPDF2
+  207  pip instal pandas 
+  208  pip install notebook
+  209  pip install pandas
+  210  /Users/ninambarack/opt/anaconda3/bin/jupyter_mac.command ; exit;
+  211  /Users/ninambarack/opt/anaconda3/bin/jupyter_mac.command ; exit;
+  212  /Users/ninambarack/opt/anaconda3/bin/jupyter_mac.command ; exit;
+  213  pip install pandas
+  214  pip3 install pandas
+  215  pip install panda
+  216  pip uninstall panda
+  217  pip install pandas
+  218  pip install chardet
+  219  hello?
+  220  pwd
+  221  ls
+  222  cd Documents
+  223  cd
+  224  ls -a
+  225  mkdir myfolder
+  226  ls
+  227  cd myfolder
+  228  touch index.html style.css
+  229  ls
+  230  rm style.css
+  231  ls
+  232  cd...
+  233  cd
+  234  cd..
+  235  rm -r myfolder
+  236  ls
+  237  cd documents
+  238  ls
+  239  mkdir myfolder
+  240  cd myfolder
+  241  touch index.html style.css
+  242  rm style.css
+  243  cd..
+  244  cd
+  245  git --version
+  246  git--version
+  247  git --version
+  248  xcode-select --install\nsudo xcode-select -s /Library/Developer/CommandLineTools/
+  249  git --version
+  250  touch GA-Blog
+  251  .git/
+  252  re -r GA-Blog
+  253  rm -r GA-Blog
+  254  touch GA-Blog.git/
+  255  $ git init
+  256  pwd
+  257  ls -a
+  258  $ git status
+  259  touch post.txt
+  260  js-basics
+  261  node index.js
+  262  node index.js
+  263  node index.js
+  264  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  265  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  266  brew--version
+  267  brew --version
+  268  brew --version
+  269  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  270  brew --version
+  271  brew install git
+  272  git --version
+  273  git config --global user.name "ninambash"
+  274  git config --global user.email "ninambash@gmail.com"
+  275  git config --global push.default simple
+  276  git config --global credential.helper cache
+  277  git config --global core.editor 'code -w'
+  278  git config pull.rebase true
+  279  git config --global pull.rebase true
+  280  code
+  281  pwd
+  282  ls
+  283  cd Desktop
+  284  ls
+  285  pwd
+  286  cd..
+  287  cd ..
+  288  ls -a
+  289  man ls
+  290  pwd
+  291  cd
+  292  pwd
+  293  mkdir
+  294  mkdir seir-1114
+  295  ls
+  296  cd seir-1114
+  297  mkdir unit1
+  298  ls
+  299  cd unit1
+  300  pwd
+  301  mkdir cli-intro
+  302  cd cli-intro
+  303  ls
+  304  pwd
+  305  cd
+  306  pwd
+  307  cd seir-1114/unit1
+  308  cd
+  309  pwd
+  310  cd seir-1114/unit1/cli-intro
+  311  mkdir one two
+  312  ls
+  313  touch my-site.html
+  314  ls
+  315  touch one/notes.txt two/script.js
+  316  ls
+  317  ls one
+  318  ls two
+  319  ls -R
+  320  rm my-site.html
+  321  ls
+  322  man rm
+  323  rm -rf one
+  324  rm -rfv two
+  325  ls
+  326  touch books.txt
+  327  ls
+  328  code .
+  329  cat books.txt
+  330  grep mill books.txt
+  331  head -n 5 books.txt | grep Mill
+  332  history >> lesson.txt
+  333  code .
+  334  clear
+  335  cd
+  336  pwd
+  337  cd seir-1114/unit1
+  338  mkdir git-intro
+  339  ls
+  340  cd git-intro
+  341  touch index.html
+  342  ls
+  343  git init
+  344  ls
+  345  git status
+  346  git add index.html
+  347  git status
+  348  git commit -m "add index.html file to thr project"
+  349  touch styles.css script.js
+  350  ls
+  351  git status
+  352  git add .
+  353  git status
+  354  git commit -m "adds css and js files"
+  355  git remote add origin https://github.com/ninambash/test-repo.git\ngit branch -M main\ngit push -u origin main
+  356  git clone https://github.com/ninambash/command-line-murder-mystery.git
+  357  ls
+  358  cd command-line-murder-mystery
+  359  cat instructions
+  360  ls
+  361  open cheatsheet.pdf
+  362  cat hint1
+  363  head -n 20 people
+  364  head -n
+  365  ls
+  366  head README.md
+  367  /files$ head names.txt
+  368  /README.md$ head names.tx
+  369  /README.md$ head names.txt
+  370  /README.md head names.txt
+  371  grep hint1
+  372  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile\n\neval "$(/opt/homebrew/bin/brew shellenv)"
+  373  brew --version
+  374  brew install zsh
+  375  chsh -s /bin/zsh
+  376  echo $SHELL
+  377  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  378  cd seit-114/unit/command-line-murder-mystery
+  379  bash --version
+  380  pwd
+  381  ls
+  382  seir-1114
+  383  mystery
+  384  ls
+  385  unti1
+  386  unit1
+  387  ls
+  388  cli-intro git-intro
+  389  ls
+  390  grep CLUE
+  391  ls
+  392  seir-1114
+  393  ls
+  394  unit1
+  395  ls
+  396  cli-intro git-intro
+  397  pwd
+  398  cli-intro
+  399  ls
+  400  mystery git(main)
+  401  mystery
+  402  main
+  403  cd .
+  404  ls
+  405  pwd
+  406  mkdr
+  407  cd.. 1
+  408  command-line-murder-mystery
+  409  /git clone
+  410  clone
+  411  cd
+  412  ls
+  413  seir-1114
+  414  ls
+  415  unit1
+  416  ls
+  417  git-intro
+  418  ls
+  419  git status
+  420  cd seir-1114/unit1
+  421  mkdir unit1
+  422  cd unit1
+  423  ls
+  424  cd seir-1114
+  425  cd unit1
+  426  mkdir html-css-intro
+  427  cd html-css-intro
+  428  mkdir css js
+  429  ls
+  430  touch index.html css/styles.css js/script.js
+  431  ls -R
+  432  code .
+  433  code.
+  434  mkdir html-css-intro
+  435  cd html-css-intro
+  436  mkdir css js
+  437  touch index.html css/styles.css 
+  438  js/scripts.js
+  439  open index.html
+  440  cd seir-1114/unit1
+  441  cd git-intro
+  442  git status
+  443  open scropt.js
+  444  open index.js
+  445  ls
+  446  cd command-line-murder-mystery
+  447  ls
+  448  code cheatsheet.md
+  449  cat hint1
+  450  cat hint2
+  451  ls
+  452  cd mystery
+  453  ls
+  454  grep "CLUE" crimescene%
+  455  grep "CLUE" crimescene
+  456  grep "CLUE" crimescene > clues.txt
+  457  code .
+  458  cat clues.txt
+  459  ls
+  460  cat hint3
+  461  ls
+  462  grep interviews
+  463  git status
+  464  cd seir-1114/unit1
+  465  cd git-intro
+  466  ls
+  467  cd command-line-murder-mystery
+  468  ls
+  469  cat hint1
+  470  cat hint2
+  471  cat hint3
+  472  cat hint4
+  473  cat hint5
+  474  cat hint6
+  475  cat hint7
+  476  cat hint8
+  477  grep "CLUE" crimescene > clues.txt
+  478  clues.txt
+  479  head -n 20 people
+  480  grep CLUE crimescene >> clues.txt
+  481  cat instructions
+  482  cd mystery
+  483  ls
+  484  cat crimescene
+  485  HEAD -n 20 crimescene
+  486  grep CLUE crimescene
+  487  grep CLUE crimescene >> clues.txt
+  488  cat clues.txt
+  489  ls
+  490  head -n people
+  491  head -n 20 people
+  492  grep Annabel people
+  493  grep Annabel people >> clues.txt
+  494  cat clues.txt
+  495  cd streets
+  496  man sed
+  497  sed -n "173 Mannapan_Street\n\npwd\ncd\nls\nquit\nexit
+  498  cat -n Hart_place | grep 40
+  499  cat ../../hint5
+  500  head -n 40 Haet_place
+  501  head -n 40 Hart_Place | tail -n 1
+  502  head -n 40 Hart_Place | tail -n 1 >> ../clues.txt
+  503  cat clues.txt
+  504  head -n 40 streets/Buckingham_place | tail -n 1 >> ../clues.txt
+  505  grep Annabel people >> clues.txt
+  506  pwd
+  507  cd mystery
+  508  cd command-line-murder-mystery 
+  509  ls
+  510  cd ..
+  511  cat vehicles | grep "L337"
+  512  head -n 20 vehicles
+  513  cat vehicles | grep -A 5 "L337"
+  514  cat vehicles | grep -A 5 "L337" -A 4 -B 1 Honda
+  515  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda
+  516  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -2 -3 blue
+  517  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 " 6'"
+  518  cat clues.txt
+  519  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 " 6'"
+  520  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 " 6'" >> clues.txt
+  521  cat clues.txt
+  522  cd memberships
+  523  ls
+  524  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  525  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  526  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  527  cd..
+  528  cd ..
+  529  grep "Jeremy Bowers" people
+  530  grep "Jeremy Bowers" people >> clues.txt
+  531  head -n 284 streets/Dunstable_road | tail -n 1 >> clues.txt
+  532  cat interviews/interview-9620713
+  533  cd ..
+  534  ls
