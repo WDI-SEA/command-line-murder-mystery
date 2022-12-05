@@ -1,0 +1,860 @@
+    1  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+    2  brew install git
+    3  git --version
+    4  git config --global user.name "alidix"\ngit config --global user.email "aliyahdixon4@gmail.com"\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'vscode'\ngit config --global pull.rebase true
+    5  brew install --cask visual-studio-code
+    6  code .
+    7  code ~/.zshrc
+    8  brew install node
+    9  node -v\nnpm -v
+   10  sudo chown -R $USER /usr/local/lib
+   11  code ~/.zshrc
+   12  source ~/.zshrc
+   13  which psql
+   14  mkdir seir-1114
+   15  cd seir-1114
+   16  mkdir unit1
+   17  cd unit1
+   18  mkdir html-css-intro
+   19  cd html-css-intro
+   20  mkdir css js
+   21  ls
+   22  touch index.html css/style.css js/scrpts.js
+   23  ls -R
+   24  code.
+   25  code .
+   26  open index.html
+   27  html-css-intro git:(main cd ..)
+   28  unit1 pwd
+   29  mkdir seir-1114
+   30  cd seir-1114
+   31  mkdir until
+   32  cd unit1
+   33  mkdir html-css-intro
+   34  cd html-css-intro
+   35  mkdir css js
+   36  ls
+   37  touch index.html
+   38  ls -R
+   39  code .
+   40  open index.html
+   41  pwd
+   42  git init
+   43  git:(main)x git add .
+   44  mkdir html-css-intro\ncd html-css-intro\nmkdir css js\ntouch index.html css/styles.css js/scripts.js
+   45  cd ..
+   46  pwd
+   47  git clone https://github.com/alidix/css-airbnb.git
+   48  ls
+   49  cd css-airbnb
+   50  code .
+   51  cd
+   52  cd Desktop
+   53  cd
+   54  mkdir seir-1114
+   55  ls
+   56  cd seir-1114
+   57  ls
+   58  mkdir unit1
+   59  ls
+   60  cd unit1
+   61  pwd
+   62  mkdir cli-intro
+   63  cd cli-intro
+   64  ls
+   65  pwd
+   66  cd
+   67  pwd
+   68  cd seir-1114/unit1
+   69  pwd
+   70  cd
+   71  pwd
+   72  cd seir-1114
+   73  cd seir-1114/unit1/cli-intro
+   74  cd seir-1114
+   75  ls
+   76  mkdir unit1
+   77  ls
+   78  cd unit1
+   79  pwd
+   80  mkdir cli-intro
+   81  cd cli-intro
+   82  ls
+   83  pwd
+   84  cd
+   85  pwd
+   86  cd seir-1114/unit1
+   87  pwd
+   88  cd
+   89  pwd
+   90  cd seir-1114/unit/cli-intro
+   91  cli-intro cd ../..
+   92  mkdir unit1
+   93  cd unit1
+   94  ls
+   95  mkdir cli-intro
+   96  cd cli-intro
+   97  mkdir one two
+   98  ls
+   99  touch my-site.html
+  100  ls
+  101  touch one/notes.text two/script.js
+  102  ls
+  103  ls one
+  104  ls two
+  105  ls -R
+  106  mv my-site.html one/my-site-big-dumb-typo.html
+  107  ls
+  108  ls one
+  109  mv one/my-site-big-dumb-typo.html my-site.html
+  110  ls
+  111  ls two
+  112  cp two/script.js one/script.js
+  113  ls -R
+  114  rm my-site.html
+  115  ls
+  116  rm one
+  117  man rm
+  118  re -rf one
+  119  ls
+  120  rm one
+  121  man rn
+  122  man rm
+  123  rm -rfv one
+  124  ls
+  125  re -rfv
+  126  re -rfv two
+  127  rm -rfv two
+  128  ls
+  129  code -- help
+  130  code --help
+  131  touch books.txt
+  132  ls
+  133  code .
+  134  /Users/aliyahdixon/unit1/cli-intro/books.txt
+  135  cli-intro code --help
+  136  cli-inro clear
+  137  cli-intro clear
+  138  cli-intro cd
+  139  pew
+  140  pwd
+  141  ls
+  142  cd Desktop
+  143  ls
+  144  s
+  145  ls
+  146  pwd
+  147  ls
+  148  cd Desktop
+  149  ls
+  150  pwd
+  151  cd ..
+  152  ls
+  153  ls -a
+  154  man ls
+  155  man cd
+  156  ls -l
+  157  ls -lh
+  158  brew -v
+  159  pwd
+  160  cd
+  161  cd Desktop
+  162  cd
+  163  mkdir seir-1114
+  164  ls
+  165  cd seir-1114
+  166  ls
+  167  mkdir unit1
+  168  ls
+  169  cd unit1
+  170  pwd
+  171  mkdir cli-intro
+  172  cd cli-intro
+  173  ls
+  174  pwd
+  175  cd
+  176  pwd
+  177  cd seir-1114/unit
+  178  cd seir/1114/unit1
+  179  cd seir-1114/unit1
+  180  pwd
+  181  cd
+  182  pwd
+  183  cd seir-1114/unit1/cli-intro
+  184  cd ../..
+  185  cd unit1/cli-intro
+  186  pwd
+  187  mkdir one two
+  188  ls
+  189  touch my-site.html
+  190  ls
+  191  touch one/notes.txt two/script.js
+  192  ls
+  193  ls one
+  194  ls two
+  195  ls -R
+  196  mv my-site.html one/my-site-big-dumb-type.html
+  197  ls
+  198  ls oe
+  199  mv my-site.html one/my-site-big-dumb-typo.html
+  200  ls
+  201  ls one
+  202  cd ..
+  203  ls
+  204  cd cli-intro
+  205  pwd
+  206  ls
+  207  mv one/my-site-big-dumb-typo.html my-site.html
+  208  ls
+  209  ls two
+  210  cp two/scrpit.js one/scrpit.js
+  211  ls -R
+  212  cd seir-1114/unit/css-airbnb
+  213  cd seri-1114/unit1/css-airbnb
+  214  https://github.com/alidix/css-airbnb.git
+  215  /iser/void/seir-1114/unit1
+  216  cd r-sei
+  217  cd seir1114
+  218  ls
+  219  mkdir seir1114
+  220  cd seir1114
+  221  mkdir unit1
+  222  cd mkdir
+  223  cd unit1
+  224  code .
+  225  seir-1114
+  226  mkdir example
+  227  cd example
+  228  git clone https://github.com/alidix/temperature-converter-dom.git
+  229  ls
+  230  git clone https://github.com/alidix/temperature-converter-dom.git
+  231  ls
+  232  cd temperature-converter-dom
+  233  code .
+  234  git branch
+  235  ls
+  236  cd ..
+  237  git clone https://github.com/WDI-SEA/css-airbnb.git
+  238  ls
+  239  cd css-airbnb
+  240  code .
+  241  cd ..
+  242  cd temperature-converter-dom
+  243  code .
+  244  cd ..
+  245  cd unit1
+  246  code .
+  247  cd ..
+  248  cd seir-1114
+  249  code .
+  250  cd ..
+  251  ls
+  252  cd css-airbnb
+  253  cd ..
+  254  ls
+  255  cd css-airbnb
+  256  clear
+  257  pwd
+  258  open index.html
+  259  l
+  260  cd ..
+  261  ls
+  262  cd css-airbnb
+  263  ls
+  264  cd css
+  265  ls
+  266  cd ..
+  267  cd index.html
+  268  cd music
+  269  cd .git
+  270  cd public
+  271  cd seir114
+  272  ls -l
+  273  ls -la
+  274  cd ..
+  275  ls -la
+  276  ls
+  277  ls -la
+  278  cd/
+  279  cd /
+  280  ls
+  281  ped
+  282  pwd
+  283  zsh
+  284  cd ~
+  285  /Users/brian/Documents/profile.png
+  286  ls
+  287  cd /
+  288  ls
+  289  cd Users
+  290  ls
+  291  cd aliyahdixon
+  292  ls
+  293  clear
+  294  pwd
+  295  ls
+  296  cd Documents
+  297  ls
+  298  cd /
+  299  pwd
+  300  ls
+  301  cd System
+  302  ls
+  303  cd ..
+  304  cd
+  305  ls
+  306  cd unit1
+  307  ls
+  308  cd cli-intro
+  309  cd ..
+  310  cd ../..
+  311  cd
+  312  ls
+  313  cd seir-1114
+  314  ls
+  315  cd temperature-converter-dom
+  316  ls
+  317  cd css
+  318  ls
+  319  pwd
+  320  cd ..
+  321  cd 
+  322  cd seir-1114
+  323  cd temperature-converter-dom
+  324  mkdir
+  325  mkdir test
+  326  ls
+  327  cd test
+  328  ls
+  329  ls -la
+  330  cd
+  331  open .
+  332  touch food.html
+  333  ls
+  334  code food.html
+  335  cp food.html
+  336  ls
+  337  cp food.html food2.html
+  338  ls
+  339  rm food2.html
+  340  ls
+  341  sort 
+  342  ls
+  343  cd css-airbnb
+  344  ls
+  345  open .
+  346  code .
+  347  clear
+  348  cd
+  349  ls
+  350  mkdir css-basics
+  351  cd css-basics
+  352  touch index.html
+  353  code index.html
+  354  clear
+  355  mkdir css
+  356  code . 
+  357  clear
+  358  cd seir-1114
+  359  cd
+  360  mkdir unit1
+  361  unit1ls
+  362  ls unit1
+  363  code .
+  364  clear
+  365  mkdir iterator test
+  366  ls iterator test
+  367  cd iterator test
+  368  pwd iterator test
+  369  code .
+  370  clear
+  371  mkdir js-callbacks-iterators
+  372  ls js-callback-iterators  
+  373  cd js-callback-iterators
+  374  cd js-callbacks-iterators
+  375  ls js-callbacks-iterators
+  376  git
+  377  clear
+  378  cd seir-144/unit1
+  379  cd seir-1114/unit1
+  380  mkdir hello-fetch
+  381  touch index-html app.js
+  382  ls
+  383  code . 
+  384  clear
+  385  cd seir-1114/unit1
+  386  ls
+  387  cd hello-fetch
+  388  touch index.html app.js
+  389  code . 
+  390  clear
+  391  mkdirfatch-dad-jokes-lab
+  392  ls fetch-dad-jokes-lab
+  393  clear
+  394  unit1
+  395  ls unit1
+  396  mkdir unit1
+  397  git clone
+  398  https://github.com/WDI-SEA/fetch-dad-jokes-lab.git
+  399  pwd air-bnb
+  400  pwd airbnb
+  401  ls sirbnb
+  402  ls airbnb
+  403  clear
+  404  pwd
+  405  ls
+  406  cd css-airbnb
+  407  code .
+  408  pwd
+  409  ls
+  410  cd css-airbnb
+  411  git add -A
+  412  git commit -m "Completed Air BnB deliverable"
+  413  git push origin master
+  414  git push origin main
+  415  ls
+  416  ped
+  417  pwd
+  418  clear
+  419  pwd
+  420  ls
+  421  unit1
+  422  mkdir color-quilt
+  423  ls
+  424  cd color-quilt 
+  425  mkdir js css
+  426  touch index. html js/app.js css/style.css
+  427  code .
+  428  clear
+  429  ls
+  430  ls css-airbnb
+  431  code .
+  432  ls temperature-converter-dom
+  433  code .
+  434  clear
+  435  ls
+  436  unit1
+  437  ls unit1
+  438  unit 1
+  439  clear
+  440  unit1
+  441  ls
+  442  ls unite1
+  443  ls unit1
+  444  clear
+  445  cd seir-1114
+  446  seir1114
+  447  ls
+  448  clear
+  449  cd seir-1114
+  450  cd unit1
+  451  mkdir hello-grid
+  452  cd hello-grid
+  453  touch index.html
+  454  rm -rf index.html
+  455  ls
+  456  touch simple-grid.html
+  457  code .
+  458  open simple-grid.html
+  459  touch grid-layout.html
+  460  clear
+  461  cd seir-114/unit1
+  462  cd
+  463  cd seir-1114/unit1
+  464  mkdir responsive-design
+  465  cd responsive-design
+  466  touch mobile-first-grid.html
+  467  code . 
+  468  touch flex-desktop-first.html
+  469  clear
+  470  ls
+  471  cd
+  472  cd css-airbnb
+  473  code .
+  474  ls
+  475  css-airbnb
+  476  code .
+  477  cd
+  478  ls
+  479  cd seir-1114
+  480  ls
+  481  ls seir-114
+  482  ls seir-1114
+  483  ls unit1
+  484  cd
+  485  ls
+  486  seir-1114
+  487  ls
+  488  git clone <https://github.com/alidix/command-line-murder-mystery.git\>
+  489  mkdirclear
+  490  ls
+  491  unit1
+  492  ls unit1
+  493  ls
+  494  cd seir-1114
+  495  seir-1114
+  496  ls
+  497  mkdir brain-power
+  498  cd brain-power
+  499  touch index.html style.css script.js
+  500  mkdir img
+  501  code.
+  502  code .
+  503  cd
+  504  brain-power
+  505  ls
+  506  img
+  507  ls
+  508  unit1
+  509  ls
+  510  seir-114
+  511  seir-1114
+  512  ls
+  513  seir-1114
+  514  ls
+  515  brain-power project
+  516  ls
+  517  cd seir-1114/unit1/command-line-murder-mystry
+  518  cd seir-1114/ 
+  519  unit1
+  520  command-line-murder-mystery git(main)
+  521  command-line-murder-mystery
+  522  ls
+  523  cat instructions
+  524  cd mystery
+  525  ls
+  526  cat crimescene
+  527  head -n 20 crimescene
+  528  grep CLUE crimesecene
+  529  grep Clue crimescene
+  530  grep CLUE crimescene
+  531  grep CLUE crimescene >> clues.txt
+  532  cat clues.txt
+  533  ls
+  534  head -n 20 people
+  535  grep Annabel people
+  536  grep Annabel people >> clues.txt
+  537  cat clues.txt
+  538  cd streets
+  539  ls
+  540  head -n 20 Addington_Road
+  541  sed -m '173 p'
+  542  man sed
+  543  cd seir-1114
+  544  clear
+  545  cd seir-1114/
+  546  unit1
+  547  command-line-murder-mystery
+  548  ls
+  549  cat hint1 hint2 hint3
+  550  cat instructions
+  551  head -n 20 crimescene
+  552  grep CLUE crimescene
+  553  cd brain-power
+  554  code .
+  555  git puch origin main
+  556  git push origin main
+  557  git push
+  558  clear
+  559  git
+  560  push
+  561  git push
+  562  clear
+  563  cd seir-1114
+  564  ls
+  565  brain-power project
+  566  cd seir-1114
+  567  ls
+  568  cd brain-power project
+  569  seir-1114
+  570  unit1
+  571  brain-power project
+  572  git remote add origin https://github.com/alidix/Brain-power-project.git\ngit branch -M main\ngit push -u origin main
+  573  git remote
+  574  cd brain-power
+  575  git remote
+  576  git remote add origin https://github.com/alidix/Brain-power-project.git
+  577  git branch -M main
+  578  .git
+  579  git puch -u origin main
+  580  git push -u origin main
+  581  echo "# Brain-power-project" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/alidix/Brain-power-project.git\ngit push -u origin main
+  582  git init
+  583  git add README.md
+  584  git commit -m "first commit"
+  585  git add .
+  586  git status
+  587  git commit -m "first commit"
+  588  git status
+  589  git branch -M main
+  590  git remote add origin https://github.com/alidix/Brain-power-project.git
+  591  git push -u origin main
+  592  git init
+  593  git add README.md
+  594  git commit -m "second commit"
+  595  add .
+  596  git add .
+  597  git status
+  598  git branch -M main
+  599  git status
+  600  $ git status
+  601  clear
+  602  cd seir-1114
+  603  ls
+  604  unit1
+  605  ls
+  606  brain-power project 
+  607  cd brain-power project
+  608  mkdir brain-power project
+  609  ls
+  610  brain-power
+  611  code . 
+  612  cd
+  613  cd seir-1114
+  614  ls
+  615  unit1
+  616  ls
+  617  pwd brain-power
+  618  brain-power
+  619  pwd
+  620  git atatus
+  621  cd brain-power
+  622  git status
+  623  git push origian main
+  624  git push 
+  625  cd
+  626  cd seir-1114
+  627  ls
+  628  unit1
+  629  ls
+  630  brain-power
+  631  git add --all
+  632  git commit -m "new changes"
+  633  git add --all
+  634  git commit -m "new changes"
+  635  clear
+  636  ls
+  637  git init
+  638  ls
+  639  git status
+  640  git add .
+  641  git status
+  642  gcmsg "updated commit"
+  643  ggp
+  644  git push origin https://github.com/alidix/Brain-power-project.git
+  645  cd seir-1114
+  646  ls
+  647  unit1
+  648  ls
+  649  brain-power
+  650  git remote add origin https://github.com/alidix/BrainPower-updated.git
+  651  git branch -M main
+  652  git push -u origin main
+  653  cd ..
+  654  cd
+  655  ls
+  656  cd seir-1114
+  657  ls
+  658  unit1
+  659  ls
+  660  brain-power
+  661  git remote add origin https://github.com/alidix/BrainPower-updated.git
+  662  branch -M main
+  663  clear
+  664  git push origin main
+  665  git init
+  666  commit -m "second update"
+  667  git commit -M "second update"
+  668  git branch -M main
+  669  git status
+  670  git add .
+  671  git status
+  672  git remote add origin https://github.com/alidix/BrainPower-updated.git
+  673  git push -u origin main
+  674  git status
+  675  git push origin main
+  676  git commit -m "second update"
+  677  git puch origin main
+  678  git push origin main
+  679  seir-1114
+  680  ls
+  681  unit1
+  682  ls
+  683  brain-power
+  684  ls
+  685  git init
+  686  git status
+  687  git commit -m "second update"
+  688  git push 
+  689  git push --help
+  690  git status
+  691  seir-1114
+  692  ls
+  693  unit1
+  694  ls
+  695  cd brain-power
+  696  git status
+  697  git branch
+  698  ls
+  699  git checkout branch brainpower
+  700  git checkout -b
+  701  git checkout -b brain-power
+  702  ls
+  703  git status
+  704  code .
+  705  git status
+  706  git commit -m "test commit"
+  707  git add .
+  708  git commit -m "test commit"
+  709  git push 
+  710  git push origin main
+  711  git checkout main
+  712  git push 
+  713  git pull
+  714  git push 
+  715  code .
+  716  git add .
+  717  git commit -m "testing commits"
+  718  git push origin main
+  719  git log
+  720  clear
+  721  ls
+  722  git remote add origin https://github.com/alidix/BrainPower-updated
+  723  git push origin main
+  724  git init
+  725  git commit -m "third update"
+  726  git add .
+  727  git status 
+  728  git push origin main
+  729  git init
+  730  git status
+  731  git add .
+  732  git status
+  733  git push origin main
+  734  git init
+  735  git status
+  736  git add .
+  737  git status
+  738  git push origin main
+  739  cd ..
+  740  ls
+  741  cd brain-power
+  742  ls
+  743  git branch
+  744  git log
+  745  git stash
+  746  ls
+  747  git log
+  748  git stash list
+  749  git stash
+  750  git checkout
+  751  git stash apply
+  752  git diff
+  753  git add .
+  754  git commit -m "terminal vs vscode"
+  755  git push origin main
+  756  cd seir-1114/unit1
+  757  ls
+  758  cd commmand-line-murder-mystery
+  759  unit1
+  760  ls unit1
+  761  clear
+  762  ls
+  763  command-line-murder-mystery project
+  764  cd seir-1114/unit1/command-line-murder-mystery-project
+  765  cd seir-1114
+  766  ls
+  767  unit1
+  768  ls
+  769  command-line-murder-mystery 
+  770  ls
+  771  cat hint1 hint2 hint3
+  772  cat insructions
+  773  cat instructions
+  774  cd mystery
+  775  ls
+  776  cat crimescene
+  777  head -n 20 crimescene
+  778  grep CLUE crimescene
+  779  grep CLUE crimescene >> clues.txt
+  780  cat clues.txt
+  781  ls
+  782  head -n 20 people
+  783  grep Annabel people
+  784  grep Annabel people >> clues.txt
+  785  cat clues.txt
+  786  cd streets
+  787  ls 
+  788  head -n 20 Addington_Road
+  789  man sed
+  790  sed -n '173p' Mattapan_street
+  791  head -n 173 Mattapn_street 
+  792  had -n 173 Mattapn_street
+  793  head -n 173 Mattapan_Street
+  794  cat -n Hart_Place
+  795  cat ../clues.txt
+  796  cat -n Hart_Place
+  797  cat -n Hart_Place | grep ' 40'
+  798  cat ../../hint5
+  799  head -n Hart_Place 
+  800  head -n 40 Hart_Place
+  801  head -n 40 Hart_Place | tail -n 1
+  802  head -n 40 Hart_Place | tail -n 1 >> ../clues.txt
+  803  cd ..
+  804  cat clues.txt
+  805  head -n 40 streets/Buckingham_Place | tail -n 1 >> ../clues.txt
+  806  head -n streets/Buckingham_Place
+  807  head -n 40 streets/Buckingham_Place
+  808  head -n 179 streets/Buckingham_Place
+  809  head -n 179 streets/Buckingham_Place | tail -n 1
+  810  head -n 179 streets/Buckingham_Place | tail -n 1 >> clues.txt
+  811  ls interview/
+  812  ls interview
+  813  ls interviews/
+  814  cat interviews/interview-699607
+  815  cat interviews/interview-699607 >> clues.txt
+  816  ls
+  817  head -n 20 vehicles
+  818  cat clues.txt
+  819  cat vehicles | grep "L337"
+  820  man grep 
+  821  cat vehicles | grep -A 5 "L337"
+  822  cat vehicles | grep -A 5 "L337"| grep -A 4 -B 1 Honda
+  823  cat vehicles | grep -A 5 "L337"| grep -A 4 -B 1 Honda | grep -b 2 =A 3 Blue 
+  824  cat vehicles | grep -A 5 "L337"| grep -A 4 -B 1 Honda | grep -B  2 -A 3 Blue 
+  825  cat vehicles | grep -A 5 "L337"| grep -A 4 -B 1 Honda | grep -B  2 -A 3 Blue | grep -A 1 -B 4
+  826  cat vehicles | grep -A 5 "L337"| grep -A 4 -B 1 Honda | grep -B  2 -A 3 Blue | grep -A 1 -B 4 "6'"
+  827  cat vehicles | grep -A 5 "L337"| grep -A 4 -B 1 Honda | grep -B  2 -A 3 Blue | grep -A 1 -B 4 "6'" >> clues.txt
+  828  cat clues.txt
+  829  cd memberships
+  830  ls
+  831  cat AAA Delta Museum_of_Bash_History Termincal_city_Library
+  832  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep " Erika Owens"
+  833  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep " Joe Germuka"
+  834  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep " Jacqui Maher"
+  835  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep " Jeremy Bowers"
+  836  cd ..
+  837  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  838  cd ..
+  839  grep "Jeremy Bowers" people
+  840  cd memberships 
+  841  ls
+  842  cd memberships 
+  843  cd mystery
+  844  ls
+  845  cd memberships 
+  846  ls
+  847  AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library
+  848  AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+  849  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+  850  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+  851  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+  852  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+  853  cd ..
+  854  grep "Jeremy Bowers" people
+  855  grep "Jeremy Bowers" people >> clues.txt
+  856  head -n 284 streets/Dunstable_Road | tail -n 1
+  857  head -n 284 streets/Dunstable_Road | tail -n 1 >> clues.txt
+  858  cat interviews/interview-9620713
+  859  cd ..
+  860  pwd
