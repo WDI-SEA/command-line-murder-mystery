@@ -1,0 +1,1093 @@
+    1  Where am i?
+    2  pwd
+    3  ls
+    4  cd
+    5  cd Documents
+    6  $ls
+    7  cd ..
+    8  ~
+    9  cd~
+   10  cd ~
+   11  ~
+   12  mkdir myfolder
+   13  cd myfolder
+   14  cd documents
+   15  mkdir myfolder
+   16  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   17  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   18  .git/
+   19  GA-Blog
+   20   brew install wget
+   21  cd /usr/local\n$ find Cellar\nCellar/wget/1.16.1\nCellar/wget/1.16.1/bin/wget\nCellar/wget/1.16.1/share/man/man1/wget.1\n\n$ ls -l bin\nbin/wget -> ../Cellar/wget/1.16.1/bin/wget
+   22  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   23  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   24  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   25  brew --version
+   26  brew install zsh
+   27  echo $SHELL
+   28  chsh -s /nin/zsh
+   29  chsh -s /bin/zsh
+   30  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   31  brew install git
+   32  git --version
+   33  git config --global user.name "YOUR-USERNAME"\ngit config --global user.email "YOUR-EMAIL-ADDRESS"\ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'\ngit config pull.rebase true
+   34  git config --global user.email "gtellez07@yahoo.com"
+   35  git config --global push.default simple\ngit config --global credential.helper cache
+   36  git config --global core.editor 'code -w'\n
+   37  git config pull.rebase true\n
+   38  git config --global core.editor 'code -w'\ngit config pull.rebase true
+   39  git config --global core.editor 'code -w'\ngit config pull.rebase true\n
+   40  git config --global user.name "YOUR-USERNAME"
+   41  git config --global pull.rebase true
+   42  brew install --cask visual-studio-code
+   43  code
+   44  pwd
+   45  ls
+   46  cd Desktop
+   47  ls
+   48  pwd
+   49  ..
+   50  cd..
+   51  cd ..
+   52  ls
+   53  l
+   54  ls
+   55  pwd
+   56  ls
+   57  ls -a
+   58  man ls
+   59  ls -l
+   60  ls -lh
+   61  cd
+   62  mkdir seir-1114
+   63  ls
+   64  cd seir-1114
+   65  ls
+   66  mkdir unit1
+   67  ls
+   68  cd unit1
+   69  pwd
+   70  mkdir cli-intro
+   71  cd cli-intro
+   72  ls
+   73  pwd
+   74  cd
+   75  pwd
+   76  unit1 pwd
+   77  cd seir-1114
+   78  cd ../..
+   79  cd
+   80  mkdir unit1
+   81  mkdir cli-intro
+   82  mk dir one two
+   83  seir-1114
+   84  mkdir unit1
+   85  mkdir cli-intro
+   86  mkdir one two
+   87  ls
+   88  pwd
+   89  mkdir cli-intro
+   90  cd
+   91  seir-1114
+   92  cli-intro
+   93  touch one/notes.txt two/script.js
+   94  ls two
+   95  cp two/script.js one/script.js
+   96  rm -rfv
+   97  rm -rfv two
+   98  ls
+   99  touch books.txt
+  100  ls
+  101  code .
+  102  cat books.txt
+  103  grep Mill books.txt
+  104  cat books.txt
+  105  grep Mill books.txt
+  106  cat books.txt | gret Mill
+  107  head -n 5 books.txt
+  108  head -n 5 books.txt | grep Mill
+  109  echo "hello world"
+  110  echo"hello world"
+  111  echo "new book" >> books.txt
+  112  cat books.txt
+  113  clear
+  114  cd
+  115  pwd
+  116  cd sier-1114/unit1
+  117  sier-1114
+  118  cd seir-1114/unit1
+  119  mkdir git-intro
+  120  ls
+  121  cd git-intro
+  122  touch index.html
+  123  ls
+  124  git init
+  125  cd
+  126  git config --global init.default/main
+  127  git config --global init.default.main
+  128  rm -rf.git
+  129  git init
+  130  rm -rf .git
+  131  git init
+  132  cd
+  133  rm -rf .git
+  134  git-intro
+  135  git config --global init.defaultBranch main
+  136  git init
+  137  cd seir-1114/git-intro
+  138  cd seir-1114/unit1/git-intro
+  139  rm -rf .git
+  140  cd seir-1114/unit1/git-intro
+  141  ls
+  142  git status
+  143  git add index.html
+  144  git status
+  145  git commit -m "adds index.html file to the project"
+  146  git status
+  147  git log
+  148  touch styles.css script.js
+  149  ls
+  150  git status
+  151  git add .
+  152  git status
+  153  git commit -m 'adds css and js files'
+  154  git remote add origin https://github.com/gtellez07/create-repo.git\ngit branch -M main\ngit push -u origin main
+  155  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
+  156  git remote add origin https://github.com/gtellez07/create-repo.git\ngit branch -M main\ngit push -u origin main
+  157  git clone <paste HTTPS here>
+  158  cd
+  159  ls
+  160  pwd
+  161  git clone <paste HTTPS here>
+  162  git clone https://github.com/gtellez07/taco.git
+  163  cd
+  164  ls
+  165  pwd
+  166  head -n 20 people
+  167  head -n 20 people | grep "CLUE" crimescene
+  168  https://github.com/gtellez07/taco.git
+  169  git clone https://github.com/gtellez07/gft.git
+  170  git clone https://github.com/gtellez07/taco.git
+  171  cd taco.git
+  172  touch newfile.txt
+  173  ls
+  174  cd
+  175  cd newfile.txt
+  176  $ cd
+  177  cd Applications
+  178  cd gft
+  179  pwd
+  180  ls
+  181  git clone
+  182  git clone https://github.com/gtellez07/taco.git
+  183  ls
+  184  cd gft
+  185  ls
+  186  cat hint1
+  187  rm -gft
+  188  rm --gft
+  189  rm -f gft
+  190  nano cheatsheet.md
+  191  git clone https://github.com/gtellez07/taco.git
+  192  cd
+  193  ls
+  194  git clone
+  195  git clone https://github.com/gtellez07/taco.git
+  196  taco/
+  197  pwd
+  198  $path
+  199  $ path
+  200  taco/files
+  201  taco/newfile
+  202  head taco
+  203  head gft
+  204  head Applications
+  205  cd seir-1114
+  206  cd seir-1114/command-line-murder-mystery
+  207  pwd
+  208  /Users/void/seir-1114/unit1/command-line-murder-mystery
+  209  git status
+  210  git add .
+  211  git status
+  212  cd seir-1114/unit1
+  213  mkdir seir-1114
+  214  cd seir-1114
+  215  cd unit1
+  216  mkdir html-css-intro
+  217  unit 1 cd html-css-intro
+  218  cd html-css-intro
+  219  mkdir css js
+  220  ls
+  221  touch index.html
+  222  touch index.html css/styles.css
+  223  touch index.html css/styles.css js/scripts.js
+  224  ls -R
+  225  code .
+  226  cd ..
+  227  cd..
+  228  cd ..
+  229  cd seir-1114
+  230  cd
+  231  rm -rf .git
+  232  seir-1114
+  233  mkdir html-css-intro
+  234  cd html-css-intro
+  235  mkdir css js
+  236  touch index.html css/styles.css js/scripts.js
+  237  open index.html
+  238  pwd
+  239  open index.html
+  240  code .
+  241  open index.html
+  242  ls
+  243  seir-114=14/unit1
+  244  pwd
+  245  rm -rf html-css-intro
+  246  cd unit1
+  247  cd seir-1114
+  248  cd ..
+  249  ls
+  250  ls -a
+  251  man ls
+  252  ls -l
+  253  ls -lh
+  254  brew --version
+  255  pwd
+  256  cd
+  257  mkdir seir-1114
+  258  ls
+  259  cd seir-1114
+  260  ls
+  261  mkdir unit 1
+  262  ls
+  263  cd unit1
+  264  pwd
+  265  mkdir cli-intro
+  266  cd cli-intro
+  267  ls
+  268  pwd
+  269  cd
+  270  pwd
+  271  cd seir-1114/unit1
+  272  cd
+  273  cd seir-1114/unit1/cli-intro
+  274  pwd
+  275  cd
+  276  cd unit1/cli-intro
+  277  cd seir-1114
+  278  cd unit1
+  279  cd cli-intro
+  280  mkdir one two
+  281  ls
+  282  touch my-site.html
+  283  ls
+  284  touch one/notes.txt two/script.js
+  285  ls
+  286  ls one
+  287  ls two
+  288  ls -R
+  289  mv my-site.html one/my-site-big-dumb-typo.html
+  290  ls one
+  291  ls
+  292  mv one/my-site-big-dumb-typo.html my-site.html
+  293  ls
+  294  ls two
+  295  cp two/script.js one/script.js
+  296  ls -R
+  297  rm my-site.html
+  298  ls
+  299  rm one
+  300  man rn
+  301  man rm
+  302  rm -rf one
+  303  ls
+  304  rm -rfv two
+  305  ls
+  306  clear
+  307  touch books.txt
+  308  ls
+  309  code .
+  310  pwd
+  311  ls
+  312  cat books.txt
+  313  grep Mill books.txt
+  314  cat books.txt | grep Mill
+  315  head -n 5 books.txt
+  316  head -n 5 books.txt | grep Mill
+  317  history
+  318  history | grep man
+  319  echo "hello world"
+  320  echo "new book" >> books.txt
+  321  cat books.txt
+  322  history >> lesson.txt
+  323  ls
+  324  cd
+  325  pwd
+  326  cd seir-1114/unit1
+  327  mkdir git-intro
+  328  ls
+  329  rm -rf html-css-intro
+  330  ls
+  331  cd git-intro
+  332  touch index.html
+  333  ls
+  334  rm -rf script.js
+  335  rm -rf styles.css
+  336  ls
+  337  git init
+  338  cd
+  339  cd seir-1114/
+  340  cd unit1
+  341  cd git-intro
+  342  ls
+  343  git status
+  344  git add index.html
+  345  git status
+  346  git commit -m "adds index.html file to the project"
+  347  git status
+  348  git log
+  349  touch styles.css script.js
+  350  ls
+  351  git status
+  352  git add .
+  353  git status
+  354  git commit -m 'adds css and js files'
+  355  git status
+  356  git remote add origin https://github.com/gtellez07/command-line-murder-mystery.git
+  357  git remote add origin https://github.com/gtellez07/command-line-murder-mystery.git git branch -M main git push -u origin main
+  358  git remote add origin https://github.com/gtellez07/createrepo.git\ngit branch -M main\ngit push -u origin main
+  359  user-name
+  360  gtellez07
+  361  cd seir-1114/unit1/command-line-murder-mystery
+  362  cd seir-1114
+  363  cd
+  364  cd seir-1114/unit1
+  365  ls
+  366  cd
+  367  cd seir-1114
+  368  unit1
+  369  command-line-murder-mystery
+  370  cd git-intro
+  371  git remote add origin https://github.com/gtellez07/createrepo.git\ngit branch -M main\ngit push -u origin main
+  372  https://github.com/gtellez07/command-line-murder-mystery.git
+  373  git remote add origin https://github.com/gtellez07/command-line-murder.git
+  374  cd command-line-murder
+  375  ls
+  376  echo "# gft" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/gtellez07/gft.git\ngit push -u origin main
+  377  git push --help
+  378  ls
+  379  cd README.md
+  380  history >> solution.txt
+  381  ls
+  382  git status
+  383  git add . 
+  384  git status
+  385  git commit -m "solves deliverable, adds solution.txt"
+  386  git status
+  387  git push origin main
+  388  clear
+  389  cd
+  390  seir-1114
+  391  mk dir html-css-intro
+  392  mkdir html-css-intro
+  393  ls
+  394  cd html-css-intro
+  395  mkdir css js
+  396  code .
+  397  ls -R
+  398  cd ..
+  399  seir-1114
+  400  unit1
+  401  pwd
+  402  git clone https://github.com/gtellez07/css-airbnb.git
+  403  cd css-airbnb
+  404  code .
+  405  open index.html
+  406  git add .
+  407  git status
+  408  git commit -m 'finishes deliverable'
+  409  git status
+  410  git push origin main
+  411  cd seir-1114/unit1
+  412  cd
+  413  cd seir-1114/unit1
+  414  git clone https://github.com/gtellez07/object-array-drills.git
+  415  cd object-array-drills
+  416  ls
+  417  code .
+  418  cd ..
+  419  ls
+  420  cd object-array-drills
+  421  code .
+  422  gaa
+  423  gcmsg "complete deliverable"
+  424  git push origin main
+  425  cd
+  426  seir-1114
+  427  cd unit1
+  428  mkdir DOM-lesson
+  429  code .
+  430  seir
+  431  cd
+  432  seir-1114
+  433  unit1
+  434  DOM-lesson
+  435  code .
+  436  cde
+  437  cd
+  438  seir-1114
+  439  unit1
+  440  DOM-lesson
+  441  touch index.html css/styles.css js/scripts.js
+  442  cd
+  443  seir-1114
+  444  cd unit1
+  445  ls
+  446  mkdir html-css-intro
+  447  cd html-css-intro
+  448  mkdir css js
+  449  ls
+  450  touch index.html css/styles.css js/scripts.js
+  451  ls -R
+  452  code .
+  453  cd
+  454  seir-1114/unit1
+  455  cd DOM-lesson
+  456  ls
+  457  touch index.html css/styles.css js/script.js
+  458  touch index.html
+  459  touch css/styles.css
+  460  touch styles.css
+  461  touch scripts.js
+  462  ls
+  463  rm 
+  464  rm index.html
+  465  rm -r
+  466  rm -r index.html
+  467  re -r scripts.js
+  468  rm -r scripts.js
+  469  rm -r styles.css
+  470  ls
+  471  mkdir css js
+  472  ls
+  473  touch index.html css/styles.css js/scripts.js
+  474  code .
+  475  cd
+  476  seir-1114
+  477  unit1
+  478  git clone https://github.com/gtellez07/temperature-converter-dom.git
+  479  cd temp-converter
+  480  ls
+  481  cd temperature-converter-dom
+  482  code .
+  483  seir
+  484  seir-1114/unit
+  485  ls
+  486  cd
+  487  seir-1114
+  488  ls
+  489  cd
+  490  seir-1114/html-css-intro
+  491  ls
+  492  cd
+  493  seir-1114
+  494  cd unit
+  495  cd
+  496  seir-1114/unit1/
+  497  ls
+  498  cd temperature-converter-dom
+  499  gaa
+  500  gcmsg "Gonzalo color change done"
+  501  ggp
+  502  cd
+  503  seir-1114/unit1
+  504  mkdir callbacks-timing-functions
+  505  cd callbacks-timing-functions
+  506  touch index.html script.js
+  507  ls
+  508  code .
+  509  cd
+  510  seir-1114
+  511  unit1
+  512  ls
+  513  mkdir labs
+  514  cd labs
+  515  git clone https://github.com/WDI-SEA/js-clock-intervals-exercise.git
+  516  code .
+  517  cd
+  518  seir-1114
+  519  unit1
+  520  ls
+  521  git clone https://github.com/gtellez07/sei-tic-tac-toe.git
+  522  sei-tic-tac-toe
+  523  code .
+  524  touch html css js
+  525  code .
+  526  LS
+  527  cd
+  528  seir-1114
+  529  ls
+  530  unit1
+  531  ls
+  532  DOM-lesson
+  533  ls
+  534  code .
+  535  cd
+  536  seir-1114
+  537  unit1
+  538  sei-tic-tac-toe
+  539  rm -r
+  540  rm -r html
+  541  ls
+  542  rm -r js css
+  543  ls
+  544  cd
+  545  seir-1114/unit1
+  546  ls
+  547  temperature-converter-dom
+  548  ls
+  549  cd
+  550  seir-1114/unit1/sei-tic-tac-toe
+  551  ls
+  552  touch index.html css js
+  553  ls
+  554  code .
+  555  clear
+  556  ls
+  557  sudo nano /etc/hosts
+  558  pwd
+  559  git add -A
+  560  git commit -m "TTT deliverable"
+  561  git push origin master
+  562  git push origing master
+  563  git push origin master
+  564  cd
+  565  seir-1114/unit1
+  566  cd
+  567  seir-1114/unit1
+  568  ls
+  569  sei-tic-tac-toe
+  570  git push origin main
+  571  cd seir-1114/unit1
+  572  mkdir hello-fetch
+  573  cd hello-fetch
+  574  touch index.html app.js
+  575  ls
+  576  code .
+  577  cd
+  578  seir-1114/unit1
+  579  mkdir fetch-dad-jokes
+  580  git clone https://github.com/gtellez07/fetch-dad-jokes-lab.git
+  581  ls
+  582  cd fetch-dad-jokes
+  583  cd fetch
+  584  cd
+  585  seir-1114/unit
+  586  cd
+  587  ls
+  588  cd
+  589  seir-1114/unit1
+  590  ls
+  591  fetch-dad-jokes
+  592  cd
+  593  seir-1114/unit1
+  594  fetch-dad-jokes-lab
+  595  code .
+  596  touch ./css/style.css
+  597  touch ./js/app.js
+  598  cd
+  599  seir cd
+  600  ls
+  601  seir-1114/unit1
+  602  code .
+  603  fetch-dad-jokes
+  604  ls
+  605  cd
+  606  seir seir-1114/unit1
+  607  seir-1114/unit1
+  608  ls
+  609  fetch-dad-jokes-lab
+  610  code .
+  611  cd
+  612  seir-1114/unit1
+  613  ls
+  614  git clone https://github.com/gtellez07/fetch-reddit-slideshow.git
+  615  ls
+  616  fetch-reddit-slideshow
+  617  code .
+  618  git push origin main
+  619  git commit -m "Gonzalo Reddit Slideshow deliverable"
+  620  git push origin main
+  621  cd
+  622  seir-1114/unit1
+  623  mkdir color-quilt
+  624  cd color-quilt
+  625  pwd
+  626  mkdir js css
+  627  touch index.html js/app.js css/styles.css
+  628  code .
+  629  cd
+  630  seir-1114/unit1
+  631  git clone https://github.com/gtellez07/etch_a_sketch.git
+  632  ls
+  633  cd etch_a_sketch
+  634  code .
+  635  cd
+  636  seir-1114/unit1
+  637  ls
+  638  cd fetch-reddit-slideshow
+  639  git status
+  640  seir 1cd
+  641  seir-1114/unit1
+  642  ls
+  643  cd color-quilt
+  644  code .
+  645  seir-1114/unit1
+  646  ls
+  647  etch_a_sketch
+  648  git commit -m "etch sketch deliverable"
+  649  git push origin main
+  650  code .
+  651  git commit -a "etch sketch deliverable"
+  652  git commit -m "etch sketch"
+  653  code .
+  654  ggp
+  655  cd seir-1114/unit1
+  656  mkdir hello-grid
+  657  cd hello-grid
+  658  touch index.html
+  659  rm -rf index.html
+  660  ls
+  661  touch simple-grid.html
+  662  code .
+  663  open simple-grid.html
+  664  touch grid-layout.html
+  665  seir seir-1114/unit1
+  666  seir-1114/unit1
+  667  ls
+  668  cd
+  669  seir-1114
+  670  ls
+  671  unit1
+  672  ls
+  673  hello-grid
+  674  touch grid-art.html
+  675  code .
+  676  seir-1114/unit1
+  677  mkdir responsive-design
+  678  cd responsive-design
+  679  touch mobile-first-grid.html
+  680  code .
+  681  touch flex-desktop-first.html
+  682  code .
+  683  cd
+  684  seir-1114/unit1
+  685  ls
+  686  git clone https://github.com/gtellez07/Microsoft-Mock.git
+  687  ls
+  688  cd Microsoft-Mock
+  689  code .
+  690  touch index.html style.css
+  691  code .
+  692  seir-1114/unit1
+  693  git clone https://github.com/gtellez07/js-debugger.git
+  694  cd js-debugger
+  695  code .
+  696  ggp
+  697  git commit -m "js-debugger deliverable"
+  698  git commit -a
+  699  git add
+  700  git add .
+  701  git commit -m 'js-debugger deliverable'
+  702  git push origin main
+  703  seir-1114/unit1
+  704  git clone https://github.com/gtellez07/lab-create-your-own-js-class.git
+  705  cd lab-create-your-own-js-class
+  706  code .
+  707  seir-1114/unit1
+  708  git clone https://github.com/gtellez07/canvas-crawler.git
+  709  ls
+  710  canvas-crawler
+  711  code .
+  712  cd
+  713  seir-1114/unit1
+  714  ls
+  715  sei-tic-tac-toe
+  716  code .
+  717  cd
+  718  seir-1114/unit1
+  719  Microsoft-Mock
+  720  git commit
+  721  git add
+  722  git commit -m "Microsoft Mock"
+  723  git add index.html style.css
+  724  git commit -m "Microsoft Mock"
+  725  git push origin main
+  726  seir-1114/unit1
+  727  git clone https://github.com/gtellez07/tamagotchi.git
+  728  cd tamagotchi
+  729  code .
+  730  seir-1114/unit1
+  731  git clone https://github.com/gtellez07/Snake-Game.git
+  732  ls
+  733  cd Snake-Game
+  734  code .
+  735  touch index.html scripts/main.js styles/main.css
+  736  ls
+  737  touch scripts/main.js
+  738  touch script.js
+  739  touch style.css
+  740  code .
+  741  gaa
+  742  gcmsg "created ReadMe with MVP and Stretch"
+  743  git commit -m "Snake Game"
+  744  git push origin main
+  745  cd
+  746  seir 1114
+  747  seir-1114/unit1
+  748  ls
+  749  sei-tic-tac
+  750  sei-tic-tac-toe
+  751  code .
+  752  cd
+  753  seir-1114/unit1
+  754  ls
+  755  git clone # Guess That Word\n\nHow good are your vocabulary and spelling capabilities? Well find out with this fun, brain busting game.\n\n# MVP\nRender a start screen with gameplay instructions and a start button.\ncreate a wordlist\nmake sure to add a hint to each word that you come up with\ncreate a limited amount of chances for the player, that will determine whether the player wins or loses\ncreate a message indicating whether player has used a word that was incorrect\ncreate a message to display indicating if the player Wins! or Lost!\n\n# STRETCH GOALS\ncreate different levels of difficulty\nuse a more interesting background to makethe game really pop-out\nmake it to where the game is able to cd
+  756  ls
+  757  git clone https://github.com/gtellez07/Guess-That-Word.git
+  758  Guess-That-Word
+  759  code .
+  760  git commit -m "Guess that word game"
+  761  git push origin main
+  762  git add
+  763  git commit -a
+  764  git push origin main
+  765  code .
+  766  seir-1114/unit1/Guess-That-Word
+  767  git commit -m "a few changes to game"
+  768  git commit -a
+  769  code .
+  770  gaa
+  771  gcmsg "added Tech Stack"
+  772  git commit -a
+  773  git add
+  774  git push
+  775  git push origin main
+  776  gaa
+  777  git commit
+  778  git commit -a
+  779  git commit -m
+  780  git commit -m "done"
+  781  code .
+  782  ls
+  783  seir-1114/unit1
+  784  ls
+  785  Guess-That-Word
+  786  code .
+  787  cd
+  788  seir-1114/unit1
+  789  ls
+  790  tamagotchi
+  791  code .
+  792  seir-1114/unit1
+  793  ls
+  794  Guess-That-Word
+  795  gaa
+  796  gcmsg "some html"
+  797  gaa gcmsg "some css"
+  798  gaa
+  799  gcmsg "some css"
+  800  gaa
+  801  gcmsg "more css"
+  802  gaa
+  803  gcmsg "wordlist"
+  804  gaa
+  805  gcmsg "js"
+  806  cd
+  807  seir-1114/unit 1
+  808  seir-1114/unit1
+  809  ls
+  810  cd
+  811  seir-1114/ls
+  812  seir-1114
+  813  ls
+  814  unit1
+  815  ls
+  816  git clone https://github.com/gtellez07/command-line-murder-mystery.git
+  817  ls
+  818  command-line-murder-mystery
+  819  code  .
+  820  touch newfile.txt
+  821  pwd
+  822  ls-l
+  823  ls -l
+  824  head [file}
+  825  head [file]
+  826  echo $SHELL
+  827  CODE
+  828  code
+  829  logout
+  830  seir-1114/unit1
+  831  ls
+  832  cd command-line-murder-mystery/
+  833  ls
+  834  pwd
+  835  ls
+  836  cd Desktop
+  837  cd
+  838  Desktop
+  839  ls -a
+  840  cd .ssh
+  841  ls
+  842  ..
+  843  man ;s
+  844  man ls
+  845  seir-1114/unit1/cli-intro
+  846  ls
+  847  cd
+  848  cd seir-1114/unit1/
+  849  ls
+  850  cd
+  851  seir-1114/unit
+  852  ls
+  853  rm -m unit
+  854  seir-1114/unit1
+  855  cd
+  856  seir-1114
+  857  ls
+  858  cli-intro
+  859  ls
+  860  cd seir-1114/unit1/
+  861  ls
+  862  cd
+  863  seir-1114/unit1
+  864  ls
+  865  git-intro
+  866  ls
+  867  git branch -m main
+  868  cd
+  869  rm -rf. git
+  870  cd
+  871  pwd
+  872  cd seir-1114/unit1/git-intro
+  873  git .init
+  874  git init
+  875  cd
+  876  pwd
+  877  cd
+  878  cd seir-1114/unit1/git-intro
+  879  git status
+  880  git add index.html
+  881  git status
+  882  touch index.html
+  883  commit -m "add index.html"
+  884  git status
+  885  git log
+  886  touch style.css script.js
+  887  ls
+  888  git status
+  889  git add scipt.js style.css
+  890  git remote add origin https://github.com/GetFluxxed/git_intro.git
+  891  cd
+  892  seir-1114/unit1/object-array-drills
+  893  code .
+  894  gaa
+  895  gcmsg "done"
+  896  git commit
+  897  git push origin main
+  898  cd
+  899  seir-1114/unit1
+  900  ls
+  901  temperature-converter-dom
+  902  code .
+  903  git commit
+  904  git push origin main
+  905  cd
+  906  seir-1114/unit1
+  907  ls
+  908  sei-tic-tac-toe
+  909  code .
+  910  cd
+  911  seir-1114/unit1
+  912  ls
+  913  pwd
+  914  cd
+  915  seir-1114
+  916  ls
+  917  unit
+  918  ls
+  919  rm -r
+  920  cd
+  921  seir-1114/unit
+  922  cd
+  923  seir-1114
+  924  rm -r unit
+  925  ls
+  926  1
+  927  ls
+  928  seir-1114
+  929  ls
+  930  two
+  931  ls
+  932  cd
+  933  seir-1114
+  934  rm -r two
+  935  ls
+  936  html-css-intro
+  937  ls
+  938  css
+  939  ls
+  940  cd
+  941  seir-1114
+  942  ls
+  943  one
+  944  ls
+  945  cd
+  946  seir-1114
+  947  rm -r
+  948  rm -r one
+  949  ls
+  950  1
+  951  seir-1114/cli-intro
+  952  ls
+  953  cd
+  954  seir-1114/1
+  955  ls
+  956  cd
+  957  seir-1114
+  958  rm -r 1
+  959  ls
+  960  unit1
+  961  ls
+  962  sei-tic-tac-toe
+  963  code .
+  964  cd
+  965  seir-1114/unit1
+  966  git clone https://github.com/gtellez07/sei-tic-tac-toe.git
+  967  sei-tic-tac-toe
+  968  code .
+  969  touch index.html
+  970  code .
+  971  ls
+  972  gaa
+  973  gcmsg "re-doing"
+  974  code .
+  975  cd
+  976  seir-1114/unit1
+  977  ls
+  978  rm -r sei-tic-tac-toe
+  979  seir-1114/unit1
+  980  ls
+  981  cd sei-tic-tac-toe
+  982  open
+  983  code .
+  984  file path
+  985  file
+  986  pub/static
+  987  static/
+  988  ls
+  989  cd
+  990  seir-1114/unit1
+  991  mkdir Tic Tac To
+  992  ls
+  993  rm -r Tic Tac To
+  994  ls
+  995  mkdir tictactoe
+  996  cd tictactoe
+  997  touch ttt.html ttt.css ttt.js
+  998  ls
+  999  code .
+ 1000  cd
+ 1001  seir-1114/unit1
+ 1002  ls
+ 1003  command-line-murder-mystery
+ 1004  code .
+ 1005  ls
+ 1006  cat hint1 hint2 hint 3
+ 1007  cat instructions
+ 1008  cd mystery
+ 1009  ls
+ 1010  cat crimescene
+ 1011  head -n 20
+ 1012  seir-1114/unit1
+ 1013  ls
+ 1014  command-line-murder-mystery
+ 1015  cat hint1 hint2 hint3
+ 1016  cat instructions
+ 1017  cd mystery
+ 1018  ls
+ 1019  cat crimescene
+ 1020  head -n 20 crimescene
+ 1021  grep CLUE crimescene
+ 1022  grep CLUE crimescene >> clues.txt
+ 1023  cat clues.txt
+ 1024  ls
+ 1025  head -n 20 people
+ 1026  grep Annabel people
+ 1027  grep Annabel people >> clues.txt
+ 1028  cat clues.txt
+ 1029  cd streets
+ 1030  ls
+ 1031  head -n 20
+ 1032  seir-1114/unit1/command-line-murder-mystery
+ 1033  ls
+ 1034  mystery
+ 1035  ls
+ 1036  streets
+ 1037  head -n 20 Addington_Road
+ 1038  sed -m '173 p'
+ 1039  man sed
+ 1040  sed -n '173p' Mattapan_Street
+ 1041  head -n 173 Mattapan_Street
+ 1042  cat -n Hart_Place
+ 1043  cat -n Hart_Place | grep 40
+ 1044  cat -n Hart_Place | grep ' 40'
+ 1045  cat ../../hint5
+ 1046  head -n 40 Hart_Place
+ 1047  head -n 40 Hart_Place | tail -n 1
+ 1048  head -n 40 Hart_Place | tail -n 1>>../clues.txt
+ 1049  cd ..
+ 1050  head -n 40 streets/Buckingham_Place | tail -n 1>> ../clues.txt
+ 1051  cat clues.txt
+ 1052  head -n 179 streets/Buckingham_Place
+ 1053  head -n 179 streets/Buckingham_Place | tail -n 1
+ 1054  head -n 179 streets/Buckingham_Place | tail -n 1 >> clues.txt
+ 1055  ls interviews
+ 1056  cat clues.txt
+ 1057  ls interview
+ 1058  ls interviews
+ 1059  cat interviews/interview-699607
+ 1060  cat interviews/interview-699607 >> clues.txt
+ 1061  ls
+ 1062  head -n 20 vehicles
+ 1063  cat clues.txt
+ 1064  cat vehicles | grep "L337"
+ 1065  man grep
+ 1066  head -n 20 vehicles
+ 1067  cat vehicles | grep -A 5 "L337"
+ 1068  cat vehicles | grep -A 5 "L337" | grep -A 1 -B 4 Honda
+ 1069  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda
+ 1070  cat clues.txt
+ 1071  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -
+ 1072  cat vehicles | grep -A 5 "L337" | grep -A 4 -B 1 Honda | grep -B 2 -A 3 Blue | grep -A 1 -B 4 "6'" >> clues.txt
+ 1073  cat clues.txt
+ 1074  cd memberships
+ 1075  ls
+ 1076  cat AAA Delta Museum_of_Bash_History Terminal_City_Library
+ 1077  cat AAA Delta Museum_of_Bash_History Terminal_City_Library | grep "Erika Owens"
+ 1078  cat AAA Delta Museum_of_Bash_History Terminal_City_Library | grep "Joe Germuska"
+ 1079  cat AAA Delta Museum_of_Bash_History Terminal_City_Library | grep "Jacqui Maher"
+ 1080  cat AAA Delta Museum_of_Bash_History Terminal_City_Library | grep "Jeremy Bowers"
+ 1081  cd ..
+ 1082  grep "Jeremy Bowers" people
+ 1083  grep "Jeremy Bowers" people >> clues.txt
+ 1084  head -n 284 streets/Dunstable_Road | tail -n 1
+ 1085  head -n 284 streets/Dunstable_Road | tail -n 1 >> clues.txt
+ 1086  cat interviews/interview-9620173
+ 1087  cat interviews/interview-9620713
+ 1088  cd ..
+ 1089  ls
+ 1090  mystery
+ 1091  ls
+ 1092  cd
+ 1093  seir-1114/unit1/command-line-murder-mystery
