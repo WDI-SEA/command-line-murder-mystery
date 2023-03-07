@@ -1,0 +1,101 @@
+  404  ls
+  405  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep "Jacqui Maher"
+  406  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep "Erika Owens"
+  407  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep Joe Germuska
+  408  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep " Joe Germuska"
+  409  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep "Joe Germuska"
+  410  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep "Jeremy Bowers"
+  411  cd ..
+  412  ls
+  413  cd ..
+  414  ls
+  415  touch solution.txt
+  416  ls
+  417  echo "The killer is Jeremy Bowers." > solution.txt
+  418  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  419  clear
+  420  cd mystery
+  421  ls
+  422  grep clue crimescene
+  423  grep -i clue crimescene
+  424  grep -i clue crimescene >> clues.txt
+  425  cat clues.txt
+  426  ls
+  427  head -n 20 people
+  428  grep -i annabel people
+  429  grep -i annabel people >> clues.txt
+  430  cat clues.txt
+  431  ls
+  432  ls streets
+  433  cat streets/Hart_Place
+  434  head -n 40 streets/Hart_Place tail -n 1
+  435  head -n 40 Hart_Place tail -n 1
+  436  cd ..
+  437  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8 >> hints.txt
+  438  cat hints.txt
+  439  cd mysteries
+  440  cd mystery
+  441  ls
+  442  cat clues.txt
+  443  head -n 40 streets/Hart_Place | tail -n 1
+  444  head -n 40 streets/Hart_Place | tail -n 1 >> clues.txt
+  445  cat clues.txt
+  446  ls
+  447  cat interviews/interview-47246024
+  448  man head
+  449  man tail
+  450  head -n 179 streets/Buckingham_Place | tail -n 1
+  451  head -n 179 streets/Buckingham_Place | tail -n 1 >> clues.txt
+  452  cat clues.txt
+  453  cat interviews/interview-699607
+  454  head -n 
+  455  head -n 20
+  456  man less
+  457  man more
+  458  cat clues.txt
+  459  man at
+  460  man cat
+  461  cat -n hints.txt
+  462  cat -n streets/Buckingham_Place | grep "179\n"
+  463  cat -n streets/Buckingham_Place | grep "179"\n"\ncat -n streets/Buckingham_Place | grep "179"
+  464  cat -n streets/Buckingham_Place| grep "179"
+  465  cat clues.txt
+  466  cat interviews/interview-47246024
+  467  cat interviews/interview-699607
+  468  cat interviews/interview-699607 >> clues.txt
+  469  cat clues.txt
+  470  ls
+  471  head vehicles
+  472  cat vehicles | grep -i "l337..9"
+  473  cat vehicles | grep -ia "l337"
+  474  cat vehicles | grep -A 5 "L337"
+  475  cat vehicles | grep -A 5 "L337" | grep  "Honda" | grep "Blue"
+  476  cat vehicles | grep -A 5 "L337" | grep  "Honda"
+  477  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda"
+  478  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue"
+  479  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -C 2 "Height: 6"
+  480  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -C 2 "Height: 6" >> clues.txt
+  481  cat clues.txt
+  482  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -C 1 "Height: 6"
+  483  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "Height: 6"
+  484  cat clues.txt
+  485  grep "Erika Owens" people
+  486  grep -e  "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher"  people
+  487  grep -e  "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher"  people >> clues.txt
+  488  clues.txt
+  489  cat clues.txt
+  490  head -n 284 streets/Dunstable_Road | tail -n 1
+  491  head -n 284 streets/Dunstable_Road | tail -n 1 >> clues.txt
+  492  cat interviews/interview-9620713
+  493  cat interviews/interview-9620713 >> clues.txt
+  494  head memberships/AAA
+  495  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History| grep "Jeremy Bowers"
+  496  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History| grep "Jeremy Bowers" | wc -1
+  497  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History| grep "Jeremy Bowers" | wc
+  498  cd ..
+  499  ls
+  500  history >> solution.txt
+  501  head solution.txt
+  502  echo "Jeremy Bowers" >> solution.txt
+  503  code .
+Jeremy Bowers
