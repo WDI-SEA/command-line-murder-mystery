@@ -1,0 +1,624 @@
+    1  pwd
+    2  ls
+    3  cd documents
+    4  ls
+    5  ls-a
+    6  ls -a
+    7  cd ..
+    8  pwd
+    9  mkdir myfolder
+   10  ls
+   11  cd myfolder
+   12  touch html.index style.css
+   13  rm style.css
+   14  ls
+   15  cd ..
+   16  rm -r myfolder
+   17  cd downloads
+   18  cd world
+   19  ls
+   20  ls -a
+   21  cd ..
+   22  ls
+   23  cd downloads
+   24  cd world
+   25  ls
+   26  cd North America
+   27  cd Europe
+   28  ls
+   29  ls -a
+   30  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   31  mkdir GA-Blog
+   32  .git/
+   33  $ git init
+   34  pwd
+   35  cd ..
+   36  pwd
+   37  mkdir GA-Blog
+   38  .git/
+   39  pwd
+   40  cd GA-Blog
+   41  .git/
+   42  cd ga-blog
+   43  cd GA-Blog
+   44  pwd
+   45  $ git init
+   46  pwd
+   47  mkdir .git/
+   48  $ git init
+   49  pwd
+   50  cd .git/
+   51  $ git init
+   52  cd GA-Blog
+   53  pwd
+   54  cd ..
+   55  $ git init
+   56  ls -a
+   57  $ git status
+   58  cd ..
+   59  pwd
+   60  cd GA-Blog
+   61  $ git status
+   62  ls -a
+   63  ls
+   64  ped
+   65  $ git status
+   66  pwd
+   67  $ touch post.txt
+   68  $ git status
+   69  pwd
+   70  ls -a
+   71  $ touch post.txt
+   72  touch post.txt
+   73  git status
+   74  $ git status
+   75  pwd
+   76  ls
+   77  ls -a
+   78  $ got add post.txt
+   79  $ git add post.txt
+   80  ls
+   81  git add post.txt
+   82  ls -a
+   83  $ git add post.txt
+   84  git status
+   85  $ git status
+   86  git add .
+   87  cd ..
+   88  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   89  xcode-select --install
+   90  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   91  brew install git
+   92  git --version
+   93  https://agilefingers.com/lessons/javascript
+   94  git config --global user.name "YOUR-USERNAME"
+   95  git config --global user.name "awellsbiz"
+   96  git config --global user.email "awellsbiz@gmail.com"
+   97  git config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'\ngit config --global pull.rebase true
+   98  git config --list
+   99  git config --list --global
+  100  brew install --cask visual-studio-code
+  101  code
+  102  pwd
+  103  ls
+  104  cd Desktop
+  105  ls
+  106  cd ..
+  107  ls -a
+  108  open
+  109  cd ..
+  110  ls
+  111  pwd
+  112  cd
+  113  pwd
+  114  ls
+  115  pwd
+  116  mkdir seir-306
+  117  ls
+  118  cd seir-306
+  119  pwd
+  120  mkdir unit1
+  121  cd unit1
+  122  pwd
+  123  mkdir cli-intro
+  124  cd cli-intro
+  125  cd unit1
+  126  mkdir one two
+  127  ls
+  128  touch my_file.txt
+  129  ls
+  130  touch file_one file_two
+  131  ls
+  132  mv file_one one/file_onfj
+  133  ls one
+  134  mv one/ file_onfj one/file_one
+  135  cd cli-intro
+  136  pwd
+  137  cd one
+  138  ls
+  139  mv one/file_onfj one/file_one
+  140  ls
+  141  cd..
+  142  cd ..
+  143  rm file_onfj
+  144  cd one
+  145  rm file_onfj
+  146  ls
+  147  cd cli-intro
+  148  pwd
+  149  ls
+  150  cd ..
+  151  echo 'hello'
+  152  echo 'hello redirection' > some_file
+  153  ls
+  154  cat some_file
+  155  code .
+  156  echo 'good bye' > some_file
+  157  echo 'at the bottom' >> some_file
+  158  ca some_file
+  159  cat some_file
+  160  ls
+  161  car some_file
+  162  cat some_file
+  163  grep john some_file
+  164  grep John some_file
+  165  cat some_file | John
+  166  cat some_file | grep John
+  167  man grep
+  168  grep -rni john *
+  169  history > comand.txt
+  170  rm comand.txt
+  171  cd ..
+  172  cd
+  173  pwd
+  174  cd unit1
+  175  pwd
+  176  cd unit1
+  177  cd cli-intro
+  178  pwd
+  179  cd seir-306
+  180  ls
+  181  cd unit1
+  182  mkdir my-first-git
+  183  ls
+  184  cd
+  185  cs unit1
+  186  cd unit1
+  187  cd cli-intro
+  188  cd seir-306
+  189  cd my-first-git
+  190  cd unit1
+  191  cd my-first-git
+  192  touch index.html script.js
+  193  ls
+  194  ls -a
+  195  git init
+  196  cd ..
+  197  cd my-first-git
+  198  ls -a
+  199  rm -rf .git
+  200  ls -a
+  201  git status
+  202  git config --global init.defaultBranch main
+  203  git init
+  204  ls
+  205  ls -a
+  206  git status
+  207  git add index.html
+  208  git status
+  209  git add .
+  210  got status
+  211  git status
+  212  git commit -m "adding new files for init commit"
+  213  git status
+  214  touch my_homework.js
+  215  git add .
+  216  git status
+  217  git commit -m 'homework done, need to sleep'
+  218  git log
+  219  cd ..
+  220  git clone https://github.com/awellsbiz/command-line-murder-mystery.git
+  221  ls
+  222  cd command-line-murder-mystery
+  223  ls
+  224  cat instructions
+  225  open cheatsheet.pdf
+  226  ls
+  227  seir-306
+  228  ls
+  229  unir1
+  230  unit1
+  231  ls
+  232  command-line-murder-mystery
+  233  ls
+  234  cd  LICENSE
+  235  LICENSE
+  236  open LICENSE.txt
+  237  open readme.md
+  238  open cheatsheet.md
+  239  open instructions
+  240  cat instructions
+  241  ls
+  242  nano cheatsheet
+  243  ls
+  244  cd unit1
+  245  cat unit1
+  246  seir-306
+  247  ls
+  248  unit1
+  249  ls
+  250  command-line-murder-mystery
+  251  ls
+  252  open cheatsheet.md
+  253  cd mystery
+  254  ls
+  255  crimescene
+  256  ls
+  257  cd interviews
+  258  ls
+  259  cd ..
+  260  ls
+  261  open crimescene
+  262  cat crimescene
+  263  grep '[A-Z]' crimescene
+  264  open instructions
+  265  ls
+  266  cd ..
+  267  ls
+  268  open instructions
+  269  mystery
+  270  ls
+  271  crimescene
+  272  ls
+  273  grep 'CLUE' crimescene
+  274  cat people
+  275  ls
+  276  grep 'CLUE' crimescene
+  277  cd memberships
+  278  ls
+  279  cd interviews
+  280  cd ..
+  281  cd interviews
+  282  ls
+  283  cd ..
+  284  ls
+  285  grep 'Annabel' people
+  286  grep 'CLUE' crimescene
+  287  cd ..
+  288  ls
+  289  open cheatsheet.pdf
+  290  open cheatsheet.save
+  291  cat cheatsheet.save
+  292  cat hint1
+  293  head -n 20 people
+  294  ls
+  295  mystery
+  296  head -n 20 people
+  297  cat hint2
+  298  cd ..
+  299  hint2
+  300  ls
+  301  cat hint2
+  302  ls
+  303  cd mystery/crimescene
+  304  cd mystery crimescene
+  305  cd mystery /crimescene
+  306  ls
+  307  mystery
+  308  ls
+  309  crimescene
+  310  ls
+  311  grep 'clue' crimescene
+  312  ls
+  313  grep 'clue' crimescene%
+  314  grep "CLUE" crimescene%
+  315  cat crimescene
+  316  grep "CLUE" crimescene%
+  317  grep "CLUE" crimescene
+  318  cd ..
+  319  ls
+  320  hint3
+  321  cat hint3
+  322  mystery
+  323  ls
+  324  cat people
+  325  head
+  326  ls
+  327  people
+  328  cd ..
+  329  ls
+  330  hint3
+  331  cat hint3
+  332  cat people
+  333  ls
+  334  mystery
+  335  ls
+  336  head -n 20 people
+  337  head -n 20 vehicles
+  338  vehicles
+  339  cat vehicles
+  340  head -n 60 vehicles
+  341  ls
+  342  cd ..
+  343  ls
+  344  hint4
+  345  cat hint4
+  346  ls
+  347  mystery
+  348  ls
+  349  grep 'Annabel' people
+  350  ls
+  351  cd ..
+  352  cat hint5
+  353  ls
+  354  mystery
+  355  ls
+  356  interviews
+  357  ls
+  358  cd ..
+  359  cat hint4
+  360  cat hint5
+  361  mystery
+  362  grep 'Annabel' people
+  363  ls
+  364  memberships
+  365  cd ..
+  366  interviews
+  367  head -n 173 streets/Mattapan_Street | tail -n 1
+  368  cd ..
+  369  ls
+  370  streets
+  371  head -n 173 streets/Mattapan_Street | tail -n 1
+  372  ls
+  373  head -n 173 streets/Mattapan_Street | tail -n 1
+  374  head -n 173 streets
+  375  head -n 173 streets/Mattapan_Street
+  376  cd ..
+  377  ls
+  378  cd ..
+  379  hint4
+  380  ls
+  381  cat hint4
+  382  mystery
+  383  grep 'annabel' people
+  384  ls
+  385  grep 'Annabel' people
+  386  cd ..
+  387  ls
+  388  cat hint5
+  389  ls
+  390  cat hint6
+  391  mystery
+  392  grep 'Honda' vehicles
+  393  cd ..
+  394  cat hint6
+  395  mystery
+  396  head vehicle
+  397  head vehicles
+  398  head -n 40 vehicles
+  399  cd ..
+  400  cat hint5
+  401  mystery
+  402  ls
+  403  interviews
+  404  cd ..
+  405  ls
+  406  streets
+  407  head -n 173 streets/Mattapan_Street | tail -n 1
+  408  cd ..
+  409  cat hint7
+  410  grep -A 5 "L337" mystery/vehicles
+  411  cat hint7
+  412  cat hint8
+  413  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  414  mystery/memberships
+  415  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  416  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  417  ls
+  418  cd ..
+  419  ls
+  420  cat hint8
+  421  ls
+  422  mystery/crimescene | grep 'CLUE' crimescene
+  423  mystery/crimescene
+  424  ls
+  425  mystery | grep 'CLUE' crimescene
+  426  mystery
+  427  grep 'CLUE' crimescene
+  428  ls
+  429  memberships
+  430  ls
+  431  cat AAA Museum_of_Bash_History Delta_SkyMiles library.txt | grep 'Annabel'
+  432  cd ..
+  433  ls
+  434  grep 'Annabel' vehicles
+  435  grep 'Annabel' peopel
+  436  grep 'Annabel' people
+  437  grep -A 'Annabel' vehicles
+  438  grep -A 5 'Annabel' vehicles
+  439  cd ..
+  440  ls
+  441  open instructions
+  442  mystery
+  443  grep -A 5 height:6' vehicles\n\ncd\ncd ..\necho(c)\n\\n/\n/mystery\n/..\n../\n/../..\nbash\ncd ..\n$cd ..
+  444  grep -A 5 height: 6  vehicles
+  445  grep -A 5' height: 6' vehicles
+  446  grep height: 6 vehicles
+  447  grep Height: 6 vehicles
+  448  grep 'Height: 6' vehicle
+  449  grep 'Height: 6' vehicles
+  450  grep 'Height: 6' 'Annabel' vehicles
+  451  cd ..
+  452  ls
+  453  cat hint4
+  454  cat hont5
+  455  cat hint5
+  456  mystery/interviewq
+  457  mystery
+  458  ls
+  459  interviews
+  460  cd ..
+  461  ls
+  462  cd .
+  463  cd ..
+  464  ls
+  465  mystery
+  466  grep 'CLUE' crimescene
+  467  ls
+  468  grep 'Annabel' people
+  469  grep 'line 173' people'
+  470  grep 'line 173' people
+  471  grep 'line 179' people
+  472  cd ..
+  473  cat hint 6
+  474  ls
+  475  cat hint6
+  476  mystery
+  477  grep 'line 40' people
+  478  grep 'L337' vehicles | head
+  479  grep 'Blue' vehicles | head
+  480  ls 
+  481  interviews
+  482  ls
+  483  cd ..
+  484  ls
+  485  cat hint7
+  486  mystery
+  487  grep -A 5 'L337' vehicles
+  488  cd ..
+  489  cat hint8
+  490  mystery
+  491  cd ..
+  492  grep 'CLUE' crimescene
+  493  ls
+  494  mystery
+  495  grep 'CLUE' crimescene
+  496  memberships
+  497  ls
+  498  cd ..
+  499  AAA Museum_of_Bash_History Delta_SkyMiles | grep 'Jacqui Maher'
+  500  AAA Museum_of_Bash_History Delta_SkyMiles | grep 'Jeremy Bowerss'
+  501  AAA Museum_of_Bash_History Delta_SkyMiles | grep -c
+  502  cat AAA Museum_of_Bash_History Delta_SkyMiles | grep -c
+  503  cat Terminal_City_Library AAA Museum_of_Bash_History Delta_SkyMiles | -c 'Jeremy Bowers'
+  504  Terminal_City_Library AAA | grep 'Jeremy Bowers'
+  505  cat hint8
+  506  cd ..
+  507  cat hint8
+  508  mystery
+  509  grep 'Joe Germuska' people
+  510  grep 'Jeremy Bowers' people
+  511  cd ..
+  512  cat hint6
+  513  ls
+  514  open cheatsheet.save.1
+  515  open README.md
+  516  open cheatsheet.md
+  517  muystery
+  518  mystery
+  519  cd ..
+  520  cat hint1
+  521  cat hint2
+  522  cat hint3
+  523  cat hint4
+  524  cat hint5
+  525  cat hint6
+  526  cat hint7
+  527  cat hint8
+  528  mystery
+  529  grep 'Annabel' people
+  530  head 'Mattapan Street' streets
+  531  ls
+  532  streets
+  533  head 'Mattapan Street' streets
+  534  grep Mattapan streets
+  535  ls
+  536  git init
+  537  git status
+  538  cd ..
+  539  grep -A 5 'L337' vehicles
+  540  cat AAA United_MileagePlus | grep "John Smith"
+  541  AAA United_MileagePlus | grep 'Jacqui Maher'
+  542  cat AAA United_MileagePlus | grep 'Jacqui Maher'
+  543  git status
+  544  git add .
+  545  git commit -m 'My First Commit'
+  546  git status
+  547  git add . 
+  548  git commit -m "My First Commit"
+  549  ls -la
+  550  interviews
+  551  ls-la
+  552  ls -la
+  553  cd ../..
+  554  ls
+  555  mystery
+  556  cd ..
+  557  mkdir 'awells_answer'
+  558  ls
+  559  awells_answer
+  560  git init
+  561  git status
+  562  cd ../..
+  563  ls
+  564  command-line-murder-mystery
+  565  git status
+  566  git add .
+  567  awells_answer
+  568  git add .
+  569  git commit -'Commit 2'
+  570  git commit -m 'Commit-2'
+  571  git status
+  572  touch 'I have 3 speculations' answers.txt
+  573  git status
+  574  git add .
+  575  git commit -m 'Commit-3'
+  576  cd seir-306
+  577  unit1
+  578  command-line-murder-mystery
+  579  cat instructions
+  580  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  581  mystery
+  582  grep 'CLUE' crimescene
+  583  grep 'CLUE' >> clues.txt
+  584  ls
+  585  head -n 20 people
+  586  grep 'CLUE' crimescene >> clue.txt
+  587  grep Annabel people >> clues.txt
+  588  cat clues.txt
+  589  grep 'CLUE' crimescene >> clues.txt
+  590  rm clue.txt
+  591  ls
+  592  cat clues.txt
+  593  head -n 40 streets/Hart_Place | tail -1
+  594  head -n 40 streets/Hart_Place | tail -1 >> clues.txt
+  595  cat clues.txt
+  596  man cat
+  597  cat -n streets/Buckingham_Place | '179'
+  598  cat -n streets/Buckingham_Place | grep '179'
+  599  cat -n streets/Buckingham_Place | grep '179' >> clues.txt
+  600  cat clues.txt
+  601  cat interviews/interview-47246024
+  602  cat interviews/interview-699607
+  603  cat interviews/interview-699607 >> clues.txt
+  604  head -n 20 vehicles
+  605  cat vehicles| grep "L337"
+  606  man grep
+  607  open ../cheatsheet.pdf
+  608  cat vehicles| grep -A 5 'L337'
+  609  man grep
+  610  cat vehicles | grep -A 5 'L337' | grep -A 4 'Make: Honda' | grep -A 3 'Blue'
+  611  cat vehicles | grep -A 5 'L337' | grep -A 4 'Make: Honda' | grep -A 3 'Blue' | grep -A 2 '6''
+  612  cat vehicles | grep -A 5 'L337' | grep -A 4 'Make: Honda' | grep -A 3 'Blue' | grep -A 2 "6'"
+  613  cat vehicles | grep -A 5 'L337' | grep -A 4 'Make: Honda' | grep -A 3 'Blue' | grep -B 1 "6'"
+  614  man grep
+  615  cat vehicles | grep -A 5 'L337' | grep -A 4 'Make: Honda' | grep -A 3 'Blue' | grep -B 1 "6'" >> clues.txt
+  616  grep 'Erika Owens' people
+  617  head -n 284 streets/Dunstable_Road | tail -n 1
+  618  cat interviews/interview-9620713
+  619  cat interviews/interview-9620713 >> clues.txt
+  620  grep "Jeremy Bowers" memberships/AAA
+  621  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History| "Jeremy Bowers"
+  622  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History| grep "Jeremy Bowers"
+  623  cd ..
+Jeremy Bowers
