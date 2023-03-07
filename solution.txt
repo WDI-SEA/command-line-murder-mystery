@@ -1,0 +1,100 @@
+  378  head -n 176 streets/Haley_Street | tail -n 1
+  379  ls
+  380  cd interviews
+  381  cat interview-47276024
+  382  cat interview-47246024
+  383  cat interview-699607
+  384  cat interview-871877
+  385  cd ..
+  386  ls
+  387  grep "Blue" vehicles | grep "Honda" vehicles | grep "L337" vehicles
+  388  grep "Blue" vehicles | grep "Honda" vehicles | grep "L337..9" vehicles
+  389  grep "Blue" vehicles | grep "Honda" vehicles | grep -C 4 "L337..9" vehicles
+  390  cd..
+  391  cd ..
+  392  ls
+  393  cat hint6
+  394  cat hint7
+  395  cat hint8
+  396  ls
+  397  cd mystery
+  398  ls
+  399  grep "CLUE" crimescene
+  400  ls
+  401  cd memberships
+  402  ls
+  403  cat AAA
+  404  ls
+  405  cat Delta_SkyMiles AAA Museum_of_Bash_History library.txt | grep "John Smith"
+  406  cat Delta_SkyMiles AAA Museum_of_Bash_History  | grep "Erika Owens"
+  407  cat Delta_SkyMiles AAA Museum_of_Bash_History  | grep "Joe Germuska"
+  408  cat Delta_SkyMiles AAA Museum_of_Bash_History  | grep "Jeremy Bowers"
+  409  cat Delta_SkyMiles AAA Museum_of_Bash_History  | grep "Jaqui Maher"
+  410  cd ..
+  411  ce mystery
+  412  ls
+  413  cd mystery
+  414  ls
+  415  grep CLUE crimescene
+  416  grep CLUE crimescene >> clues.txt
+  417  ls
+  418  head -n 20 people
+  419  grep Annabel people
+  420  grep Annabel people >> clues.txt
+  421  cat clues.txt
+  422  ls
+  423  ls streets
+  424  cat clues.txt
+  425  head -n 40 streets/Buckingham_Place
+  426  head -n 40 streets/Hart_Place | tail -n 1
+  427  head -n 40 streets/Hart_Place | tail -n 1 >> clues.txt
+  428  cat clues.txt
+  429  head -n 179 streets/Buckingham_Place | tail -n 1
+  430  head -n 179 streets/Buckingham_Place | tail -n 1 >> clues.txt
+  431  cat clues.txt
+  432  less clues.txt
+  433  cat -n streets/Buckingham_Place | grep "179"
+  434  ls clues.txt
+  435  cat clues.txt
+  436  ls interviews
+  437  cat interview-699607
+  438  cat interviews/interview-699607
+  439  cat interviews/interview-699607 >> clues.txt
+  440  cat clues.txt
+  441  head -n 20 vehicles
+  442  cat vehicles | grep -A 5 "L337"
+  443  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda"
+  444  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue"
+  445  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -A 1 "6'"
+  446  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'"
+  447  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'" >> clues.txt
+  448  cat clues.txt
+  449  grep "Erika Owens" people
+  450  grep -e "Erika Owens" -e "Joe Gemuska"  people
+  451  grep -e "Erika Owens" -e "Joe Germuska" people
+  452  head -n 284 streets/Dunstable_Road | tail -n 1
+  453  cat interviews/interview-9620713
+  454  cat interviews/interview-9620713 >> clues.txt
+  455  cat clues.txt
+  456  ls memberships
+  457  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep "Jeremy Bowers"
+  458  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep "Jeremy Bowers" >> clues.txt
+  459  cat clues.txt
+  460  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep "Joe Germuska"
+  461  ls
+  462  cd seir-306
+  463  ls
+  464  cd unit1
+  465  ls
+  466  cd command-line-murder-mystery
+  467  ls
+  468  cd mystery
+  469  ls
+  470  cd ..
+  471  history > solution.txt
+  472  ls
+  473  cat solution.txt
+  474  echo "Jeremy Bowers" >> solution.txt
+  475  ls
+  476  cat solution.txt
+  477  code .
