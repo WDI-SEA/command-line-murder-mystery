@@ -1,0 +1,101 @@
+   39  ls
+   40  cd unit1
+   41  mkdir my-first-git
+   42  ls
+   43  cd my-first-git
+   44  touch index.html script.js
+   45  git init
+   46  rm-rf.git
+   47  rm -rf.git
+   48  config --globalinit.defaultBranch main
+   49  git config --global init.defaultBranch main
+   50  git init
+   51  git branch -m main
+   52  git status
+   53  git add.
+   54  git add .
+   55  git commit -m "adding new files for init commit"
+   56  cd
+   57  ls
+   58  cd sei-306
+   59  ls
+   60  unit1
+   61  gitclone https://github.com/jaronw1/command-line-murder-mystery.git
+   62  git clone https://github.com/jaronw1/command-line-murder-mystery.git
+   63  /ls
+   64  ls
+   65  cd command-line-mystery
+   66  cd command-line-murder-mystery
+   67  cat instructions
+   68  ls
+   69  grep CLUE crimescene
+   70  cd mystery
+   71  ..
+   72  mystery
+   73  ..
+   74  cd mystery
+   75  ls
+   76  grep CLUE mystery
+   77  crimescene
+   78  cat mystery
+   79  cat crimescene
+   80  grep CLUE crimescene
+   81  ..
+   82  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7
+   83  cd mystery
+   84  grep CLUE crimescene
+   85  grep CLUE crimescene >> clues.txt
+   86  ls
+   87  head -n 20 people
+   88  grep Annabel people
+   89  grep Annabel people >> clues.txt
+   90  cat clues
+   91  cat clues.txt
+   92  ls streets
+   93  head -n 20 streets/Hart_Plac4
+   94  head -n 40 streets/Hart_Place
+   95  head -n 40 streets/Hart_Place | tail -n 1
+   96  head -n 40 streets/Hart_Place | tail -n 1 >> clues.txt
+   97  cat clues.txt
+   98  man cat
+   99  ls
+  100  cd sei-306
+  101  /ls
+  102  ls
+  103  cd unit1
+  104  ls
+  105  cd command-line-murder-mystery
+  106  /ls
+  107  ls
+  108  cd mystery
+  109  cat -n streets/Buckingham_Place | grep "179" >> clues.txt
+  110  cat clues
+  111  cat clues.txt
+  112  cat interviews/interview-47246024
+  113  cat interviews/interview-699607
+  114  pwd
+  115  ls
+  116  head -n vehicles
+  117  head -n 20 vehicles
+  118  cat vehicles | grep "L337"
+  119  open ../cheatsheet.pdf
+  120  cat vehicles | grep -A 5 "L337"
+  121  cat vehicles | grep -A 5 "L337" | grep -A 4 Honda
+  122  cat vehicles | grep -A 5 "L337" | grep -A 4 Honda | grep  -A 3  "Blue"
+  123  cat vehicles | grep -A 5 "L337" | grep -A 4 Honda | grep  -A 3  "Blue" | grep "6"
+  124  cat vehicles | grep -A 5 "L337" | grep -A 4 Honda | grep  -A 3  "Blue" | grep -B 1 "6'"
+  125  cat vehicles | grep -A 5 "L337" | grep -A 4 Honda | grep  -A 3  "Blue" | grep -B 1 "6'" > clues.txt
+  126  grep -e  "Erika Owens" -e "Joe Germuska" -e Jeremy Bowers" -e "Jacqui Maher"  people\n.\n..\ncd\ncd mystery\n%\n"
+  127  grep -e  "Erika Owens" -e "Joe Germuska" -e " Jeremy Bowers" -e "Jacqui Maher" people
+  128  cat interviews/interview-9620713 >> clues.txt
+  129  cat clues.txt
+  130  grep CLUE crimescene
+  131  grep "Jeremy Bowers" memberships/AAA
+  132  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep "Jeremy Bowers"
+  133  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep "Joe Germuska"
+  134  cd..
+  135  cd ..
+  136  history > solution.txt
+  137  echo "Jeremy Bowers" >> solution.txt
+  138  code .
+Jeremy Bowers
