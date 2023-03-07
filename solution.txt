@@ -139,4 +139,575 @@
   509  cd ..
   510  ls
   511  touch solution.txt
-The killer is Oluwasegun Annabel
+The killer is Oluwasegun Annabel    1  hello
+    2  pwd
+    3  ls
+    4  cd documents
+    5  cd Documents
+    6  la -a
+    7  ls -a
+    8  cd ..
+    9  cd..
+   10  cd~
+   11  mykdir folder
+   12  mkdir myfolder
+   13  ls
+   14  cd myfolder
+   15  touch index.html style.css
+   16  ls
+   17  rm style.css
+   18  ls
+   19  rm -r myfolder
+   20  pwd
+   21  cd
+   22  rm -r myfolder
+   23  ls
+   24  ls
+   25  downloads
+   26  cd downloads
+   27  ls
+   28  cd world
+   29  ls
+   30  -a
+   31  -ls
+   32  -A
+   33  ls -a
+   34  cd .carmen_sandiego.png
+   35  cd africa
+   36  ls -a
+   37  cd asia
+   38  pwd
+   39  cd Asia
+   40  CD world
+   41  cd world
+   42  cd..
+   43  cd ..
+   44  cd asia
+   45  ls -a
+   46  cd ..
+   47  cd australia
+   48  ls -a
+   49  cd ..
+   50  cd europe
+   51  ls -a
+   52  ls
+   53  cd downloads
+   54  ls
+   55  rm -r world
+   56  ls
+   57  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   58  git --version
+   59  pwd
+   60  touch GA-Blog
+   61  cd GA-Blog
+   62  pwd
+   63  cd documents
+   64  touch GA-Blog
+   65  ls
+   66  cd GA-Blog
+   67  rm GA-Blog
+   68  ls
+   69  cd ..
+   70  pwd
+   71  mkdir GA-Blog
+   72  pwd
+   73  cd ga-blog
+   74  cd GA-Blog
+   75  ls
+   76  cd GA-Blog
+   77  cd GA-Blog 
+   78  cd *GA-Blog
+   79  rm -r ga-blog
+   80  ls
+   81  pwd
+   82  mkdir ga-blog
+   83  ls
+   84  cd ga-blog
+   85  pwd
+   86  $ git init
+   87  $ git init
+   88  cd..
+   89  cd ..
+   90  cd ..
+   91  pwd
+   92  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/allisonhuston/.zprofile
+   93  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/allisonhuston/.zprofile
+   94  eval "$(/opt/homebrew/bin/brew shellenv)"
+   95  cd *homebrew
+   96  *brew help
+   97  cd ga-blog
+   98  ls
+   99  cd ..
+  100  pwd
+  101  cd ga-blog
+  102  cd ..
+  103  pdw
+  104  pwd
+  105  brew install git
+  106  ls
+  107  cd ga-blog
+  108  cd documents
+  109  ls
+  110  cd applications
+  111  ls
+  112  cd ..
+  113  pdw
+  114  pwd
+  115  cd users
+  116  ls
+  117  cd ..
+  118  ls
+  119  ls system
+  120  cd home
+  121  ls
+  122  ls
+  123  cd ..
+  124  cd users
+  125  ls
+  126  cd ..
+  127  pwd
+  128  cd documents
+  129  cd Documents
+  130  cd Downloads
+  131  cd private
+  132  ls
+  133  cd ..
+  134  ls
+  135  cd usr
+  136  ls
+  137  cd ..
+  138  cd ..
+  139  ls
+  140  cd ls
+  141  cd ..
+  142  ls
+  143  cd home
+  144  ls
+  145  cd ..
+  146  ls
+  147  git --version
+  148  cd
+  149  ls
+  150  cd ga-blog
+  151  $ git init
+  152  cd
+  153  pwd
+  154  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/allisonhuston/.zprofile
+  155  find / homebrew
+  156  ls
+  157  ga-blodg
+  158  ga-blog
+  159  cd ga-blog
+  160  $ git init
+  161  git init
+  162  ls -a
+  163  git status
+  164  touch post
+  165  git status
+  166  rm post
+  167  ls
+  168  git status
+  169  touch post.txt
+  170  git status
+  171  add post.txt
+  172  git add post.txt
+  173  $ git add post.txt
+  174  git status
+  175  git commit -m "created a new post.txt file"
+  176  git log
+  177  cd
+  178  pwd
+  179  mkdir git-practice
+  180  pwd
+  181  cd git-practice
+  182  git status
+  183  git init
+  184  ls -a
+  185  touch README.txt
+  186  git status
+  187  git add README.txt
+  188  git status
+  189  git commit -m "added new file README"
+  190  ls
+  191  cd desktop
+  192  ls
+  193  clear
+  194  ls
+  195  cd
+  196  pwd
+  197  ls
+  198  cd documents
+  199  ls
+  200  cd Resume21
+  201  cd
+  202  echo
+  203  echo $shell
+  204  echo "$shell"
+  205  ls -alF /var/
+  206  ls -alF /bin/ls
+  207  pdw
+  208  pwd
+  209  ls
+  210  cd documents
+  211  ls
+  212  mkdir aa-projects
+  213  ls
+  214  cd aa-projects
+  215  git clone https://github.com/Al-Eo/hello-HTML.git
+  216  git remote -v
+  217  cd ..
+  218  ls
+  219  cd aa-projects
+  220  ls
+  221  cd documents
+  222  ls
+  223  rm html:css
+  224  ls
+  225  rm merced devtools
+  226  rm Merced devtools
+  227  ls
+  228  git --version
+  229  git config --global user.name
+  230  get --homebrew version
+  231  get --homebrew version
+  232  brew doctor
+  233  xcode-select --install
+  234  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  235  git --version
+  236  brew --version
+  237  git config --global user.name "al-eo"
+  238  gitgit config --global user.email "alicecamaro@gmail.com"
+  239  git config --global user.email "alicecamaro@gmail.com"
+  240  git config --global push.default simple
+  241  git config --global credential.helper cache
+  242  git config --global core.editor 'code -w'
+  243  git config --global pull.rebase true
+  244  git config --ls
+  245  git config --list --global
+  246  brew install --cask visual-studio-code
+  247  code
+  248  pwd
+  249  ls
+  250  cd desktop
+  251  ls
+  252  cd ..
+  253  ls
+  254  cd downloads
+  255  ls
+  256  cd ..
+  257  ~ls -a
+  258  cd ..
+  259  ls
+  260  cd allisonhuston
+  261  ~ls -a
+  262  ls
+  263  ~open .
+  264  cd /
+  265  ls
+  266  cd
+  267  pwd
+  268  mkdir seir-306
+  269  ls
+  270  cd seir-306
+  271  pwd
+  272  mkdir unit1
+  273  ls
+  274  cd unit1
+  275  pwd
+  276  mkdir cli-intro
+  277  cd cli-intro
+  278  pwd
+  279  mkdir one two
+  280  touch my-file.txt
+  281  ls
+  282  ls -R
+  283  pwd
+  284  ls
+  285  cd
+  286  pwd
+  287  cd seir-306
+  288  cd cli-intro
+  289  pwd
+  290  cd cli-intro
+  291  pwd
+  292  cd one
+  293  ls
+  294  cd cli-intro
+  295  cd unit1
+  296  cd cli-intro
+  297  echo 'hello!'
+  298  echo 'hello redirection'> some-file
+  299  ls
+  300  code .
+  301  cat some-file
+  302  echo 'Carroll, Lewis:Through the Looking-Glass\nShakespeare, William:Hamlet\nBartlett, John:Familiar Quotations\nMill, John :On Nature\nLondon, Jack:John Barleycorn\nBunyan, John:Pilgrim's Progress, The\nDefoe, Daniel:Robinson Crusoe\nMill, John Stuart:System of Logic, A\nMilton, John:Paradise Lost\nJohnson, Samuel:Lives of the Poets\nShakespeare, William:Julius Caesar\nMill, John Stuart:On Liberty\nBunyan, John:Saved by Grace'>> some-file\ncat some-file\ncat some-file\nCarroll, Lewis:Through the Looking-Glass\nShakespeare, William:Hamlet\nBartlett, John:Familiar Quotations\nMill, John :On Nature\nLondon, Jack:John Barleycorn\nBunyan, John:Pilgrim's Progress, The\nDefoe, Daniel:Robinson Crusoe\nMill, John Stuart:System of Logic, A\nMilton, John:Paradise Lost\nJohnson, Samuel:Lives of the Poets\nShakespeare, William:Julius Caesar\nMill, John Stuart:On Liberty\nBunyan, John:Saved by Grace
+  303  cat some-file | grep john
+  304  ls
+  305  cd seir-306
+  306  ls
+  307  cd unit1
+  308  ls
+  309  cd cli-intro
+  310  ls
+  311  cd some-file
+  312  open some-file
+  313  pwd
+  314  ls
+  315  seir-306
+  316  ls
+  317  cd unit1
+  318  ls
+  319  cli-intro
+  320  ls
+  321  echo 'at the bottom' >> some-file 
+  322  cat
+  323  git man
+  324  man git
+  325  pwd
+  326  ls
+  327  cd seir-306
+  328  ls
+  329  cd unit1
+  330  mkdir my-first-git
+  331  ;s
+  332  ls
+  333  cd my-first-git
+  334  git init
+  335  cd ..
+  336  cd my-first-git
+  337  ls -a
+  338  rm -rf .git
+  339  ls -a
+  340  git config --global init.defaultBranch main
+  341  cd
+  342  ls -a
+  343  rm -rf .git
+  344  cd
+  345  ls
+  346  cd seir-306
+  347  ls
+  348  cd unit1
+  349  ls
+  350  cd my-first-git
+  351  git init
+  352  git status
+  353  touch index.html script.js
+  354  git status
+  355  git add .
+  356  git status
+  357  git commit -m "adding new files for init commit"
+  358  git status
+  359  touch my-homework.js
+  360  git add
+  361  git status
+  362  git add
+  363  git add .
+  364  git status
+  365  git commit -m'homework done, need sleep'
+  366  git log
+  367  ls
+  368  seir-306
+  369  ls
+  370  cd unit1
+  371  git clone https://github.com/Al-Eo/command-line-murder-mystery.git
+  372  ls
+  373  cd command-line-murder-mystery
+  374  cat instructions
+  375  ls
+  376  cd mystery
+  377  ls
+  378  cat crimescene
+  379  grep lue crimescene
+  380  grep CLUE  crimescene
+  381  cat hint1
+  382  cd ..
+  383  ls
+  384  cat hint1
+  385  head -n 20 people
+  386  cd .
+  387  ls
+  388  cat instructions
+  389  ls
+  390  cat hint2
+  391  cat hint3
+  392  open cheatsheet.md
+  393  cat hint4
+  394  grep Annabel people
+  395  grep "Annabel" people
+  396  cd .
+  397  ls
+  398  cd mystery
+  399  ls
+  400  head -n 20 people
+  401  grep "Annabel" people
+  402  cd .
+  403  ls
+  404  cd .
+  405  ls
+  406  cd ..
+  407  ls
+  408  open cheatsheet.pdf
+  409  cat readme.md
+  410  hint cd mystery
+  411  cd mystery
+  412  ls
+  413  cat streets
+  414  cd streets
+  415  ls
+  416  cd .
+  417  ls
+  418  cd ..
+  419  ls
+  420  cd ..
+  421  ls
+  422  cat hint5
+  423  cd mystery
+  424  ls
+  425  cd interviews
+  426  head -n 173 streets/Mattapan_Street | tail -n 1
+  427  cd .
+  428  cd streets
+  429  ls
+  430  cd ..
+  431  ls
+  432  cd streets 
+  433  head -n 173 streets/Mattapan_Street | tail -n 1
+  434  grip head -n 173 streets/Mattapan_Street | tail -n 1
+  435  ls 
+  436  head head -n 173 streets/Mattapan_Street | tail -n 1 people
+  437  cd ..
+  438  ls
+  439  hint6
+  440  cat hint6
+  441  cd mystery
+  442  ls
+  443  head vehicles
+  444  grip "Annabel" vehicles
+  445  grep "Annabel" vehicles
+  446  grep "L337" vehicels
+  447  grep "Blue" vehicles
+  448  grep "Honda" vehicles
+  449  ls
+  450  cd ..
+  451  ls
+  452  cat hint7
+  453  grep -A 5 "L337" mystery/vehicles
+  454  ls
+  455  cat hint8
+  456  cd
+  457  ls
+  458  seir-306
+  459  ls
+  460  cd unit1
+  461  ls
+  462  cd command-line-murder-mystery
+  463  ls
+  464  cd mystery
+  465  ls
+  466  cd mystery
+  467  ls
+  468  grep "CLUE" crimescene
+  469  cat AAA Delta | grep -c "John Smith"
+  470  cd memberships
+  471  ls
+  472  cat AAA Detla-Skymiles
+  473  ls
+  474  cat AAA Delta_Skymiles 
+  475  cat AAA Delta_Skymiles | "Annabel"
+  476  cat AAA Delta_Skymiles | grep "Annabel"
+  477  CD ..
+  478  ls
+  479  cd ..
+  480  ls
+  481  grep -A 5 "Annabel" people
+  482  cd ..
+  483  ls
+  484  mystery
+  485  ls
+  486  cd memberships
+  487  ls
+  488  grep -A 4 "Bash" museum.txt
+  489  head -n10 museum.txt
+  490  grep "Annabel Church" museum.txt
+  491  ls
+  492  head -n5 newfile.txt
+  493  cat AAA Delta_Skymiles Museum_of_Bash_History | grep "Annabel"
+  494  cd ..
+  495  ls
+  496  cd
+  497  ls
+  498  cd seir-306
+  499  ls
+  500  ccd unit1
+  501  cd unit1
+  502  ls
+  503  cd command-line-murder-mystery
+  504  ls
+  505  cat hint4
+  506  cd mystery
+  507  grep "Annabel" people
+  508  ls
+  509  cd ..
+  510  ls
+  511  touch solution.txt
+  512  history
+  513  ls
+  514  open solution.txt
+  515  ls
+  516  open solutions.txt
+  517  open solution.txt
+  518  cat solution.txt
+  519  git add
+  520  git add .
+  521  git status
+  522  git commit -m 'finished first homework task'
+  523  git status
+  524  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+  525  greg CLUE crimescene
+  526  grep CLUE crimescene
+  527  ls
+  528  cd mystery
+  529  ls
+  530  grep CLUE crimescene
+  531  grep CLUE crimescene >> clues.text
+  532  ls
+  533  head -20 people
+  534  grep "Annabel" people
+  535  grep Annabel people >> clues.txt
+  536  cat clues.txt
+  537  head -n40 streets/Hart_Place
+  538  head -n 40 streets/Hart_Place | tail -n 1
+  539  head -n 40 streets/Hart_Place | tail -n 1 SEE INTERVIEW #47246024 >> clues.txt
+  540  cat clues.txt
+  541  cat -n streets/Buckingham_Place | grep "179"
+  542  cat clues.txt
+  543  head -n 20 vehicles
+  544  cat vehicles | grep "l337" 
+  545  open ../cheatsheet.pdf
+  546  grep -A 5 "L337"
+  547  pwd
+  548  ls
+  549  cd seit-306/unit1
+  550  cd seit-306
+  551  cd seir-306/unit1
+  552  ls
+  553  cd command-line-murder-mystery
+  554  ls
+  555  cd mystery
+  556  ls
+  557  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" 
+  558  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B "6'"
+  559  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'"
+  560  grep -e "Erika Owens" -e "Joe Germuska"  people
+  561  head -n 284 streets/Dunstable_Road | tail -n 1
+  562  head -n 284 streets/Dunstable_Road | tail -n 1 >> clues.txt
+  563  cat clues.txt
+  564  head -n 284 streets/Dunstable_Road | tail -n 1>> clues.txt
+  565  head -n 284 streets/Dunstable_Road | tail -n 1 > clues.txt
+  566  cat clues.txt
+  567  grep "Jermey Bowers" memberships/AAA
+  568  grep "Jeremy Bowers" memberships/AAA
+  569  cat memberships/AAA memberships/Delta_SkyMiles member ships/library.txt memberships/Museum_of_Bash_History | grep "Jeremy Bowers"
+  570  cd ..
+  571  ls
+The REAL Killer Jeremey Bowers
