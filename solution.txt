@@ -1,0 +1,1419 @@
+    1  ps
+    2  ls -la
+    3  /home/egor
+    4  hello?
+    5  pwd
+    6  ls
+    7  cd documents
+    8  cd Documents
+    9  ls
+   10  $ls
+   11  ls
+   12  ls -a
+   13  cd ..
+   14  mkdir myfolder
+   15  ls
+   16  mkdir BIG TEST
+   17  ls
+   18  cd myfolder
+   19  touch index.html style.css
+   20  rm style.css
+   21  ls
+   22  cd ..
+   23  rm -r myfolder
+   24  pwd
+   25  sudo apt install git-all
+   26  git version
+   27  pwd
+   28  mkdir GA-File
+   29  pwd
+   30  ls
+   31  cd GA-File
+   32  mkdir git-practice
+   33  pwd
+   34  cd git-practice
+   35  git status
+   36  git init
+   37  ls-a
+   38  ls -a
+   39  touch README.txt
+   40  ls -a
+   41  git status
+   42  git add README.txt
+   43  git status
+   44  git commit -m "first practice"
+   45  git config --global user.email "egordyuzhev@gmail.com"
+   46  git config --global user.name "Egor Dyuzhev"
+   47  pwd
+   48  ls -a
+   49  git status
+   50  git commit -m "first practice"
+   51  git status
+   52  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+   53  pass
+   54  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+   55  sudo apt install pass
+   56  sudo su -
+   57  subl 
+   58  sudo snap install slack
+   59  grep MemTotal /rpoc/meminfo
+   60  systeminfo
+   61  grep MemTotal /proc/meminfo
+   62  pwd
+   63  ls
+   64  ls -a
+   65  cd Documents/
+   66  ls
+   67  vi my-text2.txt
+   68  li
+   69  ls
+   70  cd ..
+   71  cd
+   72  pwd
+   73  cd Documents/
+   74  dc ..
+   75  cd ..
+   76  dc ..
+   77  cd ..
+   78  ls
+   79  ls -a
+   80  q
+   81  ls
+   82  undo dc
+   83  dc ..
+   84  pwd
+   85  cd Documents
+   86  ls
+   87  cd ..
+   88  ls
+   89  man dc
+   90  pwd
+   91  cd home
+   92  ls
+   93  cd home/egor
+   94  cd egor
+   95  ls
+   96  cd Documents/
+   97  cd /
+   98  ls
+   99  cd /Users
+  100  cd /dev
+  101  ls
+  102  cd .
+  103  cd ..
+  104  cd /
+  105  cd home
+  106  ls
+  107  cd egor
+  108  ls
+  109  cd Documents/
+  110  pwd
+  111  cd 
+  112  pwd
+  113  cd home
+  114  cd ..
+  115  pwd
+  116  cd 
+  117  pwd
+  118  cd /dev
+  119  ls
+  120  cd ..
+  121  pwd
+  122  cd /
+  123  pwd
+  124  cd /
+  125  ls
+  126  cd home
+  127  ls
+  128  cd egor
+  129  ls
+  130  cd /
+  131  pwd
+  132  cd ~
+  133  pwd
+  134  cd /etc
+  135  cd /
+  136  cd home
+  137  ls
+  138  cd /etc
+  139  cd /
+  140  ls
+  141  cd /sbin
+  142  ls
+  143  cd games
+  144  cd usr
+  145  cd egor
+  146  cd /
+  147  ls
+  148  cd usr
+  149  ls
+  150  cd games
+  151  ls
+  152  cd ../
+  153  cd bin
+  154  cd /
+  155  cd /var
+  156  ls
+  157  echo "hello"
+  158  cd /
+  159  cd ~
+  160  sudo snap install slack
+  161  [200~sudo apt update
+  162  sudo apt upgrade
+  163  git --version
+  164  node -v
+  165  sudo apt install nodejs
+  166  y
+  167  Y
+  168  n
+  169  node -v
+  170  sudo apt install nodejs
+  171  node -v
+  172  $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  173  $ sudo apt install ./google-chrome-stable_current_amd64.deb
+  174  $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  175  $ sudo apt install ./google-chrome-stable_current_amd64.de
+  176  sudo apt install ./google-chrome-stable_current_amd64.deb
+  177  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  178  sudo apt install ./google-chrome-stable_current_amd64.deb
+  179  sudo apt install google-chrome-stable
+  180  df -H
+  181  df -h
+  182  df -B1
+  183  df -B1 h
+  184  df -B1 -H
+  185  grep MemTotal /proc/meminfo -H
+  186  lsb_release -a
+  187  [200~sb_release -a~
+  188  lsb_release -a
+  189  git -v
+  190  git --version
+  191  git config --global user.name EgorDyu
+  192  [200~it config --global user.email
+  193  git config --global user.email egordyuzhev@gmail.com
+  194  git config --global push.default simple
+  195  git config --global core.editor 'code -w'
+  196  git config --global pull.rebase true
+  197  git config --global user.name EGORDYU
+  198  sudo update-alternatives --set editor /usr/bin/code
+  199  sudo update-alternatives --install /usr/bin/editor editor $(which code) 10
+  200  sudo update-alternatives --set editor /usr/bin/code
+  201  sudo update-alternatives --install /usr/bin/editor editor $(which code) 10
+  202  sudo update-alternatives --set editor /usr/bin/code
+  203  bash sudo update-alternatives --set editor /usr/bin/code
+  204  bash sudo update-alternatives --install /usr/bin/editor editor $(which code) 10
+  205  sudo update-alternatives --set editor /usr/bin/code
+  206  sudo update-alternatives --install /usr/bin/editor editor $(which code) 10
+  207  sudo update-alternatives --set editor /usr/bin/code
+  208  sudo update-alternatives --install /usr/bin/editor editor $(which code) 10
+  209  sudo update-alternatives --set editor /usr/bin/code
+  210  ~/.local/share/applications/defaults.list
+  211  [Default Applications]
+  212  text/plain=code-insiders.desktop
+  213  ~/.local/share/applications/defaults.list
+  214  sudo update-alternatives --set vscode /usr/bin/code
+  215  sudo update-alternatives --set editor /usr/bin/code
+  216  xdg-mime default code.desktop text/plain
+  217  sudo update-alternatives --config editor
+  218  usr/bin/code
+  219  /usr/bin/code
+  220  /snap/bin/code
+  221  sudo update-alternatives --config editor
+  222  /snap/bin/code
+  223  /bin/nano
+  224  git config --list
+  225  sudo update-alternatives --config editor
+  226  udo update-alternatives --set editor /snap/bin/code
+  227  sudo update-alternatives --set editor /snap/bin/code
+  228  sudo update-alternatives --config editor
+  229  sudo update-alternatives --set editor /usr/bin/code
+  230  sudo update-alternatives --set editor /snap/bin/code
+  231  /snap/bin/code
+  232  editor
+  233  xdg-open myfile.txt
+  234  touch myfile.txt
+  235  xdg-open mylife.txt
+  236  xdg-open myfile.txt
+  237  code myfile.txt
+  238  xdg-open myfile.txt
+  239  ssh-keygen -t ed25519 -C egordyuzhev@gmail.com
+  240  eval "$(ssh-agent -s)"
+  241  ssh-add ~/.ssh/id_ed25519
+  242  pwd
+  243  ls -a
+  244  mv key .ssh
+  245  ssh-add ~/.ssh/id_ed25519
+  246  pwd
+  247  ls -a
+  248  cd .ssh
+  249  ls -a
+  250  mv key.pub .ssh
+  251  ssh-add ~/.ssh/id_ed25519
+  252  eval "$(ssh-agent -s)"
+  253  ssh-add ~/.ssh/id_ed25519
+  254  mv key egor
+  255  cd ..
+  256  pwd
+  257  cd .ssh
+  258  ls
+  259  ls -a
+  260  mv egor home
+  261  ls
+  262  cd..
+  263  cd ..
+  264  pwd
+  265  ls
+  266  cd .ssf
+  267  cd .ssh
+  268  pwd
+  269  mv .ssh egor
+  270  ls -a
+  271  ssh-keygen -t ed25519 -C
+  272  ssh-keygen -t ed25519 -C egordyuzhev@gmail.com
+  273  eval "$(ssh-agent -s)"
+  274  ssh-add ~/.ssh/id_ed25519
+  275  xclip -sel clip < ~/.ssh/id_ed25519.pub
+  276  sudo apt install xclip
+  277  xclip -sel clip < ~/.ssh/id_ed25519.pub
+  278  pwd
+  279  ls -a
+  280  cd .ssh
+  281  ls -a
+  282  cd ..
+  283  code
+  284  code myfile.txt
+  285  code
+  286  code myfile.txt
+  287  code
+  288  pwed
+  289  pwd
+  290  calc
+  291  cal
+  292  pwd
+  293  ls -a
+  294  ls -l
+  295  ls -a
+  296  cd /
+  297  pwd
+  298  cd ~
+  299  pwd
+  300  open myfile.txt
+  301  pwd
+  302  login
+  303  ls
+  304  ls -a
+  305  ls
+  306  cd Desktop
+  307  ls
+  308  ls -a
+  309  cd ..
+  310  pwd
+  311  xdg-open
+  312  xdg-open myfile.txty
+  313  xdg-open myfile.txt
+  314  pwd
+  315  open .
+  316  cd /
+  317  pwd
+  318  cd ~
+  319  ls
+  320  cd documents
+  321  cd Documents
+  322  open .
+  323  cd ~
+  324  pwd
+  325  mkdir seir-306
+  326  ls
+  327  cd seir-306
+  328  pwd
+  329  mkdir unit1
+  330  ls
+  331  cd unit1
+  332  pwd
+  333  mkdir cli-intro
+  334  cd cli-intro
+  335  mkdir one two
+  336  ls
+  337  touch my_file.txt
+  338  ls
+  339  touch file_one file_two
+  340  ls
+  341  open cli-intro
+  342  ls
+  343  xdg-open cli-intro
+  344  xdg-open unit1
+  345  open file_one
+  346  mv file_one one/file_one
+  347  ls one
+  348  mv one/file_one one/file_one_half
+  349  ls one
+  350  ls
+  351  cp file_two one/file_two
+  352  ls
+  353  ls one
+  354  cd one
+  355  ls
+  356  cp file_two ../two/my_file_three
+  357  ls
+  358  cd .
+  359  ls
+  360  ls ../two
+  361  cd ..
+  362  rm file_two
+  363  ls
+  364  rm -rf one
+  365  ls
+  366  echo "hello!"
+  367  echo "hello redirection" > some_file
+  368  ls
+  369  open some_file
+  370  cat some_file
+  371  code .
+  372  cat my_file.txt
+  373  echo "goodbye" > some_file
+  374  cat some_file
+  375  echo "at the bottom" >> some_file
+  376  cat some_file
+  377  grep some_file bottom
+  378  grep bottom some_file
+  379  open some_file
+  380  grep John some_file
+  381  cat some_file | grep John 
+  382  cat some_file | grep John | grep Mill
+  383  grep -rni john *
+  384  history > commands.txt
+  385  ls
+  386  cd commands.txt
+  387  open commands.txt
+  388  code .
+  389  cd ..
+  390  cd seir-306
+  391  cd ..
+  392  cd unit1
+  393  mkdir my-first-git
+  394  ls
+  395  cd my-first-git
+  396  touch index.html script.js
+  397  ls
+  398  code
+  399  ls -a
+  400  open my-first-git
+  401  code my-first-git
+  402  git init
+  403  ls -a
+  404  git config --global init.defaultBranch main
+  405  git branch -m main
+  406  git branch -a
+  407  git branch
+  408  rm -rf .git
+  409  ls
+  410  ls -a
+  411  git init
+  412  git status
+  413  rm -rf .git
+  414  git status
+  415  git init
+  416  ls -a
+  417  cd 
+  418  ls -a
+  419  cd my-first-git
+  420  cd seir-306
+  421  cd unit1
+  422  cd my-first-git
+  423  ls
+  424  ls -a
+  425  git status
+  426  git add index.html
+  427  git status
+  428  git add script.js
+  429  git status
+  430  git add .
+  431  git status
+  432  git commit -m "adding new files for init commit"
+  433  git status
+  434  touch my_homework.js
+  435  git add.
+  436  git status
+  437  git add .
+  438  git status
+  439  git commit -m "homework done, need to sleep
+
+q
+git commit -m "homework done, need to sleep
+  440  git commit -m "homework done, need to sleep"
+  441  git status
+  442  cd ..
+  443  ls -a
+  444  git clone https://github.com/EGORDYU/command-line-murder-mystery.git
+  445  ls
+  446  ls -a
+  447  cd command-line-murder-mystery/
+  448  ls
+  449  ls -a
+  450  cat hint1
+  451  cat hint2
+  452  cd mystery
+  453  cat mystery
+  454  cd .
+  455  cd ..
+  456  cat mystery
+  457  ls
+  458  cat hint 4
+  459  cat hint4
+  460  ls
+  461  cat mystery
+  462  cd mystery
+  463  ls
+  464  cd crimescene
+  465  cat crimescene
+  466  grep CLUE crimescene
+  467  cd .
+  468  cd ..
+  469  ls
+  470  cd mystery
+  471  ls
+  472  cat people
+  473  grep Annabel people
+  474  ls
+  475  cd ..
+  476  ls
+  477  hint1
+  478  cat hint1
+  479  cat hint2
+  480  cat hint3
+  481  hint4
+  482  cat hint4
+  483  cat instructions
+  484  cd mystery
+  485  ls
+  486  cd interviews
+  487  ls
+  488  cd ..
+  489  ls
+  490  cd memberships
+  491  ls
+  492  cat AAA
+  493  grep Annabel memberships
+  494  cd ..
+  495  ls
+  496  cd people
+  497  cat people
+  498  grep Annabel people
+  499  cd ..
+  500  ls
+  501  cd mystery
+  502  ls
+  503  cd interviews
+  504  ls
+  505  cd ..
+  506  ls
+  507  cd streets
+  508  ls
+  509  cat Hart_Place
+  510  cd ..
+  511  ls
+  512  grep Annabel interviews
+  513  cd ..
+  514  ls
+  515  cat hint5
+  516  cat hint6
+  517  cat hint7
+  518  cat hint8
+  519  cd mystery
+  520  ls
+  521  head people
+  522  cd ..
+  523  cd mystery
+  524  
+  525  head vehicles
+  526  head 5 vehicles
+  527  cat vehicles
+  528  grep 6' vehicles
+
+cd ..
+z
+cd ..\\\\\
+q
+z.
+.
+cd mystery
+
+
+
+
+
+
+
+
+
+
+
+
+  529  grep 6' vehicles
+  530  ls
+  531  grep 6 vehicles
+  532  grep 6'0" vehicles
+  533  grep "6'0" vehicles
+  534  ls
+  535  cd ..
+  536  ls
+  537  cat instructions
+  538  ls
+  539  open cheatsheet.pdf
+  540  cd mystery
+  541  ls
+  542  cd interviews
+  543  ls
+  544  cd ..
+  545  ls
+  546  cd memberships
+  547  ls
+  548  cat 1.txt
+  549  ls
+  550  grep Annabel AAA | grep Annabel Delta_Skymiles
+  551  grep Annabel AAA| grep Annabel Delta_SkyMiles
+  552  ls
+  553  cd ..
+  554  ls
+  555  cd streets
+  556  ls
+  557  cat Hard_Place
+  558  cat Hart_Place
+  559  head Hart_Place
+  560  ls
+  561  cat Buckingham_Palace
+  562  cat Buckingham_Place
+  563  ls
+  564  cd
+  565  cd seir-306
+  566  cd unit1
+  567  cd command-line-murder-mystery
+  568  cd mystery
+  569  ls
+  570  grep CLUE crimescene
+  571  grep Annabel people
+  572  ls
+  573  cd streets
+  574  ls
+  575  head ­n 15 Hart_Place
+  576  head -n 40 Hart_Place
+  577  ls
+  578  head -n 179 Buckingham_Place
+  579  cd ..
+  580  ls
+  581  cd interviews
+  582  ls
+  583  cd ..
+  584  ls
+  585  cd ..
+  586  ls
+  587  touch solution.txt
+  588  ls
+  589  git status
+  590  git add solution.txt
+  591  git status
+  592  open solution.txt
+  593  cat interview-47246024
+  594  ls
+  595  cd mystery
+  596  ls
+  597  cd interviews
+  598  ls
+  599  cat interview-47246024
+  600  cat interview-699604
+  601  cat interview-699607
+  602  cd ..
+  603  ls
+  604  cat vehicles
+  605  grep "Make: Honda" vehicles | grep "Color: Blue" vehicles
+  606  grep "Make: Toyota" || grep "Color: Blue" vehicles
+  607  grep "Make: Toyota" vehicles
+  608  grep "Make:Toyota" "Color:Blue" vehicles
+  609  grep "Make: Toyota" "Color: Blue" vehicles
+  610  cat vehicles
+  611  pwd
+  612  ls
+  613  cd interviews
+  614  ls
+  615  cat interview-699407
+  616  interview-699704
+  617  interview-699607
+  618  cat interview-699607
+  619  cd ..
+  620  ls
+  621  grep L337 vehicles
+  622  grep -E "Color: Blue"|"Make: Toyota:|"L337" vehicles
+  623  ls
+  624  cd people
+  625  cat people
+  626  cd ..
+  627  ls
+  628  cd mystery
+  629  ls
+  630  cat vehicles
+  631  cd ..
+  632  ls
+  633  cd mystery
+  634  ls
+  635  cd memberships
+  636  ls
+  637  cat 2.txt
+  638  cd ..
+  639  ls
+  640  cat vehicles
+  641  grep -A 5 "Make: Toyota" vehicles
+  642  grep ­C 3 "Color: Blue" vehicles
+  643  grep ­-C 3 "Color: Blue" vehicles
+  644* grep ­-C 3 "Color: Blue" vehicles
+
+  645  grep -C 3 "Color: Blue" vehicles
+  646  grep -C 3 "Color: Blue"|"Make: Toyota" vehicles
+  647  grep -C 3 "Color: Blue"|grep "Make: Toyota" vehicles
+  648  grep A 5 "License Plate L337" vehicles
+  649  grep -A 5 "License Plate L337" vehicles
+  650  cd ..
+  651  ls
+  652  cd mystery
+  653  ls
+  654  cd memberships
+  655  ls
+  656  grep "Jeremy Bowers" AAA
+  657  grep "Jeremy Bowers" library.txt
+  658  grep "Jeremy Bowers" Museum_of_Bash_History
+  659  grep "Jeremy Bowers" Delta_SkyMiles
+  660  cd ..
+  661  ls
+  662  cd ..
+  663  git status
+  664  git push
+  665  git commit "Found killer"
+  666  git status
+  667  git commit -m "Found killer"
+  668  git status
+  669  ls
+  670  cd mystery
+  671  ls
+  672  grep CLUE crimescene
+  673  ls
+  674  cd ..
+  675  ls
+  676  cat solution.txt
+  677  cd solution.txt
+  678  cat solution.txt
+  679  open solution.txt
+  680  pwd
+  681  ls
+  682  history >> solution.txt
+  683  ls
+  684  open solution.txt
+  685  history > solution.txt
+    1  ps
+    2  ls -la
+    3  /home/egor
+    4  hello?
+    5  pwd
+    6  ls
+    7  cd documents
+    8  cd Documents
+    9  ls
+   10  $ls
+   11  ls
+   12  ls -a
+   13  cd ..
+   14  mkdir myfolder
+   15  ls
+   16  mkdir BIG TEST
+   17  ls
+   18  cd myfolder
+   19  touch index.html style.css
+   20  rm style.css
+   21  ls
+   22  cd ..
+   23  rm -r myfolder
+   24  pwd
+   25  sudo apt install git-all
+   26  git version
+   27  pwd
+   28  mkdir GA-File
+   29  pwd
+   30  ls
+   31  cd GA-File
+   32  mkdir git-practice
+   33  pwd
+   34  cd git-practice
+   35  git status
+   36  git init
+   37  ls-a
+   38  ls -a
+   39  touch README.txt
+   40  ls -a
+   41  git status
+   42  git add README.txt
+   43  git status
+   44  git commit -m "first practice"
+   45  git config --global user.email "egordyuzhev@gmail.com"
+   46  git config --global user.name "Egor Dyuzhev"
+   47  pwd
+   48  ls -a
+   49  git status
+   50  git commit -m "first practice"
+   51  git status
+   52  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+   53  pass
+   54  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+   55  sudo apt install pass
+   56  sudo su -
+   57  subl 
+   58  sudo snap install slack
+   59  grep MemTotal /rpoc/meminfo
+   60  systeminfo
+   61  grep MemTotal /proc/meminfo
+   62  pwd
+   63  ls
+   64  ls -a
+   65  cd Documents/
+   66  ls
+   67  vi my-text2.txt
+   68  li
+   69  ls
+   70  cd ..
+   71  cd
+   72  pwd
+   73  cd Documents/
+   74  dc ..
+   75  cd ..
+   76  dc ..
+   77  cd ..
+   78  ls
+   79  ls -a
+   80  q
+   81  ls
+   82  undo dc
+   83  dc ..
+   84  pwd
+   85  cd Documents
+   86  ls
+   87  cd ..
+   88  ls
+   89  man dc
+   90  pwd
+   91  cd home
+   92  ls
+   93  cd home/egor
+   94  cd egor
+   95  ls
+   96  cd Documents/
+   97  cd /
+   98  ls
+   99  cd /Users
+  100  cd /dev
+  101  ls
+  102  cd .
+  103  cd ..
+  104  cd /
+  105  cd home
+  106  ls
+  107  cd egor
+  108  ls
+  109  cd Documents/
+  110  pwd
+  111  cd 
+  112  pwd
+  113  cd home
+  114  cd ..
+  115  pwd
+  116  cd 
+  117  pwd
+  118  cd /dev
+  119  ls
+  120  cd ..
+  121  pwd
+  122  cd /
+  123  pwd
+  124  cd /
+  125  ls
+  126  cd home
+  127  ls
+  128  cd egor
+  129  ls
+  130  cd /
+  131  pwd
+  132  cd ~
+  133  pwd
+  134  cd /etc
+  135  cd /
+  136  cd home
+  137  ls
+  138  cd /etc
+  139  cd /
+  140  ls
+  141  cd /sbin
+  142  ls
+  143  cd games
+  144  cd usr
+  145  cd egor
+  146  cd /
+  147  ls
+  148  cd usr
+  149  ls
+  150  cd games
+  151  ls
+  152  cd ../
+  153  cd bin
+  154  cd /
+  155  cd /var
+  156  ls
+  157  echo "hello"
+  158  cd /
+  159  cd ~
+  160  sudo snap install slack
+  161  [200~sudo apt update
+  162  sudo apt upgrade
+  163  git --version
+  164  node -v
+  165  sudo apt install nodejs
+  166  y
+  167  Y
+  168  n
+  169  node -v
+  170  sudo apt install nodejs
+  171  node -v
+  172  $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  173  $ sudo apt install ./google-chrome-stable_current_amd64.deb
+  174  $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  175  $ sudo apt install ./google-chrome-stable_current_amd64.de
+  176  sudo apt install ./google-chrome-stable_current_amd64.deb
+  177  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  178  sudo apt install ./google-chrome-stable_current_amd64.deb
+  179  sudo apt install google-chrome-stable
+  180  df -H
+  181  df -h
+  182  df -B1
+  183  df -B1 h
+  184  df -B1 -H
+  185  grep MemTotal /proc/meminfo -H
+  186  lsb_release -a
+  187  [200~sb_release -a~
+  188  lsb_release -a
+  189  git -v
+  190  git --version
+  191  git config --global user.name EgorDyu
+  192  [200~it config --global user.email
+  193  git config --global user.email egordyuzhev@gmail.com
+  194  git config --global push.default simple
+  195  git config --global core.editor 'code -w'
+  196  git config --global pull.rebase true
+  197  git config --global user.name EGORDYU
+  198  sudo update-alternatives --set editor /usr/bin/code
+  199  sudo update-alternatives --install /usr/bin/editor editor $(which code) 10
+  200  sudo update-alternatives --set editor /usr/bin/code
+  201  sudo update-alternatives --install /usr/bin/editor editor $(which code) 10
+  202  sudo update-alternatives --set editor /usr/bin/code
+  203  bash sudo update-alternatives --set editor /usr/bin/code
+  204  bash sudo update-alternatives --install /usr/bin/editor editor $(which code) 10
+  205  sudo update-alternatives --set editor /usr/bin/code
+  206  sudo update-alternatives --install /usr/bin/editor editor $(which code) 10
+  207  sudo update-alternatives --set editor /usr/bin/code
+  208  sudo update-alternatives --install /usr/bin/editor editor $(which code) 10
+  209  sudo update-alternatives --set editor /usr/bin/code
+  210  ~/.local/share/applications/defaults.list
+  211  [Default Applications]
+  212  text/plain=code-insiders.desktop
+  213  ~/.local/share/applications/defaults.list
+  214  sudo update-alternatives --set vscode /usr/bin/code
+  215  sudo update-alternatives --set editor /usr/bin/code
+  216  xdg-mime default code.desktop text/plain
+  217  sudo update-alternatives --config editor
+  218  usr/bin/code
+  219  /usr/bin/code
+  220  /snap/bin/code
+  221  sudo update-alternatives --config editor
+  222  /snap/bin/code
+  223  /bin/nano
+  224  git config --list
+  225  sudo update-alternatives --config editor
+  226  udo update-alternatives --set editor /snap/bin/code
+  227  sudo update-alternatives --set editor /snap/bin/code
+  228  sudo update-alternatives --config editor
+  229  sudo update-alternatives --set editor /usr/bin/code
+  230  sudo update-alternatives --set editor /snap/bin/code
+  231  /snap/bin/code
+  232  editor
+  233  xdg-open myfile.txt
+  234  touch myfile.txt
+  235  xdg-open mylife.txt
+  236  xdg-open myfile.txt
+  237  code myfile.txt
+  238  xdg-open myfile.txt
+  239  ssh-keygen -t ed25519 -C egordyuzhev@gmail.com
+  240  eval "$(ssh-agent -s)"
+  241  ssh-add ~/.ssh/id_ed25519
+  242  pwd
+  243  ls -a
+  244  mv key .ssh
+  245  ssh-add ~/.ssh/id_ed25519
+  246  pwd
+  247  ls -a
+  248  cd .ssh
+  249  ls -a
+  250  mv key.pub .ssh
+  251  ssh-add ~/.ssh/id_ed25519
+  252  eval "$(ssh-agent -s)"
+  253  ssh-add ~/.ssh/id_ed25519
+  254  mv key egor
+  255  cd ..
+  256  pwd
+  257  cd .ssh
+  258  ls
+  259  ls -a
+  260  mv egor home
+  261  ls
+  262  cd..
+  263  cd ..
+  264  pwd
+  265  ls
+  266  cd .ssf
+  267  cd .ssh
+  268  pwd
+  269  mv .ssh egor
+  270  ls -a
+  271  ssh-keygen -t ed25519 -C
+  272  ssh-keygen -t ed25519 -C egordyuzhev@gmail.com
+  273  eval "$(ssh-agent -s)"
+  274  ssh-add ~/.ssh/id_ed25519
+  275  xclip -sel clip < ~/.ssh/id_ed25519.pub
+  276  sudo apt install xclip
+  277  xclip -sel clip < ~/.ssh/id_ed25519.pub
+  278  pwd
+  279  ls -a
+  280  cd .ssh
+  281  ls -a
+  282  cd ..
+  283  code
+  284  code myfile.txt
+  285  code
+  286  code myfile.txt
+  287  code
+  288  pwed
+  289  pwd
+  290  calc
+  291  cal
+  292  pwd
+  293  ls -a
+  294  ls -l
+  295  ls -a
+  296  cd /
+  297  pwd
+  298  cd ~
+  299  pwd
+  300  open myfile.txt
+  301  pwd
+  302  login
+  303  ls
+  304  ls -a
+  305  ls
+  306  cd Desktop
+  307  ls
+  308  ls -a
+  309  cd ..
+  310  pwd
+  311  xdg-open
+  312  xdg-open myfile.txty
+  313  xdg-open myfile.txt
+  314  pwd
+  315  open .
+  316  cd /
+  317  pwd
+  318  cd ~
+  319  ls
+  320  cd documents
+  321  cd Documents
+  322  open .
+  323  cd ~
+  324  pwd
+  325  mkdir seir-306
+  326  ls
+  327  cd seir-306
+  328  pwd
+  329  mkdir unit1
+  330  ls
+  331  cd unit1
+  332  pwd
+  333  mkdir cli-intro
+  334  cd cli-intro
+  335  mkdir one two
+  336  ls
+  337  touch my_file.txt
+  338  ls
+  339  touch file_one file_two
+  340  ls
+  341  open cli-intro
+  342  ls
+  343  xdg-open cli-intro
+  344  xdg-open unit1
+  345  open file_one
+  346  mv file_one one/file_one
+  347  ls one
+  348  mv one/file_one one/file_one_half
+  349  ls one
+  350  ls
+  351  cp file_two one/file_two
+  352  ls
+  353  ls one
+  354  cd one
+  355  ls
+  356  cp file_two ../two/my_file_three
+  357  ls
+  358  cd .
+  359  ls
+  360  ls ../two
+  361  cd ..
+  362  rm file_two
+  363  ls
+  364  rm -rf one
+  365  ls
+  366  echo "hello!"
+  367  echo "hello redirection" > some_file
+  368  ls
+  369  open some_file
+  370  cat some_file
+  371  code .
+  372  cat my_file.txt
+  373  echo "goodbye" > some_file
+  374  cat some_file
+  375  echo "at the bottom" >> some_file
+  376  cat some_file
+  377  grep some_file bottom
+  378  grep bottom some_file
+  379  open some_file
+  380  grep John some_file
+  381  cat some_file | grep John 
+  382  cat some_file | grep John | grep Mill
+  383  grep -rni john *
+  384  history > commands.txt
+  385  ls
+  386  cd commands.txt
+  387  open commands.txt
+  388  code .
+  389  cd ..
+  390  cd seir-306
+  391  cd ..
+  392  cd unit1
+  393  mkdir my-first-git
+  394  ls
+  395  cd my-first-git
+  396  touch index.html script.js
+  397  ls
+  398  code
+  399  ls -a
+  400  open my-first-git
+  401  code my-first-git
+  402  git init
+  403  ls -a
+  404  git config --global init.defaultBranch main
+  405  git branch -m main
+  406  git branch -a
+  407  git branch
+  408  rm -rf .git
+  409  ls
+  410  ls -a
+  411  git init
+  412  git status
+  413  rm -rf .git
+  414  git status
+  415  git init
+  416  ls -a
+  417  cd 
+  418  ls -a
+  419  cd my-first-git
+  420  cd seir-306
+  421  cd unit1
+  422  cd my-first-git
+  423  ls
+  424  ls -a
+  425  git status
+  426  git add index.html
+  427  git status
+  428  git add script.js
+  429  git status
+  430  git add .
+  431  git status
+  432  git commit -m "adding new files for init commit"
+  433  git status
+  434  touch my_homework.js
+  435  git add.
+  436  git status
+  437  git add .
+  438  git status
+  439  git commit -m "homework done, need to sleep
+
+q
+git commit -m "homework done, need to sleep
+  440  git commit -m "homework done, need to sleep"
+  441  git status
+  442  cd ..
+  443  ls -a
+  444  git clone https://github.com/EGORDYU/command-line-murder-mystery.git
+  445  ls
+  446  ls -a
+  447  cd command-line-murder-mystery/
+  448  ls
+  449  ls -a
+  450  cat hint1
+  451  cat hint2
+  452  cd mystery
+  453  cat mystery
+  454  cd .
+  455  cd ..
+  456  cat mystery
+  457  ls
+  458  cat hint 4
+  459  cat hint4
+  460  ls
+  461  cat mystery
+  462  cd mystery
+  463  ls
+  464  cd crimescene
+  465  cat crimescene
+  466  grep CLUE crimescene
+  467  cd .
+  468  cd ..
+  469  ls
+  470  cd mystery
+  471  ls
+  472  cat people
+  473  grep Annabel people
+  474  ls
+  475  cd ..
+  476  ls
+  477  hint1
+  478  cat hint1
+  479  cat hint2
+  480  cat hint3
+  481  hint4
+  482  cat hint4
+  483  cat instructions
+  484  cd mystery
+  485  ls
+  486  cd interviews
+  487  ls
+  488  cd ..
+  489  ls
+  490  cd memberships
+  491  ls
+  492  cat AAA
+  493  grep Annabel memberships
+  494  cd ..
+  495  ls
+  496  cd people
+  497  cat people
+  498  grep Annabel people
+  499  cd ..
+  500  ls
+  501  cd mystery
+  502  ls
+  503  cd interviews
+  504  ls
+  505  cd ..
+  506  ls
+  507  cd streets
+  508  ls
+  509  cat Hart_Place
+  510  cd ..
+  511  ls
+  512  grep Annabel interviews
+  513  cd ..
+  514  ls
+  515  cat hint5
+  516  cat hint6
+  517  cat hint7
+  518  cat hint8
+  519  cd mystery
+  520  ls
+  521  head people
+  522  cd ..
+  523  cd mystery
+  524  
+  525  head vehicles
+  526  head 5 vehicles
+  527  cat vehicles
+  528  grep 6' vehicles
+
+cd ..
+z
+cd ..\\\\\
+q
+z.
+.
+cd mystery
+
+
+
+
+
+
+
+
+
+
+
+
+  529  grep 6' vehicles
+  530  ls
+  531  grep 6 vehicles
+  532  grep 6'0" vehicles
+  533  grep "6'0" vehicles
+  534  ls
+  535  cd ..
+  536  ls
+  537  cat instructions
+  538  ls
+  539  open cheatsheet.pdf
+  540  cd mystery
+  541  ls
+  542  cd interviews
+  543  ls
+  544  cd ..
+  545  ls
+  546  cd memberships
+  547  ls
+  548  cat 1.txt
+  549  ls
+  550  grep Annabel AAA | grep Annabel Delta_Skymiles
+  551  grep Annabel AAA| grep Annabel Delta_SkyMiles
+  552  ls
+  553  cd ..
+  554  ls
+  555  cd streets
+  556  ls
+  557  cat Hard_Place
+  558  cat Hart_Place
+  559  head Hart_Place
+  560  ls
+  561  cat Buckingham_Palace
+  562  cat Buckingham_Place
+  563  ls
+  564  cd
+  565  cd seir-306
+  566  cd unit1
+  567  cd command-line-murder-mystery
+  568  cd mystery
+  569  ls
+  570  grep CLUE crimescene
+  571  grep Annabel people
+  572  ls
+  573  cd streets
+  574  ls
+  575  head ­n 15 Hart_Place
+  576  head -n 40 Hart_Place
+  577  ls
+  578  head -n 179 Buckingham_Place
+  579  cd ..
+  580  ls
+  581  cd interviews
+  582  ls
+  583  cd ..
+  584  ls
+  585  cd ..
+  586  ls
+  587  touch solution.txt
+  588  ls
+  589  git status
+  590  git add solution.txt
+  591  git status
+  592  open solution.txt
+  593  cat interview-47246024
+  594  ls
+  595  cd mystery
+  596  ls
+  597  cd interviews
+  598  ls
+  599  cat interview-47246024
+  600  cat interview-699604
+  601  cat interview-699607
+  602  cd ..
+  603  ls
+  604  cat vehicles
+  605  grep "Make: Honda" vehicles | grep "Color: Blue" vehicles
+  606  grep "Make: Toyota" || grep "Color: Blue" vehicles
+  607  grep "Make: Toyota" vehicles
+  608  grep "Make:Toyota" "Color:Blue" vehicles
+  609  grep "Make: Toyota" "Color: Blue" vehicles
+  610  cat vehicles
+  611  pwd
+  612  ls
+  613  cd interviews
+  614  ls
+  615  cat interview-699407
+  616  interview-699704
+  617  interview-699607
+  618  cat interview-699607
+  619  cd ..
+  620  ls
+  621  grep L337 vehicles
+  622  grep -E "Color: Blue"|"Make: Toyota:|"L337" vehicles
+  623  ls
+  624  cd people
+  625  cat people
+  626  cd ..
+  627  ls
+  628  cd mystery
+  629  ls
+  630  cat vehicles
+  631  cd ..
+  632  ls
+  633  cd mystery
+  634  ls
+  635  cd memberships
+  636  ls
+  637  cat 2.txt
+  638  cd ..
+  639  ls
+  640  cat vehicles
+  641  grep -A 5 "Make: Toyota" vehicles
+  642  grep ­C 3 "Color: Blue" vehicles
+  643  grep ­-C 3 "Color: Blue" vehicles
+  644* grep ­-C 3 "Color: Blue" vehicles
+
+  645  grep -C 3 "Color: Blue" vehicles
+  646  grep -C 3 "Color: Blue"|"Make: Toyota" vehicles
+  647  grep -C 3 "Color: Blue"|grep "Make: Toyota" vehicles
+  648  grep A 5 "License Plate L337" vehicles
+  649  grep -A 5 "License Plate L337" vehicles
+  650  cd ..
+  651  ls
+  652  cd mystery
+  653  ls
+  654  cd memberships
+  655  ls
+  656  grep "Jeremy Bowers" AAA
+  657  grep "Jeremy Bowers" library.txt
+  658  grep "Jeremy Bowers" Museum_of_Bash_History
+  659  grep "Jeremy Bowers" Delta_SkyMiles
+  660  cd ..
+  661  ls
+  662  cd ..
+  663  git status
+  664  git push
+  665  git commit "Found killer"
+  666  git status
+  667  git commit -m "Found killer"
+  668  git status
+  669  ls
+  670  cd mystery
+  671  ls
+  672  grep CLUE crimescene
+  673  ls
+  674  cd ..
+  675  ls
+  676  cat solution.txt
+  677  cd solution.txt
+  678  cat solution.txt
+  679  open solution.txt
+  680  pwd
+  681  ls
+  682  history >> solution.txt
+  683  ls
+  684  open solution.txt
+  685  history > solution.txt
+  686  history >> solution.txt
