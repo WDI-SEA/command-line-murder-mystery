@@ -1,0 +1,112 @@
+  534  ls
+  535  cd command-line-murder-mystery
+  536  ls
+  537  cat instructions
+  538  cat cheatsheet.pdf
+  539  ls
+  540  open cheatsheet.pdf
+  541  cat instructions
+  542  cd mystery
+  543  ls
+  544  cat crimescene
+  545  grep CLUE crimescene
+  546  ls
+  547  open crimescene
+  548  cd ..
+  549  ls
+  550  cat instructions
+  551  nano cheatsheet.md
+  552  cat hint1
+  553  head -n 20 people
+  554  cd mystery
+  555  head -n 20 people
+  556  cat ../hint2
+  557  grep CLUE crimescene
+  558  ls
+  559  cat people
+  560  grep Annabel people
+  561  ls
+  562  grep Annabel people > Annabel.txt
+  563  cat Annabel.txt
+  564  grep 
+  565  ls streets
+  566  cat streets/hart_place
+  567  ls
+  568  head -n 40 streets/Hart_Place
+  569  ls
+  570  ls interviews
+  571  cat interviews/interview-47246024
+  572  ls
+  573  cat Annabel.txt
+  574  head -n 173 streets/Mattapan_Street
+  575  cat interviews/interview-9437737
+  576  cat Annabel.txt
+  577  head -n 179 streets/Buckingham_Place
+  578  cat interviews/interview-699607
+  579  ls
+  580  grep L337*9 vehicles
+  581  cat vehicles 
+  582  grep L337 vehicls
+  583  grep L337 vehicles
+  584  ls
+  585  cd seir-306
+  586  ls
+  587  cd unit1
+  588  ls
+  589  cd command-line-murder-mystery
+  590  ls
+  591  cd mystery
+  592  ls
+  593  cat ../hint3
+  594  cat vehicles
+  595  grep -A 5 L337 vehicles
+  596  grep -A 5 L337 vehicles > L337.txt
+  597  cat L337.txt
+  598  grep -A 5 Honda L337.txt
+  599  history
+  600  cat interviews/interview-699607
+  601  grep -A 5 Honda L337.txt | grep -A 4 Blue > Blue-Honda.txt
+  602  cat Blue-Honda.txt
+  603  rm L337.txt
+  604  ls
+  605  ../hint3
+  606  ls
+  607  ls ..
+  608  ls ../hint3
+  609  cd ..
+  610  ls
+  611  cat hint3
+  612  cat hint4
+  613  cat hint5
+  614  cd mystery
+  615  cat ../hint6
+  616  grep Erika people
+  617  head -n 98 streets/Trapelo_Street | tail -n 1
+  618  cat interviews/interview-5455315
+  619  grep Joe Germuska people
+  620  grep "Joe Germuska" people
+  621  head -n 275 streets/Plainfield_Street | tail -n 1
+  622  cat interviews/interview-29741223
+  623  grep "Jeremy Bowers" people
+  624  head -n 284 streets/Dunstable_Road | tail -n 1
+  625  cat interviews/interview-9620713
+  626  grep "Jacqui Maher" people
+  627  head -n 224 streets/Andover_Road | tail -n 1
+  628  cat interviews/interview-904020
+  629  cat ../hint7
+  630  cat ../hint8
+  631  ls
+  632  ls memberships
+  633  cat memberships/newfile.txt
+  634  ls
+  635  cat ../instructions
+  636  ls ..
+  637  cat hint2
+  638  cat ../hint2
+  639  grep CLUE crimescene
+  640  cat Blue-Honda.txt
+  641  cat ../hint8
+  642  cd memberships
+  643  ls
+  644  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+Jeremy Bowers
