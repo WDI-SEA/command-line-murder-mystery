@@ -1,0 +1,513 @@
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  git --version
+    3  pwd
+    4  ls
+    5  cd Documents
+    6  $ ls
+    7  ls
+    8  ls
+    9  $ ls
+   10  ls
+   11  cd
+   12  ls -a
+   13  cd Documents
+   14  cd ~
+   15  cd Documents
+   16  cd ..
+   17  pwd
+   18  cd Documents
+   19  mkdir Test2
+   20  cd Test2
+   21  touch index.html style.css
+   22  cd Documents
+   23  ls
+   24  cd ~
+   25  pwd
+   26  cd Documents
+   27  ls
+   28  rm test
+   29  cd Test2
+   30  rm style.css
+   31  cd..
+   32  cd-
+   33  cd -
+   34  pwd
+   35  rm -r test
+   36  cd~
+   37  cd ~
+   38  cd ..
+   39  pwd
+   40  cd ~
+   41  git --version
+   42  cd desktop
+   43  pwd
+   44  ls
+   45  ls
+   46  cd Desktop
+   47  cd~
+   48  cd ~
+   49  ls
+   50  cd Desktop
+   51  ls
+   52  mkdir GA-Blog
+   53  cd GA-Blog
+   54  $ git init
+   55  git init
+   56  pwd
+   57  ls -a
+   58  git status
+   59  touch post.txt
+   60  git status
+   61  git add post.txt
+   62  ls -a
+   63  git status
+   64  touch secret.html
+   65  git add.
+   66  git add .
+   67  git status
+   68  git commit -m "created a new post.txt file"
+   69  git log
+   70  cd ~
+   71  ls -a
+   72  ;s
+   73  ls
+   74  mkdir GA-SEI
+   75  pwd
+   76  cd GA-SEI
+   77  pwd
+   78  ls
+   79  mkdir git-practice
+   80  cd git-practice
+   81  pwd
+   82  git init
+   83  git status
+   84  ls -a
+   85  touch README.txt
+   86  ls
+   87  git add README.txt
+   88  git status
+   89  git commit -m README.txt
+   90  git status
+   91  git commit --amend Adding readme.txt initial stage
+   92  git commit --amend
+   93  ls
+   94  cd GA-SEI
+   95  ls
+   96  cd git-practice
+   97  ls -a
+   98  git status
+   99  git log
+  100  git push origin master
+  101  git status
+  102  git --help
+  103  git clone --help
+  104  git status
+  105  git init
+  106  git status
+  107  touch index.js
+  108  get status
+  109  git status
+  110  git add index.js
+  111  git status
+  112  git commit index.js
+  113  git add index.html
+  114  touch index.html
+  115  git add index.html
+  116  git commit -m "Insert message here"
+  117  git status
+  118  git push
+  119  git remote add Taylor-Test github.com/juanedcabrera
+  120  git push
+  121  git push --set-upstream Taylor-Test main
+  122  git remote add origin https://github.com/juanedcabrera/Taylor-Test.git
+  123  gigit branch -M main
+  124  git branch -M main
+  125  git push -u origin main
+  126  git status
+  127  brew --help
+  128  brew -help
+  129  code.
+  130  code .
+  131  ls
+  132  cd GA-SEI
+  133  mkdir Taylor-Test
+  134  cd Taylor-Test
+  135  code .
+  136  brew -help
+  137  brewhelp
+  138  brew help
+  139  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  140  brew help
+  141  brew -help
+  142  brewhelp
+  143  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/juanecabrera/.zprofile
+  144  eval "$(/opt/homebrew/bin/brew shellenv)"
+  145  brew help
+  146  brew -help
+  147  brew install node
+  148  witch node
+  149  which node
+  150  node --help
+  151  node index.js
+  152  node --help
+  153  node index.js
+  154  node index.js
+  155  node index.js
+  156  pwd
+  157  cwd
+  158  cd
+  159  ls
+  160  cd GA-SEI
+  161  ls
+  162  mkdir Personal Website
+  163  ls
+  164  rm -r Website
+  165  ls
+  166  mv Personal Personal_Website
+  167  ls
+  168  cd Personal_Website
+  169  git status
+  170  git add
+  171  git init
+  172  git remote add origin github.com/juanedcabrera
+  173  git status
+  174  git checkout -b main
+  175  git status
+  176  git push Personal_Website
+  177  git push --help
+  178  git push
+  179  git push --set-upstream origin main
+  180  git remote add origin https://github.com/juanedcabrera/Personal_Website.git
+  181  git branch -M main
+  182  git push -u origin main
+  183  git status
+  184  git commit -m "Personal Website to build"
+  185  git status
+  186  touch index.html
+  187  touch index.css
+  188  touch index.js
+  189  ls
+  190  git add
+  191  git add .html .css .js
+  192  ls
+  193  git add *.html *.css *.js
+  194  git status
+  195  git commit
+  196  git statgus
+  197  git status
+  198  git push *.css *.html *.js
+  199  git push
+  200  git push --set-upstream origin main
+  201  git remote -v
+  202  git push -u origin main
+  203  git commit -m "Basic files for Website"
+  204  git status
+  205  git remote -v
+  206  git remote add origin https://github.com/juanedcabrera/Personal_Website.git
+  207  git branch -M main
+  208  git push -u origin main
+  209  git remoite rm
+  210  git remote rm
+  211  git remote rm Personal_Website
+  212  git remote add Personal_Website
+  213  git remote add Personal_Website github.com/juanedcabrera/Personal_Website
+  214  git status
+  215  git remote add original github.com/juanedcabrera/Personal_Website
+  216  git remote add orign github.com/juanedcabrera/Personal_Website
+  217  git status
+  218  git checkout
+  219  git config --global user.email "juanedcabrera@gmail.com"
+  220  git confi --global user.name "juanedcabrera"
+  221  git config --global user.name "juanedcabrera"
+  222  git push -u origin Personal_Website
+  223  git push -u origin main
+  224  find / -name ".git" 2>/dev/null'\n\n'
+  225  find / -name ".git" 2>/dev/null
+  226  ls
+  227  git remote add origin https://github.com/juanedcabrera/Personal_Website
+  228  git remote -v
+  229  git push -u origin main
+  230  git remote -v
+  231  git remote rm github.com/juanedcabrera/Personal_Website
+  232  git remote rm 
+  233  git remote rm Personal_Website
+  234  git remote -v
+  235  git remote rm orign   github.com/juanedcabrera/Personal_Website
+  236  git remote rm original
+  237  git remote rm orign
+  238  git remote -v
+  239  cd
+  240  ls
+  241  cd GA-SEI
+  242  ls
+  243  cd Personal_Website
+  244  git remote add origin https://github.com/juanedcabrera/Personal_Website
+  245  git remote -v
+  246  git remote rm origin
+  247  git remote -v
+  248  git remote add origin https://github.com/juanedcabrera/Personal_Website
+  249  git remote -v
+  250  git push -u origin main
+  251  cd
+  252  ls
+  253  cd GA-SEI
+  254  ls
+  255  cd Taylor-Test
+  256  git remote -v
+  257  git remote rm Taylor-Test
+  258  git remote -v
+  259  git status
+  260  cd
+  261  ls
+  262  cd GA-SEI
+  263  git status
+  264  ls
+  265  git Personal_Website
+  266  cd Personal_Website
+  267  git status
+  268  git push
+  269  bre install zsh
+  270  brew install zsh
+  271  echo $SHELL
+  272  chsh -s /bin/zsh
+  273  echo $SHELL
+  274  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  275  brew --help
+  276  xcode-select --install
+  277  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  278  pwd
+  279  cwd
+  280  brew status
+  281  brew --help
+  282  brew --version
+  283  brew install git
+  284  arch -arm64 brew install ...
+  285  git config --global core.editor 'code -w'
+  286  git config --list
+  287  git config --global pull.rebase true
+  288  git config --list
+  289  git config --list --global
+  290  git config --global push.default simple
+  291  git config --global credential.helper cache
+  292  git config --list
+  293  brew install --cask visual-studio-code
+  294  cd
+  295  cd GA-SEI
+  296  ls
+  297  cd Personal_Website
+  298  git status
+  299  ls
+  300  cd projects
+  301  ls
+  302  code
+  303  pwd
+  304  open
+  305  ls
+  306  cd Applications Desktop
+  307  cd Applications
+  308  ls
+  309  cd
+  310  open GA-SEI
+  311  pwd
+  312  ls
+  313  cd Desktop
+  314  ls
+  315  cd ..
+  316  ls -a
+  317  mkdir seir-306
+  318  ls
+  319  cd seir-306
+  320  pwd
+  321  mkdir unit1
+  322  ls
+  323  cd unit1
+  324  pw
+  325  pwd
+  326  mkdir cli-intro
+  327  ls
+  328  cd cli-intro
+  329  ls
+  330  touch file_one file_two
+  331  mkdir one two
+  332  mv file_one one/file_one
+  333  ls one
+  334  ls
+  335  ls -R
+  336  cp file_two one/file_two
+  337  ls
+  338  ls -R
+  339  cd one
+  340  mv file_two two/file_two
+  341  mv file_two .. two/file_two
+  342  mv file ../two/file_two
+  343  mv file_two ../two/file_two
+  344  ls -R
+  345  cd -R
+  346  cd ..
+  347  ls -r
+  348  man rm
+  349  echo "hello"
+  350  cd cli-intro
+  351  cd
+  352  ls
+  353  cd seir-306
+  354  ls
+  355  cd unit1
+  356  ls
+  357  cd cli-intro
+  358  ls
+  359  echo 'hello redirection' > some_file
+  360  ls
+  361  cat some_file
+  362  code .
+  363  cat some_file
+  364  ls
+  365  echo 'Carroll, Lewis:Through the Looking-Glass\nShakespeare, William:Hamlet\nBartlett, John:Familiar Quotations\nMill, John :On Nature\nLondon, Jack:John Barleycorn\nBunyan, John:Pilgrim's Progress, The\nDefoe, Daniel:Robinson Crusoe\nMill, John Stuart:System of Logic, A\nMilton, John:Paradise Lost\nJohnson, Samuel:Lives of the Poets\nShakespeare, William:Julius Caesar\nMill, John Stuart:On Liberty\nBunyan, John:Saved by Grace' >> some_file
+  366  ls
+  367  cat some_file
+  368  code .
+  369  grep John some_file
+  370  grep john some_file
+  371  cat some_file
+  372  cat some_file | grep John
+  373  cat some_file | grep John | grep Mill
+  374  man grep
+  375  ls
+  376  cd ..
+  377  mkdir my-first-git
+  378  ls
+  379  cd my-first-git
+  380  touch index.html script.js style.css
+  381  ls
+  382  git init
+  383  ls -a
+  384  git status
+  385  git add .
+  386  git status
+  387  ls
+  388  cd Personal_Website
+  389  git status
+  390  git commit .
+  391  git status
+  392  git commit -m "adding new files for init commit"
+  393  git status
+  394  git commit -m Updated all these files
+  395  git commit -m "Updated all these files"
+  396  cd ..
+  397  git clone https://github.com/juanedcabrera/command-line-murder-mystery.git
+  398  ls
+  399  cd command-line-murder-mystery
+  400  cat instructions
+  401  open cheatsheet.pdf
+  402  ls
+  403  cd mystery
+  404  ls
+  405  cat crimescene
+  406  grep CLUE crimescene
+  407  ls
+  408  cat interviews
+  409  cd interviews
+  410  ls
+  411  cat CLUE interviews
+  412  grep -rni Annabel *
+  413  cd ..
+  414  grep -rni Annabel *
+  415  ls
+  416  cat people
+  417  ls
+  418  cat hint1
+  419  cd ..
+  420  cat hint1
+  421  ls
+  422  cat hint2
+  423  cat hint3
+  424  cat hint4
+  425  cat hint5
+  426  cat hint6
+  427  cat hint7
+  428  grep -rni witness *
+  429  grep -rni "Mazda" vehicles
+  430  ls
+  431  cd mystery
+  432  grep -rni "Mazda" vehicles
+  433  ls
+  434  head -n 20 vehicles
+  435  grep -rni Keefe vehicles
+  436  head -n 5461 vehicles
+  437  grep -A 5 "L337GX9"
+  438  grep -A 5 "L337GX9" mystery/vehicles
+  439  ls
+  440  grep -A 5 "L337GX9" vehicles
+  441  grep -rni L337GX9 *
+  442  ls
+  443  grep -rni L337
+  444  grep "Honda" vehicles
+  445  grep "Honda" vehicles | grep "L337" vehicles
+  446  head -n Honda | tail -n 1
+  447  head -n 173/Buckingham Place | tail -n 1
+  448  ls
+  449  head -n 173 streets/Mattapan_Street | tail -n 1
+  450  head -n 173 streets/Buckingham_Place | tail -n 1
+  451  grep -rni AAA|delta *
+  452  grep -rni AAA|Delta *
+  453  ls
+  454  head -n 20 vehicles
+  455  head 866 5 vehicles
+  456  head vehicles
+  457  grep -A 5 "L337" vehicles
+  458  ls
+  459  cd interviews
+  460  ls
+  461  cd ..
+  462  ls
+  463  grep Erika people
+  464  grep Germuska people
+  465  grep Bowers people
+  466  grep Jacqui people
+  467  head -n 173 streets/Trapelo_Street | tail -n 1
+  468  head -n 98 streets/Trapelo_Street | tail -n 1
+  469  head -n 275 streets/Plainfield_Street | tail -n 1
+  470  head -n 284 streets/Dunstable_Road | tail -n 1
+  471  head -n 224 streets/Andover_Road | tail -n 1
+  472  pwd
+  473  ls
+  474  cd interviews
+  475  head interview-5455315
+  476  head interview-29741223
+  477  head interview-9620713
+  478  head interview-904020
+  479  cd ..
+  480  ls
+  481  grep -rni Bowers *
+  482  ls
+  483  cd..
+  484  cd ..
+  485  ls
+  486  cat hint8
+  487  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  488  ls
+  489  cd mystery
+  490  ls
+  491  cd memberships
+  492  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  493  cat Fitness_Galaxy AAA United_MileagePlus | grep "Bowers"
+  494  cat library AAA  Delta_Skymiles Museum_of_Bash_History | grep "
+  495  cat library.txt AAA Delta_SkyMiles Museum_of_Bash_History | grep "Bowers" 
+  496  head interviews/interview-5455315
+  497  ls
+  498  cd ..
+  499  head interviews/interview-5455315
+  500  git status
+  501  git add .
+  502  ggit status
+  503  git status
+  504  git commit
+  505  git status
+  506  ls
+  507  cd seir-306
+  508  ls
+  509  git status
+  510  cd unit1
+  511  ls
+  512  history
+Jeremy Bowers
