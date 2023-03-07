@@ -46,22 +46,22 @@
    grep "L337" vehicles
   248  grep "Honda""Blue" "L337" vehichles
   249  cat vehicles
-    cd ..
-    cat hint6
-    head vehicles
-    cd mystery
-    head vehicles
-    cd..
-    cd ..
-    hint7
-    cat hint7
-    grep -A 5 "L337" mystery/vehicles
-    cat hint8
-    cat AAA Delta_Skymiles | grep -c "Jeremy Bowers"
-    cat AAA Delta_Skymiles | grep -c "Jacqui Maher"
-    cat AAA Delta_Skymiles | grep -c "Joe Germuska"
-    cat AAA Delta_Skymiles | grep -c "Erika Owens"
-    cd ..
-    touch solution.txt
-    ls
+  250  cd ..
+  251  cat hint6
+  252 head vehicles
+  253  cd mystery
+  254  head vehicles
+  255  cd..
+  256  cd ..
+  257  hint7
+  258  cat hint7
+  259  grep -A 5 "L337" mystery/vehicles
+  260  cat hint8
+  261  cat AAA Delta_Skymiles | grep -c "Jeremy Bowers"
+  262  cat AAA Delta_Skymiles | grep -c "Jacqui Maher"
+  263  cat AAA Delta_Skymiles | grep -c "Joe Germuska"
+  264  cat AAA Delta_Skymiles | grep -c "Erika Owens"
+  265  cd ..
+  266  touch solution.txt
+  267  ls
 2.Jeremy Bowers

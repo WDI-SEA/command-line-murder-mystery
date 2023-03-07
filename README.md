@@ -53,9 +53,9 @@ cat instructions
 * Create a file called `solution.txt` in this repo
 * Copy/paste the following:
 
-1. The commands you used to get the solution (hint: run `history` for a list of the commands you ran).
-2. The name of the killer.
+1. 
 
+2. 
 * Add and commit your changes
 * Push your changes to your forked repo
 * Create a pull request to submit your deliverable
