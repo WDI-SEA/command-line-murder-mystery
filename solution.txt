@@ -1,0 +1,142 @@
+ 371  git clone https://github.com/Al-Eo/command-line-murder-mystery.git
+  372  ls
+  373  cd command-line-murder-mystery
+  374  cat instructions
+  375  ls
+  376  cd mystery
+  377  ls
+  378  cat crimescene
+  379  grep lue crimescene
+  380  grep CLUE  crimescene
+  381  cat hint1
+  382  cd ..
+  383  ls
+  384  cat hint1
+  385  head -n 20 people
+  386  cd .
+  387  ls
+  388  cat instructions
+  389  ls
+  390  cat hint2
+  391  cat hint3
+  392  open cheatsheet.md
+  393  cat hint4
+  394  grep Annabel people
+  395  grep "Annabel" people
+  396  cd .
+  397  ls
+  398  cd mystery
+  399  ls
+  400  head -n 20 people
+  401  grep "Annabel" people
+  402  cd .
+  403  ls
+  404  cd .
+  405  ls
+  406  cd ..
+  407  ls
+  408  open cheatsheet.pdf
+  409  cat readme.md
+  410  hint cd mystery
+  411  cd mystery
+  412  ls
+  413  cat streets
+  414  cd streets
+  415  ls
+  416  cd .
+  417  ls
+  418  cd ..
+  419  ls
+  420  cd ..
+  421  ls
+  422  cat hint5
+  423  cd mystery
+  424  ls
+  425  cd interviews
+  426  head -n 173 streets/Mattapan_Street | tail -n 1
+  427  cd .
+  428  cd streets
+  429  ls
+  430  cd ..
+  431  ls
+  432  cd streets 
+  433  head -n 173 streets/Mattapan_Street | tail -n 1
+  434  grip head -n 173 streets/Mattapan_Street | tail -n 1
+  435  ls 
+  436  head head -n 173 streets/Mattapan_Street | tail -n 1 people
+  437  cd ..
+  438  ls
+  439  hint6
+  440  cat hint6
+  441  cd mystery
+  442  ls
+  443  head vehicles
+  444  grip "Annabel" vehicles
+  445  grep "Annabel" vehicles
+  446  grep "L337" vehicels
+  447  grep "Blue" vehicles
+  448  grep "Honda" vehicles
+  449  ls
+  450  cd ..
+  451  ls
+  452  cat hint7
+  453  grep -A 5 "L337" mystery/vehicles
+  454  ls
+  455  cat hint8
+  456  cd
+  457  ls
+  458  seir-306
+  459  ls
+  460  cd unit1
+  461  ls
+  462  cd command-line-murder-mystery
+  463  ls
+  464  cd mystery
+  465  ls
+  466  cd mystery
+  467  ls
+  468  grep "CLUE" crimescene
+  469  cat AAA Delta | grep -c "John Smith"
+  470  cd memberships
+  471  ls
+  472  cat AAA Detla-Skymiles
+  473  ls
+  474  cat AAA Delta_Skymiles 
+  475  cat AAA Delta_Skymiles | "Annabel"
+  476  cat AAA Delta_Skymiles | grep "Annabel"
+  477  CD ..
+  478  ls
+  479  cd ..
+  480  ls
+  481  grep -A 5 "Annabel" people
+  482  cd ..
+  483  ls
+  484  mystery
+  485  ls
+  486  cd memberships
+  487  ls
+  488  grep -A 4 "Bash" museum.txt
+  489  head -n10 museum.txt
+  490  grep "Annabel Church" museum.txt
+  491  ls
+  492  head -n5 newfile.txt
+  493  cat AAA Delta_Skymiles Museum_of_Bash_History | grep "Annabel"
+  494  cd ..
+  495  ls
+  496  cd
+  497  ls
+  498  cd seir-306
+  499  ls
+  500  ccd unit1
+  501  cd unit1
+  502  ls
+  503  cd command-line-murder-mystery
+  504  ls
+  505  cat hint4
+  506  cd mystery
+  507  grep "Annabel" people
+  508  ls
+  509  cd ..
+  510  ls
+  511  touch solution.txt
+The killer is Oluwasegun Annabel
