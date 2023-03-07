@@ -1,0 +1,319 @@
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  xcode-select --install
+    3  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    4  brew install git
+    5  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    6  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/dakotacampbell/.zprofile
+    7  eval "$(/opt/homebrew/bin/brew shellenv)"
+    8  brew --version
+    9  brew install git
+   10  git --version
+   11  git config --global user.name "dxk0ta""
+   12  git config --global user.name "dxk0ta"
+   13  \ngit config --global user.email "dxkotacamps@gmail.com"
+   14  \ngit config --global push.default simple\ngit config --global credential.helper cache\n# optional: set the default git editor to be vscode to aviod getting stuck in vim\ngit config --global core.editor 'code -w'\ngit config --global pull.rebase true
+   15  brew --cask visual-studio-code
+   16  brew install --cask visual-studio-code
+   17  export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+   18  code .
+   19  code ~/.zshrc
+   20  code
+   21  pwd
+   22  ls
+   23  cd
+   24  cd Desktop
+   25  ls
+   26  cd ..
+   27  open .
+   28  cd
+   29  pwd
+   30  ls
+   31  pwd
+   32  cd
+   33  mkdir seir-306
+   34  ls
+   35  cd seir-306
+   36  mkdir unit1
+   37  ls
+   38  cd untit1
+   39  4$
+   40  cd unit1
+   41  ls
+   42  pwd
+   43  mkdir unit1
+   44  cd cli-intro
+   45  cd
+   46  cd seir-306
+   47  ls
+   48  cd unit1
+   49  ls
+   50  cd unit1
+   51  ls
+   52  pwd
+   53  mkdir cli-intro
+   54  cd cli-intro
+   55  cd ..
+   56  ls
+   57  cd cli-intro
+   58  mkdir one two
+   59  ls
+   60  touch my_file.txt
+   61  ls
+   62  touch file_one file_two
+   63  ls
+   64  my file_one/file_oxzCVne
+   65  ls one
+   66  ls
+   67  my file_oxzCVne one/file_one
+   68  ls
+   69  cd
+   70  man rm
+   71  echo 'hello!'
+   72  echo 'hello redirection' > some_file
+   73  ls
+   74  cat some_file
+   75  cd cli-intro
+   76  cli-intro .
+   77  cd
+   78  cd ..
+   79  ls
+   80  pwd
+   81  cd unit1
+   82  cd desktop
+   83  cd Desktop
+   84  pwd
+   85  ls
+   86  pwd
+   87  cd ..
+   88  cd
+   89  pwd
+   90  ls
+   91  pwd
+   92  cd
+   93  mkdir seir-306
+   94  ls
+   95  cd seir-306
+   96  mkdir unit1
+   97  ls
+   98  cd unit1
+   99  ls
+  100  pwd
+  101  mkdir unit1
+  102  cd
+  103  cd seir-306
+  104  ls
+  105  cd unit1
+  106  ls
+  107  cd unit1
+  108  ls
+  109  pwd
+  110  mkdir cli-intro
+  111  mkdir one two
+  112  ls
+  113  touch my_file.txt
+  114  ls
+  115  cd seir-306
+  116  cd unit
+  117  cd unit1
+  118  mkdir my-first-git
+  119  ls
+  120  cd my-first-git
+  121  touch index.html script.js_
+  122  ls
+  123  ls -a
+  124  git init
+  125  ls -a
+  126  rm -rf .git
+  127  git config --global init.defaultBranch main
+  128  git init
+  129  ls -a
+  130  git status
+  131  git add .
+  132  git status
+  133  git commit -m "adding new files for init commit"
+  134  git status
+  135  touch my_homework.js
+  136  git add .
+  137  git status
+  138  git commit -m "homework done"
+  139  cd ..
+  140  git clone https://github.com/Dxk0ta/command-line-murder-mystery.git
+  141  ls
+  142  cd command-line-murder-mystery
+  143  ls
+  144  cat instructions
+  145  ls
+  146  cd mystery
+  147  ls
+  148  grep crimescene CLUE
+  149  open cheatsheet.pdf
+  150  cd crimescene
+  151  ls
+  152  cat cheatsheet.md
+  153  cat cheatsheet.md.
+  154  ls
+  155  cat instructions
+  156  ls
+  157  cd .
+  158  cd ..
+  159  cat instructions
+  160  cat cheatsheet.md
+  161  ls
+  162  cd mystery
+  163  ls
+  164  cd ..
+  165  ls
+  166  cat instructions
+  167  cd
+  168  ls
+  169  cd command-line-merder-mystery
+  170  cd seir-306
+  171  ls
+  172  cd unit1
+  173  ls
+  174  cd command-line-murder-mystery
+  175  ls
+  176  cd hint1
+  177  cat hint1
+  178  head -n 20 people
+  179  cat cheatsheet.pdf
+  180  cat hint1
+  181  'head' hint1
+  182  hint2
+  183  cat hint2
+  184  cat hint3
+  185  cat hint4
+  186  cat hint5
+  187  cat hint6
+  188  cat hint7
+  189  cat hint8
+  190  cat README.md
+  191  cat cheatsheet.md
+  192  cat LICENSE
+  193  cat LICENSE.txt
+  194  cat 'head' hint1
+  195  ls
+  196  head  hint1
+  197  head -n 20 hint1
+  198  ls
+  199  cd mystery
+  200  ls
+  201  cd ..
+  202  ls
+  203  cat instructions
+  204  cat hint1
+  205  cat hint2
+  206  cd ..
+  207  ls
+  208  cd command-line-murder-mystery
+  209  ls
+  210  cd mystery
+  211  ls
+  212  head -n 20 people
+  213  ls
+  214  grep crimescene
+  215  grep "CLUE" crimescene
+  216  ls
+  217  head streets
+  218  head -n 20 streets
+  219  head -n 20 vehicles
+  220  grep "Annabel" people
+  221  head -n 173 streets/Mattapan_Street 
+  222  head -n 173 streets/Mattapan_Street | tail -n 1
+  223  ls
+  224  cd interviews
+  225  cd interview-9437737
+  226  head interview-9437737
+  227  cd ..
+  228  head vehicles
+  229  grep "Honda" vehicles
+  230  grep -A "L337" myserty/vehicles
+  231  grep -A 5 "L337" myserty/vehicles
+  232  grep -A 5 "L337" vehicles
+  233  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  234  cd ..
+  235  ls
+  236  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  237  cd mystery
+  238  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  239  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  240  ls
+  241  cd memberships
+  242  ls
+  243  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+  244  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  245  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l
+  246  cd ..
+  247  mkdir solution.txt
+  248  history
+  249  cd solution.text
+  250  ls
+  251  cd solution.txt
+  252  history
+  253  Erika Owens
+  254  git add .
+  255  git commit -m "well.. hopefully this is the answer"
+  256  git status
+  257  git push orgin main
+  258  git push origin/main
+  259  4    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n    2  xcode-select --install\n    3  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n    4  brew install git\n    5  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n    6  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/dakotacampbell/.zprofile\n    7  eval "$(/opt/homebrew/bin/brew shellenv)"\n    8  brew --version\n    9  brew install git\n   10  git --version\n   11  git config --global user.name "dxk0ta""\n   12  git config --global user.name "dxk0ta"\n   13  çngit config --global user.email "dxkotacampsàgmail.com"\n   14  çngit config --global push.default simpleçngit config --global credential.helper cacheçn# optional: set the default git editor to be vscode to aviod getting stuck in vimçngit config --global core.editor 'code -w'çngit config --global pull.rebase true\n   15  brew --cask visual-studio-code\n   16  brew install --cask visual-studio-code\n   17  export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"\n   18  code .\n   19  code û/.zshrc\n   20  code\n   21  pwd\n   22  ls\n   23  cd\n   24  cd Desktop\n   25  ls\n   26  cd ..\n   27  open .\n   28  cd\n   29  pwd\n   30  ls\n   31  pwd\n   32  cd\n   33  mkdir seir-306\n   34  ls\n   35  cd seir-306\n   36  mkdir unit1\n   37  ls\n   38  cd untit1\n   39  4$\n   40  cd unit1\n   41  ls\n   42  pwd\n   43  mkdir unit1\n   44  cd cli-intro\n   45  cd\n   46  cd seir-306\n   47  ls\n   48  cd unit1\n   49  ls\n   50  cd unit1\n   51  ls\n   52  pwd\n   53  mkdir cli-intro\n   54  cd cli-intro\n   55  cd ..\n   56  ls\n   57  cd cli-intro\n   58  mkdir one two\n   59  ls\n   60  touch my_file.txt\n   61  ls\n   62  touch file_one file_two\n   63  ls\n   64  my file_one/file_oxzCVne\n   65  ls one\n   66  ls\n   67  my file_oxzCVne one/file_one\n   68  ls\n   69  cd\n   70  man rm\n   71  echo 'hello!'\n   72  echo 'hello redirection' > some_file\n   73  ls\n   74  cat some_file\n   75  cd cli-intro\n   76  cli-intro .\n   77  cd\n   78  cd ..\n   79  ls\n   80  pwd\n   81  cd unit1\n   82  cd desktop\n   83  cd Desktop\n   84  pwd\n   85  ls\n   86  pwd\n   87  cd ..\n   88  cd\n   89  pwd\n   90  ls\n   91  pwd\n   92  cd\n   93  mkdir seir-306\n   94  ls\n   95  cd seir-306\n   96  mkdir unit1\n   97  ls\n   98  cd unit1\n   99  ls\n  100  pwd\n  101  mkdir unit1\n  102  cd\n  103  cd seir-306\n  104  ls\n  105  cd unit1\n  106  ls\n  107  cd unit1\n  108  ls\n  109  pwd\n  110  mkdir cli-intro\n  111  mkdir one two\n  112  ls\n  113  touch my_file.txt\n  114  ls\n  115  cd seir-306\n  116  cd unit\n  117  cd unit1\n  118  mkdir my-first-git\n  119  ls\n  120  cd my-first-git\n  121  touch index.html script.js_\n  122  ls\n  123  ls -a\n  124  git init\n  125  ls -a\n  126  rm -rf .git\n  127  git config --global init.defaultBranch main\n  128  git init\n  129  ls -a\n  130  git status\n  131  git add .\n  132  git status\n  133  git commit -m "adding new files for init commit"\n  134  git status\n  135  touch my_homework.js\n  136  git add .\n  137  git status\n  138  git commit -m "homework done"\n  139  cd ..\n  140  git clone https://github.com/Dxk0ta/command-line-murder-mystery.git\n  141  ls\n  142  cd command-line-murder-mystery\n  143  ls\n  144  cat instructions\n  145  ls\n  146  cd mystery\n  147  ls\n  148  grep crimescene CLUE\n  149  open cheatsheet.pdf\n  150  cd crimescene\n  151  ls\n  152  cat cheatsheet.md\n  153  cat cheatsheet.md.\n  154  ls\n  155  cat instructions\n  156  ls\n  157  cd .\n  158  cd ..\n  159  cat instructions\n  160  cat cheatsheet.md\n  161  ls\n  162  cd mystery\n  163  ls\n  164  cd ..\n  165  ls\n  166  cat instructions\n  167  cd\n  168  ls\n  169  cd command-line-merder-mystery\n  170  cd seir-306\n  171  ls\n  172  cd unit1\n  173  ls\n  174  cd command-line-murder-mystery\n  175  ls\n  176  cd hint1\n  177  cat hint1\n  178  head -n 20 people\n  179  cat cheatsheet.pdf\n  180  cat hint1\n  181  'head' hint1\n  182  hint2\n  183  cat hint2\n  184  cat hint3\n  185  cat hint4\n  186  cat hint5\n  187  cat hint6\n  188  cat hint7\n  189  cat hint8\n  190  cat README.md\n  191  cat cheatsheet.md\n  192  cat LICENSE\n  193  cat LICENSE.txt\n  194  cat 'head' hint1\n  195  ls\n  196  head  hint1\n  197  head -n 20 hint1\n  198  ls\n  199  cd mystery\n  200  ls\n  201  cd ..\n  202  ls\n  203  cat instructions\n  204  cat hint1\n  205  cat hint2\n  206  cd ..\n  207  ls\n  208  cd command-line-murder-mystery\n  209  ls\n  210  cd mystery\n  211  ls\n  212  head -n 20 people\n  213  ls\n  214  grep crimescene\n  215  grep "CLUE" crimescene\n  216  ls\n  217  head streets\n  218  head -n 20 streets\n  219  head -n 20 vehicles\n  220  grep "Annabel" people\n  221  head -n 173 streets/Mattapan_Street \n  222  head -n 173 streets/Mattapan_Street ù tail -n 1\n  223  ls\n  224  cd interviews\n  225  cd interview-9437737\n  226  head interview-9437737\n  227  cd ..\n  228  head vehicles\n  229  grep "Honda" vehicles\n  230  grep -A "L337" myserty/vehicles\n  231  grep -A 5 "L337" myserty/vehicles\n  232  grep -A 5 "L337" vehicles\n  233  cat Fitness_Galaxy AAA United_MileagePlus ù grep "John Smith"\n  234  cd ..\n  235  ls\n  236  cat Fitness_Galaxy AAA United_MileagePlus ù grep "John Smith"\n  237  cd mystery\n  238  cat Fitness_Galaxy AAA United_MileagePlus ù grep "John Smith" ù wc -l\n  239  cat Fitness_Galaxy AAA United_MileagePlus ù grep "John Smith"\n  240  ls\n  241  cd memberships\n  242  ls\n  243  cat Fitness_Galaxy AAA United_MileagePlus ù grep "John Smith"\n  244  cat Fitness_Galaxy AAA United_MileagePlus ù grep -c "John Smith"\n  245  cat Fitness_Galaxy AAA United_MileagePlus ù grep "John Smith" ù wc -l\n  246  cd ..\n  247  mkdir solution.txt
+  260  git push BRANCH-MAIN
+  261  /Users/dakotacampbell/Desktop/Screen\ Shot\ 2023-03-06\ at\ 3.01.30\ PM.png /Users/dakotacampbell/Desktop/Screen\ Shot\ 2023-03-06\ at\ 3.02.14\ PM.png /Users/dakotacampbell/Desktop/Screen\ Shot\ 2023-03-06\ at\ 3.02.02\ PM.png git status
+  262  cd ..
+  263  ls
+  264  cd solution.txt
+  265  ls
+  266  Erika Owens
+  267  git push origin main
+  268  git add .
+  269  git commit -m "hopefully have the solution"
+  270  git push origin main
+  271  git push origin
+  272  git push
+  273  git push origin main
+  274  git push
+  275  cd ..
+  276  git push
+  277  it status
+  278  git status
+  279  git add .
+  280  git status
+  281  grep CLUE crimescene
+  282  cd mystery
+  283  grep CLUE crimescene
+  284  grep CLUE crimescene >> clues.txt
+  285  cat clues.txt
+  286  ls
+  287  head -n 20 people
+  288  cat clues.txt
+  289  ls
+  290  head -n 20 people
+  291  grep Annabel people
+  292  grep Annabel people >> clues.txt
+  293  cat clues.txt
+  294  ls
+  295  ls streets
+  296  head -n 40 streets/Heart_Place | tail -n 40
+  297  cat -n Streets/Buckingham_Place | grep "179"
+  298  cat clues.txt
+  299  cat interviews/interview-47246024
+  300  cat inerviews/interview-699607
+  301  cat nterviews/interview-699607
+  302  head -n 20 vehicles
+  303  cat vehicles | grep "L337"
+  304  man grep
+  305  cat vehicles | grep -A 5 "L337" grep -A 4 "Honda"
+  306  ls
+  307  cat vehicles | grep -A 5 "L337" -4 "Honda"
+  308  man grep
+  309  grep people "Erica Owens" people
+  310  grep "Erika Owens" people
+  311  head -n 284 streeets/Dunstable_Road | tail -n 1 >> clues.txt
+  312  cat interviews/interview-9620713
+  313  ls memberships
+  314  cat clues.txt
+  315  grep CLUE crimescene
+  316  grep "Jeremy Bowers" memberships/AAA
+  317  cat memberships/AAA memberships/Delta_SkyMiles/library.txt memberships/Museum_of_Bash_History | grep "Jeremy Bowers"
+  318  git status
+  319  git add .
