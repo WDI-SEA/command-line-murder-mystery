@@ -1,0 +1,25 @@
+cat instructions
+cd mystery
+grep CLUE crimescene
+grep Annabel people
+head people
+head -n 40 streets/Hart_Place | tail -n 1
+cat interviews/interview-47246024
+head -n 179 streets/Buckingham_Place | tail -n 1
+cat interviews/interview-699607
+grep -A 5 L337 vehicles
+grep Erika people
+head -n 98 streets/Trapelo_Street | tail -n 1
+cat interviews/interview-5455315
+grep 'Joe G' people
+head -n 275 streets/Plainfield_Street | tail -n 1
+cat interviews/interview-29741223
+grep 'Jeremy B' people
+head -n 284 streets/Dunstable_Road | tail -n 1
+cat interviews/interview-9620713
+grep 'Jacqui M' people
+head -n 224 streets/Andover_Road | tail -n 1
+cat interviews/interview-904020
+cd memberships
+cat Museum_of_Bash_History AAA Delta_SkyMiles | grep "Jeremy"
+Jeremy Bowers is the killer!
