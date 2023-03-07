@@ -1,0 +1,67 @@
+1. d seir-306
+  203  cd unit1
+  204  ls
+  205  cd command-line-murder-mystery
+  206  ls
+  207  cat instructions
+  208  open README.MD
+  209  cd mystery
+  210  grep CLUE crimescene
+  211  ls
+  212  grep Annabel people
+  213  grep Hart Place streets
+  214  cd streets
+  215  grep Hart Place
+  216  grep Hart
+  217  grep Mattapan
+  218  cd ..
+  219  cat hint5
+  220  head -n 173 streets/Mattapan_Street | tail -n 1
+  221  cd mystery
+  222  head -n 173 streets/Mattapan_Street | tail -n 1
+  223  open interview #9437737
+  224  cd ..
+  225  open interview #9437737
+  226  cd mystery
+  227  greb #9437737 interviews
+  228  grep #9437737 interviews
+  229  head -n 176 streets/Haley_Street | tail n 1
+  230  cd ..
+  231  cat hint6
+  232  cd mystery
+  233  grep Honda vehicles
+  234  head people
+  235  man head
+  236  head -n 179 streets/Buckingham_Place |tail -n 1
+  237  head -n 40 streets/Hart_Place | tail -n 1
+  238  head -n 176 streets/Haley_Street | tail -n 1
+  239  cd interviews
+  240  ls
+  241  open interview-699607
+  242  open interview-47246024
+  243  open interview-871877
+  244  grep "blue" "honda" vehicles
+  245  cd ..
+  246  grep "blue" "honda" vehicles
+   grep "L337" vehicles
+  248  grep "Honda""Blue" "L337" vehichles
+  249  cat vehicles
+  250  cd ..
+  251  cat hint6
+  252 head vehicles
+  253  cd mystery
+  254  head vehicles
+  255  cd..
+  256  cd ..
+  257  hint7
+  258  cat hint7
+  259  grep -A 5 "L337" mystery/vehicles
+  260  cat hint8
+  261  cat AAA Delta_Skymiles | grep -c "Jeremy Bowers"
+  262  cat AAA Delta_Skymiles | grep -c "Jacqui Maher"
+  263  cat AAA Delta_Skymiles | grep -c "Joe Germuska"
+  264  cat AAA Delta_Skymiles | grep -c "Erika Owens"
+  265  cd ..
+  266  touch solution.txt
+  267  ls
+2.Jeremy Bowers
