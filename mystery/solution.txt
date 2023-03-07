@@ -1,0 +1,211 @@
+ 1038  git clone https://github.com/andrewbantly/command-line-murder-mystery.git
+ 1039  ls
+ 1040  cd command-line-murder-mystery
+ 1041  ls
+ 1042  cat README.md
+ 1043  ls
+ 1044  cat instructions
+ 1045  pwd
+ 1046  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+ 1047  cd crimescene
+ 1048  ls
+ 1049  cd mystery
+ 1050  ls
+ 1051  cat crimescene
+ 1052  clear
+ 1053  ls
+ 1054  grep CLUE crimescene
+ 1055  cd ..
+ 1056  open cheatsheet.pdf
+ 1057  clear
+ 1058  pws
+ 1059  pwd
+ 1060  clear
+ 1061  ls
+ 1062  cat instructions
+ 1063  ls
+ 1064  cd mystery
+ 1065  ls
+ 1066  clear
+ 1067  ls
+ 1068  grep CLUE crimescene
+ 1069  ls
+ 1070  cat hint1
+ 1071  head -n 20 people
+ 1072  cd people
+ 1073  cat people
+ 1074  clear
+ 1075  head -n 20 people
+ 1076  pwd
+ 1077  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery
+ 1078  ls
+ 1079  grep CLUE crimescene
+ 1080  ls
+ 1081  head -n 10 interviews
+ 1082  cat interviews
+ 1083  head -10 vehicles
+ 1084  cat vehicles
+ 1085  clear
+ 1086  cat hint2
+ 1087  cat hint3
+ 1088  ls
+ 1089  grep Annabel people
+ 1090  grep Annabel vehicles
+ 1091  cd streets
+ 1092  ls
+ 1093  grep Mattapan Street
+ 1094  cat Mattapan Street
+ 1095  cat Mattapan_Street 
+ 1096  clear
+ 1097  cd ..
+ 1098  grep Annabel people
+ 1099  pwd
+ 1100  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+ 1101  cd mystery
+ 1102  cd streets
+ 1103  ls
+ 1104  clear
+ 1105  cat Haley_Street
+ 1106  clear
+ 1107  grep Buckingham_Place
+ 1108  /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery
+ 1109  cd steets
+ 1110  cd street
+ 1111  ls
+ 1112  cd streets
+ 1113  clear
+ 1114  cat Buckingham_Place
+ 1115  clear
+ 1116  cat Hart_Place
+ 1117  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+ 1118  ls
+ 1119  cd mystery
+ 1120  ls
+ 1121  cd interviews
+ 1122  ls
+ 1123  clear
+ 1124  cd interview-47246024
+ 1125  cat interview-47246024
+ 1126  clear
+ 1127  cat Mattapan_Street
+ 1128  cat interview-9437737
+ 1129  cat Buckingham_Place
+ 1130  cat interview-699607
+ 1131  clear
+ 1132  cat Haley_Street
+ 1133  cat interview-871877
+ 1134  clear
+ 1135  cd ..
+ 1136  ls
+ 1137  grep Honda vehicles
+ 1138  clear
+ 1139  cd mystery
+ 1140  ls
+ 1141  grep L337 vehicles
+ 1142  cat hint 4
+ 1143  cat hint4
+ 1144  cat hint3
+ 1145  cd ..
+ 1146  cat hint4
+ 1147  cat hint5
+ 1148  head -n 173 streets/Mattapan_Street | tail -n 1
+ 1149  ls
+ 1150  cat hint6
+ 1151  pwd
+ 1152  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery
+ 1153  ls
+ 1154  cd streets
+ 1155  ls
+ 1156  cd ...
+ 1157  clear
+ 1158  ls
+ 1159  cd mysteyr
+ 1160  cd mystery
+ 1161  ls
+ 1162  head -10 vehicles
+ 1163  head -20 vehicles | grep Honda
+ 1164  pwd
+ 1165  head -20 vehicles | grep Honda vehicles
+ 1166  clear
+ 1167  cat gubt7
+ 1168  cat hint7
+ 1169  pwd
+ 1170  ls
+ 1171  claer
+ 1172  clear
+ 1173  ls
+ 1174  grep -A L337 mystery/vehicles
+ 1175  	grep -A 5 L337 mystery/vehicles
+ 1176  	grep -A 5 L337 vehicles
+ 1177  cat hint8
+ 1178  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery
+ 1179  ls
+ 1180  cd membership
+ 1181  cd memberships
+ 1182  clear
+ 1183  ls
+ 1184  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep Katie Park
+ 1185  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep -A 5 Katie Park
+ 1186  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep Mike Bostock
+ 1187  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep Erika Owens
+ 1188  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep Joe Germuska
+ 1189  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep Jeremy Bowers
+ 1190  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep Jacqui Maher
+ 1191  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+
+ 1192  cd mystery
+ 1193  ls
+ 1194  clear
+ 1195  cat people
+ 1196  clear
+ 1197  head
+ 1198  clear
+ 1199  ls
+ 1200  head people
+ 1201  grep Bostock -A 3 people
+ 1202  grep Bostock
+ 1203  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+
+ 1204  cd mystery
+ 1205  ls
+ 1206  clear
+ 1207  grep Bostock people
+ 1208  grep Bowers people
+ 1209  grep Bostock people | grep Bowers people
+ 1210  cat people | grep Bostock | grep Bowers
+ 1211  claer
+ 1212  clear
+ 1213  grep Bostock people
+ 1214  grep Bowers people
+ 1215  /Users/andrew/seir-306/unit1/command-line-murder-mystery
+
+ 1216  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+
+ 1217  cd mystery
+ 1218  clear
+ 1219  ls
+ 1220  cd streets
+ 1221  clear
+ 1222  ls
+ 1223  cat Senders_Court
+ 1224  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+
+ 1225  cd mystery
+ 1226  ls
+ 1227  cd interviews
+ 1228  ls
+ 1229  clear
+ 1230  cat interview-/Users/andrew/seir-306/unit1/command-line-murder-mystery
+
+ 1231  clear
+ 1232  cat interview-290346
+ 1233  cat Dunstable_Road
+ 1234  head -n Dunstable_Road | tail -n 1
+ 1235  head -n 284 Dunstable_Road | tail -n 1
+ 1236  cat interview-9620713
+ 1237  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+
+ 1238  cd mystery
+ 1239  ls
+ 1240  touch solution.txt
+The Killer is Jeremy Bowers

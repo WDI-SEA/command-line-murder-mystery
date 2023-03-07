@@ -1,0 +1,1424 @@
+    1  diskutil list
+    2  /Volumes/2TB\ SSD/Personal\ Computer\ Desktop/\!\ GA\ Bootcamp/Pre\ work/FreeCodeCamp.org/HTML\ -\ CatPhotoApp ; exit;
+    3  /users
+    4  /users/andrew
+    5  sudo su
+    6  pwd
+    7  is
+    8  cd
+    9  mkdir
+   10  mv
+   11  options
+   12  -options
+   13  mv[-options][path/to/file]
+   14  typeman
+   15  hello
+   16  hello?
+   17  where am I?
+   18  pwd
+   19  ls
+   20  cd pictures
+   21  pwd
+   22  ls
+   23  ls -a
+   24  cd..
+   25  cd ..
+   26  pwd
+   27  ls
+   28  cd desktop
+   29  ls -a
+   30  cd ..
+   31  cd software engineering
+   32  pwd
+   33  ls
+   34  desktop
+   35  cd desktop
+   36  pwd
+   37  li
+   38  ls
+   39  cd Software_Engineering
+   40  pwd
+   41  ls
+   42  cd Software Engineering
+   43  pwd
+   44  pwd
+   45  ls
+   46  cd documents
+   47  pwd
+   48  touch
+   49  tough newfile.doc
+   50  pwd
+   51  touch newfile.doc
+   52  ls
+   53  pwd
+   54  touch newfile2.doc index.html style.css
+   55  pwd
+   56  ls
+   57  rm style.css newfile2.doc newfile.doc
+   58  pwd
+   59  ls
+   60  rm index.html
+   61  ls
+   62  cd ..
+   63  pwed
+   64  pwd
+   65  ls
+   66  documents
+   67  cd documents
+   68  pwd
+   69  ls
+   70  rm -r myFolder
+   71  pwd
+   72  ls -a
+   73  pwd
+   74  lmkdir newFolder
+   75  nkdir newFolder
+   76  mkdir newFolder
+   77  cd newFolder
+   78  touch index.html style.css
+   79  ls
+   80  rm style.css
+   81  ls
+   82  cd ..
+   83  rm - newFolder
+   84  pwd
+   85  rm -newFolder
+   86  rm -r newFolder
+   87  cd..
+   88  cd ..
+   89  pwd
+   90  ls
+   91  downloads
+   92  pwd
+   93  cd downloads
+   94  pwd
+   95  ls
+   96  cd World
+   97  pwd
+   98  ls
+   99  ls -a
+  100  cd Africa
+  101  pwd
+  102  ls -a
+  103  cd ..
+  104  ls
+  105  Australia
+  106  ls -a
+  107  cd ..
+  108  pwd
+  109  cd World
+  110  pwd
+  111  ls
+  112  Asia
+  113  cd Asia
+  114  pwd
+  115  ls
+  116  ls -a
+  117  pwd
+  118  cd ..
+  119  pwd
+  120  ls
+  121  cd Europe
+  122  ls
+  123  ls -a
+  124  cd ..
+  125  cd ..
+  126  ls
+  127  rm -r World
+  128  ls
+  129  rm World.zip
+  130  ls
+  131  rm VSCode-darwin-universal.zip
+  132  ls
+  133  cd ..
+  134  cd ..
+  135  pwd
+  136  ls
+  137  cd andrew
+  138  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  139  $ brew install git
+  140  pwd
+  141  $ brew install git
+  142  $ brew install git
+  143  $ brew install git
+  144  $ brew install git
+  145  $(/usr/local/bin/brew shellenv)
+  146  /Users/andrew/.zprofile eval
+  147  $(/usr/local/bin/brew shellenv)
+  148  $ brew install git\n\n
+  149  echo
+  150  /Users/andrew/.zprofile
+  151  $ brew install git\n\n
+  152  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  153  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  154  (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/andrew/.zprofile
+  155  eval "$(/usr/local/bin/brew shellenv)"
+  156  pw
+  157  pwd
+  158  >>
+  159  $ brew install git
+  160      (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/andrew/.zprofile
+  161  pwd
+  162  ls
+  163  ls -a
+  164  cd /zprofile
+  165  ls
+  166  cd .zprofile
+  167  eval "$(/usr/local/bin/brew shellenv)"
+  168  pwd
+  169  $ brew install git\n\n
+  170  $ brew install git\n\n
+  171  $ brew install git\n\n
+  172  $ brew install git\n\n
+  173  $ brew install git
+  174  $ brew install git\n\n
+  175  $ brew install git\n\n
+  176  pwdd
+  177  pwd
+  178  $ sudo port install git
+  179  xcode-select --install
+  180  sudo port -v selfupdate
+  181  pwd
+  182  ls
+  183  downloads
+  184  cd downloads
+  185  tar xjvf MacPorts-2.8.1.tar.bz2
+  186  $ brew
+  187  pwd
+  188  cd ..
+  189  git --version
+  190  pwd
+  191  ls
+  192  cd desktop
+  193  pwd
+  194  mkdir GA-Blog
+  195  ls
+  196  cd GA-Blog
+  197  pwd
+  198  mkdir .git/
+  199  ls
+  200  ls -a
+  201  pwd
+  202  $ git init\n\n
+  203  pwd
+  204  $ git init\n\n
+  205  $ git init
+  206  pwd
+  207   git --version
+  208  pwd
+  209  $git init
+  210  $ git init
+  211  git status
+  212  $ git status\n
+  213  pwd
+  214  ls
+  215  cd desktop GA-blog
+  216  pwd
+  217  ls
+  218  cd desktop
+  219  ls
+  220  cd GA-Blog
+  221  pwd
+  222  $ git status
+  223  git status
+  224  git status on branch master
+  225  git status
+  226  .git status
+  227  git status
+  228  pwd
+  229  ls -a
+  230  touch post.txt
+  231  git status
+  232  $git status
+  233  git init
+  234  git status
+  235  git add post.txt
+  236  git status
+  237  git log
+  238  cd ..
+  239  ls
+  240  cd SoftwareEngineering
+  241  cd Software Engineering
+  242  cd SoftwareEngineering
+  243  pwd
+  244  mkdir git-practice
+  245  cd git-practice
+  246  pwd
+  247  git init
+  248  ls -a
+  249  touch README.txt
+  250  git status
+  251  git add 
+  252  git add
+  253  git add README.txt
+  254  git status
+  255  git commit -m "test commit"
+  256      git config --global --edit
+  257  pwd
+  258  ls
+  259  cd desktop
+  260  ls
+  261  cd softwareengineering
+  262  ls
+  263  cd git-practice
+  264  pwd
+  265  ls
+  266  git status
+  267  git status
+  268  git add README.txt
+  269  git status
+  270  git commit -m"test 2"
+  271      git commit --amend --reset-author\n
+  272  user
+  273  git config --global user.name "Andrew Bantly"
+  274  git config --global user.email "andrewbantly@gmail.com"
+  275  pwd
+  276  ls
+  277  cd desktop[
+  278  cd desktop
+  279  cd SoftwareEngineering
+  280  cd git-practice
+  281  git status
+  282  git add README.txt
+  283  git status
+  284  git commit -m "test three"
+  285  cd ..
+  286  cd..
+  287  cd ..
+  288  pwd
+  289  mv SoftwareEngineering SEI
+  290  mv SEI 
+  291  mv SEI 
+  292  pwe
+  293  pwd
+  294  rm -r GA-Blog
+  295  ls
+  296  cd SEI
+  297  ls
+  298  cd ! GA Bootcamp
+  299  cd -optionsGA
+  300  ls
+  301  cd -optionsGA
+  302  pwd
+  303  cd GA
+  304  pwd
+  305  ls
+  306  cd 01 Pre Work
+  307  cd 01
+  308  cd 01PreWork
+  309  pwd
+  310  ls
+  311  git status
+  312  pwd
+  313  cd ..
+  314  cd ..
+  315  ls
+  316  mkdir GitHub
+  317  pwd
+  318  ls
+  319  cd GitHub
+  320  pwd
+  321  mkdir NodeJS
+  322  ls
+  323  cd NodeJS
+  324  pwd
+  325  git clone https://github.com/andrewbantly/nodejs00.git
+  326  pwd
+  327  git status
+  328  git int
+  329  git init
+  330  git status
+  331  git add
+  332  git add nodjs00
+  333  git add nodejs00/
+  334  git rm --cached nodejs00
+  335  cd ..
+  336  ls
+  337  mkdir GA-Software-Engineering
+  338  cd GA-Software-Engineering
+  339  pwd
+  340  git clone https://github.com/andrewbantly/GA-Software-Bootcamp.git
+  341  git init
+  342  git add READ.md
+  343  git add README.txt
+  344  pwd
+  345  touch README.txt
+  346  git status
+  347  git add
+  348  git commit
+  349  git commit README.txt
+  350  git status
+  351  git init
+  352  pwd
+  353  cd ..
+  354  rm -r GA-Software-Engineering
+  355  pwd
+  356  git clone https://github.com/andrewbantly/GA-Software-Bootcamp.git
+  357  pwd
+  358  rm -r GA-Software-Engineering
+  359  ls
+  360  rm -r GA-Software-Bootcamp
+  361  ls
+  362  git clone https://github.com/andrewbantly/GA-Software-Bootcamp.git
+  363  git status
+  364  git init
+  365  ls
+  366  cd GA-Software-Bootcamp
+  367  git status
+  368  git status
+  369  git add README.txt
+  370  git commit -m "updated read me text"
+  371  git status
+  372  git log
+  373  git push origin master 
+  374  git push
+  375  cd .. desktop
+  376  pwd
+  377  ls
+  378  cd desktop
+  379  psd
+  380  pwd
+  381  ls
+  382  ls
+  383  cd Software-Engineering
+  384  ls
+  385  cd ..
+  386  ls
+  387  cd SEI
+  388  cd Personal
+  389  ls
+  390  touch index.html
+  391  touch styles.css
+  392  pwd
+  393  cd desktop
+  394  cd Software-Engineering
+  395  ls
+  396  ls - a
+  397  la -a
+  398  ls-a
+  399  ls -sa
+  400  ls -a
+  401  git status
+  402  cd !
+  403  cd -optionsGA-Bootcamp
+  404  cd ! GA Bootcamp
+  405  pwd
+  406  ls
+  407  ls
+  408  cd //
+  409  cd ..
+  410  pwd
+  411  cd ..
+  412  ls
+  413  Users
+  414  cd Desktop
+  415  cd desktop
+  416  ls
+  417  cd Users
+  418  pwed
+  419  pwd
+  420  cd desktop
+  421  ls
+  422  cd andrew
+  423  cd //
+  424  pwd
+  425  ls
+  426  Users
+  427  ls
+  428  pwd
+  429  cd Users
+  430  cd andrew
+  431  Users
+  432  ls
+  433  cd desktop
+  434  ls
+  435  rem Software-Engineering
+  436  rmdir Software-Engineering
+  437  rm -r Software-Engineering
+  438  ls
+  439  cd SEI
+  440  ls
+  441  mv Bloom Tech Bloom-tech
+  442  ls
+  443  l
+  444  sls
+  445  ls
+  446  cd 04-FreeCodeCamp.org
+  447  psd
+  448  pwd
+  449  ls
+  450  mkdir CatPhotoApp
+  451  ls
+  452  pwd
+  453  mv /Users/andrew/desktop/SEI/04-FreeCodeCamp.org/CatPhotoApp.html /Users/andrew/desktop/SEI/04-FreeCodeCamp.org/CatPhotoApp/CatPhotoApp.html
+  454  ls
+  455  cd CatPhotoApp
+  456  ls
+  457  cd ..
+  458  cd ..
+  459  cd .
+  460  cd ..
+  461  pwd
+  462  cd SEI
+  463  pwd
+  464  ls
+  465  cd 05-Personal
+  466  l
+  467  ls
+  468  cd ..
+  469  cd 04-FreeCodeCamp.org
+  470  pwd
+  471  ls
+  472  cd ..
+  473  pwd
+  474  ls
+  475  cd 03-git-practice
+  476  pwd
+  477  ls
+  478  mkdir 00-Tests
+  479  ls
+  480  pwd
+  481  mv /Users/andrew/desktop/SEI/03-git-practice.README.txt /Users/andrew/desktop/SEI/03-git-practice/00-Tests/README.txt
+  482  ls
+  483  mv /Users/andrew/desktop/SEI/03-git-practice/README.txt /Users/andrew/desktop/SEI/03-git-practice/00-Tests/README.txt
+  484  ls
+  485  cd 00-Tests
+  486  ls
+  487  cd ..
+  488  cd ..
+  489  pwd
+  490  ls
+  491  cd 02-GitHub
+  492  ls
+  493  pwd
+  494  mv /Users/andrew/desktop/SEI/02-GitHub/GA-Software-Bootcamp /Users/andrew/desktop/SEI/02-GitHub/00-GA-Software-Bootcamp
+  495  mv Users/andrew/Desktop/SEI/02-GitHub/NodeJS Users/andrew/Desktop/SEI/02-GitHub/01-NodeJS
+  496  pwd
+  497  mv /Users/andrew/desktop/SEI/02-GitHub/NodeJS /Users/andrew/desktop/SEI/02-GitHub/01-NodeJS
+  498  pwd
+  499  git config -- global user.name "Andrew Bantly"
+  500  man git-config
+  501  pwd
+  502  pwd
+  503  cd desktop
+  504  ls
+  505  ls
+  506  cd SEI
+  507  cd ..
+  508  ls
+  509  cd sEI
+  510  cd SEI
+  511  pwd
+  512  pwd
+  513  ls
+  514  cd SEI
+  515  cd 04-FreeCodeCamp.org
+  516  ls
+  517  cd 03-ColorMarkers
+  518  touch index.html
+  519  touch styles.css
+  520  cd ..
+  521  pwd
+  522  ls
+  523  mkdir 04-RegistrationForm
+  524  cd 04-RegistrationForm
+  525  pwd
+  526  touch index.html
+  527  touch styles.css
+  528  pwd
+  529  cd desktop
+  530  ls
+  531  cd Software-Engineering-Immersive
+  532  ls
+  533  cd 04-FreeCodeCamp.org
+  534  ls
+  535  mkdir 05-SurveyForm
+  536  ls
+  537  cd-SurveyForm
+  538  touch index.html styles.css
+  539  ls
+  540  mv pwd
+  541  pwd
+  542  mv /Users/andrew/desktop/Software-Engineering-Immersive/04-FreeCodeCamp.org/styles.css /Users/andrew/desktop/Software-Engineering-Immersive/04-FreeCodeCamp.org/05-SurveyForm/styles.css
+  543  mv /Users/andrew/desktop/Software-Engineering-Immersive/04-FreeCodeCamp.org/index.html /Users/andrew/desktop/Software-Engineering-Immersive/04-FreeCodeCamp.org/05-SurveyForm/index.html
+  544  ls
+  545  cd 05-SurveyForm
+  546  ls
+  547  mkdir FreeCodeCamp-Example
+  548  cd FreeCodeCamp-Example
+  549  ls
+  550  touch index.html styles.css
+  551  pwd
+  552  pwd
+  553  git
+  554  pwd
+  555  pwd
+  556  pwd
+  557  pwd
+  558  cd 03-git-practice
+  559  mkdir 01-Tests
+  560  cd 01-Tests
+  561  touch index.html styles.css
+  562  pwd
+  563  git status
+  564  git init
+  565  git status
+  566  .git
+  567  git add index.html styles.css
+  568  git status
+  569  git rm --styles.css
+  570  git status
+  571  git rm styles.css
+  572  git status
+  573  git commit
+  574  pwd
+  575  git status
+  576  git status
+  577  git commit -m "initial commit"
+  578  git log
+  579  git checkout 6828014545e2f86bd4da83ef59bb5a171bec701a
+  580  git revert a1f84f4603ba2127fd429cb14f6f0ab020bf3a59
+  581  git log
+  582  pwd
+  583  git log
+  584  clear
+  585  git branch
+  586  git checkout feature-change-01
+  587  clear
+  588  git log
+  589  git checkout main
+  590  git branch
+  591  clear
+  592  branch
+  593  git branch
+  594  git branch -D feature-change-01
+  595  clear
+  596  git branch
+  597  git checkout -b feature-restructure
+  598  git branch
+  599  giti branch
+  600  git branch
+  601  clear
+  602  git checkout main
+  603  git log
+  604  git add index.html
+  605  git commit -m "changed to doggy"
+  606  git log
+  607  git log
+  608  git branch
+  609  git checkout feature-restructure
+  610  git log
+  611  !
+  612  claer
+  613  clear
+  614  git checkout main
+  615  git branch
+  616  git merge feature-restructure
+  617  git branch
+  618  git log
+  619  !
+  620  clear
+  621  git checkout feature-restructure
+  622  commit index.html
+  623  git commit index.html
+  624  git status
+  625  git commit index.html styles.css
+  626  git status
+  627  git commit index.html styles.css
+  628  git commit -am 'Conflicts resolved'
+  629  git commit index.html styles.css
+  630  git og
+  631  git log
+  632  git log
+  633  git branch
+  634  clear
+  635  git checkout -b feat-section
+  636  git add index.html
+  637  git commit -m "adding section"
+  638  git push origin-test feat-section
+  639  clear
+  640  git checkout main
+  641  get merge feat-section
+  642  git merge feat-section
+  643  git push
+  644  git branch -d feat-section
+  645  pwd
+  646  touch index.html styles.css
+  647  pwd
+  648  git log
+  649  git add index.html
+  650  git status
+  651  git commit -m"adding paragraph"
+  652  git log
+  653  git checkout 6828014545e2f86bd4da83ef59bb5a171bec701a
+  654  git switch
+  655  git switch -
+  656  git status
+  657  git log
+  658  git checkout main
+  659  git log
+  660  clear
+  661  git log
+  662  git reset --hard 6828014545e2f86bd4da83ef59bb5a171bec701a
+  663  git log
+  664  git status
+  665  git log
+  666  pwd
+  667  pwd
+  668  ls
+  669  git add .
+  670  git status
+  671  git commit -m"added photo with Murph"
+  672  git log
+  673  clear
+  674  git branch feature-change-01
+  675  git branch
+  676  git branch
+  677  pwd
+  678  git branch
+  679  git add index.html styles.css
+  680  git log
+  681  git status
+  682  git commit -m "adding some styling to Murphy"
+  683  git log
+  684  clear
+  685  git remote add origin-test https://github.com/andrewbantly/github-crash-course.git
+  686  git branch
+  687  git remote set-url origin-test https://andrewbantly@github.com/andrewbantly/github-crash-course.git
+  688  git push origin-test main
+  689  git push
+  690  git push --set-upstream origin-test main
+  691  git push
+  692  clear
+  693  pwd
+  694  clear
+  695  git pull
+  696  clear
+  697  cd ..
+  698  mkdir 02-Test-Ben
+  699  cd 02-Test-Ben
+  700  git status
+  701  git init
+  702  git status
+  703  clear
+  704  cd ..
+  705  ls
+  706  cd 01-Tests
+  707  git status
+  708  git log
+  709  clear
+  710  cd ..
+  711  ls
+  712  cd 02-Test-Ben
+  713  git status
+  714  clear
+  715  git config --global user.name "andrewbantly"
+  716  git config --global user.email "andrewbantly@gmail.com"
+  717  git clone https://github.com/benpoliquin/AddressBooker.git benpoliquin-AddressBooker
+  718  git remote
+  719  pwd
+  720  touch index.html styles.css
+  721  git remote
+  722  git remote get-url origin
+  723  git checkout -b feat
+  724  git add VALIDATION.py -m "added a note to Ben"
+  725  git status
+  726  git add VALIDATION.py -m"messge to Ben"
+  727  git status
+  728  git add VALIDATION.py
+  729  pwd
+  730  ls
+  731  cd Source
+  732  git status
+  733  pwd
+  734  git add VALIDATION.py -m"note to Ben"
+  735  git add VALIDATION.py
+  736  git status
+  737  git push origin feat
+  738  git log
+  739  pwd
+  740  touch index.html styles.css
+  741  pwd
+  742  touch index.html
+  743  pwd
+  744  touch styles.css
+  745  touch company-services.html
+  746  touch index.html styles.css
+  747  touch past-projects.html about-us.htmlcontact-us.html
+  748  touch contact-us.html
+  749  touch index
+  750  touch styles.css
+  751  git //version
+  752  git//version
+  753  git--version
+  754  git --version
+  755  git config --global user.name "andrewbantly"
+  756  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  757  xcode-select --install
+  758  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  759  git --version
+  760  brew install git
+  761  git --version
+  762  brew --version
+  763  git --version
+  764  git user.name
+  765  git config
+  766  findstr user.name
+  767  git config --global user.name "andrewbantly"
+  768  git config --global user.email "andrewbantly@gmail.com"
+  769  git config --global push.default simple
+  770  git config --global credential.helper cache
+  771  git config --global core.editor 'code -w'
+  772  git config --global pull.rebase true
+  773  git config --list
+  774  git config --list --global
+  775  brew install --cask visual-studio-code
+  776  clear
+  777  git status
+  778  pwd
+  779  cd desktop
+  780  pwd
+  781  ls
+  782  cd Software-Engineering-Immersive
+  783  pwd
+  784  ls
+  785  cd 01-GA
+  786  ls
+  787  cd ..
+  788  pwd
+  789  cd 02-GitHub
+  790  git status
+  791  cd ..
+  792  cd 01-GA
+  793  git status
+  794  cd ..
+  795  cd 05-Personal
+  796  git status
+  797  ls
+  798  cd 01-SmithConstruction
+  799  git status
+  800  cd //
+  801  pwd
+  802  ls
+  803  cd users
+  804  ls
+  805  cd andrew
+  806  ls
+  807  clear
+  808  code 
+  809  clear
+  810  pwd
+  811  cd ..
+  812  cd andrew
+  813  ls
+  814  cd desktop
+  815  cd movies
+  816  ls
+  817  pwd
+  818  cd ..
+  819  ls
+  820  cd desktop
+  821  ls
+  822  cd software-engineering-immersive
+  823  ls
+  824  cd ...
+  825  ls
+  826  pwd
+  827  clear
+  828  ls -a
+  829  ls
+  830  cd desktop/Software-Engineering-Immersive
+  831  ls
+  832  cd 05-Personal
+  833  ls
+  834  cd 01-SmithConstruction
+  835  ls
+  836  cd v-2023-03-04
+  837  ls
+  838  open index.html
+  839  cd user
+  840  cd home
+  841  cd desktop
+  842  cd //
+  843  ls
+  844  cd users
+  845  cd andrew
+  846  ls
+  847  clear
+  848  ls
+  849  pwd
+  850  cd
+  851  pwd
+  852  cd
+  853  ls
+  854  cd desktop
+  855  ls
+  856  cd Software-Engineering-Immersive
+  857  cd ../..
+  858  pwd
+  859  mkdir seir-306
+  860  ls
+  861  cd seir-306
+  862  pwd
+  863  mkdir unit1
+  864  ls
+  865  cd unit1
+  866  mkdir cli-intro
+  867  ls
+  868  cd cli-intro
+  869  cd ..
+  870  cd cli-intro
+  871  cd ..
+  872  cd andrew
+  873  ls
+  874  cd seir-306
+  875  cd unit1
+  876  cd cli-intro
+  877  pwd
+  878  mkdir one two
+  879  ls
+  880  touch file_one file_two
+  881  mv file_one one/file_one
+  882  pwd
+  883  ls
+  884  ls one
+  885  ls -R
+  886  clear
+  887  ls
+  888  cp file_two one/file_two
+  889  ls
+  890  ls one
+  891  cd one
+  892  ls
+  893  mv file_two cli-intro/two
+  894  mv file_two ../two/file_two
+  895  cd ..
+  896  ls
+  897  cd two
+  898  ls
+  899  cd ..
+  900  pwd
+  901  cd ..
+  902  ls
+  903  cd cli-intro
+  904  ls
+  905  rm file_two
+  906  ls
+  907  man
+  908  man rm
+  909  man cd
+  910  clear
+  911  echo
+  912  echo "hellow"
+  913  echoh "hellow\necho 'hello\!'\n\n\n\n\nq\nq\nq\n\n"
+  914  echo "hello andrew" > some_file
+  915  ls
+  916  cat some_file
+  917  cd
+  918  cd desktop/Software-Engineering-Immersive
+  919  ls
+  920  cd-Personal
+  921  ls
+  922  cd 05-Personal
+  923  ls
+  924  cd 01-SmithConstruction
+  925  ls
+  926  cd v-2023-03-04
+  927  ls
+  928  cat index.html
+  929  cd
+  930  pwd
+  931  cd/seir-0306/cliintro
+  932  ls
+  933  cd seir-306
+  934  ls
+  935  cd unit1
+  936  ls
+  937  cd cli-intro
+  938  ls
+  939  echo some_file
+  940  cat some_file
+  941  echo "hey hey Andrew" > some_file
+  942  cat some_file
+  943  echo "Carroll, Lewis:Through the Looking-Glass\nShakespeare, William:Hamlet\nBartlett, John:Familiar Quotations\nMill, John :On Nature\nLondon, Jack:John Barleycorn\nBunyan, John:Pilgrim's Progress, The\nDefoe, Daniel:Robinson Crusoe\nMill, John Stuart:System of Logic, A\nMilton, John:Paradise Lost\nJohnson, Samuel:Lives of the Poets\nShakespeare, William:Julius Caesar\nMill, John Stuart:On Liberty\nBunyan, John:Saved by Grace" > some_file
+  944  cat some_file
+  945  clear
+  946  cat some_file
+  947  clear
+  948  grep some_file John
+  949  grep John some_file
+  950  clear
+  951  some some_file | greg John 
+  952  pwd
+  953  ls
+  954  cat some_file | greg John
+  955  cat some_file | grep John
+  956  cat some_file | grep John | grep Mill
+  957  clear
+  958  cd 
+  959  clear
+  960  pwd
+  961  ls
+  962  cd seir-306/unit1
+  963  mkdir my-first-git
+  964  ls
+  965  cd my-first-git
+  966  git status
+  967  touch index.html script.js 
+  968  ls -a
+  969  git init
+  970  git status
+  971  ls -a
+  972  ls
+  973  cd seir-306/unit1
+  974  ls
+  975  cd my-first-git
+  976  rm -rf .git
+  977  ls -a
+  978  git status
+  979  git config --global init.defaultBranch main
+  980  git init
+  981  /Users/andrew/seir-306/unit1/my-first-git git status
+  982  git status
+  983  clear
+  984  cd /
+  985  git status
+  986  cd users
+  987  git status
+  988  cd andrew
+  989  git status
+  990  cd desktop
+  991  git status
+  992  ls
+  993  cd Software-Engineering-Immersive
+  994  git status
+  995  cd 03-git-practice
+  996  cd
+  997  cd seir-306
+  998  cd unit1
+  999  cd my-first-git
+ 1000  clear
+ 1001  ls
+ 1002  ls -a
+ 1003  git status
+ 1004  git add
+ 1005  clear
+ 1006  git add index.html
+ 1007  git status
+ 1008  git rm --cached index.html
+ 1009  git status
+ 1010  git add .
+ 1011  git status
+ 1012  git rm --cached index.html script.js
+ 1013  git status
+ 1014  git add .
+ 1015  git status
+ 1016  git commit -m "adding new files for init commit"
+ 1017  git status
+ 1018  touch styles.css
+ 1019  git status
+ 1020  git add
+ 1021  git add styles.css
+ 1022  git status
+ 1023  git commit -m "adding css file"
+ 1024  git status
+ 1025  clear
+ 1026  git log
+ 1027  git status
+ 1028  echo "<html>" > index.html
+ 1029  echo "<html>" >> index.html
+ 1030  git status
+ 1031  git add
+ 1032  git add index.html
+ 1033  git commit -m "added DOCTYPE to html"
+ 1034  git log
+ 1035  clear
+ 1036  cd ..
+ 1037  clear
+ 1038  git clone https://github.com/andrewbantly/command-line-murder-mystery.git
+ 1039  ls
+ 1040  cd command-line-murder-mystery
+ 1041  ls
+ 1042  cat README.md
+ 1043  ls
+ 1044  cat instructions
+ 1045  pwd
+ 1046  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+ 1047  cd crimescene
+ 1048  ls
+ 1049  cd mystery
+ 1050  ls
+ 1051  cat crimescene
+ 1052  clear
+ 1053  ls
+ 1054  grep CLUE crimescene
+ 1055  cd ..
+ 1056  open cheatsheet.pdf
+ 1057  clear
+ 1058  pws
+ 1059  pwd
+ 1060  clear
+ 1061  ls
+ 1062  cat instructions
+ 1063  ls
+ 1064  cd mystery
+ 1065  ls
+ 1066  clear
+ 1067  ls
+ 1068  grep CLUE crimescene
+ 1069  ls
+ 1070  cat hint1
+ 1071  head -n 20 people
+ 1072  cd people
+ 1073  cat people
+ 1074  clear
+ 1075  head -n 20 people
+ 1076  pwd
+ 1077  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery
+ 1078  ls
+ 1079  grep CLUE crimescene
+ 1080  ls
+ 1081  head -n 10 interviews
+ 1082  cat interviews
+ 1083  head -10 vehicles
+ 1084  cat vehicles
+ 1085  clear
+ 1086  cat hint2
+ 1087  cat hint3
+ 1088  ls
+ 1089  grep Annabel people
+ 1090  grep Annabel vehicles
+ 1091  cd streets
+ 1092  ls
+ 1093  grep Mattapan Street
+ 1094  cat Mattapan Street
+ 1095  cat Mattapan_Street 
+ 1096  clear
+ 1097  cd ..
+ 1098  grep Annabel people
+ 1099  pwd
+ 1100  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+ 1101  cd mystery
+ 1102  cd streets
+ 1103  ls
+ 1104  clear
+ 1105  cat Haley_Street
+ 1106  clear
+ 1107  grep Buckingham_Place
+ 1108  /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery
+ 1109  cd steets
+ 1110  cd street
+ 1111  ls
+ 1112  cd streets
+ 1113  clear
+ 1114  cat Buckingham_Place
+ 1115  clear
+ 1116  cat Hart_Place
+ 1117  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery
+ 1118  ls
+ 1119  cd mystery
+ 1120  ls
+ 1121  cd interviews
+ 1122  ls
+ 1123  clear
+ 1124  cd interview-47246024
+ 1125  cat interview-47246024
+ 1126  clear
+ 1127  cat Mattapan_Street
+ 1128  cat interview-9437737
+ 1129  cat Buckingham_Place
+ 1130  cat interview-699607
+ 1131  clear
+ 1132  cat Haley_Street
+ 1133  cat interview-871877
+ 1134  clear
+ 1135  cd ..
+ 1136  ls
+ 1137  grep Honda vehicles
+ 1138  clear
+ 1139  cd mystery
+ 1140  ls
+ 1141  grep L337 vehicles
+ 1142  cat hint 4
+ 1143  cat hint4
+ 1144  cat hint3
+ 1145  cd ..
+ 1146  cat hint4
+ 1147  cat hint5
+ 1148  head -n 173 streets/Mattapan_Street | tail -n 1
+ 1149  ls
+ 1150  cat hint6
+ 1151  pwd
+ 1152  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery
+ 1153  ls
+ 1154  cd streets
+ 1155  ls
+ 1156  cd ...
+ 1157  clear
+ 1158  ls
+ 1159  cd mysteyr
+ 1160  cd mystery
+ 1161  ls
+ 1162  head -10 vehicles
+ 1163  head -20 vehicles | grep Honda
+ 1164  pwd
+ 1165  head -20 vehicles | grep Honda vehicles
+ 1166  clear
+ 1167  cat gubt7
+ 1168  cat hint7
+ 1169  pwd
+ 1170  ls
+ 1171  claer
+ 1172  clear
+ 1173  ls
+ 1174  grep -A "L337" mystery/vehicles
+ 1175  \tgrep -A 5 "L337" mystery/vehicles
+ 1176  \tgrep -A 5 "L337" vehicles
+ 1177  cat hint8
+ 1178  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery
+ 1179  ls
+ 1180  cd membership
+ 1181  cd memberships
+ 1182  clear
+ 1183  ls
+ 1184  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Katie Park"
+ 1185  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep -A 5 "Katie Park"
+ 1186  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Mike Bostock"
+ 1187  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Erika Owens"
+ 1188  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Joe Germuska"
+ 1189  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Jeremy Bowers"
+ 1190  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Jacqui Maher"
+ 1191  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n
+ 1192  cd mystery
+ 1193  ls
+ 1194  clear
+ 1195  cat people
+ 1196  clear
+ 1197  head
+ 1198  clear
+ 1199  ls
+ 1200  head people
+ 1201  grep Bostock -A 3 people
+ 1202  grep Bostock
+ 1203  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n
+ 1204  cd mystery
+ 1205  ls
+ 1206  clear
+ 1207  grep Bostock people
+ 1208  grep Bowers people
+ 1209  grep Bostock people | grep Bowers people
+ 1210  cat people | grep Bostock | grep Bowers
+ 1211  claer
+ 1212  clear
+ 1213  grep Bostock people
+ 1214  grep Bowers people
+ 1215  /Users/andrew/seir-306/unit1/command-line-murder-mystery\n
+ 1216  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n
+ 1217  cd mystery
+ 1218  clear
+ 1219  ls
+ 1220  cd streets
+ 1221  clear
+ 1222  ls
+ 1223  cat Senders_Court
+ 1224  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n
+ 1225  cd mystery
+ 1226  ls
+ 1227  cd interviews
+ 1228  ls
+ 1229  clear
+ 1230  cat interview-/Users/andrew/seir-306/unit1/command-line-murder-mystery\n
+ 1231  clear
+ 1232  cat interview-290346
+ 1233  cat Dunstable_Road
+ 1234  head -n Dunstable_Road | tail -n 1
+ 1235  head -n 284 Dunstable_Road | tail -n 1
+ 1236  cat interview-9620713
+ 1237  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n
+ 1238  cd mystery
+ 1239  ls
+ 1240  touch solution.txt
+ 1241  history
+ 1242  cd/Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery
+ 1243  cd/Users/andrew/seir-306/unit1/command-line-murder-mystery
+ 1244  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery
+ 1245  ls
+ 1246  echo " 1038  git clone https://github.com/andrewbantly/command-line-murder-mystery.git\n 1039  ls\n 1040  cd command-line-murder-mystery\n 1041  ls\n 1042  cat README.md\n 1043  ls\n 1044  cat instructions\n 1045  pwd\n 1046  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n 1047  cd crimescene\n 1048  ls\n 1049  cd mystery\n 1050  ls\n 1051  cat crimescene\n 1052  clear\n 1053  ls\n 1054  grep CLUE crimescene\n 1055  cd ..\n 1056  open cheatsheet.pdf\n 1057  clear\n 1058  pws\n 1059  pwd\n 1060  clear\n 1061  ls\n 1062  cat instructions\n 1063  ls\n 1064  cd mystery\n 1065  ls\n 1066  clear\n 1067  ls\n 1068  grep CLUE crimescene\n 1069  ls\n 1070  cat hint1\n 1071  head -n 20 people\n 1072  cd people\n 1073  cat people\n 1074  clear\n 1075  head -n 20 people\n 1076  pwd\n 1077  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery\n 1078  ls\n 1079  grep CLUE crimescene\n 1080  ls\n 1081  head -n 10 interviews\n 1082  cat interviews\n 1083  head -10 vehicles\n 1084  cat vehicles\n 1085  clear\n 1086  cat hint2\n 1087  cat hint3\n 1088  ls\n 1089  grep Annabel people\n 1090  grep Annabel vehicles\n 1091  cd streets\n 1092  ls\n 1093  grep Mattapan Street\n 1094  cat Mattapan Street\n 1095  cat Mattapan_Street \n 1096  clear\n 1097  cd ..\n 1098  grep Annabel people\n 1099  pwd\n 1100  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n 1101  cd mystery\n 1102  cd streets\n 1103  ls\n 1104  clear\n 1105  cat Haley_Street\n 1106  clear\n 1107  grep Buckingham_Place\n 1108  /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery\n 1109  cd steets\n 1110  cd street\n 1111  ls\n 1112  cd streets\n 1113  clear\n 1114  cat Buckingham_Place\n 1115  clear\n 1116  cat Hart_Place\n 1117  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n 1118  ls\n 1119  cd mystery\n 1120  ls\n 1121  cd interviews\n 1122  ls\n 1123  clear\n 1124  cd interview-47246024\n 1125  cat interview-47246024\n 1126  clear\n 1127  cat Mattapan_Street\n 1128  cat interview-9437737\n 1129  cat Buckingham_Place\n 1130  cat interview-699607\n 1131  clear\n 1132  cat Haley_Street\n 1133  cat interview-871877\n 1134  clear\n 1135  cd ..\n 1136  ls\n 1137  grep Honda vehicles\n 1138  clear\n 1139  cd mystery\n 1140  ls\n 1141  grep L337 vehicles\n 1142  cat hint 4\n 1143  cat hint4\n 1144  cat hint3\n 1145  cd ..\n 1146  cat hint4\n 1147  cat hint5\n 1148  head -n 173 streets/Mattapan_Street | tail -n 1\n 1149  ls\n 1150  cat hint6\n 1151  pwd\n 1152  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery\n 1153  ls\n 1154  cd streets\n 1155  ls\n 1156  cd ...\n 1157  clear\n 1158  ls\n 1159  cd mysteyr\n 1160  cd mystery\n 1161  ls\n 1162  head -10 vehicles\n 1163  head -20 vehicles | grep Honda\n 1164  pwd\n 1165  head -20 vehicles | grep Honda vehicles\n 1166  clear\n 1167  cat gubt7\n 1168  cat hint7\n 1169  pwd\n 1170  ls\n 1171  claer\n 1172  clear\n 1173  ls\n 1174  grep -A "L337" mystery/vehicles\n 1175  \tgrep -A 5 "L337" mystery/vehicles\n 1176  \tgrep -A 5 "L337" vehicles\n 1177  cat hint8\n 1178  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery\n 1179  ls\n 1180  cd membership\n 1181  cd memberships\n 1182  clear\n 1183  ls\n 1184  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Katie Park"\n 1185  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep -A 5 "Katie Park"\n 1186  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Mike Bostock"\n 1187  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Erika Owens"\n 1188  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Joe Germuska"\n 1189  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Jeremy Bowers"\n 1190  cat Delta_SkyMiles AAA library.txt Museum_of_Bash_History | grep "Jacqui Maher"\n 1191  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n\n 1192  cd mystery\n 1193  ls\n 1194  clear\n 1195  cat people\n 1196  clear\n 1197  head\n 1198  clear\n 1199  ls\n 1200  head people\n 1201  grep Bostock -A 3 people\n 1202  grep Bostock\n 1203  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n\n 1204  cd mystery\n 1205  ls\n 1206  clear\n 1207  grep Bostock people\n 1208  grep Bowers people\n 1209  grep Bostock people | grep Bowers people\n 1210  cat people | grep Bostock | grep Bowers\n 1211  claer\n 1212  clear\n 1213  grep Bostock people\n 1214  grep Bowers people\n 1215  /Users/andrew/seir-306/unit1/command-line-murder-mystery\n\n 1216  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n\n 1217  cd mystery\n 1218  clear\n 1219  ls\n 1220  cd streets\n 1221  clear\n 1222  ls\n 1223  cat Senders_Court\n 1224  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n\n 1225  cd mystery\n 1226  ls\n 1227  cd interviews\n 1228  ls\n 1229  clear\n 1230  cat interview-/Users/andrew/seir-306/unit1/command-line-murder-mystery\n\n 1231  clear\n 1232  cat interview-290346\n 1233  cat Dunstable_Road\n 1234  head -n Dunstable_Road | tail -n 1\n 1235  head -n 284 Dunstable_Road | tail -n 1\n 1236  cat interview-9620713\n 1237  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery\n\n 1238  cd mystery\n 1239  ls\n 1240  touch solution.txt" > solution.txt
+ 1247  cat solution.txt
+ 1248  ls
+ 1249  cd mystery
+ 1250  ls
+ 1251  cat solution.txt
+ 1252  pwd
+ 1253  cd/Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery/
+ 1254  cd /Users/andrew/seir-306/unit1/command-line-murder-mystery/mystery/
+ 1255  clear
+ 1256  history
+ 1257  ls
+ 1258  clear
+ 1259  pwd
+ 1260  cd ..
+ 1261  ls
+ 1262  cat solution.txt
+ 1263  ld
+ 1264  ls
+ 1265  cd interviews
+ 1266  cat interview-9620713
+ 1267  echo "The killer is Jeremy Bowers" >> append_solution.txt
+ 1268  cat solution.txt
+ 1269  ls
+ 1270  echo "The Killer is Jeremy Bowers" >> solution.txt
+ 1271  cat solution.txt
+ 1272  git status
+ 1273  rm append_solution.txt
+ 1274  ls
+ 1275  git status
+ 1276  git add solution.txt
+ 1277  git status
+ 1278  cat solution.txt
+ 1279  git status
+ 1280  git commit -m "2023-03-06 solution commit" 
+ 1281  git log
+ 1282  git status
+ 1283  git push
+ 1284  git log
+ 1285  git push main
+ 1286  ls
+ 1287  cd seir-306
+ 1288  ls
+ 1289  cd unit1/
+ 1290  cd command-line-murder-mystery
+ 1291  ls
+ 1292  cd mystery
+ 1293  clear
+ 1294  grep Annabel people
+ 1295  grep Annabel people >> clues.txt
+ 1296  cat clues.txt
+ 1297  cd ..
+ 1298  ls
+ 1299  cd mystery
+ 1300  ls
+ 1301  cat clues.txt
+ 1302  grep CLUES crimescene
+ 1303  grep "CLUES" crimescene
+ 1304  cat crimescene
+ 1305  clear
+ 1306  ls
+ 1307  grep CLUES crimescene
+ 1308  grep CLUE crimescene
+ 1309  grep CLUE crimescene >> clues.txt
+ 1310  cat clues.txt
+ 1311  head -n 20
+ 1312  ls
+ 1313  cd seir-306
+ 1314  ls
+ 1315  cd unit1/
+ 1316  ls
+ 1317  cd command-line-murder-mystery
+ 1318  ls
+ 1319  cd mystery
+ 1320  ls
+ 1321  cd streets
+ 1322  ls
+ 1323  cat clues
+ 1324  cat clues.txt
+ 1325  cd ..
+ 1326  cat clues.txt
+ 1327  head n-173 streets/mattapan_Street | tail n-1
+ 1328  head n-173 streets/Mattapan_Street | tail n-1
+ 1329  head n-173 streets/Mattapan_Street | tail n-1 
+ 1330  head -20 20
+ 1331  cd ..
+ 1332  head n-20
+ 1333  head -n 20
+ 1334  clear
+ 1335  cat clues.txt
+ 1336  cd ..
+ 1337  cd my-first-git
+ 1338  cd ..
+ 1339  cd command-line-murder-mystery
+ 1340  ls
+ 1341  cd mystery
+ 1342  ls
+ 1343  cat clues.txt
+ 1344  clear
+ 1345  cat clues.txt
+ 1346  cat -n streets/Buckingham_Place | grep"179"
+ 1347  cat -n streets/Buckingham_Place | grep "179"
+ 1348  cat -n streets/Buckingham_Place | grep "179" >> clues.txt
+ 1349  cat clues.txt
+ 1350  cat interviews/interview-47246024
+ 1351  cat interviews/interview-699607
+ 1352  cat interviews/interview-699607 >> clues.txt
+ 1353  clear
+ 1354  cat clues.txt
+ 1355  ls
+ 1356  head -n vehicles
+ 1357  cat vehicles
+ 1358  clear
+ 1359  head -6 vehicles | grep Honda
+ 1360  clear
+ 1361  ls
+ 1362  head -3 vehicles
+ 1363  head -8 vehicles | grep "Honda"
+ 1364  head -8 vehicles | grep Honda
+ 1365  grep Honda vehicles | head -8
+ 1366  clear
+ 1367  cat clues.txt
+ 1368  cat vehicles | grep "L337"
+ 1369  clear
+ 1370  cat clues.txt
+ 1371  cat vehicles | grep -A 5 "L337" 
+ 1372  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda"
+ 1373  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep A-3 "Blue"
+ 1374  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue"
+ 1375  clear
+ 1376  cat clues.txt
+ 1377  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep "6"
+ 1378  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep "6'"
+ 1379  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -A 5 "6'"
+ 1380  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 2  "6'"
+ 1381  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'"
+ 1382  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'" >> clues.txt
+ 1383  echo "Suspects ^" >> clues.txt
+ 1384  cat clues.txt
+ 1385  grep "Erika" people
+ 1386  grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher"
+ 1387  grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" people
+ 1388  grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" people >> clues.txt
+ 1389  head -n 284 streets/Dunstable_Road | Tail -n 1
+ 1390  head -n 284 streets/Dunstable_Road | Tail -n 1 >> clues.txt
+ 1391  ls
+ 1392  cat interviews/interview-9620713
+ 1393  cat interviews/interview-9620713 >> clues.txt
+ 1394  echo "Jeremy Bowers is the killer" >> clues.txt
+ 1395  cat clues.txt
+ 1396  git status
+ 1397  ls
+ 1398  clear
+ 1399  pwd
+ 1400  cd ..
+ 1401  clone https://gitlab.com/slackermedia/bashcrawl.git
+ 1402  git clone https://gitlab.com/slackermedia/bashcrawl.git
+ 1403  ls
+ 1404  mvdir bashcrawl ../bashcrawl
+ 1405  mv bashcrawl ../bashcrawl
+ 1406  cd ..
+ 1407  ls
+ 1408  cd bashcrawl
+ 1409  ls
+ 1410  cd ..
+ 1411  cd command-line-murder-mystery/
+ 1412  clear
+ 1413  ls
+ 1414  cd mystery
+ 1415  clear
+ 1416  ls
+ 1417  git status
+ 1418  git add clues.txt
+ 1419  ls
+ 1420  git status
+ 1421  git commit -m "working session with class, added clues txt file"
+ 1422  git push
+ 1423  git status
+The Killer is Jeremy Bowers
