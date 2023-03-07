@@ -1,0 +1,298 @@
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  xcode-select --install
+    3  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    4  brew install git
+    5  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    6  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/lionmotors/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+    7  brew--version
+    8  brew -- version
+    9  brew --version
+   10  brew install git
+   11  git --version
+   12  git config --global user.name "abdallah1936"
+   13  git config --global user.email "awadallaabdallah@gmail.com"
+   14  git config --global push.default simple
+   15  git config --global credential.helper cache
+   16  git config --global core.editor 'code -w'
+   17  git config --global pull.rebase true
+   18  git config--list
+   19  git config --list
+   20  brew install --cask visual-studio-code
+   21  code
+   22  pwd
+   23  ls
+   24  cd Desktop
+   25  ls
+   26  cd ..
+   27  ls-a
+   28  ls -a
+   29  open
+   30  open .
+   31  pwd
+   32  cd ..
+   33  cd \\ncd /
+   34  cd /
+   35  ls
+   36  cd
+   37  ls
+   38  pwd
+   39  mkdir seir-306
+   40  ls
+   41  cd seir-306
+   42  pwd
+   43  mkdir unit1
+   44  ls
+   45  cd unit1
+   46  ls
+   47  pwd
+   48  mkdir cli-intro
+   49  cd cli-intro
+   50  mkdir one two
+   51  ls
+   52  touch my-file.txt
+   53  ls
+   54  touch file_two file_two
+   55  ls
+   56  rm file_two
+   57  ls
+   58  touch file_one file_two
+   59  ls
+   60  mv file_one one/file_one
+   61  ls
+   62  ls one
+   63  ls -R
+   64  cp file_two one/file_two
+   65  ls
+   66  ls one
+   67  cd onw
+   68  ls
+   69  cd one
+   70  ls
+   71  cp file-two ../two/my-file-three
+   72  cp file_two ../two/my-file-three
+   73  ls
+   74  ls ../two
+   75  cd ..
+   76  ls
+   77  rm file_two
+   78  ls
+   79  rm -rf one
+   80  ls
+   81  man rm
+   82  echo "hello"
+   83  echo "hello\n\necho"hello"\necho 'hello'\ncd ..
+   84  echo 'hello redirection' > some_file
+   85  ls
+   86  cat some_file
+   87  echo 'good by' > some_file
+   88  echo 'at the bottom' >> some_file
+   89  code .
+   90  cat some_file
+   91  grep John some_file
+   92  cat some_file | grep John
+   93  cat some_file | grep John | grep Mill
+   94  man grep
+   95  grep -rni john *
+   96  hisrotry > commands.txt
+   97  history > commands.txt
+   98  history
+   99  git --version
+  100  cd ..
+  101  cd
+  102  cd seir-306
+  103  cd unit1
+  104  mkdir my-first-git
+  105  ls
+  106  cd my-first-git
+  107  touch index.html script.js
+  108  l
+  109  ls
+  110  ls -a
+  111  git init 
+  112  cd ..
+  113  cd my-first-git
+  114  ls -a
+  115  ls .git
+  116  rm -rf .git
+  117  ls -a
+  118  git config --global init.defaultBranch main
+  119  git init
+  120  ls -a
+  121  git stauts
+  122  git status
+  123  git add index.html
+  124  git status
+  125  git add .
+  126  git status
+  127  git commit -m "adding new files for init commit"
+  128  git status
+  129  touch my_homework.js
+  130  git add .
+  131  git status
+  132  git commet -m "homework done, need to sleep"
+  133  git commit -m "homework done, going to sleep"
+  134  git status
+  135  git log
+  136  cd ..
+  137  git clone https://github.com/abdallah1936/command-line-murder-mystery.git
+  138  ls
+  139  vd command-line-murder-mystery
+  140  cd command-line-murder-mystery
+  141  ls
+  142  cat insturctions
+  143  cat instructions
+  144  ls
+  145  cd mystery
+  146  ls
+  147  cat crimescene
+  148  grep CLUE crimescene
+  149  cd ..
+  150  ls
+  151  cat hint1
+  152  cat hint2
+  153  open cheatsheet.pdf
+  154  history
+  155  cd ..
+  156  cd command-line-murder-mystery
+  157  grep Annabel
+  158  cd mystiry
+  159  cd mystery
+  160  ls
+  161  cat people
+  162  grep Annabel
+  163  cat mystery | grep Annabel
+  164  cat peoplr | grep Annabel
+  165  /files$ grep "Annabel" famousducks.txt\n
+  166  grep "Annabel" famousducks.txt\n
+  167  man grep
+  168  grep -i "Annabel"
+  169  cat people | grep -i Annabel
+  170  ls
+  171  cd interview
+  172  cd interviews
+  173  ls
+  174  grep CLUE crimescene
+  175  cd .
+  176  cd ..
+  177  grep CLUE crimescene
+  178  cd ..
+  179  ls
+  180  cat hint3
+  181  cat hint4
+  182  cat hint5
+  183  cat hint6
+  184  cat hint7
+  185  cat hint8
+  186  cd mystery
+  187  ls
+  188  head Annable
+  189  head Annabel.txt
+  190  head Annable  people
+  191  people head Annabel
+  192  head people Annabel
+  193  head -n people Annabel
+  194  head -n 15 people Annabel
+  195  head -n -15 people Annabel
+  196  man head
+  197  tail people Annabel
+  198  cd people
+  199  grep Annabel people  
+  200  cd interview
+  201  cd interviews
+  202  greb Annabel | greb Oluwasegun
+  203  grep Annabel | grep Oluwasegun
+  204  cat interviews grep Annabel | grep Oluwasegun
+  205  cd mystery
+  206  cd ..
+  207  cat interviews grep Annabel | grep Oluwasegun
+  208  ls
+  209  cat vehicles grep Annabel
+  210  grep -i 6
+  211  grep -i  vehicle 6s 
+  212  grep -i  vehicle 6
+  213  grep -i "6'" vehicles
+  214  grep "6'" vehicles
+  215  grep -i "6'0"" vehicles
+  216  grep honda vehicles
+  217  grep "Honda" vehicles
+  218  grep "Honda" vechiles | grep 
+  219  cat vechiles | grep "Honda" | grep "Blue" | grep "L337"
+  220  head -n 173 steets/Mattapan_stree | tail -n 1
+  221  cd interviews
+  222  head -n 173 steets/Mattapan_stree | tail -n 1
+  223  man head
+  224  man tail
+  225  cd ..
+  226  ls
+  227  cd vehicals
+  228  cd vehicles
+  229  grep -A 5 "L337" mystery/vehicles
+  230  cat vehicles grep -A 5 "L337" mystery
+  231  cd command-line-murder-mystery
+  232  cd ..
+  233  ls
+  234  cd mystery
+  235  cat cheatsheet.md
+  236  open cheatsheet.md
+  237  open cheatsheet.pdf
+  238  cat cheatsheet.pdf
+  239  history
+  240  open cheatsheet.pdf
+  241  ls
+  242  cd memberships
+  243  ls
+  244  cat AAdvantage
+  245  memberships grep "Annabel"
+  246  grep "Annabel" memberships
+  247  grep -i "Annabel"
+  248  cd ..
+  249  grip "Annabel" memberships
+  250  grep "Annabel" memberships
+  251  cd memberships
+  252  grep -rni "Annabel"
+  253  head n 15 Annabel
+  254  grep -rni "Annabel"
+  255  cat AAA | grep -f Delta_SkyMiles > ..
+  256  cat AAA | grep -f Delta_SkyMiles > ../memberships
+  257  cd ..
+  258  head -n 20
+  259  head n -20 people
+  260  ls
+  261  grep CLUE crimescene
+  262  head -n 20 people
+  263  grep Annabel people
+  264  grep Annabel people >> clues.txt
+  265  cat clues.txt
+  266  ls
+  267  head -n 40 streets/Hart_Place | tail -n 1
+  268  head -n 40 streets/Hart_Place | tail -n 1 >> clues.txt
+  269  cat clues
+  270  cat clues.txt
+  271  cat -n streets/Buckingham_Place | grep "179"
+  272  cat -n streets/Buckingham_Place | grep "179" >> clues.txt
+  273  cat interviews/interview-47246024
+  274  cat interviews/interview-47246024 >> clues.txt
+  275  cat interviews/interview-699607
+  276  cat interviews/interview-699607 >> clues.txt
+  277  head -n 20 vehicles
+  278  cat vehicles | grep "L337"
+  279  cat vehicles | grep -A 5 "L337"
+  280  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda"
+  281  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue"
+  282  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep "6'"
+  283  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1  "6'"
+  284  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1  "6'" >> clues.txt
+  285  grep "Erika Owens" people
+  286  grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" people
+  287  grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" people >> clues.txt
+  288  head -n 284 streets/Dunstable_Road | tail -n 1
+  289  head -n 284 streets/Dunstable_Road | tail -n 1 >> clues.txt
+  290  cat interviews/interview-9620713
+  291  cat interviews/interview-9620713 >> clues.txt
+  292  ls memberships
+  293  grep "Jermey Bowers" memberships/AAA
+  294  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Musem_of_Bash_History | grep "Jermey Bowers"
+  295  cat clues.txt
+  296  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep "Jermey Bowers"
+  297  cd ..
+Jeremy Bowers git status
