@@ -1,0 +1,101 @@
+ 9958  ls
+ 9959  cd command-line-murder-mystery
+ 9960  ls
+ 9961  cat instructions
+ 9962  ls
+ 9963  cd mystery
+ 9964  ls
+ 9965  cat crimescene
+ 9966  grep crimescene CLUE
+ 9967  grep CLUE crimescene
+ 9968  cd ..
+ 9969  ls
+ 9970  cat hint1
+ 9971  cat hint2
+ 9972  open cheatsheet.pdf
+ 9973  cd seir-306/unit1/command-line-murder-mystery
+ 9974  ls
+ 9975  git remote -v
+ 9976  cd seir-306/unit1/command-line-murder-mystery
+ 9977  cat instructions
+ 9978  cat hint1 hint2 hint3 hint4 hint5 hint6 hint7 hint8
+ 9979  clear
+ 9980  cd mystery
+ 9981  ls
+ 9982  grep CLUE crimescene
+ 9983  grep CLUE crimescene >> clues.txt
+ 9984  cat clues.txt
+ 9985  ls
+ 9986  head -n 20 people
+ 9987  grep Annnabel people
+ 9988  grep Annabel people
+ 9989  grep Annabel people >> clues.txt
+ 9990  cat clues.txt
+ 9991  ls
+ 9992  ls streets
+ 9993  head -n 20 streets/Abbot_Street
+ 9994  cat clues.txt
+ 9995  head -n 40 streets/Hart_Place
+ 9996  head -n 40 streets/Hart_Place | tail -n 1
+ 9997  head -n 40 streets/Hart_Place | tail -n 1 >> clues.txt
+ 9998  cat clues.txt
+ 9999  man head
+10000  head -n 20
+10001  man head
+10002  ls
+10003  less clues.txt
+10004  cat clues.txt
+10005  man cat
+10006  cat -n clues.txt
+10007  cat -n streets/Buckingham_Place | grep "179"
+10008  cat -n streets/Buckingham_Place | grep "179" >> clues.txt
+10009  ls clues.txt
+10010  cat clues.txt
+10011  ls interviews
+10012  cat clues.txt
+10013  cat interviews/interview-47246024
+10014  cat interviews/interview-699607
+10015  cat interviews/interview-699607 >> clues.txt
+10016  pwd
+10017  ls
+10018  head -n 20 vehicles
+10019  cat vehicles | grep "L337"
+10020  man grep
+10021  open ../cheatsheet.pdf
+10022  cat vehicles | grep -A 5 "L337"
+10023  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda"
+10024  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A "Blue"
+10025  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue"
+10026  cat clues.txt
+10027  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep "6"
+10028  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep "6'"
+10029  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'"
+10030  man grep
+10031  cat vehicles | grep -A 5 "L337" | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -B 1 "6'" > clues.txt
+10032  cat clues.txt
+10033  grep "Erika Owens" people
+10034  grep -e "Erika Owens" -e "Joe Germuska"  people
+10035  grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" people
+10036  grep -e "Erika Owens" -e "Joe Germuska" -e "Jeremy Bowers" -e "Jacqui Maher" people > clues.txt
+10037  head -n 284 streets/Dunstable_Road | tail -n 1
+10038  head -n 284 streets/Dunstable_Road | tail -n 1 >> clues.txt
+10039  cat interviews/interview-9620713
+10040  cat interviews/interview-9620713 >> clues.txt
+10041  ls memberships
+10042  cat clues.txt
+10043  grep CLUE crimescene
+10044  cat memberships/AAA
+10045  grep "Jeremy Bowers" memberships/AAA
+10046  grep CLUE crimescene
+10047  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep "Jeremy Bowers"
+10048  cat clues.txt
+10049  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep "Erika Owens"
+10050  cat memberships/AAA memberships/Delta_SkyMiles memberships/library.txt memberships/Museum_of_Bash_History | grep "Joe Germuska"
+10051  ls
+10052  cd ..
+10053  history > solution.txt
+10054  ls
+10055  echo "Jeremy Bowers" >> solution.txt
+10056  code .
+10057  man history
+Jeremy Bowers
